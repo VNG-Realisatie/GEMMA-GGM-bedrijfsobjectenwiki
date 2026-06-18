@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "b45662f0f7fb7bcf",
+    "type": "split",
+    "children": [
+      {
+        "id": "fefc36537db1fc9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "373954034666ed95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "llm-wiki.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "llm-wiki"
+            }
+          },
+          {
+            "id": "db141c7f6c422a0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "readme.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "readme"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45c72f7859a8786f",
+    "type": "split",
+    "children": [
+      {
+        "id": "47da709a30c75f70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86ca582a0695cbf6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8505d8b0d660312c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "903729c698b3f1ef",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 389.5
+  },
+  "right": {
+    "id": "e003eb272d0e965b",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e4c6705dbf65244",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2025604219facc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for readme"
+            }
+          },
+          {
+            "id": "d5ac08f9d5327d3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from readme"
+            }
+          },
+          {
+            "id": "28445c251a8b04d6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f92665862789057f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "c0b114739ffa6340",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "readme.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of readme"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 382.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "86ca582a0695cbf6",
+  "lastOpenFiles": [
+    "llm-wiki.md",
+    "readme.md",
+    "CLAUDE.md",
+    "Wiki/Analyses/ggm-dekkingspatroon.md",
+    "Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen.md",
+    "Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening.md",
+    "Sources/Onderwerpen VNG/Onderwijs/leerlingenvervoer.md",
+    "Sources/Onderwerpen VNG/Onderwijs/kinderopvang-toezicht-en-handhaving.md",
+    "Sources/Onderwerpen VNG/Onderwijs/onderwijsachterstandvve.md",
+    "Sources/Onderwerpen VNG/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md",
+    "Sources/Onderwerpen VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen.md",
+    "Sources/Onderwerpen VNG/Belastingen/Wettelijke grenzen.md",
+    "Sources/Onderwerpen VNG/Belastingen/Toeristische heffingen.md",
+    "Sources/Onderwerpen VNG/Belastingen/Parkeerbelastingen.md",
+    "Sources/Onderwerpen VNG/Belastingen/Kostendekkende tarieven.md",
+    "Sources/Onderwerpen VNG/Bedrijfsvoering/College voor Arbeidszaken.md",
+    "Sources/Onderwerpen VNG/Bedrijfsvoering/cva-beleidsplan_2023-2026.md",
+    "Sources/Onderwerpen VNG/Bedrijfsvoering/raadgever-inkoop-en-aanbesteden.md",
+    "Sources/Onderwerpen VNG/Arbeidszaken/arbeidsmarktkrapte-aanpak-gemeenten.md",
+    "Sources/Onderwerpen VNG/Arbeidszaken/arbeidsmigranten.md",
+    "Sources/Onderwerpen VNG/Asiel en Integratie/COA Dienstverleningsgids voor gemeenten_januari 2026_TG.md",
+    "Sources/Onderwerpen VNG/Asiel en Integratie/Asielopvangwijzer alle informatie voor gemeenten.md",
+    "Sources/Onderwerpen VNG/Asiel en Integratie/asielopvang.md",
+    "Sources/Onderwerpen VNG/Asiel en Integratie/inburgering.md",
+    "Sources/Onderwerpen VNG/Belastingen/Precariobelasting.md",
+    "Sources/Onderwerpen VNG/Bestuur/vng-raadgevers.md.tmp.380905.198d55d8355a",
+    "Sources/Onderwerpen VNG/Maatschappelijke Ondersteuning/regionale-samenwerking-gemeenten-en-zorgverzekeraars.md.tmp.380905.f96887975d56",
+    "Sources/Onderwerpen VNG/Bestuur/vng-inzet-kabinet.md.tmp.380905.1a4903d658e4",
+    "Sources/Onderwerpen VNG/Maatschappelijke Ondersteuning/re-integratie-ex-gedetineerden.md.tmp.380905.84db97fad9fb",
+    "Sources/Onderwerpen VNG/Bestuur/versterking-lokale-democratie.md.tmp.380905.d3d5b7df1721",
+    "Sources/Onderwerpen VNG/Maatschappelijke Ondersteuning/mensenhandel.md.tmp.380905.82a36160df36",
+    "Sources/Onderwerpen VNG/Ruimte Wonen en Mobiliteit/wabo-omgevingsvergunning.md.tmp.380905.cc0322527078",
+    "Sources/Onderwerpen VNG/Bestuur/verkiezingen-en-referenda.md.tmp.380905.f0b5fb2bd9ee",
+    "Sources/Onderwerpen VNG/Ruimte Wonen en Mobiliteit/vergunningverlening-toezicht-en-handhaving.md.tmp.380905.fe1b846f2f4c",
+    "Sources/Onderwerpen VNG/Energie en Klimaat/verduurzaming-gebouwde-omgeving.md.tmp.380905.79184b2c07c3",
+    "Sources/Onderwerpen VNG/Schulden en Armoede/rubriek-schulden-en-armoede.md"
+  ]
+}

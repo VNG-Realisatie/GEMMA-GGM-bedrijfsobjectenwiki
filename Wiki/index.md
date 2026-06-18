@@ -1,0 +1,192 @@
+# Wiki Index
+
+## Domeinen
+
+- [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies
+- [[financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
+- [[economie]] — Economisch beleid, ondernemersdienstverlening, arbeidsmarkt, bedrijfsruimte
+- [[bedrijfsvoering]] — Inkoop, aanbesteding, organisatie en ondersteunende processen
+- [[inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
+- [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, informatiestandaarden (RGBZ, ZTC2)
+
+## Begrippen
+
+### Belastingen — typering
+- [[gemeentelijke-belasting]] — Overkoepelend begrip voor alle gemeentelijke heffingen
+- [[algemene-belasting]] — Opbrengsten naar algemene middelen, vrij inzetbaar
+- [[bestemmingsbelasting]] — Opbrengsten bestemd voor specifieke taken, kostendekkend
+- [[retributie]] — Heffing voor individueel voordeel bij gemeentelijke dienst
+- [[leges]] — Vergoeding voor aangevraagde dienst, subcategorie retributie
+
+### Belastingen — juridisch kader
+- [[Wiki/Begrippen/belastinggebied]] — Wettelijke heffingsmogelijkheden, gesloten stelsel
+- [[Wiki/Begrippen/belastingverordening]] — Juridische grondslag voor individuele belastingplicht
+- [[belastingmix]] — Gekozen combinatie van belastingen en tarieven
+- [[kostendekkend-tarief]] — Opbrengsten mogen kosten niet overschrijden
+
+### Belastingen — actoren
+- [[belastingplichtige]] — Persoon die belasting moet betalen
+- [[heffingsambtenaar]] — Legt belastingaanslagen op
+- [[invorderingsambtenaar]] — Int belastingaanslagen
+
+### Belastingen — instrumenten
+- [[kruissubsidiering]] — Overschot ene activiteit dekt tekort andere binnen heffing (instrument, tactisch)
+- [[kostenonderbouwing]] — Verplichte verantwoording kosten lokale heffingen (instrument, tactisch)
+
+### Belastingen — WOZ en onroerende zaken
+- [[woz-waarde]] — Marktwaarde onroerende zaak, grondslag voor OZB e.a. (object, operationeel)
+- [[woz-beschikking]] — Formele bekendmaking WOZ-waarde (object, operationeel)
+- [[onroerende-zaak]] — Object van WOZ-waardering en OZB-heffing (object, operationeel)
+- [[waarderingskamer]] — Toezichthouder op WOZ-uitvoering (actor, tactisch)
+
+### Belastingen — objecten en processen
+- [[belastingaanslag]] — Individuele vaststelling van belastingbedrag
+- [[heffingsmaatstaf]] — Maatstaf waarmee belastingschuld wordt bepaald
+- [[kwijtschelding]] — Kwijtschelding bij onvermogen
+- [[woonlasten]] — OZB + rioolheffing + afvalstoffenheffing per huishouden
+- [[algemene-middelen]] — Niet-gelabelde opbrengsten, vrij inzetbaar door gemeenteraad
+
+### Financiën — inkomstenbronnen
+- [[gemeentefonds]] — Grootste inkomstenbron, vrij besteedbaar (instrument, tactisch)
+- [[algemene-uitkering]] — Hoofdcomponent gemeentefonds (instrument, tactisch)
+- [[specifieke-uitkering]] — Geoormerkt geld van het rijk (instrument, tactisch)
+
+### Financiën — begrotingscyclus en governance
+- [[begrotingscyclus]] — Kadernota → begroting → tussenrapportages → jaarrekening (thema, operationeel)
+- [[budgetrecht]] — Raadsbevoegdheid financiële middelen beschikbaar te stellen (instrument, tactisch)
+- [[financiele-verordening]] — Art. 212 Gemeentewet, lokale spelregels financieel beleid (instrument, tactisch)
+- [[kadernota]] — Voorjaarsnota met kaders voor de begroting (object, operationeel)
+
+### Financiën — kengetallen
+- [[solvabiliteitsratio]] — Eigen vermogen / balanstotaal (object, operationeel)
+- [[netto-schuldquote]] — Netto schuld / baten (object, operationeel)
+- [[onbenutte-belastingcapaciteit]] — Ruimte tot art. 12-tarief (object, operationeel)
+
+### Bedrijfsvoering
+- [[gemeentelijke-inkoop]] — Het geheel van inkoopactiviteiten, €40+ mrd (thema, tactisch)
+- [[aanbesteding]] — Verplichte inkoopprocedure boven drempelbedragen (instrument, tactisch)
+- [[mvoi]] — Maatschappelijk verantwoord opdrachtgeven en inkopen (instrument, tactisch)
+
+### Economie
+- [[brede-welvaart]] — Maatschappelijk ideaal voorbij economische groei (waarde, normatief)
+- [[vestigingsklimaat]] — Aantrekkelijkheid gemeente/regio voor bedrijfsvestiging (doel, strategisch)
+- [[ondernemersdienstverlening]] — Gemeentelijke dienstverlening aan ondernemers (thema, tactisch)
+- [[regeldruk]] — Ervaren last van regelgeving voor ondernemers (thema, tactisch)
+- [[economische-ruimte]] — Fysieke ruimte beschikbaar voor bedrijvigheid (thema, tactisch)
+- [[arbeidsmarkt]] — Vraag en aanbod van arbeid, regionaal perspectief (thema, strategisch)
+- [[human-capital]] — Menselijk kapitaal, vaardigheden en inzetbaarheid (thema, strategisch)
+- [[midden-en-kleinbedrijf]] — Bedrijven tot 250 werknemers, ~60% werkgelegenheid (doelgroep, tactisch)
+- [[werklocatie]] — Fysieke locatie voor bedrijvigheid (object, operationeel)
+
+### Inburgering en Asielopvang — thema's
+- [[asielopvang]] — Overkoepelend thema: opvang asielzoekers, gemeentelijke rol (thema, tactisch)
+- [[inburgering]] — Gemeentelijk traject voor statushouders conform Wi2021 (thema, tactisch)
+
+### Inburgering en Asielopvang — instrumenten
+- [[spreidingswet]] — Wettelijke taak gemeenten voor opvangplekken (instrument, normatief)
+- [[duurzame-gemeentelijke-opvang]] — Exploitatievorm: gemeente neemt begeleidingstaken over (instrument, tactisch)
+- [[bestuursovereenkomst]] — Formele afspraken COA-gemeente per opvanglocatie (instrument, operationeel)
+- [[voorinburgering]] — Voorbereiding op inburgering in de opvangfase (instrument, operationeel)
+- [[meedoenbalie]] — Loket voor participatie en arbeidstoeleiding op opvanglocatie (instrument, operationeel)
+- [[kansrijke-koppeling]] — Koppeling statushouder aan gemeente op basis van profiel (instrument, operationeel)
+
+### Inburgering en Asielopvang — doelgroepen
+- [[statushouder]] — Persoon met verblijfsvergunning, wachtend op of gehuisvest in gemeente (doelgroep, operationeel)
+- [[alleenstaande-minderjarige-vreemdeling]] — Jongere zonder ouder/begeleider, amv (doelgroep, operationeel)
+
+### Inburgering en Asielopvang — objecten
+- [[opvanglocatie]] — Fysieke locatie voor opvang in diverse vormen en schaalgroottes (object, operationeel)
+- [[inhuisregistratie]] — Wekelijkse aanwezigheidscontrole op opvanglocatie (object, operationeel)
+
+### Dienstverlening — thema
+- [[zaakgericht-werken]] — Werkwijze: dienstverlening organiseren rond zaken (thema, operationeel)
+
+### Dienstverlening — objecten
+- [[zaaktypecatalogus]] — Verzameling zaaktypen met configuratie per domein (object, operationeel)
+- [[informatieobject]] — Geheel van gegevens ongeacht vorm, breder dan "document" (object, operationeel)
+- [[zaakdossier]] — Zaakkenmerken + informatieobjecten, basis voor archivering (object, operationeel)
+- [[resultaattype]] — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime (object, operationeel)
+
+## Bedrijfsobjecten
+
+### Financien (GGM beleidsdomein, taakveld 9)
+- [[begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
+- [[taakveld]] — Samenhangend geheel van activiteiten en taken (IV3)
+- [[doelstelling]] — Op korte of middellange termijn nagestreefde situatie
+- [[product]] — Resultaat van een proces dat in het economisch verkeer waarde bezit
+- [[kostenplaats]] — Rekening waaraan boekingen worden toegeschreven
+- [[factuur]] — Schriftelijke rekening voor geleverde zaken of diensten
+- [[inkooporder]] — Opdracht voor levering van goederen en/of diensten
+- [[debiteur]] — Persoon die een bedrag verschuldigd is aan de gemeente
+- [[activa]] — Bezittingen op de boekhoudkundige balans
+- [[werkorder]] — Opdracht voor uitvoering van een activiteit
+
+### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern)
+- [[woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
+- [[woz-waarde-bo]] — Vastgestelde waarde van een WOZ-object per waardepeildatum
+
+### Terug-en-invordering (GGM beleidsdomein, taakveld 6)
+- [[vordering]] — Eis op een persoon die een bedrag moet (terug)betalen
+- [[aflossingsplan]] — Afspraken over aflossing van vorderingen
+- [[aflossing]] — Betaling van een afgesproken of opgelegd bedrag op een vordering
+- [[kwijtschelding-bo]] — Kwijtschelden van het restant van een vordering
+- [[afschrijving]] — Afschrijven van een oninbare vordering
+- [[restitutie]] — Terugbetaling van te veel ontvangen aflossing
+- [[interventie]] — Escalatie bij achterblijvende aflossingen
+
+## GGM (referentie — zie Sources/GGM/)
+
+De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM/`:
+- `Sources/GGM/structuur-ggm.md` — Overzicht taakvelden (IV3) en beleidsdomeinen met definities
+- `Sources/GGM/financien.md` — Beleidsdomein (taakveld 9): 24 entiteiten
+- `Sources/GGM/terug-en-invordering.md` — Beleidsdomein (taakveld 6 → Inkomen): 29 entiteiten
+- `Sources/GGM/sport-cultuur-en-recreatie.md` — Taakveld 5: 83 entiteiten
+- `Sources/GGM/schulden.md` — Beleidsdomein (taakveld 6): 33 entiteiten
+- `Sources/GGM/economie.md` — Beleidsdomein (taakveld 3): 6 entiteiten
+- `Sources/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein (taakveld 6): 35 entiteiten
+
+## Bronsamenvattingen
+
+### Belastingen
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]] — VNG: drie typen gemeentelijke belastingen
+- [[Wiki/Begrippen/belastinggebied]] — VNG: reikwijdte belastinggebied, gesloten stelsel
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek]] — VNG: beleidskeuzes bij de belastingmix
+- [[Wiki/Begrippen/belastingverordening]] — VNG: de verordening als juridisch instrument
+- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling]] — VNG: rollen van raad, college, ambtenaren
+- [[invordering-en-kwijtschelding]] — VNG: invorderingsproces en kwijtscheldingsbeleid
+- [[kostendekkende-tarieven]] — VNG: kostendekkendheidsbeginsel
+- [[wettelijke-grenzen]] — VNG: juridische grenzen en rechtsbeginselen
+- [[raadgever-gemeentelijke-belastingen]] — VNG Raadgever: belastingmix, typen, kwijtschelding, grenzen
+- [[raadgever-kostenonderbouwing]] — VNG Raadgever: tariefverschillen en kostenonderbouwingsplicht
+- [[raadgever-woz]] — VNG Raadgever: WOZ-waarde, taxatie, basisregistratie
+
+### Financiën
+- [[raadgever-inkomstenbronnen]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
+- [[raadgever-gemeentebegroting]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
+- [[raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
+- [[raadgever-financiele-conditie]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
+
+### Bedrijfsvoering
+- [[raadgever-inkoop-en-aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
+
+### Economie
+- [[economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
+
+### GEMMA
+- [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
+
+### Standaarden
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
+
+### Inburgering en Asielopvang
+- [[asielopvangwijzer]] — COA: portaalpagina asielopvang voor gemeenten
+- [[coa-dienstverleningsgids]] — COA: taakverdeling en dienstverlening (januari 2026)
+
+## Analyses
+
+- [[ggm-oorsprong-en-meerwaarde]] — Van data-inventarisatie naar bedrijfsarchitectuur: GGM in de GEMMA-context
+- [[ggm-dekkingspatroon]] — Structureel patroon: GGM dekt data-objecten, niet processen of governance
+- [[ggm-hiaten-belastingendomein]] — Hiaten in het GGM: belastingendomein ontbreekt als conceptueel model
+- [[vng-rubrieken-mapping]] — Mapping van 26 VNG-rubrieken op GGM-taakvelden en beleidsdomeinen
