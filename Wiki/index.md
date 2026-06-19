@@ -8,7 +8,7 @@
 - [[financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[economie]] — Economisch beleid, ondernemersdienstverlening, arbeidsmarkt, bedrijfsruimte
 - [[inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
-- [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, inkoop en aanbesteding, informatiestandaarden (RGBZ, ZTC2)
+- [[dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[cultuur]] — Kunst, cultuur en erfgoed: monumenten, archieven, musea, cultuurbeleid (afgerond, 3 BO's)
 
@@ -105,6 +105,9 @@
 - [[zaakgericht-werken]] — Werkwijze: dienstverlening organiseren rond zaken (thema, operationeel)
 
 ### Dienstverlening — objecten
+- [[aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening (object, operationeel)
+- [[balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie (object, operationeel)
+- [[product-of-dienst]] — Door de gemeente aangeboden dienst of product (object, operationeel)
 - [[zaaktypecatalogus]] — Verzameling zaaktypen met configuratie per domein (object, operationeel)
 - [[informatieobject]] — Geheel van gegevens ongeacht vorm, breder dan "document" (object, operationeel)
 - [[zaakdossier]] — Zaakkenmerken + informatieobjecten, basis voor archivering (object, operationeel)
@@ -167,6 +170,15 @@
 ### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
 - [[museumobject]] — Object met cultuurhistorische waarde in museale collectie
 
+### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
+- [[aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
+- [[balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
+- [[product-of-dienst]] — Door de gemeente aangeboden dienst of product
+- [[zaaktypecatalogus]] — Verzameling zaaktypen met configuratie per domein
+- [[informatieobject]] — Geheel van gegevens ongeacht vorm, breder dan "document"
+- [[zaakdossier]] — Zaakkenmerken + informatieobjecten, basis voor archivering
+- [[resultaattype]] — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
+
 ## GGM (referentie — zie Sources/GGM/)
 
 De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM/`:
@@ -212,6 +224,14 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Dienstverlening — inkoop
 - [[raadgever-inkoop-en-aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
+
+### Dienstverlening — overheidsbrede dienstverlening en kanalen
+- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening]] — BZK-programma overheidsbrede loketten, professionallijnen, IDO's
+- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan|Overheidsbrede Startscan]] — implementatiemethodiek overheidsbrede dienstverlening
+- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening|VNG-rubriek Dienstverlening]] — portaalpagina GGU, leveranciersmanagement, MijnServices
+- [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening|Online dienstverlening]] — Wmebv, MijnServices, IDO's
+- [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid|Digitale toegankelijkheid]] — Wdo, toegankelijkheidsverklaring
+- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzicht)]] — portaalpagina, overlapt met raadgever
 
 ### Economie
 - [[economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten

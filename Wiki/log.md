@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-06-19] ingest | Dienstverlening — 3 BO's + 6 bronsamenvattingen
+- Bronnen: 6 VNG-onderwerpenpagina's (hand-out overheidsbrede dienstverlening, startscan, rubriek, online dienstverlening, digitale toegankelijkheid, inkoop-en-aanbesteden) + GGM beleidsdomein Model Dienstverlening (16 entiteiten)
+- Directory: Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/
+- 3 BO's aangemaakt — grondslag: ggm-entiteit
+  - **Aanvraag of melding** (= GGM AanvraagOfMelding, Model Dienstverlening) — startpunt dienstverlening, matchsterkte sterk
+  - **Balieafspraak** (= GGM Balieafspraak, Model Dienstverlening) — geplande afspraak klantcontact, matchsterkte exact
+  - **Product of dienst** (= GGM ProductOfDienst, Model Dienstverlening) — gemeentelijk aanbod, matchsterkte sterk
+- Generalisatiekeuze AanvraagOfMelding: BO op generiek niveau, 11 specialisaties (MOR, WMO/Jeugd, VTH, etc.) horen bij hun eigen domein
+- 9 GGM-entiteiten beoordeeld als niet-BO (attributen, statuswaarden, configuratie, classificaties)
+- 2 twijfelgevallen gedocumenteerd: Klantbeoordeling (kwaliteitsmetric), Telefoontje (te granulair)
+- 6 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Dienstverlening/
+- Domeinoverzicht bijgewerkt: 14 begrippen, 7 BO's, GGM-dekkingsanalyse uitgebreid
+- Terugmeldingen: 2 definitieverbeteringen (AanvraagOfMelding en ProductOfDienst hebben systeemreferenties als definitie)
+- VNG-bronnen bevestigen werkwijze/organisatiemodel (overheidsbrede dienstverlening, IDO's, professionallijnen) — geen nieuwe data-objecten
+- Index en log bijgewerkt
+
 ## [2026-06-19] ingest | Cultuur — 3 BO's aangemaakt
 - Bronnen: 5 VNG-onderwerpenpagina's (kunst-en-cultuur, propositie-cultuur, architectuur-en-erfgoed, bibliotheekwerk, toelichting-ringenmodel)
 - Directory: Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/ en musea/
