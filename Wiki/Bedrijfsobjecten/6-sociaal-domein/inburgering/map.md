@@ -2,6 +2,7 @@
 type: bedrijfsobject
 naam: MAP
 domein: [Asiel en Integratie]
+bronnen: ["Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering"]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: MAP

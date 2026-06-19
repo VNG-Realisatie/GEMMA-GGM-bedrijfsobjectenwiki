@@ -46,73 +46,25 @@ De LLM fungeert als **eerste filter**:
 ```
 Bedrijfsarchitectuur/
 ├── CLAUDE.md              # dit bestand — schema en conventies
+├── templates/             # paginatemplates en referentietabellen
 ├── Sources/               # ruwe bronnen, NIET aanpassen
-│   ├── Onderwerpen VNG/   # VNG-publicaties en beleidsdocumenten per domein
-│   │   ├── Arbeidszaken/
-│   │   ├── Asiel en Integratie/
-│   │   ├── Belastingen/
-│   │   ├── Bestuur/
-│   │   ├── Cultuur/
-│   │   ├── Dienstverlening/
-│   │   ├── Economie/
-│   │   ├── Energie en Klimaat/
-│   │   ├── Europa en Internationaal/
-│   │   ├── Financien/
-│   │   ├── Informatiesamenleving/
-│   │   ├── Maatschappelijke Ondersteuning/
-│   │   ├── Milieu/
-│   │   ├── Omgevingswet/
-│   │   ├── Onderwijs/
-│   │   ├── Openbare Gezondheid/
-│   │   ├── Openbare Orde en Veiligheid/
-│   │   ├── Recht/
-│   │   ├── Risicobeheer/
-│   │   ├── Ruimte Wonen en Mobiliteit/
-│   │   ├── Schulden en Armoede/
-│   │   ├── Sociaal Domein/
-│   │   ├── Werk en Inkomen/
+│   ├── Onderwerpen VNG/   # VNG-publicaties per domein
 │   │   └── {domein}/
-│   ├── GGM/        # leesbare representatie van het Gemeentelijk Gegevensmodel
-│   │   ├── structuur-ggm.md       # taakvelden en beleidsdomeinen met definities
-│   │   ├── 3-economie/            # taakveld 3 Economie
-│   │   │   └── economie.md
-│   │   ├── 5-sport-cultuur-en-recreatie/  # taakveld 5
-│   │   │   └── sport-cultuur-en-recreatie.md
-│   │   ├── 6-sociaal-domein/      # taakveld 6 Sociaal Domein
-│   │   │   ├── index.md           # overzicht met links naar beleidsdomeinen
-│   │   │   ├── generiek-jeugd-en-wmo.md
-│   │   │   ├── inburgering.md
-│   │   │   ├── inkomen.md
-│   │   │   ├── schulden.md
-│   │   │   ├── terug-en-invordering.md
-│   │   │   ├── werk.md
-│   │   │   ├── sociaal-domein-generiek.md
-│   │   │   └── sociaal-domein-overig.md
-│   │   ├── 9-interne-organisatie/ # taakveld 9
-│   │   │   └── financien.md
-│   │   └── 99-kern/               # taakveld 99 Kern
-│   │       ├── rsgb.md
-│   │       └── rgbz.md
-│   └── {domein}/          # nieuwe domeinen als subdirectory
+│   ├── GGM/               # leesbare representatie van het Gemeentelijk Gegevensmodel
+│   │   ├── structuur-ggm.md
+│   │   └── {taakveld}/    # per taakveld, evt. met index.md en bestanden per beleidsdomein
+│   └── {domein}/          # overige bronnen per domein
 ├── Wiki/
 │   ├── index.md           # inhoudelijk overzicht van alle wiki-pagina's
-│   ├── log.md             # chronologisch logboek van ingest/query/lint acties
+│   ├── log.md             # chronologisch logboek van alle acties
 │   ├── Domeinen/          # domeinoverzichten met begrippentabellen
-│   ├── Bedrijfsobjecten/  # bedrijfsobjectpagina's, georganiseerd per GGM-beleidsdomein
-│   │   ├── 6-sociaal-domein/
-│   │   │   ├── inburgering/
-│   │   │   └── terug-en-invordering/
-│   │   ├── 9-interne-organisatie/
-│   │   │   └── financien/
-│   │   ├── 99-kern/
-│   │   └── {taakveld}/{beleidsdomein}/
-│   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per domein
-│   │   ├── Belastingen/
-│   │   ├── Economie/
-│   │   └── {domein}/
+│   ├── Bedrijfsobjecten/  # BO-pagina's, georganiseerd per {taakveld}/{beleidsdomein}/
+│   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {domein}/
 │   └── Analyses/          # query-resultaten, vergelijkingen, syntheses
-└── llm-wiki.md            # Karpathy's originele ideebestand (referentie)
+└── tools/                 # Python-scripts voor XMI-verwerking
 ```
+
+Domeinen en taakvelden worden **niet** vooraf benoemd in de structuur — ze ontstaan bij het verwerken van bronnen. Controleer bestaande subdirectories voordat je een nieuwe aanmaakt.
 
 ## Bronnen (Sources)
 
@@ -120,7 +72,7 @@ Bedrijfsarchitectuur/
 - Bronnen zijn gemeentelijke beleidsdocumenten, VNG-publicaties, proposities, toelichtingen, verordeningen.
 - Georganiseerd per gemeentelijk domein als subdirectory onder `Sources/`.
 - Bronnen kunnen YAML-frontmatter bevatten (title, source, created, description, tags).
-- **GGM-pagina's zijn bronnen, geen wiki.** De bestanden in `Sources/GGM/` zijn een leesbare conversie van het XMI-bestand (de bron van waarheid). Ze bevatten letterlijke definities uit het model, zonder synthese of interpretatie. De LLM leest ze als referentie bij het mappen van begrippen en bedrijfsobjecten, maar wijzigt ze niet.
+- **GGM-pagina's zijn bronnen, geen wiki.** De bestanden in `Sources/GGM/` zijn een leesbare conversie van het XMI-bestand (de bron van waarheid). Ze bevatten letterlijke definities uit het model, zonder synthese of interpretatie.
 
 ### Bronnen toevoegen
 
@@ -128,10 +80,8 @@ Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand 
 
 #### Via URL (LLM fetcht)
 
-Wanneer de gebruiker een URL aanwijst:
-
 1. **Ophalen** — fetch de pagina en converteer naar markdown. Behoud de originele tekst; ruim alleen opmaakruis op (navigatie, footers, ads). Herschrijf geen inhoud.
-2. **Domein bepalen** — kies de juiste subdirectory onder `Sources/`. Controleer bestaande subdirectories eerst; hergebruik als het domein past. Maak alleen een nieuwe subdirectory aan voor een echt nieuw domein.
+2. **Domein bepalen** — kies de juiste subdirectory onder `Sources/`. Controleer bestaande subdirectories eerst; maak alleen een nieuwe aan voor een echt nieuw domein.
 3. **Opslaan** als `Sources/{domein}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
 4. **Frontmatter** toevoegen:
    ```yaml
@@ -151,181 +101,37 @@ Wanneer de gebruiker een URL aanwijst:
 
 #### Via Obsidian Web Clipper (gebruiker clipt)
 
-Web Clipper slaat pagina's op in `Clippings/` met dezelfde frontmatter-structuur (title, source, created, etc.). Deze directory is een landingszone — clippings worden niet direct als bron gebruikt.
-
-Wanneer de gebruiker vraagt om een clipping te verwerken, of bij een ingest die naar een clipping verwijst:
+Web Clipper slaat pagina's op in `Clippings/` — een landingszone, geen bron.
 
 1. **Lees** het bestand in `Clippings/`.
-2. **Verplaats** het naar `Sources/{domein}/{beschrijvende-slug}.md` — zelfde regels als bij URL-ophalen voor domeinkeuze en naamgeving.
+2. **Verplaats** naar `Sources/{domein}/{beschrijvende-slug}.md` — zelfde regels als bij URL-ophalen.
 3. **Frontmatter aanvullen** als velden ontbreken (description, tags).
 4. Ga verder met de reguliere ingest-workflow.
 
 ### GGM-bronbestandformaat
 
-Alle GGM-bronbestanden volgen een uniform formaat — ongeacht de omvang van het taakveld of beleidsdomein. Dit formaat bevat de informatie die nodig is om (1) te matchen op begrippen, (2) te bepalen of een entiteit een bedrijfsobject is, en (3) het bedrijfsobject te definiëren.
+Zie `templates/ggm-bron.md` voor het volledige format inclusief verplichte secties en verantwoording.
 
-#### Granulariteit
+#### GGM-terminologie
 
-- Per **beleidsdomein** als het beleidsdomein ≤ ~80 entiteiten bevat.
-- Grote taakvelden (zoals Sociaal Domein) worden opgesplitst in meerdere bestanden per beleidsdomein of logische groep.
+Het GGM is hiërarchisch opgebouwd: **taakvelden** (afgeleid van IV3) bevatten **beleidsdomeinen**.
 
-#### Frontmatter
-
-```yaml
----
-type: ggm-beleidsdomein | ggm-taakveld
-naam: {naam}
-taakveld: "{nr} {taakveldnaam}"
-definitie: "{korte definitie}"
-aantal_entiteiten: {n}
-# alleen bij taakveld-niveau:
-beleidsdomeinen: [{lijst}]
----
-```
-
-#### Verplichte secties per entiteitsgroep
-
-**1. Entiteitstabel** met de volgende kolommen:
-
-| Kolom | Verplicht | Toelichting |
-|---|---|---|
-| Entiteit | Ja | Naam van de entiteit |
-| Definitie | Ja | Letterlijke definitie uit het GGM |
-| Attributen | Ja | Alle attributen van de entiteit |
-| Abstract | Ja | `Ja` als de entiteit abstract is (geen bedrijfsobject; alleen de concrete specialisaties worden BO's) |
-| Herkomst | Ja | Basisregistratie of standaard waaruit de entiteit afkomstig is (BRP, BRK, BRWOZ, BAG, BGT/IMGeo, NHR, iWmo, iJw, StUF, KING, etc.) |
-
-**2. Overervingshiërarchie** — als er abstracte entiteiten zijn, expliciet de hiërarchie noteren:
-
-```
-Overervingshiërarchie: Ouder → Kind1; Ouder → Kind2.
-```
-
-**3. Relatiediagrammen** — de belangrijkste relaties tussen entiteiten als ASCII-diagram:
-
-```
-Entiteit_A [1] ──── Entiteit_B [1..*]
-    │
-    ├── Entiteit_C [0..*]
-    └── Entiteit_D [1]
-```
-
-Multipliciteiten noteren waar bekend. Diagram hoeft niet elke relatie te bevatten — focus op de relaties die relevant zijn voor het begrijpen van de procescontext.
-
-**4. Observaties** — feitelijke constateringen over het model:
-
-- Wat valt op aan de structuur of omvang?
-- Welke entiteiten overspannen meerdere packages of beleidsdomeinen?
-- Waar zitten mogelijke hiaten of modelleringskeuzes die de wiki-mapping beïnvloeden?
-
-**5. Relevantie-sectie** — per relevant domeinperspectief:
-
-- Welke entiteiten zijn relevant voor welk gemeentelijk domein (belastingen, sociaal domein, ruimtelijk, etc.)?
-- Wat ontbreekt er vanuit dat domeinperspectief?
-- Verwijzingen naar relevante analyse-pagina's in de wiki.
-
-#### Waarom elk element nodig is
-
-| Element | Nodig voor | Reden |
-|---|---|---|
-| Definitie | Begrip-matching | Koppelt GGM-entiteit aan beleidsbegrip |
-| Attributen | BO-definitie | Bepaalt de scope en inhoud van het bedrijfsobject |
-| Abstract-vlag | BO-bepaling | Abstracte entiteiten worden geen BO; hun specialisaties wel |
-| Overerving | BO-bepaling | Voorkomt dubbele BO's (ouder + kind) |
-| Relatiediagram | BO-relaties, procescontext | Laat zien welke BO's samenwerken in processen en functies |
-| Herkomst | BO-definitie, herleidbaarheid | Vertelt welke basisregistratie de bron van waarheid is |
-| Relevantie | BO-bepaling, hiaten | Signaleert wat er is en wat er ontbreekt per domein |
+- Taakveld = het bovenste niveau (bijv. "5 Sport, Cultuur en Recreatie", "9 Interne Organisatie")
+- Beleidsdomein = het niveau daaronder (bijv. "Financien" onder taakveld 9, "Schulden" onder taakveld 6)
+- Zie `Sources/GGM/structuur-ggm.md` voor het volledige overzicht met definities
 
 ## Wiki-pagina's
 
-### Paginatypen en frontmatter
+Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `templates/`:
 
-Elke wiki-pagina heeft YAML-frontmatter. De velden per type:
+| Paginatype | Template | Locatie |
+|---|---|---|
+| Bedrijfsobject | `templates/bedrijfsobject.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
+| Domeinoverzicht | `templates/domeinoverzicht.md` | `Wiki/Domeinen/` |
+| Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{domein}/` |
+| Analyse | `templates/analyse.md` | `Wiki/Analyses/` |
 
-#### Bedrijfsobject (`Wiki/Bedrijfsobjecten/`)
-
-```yaml
----
-type: bedrijfsobject
-naam: {naam}
-domein: [{domein(en)}]
-archimate_type: {business-object | contract | product}
-grondslag: {ggm-entiteit | ggm-afgeleid | procesobject | governance-object}
-
-# GGM-velden — uit het XMI, beheerd door de GGM-community
-ggm_entiteit: {naam van GGM-entiteit, leeg als niet van toepassing}
-ggm_guid: {EA GUID van de GGM-entiteit, bijv. EAID_F9B2A863_...}
-ggm_uml_type: {Class | Enumeration}
-ggm_beleidsdomein: {GGM beleidsdomein}
-ggm_taakveld: {GGM taakveld, bijv. "6 Sociaal Domein"}
-ggm_diagram: [{namen van GGM-diagrammen waarop deze entiteit staat}]
-ggm_diagram_ids: [{EA GUIDs van die diagrammen}]
-ggm_definitie: {letterlijke GGM-definitie uit het XMI}
-ggm_toelichting: {GGM-toelichting uit XMI-tag}
-ggm_synoniemen: {GGM-synoniemen uit XMI-tag}
-ggm_herkomst: {basisregistratie/standaard waaruit de entiteit afkomstig is}
-
-# GEMMA-waarden zoals gevonden in het GGM XMI — referentie van eerdere import-cycli
-ggm_gemma_naam: {GEMMA-naam in het GGM}
-ggm_gemma_guid: {GEMMA-guid in het GGM}
-ggm_gemma_definitie: {GEMMA-definitie in het GGM}
-ggm_gemma_toelichting: {GEMMA-toelichting in het GGM}
-ggm_gemma_synoniemen: {GEMMA-synoniemen in het GGM}
-ggm_gemma_type: {GEMMA ArchiMate-type in het GGM, altijd "business-object"}
-ggm_gemma_url: {GEMMA Online URL in het GGM}
-ggm_gemma_bron: {GEMMA-bron in het GGM}
-ggm_gemma_alternate_name: {GEMMA alternate name in het GGM}
-
-# GEMMA-velden — beheerd door het GEMMA-team via deze wiki
-gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
-bronnen: [{paden naar bronsamenvattingen die dit BO onderbouwen}]
-relaties:
-  - type: {associatie | compositie | generalisatie}
-    bedrijfsobject: {naam van gerelateerd BO}
-    richting: {van-dit-BO | naar-dit-BO | bidirectioneel}
-    kardinaliteit: {bijv. "1..*"}
-    beschrijving: {korte omschrijving van de relatie}
-bedrijfsprocessen: [{bedrijfsprocessen die dit object gebruiken/produceren}]
-bedrijfsfuncties: [{bedrijfsfuncties}]
----
-```
-
-**Drie naamvelden** — elk veld bestaat in een GGM-, GGM-GEMMA- en GEMMA-variant:
-
-| Veld | GGM (XMI-bron) | GGM-GEMMA (referentie) | GEMMA (wiki/export) |
-|---|---|---|---|
-| naam | `ggm_entiteit` | `ggm_gemma_naam` | `naam` |
-| definitie | `ggm_definitie` | `ggm_gemma_definitie` | `gemma_definitie` |
-| toelichting | `ggm_toelichting` | `ggm_gemma_toelichting` | *(toekomstig)* |
-| synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | *(toekomstig)* |
-
-Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `gemma_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
-
-**Status**: BO-pagina's hebben geen apart goedkeuringsmoment. Als het proces is doorlopen en de onderbouwing klopt, is het BO vastgesteld. Markeer alleen als `ter discussie` in de body wanneer een specifieke keuze (bijv. generalisatieniveau, GGM-afwijking) niet eenduidig is en teambespreking vereist.
-
-**Grondslag** geeft aan waarop het bedrijfsobject is gebaseerd. Dit is structureel: het GGM modelleert data-objecten maar niet processen of governance (zie [[ggm-dekkingspatroon]]). Er zal daarom altijd een klasse bedrijfsobjecten zijn zonder GGM-grondslag.
-
-| Grondslag | Betekenis | GGM-relatie | Voorbeeld |
-|---|---|---|---|
-| **ggm-entiteit** | 1:1 of n:1 mapping op een GGM-entiteit | Directe match; definitie en attributen uit GGM | WOZ-object, Begroting, Debiteur |
-| **ggm-afgeleid** | Afleidbaar uit bestaande GGM-objecten | Geen eigen entiteit, wel berekbaar | *(toekomstig: solvabiliteitsratio als BO)* |
-| **procesobject** | Artefact dat in een proces ontstaat, niet in GGM gemodelleerd | Structureel hiaat — GGM dekt processen niet | *(toekomstig: belastingaanslag, kadernota)* |
-| **governance-object** | Juridisch of beleidsmatig kader dat processen aanstuurt | Structureel hiaat — GGM dekt governance niet | *(toekomstig: belastingverordening)* |
-
-De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsobject is, hoe het zich verhoudt tot het GGM, en welke metadata naar het ArchiMate-model gaat.
-
-Body bevat:
-- **BO-criteria toetsing**: welke criteria zijn van toepassing, waarom is dit een BO
-- **Beschrijving**: het bedrijfsobject op het niveau waarop er in de gemeente over wordt gepraat
-- **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
-- **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
-- **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
-- **Procesbron** (bij grondslag `procesobject`): uit welk proces, welke beleidsbron beschrijft dit
-- **Juridische bron** (bij grondslag `governance-object`): welke wet/verordening, welke beleidsbron
-- **Relaties**: afgeleid van GGM-associaties (bij GGM-grondslag) of uit beleidsbronnen (bij overige grondslagen), vereenvoudigd naar bedrijfsniveau. Noteer de bron van elke relatie.
-- **Bedrijfsprocessen**: welke processen dit object gebruiken of produceren
-- **Bedrijfsfuncties**: welke functies dit object raken
-- **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities
+Formats voor `index.md` en `log.md`: zie `templates/index-log.md`.
 
 ### BO-criteria
 
@@ -342,22 +148,22 @@ Een begrip is een bedrijfsobject als het aan de **meeste** van deze criteria vol
 
 **Geen BO** als het slechts een eigenschap, status, activiteit, regel of classificatie van iets anders is.
 
+### Begripstypen en abstractieniveaus
+
+Zie `templates/begripstypen.md` voor de volledige classificatietabel en filterlogica.
+
 ### Afleidingsregels voor bedrijfsobjecten
 
 #### Grondslag bepalen
 
-Bepaal eerst de grondslag van het bedrijfsobject:
-
 1. **Zoek een GGM-entiteit.** Is er een directe match → grondslag `ggm-entiteit`.
 2. **Geen entiteit, wel afleidbaar?** Kan het BO berekend/geaggregeerd worden uit bestaande GGM-objecten → grondslag `ggm-afgeleid`.
-3. **Geen GGM-basis, wel een proces?** Is het een artefact dat ontstaat in een gemeentelijk proces (aanslag, beschikking, nota) → grondslag `procesobject`.
-4. **Geen GGM-basis, juridisch/beleidsmatig kader?** Is het een verordening, regeling of bevoegdheid die processen aanstuurt → grondslag `governance-object`.
+3. **Geen GGM-basis, wel een proces?** Artefact dat ontstaat in een gemeentelijk proces → grondslag `procesobject`.
+4. **Geen GGM-basis, juridisch/beleidsmatig kader?** Verordening, regeling of bevoegdheid → grondslag `governance-object`.
 
 Het ontbreken van een GGM-grondslag is voor procesobjecten en governance-objecten **structureel**, niet incidenteel — het GGM modelleert data, niet processen of governance (zie [[ggm-dekkingspatroon]]).
 
 #### GGM-matchsterkte
-
-Bij elke GGM-match wordt de sterkte beoordeeld:
 
 | Matchsterkte | Betekenis | Actie |
 |---|---|---|
@@ -366,182 +172,128 @@ Bij elke GGM-match wordt de sterkte beoordeeld:
 | **partieel** | GGM-entiteit dekt een deel van het BO, of BO is aggregatie van meerdere entiteiten | Overnemen met toelichting, overweeg terugmelding |
 | **zwak** | Verwant concept maar wezenlijk andere scope of granulariteit | Relatie noteren, niet als grondslag gebruiken |
 
-#### Mapping van GGM-entiteit naar bedrijfsobject (grondslag `ggm-entiteit`)
+#### Mapping van GGM-entiteit naar bedrijfsobject
 
-- Bij voorkeur 1-op-1 mapping van GGM-entiteit naar bedrijfsobject (beheerbaarheid, herkenbaarheid).
+- Bij voorkeur 1-op-1 mapping (beheerbaarheid, herkenbaarheid).
 - Aggregatie toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
 - Als een GGM-entiteit in meerdere beleidsdomeinen voorkomt: maak één bedrijfsobject met alle GGM-bronnen.
 
 #### Generalisaties (overerving)
 
-Bij een generalisatiehiërarchie in het GGM moet expliciet worden besloten op welk niveau het bedrijfsobject wordt gedefinieerd. De keuze hangt af van het bedrijfsperspectief, niet van het informatiemodel:
+Bij een generalisatiehiërarchie moet expliciet worden besloten op welk niveau het BO wordt gedefinieerd. Beslisregel: **praat de gemeente erover als aparte dingen?** Zo ja → aparte BO's. Zo nee → één BO op het herkende niveau.
 
-| Situatie | BO-keuze | Voorbeeld |
-|---|---|---|
-| Specialisaties zijn herkenbaar op bedrijfsniveau en hebben eigen processen/relaties | Elke specialisatie wordt een BO; het abstracte niveau wordt geen BO | Rechtspersoon (abstract) → NatuurlijkPersoon (BO), NietNatuurlijkPersoon (BO) |
-| Specialisaties zijn uitwisselbaar op bedrijfsniveau; het onderscheid is alleen technisch | Het abstracte niveau wordt het BO; specialisaties worden geen apart BO | KadastraleOnroerendeZaak (BO) — perceel vs. appartementsrecht is voor de meeste bedrijfsprocessen niet relevant |
-| Zowel het abstracte niveau als specialisaties zijn herkenbaar op bedrijfsniveau | Beide worden BO; de generalisatierelatie wordt vastgelegd | *(beoordeel per geval)* |
+| Situatie | BO-keuze |
+|---|---|
+| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt geen BO |
+| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO |
+| Zowel abstract als specialisaties zijn herkenbaar | Beide worden BO; generalisatierelatie vastleggen |
 
-Beslisregel: **praat de gemeente erover als aparte dingen?** Zo ja → aparte BO's. Zo nee → één BO op het herkende niveau.
-
-Noteer de beslissing en de motivatie in de body van het bedrijfsobject. Markeer als `⚠️ ter discussie` in de body als de keuze niet eenduidig is en teambespreking vereist.
+Noteer de beslissing en motivatie in de body. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 
 #### Relaties tussen bedrijfsobjecten
 
 BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfsniveau:
 
-- **Overnemen**: GGM-relaties die herkenbaar zijn in de bedrijfspraktijk worden 1-op-1 overgenomen.
-- **Inkorten**: als een GGM-relatie via een tussenliggende entiteit loopt die geen BO wordt, wordt de relatie ingekort tot een directe BO-relatie. Noteer de tussenliggende GGM-entiteit.
-- **Samenvoegen**: meerdere GGM-associaties tussen dezelfde entiteiten worden samengevoegd als ze op bedrijfsniveau niet onderscheidbaar zijn.
-- **Weglaten**: GGM-relaties die puur technisch zijn (referentietabellen, enumeraties) worden niet als BO-relatie opgenomen.
-- **Toevoegen**: als een relatie op bedrijfsniveau bestaat maar niet in het GGM is gemodelleerd, wordt deze toegevoegd als hiaat-relatie.
+- **Overnemen**: herkenbaar in de bedrijfspraktijk → 1-op-1 overnemen
+- **Inkorten**: GGM-relatie via tussenliggende entiteit die geen BO wordt → directe BO-relatie
+- **Samenvoegen**: meerdere GGM-associaties op bedrijfsniveau niet onderscheidbaar → samenvoegen
+- **Weglaten**: puur technische relaties (referentietabellen, enumeraties)
+- **Toevoegen**: relatie bestaat op bedrijfsniveau maar niet in GGM → hiaat-relatie
 
-Elke BO-relatie vermeldt de GGM-bron (welke associatie/generalisatie) en eventuele afwijkingen.
+### GGM-hiaten beoordelen
 
-### Blik op bronnen: objecten, relaties en generalisaties
+Voordat een BO als "hiaat" in het GGM wordt gemeld, doorloop deze checklist:
 
-Bij het lezen van **alle bronnen** — zowel GGM als VNG-beleidsdocumenten, proposities, verordeningen — wordt dezelfde blik gehanteerd:
+**Stap 1: Bepaal wat het BO is**
+- Is het een **dataobject** (wat gemeenten registreren in informatiesystemen)?
+- Of is het een **proces** (hoe werk verloopt: processen, cycli, stappen)?
+- Of is het een **governance-instrument** (wetten, verordeningen, bevoegdheden)?
+
+**Stap 2: Controleer GGM-scope**
+Het GGM modelleert **dataobjecten**. Dus:
+- **Dataobjecten** die geen GGM-entiteit hebben → potentiële hiaat (rapporteren)
+- **Processen** die geen GGM-entiteit hebben → structureel buiten scope (niet rapporteren)
+- **Governance-instrumenten** die geen GGM-entiteit hebben → structureel buiten scope (niet rapporteren)
+
+**Stap 3: Motiveer de melding**
+
+Als het een dataobject is, motiveer waarom het in het GGM past:
+- Waar worden deze gegevens in de gemeente geregistreerd/beheerd?
+- Welke attributen/eigenschappen zijn registreerbaar?
+- Pakt het in een bestaand GGM-beleidsdomein (bijv. registratie, boekhoudkunde, proces-output)?
+- Voorbeelden: BAG-locatie (registratie), Begroting (boekhoudkunde), Stembureau (registratieobject)
+
+**Stap 4: Formuleer als terugmelding**
+
+Voorbeeld goed:
+> **Stembureau** — Registratieobject voor fysieke locaties waar stemmingen plaatsvinden (adres, capaciteit, toegankelijkheid). Dataobject vergelijkbaar met BAG-locatie maar met verkiezings-specifieke properties. Zou onder Bestuur (taakveld 0) kunnen.
+
+Voorbeeld fout:
+> **Verkiezing** — Ontbreekt in GGM. [FOUT: dit is een proces, geen dataobject]
+
+**Regel: Wees conservatief met hiaten.** Alleen dataobjecten die gemeenten daadwerkelijk registreren rapporteren. Geen processen, geen governance.
+
+### Blik op bronnen
+
+Bij het lezen van **alle bronnen** — zowel GGM als VNG-beleidsdocumenten — dezelfde blik:
 
 1. **Objecten identificeren**: welke dingen worden benoemd die in processen worden gebruikt, geproduceerd of geregistreerd?
-2. **Relaties herkennen**: welke objecten worden in samenhang genoemd? Welk object "hoort bij", "bestaat uit", of "is onderdeel van" een ander?
-3. **Generalisaties expliciteren**: worden er overkoepelende termen gebruikt die meerdere specifiekere dingen omvatten? Is het overkoepelende niveau het herkende bedrijfsobject, of de specifiekere dingen, of beide?
-4. **Granulariteit beoordelen**: wordt er in de bron gesproken op een grover of fijner niveau dan het GGM modelleert?
+2. **Relaties herkennen**: welke objecten worden in samenhang genoemd?
+3. **Generalisaties expliciteren**: overkoepelende termen die meerdere specifiekere dingen omvatten?
+4. **Granulariteit beoordelen**: grover of fijner dan het GGM modelleert?
 
-Bij GGM-bronnen levert dit de formele entiteiten, associaties en generalisaties op. Bij VNG-bronnen levert het begrippen en impliciete bedrijfsobjecten op die al dan niet matchen met het GGM — en juist de mismatches (hiaten, aggregaties, andere granulariteit) zijn waardevolle bevindingen voor de wiki.
+Bij VNG-bronnen zijn juist de mismatches met het GGM (hiaten, aggregaties, andere granulariteit) waardevolle bevindingen — **maar alleen voor dataobjecten** (zie "GGM-hiaten beoordelen").
 
-#### GGM-terminologie
+### Conventies
 
-Het GGM is hiërarchisch opgebouwd: **taakvelden** (afgeleid van IV3) bevatten **beleidsdomeinen**. Gebruik de juiste terminologie:
+- **Taal**: Nederlands, tenzij gevestigde Engelse term (ArchiMate, business object).
+- **Bestandsnamen**: lowercase, koppeltekens. Voorbeeld: `onroerende-zaak.md`.
+- **Cross-references**: Obsidian `[[wiki-links]]` voor alle verwijzingen tussen wiki-pagina's.
+- **Citaten uit bronnen**: blockquotes (`>`) met bronvermelding.
 
-- Taakveld = het bovenste niveau (bijv. "5 Sport, Cultuur en Recreatie", "9 Interne Organisatie")
-- Beleidsdomein = het niveau daaronder (bijv. "Financien" onder taakveld 9, "Schulden" onder taakveld 6)
-- Zie `Sources/GGM/structuur-ggm.md` voor het volledige overzicht met definities
+## Ingest workflow
 
-De GGM-pagina's in `Sources/GGM/` zijn georganiseerd per taakveld als subfolder (bijv. `6-sociaal-domein/`). Elk taakveld met meerdere beleidsdomeinen heeft een `index.md`. Bestanden bevatten de entiteiten per beleidsdomein met letterlijke definities en attributen uit het model. Deze zijn referentie — de wiki verwijst ernaar maar wijzigt ze niet.
+Wanneer de gebruiker een bron of domein aanwijst om te verwerken:
 
-#### Domeinoverzicht (`Wiki/Domeinen/`)
+1. Lees de volledige bron
+2. Bespreek de kernpunten met de gebruiker voordat je schrijft
+3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
+4. Maak of update het domeinoverzicht met nieuwe begrippen (zie `templates/domeinoverzicht.md`)
+5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/bedrijfsobject.md`)
+6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
+7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd
 
-```yaml
----
-type: domein
-naam: {domeinnaam}
-status: {afgerond | in-behandeling | niet-gestart}
-verwerkingsdatum: {datum laatste verwerking}
-bronnen_count: {aantal verwerkte bronnen}
-begrippen_count: {aantal geidentificeerde begrippen}
-bo_count: {aantal bedrijfsobjecten}
----
-```
+Een enkele bron kan 10-15 wiki-pagina's raken. Dat is normaal.
 
-Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle begrippen als tabel — geen aparte begrippenpagina's. Een domein wordt altijd afgetekend na verwerking — ook als de uitkomst 0 BO's is.
+## Vragen beantwoorden
 
-Body bevat:
-- Korte beschrijving van het gemeentelijk domein
-- **Begrippentabel** — het hart van de pagina:
+Wanneer de gebruiker een vraag stelt:
 
-```markdown
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[woz-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | 6/6 criteria, exact match | Woning, kantoor | ja |
-| belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
-| heffingsmaatstaf | object | Maatstaf voor belastingschuld | ❌ | Eigenschap van verordening | WOZ-waarde | nee |
-| belastingmix | thema | Gekozen combinatie belastingen | ❌ | Beleidsmatig, geen object | — | nee |
-```
+1. **Lees eerst `Wiki/index.md`** om relevante pagina's te localiseren
+2. **Lees die pagina's en synthetiseer** een antwoord gebaseerd op wat er al in de wiki staat
+3. **Citeer specifieke wiki-pagina's** in je antwoord — verwijs naar [[pagina-naam]] waar relevant
+4. **Als het antwoord niet in de wiki staat**, zeg dat duidelijk en bied aan het toe te voegen
+5. **Als het antwoord waardevol is**, bied aan het als nieuwe analyse-pagina op te slaan (bijv. [[Wiki/Analyses/nieuwe-analyse]])
 
-  - **Begrip**: `[[link]]` naar BO-pagina als het een BO is, anders platte tekst
-  - **Type**: begripstype (object/instrument/actor/doelgroep/thema/doel/waarde)
-  - **Omschrijving**: identiek aan de BO-definitie als het een BO is
-  - **BO?**: ✅ of ❌
-  - **Reden**: korte samenvatting waarom wel/niet (volledige onderbouwing staat in de BO-pagina)
-  - **Voorbeelden**: concrete instanties
-  - **GGM**: ja/nee — heeft dit begrip een GGM-entiteit
+**Principe:** Goede antwoorden worden teruggeschreven naar de wiki zodat kennis zich opbouwt. Na elke substantiële vraag controleren: zou dit als analyse, begrip of BO-pagina moeten bestaan?
 
-- **GGM-dekkingsanalyse**: welke GGM-entiteiten zijn BO, welke niet, welke ontbreken
-- **Verwerkte bronnen**: lijst met links naar bronsamenvattingen
-- **Nog te verwerken bronnen**: lijst met links naar Sources/
-- **Openstaande vragen of hiaten**
-- **Terugmeldingen richting GGM**
+**Format bij antwoord:**
+- Citeer relevant: `Zie [[Wiki/Domeinen/bestuur]] voor...`
+- Verwijs naar relaties: `Dit BO relateert aan [[Verkiezing]]`
+- Verwijs naar analyses: `Context via [[Wiki/Analyses/ggm-dekkingspatroon]]`
 
-#### Bronsamenvatting (`Wiki/Bronsamenvattingen/`)
+## Lint
 
-```yaml
----
-type: bronsamenvatting
-bron: "Sources/{domein}/{bestand}.md"
-titel: {titel van het document}
-domein: [{domein(en)}]
-datum_ingest: {datum van verwerking}
----
-```
+Bij een lint- of auditverzoek:
 
-Body bevat:
-- Samenvatting van de bron (max 500 woorden)
-- Kernbegrippen met korte toelichting
-- Relevantie voor bedrijfsarchitectuur
-- Citaten die begrippen of objecten definiëren
+1. **Contradities opsporen** — twee pagina's die elkaar tegenspreken; mark beide pagina's met `⚠️ Tegenspraak met [[andere-pagina]]`
+2. **Wees-pagina's vinden** — pagina's zonder inbound links van andere pagina's; controleren of ze werkelijk orphan zijn of moeten gelinkt worden
+3. **Concepten zonder pagina** — concepten/BO's die meerdere keren genoemd worden maar geen eigen pagina hebben; voeg toe aan openstaande taken
+4. **Verouderde claims** — claims die op basis van nieuwere bronnen mogelijk outdated zijn; flag met `🔍 Verificatie nodig` en citeer nieuwere bron
+5. **Template-naleving** — controleren of alle pagina's de juiste frontmatter, secties en formattering hebben (zie templates/)
+6. **Herleidbaarheid** — BO-pagina's moeten `bronnen` in frontmatter hebben; claims moeten citaten hebben
 
-De bronsamenvatting is het **schakelstuk** in de herleidbaarheidsketen: het verwijst naar het bronbestand (Sources/) en wordt verwezen door de BO-pagina (via `bronnen` in frontmatter).
-
-#### Analyse (`Wiki/Analyses/`)
-
-```yaml
----
-type: analyse
-titel: {titel}
-datum: {datum}
-aanleiding: {query of vraag die tot deze analyse leidde}
----
-```
-
-Vrij format — vergelijkingen, syntheses, mappingtabellen, bevindingen.
-
-### Begripstypen en abstractieniveaus
-
-Begrippen in de domeinoverzichttabel hebben twee onafhankelijke classificaties: **begripstype** (kolom "Type") en **abstractieniveau** (impliciet in de beoordeling). Samen bepalen ze of een begrip een BO-kandidaat is en of een GGM-match verwacht wordt.
-
-#### Begripstypen (gemapt op ArchiMate)
-
-Elk begripstype correspondeert met een ArchiMate-elementtype. Dit geeft direct de architectuurlaag aan.
-
-| Begripstype | Omschrijving | ArchiMate-elementtype | BO-kandidaat? | GGM-match? |
-|---|---|---|---|---|
-| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd/geregistreerd | Business Object | Ja | Verwacht |
-| **instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja | Nee (governance-hiaat GGM) |
-| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role | Mogelijk | Deels (RSGB) |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) | Mogelijk | Deels (RSGB) |
-| **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
-| **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
-| **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
-
-**BO-filterlogica:**
-- **object** en **instrument** → BO-kandidaten (passive structure)
-- **actor** en **doelgroep** → mogelijk BO (active structure)
-- **thema**, **doel**, **waarde** → geen BO, wel context voor onderbouwing
-
-**GGM-terugmeldlogica:**
-- GGM-match verwacht maar afwezig → hiaat, terugmelden aan GGM
-- GGM-match niet verwacht → structureel buiten GGM-scope, geen terugmelding
-
-#### Abstractieniveaus
-
-| Niveau | Kernvraag |
-|---|---|
-| **operationeel** | Wordt dit concreet gebruikt/geregistreerd in processen? |
-| **beleidsmatig** | Is dit richtinggevend/strategisch? |
-
-De twee dimensies versterken elkaar:
-- `object` + `operationeel` → sterke BO-kandidaat, GGM-match verwacht
-- `instrument` + `operationeel` → BO-kandidaat (governance-object), GGM-hiaat verwacht
-- `object` + `beleidsmatig` → ongewone combinatie, nader bekijken
-- `doel` + `beleidsmatig` → verwacht, geen BO
-
-### Conventies voor wiki-pagina's
-
-- **Taal**: Nederlands, tenzij het een gevestigde Engelse term betreft (ArchiMate, business object).
-- **Bestandsnamen**: lowercase, woorden gescheiden door koppeltekens. Voorbeeld: `onroerende-zaak.md`, `gemeentelijk-belastinggebied.md`.
-- **Cross-references**: gebruik Obsidian `[[wiki-links]]` voor alle verwijzingen tussen pagina's.
-- **Citaten uit bronnen**: gebruik blockquotes (`>`) met bronvermelding.
-- **Mappingtabellen**: gebruik markdown-tabellen voor begrip → GGM → dataobject → bedrijfsobject mappings.
+**Rapportage:** Bevindingen als **genummerde lijst met voorgestelde fixes** per categorie (contradities, orphans, verouderd, etc.).
 
 ## Skills
 
@@ -569,46 +321,30 @@ Python-scripts in `tools/` voor XMI-verwerking. Worden aangeroepen door skills o
 | `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed XMI-JSON |
 | `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed XMI-JSON + wiki BO-pagina's |
 
-## index.md format
+## Citation & verification rules
 
-```markdown
-# Wiki Index
+Elke factische claim moet traceerbaar zijn naar zijn bron:
 
-## Domeinen
-- [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies (23 begrippen, 10 BO's)
-- ...
+1. **Refereer altijd naar bronbestanden** — geen ononderbouwde claims
+2. **Format:** Verwijs naar `[[Wiki/Bronsamenvattingen/{domein}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`
+3. **Bij tegenspraak:** Als twee bronnen het oneens zijn, documenteer beide en mark als `⚠️ Tegenspraak` in de BO-pagina
+4. **Zonder bron:** Mark als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen
+5. **BO-grondslag:** Elke BO moet via `bronnen` in frontmatter traceerbaar zijn naar bronsamenvattingen
+6. **GGM-matching:** Bij onzekere matches: mark als `ter discussie`, niet gokken
 
-## Bedrijfsobjecten
-- [[woz-object]] — Onroerende zaak voor WOZ-waardering (Domein: Belastingen)
-- ...
+Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar originele bronnen.
 
-## Bronsamenvattingen
-- [[belastingtypen]] — VNG: drie typen gemeentelijke belastingen
-- ...
+## Regels
 
-## Analyses
-- ...
-```
-
-## log.md format
-
-```markdown
-# Wiki Log
-
-## [2026-06-17] ingest | Belastingtypen
-- Bron: Sources/Belastingen/Belastingtypen.md
-- Bronsamenvatting: Bronsamenvattingen/Belastingen/belastingtypen.md
-- Domeinoverzicht bijgewerkt: 4 begrippen toegevoegd
-- BO's aangemaakt: —
-```
-
-## Belangrijke regels
-
-1. **Wijzig nooit bestanden in `Sources/`** — deze zijn immutabel.
-2. **Alle wiki-output gaat naar `Wiki/`** — houd de scheiding strikt.
-3. **Bespreek eerst, schrijf dan** — bij ingest altijd eerst de kernpunten bespreken met de gebruiker voordat pagina's worden aangemaakt.
-4. **Herleidbaarheid** — elk bedrijfsobject moet traceerbaar zijn naar bronsamenvattingen via het `bronnen`-veld in de frontmatter. De keten is: Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/.
-5. **Geen fantasie** — als een mapping naar het GGM onzeker is, markeer het als `ter discussie` in plaats van te gokken.
-6. **Incrementeel** — update bestaande pagina's in plaats van duplicaten te maken.
-7. **Update index en log** — na elke ingest of significante wijziging.
-8. **Gemeentelijk perspectief** — de wiki beschrijft wat de gemeente ziet, doet en registreert in de keten. Actoren en processen buiten de gemeentelijke scope (bijv. IND-procedures, COA-interne processen) worden benoemd als context maar niet als eigen begrip of bedrijfsobject uitgewerkt.
+1. **Wijzig nooit bestanden in `Sources/`** — deze zijn immutabel. (Bronnen zijn read-only.)
+2. **Alle wiki-output gaat naar `Wiki/`** — houd de scheiding strikt tussen bronnen en wiki.
+3. **Bespreek eerst, schrijf dan** — bij ingest altijd eerst de kernpunten bespreken met de gebruiker.
+4. **Herleidbaarheid** (zie Citation & verification rules) — elk BO traceerbaar naar bronsamenvattingen, elke factische claim naar bron.
+5. **Geen fantasie** — onzekere GGM-mapping markeren als `ter discussie`, niet gokken; elke aanname documenteren.
+6. **Incrementeel** — update bestaande pagina's, geen duplicaten; consolideer vergelijkbare concepten.
+7. **Update index en log** — na elke ingest of significante wijziging; zorg dat Wiki/index.md en Wiki/log.md actueel zijn.
+8. **Gemeentelijk perspectief** — de wiki beschrijft wat de gemeente ziet, doet en registreert. Externe actoren en processen zijn context, geen eigen begrip of BO.
+9. **Bestandsnamen** — lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); geen spaties of CAPITALS.
+10. **Duidelijke taal** — schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
+11. **Bij onzekerheid** — vraag aan de gebruiker hoe iets moet worden gecategoriseerd of behandeld; gok niet.
+12. **Geen retroactieve aannames** — als een pagina al bestaat, update deze in plaats van te gokken wat erin zou moeten staan; vraag eerst.

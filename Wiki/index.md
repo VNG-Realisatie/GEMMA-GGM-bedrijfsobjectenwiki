@@ -2,12 +2,14 @@
 
 ## Domeinen
 
+- [[bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
 - [[arbeidszaken]] — Gemeente als werkgever: HR, arbeidsvoorwaarden, integriteit (afgerond, 0 BO's)
 - [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies
 - [[financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[economie]] — Economisch beleid, ondernemersdienstverlening, arbeidsmarkt, bedrijfsruimte
 - [[inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, inkoop en aanbesteding, informatiestandaarden (RGBZ, ZTC2)
+- [[terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 
 ## Begrippen
 
@@ -109,6 +111,12 @@
 
 ## Bedrijfsobjecten
 
+### Bestuur (procesobjecten/governance-objecten, taakveld 0 — GGM-hiaten)
+- [[verkiezing]] — Periodieke vervangingskeuze van gekozen ambtsdragers (raad, kamer, waterschappen, europa)
+- [[referendum]] — Volksstemming over een onderwerp, ingesteld door raad of burgers
+- [[stembureau]] — Fysieke locatie voor stemming met registratie adres, capaciteit, toegankelijkheid
+- [[gemeenschappelijke-regeling]] — Publiekrechtelijke samenwerkingsconstructie op basis van Wgr
+
 ### Financien (GGM beleidsdomein, taakveld 9)
 - [[begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
 - [[taakveld]] — Samenhangend geheel van activiteiten en taken (IV3)
@@ -163,6 +171,17 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - `Sources/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein (taakveld 6): 35 entiteiten
 
 ## Bronsamenvattingen
+
+### Bestuur (VNG-rubrieken)
+- [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking]] — VNG: Wet gemeenschappelijke regelingen (Wgr), samenwerkingsvormen
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]] — VNG: voorbereiding raadsverkiezingen 2026, gemeentelijke taken
+- [[Wiki/Bronsamenvattingen/Bestuur/lokale-omroepen]] — VNG: rol gemeenten, stelselwijziging lokale media
+- [[Wiki/Bronsamenvattingen/Bestuur/rubriek-bestuur]] — VNG: raamwerk lokale democratie en bestuurlijke organisatie
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]] — VNG: gemeentelijke verantwoordelijkheid voor alle verkiezingen en referenda
+- [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie]] — VNG: initiatieven voor democratische vernieuwing
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet]] — VNG: agendapunten richting rijksoverheid
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers]] — VNG: informatiegidsen voor raadsleden
 
 ### Belastingen
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]] — VNG: drie typen gemeentelijke belastingen

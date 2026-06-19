@@ -1,8 +1,11 @@
 ---
 type: domein
 naam: Financien
+status: in-behandeling
+verwerkingsdatum: 2026-06-19
 bronnen_count: 4
 begrippen_count: 10
+bo_count: 10
 ---
 
 # Domein: Financiën
@@ -29,24 +32,31 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 
 ## Bedrijfsobjecten
 
-### Afgeleid van GGM-entiteiten (beleidsdomein Financien, taakveld 9)
-- [[begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
-- [[taakveld]] — Samenhangend geheel van activiteiten en taken (IV3)
-- [[doelstelling]] — Op korte of middellange termijn nagestreefde situatie
-- [[product]] — Resultaat van een proces dat waarde bezit
-- [[kostenplaats]] — Rekening waaraan boekingen worden toegeschreven
-- [[factuur]] — Schriftelijke rekening voor geleverde zaken of diensten
-- [[inkooporder]] — Opdracht voor levering van goederen en/of diensten
-- [[debiteur]] — Persoon die een bedrag verschuldigd is
-- [[activa]] — Bezittingen op de boekhoudkundige balans
-- [[werkorder]] — Opdracht voor uitvoering van een activiteit
+| Begrip | Status | GGM-grondslag | Matchsterkte |
+|---|---|---|---|
+| [[begroting]] | ✅ BO | Begroting (Financien) | exact |
+| [[kostenplaats]] | ✅ BO | Kostenplaats (Financien) | exact |
+| [[factuur]] | ✅ BO | Factuur (Financien) | exact |
+| [[inkooporder]] | ✅ BO | Inkooporder (Financien) | exact |
+| [[debiteur]] | ✅ BO | Debiteur (Financien) | exact |
+| [[taakveld]] | ✅ BO | Taakveld (IV3) | exact |
+| [[doelstelling]] | ✅ BO | Doelstelling (Financien) | exact |
+| [[product]] | ✅ BO | Product (Financien) | exact |
+| [[activa]] | ✅ BO | Activa (Financien) | sterk |
+| [[werkorder]] | ✅ BO | Werkorder (Financien) | exact |
 
-## GGM-mapping
+## GGM-dekkingsanalyse
 
-Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie) met 24 entiteiten. De boekhoudkundige kant (begroting, kostenplaats, factuur) is goed gedekt. Wat ontbreekt:
-- De begrotingscyclus als proces
-- Financiële kengetallen als afgeleide informatie
-- De inkomstenbronstructuur (gemeentefonds, uitkeringen)
+Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie) met 24 entiteiten.
+
+| GGM-domein | Entiteiten | Status |
+|---|---|---|
+| **Taakveld 9 Interne Organisatie / Financien** | Begroting, Kostenplaats, Factuur, Inkooporder, Debiteur, Taakveld, Doelstelling, Product, Activa, Werkorder (24 entiteiten totaal) | 10 → BO (boekhoudkundige kern is goed gedekt) |
+
+**Hiaten in GGM:**
+- De begrotingscyclus als proces (kadernota → begroting → tussenrapportage → jaarrekening)
+- Financiële kengetallen als afgeleide informatie (solvabiliteitsratio, netto-schuldquote)
+- De inkomstenbronstructuur (gemeentefonds, specifieke uitkering)
 
 ## Verwerkte bronnen
 

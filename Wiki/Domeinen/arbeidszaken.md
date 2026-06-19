@@ -12,6 +12,32 @@ bo_count: 0
 
 De gemeente als werkgever — arbeidsvoorwaarden, arbeidsomstandigheden, integriteit, rechtspositie politieke ambtsdragers, en de gemeentelijke aanpak van arbeidsmarktkrapte.
 
+## Begrippen
+
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| arbeidsmarktkrapte | thema | Aanbod arbeid lager dan vraag; knelpunt gemeentelijk werving | ❌ | Beleidsmatig, geen object | Tekort sociale work, engineers | nee |
+| P&O-beleid | instrument | Beleid rond personeels- en organisatieontwikkeling | ❌ | Governance, geen object | Diversiteit, inclusie, mobiliteit | nee |
+| arbeidsvoorwaarden | thema | Collectieve regelingen, cao-afspraken voor medewerkers | ❌ | Beleidsmatig, geen object | Pensioen (ABP), zorgverzekering | nee |
+| gedragscode | instrument | Normen voor integriteit en ethisch gedrag | ❌ | Governance, geen object | Gedragscode gemeenten | nee |
+| integriteitsbeleid | thema | Cultuur en regelgeving rond eerlijkheid en integriteit | ❌ | Governance, geen object | Fraude, belangenverstrengeling | nee |
+| rechtspositieregeling | instrument | Regeling rechtspositie burgemeester, wethouders, raadsleden | ❌ | Governance, geen object | Rechtspositieregeling burgemeester | nee |
+| cao-gemeenten | instrument | Collectieve arbeidsovereenkomst voor lokaal overheden | ❌ | Instrument, externe afspraak | CAO gemeenten, HR21 | nee |
+| arbeidsmigranten | doelgroep | Arbeiders uit het buitenland; derde land of EU | ❌ | Doelgroep, niet object | Pools werker, loonvoorkamer | nee |
+| werk-voor-arbeidsbeperkten | thema | Programma banen voor mensen met arbeidsbeperkingen | ❌ | Programma, geen object | Banenafspraak, Cao Aan de Slag | nee |
+| gemeentelijk werkgever | actor | De gemeente in haar rol als werkgever | ❌ | Rol/organisatie, geen registratie-object | — | nee |
+| medewerker | actor | Persoon werkzaam bij de gemeente | ❌ | Rol van persoon, geen apart object | — | ja (via organisatie) |
+
+## GGM-dekkingsanalyse
+
+Het GGM modelleert geen apart taakveld "Arbeidszaken". HR en personeelsbeheer vallen onder taakveld 9 (Interne Organisatie) als onderdeel van organisatiebeheer, niet als eigen beleidsdomein.
+
+| GGM-domein | Entiteiten | Status |
+|---|---|---|
+| **Taakveld 9 Interne Organisatie** | Organisatie, Medewerker, Rol (personeelsbeheer als onderdeel) | Medewerker is voornamelijk boekhoudkundig, niet HR-strategisch |
+
+**Structureel hiaat:** arbeidszaken is een beleidsdomein (cao-beleid, arbeidsmarktbeleid, integriteitsbeleid) maar geen informatieobjectdomein. Het GGM modelleert data-objecten, niet beleid of governance. Terugmelding naar GGM: is arbeidszaken een taakveld dat zou moeten worden gemodelleerd?
+
 ## Conclusie
 
 Geen bedrijfsobjecten. Dit domein betreft interne organisatie en HR-governance: cao's, gedragscodes, rechtspositieregelingen, personeelsbeleid. Dit zijn instrumenten en thema's die structureel buiten GGM-scope vallen (het GGM modelleert data-objecten, geen governance of HR). Er zijn geen GGM-entiteiten voor dit domein en geen terugmeldingen nodig.

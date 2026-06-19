@@ -1,5 +1,32 @@
 # Wiki Log
 
+## [2026-06-19] reconsider | Bestuur — GGM-hiaten hergeclassificeerd
+- Feedback: GGM-scope is dataobjecten (wat gemeenten registreren), niet processen (hoe werk verloopt)
+- **Herclassificatie:**
+  - **Verkiezing** en **Referendum**: Processen, niet dataobjecten → **geen terugmelding** naar GGM (structureel uit scope)
+  - **Stembureau**: Registratieobject (fysieke locaties met capaciteit) → **wel terugmelding** (dataobject, pakt in GGM-scope)
+  - **Gemeenschappelijke Regeling**: Juridische entiteit met registreerbare eigenschappen → **wel terugmelding** (dataobject, pakt in GGM-scope)
+- BO-pagina's bijgewerkt met uitleg waarom sommige processen zijn (en dus niet in GGM-scope)
+- [[Wiki/Analyses/ggm-terugmeldingen]] bijgewerkt: 4 items → 2 items (alleen Stembureau en GR als potentiële hiaten)
+
+## [2026-06-19] ingest | Bestuur — 4 BO's aangemaakt
+- Bronnen: 9 VNG-onderwerpenpagina's (rubriek + 8 onderwerpen)
+- Directory: Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/
+- 4 BO's aangemaakt — grondslag: procesobject/governance-object (geen GGM-grondslag)
+  - **Verkiezing** (procesobject) — periodieke vervangingskeuze ambtsdragers; 6/6 criteria
+  - **Referendum** (procesobject) — volksstemming; 6/6 criteria
+  - **Stembureau** (procesobject, maar dataobject-karakter) — fysieke locatie stemming; 6/6 criteria
+  - **Gemeenschappelijke Regeling** (governance-object, maar dataobject-karakter) — Wgr-samenwerkingsconstructie; 6/6 criteria
+- 9 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Bestuur/
+- Domeinoverzicht aangemaakt met status: afgerond (na herclassificatie)
+- Index en log bijgewerkt
+
+## [2026-06-19] lint & fixes | Wiki lint-issues opgelost
+- **Wees-BO's:** domeinoverzicht Terug-en-invordering aangemaakt voor 7 BO's (aflossing, aflossingsplan, afschrijving, interventie, kwijtschelding, restitutie, vordering)
+- **Herleidbaarheid:** MAP.md voorzien van bronnen-veld (Asiel en Integratie/vng-inburgering)
+- **Enum-validatie:** bestuursovereenkomst.md archimate_type gecorrigeerd (contract → business-object)
+- Index bijgewerkt met Terug-en-invordering domeinoverzicht
+
 ## [2026-06-19] bedrijfsobjecten | Asiel en Integratie — 15 BO's aangemaakt
 - Directory: Wiki/Bedrijfsobjecten/Asiel-en-Integratie/
 - 13 BO's met grondslag ggm-entiteit (GGM beleidsdomein Inburgering, taakveld 6): Asielstatushouder, Gezinsmigrant, Brede Intake, PIP, Inburgeringstraject, Leerroute, Inburgeringsplicht, Examen, Inburgeringsaanbod, Inburgeringstermijn, MAP, PVT, Voorbereiding op Inburgering

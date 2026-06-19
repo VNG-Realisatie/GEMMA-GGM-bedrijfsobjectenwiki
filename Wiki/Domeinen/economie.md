@@ -1,8 +1,11 @@
 ---
 type: domein
 naam: Economie
+status: in-behandeling
+verwerkingsdatum: 2026-06-19
 bronnen_count: 1
 begrippen_count: 9
+bo_count: 1
 ---
 
 # Domein: Economie
@@ -34,7 +37,20 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 
 ## Bedrijfsobjecten
 
-Nog geen bedrijfsobjecten aangemaakt voor dit domein. De GGM-entiteiten (Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak) zijn kandidaten maar nog niet als bedrijfsobject uitgewerkt.
+| Begrip | Status | GGM-grondslag | Matchsterkte |
+|---|---|---|---|
+| [[werklocatie]] | ✅ BO | Vestiging (RSGB) | partieel |
+
+## GGM-dekkingsanalyse
+
+Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein "Model Economie":
+
+| GGM-domein | Entiteiten | Status |
+|---|---|---|
+| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Alleen Vestiging → werklocatie |
+| **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging-grondslag voor werklocatie |
+
+**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie.
 
 ## Verwerkte bronnen
 

@@ -16,6 +16,8 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 1 | Asiel en Integratie | — | hiaat | Asielopvangfase volledig ontbreekt in GGM (opvanglocatie, bestuursovereenkomst, exploitatievorm) | open |
 | 2 | Asiel en Integratie | Gezinsmigrant en Overige migrant | definitie | GGM-definitie is modelbeschrijving ("Object Inburgeraar is gespecialiseerd in..."), geen begripsdefinitie | open |
 | 3 | Asiel en Integratie | Inburgeringsplicht | definitie | GGM-definitie is technische beschrijving ("Bevat de uitkomst Leerbaarheidstoets..."), geen begripsdefinitie | open |
+| 4 | Bestuur | Stembureau | hiaat | Registratieobject voor fysieke locaties waar stemmingen plaatsvinden (adres, capaciteit, toegankelijkheid); dataobject vergelijkbaar met BAG-locatie maar met verkiezings-specifieke properties | open |
+| 5 | Bestuur | Gemeenschappelijke Regeling | hiaat | Registratieobject voor juridische samenwerkingsentiteiten (Wgr) met eigen bestuur, personeelssterkte, begroting, deelnemers; dataobject zou onder Bestuur of Interne Organisatie passen | open |
 
 ## Typen
 

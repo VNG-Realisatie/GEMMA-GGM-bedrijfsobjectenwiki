@@ -1,8 +1,11 @@
 ---
 type: domein
 naam: Dienstverlening
+status: in-behandeling
+verwerkingsdatum: 2026-06-19
 bronnen_count: 2
 begrippen_count: 8
+bo_count: 4
 ---
 
 # Domein: Dienstverlening
@@ -35,7 +38,24 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 
 ## Bedrijfsobjecten
 
-*(Nog geen bedrijfsobjecten aangemaakt voor dit domein. De GGM-entiteiten in RGBZPlus — Zaak, Status, Besluit, Document, Betrokkene — zijn kandidaten.)*
+| Begrip | Status | GGM-grondslag | Matchsterkte |
+|---|---|---|---|
+| [[zaaktypecatalogus]] | ✅ BO | CATALOGUS (ZTC2) | partieel |
+| [[informatieobject]] | ✅ BO | Document (RGBZPlus) | sterk |
+| [[zaakdossier]] | ✅ BO | Zaak (RGBZPlus) | sterk |
+| [[resultaattype]] | ✅ BO | RESULTAATTYPE (ZTC2) | exact |
+
+## GGM-dekkingsanalyse
+
+Het GGM modelleert dienstverlening in twee delen:
+
+| GGM-domein | Entiteiten | Status |
+|---|---|---|
+| **RGBZPlus / Taakveld 99 Kern** | Zaak, Status, Besluit, Document, Betrokkene, Medewerker (25 entiteiten totaal) | 3 → BO (zaakdossier, informatieobject, resultaattype) |
+| **Taakveld 10 Dienstverlening** | Melding, Aanvraag, Baliecontact, TelefonischContact, DigitaleInteractie | Niet als GGM-bronbestand beschikbaar; content nog te extraheren |
+| **ZTC2 Configuratie** | CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJECTTYPE | Niet in GGM; externe standaard |
+
+**Hiaat:** zaaktypecatalogus (grondslag CATALOGUS) is geen GGM-entiteit in de huiswerking van het model.
 
 ## Informatiestandaarden
 

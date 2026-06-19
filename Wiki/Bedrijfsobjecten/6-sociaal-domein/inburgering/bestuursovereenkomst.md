@@ -2,7 +2,7 @@
 type: bedrijfsobject
 naam: Bestuursovereenkomst
 domein: [Asiel en Integratie]
-archimate_type: contract
+archimate_type: "business-object"
 grondslag: "governance-object"
 ggm_entiteit: ""
 ggm_beleidsdomein: ""
