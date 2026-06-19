@@ -49,7 +49,23 @@ Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle beg
   - **Voorbeelden**: concrete instanties
   - **GGM**: ja/nee — heeft dit begrip een GGM-entiteit
 
-- **GGM-dekkingsanalyse**: welke GGM-entiteiten zijn BO, welke niet, welke ontbreken
+- **GGM-entiteitendekking** — overzichtstabel per GGM-beleidsdomein dat bij dit domein hoort:
+
+```markdown
+| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
+|---|---|---|---|---|---|
+| Monumenten | 6 | 1 | 5 | 0 | — |
+| Archief | 8 | 1 | 4 | 3 | Geen beleidsbron over archieflogistiek |
+| Archeologie | 17 | 0 | 0 | 17 | Geen beleidsbron; opgravingsdetails vermoedelijk te granulair |
+```
+
+  - **BO**: entiteit is als bedrijfsobject opgenomen
+  - **Niet-BO**: entiteit is beoordeeld maar is geen BO (te granulair, classificatie, opslaglogistiek, etc.)
+  - **Niet beoordeeld**: entiteit is niet beoordeeld omdat er geen beleidsbron voor is gevonden — dit zijn potentiële BO's die bij toekomstige bronnen alsnog beoordeeld moeten worden
+
+  Deze tabel maakt zichtbaar waar de wiki **bewust onvolledig** is: veel GGM-entiteiten kunnen pas beoordeeld worden als er domeinspecifieke bronnen worden toegevoegd.
+
+- **GGM-dekkingsanalyse**: proza-toelichting bij de tabel — welke patronen, welke subdomeinen zijn goed/slecht gedekt, structurele observaties
 - **Verwerkte bronnen**: lijst met wiki-links naar [[Wiki/Bronsamenvattingen/{domein}/{slug}|bronsamenvattingen]]
 - **Nog te verwerken bronnen**: lijst naar Sources/-bestanden (markdown-links)
 - **Openstaande vragen of hiaten**

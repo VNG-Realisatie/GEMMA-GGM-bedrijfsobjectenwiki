@@ -10,6 +10,7 @@
 - [[inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, inkoop en aanbesteding, informatiestandaarden (RGBZ, ZTC2)
 - [[terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
+- [[cultuur]] — Kunst, cultuur en erfgoed: monumenten, archieven, musea, cultuurbeleid (afgerond, 3 BO's)
 
 ## Begrippen
 
@@ -159,6 +160,13 @@
 - [[restitutie]] — Terugbetaling van te veel ontvangen aflossing
 - [[interventie]] — Escalatie bij achterblijvende aflossingen
 
+### Cultuur — Erfgoed (GGM beleidsdomein Erfgoed/Monumenten, taakveld 5)
+- [[monument]] — Beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
+- [[archiefstuk]] — Gearchiveerde informatie, beheerd door gemeentearchief
+
+### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
+- [[museumobject]] — Object met cultuurhistorische waarde in museale collectie
+
 ## GGM (referentie — zie Sources/GGM/)
 
 De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM/`:
@@ -219,6 +227,13 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Inburgering en Asielopvang
 - [[asielopvangwijzer]] — COA: portaalpagina asielopvang voor gemeenten
 - [[coa-dienstverleningsgids]] — COA: taakverdeling en dienstverlening (januari 2026)
+
+### Cultuur
+- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur|Kunst en cultuur]] — VNG: overzicht cultuurbeleid
+- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur|Propositie Samen cultuur borgen]] — VNG: propositie vier pijlers cultuurbeleid
+- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed|Architectuur en erfgoed]] — VNG: erfgoed, monumenten, archeologie
+- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG: bibliotheekwerk als gemeentelijke taak
+- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel]] — VNG: actualisering ringenmodel 2.0
 
 ## Analyses
 

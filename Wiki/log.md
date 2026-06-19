@@ -1,5 +1,18 @@
 # Wiki Log
 
+## [2026-06-19] ingest | Cultuur — 3 BO's aangemaakt
+- Bronnen: 5 VNG-onderwerpenpagina's (kunst-en-cultuur, propositie-cultuur, architectuur-en-erfgoed, bibliotheekwerk, toelichting-ringenmodel)
+- Directory: Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/ en musea/
+- 3 BO's aangemaakt — grondslag: ggm-entiteit (alle exact match)
+  - **Monument** (= GGM Beschermde Status, beleidsdomein Monumenten) — beschermd onroerend erfgoed
+  - **Archiefstuk** (beleidsdomein Archief) — gearchiveerde informatie, gemeentearchief
+  - **Museumobject** (beleidsdomein Musea) — object met cultuurhistorische waarde in museale collectie
+- 5 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Cultuur/
+- Domeinoverzicht aangemaakt met status: afgerond (18 begrippen, 3 BO's)
+- GGM-dekkingsanalyse: Erfgoed (44 ent.) en Musea (32 ent.) goed gedekt; cultuurbeleid structureel buiten GGM (governance)
+- Geen terugmeldingen richting GGM
+- Index en log bijgewerkt
+
 ## [2026-06-19] reconsider | Bestuur — GGM-hiaten hergeclassificeerd
 - Feedback: GGM-scope is dataobjecten (wat gemeenten registreren), niet processen (hoe werk verloopt)
 - **Herclassificatie:**
