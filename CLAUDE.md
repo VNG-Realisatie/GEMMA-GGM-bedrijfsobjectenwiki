@@ -53,6 +53,9 @@ Bedrijfsarchitectuur/
 │   ├── GGM/               # leesbare representatie van het Gemeentelijk Gegevensmodel
 │   │   ├── structuur-ggm.md
 │   │   └── {taakveld}/    # per taakveld, evt. met index.md en bestanden per beleidsdomein
+│   ├── GGM-repository/    # GGM-bronbestanden en geparsede data
+│   │   ├── Gemeentelijk Gegevensmodel XMI2.1.xml  # XMI-bron (alleen bij nieuwe release)
+│   │   └── ggm_parsed.json   # geparsed XMI — gebruik dit voor GUIDs, GEMMA-tags, relaties
 │   └── {domein}/          # overige bronnen per domein
 ├── Wiki/
 │   ├── index.md           # inhoudelijk overzicht van alle wiki-pagina's
@@ -313,13 +316,19 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 ## Tools
 
-Python-scripts in `tools/` voor XMI-verwerking. Worden aangeroepen door skills of handmatig.
+Python-scripts in `tools/` voor XMI-verwerking.
 
 | Tool | Functie |
 |---|---|
-| `parse_ggm_xmi.py` | Parse GGM XMI → JSON met entiteiten, relaties, packages, diagrammen |
-| `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed XMI-JSON |
-| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed XMI-JSON + wiki BO-pagina's |
+| `parse_ggm_xmi.py` | Parse GGM XMI → JSON; schrijft naar `Sources/GGM-repository/ggm_parsed.json`. Alleen draaien bij nieuwe GGM-release. |
+| `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed JSON |
+| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's |
+
+### GGM-data gebruiken
+
+- **Voor domeinbegrip** (entiteiten, definities, relaties): lees `Sources/GGM/{taakveld}/`
+- **Voor technische metadata** (GUIDs, GEMMA-tags, diagram-IDs): lees `Sources/GGM-repository/ggm_parsed.json`
+- **XMI niet direct lezen** — alleen via de parser bij een nieuwe GGM-release
 
 ## Citation & verification rules
 

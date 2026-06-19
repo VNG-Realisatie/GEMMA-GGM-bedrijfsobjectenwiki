@@ -349,7 +349,9 @@ def _write_csv(path: Path, rows: list[dict]):
 
 
 def main():
-    json_path = sys.argv[1] if len(sys.argv) > 1 else '/tmp/ggm_parsed.json'
+    base = Path(__file__).resolve().parent.parent
+    default_json = base / 'Sources' / 'GGM-repository' / 'ggm_parsed.json'
+    json_path = sys.argv[1] if len(sys.argv) > 1 else str(default_json)
     if not Path(json_path).exists():
         print(f"Error: {json_path} not found. Run parse_ggm_xmi.py first.", file=sys.stderr)
         sys.exit(1)

@@ -254,8 +254,9 @@ def main():
     dry_run = '--dry-run' in sys.argv
 
     base = Path(__file__).resolve().parent.parent
+    default_json = base / 'Sources' / 'GGM-repository' / 'ggm_parsed.json'
     json_path = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('-') \
-        else '/tmp/ggm_parsed.json'
+        else str(default_json)
 
     data = load_xmi_data(json_path)
     entity_lookup = build_entity_lookup(data)

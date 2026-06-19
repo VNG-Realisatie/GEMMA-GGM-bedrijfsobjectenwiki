@@ -448,9 +448,11 @@ def _clean_tag_value(value: str) -> str:
 
 
 def main():
+    base = Path(__file__).resolve().parent.parent
+    repo_dir = base / 'Sources' / 'GGM-repository'
+
     if len(sys.argv) < 2:
-        base = Path(__file__).resolve().parent.parent
-        xmi_path = base / 'Sources' / 'Gemeentelijk Gegevensmodel XMI2.1.xml'
+        xmi_path = repo_dir / 'Gemeentelijk Gegevensmodel XMI2.1.xml'
     else:
         xmi_path = Path(sys.argv[1])
 
@@ -474,7 +476,10 @@ def main():
     print(f"Diagrams: {diag_count}", file=sys.stderr)
     print(f"Packages: {pkg_count}", file=sys.stderr)
 
-    json.dump(data, sys.stdout, ensure_ascii=False, indent=2)
+    output_path = repo_dir / 'ggm_parsed.json'
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"Written to {output_path}", file=sys.stderr)
 
 
 if __name__ == '__main__':
