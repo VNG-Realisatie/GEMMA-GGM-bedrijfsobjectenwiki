@@ -9,31 +9,10 @@ tags:
   - "maatschappelijke ondersteuning"
 ---
 
-# Maatschappelijke ondersteuning en zorg | VNG
+# Maatschappelijke ondersteuning en zorg
 
-## Main Content
+De VNG richt zich op het slagen van de transformatie in het sociaal domein, met nadruk op het bevorderen van maatschappelijke integratie en participatie van inwoners.
 
-De VNG focuses on social support and care, emphasizing that "decentralisaties in het sociaal domein zijn goed verlopen" and the goal is now to ensure successful transformation while promoting citizen participation.
+De organisatie streeft naar meer gebruik van de eigen kracht van inwoners en hun sociale netwerken. Het accent verschuift van aanbodgericht denken naar behoeftengerichtheid, met aandacht voor preventie en een brede benadering van zorgverlening. Het uiteindelijke doel is het creëren van algemene voorzieningen en inclusief beleid voor alle inwoners.
 
-### VNG's Position
-
-The organization advocates for strengthening residents' own capabilities and their social networks. Their approach emphasizes understanding resident needs rather than supply-driven thinking, with attention to prevention and comprehensive care strategies. The ultimate aim is establishing inclusive policies and general provisions for all citizens.
-
-### Related Topics
-
-The page lists 13 key subject areas including homelessness intervention, WMO (Social Support Act) implementation, child abuse prevention, reintegration of ex-detainees, and volunteer work support.
-
-### Recent News
-
-Featured articles cover policy differences for people with disabilities, housing-first initiatives, adaptive sports, and suicide prevention toolkits.
-
-### Projects & Services
-
-Three main initiatives are highlighted:
-- **Gemeentelijke Monitor Sociaal Domein** - tracking municipal social care responsibilities
-- **Gemeentezorgspiegel** - data analysis tool for healthcare insights
-- **PGB 2.0** - updated personal budget system
-
-### Additional Resources
-
-The page offers training programs on housing and care, discussion forums addressing topics like informal caregiving support, and access to municipality-specific data through waarstaatjegemeente.nl.
+Via de Gezamenlijke Gemeentelijke Uitvoering (GGU) werkt de VNG samen met gemeenten aan versterking van dienstverlening door gezamenlijke inkoop, ontwikkeling van nieuwe producten en afspraken over standaarden.

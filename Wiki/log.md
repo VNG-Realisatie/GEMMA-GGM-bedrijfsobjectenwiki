@@ -1,5 +1,27 @@
 # Wiki Log
 
+## [2026-06-19] bedrijfsobjecten | Asiel en Integratie — 15 BO's aangemaakt
+- Directory: Wiki/Bedrijfsobjecten/Asiel-en-Integratie/
+- 13 BO's met grondslag ggm-entiteit (GGM beleidsdomein Inburgering, taakveld 6): Asielstatushouder, Gezinsmigrant, Brede Intake, PIP, Inburgeringstraject, Leerroute, Inburgeringsplicht, Examen, Inburgeringsaanbod, Inburgeringstermijn, MAP, PVT, Voorbereiding op Inburgering
+- 1 procesobject zonder GGM: Opvanglocatie (asielopvang structureel niet gemodelleerd in GGM)
+- 1 governance-object zonder GGM: Bestuursovereenkomst (contract, overeenkomst gemeente-COA)
+- Alle 13 GGM-matches: matchsterkte exact
+- GGM-entiteiten geaggregeerd in BO's: B1-route en Z-route → classificatie van Leerroute; Examenonderdeel → detail van Examen; Ontheffing en Vrijstelling → status van Inburgeringsplicht; Aanvraag verlenging → processtap van Inburgeringstermijn
+- Index bijgewerkt met sectie Asiel en Integratie
+
+## [2026-06-19] ingest | Arbeidszaken — CvA-bronnen toegevoegd
+- Bronnen: College voor Arbeidszaken.md, cva-beleidsplan_2023-2026.md (verplaatst uit opgeheven folder Bedrijfsvoering)
+- 2 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Arbeidszaken/
+- Conclusie ongewijzigd: 0 BO's, bronnen bevestigen governance/instrument-karakter domein
+- Domeinoverzicht bijgewerkt: bronnen_count 9 → 11
+
+## [2026-06-19] ingest | Arbeidszaken — domein afgerond (0 BO's)
+- Bronnen: 9 VNG-onderwerpenpagina's (rubriek + 8 onderwerpen)
+- Conclusie: geen BO's — domein betreft gemeente als werkgever, structureel buiten GGM-scope
+- Alle bronnen zijn instrumenten (cao, gedragscode, rechtspositieregeling) en thema's (arbeidsmarktkrapte, integriteitsbeleid)
+- Geen begrippenpagina's aangemaakt (geen BO-kandidaten)
+- Domeinoverzicht aangemaakt met status: afgerond
+
 ## [2026-06-18] ingest | RGBZ 1.0 en ZTC2 v2.1 — domein Dienstverlening
 - Bronnen: RGBZ 1.0 (KING, 2010), GEMMA ZTC2 Informatiemodel v2.1 (KING, 2014)
 - Clippings verplaatst van Clippings/ naar Sources/Standaarden/

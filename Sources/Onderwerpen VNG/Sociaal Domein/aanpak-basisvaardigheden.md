@@ -9,32 +9,10 @@ tags:
   - "sociaal domein"
 ---
 
-# Aanpak basisvaardigheden | VNG
+# Aanpak basisvaardigheden
 
-## Main Content
+Eén op de vijf Nederlandse volwassenen ondervindt problemen met essentiële competenties zoals lezen, schrijven, rekenen en digitale vaardigheden. Door het Interbestuurlijk Programma werken gemeenten en het Rijk gezamenlijk aan ondersteuning voor deze groep. De aanpak omvat preventieve maatregelen en financiering voor educatieve initiatieven en digitale inclusie.
 
-One in five Dutch adults struggle with foundational skills including literacy, numeracy, and digital competencies. Through the Intergovernmental Programme (IBP), municipalities and the national government collaborate to support these individuals, while also focusing on prevention efforts. Funding is available for educational programs and digital inclusion initiatives, with additional subsidies distributed through the "Tel mee met taal" programme.
+Gemeenten kunnen via de Wet Educatie Beroepsonderwijs educatieaanbod voor volwassenen inschakelen. Dit richt zich op basisvaardigheden in taal, rekenen en digitalisering. Er zijn subsidies beschikbaar voor samenwerkingsverbanden en programma's als "Tel mee met Taal" ondersteunen werknemers en ouders met lagere taalvaardigheid.
 
-## Municipal Approaches to Low Literacy
-
-The city of Breda demonstrates practical solutions through language courses and accessible communication strategies. A featured case study highlights how one resident, Jaco, can now read to his children following participation in these programmes.
-
-## Key Resources
-
-Education providers serving adult learners include:
-- Regional training centres (ROCs) coordinated through the MBO Council
-- Private trainers holding NRTO certification
-- Language centres (Taalhuizen)
-- The "Kunst van Lezen" initiative
-
-## VNG Position
-
-The VNG has suspended administrative agreements on low literacy due to "insufficient national funding and rising bureaucratic requirements." However, the organization remains committed to restarting these efforts and is actively negotiating with the national government regarding continued support.
-
-## Supporting Organizations
-
-- Stichting Lezen en Schrijven
-- Expertise Centre for Basic Skills
-- National "Tel mee met Taal" programme
-- Stichting Lezen
-- Stichting ABC
+De VNG benadrukt het belang van deze aanpak voor inwoners met onvoldoende basisvaardigheden, hoewel zij signaleert dat onvoldoende rijksmiddelen en toenemende bureaucratie de inspanningen bemoeilijken.

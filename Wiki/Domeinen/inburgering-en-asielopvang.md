@@ -1,20 +1,63 @@
 ---
 type: domein
-naam: Inburgering en Asielopvang
-bronnen_count: 2
+naam: Asiel en Integratie
+status: afgerond
+verwerkingsdatum: 2026-06-19
+bronnen_count: 6
 begrippen_count: 11
+bo_count: 15
 ---
 
-# Domein: Inburgering en Asielopvang
+# Domein: Asiel en Integratie
 
 Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang van asielzoekers tot inburgering van statushouders. De scope is wat de gemeente ziet, doet en registreert. Processen van ketenpartners (COA, IND, DT&V, AVIM, Nidos) worden benoemd als context maar niet als eigen bedrijfsobject uitgewerkt.
 
+## Conclusie
+
+15 bedrijfsobjecten vastgesteld: 13 met GGM-grondslag (exact match, beleidsdomein Inburgering), 2 zonder GGM (asielopvangfase). Het GGM modelleert het Wi2021-inburgeringstraject zeer gedetailleerd (35 entiteiten); daarvan zijn 13 bedrijfsobjecten, 18 zijn geaggregeerd als attributen/details, en 4 zijn classificaties of abstracte entiteiten. De asielopvangfase valt structureel buiten het GGM — dit is een hiaatbevinding.
+
 ## Twee fasen
 
-Het domein omvat twee opeenvolgende fasen:
+1. **Asielopvang** — de gemeente faciliteert opvanglocaties en kan bij duurzame gemeentelijke opvang ook exploiteren. **2 BO's, geen GGM-dekking.**
+2. **Inburgering** — na vergunningverlening begeleidt de gemeente de inburgeraar conform Wi2021. **13 BO's, volledige GGM-dekking.**
 
-1. **Asielopvang** — de gemeente faciliteert opvanglocaties (vergunning, onderwijs, openbare orde) en kan bij duurzame gemeentelijke opvang ook exploiteren
-2. **Inburgering** — na vergunningverlening en kansrijke koppeling begeleidt de gemeente de statushouder in het inburgeringstraject conform Wi2021
+## Bedrijfsobjecten
+
+### Inburgering (GGM beleidsdomein Inburgering, taakveld 6)
+
+| BO | GGM-entiteit | Matchsterkte |
+|---|---|---|
+| [[asielstatushouder]] | Asielstatushouder | exact |
+| [[gezinsmigrant]] | Gezinsmigrant en Overige migrant | exact |
+| [[brede-intake]] | Brede Intake | exact |
+| [[pip]] | PIP | exact |
+| [[inburgeringstraject]] | Inburgeringstraject | exact |
+| [[leerroute]] | Leerroute | exact |
+| [[inburgeringsplicht]] | Inburgeringsplicht | exact |
+| [[examen]] | Examen | exact |
+| [[inburgeringsaanbod]] | InburgeringsAanbod | exact |
+| [[inburgeringstermijn]] | Inburgeringstermijn | exact |
+| [[map]] | MAP | exact |
+| [[pvt]] | PVT | exact |
+| [[voorbereiding-op-inburgering]] | Voorbereiding op Inburgering | exact |
+
+### Asielopvang (geen GGM)
+
+| BO | Grondslag | Reden geen GGM |
+|---|---|---|
+| [[opvanglocatie]] | procesobject | Asielopvang structureel niet gemodelleerd in GGM |
+| [[bestuursovereenkomst]] | governance-object | Governance-objecten vallen buiten GGM-scope |
+
+## GGM-dekkingsanalyse
+
+**35 GGM-entiteiten beoordeeld:**
+- 13 → BO (zie tabel hierboven)
+- 4 → classificatie/abstract: Inburgeraar (abstract, specialisaties zijn BO), Vreemdeling (te generiek), B1-route (type van Leerroute), Z-route (type van Leerroute)
+- 18 → attribuut/detail van ander BO: Aandachtspunt, Ontwikkelwens, Subdoel Aandachtspunt, Subdoel Ontwikkelwens, Hoofddoel, Taalvaardigheid, ICT-Vaardigheid (→ details van PIP/Brede Intake); Examenonderdeel (→ detail van Examen); Ontheffing, Vrijstelling, Verlengingsgrond (→ status van Inburgeringsplicht); Aanvraag verlenging Inburgeringstermijn (→ processtap); Diplomawaardering, Educatie, Werk, Training (→ achtergrondinformatie); Verblijfplaats AZC (→ locatiegegeven); Introductiemodule (→ onderdeel Voorbereiding)
+
+**Generalisatiekeuze:** Inburgeraar (abstract) → twee aparte BO's: Asielstatushouder en Gezinsmigrant. Reden: verschillende instroom, ander voortraject (voorinburgering alleen bij asiel), andere koppelingsroute.
+
+**Terugmelding GGM:** asielopvangfase ontbreekt volledig — opvanglocatie, bestuursovereenkomst en exploitatievorm zijn niet gemodelleerd.
 
 ## Begrippen
 
@@ -38,22 +81,17 @@ Het domein omvat twee opeenvolgende fasen:
 - [[opvanglocatie]] — fysieke locatie voor opvang, in diverse vormen
 - [[inhuisregistratie]] — wekelijkse aanwezigheidscontrole op locatie
 
-## Bedrijfsobjecten
-
-Nog niet uitgewerkt. GGM-beleidsdomein Inburgering (35 entiteiten, taakveld 6 Sociaal Domein) is beschikbaar als referentie in Sources/GGM/6-sociaal-domein/inburgering.md. De GGM-mapping wordt gemaakt zodra het model compleet genoeg is.
-
 ## Verwerkte bronnen
 
 - [[asielopvangwijzer]] — COA portaalpagina voor gemeenten
 - [[coa-dienstverleningsgids]] — COA taakverdeling en dienstverlening (januari 2026)
+- [[vng-asielopvang]] — VNG onderwerpenpagina asielopvang
+- [[vng-inburgering]] — VNG onderwerpenpagina inburgering
+- [[vng-opvang-oekraine]] — VNG onderwerpenpagina Oekraïense ontheemden
+- [[vng-rubriek-asiel]] — VNG rubriekpagina asiel tot integratie
 
-## GGM-referentie
+## Raakvlakken
 
-Het GGM modelleert het formele inburgeringstraject (Wi2021) maar niet de asielopvangfase. De asielopvang is een procesdomein dat in het GGM niet is gemodelleerd — dat is een hiaatbevinding.
-
-## Openstaande vragen
-
-- Hoe verhoudt de statushouder zich tot de GGM-entiteit Asielstatushouder en de bredere Client uit Sociaal Domein Generiek?
-- Welke entiteiten uit het GGM Inburgering-model worden bedrijfsobjecten vanuit gemeentelijk perspectief?
-- Is er behoefte aan een apart begrip "asielzoeker" als doelgroep, of valt dit buiten gemeentelijke scope?
-- De effectrapportage bij nieuwe bedrijvigheid (arbeidsmigranten) is verplaatst naar Sources/Onderwerpen VNG/Economie/ — apart domein of onderdeel van Economie?
+- **Werk en Inkomen** — inburgering richt zich op arbeidstoeleiding; MAP als BO raakt arbeidsmarktbeleid
+- **Maatschappelijke Ondersteuning** — Brede Intake raakt ook Wmo-ondersteuning
+- **Openbare Orde en Veiligheid** — opvanglocaties raken openbare orde

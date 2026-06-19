@@ -1,8 +1,8 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Bedrijfsvoering/raadgever-inkoop-en-aanbesteden]]"
+bron: "[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"
 titel: "Raadgever Inkoop en aanbesteden"
-domein: [Bedrijfsvoering]
+domein: [Dienstverlening]
 datum_ingest: 2026-06-18
 begrippen_geextraheerd: [gemeentelijke inkoop, aanbesteding, mvoi]
 ---

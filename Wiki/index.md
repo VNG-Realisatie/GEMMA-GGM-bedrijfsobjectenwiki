@@ -2,12 +2,12 @@
 
 ## Domeinen
 
+- [[arbeidszaken]] — Gemeente als werkgever: HR, arbeidsvoorwaarden, integriteit (afgerond, 0 BO's)
 - [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies
 - [[financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[economie]] — Economisch beleid, ondernemersdienstverlening, arbeidsmarkt, bedrijfsruimte
-- [[bedrijfsvoering]] — Inkoop, aanbesteding, organisatie en ondersteunende processen
 - [[inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
-- [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, informatiestandaarden (RGBZ, ZTC2)
+- [[dienstverlening]] — Zaakgericht werken, zaaktypecatalogi, inkoop en aanbesteding, informatiestandaarden (RGBZ, ZTC2)
 
 ## Begrippen
 
@@ -62,7 +62,7 @@
 - [[netto-schuldquote]] — Netto schuld / baten (object, operationeel)
 - [[onbenutte-belastingcapaciteit]] — Ruimte tot art. 12-tarief (object, operationeel)
 
-### Bedrijfsvoering
+### Dienstverlening — inkoop en aanbesteding
 - [[gemeentelijke-inkoop]] — Het geheel van inkoopactiviteiten, €40+ mrd (thema, tactisch)
 - [[aanbesteding]] — Verplichte inkoopprocedure boven drempelbedragen (instrument, tactisch)
 - [[mvoi]] — Maatschappelijk verantwoord opdrachtgeven en inkopen (instrument, tactisch)
@@ -125,6 +125,23 @@
 - [[woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
 - [[woz-waarde-bo]] — Vastgestelde waarde van een WOZ-object per waardepeildatum
 
+### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
+- [[asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
+- [[gezinsmigrant]] — Inburgeringsplichtige op grond van gezinshereniging of andere migratiereden
+- [[brede-intake]] — Gestructureerd intakeproces voor integraal beeld inburgeraar
+- [[pip]] — Persoonlijk Plan Inburgering en Participatie
+- [[inburgeringstraject]] — Persoonlijk begeleidingstraject voor taal, samenleving en participatie
+- [[leerroute]] — Vastgesteld traject met taallessen, participatie en modules
+- [[inburgeringsplicht]] — Wettelijke verplichting conform Wet inburgering 2021
+- [[examen]] — Formele toetsing van inburgeringseisen
+- [[inburgeringsaanbod]] — Gemeentelijk aanbod van activiteiten en voorzieningen
+- [[inburgeringstermijn]] — Wettelijke periode voor voldoen aan inburgeringsplicht
+- [[map]] — Module Arbeidsmarkt en Participatie
+- [[pvt]] — Participatieverklaringstraject
+- [[voorbereiding-op-inburgering]] — Activiteiten voor asielstatushouders voor de formele inburgeringsplicht
+- [[opvanglocatie]] — Fysieke locatie voor opvang asielzoekers (procesobject, geen GGM)
+- [[bestuursovereenkomst]] — Overeenkomst gemeente-COA per opvanglocatie (governance-object, geen GGM)
+
 ### Terug-en-invordering (GGM beleidsdomein, taakveld 6)
 - [[vordering]] — Eis op een persoon die een bedrag moet (terug)betalen
 - [[aflossingsplan]] — Afspraken over aflossing van vorderingen
@@ -166,7 +183,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
 - [[raadgever-financiele-conditie]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
 
-### Bedrijfsvoering
+### Dienstverlening — inkoop
 - [[raadgever-inkoop-en-aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
 
 ### Economie

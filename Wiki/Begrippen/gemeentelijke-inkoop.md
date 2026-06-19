@@ -4,9 +4,9 @@ naam: gemeentelijke inkoop
 definitie: Het geheel van inkoopactiviteiten waarmee gemeenten diensten, leveringen en werken verwerven — gezamenlijk meer dan €40 miljard per jaar.
 begripstype: thema
 abstractieniveau: tactisch
-domein: [Bedrijfsvoering]
+domein: [Dienstverlening]
 synoniemen: [inkoop, publieke inkoop]
-bronnen: ["[[Sources/Onderwerpen VNG/Bedrijfsvoering/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---

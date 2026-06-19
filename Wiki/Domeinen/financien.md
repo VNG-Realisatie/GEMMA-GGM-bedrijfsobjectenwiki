@@ -58,4 +58,4 @@ Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie
 ## Raakvlakken
 
 - **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; [[onbenutte-belastingcapaciteit]] koppelt de domeinen
-- **Bedrijfsvoering** — inkoop en aanbesteding zijn de uitgavenkant van de begroting
+- **Dienstverlening** — inkoop en aanbesteding zijn de uitgavenkant van de begroting

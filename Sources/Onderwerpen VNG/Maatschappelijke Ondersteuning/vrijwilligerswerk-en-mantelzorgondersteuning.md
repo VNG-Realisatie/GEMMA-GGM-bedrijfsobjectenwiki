@@ -11,30 +11,8 @@ tags:
 
 # Vrijwilligerswerk en mantelzorgondersteuning
 
-## Overview
+Sinds de invoering van de Wmo 2015 dragen gemeenten een grotere verantwoordelijkheid voor zorg en ondersteuning van hun inwoners. Een belangrijk aspect hiervan is informele zorg, inclusief mantelzorg, buurthulp en vrijwillige inzet.
 
-Since the Wmo 2015 came into effect, municipalities have increased responsibility for care and support of residents. A key focus is informal care, including caregiving by family members, neighborhood assistance, and voluntary work.
+## Mantelzorg en gemeentelijke rol
 
-## Municipal Role in Caregiving Support
-
-Municipalities must provide support to family caregivers through general provisions and customized services, as mandated by the Wmo. This applies to caregivers of clients living in the municipality who don't use long-term care services.
-
-## Available Resources
-
-**Toolbox for Interventions**: Movisie and MantelzorgNL compiled valuable experiences and effective interventions in their toolbox.
-
-**Advisory Team**: The Mantelzorg Advisory Team offers assistance with local caregiving challenges.
-
-## Recent Publications & News
-
-Key resources include:
-- Handreiking gemeentebreed kader vrijwillige inzet (April 2026)
-- Werk en mantelzorg: gemeenten essentieel (September 2025)
-- Mantelzorgwonen, een handreiking voor gemeenten (January 2025)
-- Raadgever Maatschappelijke ondersteuning en zorg (January 2022)
-- Handreiking logeerzorg (November 2021)
-
-## Related Links
-
-- Vrijwilligerswerk.nl (http://www.vrijwilligerswerk.nl/)
-- Movisie: Voluntary Work (https://www.movisie.nl/vrijwillige-inzet)
+Gemeenten zijn volgens de Wmo belast met het ondersteunen van mantelzorgers via algemene voorzieningen en maatwerkaanbod. Dit geldt voor mantelzorgers van cliënten die in de gemeente wonen en geen langdurige zorg ontvangen.

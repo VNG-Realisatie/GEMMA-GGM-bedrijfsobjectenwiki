@@ -4,9 +4,9 @@ naam: mvoi
 definitie: Maatschappelijk verantwoord opdrachtgeven en inkopen — het meewegen van maatschappelijke doelen (circulariteit, inclusiviteit, duurzaamheid) bij gemeentelijke inkoop.
 begripstype: instrument
 abstractieniveau: tactisch
-domein: [Bedrijfsvoering]
+domein: [Dienstverlening]
 synoniemen: [maatschappelijk verantwoord inkopen, MVI, MVOI]
-bronnen: ["[[Sources/Onderwerpen VNG/Bedrijfsvoering/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---

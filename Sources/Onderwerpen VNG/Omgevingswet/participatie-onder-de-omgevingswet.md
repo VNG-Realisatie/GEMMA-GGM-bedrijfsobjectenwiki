@@ -11,30 +11,8 @@ tags:
 
 # Participatie onder de Omgevingswet
 
-## Overview
-Since January 1, 2024, the Dutch Environmental Act (Omgevingswet) has established participation as a core principle. Applicants must now indicate how society was involved in preparing their environmental permit requests.
+Sinds 1 januari 2024 werkt Nederland onder de Omgevingswet, waarin participatie een kernpunt vormt. Een belangrijk aspect betreft de vereisten voor participatie bij omgevingsvergunningsaanvragen: aanvragers moeten aangeven of en hoe de samenleving betrokken is geweest bij de voorbereiding van hun aanvraag.
 
-## Key Features
+De wet stelt participatie bewust vormvrij in, waardoor ruimte ontstaat voor "flexibiliteit en maatwerk." Dit biedt gemeenten mogelijkheden om op maat gerichte betrokkenheid van inwoners in te richten.
 
-**Form-free approach:** The legislation intentionally allows flexibility, enabling customized participation methods rather than prescriptive requirements.
-
-**Support resources:** The VNG provides practical tools including:
-- Participation checklists ("Spiekbriefje")
-- Guidance documents on participation initiatives
-- A participation roadmap
-- Implementation products overview
-
-## Frequently Asked Questions
-
-**Municipal ordinances:** Communities can deviate from their own participation rules, but only through formal council decisions or amended ordinances.
-
-**BOPA criteria:** The Omgevingswet exhaustively regulates participation requirements for environmental permits and prohibits adding extra criteria. However, authorities can establish policy rules governing how they weigh participation considerations.
-
-**Fees:** Processing costs for formal consultation procedures may be included in permit application fees, as these procedures support thorough decision-making aligned with administrative law standards.
-
-## Learning Resources
-
-- **Learning network:** Biweekly digital sessions on participation (recorded)
-- **Blunderbundel:** Collection of common participation failures across administrative levels
-- **Interview series:** Municipal case studies on implementing the new framework
-- **Forum:** Community discussion platform with 656 participants
+De VNG biedt praktische ondersteuning via spiekbriefjes, handreikingen, leernetwerksessies en een wegwijzer. Ook delen gemeenten hun ervaringen, inclusief mislukkingen, om van elkaar te leren.

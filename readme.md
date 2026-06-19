@@ -1,28 +1,27 @@
-# GEMMA-GGM bedrijfsobjectenwiki
+# GEMMA Bedrijfsobjectenwiki
 
 | Eigenaar | Ingevuld door |
 |---------|----------------|
 | Kennis Centrum Architectuur | Mark Backer |
 
-Deze repository bevat een door LLM's onderhouden kenniswiki voor het identificeren, structureren en modelleren van begrippen en bedrijfsobjecten binnen het gemeentelijk domein. De repository is ingericht voor gebruik met Obsidian, waardoor relaties tussen domeinen, begrippen, bronnen en bedrijfsobjecten eenvoudig kunnen worden verkend.
+Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen en onderhouden van het GEMMA bedrijfsobjectenmodel. Het bestaande model is een gefilterde kopie van het GGM — deze wiki bouwt het opnieuw op met expliciete criteria en herleidbare onderbouwing vanuit beleidsbronnen.
 
-## Doel
+## Werkwijze
 
-Het doel van deze repository is om op basis van de entiteiten van het Gemeentelijk Gegevensmodel (GGM) te komen tot een GEMMA bedrijfsobjectmodel. Op basis van uit gemeentelijke (beleids)documenten geëxtraheerde kennis worden bedrijfsobjecten afgeleid en vervolgens gematcht met GGM-entiteiten.
+De wiki wordt domein voor domein opgebouwd:
 
-Hierdoor ontstaat een bedrijfsobjectmodel dat consistent is met het GGM, maar niet beperkt is tot de bestaande entiteiten. Entiteiten kunnen worden weggelaten of samengevoegd wanneer dit semantisch beter past, en er kunnen nieuwe bedrijfsobjecten worden toegevoegd wanneer hiervoor geen directe GGM-entiteit bestaat.
+1. **Bronnen** — VNG-beleidsdocumenten worden opgehaald en opgeslagen in `Sources/`
+2. **Begrippen** — uit bronnen worden begrippen geëxtraheerd en getypeerd (ArchiMate-mapping)
+3. **BO-toetsing** — begrippen worden getoetst aan expliciete criteria (herkenbaarheid, eigen bestaan, levenscyclus, relaties)
+4. **GGM-matching** — BO-kandidaten worden gematcht op GGM-entiteiten met beoordeling van matchsterkte
+5. **Hiaten** — ontbrekende of afwijkende entiteiten worden gesignaleerd als terugmelding richting GGM
+
+Het resultaat per domein: BO-beslisdocumenten met metadata die als properties naar het GEMMA ArchiMate-model gaan.
 
 ## Opzet
 
-De map `Sources` bevat de bronmaterialen en wordt beschouwd als immutabel. Deze bestanden dienen uitsluitend als referentie voor analyse en modellering. Het GGM binnen `Sources/GGM` is een leesbare representatie van het bronmodel en vormt de referentie voor het mappen van begrippen en objecten.
+`Sources/` bevat immutabele bronnen (VNG-documenten, GGM-representatie). `Wiki/` bevat de afgeleide kennisbasis (begrippen, bedrijfsobjecten, bronsamenvattingen, analyses). `.claude/commands/` bevat 9 aanroepbare skills (`/ingest`, `/fetch`, `/lint`, `/coverage`, etc.). Schema en conventies staan in `CLAUDE.md`.
 
-De map `Wiki` bevat de afgeleide kennisbasis met domeinoverzichten, begrippen, bedrijfsobjecten, bronsamenvattingen en analyses. Nieuwe inzichten worden hier vastgelegd, gekoppeld en verder verrijkt op basis van de beschikbare bronnen.
-
-De repository ondersteunt kennisopbouw, begrippenharmonisatie en de ontwikkeling van gemeentelijke bedrijfsarchitectuur op basis van herleidbare beleidsbronnen.
-
-## Achtergrond
-
-De opzet van deze repository is geïnspireerd op het concept van een LLM-onderhouden wiki zoals beschreven in `llm-wiki.md`. Dit document bevat het oorspronkelijke idee van een kennisbasis die door een taalmodel wordt opgebouwd en verrijkt op basis van bronmateriaal. In deze repository is dat concept toegepast op gemeentelijke beleidsinformatie, begrippenmodellering en bedrijfsarchitectuur.
 ## Licentie
 
-Deze repository wordt beschikbaar gesteld onder de EUPL 1.2 (European Union Public Licence).
+EUPL 1.2 (European Union Public Licence).

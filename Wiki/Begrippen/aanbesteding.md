@@ -4,9 +4,9 @@ naam: aanbesteding
 definitie: Wettelijk verplichte inkoopprocedure voor gemeentelijke opdrachten boven bepaalde drempelwaarden, gebaseerd op de Aanbestedingswet 2012 en EU-richtlijnen.
 begripstype: instrument
 abstractieniveau: tactisch
-domein: [Bedrijfsvoering]
+domein: [Dienstverlening]
 synoniemen: [aanbestedingsprocedure, publieke aanbesteding]
-bronnen: ["[[Sources/Onderwerpen VNG/Bedrijfsvoering/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---

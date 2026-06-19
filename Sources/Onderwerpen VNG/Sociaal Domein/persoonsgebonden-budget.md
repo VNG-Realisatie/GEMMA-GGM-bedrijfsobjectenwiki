@@ -9,35 +9,22 @@ tags:
   - "sociaal domein"
 ---
 
-# Persoonsgebonden Budget (PGB) - VNG
+# Persoonsgebonden Budget (PGB)
 
-## Wat is het PGB?
+Met het persoonsgebonden budget voeren mensen zelf de regie over hun zorg en ondersteuning. Deze pagina biedt actuele en bruikbare informatie aan gemeenten, gericht op medewerkers die zich bezighouden met beleid of in de uitvoering werkzaam zijn.
 
-"Met het pgb voeren mensen zelf de regie over hun zorg en ondersteuning." This page provides current and practical information for municipalities, particularly for policy workers and implementation staff.
+## Ondersteuning voor gemeenten
 
-## Key Resources for Municipalities
+De VNG biedt diverse handreikingen en kaders om gemeenten aan de slag te helpen, waaronder richtlijnen voor het toetsen van pgb-vaardigheid en adviezen rond toereikende tarieven in het sociaal domein.
 
-The VNG offers several materials to help municipalities work with PGB:
+## Samenwerking in de keten
 
-- PGB handbook for municipalities (PDF)
-- A 10-point framework for assessing PGB competency
-- Guidelines on adequate PGB tariffs within the social domain
-- Handbook regarding the abolishment of Rdah for PGB
+Het Ministerie van Volksgezondheid, Welzijn en Sport (VWS) is verantwoordelijk voor de werking van het pgb-stelsel. De VNG vertegenwoordigt hierin de gemeenten in nauwe samenwerking met het Netwerk Directeuren Sociaal Domein.
 
-## Chain Cooperation
+## Ketenpartners
 
-The Ministry of Health manages the PGB system. The VNG represents municipalities' interests through its governance bodies (ZJO and Information Cooperation commissions) and collaborates with the Network of Social Domain Directors (NDSD).
+Verschillende organisaties ondersteunen gemeenten: de Sociale Verzekeringsbank (SVB) biedt gerichte gemeentepagina's, Per Saldo informeert over wetswijzigingen, en andere partijen zoals Stimulansz en Schulinck leveren juridische kennisbanken en praktische ondersteuning.
 
-## Key Partners
+## PGB 2.0
 
-**Sociale Verzekeringsbank (SVB)** - Provides resources including "Mijn PGB voor gemeenten," award letters, and guidance documents.
-
-**Per Saldo** - Informs municipalities about regulatory changes and offers tailored advice.
-
-**Rijksoverheid** - Hosts parliamentary documents and general PGB information.
-
-**Other Partners** - Stimulansz, Schulinck, and Zorgkantoor provide specialized knowledge and support services.
-
-## Current Developments
-
-Recent news highlights municipalities transitioning to the PGB Portal and the parliamentary approval of Rdah abolishment for PGB users.
+PGB 2.0 is de geplande opvolger van het huidige systeem, gericht op betere ondersteuning van budgethouders en hun zorgverleners.

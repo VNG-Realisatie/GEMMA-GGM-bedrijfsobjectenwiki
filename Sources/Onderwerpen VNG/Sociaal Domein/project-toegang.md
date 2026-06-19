@@ -11,32 +11,13 @@ tags:
 
 # Project Toegang
 
-## Overview
+Project Toegang behandelt hoe inwoners bij de gemeente kunnen aankloppen voor ondersteuning bij dagelijks functioneren. Hoewel veel gemeenten hun toegang goed hebben geregeld, bestaan er knelpunten voor mensen met meervoudige ondersteuningsbehoeften, levenslange hulpvragen of complexe situaties.
 
-Project Toegang addresses how residents can approach municipalities for support with daily functioning. While most municipalities have arranged access reasonably well, challenges remain for individuals with multiple support needs, lifelong assistance requirements, or complex situations.
+Het project ondersteunt gemeenten bij het optimaliseren van hun toegangsorganisatie. Een belangrijk instrument is het Richtinggevend kader met 13 uitgangspunten voor betere toegang en integrale dienstverlening. Dit wordt aangevuld met het Verkenningsinstrument Toegang, waarmee gemeenten hun positie kunnen bepalen en verbeteringen kunnen identificeren.
 
-## Key Components
+Het verbetertraject baseert zich op vier centrale thema's:
 
-**Four Core Themes:**
-
-1. **Menselijke maat (Human Scale)** -- Emphasizing resident involvement and agency in service delivery
-2. **Uitvoeringskracht (Implementation Strength)** -- Incorporating frontline professional expertise into policy development
-3. **Samenhang (Coherence)** -- Creating better connections among fragmented programs and projects
-4. **Veranderopgave (Change Challenge)** -- Broadening municipal perspective on organizing services
-
-## Support & Resources
-
-The Project Toegang Team provides municipalities with optimization support via toegang@vng.nl or 070-373-83-93. Key tools include:
-
-- **Richtinggevend kader (Guiding Framework)** -- 13 principles for improving access
-- **Verkenningsinstrument Toegang (Exploration Tool)** -- Helps municipalities assess and optimize their access functions
-
-## Timeline Highlights
-
-- Essay on complex problems and simple access (December 2019)
-- Improvement trajectory launched (September 2020)
-- Vision learning trajectory initiated (June 2022)
-- Guiding framework established (March 2024)
-- Practical circle in execution (September 2025)
-
-Municipalities can access handbooks, toolboxes, case studies, and webinars supporting access improvement across social services.
+- Menselijke maat: inwonersparticipatie en ervaring van regie
+- Uitvoeringskracht: inbreng van dagelijks operationele professionals
+- Samenhang: verbinding van losse programma's en projecten
+- Veranderopgave: bredere blik op organisatie en gemeenschap

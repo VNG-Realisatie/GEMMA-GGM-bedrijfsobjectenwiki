@@ -11,30 +11,16 @@ tags:
 
 # Richtinggevend Kader, Convenant en Verkenningsinstrument Toegang
 
-## Overview
+De VNG ondersteunt gemeenten in het sociaal domein door middel van drie instrumenten gericht op het versterken van toegang en lokale teams voor kwetsbare inwoners.
 
-The VNG (Association of Dutch Municipalities) supports municipalities in strengthening their access functions and local teams for vulnerable residents with complex, lifelong support needs.
+## Richtinggevend Kader
 
-## Key Components
+Dit kader beschrijft de gewenste richting voor toegang en integrale dienstverlening. Het bevat 13 uitgangspunten die fungeren als richtingwijzers voor beleid, bestuur en uitvoering, met ruimte voor lokale aanpassingen.
 
-**Richtinggevend Kader (Guiding Framework)**
+## Convenant Stevige Lokale Teams
 
-This document outlines 13 principles to guide policy and operations for access, local teams, and integrated service delivery. It's designed as a directional tool while allowing for local flexibility.
+Dit convenant vormt een afspraak tussen gemeenten, rijkspartijen en uitvoeringspartners. Het streeft ernaar de werkwijze van lokale teams te uniformeren en te versterken, zodat inwoners "op één herkenbare plek terechtkunnen" en ondersteuning toegankelijker en samenhangender wordt.
 
-**Convenant Stevige Lokale Teams (Robust Local Teams Agreement)**
+## Verkenningsinstrument Toegang (VIT)
 
-Municipalities, the national government, and service providers agree to standardize and strengthen local team operations. The goal is enabling residents to access help from one recognizable location, with improved collaboration between local teams, healthcare providers, and other partners.
-
-**Verkenningsinstrument Toegang (VIT - Access Exploration Tool)**
-
-This online instrument helps municipalities assess and optimize their access functions. The tool gathers perspectives from local government, practitioners, and residents, then generates a report comparing current practices against the guiding framework principles.
-
-## Process
-
-The VIT involves preparation, a questionnaire, automated reporting, and a directory of supporting resources aligned with framework principles.
-
-## Resources
-
-- Access the tool at www.vit-toegang.nl
-- View instructional materials and detailed guidance
-- Contact: toegang@vng.nl
+Dit instrument helpt gemeenten hun toegangsfunctie te optimaliseren. Het biedt inzicht in de positie van een gemeente ten opzichte van de uitgangspunten in het richtinggevend kader en dient als startpunt voor interne gesprekken en prioritering van acties.

@@ -2,7 +2,7 @@
 type: domein
 naam: Dienstverlening
 bronnen_count: 2
-begrippen_count: 5
+begrippen_count: 8
 ---
 
 # Domein: Dienstverlening
@@ -21,6 +21,11 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 
 ### Thema
 - [[zaakgericht-werken]] — werkwijze: dienstverlening organiseren rond zaken
+- [[gemeentelijke-inkoop]] — het geheel van inkoopactiviteiten (€40+ mrd)
+
+### Instrumenten
+- [[aanbesteding]] — verplichte inkoopprocedure boven drempelbedragen
+- [[mvoi]] — maatschappelijk verantwoord opdrachtgeven en inkopen
 
 ### Objecten
 - [[zaaktypecatalogus]] — verzameling zaaktypen met configuratie per domein
@@ -45,6 +50,7 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — RGBZ 1.0 + Introductie: referentiemodel zaakgegevens, berichtenarchitectuur, evolutie naar ZGW API's
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus
+- [[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
 
 ## Evolutie
 

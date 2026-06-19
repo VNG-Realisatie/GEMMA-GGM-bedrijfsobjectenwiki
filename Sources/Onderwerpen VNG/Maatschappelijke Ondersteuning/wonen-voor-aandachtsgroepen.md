@@ -11,26 +11,12 @@ tags:
 
 # Wonen voor aandachtsgroepen
 
-## Overview
-The VNG (Association of Dutch Municipalities) page addresses housing for vulnerable populations. Municipalities aim to ensure everyone has appropriate accommodation, with special attention to vulnerable groups requiring adapted housing combined with proper care and support.
+Gemeenten streven ernaar dat alle inwoners adequate huisvesting hebben. Dit vraagt bijzondere aandacht voor de meest kwetsbare groepsbewoners, waarbij "de woning moet op hen aangepast zijn, en ook de juiste zorg, ondersteuning en begeleiding moet aanwezig zijn."
 
-## Key Content Areas
+Gemeenten leggen in woonzorgvisies afspraken vast met woningcorporaties en zorgpartijen. Via interbestuurlijke programma's ontvangen gemeenten ondersteuning en stimulering voor deze inspanningen.
 
-**Core Mission**: "De huisvesting van de meest kwetsbare groepen inwoners vraagt specifieke aandacht" - municipalities coordinate with housing corporations and care organizations through housing-care visions and regional agreements.
+Het programma Wonen en zorg voor ouderen (Wozo) focust op het aanpakken van vergrijzing door zorgzame woongemeenschappen te realiseren. Gemeenten spelen hierin een centrale rol in samenwerking met zorginstellingen, woningcorporaties, ontwikkelaars en welzijnsorganisaties.
 
-**Main Programs**:
-- **Wonen en zorg voor ouderen** (Housing and Care for Elderly): Addresses aging through creating supportive residential communities where seniors can live well
-- **Een thuis voor iedereen** (A Home for Everyone): Support program for vulnerable groups
-- **Ondersteuningsprogramma arbeidsmigranten** (Support for Labor Migrants)
+Onder de Wet versterking regie volkshuisvesting zullen gemeenten verplicht worden een volkshuisvestingsprogramma op te stellen, inclusief de regionaal afgestemde woon- en zorgopgave voor aandachtsgroepen en ouderen.
 
-**Support Resources**:
-- Online Kennis- en Expertisecentrum (Knowledge and Expertise Center)
-- Monitor huisvesting aandachtsgroepen (Housing monitoring dashboard with municipal-level statistics)
-- Voortgangsrapportages (Progress reports from June 2024)
-
-**Related Topics**:
-- Homelessness prevention
-- Protected housing ("Beschermd Thuis")
-- Housing for status holders
-
-**Contact**: Inquiries about programs directed to info@vng.nl
+Gemeenten kunnen ondersteuning inwinnen via het Online Kennis- en Expertisecentrum huisvesting, dat informatie biedt over regelgeving, financiële regelingen en praktijkvoorbeelden.

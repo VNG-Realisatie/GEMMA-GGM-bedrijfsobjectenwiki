@@ -9,41 +9,10 @@ tags:
   - "omgevingswet"
 ---
 
-# Omgevingswet | VNG
+# Omgevingswet
 
-## Main Content
+De Omgevingswet beoogt "een goede balans tussen het benutten en beschermen van de fysieke leefomgeving." De wetgeving stelt gemeenten in staat om de leefomgeving meer samenhangend in te richten met duidelijkere regelgeving.
 
-**Omgevingswet**
+De wet biedt ruimte voor lokaal maatwerk en bevordert snellere en betere besluitvorming. Sinds 1 januari 2024 is deze veelomvattende wet van kracht. Tegelijkertijd is de Wet kwaliteitsborging voor het bouwen (Wkb) gedeeltelijk ingevoerd.
 
-The Omgevingswet represents a balanced approach to utilizing and protecting the physical living environment. It enables municipalities to streamline regulations and create a more cohesive environment while providing flexibility for local customization and improved decision-making processes.
-
-This comprehensive law has been in effect since January 1, 2024, alongside the partially implemented Wet kwaliteitsborging voor het bouwen (Wkb - Building Quality Assurance Act). This page consolidates relevant information for municipalities regarding both legislative frameworks.
-
-## Related Topics
-
-- Digitaal Stelsel Omgevingswet (DSO)
-- Omgevingswet Finances
-- Municipal Council and the Omgevingswet
-- Monitoring Initiatives
-- Participation under the Omgevingswet
-- Planning Framework
-- Transformation Tasks
-- Permitting, Supervision and Enforcement
-- Building Quality Assurance Act (Wkb)
-
-## Key Work Areas
-
-**DSO and Testing**: The Digital System supports implementation through local government systems and national provisions like the Environment Portal, with opportunities for Intensive Chain Testing participation.
-
-**Environmental Plan**: Developing and modifying environmental plans requires new skills and collaborative approaches, supported through consultations and the Environmental Plan Network.
-
-**VTH (Permitting, Supervision, Enforcement)**: Changes to permitting processes include network meetings and practical guidance.
-
-**Wkb Implementation**: Phased introduction beginning with simpler new construction projects.
-
-## Support Resources
-
-- Regional Implementation Coaches (RIO)
-- Professional networks and online sessions
-- Communication tools and service templates
-- Newsletter subscription available
+De VNG bundelt op deze pagina alle relevante informatie voor gemeenten omtrent beide wetten, inclusief ondersteuning bij implementatie, netwerken voor kennisuitwisseling en praktische hulpmiddelen voor vergunningverlening, toezicht en handhaving.
