@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Kwijtschelding
 domein: [Terug-en-invordering, Belastingen]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Kwijtschelding
-ggm_beleidsdomein: Terug-en-invordering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Kwijtschelding"
+ggm_guid: EAID_1127D07A_473D_2912_29AE_2ABDF0E8A586
+ggm_uml_type: Class
+ggm_beleidsdomein: "Terug- en invordering"
+ggm_taakveld: "Inkomen"
+ggm_diagram: [Diagram Terug- en invordering]
+ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
+ggm_definitie: "Het kwijtschelden van het restant van de vordering.RedenenDit kan om diverse redenen gebeuren, waaronder redenen uit het beleid.Als een debiteur zijn 36 maanden lang houdt aan de betaalafspraken, dan komt de debiteur in aanmerking voor kwijtschelding. Enkele noties hierbij:Het gaat hier om het houden van de afspraken.Hieronder vallen ook afspraken om tijdelijk niet af te lossen.In principe zal een enkele maand opschorten vanwege een maand niet betalen niet de betaaldiscipline verbreken, omdat de gemeente niet heeft ingegrepen via een interventie.Als de debiteur ineens de helft of meer aflost op de vordering.BedragHet bedrag in de kwijtschelding heeft die hoogte dat de totale restant van de vordering op nul komt."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Het kwijtschelden van het restant van de vordering
-gerelateerde_begrippen: [kwijtschelding]
+bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Kwijtscheldingsbeoordeling]
 bedrijfsfuncties: [Inning en invordering]
 status: concept

@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Doelstelling
 domein: [Financien]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Doelstelling
-ggm_beleidsdomein: Financien
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Doelstelling"
+ggm_guid: EAID_2FFE3BAD_CB0E_43ea_A435_FD693B9255C3
+ggm_uml_type: Class
+ggm_beleidsdomein: "Financien"
+ggm_taakveld: "9 Interne Organisatie"
+ggm_diagram: [Financien Begroting en Budgetverantwoordelijkheid]
+ggm_diagram_ids: [EAID_42C2960F_FED7_467e_AAB1_5195BED59A39]
+ggm_definitie: "Een op korte of middellange termijn nagestreefde situatie"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: "Doelstelling"
+ggm_gemma_guid: "2bd07fb4-4cfb-4d89-ac99-cb2377decd2d"
+ggm_gemma_definitie: "Een op korte of middellange termijn nagestreefde situatie"
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d"
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: "Doelstelling (Financien)"
+gemma_definitie: ""
 definitie: Een op korte of middellange termijn nagestreefde situatie
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
 bedrijfsfuncties: [Planning en control, Bestuur]
 status: concept

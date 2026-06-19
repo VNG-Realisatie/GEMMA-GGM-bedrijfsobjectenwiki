@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Debiteur
 domein: [Financien, Terug-en-invordering]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Debiteur
-ggm_beleidsdomein: Financien, Terug-en-invordering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Debiteur"
+ggm_guid: EAID_E74D0D46_66EB_4deb_A540_7AB08E95F956
+ggm_uml_type: Class
+ggm_beleidsdomein: "Financien"
+ggm_taakveld: "9 Interne Organisatie"
+ggm_diagram: []
+ggm_diagram_ids: [EAPK_4F010A09_D9D0_4bcf_A233_8430F8EFE54A]
+ggm_definitie: "Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan"
+ggm_toelichting: ""
+ggm_synoniemen: "Schuldenaar"
+ggm_herkomst: ""
+ggm_gemma_naam: "Debiteur"
+ggm_gemma_guid: "e21e51ee-3a32-444b-80c7-b6694ff37253"
+ggm_gemma_definitie: "Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan"
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: "Schuldenaar"
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e21e51ee-3a32-444b-80c7-b6694ff37253"
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente
-gerelateerde_begrippen: [belastingplichtige]
+bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Facturering, Debiteurenadministratie, Invordering]
 bedrijfsfuncties: [Financieel beheer, Inning en invordering]
 status: concept

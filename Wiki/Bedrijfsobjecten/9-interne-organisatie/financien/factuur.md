@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Factuur
 domein: [Financien]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Factuur
-ggm_beleidsdomein: Financien
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Factuur"
+ggm_guid: EAID_E1DA56C3_6ECA_4ec9_8CF4_FC57E1C43102
+ggm_uml_type: Class
+ggm_beleidsdomein: "Financien"
+ggm_taakveld: "9 Interne Organisatie"
+ggm_diagram: [Financien Verwerken Mutaties, Financien Verplichtingen en Facturen]
+ggm_diagram_ids: [EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA, EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711]
+ggm_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: "Factuur"
+ggm_gemma_guid: "e3c92496-53d2-473e-9643-9774cdda2891"
+ggm_gemma_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e3c92496-53d2-473e-9643-9774cdda2891"
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Facturering, Crediteuren- en debiteurenadministratie]
 bedrijfsfuncties: [Financieel beheer]
 status: concept

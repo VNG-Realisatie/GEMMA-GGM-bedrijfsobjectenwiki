@@ -2,25 +2,41 @@
 type: bedrijfsobject
 naam: Examen
 domein: [Asiel en Integratie]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Examen
-ggm_beleidsdomein: Inburgering
-ggm_diagram: Inburgering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Examen"
+ggm_guid: EAID_DCE46ABA_613D_4204_86F4_35F517FF680F
+ggm_uml_type: Class
+ggm_beleidsdomein: "Inburgering"
+ggm_taakveld: "6 Sociaal Domein"
+ggm_diagram: [Inburgering]
+ggm_diagram_ids: [EAID_96927C60_9F7B_4e67_806A_02EE0191983D]
 ggm_definitie: "Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: "Examen"
+ggm_gemma_guid: "ccce5500-2140-4928-9716-0132a31e9686"
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686"
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-gerelateerde_begrippen: [inburgering]
+bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Inburgeringstraject
-    richting: naar-dit-BO
-    kardinaliteit: "1"
-    beschrijving: "Inburgeringstraject wordt afgesloten met examens"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
+    beschrijving: Inburgeringstraject wordt afgesloten met examens
   - type: associatie
     bedrijfsobject: Leerroute
-    richting: naar-dit-BO
-    kardinaliteit: "1"
-    beschrijving: "Leerroute wordt afgerond met examens"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
+    beschrijving: Leerroute wordt afgerond met examens
 ---
 
 # Examen

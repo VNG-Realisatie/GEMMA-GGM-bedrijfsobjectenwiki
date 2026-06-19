@@ -6,23 +6,24 @@ Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen, onderhouden en d
 
 Het bestaande GEMMA bedrijfsobjectenmodel is een ongefiltreerde kopie van het GGM. Deze wiki bouwt het opnieuw op met onderbouwing:
 
-1. **Bronnen lezen** — VNG-beleidsdocumenten, proposities, verordeningen
-2. **Begrippen extraheren** — termen en definities als tussenstap (persistent maar geen eindproduct)
-3. **BO-kandidaten toetsen** — aan expliciete criteria bepalen of een begrip een bedrijfsobject is
-4. **GGM matchen** — per BO-kandidaat de matchende GGM-entiteit zoeken en matchsterkte beoordelen
-5. **Hiaten signaleren** — GGM-entiteiten zonder BO, BO's zonder GGM-grondslag, correcties terugkoppelen
+1. **Bronnen lezen en samenvatten** — VNG-beleidsdocumenten, proposities, verordeningen → bronsamenvattingen
+2. **Domeinoverzicht opbouwen** — begrippen identificeren, typeren en beoordelen als BO-kandidaat
+3. **BO's afleiden** — per BO-kandidaat: GGM matchen, BO-pagina aanmaken met onderbouwing
+4. **Hiaten signaleren** — GGM-entiteiten zonder BO, BO's zonder GGM-grondslag, correcties terugkoppelen
 
 Het resultaat per domein: BO-beslisdocumenten met metadata die als properties naar het GEMMA ArchiMate-model gaan.
 
+De herleidbaarheidsketen is: `Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/`. Het domeinoverzicht organiseert de begrippen en hun BO-beoordeling.
+
 ### Werkwijze
 
-De wiki wordt **domein voor domein** opgebouwd. Per domein wordt het volledige proces doorlopen (bronnen → begrippen → BO-toetsing → GGM-matching → dekkingsanalyse) voordat het volgende domein wordt opgepakt.
+De wiki wordt **domein voor domein** opgebouwd. Per domein wordt het volledige proces doorlopen (bronnen → samenvattingen → domeinoverzicht → BO's → dekkingsanalyse) voordat het volgende domein wordt opgepakt.
 
 ### Onderhoudscyclus
 
 Na de initiële opbouw wordt het model onderhouden bij:
 - Nieuwe GGM-releases (entiteiten hertoetsen)
-- Nieuwe gemeentelijke onderwerpen (bronnen toevoegen, begrippen/BO's afleiden)
+- Nieuwe gemeentelijke onderwerpen (bronnen toevoegen, domeinoverzicht uitbreiden, BO's afleiden)
 
 ### LLM-rol
 
@@ -96,8 +97,7 @@ Bedrijfsarchitectuur/
 ├── Wiki/
 │   ├── index.md           # inhoudelijk overzicht van alle wiki-pagina's
 │   ├── log.md             # chronologisch logboek van ingest/query/lint acties
-│   ├── Domeinen/          # overzichtspagina's per gemeentelijk domein
-│   ├── Begrippen/         # individuele begrippenpagina's
+│   ├── Domeinen/          # domeinoverzichten met begrippentabellen
 │   ├── Bedrijfsobjecten/  # bedrijfsobjectpagina's, georganiseerd per GGM-beleidsdomein
 │   │   ├── 6-sociaal-domein/
 │   │   │   ├── inburgering/
@@ -242,32 +242,6 @@ Multipliciteiten noteren waar bekend. Diagram hoeft niet elke relatie te bevatte
 
 Elke wiki-pagina heeft YAML-frontmatter. De velden per type:
 
-#### Begrip (`Wiki/Begrippen/`)
-
-```yaml
----
-type: begrip
-naam: {begrip in lowercase}
-definitie: {korte definitie}
-begripstype: waarde | doel | thema | instrument | actor | doelgroep | object
-archimate_type: {corresponderend ArchiMate-elementtype, zie begripstypen-tabel}
-abstractieniveau: operationeel | beleidsmatig
-domein: [{domein(en)}]
-synoniemen: [{alternatieve termen}]
-bronnen: ["[[Sources/...]]"]  # wiki-links naar bronbestanden
-ggm_entiteit: {link naar GGM-entiteit als die bestaat}
-bo_kandidaat: {ja | nee | mogelijk}
----
-```
-
-**Begripstype en abstractieniveau** zijn twee onafhankelijke classificaties. Het begripstype bepaalt primair of het een BO-kandidaat is; het abstractieniveau verfijnt die inschatting. Zie de sectie "Begripstypen en abstractieniveaus" voor het kader.
-
-Body bevat:
-- Definitie en toelichting
-- Context: hoe het begrip in beleidsdocumenten wordt gebruikt (met citaten)
-- Relaties met andere begrippen via `[[wiki-links]]`
-- BO-beoordeling: waarom wel/niet BO-kandidaat (toetsing aan criteria)
-
 #### Bedrijfsobject (`Wiki/Bedrijfsobjecten/`)
 
 ```yaml
@@ -277,12 +251,34 @@ naam: {naam}
 domein: [{domein(en)}]
 archimate_type: {business-object | contract | product}
 grondslag: {ggm-entiteit | ggm-afgeleid | procesobject | governance-object}
+
+# GGM-velden — uit het XMI, beheerd door de GGM-community
 ggm_entiteit: {naam van GGM-entiteit, leeg als niet van toepassing}
-ggm_beleidsdomein: {GGM beleidsdomein, leeg als niet van toepassing}
-ggm_diagram: {GGM diagramgroep binnen het beleidsdomein, leeg als niet van toepassing}
-ggm_definitie: {letterlijke GGM-definitie, leeg als geen GGM-grondslag}
+ggm_guid: {EA GUID van de GGM-entiteit, bijv. EAID_F9B2A863_...}
+ggm_uml_type: {Class | Enumeration}
+ggm_beleidsdomein: {GGM beleidsdomein}
+ggm_taakveld: {GGM taakveld, bijv. "6 Sociaal Domein"}
+ggm_diagram: [{namen van GGM-diagrammen waarop deze entiteit staat}]
+ggm_diagram_ids: [{EA GUIDs van die diagrammen}]
+ggm_definitie: {letterlijke GGM-definitie uit het XMI}
+ggm_toelichting: {GGM-toelichting uit XMI-tag}
+ggm_synoniemen: {GGM-synoniemen uit XMI-tag}
+ggm_herkomst: {basisregistratie/standaard waaruit de entiteit afkomstig is}
+
+# GEMMA-waarden zoals gevonden in het GGM XMI — referentie van eerdere import-cycli
+ggm_gemma_naam: {GEMMA-naam in het GGM}
+ggm_gemma_guid: {GEMMA-guid in het GGM}
+ggm_gemma_definitie: {GEMMA-definitie in het GGM}
+ggm_gemma_toelichting: {GEMMA-toelichting in het GGM}
+ggm_gemma_synoniemen: {GEMMA-synoniemen in het GGM}
+ggm_gemma_type: {GEMMA ArchiMate-type in het GGM, altijd "business-object"}
+ggm_gemma_url: {GEMMA Online URL in het GGM}
+ggm_gemma_bron: {GEMMA-bron in het GGM}
+ggm_gemma_alternate_name: {GEMMA alternate name in het GGM}
+
+# GEMMA-velden — beheerd door het GEMMA-team via deze wiki
 gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
-gerelateerde_begrippen: [{links naar begrippenpagina's}]
+bronnen: [{paden naar bronsamenvattingen die dit BO onderbouwen}]
 relaties:
   - type: {associatie | compositie | generalisatie}
     bedrijfsobject: {naam van gerelateerd BO}
@@ -293,6 +289,17 @@ bedrijfsprocessen: [{bedrijfsprocessen die dit object gebruiken/produceren}]
 bedrijfsfuncties: [{bedrijfsfuncties}]
 ---
 ```
+
+**Drie naamvelden** — elk veld bestaat in een GGM-, GGM-GEMMA- en GEMMA-variant:
+
+| Veld | GGM (XMI-bron) | GGM-GEMMA (referentie) | GEMMA (wiki/export) |
+|---|---|---|---|
+| naam | `ggm_entiteit` | `ggm_gemma_naam` | `naam` |
+| definitie | `ggm_definitie` | `ggm_gemma_definitie` | `gemma_definitie` |
+| toelichting | `ggm_toelichting` | `ggm_gemma_toelichting` | *(toekomstig)* |
+| synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | *(toekomstig)* |
+
+Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `gemma_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
 
 **Status**: BO-pagina's hebben geen apart goedkeuringsmoment. Als het proces is doorlopen en de onderbouwing klopt, is het BO vastgesteld. Markeer alleen als `ter discussie` in de body wanneer een specifieke keuze (bijv. generalisatieniveau, GGM-afwijking) niet eenduidig is en teambespreking vereist.
 
@@ -426,28 +433,44 @@ bo_count: {aantal bedrijfsobjecten}
 ---
 ```
 
-Een domein wordt altijd afgetekend na verwerking — ook als de uitkomst 0 BO's is. "Geen resultaat" is een resultaat. De `status` en `verwerkingsdatum` zijn relevant voor de onderhoudscyclus: bij een nieuwe GGM-release of nieuwe bron kan worden bepaald welke domeinen hertoetsing nodig hebben.
+Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle begrippen als tabel — geen aparte begrippenpagina's. Een domein wordt altijd afgetekend na verwerking — ook als de uitkomst 0 BO's is.
 
 Body bevat:
-- Overzicht van het gemeentelijk domein
-- **Conclusie**: waarom dit domein wel/geen BO's oplevert
-- Lijst van bedrijfsobjecten in dit domein (links) — het primaire resultaat
-- GGM-dekkingsanalyse: welke entiteiten zijn BO, welke niet, welke ontbreken
-- Lijst van begrippen in dit domein (links)
-- Samenvatting van verwerkte bronnen
-- Openstaande vragen of hiaten
-- Terugmeldingen richting GGM (correcties, hiaten)
+- Korte beschrijving van het gemeentelijk domein
+- **Begrippentabel** — het hart van de pagina:
+
+```markdown
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| [[woz-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | 6/6 criteria, exact match | Woning, kantoor | ja |
+| belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
+| heffingsmaatstaf | object | Maatstaf voor belastingschuld | ❌ | Eigenschap van verordening | WOZ-waarde | nee |
+| belastingmix | thema | Gekozen combinatie belastingen | ❌ | Beleidsmatig, geen object | — | nee |
+```
+
+  - **Begrip**: `[[link]]` naar BO-pagina als het een BO is, anders platte tekst
+  - **Type**: begripstype (object/instrument/actor/doelgroep/thema/doel/waarde)
+  - **Omschrijving**: identiek aan de BO-definitie als het een BO is
+  - **BO?**: ✅ of ❌
+  - **Reden**: korte samenvatting waarom wel/niet (volledige onderbouwing staat in de BO-pagina)
+  - **Voorbeelden**: concrete instanties
+  - **GGM**: ja/nee — heeft dit begrip een GGM-entiteit
+
+- **GGM-dekkingsanalyse**: welke GGM-entiteiten zijn BO, welke niet, welke ontbreken
+- **Verwerkte bronnen**: lijst met links naar bronsamenvattingen
+- **Nog te verwerken bronnen**: lijst met links naar Sources/
+- **Openstaande vragen of hiaten**
+- **Terugmeldingen richting GGM**
 
 #### Bronsamenvatting (`Wiki/Bronsamenvattingen/`)
 
 ```yaml
 ---
 type: bronsamenvatting
-bron: "[[Sources/...]]"  # wiki-link naar bronbestand
+bron: "Sources/{domein}/{bestand}.md"
 titel: {titel van het document}
 domein: [{domein(en)}]
 datum_ingest: {datum van verwerking}
-begrippen_geextraheerd: [{lijst van geextraheerde begrippen}]
 ---
 ```
 
@@ -456,6 +479,8 @@ Body bevat:
 - Kernbegrippen met korte toelichting
 - Relevantie voor bedrijfsarchitectuur
 - Citaten die begrippen of objecten definiëren
+
+De bronsamenvatting is het **schakelstuk** in de herleidbaarheidsketen: het verwijst naar het bronbestand (Sources/) en wordt verwezen door de BO-pagina (via `bronnen` in frontmatter).
 
 #### Analyse (`Wiki/Analyses/`)
 
@@ -472,7 +497,7 @@ Vrij format — vergelijkingen, syntheses, mappingtabellen, bevindingen.
 
 ### Begripstypen en abstractieniveaus
 
-Begrippen hebben twee onafhankelijke classificaties: **begripstype** en **abstractieniveau**. Samen bepalen ze of een begrip een BO-kandidaat is en of een GGM-match verwacht wordt.
+Begrippen in de domeinoverzichttabel hebben twee onafhankelijke classificaties: **begripstype** (kolom "Type") en **abstractieniveau** (impliciet in de beoordeling). Samen bepalen ze of een begrip een BO-kandidaat is en of een GGM-match verwacht wordt.
 
 #### Begripstypen (gemapt op ArchiMate)
 
@@ -524,15 +549,25 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 | Skill | Aanroep | Functie |
 |---|---|---|
-| **ingest** | `/ingest {bron}` | Volledige workflow: bron → samenvatting → begrippen → BO-toetsing → GGM-match → pagina's |
+| **ingest** | `/ingest {bron\|domein}` | Bron(nen) verwerken: samenvatting → domeinoverzicht bijwerken → BO's afleiden |
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |
 | **clip** | `/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/` |
-| **lint** | `/lint [domein]` | Consistentiechecks op wiki (frontmatter, wezen, hiaten) |
+| **lint** | `/lint [domein]` | Consistentiechecks op wiki (frontmatter, herleidbaarheid, hiaten) |
 | **coverage** | `/coverage {domein}` | GGM-dekkingsanalyse: welke entiteiten zijn/worden BO |
 | **domain-status** | `/domain-status {domein}` | Voortgangsoverzicht (bronnen, begrippen, BO's, dekking) |
-| **extract** | `/extract {bron}` | Begrippen uit bron extraheren en typeren |
 | **test-bo** | `/test-bo {begrip}` | Begrip tegen BO-criteria toetsen |
 | **match-ggm** | `/match-ggm {BO}` | BO matchen op GGM-entiteit met matchsterkte |
+| **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
+
+## Tools
+
+Python-scripts in `tools/` voor XMI-verwerking. Worden aangeroepen door skills of handmatig.
+
+| Tool | Functie |
+|---|---|
+| `parse_ggm_xmi.py` | Parse GGM XMI → JSON met entiteiten, relaties, packages, diagrammen |
+| `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed XMI-JSON |
+| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed XMI-JSON + wiki BO-pagina's |
 
 ## index.md format
 
@@ -540,19 +575,15 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 # Wiki Index
 
 ## Domeinen
-- [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies
-- ...
-
-## Begrippen
-- [[onroerende-zaak]] — Object van OZB-heffing (Domein: Belastingen)
+- [[belastingen]] — Gemeentelijke belastingen, heffingen en retributies (23 begrippen, 10 BO's)
 - ...
 
 ## Bedrijfsobjecten
-- [[belastingaanslag]] — Aanslag opgelegd aan belastingplichtige (Domein: Belastingen)
+- [[woz-object]] — Onroerende zaak voor WOZ-waardering (Domein: Belastingen)
 - ...
 
 ## Bronsamenvattingen
-- [[samenvatting-belastingtypen]] — VNG-artikel over de drie typen gemeentelijke belastingen
+- [[belastingtypen]] — VNG: drie typen gemeentelijke belastingen
 - ...
 
 ## Analyses
@@ -566,9 +597,9 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 ## [2026-06-17] ingest | Belastingtypen
 - Bron: Sources/Belastingen/Belastingtypen.md
-- Begrippen geëxtraheerd: algemene belasting, bestemmingsbelasting, retributie, leges
-- Pagina's aangemaakt: 4 begrippen, 1 bronsamenvatting
-- Pagina's bijgewerkt: domeinoverzicht belastingen
+- Bronsamenvatting: Bronsamenvattingen/Belastingen/belastingtypen.md
+- Domeinoverzicht bijgewerkt: 4 begrippen toegevoegd
+- BO's aangemaakt: —
 ```
 
 ## Belangrijke regels
@@ -576,7 +607,7 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 1. **Wijzig nooit bestanden in `Sources/`** — deze zijn immutabel.
 2. **Alle wiki-output gaat naar `Wiki/`** — houd de scheiding strikt.
 3. **Bespreek eerst, schrijf dan** — bij ingest altijd eerst de kernpunten bespreken met de gebruiker voordat pagina's worden aangemaakt.
-4. **Herleidbaarheid** — elk begrip en bedrijfsobject moet traceerbaar zijn naar ten minste één bron.
+4. **Herleidbaarheid** — elk bedrijfsobject moet traceerbaar zijn naar bronsamenvattingen via het `bronnen`-veld in de frontmatter. De keten is: Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/.
 5. **Geen fantasie** — als een mapping naar het GGM onzeker is, markeer het als `ter discussie` in plaats van te gokken.
 6. **Incrementeel** — update bestaande pagina's in plaats van duplicaten te maken.
 7. **Update index en log** — na elke ingest of significante wijziging.

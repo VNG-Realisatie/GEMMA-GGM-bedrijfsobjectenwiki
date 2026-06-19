@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Restitutie
 domein: [Terug-en-invordering]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Restitutie
-ggm_beleidsdomein: Terug-en-invordering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Restitutie"
+ggm_guid: EAID_167B47ED_CED1_0A51_0DFD_2698932A9076
+ggm_uml_type: Class
+ggm_beleidsdomein: "Terug- en invordering"
+ggm_taakveld: "Inkomen"
+ggm_diagram: [Diagram Terug- en invordering]
+ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
+ggm_definitie: "Restitutie is terugbetaling van te veel ontvangen aflossing. Restituties worden geadministreerd onder de vordering."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Terugbetaling van te veel ontvangen aflossing
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]
 status: concept

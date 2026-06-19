@@ -2,20 +2,36 @@
 type: bedrijfsobject
 naam: Inburgeringstermijn
 domein: [Asiel en Integratie]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Inburgeringstermijn
-ggm_beleidsdomein: Inburgering
-ggm_diagram: Inburgering
-ggm_definitie: "De Inburgeringstermijn is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente."
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Inburgeringstermijn"
+ggm_guid: EAID_E07490AD_C5DE_4665_8540_92B19656A027
+ggm_uml_type: Class
+ggm_beleidsdomein: "Inburgering"
+ggm_taakveld: "6 Sociaal Domein"
+ggm_diagram: [Inburgering]
+ggm_diagram_ids: [EAID_96927C60_9F7B_4e67_806A_02EE0191983D]
+ggm_definitie: "<font color=\"#0e0e0e\">De </font><font color=\"#0e0e0e\"><b>Inburgeringstermijn</b></font><font color=\"#0e0e0e\"> is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente.</font>"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-gerelateerde_begrippen: [inburgering]
+bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Inburgeringsplicht
-    richting: naar-dit-BO
-    kardinaliteit: "1"
-    beschrijving: "Inburgeringsplicht heeft een termijn"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
+    beschrijving: Inburgeringsplicht heeft een termijn
 ---
 
 # Inburgeringstermijn

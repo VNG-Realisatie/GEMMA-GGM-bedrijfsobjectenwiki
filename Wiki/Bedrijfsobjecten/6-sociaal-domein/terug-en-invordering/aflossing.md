@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Aflossing
 domein: [Terug-en-invordering]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Aflossing
-ggm_beleidsdomein: Terug-en-invordering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Aflossing"
+ggm_guid: EAID_196161F4_8372_6334_AF08_263C236F7A38
+ggm_uml_type: Class
+ggm_beleidsdomein: "Terug- en invordering"
+ggm_taakveld: "Inkomen"
+ggm_diagram: [Diagram Terug- en invordering]
+ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
+ggm_definitie: "Een aflossing is de betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflos-sing gebeurt in het kader van een aflossingsafspraak gemaakt bij een vordering of wordt eenzijdig opgelegd. De aflossing wordt geadministreerd als een vorderingscomponent onder die vordering. Afgesproken is minnelijk maar kan ook opgelegd worden, bijv 5% verrekening of beslag op loon."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]
 status: concept

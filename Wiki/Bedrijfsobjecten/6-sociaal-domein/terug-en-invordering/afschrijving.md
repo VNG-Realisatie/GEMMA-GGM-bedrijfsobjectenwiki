@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Afschrijving
 domein: [Terug-en-invordering]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Afschrijving
-ggm_beleidsdomein: Terug-en-invordering
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Afschrijving"
+ggm_guid: EAID_c0026057_03ab_4e5b_a021_aa9175c4078c
+ggm_uml_type: Class
+ggm_beleidsdomein: "Terug- en invordering"
+ggm_taakveld: "Inkomen"
+ggm_diagram: [Diagram Terug- en invordering]
+ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
+ggm_definitie: "De vordering blijkt oninbaar. Er is (nog) geen aflossingsmogelijkheid. Er wordt ook niet geacht dat er perspectief is tot invordering. Er wordt afscheid genomen van de vordering.Afscheid nemen van de vordering gebeurt via het afschrijven van de vordering. De reden daarvan wordt opgegeven."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Het afschrijven van een oninbare vordering waarvoor geen perspectief op invordering bestaat
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Jaarrekening]
 bedrijfsfuncties: [Inning en invordering, Financieel beheer]
 status: concept

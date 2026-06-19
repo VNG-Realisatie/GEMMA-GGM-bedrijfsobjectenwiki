@@ -2,12 +2,31 @@
 type: bedrijfsobject
 naam: Werkorder
 domein: [Financien]
-archimate_type: business-object
-grondslag: ggm-entiteit
-ggm_entiteit: Werkorder
-ggm_beleidsdomein: Financien
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Werkorder"
+ggm_guid: EAID_4AF7FA48_DFB0_474f_B797_A13D5FD37530
+ggm_uml_type: Class
+ggm_beleidsdomein: "Financien"
+ggm_taakveld: "9 Interne Organisatie"
+ggm_diagram: [Financien Verwerken Mutaties]
+ggm_diagram_ids: [EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA]
+ggm_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: "Werkorder"
+ggm_gemma_guid: "5029f2d1-bad6-4813-8f59-d3f7981849e3"
+ggm_gemma_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5029f2d1-bad6-4813-8f59-d3f7981849e3"
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: ""
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces
-gerelateerde_begrippen: []
+bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Operationeel beheer, Onderhoud]
 bedrijfsfuncties: [Beheer openbare ruimte, Facilitair beheer]
 status: concept

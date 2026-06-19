@@ -2,20 +2,36 @@
 type: bedrijfsobject
 naam: Opvanglocatie
 domein: [Asiel en Integratie]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
 ggm_entiteit: ""
 ggm_beleidsdomein: ""
-ggm_diagram: ""
-ggm_definitie:
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
+ggm_diagram: []
+ggm_diagram_ids: []
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd."
-gerelateerde_begrippen: [opvanglocatie, asielopvang, duurzame-gemeentelijke-opvang, spreidingswet]
+bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-asielopvang.md", "Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Bestuursovereenkomst
-    richting: van-dit-BO
-    kardinaliteit: "0..1"
-    beschrijving: "Wordt geregeld door een bestuursovereenkomst met het COA"
+    richting: "van-dit-BO"
+    kardinaliteit: 0..1
+    beschrijving: Wordt geregeld door een bestuursovereenkomst met het COA
 ---
 
 # Opvanglocatie
