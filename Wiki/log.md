@@ -1,5 +1,24 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Afval en circulaire economie (10 BO's, 4 GGM-match)
+- Bronnen: 4 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl + 3 PDF's: Grondstoffennota 2020, Visie Utrecht Circulair 2050, Beleidsnota Utrecht Circulair 2030). Portaalpagina naar Niet-relevant.
+- 3 bronsamenvattingen aangemaakt: grondstoffennota-utrecht-2020.md, visie-utrecht-circulair-2050.md, beleidsnota-utrecht-circulair-2030.md
+- GGM-beleidsdomein Afval (16 entiteiten) volledig beoordeeld: 4 BO, 12 niet-BO (te granulair/operationeel)
+- **10 nieuwe BO's aangemaakt:**
+  - **Container** — GGM exact, 3 subtypes (ondergronds, kliko, citybin)
+  - **Grondstofstroom** — GGM sterk (Fractie), terugmelding: GGM-definitie te generiek
+  - **Milieustraat** — GGM exact
+  - **Afvalstoffenheffing** — GGM partieel (Prijsafspraak), cross-domain Belastingen
+  - **Verwerkingscontract** — procesobject, GGM-hiaat
+  - **Inzamelcontract** — procesobject, GGM-hiaat
+  - **Upcyclecentrum** — procesobject, GGM-hiaat (nieuw concept circulaire economie)
+  - **Grondstoffendepot** — procesobject, GGM-hiaat
+  - **Materiaalpasspoort** — ⚠️ ter discussie (instrument)
+  - **Afvalstoffenverordening** — ⚠️ ter discussie (governance)
+- 4 begrippen niet-BO: HNI (proces), nascheiding (proces), circulaire economie (concept), sorteeranalyse (activiteit)
+- Domeinoverzicht milieu.md uitgebreid met subdomein Afval en circulaire economie (28 begrippen, 16 BO's totaal)
+- VNG-bron afval-en-circulaire-economie.md nog niet verwerkt (aanvullende landelijke context)
+
 ## [2026-06-20] ingest | Groenbeleid → Beheer Openbare Ruimte (2 BO's)
 - Bronnen: 6 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl + 5 PDF's), 2 hoog-relevant behouden, 4 naar Niet-relevant/
 - 2 bronsamenvattingen aangemaakt: groenstructuurplan-utrecht-2007.md, actualisatie-groenstructuurplan-2017-2030.md (onder Wiki/Bronsamenvattingen/Milieu/)

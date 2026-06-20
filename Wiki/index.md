@@ -11,7 +11,7 @@
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
-- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater en ondergrond: bodemkwaliteit, verontreinigingen, sanering, grondverzet, bodemenergie (in behandeling, 6 BO's)
+- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie: bodemkwaliteit, verontreinigingen, containers, grondstofstromen, milieustraten, upcyclecentra (in behandeling, 16 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie: warmtenetten, opwekgebieden, besparing, netcongestie (in behandeling, 2 BO's)
@@ -305,6 +305,18 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet|grondverzet]] — Registratie van grondverplaatsing met kwaliteit en volume
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|bodemenergiesysteem]] — WKO-installatie in de ondergrond voor verwarming/koeling
 
+### Milieu — Afval en circulaire economie (GGM beleidsdomein Afval, taakveld 7)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container|container]] — Voorziening voor gescheiden inzameling huishoudelijk afval (GGM Container, exact)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom|grondstofstroom]] — Afzonderlijke afval-/grondstofstroom met eigen beleid (GGM Fractie, sterk)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat|milieustraat]] — Voorziening voor gescheiden aanbieden grof afval (GGM Milieustraat, exact)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing|afvalstoffenheffing]] — Gemeentelijke belasting voor afvalbeheerkosten (GGM Prijsafspraak, partieel)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/verwerkingscontract|verwerkingscontract]] — Overeenkomst met verwerker voor afvalverwerking (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/inzamelcontract|inzamelcontract]] — Overeenkomst gemeente-bedrijf voor bedrijfsafval (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/upcyclecentrum|upcyclecentrum]] — Voorziening voor hergebruik grof huishoudelijk afval (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot|grondstoffendepot]] — Opslag vrijkomende materialen voor hergebruik (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort|materiaalpasspoort]] — Digitale vastlegging materialen in gebouw/object (⚠️ instrument, ter discussie)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening|afvalstoffenverordening]] — Gemeentelijke verordening voor afvalinzameling (⚠️ governance, ter discussie)
+
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
@@ -392,10 +404,15 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
 
-### Milieu
+### Milieu — bodem
 - [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid
 - [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]] — Gemeente Utrecht: gebiedsgericht grondwaterbeheer (2015)
 - [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027]] — Gemeente Utrecht: hergebruik grond en bodembeheer
+
+### Milieu — afval en circulaire economie
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]] — Gemeente Utrecht: afvalbeleid per grondstofstroom (98 p., 2020)
+- [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050|Visie Utrecht Circulair 2050]] — Gemeente Utrecht: strategische visie circulaire stad (31 p., 2024)
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030|Beleidsnota Utrecht Circulair 2030]] — Gemeente Utrecht: meetbare doelen circulaire economie (2024)
 
 ### Energie en Klimaat
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht|Energiebeleid gemeente Utrecht]] — Gemeente Utrecht: overzicht energiebeleid (warmte, opwek, besparing, netcongestie)

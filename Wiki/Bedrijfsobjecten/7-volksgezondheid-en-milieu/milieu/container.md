@@ -1,0 +1,111 @@
+---
+type: bedrijfsobject
+naam: Container
+domein: [Milieu]
+archimate_type: "business-object"
+grondslag: ggm-entiteit
+ggm_entiteit: Container
+ggm_guid: EAID_7D3D98F0_664C_4605_9D95_F68C88ECBA9A
+ggm_uml_type: Class
+ggm_beleidsdomein: Afval
+ggm_taakveld: "7 Volksgezondheid en Milieu"
+ggm_diagram: ["Diagram Afval Ophalen"]
+ggm_diagram_ids: []
+ggm_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: "Voorziening voor het gescheiden inzamelen van huishoudelijke afvalstoffen."
+gemma_subtypes:
+  - naam: Ondergrondse container
+    omschrijving: "Ingegraven container voor restafval of grondstoffen"
+    ggm_entiteit: Containertype
+    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
+    ggm_attribuut: naam
+  - naam: Kliko
+    omschrijving: "Minicontainer aan huis voor GFT, papier of PBP"
+    ggm_entiteit: Containertype
+    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
+    ggm_attribuut: naam
+  - naam: Citybin
+    omschrijving: "Draagbare afvalemmer voor GFE-inzameling bij hoogbouw"
+    ggm_entiteit: Containertype
+    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
+    ggm_attribuut: naam
+bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
+bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]
+bedrijfsfuncties: [Afvalbeheer]
+relaties:
+  - type: associatie
+    bedrijfsobject: "[[Grondstofstroom]]"
+    richting: "naar-dit-BO"
+    kardinaliteit: "1"
+    beschrijving: "geschikt voor één fractie"
+  - type: associatie
+    bedrijfsobject: "[[Milieustraat]]"
+    richting: "van-dit-BO"
+    kardinaliteit: "0..*"
+    beschrijving: "staat op milieustraat"
+---
+
+## BO-criteria toetsing
+
+| Criterium | Van toepassing? |
+|---|---|
+| Heeft betekenis binnen het domein | ✅ Kernobject in afvalbeheer (inzamelinfrastructuur) |
+| Herkenbaar voor domeinexperts | ✅ Elke gemeente beheert containers voor gescheiden inzameling |
+| Heeft eigen bestaan | ✅ Fysieke voorziening met eigen locatie en registratie |
+| Kan in meervoud bestaan | ✅ Utrecht heeft 1.750+ ondergrondse containers alleen al |
+| Heeft eigen levenscyclus | ✅ Plaatsing → gebruik → onderhoud → vervanging |
+| Heeft relaties met andere concepten | ✅ Routes, fracties, locaties, vulgraadmetingen |
+
+**6/6 criteria van toepassing.**
+
+## Beschrijving
+
+Fysieke containers die de gemeente plaatst en beheert voor de gescheiden inzameling van huishoudelijk afval. Het containerpark omvat ondergrondse containers (voor restafval en grondstoffen in de openbare ruimte), kliko's (minicontainers aan huis voor GFT, papier of PBP) en citybins (draagbare afvalemmers voor GFE-inzameling bij hoogbouw). Onderdeel van Het Nieuwe Inzamelen, het systeem waarbij de gemeente steeds meer afvalstromen gescheiden ophaalt. Ondergrondse containers zijn uitgerust met sensoren voor vulgraadmeting, zodat ophaalroutes kunnen worden geoptimaliseerd.
+
+> "Met Het Nieuwe Inzamelen zamelen we meer grondstoffen gescheiden in bij de bron." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+
+## Specialisaties
+
+Herkende subtypes van container. Geen aparte BO's — het zijn waarden van het attribuut `naam` op [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md).
+
+| Subtype | Omschrijving | GGM-attribuut |
+|---|---|---|
+| Ondergrondse container | Ingegraven container voor restafval of grondstoffen | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
+| Kliko | Minicontainer aan huis voor GFT, papier of PBP | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
+| Citybin | Draagbare afvalemmer voor GFE-inzameling bij hoogbouw | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
+
+## GGM-bron
+
+> **Container**: Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen
+> — *GGM, Afval (taakveld 7 Volksgezondheid en Milieu)*
+
+**Entiteit:** Container
+**Matchsterkte:** exact — zelfde concept, compatibele definitie.
+
+## Relaties
+
+- **[[Grondstofstroom]]** — elke container is geschikt voor één fractie (GFT, restafval, papier, etc.)
+- **[[Milieustraat]]** — containers staan ook op de milieustraat voor brengstromen
+- **Vulgraadmeting** — GGM-entiteit (geen BO); sensor die de vulgraad van ondergrondse containers meet
+
+## Bedrijfsprocessen
+
+- **Afvalinzameling** — ophalen van afval uit containers volgens routes
+- **Containerbeheer** — plaatsing, onderhoud en vervanging van containers
+- **Het Nieuwe Inzamelen** — transitie naar meer gescheiden inzameling aan de bron
+
+## Bedrijfsfuncties
+
+- Afvalbeheer
