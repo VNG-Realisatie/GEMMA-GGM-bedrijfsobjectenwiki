@@ -48,7 +48,7 @@ Bedrijfsarchitectuur/
 ├── CLAUDE.md              # dit bestand — schema en conventies
 ├── templates/             # paginatemplates en referentietabellen
 ├── Sources/               # ruwe bronnen, NIET aanpassen
-│   ├── Onderwerpen VNG/   # VNG-publicaties per domein
+│   ├── Onderwerpen/       # beleidsdocumenten per domein
 │   │   └── {domein}/
 │   ├── GGM/               # leesbare representatie van het Gemeentelijk Gegevensmodel
 │   │   ├── structuur-ggm.md
@@ -147,9 +147,9 @@ Een begrip is een bedrijfsobject als het aan de **meeste** van deze criteria vol
 - Heeft een eigen levenscyclus
 - Heeft relaties met andere concepten
 
-**Vuistregel:** een begrip is meestal een BO als je er natuurlijk over kunt spreken als "deze ...", "die ...", "een nieuwe ...", "deze heeft kenmerken en relaties".
-
 **Geen BO** als het slechts een eigenschap, status, activiteit, regel of classificatie van iets anders is.
+
+**Registratie in een informatiesysteem is geen BO-criterium.** Alleen de 6 criteria hierboven zijn leidend. Gebruik ook niet als afwijsgrond: eigendom ("eigendom ligt bij Eneco"), systeembeheer ("gemeente registreert dit niet"), of regietype ("regie, niet registratie"). De enige vraag is: herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
 
 ### Begripstypen en abstractieniveaus
 
@@ -252,6 +252,7 @@ Bij VNG-bronnen zijn juist de mismatches met het GGM (hiaten, aggregaties, ander
 - **Taal**: Nederlands, tenzij gevestigde Engelse term (ArchiMate, business object).
 - **Bestandsnamen**: lowercase, koppeltekens. Voorbeeld: `onroerende-zaak.md`.
 - **Cross-references**: Obsidian `[[wiki-links]]` voor alle verwijzingen tussen wiki-pagina's.
+- **Wiki-links in tabellen**: gebruik `[[pad/naar/pagina]]` zonder alias — de `|` in `[[pad|alias]]` breekt markdown-tabellen. Buiten tabellen mag alias-syntax wel.
 - **Citaten uit bronnen**: blockquotes (`>`) met bronvermelding.
 
 ## Ingest workflow
