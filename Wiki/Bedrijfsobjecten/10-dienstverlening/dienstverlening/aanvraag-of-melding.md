@@ -35,12 +35,12 @@ bedrijfsprocessen: [Zaakafhandeling, Klantcontactregistratie, Meldingenbeheer]
 bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Begrippen/zaakdossier|zaakdossier]]"
+    bedrijfsobject: "zaakdossier"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: kan leiden tot een zaak
   - type: associatie
-    bedrijfsobject: "[[Wiki/Begrippen/informatieobject|informatieobject]]"
+    bedrijfsobject: "informatieobject"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: heeft documenten
@@ -107,8 +107,8 @@ De GGM-definitie ("Komt overeen met een VJV") is een technische referentie naar 
 
 | Gerelateerd BO | Richting | Kardinaliteit | Beschrijving | Bron |
 |---|---|---|---|---|
-| [[Wiki/Begrippen/zaakdossier|zaakdossier]] | → | 0..* | kan leiden tot een zaak | GGM: AanvraagOfMelding → Zaak |
-| [[Wiki/Begrippen/informatieobject|informatieobject]] | → | 0..* | heeft documenten | GGM: AanvraagOfMelding → Document |
+| zaakdossier | → | 0..* | kan leiden tot een zaak | GGM: AanvraagOfMelding → Zaak |
+| informatieobject | → | 0..* | heeft documenten | GGM: AanvraagOfMelding → Document |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] | ← | 0..* | betreft (indirect via klantcontact) | GGM: Klantcontact → ProductOfDienst |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] | ← | 0..* | kan ontstaan uit klantcontact na afspraak | GGM: Klantcontact → AanvraagOfMelding |
 

@@ -63,12 +63,12 @@ Zelfde patroon: de output van het inkoopproces (orders, facturen) is er, het pro
 
 | Laag | Voorbeeld | GGM |
 |---|---|---|
-| Zaak-runtime | Zaak, Status, Besluit, Document, Betrokkene, Medewerker | **Aanwezig** (RGBZPlus, tv99) — 25 entiteiten, de kern van [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] |
+| Zaak-runtime | Zaak, Status, Besluit, Document, Betrokkene, Medewerker | **Aanwezig** (RGBZPlus, tv99) — 25 entiteiten, de kern van zaakgericht-werken |
 | Zaaktype-configuratie | CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJECTTYPE | **Afwezig** — de ZTC2-configuratielaag die bepaalt *hoe* zaaktypen worden ingericht |
 | Klantcontact | Klantcontact, Balieafspraak | **Aanwezig** (RGBZPlus + tv10 Dienstverlening) |
 | Procesarchitectuur | Bedrijfsproces, Deelproces | **Aanwezig** (RGBZPlus) — het GGM heeft deze als uitbreiding op het RGBZ toegevoegd |
 
-Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het [[Wiki/Begrippen/resultaattype|resultaattype]] — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]].
+Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De zaaktypecatalogus is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het resultaattype — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]].
 
 ## Het patroon
 

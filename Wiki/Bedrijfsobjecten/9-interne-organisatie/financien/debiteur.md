@@ -68,6 +68,6 @@ De bedrijfsobjectdefinitie is breder dan beide GGM-definities: "Persoon die een 
 
 - Ontvangt [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]]en (privaatrechtelijk)
 - Heeft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]en (publiekrechtelijk/sociaal domein)
-- Verwant aan [[Wiki/Begrippen/belastingplichtige|belastingplichtige]] — maar een belastingplichtige is specifiek iemand met een wettelijke belastingplicht, terwijl een debiteur breder is (ook dienstverlening)
+- Verwant aan belastingplichtige — maar een belastingplichtige is specifiek iemand met een wettelijke belastingplicht, terwijl een debiteur breder is (ook dienstverlening)
 - Kan een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]] hebben
-- Kan in aanmerking komen voor [[Wiki/Begrippen/kwijtschelding|kwijtschelding]]
+- Kan in aanmerking komen voor kwijtschelding

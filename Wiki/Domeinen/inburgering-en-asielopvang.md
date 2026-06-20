@@ -61,25 +61,20 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 
 ## Begrippen
 
-### Thema's
-- [[Wiki/Begrippen/asielopvang|asielopvang]] — overkoepelend thema voor opvang van asielzoekers
-- [[Wiki/Begrippen/inburgering|inburgering]] — het formele traject na vergunningverlening
-
-### Instrumenten
-- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — wettelijke taak gemeenten voor opvangplekken
-- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — exploitatievorm waarbij gemeente begeleiding overneemt
-- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|bestuursovereenkomst]] — formele afspraken COA-gemeente per locatie
-- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — voorbereiding op inburgering in de opvangfase
-- [[Wiki/Begrippen/meedoenbalie|meedoenbalie]] — loket voor participatie en arbeidstoeleiding
-- [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] — koppeling statushouder aan gemeente op basis van profiel
-
-### Doelgroepen
-- [[Wiki/Begrippen/statushouder|statushouder]] — persoon met verblijfsvergunning
-- [[Wiki/Begrippen/alleenstaande-minderjarige-vreemdeling|alleenstaande-minderjarige-vreemdeling]] — jongere zonder ouder/begeleider
-
-### Objecten
-- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|opvanglocatie]] — fysieke locatie voor opvang, in diverse vormen
-- [[Wiki/Begrippen/inhuisregistratie|inhuisregistratie]] — wekelijkse aanwezigheidscontrole op locatie
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| asielopvang | thema | Overkoepelend thema voor opvang van asielzoekers | ❌ | Thema, geen object | — | nee |
+| inburgering | thema | Het formele traject na vergunningverlening | ❌ | Thema, geen object | — | nee |
+| spreidingswet | instrument | Wettelijke taak gemeenten voor opvangplekken | ❌ | Instrument, geen object | — | nee |
+| duurzame gemeentelijke opvang | instrument | Exploitatievorm waarbij gemeente begeleiding overneemt | ❌ | Instrument, geen object | — | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst]] | instrument | Formele afspraken COA-gemeente per locatie | ✅ | Governance-object, eigen levenscyclus | BOK Zeist | nee |
+| voorinburgering | instrument | Voorbereiding op inburgering in de opvangfase | ❌ | Onderdeel van inburgeringstraject | — | nee |
+| meedoenbalie | instrument | Loket voor participatie en arbeidstoeleiding | ❌ | Instrument, geen object | — | nee |
+| kansrijke koppeling | instrument | Koppeling statushouder aan gemeente op basis van profiel | ❌ | Instrument/procedure | — | nee |
+| statushouder | doelgroep | Persoon met verblijfsvergunning | ❌ | Doelgroep, geen object | — | nee |
+| alleenstaande minderjarige vreemdeling | doelgroep | Jongere zonder ouder/begeleider | ❌ | Doelgroep, geen object | — | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie]] | object | Fysieke locatie voor opvang, in diverse vormen | ✅ | 6/6 criteria, procesobject | AZC, noodopvang | nee |
+| inhuisregistratie | object | Wekelijkse aanwezigheidscontrole op locatie | ❌ | Eigenschap/proces van opvanglocatie | — | nee |
 
 ## Verwerkte bronnen
 

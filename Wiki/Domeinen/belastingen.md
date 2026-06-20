@@ -40,8 +40,8 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Begrippen/belastingaanslag]] | object | Individuele vaststelling van het belastingbedrag door de heffingsambtenaar | ✅ | 6/6 criteria, GGM-hiaat (procesobject) | OZB-aanslag 2025, naheffing parkeren | nee |
-| [[Wiki/Begrippen/belastingverordening]] | instrument | Juridische grondslag voor individuele belastingplicht | ✅ | Eigen levenscyclus, governance-object | OZB-verordening 2025, Legesverordening | nee |
+| belastingaanslag | object | Individuele vaststelling van het belastingbedrag door de heffingsambtenaar | ✅ | 6/6 criteria, GGM-hiaat (procesobject) | OZB-aanslag 2025, naheffing parkeren | nee |
+| belastingverordening | instrument | Juridische grondslag voor individuele belastingplicht | ✅ | Eigen levenscyclus, governance-object | OZB-verordening 2025, Legesverordening | nee |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-object]] | object | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld | ✅ | 6/6 criteria, exact GGM-match | Woning Dorpsstraat 1, kantoor | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo]] | object | Vastgestelde marktwaarde van een WOZ-object per waardepeildatum | ✅ | 6/6 criteria, exact GGM-match | WOZ-waarde 2025: €350.000 | ja |
 | belastingplichtige | actor | Persoon die belasting moet betalen | ❌ | Rol van een persoon, geen apart registratie-object | Eigenaar woning, hondenbezitter | nee |

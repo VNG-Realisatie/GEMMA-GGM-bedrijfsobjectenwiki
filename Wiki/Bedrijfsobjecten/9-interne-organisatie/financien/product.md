@@ -55,6 +55,6 @@ Het resultaat van een proces dat in het economisch verkeer een waarde bezit. In 
 
 ## Relaties
 
-- [[Wiki/Begrippen/leges|leges]] worden geheven voor specifieke producten/diensten
+- leges worden geheven voor specifieke producten/diensten
 - Gekoppeld aan [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]] voor kostentoerekening
 - Onderdeel van een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]

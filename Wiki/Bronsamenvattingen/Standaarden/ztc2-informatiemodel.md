@@ -75,6 +75,6 @@ EIGENSCHAP voorziet in zaaktypespecifieke gegevens die niet als standaard zaakke
 
 - De ZTC2 definieert objecttypen die **niet** in het GGM zitten: CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ZAAKOBJECTTYPE, ROLTYPE
 - Het GGM-beleidsdomein RGBZPlus bevat de RGBZ-kern maar niet de ZTC2-configuratielaag — dit is een structureel hiaat
-- De ZTC2-concepten zijn essentieel voor hoe gemeenten [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] inrichten
-- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] en [[Wiki/Begrippen/resultaattype|resultaattype]] zijn begrippen die uit deze bron komen
+- De ZTC2-concepten zijn essentieel voor hoe gemeenten zaakgericht-werken inrichten
+- zaaktypecatalogus en resultaattype zijn begrippen die uit deze bron komen
 - De relatie ZAAKTYPE = bedrijfsproces maakt de brug naar de GEMMA-procesarchitectuur

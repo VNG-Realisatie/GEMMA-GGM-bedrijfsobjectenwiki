@@ -6,7 +6,7 @@
 - [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: HR, arbeidsvoorwaarden, integriteit (afgerond, 0 BO's)
 - [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
-- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, detailhandel, markten, standplaatsen (in behandeling, 3 BO's)
+- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 8 BO's)
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -21,147 +21,6 @@
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
 - [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 26 BO's)
 
-## Begrippen
-
-### Belastingen — typering
-- [[Wiki/Begrippen/gemeentelijke-belasting|gemeentelijke-belasting]] — Overkoepelend begrip voor alle gemeentelijke heffingen
-- [[Wiki/Begrippen/algemene-belasting|algemene-belasting]] — Opbrengsten naar algemene middelen, vrij inzetbaar
-- [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]] — Opbrengsten bestemd voor specifieke taken, kostendekkend
-- [[Wiki/Begrippen/retributie|retributie]] — Heffing voor individueel voordeel bij gemeentelijke dienst
-- [[Wiki/Begrippen/leges|leges]] — Vergoeding voor aangevraagde dienst, subcategorie retributie
-
-### Belastingen — juridisch kader
-- [[Wiki/Begrippen/belastinggebied]] — Wettelijke heffingsmogelijkheden, gesloten stelsel
-- [[Wiki/Begrippen/belastingverordening]] — Juridische grondslag voor individuele belastingplicht
-- [[Wiki/Begrippen/belastingmix|belastingmix]] — Gekozen combinatie van belastingen en tarieven
-- [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]] — Opbrengsten mogen kosten niet overschrijden
-
-### Belastingen — actoren
-- [[Wiki/Begrippen/belastingplichtige|belastingplichtige]] — Persoon die belasting moet betalen
-- [[Wiki/Begrippen/heffingsambtenaar|heffingsambtenaar]] — Legt belastingaanslagen op
-- [[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]] — Int belastingaanslagen
-
-### Belastingen — instrumenten
-- [[Wiki/Begrippen/kruissubsidiering|kruissubsidiering]] — Overschot ene activiteit dekt tekort andere binnen heffing (instrument, tactisch)
-- [[Wiki/Begrippen/kostenonderbouwing|kostenonderbouwing]] — Verplichte verantwoording kosten lokale heffingen (instrument, tactisch)
-
-### Belastingen — WOZ en onroerende zaken
-- [[Wiki/Begrippen/woz-waarde|woz-waarde]] — Marktwaarde onroerende zaak, grondslag voor OZB e.a. (object, operationeel)
-- [[Wiki/Begrippen/woz-beschikking|woz-beschikking]] — Formele bekendmaking WOZ-waarde (object, operationeel)
-- [[Wiki/Begrippen/onroerende-zaak|onroerende-zaak]] — Object van WOZ-waardering en OZB-heffing (object, operationeel)
-- [[Wiki/Begrippen/waarderingskamer|waarderingskamer]] — Toezichthouder op WOZ-uitvoering (actor, tactisch)
-
-### Belastingen — objecten en processen
-- [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] — Individuele vaststelling van belastingbedrag
-- [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] — Maatstaf waarmee belastingschuld wordt bepaald
-- [[Wiki/Begrippen/kwijtschelding|kwijtschelding]] — Kwijtschelding bij onvermogen
-- [[Wiki/Begrippen/woonlasten|woonlasten]] — OZB + rioolheffing + afvalstoffenheffing per huishouden
-- [[Wiki/Begrippen/algemene-middelen|algemene-middelen]] — Niet-gelabelde opbrengsten, vrij inzetbaar door gemeenteraad
-
-### Financiën — inkomstenbronnen
-- [[Wiki/Begrippen/gemeentefonds|gemeentefonds]] — Grootste inkomstenbron, vrij besteedbaar (instrument, tactisch)
-- [[Wiki/Begrippen/algemene-uitkering|algemene-uitkering]] — Hoofdcomponent gemeentefonds (instrument, tactisch)
-- [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]] — Geoormerkt geld van het rijk (instrument, tactisch)
-
-### Financiën — begrotingscyclus en governance
-- [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]] — Kadernota → begroting → tussenrapportages → jaarrekening (thema, operationeel)
-- [[Wiki/Begrippen/budgetrecht|budgetrecht]] — Raadsbevoegdheid financiële middelen beschikbaar te stellen (instrument, tactisch)
-- [[Wiki/Begrippen/financiele-verordening|financiele-verordening]] — Art. 212 Gemeentewet, lokale spelregels financieel beleid (instrument, tactisch)
-- [[Wiki/Begrippen/kadernota|kadernota]] — Voorjaarsnota met kaders voor de begroting (object, operationeel)
-
-### Financiën — kengetallen
-- [[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]] — Eigen vermogen / balanstotaal (object, operationeel)
-- [[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]] — Netto schuld / baten (object, operationeel)
-- [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] — Ruimte tot art. 12-tarief (object, operationeel)
-
-### Dienstverlening — inkoop en aanbesteding
-- [[Wiki/Begrippen/gemeentelijke-inkoop|gemeentelijke-inkoop]] — Het geheel van inkoopactiviteiten, €40+ mrd (thema, tactisch)
-- [[Wiki/Begrippen/aanbesteding|aanbesteding]] — Verplichte inkoopprocedure boven drempelbedragen (instrument, tactisch)
-- [[Wiki/Begrippen/mvoi|mvoi]] — Maatschappelijk verantwoord opdrachtgeven en inkopen (instrument, tactisch)
-
-### Economie
-- [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — Maatschappelijk ideaal voorbij economische groei (waarde, normatief)
-- [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] — Aantrekkelijkheid gemeente/regio voor bedrijfsvestiging (doel, strategisch)
-- [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]] — Gemeentelijke dienstverlening aan ondernemers (thema, tactisch)
-- [[Wiki/Begrippen/regeldruk|regeldruk]] — Ervaren last van regelgeving voor ondernemers (thema, tactisch)
-- [[Wiki/Begrippen/economische-ruimte|economische-ruimte]] — Fysieke ruimte beschikbaar voor bedrijvigheid (thema, tactisch)
-- [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]] — Vraag en aanbod van arbeid, regionaal perspectief (thema, strategisch)
-- [[Wiki/Begrippen/human-capital|human-capital]] — Menselijk kapitaal, vaardigheden en inzetbaarheid (thema, strategisch)
-- [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] — Bedrijven tot 250 werknemers, ~60% werkgelegenheid (doelgroep, tactisch)
-- [[Wiki/Begrippen/werklocatie|werklocatie]] — Fysieke locatie voor bedrijvigheid (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats|standplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt|warenmarkt]] — Periodieke georganiseerde verkoop, Marktverordening-gereguleerd (object, operationeel)
-- winkelgebied — Aangewezen ruimtelijke concentratie van detailhandel (concept, geen BO)
-- ambulante handel — Overkoepelend voor warenmarkten en standplaatsen (categorie)
-- detailhandelsvestiging — Fysieke winkellocatie (concept, te generiek voor BO)
-
-### Inburgering en Asielopvang — thema's
-- [[Wiki/Begrippen/asielopvang|asielopvang]] — Overkoepelend thema: opvang asielzoekers, gemeentelijke rol (thema, tactisch)
-- [[Wiki/Begrippen/inburgering|inburgering]] — Gemeentelijk traject voor statushouders conform Wi2021 (thema, tactisch)
-
-### Inburgering en Asielopvang — instrumenten
-- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — Wettelijke taak gemeenten voor opvangplekken (instrument, normatief)
-- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — Exploitatievorm: gemeente neemt begeleidingstaken over (instrument, tactisch)
-- [[Wiki/Begrippen/bestuursovereenkomst|bestuursovereenkomst]] — Formele afspraken COA-gemeente per opvanglocatie (instrument, operationeel)
-- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — Voorbereiding op inburgering in de opvangfase (instrument, operationeel)
-- [[Wiki/Begrippen/meedoenbalie|meedoenbalie]] — Loket voor participatie en arbeidstoeleiding op opvanglocatie (instrument, operationeel)
-- [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] — Koppeling statushouder aan gemeente op basis van profiel (instrument, operationeel)
-
-### Inburgering en Asielopvang — doelgroepen
-- [[Wiki/Begrippen/statushouder|statushouder]] — Persoon met verblijfsvergunning, wachtend op of gehuisvest in gemeente (doelgroep, operationeel)
-- [[Wiki/Begrippen/alleenstaande-minderjarige-vreemdeling|alleenstaande-minderjarige-vreemdeling]] — Jongere zonder ouder/begeleider, amv (doelgroep, operationeel)
-
-### Inburgering en Asielopvang — objecten
-- [[Wiki/Begrippen/opvanglocatie|opvanglocatie]] — Fysieke locatie voor opvang in diverse vormen en schaalgroottes (object, operationeel)
-- [[Wiki/Begrippen/inhuisregistratie|inhuisregistratie]] — Wekelijkse aanwezigheidscontrole op opvanglocatie (object, operationeel)
-
-### Dienstverlening — thema
-- [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] — Werkwijze: dienstverlening organiseren rond zaken (thema, operationeel)
-
-### Dienstverlening — objecten
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] — Door de gemeente aangeboden dienst of product (object, operationeel)
-- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] — Verzameling zaaktypen met configuratie per domein (object, operationeel)
-- [[Wiki/Begrippen/informatieobject|informatieobject]] — Geheel van gegevens ongeacht vorm, breder dan "document" (object, operationeel)
-- [[Wiki/Begrippen/zaakdossier|zaakdossier]] — Zaakkenmerken + informatieobjecten, basis voor archivering (object, operationeel)
-- [[Wiki/Begrippen/resultaattype|resultaattype]] — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime (object, operationeel)
-
-### Beheer Openbare Ruimte — bomen
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (object, operationeel)
-- monumentale boom — Boom ≥80 jaar of anderszins bijzonder aangemerkt (classificatie)
-- bomenstructuur — Samenhangende stedelijke structuur van boomlijnen en -vlakken (structuur)
-- bomenparagraaf — Verplichte sectie in ruimtelijke plannen over gevolgen voor bomen (instrument)
-- kapvergunning — Vergunning voor het vellen van bomen (instrument)
-- herplantplicht — Verplichting tot herplant bij kap (regel)
-- groeiplaats — Fysieke standplaats met bodemkenmerken (eigenschap)
-- VTA-inspectie — Systematische beoordeling conditie en veiligheid (proces)
-
-### Beheer Openbare Ruimte — groenstructuur
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel groenstructuur (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (object, operationeel)
-- groenstructuur — Netwerk van groengebieden en verbindingen, vastgelegd op visiekaart (structuur)
-- visiekaart — Beleidskaart die vastlegt welke gebieden tot de groenstructuur behoren (instrument)
-- groencompensatie — Compensatiemaatregel bij aantasting groenstructuur (proces)
-- beschermde soort — Plant/diersoort op Utrechtse soortenlijst of Wet Natuurbescherming (classificatie)
-- wijkgroenplan — Plan per wijk voor verbetering groenvoorzieningen (instrument)
-
-### Milieu — bodem en grondwater
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart|bodemkwaliteitskaart]] — Kaart met vastgestelde bodemkwaliteit per zone (instrument, operationeel)
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|bodemverontreiniging]] — Geregistreerde verontreinigingslocatie met type en status (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/saneringsplan|saneringsplan]] — Plan voor aanpak verontreiniging (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondwatermeetpunt|grondwatermeetpunt]] — Fysiek meetpunt in monitoringsnetwerk (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet|grondverzet]] — Registratie van grondverplaatsing (object, operationeel)
-- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|bodemenergiesysteem]] — WKO-installatie in de ondergrond (object, operationeel)
-- dynamische zone — Kerngebied met vermengde grondwaterverontreinigingen (classificatie)
-- bufferzone — Overgangszone rondom de dynamische zone (classificatie)
-- lokale maximale waarden — Gebiedsspecifieke normen afwijkend van landelijk beleid (instrument)
-- bodemfunctieklassenkaart — Kaart met bodemfunctie per zone (instrument)
-- gebiedsgerichte aanpak — Integrale benadering vermengde verontreinigingen (thema)
-- bodemsanering — Proces van opschonen verontreinigde bodem/grondwater (thema)
-- bodembeheer — Overkoepelend beheer van bodemkwaliteit (thema)
-- grondwaterbeheer — Beheer van grondwaterkwaliteit en -kwantiteit (thema)
-
 ## Bedrijfsobjecten
 
 ### Bestuur (procesobjecten/governance-objecten, taakveld 0 — GGM-hiaten)
@@ -173,6 +32,11 @@
 ### Economie (GGM taakveld 3 + Musea taakveld 5)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats|standplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (GGM Standplaats, Musea, sterk)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt|warenmarkt]] — Periodieke georganiseerde verkoop op aangewezen locatie (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf|horecabedrijf]] — Bedrijf voor eten, drinken en/of logies (Vestiging RSGB, partieel)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel|hotel]] — Verblijfsaccommodatie met subtypes concept/doelgroep/mini (GGM Hotel, exact)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/terras|terras]] — Tijdelijk gebruik openbare ruimte door horecabedrijf (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie|short-stay-accommodatie]] — Logies 2 weken–6 maanden voor kenniswerkers/studenten (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast|bed-and-breakfast]] — Kleinschalige logiesaccommodatie, max 4 kamers (procesobject, GGM-hiaat)
 
 ### Financien (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
@@ -321,10 +185,10 @@
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] — Door de gemeente aangeboden dienst of product
-- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] — Verzameling zaaktypen met configuratie per domein
-- [[Wiki/Begrippen/informatieobject|informatieobject]] — Geheel van gegevens ongeacht vorm, breder dan "document"
-- [[Wiki/Begrippen/zaakdossier|zaakdossier]] — Zaakkenmerken + informatieobjecten, basis voor archivering
-- [[Wiki/Begrippen/resultaattype|resultaattype]] — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
+- zaaktypecatalogus — Verzameling zaaktypen met configuratie per domein
+- informatieobject — Geheel van gegevens ongeacht vorm, breder dan "document"
+- zaakdossier — Zaakkenmerken + informatieobjecten, basis voor archivering
+- resultaattype — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
 
 ## GGM (referentie — zie Sources/GGM/)
 
@@ -352,9 +216,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Belastingen
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]] — VNG: drie typen gemeentelijke belastingen
-- [[Wiki/Begrippen/belastinggebied]] — VNG: reikwijdte belastinggebied, gesloten stelsel
+- belastinggebied — VNG: reikwijdte belastinggebied, gesloten stelsel
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek]] — VNG: beleidskeuzes bij de belastingmix
-- [[Wiki/Begrippen/belastingverordening]] — VNG: de verordening als juridisch instrument
+- belastingverordening — VNG: de verordening als juridisch instrument
 - [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling]] — VNG: rollen van raad, college, ambtenaren
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding|invordering-en-kwijtschelding]] — VNG: invorderingsproces en kwijtscheldingsbeleid
 - [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven|kostendekkende-tarieven]] — VNG: kostendekkendheidsbeginsel
@@ -384,6 +248,11 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
 - [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|ontwikkelingskader-detailhandel-2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
 - [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|detailhandel-utrecht-2015]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
+- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht|horecabeleid-utrecht]] — Gemeente Utrecht: overzicht horecabeleid (horeca, hotels, short stay)
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|actualisatie-marktruimte-hotelnota]] — Gemeente Utrecht: hotelmarktruimte Horwath HTL (2015)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|beleidsregels-terrassen-utrecht]] — Gemeente Utrecht: beleidsregel terrassen (2024)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|beleidsregel-hotels-utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen (2026)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|beleidsregels-short-stay-utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
 
 ### GEMMA
 - [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM

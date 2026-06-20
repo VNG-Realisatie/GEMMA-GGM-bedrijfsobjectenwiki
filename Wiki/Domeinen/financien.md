@@ -14,36 +14,28 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 
 ## Begrippen
 
-### Inkomstenbronnen
-- [[Wiki/Begrippen/gemeentefonds|gemeentefonds]] — grootste inkomstenbron, vrij besteedbaar
-- [[Wiki/Begrippen/algemene-uitkering|algemene-uitkering]] — hoofdcomponent gemeentefonds
-- [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]] — geoormerkt geld van het rijk voor medebewindstaken
-
-### Begrotingscyclus en governance
-- [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]] — kadernota → begroting → tussenrapportages → jaarrekening
-- [[Wiki/Begrippen/budgetrecht|budgetrecht]] — raadsbevoegdheid om geld beschikbaar te stellen
-- [[Wiki/Begrippen/financiele-verordening|financiele-verordening]] — art. 212 Gemeentewet, lokale spelregels financieel beleid
-- [[Wiki/Begrippen/kadernota|kadernota]] — voorjaarsnota met kaders voor de begroting
-
-### Financiële kengetallen
-- [[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]] — eigen vermogen / balanstotaal (schuldbelasting bezit)
-- [[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]] — netto schuld / baten (schuldhoogte)
-- [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] — ruimte tot art. 12-tarief (brug naar belastingdomein)
-
-## Bedrijfsobjecten
-
-| Begrip | Status | GGM-grondslag | Matchsterkte |
-|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting]] | ✅ BO | Begroting (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats]] | ✅ BO | Kostenplaats (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur]] | ✅ BO | Factuur (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder]] | ✅ BO | Inkooporder (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur]] | ✅ BO | Debiteur (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld]] | ✅ BO | Taakveld (IV3) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling]] | ✅ BO | Doelstelling (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product]] | ✅ BO | Product (Financien) | exact |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa]] | ✅ BO | Activa (Financien) | sterk |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder]] | ✅ BO | Werkorder (Financien) | exact |
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| gemeentefonds | instrument | Grootste inkomstenbron, vrij besteedbaar | ❌ | Instrument, geen object | — | nee |
+| algemene uitkering | instrument | Hoofdcomponent gemeentefonds | ❌ | Instrument, geen object | — | nee |
+| specifieke uitkering | instrument | Geoormerkt geld van het rijk voor medebewindstaken | ❌ | Instrument, geen object | — | nee |
+| begrotingscyclus | thema | Kadernota → begroting → tussenrapportages → jaarrekening | ❌ | Proces, geen object | — | nee |
+| budgetrecht | instrument | Raadsbevoegdheid om geld beschikbaar te stellen | ❌ | Instrument, geen object | — | nee |
+| financiële verordening | instrument | Art. 212 Gemeentewet, lokale spelregels financieel beleid | ❌ | Instrument, geen object | — | nee |
+| kadernota | object | Voorjaarsnota met kaders voor de begroting | ❌ | Procesobject, beperkte levenscyclus | Kadernota 2026 | nee |
+| solvabiliteitsratio | object | Eigen vermogen / balanstotaal | ❌ | Kengetal, afgeleid gegeven | — | nee |
+| netto-schuldquote | object | Netto schuld / baten | ❌ | Kengetal, afgeleid gegeven | — | nee |
+| onbenutte belastingcapaciteit | object | Ruimte tot art. 12-tarief | ❌ | Kengetal, afgeleid gegeven | — | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting]] | object | Overzicht verwachte ontvangsten en voorziene uitgaven | ✅ | 6/6 criteria, GGM exact | Programmabegroting 2026 | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats]] | object | Rekening waaraan boekingen worden toegeschreven | ✅ | 6/6 criteria, GGM exact | Afdeling, project | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur]] | object | Schriftelijke rekening voor geleverde zaken of diensten | ✅ | 6/6 criteria, GGM exact | Inkoopfactuur, verkoopfactuur | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder]] | object | Opdracht voor levering van goederen en/of diensten | ✅ | 6/6 criteria, GGM exact | Bestelling materiaal | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur]] | object | Persoon die een bedrag verschuldigd is aan de gemeente | ✅ | 6/6 criteria, GGM exact | Huurder, belastingplichtige | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld]] | object | Samenhangend geheel van activiteiten en taken (IV3) | ✅ | 6/6 criteria, GGM exact | Taakveld 3 Economie | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling]] | object | Op korte of middellange termijn nagestreefde situatie | ✅ | 6/6 criteria, GGM exact | Begrotingsdoelstelling | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product]] | object | Resultaat van een proces dat in het economisch verkeer waarde bezit | ✅ | 6/6 criteria, GGM exact | Paspoort, bouwvergunning | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa]] | object | Bezittingen op de boekhoudkundige balans | ✅ | 6/6 criteria, GGM sterk | Grond, gebouw, inventaris | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder]] | object | Opdracht voor uitvoering van een activiteit | ✅ | 6/6 criteria, GGM exact | Onderhoudsopdracht | ja |
 
 ## GGM-dekkingsanalyse
 
@@ -67,5 +59,5 @@ Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie
 
 ## Raakvlakken
 
-- **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] koppelt de domeinen
+- **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; onbenutte belastingcapaciteit koppelt de domeinen
 - **Dienstverlening** — inkoop en aanbesteding zijn de uitgavenkant van de begroting

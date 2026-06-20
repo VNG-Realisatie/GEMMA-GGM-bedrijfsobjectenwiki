@@ -1,5 +1,17 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Horeca, hotels en short stay (5 BO's, 1 GGM-match)
+- Bronnen: 7 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl/thematisch-beleid/horeca + 1 PDF + 5 gelinkte HTML-pagina's). 2 dunne iBabs-stubs naar Niet-relevant. Fetch-skill bijgewerkt: haalt nu ook HTML-links 1 level diep op.
+- 5 bronsamenvattingen aangemaakt: horecabeleid-utrecht, actualisatie-marktruimte-hotelnota, beleidsregels-terrassen-utrecht, beleidsregel-hotels-utrecht, beleidsregels-short-stay-utrecht
+- **5 nieuwe BO's aangemaakt:**
+  - **Hotel** — GGM exact (Hotel, taakveld 3). Subtypes: concepthotel, doelgroephotel, minihotel
+  - **Horecabedrijf** — GGM partieel (Vestiging RSGB). Subtype: horecavergunning
+  - **Terras** — procesobject, GGM-hiaat. Terugmelding: registratieobject openbare ruimte
+  - **Short Stay Accommodatie** — procesobject, GGM-hiaat. Capaciteitsgrenzen 1.080 eenheden
+  - **Bed-and-breakfast** — procesobject, GGM-hiaat. Max 4 kamers, vergelijkbaar met Hotel
+- Domeinoverzicht economie.md bijgewerkt: 8 begrippen + 5 BO's + 4 GGM-hiaten toegevoegd
+- CLAUDE.md bijgewerkt: regel "Subtypes altijd vastleggen" toegevoegd bij BO-criteria
+
 ## [2026-06-20] ingest | Afval en circulaire economie (10 BO's, 4 GGM-match)
 - Bronnen: 4 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl + 3 PDF's: Grondstoffennota 2020, Visie Utrecht Circulair 2050, Beleidsnota Utrecht Circulair 2030). Portaalpagina naar Niet-relevant.
 - 3 bronsamenvattingen aangemaakt: grondstoffennota-utrecht-2020.md, visie-utrecht-circulair-2050.md, beleidsnota-utrecht-circulair-2030.md

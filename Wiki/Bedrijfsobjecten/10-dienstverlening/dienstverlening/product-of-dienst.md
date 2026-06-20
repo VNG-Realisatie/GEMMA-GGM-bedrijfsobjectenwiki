@@ -80,7 +80,7 @@ De GGM-definitie is een systeemreferentie naar het bronsysteem, niet een inhoude
 |---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] | ← | 0..* | afspraak betreft dit product/dienst | GGM: Balieafspraak → ProductOfDienst |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] | ← | 0..* | aanvraag betreft (via klantcontact) | GGM: Klantcontact → ProductOfDienst |
-| [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] | → | 0..* | gekoppeld aan zaaktype(n) via ZTC | Standaard ZTC2 |
+| zaaktypecatalogus | → | 0..* | gekoppeld aan zaaktype(n) via ZTC | Standaard ZTC2 |
 
 ## Terugmelding GGM
 

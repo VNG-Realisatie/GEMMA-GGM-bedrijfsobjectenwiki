@@ -151,6 +151,8 @@ Een begrip is een bedrijfsobject als het aan de **meeste** van deze criteria vol
 
 **Registratie in een informatiesysteem is geen BO-criterium.** Alleen de 6 criteria hierboven zijn leidend. Gebruik ook niet als afwijsgrond: eigendom ("eigendom ligt bij Eneco"), systeembeheer ("gemeente registreert dit niet"), of regietype ("regie, niet registratie"). De enige vraag is: herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
 
+**Subtypes altijd vastleggen.** Begrippen die een subtype zijn van een breder concept (bijv. horecavergunning → vergunning), die generiek zijn, of die in een ander domein thuishoren: niet weglaten maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere domein/BO is voldoende.
+
 ### Begripstypen en abstractieniveaus
 
 Zie `templates/begripstypen.md` voor de volledige classificatietabel en filterlogica.

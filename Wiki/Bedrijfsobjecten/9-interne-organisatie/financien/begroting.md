@@ -56,5 +56,5 @@ Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaal
 ## Relaties
 
 - Bevat [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]en als structuuronderdeel
-- Belastingopbrengsten uit [[Wiki/Begrippen/algemene-middelen|algemene-middelen]] komen in de begroting terecht
-- Kostendekkendheid van [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s wordt getoetst als raming in de begroting
+- Belastingopbrengsten uit algemene-middelen komen in de begroting terecht
+- Kostendekkendheid van bestemmingsbelastingen en retributies wordt getoetst als raming in de begroting

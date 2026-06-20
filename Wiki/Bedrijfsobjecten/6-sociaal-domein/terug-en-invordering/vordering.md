@@ -62,7 +62,7 @@ De GGM-definitie beperkt zich tot bijstand; de bedrijfsobjectdefinitie is breder
 
 - Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
 - Kan leiden tot een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
-- Kan worden beëindigd door [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]], [[Wiki/Begrippen/kwijtschelding|kwijtschelding]] of [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving|afschrijving]]
+- Kan worden beëindigd door [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]], kwijtschelding of [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving|afschrijving]]
 - Kan aanleiding geven tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] bij niet-betaling
 - Kan resulteren in [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie|restitutie]] bij te veel ontvangen aflossing
-- Verwant aan [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] — maar de GGM-vordering is specifiek sociaal domein, terwijl een belastingaanslag publiekrechtelijk is op grond van de belastingverordening
+- Verwant aan belastingaanslag — maar de GGM-vordering is specifiek sociaal domein, terwijl een belastingaanslag publiekrechtelijk is op grond van de belastingverordening

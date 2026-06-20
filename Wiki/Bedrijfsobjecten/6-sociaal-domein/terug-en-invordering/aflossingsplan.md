@@ -59,5 +59,5 @@ Alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij
 - Hoort bij een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
 - Betreft een of meer [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]en
 - Bevat [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]]en als concrete betalingen
-- Bij 36 maanden aflossingsdicipline: mogelijkheid tot [[Wiki/Begrippen/kwijtschelding|kwijtschelding]]
+- Bij 36 maanden aflossingsdicipline: mogelijkheid tot kwijtschelding
 - Bij achterstalligheid: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]]

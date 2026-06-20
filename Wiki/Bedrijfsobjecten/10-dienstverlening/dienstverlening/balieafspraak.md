@@ -34,7 +34,7 @@ relaties:
     kardinaliteit: "0..*"
     beschrijving: betreft een product of dienst
   - type: associatie
-    bedrijfsobject: "[[Wiki/Begrippen/zaakdossier|zaakdossier]]"
+    bedrijfsobject: "zaakdossier"
     richting: "van-dit-BO"
     kardinaliteit: 0..1
     beschrijving: heeft betrekking op een zaak
@@ -78,5 +78,5 @@ In de context van overheidsbrede dienstverlening zijn balieafspraken het registr
 | Gerelateerd BO | Richting | Kardinaliteit | Beschrijving | Bron |
 |---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] | → | 0..* | betreft | GGM: Balieafspraak → ProductOfDienst |
-| [[Wiki/Begrippen/zaakdossier|zaakdossier]] | → | 0..1 | heeft betrekking op | GGM: Balieafspraak → Zaak |
+| zaakdossier | → | 0..1 | heeft betrekking op | GGM: Balieafspraak → Zaak |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] | → | 0..* | kan uitmonden in (via klantcontact) | GGM: Balieafspraak → Klantcontact → AanvraagOfMelding |

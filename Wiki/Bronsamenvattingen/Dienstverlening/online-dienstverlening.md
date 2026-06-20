@@ -23,4 +23,4 @@ De VNG ondersteunt via de GGU en het GGU-fonds. Belangrijke initiatieven: MijnSe
 
 ## Relevantie voor bedrijfsarchitectuur
 
-De Wmebv creëert nieuwe verplichtingen (notificatie, ontvangstbevestiging) die het dienstverleningsproces raken maar geen nieuwe data-objecten introduceren. Het versterkt het belang van bestaande objecten als [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] en [[Wiki/Begrippen/informatieobject|informatieobject]].
+De Wmebv creëert nieuwe verplichtingen (notificatie, ontvangstbevestiging) die het dienstverleningsproces raken maar geen nieuwe data-objecten introduceren. Het versterkt het belang van bestaande objecten als [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] en informatieobject.

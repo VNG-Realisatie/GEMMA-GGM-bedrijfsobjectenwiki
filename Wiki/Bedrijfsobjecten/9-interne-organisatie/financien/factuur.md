@@ -56,4 +56,4 @@ Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten.
 
 - Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
 - Gekoppeld aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]] (inkomende facturen) of aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]] (uitgaande facturen)
-- Verschilt van een [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]: een factuur is een privaatrechtelijke vordering, een aanslag een publiekrechtelijke
+- Verschilt van een belastingaanslag: een factuur is een privaatrechtelijke vordering, een aanslag een publiekrechtelijke

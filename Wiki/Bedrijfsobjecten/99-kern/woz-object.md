@@ -45,7 +45,7 @@ relaties:
 
 # WOZ-object
 
-De onroerende zaak waarvan de gemeente jaarlijks de [[Wiki/Begrippen/woz-waarde|woz-waarde]] vaststelt onder de Wet WOZ.
+De onroerende zaak waarvan de gemeente jaarlijks de woz-waarde vaststelt onder de Wet WOZ.
 
 ## GGM-bron
 
@@ -57,7 +57,7 @@ De onroerende zaak waarvan de gemeente jaarlijks de [[Wiki/Begrippen/woz-waarde|
 
 ## BO-definitie
 
-Het bedrijfsobject WOZ-object komt overeen met de GGM-entiteit. Het is het centrale object in het WOZ-proces: het wordt getaxeerd, krijgt een waarde, en die waarde is de [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] voor de OZB en andere heffingen.
+Het bedrijfsobject WOZ-object komt overeen met de GGM-entiteit. Het is het centrale object in het WOZ-proces: het wordt getaxeerd, krijgt een waarde, en die waarde is de heffingsmaatstaf voor de OZB en andere heffingen.
 
 De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden gegevens bijgehouden over oppervlakte, bouwtype, bouwjaar, onderhoud, omgevingsfactoren, verkoop- en huurcijfers.
 
@@ -73,7 +73,7 @@ De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden ge
 ## Bedrijfsprocessen
 
 - **WOZ-taxatie**: jaarlijkse waardebepaling via geautomatiseerde taxatiemodellen
-- **OZB-heffing**: WOZ-waarde × tarief = [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]
+- **OZB-heffing**: WOZ-waarde × tarief = belastingaanslag
 - **Bezwaarbehandeling**: belastingplichtige kan bezwaar maken tegen de WOZ-waarde
 
 ## Bedrijfsfuncties

@@ -56,4 +56,4 @@ Rekening waaraan boekingen in een financiële administratie samen worden toegesc
 ## Relaties
 
 - Onderdeel van de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]structuur
-- Relevant voor [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]]: kosten van een [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]] of [[Wiki/Begrippen/retributie|retributie]] moeten toerekenbaar zijn aan kostenplaatsen
+- Relevant voor kostendekkend-tarief: kosten van een bestemmingsbelasting of retributie moeten toerekenbaar zijn aan kostenplaatsen
