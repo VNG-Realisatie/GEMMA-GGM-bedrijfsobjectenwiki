@@ -10,11 +10,16 @@
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
-- [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 6 BO's)
+- [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater en ondergrond: bodemkwaliteit, verontreinigingen, sanering, grondverzet, bodemenergie (in behandeling, 6 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 1 BO)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie: warmtenetten, opwekgebieden, besparing, netcongestie (in behandeling, 2 BO's)
+- [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
+- [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
+- [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
+- [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
+- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 26 BO's)
 
 ## Begrippen
 
@@ -208,6 +213,7 @@
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] — Locatie met (verwachte) archeologische waarde, geregistreerd op beleidskaart
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|archeologische-vondst]] — Archeologisch overblijfsel of voorwerp, beheerd in gemeentelijk depot
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]] — Onderzoeksproject door/namens gemeente als bevoegd gezag
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/orgel|orgel]] — Monumentaal muziekinstrument in kerkgebouw, eigen beschermingsstatus (GGM-hiaat)
 
 ### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — Object met cultuurhistorische waarde in museale collectie
@@ -218,6 +224,61 @@
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|opwekgebied]] — Aangewezen gebied voor grootschalige opwek van duurzame energie (zon/wind)
+
+### Evenementen (GGM taakveld 1 VTH + procesobjecten)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie|evenementenlocatie]] — Aangewezen fysieke locatie waar evenementen mogen plaatsvinden (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning|evenementenvergunning]] — Toestemming om een evenement te organiseren op een specifieke locatie en datum (procesobject, GGM-hiaat)
+
+### Gevaarlijke stoffen / Omgevingsveiligheid (GGM taakveld 8 Omgevingswet, partieel)
+- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (GGM Activiteit, partieel)
+- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/aandachtsgebied|aandachtsgebied]] — Ruimtelijk gebied rond risicobron voor veiligheidsafweging (GGM Gebiedsaanwijzing, partieel)
+- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/voorschriftengebied|voorschriftengebied]] — Aangewezen gebied met aanvullende bouweisen (GGM Gebiedsaanwijzing, partieel)
+
+### Geluid (GGM taakveld 7/8, procesobjecten + 1 ggm-entiteit)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron|geluidbron]] — Bron die geluid veroorzaakt, ingedeeld naar bronsoort (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidgevoelig-gebouw|geluidgevoelig-gebouw]] — Gebouw waarvoor geluidnormen gelden (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/stil-gebied|stil-gebied]] — Rustig gebied dat de gemeente beschermt en uitbreidt (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidzone|geluidzone]] — Zone rond industrieterrein met cumulatieve geluidnormen (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/geluidscherm|geluidscherm]] — Fysieke afscherming om geluidhinder te verminderen (GGM Geluidsscherm, exact)
+
+### Mobiliteit — Fiets (procesobjecten, taakveld 2 — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|hoofdfietsroute]] — Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk
+
+### Mobiliteit — OV (procesobjecten, taakveld 2 — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|ov-knooppunt]] — Multimodaal overstappunt op kruising van OV-verbindingen
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|ov-lijn]] — Tram- of buslijn met vaste route, dienstregeling en frequentie
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|halte]] — Fysieke OV-voorziening waar reizigers in- en uitstappen
+
+### Mobiliteit — Multimodaal (procesobjecten, taakveld 2 — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|p-r-locatie]] — Parkeer-en-reisvoorziening voor overstap auto naar OV/fiets
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|mobiliteitshub]] — Multimodaal overstappunt met deelvoertuigen en voorzieningen
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal|laadpaal]] — Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte
+
+### Mobiliteit — Goederenvervoer (procesobjecten/governance-objecten, taakveld 2 — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|logistieke-route]] — Voorkeursroute voor goederenvervoer met kwaliteitseisen
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|laad-en-losplaats]] — Aangewezen locatie voor het laden en lossen van goederen
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stadsdistributiepunt|stadsdistributiepunt]] — Overslaglocatie voor bundeling en distributie van goederen
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|zero-emissiezone]] — Zone waar alleen emissieloze voertuigen mogen opereren
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/overslagpunt|overslagpunt]] — Locatie voor overslag van goederen tussen weg, water en spoor
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/bouwlogistiek-centrum|bouwlogistiek-centrum]] — Hub voor gebundelde aanvoer van bouwmaterialen
+
+### Mobiliteit — Verkeersmanagement (GGM-verificatie, taakveld 2)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit|verkeersbesluit]] — Besluit over plaatsen/wijzigen verkeersteken of fysieke maatregel (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stremming|stremming]] — Blokkering doorstroming wegverkeer door incident (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling|verkeerstelling]] — Onderzoek naar verkeershoeveelheid en -verdeling (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute|strooiroute]] — Traject voor gladheidsbestrijding (GGM exact)
+
+### Mobiliteit — Parkeren (GGM-verificatie, taakveld 2)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone|parkeerzone]] — Afgebakend gebied met parkeerregels (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|parkeergarage]] — Gebouwde parkeervoorziening (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning|parkeervergunning]] — Toestemming om op bepaalde plek te parkeren (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht|parkeerrecht]] — Recht om te parkeren onder bepaalde voorwaarden (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak|parkeervlak]] — Parkeergelegenheid langs de weg (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerscan|parkeerscan]] — Waarneming van parkeeractie door scanauto (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|voertuig]] — Vervoermiddel voor wegverkeer (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing|naheffing]] — Achteraf vordering te weinig betaalde parkeerbelasting (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit|mulderfeit]] — Administratieve parkeerovertreding onder Wet Mulder (GGM exact)
 
 ### Dierenwelzijn (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/hulpbehoevend-dier|hulpbehoevend-dier]] — Wild of gehouden dier waarvoor de gemeente wettelijk opvang organiseert
@@ -327,6 +388,24 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie|VNG — Opwekken duurzame energie]] — VNG: RES, wind op land, zon, Voorkeursvolgorde
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving|VNG — Verduurzaming gebouwde omgeving]] — VNG: warmtetransitie, isolatie, Wgiw, Wcw, NIP
 
+### Evenementen
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Locatiebeleid evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)
+- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht]] — Gemeente Utrecht: overzichtspagina omgevingsvisie.utrecht.nl (secundair)
+
+### Gevaarlijke stoffen
+- [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid|Beleidsnota Omgevingsveiligheid Utrecht]] — Gemeente Utrecht: beleid omgevingsveiligheid gevaarlijke stoffen (2023)
+
+### Geluid
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen (2024)]] — Gemeente Utrecht: beleidsnota geluid en trillingen, onderdeel omgevingsvisie
+- [[Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht|Actieplan Geluid Utrecht 2018-2023]] — Gemeente Utrecht: operationeel uitvoeringsprogramma geluidknelpunten en stille gebieden
+
+### Mobiliteit
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] — Gemeente Utrecht: visie op mobiliteit 2040, alle modaliteiten (hoofdbron)
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer 2007]] — Gemeente Utrecht: routestructuur en kwaliteitseisen goederenvervoer
+
+### Openbare Gezondheid
+- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie]] — VNG + gemeente Utrecht: gezondheidsbeleid, GALA/IZA, preventieakkoorden, mentale gezondheid, lijkbezorging
+
 ### Dierenwelzijn
 - [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn 2019]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
 
@@ -337,6 +416,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG: bibliotheekwerk als gemeentelijke taak
 - [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel]] — VNG: actualisering ringenmodel 2.0
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]] — Gemeente Utrecht: erfgoedbeleid, archeologie, monumenten, verduurzaming
+- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Visie religieus erfgoed 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid Utrecht]] — Gemeente Utrecht: overzichtspagina erfgoedbeleid (secundair)
+- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen visie religieus erfgoed]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
 
 ## Analyses
 

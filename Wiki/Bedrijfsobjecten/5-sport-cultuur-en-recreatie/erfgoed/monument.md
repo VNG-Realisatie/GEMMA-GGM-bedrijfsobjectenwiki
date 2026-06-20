@@ -25,6 +25,42 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa6
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister."
+gemma_subtypes:
+  - naam: kerkgebouw
+    omschrijving: "Religieus gebouw (kapittels, parochiekerken, kloosters)"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
+  - naam: beschermd stadsgezicht
+    omschrijving: "Rijks- of gemeentelijk beschermd stads- of dorpsgezicht"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "gezichtscode"
+  - naam: synagoge
+    omschrijving: "Joods gebedshuis"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
+  - naam: klooster
+    omschrijving: "Kloostergebouw of -complex"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
+  - naam: woonhuis
+    omschrijving: "Beschermd woonhuis of grachtenpand"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
+  - naam: verdedigingswerk
+    omschrijving: "Fort, muur of ander militair erfgoed (Waterlinie, Limes)"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
+  - naam: openbare ruimte
+    omschrijving: "Beschermd park, plantsoen of singel (Zocherplantsoen)"
+    ggm_entiteit: "Beschermde Status"
+    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+    ggm_attribuut: "type"
 bedrijfsprocessen: [Monumentenaanwijzing, Monumentenvergunning, Erfgoedtoezicht]
 bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
 relaties:
@@ -76,6 +112,20 @@ Het bedrijfsobject **Monument** komt overeen met de GGM-entiteit **Beschermde St
 De entiteit omvat zowel individuele monumenten als beschermde stads- en dorpsgezichten (via het attribuut `gezichtscode`). Typen bescherming: rijksmonument, provinciaal monument, gemeentelijk monument.
 
 De Erfgoedwet (2016) en de Omgevingswet vormen het wettelijk kader. Gemeenten zijn bevoegd tot aanwijzing van gemeentelijke monumenten en beschermde gezichten.
+
+## Specialisaties
+
+Herkende subtypes van monument. Geen aparte BO's — het zijn waarden van attributen op [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md).
+
+| Subtype | Omschrijving | GGM-attribuut |
+|---|---|---|
+| kerkgebouw | Religieus gebouw (kapittels, parochiekerken, kloosters) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| beschermd stadsgezicht | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `gezichtscode` |
+| synagoge | Joods gebedshuis | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| klooster | Kloostergebouw of -complex | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| woonhuis | Beschermd woonhuis of grachtenpand | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| verdedigingswerk | Fort, muur of ander militair erfgoed (Waterlinie, Limes) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| openbare ruimte | Beschermd park, plantsoen of singel (Zocherplantsoen) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
 
 ## Relaties
 

@@ -1,8 +1,9 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/dierenwelzijn/2019-nota-dierenwelzijn.md](Sources/dierenwelzijn/2019-nota-dierenwelzijn.md)"
+bron: "[Sources/dierenwelzijn/2019-nota-dierenwelzijn.md](2019-nota-dierenwelzijn.md)"
 titel: Nota Dierenwelzijn — Actualisatie beleid
-domein: [Dierenwelzijn]
+domein:
+  - Dierenwelzijn
 datum_ingest: 2026-06-20
 ---
 

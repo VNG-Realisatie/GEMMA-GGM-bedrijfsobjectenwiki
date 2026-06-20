@@ -57,9 +57,13 @@ def load_wiki_bo_pages() -> dict:
         if not fm or fm.get('type') != 'bedrijfsobject':
             continue
 
+        subtypes = fm.get('gemma_subtypes', [])
+        subtypes_str = ', '.join(s.get('naam', '') for s in subtypes) if subtypes else ''
+
         entry = {
             'naam': fm.get('naam', ''),
             'gemma_definitie': fm.get('gemma_definitie', ''),
+            'gemma_subtypes': subtypes_str,
             'ggm_guid': fm.get('ggm_guid', ''),
             'ggm_entiteit': fm.get('ggm_entiteit', ''),
             'grondslag': fm.get('grondslag', ''),
@@ -163,6 +167,7 @@ def export_objecten(data: dict, bo_by_guid: dict, bo_by_name: dict,
         bo = bo_by_guid.get(eid) or bo_by_name.get(name)
         wiki_naam = bo['naam'] if bo else ''
         wiki_def = bo.get('gemma_definitie', '') if bo else ''
+        wiki_subtypes = bo.get('gemma_subtypes', '') if bo else ''
         if wiki_def == 'gelijk aan GGM':
             wiki_def = ''
 
@@ -202,6 +207,7 @@ def export_objecten(data: dict, bo_by_guid: dict, bo_by_name: dict,
             'GGM-bron': entity_tag(e, 'Herkomst'),
             'GEMMA-url': gemma_url,
             'GEMMA-alternate-name': gemma_alt,
+            'GEMMA-subtypes': wiki_subtypes,
             'domein-iv3': domein_iv3,
             'domein-dcat': '',
             'Datum-tijd-export': timestamp,

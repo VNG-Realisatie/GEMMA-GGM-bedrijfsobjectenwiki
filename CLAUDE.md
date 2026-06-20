@@ -193,6 +193,20 @@ Bij een generalisatiehiërarchie moet expliciet worden besloten op welk niveau h
 
 Noteer de beslissing en motivatie in de body. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 
+#### Specialisaties (subtypes)
+
+Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (ze zijn uitwisselbaar, vallen onder hetzelfde register en dezelfde processen), leg ze vast als `gemma_subtypes` in de frontmatter en een **Specialisaties**-tabel in de body. Dit voorkomt dat elk subtype een apart begrip of BO wordt en houdt de begrippentabel in het domeinoverzicht schoon.
+
+Subtypes zijn typisch attribuutwaarden (bijv. GGM-enumeratie `TypeMonument`) of categorieën uit beleidsbronnen. In de GEMMA-export komen ze in de kolom `GEMMA-subtypes`.
+
+**Regel: GGM-link verplicht.** Elk subtype dat overeenkomt met een GGM data-object (Class of Enumeration) moet gelinkt zijn:
+- **Frontmatter**: `ggm_entiteit`, `ggm_guid` en `ggm_attribuut` per subtype (voor export en traceerbaarheid). Link naar de GGM-entiteit die het attribuut draagt, niet naar enumeraties die niet in de bronbestanden staan.
+- **Body-tabel**: kolommen Subtype, Omschrijving, GGM-attribuut. GGM-attribuut bevat een markdown-link naar de GGM-entiteit in het bronbestand gevolgd door `→ attribuutnaam`, bijv. `[Beschermde Status](Sources/GGM/.../monumenten.md) → type`. Geen GUID in de tabel — die staat in de frontmatter.
+
+Als er geen GGM-match is, laat de velden leeg.
+
+Voorbeeld: Monument heeft subtypes kerkgebouw, synagoge, klooster, beschermd stadsgezicht — alle vallen onder GGM-enumeratie TypeMonument.
+
 #### Relaties tussen bedrijfsobjecten
 
 BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfsniveau:

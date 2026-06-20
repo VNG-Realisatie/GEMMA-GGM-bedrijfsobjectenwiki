@@ -1,5 +1,95 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Mobiliteit — nieuw domein (15 BO's, alle GGM-hiaten)
+- Bronnen: 3 documenten opgehaald via /fetch (omgevingsvisie.utrecht.nl + 2 PDF's: Mobiliteitsplan 2040, Kwaliteitsnet Goederenvervoer 2007)
+- 1 bron niet-relevant: webpagina goederenvervoer is te dun (3 alinea's) → verplaatst naar Niet-relevant/
+- 2 bronsamenvattingen aangemaakt: mobiliteitsplan-2040.md (hoofdbron, 174p), kwaliteitsnet-goederenvervoer-2007.md (routestructuur)
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/mobiliteit.md (30 begrippen, 15 BO's)
+- **13 nieuwe BO's aangemaakt** (alle procesobjecten/governance-objecten, GGM-hiaten) + **13 GGM-verificatie BO's** (9 parkeren, 4 mobiliteit):
+  - Fiets: **Hoofdfietsroute**
+  - OV: **OV-knooppunt**, **OV-lijn**, **Halte**
+  - Multimodaal: **P+R-locatie**, **Mobiliteitshub**, **Laadpaal**
+  - Goederenvervoer: **Logistieke Route**, **Laad- en Losplaats**, **Stadsdistributiepunt**, **Zero-emissiezone**, **Overslagpunt**, **Bouwlogistiek Centrum**
+- **GGM-verificatie BO's aangemaakt:**
+  - Parkeren: **Parkeerzone**, **Parkeergarage**, **Parkeervergunning**, **Parkeerrecht**, **Parkeervlak**, **Parkeerscan**, **Voertuig**, **Naheffing**, **MulderFeit** (alle exact match)
+  - Mobiliteit: **Verkeersbesluit**, **Stremming**, **Verkeerstelling**, **Strooiroute** (alle exact match)
+- 4 GGM-entiteiten niet-BO: Belprovider, Productgroep, Productsoort, Straatsectie (te operationeel/administratief)
+- Structureel GGM-hiaat: functionele mobiliteitslaag (routes, knooppunten, haltes, hubs, zones) ontbreekt volledig in GGM
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Openbare Gezondheid — domein afgerond (0 BO's)
+- Bronnen: 8 documenten (4 VNG-onderwerpenpagina's, 2 gemeente Utrecht incl. PDF uitvoeringsprogramma mentale gezondheid 2025-2027)
+- 2 bronnen naar Niet-relevant/: rubriek-openbare-gezondheid (1 zin), startpagina-aan-de-slag (methodologie)
+- 1 bronsamenvatting aangemaakt: Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie.md (bundelt 6 bronnen)
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/openbare-gezondheid.md (8 begrippen, 0 BO's)
+- **Geen BO's** — domein bestaat uit thema's (preventie, mentale gezondheid), instrumenten (GALA, IZA, preventieakkoord), actoren (GGD, JGZ) en activiteiten (monitoring, screening)
+- Begraafplaats genoteerd als potentieel BO bij uitbreiding domein Beheer Openbare Ruimte (IMBOR kent entiteit)
+- Zelfde patroon als Arbeidszaken: governance/programmatisch domein zonder registreerbare objecten
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Geluid — actieplan toegevoegd (geen nieuwe BO's)
+- Bron: Actieplan Geluid Utrecht 2018-2023 (Gemeente Utrecht, operationeel uitvoeringsprogramma bij beleidsnota)
+- 1 bronsamenvatting aangemaakt: Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht.md
+- Domeinoverzicht bijgewerkt: bronnen_count 1 → 2
+- **Geen nieuwe BO's** — actieplan verdiept bestaande begrippen (Stil gebied, Geluidscherm, Geluidbron) maar introduceert geen nieuwe BO-kandidaten
+- Verrijkingen: Stil gebied (drie schaalniveaus, koesteren/verbeteren/uitbreiden), Geluidscherm (binnenstedelijk onwenselijk), Geluidbron (wegverkeer dominant, asfalttypen)
+- Niet-BO begrippen bevestigd: plandrempel (parameter), knelpuntlocatie (berekende status), geluidsanering (proces), geluidreducerend asfalt (eigenschap)
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Gevaarlijke stoffen — 3 nieuwe BO's (alle partieel GGM-match)
+- Bronnen: 2 documenten opgehaald via /fetch (omgevingsvisie.utrecht.nl + PDF beleidsnota via utrecht.bestuurlijkeinformatie.nl)
+- 1 bron niet-relevant: webpagina is subset van beleidsnota → verplaatst naar Niet-relevant/
+- 1 bronsamenvatting aangemaakt: Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid.md
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/gevaarlijke-stoffen.md (9 begrippen, 3 BO's)
+- **3 BO's aangemaakt:**
+  - **Risicobron** (ggm-entiteit) — bedrijf, buisleiding of transportroute met gevaarlijke stoffen. GGM-match: Activiteit (Omgevingswet), partieel.
+  - **Aandachtsgebied** (ggm-entiteit) — ruimtelijk gebied rond risicobron voor veiligheidsafweging. GGM-match: Gebiedsaanwijzing, partieel.
+  - **Voorschriftengebied** (ggm-entiteit) — aangewezen gebied met aanvullende bouweisen. GGM-match: Gebiedsaanwijzing, partieel.
+- 6 niet-BO begrippen: plaatsgebonden risico (norm), groepsrisico (norm), oriëntatiewaarde (norm), (beperkt) kwetsbare gebouwen (classificatie), zeer kwetsbare gebouwen (classificatie), basisnet (landelijk instrument)
+- GGM-dekking: geen specifiek beleidsdomein voor omgevingsveiligheid; alle matches op generiek Omgevingswet-package
+- Nieuw iBabs-downloadpatroon ontdekt: /Document/View/{id} voor /Reports/Document/ URLs → memory bijgewerkt
+
+## [2026-06-20] ingest | Geluid — 5 nieuwe BO's (1 GGM-match, 4 hiaten)
+- Bronnen: 2 documenten opgehaald via /fetch (omgevingsvisie.utrecht.nl + PDF beleidsnota via utrecht.bestuurlijkeinformatie.nl)
+- 1 bron niet-relevant: webpagina is subset van beleidsnota → verplaatst naar Niet-relevant/
+- 1 bronsamenvatting aangemaakt: Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen.md
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/geluid.md (9 begrippen, 5 BO's)
+- **5 BO's aangemaakt:**
+  - **Geluidbron** (procesobject) — object dat geluid veroorzaakt, ingedeeld naar bronsoort. GGM-hiaat.
+  - **Geluidgevoelig gebouw** (procesobject) — gebouw waarvoor geluidnormen gelden. GGM-hiaat.
+  - **Stil gebied** (procesobject) — rustig gebied dat de gemeente beschermt. GGM-hiaat.
+  - **Geluidzone** (procesobject) — zone rond industrieterrein met cumulatieve normen. GGM-hiaat.
+  - **Geluidscherm** (ggm-entiteit) — fysieke afscherming langs weg/spoor. GGM-match: Geluidsscherm (IMBOR, Beheer Openbare Ruimte), matchsterkte exact.
+- 4 niet-BO begrippen: geluidontheffing (subtype vergunning), geluidluwe gevel (eigenschap), geluidkartering (activiteit), actieplan geluid (governance-instrument)
+- GGM-dekking: geen beleidsdomein Geluid; Geluidsscherm staat in IMBOR/Beheer Openbare Ruimte
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Evenementen — 3 nieuwe BO's (1 GGM-match, 2 hiaten)
+- Bronnen: 2 documenten (Beleidsnota Locatiebeleid evenementen 2024-2030 PDF + overzichtspagina omgevingsvisie.utrecht.nl)
+- Bronbestanden opgehaald via /fetch incl. PDF-conversie naar Sources/evenementen/
+- 2 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Evenementen/
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/evenementen.md (9 begrippen, 3 BO's)
+- **3 BO's aangemaakt:**
+  - **Evenement** (ggm-entiteit) — georganiseerde activiteit met publiek in de openbare ruimte. GGM-match: OpenbareActiviteit (VTH, taakveld 1), matchsterkte partieel (definitie te breed, geen relaties, dunne attributen).
+  - **Evenementenlocatie** (procesobject) — aangewezen fysieke locatie met locatieprofiel (kaders voor dagen, omvang, geluid, rust). GGM-hiaat.
+  - **Evenementenvergunning** (procesobject) — toestemming om een evenement te organiseren. GGM-hiaat. ⚠️ Op termijn nodig: generiek Vergunning-BO (GGM kent vergunningen alleen domeinspecifiek).
+- 6 niet-BO begrippen: locatieprofiel (instrument), reserveringskalender (instrument), beoordelingscriteria (regel), stads- en volksfeest (classificatie), rustperiode (regel), winterbeperking (regel)
+- GGM-dekking: geen beleidsdomein Evenementen; OpenbareActiviteit staat geïsoleerd in VTH zonder relaties of diagrammen
+- GGM-terugmeldingen: #18 (OpenbareActiviteit definitie te breed), #19 (Evenementenlocatie hiaat), #20 (Evenementenvergunning hiaat + generiek vergunningsconcept ontbreekt)
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Cultuur/Erfgoed — 1 nieuw BO (GGM-hiaat)
+- Bronnen: 4 documenten opgehaald via /fetch (omgevingsvisie.utrecht.nl/thematisch-beleid/erfgoed + 3 PDF's)
+- 1 bron niet-relevant: lijst beeldbepalende panden (adressenlijst) → verplaatst naar Niet-relevant/
+- 3 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Cultuur/ (visie-religieus-erfgoed-2025, erfgoedbeleid-utrecht, bijlagen-visie-religieus-erfgoed)
+- Domeinoverzicht Wiki/Domeinen/cultuur.md bijgewerkt: 6 nieuwe begrippen (orgel, luidklok, ensemble, kerkgebouw, herbestemmingsprofiel, waardestelling, carillon), totaal nu 33 begrippen, 7 BO's
+- **1 BO aangemaakt** (procesobject, GGM-hiaat):
+  - **Orgel** — rijks- of gemeentelijk monumentaal muziekinstrument met eigen beschermingsstatus en levenscyclus. Roerend erfgoed, apart geïnventariseerd. 6/6 criteria.
+- 6 niet-BO begrippen: luidklok (onderdeel monument), ensemble (geen eigen bestaan), kerkgebouw (type monument), herbestemmingsprofiel (instrument), waardestelling (instrument), carillon (specifiek klokkenspel)
+- GGM-terugmelding: Orgel ontbreekt als entiteit in beleidsdomein Monumenten
+- **Specialisaties-patroon ingevoerd**: `gemma_subtypes` als frontmatter-veld voor BO's met herkende subtypes die geen apart BO zijn. Monument BO verrijkt met 7 subtypes (kerkgebouw, beschermd stadsgezicht, synagoge, klooster, woonhuis, verdedigingswerk, openbare ruimte). Template, CLAUDE.md en exportscript bijgewerkt.
+- Index en log bijgewerkt
+
 ## [2026-06-20] ingest | Energie en Klimaat — 2 nieuwe BO's (alle GGM-hiaten)
 - Bronnen: 4 documenten (Energiebeleid Utrecht omgevingsvisie + 3 VNG-onderwerpenpagina's)
 - Bronbestand opgehaald via /fetch: energiebeleid-utrecht.md (omgevingsvisie.utrecht.nl)

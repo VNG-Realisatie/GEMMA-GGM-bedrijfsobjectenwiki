@@ -38,6 +38,12 @@ ggm_gemma_alternate_name: {GEMMA alternate name in het GGM}
 
 # GEMMA-velden — beheerd door het GEMMA-team via deze wiki
 gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
+gemma_subtypes:                    # optioneel — alleen als het BO herkende specialisaties heeft
+  - naam: {subtype-naam}
+    omschrijving: "{korte omschrijving}"
+    ggm_entiteit: {GGM-entiteit waar dit subtype bij hoort, leeg als geen match}
+    ggm_guid: {GUID van die GGM-entiteit}
+    ggm_attribuut: {attribuut op de GGM-entiteit dat het subtype draagt, bijv. "type"}
 bronnen: [[Wiki/Bronsamenvattingen/{domein}/{bronsamenvatting-slug]], [paden naar andere bronsamenvattingen]]
 relaties:
   - type: {associatie | compositie | generalisatie}
@@ -98,6 +104,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 
 - **BO-criteria toetsing**: welke criteria zijn van toepassing, waarom is dit een BO
 - **Beschrijving**: het bedrijfsobject op het niveau waarop er in de gemeente over wordt gepraat
+- **Specialisaties** (optioneel): tabel met herkende subtypes die geen apart BO zijn maar wel herkenbaar in de praktijk. Correspondeert met `gemma_subtypes` in frontmatter. Subtypes zijn attribuutwaarden (bijv. GGM-enumeratie TypeMonument), geen aparte entiteiten. Kolommen: Subtype, Omschrijving, GGM-entiteit. GGM-entiteit is een markdown-link naar het GGM-bronbestand (verplicht indien match bestaat). GGM-GUID's staan alleen in de frontmatter (voor export), niet in de tabel.
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
 - **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
