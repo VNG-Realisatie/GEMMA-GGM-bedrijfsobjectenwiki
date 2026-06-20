@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3991c605-2abb-4185-b7c
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Brede Intake
@@ -74,7 +73,7 @@ De inburgeringsplichtige die rechtmatig verblijf heeft als asielgerechtigde en d
 
 ## Relaties
 
-- → [[brede-intake]] — doorloopt een brede intake na koppeling aan de gemeente [1]
-- → [[pip]] — krijgt een PIP vastgesteld [1]
-- → [[voorbereiding-op-inburgering]] — neemt deel aan voorbereiding op inburgering [1]
-- → [[inburgeringsplicht]] — heeft een inburgeringsplicht [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|brede-intake]] — doorloopt een brede intake na koppeling aan de gemeente [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — krijgt een PIP vastgesteld [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering|voorbereiding-op-inburgering]] — neemt deel aan voorbereiding op inburgering [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|inburgeringsplicht]] — heeft een inburgeringsplicht [1]

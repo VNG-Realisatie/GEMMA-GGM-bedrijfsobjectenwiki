@@ -2,10 +2,10 @@
 type: domein
 naam: Economie
 status: in-behandeling
-verwerkingsdatum: 2026-06-19
-bronnen_count: 1
-begrippen_count: 9
-bo_count: 1
+verwerkingsdatum: 2026-06-20
+bronnen_count: 3
+begrippen_count: 14
+bo_count: 3
 ---
 
 # Domein: Economie
@@ -19,27 +19,34 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 ## Begrippen
 
 ### Normatief
-- [[brede-welvaart]] — maatschappelijk welzijn voorbij economische groei (waarde)
+- [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — maatschappelijk welzijn voorbij economische groei (waarde)
 
 ### Strategisch
-- [[vestigingsklimaat]] — aantrekkelijkheid gemeente/regio voor bedrijfsvestiging (doel)
-- [[arbeidsmarkt]] — vraag en aanbod van arbeid, regionaal perspectief (thema)
-- [[human-capital]] — menselijk kapitaal, vaardigheden en inzetbaarheid (thema)
+- [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] — aantrekkelijkheid gemeente/regio voor bedrijfsvestiging (doel)
+- [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]] — vraag en aanbod van arbeid, regionaal perspectief (thema)
+- [[Wiki/Begrippen/human-capital|human-capital]] — menselijk kapitaal, vaardigheden en inzetbaarheid (thema)
 
 ### Tactisch
-- [[ondernemersdienstverlening]] — gemeentelijke dienstverlening aan ondernemers (thema)
-- [[regeldruk]] — ervaren last van regelgeving voor ondernemers (thema)
-- [[economische-ruimte]] — fysieke ruimte beschikbaar voor bedrijvigheid (thema)
-- [[midden-en-kleinbedrijf]] — bedrijven tot 250 werknemers, ~60% werkgelegenheid (doelgroep)
+- [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]] — gemeentelijke dienstverlening aan ondernemers (thema)
+- [[Wiki/Begrippen/regeldruk|regeldruk]] — ervaren last van regelgeving voor ondernemers (thema)
+- [[Wiki/Begrippen/economische-ruimte|economische-ruimte]] — fysieke ruimte beschikbaar voor bedrijvigheid (thema)
+- [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] — bedrijven tot 250 werknemers, ~60% werkgelegenheid (doelgroep)
 
 ### Operationeel
-- [[werklocatie]] — fysieke locatie voor bedrijvigheid (object)
+- [[Wiki/Begrippen/werklocatie|werklocatie]] — fysieke locatie voor bedrijvigheid (object)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats|standplaats]] — aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (object)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt|warenmarkt]] — periodieke georganiseerde verkoop, Marktverordening-gereguleerd (object)
+- winkelgebied — aangewezen ruimtelijke concentratie van detailhandel (concept, geen BO)
+- ambulante handel — overkoepelend voor warenmarkten en standplaatsen (categorie)
+- detailhandelsvestiging — fysieke winkellocatie (concept, te generiek voor BO)
 
 ## Bedrijfsobjecten
 
 | Begrip | Status | GGM-grondslag | Matchsterkte |
 |---|---|---|---|
-| [[werklocatie]] | ✅ BO | Vestiging (RSGB) | partieel |
+| [[Wiki/Begrippen/werklocatie]] | ✅ BO | Vestiging (RSGB) | partieel |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats]] | ✅ BO | Standplaats (GGM, Musea) | sterk |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt]] | ✅ BO | — (GGM-hiaat) | — |
 
 ## GGM-dekkingsanalyse
 
@@ -47,14 +54,21 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 
 | GGM-domein | Entiteiten | Status |
 |---|---|---|
-| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Alleen Vestiging → werklocatie |
+| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Vestiging → werklocatie |
+| **Taakveld 5 Musea** | Standplaats (3 attributen: beschrijving, adres, naamInstelling) | Standplaats → standplaats (sterk, maar domeinplaatsing betwistbaar) |
 | **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging-grondslag voor werklocatie |
 
-**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie.
+**GGM-hiaat Warenmarkt:** Warenmarkt ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject (locatie, frequentie, type, branchering) dat gemeenten beheren via de Marktverordening.
+
+**Domeinplaatsing Standplaats:** De GGM-entiteit Standplaats staat onder Musea (taakveld 5) terwijl het een breed APV-concept is. Terugmelding overwegen.
+
+**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie, warenmarkt.
 
 ## Verwerkte bronnen
 
-- [[economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
+- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
+- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|ontwikkelingskader-detailhandel-2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
+- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|detailhandel-utrecht-2015]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
 
 ## Raakvlakken met andere domeinen
 

@@ -25,7 +25,7 @@ Dit patroon is niet domeinspecifiek — het is zichtbaar in elk domein dat tot n
 
 Het GGM levert de ingrediënten (wie bezit welk WOZ-object met welke waarde) maar niet het recept (hoe wordt daaruit een aanslag berekend en opgelegd).
 
-Zie [[ggm-hiaten-belastingendomein]] voor de volledige analyse.
+Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] voor de volledige analyse.
 
 ### Financiën
 
@@ -47,7 +47,7 @@ Het GGM levert de financiële administratie maar niet de planning-en-controlcycl
 | Beleidsveld | Ondernemersdienstverlening, vestigingsklimaat, arbeidsmarkt, werklocatie | **Afwezig** — de breedte van het taakveld ("economische ontwikkeling, bedrijvigheid en innovatie") is niet gedekt |
 | Waarden en doelen | Brede welvaart, versterking vestigingsklimaat | **Afwezig** (verwacht — normatief/strategisch) |
 
-Hier is het hiaat breder: niet alleen processen en governance ontbreken, maar ook een groot deel van de operationele objecten. Zie [[economie-speerpunten-vng]].
+Hier is het hiaat breder: niet alleen processen en governance ontbreken, maar ook een groot deel van de operationele objecten. Zie [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]].
 
 ### Bedrijfsvoering
 
@@ -63,12 +63,12 @@ Zelfde patroon: de output van het inkoopproces (orders, facturen) is er, het pro
 
 | Laag | Voorbeeld | GGM |
 |---|---|---|
-| Zaak-runtime | Zaak, Status, Besluit, Document, Betrokkene, Medewerker | **Aanwezig** (RGBZPlus, tv99) — 25 entiteiten, de kern van [[zaakgericht-werken]] |
+| Zaak-runtime | Zaak, Status, Besluit, Document, Betrokkene, Medewerker | **Aanwezig** (RGBZPlus, tv99) — 25 entiteiten, de kern van [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] |
 | Zaaktype-configuratie | CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJECTTYPE | **Afwezig** — de ZTC2-configuratielaag die bepaalt *hoe* zaaktypen worden ingericht |
 | Klantcontact | Klantcontact, Balieafspraak | **Aanwezig** (RGBZPlus + tv10 Dienstverlening) |
 | Procesarchitectuur | Bedrijfsproces, Deelproces | **Aanwezig** (RGBZPlus) — het GGM heeft deze als uitbreiding op het RGBZ toegevoegd |
 
-Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De [[zaaktypecatalogus]] is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het [[resultaattype]] — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]].
+Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het [[Wiki/Begrippen/resultaattype|resultaattype]] — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]].
 
 ## Het patroon
 

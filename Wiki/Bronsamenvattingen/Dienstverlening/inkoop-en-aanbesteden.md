@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Dienstverlening/inkoop-en-aanbesteden.md](Sources/Onderwerpen VNG/Dienstverlening/inkoop-en-aanbesteden.md)"
+bron: "[Sources/Onderwerpen/Dienstverlening/inkoop-en-aanbesteden.md](Sources/Onderwerpen/Dienstverlening/inkoop-en-aanbesteden.md)"
 titel: "Inkoop en aanbesteden (overzichtspagina)"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19

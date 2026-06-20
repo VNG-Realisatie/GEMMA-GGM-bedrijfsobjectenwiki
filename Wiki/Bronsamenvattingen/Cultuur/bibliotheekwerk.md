@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Cultuur/bibliotheekwerk.md](Sources/Onderwerpen%20VNG/Cultuur/bibliotheekwerk.md)"
+bron: "[Sources/Onderwerpen/Cultuur/bibliotheekwerk.md](Sources/Onderwerpen%20VNG/Cultuur/bibliotheekwerk.md)"
 titel: "Bibliotheekwerk"
 domein: [Cultuur]
 datum_ingest: 2026-06-19

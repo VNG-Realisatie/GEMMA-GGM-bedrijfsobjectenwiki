@@ -27,7 +27,6 @@ ggm_gemma_bron: "BRWOZ"
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.
-bronnen: ["Bronsamenvattingen/Belastingen/raadgever-woz.md"]
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ]
 bedrijfsfuncties: [Belastingheffing, Waardering onroerende zaken]
 status: concept
@@ -46,7 +45,7 @@ relaties:
 
 # WOZ-object
 
-De onroerende zaak waarvan de gemeente jaarlijks de [[woz-waarde]] vaststelt onder de Wet WOZ.
+De onroerende zaak waarvan de gemeente jaarlijks de [[Wiki/Begrippen/woz-waarde|woz-waarde]] vaststelt onder de Wet WOZ.
 
 ## GGM-bron
 
@@ -58,7 +57,7 @@ De onroerende zaak waarvan de gemeente jaarlijks de [[woz-waarde]] vaststelt ond
 
 ## BO-definitie
 
-Het bedrijfsobject WOZ-object komt overeen met de GGM-entiteit. Het is het centrale object in het WOZ-proces: het wordt getaxeerd, krijgt een waarde, en die waarde is de [[heffingsmaatstaf]] voor de OZB en andere heffingen.
+Het bedrijfsobject WOZ-object komt overeen met de GGM-entiteit. Het is het centrale object in het WOZ-proces: het wordt getaxeerd, krijgt een waarde, en die waarde is de [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] voor de OZB en andere heffingen.
 
 De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden gegevens bijgehouden over oppervlakte, bouwtype, bouwjaar, onderhoud, omgevingsfactoren, verkoop- en huurcijfers.
 
@@ -66,15 +65,15 @@ De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden ge
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Heeft waarde | [[woz-waarde-bo]] | WOZ-object → WOZ-Waarde [0..*] | Geen |
-| Heeft belanghebbende | [[debiteur]] | WOZ-object → WOZ-Belang → Rechtspersoon | Ingekort: WOZ-Belang is tussenliggend (onderscheidt eigenaar/gebruiker) |
+| Heeft waarde | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|woz-waarde-bo]] | WOZ-object → WOZ-Waarde [0..*] | Geen |
+| Heeft belanghebbende | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] | WOZ-object → WOZ-Belang → Rechtspersoon | Ingekort: WOZ-Belang is tussenliggend (onderscheidt eigenaar/gebruiker) |
 | Bestaat uit | *(WOZ-deelobject)* | WOZ-object → WOZ-deelobject [1..*] | Deelobject niet als apart BO — te granulair voor bedrijfsniveau |
 | Gerelateerd aan kadaster | *(KadastraleOnroerendeZaak)* | WOZ-object → KadastraleOnroerendeZaak [0..*] | Kadastrale objecten zijn basisregistratie, geen apart BO |
 
 ## Bedrijfsprocessen
 
 - **WOZ-taxatie**: jaarlijkse waardebepaling via geautomatiseerde taxatiemodellen
-- **OZB-heffing**: WOZ-waarde × tarief = [[belastingaanslag]]
+- **OZB-heffing**: WOZ-waarde × tarief = [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]
 - **Bezwaarbehandeling**: belastingplichtige kan bezwaar maken tegen de WOZ-waarde
 
 ## Bedrijfsfuncties

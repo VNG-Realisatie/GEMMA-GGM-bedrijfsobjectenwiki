@@ -1,16 +1,16 @@
 ---
 type: bedrijfsobject
-naam: "Museumobject"
+naam: Museumobject
 domein: [Cultuur]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Museumobject"
-ggm_guid: "EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050"
+ggm_guid: EAID_BBCF9DBE_70AD_431c_B698_7F0D69D07050
 ggm_uml_type: Class
 ggm_beleidsdomein: "Musea"
 ggm_taakveld: "5 Sport, Cultuur en Recreatie"
-ggm_diagram: ["Generieke entiteiten Erfgoed", "Prinsenhof Collectie"]
-ggm_diagram_ids: ["EAID_B7192738_00E7_4b65_902A_B8292E79261B", "EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611"]
+ggm_diagram: [Generieke entiteiten Erfgoed, Prinsenhof Collectie]
+ggm_diagram_ids: [EAID_B7192738_00E7_4b65_902A_B8292E79261B, EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611]
 ggm_definitie: "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."
 ggm_toelichting: ""
 ggm_synoniemen: ""
@@ -25,25 +25,24 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b04
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
-bronnen: ["Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed"]
+bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
+bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
 relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
     richting: "van-dit-BO"
-    kardinaliteit: ""
-    beschrijving: "Museumobject is een specialisatie van Erfgoed Object"
+    kardinaliteit: 
+    beschrijving: Museumobject is een specialisatie van Erfgoed Object
   - type: associatie
     bedrijfsobject: "*(Collectie)*"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een collectie bevat museumobjecten"
+    beschrijving: Een collectie bevat museumobjecten
   - type: associatie
     bedrijfsobject: "*(Tentoonstelling)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een museumobject kan onderdeel zijn van tentoonstellingen"
-bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
-bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
+    beschrijving: Een museumobject kan onderdeel zijn van tentoonstellingen
 ---
 
 # Museumobject
@@ -76,7 +75,7 @@ Museumobject erft in het GGM van **Erfgoed Object** (abstract). Het Musea-beleid
 
 ```
 Erfgoed Object (abstract)
-    ├── Archiefstuk  → BO [[archiefstuk]]
+    ├── Archiefstuk  → BO [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]]
     └── Museumobject → dit BO
 ```
 

@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Operationeel beheer, Onderhoud]
 bedrijfsfuncties: [Beheer openbare ruimte, Facilitair beheer]
 status: concept
@@ -56,5 +55,5 @@ Opdracht voor de uitvoering van een activiteit of een stap in een proces. In de 
 
 ## Relaties
 
-- Gekoppeld aan een [[kostenplaats]]
-- Kan leiden tot een [[inkooporder]] bij externe uitvoering
+- Gekoppeld aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]]
+- Kan leiden tot een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]] bij externe uitvoering

@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Financien]
 synoniemen: [voorjaarsnota, perspectiefnota]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -24,6 +24,6 @@ De kadernota is niet wettelijk verplicht (anders dan de begroting en jaarrekenin
 
 ## Relaties
 
-- Eerste stap in de [[begrotingscyclus]]
-- Leidt tot de [[begroting]] (GGM-bedrijfsobject)
-- Wordt ingekaderd door de [[financiele-verordening]]
+- Eerste stap in de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]
+- Leidt tot de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] (GGM-bedrijfsobject)
+- Wordt ingekaderd door de [[Wiki/Begrippen/financiele-verordening|financiele-verordening]]

@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: PIP
@@ -63,5 +62,5 @@ Het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente
 
 ## Relaties
 
-- ← [[pip]] — PIP bevat het inburgeringsaanbod [1]
-- → [[leerroute]] — wordt geconcretiseerd in een leerroute [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — PIP bevat het inburgeringsaanbod [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|leerroute]] — wordt geconcretiseerd in een leerroute [1]

@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Arbeidszaken/cva-beleidsplan_2023-2026]]"
+bron: "[[Sources/Onderwerpen/Arbeidszaken/cva-beleidsplan_2023-2026]]"
 titel: "CvA Beleidsplan 2023-2026: Samen bereiken we meer"
 domein: [Arbeidszaken]
 datum_ingest: 2026-06-19

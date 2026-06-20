@@ -6,14 +6,14 @@ begripstype: doel
 abstractieniveau: strategisch
 domein: [Economie]
 synoniemen: [ondernemersklimaat, bedrijfsklimaat]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
 
 # Vestigingsklimaat
 
-Strategisch beleidsdoel dat uitdrukt hoe aantrekkelijk een gemeente of regio is voor bedrijven. Wordt bepaald door een combinatie van factoren: beschikbare [[economische-ruimte]], [[arbeidsmarkt]], [[regeldruk]], bereikbaarheid, voorzieningen en [[ondernemersdienstverlening]].
+Strategisch beleidsdoel dat uitdrukt hoe aantrekkelijk een gemeente of regio is voor bedrijven. Wordt bepaald door een combinatie van factoren: beschikbare [[Wiki/Begrippen/economische-ruimte|economische-ruimte]], [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]], [[Wiki/Begrippen/regeldruk|regeldruk]], bereikbaarheid, voorzieningen en [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]].
 
 ## Context
 
@@ -25,12 +25,12 @@ Gemeenten zijn "eerste overheid" voor ondernemers en beïnvloeden het vestigings
 
 ## Relaties
 
-- Onderdeel van [[brede-welvaart]] — niet alleen economisch maar ook leefbaarheid
-- Afhankelijk van [[economische-ruimte]] — zonder ruimte geen vestiging
-- Beïnvloed door [[regeldruk]] — hoge regeldruk verslechtert vestigingsklimaat
-- Versterkt door goede [[ondernemersdienstverlening]]
-- Vereist voldoende [[human-capital]] en gezonde [[arbeidsmarkt]]
-- [[midden-en-kleinbedrijf]] als primaire doelgroep
+- Onderdeel van [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — niet alleen economisch maar ook leefbaarheid
+- Afhankelijk van [[Wiki/Begrippen/economische-ruimte|economische-ruimte]] — zonder ruimte geen vestiging
+- Beïnvloed door [[Wiki/Begrippen/regeldruk|regeldruk]] — hoge regeldruk verslechtert vestigingsklimaat
+- Versterkt door goede [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]]
+- Vereist voldoende [[Wiki/Begrippen/human-capital|human-capital]] en gezonde [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]]
+- [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] als primaire doelgroep
 
 ## Afbakening
 

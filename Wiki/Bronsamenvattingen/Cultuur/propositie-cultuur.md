@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen.md](Sources/Onderwerpen%20VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen.md)"
+bron: "[Sources/Onderwerpen/Cultuur/propositie-cultuur-samen-cultuur-borgen.md](Sources/Onderwerpen%20VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen.md)"
 titel: "Propositie Samen cultuur borgen"
 domein: [Cultuur]
 datum_ingest: 2026-06-19

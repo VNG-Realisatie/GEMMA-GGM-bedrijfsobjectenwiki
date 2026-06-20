@@ -116,5 +116,5 @@ Het RGBZ is uitgewerkt in een ecosysteem van berichtenstandaarden:
 - Het RGBZ is de grondslag voor het GGM-beleidsdomein **RGBZPlus** (taakveld 99 Kern, 25 entiteiten)
 - Het GGM heeft het RGBZ uitgebreid met Klantcontact, Heffing, Betaling, Bedrijfsproces
 - Het RGBZ maakt de brug tussen RSGB-objecten en gemeentelijke processen via het zaak-concept
-- Begrippen als [[zaakgericht-werken]], [[zaakdossier]] en [[informatieobject]] komen hier vandaan
+- Begrippen als [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]], [[Wiki/Begrippen/zaakdossier|zaakdossier]] en [[Wiki/Begrippen/informatieobject|informatieobject]] komen hier vandaan
 - De evolutie RGBZ 1.0 → RGBZ 2.0 (concept) → ZGW API's is relevant voor de vraag hoe actueel het GGM-beleidsdomein RGBZPlus nog is

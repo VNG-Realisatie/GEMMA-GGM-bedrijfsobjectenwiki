@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Dienstverlening/digitale-toegankelijkheid.md](Sources/Onderwerpen VNG/Dienstverlening/digitale-toegankelijkheid.md)"
+bron: "[Sources/Onderwerpen/Dienstverlening/digitale-toegankelijkheid.md](Sources/Onderwerpen/Dienstverlening/digitale-toegankelijkheid.md)"
 titel: "Digitale toegankelijkheid"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19

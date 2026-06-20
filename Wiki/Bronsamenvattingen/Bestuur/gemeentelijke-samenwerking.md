@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/gemeentelijke-samenwerking.md](Sources/Onderwerpen%20VNG/Bestuur/gemeentelijke-samenwerking.md)"
+bron: "[Sources/Onderwerpen/Bestuur/gemeentelijke-samenwerking.md](Sources/Onderwerpen%20VNG/Bestuur/gemeentelijke-samenwerking.md)"
 titel: "Gemeentelijke Samenwerking"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -22,7 +22,7 @@ De bron geeft voorbeelden van verschillende samenwerkingsvormen (RUD's, GGD's, w
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Dit is een sleutelconcept voor gemeentelijk bestuur. Een [[gemeenschappelijke-regeling]] is een aparte juridische entiteit met eigen governance, begroting, bestuur en taken. De wijzigingen in de Wgr (2022) raken democratische legitimatie en toezicht. Dit is een sterke BO-kandidaat omdat:
+Dit is een sleutelconcept voor gemeentelijk bestuur. Een [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling|gemeenschappelijke-regeling]] is een aparte juridische entiteit met eigen governance, begroting, bestuur en taken. De wijzigingen in de Wgr (2022) raken democratische legitimatie en toezicht. Dit is een sterke BO-kandidaat omdat:
 - Het herkenbaar is als aparte organisatorische entiteit
 - Het eigen processen, bestuur en registraties heeft
 - Er meerdere exemplaren bestaan

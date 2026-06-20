@@ -4,7 +4,7 @@ naam: woonlasten
 definitie: Het gemiddelde bedrag dat een huishouden betaalt aan OZB, rioolheffing en afvalstoffenheffing
 domein: [Belastingen]
 synoniemen: [gemeentelijke woonlasten]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastinggebied]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastinggebied]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -25,10 +25,10 @@ De **gemeentelijke woonlasten** vormen dus circa een vijfde van de totale woonla
 
 ## Relaties
 
-- Bestaat uit drie componenten die alle [[bestemmingsbelasting]]en of [[algemene-belasting]]en zijn
-- Onderdeel van de [[belastingmix]]
-- Beïnvloed door de keuze van [[heffingsmaatstaf]] en tarief per belastingsoort
-- [[kwijtschelding]] is vaak gericht op deze drie heffingen
+- Bestaat uit drie componenten die alle [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en of [[Wiki/Begrippen/algemene-belasting|algemene-belasting]]en zijn
+- Onderdeel van de [[Wiki/Begrippen/belastingmix|belastingmix]]
+- Beïnvloed door de keuze van [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] en tarief per belastingsoort
+- [[Wiki/Begrippen/kwijtschelding|kwijtschelding]] is vaak gericht op deze drie heffingen
 
 ## Afbakening
 

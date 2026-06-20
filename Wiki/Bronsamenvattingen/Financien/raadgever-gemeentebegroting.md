@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"
+bron: "[[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"
 titel: "Raadgever Gemeentebegroting en jaarrekening"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -29,7 +29,7 @@ Beschrijft de begrotingscyclus als centraal sturingsinstrument van de gemeentera
 
 ## Relevantie voor bedrijfsarchitectuur
 
-De begrotingscyclus is het primaire financiële proces van de gemeente. Sluit direct aan bij GGM-bedrijfsobjecten [[begroting]], [[taakveld]], [[doelstelling]] en [[product]]. De programma-indeling en paragrafen structureren de informatiebehoefte.
+De begrotingscyclus is het primaire financiële proces van de gemeente. Sluit direct aan bij GGM-bedrijfsobjecten [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|doelstelling]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]]. De programma-indeling en paragrafen structureren de informatiebehoefte.
 
 ## Citaten
 

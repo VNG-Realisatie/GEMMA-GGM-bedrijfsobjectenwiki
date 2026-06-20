@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Cultuur/architectuur-en-erfgoed.md](Sources/Onderwerpen%20VNG/Cultuur/architectuur-en-erfgoed.md)"
+bron: "[Sources/Onderwerpen/Cultuur/architectuur-en-erfgoed.md](Sources/Onderwerpen%20VNG/Cultuur/architectuur-en-erfgoed.md)"
 titel: "Architectuur en erfgoed"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -18,13 +18,13 @@ De VNG werkt sinds 2019 mee in de Erfgoed Deal, een samenwerkingsprogramma dat e
 
 ## Kernbegrippen
 
-- **[[monument]]**: beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
+- **[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]]**: beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
 - **Archeologische vindplaats**: locatie met archeologische waarde, beschermd via erfgoedbeleid
 - **Stads- en dorpsgezicht**: beschermd ensemble van bebouwing en openbare ruimte
-- **[[museumobject]]**: museale objecten met cultuurhistorische waarde
+- **[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]]**: museale objecten met cultuurhistorische waarde
 - **Erfgoedwet**: integrale wetgeving (2016) voor monumenten, musea, archeologie
 - **Erfgoed Deal**: samenwerkingsprogramma erfgoed en ruimtelijke opgaven
-- **[[archiefstuk]]**: gearchiveerde informatie, beheerd door gemeentearchief
+- **[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]]**: gearchiveerde informatie, beheerd door gemeentearchief
 
 ## Relevantie voor bedrijfsarchitectuur
 

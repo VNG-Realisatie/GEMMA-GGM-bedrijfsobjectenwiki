@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/Belastinggebied]]"
+bron: "[[Sources/Onderwerpen/Belastingen/Belastinggebied]]"
 titel: "Belastinggebied"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

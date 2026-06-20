@@ -6,18 +6,18 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Belastingen]
 synoniemen: [WOZ-beschikking, waardebeschikking]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/raadgever-woz]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/raadgever-woz]]"]
 ggm_entiteit:
 status: concept
 ---
 
 # WOZ-beschikking
 
-Formele beschikking waarmee de gemeente jaarlijks de [[woz-waarde]] van een [[onroerende-zaak]] bekendmaakt. Wordt in de eerste 8 weken van het jaar verzonden. Gemeenten verzenden gezamenlijk meer dan 9 miljoen beschikkingen per jaar.
+Formele beschikking waarmee de gemeente jaarlijks de [[Wiki/Begrippen/woz-waarde|woz-waarde]] van een [[Wiki/Begrippen/onroerende-zaak|onroerende-zaak]] bekendmaakt. Wordt in de eerste 8 weken van het jaar verzonden. Gemeenten verzenden gezamenlijk meer dan 9 miljoen beschikkingen per jaar.
 
 ## Context
 
-De WOZ-beschikking is het startpunt van de heffingsketen: de vastgestelde waarde dient als grondslag voor de [[belastingaanslag]] (OZB en andere heffingen). Bij de beschikking kan de belastingplichtige een taxatieverslag opvragen met de kenmerken van het object.
+De WOZ-beschikking is het startpunt van de heffingsketen: de vastgestelde waarde dient als grondslag voor de [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] (OZB en andere heffingen). Bij de beschikking kan de belastingplichtige een taxatieverslag opvragen met de kenmerken van het object.
 
 Veel gemeenten combineren de WOZ-beschikking met de aanslag op één gecombineerd aanslagbiljet.
 
@@ -26,10 +26,10 @@ Veel gemeenten combineren de WOZ-beschikking met de aanslag op één gecombineer
 
 ## Relaties
 
-- Bevat de [[woz-waarde]] van een [[onroerende-zaak]]
-- Is grondslag voor de [[belastingaanslag]]
-- Wordt opgesteld door de [[heffingsambtenaar]]
-- Staat open voor bezwaar door de [[belastingplichtige]]
+- Bevat de [[Wiki/Begrippen/woz-waarde|woz-waarde]] van een [[Wiki/Begrippen/onroerende-zaak|onroerende-zaak]]
+- Is grondslag voor de [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]
+- Wordt opgesteld door de [[Wiki/Begrippen/heffingsambtenaar|heffingsambtenaar]]
+- Staat open voor bezwaar door de [[Wiki/Begrippen/belastingplichtige|belastingplichtige]]
 
 ## Afbakening
 
@@ -38,4 +38,4 @@ Veel gemeenten combineren de WOZ-beschikking met de aanslag op één gecombineer
 
 ## GGM
 
-Geen directe GGM-entiteit. De WOZ-beschikking is een specifiek type beschikking in het heffingsproces dat niet als zodanig in het GGM is gemodelleerd. Zie [[ggm-hiaten-belastingendomein]].
+Geen directe GGM-entiteit. De WOZ-beschikking is een specifiek type beschikking in het heffingsproces dat niet als zodanig in het GGM is gemodelleerd. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].

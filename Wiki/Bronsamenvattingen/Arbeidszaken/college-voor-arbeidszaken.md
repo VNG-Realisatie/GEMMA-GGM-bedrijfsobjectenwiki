@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Arbeidszaken/College voor Arbeidszaken]]"
+bron: "[[Sources/Onderwerpen/Arbeidszaken/College voor Arbeidszaken]]"
 titel: "College voor Arbeidszaken"
 domein: [Arbeidszaken]
 datum_ingest: 2026-06-19

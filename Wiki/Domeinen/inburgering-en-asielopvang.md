@@ -27,26 +27,26 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 
 | BO | GGM-entiteit | Matchsterkte |
 |---|---|---|
-| [[asielstatushouder]] | Asielstatushouder | exact |
-| [[gezinsmigrant]] | Gezinsmigrant en Overige migrant | exact |
-| [[brede-intake]] | Brede Intake | exact |
-| [[pip]] | PIP | exact |
-| [[inburgeringstraject]] | Inburgeringstraject | exact |
-| [[leerroute]] | Leerroute | exact |
-| [[inburgeringsplicht]] | Inburgeringsplicht | exact |
-| [[examen]] | Examen | exact |
-| [[inburgeringsaanbod]] | InburgeringsAanbod | exact |
-| [[inburgeringstermijn]] | Inburgeringstermijn | exact |
-| [[map]] | MAP | exact |
-| [[pvt]] | PVT | exact |
-| [[voorbereiding-op-inburgering]] | Voorbereiding op Inburgering | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder]] | Asielstatushouder | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant]] | Gezinsmigrant en Overige migrant | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake]] | Brede Intake | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip]] | PIP | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject]] | Inburgeringstraject | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute]] | Leerroute | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht]] | Inburgeringsplicht | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen]] | Examen | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod]] | InburgeringsAanbod | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn]] | Inburgeringstermijn | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/map]] | MAP | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pvt]] | PVT | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering]] | Voorbereiding op Inburgering | exact |
 
 ### Asielopvang (geen GGM)
 
 | BO | Grondslag | Reden geen GGM |
 |---|---|---|
-| [[opvanglocatie]] | procesobject | Asielopvang structureel niet gemodelleerd in GGM |
-| [[bestuursovereenkomst]] | governance-object | Governance-objecten vallen buiten GGM-scope |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie]] | procesobject | Asielopvang structureel niet gemodelleerd in GGM |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst]] | governance-object | Governance-objecten vallen buiten GGM-scope |
 
 ## GGM-dekkingsanalyse
 
@@ -62,33 +62,33 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 ## Begrippen
 
 ### Thema's
-- [[asielopvang]] — overkoepelend thema voor opvang van asielzoekers
-- [[inburgering]] — het formele traject na vergunningverlening
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — overkoepelend thema voor opvang van asielzoekers
+- [[Wiki/Begrippen/inburgering|inburgering]] — het formele traject na vergunningverlening
 
 ### Instrumenten
-- [[spreidingswet]] — wettelijke taak gemeenten voor opvangplekken
-- [[duurzame-gemeentelijke-opvang]] — exploitatievorm waarbij gemeente begeleiding overneemt
-- [[bestuursovereenkomst]] — formele afspraken COA-gemeente per locatie
-- [[voorinburgering]] — voorbereiding op inburgering in de opvangfase
-- [[meedoenbalie]] — loket voor participatie en arbeidstoeleiding
-- [[kansrijke-koppeling]] — koppeling statushouder aan gemeente op basis van profiel
+- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — wettelijke taak gemeenten voor opvangplekken
+- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — exploitatievorm waarbij gemeente begeleiding overneemt
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|bestuursovereenkomst]] — formele afspraken COA-gemeente per locatie
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — voorbereiding op inburgering in de opvangfase
+- [[Wiki/Begrippen/meedoenbalie|meedoenbalie]] — loket voor participatie en arbeidstoeleiding
+- [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] — koppeling statushouder aan gemeente op basis van profiel
 
 ### Doelgroepen
-- [[statushouder]] — persoon met verblijfsvergunning
-- [[alleenstaande-minderjarige-vreemdeling]] — jongere zonder ouder/begeleider
+- [[Wiki/Begrippen/statushouder|statushouder]] — persoon met verblijfsvergunning
+- [[Wiki/Begrippen/alleenstaande-minderjarige-vreemdeling|alleenstaande-minderjarige-vreemdeling]] — jongere zonder ouder/begeleider
 
 ### Objecten
-- [[opvanglocatie]] — fysieke locatie voor opvang, in diverse vormen
-- [[inhuisregistratie]] — wekelijkse aanwezigheidscontrole op locatie
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|opvanglocatie]] — fysieke locatie voor opvang, in diverse vormen
+- [[Wiki/Begrippen/inhuisregistratie|inhuisregistratie]] — wekelijkse aanwezigheidscontrole op locatie
 
 ## Verwerkte bronnen
 
-- [[asielopvangwijzer]] — COA portaalpagina voor gemeenten
-- [[coa-dienstverleningsgids]] — COA taakverdeling en dienstverlening (januari 2026)
-- [[vng-asielopvang]] — VNG onderwerpenpagina asielopvang
-- [[vng-inburgering]] — VNG onderwerpenpagina inburgering
-- [[vng-opvang-oekraine]] — VNG onderwerpenpagina Oekraïense ontheemden
-- [[vng-rubriek-asiel]] — VNG rubriekpagina asiel tot integratie
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|asielopvangwijzer]] — COA portaalpagina voor gemeenten
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|coa-dienstverleningsgids]] — COA taakverdeling en dienstverlening (januari 2026)
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang|vng-asielopvang]] — VNG onderwerpenpagina asielopvang
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering|vng-inburgering]] — VNG onderwerpenpagina inburgering
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine|vng-opvang-oekraine]] — VNG onderwerpenpagina Oekraïense ontheemden
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel|vng-rubriek-asiel]] — VNG rubriekpagina asiel tot integratie
 
 ## Raakvlakken
 

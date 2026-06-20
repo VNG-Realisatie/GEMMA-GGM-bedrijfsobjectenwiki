@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/Kostendekkende tarieven]]"
+bron: "[[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven]]"
 titel: "Kostendekkende tarieven"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -29,4 +29,4 @@ Tariefsverschillen tussen gemeenten komen zelden door kostenverschillen, maar do
 
 ## Relevantie bedrijfsarchitectuur
 
-Het kostendekkendheidsbeginsel is een business rule die van toepassing is op alle [[bestemmingsbelasting]]en en [[retributie]]s. Het vereist een raming van baten en lasten per verordening — een informatieobject dat in het GGM ontbreekt.
+Het kostendekkendheidsbeginsel is een business rule die van toepassing is op alle [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s. Het vereist een raming van baten en lasten per verordening — een informatieobject dat in het GGM ontbreekt.

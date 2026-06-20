@@ -6,14 +6,14 @@ begripstype: actor
 abstractieniveau: tactisch
 domein: [Belastingen]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/raadgever-woz]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/raadgever-woz]]"]
 ggm_entiteit:
 status: concept
 ---
 
 # Waarderingskamer
 
-Onafhankelijk toezichthouder op de uitvoering van de Wet WOZ door gemeenten. Bewaakt de kwaliteit en volledigheid van het taxatieproces, de hoogte van de WOZ-taxaties en de tijdigheid van verzending van [[woz-beschikking]]en.
+Onafhankelijk toezichthouder op de uitvoering van de Wet WOZ door gemeenten. Bewaakt de kwaliteit en volledigheid van het taxatieproces, de hoogte van de WOZ-taxaties en de tijdigheid van verzending van [[Wiki/Begrippen/woz-beschikking|woz-beschikking]]en.
 
 ## Context
 
@@ -23,8 +23,8 @@ De Waarderingskamer heeft adviescommissies met vertegenwoordigers van gemeenten,
 
 ## Relaties
 
-- Houdt toezicht op de gemeentelijke vaststelling van [[woz-waarde]]n
-- Bewaakt de kwaliteit van [[woz-beschikking]]en
+- Houdt toezicht op de gemeentelijke vaststelling van [[Wiki/Begrippen/woz-waarde|woz-waarde]]n
+- Bewaakt de kwaliteit van [[Wiki/Begrippen/woz-beschikking|woz-beschikking]]en
 - Ketenpartner: niet-gemeentelijk orgaan dat de gemeente raakt
 
 ## Afbakening

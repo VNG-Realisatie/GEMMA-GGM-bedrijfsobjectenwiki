@@ -6,7 +6,7 @@ begripstype: doelgroep
 abstractieniveau: tactisch
 domein: [Economie]
 synoniemen: [mkb, MKB, breed mkb]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -25,11 +25,11 @@ De Actieagenda mkb-dienstverlening werkt vanuit 40 economische regio's, elk ~2.5
 
 ## Relaties
 
-- Primaire doelgroep van [[ondernemersdienstverlening]]
-- Bijdrage aan [[brede-welvaart]] via werkgelegenheid en toegevoegde waarde
-- Beïnvloed door [[regeldruk]] — MKB heeft minder capaciteit voor compliance
-- Afhankelijk van [[arbeidsmarkt]] en [[human-capital]] — personeelstekorten
-- Heeft [[economische-ruimte]] en [[werklocatie]] nodig
+- Primaire doelgroep van [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]]
+- Bijdrage aan [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] via werkgelegenheid en toegevoegde waarde
+- Beïnvloed door [[Wiki/Begrippen/regeldruk|regeldruk]] — MKB heeft minder capaciteit voor compliance
+- Afhankelijk van [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]] en [[Wiki/Begrippen/human-capital|human-capital]] — personeelstekorten
+- Heeft [[Wiki/Begrippen/economische-ruimte|economische-ruimte]] en [[Wiki/Begrippen/werklocatie|werklocatie]] nodig
 
 ## Afbakening
 

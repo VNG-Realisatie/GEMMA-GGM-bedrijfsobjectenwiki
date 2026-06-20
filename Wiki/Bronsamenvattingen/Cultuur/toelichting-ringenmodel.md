@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md](Sources/Onderwerpen%20VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md)"
+bron: "[Sources/Onderwerpen/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md](Sources/Onderwerpen%20VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md)"
 titel: "Toelichting ringenmodel — de culturele infrastructuur van gemeenten"
 domein: [Cultuur]
 datum_ingest: 2026-06-19

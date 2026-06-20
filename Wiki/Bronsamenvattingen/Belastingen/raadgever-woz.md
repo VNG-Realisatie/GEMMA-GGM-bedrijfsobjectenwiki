@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/raadgever-woz]]"
+bron: "[[Sources/Onderwerpen/Belastingen/raadgever-woz]]"
 titel: "Raadgever Wet waardering onroerende zaken (WOZ)"
 domein: [Belastingen]
 datum_ingest: 2026-06-18

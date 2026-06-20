@@ -87,7 +87,7 @@ De ZTC-visie evolueert van productspecifieke zaaktypen (honderden) naar generiek
 
 ## Relevantie voor de wiki
 
-Deze bronnen zijn de basis voor de analyse [[ggm-oorsprong-en-meerwaarde]]. Drie kernbevindingen:
+Deze bronnen zijn de basis voor de analyse [[Wiki/Analyses/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]]. Drie kernbevindingen:
 
 **1. Bedrijfsobjecten = GGM-afgeleid.** Omdat GEMMA bedrijfsobjecten afleidt uit het GGM, en het GGM bottom-up is opgebouwd uit bestaande databases, bevat het bedrijfsobjectenmodel alleen data-objecten. Objecten die in processen en governance-instrumenten ontstaan (belastingaanslag, financiële verordening, kadernota) zijn niet als bedrijfsobject beschikbaar, terwijl de procesarchitectuur er wel mee werkt.
 
@@ -100,7 +100,7 @@ De wiki vult dit aan door bedrijfsobjecten ook top-down af te leiden uit beleids
 **Aanvullende bronnen voor zaakgericht werken:**
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — het RGBZ als datamodel achter de zaak
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]] — de ZTC2 als configuratielaag: zaaktypecatalogi, resultaattypes, roltypes
-- De ZTC2-configuratielaag ontbreekt in het GGM — zie [[ggm-dekkingspatroon]] (sectie Dienstverlening)
+- De ZTC2-configuratielaag ontbreekt in het GGM — zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] (sectie Dienstverlening)
 
 ## Citaten
 

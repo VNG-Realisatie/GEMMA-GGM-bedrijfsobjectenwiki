@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/Bevoegdhedenverdeling]]"
+bron: "[[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling]]"
 titel: "Bevoegdhedenverdeling"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

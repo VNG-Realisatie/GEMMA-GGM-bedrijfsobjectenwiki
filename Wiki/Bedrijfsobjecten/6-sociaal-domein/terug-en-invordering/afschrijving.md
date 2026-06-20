@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Het afschrijven van een oninbare vordering waarvoor geen perspectief op invordering bestaat
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Jaarrekening]
 bedrijfsfuncties: [Inning en invordering, Financieel beheer]
 status: concept
@@ -56,5 +55,5 @@ Het afschrijven van een vordering die oninbaar blijkt. Er is (nog) geen aflossin
 
 ## Relaties
 
-- Beëindigt een [[vordering]] (de vordering gaat juridisch niet teniet maar wordt oninbaar geleden)
-- Verschilt van [[kwijtschelding-bo]]: kwijtschelding is een bevoegdheid op verzoek, afschrijving is een eenzijdige administratieve handeling
+- Beëindigt een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]] (de vordering gaat juridisch niet teniet maar wordt oninbaar geleden)
+- Verschilt van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/kwijtschelding-bo|kwijtschelding-bo]]: kwijtschelding is een bevoegdheid op verzoek, afschrijving is een eenzijdige administratieve handeling

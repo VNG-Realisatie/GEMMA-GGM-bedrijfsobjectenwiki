@@ -32,7 +32,7 @@ Een zaaktypecatalogus bevat op het hoogste niveau drie objecttypen:
 
 Binnen elk zaaktype worden geconfigureerd:
 - **STATUSTYPE** — de mijlpalen die een zaak doorloopt
-- **[[resultaattype]]** — de mogelijke uitkomsten met archiefregime
+- **[[Wiki/Begrippen/resultaattype|resultaattype]]** — de mogelijke uitkomsten met archiefregime
 - **ROLTYPE** — de rollen die betrokkenen kunnen vervullen
 - **EIGENSCHAP** — zaaktypespecifieke gegevens
 - **ZAAKOBJECTTYPE** — de objecttypen waarop een zaak betrekking kan hebben
@@ -55,6 +55,6 @@ Het GGM bevat Zaaktype en Statustype in beleidsdomein RGBZPlus, maar niet de vol
 
 ## Relaties
 
-- [[zaakgericht-werken]] — het werkprincipe dat de zaaktypecatalogus ondersteunt
-- [[resultaattype]] — de uitkomsten die per zaaktype worden geconfigureerd
-- [[informatieobject]] — de informatiedragers die per zaaktype worden geconfigureerd
+- [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] — het werkprincipe dat de zaaktypecatalogus ondersteunt
+- [[Wiki/Begrippen/resultaattype|resultaattype]] — de uitkomsten die per zaaktype worden geconfigureerd
+- [[Wiki/Begrippen/informatieobject|informatieobject]] — de informatiedragers die per zaaktype worden geconfigureerd

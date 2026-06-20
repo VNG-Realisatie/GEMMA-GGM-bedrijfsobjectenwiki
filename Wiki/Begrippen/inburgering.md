@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: tactisch
 domein: [Inburgering en Asielopvang]
 synoniemen: [inburgeringstraject]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit: Inburgeringstraject
 status: concept
 ---
@@ -28,15 +28,15 @@ De gemeente is verantwoordelijk voor:
 
 > "De gemeente is verantwoordelijk voor de inburgering van mensen met een verblijfsvergunning." — COA Dienstverleningsgids
 
-Het inburgeringstraject begint nadat de [[statushouder]] via [[kansrijke-koppeling]] aan de gemeente is gekoppeld en gehuisvest. Vóór die tijd kan er al [[voorinburgering]] plaatsvinden in de opvang.
+Het inburgeringstraject begint nadat de [[Wiki/Begrippen/statushouder|statushouder]] via [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] aan de gemeente is gekoppeld en gehuisvest. Vóór die tijd kan er al [[Wiki/Begrippen/voorinburgering|voorinburgering]] plaatsvinden in de opvang.
 
 ## Relaties
 
-- [[statushouder]] — de doelgroep van inburgering
-- [[kansrijke-koppeling]] — het proces dat voorafgaat aan inburgering
-- [[voorinburgering]] — voorbereiding op inburgering in de opvangfase
-- [[meedoenbalie]] — faciliteert vroege arbeidstoeleiding
-- [[asielopvang]] — de fase die voorafgaat aan inburgering
+- [[Wiki/Begrippen/statushouder|statushouder]] — de doelgroep van inburgering
+- [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] — het proces dat voorafgaat aan inburgering
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — voorbereiding op inburgering in de opvangfase
+- [[Wiki/Begrippen/meedoenbalie|meedoenbalie]] — faciliteert vroege arbeidstoeleiding
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — de fase die voorafgaat aan inburgering
 
 ## GGM-referentie
 

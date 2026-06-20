@@ -29,7 +29,7 @@ De aanpak is niet beperkt tot externe dienstverlening. Ook interne zaken (van co
 Zaakgericht werken wordt ondersteund door twee samenhangende informatiemodellen:
 
 - Het **RGBZ** (Referentiemodel Gemeentelijke Basisgegevens Zaken) definieert de runtime-gegevens: welke gegevens bij een zaak worden vastgelegd.
-- De **[[zaaktypecatalogus]]** (ZTC2) definieert de configuratie: welke zaaktypen bestaan, welke statussen ze doorlopen, welke resultaten mogelijk zijn.
+- De **[[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]]** (ZTC2) definieert de configuratie: welke zaaktypen bestaan, welke statussen ze doorlopen, welke resultaten mogelijk zijn.
 
 ### Berichtenstandaarden
 
@@ -43,14 +43,14 @@ Het RGBZ is uitgewerkt in berichtenstandaarden voor gegevensuitwisseling:
 1. **Zaaktype = bedrijfsproces**: de afbakening van een zaaktype komt overeen met een bedrijfsproces "van klant tot klant". Onderdelen van bedrijfsprocessen vormen geen zelfstandige zaken.
 2. **Perspectief van de initiator**: wat een zaak is, wordt bekeken vanuit het perspectief van de initiator — niet vanuit de interne procesorganisatie.
 3. **Generiek + specifiek**: het RGBZ standaardiseert generieke zaakgegevens; vakspecifieke informatie wordt per zaaktype geconfigureerd via de ZTC2.
-4. **[[zaakdossier]]**: alle documenten bij een zaak vormen met de zaakkenmerken het zaakdossier. Archivering wordt bepaald door het [[resultaattype]].
+4. **[[Wiki/Begrippen/zaakdossier|zaakdossier]]**: alle documenten bij een zaak vormen met de zaakkenmerken het zaakdossier. Archivering wordt bepaald door het [[Wiki/Begrippen/resultaattype|resultaattype]].
 
 ## Relaties
 
-- [[zaaktypecatalogus]] — de structuur waarmee zaaktypen worden gedefinieerd
-- [[informatieobject]] — de informatiedragers die bij een zaak horen
-- [[zaakdossier]] — het geheel van zaakkenmerken en documenten
-- [[resultaattype]] — de mogelijke uitkomsten die het archiefregime bepalen
+- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] — de structuur waarmee zaaktypen worden gedefinieerd
+- [[Wiki/Begrippen/informatieobject|informatieobject]] — de informatiedragers die bij een zaak horen
+- [[Wiki/Begrippen/zaakdossier|zaakdossier]] — het geheel van zaakkenmerken en documenten
+- [[Wiki/Begrippen/resultaattype|resultaattype]] — de mogelijke uitkomsten die het archiefregime bepalen
 
 ## Afbakening
 

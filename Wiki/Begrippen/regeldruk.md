@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: tactisch
 domein: [Economie]
 synoniemen: [administratieve lasten, regelgevingsdruk]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -23,9 +23,9 @@ Regeldruk raakt ondernemers extra bij maatschappelijke transities (verduurzaming
 
 ## Relaties
 
-- Onderdeel van [[ondernemersdienstverlening]] — vermindering regeldruk is een kerndoel
-- Beïnvloedt [[vestigingsklimaat]] — hoge regeldruk maakt gemeente minder aantrekkelijk
-- Raakt het [[midden-en-kleinbedrijf]] het zwaarst — minder capaciteit om regelgeving te verwerken
+- Onderdeel van [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]] — vermindering regeldruk is een kerndoel
+- Beïnvloedt [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] — hoge regeldruk maakt gemeente minder aantrekkelijk
+- Raakt het [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] het zwaarst — minder capaciteit om regelgeving te verwerken
 - Raakvlak met VTH (vergunningverlening, toezicht en handhaving) — GGM taakveld 1
 
 ## Afbakening

@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Financien]
 synoniemen: [autorisatie, allocatie]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -23,14 +23,14 @@ De kernbevoegdheid van de gemeenteraad op financieel terrein. Omvat twee aspecte
 
 ## Context
 
-De gemeentebegroting is het document waarmee de raad het budgetrecht uitoefent. De [[financiele-verordening]] maakt het budgetrecht concreet door spelregels vast te leggen voor de begrotingscyclus.
+De gemeentebegroting is het document waarmee de raad het budgetrecht uitoefent. De [[Wiki/Begrippen/financiele-verordening|financiele-verordening]] maakt het budgetrecht concreet door spelregels vast te leggen voor de begrotingscyclus.
 
 ## Relaties
 
-- Uitgeoefend via de [[begrotingscyclus]]
-- Geconcretiseerd in de [[financiele-verordening]]
-- Resulteert in de [[begroting]] (GGM-bedrijfsobject)
+- Uitgeoefend via de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]
+- Geconcretiseerd in de [[Wiki/Begrippen/financiele-verordening|financiele-verordening]]
+- Resulteert in de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] (GGM-bedrijfsobject)
 
 ## Afbakening
 
-- Het budgetrecht betreft uitgaven en besteding; de raad heeft beperkte invloed op de inkomstenomvang (zie [[gemeentefonds]], [[specifieke-uitkering]])
+- Het budgetrecht betreft uitgaven en besteding; de raad heeft beperkte invloed op de inkomstenomvang (zie [[Wiki/Begrippen/gemeentefonds|gemeentefonds]], [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]])

@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021."
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Asielstatushouder
@@ -70,5 +69,5 @@ Ontheffing en Vrijstelling zijn attributen/statuswijzigingen van dit BO, geen ap
 
 ## Relaties
 
-- ← [[asielstatushouder]] / [[gezinsmigrant]] — inburgeraar heeft een inburgeringsplicht [1]
-- → [[inburgeringstermijn]] — heeft een inburgeringstermijn [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — inburgeraar heeft een inburgeringsplicht [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn|inburgeringstermijn]] — heeft een inburgeringstermijn [1]

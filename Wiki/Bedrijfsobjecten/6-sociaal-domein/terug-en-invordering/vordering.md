@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Terugvordering, Invordering]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
@@ -61,9 +60,9 @@ De GGM-definitie beperkt zich tot bijstand; de bedrijfsobjectdefinitie is breder
 
 ## Relaties
 
-- Gericht aan een [[debiteur]]
-- Kan leiden tot een [[aflossingsplan]]
-- Kan worden beëindigd door [[aflossing]], [[kwijtschelding]] of [[afschrijving]]
-- Kan aanleiding geven tot [[interventie]] bij niet-betaling
-- Kan resulteren in [[restitutie]] bij te veel ontvangen aflossing
-- Verwant aan [[belastingaanslag]] — maar de GGM-vordering is specifiek sociaal domein, terwijl een belastingaanslag publiekrechtelijk is op grond van de belastingverordening
+- Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
+- Kan leiden tot een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
+- Kan worden beëindigd door [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]], [[Wiki/Begrippen/kwijtschelding|kwijtschelding]] of [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving|afschrijving]]
+- Kan aanleiding geven tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] bij niet-betaling
+- Kan resulteren in [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie|restitutie]] bij te veel ontvangen aflossing
+- Verwant aan [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] — maar de GGM-vordering is specifiek sociaal domein, terwijl een belastingaanslag publiekrechtelijk is op grond van de belastingverordening

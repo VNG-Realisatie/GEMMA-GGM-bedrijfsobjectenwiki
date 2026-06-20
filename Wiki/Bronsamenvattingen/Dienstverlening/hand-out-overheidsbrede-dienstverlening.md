@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md](Sources/Onderwerpen VNG/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md)"
+bron: "[Sources/Onderwerpen/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md](Sources/Onderwerpen/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md)"
 titel: "Hand-out overheidsbrede dienstverlening voor gemeenten"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -32,7 +32,7 @@ Gemeenten kiezen zelf waar ze de dienstverlening beleggen. Varianten: KCC-spreek
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Dit document beschrijft primair een **werkwijze en organisatiemodel**, geen nieuwe data-objecten. De concepten (overheidsbrede dienstverlening, professionallijn, IDO) zijn instrumenten en actoren, geen registratieobjecten. Het bevestigt wel het belang van bestaande objecten zoals [[aanvraag-of-melding]] en [[balieafspraak]] als registratiepunten voor klantcontacten. De Wmebv (Wet modernisering elektronisch bestuurlijk verkeer) creëert een zorgplicht voor passende ondersteuning.
+Dit document beschrijft primair een **werkwijze en organisatiemodel**, geen nieuwe data-objecten. De concepten (overheidsbrede dienstverlening, professionallijn, IDO) zijn instrumenten en actoren, geen registratieobjecten. Het bevestigt wel het belang van bestaande objecten zoals [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] en [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] als registratiepunten voor klantcontacten. De Wmebv (Wet modernisering elektronisch bestuurlijk verkeer) creëert een zorgplicht voor passende ondersteuning.
 
 ## Citaten
 

@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Financien]
 synoniemen: [verordening 212, financiële verordening]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-financiele-verordening]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-financiele-verordening]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -21,7 +21,7 @@ De verordening waarmee de gemeenteraad aanvullende regels stelt voor het financi
 ## Inhoud (voorbeelden)
 
 - Aantal programma's in de begroting
-- Budgetten per prioriteit of [[taakveld]]
+- Budgetten per prioriteit of [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]
 - Procedure goedkeuring begrotingswijzigingen en investeringskredieten
 - Aantal tussenrapportages
 - Uitbreiding financiële kengetallen
@@ -29,17 +29,17 @@ De verordening waarmee de gemeenteraad aanvullende regels stelt voor het financi
 
 ## Context
 
-Zonder financiële verordening laat de raad de invulling over aan het college. De verordening is het middel om het [[budgetrecht]] concreet te maken en de [[begrotingscyclus]] in te richten.
+Zonder financiële verordening laat de raad de invulling over aan het college. De verordening is het middel om het [[Wiki/Begrippen/budgetrecht|budgetrecht]] concreet te maken en de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]] in te richten.
 
 De VNG publiceert een modelverordening die gemeenten als vertrekpunt gebruiken.
 
 ## Relaties
 
-- Concretiseert het [[budgetrecht]]
-- Vormgeeft de [[begrotingscyclus]]
-- Vergelijkbaar met de [[belastingverordening]] maar dan voor het financieel beheer in plaats van belastingheffing
+- Concretiseert het [[Wiki/Begrippen/budgetrecht|budgetrecht]]
+- Vormgeeft de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]
+- Vergelijkbaar met de [[Wiki/Begrippen/belastingverordening|belastingverordening]] maar dan voor het financieel beheer in plaats van belastingheffing
 
 ## Afbakening
 
-- Niet hetzelfde als de [[belastingverordening]] — die regelt de heffing van specifieke belastingen
+- Niet hetzelfde als de [[Wiki/Begrippen/belastingverordening|belastingverordening]] — die regelt de heffing van specifieke belastingen
 - Niet hetzelfde als het BBV — dat zijn landelijke regels, de financiële verordening is lokaal maatwerk

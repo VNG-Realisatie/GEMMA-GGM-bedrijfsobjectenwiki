@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Belastingen]
 synoniemen: [kruissubsidiëring]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/raadgever-gemeentelijke-belastingen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -24,10 +24,10 @@ Kruissubsidiering is een beleidskeuze die de raad maakt bij het vaststellen van 
 
 ## Relaties
 
-- Speelt binnen [[bestemmingsbelasting]]en en [[retributie]]s
-- Raakt het [[kostendekkend-tarief]] — kruissubsidiering is de reden dat individuele tarieven kunnen afwijken van de werkelijke kosten
-- Moet transparant zijn in de [[kostenonderbouwing]]
-- Onderdeel van de [[belastingmix]]-afweging
+- Speelt binnen [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s
+- Raakt het [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]] — kruissubsidiering is de reden dat individuele tarieven kunnen afwijken van de werkelijke kosten
+- Moet transparant zijn in de [[Wiki/Begrippen/kostenonderbouwing|kostenonderbouwing]]
+- Onderdeel van de [[Wiki/Begrippen/belastingmix|belastingmix]]-afweging
 
 ## Afbakening
 

@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
-bronnen: ["Bronsamenvattingen/Belastingen/raadgever-woz.md"]
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ, WOZ-beschikking verzenden]
 bedrijfsfuncties: [Waardering onroerende zaken, Belastingheffing]
 status: concept
@@ -40,7 +39,7 @@ relaties:
 
 # WOZ-waarde (bedrijfsobject)
 
-De vastgestelde marktwaarde van een [[woz-object]] op een bepaalde waardepeildatum, formeel bekendgemaakt via een WOZ-beschikking.
+De vastgestelde marktwaarde van een [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] op een bepaalde waardepeildatum, formeel bekendgemaakt via een WOZ-beschikking.
 
 ## GGM-bron
 
@@ -54,7 +53,7 @@ De vastgestelde marktwaarde van een [[woz-object]] op een bepaalde waardepeildat
 
 Het bedrijfsobject WOZ-waarde omvat zowel de getaxeerde waarde als het beschikkingsaspect (statusBeschikking). In de GGM is de WOZ-beschikking geen aparte entiteit maar een attribuut van WOZ-Waarde. Op bedrijfsniveau geldt hetzelfde: de beschikking IS de formele vaststelling van de waarde.
 
-De WOZ-waarde is de centrale [[heffingsmaatstaf]] voor:
+De WOZ-waarde is de centrale [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] voor:
 - Gemeentelijke heffingen: OZB, riool- en waterzorgheffing, forensenbelasting
 - Rijksbelastingen: eigenwoningforfait, erfbelasting
 - Waterschapsbelasting
@@ -66,16 +65,16 @@ De waarde loopt altijd een jaar achter: WOZ-beschikking 2026 bevat de waarde op 
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Hoort bij | [[woz-object]] | WOZ-Waarde → WOZ-object [1] | Geen |
+| Hoort bij | [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] | WOZ-Waarde → WOZ-object [1] | Geen |
 
 **Relatie met begrippen buiten GGM (hiaten):**
-- Is [[heffingsmaatstaf]] voor de [[belastingaanslag]] — GGM modelleert deze keten niet
-- Wordt vastgesteld door de [[heffingsambtenaar]] — actor niet in GGM
-- Staat open voor bezwaar door de [[belastingplichtige]] — bezwaarproces niet in GGM
+- Is [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] voor de [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] — GGM modelleert deze keten niet
+- Wordt vastgesteld door de [[Wiki/Begrippen/heffingsambtenaar|heffingsambtenaar]] — actor niet in GGM
+- Staat open voor bezwaar door de [[Wiki/Begrippen/belastingplichtige|belastingplichtige]] — bezwaarproces niet in GGM
 
 ## Beslissing: WOZ-beschikking geen apart BO
 
-De WOZ-beschikking is op bedrijfsniveau niet onderscheidbaar van de WOZ-waarde: de beschikking is het formele besluit dat de waarde vaststelt. In het GGM is dit weergegeven als attribuut statusBeschikking op WOZ-Waarde. Het begrip [[woz-beschikking]] blijft als apart begrip bestaan (het beschrijft het administratieve document), maar wordt niet als apart bedrijfsobject uitgewerkt.
+De WOZ-beschikking is op bedrijfsniveau niet onderscheidbaar van de WOZ-waarde: de beschikking is het formele besluit dat de waarde vaststelt. In het GGM is dit weergegeven als attribuut statusBeschikking op WOZ-Waarde. Het begrip [[Wiki/Begrippen/woz-beschikking|woz-beschikking]] blijft als apart begrip bestaan (het beschrijft het administratieve document), maar wordt niet als apart bedrijfsobject uitgewerkt.
 
 ## Bedrijfsprocessen
 

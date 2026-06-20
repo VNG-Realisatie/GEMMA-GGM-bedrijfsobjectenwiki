@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Dienstverlening]
 synoniemen: [aanbestedingsprocedure, publieke aanbesteding]
-bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -21,11 +21,11 @@ De wet bevat:
 
 ## Relaties
 
-- Onderdeel van het [[gemeentelijke-inkoop]]proces
-- Kan gecombineerd worden met [[mvoi]]-criteria als gunningscriterium
-- Resulteert in een opdracht die wordt vastgelegd in een [[inkooporder]] (GGM-bedrijfsobject)
+- Onderdeel van het [[Wiki/Begrippen/gemeentelijke-inkoop|gemeentelijke-inkoop]]proces
+- Kan gecombineerd worden met [[Wiki/Begrippen/mvoi|mvoi]]-criteria als gunningscriterium
+- Resulteert in een opdracht die wordt vastgelegd in een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]] (GGM-bedrijfsobject)
 
 ## Afbakening
 
-- Aanbesteding is de procedure, niet de inkoop zelf — [[gemeentelijke-inkoop]] is het bredere begrip
+- Aanbesteding is de procedure, niet de inkoop zelf — [[Wiki/Begrippen/gemeentelijke-inkoop|gemeentelijke-inkoop]] is het bredere begrip
 - De Aanbestedingswet geldt voor alle overheden, niet alleen gemeenten

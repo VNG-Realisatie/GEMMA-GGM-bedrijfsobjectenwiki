@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Doelstelling (Financien)"
 gemma_definitie: ""
 definitie: Een op korte of middellange termijn nagestreefde situatie
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
 bedrijfsfuncties: [Planning en control, Bestuur]
 status: concept
@@ -56,5 +55,5 @@ Een op korte of middellange termijn nagestreefde situatie. Doelstellingen koppel
 
 ## Relaties
 
-- Onderdeel van de [[begroting]]
-- Kan gekoppeld zijn aan een [[taakveld]]
+- Onderdeel van de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]
+- Kan gekoppeld zijn aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]

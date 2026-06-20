@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Financien]
 synoniemen: [solvabiliteit]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-financiele-conditie-gemeente]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -30,6 +30,6 @@ Het eigen vermogen (balansreserves) is geen liquide middel. Bij negatief exploit
 
 ## Relaties
 
-- Afgeleid uit de jaarrekening (onderdeel [[begrotingscyclus]])
-- Samen met [[netto-schuldquote]] en [[onbenutte-belastingcapaciteit]] onderdeel van de financiële conditie-index
-- Raakt GGM-bedrijfsobject [[activa]]
+- Afgeleid uit de jaarrekening (onderdeel [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]])
+- Samen met [[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]] en [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] onderdeel van de financiële conditie-index
+- Raakt GGM-bedrijfsobject [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]]

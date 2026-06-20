@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Financien/raadgever-inkomstenbronnen-gemeenten]]"
+bron: "[[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]]"
 titel: "Raadgever De inkomstenbronnen van gemeenten"
 domein: [Financien]
 datum_ingest: 2026-06-18

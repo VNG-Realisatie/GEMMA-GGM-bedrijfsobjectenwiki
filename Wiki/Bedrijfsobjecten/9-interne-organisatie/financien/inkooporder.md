@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Een opdracht voor één of meer leveringen door de leverancier aan de klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen voorwaarden en prijzen
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Inkoop en aanbesteding]
 bedrijfsfuncties: [Inkoop en contractbeheer]
 status: concept
@@ -54,5 +53,5 @@ Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leve
 
 ## Relaties
 
-- Resulteert in een inkomende [[factuur]]
-- Gekoppeld aan een [[kostenplaats]]
+- Resulteert in een inkomende [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]]
+- Gekoppeld aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]]

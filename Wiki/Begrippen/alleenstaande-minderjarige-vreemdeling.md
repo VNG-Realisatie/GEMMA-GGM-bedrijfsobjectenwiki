@@ -6,7 +6,7 @@ begripstype: doelgroep
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: [amv]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -21,15 +21,15 @@ De gemeente is verantwoordelijk voor:
 - **Onderwijs**: regelen van onderwijsplekken (basisschool of ISK)
 - **Jeugdhulp**: toegang en financiering indien nodig (via Nidos of GZA doorverwijzing)
 
-De dagelijkse begeleiding en opvang worden door het COA uitgevoerd. Amv's worden niet op [[duurzame-gemeentelijke-opvang]]-locaties geplaatst.
+De dagelijkse begeleiding en opvang worden door het COA uitgevoerd. Amv's worden niet op [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]]-locaties geplaatst.
 
-De [[spreidingswet]] bevat een extra bonusregeling voor gemeenten die amv-opvangplekken realiseren.
+De [[Wiki/Begrippen/spreidingswet|spreidingswet]] bevat een extra bonusregeling voor gemeenten die amv-opvangplekken realiseren.
 
 ## Relaties
 
-- [[asielopvang]] — amv-opvang is een specifieke vorm van asielopvang
-- [[opvanglocatie]] — amv-locaties zijn kleinschalig met intensieve begeleiding
-- [[spreidingswet]] — voorziet in extra bonus voor amv-plekken
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — amv-opvang is een specifieke vorm van asielopvang
+- [[Wiki/Begrippen/opvanglocatie|opvanglocatie]] — amv-locaties zijn kleinschalig met intensieve begeleiding
+- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — voorziet in extra bonus voor amv-plekken
 
 ## Afbakening
 

@@ -2,26 +2,31 @@
 type: bedrijfsobject
 naam: Gemeenschappelijke Regeling
 domein: [Bestuur]
-archimate_type: business-object
-grondslag: governance-object
-
-# GGM-velden
-ggm_entiteit: ~
-ggm_guid: ~
-ggm_uml_type: ~
+archimate_type: "business-object"
+grondslag: "governance-object"
+ggm_entiteit: "~"
 ggm_beleidsdomein: "Niet expliciet gemodelleerd"
-ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning (of 9 Interne Organisatie)"
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ~
-ggm_toelichting: ~
-ggm_synoniemen: ~
-ggm_herkomst: ~
-
-# GEMMA-velden
+ggm_definitie: "~"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid, bestuur en financiën."
-bronnen:
-  - "Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking.md"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
     bedrijfsobject: Gemeente
@@ -30,18 +35,9 @@ relaties:
     beschrijving: "Gemeenschappelijke Regeling is samenwerking van meerdere gemeenten (en mogelijk ook provincies, waterschappen)"
   - type: associatie
     bedrijfsobject: Bestuur
-    richting: naar-dit-BO
-    kardinaliteit: "1"
-    beschrijving: "Gemeenschappelijke Regeling heeft eigen bestuur en governance"
-bedrijfsprocessen:
-  - "Gemeenschappelijke Regeling opstellen (onderhandeling, overeenkomst, inschrijving KvK)"
-  - "Bestuur voeren (raad, bestuur, commissies, financiële control)"
-  - "Diensten leveren (eigen taken per regeling: GGD, RUD, jeugdzorg, etc.)"
-  - "Verantwoording (begroting, jaarrekening, audit)"
-bedrijfsfuncties:
-  - "Regionale samenwerking"
-  - "Schaalvergroting (efficiency, gespecialiseerde inzet)"
-  - "Democratische legitimatie"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
+    beschrijving: Gemeenschappelijke Regeling heeft eigen bestuur en governance
 ---
 
 # Gemeenschappelijke Regeling
@@ -132,7 +128,7 @@ Elke GR heeft:
 ## Bronsignalering
 
 Zie bronsamenvatting:
-- [[gemeentelijke-samenwerking|Gemeentelijke Samenwerking]] — Wgr-grondslag, voorbeelden (GGD, RUD, etc.), wijziging 2022
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking|Gemeentelijke Samenwerking]] — Wgr-grondslag, voorbeelden (GGD, RUD, etc.), wijziging 2022
 
 ## GGM-hiaat
 

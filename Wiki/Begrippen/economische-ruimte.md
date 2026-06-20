@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: tactisch
 domein: [Economie]
 synoniemen: [bedrijfsruimte, ruimte voor werken en ondernemen]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -27,14 +27,14 @@ Knelpunten zijn niet alleen ruimte maar ook energienetcapaciteit, bereikbaarheid
 
 ## Relaties
 
-- Concretisering als [[werklocatie]] op operationeel niveau
-- Cruciaal voor [[vestigingsklimaat]]
-- Spanning met woningbouwopgave — politieke afweging die raakt aan [[brede-welvaart]]
+- Concretisering als [[Wiki/Begrippen/werklocatie|werklocatie]] op operationeel niveau
+- Cruciaal voor [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]]
+- Spanning met woningbouwopgave — politieke afweging die raakt aan [[Wiki/Begrippen/brede-welvaart|brede-welvaart]]
 - Regionaal georganiseerd — raakt regionale economische samenwerking
 
 ## Afbakening
 
-- Niet hetzelfde als [[werklocatie]] — economische ruimte is het beleidsthema, werklocatie is het concrete object
+- Niet hetzelfde als [[Wiki/Begrippen/werklocatie|werklocatie]] — economische ruimte is het beleidsthema, werklocatie is het concrete object
 - Niet beperkt tot bedrijventerreinen — omvat ook kantoren, winkels, mengvormen
 - Niet alleen m² — ook randvoorwaarden (energie, mobiliteit, milieu)
 

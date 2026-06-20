@@ -4,7 +4,7 @@ naam: belastingverordening
 definitie: Verordening van de gemeenteraad die alle voorwaarden regelt om het individuele belastingbedrag te bepalen
 domein: [Belastingen]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastingverordening]]", "[[Sources/Onderwerpen VNG/Belastingen/Wettelijke grenzen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastingverordening]]", "[[Sources/Onderwerpen/Belastingen/Wettelijke grenzen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -19,9 +19,9 @@ De juridische grondslag voor individuele belastingheffing. Zonder vastgestelde v
 ## Noodzakelijke inhoud
 
 De verordening regelt:
-- Wie betaalt: de [[belastingplichtige]]
+- Wie betaalt: de [[Wiki/Begrippen/belastingplichtige|belastingplichtige]]
 - Waarover: het belastingvoorwerp / belastbaar feit
-- De [[heffingsmaatstaf]] en het tarief
+- De [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] en het tarief
 - Eventuele vrijstellingen
 - Ingangsdatum van de heffing
 
@@ -41,16 +41,16 @@ De VNG biedt modelverordeningen voor de meeste belastingen, opgesteld door prakt
 
 ## Relaties
 
-- Vaststelling is exclusieve bevoegdheid van de gemeenteraad (zie [[Sources/Onderwerpen VNG/Belastingen/Bevoegdhedenverdeling]])
-- Bij [[bestemmingsbelasting]]en en [[retributie]]s geldt de eis van [[kostendekkend-tarief]]
-- De [[heffingsambtenaar]] voert de verordening uit door [[belastingaanslag]]en op te leggen
-- Onderdeel van de [[belastingmix]]
+- Vaststelling is exclusieve bevoegdheid van de gemeenteraad (zie [[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling]])
+- Bij [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s geldt de eis van [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]]
+- De [[Wiki/Begrippen/heffingsambtenaar|heffingsambtenaar]] voert de verordening uit door [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]en op te leggen
+- Onderdeel van de [[Wiki/Begrippen/belastingmix|belastingmix]]
 
 ## Afbakening
 
-- De verordening creëert de belastingplicht; de [[belastingaanslag]] is de individuele uitwerking
+- De verordening creëert de belastingplicht; de [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] is de individuele uitwerking
 - Niet te verwarren met de kwijtscheldingsverordening (apart instrument)
 
 ## GGM-mapping
 
-Het GGM kent geen entiteit "Belastingverordening". Dit is een structureel hiaat: de verordening is het centrale juridische object in het heffingsproces. Kandidaat voor nieuw GGM-entiteit. Zie [[ggm-hiaten-belastingendomein]].
+Het GGM kent geen entiteit "Belastingverordening". Dit is een structureel hiaat: de verordening is het centrale juridische object in het heffingsproces. Kandidaat voor nieuw GGM-entiteit. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].

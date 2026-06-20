@@ -6,7 +6,7 @@ begripstype: waarde
 abstractieniveau: normatief
 domein: [Economie]
 synoniemen: [welzijn, brede welvaartsdenken]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -27,9 +27,9 @@ Het begrip stuurt de vier VNG-speerpunten op het economische domein en verbindt 
 
 ## Relaties
 
-- Stuurt [[vestigingsklimaat]] als beleidsdoel — vestigingsklimaat is niet alleen economisch maar moet bijdragen aan brede welvaart
-- Verbindt [[arbeidsmarkt]] met sociaal domein — niet alleen werkgelegenheid maar ook inclusief werk
-- Kader voor [[ondernemersdienstverlening]] — dienstverlening niet alleen gericht op groei maar op maatschappelijke bijdrage van het [[midden-en-kleinbedrijf]]
+- Stuurt [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] als beleidsdoel — vestigingsklimaat is niet alleen economisch maar moet bijdragen aan brede welvaart
+- Verbindt [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]] met sociaal domein — niet alleen werkgelegenheid maar ook inclusief werk
+- Kader voor [[Wiki/Begrippen/ondernemersdienstverlening|ondernemersdienstverlening]] — dienstverlening niet alleen gericht op groei maar op maatschappelijke bijdrage van het [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]]
 
 ## Afbakening
 

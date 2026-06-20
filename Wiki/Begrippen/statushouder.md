@@ -6,14 +6,14 @@ begripstype: doelgroep
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: [vergunninghouder]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit: Asielstatushouder
 status: concept
 ---
 
 # Statushouder
 
-Een statushouder is een persoon die een verblijfsvergunning heeft gekregen. Na vergunningverlening wordt de statushouder door het COA gekoppeld aan een gemeente (zie [[kansrijke-koppeling]]) en heeft de gemeente verantwoordelijkheid voor huisvesting en [[inburgering]].
+Een statushouder is een persoon die een verblijfsvergunning heeft gekregen. Na vergunningverlening wordt de statushouder door het COA gekoppeld aan een gemeente (zie [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]]) en heeft de gemeente verantwoordelijkheid voor huisvesting en [[Wiki/Begrippen/inburgering|inburgering]].
 
 ## Gemeentelijk perspectief
 
@@ -30,10 +30,10 @@ De gemeente heeft twee hoofdtaken rond statushouders:
 
 ## Relaties
 
-- [[kansrijke-koppeling]] — het proces waarmee statushouders aan gemeenten worden gekoppeld
-- [[inburgering]] — het traject dat de gemeente organiseert
-- [[voorinburgering]] — COA-activiteiten vóór koppeling aan gemeente
-- [[asielopvang]] — de fase die voorafgaat aan statushouderschap
+- [[Wiki/Begrippen/kansrijke-koppeling|kansrijke-koppeling]] — het proces waarmee statushouders aan gemeenten worden gekoppeld
+- [[Wiki/Begrippen/inburgering|inburgering]] — het traject dat de gemeente organiseert
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — COA-activiteiten vóór koppeling aan gemeente
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — de fase die voorafgaat aan statushouderschap
 
 ## Afbakening
 

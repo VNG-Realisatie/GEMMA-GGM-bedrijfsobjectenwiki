@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Belastingen]
 synoniemen: [kostentoerekening, kostenverantwoording]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -29,10 +29,10 @@ De belastingrechter toetst op de kostenonderbouwing. Kan de gemeente kosten en o
 
 ## Relaties
 
-- Onderbouwt het [[kostendekkend-tarief]]
-- Maakt [[kruissubsidiering]] transparant
+- Onderbouwt het [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]]
+- Maakt [[Wiki/Begrippen/kruissubsidiering|kruissubsidiering]] transparant
 - Opgenomen in de paragraaf lokale heffingen (zie begrotingscyclus)
-- Raakt [[bestemmingsbelasting]]en en [[retributie]]s
+- Raakt [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s
 
 ## Afbakening
 

@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md](Sources/Onderwerpen VNG/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md)"
+bron: "[Sources/Onderwerpen/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md](Sources/Onderwerpen/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md)"
 titel: "Overheidsbrede Startscan voor gemeenten"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19

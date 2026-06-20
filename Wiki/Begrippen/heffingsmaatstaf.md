@@ -4,7 +4,7 @@ naam: heffingsmaatstaf
 definitie: De maatstaf waarmee de hoogte van de individuele belastingschuld wordt bepaald
 domein: [Belastingen]
 synoniemen: [heffingsgrondslag]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastingverordening]]", "[[Sources/Onderwerpen VNG/Belastingen/Wettelijke grenzen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastingverordening]]", "[[Sources/Onderwerpen/Belastingen/Wettelijke grenzen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -32,8 +32,8 @@ Het verbod op heffing naar draagkracht (Gemeentewet) sluit inkomen, winst en ver
 ## Relaties
 
 - Wordt vastgelegd in de [[Wiki/Begrippen/belastingverordening]]
-- Bepaalt samen met het tarief de hoogte van de [[belastingaanslag]]
-- Is een van de keuzevrijheden in de [[belastingmix]]
+- Bepaalt samen met het tarief de hoogte van de [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]
+- Is een van de keuzevrijheden in de [[Wiki/Begrippen/belastingmix|belastingmix]]
 
 ## Afbakening
 
@@ -42,4 +42,4 @@ Het verbod op heffing naar draagkracht (Gemeentewet) sluit inkomen, winst en ver
 
 ## GGM-mapping
 
-Het GGM kent geen entiteit "Heffingsmaatstaf". In de hiatenanalyse is dit geïdentificeerd als kandidaat-entiteit voor een beleidsdomein Belastingen. Zie [[ggm-hiaten-belastingendomein]].
+Het GGM kent geen entiteit "Heffingsmaatstaf". In de hiatenanalyse is dit geïdentificeerd als kandidaat-entiteit voor een beleidsdomein Belastingen. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].

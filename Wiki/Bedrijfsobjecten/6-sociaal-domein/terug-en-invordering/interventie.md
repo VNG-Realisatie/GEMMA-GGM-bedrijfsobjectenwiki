@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Handhaving]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
@@ -57,6 +56,6 @@ De daadwerkelijke interventie die wordt ondernomen naar aanleiding van achterbli
 
 ## Relaties
 
-- Betreft een [[vordering]] via een [[aflossingsplan]]
-- Gericht aan een [[debiteur]]
-- In belastingcontext vergelijkbaar: de [[invorderingsambtenaar]] kan aanmaningen en dwangbevelen inzetten als interventies
+- Betreft een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]] via een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
+- Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
+- In belastingcontext vergelijkbaar: de [[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]] kan aanmaningen en dwangbevelen inzetten als interventies

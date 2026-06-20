@@ -2,51 +2,47 @@
 type: bedrijfsobject
 naam: Stembureau
 domein: [Bestuur]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-# GGM-velden
-ggm_entiteit: ~
-ggm_guid: ~
-ggm_uml_type: ~
+ggm_entiteit: "~"
 ggm_beleidsdomein: "Politiek (niet expliciet gemodelleerd)"
-ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ~
-ggm_toelichting: ~
-ggm_synoniemen: ~
-ggm_herkomst: ~
-
-# GEMMA-velden
+ggm_definitie: "~"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet."
-bronnen:
-  - "Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda.md"
-  - "Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026.md"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
     bedrijfsobject: Verkiezing
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "*"
-    beschrijving: "Stembureau maakt onderdeel uit van een verkiezing"
+    beschrijving: Stembureau maakt onderdeel uit van een verkiezing
   - type: associatie
     bedrijfsobject: Referendum
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "*"
-    beschrijving: "Stembureau maakt onderdeel uit van een referendum"
+    beschrijving: Stembureau maakt onderdeel uit van een referendum
   - type: associatie
     bedrijfsobject: Locatie
-    richting: naar-dit-BO
-    kardinaliteit: "1"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
     beschrijving: "Stembureau bevindt zich op een specifieke BAG-locatie"
-bedrijfsprocessen:
-  - "Stembureau inrichten (locatie kiezen, toegankelijkheid, faciliteiten)"
-  - "Stembureau bemensen (voorzitter, leden, waarnemers)"
-  - "Stemming uitvoeren (registratie, stemming, toezicht)"
-  - "Telling uitvoeren (stemmen tellen, rapportage)"
-bedrijfsfuncties:
-  - "Fysieke faciliteit voor stemming"
-  - "Inclusiviteit en toegankelijkheid"
 ---
 
 # Stembureau
@@ -78,7 +74,7 @@ De VNG-bron (2026) benadrukt inclusiviteit: "gemeenten die stembureaus inclusiev
 
 ## GGM-grondslag
 
-Dit BO heeft **geen GGM-entiteit**. Anders dan [[Verkiezing]] en [[Referendum]] is Stembureau wél een **registratieobject** — gemeenten leggen fysieke locaties, capaciteit en toegankelijkheid vast in informatiesystemen.
+Dit BO heeft **geen GGM-entiteit**. Anders dan [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum|Referendum]] is Stembureau wél een **registratieobject** — gemeenten leggen fysieke locaties, capaciteit en toegankelijkheid vast in informatiesystemen.
 
 Dit zou in het GGM kunnen — vergelijkbaar met BAG-locaties maar met stemming-specifieke attributen. 
 
@@ -122,8 +118,8 @@ Dit zou in het GGM kunnen — vergelijkbaar met BAG-locaties maar met stemming-s
 ## Bronsignalering
 
 Zie bronsamenvattingen:
-- [[verkiezingen-en-referenda|Verkiezingen en referenda]] — Toegankelijkheid en inclusiviteit; handreiking VNG
-- [[gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Communicatie over stemprocedures
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Toegankelijkheid en inclusiviteit; handreiking VNG
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Communicatie over stemprocedures
 
 ## Opmerking: Verschil met BAG-locatie
 

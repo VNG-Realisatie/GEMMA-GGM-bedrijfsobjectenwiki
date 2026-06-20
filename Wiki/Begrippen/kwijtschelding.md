@@ -4,21 +4,21 @@ naam: kwijtschelding
 definitie: Gehele of gedeeltelijke kwijtschelding van belastingschuld aan een belastingplichtige die niet anders dan met buitengewoon bezwaar kan betalen
 domein: [Belastingen]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Invordering en kwijtschelding]]", "[[Sources/Onderwerpen VNG/Belastingen/raadgever-gemeentelijke-belastingen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding]]", "[[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen]]"]
 ggm_entiteit: Kwijtschelding (Terug-en-invordering)
 status: concept
 ---
 
 # Kwijtschelding
 
-Het kwijtschelden van een [[belastingaanslag]] (geheel of gedeeltelijk) aan een [[belastingplichtige]] die de aanslag niet anders dan met buitengewoon bezwaar kan betalen. Kwijtschelding is een bevoegdheid, geen verplichting — de gemeenteraad moet de mogelijkheid expliciet vaststellen.
+Het kwijtschelden van een [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] (geheel of gedeeltelijk) aan een [[Wiki/Begrippen/belastingplichtige|belastingplichtige]] die de aanslag niet anders dan met buitengewoon bezwaar kan betalen. Kwijtschelding is een bevoegdheid, geen verplichting — de gemeenteraad moet de mogelijkheid expliciet vaststellen.
 
 > De wettelijke regels gaan ervan uit dat een belastingplichtige de ontvangen aanslag moet betalen. Alleen in een beperkt aantal uitzonderlijke situaties kan kwijtschelding worden verleend.
 > — *Invordering en kwijtschelding, VNG*
 
 ## Toetsing
 
-De [[invorderingsambtenaar]] toetst op twee criteria:
+De [[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]] toetst op twee criteria:
 
 1. **Vermogenstoets** — heeft de belastingplichtige vermogen (spaartegoeden, auto, inboedel)?
 2. **Inkomenstoets** — kan de schuld uit toekomstige inkomsten worden betaald (betalingscapaciteit)?
@@ -41,9 +41,9 @@ De raad kan kwijtschelding regelen via:
 
 ## Relaties
 
-- Verleend door de [[invorderingsambtenaar]]
-- Betreft een [[belastingaanslag]]
-- Gericht aan een [[belastingplichtige]]
+- Verleend door de [[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]]
+- Betreft een [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]
+- Gericht aan een [[Wiki/Begrippen/belastingplichtige|belastingplichtige]]
 - Beleid vastgesteld door gemeenteraad
 
 ## GGM-mapping

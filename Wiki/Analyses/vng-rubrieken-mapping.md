@@ -17,7 +17,7 @@ De VNG organiseert haar kennisaanbod in 26 rubrieken op [vng.nl/rubrieken](https
 |---|---|---|---|
 | Arbeidszaken | 9 Interne Organisatie | HR | Goed |
 | Asiel tot integratie | 6 Sociaal Domein | Inburgering | Deels |
-| Belastingen | 9 Interne Organisatie | Financien | Hiaat — zie [[ggm-hiaten-belastingendomein]] |
+| Belastingen | 9 Interne Organisatie | Financien | Hiaat — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] |
 | Bestuur | 0 Bestuur, Politiek en Ondersteuning | Politiek, Griffie | Goed |
 | Cultuur en sport | 5 Sport, Cultuur en Recreatie | Erfgoed, Musea, Sport | Goed |
 | Dienstverlening en bedrijfsvoering | 10 Dienstverlening + 9 Interne Organisatie | Model Dienstverlening, ICT, Inkoop | Goed |
@@ -82,7 +82,7 @@ De VNG organiseert haar kennisaanbod in 26 rubrieken op [vng.nl/rubrieken](https
 
 **Beschrijving:** Gemeenten hebben eigen inkomstenbronnen nodig om hun diensten te bekostigen. Deze rubriek omvat OZB, Wet WOZ, leges, heffing, invordering, beleid en uitvoering van het gemeentelijk belastinggebied.
 
-**GGM-mapping:** Taakveld 9 Interne Organisatie → beleidsdomein **Financien**. Het GGM bevat hier entiteiten als [[factuur]], [[debiteur]] en [[inkooporder]], maar modelleert gemeentelijke belastingen niet als apart conceptueel domein — zie [[ggm-hiaten-belastingendomein]].
+**GGM-mapping:** Taakveld 9 Interne Organisatie → beleidsdomein **Financien**. Het GGM bevat hier entiteiten als [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]], maar modelleert gemeentelijke belastingen niet als apart conceptueel domein — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].
 
 **Onderwerpen:** Fiscaal procesrecht, gemeentelijk belastinggebied, heffing, invordering, leges, OZB, parkeerbelastingen, rijksbelastingen, Wet WOZ.
 
@@ -188,7 +188,7 @@ De VNG organiseert haar kennisaanbod in 26 rubrieken op [vng.nl/rubrieken](https
 
 **Beschrijving:** Voorspelbaarheid van gemeentelijke financiën is de basis voor lokale democratie en effectief lokaal bestuur. Zonder goede financiële verhoudingen tussen overheden kunnen gemeenten geen taken verrichten. De VNG pleit voor voldoende financiële middelen en autonomie in de besteding.
 
-**GGM-mapping:** Taakveld 9 Interne Organisatie → beleidsdomein **Financien**. Directe mapping; het GGM bevat 24 entiteiten (zie `Sources/GGM/financien.md`), waaronder [[begroting]], [[kostenplaats]], [[doelstelling]], [[product]].
+**GGM-mapping:** Taakveld 9 Interne Organisatie → beleidsdomein **Financien**. Directe mapping; het GGM bevat 24 entiteiten (zie `Sources/GGM/financien.md`), waaronder [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|doelstelling]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]].
 
 **Onderwerpen:** Begroting en verantwoording, financiële conditie gemeenten en kapitaalmarkt, gemeentefonds en btw-compensatiefonds.
 
@@ -384,7 +384,7 @@ De VNG organiseert haar kennisaanbod in 26 rubrieken op [vng.nl/rubrieken](https
 
 **Beschrijving:** Naleving is essentieel voor kwaliteit, houdbaarheid en draagvlak van sociale zekerheid en zorg. Gemeenten zetten preventie, toezicht en handhaving in om publieke middelen op de juiste plek terecht te laten komen, de kwaliteit van diensten te borgen en oneigenlijk gebruik of fraude te voorkomen.
 
-**GGM-mapping:** Taakveld 6 Sociaal Domein → beleidsdomeinen **Inkomen** (met subdomein Terug- en Invordering) en **Wmo**. Daarnaast raakt het taakveld 1 Veiligheid en Vergunningen → beleidsdomein **Model VTH** voor het generieke handhavingsproces. De bedrijfsobjecten in [[vordering]], [[interventie]] en [[afschrijving]] zijn direct relevant.
+**GGM-mapping:** Taakveld 6 Sociaal Domein → beleidsdomeinen **Inkomen** (met subdomein Terug- en Invordering) en **Wmo**. Daarnaast raakt het taakveld 1 Veiligheid en Vergunningen → beleidsdomein **Model VTH** voor het generieke handhavingsproces. De bedrijfsobjecten in [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]], [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] en [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving|afschrijving]] zijn direct relevant.
 
 **Onderwerpen:** Arbeidsmigranten, kinderopvang (toezicht/handhaving), multidisciplinair handhaven, werk en inkomen (toezicht/handhaving), Wmo en Jeugdwet (toezicht/handhaving).
 
@@ -426,7 +426,7 @@ De volgende VNG-rubrieken worden niet of nauwelijks door het GGM gedekt:
 
 | Rubriek | Aard van het hiaat |
 |---|---|
-| **Belastingen** | Geen apart conceptueel informatiedomein — zie [[ggm-hiaten-belastingendomein]] |
+| **Belastingen** | Geen apart conceptueel informatiedomein — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] |
 | **Energietransitie** | Geen beleidsdomein; raakt aan Milieu en Volkshuisvesting maar is daar niet gemodelleerd |
 | **Europa en internationaal** | Volledig buiten GGM-scope (beleidsmatig/bestuurlijk) |
 | **Openbare gezondheid** | Taakveld 7 bevat alleen Afval; gezondheidsbeleid ontbreekt |

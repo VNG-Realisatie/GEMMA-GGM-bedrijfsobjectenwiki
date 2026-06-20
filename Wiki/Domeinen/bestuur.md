@@ -16,10 +16,10 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[verkiezing]] | object | Periodieke vervangingskeuze van gekozen ambtsdragers (raadsleden, burgemeester) | ✅ | 6/6 criteria; gemeentelijke organisatieverplichting; eigen levenscyclus | Raadsverkiezing 2026, Kamerverkiezing maart 2026 | **nee** (hiaat) |
-| [[referendum]] | object | Volksstemming over een onderwerp, ingesteld door gemeente of raad | ✅ | 6/6 criteria; aparte organisatorische verantwoordelijkheid | Lokaal referendum over bouwplaats | **nee** (hiaat) |
-| [[stembureau]] | object | Fysieke locatie waar kiezers hun stem uitbrengen; registratie van adres, capaciteit, toegankelijkheid | ✅ | 6/6 criteria; operationeel object met eigenschappen en relaties | Basisschool De Toekomst (stembureaunummer 42), Wijkcentrum Noord | **nee** (hiaat) |
-| [[gemeenschappelijke-regeling]] | object | Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies, waterschappen (grondslag: Wgr) | ✅ | 6/6 criteria; juridische entiteit met eigen bestuur/begroting | GGD, RUD, woningmarktregeling, jeugdzorgregeling | **nee** (hiaat) |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing]] | object | Periodieke vervangingskeuze van gekozen ambtsdragers (raadsleden, burgemeester) | ✅ | 6/6 criteria; gemeentelijke organisatieverplichting; eigen levenscyclus | Raadsverkiezing 2026, Kamerverkiezing maart 2026 | **nee** (hiaat) |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum]] | object | Volksstemming over een onderwerp, ingesteld door gemeente of raad | ✅ | 6/6 criteria; aparte organisatorische verantwoordelijkheid | Lokaal referendum over bouwplaats | **nee** (hiaat) |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau]] | object | Fysieke locatie waar kiezers hun stem uitbrengen; registratie van adres, capaciteit, toegankelijkheid | ✅ | 6/6 criteria; operationeel object met eigenschappen en relaties | Basisschool De Toekomst (stembureaunummer 42), Wijkcentrum Noord | **nee** (hiaat) |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling]] | object | Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies, waterschappen (grondslag: Wgr) | ✅ | 6/6 criteria; juridische entiteit met eigen bestuur/begroting | GGD, RUD, woningmarktregeling, jeugdzorgregeling | **nee** (hiaat) |
 | lokale omroep | actor | Publieke mediaorganisatie op gemeentelijk niveau (externe partij) | ❌ | Externe organisatie; gemeente heeft relatie (bekostiging, advies) maar omroep is niet gemeentelijk object | Omroep Amsterdam, RTV Rijnmond | nee |
 | gemeenteraad | governance | Gekozen vertegenwoordigend lichaam; besluiten over beleid en begroting | ❌ | Governance-structuur; rol/functie, geen aparte dingen | — | nee |
 | college | governance | Dagelijks bestuur, collegeleden voeren raadsbesluit uit | ❌ | Governance-structuur; organisatorische rol | — | nee |
@@ -32,10 +32,10 @@ Het GGM modelleert **dataobjecten** (wat gemeenten registreren), niet **processe
 
 | BO | Grondslag | Type | GGM-status |
 |---|---|---|---|
-| [[verkiezing]] | procesobject | **Proces** | Niet in GGM — geen database met "verkiezingen"; gemeenten registreren uitslagen (data), niet het proces |
-| [[referendum]] | procesobject | **Proces** | Niet in GGM — ook een proces, niet een registratieobject |
-| [[stembureau]] | procesobject | **Data** ⚠️ | **Potentiële hiaat** — fysieke locaties (adres, capaciteit, toegankelijkheid) zouden als registratieobject kunnen passen |
-| [[gemeenschappelijke-regeling]] | governance-object | **Data** ⚠️ | **Potentiële hiaat** — juridische entiteit met registreerbare eigenschappen (deelnemers, personeelssterkte, begroting) |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing]] | procesobject | **Proces** | Niet in GGM — geen database met "verkiezingen"; gemeenten registreren uitslagen (data), niet het proces |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum]] | procesobject | **Proces** | Niet in GGM — ook een proces, niet een registratieobject |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau]] | procesobject | **Data** ⚠️ | **Potentiële hiaat** — fysieke locaties (adres, capaciteit, toegankelijkheid) zouden als registratieobject kunnen passen |
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling]] | governance-object | **Data** ⚠️ | **Potentiële hiaat** — juridische entiteit met registreerbare eigenschappen (deelnemers, personeelssterkte, begroting) |
 
 **Terugmelding-logica:**
 - Verkiezing en Referendum: **Geen terugmelding** — dit zijn processen, structureel buiten GGM-scope
@@ -43,19 +43,19 @@ Het GGM modelleert **dataobjecten** (wat gemeenten registreren), niet **processe
 
 ## Verwerkte bronnen
 
-- [[alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG-niveau; relevantie voor gemeentelijke raadsvergaderingen
-- [[gemeentelijke-samenwerking|Gemeentelijke Samenwerking]] — Wgr-grondslag voor samenwerking
-- [[gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Gemeentelijke organisatietaken rond verkiezingen
-- [[lokale-omroepen|Lokale omroepen]] — Gemeentelijke rol en relatie met externe omroepen
-- [[rubriek-bestuur|Rubriek Bestuur]] — Governance-raamwerk en visie op bestuurlijke organisatie
-- [[verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid voor alle verkiezingen en referenda
-- [[versterking-lokale-democratie|Versterking lokale democratie]] — Governance-principes en democratische experimenten
-- [[vng-inzet-kabinet|VNG-inzet kabinet]] — VNG-level advocacy; context
-- [[vng-raadgevers|VNG Raadgevers]] — Informatieresources; context
+- [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG-niveau; relevantie voor gemeentelijke raadsvergaderingen
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking|Gemeentelijke Samenwerking]] — Wgr-grondslag voor samenwerking
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Gemeentelijke organisatietaken rond verkiezingen
+- [[Wiki/Bronsamenvattingen/Bestuur/lokale-omroepen|Lokale omroepen]] — Gemeentelijke rol en relatie met externe omroepen
+- [[Wiki/Bronsamenvattingen/Bestuur/rubriek-bestuur|Rubriek Bestuur]] — Governance-raamwerk en visie op bestuurlijke organisatie
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid voor alle verkiezingen en referenda
+- [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie|Versterking lokale democratie]] — Governance-principes en democratische experimenten
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet|VNG-inzet kabinet]] — VNG-level advocacy; context
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — Informatieresources; context
 
 ## Nog te verwerken
 
-Geen; alle 9 Sources/Onderwerpen VNG/Bestuur-bestanden zijn verwerkt.
+Geen; alle 9 Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
 
 ## Designkeuzes
 

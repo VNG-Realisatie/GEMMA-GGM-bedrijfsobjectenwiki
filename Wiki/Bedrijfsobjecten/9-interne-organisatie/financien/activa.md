@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Bezittingen van een onderneming op een boekhoudkundige balans
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Activabeheer, Jaarrekening]
 bedrijfsfuncties: [Financieel beheer]
 status: concept
@@ -55,5 +54,5 @@ Bezittingen van een onderneming op een boekhoudkundige balans. In de gemeentelij
 
 ## Relaties
 
-- Wordt gewaardeerd en afgeschreven via de [[begroting]]
-- Gekoppeld aan [[kostenplaats]]en voor kostentoerekening
+- Wordt gewaardeerd en afgeschreven via de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]
+- Gekoppeld aan [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]]en voor kostentoerekening

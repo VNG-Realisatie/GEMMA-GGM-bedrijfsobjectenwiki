@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Begrotingscyclus, Financiële administratie]
 bedrijfsfuncties: [Financieel beheer, Planning en control]
 status: concept
@@ -56,5 +55,5 @@ Rekening waaraan boekingen in een financiële administratie samen worden toegesc
 
 ## Relaties
 
-- Onderdeel van de [[begroting]]structuur
-- Relevant voor [[kostendekkend-tarief]]: kosten van een [[bestemmingsbelasting]] of [[retributie]] moeten toerekenbaar zijn aan kostenplaatsen
+- Onderdeel van de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]structuur
+- Relevant voor [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]]: kosten van een [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]] of [[Wiki/Begrippen/retributie|retributie]] moeten toerekenbaar zijn aan kostenplaatsen

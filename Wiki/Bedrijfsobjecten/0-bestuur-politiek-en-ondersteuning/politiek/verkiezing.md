@@ -2,45 +2,42 @@
 type: bedrijfsobject
 naam: Verkiezing
 domein: [Bestuur]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-# GGM-velden
-ggm_entiteit: ~
-ggm_guid: ~
-ggm_uml_type: ~
+ggm_entiteit: "~"
 ggm_beleidsdomein: "Politiek (niet expliciet gemodelleerd)"
-ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ~
-ggm_toelichting: ~
-ggm_synoniemen: ~
-ggm_herkomst: ~
-
-# GEMMA-velden
+ggm_definitie: "~"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling."
-bronnen:
-  - "Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda.md"
-  - "Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026.md"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: compositie
     bedrijfsobject: Stembureau
-    richting: van-dit-BO
+    richting: "van-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "Verkiezing omvat meerdere stembureaus als fysieke locaties"
+    beschrijving: Verkiezing omvat meerdere stembureaus als fysieke locaties
   - type: associatie
     bedrijfsobject: Kiezer
     richting: bidirectioneel
     kardinaliteit: "*"
-    beschrijving: "Kiezers brengen hun stem uit bij een verkiezing"
-bedrijfsprocessen:
-  - "Voorbereiding verkiezing (planning, registratie stembureaus, communicatie)"
-  - "Uitvoering stemming (registratie kiezers, stemming, veiligheid)"
-  - "Tellen en rapportage (telling stembureaus, uitslagrapportage)"
-bedrijfsfuncties:
-  - "Kiezen"
-  - "Democratische participatie"
+    beschrijving: Kiezers brengen hun stem uit bij een verkiezing
 ---
 
 # Verkiezing
@@ -102,5 +99,5 @@ Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Het GGM modelleert **d
 ## Bronsignalering
 
 Zie bronsamenvattingen:
-- [[verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid, Verkiezingsagenda 2030
-- [[gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Concrete organisatietaken en ondersteuning VNG
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid, Verkiezingsagenda 2030
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Concrete organisatietaken en ondersteuning VNG

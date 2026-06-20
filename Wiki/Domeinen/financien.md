@@ -15,35 +15,35 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 ## Begrippen
 
 ### Inkomstenbronnen
-- [[gemeentefonds]] — grootste inkomstenbron, vrij besteedbaar
-- [[algemene-uitkering]] — hoofdcomponent gemeentefonds
-- [[specifieke-uitkering]] — geoormerkt geld van het rijk voor medebewindstaken
+- [[Wiki/Begrippen/gemeentefonds|gemeentefonds]] — grootste inkomstenbron, vrij besteedbaar
+- [[Wiki/Begrippen/algemene-uitkering|algemene-uitkering]] — hoofdcomponent gemeentefonds
+- [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]] — geoormerkt geld van het rijk voor medebewindstaken
 
 ### Begrotingscyclus en governance
-- [[begrotingscyclus]] — kadernota → begroting → tussenrapportages → jaarrekening
-- [[budgetrecht]] — raadsbevoegdheid om geld beschikbaar te stellen
-- [[financiele-verordening]] — art. 212 Gemeentewet, lokale spelregels financieel beleid
-- [[kadernota]] — voorjaarsnota met kaders voor de begroting
+- [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]] — kadernota → begroting → tussenrapportages → jaarrekening
+- [[Wiki/Begrippen/budgetrecht|budgetrecht]] — raadsbevoegdheid om geld beschikbaar te stellen
+- [[Wiki/Begrippen/financiele-verordening|financiele-verordening]] — art. 212 Gemeentewet, lokale spelregels financieel beleid
+- [[Wiki/Begrippen/kadernota|kadernota]] — voorjaarsnota met kaders voor de begroting
 
 ### Financiële kengetallen
-- [[solvabiliteitsratio]] — eigen vermogen / balanstotaal (schuldbelasting bezit)
-- [[netto-schuldquote]] — netto schuld / baten (schuldhoogte)
-- [[onbenutte-belastingcapaciteit]] — ruimte tot art. 12-tarief (brug naar belastingdomein)
+- [[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]] — eigen vermogen / balanstotaal (schuldbelasting bezit)
+- [[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]] — netto schuld / baten (schuldhoogte)
+- [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] — ruimte tot art. 12-tarief (brug naar belastingdomein)
 
 ## Bedrijfsobjecten
 
 | Begrip | Status | GGM-grondslag | Matchsterkte |
 |---|---|---|---|
-| [[begroting]] | ✅ BO | Begroting (Financien) | exact |
-| [[kostenplaats]] | ✅ BO | Kostenplaats (Financien) | exact |
-| [[factuur]] | ✅ BO | Factuur (Financien) | exact |
-| [[inkooporder]] | ✅ BO | Inkooporder (Financien) | exact |
-| [[debiteur]] | ✅ BO | Debiteur (Financien) | exact |
-| [[taakveld]] | ✅ BO | Taakveld (IV3) | exact |
-| [[doelstelling]] | ✅ BO | Doelstelling (Financien) | exact |
-| [[product]] | ✅ BO | Product (Financien) | exact |
-| [[activa]] | ✅ BO | Activa (Financien) | sterk |
-| [[werkorder]] | ✅ BO | Werkorder (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting]] | ✅ BO | Begroting (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats]] | ✅ BO | Kostenplaats (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur]] | ✅ BO | Factuur (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder]] | ✅ BO | Inkooporder (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur]] | ✅ BO | Debiteur (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld]] | ✅ BO | Taakveld (IV3) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling]] | ✅ BO | Doelstelling (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product]] | ✅ BO | Product (Financien) | exact |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa]] | ✅ BO | Activa (Financien) | sterk |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder]] | ✅ BO | Werkorder (Financien) | exact |
 
 ## GGM-dekkingsanalyse
 
@@ -60,12 +60,12 @@ Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie
 
 ## Verwerkte bronnen
 
-- [[Sources/Onderwerpen VNG/Financien/raadgever-inkomstenbronnen-gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
-- [[Sources/Onderwerpen VNG/Financien/raadgever-gemeentebegroting-en-jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
-- [[Sources/Onderwerpen VNG/Financien/raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
-- [[Sources/Onderwerpen VNG/Financien/raadgever-financiele-conditie-gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
+- [[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
+- [[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
+- [[Sources/Onderwerpen/Financien/raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
+- [[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
 
 ## Raakvlakken
 
-- **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; [[onbenutte-belastingcapaciteit]] koppelt de domeinen
+- **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] koppelt de domeinen
 - **Dienstverlening** — inkoop en aanbesteding zijn de uitgavenkant van de begroting

@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Financien]
 synoniemen: [nettoschuld]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-financiele-conditie-gemeente]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -31,6 +31,6 @@ Gemeenten lenen hoofdzakelijk voor investeringen — dat is normaal. Maar een sc
 
 ## Relaties
 
-- Afgeleid uit de jaarrekening (onderdeel [[begrotingscyclus]])
-- Samen met [[solvabiliteitsratio]] en [[onbenutte-belastingcapaciteit]] onderdeel van de financiële conditie-index
-- Raakt GGM-bedrijfsobjecten [[activa]] en [[debiteur]]
+- Afgeleid uit de jaarrekening (onderdeel [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]])
+- Samen met [[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]] en [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]] onderdeel van de financiële conditie-index
+- Raakt GGM-bedrijfsobjecten [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]

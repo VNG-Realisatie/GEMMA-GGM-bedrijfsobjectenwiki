@@ -6,14 +6,14 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Belastingen]
 synoniemen: [onroerend goed, WOZ-object, pand]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/raadgever-woz]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/raadgever-woz]]"]
 ggm_entiteit: WOZ-object (RSGBPlus, taakveld 99 Kern)
 status: concept
 ---
 
 # Onroerende zaak
 
-Het fysieke object — grond, gebouw of combinatie — waarvan de gemeente jaarlijks de [[woz-waarde]] vaststelt. De onroerende zaak is het heffingsobject voor de OZB en de basis voor andere heffingen die de WOZ-waarde als [[heffingsmaatstaf]] gebruiken.
+Het fysieke object — grond, gebouw of combinatie — waarvan de gemeente jaarlijks de [[Wiki/Begrippen/woz-waarde|woz-waarde]] vaststelt. De onroerende zaak is het heffingsobject voor de OZB en de basis voor andere heffingen die de WOZ-waarde als [[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]] gebruiken.
 
 ## Context
 
@@ -23,11 +23,11 @@ De WOZ-objectafbakening bepaalt wat als één zelfstandig object geldt. Dit is n
 
 ## Relaties
 
-- Wordt gewaardeerd op [[woz-waarde]]
-- Waarde wordt bekendgemaakt via [[woz-beschikking]]
-- Is heffingsobject voor [[belastingaanslag]] (OZB)
-- Eigenaar/gebruiker is de [[belastingplichtige]]
-- Toezicht op waardering door de [[waarderingskamer]]
+- Wordt gewaardeerd op [[Wiki/Begrippen/woz-waarde|woz-waarde]]
+- Waarde wordt bekendgemaakt via [[Wiki/Begrippen/woz-beschikking|woz-beschikking]]
+- Is heffingsobject voor [[Wiki/Begrippen/belastingaanslag|belastingaanslag]] (OZB)
+- Eigenaar/gebruiker is de [[Wiki/Begrippen/belastingplichtige|belastingplichtige]]
+- Toezicht op waardering door de [[Wiki/Begrippen/waarderingskamer|waarderingskamer]]
 
 ## Afbakening
 
@@ -37,6 +37,6 @@ De WOZ-objectafbakening bepaalt wat als één zelfstandig object geldt. Dit is n
 
 ## GGM
 
-**Match:** GGM-entiteit "WOZ-object" in RSGBPlus (taakveld 99 Kern, herkomst BRWOZ). Attributen: WOZObjectnummer, geometrieWOZObject, grondoppervlakte, gebruikscode, soortobjectcode, vastgesteldeWaarde. Zie bedrijfsobject [[woz-object]].
+**Match:** GGM-entiteit "WOZ-object" in RSGBPlus (taakveld 99 Kern, herkomst BRWOZ). Attributen: WOZObjectnummer, geometrieWOZObject, grondoppervlakte, gebruikscode, soortobjectcode, vastgesteldeWaarde. Zie bedrijfsobject [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]].
 
 Het GGM kent ook "KadastraleOnroerendeZaak" (BRK) voor de kadastrale registratie. De WOZ-objectafbakening is een eigenstandige afbakening die niet altijd samenvalt met kadastrale percelen.

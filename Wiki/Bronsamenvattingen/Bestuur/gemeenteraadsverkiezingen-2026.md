@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/gemeenteraadsverkiezingen-2026.md](Sources/Onderwerpen%20VNG/Bestuur/gemeenteraadsverkiezingen-2026.md)"
+bron: "[Sources/Onderwerpen/Bestuur/gemeenteraadsverkiezingen-2026.md](Sources/Onderwerpen%20VNG/Bestuur/gemeenteraadsverkiezingen-2026.md)"
 titel: "Gemeenteraadsverkiezingen 2026"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -18,14 +18,14 @@ Een speerpunt is het betrekken van kinderen en jongeren bij gemeentelijke beslui
 
 ## Kernbegrippen
 
-- **[[Verkiezing]] (raadsverkiezingen)**: Verkiezing van raadsleden, organisatie is gemeentelijke verantwoordelijkheid
+- **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] (raadsverkiezingen)**: Verkiezing van raadsleden, organisatie is gemeentelijke verantwoordelijkheid
 - **Stemprocedure**: Toegankelijkheid, communicatie, instructies voor stemmers
 - **Opkomstbevordering**: Lokale campagnes ter verhoging van opkomst
 - **Kinder- en jongerenparticipatie**: Betrokkenheid van jongeren bij beleidsontwikkeling
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Dit formuleert de gemeentelijke taken rond [[Verkiezing|verkiezingen]]: organisatie, opkomstbevordering, communicatie. [[Verkiezing]] is een sterke BO-kandidaat omdat:
+Dit formuleert de gemeentelijke taken rond [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|verkiezingen]]: organisatie, opkomstbevordering, communicatie. [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] is een sterke BO-kandidaat omdat:
 - Gemeenten een eigen organisatorische verantwoordelijkheid hebben
 - Er eigen processen zijn (planning, stemprocedure, telling)
 - Het informatiesystemen raakt (kiesregisters, stemmers, uitslag)

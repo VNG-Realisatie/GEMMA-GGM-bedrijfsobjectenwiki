@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"
+bron: "[[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"
 titel: "Raadgever Inkoop en aanbesteden"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18
@@ -34,7 +34,7 @@ De Aanbestedingswet 2012 (gebaseerd op EU-richtlijnen) stelt verplichte procedur
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Inkoop is de uitgavenkant van de begroting. Sluit aan bij GGM-bedrijfsobjecten [[inkooporder]] en [[factuur]]. De Raadgever beschrijft inkoop als strategisch instrument (maatschappelijke doelen), niet alleen als operationeel proces.
+Inkoop is de uitgavenkant van de begroting. Sluit aan bij GGM-bedrijfsobjecten [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]]. De Raadgever beschrijft inkoop als strategisch instrument (maatschappelijke doelen), niet alleen als operationeel proces.
 
 ## Citaten
 

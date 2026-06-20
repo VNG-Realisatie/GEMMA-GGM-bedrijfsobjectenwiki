@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde periode zodat eventuele tekorten en overschotten vroegtijdig in kaart kunnen worden gebracht
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Begrotingscyclus, Jaarrekening]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 status: concept
@@ -56,6 +55,6 @@ Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaal
 
 ## Relaties
 
-- Bevat [[taakveld]]en als structuuronderdeel
-- Belastingopbrengsten uit [[algemene-middelen]] komen in de begroting terecht
-- Kostendekkendheid van [[bestemmingsbelasting]]en en [[retributie]]s wordt getoetst als raming in de begroting
+- Bevat [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]en als structuuronderdeel
+- Belastingopbrengsten uit [[Wiki/Begrippen/algemene-middelen|algemene-middelen]] komen in de begroting terecht
+- Kostendekkendheid van [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s wordt getoetst als raming in de begroting

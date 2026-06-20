@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md](Sources/Onderwerpen VNG/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md)"
+bron: "[Sources/Onderwerpen/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md](Sources/Onderwerpen/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md)"
 titel: "VNG-rubriek Dienstverlening en bedrijfsvoering"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19

@@ -6,14 +6,14 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Financien]
 synoniemen: [AU]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
 ggm_entiteit:
 status: concept
 ---
 
 # Algemene uitkering
 
-Het grootste onderdeel van het [[gemeentefonds]]. Iedere gemeente ontvangt een algemene uitkering. Het geld behoort tot de [[algemene-middelen]] — de gemeente bepaalt zelf hoe het wordt besteed.
+Het grootste onderdeel van het [[Wiki/Begrippen/gemeentefonds|gemeentefonds]]. Iedere gemeente ontvangt een algemene uitkering. Het geld behoort tot de [[Wiki/Begrippen/algemene-middelen|algemene-middelen]] — de gemeente bepaalt zelf hoe het wordt besteed.
 
 ## Verdeling
 
@@ -25,6 +25,6 @@ Gemeenten hebben geen invloed op de maatstaven.
 
 ## Relaties
 
-- Onderdeel van het [[gemeentefonds]]
-- Middelen worden [[algemene-middelen]]
+- Onderdeel van het [[Wiki/Begrippen/gemeentefonds|gemeentefonds]]
+- Middelen worden [[Wiki/Begrippen/algemene-middelen|algemene-middelen]]
 - Invloed van de raad: besteding, niet omvang

@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Terugbetaling van te veel ontvangen aflossing
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
@@ -55,6 +54,6 @@ Terugbetaling van te veel ontvangen aflossing. Restituties worden geadministreer
 
 ## Relaties
 
-- Betreft een [[vordering]]
-- Tegenovergestelde van een [[aflossing]]
-- Gericht aan een [[debiteur]]
+- Betreft een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]
+- Tegenovergestelde van een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]]
+- Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]

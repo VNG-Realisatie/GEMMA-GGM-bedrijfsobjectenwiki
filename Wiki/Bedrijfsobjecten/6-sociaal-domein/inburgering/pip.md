@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a1f148c2-d310-45c0-aee
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Brede Intake
@@ -68,6 +67,6 @@ Persoonlijk Plan Inburgering en Participatie — individueel plan vastgesteld do
 
 ## Relaties
 
-- ← [[brede-intake]] — wordt opgesteld naar aanleiding van de brede intake [1]
-- → [[leerroute]] — bevat de afgesproken leerroute [1]
-- → [[inburgeringstraject]] — stuurt het inburgeringstraject aan [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|brede-intake]] — wordt opgesteld naar aanleiding van de brede intake [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|leerroute]] — bevat de afgesproken leerroute [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|inburgeringstraject]] — stuurt het inburgeringstraject aan [1]

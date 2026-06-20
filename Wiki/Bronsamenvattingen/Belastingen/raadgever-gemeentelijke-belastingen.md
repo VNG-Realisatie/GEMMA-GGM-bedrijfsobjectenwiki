@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/raadgever-gemeentelijke-belastingen]]"
+bron: "[[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen]]"
 titel: "Raadgever Gemeentelijke belastingen"
 domein: [Belastingen]
 datum_ingest: 2026-06-18

@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/lokale-omroepen.md](Sources/Onderwerpen%20VNG/Bestuur/lokale-omroepen.md)"
+bron: "[Sources/Onderwerpen/Bestuur/lokale-omroepen.md](Sources/Onderwerpen%20VNG/Bestuur/lokale-omroepen.md)"
 titel: "Lokale omroepen"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

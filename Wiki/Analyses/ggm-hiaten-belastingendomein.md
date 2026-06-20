@@ -20,8 +20,8 @@ Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) en beleidsdomeinen daaron
 
 | Beleidsdomein | Taakveld | Dekking | Wat het modelleert |
 |---|---|---|---|
-| **[[financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
-| **[[terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
+| **[[Wiki/Domeinen/financien|financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
+| **[[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
 
 Daarnaast bestaat er een `enum_Belasting` enumeratie en gerelateerde classificaties (`BelastingklasseNieuw`, `BelastingklasseOud`), maar deze zijn niet ingebed in een domeinmodel.
 
@@ -33,7 +33,7 @@ Strategische begrippen drukken beleidsdoelen uit. Het GGM hoeft deze niet te mod
 
 | Begrip | Type | GGM-status | Toelichting |
 |---|---|---|---|
-| **[[belastingmix]]** | doel | Geen entiteit | Gekozen combinatie van belastingen en tarieven — stuurt welke operationele objecten nodig zijn |
+| **[[Wiki/Begrippen/belastingmix|belastingmix]]** | doel | Geen entiteit | Gekozen combinatie van belastingen en tarieven — stuurt welke operationele objecten nodig zijn |
 
 ### Tactisch — gedeeltelijk GGM-match verwacht
 
@@ -41,15 +41,15 @@ Tactische begrippen organiseren het werk: instrumenten, thema's, doelgroepen. He
 
 | Begrip | Type | GGM-status | Toelichting |
 |---|---|---|---|
-| **[[gemeentelijke-belasting]]** | thema | Geen entiteit, geen taxonomie | Overkoepelend begrip; GGM kent geen belastingentypologie |
-| **[[algemene-belasting]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
-| **[[bestemmingsbelasting]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
-| **[[retributie]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
-| **[[leges]]** | instrument | Geen entiteit | Subcategorie van retributie |
+| **[[Wiki/Begrippen/gemeentelijke-belasting|gemeentelijke-belasting]]** | thema | Geen entiteit, geen taxonomie | Overkoepelend begrip; GGM kent geen belastingentypologie |
+| **[[Wiki/Begrippen/algemene-belasting|algemene-belasting]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
+| **[[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
+| **[[Wiki/Begrippen/retributie|retributie]]** | instrument | Geen entiteit | Classificatie binnen belastingtypologie |
+| **[[Wiki/Begrippen/leges|leges]]** | instrument | Geen entiteit | Subcategorie van retributie |
 | **[[Wiki/Begrippen/belastinggebied]]** | instrument | Geen entiteit | Wettelijke begrenzing van heffingsmogelijkheden |
 | **[[Wiki/Begrippen/belastingverordening]]** | instrument | Geen entiteit | Juridische grondslag — centraal object in het heffingsproces |
-| **[[kostendekkend-tarief]]** | instrument | Geen entiteit | Business rule: opbrengsten ≤ kosten |
-| **[[kwijtschelding]]** | thema | **Deels**: GGM "Kwijtschelding" (T&I) | GGM-context is sociaal domein, niet belastinginvordering |
+| **[[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]]** | instrument | Geen entiteit | Business rule: opbrengsten ≤ kosten |
+| **[[Wiki/Begrippen/kwijtschelding|kwijtschelding]]** | thema | **Deels**: GGM "Kwijtschelding" (T&I) | GGM-context is sociaal domein, niet belastinginvordering |
 
 ### Operationeel — GGM-match verwacht, grotendeels afwezig
 
@@ -57,13 +57,13 @@ Operationele begrippen duiden objecten, actoren en doelgroepen die in processen 
 
 | Begrip | Type | GGM-status | Toelichting |
 |---|---|---|---|
-| **[[belastingaanslag]]** | object | **Hiaat** — "Vordering" (T&I) is anders georiënteerd | Kern van het heffingsproces; ontbreekt volledig |
-| **[[heffingsmaatstaf]]** | object | **Hiaat** — deels geraakt via WOZ-OBJECT (RSGB) | Grondslag waarop belastingschuld wordt bepaald |
-| **[[woonlasten]]** | object | **Hiaat** — samengesteld begrip | OZB + rioolheffing + afvalstoffenheffing per huishouden |
-| **[[algemene-middelen]]** | object | **Hiaat** | Niet-gelabelde opbrengsten, vrij inzetbaar |
-| **[[belastingplichtige]]** | doelgroep | **Deels**: "Debiteur" (Financien) is breder | Persoon die belasting moet betalen |
-| **[[heffingsambtenaar]]** | actor | **Hiaat** | Wettelijke rol, legt aanslagen op — bevoegdheid uit AWR |
-| **[[invorderingsambtenaar]]** | actor | **Hiaat** | Wettelijke rol, int aanslagen — bevoegdheid uit AWR |
+| **[[Wiki/Begrippen/belastingaanslag|belastingaanslag]]** | object | **Hiaat** — "Vordering" (T&I) is anders georiënteerd | Kern van het heffingsproces; ontbreekt volledig |
+| **[[Wiki/Begrippen/heffingsmaatstaf|heffingsmaatstaf]]** | object | **Hiaat** — deels geraakt via WOZ-OBJECT (RSGB) | Grondslag waarop belastingschuld wordt bepaald |
+| **[[Wiki/Begrippen/woonlasten|woonlasten]]** | object | **Hiaat** — samengesteld begrip | OZB + rioolheffing + afvalstoffenheffing per huishouden |
+| **[[Wiki/Begrippen/algemene-middelen|algemene-middelen]]** | object | **Hiaat** | Niet-gelabelde opbrengsten, vrij inzetbaar |
+| **[[Wiki/Begrippen/belastingplichtige|belastingplichtige]]** | doelgroep | **Deels**: "Debiteur" (Financien) is breder | Persoon die belasting moet betalen |
+| **[[Wiki/Begrippen/heffingsambtenaar|heffingsambtenaar]]** | actor | **Hiaat** | Wettelijke rol, legt aanslagen op — bevoegdheid uit AWR |
+| **[[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]]** | actor | **Hiaat** | Wettelijke rol, int aanslagen — bevoegdheid uit AWR |
 
 ### Overzicht hiaten per niveau
 
@@ -161,8 +161,8 @@ De verwerking van de Raadgever WOZ leverde twee bedrijfsobjecten op met directe 
 
 | Bedrijfsobject | GGM-entiteit | GGM-beleidsdomein | Status |
 |---|---|---|---|
-| [[woz-object]] | WOZ-object | RSGBPlus (taakveld 99 Kern) | **Match** — attributen en relaties dekken het bedrijfsperspectief |
-| [[woz-waarde-bo]] | WOZ-Waarde | RSGBPlus (taakveld 99 Kern) | **Match** — inclusief beschikkingsaspect (statusBeschikking) |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] | WOZ-object | RSGBPlus (taakveld 99 Kern) | **Match** — attributen en relaties dekken het bedrijfsperspectief |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|woz-waarde-bo]] | WOZ-Waarde | RSGBPlus (taakveld 99 Kern) | **Match** — inclusief beschikkingsaspect (statusBeschikking) |
 
 De WOZ-beschikking is geen apart bedrijfsobject: het GGM modelleert het als attribuut van WOZ-Waarde, en op bedrijfsniveau is de beschikking niet onderscheidbaar van de waardebepaling.
 
@@ -176,16 +176,16 @@ De verwerking van vier Raadgever-bronnen over gemeentefinanciën (inkomstenbronn
 
 | Begrip | Type | Niveau | GGM-status | Toelichting |
 |---|---|---|---|---|
-| **[[gemeentefonds]]** | instrument | tactisch | **Hiaat** | Hoofdinkomstenbron; niet gemodelleerd |
-| **[[algemene-uitkering]]** | instrument | tactisch | **Hiaat** | Component gemeentefonds |
-| **[[specifieke-uitkering]]** | instrument | tactisch | **Hiaat** | Geoormerkte rijksmiddelen |
-| **[[begrotingscyclus]]** | thema | operationeel | **Hiaat** (proces) | Kadernota→begroting→jaarrekening; objecten bestaan wel |
-| **[[budgetrecht]]** | instrument | tactisch | **Hiaat** | Kernbevoegdheid raad; governance, niet data |
-| **[[financiele-verordening]]** | instrument | tactisch | **Hiaat** | Art. 212 Gemeentewet; regelgeving niet gemodelleerd |
-| **[[kadernota]]** | object | operationeel | **Hiaat** | Voorjaarsnota; niet als documenttype gemodelleerd |
-| **[[solvabiliteitsratio]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit balansgegevens |
-| **[[netto-schuldquote]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit balansgegevens |
-| **[[onbenutte-belastingcapaciteit]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit OZB-opbrengst + art. 12-tarief |
+| **[[Wiki/Begrippen/gemeentefonds|gemeentefonds]]** | instrument | tactisch | **Hiaat** | Hoofdinkomstenbron; niet gemodelleerd |
+| **[[Wiki/Begrippen/algemene-uitkering|algemene-uitkering]]** | instrument | tactisch | **Hiaat** | Component gemeentefonds |
+| **[[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]]** | instrument | tactisch | **Hiaat** | Geoormerkte rijksmiddelen |
+| **[[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]** | thema | operationeel | **Hiaat** (proces) | Kadernota→begroting→jaarrekening; objecten bestaan wel |
+| **[[Wiki/Begrippen/budgetrecht|budgetrecht]]** | instrument | tactisch | **Hiaat** | Kernbevoegdheid raad; governance, niet data |
+| **[[Wiki/Begrippen/financiele-verordening|financiele-verordening]]** | instrument | tactisch | **Hiaat** | Art. 212 Gemeentewet; regelgeving niet gemodelleerd |
+| **[[Wiki/Begrippen/kadernota|kadernota]]** | object | operationeel | **Hiaat** | Voorjaarsnota; niet als documenttype gemodelleerd |
+| **[[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit balansgegevens |
+| **[[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit balansgegevens |
+| **[[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]]** | object | operationeel | **Hiaat** (afgeleid) | Kengetal; afleidbaar uit OZB-opbrengst + art. 12-tarief |
 
 #### Wat het GGM wél dekt (Financiën)
 
@@ -193,15 +193,15 @@ Het GGM beleidsdomein Financien (taakveld 9, 24 entiteiten) dekt de **boekhoudku
 
 | GGM-entiteit | Bedrijfsobject | Dekking |
 |---|---|---|
-| Begroting | [[begroting]] | Product van de begrotingscyclus |
+| Begroting | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] | Product van de begrotingscyclus |
 | Begrotingregel | *(niet als BO)* | Te granulair |
-| Taakveld | [[taakveld]] | IV3-indeling |
-| Doelstelling | [[doelstelling]] | W-vragen ("wat bereiken") |
-| Product | [[product]] | P×Q-sturing |
-| Kostenplaats | [[kostenplaats]] | Interne toerekening |
-| Factuur, Inkooporder, Werkorder | [[factuur]], [[inkooporder]], [[werkorder]] | Operationele objecten |
-| Debiteur | [[debiteur]] | Wie moet betalen |
-| Activa | [[activa]] | Bezittingen op de balans |
+| Taakveld | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]] | IV3-indeling |
+| Doelstelling | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|doelstelling]] | W-vragen ("wat bereiken") |
+| Product | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]] | P×Q-sturing |
+| Kostenplaats | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]] | Interne toerekening |
+| Factuur, Inkooporder, Werkorder | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] | Operationele objecten |
+| Debiteur | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] | Wie moet betalen |
+| Activa | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] | Bezittingen op de balans |
 
 #### Structureel patroon
 

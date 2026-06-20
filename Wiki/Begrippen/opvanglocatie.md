@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: [azc, asielzoekerscentrum, opvangcentrum]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/Asielopvangwijzer alle informatie voor gemeenten]]", "[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/Asielopvangwijzer alle informatie voor gemeenten]]", "[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -23,21 +23,21 @@ Een opvanglocatie is de fysieke locatie waar asielzoekers worden opgevangen. Er 
 | **Middelgroot** | 150–300 plekken | Idem, mogelijke aanpassingen per locatie |
 | **Kleinschalige opvang (kso) — dependance** | <150, <45 min van azc | Bewoners gaan naar hoofdlocatie voor voorzieningen |
 | **Kleinschalige opvang (kso) — zelfstandig** | <150, geen azc in buurt | Gemeente stelt ruimtes beschikbaar voor GZA, taallessen, ketenpartners |
-| **Duurzame gemeentelijke opvang (dgo)** | variabel, min. 5 jaar | Gemeente exploiteert zelf, zie [[duurzame-gemeentelijke-opvang]] |
+| **Duurzame gemeentelijke opvang (dgo)** | variabel, min. 5 jaar | Gemeente exploiteert zelf, zie [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] |
 | **Amv-locatie** | kleinschalig | COA-begeleiding 24/7, niet op dgo's |
 
 ## Context
 
 > "Het COA is dringend op zoek naar opvanglocaties voor korte- en lange termijn." — COA Asielopvangwijzer
 
-De gemeente is betrokken bij locatiebepaling (in overleg met COA), vergunningverlening, en communicatie met de gemeenteraad en omwonenden. Over elke locatie worden afspraken vastgelegd in een [[bestuursovereenkomst]].
+De gemeente is betrokken bij locatiebepaling (in overleg met COA), vergunningverlening, en communicatie met de gemeenteraad en omwonenden. Over elke locatie worden afspraken vastgelegd in een [[Wiki/Begrippen/bestuursovereenkomst|bestuursovereenkomst]].
 
 ## Relaties
 
-- [[asielopvang]] — het thema waarbinnen opvanglocaties functioneren
-- [[bestuursovereenkomst]] — formele afspraken COA-gemeente per locatie
-- [[duurzame-gemeentelijke-opvang]] — specifieke exploitatievorm
-- [[spreidingswet]] — wettelijke basis voor gemeentelijke opvangopgave
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — het thema waarbinnen opvanglocaties functioneren
+- [[Wiki/Begrippen/bestuursovereenkomst|bestuursovereenkomst]] — formele afspraken COA-gemeente per locatie
+- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — specifieke exploitatievorm
+- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — wettelijke basis voor gemeentelijke opvangopgave
 
 ## Afbakening
 

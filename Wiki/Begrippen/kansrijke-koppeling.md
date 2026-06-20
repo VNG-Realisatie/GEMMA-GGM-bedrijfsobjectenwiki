@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -28,16 +28,16 @@ De gemeentelijke taakstelling is leidend in het koppelingsproces. **Omkoppeling*
 
 De gemeente ontvangt de koppeling en is daarna verantwoordelijk voor:
 - Huisvesting binnen 14 weken
-- Start van het [[inburgering]]straject
+- Start van het [[Wiki/Begrippen/inburgering|inburgering]]straject
 
 De gemeente kan het koppelingsproces niet sturen maar ontvangt statushouders op basis van de taakstelling.
 
 ## Relaties
 
-- [[statushouder]] — de doelgroep die wordt gekoppeld
-- [[inburgering]] — het traject dat volgt op koppeling
-- [[voorinburgering]] — COA-activiteiten die de koppeling voorbereiden
-- [[meedoenbalie]] — faciliteert vroege arbeidstoeleiding vóór koppeling
+- [[Wiki/Begrippen/statushouder|statushouder]] — de doelgroep die wordt gekoppeld
+- [[Wiki/Begrippen/inburgering|inburgering]] — het traject dat volgt op koppeling
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — COA-activiteiten die de koppeling voorbereiden
+- [[Wiki/Begrippen/meedoenbalie|meedoenbalie]] — faciliteert vroege arbeidstoeleiding vóór koppeling
 
 ## Afbakening
 

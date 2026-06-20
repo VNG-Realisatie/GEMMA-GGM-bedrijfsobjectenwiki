@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: tactisch
 domein: [Economie]
 synoniemen: [mkb-dienstverlening, dienstverlening aan ondernemers]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -28,10 +28,10 @@ De **Actieagenda mkb-dienstverlening 2024-2026** (EZK, VNG, G40, IPO, KvK, RVO, 
 
 ## Relaties
 
-- Gericht op [[midden-en-kleinbedrijf]] als primaire doelgroep
-- Draagt bij aan [[vestigingsklimaat]]
-- Raakvlak met [[regeldruk]] — dienstverlening moet regeldruk verminderen, niet vergroten
-- Verbonden met [[brede-welvaart]] — dienstverlening niet alleen gericht op groei
+- Gericht op [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] als primaire doelgroep
+- Draagt bij aan [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]]
+- Raakvlak met [[Wiki/Begrippen/regeldruk|regeldruk]] — dienstverlening moet regeldruk verminderen, niet vergroten
+- Verbonden met [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — dienstverlening niet alleen gericht op groei
 
 ## Afbakening
 

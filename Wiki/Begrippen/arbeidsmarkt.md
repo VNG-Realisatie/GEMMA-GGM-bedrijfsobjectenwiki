@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: strategisch
 domein: [Economie]
 synoniemen: [arbeidsmarktbeleid, regionale arbeidsmarkt]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -27,10 +27,10 @@ Gemeenten hebben een dubbele rol:
 
 ## Relaties
 
-- Verbonden met [[human-capital]] — arbeidsmarkt gaat over de allocatie van menselijk kapitaal
-- Beïnvloedt [[vestigingsklimaat]] — krappe arbeidsmarkt maakt vestiging minder aantrekkelijk
-- Raakt [[midden-en-kleinbedrijf]] — MKB kampt het meest met personeelstekorten
-- Onderdeel van [[brede-welvaart]] — niet alleen werkgelegenheid maar ook inclusief werk
+- Verbonden met [[Wiki/Begrippen/human-capital|human-capital]] — arbeidsmarkt gaat over de allocatie van menselijk kapitaal
+- Beïnvloedt [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] — krappe arbeidsmarkt maakt vestiging minder aantrekkelijk
+- Raakt [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] — MKB kampt het meest met personeelstekorten
+- Onderdeel van [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — niet alleen werkgelegenheid maar ook inclusief werk
 - Domeinoverstijgend: raakt ook GGM taakveld 6 beleidsdomein "Werk" (Participatiewet, re-integratie)
 
 ## Afbakening

@@ -32,7 +32,7 @@ Het RGBZ onderscheidt:
 
 ## Relatie tot zaak
 
-Informatieobjecten worden via ZAAKDOCUMENT aan een zaak gerelateerd (N:M-relatie). Eén informatieobject kan relevant zijn voor meerdere zaken. Alle informatieobjecten bij een zaak vormen samen met de zaakkenmerken het [[zaakdossier]].
+Informatieobjecten worden via ZAAKDOCUMENT aan een zaak gerelateerd (N:M-relatie). Eén informatieobject kan relevant zijn voor meerdere zaken. Alle informatieobjecten bij een zaak vormen samen met de zaakkenmerken het [[Wiki/Begrippen/zaakdossier|zaakdossier]].
 
 Een informatieobject wordt pas "archiefstuk" (record) zodra de zaakkenmerken aangeven dat alle gekoppelde objecten gearchiveerd dienen te zijn.
 
@@ -42,7 +42,7 @@ Het GGM modelleert dit als **Document** (abstract) met specialisaties **Enkelvou
 
 ## Relaties
 
-- [[zaakgericht-werken]] — informatieobjecten zijn een kernonderdeel van zaakgericht werken
-- [[zaakdossier]] — het geheel van informatieobjecten en zaakkenmerken
-- [[zaaktypecatalogus]] — INFORMATIEOBJECTTYPE wordt per catalogus geconfigureerd
-- [[resultaattype]] — bepaalt het archiefregime van informatieobjecten
+- [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] — informatieobjecten zijn een kernonderdeel van zaakgericht werken
+- [[Wiki/Begrippen/zaakdossier|zaakdossier]] — het geheel van informatieobjecten en zaakkenmerken
+- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] — INFORMATIEOBJECTTYPE wordt per catalogus geconfigureerd
+- [[Wiki/Begrippen/resultaattype|resultaattype]] — bepaalt het archiefregime van informatieobjecten

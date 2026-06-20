@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Het kwijtschelden van het restant van de vordering
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Kwijtscheldingsbeoordeling]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
@@ -46,7 +45,7 @@ Het kwijtschelden van het restant van de vordering. Kan om diverse redenen plaat
 
 ## Contextverschil GGM vs. belastingdomein
 
-Het GGM modelleert kwijtschelding in het kader van terugvordering bijstand (Participatiewet). In het belastingdomein wordt kwijtschelding verleend op grond van de Invorderingswet 1990 aan belastingplichtigen die niet anders dan met buitengewoon bezwaar kunnen betalen. Zie begrip [[kwijtschelding]] voor de belastingcontext.
+Het GGM modelleert kwijtschelding in het kader van terugvordering bijstand (Participatiewet). In het belastingdomein wordt kwijtschelding verleend op grond van de Invorderingswet 1990 aan belastingplichtigen die niet anders dan met buitengewoon bezwaar kunnen betalen. Zie begrip [[Wiki/Begrippen/kwijtschelding|kwijtschelding]] voor de belastingcontext.
 
 De structuur (bedrag, reden, boekingsdatum) is in beide contexten vergelijkbaar — een kandidaat voor generalisatie in het GGM.
 
@@ -61,7 +60,7 @@ De structuur (bedrag, reden, boekingsdatum) is in beide contexten vergelijkbaar 
 
 ## Relaties
 
-- Beëindigt (restant van) een [[vordering]]
-- Betreft een [[debiteur]]
-- In belastingcontext: verleend door de [[invorderingsambtenaar]]
-- In belastingcontext: betreft een [[belastingaanslag]]
+- Beëindigt (restant van) een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]
+- Betreft een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
+- In belastingcontext: verleend door de [[Wiki/Begrippen/invorderingsambtenaar|invorderingsambtenaar]]
+- In belastingcontext: betreft een [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]

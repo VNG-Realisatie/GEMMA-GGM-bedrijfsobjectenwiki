@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Cultuur/kunst-en-cultuur.md](Sources/Onderwerpen%20VNG/Cultuur/kunst-en-cultuur.md)"
+bron: "[Sources/Onderwerpen/Cultuur/kunst-en-cultuur.md](Sources/Onderwerpen%20VNG/Cultuur/kunst-en-cultuur.md)"
 titel: "Kunst en cultuur"
 domein: [Cultuur]
 datum_ingest: 2026-06-19

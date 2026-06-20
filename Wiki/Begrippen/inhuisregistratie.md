@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: [gecombineerde meldplicht]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -24,9 +24,9 @@ Inhuisregistratie is de wekelijkse fysieke melding van bewoners (18+) op de opva
 
 ## Gemeentelijk perspectief
 
-Bij reguliere opvang voert het COA de inhuisregistratie uit. Bij [[duurzame-gemeentelijke-opvang]] is de gemeente verantwoordelijk voor de uitvoering; het COA handelt het administratief af in het systeem.
+Bij reguliere opvang voert het COA de inhuisregistratie uit. Bij [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] is de gemeente verantwoordelijk voor de uitvoering; het COA handelt het administratief af in het systeem.
 
 ## Relaties
 
-- [[duurzame-gemeentelijke-opvang]] — bij dgo verschuift deze taak naar gemeente
-- [[opvanglocatie]] — inhuisregistratie vindt plaats op de locatie
+- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — bij dgo verschuift deze taak naar gemeente
+- [[Wiki/Begrippen/opvanglocatie|opvanglocatie]] — inhuisregistratie vindt plaats op de locatie

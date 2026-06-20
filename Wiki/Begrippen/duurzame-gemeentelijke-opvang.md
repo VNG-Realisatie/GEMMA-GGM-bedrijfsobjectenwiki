@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Inburgering en Asielopvang]
 synoniemen: [dgo]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -20,7 +20,7 @@ Duurzame gemeentelijke opvang is een opvangvorm waarbij de gemeente een groot de
 - Minimale looptijd van 5 jaar
 - Kwaliteit moet voldoen aan dezelfde eisen als regulier azc
 - Elke dgo wordt gekoppeld aan een COA-moederlocatie in de buurt
-- Geen opvang van [[alleenstaande-minderjarige-vreemdeling]]en op dgo's
+- Geen opvang van [[Wiki/Begrippen/alleenstaande-minderjarige-vreemdeling|alleenstaande-minderjarige-vreemdeling]]en op dgo's
 
 ## Taakverdeling bij dgo
 
@@ -47,9 +47,9 @@ De dgo biedt de gemeente de mogelijkheid om de verbinding te leggen tussen opvan
 
 ## Relaties
 
-- [[asielopvang]] — het overkoepelende thema
-- [[opvanglocatie]] — dgo is een specifieke exploitatievorm van een opvanglocatie
-- [[spreidingswet]] — wettelijke basis die dgo mogelijk maakt
-- [[bestuursovereenkomst]] — afspraken over de dgo worden hierin vastgelegd
-- [[inhuisregistratie]] — taak die bij dgo naar de gemeente verschuift
-- [[voorinburgering]] — bij dgo een gemeentelijke taak
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — het overkoepelende thema
+- [[Wiki/Begrippen/opvanglocatie|opvanglocatie]] — dgo is een specifieke exploitatievorm van een opvanglocatie
+- [[Wiki/Begrippen/spreidingswet|spreidingswet]] — wettelijke basis die dgo mogelijk maakt
+- [[Wiki/Begrippen/bestuursovereenkomst|bestuursovereenkomst]] — afspraken over de dgo worden hierin vastgelegd
+- [[Wiki/Begrippen/inhuisregistratie|inhuisregistratie]] — taak die bij dgo naar de gemeente verschuift
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — bij dgo een gemeentelijke taak

@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/rubriek-bestuur.md](Sources/Onderwerpen%20VNG/Bestuur/rubriek-bestuur.md)"
+bron: "[Sources/Onderwerpen/Bestuur/rubriek-bestuur.md](Sources/Onderwerpen%20VNG/Bestuur/rubriek-bestuur.md)"
 titel: "Rubriek Bestuur"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

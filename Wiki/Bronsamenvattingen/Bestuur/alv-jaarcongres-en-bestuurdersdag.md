@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag.md](Sources/Onderwerpen%20VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag.md)"
+bron: "[Sources/Onderwerpen/Bestuur/alv-jaarcongres-en-bestuurdersdag.md](Sources/Onderwerpen%20VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag.md)"
 titel: "ALV, Jaarcongres en Bestuurdersdag"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

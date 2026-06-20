@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"
+bron: "[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"
 titel: "Economie: speerpunten VNG"
 domein: [Economie]
 datum_ingest: 2026-06-17

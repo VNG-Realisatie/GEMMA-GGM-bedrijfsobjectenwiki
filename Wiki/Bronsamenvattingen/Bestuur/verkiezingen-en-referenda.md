@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/verkiezingen-en-referenda.md](Sources/Onderwerpen%20VNG/Bestuur/verkiezingen-en-referenda.md)"
+bron: "[Sources/Onderwerpen/Bestuur/verkiezingen-en-referenda.md](Sources/Onderwerpen%20VNG/Bestuur/verkiezingen-en-referenda.md)"
 titel: "Verkiezingen en referenda"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -16,15 +16,15 @@ De VNG zet zich in voor modernisering van het verkiezingsproces. Samen met het m
 
 ## Kernbegrippen
 
-- **[[Verkiezing]]**: Organisatie van vervangingskeuzes (TK, PS, waterschappen, EP, gemeente)
-- **[[Referendum]]**: Volksstemming op gemeentelijk, provinciaal of nationaal niveau
-- **[[Stembureau]]**: Fysieke locatie waar stemmers hun stem uitbrengen
+- **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]]**: Organisatie van vervangingskeuzes (TK, PS, waterschappen, EP, gemeente)
+- **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum|Referendum]]**: Volksstemming op gemeentelijk, provinciaal of nationaal niveau
+- **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]**: Fysieke locatie waar stemmers hun stem uitbrengen
 - **Verkiezingsagenda 2030**: Moderniseringsprogramma gericht op digitalisering en efficiency
 - **Toegankelijkheid**: Inclusieve inrichting van stembureaus voor specifieke doelgroepen
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Dit beschrijft twee sterke BO-kandidaten: **[[Verkiezing]]** en **[[Referendum]]**. Beide zijn aparte organisatorische verantwoordelijkheden van gemeenten met eigen processen, planning en informatiesystemen. Ook **[[Stembureau]]** is een operationeel object dat gemeenten moeten registreren en beheren (locatie, toegankelijkheid, personeel, stemmers).
+Dit beschrijft twee sterke BO-kandidaten: **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]]** en **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum|Referendum]]**. Beide zijn aparte organisatorische verantwoordelijkheden van gemeenten met eigen processen, planning en informatiesystemen. Ook **[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]** is een operationeel object dat gemeenten moeten registreren en beheren (locatie, toegankelijkheid, personeel, stemmers).
 
 De Verkiezingsagenda 2030 adresseert digitalisering en efficiency, relevant voor informatiesystemen rond verkiezingen.
 

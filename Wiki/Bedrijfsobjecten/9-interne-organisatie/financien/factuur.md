@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten
-bronnen: ["Bronsamenvattingen/Financien/raadgever-gemeentebegroting.md", "Bronsamenvattingen/Financien/raadgever-inkomstenbronnen.md"]
 bedrijfsprocessen: [Facturering, Crediteuren- en debiteurenadministratie]
 bedrijfsfuncties: [Financieel beheer]
 status: concept
@@ -55,6 +54,6 @@ Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten.
 
 ## Relaties
 
-- Gericht aan een [[debiteur]]
-- Gekoppeld aan een [[inkooporder]] (inkomende facturen) of aan een [[product]] (uitgaande facturen)
-- Verschilt van een [[belastingaanslag]]: een factuur is een privaatrechtelijke vordering, een aanslag een publiekrechtelijke
+- Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
+- Gekoppeld aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]] (inkomende facturen) of aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]] (uitgaande facturen)
+- Verschilt van een [[Wiki/Begrippen/belastingaanslag|belastingaanslag]]: een factuur is een privaatrechtelijke vordering, een aanslag een publiekrechtelijke

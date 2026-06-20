@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Asiel en Integratie/asielopvang]]"
+bron: "[[Sources/Onderwerpen/Asiel en Integratie/asielopvang]]"
 titel: "Asielopvang"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19

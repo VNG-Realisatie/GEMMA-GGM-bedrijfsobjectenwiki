@@ -6,14 +6,14 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Dienstverlening]
 synoniemen: [maatschappelijk verantwoord inkopen, MVI, MVOI]
-bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---
 
 # MVOI
 
-Maatschappelijk verantwoord opdrachtgeven en inkopen: het meewegen van maatschappelijke doelen bij de [[gemeentelijke-inkoop]]. Voorheen MVI (maatschappelijk verantwoord inkopen).
+Maatschappelijk verantwoord opdrachtgeven en inkopen: het meewegen van maatschappelijke doelen bij de [[Wiki/Begrippen/gemeentelijke-inkoop|gemeentelijke-inkoop]]. Voorheen MVI (maatschappelijk verantwoord inkopen).
 
 > "Met hun inkoop kunnen gemeenten ook maatschappelijke doelen bevorderen."
 > — *Raadgever Inkoop en aanbesteden, VNG*
@@ -22,7 +22,7 @@ Maatschappelijk verantwoord opdrachtgeven en inkopen: het meewegen van maatschap
 
 - Hergebruik van bestaande brug via een 'bruggenbank' (circulaire economie)
 - Groenonderhoud voorbehouden aan sociale bedrijven (inclusieve arbeidsmarkt)
-- Internationale Sociale Voorwaarden (ISV) als gunningscriterium bij [[aanbesteding]] van uniformen (eerlijke arbeidsomstandigheden)
+- Internationale Sociale Voorwaarden (ISV) als gunningscriterium bij [[Wiki/Begrippen/aanbesteding|aanbesteding]] van uniformen (eerlijke arbeidsomstandigheden)
 
 ## Manifest MVOI
 
@@ -30,6 +30,6 @@ Gemeenten kunnen het Manifest MVOI ondertekenen en een actieplan opstellen. Dit 
 
 ## Relaties
 
-- Verrijkt de [[gemeentelijke-inkoop]] met maatschappelijke doelen
-- Kan als criterium worden meegenomen bij [[aanbesteding]]
-- Raakt [[brede-welvaart]] — inkoop als instrument voor brede maatschappelijke waarde
+- Verrijkt de [[Wiki/Begrippen/gemeentelijke-inkoop|gemeentelijke-inkoop]] met maatschappelijke doelen
+- Kan als criterium worden meegenomen bij [[Wiki/Begrippen/aanbesteding|aanbesteding]]
+- Raakt [[Wiki/Begrippen/brede-welvaart|brede-welvaart]] — inkoop als instrument voor brede maatschappelijke waarde

@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: tactisch
 domein: [Dienstverlening]
 synoniemen: [inkoop, publieke inkoop]
-bronnen: ["[[Sources/Onderwerpen VNG/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
+bronnen: ["[[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -25,15 +25,15 @@ Het inkoopvolume is sterk gegroeid door de decentralisaties in het sociaal domei
 - Werken: sportaccommodaties, wegen, bruggen, openbare ruimte
 - Leveringen: ICT, telecommunicatie
 
-Via [[mvoi]] wordt inkoop ook ingezet als instrument voor maatschappelijke doelen.
+Via [[Wiki/Begrippen/mvoi|mvoi]] wordt inkoop ook ingezet als instrument voor maatschappelijke doelen.
 
 ## Relaties
 
-- Wordt genormeerd door [[aanbesteding]]sregels
-- Kan worden ingezet voor maatschappelijke doelen via [[mvoi]]
-- GGM-bedrijfsobjecten: [[inkooporder]], [[factuur]]
-- Raakt de [[begrotingscyclus]] — inkoop is de uitgavenkant van de begroting
-- Raad kan sturen via [[financiele-verordening]] en begrotingsafspraken
+- Wordt genormeerd door [[Wiki/Begrippen/aanbesteding|aanbesteding]]sregels
+- Kan worden ingezet voor maatschappelijke doelen via [[Wiki/Begrippen/mvoi|mvoi]]
+- GGM-bedrijfsobjecten: [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]]
+- Raakt de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]] — inkoop is de uitgavenkant van de begroting
+- Raad kan sturen via [[Wiki/Begrippen/financiele-verordening|financiele-verordening]] en begrotingsafspraken
 
 ## Afbakening
 

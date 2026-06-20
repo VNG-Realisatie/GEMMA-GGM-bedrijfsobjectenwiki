@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Financien, Belastingen]
 synoniemen: [belastingcapaciteit]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-financiele-conditie-gemeente]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -22,13 +22,13 @@ Kengetal dat meet hoeveel een gemeente haar OZB-opbrengst nog kan verhogen. De m
 
 ## Context
 
-Nederlandse gemeenten zijn sterk afhankelijk van rijksoverdrachten (~63%). Bestemmingsheffingen mogen maximaal kostendekkend zijn. Daarmee is de OZB de enige echte knop aan de batenkant. De onbenutte belastingcapaciteit objectiveert hoeveel ruimte er is, los van de politieke afweging over [[woonlasten]].
+Nederlandse gemeenten zijn sterk afhankelijk van rijksoverdrachten (~63%). Bestemmingsheffingen mogen maximaal kostendekkend zijn. Daarmee is de OZB de enige echte knop aan de batenkant. De onbenutte belastingcapaciteit objectiveert hoeveel ruimte er is, los van de politieke afweging over [[Wiki/Begrippen/woonlasten|woonlasten]].
 
 > "De meest objectieve maat voor het bepalen van de onbenutte belastingcapaciteit is de ruimte die nog resteert ten opzichte van het toegangstarief tot artikel 12 saneringssteun."
 > — *Raadgever Financiële conditie, VNG*
 
 ## Relaties
 
-- Koppelt het financiële domein aan het belastingdomein ([[belastingmix]], [[woz-waarde]])
-- Samen met [[solvabiliteitsratio]] en [[netto-schuldquote]] onderdeel van de financiële conditie-index
-- Afgeleid uit de jaarrekening (onderdeel [[begrotingscyclus]])
+- Koppelt het financiële domein aan het belastingdomein ([[Wiki/Begrippen/belastingmix|belastingmix]], [[Wiki/Begrippen/woz-waarde|woz-waarde]])
+- Samen met [[Wiki/Begrippen/solvabiliteitsratio|solvabiliteitsratio]] en [[Wiki/Begrippen/netto-schuldquote|netto-schuldquote]] onderdeel van de financiële conditie-index
+- Afgeleid uit de jaarrekening (onderdeel [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]])

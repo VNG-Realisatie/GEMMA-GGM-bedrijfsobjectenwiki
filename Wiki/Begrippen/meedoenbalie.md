@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: operationeel
 domein: [Inburgering en Asielopvang]
 synoniemen: [meedoenbalie light]
-bronnen: ["[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
+bronnen: ["[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -24,11 +24,11 @@ Het COA pleit voor voldoende financiering om op alle reguliere locaties (>100 be
 
 ## Gemeentelijk perspectief
 
-Arbeidstoeleiding via de meedoenbalie is een gezamenlijke taak van COA en gemeente. Bij [[duurzame-gemeentelijke-opvang]] wordt dit volledig een gemeentelijke taak.
+Arbeidstoeleiding via de meedoenbalie is een gezamenlijke taak van COA en gemeente. Bij [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] wordt dit volledig een gemeentelijke taak.
 
 ## Relaties
 
-- [[voorinburgering]] — meedoenbalies zijn onderdeel van het voorinburgeringsaanbod
-- [[asielopvang]] — meedoenbalies functioneren op opvanglocaties
-- [[duurzame-gemeentelijke-opvang]] — bij dgo wordt de meedoenbalie gemeentelijk
-- [[statushouder]] — een van de doelgroepen van de meedoenbalie
+- [[Wiki/Begrippen/voorinburgering|voorinburgering]] — meedoenbalies zijn onderdeel van het voorinburgeringsaanbod
+- [[Wiki/Begrippen/asielopvang|asielopvang]] — meedoenbalies functioneren op opvanglocaties
+- [[Wiki/Begrippen/duurzame-gemeentelijke-opvang|duurzame-gemeentelijke-opvang]] — bij dgo wordt de meedoenbalie gemeentelijk
+- [[Wiki/Begrippen/statushouder|statushouder]] — een van de doelgroepen van de meedoenbalie

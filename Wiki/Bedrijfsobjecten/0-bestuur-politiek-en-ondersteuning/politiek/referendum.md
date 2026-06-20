@@ -2,44 +2,42 @@
 type: bedrijfsobject
 naam: Referendum
 domein: [Bestuur]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-# GGM-velden
-ggm_entiteit: ~
-ggm_guid: ~
-ggm_uml_type: ~
+ggm_entiteit: "~"
 ggm_beleidsdomein: "Politiek (niet expliciet gemodelleerd)"
-ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ~
-ggm_toelichting: ~
-ggm_synoniemen: ~
-ggm_herkomst: ~
-
-# GEMMA-velden
+ggm_definitie: "~"
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Volksstemming over een onderwerp, ingesteld door de raad of op grond van burgerbetrokkenheid, georganiseerd en uitgevoerd door de gemeente."
-bronnen:
-  - "Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda.md"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: compositie
     bedrijfsobject: Stembureau
-    richting: van-dit-BO
+    richting: "van-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "Referendum wordt afgestemd via dezelfde stembureaus als verkiezingen"
+    beschrijving: Referendum wordt afgestemd via dezelfde stembureaus als verkiezingen
   - type: associatie
     bedrijfsobject: Onderwerp
-    richting: naar-dit-BO
-    kardinaliteit: "1"
-    beschrijving: "Referendum behandelt een specifiek beleidsonderwerp"
-bedrijfsprocessen:
-  - "Voorbereiding referendum (afbakening vraagstelling, communicatie)"
-  - "Uitvoering referendum (registratie deelnemers, stemming)"
-  - "Telling en rapportage (analyse resultaten, implementatie)"
-bedrijfsfuncties:
-  - "Directe democratie"
-  - "Burgerparticipatie in beleidsbeslissingen"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
+    beschrijving: Referendum behandelt een specifiek beleidsonderwerp
 ---
 
 # Referendum
@@ -69,7 +67,7 @@ Organisatorisch is een referendum vergelijkbaar met verkiezingen (dezelfde stemb
 
 ## GGM-grondslag
 
-Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Verkiezing]] is **Referendum een proces**, niet een registratieobject. Dit valt **buiten de scope van het GGM** per definitie (zie [[Wiki/Analyses/ggm-dekkingspatroon]]).
+Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] is **Referendum een proces**, niet een registratieobject. Dit valt **buiten de scope van het GGM** per definitie (zie [[Wiki/Analyses/ggm-dekkingspatroon]]).
 
 **Geen terugmelding naar GGM** — dit is een structurele scopekeuze, geen fout.
 
@@ -103,4 +101,4 @@ Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Verkiezing]]
 ## Bronsignalering
 
 Zie bronsamenvatting:
-- [[verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid voor alle referenda
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid voor alle referenda

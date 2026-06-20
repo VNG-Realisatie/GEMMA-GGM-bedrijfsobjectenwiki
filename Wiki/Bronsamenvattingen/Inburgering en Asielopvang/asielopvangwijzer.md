@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Inburgering/Asielopvangwijzer alle informatie voor gemeenten]]"
+bron: "[[Sources/Onderwerpen/Inburgering/Asielopvangwijzer alle informatie voor gemeenten]]"
 titel: "Asielopvangwijzer: alle informatie voor gemeenten"
 domein: [Inburgering en Asielopvang]
 datum_ingest: 2026-06-17

@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Inburgeringsplicht
@@ -60,4 +59,4 @@ Aanvraag verlenging is een processtap, geen apart bedrijfsobject. Het GGM modell
 
 ## Relaties
 
-- ← [[inburgeringsplicht]] — inburgeringsplicht heeft een termijn [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|inburgeringsplicht]] — inburgeringsplicht heeft een termijn [1]

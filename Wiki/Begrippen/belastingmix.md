@@ -4,7 +4,7 @@ naam: belastingmix
 definitie: Het geheel aan keuzes welke belastingen een gemeente heft en de hoogte van de tarieven
 domein: [Belastingen]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastingpolitiek]]", "[[Sources/Onderwerpen VNG/Belastingen/raadgever-gemeentelijke-belastingen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastingpolitiek]]", "[[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -27,7 +27,7 @@ Bij de samenstelling weegt de raad af:
 
 - Wordt gekozen uit het [[Wiki/Begrippen/belastinggebied]]
 - Resulteert in een set [[Wiki/Begrippen/belastingverordening]]en
-- Bevat een verdeling over [[algemene-belasting]]en, [[bestemmingsbelasting]]en en [[retributie]]s
+- Bevat een verdeling over [[Wiki/Begrippen/algemene-belasting|algemene-belasting]]en, [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]]en en [[Wiki/Begrippen/retributie|retributie]]s
 - Vergelijking via COELO Atlas van de lokale lasten
 
 ## Afbakening
@@ -37,4 +37,4 @@ Bij de samenstelling weegt de raad af:
 
 ## GGM-mapping
 
-Het GGM kent geen entiteit "Belastingmix". Dit is een beleidsmatig begrip dat zich niet direct vertaalt naar een data-entiteit, maar wel naar een ArchiMate business object op strategisch niveau. Zie [[ggm-hiaten-belastingendomein]].
+Het GGM kent geen entiteit "Belastingmix". Dit is een beleidsmatig begrip dat zich niet direct vertaalt naar een data-entiteit, maar wel naar een ArchiMate business object op strategisch niveau. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].

@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd."
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-asielopvang.md", "Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Bestuursovereenkomst
@@ -53,4 +52,4 @@ Geen GGM-match. Asielopvang is structureel niet gemodelleerd in het GGM. Het bel
 
 ## Relaties
 
-- → [[bestuursovereenkomst]] — wordt geregeld door een bestuursovereenkomst met het COA [0..1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|bestuursovereenkomst]] — wordt geregeld door een bestuursovereenkomst met het COA [0..1]

@@ -4,7 +4,7 @@ naam: bestemmingsbelasting
 definitie: Belasting waarvan de opbrengsten bestemd zijn voor specifieke taken of voorzieningen, maximaal kostendekkend
 domein: [Belastingen]
 synoniemen: [bestemmingsheffing]
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastingtypen]]", "[[Sources/Onderwerpen VNG/Belastingen/Kostendekkende tarieven]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastingtypen]]", "[[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -29,12 +29,12 @@ Belasting waarvan de opbrengsten bestemd zijn voor specifieke taken of voorzieni
 
 ## Relaties
 
-- Onderdeel van [[gemeentelijke-belasting]]
-- Een [[algemene-belasting]] mag worden ingeperkt tot een bestemmingsheffing, maar niet andersom
-- Onderscheidt zich van [[retributie]] doordat er geen individueel voordeel tegenover staat
-- Het [[kostendekkend-tarief]] is een wettelijke eis: geraamde baten mogen geraamde lasten niet overschrijden
+- Onderdeel van [[Wiki/Begrippen/gemeentelijke-belasting|gemeentelijke-belasting]]
+- Een [[Wiki/Begrippen/algemene-belasting|algemene-belasting]] mag worden ingeperkt tot een bestemmingsheffing, maar niet andersom
+- Onderscheidt zich van [[Wiki/Begrippen/retributie|retributie]] doordat er geen individueel voordeel tegenover staat
+- Het [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]] is een wettelijke eis: geraamde baten mogen geraamde lasten niet overschrijden
 - Binnen één [[Wiki/Begrippen/belastingverordening]] is kruissubsidiëring toegestaan
 
 ## GGM-mapping
 
-Geen directe GGM-entiteit. Zie [[ggm-hiaten-belastingendomein]] voor toelichting.
+Geen directe GGM-entiteit. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] voor toelichting.

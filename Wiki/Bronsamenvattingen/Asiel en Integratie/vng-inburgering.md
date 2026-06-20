@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Asiel en Integratie/inburgering]]"
+bron: "[[Sources/Onderwerpen/Asiel en Integratie/inburgering]]"
 titel: "Inburgering"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19

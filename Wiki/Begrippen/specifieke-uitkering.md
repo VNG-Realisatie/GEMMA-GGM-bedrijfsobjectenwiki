@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Financien]
 synoniemen: [SPUK]
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -28,11 +28,11 @@ Niet iedere gemeente ontvangt elke specifieke uitkering.
 
 ## Relaties
 
-- Naast het [[gemeentefonds]] de tweede geldstroom vanuit het rijk
-- Wordt verwerkt in de [[begrotingscyclus]]
+- Naast het [[Wiki/Begrippen/gemeentefonds|gemeentefonds]] de tweede geldstroom vanuit het rijk
+- Wordt verwerkt in de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]
 - In tegenstelling tot het gemeentefonds: niet vrij besteedbaar
 
 ## Afbakening
 
-- Niet hetzelfde als het [[gemeentefonds]] — specifieke uitkeringen zijn geoormerkt, het gemeentefonds is vrij
+- Niet hetzelfde als het [[Wiki/Begrippen/gemeentefonds|gemeentefonds]] — specifieke uitkeringen zijn geoormerkt, het gemeentefonds is vrij
 - Niet hetzelfde als decentralisatie-uitkeringen — die vallen binnen het gemeentefonds en zijn ook vrij besteedbaar

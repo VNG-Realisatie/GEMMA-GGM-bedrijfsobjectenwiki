@@ -265,9 +265,6 @@ def main():
     results = {'updated': 0, 'no_match': 0, 'skipped': 0}
 
     for md in sorted(bo_dir.rglob('*.md')):
-        if md.name == 'map.md':
-            continue
-
         result = enrich_file(md, entity_lookup, data, dry_run=dry_run)
         rel_path = md.relative_to(bo_dir)
 

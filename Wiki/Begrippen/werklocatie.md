@@ -6,7 +6,7 @@ begripstype: object
 abstractieniveau: operationeel
 domein: [Economie]
 synoniemen: [bedrijventerrein, bedrijfslocatie, werkgebied]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -25,9 +25,9 @@ De VNG noemt expliciet "vitale binnensteden, dorpskernen en werklocaties" als aa
 
 ## Relaties
 
-- Concretisering van [[economische-ruimte]] als beleidsthema
-- Onderdeel van [[vestigingsklimaat]]
-- Gebruikt door [[midden-en-kleinbedrijf]]
+- Concretisering van [[Wiki/Begrippen/economische-ruimte|economische-ruimte]] als beleidsthema
+- Onderdeel van [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]]
+- Gebruikt door [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]]
 - Spanning met woningbouwopgave — concurreert om schaarse ruimte
 
 ## Afbakening

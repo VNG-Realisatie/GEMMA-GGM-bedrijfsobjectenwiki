@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Financien/raadgever-financiele-conditie-gemeente]]"
+bron: "[[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]"
 titel: "Raadgever Financiële conditie gemeente"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -34,7 +34,7 @@ Uitgebreide raadgever over de financiële gezondheid van gemeenten. Beschrijft d
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Deze kengetallen zijn de kernstuurinformatie voor gemeentebestuurders. Ze zijn afleidbaar uit de begroting/jaarrekening (GGM-bedrijfsobjecten [[begroting]], [[activa]]) maar worden als zodanig niet in het GGM gemodelleerd. Kandidaten voor bedrijfsobjecten of attributen op het bedrijfsobject Begroting.
+Deze kengetallen zijn de kernstuurinformatie voor gemeentebestuurders. Ze zijn afleidbaar uit de begroting/jaarrekening (GGM-bedrijfsobjecten [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]]) maar worden als zodanig niet in het GGM gemodelleerd. Kandidaten voor bedrijfsobjecten of attributen op het bedrijfsobject Begroting.
 
 ## Citaten
 

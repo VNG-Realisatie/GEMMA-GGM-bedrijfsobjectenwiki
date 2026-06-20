@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie."
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-asielopvang.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Opvanglocatie
@@ -49,8 +48,8 @@ Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en
 
 ## GGM-bron
 
-Geen GGM-match. Governance-objecten vallen structureel buiten GGM-scope. Het GGM modelleert data-objecten, niet juridische kaders of overeenkomsten tussen bestuursorganen. Dit is geen incidenteel hiaat maar een structureel patroon (zie [[ggm-dekkingspatroon]]).
+Geen GGM-match. Governance-objecten vallen structureel buiten GGM-scope. Het GGM modelleert data-objecten, niet juridische kaders of overeenkomsten tussen bestuursorganen. Dit is geen incidenteel hiaat maar een structureel patroon (zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]]).
 
 ## Relaties
 
-- ← [[opvanglocatie]] — regelt de afspraken voor een opvanglocatie [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|opvanglocatie]] — regelt de afspraken voor een opvanglocatie [1]

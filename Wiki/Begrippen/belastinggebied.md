@@ -4,7 +4,7 @@ naam: belastinggebied
 definitie: Het geheel aan mogelijkheden voor gemeenten om belastingen te heffen
 domein: [Belastingen]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Belastingen/Belastinggebied]]", "[[Sources/Onderwerpen VNG/Belastingen/Wettelijke grenzen]]"]
+bronnen: ["[[Sources/Onderwerpen/Belastingen/Belastinggebied]]", "[[Sources/Onderwerpen/Belastingen/Wettelijke grenzen]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -30,7 +30,7 @@ Op grond van de **Gemeentewet**:
 - Precariobelasting
 - Rioolheffing
 - Rechten (reinigingsrechten, staangelden, marktgelden)
-- [[leges]]
+- [[Wiki/Begrippen/leges|leges]]
 - Vermakelijkhedenretributie
 
 Op grond van **andere wetten**:
@@ -40,10 +40,10 @@ Op grond van **andere wetten**:
 
 ## Relaties
 
-- Elk van deze belastingsoorten valt onder een van de drie typen [[gemeentelijke-belasting]]: [[algemene-belasting]], [[bestemmingsbelasting]] of [[retributie]]
+- Elk van deze belastingsoorten valt onder een van de drie typen [[Wiki/Begrippen/gemeentelijke-belasting|gemeentelijke-belasting]]: [[Wiki/Begrippen/algemene-belasting|algemene-belasting]], [[Wiki/Begrippen/bestemmingsbelasting|bestemmingsbelasting]] of [[Wiki/Begrippen/retributie|retributie]]
 - De concrete invulling wordt vastgelegd in een [[Wiki/Begrippen/belastingverordening]]
-- De keuze welke belastingen worden geheven vormt de [[belastingmix]]
-- De [[wettelijke-grenzen]] begrenzen de uitwerking
+- De keuze welke belastingen worden geheven vormt de [[Wiki/Begrippen/belastingmix|belastingmix]]
+- De [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen|wettelijke-grenzen]] begrenzen de uitwerking
 
 ## Afbakening
 
@@ -52,4 +52,4 @@ Op grond van **andere wetten**:
 
 ## GGM-mapping
 
-Het GGM kent geen entiteit "Belastinggebied" of een taxonomie van belastingsoorten. Het concept "Taakveld" in GGM Financien (afgeleid van IV3) structureert gemeentelijke taken, maar niet de belastingsoorten. Zie [[ggm-hiaten-belastingendomein]].
+Het GGM kent geen entiteit "Belastinggebied" of een taxonomie van belastingsoorten. Het concept "Taakveld" in GGM Financien (afgeleid van IV3) structureert gemeentelijke taken, maar niet de belastingsoorten. Zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]].

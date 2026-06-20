@@ -40,10 +40,10 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[belastingaanslag]] | object | Individuele vaststelling van het belastingbedrag door de heffingsambtenaar | ✅ | 6/6 criteria, GGM-hiaat (procesobject) | OZB-aanslag 2025, naheffing parkeren | nee |
-| [[belastingverordening]] | instrument | Juridische grondslag voor individuele belastingplicht | ✅ | Eigen levenscyclus, governance-object | OZB-verordening 2025, Legesverordening | nee |
-| [[woz-object]] | object | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld | ✅ | 6/6 criteria, exact GGM-match | Woning Dorpsstraat 1, kantoor | ja |
-| [[woz-waarde-bo]] | object | Vastgestelde marktwaarde van een WOZ-object per waardepeildatum | ✅ | 6/6 criteria, exact GGM-match | WOZ-waarde 2025: €350.000 | ja |
+| [[Wiki/Begrippen/belastingaanslag]] | object | Individuele vaststelling van het belastingbedrag door de heffingsambtenaar | ✅ | 6/6 criteria, GGM-hiaat (procesobject) | OZB-aanslag 2025, naheffing parkeren | nee |
+| [[Wiki/Begrippen/belastingverordening]] | instrument | Juridische grondslag voor individuele belastingplicht | ✅ | Eigen levenscyclus, governance-object | OZB-verordening 2025, Legesverordening | nee |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-object]] | object | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld | ✅ | 6/6 criteria, exact GGM-match | Woning Dorpsstraat 1, kantoor | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo]] | object | Vastgestelde marktwaarde van een WOZ-object per waardepeildatum | ✅ | 6/6 criteria, exact GGM-match | WOZ-waarde 2025: €350.000 | ja |
 | belastingplichtige | actor | Persoon die belasting moet betalen | ❌ | Rol van een persoon, geen apart registratie-object | Eigenaar woning, hondenbezitter | nee |
 | heffingsmaatstaf | object | Maatstaf waarmee de belastingschuld wordt bepaald | ❌ | Eigenschap van verordening, geen eigen bestaan | WOZ-waarde, oppervlakte, aantal honden | nee |
 | tarief | object | Bedrag of percentage per eenheid heffingsmaatstaf | ❌ | Eigenschap van verordening, geen eigen bestaan | 0,1% van WOZ-waarde | nee |
@@ -90,32 +90,32 @@ Het GGM heeft geen beleidsdomein "Belastingen". Relevante entiteiten per GGM-dom
 
 ## Verwerkte bronnen
 
-- [[belastingtypen]] — Drie typen gemeentelijke belastingen
-- [[belastinggebied]] — Reikwijdte belastinggebied, gesloten stelsel
-- [[belastingpolitiek]] — Beleidskeuzes bij de belastingmix
-- [[belastingverordening]] — De verordening als juridisch instrument
-- [[bevoegdhedenverdeling]] — Rollen raad, college, ambtenaren
-- [[invordering-en-kwijtschelding]] — Invorderingsproces en kwijtscheldingsbeleid
-- [[kostendekkende-tarieven]] — Kostendekkendheidsbeginsel
-- [[wettelijke-grenzen]] — Juridische grenzen en rechtsbeginselen
-- [[raadgever-gemeentelijke-belastingen]] — Belastingmix, typen, grenzen
-- [[raadgever-kostenonderbouwing]] — Tariefverschillen en kostenonderbouwingsplicht
-- [[raadgever-woz]] — WOZ-waarde, taxatie, Waarderingskamer
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen|belastingtypen]] — Drie typen gemeentelijke belastingen
+- [[Wiki/Bronsamenvattingen/Belastingen/belastinggebied|belastinggebied]] — Reikwijdte belastinggebied, gesloten stelsel
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek|belastingpolitiek]] — Beleidskeuzes bij de belastingmix
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingverordening|belastingverordening]] — De verordening als juridisch instrument
+- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling|bevoegdhedenverdeling]] — Rollen raad, college, ambtenaren
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding|invordering-en-kwijtschelding]] — Invorderingsproces en kwijtscheldingsbeleid
+- [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven|kostendekkende-tarieven]] — Kostendekkendheidsbeginsel
+- [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen|wettelijke-grenzen]] — Juridische grenzen en rechtsbeginselen
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen|raadgever-gemeentelijke-belastingen]] — Belastingmix, typen, grenzen
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing|raadgever-kostenonderbouwing]] — Tariefverschillen en kostenonderbouwingsplicht
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz|raadgever-woz]] — WOZ-waarde, taxatie, Waarderingskamer
 
 ## Nog te verwerken bronnen
 
 Specifieke belastingtype-pagina's (inhoud is verwerkt in de begrippentabel hierboven; bronsamenvattingen nog aan te maken):
 
-- Sources/Onderwerpen VNG/Belastingen/Onroerendezaakbelastingen.md
-- Sources/Onderwerpen VNG/Belastingen/Parkeerbelastingen.md
-- Sources/Onderwerpen VNG/Belastingen/Precariobelasting.md
-- Sources/Onderwerpen VNG/Belastingen/Reclamebelasting.md
-- Sources/Onderwerpen VNG/Belastingen/Hondenbelasting.md
-- Sources/Onderwerpen VNG/Belastingen/BIZ-bijdrage.md
-- Sources/Onderwerpen VNG/Belastingen/Retributies.md
-- Sources/Onderwerpen VNG/Belastingen/Reinigingsheffingen (afvalstoffenheffing en reinigingsrechten).md
-- Sources/Onderwerpen VNG/Belastingen/Riool- en waterzorgheffing.md
-- Sources/Onderwerpen VNG/Belastingen/Toeristische heffingen.md
+- Sources/Onderwerpen/Belastingen/Onroerendezaakbelastingen.md
+- Sources/Onderwerpen/Belastingen/Parkeerbelastingen.md
+- Sources/Onderwerpen/Belastingen/Precariobelasting.md
+- Sources/Onderwerpen/Belastingen/Reclamebelasting.md
+- Sources/Onderwerpen/Belastingen/Hondenbelasting.md
+- Sources/Onderwerpen/Belastingen/BIZ-bijdrage.md
+- Sources/Onderwerpen/Belastingen/Retributies.md
+- Sources/Onderwerpen/Belastingen/Reinigingsheffingen (afvalstoffenheffing en reinigingsrechten).md
+- Sources/Onderwerpen/Belastingen/Riool- en waterzorgheffing.md
+- Sources/Onderwerpen/Belastingen/Toeristische heffingen.md
 
 ## Openstaande acties
 

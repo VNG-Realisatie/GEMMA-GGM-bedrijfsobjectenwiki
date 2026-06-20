@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b48d2c3e-646e-4858-b98
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: Leerroute
@@ -58,4 +57,4 @@ Participatieverklaringstraject — verplicht onderdeel waarin de inburgeraar ken
 
 ## Relaties
 
-- ← [[leerroute]] — is onderdeel van de leerroute [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|leerroute]] — is onderdeel van de leerroute [1]

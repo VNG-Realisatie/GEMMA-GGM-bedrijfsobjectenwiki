@@ -6,7 +6,7 @@ begripstype: instrument
 abstractieniveau: tactisch
 domein: [Financien]
 synoniemen: []
-bronnen: ["[[Sources/Onderwerpen VNG/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
+bronnen: ["[[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -15,7 +15,7 @@ status: concept
 
 De grootste inkomstenbron van gemeenten, beheerd door het ministerie van BZK en het ministerie van Financiën. Bestaat uit twee onderdelen:
 
-1. **[[algemene-uitkering]]** — het hoofdbestanddeel, vrij besteedbaar
+1. **[[Wiki/Begrippen/algemene-uitkering|algemene-uitkering]]** — het hoofdbestanddeel, vrij besteedbaar
 2. **Decentralisatie-uitkeringen** — tijdelijke middelen of middelen met bijzondere indexatie
 
 > "De algemene uitkering heet zo, omdat het geld hoort tot de algemene middelen van een gemeente. Binnen de wettelijke kaders kan de gemeente zelf de afweging maken hoe de algemene uitkering wordt besteed."
@@ -31,12 +31,12 @@ De verdeling houdt rekening met kostenverschillen en draagkracht via een stelsel
 
 ## Relaties
 
-- Onderdeel van de vier inkomstenbronnen (naast [[specifieke-uitkering]], gemeentelijke belastingen, OEM)
-- Middelen gaan naar [[algemene-middelen]]
-- Wordt verwerkt in de [[begrotingscyclus]]
-- Omvang bepaalt mede de [[onbenutte-belastingcapaciteit]]
+- Onderdeel van de vier inkomstenbronnen (naast [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]], gemeentelijke belastingen, OEM)
+- Middelen gaan naar [[Wiki/Begrippen/algemene-middelen|algemene-middelen]]
+- Wordt verwerkt in de [[Wiki/Begrippen/begrotingscyclus|begrotingscyclus]]
+- Omvang bepaalt mede de [[Wiki/Begrippen/onbenutte-belastingcapaciteit|onbenutte-belastingcapaciteit]]
 
 ## Afbakening
 
-- Niet hetzelfde als [[specifieke-uitkering]] — het gemeentefonds is vrij besteedbaar, specifieke uitkeringen zijn geoormerkt
+- Niet hetzelfde als [[Wiki/Begrippen/specifieke-uitkering|specifieke-uitkering]] — het gemeentefonds is vrij besteedbaar, specifieke uitkeringen zijn geoormerkt
 - Geen gemeentelijke bevoegdheid over de omvang — dit is een rijksbeslissing

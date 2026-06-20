@@ -1,5 +1,91 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Energie en Klimaat — 2 nieuwe BO's (alle GGM-hiaten)
+- Bronnen: 4 documenten (Energiebeleid Utrecht omgevingsvisie + 3 VNG-onderwerpenpagina's)
+- Bronbestand opgehaald via /fetch: energiebeleid-utrecht.md (omgevingsvisie.utrecht.nl)
+- Verplaatst van Sources/energie/ naar Sources/Onderwerpen/Energie en Klimaat/ (juiste projectlocatie)
+- 4 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Energie en Klimaat/
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/energie-en-klimaat.md (12 begrippen, 2 BO's)
+- **2 BO's aangemaakt** (beide procesobjecten, geen GGM-grondslag):
+  - **Warmtenet** — infrastructuur voor levering van warmte aan gebouwen. Gemeente heeft governance via SOK met Eneco en wettelijke bevoegdheden (Wcw). 6/6 criteria.
+  - **Opwekgebied** — aangewezen gebied voor grootschalige opwek duurzame energie (zon/wind). Aanwijzing via beleidsnota Opwekgebieden 2024-2030, verankering in omgevingsplan. 6/6 criteria.
+- 10 niet-BO begrippen: warmteprogramma (⚠️ instrument, ter discussie), RES (regionaal), energietransitie (thema), energieloket (kanaal), klimaatpanel (participatie), netcongestie (situatie), energielabel (classificatie), buurtaanpak aardgasvrij (aanpak), warmtebron (te granulair), zonneveld (type van opwekgebied)
+- GGM-dekking: taakveld 7 kent alleen beleidsdomein Afval; energie/klimaat ontbreekt volledig. Zelfde patroon als Milieu en Dierenwelzijn.
+- GGM-terugmeldingen: #15 (beleidsdomein Energie ontbreekt), #16 (Warmtenet hiaat), #17 (Opwekgebied hiaat)
+- CLAUDE.md aangescherpt: anti-patronen toegevoegd bij BO-criteria ("eigendom", "gemeente registreert niet" zijn geen afwijsgronden)
+- Feedback-memory versterkt met expliciete anti-patronen
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Dierenwelzijn — 4 nieuwe BO's (alle GGM-hiaten)
+- Bron: Nota Dierenwelzijn (Gemeente Utrecht, december 2019, 26 p., PDF via omgevingsvisie.utrecht.nl)
+- Webpaginasamenvatting verplaatst naar Niet-relevant/ (gedekt door de nota)
+- 1 bronsamenvatting aangemaakt in Wiki/Bronsamenvattingen/Dierenwelzijn/
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/dierenwelzijn.md (10 begrippen, 4 BO's)
+- **4 BO's aangemaakt** (alle procesobjecten, geen GGM-grondslag):
+  - **Hulpbehoevend dier** — wild of gehouden dier waarvoor de gemeente wettelijk opvang organiseert (BW 5:8 lid 3)
+  - **Kinderboerderij** — openbaar toegankelijke boerderij met educatieve functie, gemeentelijk eigendom (Steedes)
+  - **Dierenweide** — locatie met dieren, beperkte openingstijden, particulier initiatief met subsidierelatie (11 stuks)
+  - **Visrecht** — recht om te vissen in gemeentelijke wateren, verhuurd via Visserijwet (1963)
+- 6 niet-BO begrippen: soortenmanagementplan (⚠️ instrument, ter discussie), Utrechtse soortenlijst (geen meervoud), diervriendelijk bouwen (thema), faunabeheer (proces), plaagdierbestrijding (proces), dierenwelzijnsbeleid (thema)
+- GGM-dekking: taakveld 7 kent alleen beleidsdomein Afval; dierenwelzijn ontbreekt volledig. Zelfde patroon als Milieu.
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Economie — detailhandel — 2 nieuwe BO's
+- Bronnen: Ontwikkelingskader Detailhandel 2012 + Detailhandel Utrecht 2015 (Gemeente Utrecht, PDF's via omgevingsvisie.utrecht.nl)
+- Webpaginasamenvatting verplaatst naar Niet-relevant/ (te dun voor BO-kandidaten)
+- 2 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Economie/
+- **2 BO's aangemaakt:**
+  - **Standplaats** (ggm-entiteit) — APV-gereguleerde verkooplocatie in openbare ruimte. GGM-match: Standplaats (Musea, taakveld 5), matchsterkte sterk. Terugmelding: domeinplaatsing Musea is betwistbaar, zou onder Economie moeten.
+  - **Warenmarkt** (procesobject) — periodieke georganiseerde verkoop, Marktverordening-gereguleerd. GGM-hiaat.
+- 5 niet-BO begrippen: winkelgebied (concept), ambulante handel (categorie), detailhandelsvestiging (te generiek), branchering (instrument), leegstand (status)
+- Domeinoverzicht Economie bijgewerkt: 9 → 14 begrippen, 1 → 3 BO's
+- GGM-terugmeldingen uitgebreid: #13 (Standplaats scope) en #14 (Warenmarkt hiaat)
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Beheer Openbare Ruimte — bomenbeleid — 1 nieuw BO
+- Bron: Bomenbeleid Utrecht (Gemeente Utrecht, 2009/2018, 42 pagina's PDF)
+- Bronbestand opgehaald via /fetch incl. PDF-conversie naar Sources/Onderwerpen/Milieu/
+- Overzichtspagina verplaatst naar Niet-relevant/ (redundant met volledig document)
+- 1 bronsamenvatting aangemaakt in Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/beheer-openbare-ruimte.md (8 begrippen, 1 BO)
+- **1 BO aangemaakt** — exacte GGM-match:
+  - **Boom** (ggm-entiteit) — individueel geregistreerd houtachtig gewas, 43 GGM-attributen (IMBOR)
+- 7 niet-BO begrippen: monumentale boom (classificatie), bomenstructuur (structuur), bomenparagraaf (instrument), kapvergunning (instrument), herplantplicht (regel), groeiplaats (eigenschap), VTA-inspectie (proces)
+- GGM-dekking: beleidsdomein Beheer Openbare Ruimte bevat 200 entiteiten; 1 beoordeeld (Boom=BO), 199 niet beoordeeld (geen beleidsbron voor overige subdomeinen)
+- Index en log bijgewerkt
+
+## [2026-06-20] ingest | Milieu — bodem, grondwater en ondergrond — 6 nieuwe BO's (alle GGM-hiaten)
+- Bronnen: 3 documenten gemeente Utrecht (beleidspagina + Gebiedsplan grondwaterbeheer 2016 + Nota Bodembeheer 2017-2027)
+- Bronbestanden opgehaald via /fetch incl. PDF-conversie naar Sources/Onderwerpen/Milieu/
+- 3 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Milieu/
+- Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/milieu.md (14 begrippen, 6 BO's)
+- **6 BO's aangemaakt** — alle GGM-hiaten (geen beleidsdomein Bodem/Milieu in GGM):
+  - **Bodemkwaliteitskaart** (governance-object) — wettelijk instrument per Besluit kwaliteit leefomgeving
+  - **Bodemverontreiniging** (procesobject) — geregistreerde verontreinigingslocatie
+  - **Saneringsplan** (procesobject) — plan voor aanpak verontreiniging
+  - **Grondwatermeetpunt** (procesobject) — fysiek meetpunt in monitoringsnetwerk
+  - **Grondverzet** (procesobject) — registratie grondverplaatsing, meldingsplicht
+  - **Bodemenergiesysteem** (procesobject) — WKO-installatie, vergunningsplichtig
+- GGM-dekking: taakveld 7 heeft alleen beleidsdomein Afval (14 entiteiten, niet beoordeeld). Het hele bodem/grondwater/milieu-domein ontbreekt in het GGM — significant structureel hiaat.
+- Index en log bijgewerkt
+
+## [2026-06-19] ingest | Erfgoednota Utrecht — 3 nieuwe BO's archeologie + monument verrijkt
+- Bron: Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden' (Gemeente Utrecht, oktober 2021)
+- Clipping verplaatst naar Sources/Onderwerpen/Cultuur/erfgoednota-utrecht-2021.md
+- Bronsamenvatting aangemaakt: Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht.md
+- **17 GGM-archeologie-entiteiten volledig beoordeeld** (waren 100% onbeoordeeld):
+  - 3 BO's aangemaakt — grondslag: ggm-entiteit
+    - **Archeologische vindplaats** (= GGM Vindplaats, matchsterkte sterk) — locatie met archeologische waarde, gemeente is bevoegd gezag
+    - **Archeologische vondst** (= GGM Vondst + Artefact geaggregeerd, matchsterkte exact) — overblijfsel beheerd in gemeentelijk depot
+    - **Archeologisch onderzoek** (= GGM Project, matchsterkte sterk) — onderzoeksproject door/namens gemeente
+  - 14 niet-BO's: Archeologiebesluit (processtap), Artefact (detail Vondst), Artefactsoort (classificatie), Put/Vlak/Spoor/Vulling/boring (opgravingsdetails), Doos/Magazijnlocatie/Magazijnplaatsing/Stelling (depotlogistiek), Kaart/locatie (documentatie)
+- Bestaand BO **Monument** verrijkt: erfgoednota als extra bron, verduurzaming als bedrijfsproces
+- Begrip "archeologische vindplaats" herbeoordeeld: was niet-BO ("niet primair gemeentelijk") → nu BO (gemeente is bevoegd gezag, heeft eigen beleidskaart)
+- 8 nieuwe begrippen toegevoegd aan domeinoverzicht Cultuur (werelderfgoed, beschermd stadsgezicht, cultuurhistorische waardenkaart, archeologische beleidskaart, erfgoedverordening, erfgoed effectrapportage, groen/blauw erfgoed, immaterieel erfgoed)
+- GGM-dekking Cultuur verbeterd: 69% onbeoordeeld → 43% onbeoordeeld
+- Domein Cultuur status: afgerond → in opbouw (Musea en Generiek Erfgoed nog open)
+- Index en log bijgewerkt
+
 ## [2026-06-19] ingest | Dienstverlening — 3 BO's + 6 bronsamenvattingen
 - Bronnen: 6 VNG-onderwerpenpagina's (hand-out overheidsbrede dienstverlening, startscan, rubriek, online dienstverlening, digitale toegankelijkheid, inkoop-en-aanbesteden) + GGM beleidsdomein Model Dienstverlening (16 entiteiten)
 - Directory: Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/
@@ -95,7 +181,7 @@
 
 ## [2026-06-18] ingest | 3 Raadgever-bronnen belastingendomein
 - Bronnen: raadgever-gemeentelijke-belastingen, raadgever-kostenonderbouwing-lokale-heffingen, raadgever-woz
-- Clippings verplaatst van Clippings/ naar Sources/Onderwerpen VNG/Belastingen/
+- Clippings verplaatst van Clippings/ naar Sources/Onderwerpen/Belastingen/
 - Raadgever Riool- en waterzorgheffing overgeslagen: duplicaat van bestaand bronbestand
 - Begrippen geëxtraheerd (6): woz-waarde, woz-beschikking, onroerende-zaak, waarderingskamer, kruissubsidiering, kostenonderbouwing
 - Bestaande begrippen bijgewerkt met nieuwe bronverwijzing: belastingmix, kostendekkend-tarief, kwijtschelding
@@ -104,7 +190,7 @@
 
 ## [2026-06-18] ingest | 4 Raadgever-bronnen financiëndomein (NIEUW)
 - Bronnen: raadgever-inkomstenbronnen-gemeenten, raadgever-gemeentebegroting-en-jaarrekening, raadgever-financiele-verordening, raadgever-financiele-conditie-gemeente
-- Clippings verplaatst van Clippings/ naar Sources/Onderwerpen VNG/Financien/ (nieuwe map)
+- Clippings verplaatst van Clippings/ naar Sources/Onderwerpen/Financien/ (nieuwe map)
 - Begrippen geëxtraheerd (10): gemeentefonds, algemene uitkering, specifieke uitkering, begrotingscyclus, budgetrecht, financiele verordening, kadernota, solvabiliteitsratio, netto schuldquote, onbenutte belastingcapaciteit
 - Pagina's aangemaakt: 10 begrippen, 4 bronsamenvattingen, 1 domeinoverzicht (Financien)
 - Koppeling met bestaande bedrijfsobjecten: Begroting, Taakveld, Doelstelling, Product, Kostenplaats, Activa
@@ -112,7 +198,7 @@
 
 ## [2026-06-18] ingest | 1 Raadgever-bron bedrijfsvoering (NIEUW)
 - Bron: raadgever-inkoop-en-aanbesteden
-- Clipping verplaatst van Clippings/ naar Sources/Onderwerpen VNG/Bedrijfsvoering/ (nieuwe map)
+- Clipping verplaatst van Clippings/ naar Sources/Onderwerpen/Bedrijfsvoering/ (nieuwe map)
 - Begrippen geëxtraheerd (3): gemeentelijke inkoop, aanbesteding, mvoi
 - Pagina's aangemaakt: 3 begrippen, 1 bronsamenvatting, 1 domeinoverzicht (Bedrijfsvoering)
 - Koppeling met bestaande bedrijfsobjecten: Inkooporder, Factuur, Werkorder
@@ -145,7 +231,7 @@
 - Bedrijfsobject-frontmatter uitgebreid met `grondslag` veld: ggm-entiteit, ggm-afgeleid, procesobject, governance-object
 - Afleidingsregels aangepast: eerst grondslag bepalen, dan pas afleiden
 - Alle 19 bestaande BO's bijgewerkt met `grondslag: ggm-entiteit`
-- Aanleiding: structureel patroon uit [[ggm-dekkingspatroon]] — GGM dekt data, niet processen/governance
+- Aanleiding: structureel patroon uit [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] — GGM dekt data, niet processen/governance
 
 ## [2026-06-18] analyse | GGM-dekkingspatroon
 - Nieuwe analyse: structureel patroon over vier domeinen (Belastingen, Financiën, Economie, Bedrijfsvoering)
@@ -186,7 +272,7 @@
 - Status: in opbouw, wordt aangevuld bij verwerking volgende bronnen
 
 ## [2026-06-17] ingest | Belastingtypen
-- Bron: Sources/Onderwerpen VNG/Belastingen/Belastingtypen.md
+- Bron: Sources/Onderwerpen/Belastingen/Belastingtypen.md
 - Begrippen geëxtraheerd: gemeentelijke belasting, algemene belasting, bestemmingsbelasting, retributie, leges, algemene middelen
 - Pagina's aangemaakt: 6 begrippen, 1 bronsamenvatting, 1 domeinoverzicht
 - Hiaat gesignaleerd: GGM kent geen belastingtypologie als entiteiten of enumeratie
@@ -230,7 +316,7 @@
 - Frontmatter begrippenpagina's uitgebreid met velden begripstype en abstractieniveau
 
 ## [2026-06-17] ingest | Economie speerpunten VNG
-- Bron: Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG.md
+- Bron: Sources/Onderwerpen/Economie/Economie speerpunten VNG.md
 - Begrippen geëxtraheerd (9): brede welvaart (waarde/normatief), vestigingsklimaat (doel/strategisch), ondernemersdienstverlening (thema/tactisch), regeldruk (thema/tactisch), economische ruimte (thema/tactisch), arbeidsmarkt (thema/strategisch), human capital (thema/strategisch), midden- en kleinbedrijf (doelgroep/tactisch), werklocatie (object/operationeel)
 - Pagina's aangemaakt: 9 begrippen, 1 bronsamenvatting, 1 domeinoverzicht
 - GGM-matching: 0 directe matches, 3 gedeeltelijke (Werkgelegenheid, Winkelvloeroppervlak, Vestiging RSGB)

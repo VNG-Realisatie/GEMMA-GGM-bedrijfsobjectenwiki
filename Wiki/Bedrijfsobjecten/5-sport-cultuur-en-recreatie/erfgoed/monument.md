@@ -1,16 +1,16 @@
 ---
 type: bedrijfsobject
-naam: "Monument"
+naam: Monument
 domein: [Cultuur]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Beschermde Status"
-ggm_guid: "EAID_32C02923_EE3A_4553_B94B_31E0C273A829"
+ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
 ggm_uml_type: Class
 ggm_beleidsdomein: "Monumenten"
-ggm_taakveld: "5 Sport, Cultuur en Recreatie"
-ggm_diagram: ["Diagram Monumenten", "Diagram Monumenten Detail"]
-ggm_diagram_ids: ["EAID_7429E175_1CBE_4336_BF92_6C5029395E69", "EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2"]
+ggm_taakveld: "Erfgoed"
+ggm_diagram: [Diagram Monumenten, Diagram Monumenten Detail]
+ggm_diagram_ids: [EAID_7429E175_1CBE_4336_BF92_6C5029395E69, EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2]
 ggm_definitie: "Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,"
 ggm_toelichting: ""
 ggm_synoniemen: ""
@@ -25,25 +25,24 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa6
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister."
-bronnen: ["Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed"]
+bedrijfsprocessen: [Monumentenaanwijzing, Monumentenvergunning, Erfgoedtoezicht]
+bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
 relaties:
   - type: associatie
     bedrijfsobject: "*(Pand — BAG)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een monument betreft een of meer panden"
+    beschrijving: Een monument betreft een of meer panden
   - type: associatie
     bedrijfsobject: "*(KadastraleOnroerendeZaak — Kadaster)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een monument betreft een of meer kadastrale objecten"
+    beschrijving: Een monument betreft een of meer kadastrale objecten
   - type: associatie
     bedrijfsobject: "*(OpenbareRuimte — BAG)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een beschermd gezicht betreft een of meer openbare ruimten"
-bedrijfsprocessen: [Monumentenaanwijzing, Monumentenvergunning, Erfgoedtoezicht]
-bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
+    beschrijving: Een beschermd gezicht betreft een of meer openbare ruimten
 ---
 
 # Monument
@@ -89,11 +88,14 @@ De Erfgoedwet (2016) en de Omgevingswet vormen het wettelijk kader. Gemeenten zi
 | Heeft bouwactiviteit | *(Bouwactiviteit)* | Beschermde Status → Bouwactiviteit [0..*] | Classificatie, geen apart BO |
 | Heeft foto | *(Foto)* | Beschermde Status → Foto [0..*] | Documentatie, geen apart BO |
 
+De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzaming (CO2-reductie 40% 2030, monumenten aardgasvrij), herbestemming ("behoud door ontwikkeling"), en de relatie met ruimtelijke ontwikkeling (erfgoed als fundament voor gebiedsontwikkeling). Beschermde stads- en dorpsgezichten (rijks en gemeentelijk) vallen ook onder dit BO via het attribuut `gezichtscode`.
+
 ## Bedrijfsprocessen
 
 - **Monumentenaanwijzing**: beoordeling en aanwijzing van gemeentelijke monumenten en beschermde gezichten
 - **Monumentenvergunning**: vergunningverlening voor wijzigingen aan monumenten (in samenhang met Omgevingswet)
 - **Erfgoedtoezicht**: toezicht op instandhouding en onderhoud
+- **Verduurzaming monumenten**: adviseren en faciliteren van energiemaatregelen bij monumenten
 
 ## Bedrijfsfuncties
 

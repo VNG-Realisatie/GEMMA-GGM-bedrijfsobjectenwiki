@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering
-bronnen: ["Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding.md"]
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
@@ -55,6 +54,6 @@ De betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflossi
 
 ## Relaties
 
-- Onderdeel van een [[aflossingsplan]]
-- Betaling op een [[vordering]]
-- Bij te veel ontvangen: leidt tot [[restitutie]]
+- Onderdeel van een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
+- Betaling op een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]
+- Bij te veel ontvangen: leidt tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie|restitutie]]

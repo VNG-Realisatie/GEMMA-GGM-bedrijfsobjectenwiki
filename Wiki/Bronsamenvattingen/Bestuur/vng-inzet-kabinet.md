@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/vng-inzet-kabinet.md](Sources/Onderwerpen%20VNG/Bestuur/vng-inzet-kabinet.md)"
+bron: "[Sources/Onderwerpen/Bestuur/vng-inzet-kabinet.md](Sources/Onderwerpen%20VNG/Bestuur/vng-inzet-kabinet.md)"
 titel: "VNG-inzet kabinet"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

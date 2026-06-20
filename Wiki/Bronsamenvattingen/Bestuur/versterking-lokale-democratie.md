@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/versterking-lokale-democratie.md](Sources/Onderwerpen%20VNG/Bestuur/versterking-lokale-democratie.md)"
+bron: "[Sources/Onderwerpen/Bestuur/versterking-lokale-democratie.md](Sources/Onderwerpen%20VNG/Bestuur/versterking-lokale-democratie.md)"
 titel: "Versterking lokale democratie"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

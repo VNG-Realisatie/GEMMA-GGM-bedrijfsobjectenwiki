@@ -6,7 +6,7 @@ begripstype: thema
 abstractieniveau: strategisch
 domein: [Economie]
 synoniemen: [menselijk kapitaal, human capitalbeleid]
-bronnen: ["[[Sources/Onderwerpen VNG/Economie/Economie speerpunten VNG]]"]
+bronnen: ["[[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]"]
 ggm_entiteit:
 status: concept
 ---
@@ -29,9 +29,9 @@ VNG-speerpunten onder dit thema:
 
 ## Relaties
 
-- Nauw verbonden met [[arbeidsmarkt]] — human capital is de aanbodzijde
-- Beïnvloedt [[vestigingsklimaat]] — goed opgeleid personeel maakt regio aantrekkelijk
-- Relevant voor [[midden-en-kleinbedrijf]] — afhankelijk van beschikbaar talent
+- Nauw verbonden met [[Wiki/Begrippen/arbeidsmarkt|arbeidsmarkt]] — human capital is de aanbodzijde
+- Beïnvloedt [[Wiki/Begrippen/vestigingsklimaat|vestigingsklimaat]] — goed opgeleid personeel maakt regio aantrekkelijk
+- Relevant voor [[Wiki/Begrippen/midden-en-kleinbedrijf|midden-en-kleinbedrijf]] — afhankelijk van beschikbaar talent
 - Raakvlak met GGM taakveld 4 "Onderwijs" en taakveld 6 beleidsdomein "Werk"
 
 ## Afbakening

@@ -1,16 +1,16 @@
 ---
 type: bedrijfsobject
-naam: "Archiefstuk"
+naam: Archiefstuk
 domein: [Cultuur]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Archiefstuk"
-ggm_guid: "EAID_369E453B_4C3A_48dc_9619_C36232B339D9"
+ggm_guid: EAID_369E453B_4C3A_48dc_9619_C36232B339D9
 ggm_uml_type: Class
 ggm_beleidsdomein: "Archief"
-ggm_taakveld: "5 Sport, Cultuur en Recreatie"
-ggm_diagram: ["Archief Model", "Archief Aanvragen", "Archief Model Indeling", "Generieke entiteiten Erfgoed"]
-ggm_diagram_ids: ["EAID_59241C4B_FD65_484b_88E5_83189334A510", "EAID_8D468696_4B9D_40b4_92F0_3BED39502098", "EAID_691E6481_68AC_4754_88F0_60D2877D1549", "EAID_B7192738_00E7_4b65_902A_B8292E79261B"]
+ggm_taakveld: "Erfgoed"
+ggm_diagram: [Archief Model, Archief Aanvragen, Archief Model Indeling, Generieke entiteiten Erfgoed]
+ggm_diagram_ids: [EAID_59241C4B_FD65_484b_88E5_83189334A510, EAID_8D468696_4B9D_40b4_92F0_3BED39502098, EAID_691E6481_68AC_4754_88F0_60D2877D1549, EAID_B7192738_00E7_4b65_902A_B8292E79261B]
 ggm_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"
 ggm_toelichting: ""
 ggm_synoniemen: "Archiefbescheiden"
@@ -25,20 +25,19 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed"]
+bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
+bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
 relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
     richting: "van-dit-BO"
-    kardinaliteit: ""
-    beschrijving: "Archiefstuk is een specialisatie van Erfgoed Object"
+    kardinaliteit: 
+    beschrijving: Archiefstuk is een specialisatie van Erfgoed Object
   - type: associatie
     bedrijfsobject: "*(Archief)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Een archiefstuk is onderdeel van een archief"
-bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
-bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
+    beschrijving: Een archiefstuk is onderdeel van een archief
 ---
 
 # Archiefstuk

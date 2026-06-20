@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"
+bron: "[[Sources/Onderwerpen/Inburgering/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]"
 titel: "COA Dienstverleningsgids voor gemeenten (januari 2026)"
 domein: [Inburgering en Asielopvang]
 datum_ingest: 2026-06-17

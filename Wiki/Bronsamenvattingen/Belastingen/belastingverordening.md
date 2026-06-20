@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/Belastingverordening]]"
+bron: "[[Sources/Onderwerpen/Belastingen/Belastingverordening]]"
 titel: "Belastingverordening"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

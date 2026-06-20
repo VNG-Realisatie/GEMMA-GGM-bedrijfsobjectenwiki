@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen VNG/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]"
+bron: "[[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]"
 titel: "Raadgever Kostenonderbouwing van lokale heffingen"
 domein: [Belastingen]
 datum_ingest: 2026-06-18
@@ -24,7 +24,7 @@ De kostenonderbouwing is per 1 januari 2017 verplicht in de paragraaf lokale hef
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Introduceert **kostenonderbouwing** als verplicht verantwoordingsinstrument. Versterkt het begrip [[kostendekkend-tarief]] met het inzicht dat kostendekkendheid een keuze is (maximaal, maar niet verplicht volledig) en dat de onderbouwing juridisch afdwingbaar is.
+Introduceert **kostenonderbouwing** als verplicht verantwoordingsinstrument. Versterkt het begrip [[Wiki/Begrippen/kostendekkend-tarief|kostendekkend-tarief]] met het inzicht dat kostendekkendheid een keuze is (maximaal, maar niet verplicht volledig) en dat de onderbouwing juridisch afdwingbaar is.
 
 ## Citaten
 

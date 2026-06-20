@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen VNG/Bestuur/vng-raadgevers.md](Sources/Onderwerpen%20VNG/Bestuur/vng-raadgevers.md)"
+bron: "[Sources/Onderwerpen/Bestuur/vng-raadgevers.md](Sources/Onderwerpen%20VNG/Bestuur/vng-raadgevers.md)"
 titel: "VNG Raadgevers"
 domein: [Bestuur]
 datum_ingest: 2026-06-19

@@ -13,7 +13,7 @@ status: concept
 
 # Resultaattype
 
-Het resultaattype is de indeling of groepering van resultaten van zaken van hetzelfde zaaktype naar hun aard: "verleend", "geweigerd", "verwerkt", "ingetrokken", et cetera. Het is geïntroduceerd in de ZTC2 (al aanwezig in ZTC 1) en bepaalt het archiefregime van het [[zaakdossier]].
+Het resultaattype is de indeling of groepering van resultaten van zaken van hetzelfde zaaktype naar hun aard: "verleend", "geweigerd", "verwerkt", "ingetrokken", et cetera. Het is geïntroduceerd in de ZTC2 (al aanwezig in ZTC 1) en bepaalt het archiefregime van het [[Wiki/Begrippen/zaakdossier|zaakdossier]].
 
 ## Context
 
@@ -47,7 +47,7 @@ Het GGM kent **geen** entiteit Resultaattype. Het RGBZ-deel in het GGM (beleidsd
 
 ## Relaties
 
-- [[zaaktypecatalogus]] — het resultaattype wordt per zaaktype geconfigureerd in de catalogus
-- [[zaakdossier]] — het resultaattype bepaalt het archiefregime van het dossier
-- [[informatieobject]] — individuele informatieobjecten kunnen een afwijkend archiefregime hebben
-- [[zaakgericht-werken]] — resultaattypes zijn een essentieel onderdeel van de inrichting
+- [[Wiki/Begrippen/zaaktypecatalogus|zaaktypecatalogus]] — het resultaattype wordt per zaaktype geconfigureerd in de catalogus
+- [[Wiki/Begrippen/zaakdossier|zaakdossier]] — het resultaattype bepaalt het archiefregime van het dossier
+- [[Wiki/Begrippen/informatieobject|informatieobject]] — individuele informatieobjecten kunnen een afwijkend archiefregime hebben
+- [[Wiki/Begrippen/zaakgericht-werken|zaakgericht-werken]] — resultaattypes zijn een essentieel onderdeel van de inrichting

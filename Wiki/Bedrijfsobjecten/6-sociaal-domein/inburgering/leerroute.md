@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-454
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "gelijk aan GGM"
-bronnen: ["Bronsamenvattingen/Asiel en Integratie/vng-inburgering.md", "Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer.md"]
 relaties:
   - type: associatie
     bedrijfsobject: PIP
@@ -75,7 +74,7 @@ B1-route en Z-route zijn classificaties van dit BO, geen aparte bedrijfsobjecten
 
 ## Relaties
 
-- ← [[pip]] — wordt afgesproken in het PIP [1]
-- → [[map]] — bevat de module arbeidsmarkt en participatie [0..1]
-- → [[pvt]] — bevat het participatieverklaringstraject [0..1]
-- → [[examen]] — wordt afgerond met examens [0..*]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — wordt afgesproken in het PIP [1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/map|map]] — bevat de module arbeidsmarkt en participatie [0..1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pvt|pvt]] — bevat het participatieverklaringstraject [0..1]
+- → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|examen]] — wordt afgerond met examens [0..*]
