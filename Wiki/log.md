@@ -1,5 +1,16 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Groenbeleid → Beheer Openbare Ruimte (2 BO's)
+- Bronnen: 6 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl + 5 PDF's), 2 hoog-relevant behouden, 4 naar Niet-relevant/
+- 2 bronsamenvattingen aangemaakt: groenstructuurplan-utrecht-2007.md, actualisatie-groenstructuurplan-2017-2030.md (onder Wiki/Bronsamenvattingen/Milieu/)
+- Bronnen zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in domein Beheer Openbare Ruimte (GGM taakveld 8)
+- **2 nieuwe BO's aangemaakt:**
+  - **Groenobject** — GGM-match exact (Groenobject, IMBOR), 6/6 BO-criteria
+  - **Faunapassage** — GGM-match sterk (Ecoduct), 6/6 BO-criteria, terugmelding: GGM Ecoduct is beperkter dan gemeentelijk begrip faunapassage
+- 7 begrippen niet-BO: groenstructuur (structuur), visiekaart (instrument), groencompensatie (proces), beschermde soort (classificatie), wijkgroenplan (instrument)
+- Domeinoverzicht beheer-openbare-ruimte.md bijgewerkt: 3 BO's, 15 begrippen
+- Domeinoverzicht milieu.md bijgewerkt: cross-referentie naar BOR-domein
+
 ## [2026-06-20] ingest | Mobiliteit — nieuw domein (15 BO's, alle GGM-hiaten)
 - Bronnen: 3 documenten opgehaald via /fetch (omgevingsvisie.utrecht.nl + 2 PDF's: Mobiliteitsplan 2040, Kwaliteitsnet Goederenvervoer 2007)
 - 1 bron niet-relevant: webpagina goederenvervoer is te dun (3 alinea's) → verplaatst naar Niet-relevant/

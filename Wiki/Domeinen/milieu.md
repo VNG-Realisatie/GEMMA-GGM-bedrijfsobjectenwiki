@@ -49,6 +49,12 @@ Dit is een **significant structureel GGM-hiaat**: het hele domein van gemeenteli
 - [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]] — gebiedsgericht grondwaterbeheer (56 p., 2015)
 - [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027]] — hergebruik grond en bodembeheer
 
+## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
+
+De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Groenobject]] en [[Faunapassage]]. Zie de bronsamenvattingen:
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]]
+
 ## Nog te verwerken bronnen
 
 - [Sources/Onderwerpen/Milieu/rubriek-milieu.md](Sources/Onderwerpen/Milieu/rubriek-milieu.md) — VNG-rubriek Milieu

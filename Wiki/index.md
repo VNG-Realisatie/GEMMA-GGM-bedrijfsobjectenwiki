@@ -12,7 +12,7 @@
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater en ondergrond: bodemkwaliteit, verontreinigingen, sanering, grondverzet, bodemenergie (in behandeling, 6 BO's)
-- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 1 BO)
+- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie: warmtenetten, opwekgebieden, besparing, netcongestie (in behandeling, 2 BO's)
 - [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
@@ -137,6 +137,15 @@
 - groeiplaats — Fysieke standplaats met bodemkenmerken (eigenschap)
 - VTA-inspectie — Systematische beoordeling conditie en veiligheid (proces)
 
+### Beheer Openbare Ruimte — groenstructuur
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel groenstructuur (object, operationeel)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (object, operationeel)
+- groenstructuur — Netwerk van groengebieden en verbindingen, vastgelegd op visiekaart (structuur)
+- visiekaart — Beleidskaart die vastlegt welke gebieden tot de groenstructuur behoren (instrument)
+- groencompensatie — Compensatiemaatregel bij aantasting groenstructuur (proces)
+- beschermde soort — Plant/diersoort op Utrechtse soortenlijst of Wet Natuurbescherming (classificatie)
+- wijkgroenplan — Plan per wijk voor verbetering groenvoorzieningen (instrument)
+
 ### Milieu — bodem en grondwater
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart|bodemkwaliteitskaart]] — Kaart met vastgestelde bodemkwaliteit per zone (instrument, operationeel)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|bodemverontreiniging]] — Geregistreerde verontreinigingslocatie met type en status (object, operationeel)
@@ -220,6 +229,8 @@
 
 ### Beheer Openbare Ruimte (GGM beleidsdomein IMBOR, taakveld 8)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (110.000+ in Utrecht)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel van de groenstructuur (GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (GGM Ecoduct, sterk)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
@@ -376,6 +387,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Beheer Openbare Ruimte
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009/2018)
+
+### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
 
 ### Milieu
 - [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid
