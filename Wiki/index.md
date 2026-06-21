@@ -11,7 +11,7 @@
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
-- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie: bodemkwaliteit, verontreinigingen, containers, grondstofstromen, milieustraten, upcyclecentra (in behandeling, 16 BO's)
+- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit: milieuzones, meetpunten, zones, bodemkwaliteit, containers, grondstofstromen (in behandeling, 23 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
@@ -181,6 +181,15 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot|grondstoffendepot]] — Opslag vrijkomende materialen voor hergebruik (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort|materiaalpasspoort]] — Digitale vastlegging materialen in gebouw/object (⚠️ instrument, ter discussie)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening|afvalstoffenverordening]] — Gemeentelijke verordening voor afvalinzameling (⚠️ governance, ter discussie)
+
+#### Luchtkwaliteit (procesobjecten, GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieuzone|milieuzone]] — Afgebakend gebied met toegangsbeperkingen op basis van emissieklasse (subtypes: nul-emissiezone)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/vuurwerkvrije-zone|vuurwerkvrije-zone]] — Aangewezen zone met vuurwerkverbod via APV
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/luchtkwaliteitsmeetpunt|luchtkwaliteitsmeetpunt]] — Fysieke meetlocatie in het gemeentelijk luchtkwaliteitsmeetnet
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/rookvrije-zone|rookvrije-zone]] — Aangewezen zone waar roken niet is toegestaan
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/ontheffing-milieuzone|ontheffing-milieuzone]] — Individuele uitzondering op milieuzoneregels voor een voertuig
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt|walstroompunt]] — Fysiek aansluitpunt voor walstroom aan scheepvaart
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling|sloopregeling]] — Subsidieregeling bij milieuzone-aanscherping (⚠️ instrument, ter discussie)
 
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening

@@ -1,5 +1,19 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Luchtkwaliteit (7 BO's, 1 bronsamenvatting)
+- Bron: Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030 (Gemeente Utrecht, sept. 2024, 1267 regels). Opgehaald via /fetch als PDF + webpagina; webpagina naar Niet-relevant (overlapt volledig met beleidsnota).
+- 1 bronsamenvatting aangemaakt: beleidsnota-luchtkwaliteit-2025
+- **7 nieuwe BO's aangemaakt (alle GGM-hiaten):**
+  - **Milieuzone** — procesobject. Afgebakend gebied met emissieklasse-eisen. Subtype: nul-emissiezone.
+  - **Vuurwerkvrije zone** — procesobject. 150 zones, overgegaan naar gemeentebreed verbod.
+  - **Luchtkwaliteitsmeetpunt** — procesobject. 64 gemeentelijke + 3 RIVM-meetlocaties.
+  - **Rookvrije zone** — procesobject. Bushaltes, speelplekken, sportlocaties, USP.
+  - **Ontheffing (milieuzone)** — procesobject. Individuele uitzondering op zone-regels.
+  - **Walstroompunt** — procesobject. Ca. 50 fysieke aansluitpunten walstroom.
+  - **Sloopregeling** — ⚠️ instrument, ter discussie. Subsidieregeling bij milieuzone-aanscherping.
+- Domeinoverzicht milieu uitgebreid met subdomein "Luchtkwaliteit" (14 begrippen, 7 BO's).
+- GGM-terugmeldingen: mist beleidsdomein luchtkwaliteit (taakveld 7), mist generiek zone-concept, mist generiek ontheffingsconcept.
+
 ## [2026-06-20] ingest | Klimaatverandering (1 BO, 3 bronsamenvattingen)
 - Bronnen: 5 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl/thematisch-beleid/beleid-voor-klimaatverandering + 3 PDF's via iBabs + 1 subpagina). 2 summiere webpagina's niet apart samengevat (overzichtspagina's).
 - 3 bronsamenvattingen aangemaakt: visie-klimaatadaptatie-utrecht, ontwerpvisie-klimaatneutraal, raadsbrief-klimaatneutraal

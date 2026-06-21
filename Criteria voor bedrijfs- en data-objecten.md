@@ -1,7 +1,7 @@
 
 ### Bedrijfsobject
 
-|   |   |
+| GEMMA begrip  | definitie   |
 |---|---|
 |[Bedrijfsobject](https://redactie.gemmaonline.nl/wiki/Id-2a98a3f2-546c-40a3-824f-ecb96b3bbdbb "Id-2a98a3f2-546c-40a3-824f-ecb96b3bbdbb")|Een concept dat binnen een bepaald domein wordt gebruikt en betekenis heeft.|
 - Concept uit de werkelijkheid.
