@@ -21,6 +21,7 @@
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
 - [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 28 BO's, 12 bronnen)
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
+- [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 
 ## Bedrijfsobjecten
 
@@ -89,6 +90,15 @@
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|archeologische-vondst]] — Archeologisch overblijfsel of voorwerp, beheerd in gemeentelijk depot
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]] — Onderzoeksproject door/namens gemeente als bevoegd gezag
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/orgel|orgel]] — Monumentaal muziekinstrument in kerkgebouw, eigen beschermingsstatus (GGM-hiaat)
+
+### Sport en Bewegen (GGM beleidsdomein Sport, taakveld 5)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportlocatie|sportlocatie]] — Locatie waar sport plaatsvindt, overkoepelend voor sportpark en binnenlocatie (GGM exact)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark|sportpark]] — Geheel van terreinen, gebouwen en voorzieningen voor sport (GGM exact)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie|binnenlocatie]] — Binnensportaccommodatie: sporthal of gymzaal (GGM exact)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld|veld]] — Sportveld voor veldsport, capaciteitsberekeningen per sporttype (GGM exact)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/zwembad|zwembad]] — Gemeentelijke zwemvoorziening met eigen capaciteitsbeleid (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportvereniging|sportvereniging]] — Organisatievorm voor sportbeoefening, ondersteuning via SportUtrecht (GGM exact)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportmateriaal|sportmateriaal]] — Materieel voor sportbeoefening of ondersteuning sportuitvoering (GGM exact)
 
 ### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — Object met cultuurhistorische waarde in museale collectie
