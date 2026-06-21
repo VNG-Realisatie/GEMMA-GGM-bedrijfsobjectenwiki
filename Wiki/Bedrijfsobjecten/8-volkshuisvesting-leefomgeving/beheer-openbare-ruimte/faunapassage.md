@@ -10,10 +10,12 @@ ggm_uml_type: Class
 ggm_beleidsdomein: "Beheer Openbare Ruimte"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
-ggm_diagram_ids: []
-ggm_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage. Toelichting: Opheffen van barrières en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
+ggm_diagram_ids: [EAPK_C3BA35EC_ABFA_4a7d_BEE9_07FF7563442D]
+ggm_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo
+Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage
+Toelichting: Opheffen van barriÃ¨res en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
 ggm_toelichting: ""
-ggm_synoniemen: "Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage"
+ggm_synoniemen: ""
 ggm_herkomst: ""
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
@@ -25,22 +27,19 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]"
-  - "[[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]"
+bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
+bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
 relaties:
   - type: generalisatie
     bedrijfsobject: Overbruggingsobject (GGM)
     richting: "van-dit-BO"
-    kardinaliteit:
+    kardinaliteit: 
     beschrijving: Ecoduct is een specialisatie van Overbruggingsobject in het GGM
   - type: associatie
     bedrijfsobject: "[[Groenobject]]"
-    richting: "bidirectioneel"
+    richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: Faunapassages verbinden groenobjecten en ecologische corridors
-bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
-bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
 ---
 
 ## BO-criteria toetsing

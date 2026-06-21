@@ -2,21 +2,19 @@
 type: bedrijfsobject
 naam: Hoofdfietsroute
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,23 +24,26 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
-relaties:
-  - type: associatie
-    bedrijfsobject: OV-knooppunt
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Hoofdfietsroute verbindt met OV-knooppunten
-  - type: associatie
-    bedrijfsobject: P+R-locatie
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Fietsroute naar P+R-locatie
+gemma_subtypes:
+  - naam: snelfietsroute
+    omschrijving: "Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid"
+    ggm_entiteit: ""
+    ggm_guid: ""
+    ggm_attribuut: ""
 bedrijfsprocessen: [Fietsbeleid, Beheer openbare ruimte, Verkeersmanagement]
 bedrijfsfuncties: [Verkeersmanagement, Fietsbeleid]
+relaties:
+  - type: associatie
+    bedrijfsobject: "OV-knooppunt"
+    richting: "van-dit-BO"
+    kardinaliteit: "0..*"
+    beschrijving: "Hoofdfietsroute verbindt met OV-knooppunten"
+  - type: associatie
+    bedrijfsobject: "P+R-locatie"
+    richting: "van-dit-BO"
+    kardinaliteit: "0..*"
+    beschrijving: "Fietsroute naar P+R-locatie"
 ---
 
 # Hoofdfietsroute
@@ -59,6 +60,12 @@ bedrijfsfuncties: [Verkeersmanagement, Fietsbeleid]
 ## Beschrijving
 
 Een hoofdfietsroute is een aangewezen fietsverbinding in het stedelijk hoofdfietsnetwerk. Het Mobiliteitsplan 2040 onderscheidt snelle doorstroomroutes en rustige bestemmingsroutes. Per route gelden kwaliteitseisen voor doorstroming, comfort en veiligheid. Het netwerk moet de verwachte 75% fietsgroei tot 2040 opvangen door fietsstromen te spreiden.
+
+## Specialisaties
+
+| Subtype | Omschrijving | GGM-attribuut |
+|---|---|---|
+| snelfietsroute | Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid | — |
 
 ## Procesbron
 

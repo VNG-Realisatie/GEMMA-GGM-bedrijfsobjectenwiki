@@ -3,29 +3,28 @@ type: bedrijfsobject
 naam: Grondstofstroom
 domein: [Milieu]
 archimate_type: "business-object"
-grondslag: ggm-entiteit
-ggm_entiteit: Fractie
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Fractie"
 ggm_guid: EAID_80A7D18F_7C7E_4ee6_9F07_055559BCEF9F
 ggm_uml_type: Class
-ggm_beleidsdomein: Afval
+ggm_beleidsdomein: "Afval"
 ggm_taakveld: "7 Volksgezondheid en Milieu"
-ggm_diagram: ["Diagram Afval Ophalen", "Diagram Afval Milieustraat", "Diagram Afval Meldingen"]
-ggm_diagram_ids: []
+ggm_diagram: [Diagram Afval Ophalen, Diagram Afval Milieustraat, Diagram Afval Meldingen]
+ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38, EAID_A00B8121_71AC_466f_B391_E16881240477, EAID_157F610A_619E_4d1a_BB45_5C1F55178944]
 ggm_definitie: "Onderdeel, deeltje"
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
+ggm_gemma_naam: "Fractie"
+ggm_gemma_guid: "5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
+ggm_gemma_definitie: "Onderdeel, deeltje"
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
-bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
 relaties:
@@ -33,12 +32,12 @@ relaties:
     bedrijfsobject: "[[Container]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "ingezameld via containers"
+    beschrijving: ingezameld via containers
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "inzamelpunt op milieustraat"
+    beschrijving: inzamelpunt op milieustraat
 ---
 
 ## BO-criteria toetsing

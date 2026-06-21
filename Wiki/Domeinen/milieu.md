@@ -101,7 +101,7 @@ Het ontbreken van een GGM-beleidsdomein voor bodem/grondwater blijft een **signi
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 
-De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Groenobject]] en [[Faunapassage]]. Zie de bronsamenvattingen:
+De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage]]. Zie de bronsamenvattingen:
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]]
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]]
 

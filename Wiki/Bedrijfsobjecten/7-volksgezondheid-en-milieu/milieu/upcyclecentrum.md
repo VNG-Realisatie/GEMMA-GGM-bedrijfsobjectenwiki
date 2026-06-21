@@ -25,22 +25,19 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Voorziening voor inname, reparatie en hoogwaardig hergebruik van grof huishoudelijk afval."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]"
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]"
+bedrijfsprocessen: [Upcycling, Hergebruik goederen, Educatie circulaire economie]
+bedrijfsfuncties: [Afvalbeheer, Circulaire economie]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: "nabij afvalscheidingsstation"
+    kardinaliteit: 0..1
+    beschrijving: nabij afvalscheidingsstation
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "verwerkt grondstofstromen"
-bedrijfsprocessen: [Upcycling, Hergebruik goederen, Educatie circulaire economie]
-bedrijfsfuncties: [Afvalbeheer, Circulaire economie]
+    beschrijving: verwerkt grondstofstromen
 ---
 
 ## BO-criteria toetsing

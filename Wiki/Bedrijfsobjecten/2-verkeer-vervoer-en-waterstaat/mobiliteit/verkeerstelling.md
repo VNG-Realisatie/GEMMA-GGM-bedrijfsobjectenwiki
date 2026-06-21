@@ -2,37 +2,29 @@
 type: bedrijfsobject
 naam: Verkeerstelling
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Verkeerstelling
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Verkeerstelling"
 ggm_guid: EAID_DBE739FD_EBC4_4650_8A2B_714294A63A73
 ggm_uml_type: Class
-ggm_beleidsdomein: Mobiliteit
+ggm_beleidsdomein: "Mobiliteit"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
-ggm_diagram:
-  - Diagram Verkeer en Vervoer
-ggm_diagram_ids:
-  - EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455
+ggm_diagram: [Diagram Verkeer en Vervoer]
+ggm_diagram_ids: [EAID_49A15BF5_AB98_4ab9_AE01_D5636641F455]
 ggm_definitie: "Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid."
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: "Verkeerstelling"
 ggm_gemma_guid: "cb656c23-5e43-4f7d-9c06-ff5351911fdb"
 ggm_gemma_definitie: "Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid."
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "gelijk aan GGM"
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
-relaties: []
 bedrijfsprocessen: [Verkeersmanagement, Monitoring en evaluatie]
 bedrijfsfuncties: [Verkeersmanagement]
 ---

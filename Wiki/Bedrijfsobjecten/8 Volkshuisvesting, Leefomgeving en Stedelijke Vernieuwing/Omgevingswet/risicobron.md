@@ -2,73 +2,42 @@
 type: bedrijfsobject
 naam: Risicobron
 domein: [gevaarlijke-stoffen]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Activiteit
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Activiteit"
 ggm_guid: EAID_8BE600D0_EBF4_475b_8801_F387A5D39009
 ggm_uml_type: Class
-ggm_beleidsdomein: Omgevingswet
+ggm_beleidsdomein: "Omgevingswet"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram:
-  - Omgevingswet Verzoek Activiteit op Locatie
-  - Omgevingswet Juridische Regels (CIMOW)
-  - Omgevingswet Toepasbare Regels
-ggm_diagram_ids:
-  - EAID_30B09C29_F649_4248_97FC_35A5F9331BBF
-  - EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0
-  - EAID_B9209AD2_0648_4482_BB24_135F27C2FECC
-ggm_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
+ggm_diagram: [Omgevingswet Toepasbare Regels, Omgevingswet Verzoek Activiteit op Locatie, Omgevingswet Juridische Regels (CIMOW)]
+ggm_diagram_ids: [EAID_B9209AD2_0648_4482_BB24_135F27C2FECC, EAID_30B09C29_F649_4248_97FC_35A5F9331BBF, EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0]
+ggm_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. "
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
-ggm_gemma_naam: Activiteit
-ggm_gemma_guid: 8deec5da-a06a-4159-9b20-e9f9ff24674e
+ggm_gemma_naam: "Activiteit"
+ggm_gemma_guid: "8deec5da-a06a-4159-9b20-e9f9ff24674e"
 ggm_gemma_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8deec5da-a06a-4159-9b20-e9f9ff24674e"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
-
 gemma_definitie: "Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd en die daardoor een gevaar kan vormen voor de omgeving."
-gemma_subtypes:
-  - naam: Risicovol bedrijf
-    omschrijving: "Bedrijf waar met gevaarlijke stoffen wordt gewerkt, zoals LPG-tankstations en multifuel-tankstations"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-  - naam: Risicovolle buisleiding
-    omschrijving: "Buisleiding voor transport van gevaarlijke stoffen, zoals hogedruk aardgastransportleidingen"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-  - naam: Risicovolle transportroute
-    omschrijving: "Weg, spoor of vaarweg waarover gevaarlijke stoffen worden vervoerd"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
     bedrijfsobject: "[[Aandachtsgebied]]"
-    richting: van-dit-BO
+    richting: "van-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: "Een risicobron heeft een of meer aandachtsgebieden (brand, explosie, gifwolk)"
   - type: associatie
     bedrijfsobject: "[[Voorschriftengebied]]"
-    richting: van-dit-BO
+    richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "Rond een risicobron kan een voorschriftengebied worden aangewezen"
-bedrijfsprocessen:
-  - Advisering ruimtelijke ontwikkelingen
-  - Opstellen omgevingsplan
-bedrijfsfuncties:
-  - Omgevingsveiligheid
-  - Ruimtelijke ordening
+    beschrijving: Rond een risicobron kan een voorschriftengebied worden aangewezen
 ---
 
 ## BO-criteria toetsing

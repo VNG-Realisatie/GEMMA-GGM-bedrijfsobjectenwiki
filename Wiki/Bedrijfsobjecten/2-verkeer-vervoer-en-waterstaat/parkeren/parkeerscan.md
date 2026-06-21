@@ -2,13 +2,12 @@
 type: bedrijfsobject
 naam: Parkeerscan
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Parkeerscan
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Parkeerscan"
 ggm_guid: EAID_653EEEA7_ED82_427d_BD72_86C847793AD6
 ggm_uml_type: Class
-ggm_beleidsdomein: Parkeren
+ggm_beleidsdomein: "Parkeren"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
@@ -16,43 +15,39 @@ ggm_definitie: "Waarneming van een parkeeractie door een scanauto"
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: "Parkeerscan"
-ggm_gemma_guid: 078d57f3-e8a0-485e-a175-c1b3de49eee0
+ggm_gemma_guid: "078d57f3-e8a0-485e-a175-c1b3de49eee0"
 ggm_gemma_definitie: "Waarneming van een parkeeractie door een scanauto"
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-078d57f3-e8a0-485e-a175-c1b3de49eee0"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "gelijk aan GGM"
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
+bedrijfsfuncties: [Parkeerbeleid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
-    richting: van-dit-BO
-    kardinaliteit: "1..1"
+    richting: "van-dit-BO"
+    kardinaliteit: 1..1
     beschrijving: Parkeerscan registreert een voertuig op een parkeervlak
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
-    richting: van-dit-BO
-    kardinaliteit: "1..1"
+    richting: "van-dit-BO"
+    kardinaliteit: 1..1
     beschrijving: Parkeerscan betreft een voertuig
   - type: associatie
     bedrijfsobject: "[[Parkeerrecht]]"
-    richting: van-dit-BO
-    kardinaliteit: "0..1"
+    richting: "van-dit-BO"
+    kardinaliteit: 0..1
     beschrijving: Parkeerscan wordt getoetst aan een parkeerrecht
   - type: associatie
     bedrijfsobject: "[[Naheffing]]"
-    richting: van-dit-BO
-    kardinaliteit: "0..1"
+    richting: "van-dit-BO"
+    kardinaliteit: 0..1
     beschrijving: Parkeerscan kan leiden tot een naheffing
-bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
-bedrijfsfuncties: [Parkeerbeleid]
 ---
 
 # Parkeerscan

@@ -2,21 +2,19 @@
 type: bedrijfsobject
 naam: Halte
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,23 +24,20 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
-relaties:
-  - type: compositie
-    bedrijfsobject: OV-lijn
-    richting: "naar-dit-BO"
-    kardinaliteit: "1..*"
-    beschrijving: Halte hoort bij een of meer OV-lijnen
-  - type: associatie
-    bedrijfsobject: OV-knooppunt
-    richting: "naar-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: Halte kan onderdeel zijn van een OV-knooppunt
 bedrijfsprocessen: [OV-beleid, Beheer openbare ruimte]
 bedrijfsfuncties: [Openbaar vervoer]
+relaties:
+  - type: compositie
+    bedrijfsobject: "OV-lijn"
+    richting: "naar-dit-BO"
+    kardinaliteit: "1..*"
+    beschrijving: "Halte hoort bij een of meer OV-lijnen"
+  - type: associatie
+    bedrijfsobject: "OV-knooppunt"
+    richting: "naar-dit-BO"
+    kardinaliteit: 0..1
+    beschrijving: "Halte kan onderdeel zijn van een OV-knooppunt"
 ---
 
 # Halte

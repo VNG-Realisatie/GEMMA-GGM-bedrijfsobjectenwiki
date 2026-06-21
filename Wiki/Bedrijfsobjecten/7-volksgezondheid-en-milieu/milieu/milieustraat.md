@@ -3,29 +3,28 @@ type: bedrijfsobject
 naam: Milieustraat
 domein: [Milieu]
 archimate_type: "business-object"
-grondslag: ggm-entiteit
-ggm_entiteit: Milieustraat
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Milieustraat"
 ggm_guid: EAID_1638F2AF_F1E8_4360_BA47_D975F2135168
 ggm_uml_type: Class
-ggm_beleidsdomein: Afval
+ggm_beleidsdomein: "Afval"
 ggm_taakveld: "7 Volksgezondheid en Milieu"
-ggm_diagram: ["Diagram Afval Milieustraat"]
-ggm_diagram_ids: []
+ggm_diagram: [Diagram Afval Milieustraat]
+ggm_diagram_ids: [EAID_A00B8121_71AC_466f_B391_E16881240477]
 ggm_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
+ggm_gemma_naam: "Milieustraat"
+ggm_gemma_guid: "0310645e-6873-4cb3-93ec-734f0ac3323e"
+ggm_gemma_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0310645e-6873-4cb3-93ec-734f0ac3323e"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke voorziening waar inwoners gescheiden huishoudelijk afval en grofvuil kunnen aanbieden."
-bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 bedrijfsprocessen: [Afvalscheiding, Grofvuilinzameling, Bezoekersregistratie]
 bedrijfsfuncties: [Afvalbeheer]
 relaties:
@@ -33,12 +32,12 @@ relaties:
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "inzamelpunt van fracties"
+    beschrijving: inzamelpunt van fracties
   - type: associatie
     bedrijfsobject: "[[Upcyclecentrum]]"
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: "nabijgelegen upcyclecentrum"
+    kardinaliteit: 0..1
+    beschrijving: nabijgelegen upcyclecentrum
 ---
 
 ## BO-criteria toetsing

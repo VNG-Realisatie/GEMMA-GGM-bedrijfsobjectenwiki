@@ -2,21 +2,19 @@
 type: bedrijfsobject
 naam: Bouwlogistiek Centrum
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,18 +24,15 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Bouwlogistiek, Vergunningverlening]
+bedrijfsfuncties: [Goederenvervoerbeleid, Bouwtoezicht]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
     richting: "naar-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: Bouwlogistiek centrum wordt ontsloten door logistieke routes
-bedrijfsprocessen: [Bouwlogistiek, Vergunningverlening]
-bedrijfsfuncties: [Goederenvervoerbeleid, Bouwtoezicht]
 ---
 
 # Bouwlogistiek Centrum

@@ -25,16 +25,14 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Opslaglocatie voor vrijkomende materialen uit de openbare ruimte, bestemd voor hergebruik in projecten."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]"
+bedrijfsprocessen: [Materiaalopslag, Materiaalmatch (vraag-aanbod), Circulair beheer openbare ruimte]
+bedrijfsfuncties: [Beheer openbare ruimte, Circulaire economie]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "opslag van materiaalstromen"
-bedrijfsprocessen: [Materiaalopslag, Materiaalmatch (vraag-aanbod), Circulair beheer openbare ruimte]
-bedrijfsfuncties: [Beheer openbare ruimte, Circulaire economie]
+    beschrijving: opslag van materiaalstromen
 ---
 
 ## BO-criteria toetsing

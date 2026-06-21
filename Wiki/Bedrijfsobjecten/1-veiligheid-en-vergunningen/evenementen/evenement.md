@@ -2,57 +2,42 @@
 type: bedrijfsobject
 naam: Evenement
 domein: [evenementen]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: OpenbareActiviteit
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "OpenbareActiviteit"
 ggm_guid: EAID_B2B423C3_B9C9_4b4f_A47D_85D29417B9B4
 ggm_uml_type: Class
-ggm_beleidsdomein: Model VTH
+ggm_beleidsdomein: "1 Veiligheid en Vergunningen"
 ggm_taakveld: "1 Veiligheid en Vergunningen"
 ggm_diagram: []
-ggm_diagram_ids: []
+ggm_diagram_ids: [EAPK_0A4C6DE8_608E_4626_A40E_0C432A5B0F9C]
 ggm_definitie: "Activiteit in het publieke domein"
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam: OpenbareActiviteit
-ggm_gemma_guid: 9ffbd7f6-a815-4edd-9252-5ed7e873c6a0
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: "OpenbareActiviteit"
+ggm_gemma_guid: "9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
 ggm_gemma_definitie: "Activiteit in het publieke domein"
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Georganiseerde activiteit met publiek in de openbare ruimte, waarvoor de gemeente een vergunning verleent en die plaatsvindt op een aangewezen locatie."
-gemma_toelichting: "Omvat alle buitenevenementen: festivals, braderieën, sportevenementen, stads- en volksfeesten, herdenkingen. Manifestaties, betogingen en weekmarkten vallen hier niet onder."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
-  - [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
-    bedrijfsobject: [[Evenementenlocatie]]
-    richting: van-dit-BO
+    bedrijfsobject: "[[Evenementenlocatie]]"
+    richting: "van-dit-BO"
     kardinaliteit: "*..*"
-    beschrijving: "Evenement vindt plaats op een evenementenlocatie"
+    beschrijving: Evenement vindt plaats op een evenementenlocatie
   - type: associatie
-    bedrijfsobject: [[Evenementenvergunning]]
-    richting: van-dit-BO
-    kardinaliteit: "1..1"
-    beschrijving: "Evenement vereist een evenementenvergunning"
-bedrijfsprocessen:
-  - Evenementenaanmelding (jaarlijks in augustus)
-  - Beoordeling en verdeling (bij overaanmelding)
-  - Vergunningverlening
-  - Toezicht en handhaving
-  - Monitoring en evaluatie
-bedrijfsfuncties:
-  - Vergunningverlening
-  - Evenementenbeheer
-  - Openbare orde en veiligheid
+    bedrijfsobject: "[[Evenementenvergunning]]"
+    richting: "van-dit-BO"
+    kardinaliteit: 1..1
+    beschrijving: Evenement vereist een evenementenvergunning
 ---
 
 ## BO-criteria toetsing

@@ -2,43 +2,37 @@
 type: bedrijfsobject
 naam: Warenmarkt
 domein: [Economie]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Georganiseerde, periodieke verkoop van waren op een aangewezen locatie in de openbare ruimte, bestaande uit zes of meer standplaatsen, gereguleerd via de Marktverordening."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012]]
-  - [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015]]
-relaties:
-  - type: compositie
-    bedrijfsobject: [[standplaats]]
-    richting: van-dit-BO
-    kardinaliteit: "6..*"
-    beschrijving: "Een warenmarkt bestaat uit 6 of meer standplaatsen"
 bedrijfsprocessen: [marktorganisatie, vergunningverlening markten, monitoring detailhandel]
 bedrijfsfuncties: [economisch beleid, vergunningverlening]
+relaties:
+  - type: compositie
+    bedrijfsobject: "[[standplaats]]"
+    richting: "van-dit-BO"
+    kardinaliteit: "6..*"
+    beschrijving: Een warenmarkt bestaat uit 6 of meer standplaatsen
 ---
 
 ## BO-criteria toetsing

@@ -61,6 +61,11 @@ gemma_subtypes:
     ggm_entiteit: "Beschermde Status"
     ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
     ggm_attribuut: "type"
+  - naam: luidklok
+    omschrijving: "Klok in kerktoren, deels met eigen monumentstatus"
+    ggm_entiteit: ""
+    ggm_guid: ""
+    ggm_attribuut: ""
 bedrijfsprocessen: [Monumentenaanwijzing, Monumentenvergunning, Erfgoedtoezicht]
 bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
 relaties:
@@ -126,6 +131,7 @@ Herkende subtypes van monument. Geen aparte BO's — het zijn waarden van attrib
 | woonhuis | Beschermd woonhuis of grachtenpand | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
 | verdedigingswerk | Fort, muur of ander militair erfgoed (Waterlinie, Limes) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
 | openbare ruimte | Beschermd park, plantsoen of singel (Zocherplantsoen) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| luidklok | Klok in kerktoren, deels met eigen monumentstatus | — |
 
 ## Relaties
 

@@ -25,16 +25,14 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Overeenkomst tussen gemeente en bedrijf voor de inzameling van bedrijfsafval."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]"
+bedrijfsprocessen: [Bedrijfsafvalinzameling, Contractbeheer, Tariefvaststelling]
+bedrijfsfuncties: [Afvalbeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "betreft inzameling van afvalstromen"
-bedrijfsprocessen: [Bedrijfsafvalinzameling, Contractbeheer, Tariefvaststelling]
-bedrijfsfuncties: [Afvalbeheer]
+    beschrijving: betreft inzameling van afvalstromen
 ---
 
 ## BO-criteria toetsing

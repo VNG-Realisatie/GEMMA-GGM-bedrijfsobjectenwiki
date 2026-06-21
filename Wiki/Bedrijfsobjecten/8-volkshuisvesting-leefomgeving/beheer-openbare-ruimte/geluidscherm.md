@@ -2,52 +2,47 @@
 type: bedrijfsobject
 naam: Geluidscherm
 domein: [geluid]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Geluidsscherm
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Geluidsscherm"
 ggm_guid: EAID_DD64F32C_3273_4E23_9A61_FCC8EC93977
 ggm_uml_type: Class
-ggm_beleidsdomein: Beheer Openbare Ruimte
+ggm_beleidsdomein: "Beheer Openbare Ruimte"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
-ggm_diagram_ids: []
+ggm_diagram_ids: [EAPK_C3BA35EC_ABFA_4a7d_BEE9_07FF7563442D]
 ggm_definitie: "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. (IMGeo)"
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke constructie langs een weg of spoorlijn die geluidhinder voor de omgeving vermindert."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]]
+bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]
+bedrijfsfuncties: [beheer openbare ruimte, milieubeheer]
 relaties:
   - type: associatie
-    bedrijfsobject: [[Geluidbron]]
-    richting: van-dit-BO
+    bedrijfsobject: "[[Geluidbron]]"
+    richting: "van-dit-BO"
     kardinaliteit: "*..*"
     beschrijving: Schermt geluid van bronnen af
   - type: associatie
-    bedrijfsobject: [[Geluidgevoelig gebouw]]
-    richting: naar-dit-BO
+    bedrijfsobject: "[[Geluidgevoelig gebouw]]"
+    richting: "naar-dit-BO"
     kardinaliteit: "*..*"
     beschrijving: Beschermt geluidgevoelige gebouwen
   - type: generalisatie
     bedrijfsobject: Scheiding
-    richting: naar-dit-BO
-    kardinaliteit: "1"
+    richting: "naar-dit-BO"
+    kardinaliteit: 1
     beschrijving: Geluidscherm is een specialisatie van Scheiding (GGM)
-bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]
-bedrijfsfuncties: [beheer openbare ruimte, milieubeheer]
 ---
 
 ## BO-criteria toetsing

@@ -16,9 +16,9 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Evenement]] | object | Georganiseerde activiteit met publiek in de openbare ruimte | ✅ | 6/6 criteria, partiële GGM-match | Festival, braderie, sportevenement, stadsfeest | ja (OpenbareActiviteit) |
-| [[Evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
-| [[Evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement]] | object | Georganiseerde activiteit met publiek in de openbare ruimte | ✅ | 6/6 criteria, partiële GGM-match | Festival, braderie, sportevenement, stadsfeest | ja (OpenbareActiviteit) |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
 | locatieprofiel | instrument | Set van regels per locatie: evenementendagen, omvang, geluid, rust | ❌ | Governance-instrument, geen zelfstandig object | Profiel Maliebaan, profiel Griftpark | nee |
 | reserveringskalender | instrument | Jaarlijkse kalender met toegewezen evenementen per locatie/datum | ❌ | Planningsinstrument, geen registratieobject | Kalender 2025 | nee |
 | beoordelingscriteria | regel | Vier criteria voor verdeling bij overaanmelding | ❌ | Beleidsregels, geen object | Maatschappelijke waarde, inclusiviteit | nee |

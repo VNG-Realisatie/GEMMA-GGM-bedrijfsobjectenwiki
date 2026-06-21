@@ -34,7 +34,7 @@ relaties:
     kardinaliteit: "0..*"
     beschrijving: betreft een product of dienst
   - type: associatie
-    bedrijfsobject: "zaakdossier"
+    bedrijfsobject: zaakdossier
     richting: "van-dit-BO"
     kardinaliteit: 0..1
     beschrijving: heeft betrekking op een zaak

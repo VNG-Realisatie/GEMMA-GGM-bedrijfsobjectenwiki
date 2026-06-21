@@ -35,12 +35,12 @@ bedrijfsprocessen: [Zaakafhandeling, Klantcontactregistratie, Meldingenbeheer]
 bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
 relaties:
   - type: associatie
-    bedrijfsobject: "zaakdossier"
+    bedrijfsobject: zaakdossier
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: kan leiden tot een zaak
   - type: associatie
-    bedrijfsobject: "informatieobject"
+    bedrijfsobject: informatieobject
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: heeft documenten

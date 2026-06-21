@@ -3,58 +3,41 @@ type: bedrijfsobject
 naam: Container
 domein: [Milieu]
 archimate_type: "business-object"
-grondslag: ggm-entiteit
-ggm_entiteit: Container
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Container"
 ggm_guid: EAID_7D3D98F0_664C_4605_9D95_F68C88ECBA9A
 ggm_uml_type: Class
-ggm_beleidsdomein: Afval
+ggm_beleidsdomein: "Afval"
 ggm_taakveld: "7 Volksgezondheid en Milieu"
-ggm_diagram: ["Diagram Afval Ophalen"]
-ggm_diagram_ids: []
+ggm_diagram: [Diagram Afval Ophalen]
+ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38]
 ggm_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
+ggm_gemma_naam: "Container"
+ggm_gemma_guid: "a9b50546-d72d-4e60-8da5-184a27a626c5"
+ggm_gemma_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a9b50546-d72d-4e60-8da5-184a27a626c5"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Voorziening voor het gescheiden inzamelen van huishoudelijke afvalstoffen."
-gemma_subtypes:
-  - naam: Ondergrondse container
-    omschrijving: "Ingegraven container voor restafval of grondstoffen"
-    ggm_entiteit: Containertype
-    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
-    ggm_attribuut: naam
-  - naam: Kliko
-    omschrijving: "Minicontainer aan huis voor GFT, papier of PBP"
-    ggm_entiteit: Containertype
-    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
-    ggm_attribuut: naam
-  - naam: Citybin
-    omschrijving: "Draagbare afvalemmer voor GFE-inzameling bij hoogbouw"
-    ggm_entiteit: Containertype
-    ggm_guid: EAID_0A7769C7_FE3E_45eb_A644_22E5CB207B42
-    ggm_attribuut: naam
-bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]
 bedrijfsfuncties: [Afvalbeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
-    kardinaliteit: "1"
-    beschrijving: "geschikt voor één fractie"
+    kardinaliteit: 1
+    beschrijving: geschikt voor één fractie
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "staat op milieustraat"
+    beschrijving: staat op milieustraat
 ---
 
 ## BO-criteria toetsing

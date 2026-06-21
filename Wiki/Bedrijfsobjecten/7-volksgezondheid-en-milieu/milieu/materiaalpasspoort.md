@@ -25,17 +25,14 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Digitale vastlegging van de materialen in een gebouw of object in de openbare ruimte."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]"
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]"
+bedrijfsprocessen: [Circulair bouwen, Materiaalmatch, Aanbesteding]
+bedrijfsfuncties: [Vastgoedbeheer, Circulaire economie]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstoffendepot]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "informeert over beschikbare materialen"
-bedrijfsprocessen: [Circulair bouwen, Materiaalmatch, Aanbesteding]
-bedrijfsfuncties: [Vastgoedbeheer, Circulaire economie]
+    beschrijving: informeert over beschikbare materialen
 ---
 
 > **ter discussie** — Type is "instrument": een digitaal registratie-instrument in plaats van een fysiek object. Het team moet beoordelen of dit een BO is.

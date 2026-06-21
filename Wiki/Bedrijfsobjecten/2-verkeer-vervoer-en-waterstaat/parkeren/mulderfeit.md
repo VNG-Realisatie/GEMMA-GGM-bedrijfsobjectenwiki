@@ -2,13 +2,12 @@
 type: bedrijfsobject
 naam: MulderFeit
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: MulderFeit
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "MulderFeit"
 ggm_guid: EAID_4EA4D754_FAD7_4caf_8060_342689EC16FE
 ggm_uml_type: Class
-ggm_beleidsdomein: Parkeren
+ggm_beleidsdomein: "Parkeren"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
@@ -16,7 +15,6 @@ ggm_definitie: "Een administratieve overtreding met betrekking tot parkeren, zoa
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,18 +24,15 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Administratieve parkeerovertreding onder de Wet Mulder (WAHV)."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
+bedrijfsfuncties: [Parkeerbeleid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
-    richting: van-dit-BO
-    kardinaliteit: "1..1"
+    richting: "van-dit-BO"
+    kardinaliteit: 1..1
     beschrijving: MulderFeit betreft een voertuig
-bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
-bedrijfsfuncties: [Parkeerbeleid]
 ---
 
 # MulderFeit

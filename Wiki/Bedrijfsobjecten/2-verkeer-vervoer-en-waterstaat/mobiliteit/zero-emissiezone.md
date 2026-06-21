@@ -1,22 +1,20 @@
 ---
 type: bedrijfsobject
-naam: Zero-emissiezone
+naam: "Zero-emissiezone"
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: governance-object
-
+archimate_type: "business-object"
+grondslag: "governance-object"
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,28 +24,25 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Milieubeleid, Goederenvervoerbeleid, Handhaving]
+bedrijfsfuncties: [Verkeersmanagement, Milieubeleid]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: Zero-emissiezone wordt ontsloten door logistieke routes
+    beschrijving: "Zero-emissiezone wordt ontsloten door logistieke routes"
   - type: associatie
-    bedrijfsobject: Laad- en Losplaats
+    bedrijfsobject: "Laad- en Losplaats"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: Zero-emissiezone bevat laad- en losplaatsen
+    beschrijving: "Zero-emissiezone bevat laad- en losplaatsen"
   - type: associatie
     bedrijfsobject: Verkeersbesluit
     richting: "naar-dit-BO"
-    kardinaliteit: "1"
+    kardinaliteit: 1
     beschrijving: Zone wordt ingesteld via een verkeersbesluit
-bedrijfsprocessen: [Milieubeleid, Goederenvervoerbeleid, Handhaving]
-bedrijfsfuncties: [Verkeersmanagement, Milieubeleid]
 ---
 
 # Zero-emissiezone

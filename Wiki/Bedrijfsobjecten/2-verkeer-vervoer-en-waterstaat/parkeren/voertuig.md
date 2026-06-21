@@ -2,13 +2,12 @@
 type: bedrijfsobject
 naam: Voertuig
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Voertuig
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Voertuig"
 ggm_guid: EAID_6AD98160_FFE6_4105_A724_5D5733C87CD8
 ggm_uml_type: Class
-ggm_beleidsdomein: Parkeren
+ggm_beleidsdomein: "Parkeren"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Objecten bij Vergunningaanvraag, Model Parkeren]
 ggm_diagram_ids: [EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E, EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
@@ -16,33 +15,29 @@ ggm_definitie: "Vervoermiddel bestemd voor het verkeer over wegen"
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: "Voertuig"
-ggm_gemma_guid: b083bd60-0137-40b0-ad72-4602b3c1d754
+ggm_gemma_guid: "b083bd60-0137-40b0-ad72-4602b3c1d754"
 ggm_gemma_definitie: "Vervoermiddel bestemd voor het verkeer over wegen"
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b083bd60-0137-40b0-ad72-4602b3c1d754"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "gelijk aan GGM"
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
+bedrijfsfuncties: [Parkeerbeleid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeerrecht]]"
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Voertuig heeft parkeerrechten
   - type: associatie
     bedrijfsobject: "[[Parkeerscan]]"
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Voertuig wordt waargenomen door parkeerscan
-bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
-bedrijfsfuncties: [Parkeerbeleid]
 ---
 
 # Voertuig

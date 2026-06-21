@@ -2,7 +2,7 @@
 type: bedrijfsobject
 naam: Verwerkingscontract
 domein: [Milieu]
-archimate_type: "contract"
+archimate_type: contract
 grondslag: procesobject
 ggm_entiteit: ""
 ggm_beleidsdomein: ""
@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Overeenkomst met een verwerker voor de inzameling of verwerking van afval- en grondstofstromen."
-bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 bedrijfsprocessen: [Aanbesteding afvalverwerking, Contractbeheer]
 bedrijfsfuncties: [Afvalbeheer, Inkoop]
 relaties:
@@ -33,7 +32,7 @@ relaties:
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "betreft verwerking van grondstofstromen"
+    beschrijving: betreft verwerking van grondstofstromen
 ---
 
 ## BO-criteria toetsing

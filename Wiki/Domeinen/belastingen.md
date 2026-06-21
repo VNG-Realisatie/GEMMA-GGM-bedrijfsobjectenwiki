@@ -71,8 +71,8 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
 | [[naheffingsaanslag]] | object | Aanslag bij niet/te weinig betalen parkeerbelasting | ✅ | 6/6 criteria, exact GGM-match (Naheffing) | Parkeerboete €70 | ja |
-| [[parkeervergunning]] | object | Vergunning om te parkeren in aangewezen gebied | ✅ | 6/6 criteria, exact GGM-match | Bewonersvergunning zone A | ja |
-| [[parkeerrecht]] | object | Recht op parkeren na betaling | ✅ | 6/6 criteria, exact GGM-match | Parkeerticket 2 uur | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning]] | object | Vergunning om te parkeren in aangewezen gebied | ✅ | 6/6 criteria, exact GGM-match | Bewonersvergunning zone A | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht]] | object | Recht op parkeren na betaling | ✅ | 6/6 criteria, exact GGM-match | Parkeerticket 2 uur | ja |
 
 ## GGM-dekkingsanalyse
 

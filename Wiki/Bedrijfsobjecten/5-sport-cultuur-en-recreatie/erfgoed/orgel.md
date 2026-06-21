@@ -3,12 +3,12 @@ type: bedrijfsobject
 naam: Orgel
 domein: [Cultuur]
 archimate_type: "business-object"
-grondslag: "procesobject"
+grondslag: procesobject
 ggm_entiteit: ""
+ggm_beleidsdomein: "Monumenten"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: "Monumenten"
-ggm_taakveld: "Erfgoed"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
@@ -25,17 +25,14 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw, met eigen beschermingsstatus en eigen levenscyclus onafhankelijk van het gebouw."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
-  - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
+bedrijfsprocessen: [Monumentenaanwijzing, Erfgoedtoezicht, Herbestemming kerkgebouw]
+bedrijfsfuncties: [Erfgoedbeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Een monument (kerkgebouw) kan een of meer orgels bevatten
-bedrijfsprocessen: [Monumentenaanwijzing, Erfgoedtoezicht, Herbestemming kerkgebouw]
-bedrijfsfuncties: [Erfgoedbeheer]
 ---
 
 # Orgel

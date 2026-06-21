@@ -3,29 +3,28 @@ type: bedrijfsobject
 naam: Afvalstoffenheffing
 domein: [Milieu]
 archimate_type: "business-object"
-grondslag: ggm-entiteit
-ggm_entiteit: Prijsafspraak
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Prijsafspraak"
 ggm_guid: EAID_21BBA828_AAE0_4785_9E44_45C1B866C882
 ggm_uml_type: Class
-ggm_beleidsdomein: Afval
+ggm_beleidsdomein: "Afval"
 ggm_taakveld: "7 Volksgezondheid en Milieu"
-ggm_diagram: ["Diagram Afval Ophalen"]
-ggm_diagram_ids: []
-ggm_definitie: "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."
+ggm_diagram: [Diagram Afval Ophalen]
+ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38]
+ggm_definitie: "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten. "
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
+ggm_gemma_naam: "Prijsafspraak"
+ggm_gemma_guid: "343e027e-16c9-43d7-8b90-891aaf9c4b70"
+ggm_gemma_definitie: "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-343e027e-16c9-43d7-8b90-891aaf9c4b70"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
-bronnen: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 bedrijfsprocessen: [Tariefvaststelling, Belastinginning, Kostenverdeling afvalbeheer]
 bedrijfsfuncties: [Afvalbeheer, Belastingheffing]
 relaties:
@@ -33,7 +32,7 @@ relaties:
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "kosten per grondstofstroom"
+    beschrijving: kosten per grondstofstroom
 ---
 
 ## BO-criteria toetsing

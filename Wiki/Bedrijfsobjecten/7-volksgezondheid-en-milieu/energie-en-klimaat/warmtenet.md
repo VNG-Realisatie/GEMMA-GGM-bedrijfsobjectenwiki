@@ -2,43 +2,37 @@
 type: bedrijfsobject
 naam: Warmtenet
 domein: [Energie en Klimaat]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
-gemma_definitie: Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied.
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]]
-  - [[Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving]]
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: "Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied."
+bedrijfsprocessen: [warmtetransitie, buurtaanpak aardgasvrij, verduurzaming stadsverwarming]
+bedrijfsfuncties: [energiebeleid, gebiedsontwikkeling]
 relaties:
   - type: associatie
-    bedrijfsobject: [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]]
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]]"
     richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: Warmtenet kan warmte ontvangen uit opwekgebieden; opwekgebied kan warmtenet voeden
-bedrijfsprocessen: [warmtetransitie, buurtaanpak aardgasvrij, verduurzaming stadsverwarming]
-bedrijfsfuncties: [energiebeleid, gebiedsontwikkeling]
 ---
 
 ## BO-criteria toetsing

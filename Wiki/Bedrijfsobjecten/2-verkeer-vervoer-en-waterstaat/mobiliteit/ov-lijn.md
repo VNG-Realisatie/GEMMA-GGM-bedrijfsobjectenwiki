@@ -1,22 +1,20 @@
 ---
 type: bedrijfsobject
-naam: OV-lijn
+naam: "OV-lijn"
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,24 +24,12 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers."
-gemma_subtypes:
-  - naam: Tramlijn
-    omschrijving: "OV-lijn uitgevoerd met tram over een vast railtraject"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-  - naam: Buslijn
-    omschrijving: "OV-lijn uitgevoerd met bus over de weg"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [OV-beleid, Concessiebeheer]
+bedrijfsfuncties: [Openbaar vervoer]
 relaties:
   - type: associatie
-    bedrijfsobject: OV-knooppunt
+    bedrijfsobject: "OV-knooppunt"
     richting: "van-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: Lijn passeert een of meer knooppunten
@@ -52,8 +38,6 @@ relaties:
     richting: "van-dit-BO"
     kardinaliteit: "2..*"
     beschrijving: Lijn heeft meerdere haltes
-bedrijfsprocessen: [OV-beleid, Concessiebeheer]
-bedrijfsfuncties: [Openbaar vervoer]
 ---
 
 # OV-lijn

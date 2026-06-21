@@ -2,47 +2,42 @@
 type: bedrijfsobject
 naam: Stil gebied
 domein: [geluid]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend gebied in de gemeente dat de gemeente beschermt vanwege de relatieve rust en afwezigheid van nadrukkelijk omgevingsgeluid."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]]
+bedrijfsprocessen: [actieplan geluid, geluidkartering, ruimtelijke planvorming]
+bedrijfsfuncties: [milieubeheer, groenbeheer, ruimtelijke ordening]
 relaties:
   - type: associatie
-    bedrijfsobject: [[Geluidgevoelig gebouw]]
-    richting: naar-dit-BO
+    bedrijfsobject: "[[Geluidgevoelig gebouw]]"
+    richting: "naar-dit-BO"
     kardinaliteit: "*..*"
     beschrijving: Geluidgevoelige gebouwen profiteren van stille gebieden
   - type: associatie
-    bedrijfsobject: [[Geluidbron]]
-    richting: van-dit-BO
+    bedrijfsobject: "[[Geluidbron]]"
+    richting: "van-dit-BO"
     kardinaliteit: "*..*"
     beschrijving: Stille gebieden worden bedreigd door geluidbronnen
-bedrijfsprocessen: [actieplan geluid, geluidkartering, ruimtelijke planvorming]
-bedrijfsfuncties: [milieubeheer, groenbeheer, ruimtelijke ordening]
 ---
 
 ## BO-criteria toetsing

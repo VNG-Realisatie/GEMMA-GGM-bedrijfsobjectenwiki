@@ -2,49 +2,37 @@
 type: bedrijfsobject
 naam: Evenementenlocatie
 domein: [evenementen]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
-gemma_toelichting: "Parken en pleinen met een locatieprofiel dat regels vastlegt voor aantal evenementendagen, omvang, duur, geluidsnormen en rustperiodes."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
-    bedrijfsobject: [[Evenement]]
-    richting: naar-dit-BO
+    bedrijfsobject: "[[Evenement]]"
+    richting: "naar-dit-BO"
     kardinaliteit: "*..*"
-    beschrijving: "Evenementen vinden plaats op evenementenlocaties"
-bedrijfsprocessen:
-  - Opstellen locatieprofielen
-  - Reserveringskalender beheren
-  - Onderzoek flora/fauna en bodem/bomen
-  - Onderhoud en verbetering locaties
-bedrijfsfuncties:
-  - Evenementenbeheer
-  - Beheer openbare ruimte
+    beschrijving: Evenementen vinden plaats op evenementenlocaties
 ---
 
 ## BO-criteria toetsing

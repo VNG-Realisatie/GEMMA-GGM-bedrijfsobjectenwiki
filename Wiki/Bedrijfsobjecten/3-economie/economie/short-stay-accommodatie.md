@@ -2,44 +2,37 @@
 type: bedrijfsobject
 naam: Short Stay Accommodatie
 domein: [Economie]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Accommodatie voor bedrijfsmatig logies van minimaal twee weken tot maximaal zes maanden, gericht op internationale kenniswerkers en studenten."
-gemma_toelichting: "De gemeente hanteert capaciteitsgrenzen (300 eenheden kenniswerkers, 780 studenten), minimale ruimtenormen (18 m² GBO) en maximale huurprijzen. Exploitatie vereist aanmelding op basis van beschikbare ruimte."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht]]
-  - [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht]]
+bedrijfsprocessen: [short stay vergunningverlening, monitoring woningvoorraad]
+bedrijfsfuncties: [vergunningverlening, economisch beleid, woonbeleid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"
-    richting: naar-dit-BO
-    kardinaliteit: "0..1"
-    beschrijving: "Short stay kan door een horecabedrijf of vastgoedexploitant worden aangeboden"
-bedrijfsprocessen: [short stay vergunningverlening, monitoring woningvoorraad]
-bedrijfsfuncties: [vergunningverlening, economisch beleid, woonbeleid]
+    richting: "naar-dit-BO"
+    kardinaliteit: 0..1
+    beschrijving: Short stay kan door een horecabedrijf of vastgoedexploitant worden aangeboden
 ---
 
 ## BO-criteria toetsing

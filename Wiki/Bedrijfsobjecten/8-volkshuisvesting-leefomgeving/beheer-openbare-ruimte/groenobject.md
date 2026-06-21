@@ -25,23 +25,19 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-360b8000-41ce-453f-bed
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend stuk terrein met aaneengesloten vegetatie dat de gemeente beheert als onderdeel van de stedelijke groenstructuur."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]"
-  - "[[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]"
-  - "[[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]"
+bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
+bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"
-    kardinaliteit:
+    kardinaliteit: 
     beschrijving: Groenobject is een specialisatie van Beheerobject
   - type: associatie
     bedrijfsobject: "[[Boom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Een groenobject kan meerdere bomen bevatten
-bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
-bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
 ---
 
 ## BO-criteria toetsing

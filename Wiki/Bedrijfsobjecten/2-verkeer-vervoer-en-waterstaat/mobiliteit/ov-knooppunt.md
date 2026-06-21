@@ -1,22 +1,20 @@
 ---
 type: bedrijfsobject
-naam: OV-knooppunt
+naam: "OV-knooppunt"
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,38 +24,35 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [OV-beleid, Verkeersmanagement, Ruimtelijke ordening]
+bedrijfsfuncties: [Openbaar vervoer, Verkeersmanagement]
 relaties:
   - type: associatie
-    bedrijfsobject: OV-lijn
+    bedrijfsobject: "OV-lijn"
     richting: "van-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: Knooppunt is kruising van OV-lijnen
+    beschrijving: "Knooppunt is kruising van OV-lijnen"
   - type: associatie
     bedrijfsobject: Halte
     richting: "van-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: Knooppunt bevat een of meer haltes
   - type: associatie
-    bedrijfsobject: P+R-locatie
+    bedrijfsobject: "P+R-locatie"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: P+R-locatie bij OV-knooppunt
+    beschrijving: "P+R-locatie bij OV-knooppunt"
   - type: associatie
     bedrijfsobject: Mobiliteitshub
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: Mobiliteitshub bij OV-knooppunt
+    beschrijving: "Mobiliteitshub bij OV-knooppunt"
   - type: associatie
     bedrijfsobject: Hoofdfietsroute
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Fietsroute verbindt met knooppunt
-bedrijfsprocessen: [OV-beleid, Verkeersmanagement, Ruimtelijke ordening]
-bedrijfsfuncties: [Openbaar vervoer, Verkeersmanagement]
 ---
 
 # OV-knooppunt

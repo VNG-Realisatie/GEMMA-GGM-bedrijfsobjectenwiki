@@ -2,43 +2,37 @@
 type: bedrijfsobject
 naam: Opwekgebied
 domein: [Energie en Klimaat]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
-ggm_entiteit:
-ggm_guid:
-ggm_uml_type:
-ggm_beleidsdomein:
-ggm_taakveld:
+ggm_entiteit: ""
+ggm_beleidsdomein: ""
+ggm_guid: ""
+ggm_uml_type: ""
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie:
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst:
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
-gemma_definitie: Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan.
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]]
-  - [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie]]
+ggm_definitie: ""
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
+gemma_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
+bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
+bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
 relaties:
   - type: associatie
-    bedrijfsobject: [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]"
     richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: Opwekgebied kan warmtenet voeden; warmtenet kan warmte ontvangen uit opwekgebied
-bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
-bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
 ---
 
 ## BO-criteria toetsing
@@ -65,6 +59,15 @@ De keuze voor opwekgebieden gebeurt in samenspraak met de Regionale Energiestrat
 
 > "De afspraken in de RES leggen we vast in het omgevingsbeleid van onze gemeente."
 > (bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht|Energiebeleid Utrecht]])
+
+## Specialisaties
+
+| Subtype | Omschrijving | GGM-entiteit |
+|---|---|---|
+| Zonneveld | Terrein met zonnepanelen voor grootschalige opwek van zonne-energie | — |
+| Windlocatie | Locatie aangewezen voor plaatsing van windturbines | — |
+
+Beide subtypes vallen onder hetzelfde aanwijzingsbesluit en beleidskader (beleidsnota Opwekgebieden). Het onderscheid is het type opwek; de processen (aanwijzing, vergunning, monitoring) zijn identiek.
 
 ## Procesbron
 

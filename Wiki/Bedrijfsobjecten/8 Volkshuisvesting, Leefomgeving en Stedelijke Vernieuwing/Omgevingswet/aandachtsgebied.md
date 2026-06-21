@@ -2,72 +2,42 @@
 type: bedrijfsobject
 naam: Aandachtsgebied
 domein: [gevaarlijke-stoffen]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Gebiedsaanwijzing
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Gebiedsaanwijzing"
 ggm_guid: EAID_503BD06E_E063_46f2_8B43_BF75A143D6C4
 ggm_uml_type: Class
-ggm_beleidsdomein: Omgevingswet
+ggm_beleidsdomein: "Omgevingswet"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram:
-  - Omgevingswet Verzoek Activiteit op Locatie
-  - Omgevingswet Juridische Regels (CIMOW)
-ggm_diagram_ids:
-  - EAID_30B09C29_F649_4248_97FC_35A5F9331BBF
-  - EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0
+ggm_diagram: [Omgevingswet Verzoek Activiteit op Locatie, Omgevingswet Juridische Regels (CIMOW)]
+ggm_diagram_ids: [EAID_30B09C29_F649_4248_97FC_35A5F9331BBF, EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0]
 ggm_definitie: "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels."
-ggm_toelichting: "Voorbeeld: bebouwde kom. In spreektaal: dit gebied is aangewezen als bebouwde kom en dit is de functie van dit gebied."
+ggm_toelichting: "Voorbeeld: bebouwde kom. In spreektaal: dit gebied is aangewezen als bebouwde kom en dit is de functie van dit gebied. Informatiekundig: een aangewezen gebied met de naam bebouwde kom heeft een locatieaanduiding naar een locatie/gebied. Deze locatieaandui"
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
-ggm_gemma_naam: Gebiedsaanwijzing
-ggm_gemma_guid: 8ffff080-afa5-43cf-a1dc-1ab2052f20ac
+ggm_gemma_naam: "Gebiedsaanwijzing"
+ggm_gemma_guid: "8ffff080-afa5-43cf-a1dc-1ab2052f20ac"
 ggm_gemma_definitie: "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels."
-ggm_gemma_toelichting: "Voorbeeld: bebouwde kom."
+ggm_gemma_toelichting: "Voorbeeld: bebouwde kom. In spreektaal: dit gebied is aangewezen als bebouwde kom en dit is de functie van dit gebied. Informatiekundig: een aangewezen gebied met de naam bebouwde kom heeft een locatieaanduiding naar een locatie/gebied. Deze locatieaandui"
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Ruimtelijk gebied rond een risicobron dat zichtbaar maakt waar mensen binnenshuis onvoldoende beschermd zijn tegen de gevolgen van een incident met gevaarlijke stoffen."
-gemma_subtypes:
-  - naam: Brandaandachtsgebied
-    omschrijving: "Gebied waarbinnen mensen slachtoffer kunnen worden van warmtestraling (brand)"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-  - naam: Explosieaandachtsgebied
-    omschrijving: "Gebied waarbinnen mensen slachtoffer kunnen worden van overdruk (explosie)"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-  - naam: Gifwolkaandachtsgebied
-    omschrijving: "Gebied waarbinnen mensen slachtoffer kunnen worden van giftige stoffen in de lucht"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]"
+bedrijfsprocessen: ""
+bedrijfsfuncties: ""
 relaties:
   - type: associatie
     bedrijfsobject: "[[Risicobron]]"
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "Een aandachtsgebied hoort bij een risicobron"
+    beschrijving: Een aandachtsgebied hoort bij een risicobron
   - type: compositie
     bedrijfsobject: "[[Voorschriftengebied]]"
-    richting: van-dit-BO
-    kardinaliteit: "0..1"
-    beschrijving: "Een voorschriftengebied is een (deel van een) aandachtsgebied"
-bedrijfsprocessen:
-  - Advisering ruimtelijke ontwikkelingen
-  - Opstellen omgevingsplan
-  - Afweging groepsrisico
-bedrijfsfuncties:
-  - Omgevingsveiligheid
-  - Ruimtelijke ordening
+    richting: "van-dit-BO"
+    kardinaliteit: 0..1
+    beschrijving: Een voorschriftengebied is een (deel van een) aandachtsgebied
 ---
 
 ## BO-criteria toetsing

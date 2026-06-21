@@ -2,43 +2,37 @@
 type: bedrijfsobject
 naam: Standplaats
 domein: [Economie]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Standplaats
-ggm_guid: EAID_98F3132E_F97A_4f49_B4F5_28618BB693F8
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Standplaats"
+ggm_guid: EAID_B1C6CA45_49C9_45f0_8B14_A721AD505C50
 ggm_uml_type: Class
-ggm_beleidsdomein: Musea
-ggm_taakveld: "5 Sport, Cultuur en Recreatie"
+ggm_beleidsdomein: "RSGBPlus"
+ggm_taakveld: "99 Kern"
 ggm_diagram: []
-ggm_diagram_ids: []
-ggm_definitie: "vanaf een vaste locatie te koop aanbieden, verkopen of afleveren van goederen of aanbieden van diensten, gebruikmakend van fysieke middelen zoals een kraam, een wagen of een tafel"
-ggm_toelichting:
-ggm_synoniemen:
-ggm_herkomst: GGM
-
-ggm_gemma_naam:
-ggm_gemma_guid:
-ggm_gemma_definitie:
-ggm_gemma_toelichting:
-ggm_gemma_synoniemen:
-ggm_gemma_type:
-ggm_gemma_url:
-ggm_gemma_bron:
-ggm_gemma_alternate_name:
-
+ggm_diagram_ids: [EAPK_58A5214F_E56C_4707_BE2D_AB36DD6976A3]
+ggm_definitie: "Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon -, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte."
+ggm_toelichting: ""
+ggm_synoniemen: ""
+ggm_herkomst: ""
+ggm_gemma_naam: ""
+ggm_gemma_guid: ""
+ggm_gemma_definitie: ""
+ggm_gemma_toelichting: ""
+ggm_gemma_synoniemen: ""
+ggm_gemma_type: ""
+ggm_gemma_url: ""
+ggm_gemma_bron: ""
+ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie in de openbare ruimte waar goederen of diensten te koop worden aangeboden met verplaatsbare fysieke middelen, gereguleerd via de APV."
-bronnen:
-  - [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012]]
-  - [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015]]
-relaties:
-  - type: compositie
-    bedrijfsobject: [[warenmarkt]]
-    richting: naar-dit-BO
-    kardinaliteit: "0..*"
-    beschrijving: "Een warenmarkt bestaat uit 6 of meer standplaatsen"
 bedrijfsprocessen: [standplaatsvergunningverlening, branchering ambulante handel, monitoring detailhandel]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
+relaties:
+  - type: compositie
+    bedrijfsobject: "[[warenmarkt]]"
+    richting: "naar-dit-BO"
+    kardinaliteit: "0..*"
+    beschrijving: Een warenmarkt bestaat uit 6 of meer standplaatsen
 ---
 
 ## BO-criteria toetsing

@@ -2,57 +2,52 @@
 type: bedrijfsobject
 naam: Parkeerzone
 domein: [mobiliteit]
-archimate_type: business-object
-grondslag: ggm-entiteit
-
-ggm_entiteit: Parkeerzone
+archimate_type: "business-object"
+grondslag: "ggm-entiteit"
+ggm_entiteit: "Parkeerzone"
 ggm_guid: EAID_27219A32_3B52_4f54_AA67_A972F4B7D9D0
 ggm_uml_type: Class
-ggm_beleidsdomein: Parkeren
+ggm_beleidsdomein: "Parkeren"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
-ggm_definitie: "Een afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden van toepassing zijn."
+ggm_definitie: "Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn."
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: "Perkeerzone"
-ggm_gemma_guid: e5293eea-47b8-4091-8ac3-b28139a17c9f
-ggm_gemma_definitie: "Een afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden van toepassing zijn."
+ggm_gemma_guid: "e5293eea-47b8-4091-8ac3-b28139a17c9f"
+ggm_gemma_definitie: ""
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5293eea-47b8-4091-8ac3-b28139a17c9f"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden gelden."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
+bedrijfsfuncties: [Parkeerbeleid]
 relaties:
   - type: compositie
     bedrijfsobject: "[[Parkeervlak]]"
-    richting: van-dit-BO
+    richting: "van-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: Parkeerzone bevat parkeervlakken
   - type: generalisatie
     bedrijfsobject: "[[Parkeergarage]]"
-    richting: naar-dit-BO
-    kardinaliteit: ""
+    richting: "naar-dit-BO"
+    kardinaliteit: 
     beschrijving: Parkeergarage is specialisatie van Parkeerzone
   - type: associatie
     bedrijfsobject: "[[Parkeervergunning]]"
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Parkeervergunning geldt binnen een parkeerzone
   - type: associatie
     bedrijfsobject: "[[Parkeerrecht]]"
-    richting: naar-dit-BO
+    richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Parkeerrecht is gekoppeld aan een parkeerzone
-bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
-bedrijfsfuncties: [Parkeerbeleid]
 ---
 
 # Parkeerzone

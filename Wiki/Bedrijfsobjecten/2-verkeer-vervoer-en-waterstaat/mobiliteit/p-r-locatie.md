@@ -1,22 +1,20 @@
 ---
 type: bedrijfsobject
-naam: P+R-locatie
+naam: "P+R-locatie"
 domein: [mobiliteit]
-archimate_type: business-object
+archimate_type: "business-object"
 grondslag: procesobject
-
 ggm_entiteit: ""
+ggm_beleidsdomein: "Mobiliteit"
 ggm_guid: ""
 ggm_uml_type: ""
-ggm_beleidsdomein: Mobiliteit
-ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
+ggm_taakveld: ""
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: ""
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
-
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
@@ -26,33 +24,30 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-
 gemma_definitie: "Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
+bedrijfsprocessen: [Parkeerbeleid, Mobiliteitsmanagement, OV-beleid]
+bedrijfsfuncties: [Verkeersmanagement, Parkeerbeleid]
 relaties:
   - type: associatie
-    bedrijfsobject: OV-knooppunt
+    bedrijfsobject: "OV-knooppunt"
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: P+R-locatie bij OV-knooppunt
+    kardinaliteit: 0..1
+    beschrijving: "P+R-locatie bij OV-knooppunt"
   - type: associatie
     bedrijfsobject: Mobiliteitshub
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: P+R-locatie kan onderdeel zijn van een mobiliteitshub
+    kardinaliteit: 0..1
+    beschrijving: "P+R-locatie kan onderdeel zijn van een mobiliteitshub"
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]]"
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: P+R-locatie kan een parkeergarage bevatten
+    kardinaliteit: 0..1
+    beschrijving: "P+R-locatie kan een parkeergarage bevatten"
   - type: associatie
     bedrijfsobject: Hoofdfietsroute
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: Fietsroute verbindt met P+R-locatie
-bedrijfsprocessen: [Parkeerbeleid, Mobiliteitsmanagement, OV-beleid]
-bedrijfsfuncties: [Verkeersmanagement, Parkeerbeleid]
+    beschrijving: "Fietsroute verbindt met P+R-locatie"
 ---
 
 # P+R-locatie

@@ -14,7 +14,7 @@
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie: bodemkwaliteit, verontreinigingen, containers, grondstofstromen, milieustraten, upcyclecentra (in behandeling, 16 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
-- [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie: warmtenetten, opwekgebieden, besparing, netcongestie (in behandeling, 2 BO's)
+- [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
 - [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
 - [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
@@ -99,6 +99,7 @@
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|opwekgebied]] — Aangewezen gebied voor grootschalige opwek van duurzame energie (zon/wind)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek|koelteplek]] — Groene verblijfsplek ≥200 m² met verkoelende functie, doelstelling binnen 200m loopafstand
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
@@ -288,6 +289,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/rubriek-energie-en-klimaat|VNG-rubriek Energie en Klimaat]] — VNG: kader energietransitie, randvoorwaarden, Energiewet
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie|VNG — Opwekken duurzame energie]] — VNG: RES, wind op land, zon, Voorkeursvolgorde
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving|VNG — Verduurzaming gebouwde omgeving]] — VNG: warmtetransitie, isolatie, Wgiw, Wcw, NIP
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrecht|Visie Klimaatadaptatie Utrecht]] — Gemeente Utrecht: beleidskader klimaatadaptatie (hitte, water, droogte, overstroming)
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/ontwerpvisie-klimaatneutraal|Ontwerpvisie Utrecht Klimaatneutraal 2026-2050]] — Gemeente Utrecht: overkoepelende klimaatvisie (mitigatie, transitiepaden)
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie]] — Gemeente Utrecht: aanbiedingsbrief met context en praktijkvoorbeelden
 
 ### Evenementen
 - [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Locatiebeleid evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)

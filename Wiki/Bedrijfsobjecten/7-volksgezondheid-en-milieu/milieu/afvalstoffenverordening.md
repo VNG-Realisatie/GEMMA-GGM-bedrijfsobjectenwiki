@@ -3,7 +3,7 @@ type: bedrijfsobject
 naam: Afvalstoffenverordening
 domein: [Milieu]
 archimate_type: "business-object"
-grondslag: governance-object
+grondslag: "governance-object"
 ggm_entiteit: ""
 ggm_beleidsdomein: ""
 ggm_guid: ""
@@ -25,21 +25,19 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke verordening met regels voor inzameling en beheer van huishoudelijke afvalstoffen."
-bronnen:
-  - "[[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]"
+bedrijfsprocessen: [Verordeningsvaststelling, Handhaving afvalbeleid]
+bedrijfsfuncties: [Afvalbeheer, Regelgeving]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: "regelt inzameling per stroom"
+    beschrijving: regelt inzameling per stroom
   - type: associatie
     bedrijfsobject: "[[Afvalstoffenheffing]]"
     richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: "grondslag voor heffing"
-bedrijfsprocessen: [Verordeningsvaststelling, Handhaving afvalbeleid]
-bedrijfsfuncties: [Afvalbeheer, Regelgeving]
+    kardinaliteit: 0..1
+    beschrijving: grondslag voor heffing
 ---
 
 > **ter discussie** — Type is governance-object. Het team moet beoordelen of governance-instrumenten als BO worden opgenomen.

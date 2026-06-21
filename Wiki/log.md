@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-06-20] ingest | Klimaatverandering (1 BO, 3 bronsamenvattingen)
+- Bronnen: 5 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl/thematisch-beleid/beleid-voor-klimaatverandering + 3 PDF's via iBabs + 1 subpagina). 2 summiere webpagina's niet apart samengevat (overzichtspagina's).
+- 3 bronsamenvattingen aangemaakt: visie-klimaatadaptatie-utrecht, ontwerpvisie-klimaatneutraal, raadsbrief-klimaatneutraal
+- **1 nieuw BO aangemaakt:**
+  - **Koelteplek** — procesobject, GGM-hiaat. Groene verblijfsplek ≥200 m², doelstelling binnen 200m loopafstand.
+- Bestaande BO's in andere domeinen bevestigd vanuit klimaatbronnen: zero-emissiezone (mobiliteit), laadpaal (mobiliteit), bodemenergiesysteem (milieu)
+- Domeinoverzicht uitgebreid met 10 nieuwe begrippen (klimaatadaptatie-thema's) en cross-domein verwijzingen
+- WKO-installatie als subtype van bodemenergiesysteem genoteerd; wadi geparkeerd voor domein openbare ruimte
+
 ## [2026-06-20] ingest | Horeca, hotels en short stay (5 BO's, 1 GGM-match)
 - Bronnen: 7 bestanden opgehaald via /fetch (omgevingsvisie.utrecht.nl/thematisch-beleid/horeca + 1 PDF + 5 gelinkte HTML-pagina's). 2 dunne iBabs-stubs naar Niet-relevant. Fetch-skill bijgewerkt: haalt nu ook HTML-links 1 level diep op.
 - 5 bronsamenvattingen aangemaakt: horecabeleid-utrecht, actualisatie-marktruimte-hotelnota, beleidsregels-terrassen-utrecht, beleidsregel-hotels-utrecht, beleidsregels-short-stay-utrecht
