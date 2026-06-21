@@ -25,7 +25,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "gelijk aan GGM"
+gemma_definitie: "Individueel geregistreerd en beheerd houtachtig gewas in de openbare ruimte, met eigen levenscyclus van aanplant tot kap."
 bedrijfsprocessen: [Bomenbeheer, Kapvergunningverlening, Boomveiligheid-inspectie (VTA), Verplanting, Herplant]
 bedrijfsfuncties: [Groenbeheer, Vergunningverlening, Openbare ruimte]
 relaties:

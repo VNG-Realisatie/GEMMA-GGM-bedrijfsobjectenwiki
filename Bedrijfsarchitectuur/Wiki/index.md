@@ -12,7 +12,7 @@
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit: milieuzones, meetpunten, zones, bodemkwaliteit, containers, grondstofstromen (in behandeling, 23 BO's)
-- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, water, kunstwerken (in behandeling, 3 BO's)
+- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen (in behandeling, 8 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
@@ -20,6 +20,7 @@
 - [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
 - [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 26 BO's)
+- [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 
 ## Bedrijfsobjecten
 
@@ -95,6 +96,11 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (110.000+ in Utrecht)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel van de groenstructuur (GGM exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (GGM Ecoduct, sterk)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]] — Verharde lagen van wegen, fietspaden en voetpaden (GGM exact, levensduur 40 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]] — Civiele constructie: bruggen, viaducten, kademuren (GGM exact, levensduur 50-70 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]] — Paal of mast voor openbare verlichting (GGM exact, levensduur 25 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speeltoestel|Speeltoestel]] — Toestel voor kinderen met certificering en veiligheidsklasse (GGM exact, levensduur 15 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
@@ -191,6 +197,9 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt|walstroompunt]] — Fysiek aansluitpunt voor walstroom aan scheepvaart
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling|sloopregeling]] — Subsidieregeling bij milieuzone-aanscherping (⚠️ instrument, ter discussie)
 
+### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
+
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
@@ -278,6 +287,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Beheer Openbare Ruimte
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009/2018)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer Openbare Ruimte]] — Gemeente Utrecht: areaalcijfers, financiële strategie, ontwikkelend beheer (2021, 64 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Gemeente Utrecht: drie kwaliteitsniveaus, vijf principes (2016, 49 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid kwaliteit openbare ruimte]] — Gemeente Utrecht: overzichtspagina Omgevingsvisie
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Gemeente Utrecht: BInG-toetsingsproces
 
 ### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
@@ -322,6 +335,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Dierenwelzijn
 - [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn 2019]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
+
+### Sociaal Domein
+- [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht: koersdocument maatschappelijke voorzieningen bij gebiedsontwikkeling (2020)
 
 ### Cultuur
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur|Kunst en cultuur]] — VNG: overzicht cultuurbeleid

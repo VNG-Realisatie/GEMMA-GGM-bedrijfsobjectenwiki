@@ -56,6 +56,7 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 41 | Milieu | Walstroompunt | hiaat | Fysiek aansluitpunt voor walstroom aan vaarweg/kade. Registreerbare eigenschappen: locatie, capaciteit, status, eigenaar. Zou onder Mobiliteit (taakveld 2) of Luchtkwaliteit (taakveld 7) passen. | open |
 | 42 | Milieu | — | structuur | GGM mist een generiek herbruikbaar "Zone"-concept. Parkeerzone (Parkeren) is de enige zone-entiteit. Milieuzones, rookvrije zones, vuurwerkvrije zones en geluidzones gebruiken hetzelfde patroon (geometrie + regels + handhaving) maar zijn niet gestandaardiseerd. | open |
 | 43 | Milieu | — | structuur | GGM mist een generiek "Ontheffing"-concept. Domeinspecifieke varianten bestaan (Ligplaatsontheffing, Ontheffing Inburgering, Ontheffing Werk) zonder gemeenschappelijk supertype. VOMAanvraagOfMelding (VTH) is te breed. | open |
+| 44 | Sociaal Domein | — | hiaat | GGM mist een overkoepelend concept voor maatschappelijke voorzieningen als fysieke plekken. Welzijnsvoorzieningen (buurtcentrum, buurtkamer, jongerenhuiskamer), zorgvoorzieningen (gezondheidscentrum, dagbestedingslocatie, gezinshuis, maatschappelijke opvang) en cultuurvoorzieningen (wijkcultuurhuis) hebben geen GGM-entiteit. Sportlocatie en School dekken slechts een deel. | open |
 
 ## Typen
 

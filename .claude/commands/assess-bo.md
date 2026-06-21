@@ -65,9 +65,8 @@ Twee onafhankelijke bronnen analyseren:
 
 | Situatie | BO-keuze |
 |---|---|
-| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt geen BO |
+| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt ook BO (met opsomming subtypes) als het zelf de 6 criteria haalt |
 | Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO |
-| Zowel abstract als specialisaties zijn herkenbaar | Beide worden BO; generalisatierelatie vastleggen |
 
 Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 

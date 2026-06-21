@@ -2,15 +2,15 @@
 type: domein
 naam: Beheer Openbare Ruimte
 status: in-behandeling
-verwerkingsdatum: 2026-06-20
-bronnen_count: 3
-begrippen_count: 15
-bo_count: 3
+verwerkingsdatum: 2026-06-21
+bronnen_count: 7
+begrippen_count: 26
+bo_count: 8
 ---
 
-Gemeentelijk domein voor het beheer van fysieke objecten in de openbare ruimte. Omvat het onderhoud, de inrichting en het beheer van bomen, groenvoorzieningen, verhardingen, kunstwerken, water en straatmeubilair. Het GGM-beleidsdomein "Beheer Openbare Ruimte" valt onder taakveld 8 (Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing) en bevat 200 entiteiten verdeeld over drie modellagen (Basis IMBOR, IMBOR, BOR).
+Gemeentelijk domein voor het beheer van fysieke objecten in de openbare ruimte. Omvat het onderhoud, de inrichting en het beheer van bomen, groenvoorzieningen, verhardingen, kunstwerken, verlichting, verkeersregelinstallaties, speeltoestellen en straatmeubilair. Het GGM-beleidsdomein "Beheer Openbare Ruimte" valt onder taakveld 8 (Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing) en bevat 200 entiteiten verdeeld over drie modellagen (Basis IMBOR, IMBOR, BOR).
 
-Tot nu toe zijn de subdomeinen **bomen** en **groenstructuur** verwerkt op basis van het Bomenbeleid Utrecht en het Groenstructuurplan Utrecht (2007 + actualisatie 2018).
+Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiele constructies**, **openbare verlichting**, **verkeersregelinstallaties** en **speeltoestellen**.
 
 ## Begrippentabel
 
@@ -31,34 +31,51 @@ Tot nu toe zijn de subdomeinen **bomen** en **groenstructuur** verwerkt op basis
 | groencompensatie | proces | Compensatiemaatregel bij aantasting van de groenstructuur | ❌ | Procesactiviteit, geen zelfstandig object | Compensatie Cremerstraat | nee |
 | beschermde soort | classificatie | Plant- of diersoort op de Utrechtse soortenlijst of Wet Natuurbescherming | ❌ | Classificatie/referentielijst, niet individueel registreerbaar | Tongvaren, ringslang, steenuil | nee |
 | wijkgroenplan | instrument | Plan per wijk voor verbetering van groenvoorzieningen | ❌ | Beleidsinstrument, geen zelfstandig registreerbaar object | Wijkgroenplan Overvecht | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] | object | Verharde lagen van wegen, fietspaden en voetpaden inclusief fundering | ✅ | 6/6 criteria, duizenden wegvakken, levensduur 40 jaar, €35,7M achterstallig, exact GGM-match | Rijbaan, fietspad, voetpad, parkeervak | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | object | Civiel-technische constructie: bruggen, viaducten, kademuren | ✅ | 6/6 criteria, honderden geregistreerd, levensduur 50-70 jaar, €7,6M achterstallig, exact GGM-match | Brug, viaduct, kademuur, keermuur | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verlichtingsobject\|Verlichtingsobject]] | object | Paal of mast waaraan openbare verlichting is bevestigd | ✅ | 6/6 criteria, duizenden in de gemeente, levensduur 25 jaar, exact GGM-match | Lantaarnpaal, steegarmatuur, LED-armatuur | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]] | object | Toestel waarop kinderen kunnen spelen, met certificering en veiligheidsklasse | ✅ | 6/6 criteria, honderden geregistreerd, levensduur 15 jaar, 4x/jaar inspectie, exact GGM-match | Schommel, glijbaan, klimrek | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht\|Verkeerslicht]] | object | Verkeersregelinstallatie (VRI) op kruispunten en oversteekplaatsen | ✅ | 6/6 criteria, honderden geregistreerd, levensduur 10 jaar, exact GGM-match | Verkeersregelinstallatie, voetgangerslicht | ja |
+| kwaliteitsniveau | classificatie | Drieledige indeling: Domstad (85%), Domstad Bijzonder (10%), Utrechtse Allure (5%) | ❌ | Classificatie van gebieden, attribuut op beheerobjecten (kwaliteitsniveauGewenst in GGM) | Binnenstad = Utrechtse Allure | nee |
+| BInG-toets | proces | Integrale beoordeling van inrichting, gebruik, veiligheid en onderhoud bij projecten | ❌ | Governance-proces, geen registreerbaar object | Toets herinrichting Mariaplaats | nee |
+| CROW-beeldkwaliteit | meetstandaard | Meetstandaard met 5 niveaus (A+ t/m D) voor kwaliteit openbare ruimte | ❌ | Externe standaard, classificatieschaal, geen registreerbaar object | CROW-niveau B voor verhardingen | nee |
+| ontwikkelend beheer | concept | Beheervisie: vervanging combineren met verbetering op klimaat, gezondheid, circulariteit | ❌ | Beleidsconcept, geen registreerbaar object | Herinrichting met vergroening en 30 km/u | nee |
+| straatmeubilair | categorie | Verzameling van objecten ter inrichting van de openbare ruimte | ❌ | Verzamelterm — individuele objectsoorten (bankjes, afvalbakken, paaltjes) zijn te generiek voor apart BO zonder beleidsbron | Bankjes, afvalbakken, paaltjes, hekwerken | ja (Meubilair) |
+| bebording | object | Panelen met statische informatie in de openbare ruimte | ❌ | Beperkte beleidsdiepte; €1,4M achterstallig maar geen eigenstandig beheerbeleid beschreven | Straatnaamborden, verkeersborden | ja (Bord) |
 
 ## GGM-entiteitendekking
 
 | GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
 |---|---|---|---|---|---|
-| Beheer Openbare Ruimte | 200 | 3 | 0 | 197 | Subdomeinen bomen en groenstructuur verwerkt; overige subdomeinen (verhardingen, water, kunstwerken, meubilair, installaties, etc.) hebben geen beleidsbron |
+| Beheer Openbare Ruimte | 200 | 8 | 0 | 192 | Subdomeinen bomen, groen, verhardingen, civiele constructies, verlichting, VRI en spelen verwerkt; overige subdomeinen (water, riolering, kabels/leidingen, sensoren, etc.) hebben geen beleidsbron |
 
 Het GGM-beleidsdomein Beheer Openbare Ruimte is met 200 entiteiten het grootste beleidsdomein in het GGM. De entiteiten zijn verdeeld over drie modellagen:
 - **Model Basis IMBOR** (115 entiteiten): basisobjecten uit de IMBOR-standaard
-- **Model IMBOR** (58 entiteiten): uitgebreide IMBOR-objecten waaronder Boom en Groenobject
+- **Model IMBOR** (58 entiteiten): uitgebreide IMBOR-objecten waaronder Boom, Groenobject, Verhardingsobject, Kunstwerk
 - **Model Beheer Openbare Ruimte** (27 entiteiten): BOR-specifieke objecten (meldingen, inspecties, schouwrondes)
 
-Van deze 200 entiteiten zijn nu **Boom**, **Groenobject** en **Ecoduct** (als Faunapassage) beoordeeld. De overige 197 entiteiten zijn niet beoordeeld omdat er nog geen beleidsbronnen over andere subdomeinen (verhardingen, kunstwerken, water, straatmeubilair) zijn verwerkt.
+Van deze 200 entiteiten zijn nu 8 als BO beoordeeld: **Boom**, **Groenobject**, **Faunapassage** (Ecoduct), **Verhardingsobject**, **Kunstwerk**, **Verlichtingsobject**, **Speeltoestel** en **Verkeerslicht**. De overige 192 entiteiten zijn niet beoordeeld — hiervoor zijn aanvullende beleidsbronnen nodig over water/riolering, kabels en leidingen, sensoren en overige beheerobjecten.
 
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009, aangevuld 2018)
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Visie op stedelijke groenstructuur tot 2030 (40 p.)
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Actualisatie met gezonde verstedelijking en klimaatadaptatie (45 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer Openbare Ruimte]] — Beleidskader beheer openbare ruimte met areaalcijfers en financiële strategie (2021, 64 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Integraal visiedocument met drie kwaliteitsniveaus (2016, 49 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid voor kwaliteit openbare ruimte]] — Overzichtspagina Omgevingsvisie Utrecht
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Beschrijving BInG-toetsingsproces
 
 ## Nog te verwerken bronnen
 
-Potentiële bronnen voor uitbreiding van dit domein:
-- Beheerplan openbare ruimte / kapitaalgoederenplan
+Potentiële bronnen voor verdere uitbreiding:
+- Water- en rioleringsvisie Utrecht — voor waterobjecten, riolering, gemalen
+- Kabels- en leidingenbeleid — voor leidingen, putten, kasten
 - VNG-rubrieken openbare ruimte / beheer
 
 ## Openstaande vragen
 
-- De 197 onbeoordeelde GGM-entiteiten bevatten potentieel vele BO-kandidaten (Vegetatieobject, Waterobject, Verhardingsobject, Kunstwerk, etc.). Hiervoor zijn aanvullende beleidsbronnen nodig.
+- De 192 onbeoordeelde GGM-entiteiten bevatten potentieel BO-kandidaten: Waterobject, Rioolput, Gemaal, Leiding, Bouwwerk, etc. Hiervoor zijn aanvullende beleidsbronnen nodig.
 - Relatie met Omgevingswet-domein: kapvergunning valt onder omgevingsvergunning.
 - Het concept "faunapassage" is breder dan de GGM-entiteit Ecoduct — potentiële terugmelding.
+- Straatmeubilair (Meubilair) en bebording (Bord) hebben een GGM-entiteit maar onvoldoende beleidsbrondiepte voor BO-beoordeling. Bij aanvullende bronnen opnieuw beoordelen.

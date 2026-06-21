@@ -63,21 +63,29 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
 - Haal uit entities[id].gemma_tags
 
 **GEMMA-velden (wiki-eigen):**
-- `gemma_definitie`: bepaal op basis van vergelijking:
-  - Als `ggm_gemma_definitie` niet leeg is en inhoudelijk klopt: neem die over
-  - Als `ggm_definitie` klopt op bedrijfsniveau: "gelijk aan GGM"
-  - Anders: formuleer een eigen GEMMA-definitie en documenteer de afwijking
+- `gemma_definitie`: altijd een zelfstandige definitie op bedrijfsniveau (één zin). Nooit "gelijk aan GGM" — dat is geen definitie. Bepaal als volgt:
+  - Als `ggm_gemma_definitie` niet leeg is en op bedrijfsniveau klopt: neem die over
+  - Als `ggm_definitie` te technisch of te breed is: herformuleer vanuit gemeentelijk perspectief (wat het voor de gemeente ís, niet hoe het technisch is gedefinieerd)
+  - Documenteer afwijkingen t.o.v. de GGM-definitie in de body-sectie **BO-definitie**
 
 ## Stap 6: Subtypes vastleggen
 
 Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (uitwisselbaar, zelfde register en processen):
 
+### 6a. Subtypes identificeren uit drie bronnen
+
+1. **Beleidsbronnen** — welke typen, categorieën of voorbeelden noemen de bronnen als aparte groep? Denk aan materiaaltypen (asfalt/beton/klinkers), functietypes (rijbaan/fietspad/voetpad), of specifieke modellen (Steegarmatuur). Als de bron het als apart type benoemt met eigen kenmerken (levensduur, inspectieregime, beheeraanpak), dan is het een subtype.
+2. **GGM type-attributen** — entiteiten met `type`, `typePlus`, `toestelgroep`, `materiaal`, of vergelijkbare classificatie-attributen hebben per definitie subtypes. Het GGM implementeert subtypes als attribuutwaarden — dat is een implementatiekeuze, geen reden om subtypes niet te benoemen.
+3. **GGM generalisatie-relaties** — aparte GGM-entiteiten die via generalisatie aan het BO-concept gerelateerd zijn. Let op: de GGM-hiërarchie kan afwijken van het beleidsperspectief (bijv. Brug zit onder Overbruggingsobject, niet onder Kunstwerk). Documenteer afwijkingen.
+
+### 6b. Subtypes vastleggen
+
 **Frontmatter:** `gemma_subtypes` met per subtype:
 - `naam`, `omschrijving`
-- `ggm_entiteit`, `ggm_guid`, `ggm_attribuut` (verplicht bij GGM-match)
+- `ggm_entiteit`, `ggm_guid` (de GGM-entiteit waar dit subtype bij hoort — dat kan het parent-BO zijn als het subtype een attribuutwaarde is, of een aparte entiteit)
+- `ggm_attribuut` (het GGM-attribuut dat het subtype draagt, leeg als het een aparte entiteit is)
 
-**Body:** Specialisaties-tabel met kolommen: Subtype, Omschrijving, GGM-attribuut.
-GGM-attribuut bevat een markdown-link naar de GGM-entiteit in het bronbestand gevolgd door `→ attribuutnaam`. Geen GUID in de tabel — die staat in de frontmatter.
+**Body:** `## Specialisaties`-sectie met tabel. Bij afwijking tussen beleids- en GGM-hiërarchie: toelichting onder de tabel.
 
 ## Stap 7: BO-relaties afleiden
 

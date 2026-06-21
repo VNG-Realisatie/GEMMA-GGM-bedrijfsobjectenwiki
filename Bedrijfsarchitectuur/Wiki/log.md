@@ -1,5 +1,25 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Beheer Openbare Ruimte — kwaliteit en beheer (5 BO's, 4 bronsamenvattingen)
+- 4 bronnen opgehaald via /fetch: Nota Beheer OR (2021, 64 p. PDF), Kadernota KOR (2016, 49 p. PDF), overzichtspagina Omgevingsvisie, BInG-pagina utrecht.nl.
+- 4 bronsamenvattingen aangemaakt: nota-beheer-openbare-ruimte, kadernota-kwaliteit-openbare-ruimte, kwaliteit-openbare-ruimte, openbare-ruimte-bing.
+- 5 nieuwe BO's: Verhardingsobject (levensduur 40j, €35,7M achterstallig), Kunstwerk (50-70j, €7,6M achterstallig, subtypes Brug/Viaduct/Kademuur), Verlichtingsobject (25j), Speeltoestel (15j, 4x/jaar inspectie), Verkeerslicht (10j). Alle 6/6 criteria, exact GGM-match.
+- 12 niet-BO begrippen toegevoegd aan begrippentabel: kwaliteitsniveau, BInG-toets, CROW-beeldkwaliteit, ontwikkelend beheer, straatmeubilair, bebording.
+- Domeinoverzicht bijgewerkt: 8 BO's totaal (was 3), 26 begrippen (was 15), 7 bronnen (was 3). GGM-dekking: 8/200 beoordeeld, 192 niet beoordeeld (water/riolering/kabels nog geen beleidsbron).
+
+## [2026-06-21] ingest | Sociaal Domein breed (0 BO's, 0 bronsamenvattingen)
+- 11 onverwerkte VNG-rubrieken bronnen geïnventariseerd: alle zijn dunne portaalpagina's over beleid, processen en programma's zonder BO-kandidaten.
+- Alle 11 verplaatst naar Niet-relevant/: rubriek-sociaal-domein-breed, aanpak-basisvaardigheden, iedereen-doet-mee, isd-informatievoorziening-sociaal-domein, multidisciplinair-handhaven, persoonsgebonden-budget, platform-sociaal-domein, project-toegang, richtinggevend-kader-convenant-en-verkenningsinstrument-toegang, wmo-2015-en-jeugdwet-toezicht-en-handhaving.
+- Domein Sociaal Domein heeft nu 1 verwerkte bron (koersdocument) en 0 onverwerkte. Voor verdere verdieping zijn inhoudelijke beleidsdocumenten nodig (sportnota, Wmo-beleidsplan, cultuurvisie).
+
+## [2026-06-21] ingest | Maatschappelijke voorzieningen (1 BO, 1 bronsamenvatting)
+- Bron: Leefbare stad en maatschappelijke voorzieningen (Gemeente Utrecht, koersdocument maart 2020, ~870 regels). Opgehaald via /fetch als PDF + webpagina; webpagina naar Niet-relevant (overlapt met koersdocument).
+- 1 bronsamenvatting aangemaakt: leefbare-stad-en-maatschappelijke-voorzieningen
+- **1 nieuw BO aangemaakt:**
+  - **Maatschappelijke voorziening** — ggm-afgeleid (Sportlocatie, School, Vastgoedobject). Overkoepelend concept voor plekken met maatschappelijk doel. 16 subtypes (buurtcentrum, buurtkamer, jongerenhuiskamer, gezondheidscentrum, sporthal, sportpark, zwembad, beheerde speeltuin, speelplek, wijkcultuurhuis, school, volkstuinpark, scoutingaccommodatie, dagbestedingslocatie, gezinshuis, maatschappelijke opvang).
+- GGM-terugmelding #44: overkoepelend concept maatschappelijke voorziening ontbreekt; welzijns-, zorg- en cultuursubtypen hebben geen GGM-entiteit.
+- Assess-bo skill aangepast: beslisregel stap 4 stond categorisch toe dat abstract niveau geen BO wordt bij herkenbare specialisaties — nu mag abstract niveau ook BO worden als het zelf de 6 criteria haalt.
+
 ## [2026-06-21] ingest | Luchtkwaliteit (7 BO's, 1 bronsamenvatting)
 - Bron: Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030 (Gemeente Utrecht, sept. 2024, 1267 regels). Opgehaald via /fetch als PDF + webpagina; webpagina naar Niet-relevant (overlapt volledig met beleidsnota).
 - 1 bronsamenvatting aangemaakt: beleidsnota-luchtkwaliteit-2025

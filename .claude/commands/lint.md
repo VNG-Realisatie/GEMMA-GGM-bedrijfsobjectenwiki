@@ -21,7 +21,7 @@ Checks:
 14. **`bron:`-link in bronsamenvattingen** — bronsamenvattingen waarvan `bron:` een `[[wiki-link]]` is i.p.v. een markdown-link `[tekst](pad)`. Het `bron:` veld verwijst naar een source-bestand, geen wiki-pagina.
 15. **Wiki-links naar Sources/** — `[[...]]` die naar een `Sources/`-pad wijst. Sources-verwijzingen gebruiken markdown-links, geen wiki-links.
 16. **`relaties`-frontmatter structuur** — BO-pagina's met `relaties`-items die `type`, `richting` of `kardinaliteit` missen, of waarvan `bedrijfsobject:` geen wiki-link bevat.
-17. **`gemma_definitie` aanwezig** — BO-pagina's zonder `gemma_definitie` (of leeg). Verplicht veld.
+17. **`gemma_definitie` geldig** — BO-pagina's zonder `gemma_definitie`, met lege waarde, of met de placeholder `"gelijk aan GGM"`. Dit veld moet altijd een zelfstandige definitie op bedrijfsniveau bevatten (één zin). "Gelijk aan GGM" is geen definitie — herformuleer vanuit gemeentelijk perspectief.
 18. **Terugmeldingen-consistentie** — BO's met "⚠️ ter discussie" of afwijking in body die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan, en omgekeerd (terugmeldingen die naar niet-bestaande BO verwijzen).
 19. **GGM-entiteitendekkingstabel** — domeinoverzichten zonder GGM-entiteitendekkingstabel, of waarvan de tellingen niet kloppen met de begrippentabel.
 20. **Domein-afgetekend** — domeinoverzichten met `status: in-behandeling` zonder verantwoording, of `_count`-frontmatter die niet klopt met de inhoud.
