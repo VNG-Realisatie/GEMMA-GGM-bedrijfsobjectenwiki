@@ -84,7 +84,7 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied]] | gebied | Administratief beheersgebied van het rioolstelsel | ✅ | 6/6 criteria, GGM exact (Rioleringsgebied) | Zuiveringsgebied rwzi Brailledreef | ja |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put]] | object | Verticale constructie voor inspectie en onderhoud van riolering | ✅ | 6/6 criteria, GGM exact (Put), subtypes Drainageput/Filterput/Infiltratieput | Rioolput, drainageput | ja |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek]] | object | Locatie in open water waar buiten gezwommen wordt | ✅ | 6/6 criteria, GGM-hiaat | Haarrijnseplas, Strijkviertelplas, Muntsluis | nee |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats]] | object | Aangewezen plek op openbaar water waar een vaartuig mag afmeren | ✅ | 6/6 criteria, GGM-hiaat | 482 vergunningen, ligplaatszones | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats]] | object | Aangewezen plek in het water voor permanent afmeren van drijvend object | ✅ | 6/6 criteria, GGM: Ligplaats (BAG, exact) | 482 recreatief + 334 woonboten | ja |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing]] | object | Gemeentelijke belasting voor water- en rioleringsbeheer | ✅ | 6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing]] | €254/jaar eigenarenheffing | nee |
 | sluis | subtype | Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen | ✅ subtype | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk]], GGM-hiaat | Weerdsluis, Muntsluis | nee |
 | pomp | onderdeel | Technische installatie voor watertransport onder druk | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal]], te granulair | — | ja |
@@ -199,7 +199,7 @@ De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opges
 - Het GGM mist een generiek herbruikbaar "Zone"-concept (vgl. Parkeerzone) dat ook voor milieuzones, rookvrije zones en vuurwerkvrije zones toepasbaar is.
 - Het GGM mist een generiek "Ontheffing"-concept; nu zijn er domeinspecifieke varianten (Ligplaatsontheffing, Ontheffing Inburgering, Ontheffing Werk) zonder gemeenschappelijk supertype.
 - Het GGM mist Buitenzwemplek als entiteit onder BOR — gemeenten beheren officiële en niet-officiële zwemlocaties met eigen monitoring en oeverinrichting.
-- Het GGM mist Ligplaats als entiteit onder BOR — gemeenten beheren ligplaatszones, verlenen vergunningen en heffen havengeld.
+- ~~Het GGM mist Ligplaats als entiteit onder BOR~~ — **Opgelost:** GGM BAG kent Ligplaats als adresseerbaar object (exact match). Niet onder BOR maar onder 99 Kern/BAG.
 - Het GGM mist Rioolheffing — vergelijkbaar met hoe Afvalstoffenheffing ontbreekt maar wel BO is.
 - Het GGM mist Sluis als subtype van Kunstwerk — waterbouwkundig kunstwerk dat gemeenten beheren.
 Zie [[Wiki/Analyses/ggm-terugmeldingen]].

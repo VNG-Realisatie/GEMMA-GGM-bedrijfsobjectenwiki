@@ -1,5 +1,18 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Wonen — Woonboten (1 nieuw BO, 1 BO verrijkt, 3 bronnen)
+- **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/woonboten + 2 PDF's
+  - Woonbotenbeleid september 2007 (hoofdbron, 30 p.)
+  - Behouden van historische schepen in Utrecht (december 2015, 12 p.)
+  - Overzichtspagina woonboten (webpagina, samenvatting)
+- **3 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/Wonen/
+- **1 nieuw BO:**
+  - Woonboot (GGM Vaartuig, sterk) — met 4 subtypes: woonark, varend schip, historisch schip, schark
+- **1 BO verrijkt:**
+  - Ligplaats — was procesobject/GGM-hiaat, nu ggm-entiteit (GGM BAG Ligplaats, exact). Bronnen en relaties aangevuld met woonbotenbeleid. Terugmelding #47 opgelost.
+- **Domeinoverzicht** Wiki/Domeinen/wonen.md uitgebreid (32 begrippen, 5 BO's)
+- **Observatie:** 334 woonboten in Utrecht (stabiel bestand). Ligplaatsvergunningenstelsel via Havenverordening/Havenatlas. Historische schepen (≥50 jaar) beschermd in drie zones: Keulsekade, Vechtdijk, Oosterkade.
+
 ## [2026-06-21] ingest | Wonen (3 nieuwe BO's, 7 bronnen)
 - **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/wonen + 6 PDF's en 3 regelgeving-pagina's
   - Beleidsnota Wonen in Utrecht 2025-2030 (hoofdbron, 107 p.)

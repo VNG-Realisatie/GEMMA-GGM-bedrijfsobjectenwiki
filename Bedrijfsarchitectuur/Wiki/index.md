@@ -23,7 +23,7 @@
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 - [[Wiki/Domeinen/welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
-- [[Wiki/Domeinen/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie (in behandeling, 3 BO's)
+- [[Wiki/Domeinen/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 
 ## Bedrijfsobjecten
 
@@ -131,13 +131,16 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|rioleringsgebied]] — Administratief beheersgebied van het rioolstelsel (GGM exact, subtype Bemalingsgebied)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put|put]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek op openbaar water waar vaartuig mag afmeren (482 vergunningen, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|opwekgebied]] — Aangewezen gebied voor grootschalige opwek van duurzame energie (zon/wind)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek|koelteplek]] — Groene verblijfsplek ≥200 m² met verkoelende functie, doelstelling binnen 200m loopafstand
+
+### Wonen — Woonboten (GGM VTH taakveld 1)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot|woonboot]] — Drijvend object voor permanente bewoning (GGM Vaartuig, sterk); subtypes: woonark, varend schip, historisch schip, schark
 
 ### Welstand / VTH (procesobject, taakveld 1 — GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] — Formeel oordeel over welstandseisen bij bouwaanvraag (procesobject, GGM-hiaat)
@@ -385,6 +388,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen|Actieplan betaalbare koopwoningen 2021]] — Gemeente Utrecht: zelfbewoningsplicht, antispeculatiebeding
 - [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur 2017]] — Gemeente Utrecht: eerste regulering middenhuur, zonering, oppervlakte-eisen
 - [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Werkwijze extra woningen toevoegen]] — Gemeente Utrecht: optoppen, aanplakken, ondertoppen
+- [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht|Beleid woonboten en historische schepen]] — Gemeente Utrecht: overzichtspagina woonbotenbeleid
+- [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007|Woonbotenbeleid 2007]] — Gemeente Utrecht: maatvoering, oevergebruik, vergunningenstelsel (30 p.)
+- [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden historische schepen 2015]] — Gemeente Utrecht: zones, vervangingsregeling, vormgevingseisen
 
 ### Mobiliteit
 - [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] — Gemeente Utrecht: visie op mobiliteit 2040, alle modaliteiten (hoofdbron)
