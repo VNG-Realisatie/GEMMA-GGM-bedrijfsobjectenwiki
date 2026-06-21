@@ -12,7 +12,7 @@
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit: milieuzones, meetpunten, zones, bodemkwaliteit, containers, grondstofstromen (in behandeling, 23 BO's)
-- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen (in behandeling, 8 BO's)
+- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
 - [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
@@ -101,6 +101,7 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]] — Civiele constructie: bruggen, viaducten, kademuren (GGM exact, levensduur 50-70 jaar)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]] — Paal of mast voor openbare verlichting (GGM exact, levensduur 25 jaar)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speeltoestel|Speeltoestel]] — Toestel voor kinderen met certificering en veiligheidsklasse (GGM exact, levensduur 15 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speelterrein|Speelterrein]] — Afgebakende openbare ruimte ingericht als speelplaats (GGM exact, subtypes buurtplek/blokplek)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
@@ -295,6 +296,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Gemeente Utrecht: drie kwaliteitsniveaus, vijf principes (2016, 49 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid kwaliteit openbare ruimte]] — Gemeente Utrecht: overzichtspagina Omgevingsvisie
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Gemeente Utrecht: BInG-toetsingsproces
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Visie Speelruimte Utrecht]] — Gemeente Utrecht: ontwerpvisie speelruimte met normen en beoordelingsschema's (2022)
 
 ### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)

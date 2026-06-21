@@ -43,12 +43,18 @@ gemma_subtypes:
     ggm_attribuut: toestelgroep
 bronnen:
   - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+  - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]
 relaties:
   - type: generalisatie
     bedrijfsobject: Meubilair (GGM)
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Speeltoestel is een specialisatie van Meubilair in het GGM
+  - type: associatie
+    bedrijfsobject: "[[Speelterrein]]"
+    richting: "van-dit-BO"
+    kardinaliteit: "0..1"
+    beschrijving: Een speeltoestel staat op een speelterrein (GGM-attribuut speelterrein)
 bedrijfsprocessen: [Inspectie speeltoestellen, Onderhoud speelplekken, Vervanging speeltoestellen, Herinrichting speelplekken]
 bedrijfsfuncties: [Beheer openbare ruimte, Spelen]
 ---
@@ -99,6 +105,7 @@ De nota noemt sportcontainers, skateparks en freerunbanen als voorbeelden van "f
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Meubilair (GGM) | Speeltoestel → Meubilair | GGM |
+| associatie | [[Speelterrein]] | Speeltoestel → Speelterrein | GGM (attribuut speelterrein) |
 
 ## Bedrijfsprocessen
 

@@ -3,14 +3,14 @@ type: domein
 naam: Beheer Openbare Ruimte
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
-bronnen_count: 7
-begrippen_count: 26
-bo_count: 8
+bronnen_count: 8
+begrippen_count: 32
+bo_count: 9
 ---
 
 Gemeentelijk domein voor het beheer van fysieke objecten in de openbare ruimte. Omvat het onderhoud, de inrichting en het beheer van bomen, groenvoorzieningen, verhardingen, kunstwerken, verlichting, verkeersregelinstallaties, speeltoestellen en straatmeubilair. Het GGM-beleidsdomein "Beheer Openbare Ruimte" valt onder taakveld 8 (Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing) en bevat 200 entiteiten verdeeld over drie modellagen (Basis IMBOR, IMBOR, BOR).
 
-Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiele constructies**, **openbare verlichting**, **verkeersregelinstallaties** en **speeltoestellen**.
+Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiele constructies**, **openbare verlichting**, **verkeersregelinstallaties**, **speeltoestellen** en **speelterreinen**.
 
 ## Begrippentabel
 
@@ -42,19 +42,25 @@ Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiel
 | ontwikkelend beheer | concept | Beheervisie: vervanging combineren met verbetering op klimaat, gezondheid, circulariteit | ❌ | Beleidsconcept, geen registreerbaar object | Herinrichting met vergroening en 30 km/u | nee |
 | straatmeubilair | categorie | Verzameling van objecten ter inrichting van de openbare ruimte | ❌ | Verzamelterm — individuele objectsoorten (bankjes, afvalbakken, paaltjes) zijn te generiek voor apart BO zonder beleidsbron | Bankjes, afvalbakken, paaltjes, hekwerken | ja (Meubilair) |
 | bebording | object | Panelen met statische informatie in de openbare ruimte | ❌ | Beperkte beleidsdiepte; €1,4M achterstallig maar geen eigenstandig beheerbeleid beschreven | Straatnaamborden, verkeersborden | ja (Bord) |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speelterrein\|Speelterrein]] | object | Afgebakende openbare ruimte ingericht als speelplaats voor kinderen | ✅ | 6/6 criteria, honderden per gemeente, eigen levenscyclus, exact GGM-match (FunctioneelGebied) | Buurtplek, blokplek, speelhoekje | ja |
+| speelbuurt | analyse-eenheid | Gebied begrensd door barrières, analyse-eenheid voor speelruimtenorm | ❌ | Ruimtelijk analysekader, geen registreerbaar object | Speelbuurt Utrecht West | nee |
+| buurtplek | classificatie | Speelterrein ≥3.000 m² voor de hele buurt, alle leeftijden | ❌ | Subtype van Speelterrein (type-attribuut in GGM) | Buurtplek Grifpark | nee |
+| blokplek | classificatie | Speelterrein ≥500 m² voor direct omwonenden, tot 12 jaar | ❌ | Subtype van Speelterrein (type-attribuut in GGM) | Blokplek Wattstraat | nee |
+| speelruimtenorm | norm | Kwantitatief (3-5% buurtoppervlakte) en kwalitatief kader voor speelruimte | ❌ | Beleidskader, geen object | 5% norm, Schijf van Vijf | nee |
+| speelruimtescan | proces | Wijkbrede inventarisatie van speelruimte, elke vijf jaar herhaald | ❌ | Procesactiviteit, geen object | Wijkscan West 2022 | nee |
 
 ## GGM-entiteitendekking
 
 | GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
 |---|---|---|---|---|---|
-| Beheer Openbare Ruimte | 200 | 8 | 0 | 192 | Subdomeinen bomen, groen, verhardingen, civiele constructies, verlichting, VRI en spelen verwerkt; overige subdomeinen (water, riolering, kabels/leidingen, sensoren, etc.) hebben geen beleidsbron |
+| Beheer Openbare Ruimte | 200 | 9 | 0 | 191 | Subdomeinen bomen, groen, verhardingen, civiele constructies, verlichting, VRI, speeltoestellen en speelterreinen verwerkt; overige subdomeinen (water, riolering, kabels/leidingen, sensoren, etc.) hebben geen beleidsbron |
 
 Het GGM-beleidsdomein Beheer Openbare Ruimte is met 200 entiteiten het grootste beleidsdomein in het GGM. De entiteiten zijn verdeeld over drie modellagen:
 - **Model Basis IMBOR** (115 entiteiten): basisobjecten uit de IMBOR-standaard
-- **Model IMBOR** (58 entiteiten): uitgebreide IMBOR-objecten waaronder Boom, Groenobject, Verhardingsobject, Kunstwerk
+- **Model IMBOR** (58 entiteiten): uitgebreide IMBOR-objecten waaronder Boom, Groenobject, Verhardingsobject, Kunstwerk, Speelterrein
 - **Model Beheer Openbare Ruimte** (27 entiteiten): BOR-specifieke objecten (meldingen, inspecties, schouwrondes)
 
-Van deze 200 entiteiten zijn nu 8 als BO beoordeeld: **Boom**, **Groenobject**, **Faunapassage** (Ecoduct), **Verhardingsobject**, **Kunstwerk**, **Verlichtingsobject**, **Speeltoestel** en **Verkeerslicht**. De overige 192 entiteiten zijn niet beoordeeld — hiervoor zijn aanvullende beleidsbronnen nodig over water/riolering, kabels en leidingen, sensoren en overige beheerobjecten.
+Van deze 200 entiteiten zijn nu 9 als BO beoordeeld: **Boom**, **Groenobject**, **Faunapassage** (Ecoduct), **Verhardingsobject**, **Kunstwerk**, **Verlichtingsobject**, **Speeltoestel**, **Speelterrein** en **Verkeerslicht**. De overige 191 entiteiten zijn niet beoordeeld — hiervoor zijn aanvullende beleidsbronnen nodig over water/riolering, kabels en leidingen, sensoren en overige beheerobjecten.
 
 ## Verwerkte bronnen
 
@@ -65,6 +71,7 @@ Van deze 200 entiteiten zijn nu 8 als BO beoordeeld: **Boom**, **Groenobject**, 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Integraal visiedocument met drie kwaliteitsniveaus (2016, 49 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid voor kwaliteit openbare ruimte]] — Overzichtspagina Omgevingsvisie Utrecht
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Beschrijving BInG-toetsingsproces
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Visie Speelruimte Utrecht]] — Ontwerpvisie speelruimte met normen, speelbuurten en beoordelingsschema's (2022, 48 p.)
 
 ## Nog te verwerken bronnen
 

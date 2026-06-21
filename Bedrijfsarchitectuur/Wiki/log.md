@@ -1,5 +1,16 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Visie Speelruimte Utrecht (1 nieuw BO, 1 bronsamenvatting, 1 BO verrijkt)
+- Bron opgehaald via /fetch: omgevingsvisie.utrecht.nl/thematisch-beleid/speelruimte + PDF "Spelen in je eigen buurt" (48 p., maart 2022).
+- PDF geconverteerd naar markdown met convert_pdf.py, opgeslagen in `Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/`.
+- Webpagina verplaatst naar Niet-relevant (volledig gedekt door PDF).
+- Bronsamenvatting: [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]].
+- 1 nieuw BO: **Speelterrein** (6/6 criteria, exact GGM-match FunctioneelGebied). Subtypes: buurtplek, blokplek, speelhoekje, stedelijke sportplek.
+- 1 BO verrijkt: **Speeltoestel** — bron en relatie naar Speelterrein toegevoegd.
+- 6 nieuwe begrippen in domeinoverzicht BOR: speelterrein (BO), speelbuurt, buurtplek, blokplek, speelruimtenorm, speelruimtescan.
+- Aandachtspunt: overlap subtype "Speelplek" bij Maatschappelijke Voorziening met nieuw BO Speelterrein.
+- Domein BOR: 9 BO's, 32 begrippen, 8 bronnen.
+
 ## [2026-06-21] ingest | Beleidsnota Werklocaties 2035 (1 BO, 1 bronsamenvatting)
 - Bron opgehaald via /fetch: omgevingsvisie.utrecht.nl/plekken-voor-werk + PDF Beleidsnota Werklocaties 2035 (100+ p., 3 juni 2025).
 - PDF geconverteerd naar markdown met convert_pdf.py, opgeslagen in `Sources/Onderwerpen/Economie/converted_pdf/`.
