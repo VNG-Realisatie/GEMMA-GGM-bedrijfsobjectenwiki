@@ -22,6 +22,8 @@
 - [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
+- [[Wiki/Domeinen/welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
+- [[Wiki/Domeinen/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie (in behandeling, 3 BO's)
 
 ## Bedrijfsobjecten
 
@@ -84,6 +86,7 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] — Escalatie bij achterblijvende aflossingen
 
 ### Cultuur — Erfgoed (GGM beleidsdomein Erfgoed/Monumenten/Archeologie, taakveld 5)
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/beschermde-status|beschermde-status]] — Formele beschermingsstatus van monument of stadsgezicht (GGM exact, subtypes: rijksmonument, gemeentelijk monument, beschermd stadsgezicht)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]] — Beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]] — Gearchiveerde informatie, beheerd door gemeentearchief
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] — Locatie met (verwachte) archeologische waarde, geregistreerd op beleidskaart
@@ -102,6 +105,11 @@
 
 ### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — Object met cultuurhistorische waarde in museale collectie
+
+### Wonen (GGM beleidsdomein Bouwen en Wonen, taakveld 8)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning|woning]] — Zelfstandige woonruimte voor permanente huisvesting; subtypes: sociale huur, middenhuur, betaalbare koop, studentenwoning (GGM Gebouw, sterk)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woningbouwplan|woningbouwplan]] — Project waarin woningen worden geprogrammeerd en gerealiseerd (GGM Plan, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/urgentverklaring|urgentverklaring]] — Beschikking voor voorrang bij toewijzing sociale huur; 7 subtypes (governance-object, GGM-hiaat)
 
 ### Beheer Openbare Ruimte (GGM beleidsdomein IMBOR, taakveld 8)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (110.000+ in Utrecht)
@@ -130,6 +138,9 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|opwekgebied]] — Aangewezen gebied voor grootschalige opwek van duurzame energie (zon/wind)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek|koelteplek]] — Groene verblijfsplek ≥200 m² met verkoelende functie, doelstelling binnen 200m loopafstand
+
+### Welstand / VTH (procesobject, taakveld 1 — GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] — Formeel oordeel over welstandseisen bij bouwaanvraag (procesobject, GGM-hiaat)
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
@@ -361,6 +372,19 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Geluid
 - [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen (2024)]] — Gemeente Utrecht: beleidsnota geluid en trillingen, onderdeel omgevingsvisie
 - [[Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht|Actieplan Geluid Utrecht 2018-2023]] — Gemeente Utrecht: operationeel uitvoeringsprogramma geluidknelpunten en stille gebieden
+
+### Welstand
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota — De Utrechtse aanpak]] — Gemeente Utrecht: beleidskader welstand, typologieën, beleidsniveaus, criteria (deel A, 2015)
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-criteria-richtlijnen|Welstandsnota — Welstandscriteria en richtlijnen]] — Gemeente Utrecht: toetsingscriteria voor veelvoorkomende bouwwerken (deel B, 2015)
+
+### Wonen
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht 2025-2030]] — Gemeente Utrecht: hoofdbeleidsnota woonbeleid (107 p.)
+- [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht|Huisvestingsverordening gemeente Utrecht]] — Gemeente Utrecht: juridisch kader woonruimteverdeling en vergunningen
+- [[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening|Nadere regel Huisvestingsverordening]] — Gemeente Utrecht: leefbaarheidstoets, voorrangsregels, woongroepen
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening|Beleidsregel Huisvestingsverordening]] — Gemeente Utrecht: omzetting, opkoopbescherming, goed verhuurderschap
+- [[Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen|Actieplan betaalbare koopwoningen 2021]] — Gemeente Utrecht: zelfbewoningsplicht, antispeculatiebeding
+- [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur 2017]] — Gemeente Utrecht: eerste regulering middenhuur, zonering, oppervlakte-eisen
+- [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Werkwijze extra woningen toevoegen]] — Gemeente Utrecht: optoppen, aanplakken, ondertoppen
 
 ### Mobiliteit
 - [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] — Gemeente Utrecht: visie op mobiliteit 2040, alle modaliteiten (hoofdbron)

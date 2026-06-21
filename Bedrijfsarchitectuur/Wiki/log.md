@@ -1,5 +1,36 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Wonen (3 nieuwe BO's, 7 bronnen)
+- **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/wonen + 6 PDF's en 3 regelgeving-pagina's
+  - Beleidsnota Wonen in Utrecht 2025-2030 (hoofdbron, 107 p.)
+  - Huisvestingsverordening gemeente Utrecht (lokaleregelgeving.overheid.nl)
+  - Nadere regel Huisvestingsverordening (lokaleregelgeving.overheid.nl)
+  - Beleidsregel Huisvestingsverordening (lokaleregelgeving.overheid.nl)
+  - Actieplan betaalbare koopwoningen 2021 (bestuurlijkeinformatie.nl)
+  - Actieplan Middenhuur 2017 (bestuurlijkeinformatie.nl)
+  - Werkwijze extra woningen toevoegen aan gebouw (bestuurlijkeinformatie.nl)
+  - 4 bronnen → Niet-relevant (overzichtspagina's en addenda opgenomen in beleidsnota)
+- **7 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/Wonen/
+- **3 nieuwe BO's:**
+  - Woning (GGM Gebouw, sterk) — met 4 subtypes: sociale huurwoning, middenhuurwoning (GGM-hiaat), betaalbare koopwoning, studentenwoning
+  - Woningbouwplan (GGM Plan, exact)
+  - Urgentverklaring (governance-object, GGM-hiaat) — 7 subtypes per urgentiecategorie
+- **Domeinoverzicht** Wiki/Domeinen/wonen.md aangemaakt (22 begrippen, 3 BO's)
+- **GGM-hiaten:** Middenhuurwoning (subtype Gebouw), Urgentverklaring (nieuw objecttype)
+- **Observatie:** GGM Bouwen en Wonen (7 entiteiten) dekt alleen woningbouw, niet toewijzing/verdeling. Vergunningen (huisvesting, omzetting, splitsing, woningvorming) zijn als instrumenten vastgelegd maar niet als BO; bij VTH-ingest opnieuw te beoordelen.
+
+## [2026-06-21] ingest | Welstand (2 nieuwe BO's, 2 bronnen)
+- **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/welstand + 2 PDF's
+  - Welstandsnota De Utrechtse aanpak (Deel A: beleidskader, typologieën, beleidsniveaus, criteria, begrippenlijst)
+  - Welstandscriteria en richtlijnen (Deel B: toetsingscriteria per bouwwerktype)
+  - 2 summiere webpagina's → Niet-relevant (gedekt door PDF-bronnen)
+- **2 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/Welstand/
+- **2 nieuwe BO's:**
+  - Welstandsadvies (procesobject, GGM-hiaat) → Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/
+  - Beschermde Status (GGM exact, domein Erfgoed) → Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/
+- **Domeinoverzicht** Wiki/Domeinen/welstand.md aangemaakt (10 begrippen, 2 BO's)
+- **Observatie:** welstandsdomein is primair beleidskader; de meeste concepten zijn classificaties of regels. Beschermde Status verhuisd naar Erfgoed.
+
 ## [2026-06-21] ingest | Milieu — Water en riolering (10 nieuwe BO's, 3 bronnen)
 - **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/water + 3 PDF's via bestuurlijkeinformatie.nl
   - Visie Water en Riolering Utrecht (strategisch beleidskader, horizon 2050)
