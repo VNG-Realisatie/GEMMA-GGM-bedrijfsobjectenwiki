@@ -27,24 +27,41 @@ Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle beg
 - **"Nog te verwerken bronnen":** gebruik markdown-links naar Sources/ (omdat dat geen wiki-pagina's zijn)
 - **"Terugmeldingen":** `[[Wiki/Analyses/ggm-terugmeldingen|link naar terugmeldingen]]`
 
+### Begripstypen
+
+De kolom "Type" in de begrippentabel heeft een van deze 7 waarden:
+
+| Begripstype | Omschrijving | ArchiMate-elementtype |
+|---|---|---|
+| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object |
+| **instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product |
+| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role |
+| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) |
+| **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping |
+| **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome |
+| **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle |
+
+De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan in `/assess-bo`.
+
 ### Secties
 
 - **Korte beschrijving** van het gemeentelijk domein
 - **Begrippentabel** — het hart van de pagina:
 
 ```markdown
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[woz-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | 6/6 criteria, exact match | Woning, kantoor | ja |
-| belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
-| heffingsmaatstaf | object | Maatstaf voor belastingschuld | ❌ | Eigenschap van verordening | WOZ-waarde | nee |
-| belastingmix | thema | Gekozen combinatie belastingen | ❌ | Beleidsmatig, geen object | — | nee |
+| Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|---|
+| [[woz-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | ja | 6/6 criteria, exact match | Woning, kantoor | ja |
+| belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | ja | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
+| heffingsmaatstaf | object | Maatstaf voor belastingschuld | ❌ | ja | Eigenschap van verordening | WOZ-waarde | nee |
+| belastingmix | thema | Gekozen combinatie belastingen | ❌ | nee | Beleidsmatig, geen object | — | nee |
 ```
 
   - **Begrip**: `[[BO-naam]]` naar BO-pagina als het een BO is, anders platte tekst
-  - **Type**: begripstype (object/instrument/actor/doelgroep/thema/doel/waarde)
+  - **Type**: begripstype (zie tabel hierboven)
   - **Omschrijving**: identiek aan de BO-definitie als het een BO is
   - **BO?**: ✅ of ❌
+  - **Data-object**: ja/nee — wordt dit begrip als zelfstandige entiteit vastgelegd in een informatiesysteem (eigen attributen)? Onafhankelijke classificatie naast BO?: een begrip kan BO=❌ maar Data-object=ja zijn (te granulair voor BO, wél geregistreerd), of BO=✅ maar Data-object=nee (governance-object). Data-objecten met GGM=nee zijn de sterkste kandidaten voor GGM-hiaten.
   - **Reden**: korte samenvatting waarom wel/niet (volledige onderbouwing staat in de BO-pagina)
   - **Voorbeelden**: concrete instanties
   - **GGM**: ja/nee — heeft dit begrip een GGM-entiteit

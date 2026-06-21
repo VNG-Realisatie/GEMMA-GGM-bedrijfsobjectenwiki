@@ -27,19 +27,7 @@ Na de initiële opbouw wordt het model onderhouden bij:
 
 ### LLM-rol
 
-De LLM fungeert als **eerste filter**:
-
-**Zelfstandig afhandelen** wanneer alle drie voorwaarden waar zijn:
-1. Begripstype is `object` en abstractieniveau is `operationeel`
-2. Minstens 5 van de 6 BO-criteria zijn van toepassing
-3. GGM-matchsterkte is `exact` of `sterk`
-
-**Voorleggen aan het team** bij:
-- Begripstype `instrument`, `actor` of `doelgroep` (altijd)
-- Minder dan 5 BO-criteria van toepassing
-- GGM-matchsterkte `partieel` of `zwak`
-- Generalisatiekeuzes (welk niveau wordt het BO?)
-- Elke voorgestelde GGM-terugmelding
+De LLM fungeert als **eerste filter**. Autonomieregels staan in `/assess-bo` stap 11.
 
 ## Directorystructuur
 
@@ -136,132 +124,12 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 
 Formats voor `index.md` en `log.md`: zie `templates/index-log.md`.
 
-### BO-criteria
+### Beoordelingslogica
 
-Een begrip is een bedrijfsobject als het aan de **meeste** van deze criteria voldoet:
-
-- Heeft betekenis binnen het domein
-- Is herkenbaar voor domeinexperts
-- Heeft een eigen bestaan binnen het domein
-- Kan in meervoud bestaan (er zijn meerdere exemplaren)
-- Heeft een eigen levenscyclus
-- Heeft relaties met andere concepten
-
-**Geen BO** als het slechts een eigenschap, status, activiteit, regel of classificatie van iets anders is.
-
-**Registratie in een informatiesysteem is geen BO-criterium.** Alleen de 6 criteria hierboven zijn leidend. Gebruik ook niet als afwijsgrond: eigendom ("eigendom ligt bij Eneco"), systeembeheer ("gemeente registreert dit niet"), of regietype ("regie, niet registratie"). De enige vraag is: herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
-
-**Subtypes altijd vastleggen.** Begrippen die een subtype zijn van een breder concept (bijv. horecavergunning → vergunning), die generiek zijn, of die in een ander domein thuishoren: niet weglaten maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere domein/BO is voldoende.
-
-### Begripstypen en abstractieniveaus
-
-Zie `templates/begripstypen.md` voor de volledige classificatietabel en filterlogica.
-
-### Afleidingsregels voor bedrijfsobjecten
-
-#### Grondslag bepalen
-
-1. **Zoek een GGM-entiteit.** Is er een directe match → grondslag `ggm-entiteit`.
-2. **Geen entiteit, wel afleidbaar?** Kan het BO berekend/geaggregeerd worden uit bestaande GGM-objecten → grondslag `ggm-afgeleid`.
-3. **Geen GGM-basis, wel een proces?** Artefact dat ontstaat in een gemeentelijk proces → grondslag `procesobject`.
-4. **Geen GGM-basis, juridisch/beleidsmatig kader?** Verordening, regeling of bevoegdheid → grondslag `governance-object`.
-
-Het ontbreken van een GGM-grondslag is voor procesobjecten en governance-objecten **structureel**, niet incidenteel — het GGM modelleert data, niet processen of governance (zie [[ggm-dekkingspatroon]]).
-
-#### GGM-matchsterkte
-
-| Matchsterkte | Betekenis | Actie |
-|---|---|---|
-| **exact** | GGM-entiteit en BO zijn hetzelfde concept, definitie klopt | Overnemen, definitie uit GGM |
-| **sterk** | Zelfde concept, maar definitie of scope wijkt licht af | Overnemen, afwijking documenteren en terugmelden |
-| **partieel** | GGM-entiteit dekt een deel van het BO, of BO is aggregatie van meerdere entiteiten | Overnemen met toelichting, overweeg terugmelding |
-| **zwak** | Verwant concept maar wezenlijk andere scope of granulariteit | Relatie noteren, niet als grondslag gebruiken |
-
-#### Mapping van GGM-entiteit naar bedrijfsobject
-
-- Bij voorkeur 1-op-1 mapping (beheerbaarheid, herkenbaarheid).
-- Aggregatie toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
-- Als een GGM-entiteit in meerdere beleidsdomeinen voorkomt: maak één bedrijfsobject met alle GGM-bronnen.
-
-#### Generalisaties (overerving)
-
-Bij een generalisatiehiërarchie moet expliciet worden besloten op welk niveau het BO wordt gedefinieerd. Beslisregel: **praat de gemeente erover als aparte dingen?** Zo ja → aparte BO's. Zo nee → één BO op het herkende niveau.
-
-| Situatie | BO-keuze |
-|---|---|
-| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt geen BO |
-| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO |
-| Zowel abstract als specialisaties zijn herkenbaar | Beide worden BO; generalisatierelatie vastleggen |
-
-Noteer de beslissing en motivatie in de body. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
-
-#### Specialisaties (subtypes)
-
-Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (ze zijn uitwisselbaar, vallen onder hetzelfde register en dezelfde processen), leg ze vast als `gemma_subtypes` in de frontmatter en een **Specialisaties**-tabel in de body. Dit voorkomt dat elk subtype een apart begrip of BO wordt en houdt de begrippentabel in het domeinoverzicht schoon.
-
-Subtypes zijn typisch attribuutwaarden (bijv. GGM-enumeratie `TypeMonument`) of categorieën uit beleidsbronnen. In de GEMMA-export komen ze in de kolom `GEMMA-subtypes`.
-
-**Regel: GGM-link verplicht.** Elk subtype dat overeenkomt met een GGM data-object (Class of Enumeration) moet gelinkt zijn:
-- **Frontmatter**: `ggm_entiteit`, `ggm_guid` en `ggm_attribuut` per subtype (voor export en traceerbaarheid). Link naar de GGM-entiteit die het attribuut draagt, niet naar enumeraties die niet in de bronbestanden staan.
-- **Body-tabel**: kolommen Subtype, Omschrijving, GGM-attribuut. GGM-attribuut bevat een markdown-link naar de GGM-entiteit in het bronbestand gevolgd door `→ attribuutnaam`, bijv. `[Beschermde Status](Sources/GGM/.../monumenten.md) → type`. Geen GUID in de tabel — die staat in de frontmatter.
-
-Als er geen GGM-match is, laat de velden leeg.
-
-Voorbeeld: Monument heeft subtypes kerkgebouw, synagoge, klooster, beschermd stadsgezicht — alle vallen onder GGM-enumeratie TypeMonument.
-
-#### Relaties tussen bedrijfsobjecten
-
-BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfsniveau:
-
-- **Overnemen**: herkenbaar in de bedrijfspraktijk → 1-op-1 overnemen
-- **Inkorten**: GGM-relatie via tussenliggende entiteit die geen BO wordt → directe BO-relatie
-- **Samenvoegen**: meerdere GGM-associaties op bedrijfsniveau niet onderscheidbaar → samenvoegen
-- **Weglaten**: puur technische relaties (referentietabellen, enumeraties)
-- **Toevoegen**: relatie bestaat op bedrijfsniveau maar niet in GGM → hiaat-relatie
-
-### GGM-hiaten beoordelen
-
-Voordat een BO als "hiaat" in het GGM wordt gemeld, doorloop deze checklist:
-
-**Stap 1: Bepaal wat het BO is**
-- Is het een **dataobject** (wat gemeenten registreren in informatiesystemen)?
-- Of is het een **proces** (hoe werk verloopt: processen, cycli, stappen)?
-- Of is het een **governance-instrument** (wetten, verordeningen, bevoegdheden)?
-
-**Stap 2: Controleer GGM-scope**
-Het GGM modelleert **dataobjecten**. Dus:
-- **Dataobjecten** die geen GGM-entiteit hebben → potentiële hiaat (rapporteren)
-- **Processen** die geen GGM-entiteit hebben → structureel buiten scope (niet rapporteren)
-- **Governance-instrumenten** die geen GGM-entiteit hebben → structureel buiten scope (niet rapporteren)
-
-**Stap 3: Motiveer de melding**
-
-Als het een dataobject is, motiveer waarom het in het GGM past:
-- Waar worden deze gegevens in de gemeente geregistreerd/beheerd?
-- Welke attributen/eigenschappen zijn registreerbaar?
-- Pakt het in een bestaand GGM-beleidsdomein (bijv. registratie, boekhoudkunde, proces-output)?
-- Voorbeelden: BAG-locatie (registratie), Begroting (boekhoudkunde), Stembureau (registratieobject)
-
-**Stap 4: Formuleer als terugmelding**
-
-Voorbeeld goed:
-> **Stembureau** — Registratieobject voor fysieke locaties waar stemmingen plaatsvinden (adres, capaciteit, toegankelijkheid). Dataobject vergelijkbaar met BAG-locatie maar met verkiezings-specifieke properties. Zou onder Bestuur (taakveld 0) kunnen.
-
-Voorbeeld fout:
-> **Verkiezing** — Ontbreekt in GGM. [FOUT: dit is een proces, geen dataobject]
-
-**Regel: Wees conservatief met hiaten.** Alleen dataobjecten die gemeenten daadwerkelijk registreren rapporteren. Geen processen, geen governance.
-
-### Blik op bronnen
-
-Bij het lezen van **alle bronnen** — zowel GGM als VNG-beleidsdocumenten — dezelfde blik:
-
-1. **Objecten identificeren**: welke dingen worden benoemd die in processen worden gebruikt, geproduceerd of geregistreerd?
-2. **Relaties herkennen**: welke objecten worden in samenhang genoemd?
-3. **Generalisaties expliciteren**: overkoepelende termen die meerdere specifiekere dingen omvatten?
-4. **Granulariteit beoordelen**: grover of fijner dan het GGM modelleert?
-
-Bij VNG-bronnen zijn juist de mismatches met het GGM (hiaten, aggregaties, andere granulariteit) waardevolle bevindingen — **maar alleen voor dataobjecten** (zie "GGM-hiaten beoordelen").
+Alle beoordelingslogica staat in de skills, niet in dit bestand:
+- **BO-beoordeling:** `/assess-bo` — domeinbepaling, begripstype, criteria, subtypes, data-object classificatie, hiaat, autonomieregels
+- **BO vastleggen:** `/write-bo` — grondslag, matchsterkte, frontmatter, relaties, pagina, terugmelding
+- **GGM-dekking:** `/coverage` — batch GGM→wiki dekkingssweep per beleidsdomein
 
 ### Conventies
 
@@ -321,14 +189,14 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 | Skill | Aanroep | Functie |
 |---|---|---|
-| **ingest** | `/ingest {bron\|domein}` | Bron(nen) verwerken: samenvatting → domeinoverzicht bijwerken → BO's afleiden |
+| **ingest** | `/ingest {bron\|domein}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
+| **assess-bo** | `/assess-bo {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
+| **write-bo** | `/write-bo {BO}` | BO vastleggen: GGM-match, frontmatter, pagina aanmaken |
+| **coverage** | `/coverage {domein}` | GGM-dekkingsanalyse: tellen en signaleren, schrijft naar domeinoverzicht |
+| **domain-status** | `/domain-status {domein}` | Read-only voortgangsrapportage |
+| **lint** | `/lint [domein]` | Consistentiechecks op wiki tegen templates en skills |
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |
 | **clip** | `/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/` |
-| **lint** | `/lint [domein]` | Consistentiechecks op wiki (frontmatter, herleidbaarheid, hiaten) |
-| **coverage** | `/coverage {domein}` | GGM-dekkingsanalyse: welke entiteiten zijn/worden BO |
-| **domain-status** | `/domain-status {domein}` | Voortgangsoverzicht (bronnen, begrippen, BO's, dekking) |
-| **test-bo** | `/test-bo {begrip}` | Begrip tegen BO-criteria toetsen |
-| **match-ggm** | `/match-ggm {BO}` | BO matchen op GGM-entiteit met matchsterkte |
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
 
 ## Tools
