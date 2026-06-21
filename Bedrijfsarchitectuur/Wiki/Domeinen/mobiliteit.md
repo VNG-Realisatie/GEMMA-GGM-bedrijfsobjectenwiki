@@ -2,10 +2,10 @@
 type: domein
 naam: Mobiliteit
 status: in-behandeling
-verwerkingsdatum: 2026-06-20
-bronnen_count: 2
-begrippen_count: 30
-bo_count: 26
+verwerkingsdatum: 2026-06-21
+bronnen_count: 12
+begrippen_count: 41
+bo_count: 28
 ---
 
 # Mobiliteit
@@ -66,19 +66,35 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone]] | object | Afgebakend gebied met specifieke parkeerregels | ✅ | GGM: bevestigd door Mobiliteitsplan — betaald parkeren, uitbreiding | Zone Binnenstad, zone Lombok | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage]] | object | Gebouwde parkeervoorziening | ✅ | GGM: bevestigd — binnenstadsgarages, P+R-garages | Jaarbeurs, Springweg | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning]] | object | Toestemming om op bepaalde plek te parkeren | ✅ | GGM: bevestigd — bewonersvergunning, nieuwe deelmobiliteitsvergunning | Bewonersvergunning, bezoekersvergunning | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht]] | object | Recht om te parkeren onder bepaalde voorwaarden | ✅ | GGM: bevestigd — betaald parkeren | Dagtarief, uurtarief | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak]] | object | Parkeergelegenheid langs de weg | ✅ | GGM: bevestigd — transformatie naar groen/fietsstalling | Straatparkeerplaats | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerscan]] | object | Waarneming van parkeeractie door scanauto | ✅ | GGM: bevestigd (impliciet via handhaving) | Scanresultaat | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone]] | object | Afgebakend gebied met specifieke parkeerregels | ✅ | GGM: bevestigd — betaald parkeren, zones A1/A2/B1/B2/C1/C2, uitbreiding tot 2034 | Zone Binnenstad, zone Lombok | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage]] | object | Gebouwde parkeervoorziening | ✅ | GGM: bevestigd — binnenstadsgarages, P+R-garages, loopafstanden per zone | Jaarbeurs, Springweg | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning]] | object | Toestemming om op bepaalde plek te parkeren | ✅ | GGM: bevestigd — bewoners-/bezoekers-/bedrijfsvergunning, plafond per gebied, geen recht bij bouwontwikkeling | Bewonersvergunning, bezoekersvergunning | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht]] | object | Recht om te parkeren onder bepaalde voorwaarden | ✅ | GGM: bevestigd — betaald parkeren, GPK-houders gratis | Dagtarief, uurtarief | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak]] | object | Parkeergelegenheid langs de weg | ✅ | GGM: bevestigd — jaarlijks 0,5-1% opheffen, transformatie naar groen | Straatparkeerplaats | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerscan]] | object | Waarneming van parkeeractie door scanauto | ✅ | GGM: bevestigd — digitale handhaving op kenteken | Scanresultaat | ja |
 | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig]] | object | Vervoermiddel voor wegverkeer | ✅ | GGM: bevestigd — onderscheid elektrisch/fossiel relevant | Auto, bestelbus | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing]] | object | Achteraf vordering te weinig betaalde belasting | ✅ | GGM: niet in Mobiliteitsplan maar operationeel relevant | Parkeernaheffing | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit]] | object | Administratieve parkeerovertreding (WAHV) | ✅ | GGM: niet in Mobiliteitsplan maar operationeel relevant | Parkeerboete | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing]] | object | Achteraf vordering te weinig betaalde belasting | ✅ | GGM: operationeel relevant | Parkeernaheffing | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit]] | object | Administratieve parkeerovertreding (WAHV) | ✅ | GGM: operationeel relevant | Parkeerboete | ja |
 | Belprovider | object | Leverancier van mobiele beldiensten voor parkeren | ❌ | Te technisch/operationeel, geen herkenbaar bedrijfsobject | — | ja |
 | Productgroep | classificatie | Groepering van parkeerproducten | ❌ | Administratieve classificatie | — | ja |
 | Productsoort | classificatie | Typologie van parkeerproduct | ❌ | Administratieve classificatie | — | ja |
 | Straatsectie | classificatie | Gedeelte van een straat voor parkeerbeheer | ❌ | Administratieve indeling, geen zelfstandig object | — | ja |
+
+### Parkeren (parkeerbeleid)
+
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart]] | object | Europese kaart voor parkeren op gehandicaptenparkeerplaatsen | ✅ | 6/6 criteria; eigen levenscyclus (aanvraag→uitgifte→verlenging→intrekking), relaties met persoon, voertuig, vergunning | GPK bestuurder, GPK passagier | nee (hiaat) |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats]] | object | Parkeerplaats gereserveerd voor GPK-houders | ✅ | 6/6 criteria; specialisatie Parkeervlak met eigen processen, beleidsregel, sensoren, kentekenkoppeling | Algemene GPP binnenstad, individuele GPP op kenteken | partieel (Parkeervlak.doelgroep) |
+| Parkeernorm | regel | Minimum-/maximumnorm voor parkeerplaatsen per zone en functie | ❌ | Beleidsregel/referentiedata, geen zelfstandig object | Norm woning A-gebied: 0,78 auto | nee |
+| Deelautoplek | object | Gereserveerde parkeerplaats voor deelauto's met exploitatie-eisen | ❌ | Subtype/eigenschap van Parkeervlak, beperkt als zelfstandig BO | Deelautoplek Papendorp | nee |
+| Bereikbaarheidsfonds | instrument | Financieel instrument: bijdrage per niet-aangelegde parkeerplaats | ❌ | Beleidsinstrument/financieel mechanisme, geen registratie-object | — | nee |
+| Mobiliteitsbeheerplan | document | Verplicht document bij bouwontwikkelingen over mobiliteitsorganisatie | ❌ | Procesdocument in vergunningenproces, geen zelfstandig BO | Mobiliteitsbeheerplan woningbouw | nee |
+| Fietsdepot | locatie | Opslaglocatie voor verwijderde fietsen | ❌ | Operationele locatie, geen zelfstandig BO | — | nee |
+| Fietsparkeerverbodzone | zone | Aangewezen zone waar fietsen alleen in vakken/stallingen mogen | ❌ | Eigenschap van locatie/zone, geen zelfstandig object | Binnenstad | nee |
+| Betaald parkeergebied | zone | Gebied waar parkeren gereguleerd is met tarief of vergunning | ❌ | Eigenschap van bestaand BO Parkeerzone | Betaald parkeren Lombok | ja (Parkeerzone) |
+| Mobiliteitslabel | product | Informatieproduct dat per adres parkeervoorzieningen toont | ❌ | Informatieproduct, geen registratie-object | — | nee |
+| Maatwerklocatie | aanwijzing | Aangewezen gebied met parkeerplafond en extra flexibiliteit | ❌ | Beleidsaanwijzing, eigenschap van zone | Papendorp, Merwede | nee |
 
 ### Verkeersmanagement (GGM-verificatie)
 
@@ -103,7 +119,7 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 
 **Mobiliteit**: het GGM modelleert uitsluitend verkeersmanagement — stremmingen, gladheidsbestrijding, verkeersbesluiten en verkeerstellingen. De functionele mobiliteitslaag ontbreekt volledig: geen routes, knooppunten, haltes, zones of logistieke voorzieningen. Dit is een structureel hiaat. Alle 13 nieuwe BO-kandidaten uit het Mobiliteitsplan vallen buiten de huidige GGM-scope.
 
-**Parkeren**: goed uitgewerkt met 13 entiteiten die het volledige parkeerbeheerproces dekken (zones, vlakken, rechten, vergunningen, handhaving). Het Mobiliteitsplan bevestigt de relevantie van de kernentiteiten. Aanvulling nodig voor laadinfrastructuur ([[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal]]).
+**Parkeren**: goed uitgewerkt met 13 entiteiten die het volledige parkeerbeheerproces dekken (zones, vlakken, rechten, vergunningen, handhaving). Alle kernentiteiten bevestigd door parkeerbeleidsbronnen. Twee hiaten geïdentificeerd: [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart|Gehandicaptenparkeerkaart (GPK)]] ontbreekt als entiteit, en [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats|Gehandicaptenparkeerplaats]] wordt slechts als attribuut `doelgroep` op Parkeervlak gedekt, terwijl het eigen processen en beleidsregel heeft. Aanvulling nodig voor laadinfrastructuur ([[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal]]).
 
 **BOR-overlap**: fysieke assets (Wegdeel, Fietsparkeervoorziening, Verkeerslicht, Brug) zijn gemodelleerd in het BOR-domein (taakveld 8). De mobiliteitslaag bouwt hier functioneel bovenop — een [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route]] is een aanduiding op bestaande Wegdelen, een [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte]] is een functionele locatie op de openbare ruimte.
 
@@ -111,6 +127,16 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 
 - [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer 2007]]
 - [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021|Beleidsregel parkeernormen fiets 2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021|Beleidsregel parkeernormen auto 2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen|Module Parkeernormen fiets en auto]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs|Uitwerking Parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs|Routekaart Parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren|Uitwerking Fietsparkeren]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte|Uitwerking Parkeren openbare ruimte]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerking Parkeren en toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie|Parkeervisie Utrecht]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren|Uitvoeringsprogramma betaald parkeren 2025-2028]]
 
 ## Nog te verwerken bronnen
 
@@ -124,9 +150,14 @@ Geen openstaande bronnen.
 
 ## Terugmeldingen richting GGM
 
-Alle 13 nieuwe BO-kandidaten zijn potentiële GGM-hiaten. Ze vallen in twee categorieën:
+Alle 13 nieuwe BO-kandidaten uit het Mobiliteitsplan zijn potentiële GGM-hiaten. Ze vallen in twee categorieën:
 
-1. **Functionele mobiliteitslaag** (routes, knooppunten, haltes, hubs) — dataobjecten die gemeenten registreren/beheren maar die het GGM niet modelleert
+1. **Functionele mobiliteitslaag** (routes, knooppunten, haltes, hubs) — dataobjecten die gemeenten beheren maar die het GGM niet modelleert
 2. **Logistieke voorzieningen** (laad-/losplaatsen, stadsdistributiepunten, overslagpunten, zero-emissiezones) — specifiek voor goederenvervoer
+
+Uit de parkeerbeleidsbronnen komen twee aanvullende hiaten:
+
+3. **Gehandicaptenparkeerkaart (GPK)** — Europees document met eigen levenscyclus, niet gemodelleerd in GGM Parkeren
+4. **Gehandicaptenparkeerplaats** — specialisatie van Parkeervlak met eigen processen, beleidsregel en sensormonitoring; GGM dekt dit slechts als attribuut `doelgroep`
 
 Zie [[Wiki/Analyses/ggm-terugmeldingen]] voor de volledige lijst.

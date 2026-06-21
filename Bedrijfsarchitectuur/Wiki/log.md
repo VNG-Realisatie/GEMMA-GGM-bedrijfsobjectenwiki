@@ -1,5 +1,28 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Beleidsnota Werklocaties 2035 (1 BO, 1 bronsamenvatting)
+- Bron opgehaald via /fetch: omgevingsvisie.utrecht.nl/plekken-voor-werk + PDF Beleidsnota Werklocaties 2035 (100+ p., 3 juni 2025).
+- PDF geconverteerd naar markdown met convert_pdf.py, opgeslagen in `Sources/Onderwerpen/Economie/converted_pdf/`.
+- 1 bronsamenvatting aangemaakt: beleidsnota-werklocaties-2035.
+- **1 nieuw BO aangemaakt:**
+  - **Werklocatie** — procesobject (GGM-hiaat). Aangewezen geografisch werkgebied met profiel. 5 subtypes: bedrijventerrein, kantoorlocatie, winkelgebied, innovatielocatie, wijkeconomie. Utrecht telt 31 werklocaties + 40 winkelgebieden. 6/6 criteria.
+- 8 niet-BO begrippen toegevoegd aan begrippentabel: bedrijventerrein, kantoorlocatie, innovatielocatie, wijkeconomie, milieucategorie, retailhoofdstructuur, functiemenging, commerciële voorziening, stadslogistiek, circulaire bedrijvigheid.
+- Winkelgebied herclassificeerd van "te generiek" naar "subtype van werklocatie".
+- GGM-hiaat genoteerd: geen entiteit voor werklocatie als geografisch werkgebied; Vestiging (RSGB) dekt alleen individuele bedrijfslocaties.
+- Domeinoverzicht Economie bijgewerkt: 9 BO's, 30 begrippen, 9 bronnen.
+
+## [2026-06-21] ingest | Parkeerbeleid Utrecht (2 BO's, 8 bronsamenvattingen)
+- 10 bronnen opgehaald via /fetch: Omgevingsvisie Utrecht parkeerbeleid (webpagina + 7 PDF's + 2 beleidsregels lokaleregelgeving.overheid.nl). 2 bronnen (Parkeervisie, Uitvoeringsprogramma) niet bereikbaar (iBabs 500 error).
+- 8 bronsamenvattingen aangemaakt: beleidsregel-parkeernormen-fiets-2021, beleidsregel-parkeernormen-auto-2021, module-parkeernormen, uitwerking-parkeerhubs, rapportage-routekaart-parkeerhubs, uitwerking-fietsparkeren, uitwerking-parkeren-openbare-ruimte, uitwerking-toegankelijkheid.
+- **2 nieuwe BO's aangemaakt:**
+  - **Gehandicaptenparkeerkaart (GPK)** — procesobject (GGM-hiaat). Europees document, gemeente geeft uit op basis medisch advies. Subtypes: bestuurder/passagier/combi/instelling. 6/6 criteria.
+  - **Gehandicaptenparkeerplaats** — procesobject (GGM partieel: Parkeervlak.doelgroep). Specialisatie van Parkeervlak met eigen beleidsregel, processen, sensoren. Subtypes: algemeen/individueel. 6/6 criteria. ⚠️ ter discussie: zelfstandig BO vs. subtype.
+- 11 niet-BO begrippen toegevoegd aan begrippentabel: parkeernorm, deelautoplek, bereikbaarheidsfonds, mobiliteitsbeheerplan, fietsdepot, fietsparkeerverbodzone, betaald parkeergebied, mobiliteitslabel, maatwerklocatie.
+- Bestaande parkeer-BO's verrijkt met bronverwijzingen uit nieuwe bronnen.
+- GGM-terugmeldingen: GPK ontbreekt als entiteit; gehandicaptenparkeerplaats niet als apart type.
+- Domeinoverzicht bijgewerkt: 28 BO's (was 26), 41 begrippen (was 30), 12 bronnen (was 2).
+- Aanvulling: Parkeervisie (38 p.) en Uitvoeringsprogramma betaald parkeren (24 p., nov 2025) alsnog opgehaald na constructie van correcte iBabs download-URL's. 2 extra bronsamenvattingen aangemaakt. Geen nieuwe BO's (inhoud bevestigt bestaande begrippen).
+
 ## [2026-06-21] ingest | Beheer Openbare Ruimte — kwaliteit en beheer (5 BO's, 4 bronsamenvattingen)
 - 4 bronnen opgehaald via /fetch: Nota Beheer OR (2021, 64 p. PDF), Kadernota KOR (2016, 49 p. PDF), overzichtspagina Omgevingsvisie, BInG-pagina utrecht.nl.
 - 4 bronsamenvattingen aangemaakt: nota-beheer-openbare-ruimte, kadernota-kwaliteit-openbare-ruimte, kwaliteit-openbare-ruimte, openbare-ruimte-bing.

@@ -2,10 +2,10 @@
 type: domein
 naam: Economie
 status: in-behandeling
-verwerkingsdatum: 2026-06-20
-bronnen_count: 8
-begrippen_count: 22
-bo_count: 8
+verwerkingsdatum: 2026-06-21
+bronnen_count: 9
+begrippen_count: 30
+bo_count: 9
 ---
 
 # Domein: Economie
@@ -28,7 +28,7 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 | regeldruk | thema | Ervaren last van regelgeving voor ondernemers | ❌ | Thema, geen object | — | nee |
 | economische ruimte | thema | Fysieke ruimte beschikbaar voor bedrijvigheid | ❌ | Thema, geen object | — | nee |
 | midden- en kleinbedrijf | doelgroep | Bedrijven tot 250 werknemers, ~60% werkgelegenheid | ❌ | Doelgroep, geen object | — | nee |
-| werklocatie | object | Fysieke locatie voor bedrijvigheid | ✅ | 6/6 criteria | Bedrijventerrein, kantorenpark | partieel |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie]] | object | Aangewezen geografisch werkgebied met vastgesteld profiel | ✅ | 6/6 criteria, GGM-hiaat | Lage Weide, Papendorp, Stationsgebied | nee |
 | [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats]] | object | Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd | ✅ | 6/6 criteria | Bloemenstandplaats, snackwagen | sterk |
 | [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt]] | object | Periodieke georganiseerde verkoop, Marktverordening-gereguleerd | ✅ | 6/6 criteria, GGM-hiaat | Bloemenmarkt, zaterdagmarkt | nee |
 | [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf]] | object | Bedrijf voor eten, drinken en/of logies, vergunningplichtig | ✅ | 6/6 criteria | Restaurant, café, hotel | partieel |
@@ -39,9 +39,19 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 | hotelbezoek | object | Verblijf in een hotel, statistisch gegeven | ❌ | Meting/transactie, geen zelfstandig object | Overnachting in hotel | ja |
 | toeristenbelasting | instrument | Belasting op overnachtingen | ❌ | Instrument, domein Belastingen | — | nee |
 | horecavergunning | instrument | Vergunning voor exploitatie horecabedrijf | ❌ | Subtype vergunning, vastgelegd bij horecabedrijf | Exploitatievergunning | nee |
-| winkelgebied | object | Aangewezen ruimtelijke concentratie van detailhandel | ❌ | Concept, te generiek | Binnenstad, winkelcentrum | nee |
+| winkelgebied | subtype | Concentratie van retailfuncties; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Binnenstad, Overvecht Centrum | nee |
 | ambulante handel | thema | Overkoepelend voor warenmarkten en standplaatsen | ❌ | Categorie, geen object | — | nee |
 | detailhandelsvestiging | object | Fysieke winkellocatie | ❌ | Te generiek voor BO | Supermarkt, kledingwinkel | nee |
+| bedrijventerrein | subtype | Werklandschap voor hinderveroorzakende bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Lage Weide, Strijkviertel | nee |
+| kantoorlocatie | subtype | Gebied met kantoorbestemming; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Stationsgebied, Papendorp | nee |
+| innovatielocatie | subtype | Locatie voor kennisgedreven bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Utrecht Science Park | nee |
+| wijkeconomie | perspectief | Alle werkplekken buiten de vier andere typen werklocaties | ❌ | Beleidsperspectief, geen registreerbaar object | Thuiswerken, solitaire panden | nee |
+| milieucategorie | classificatie | Indeling bedrijfsactiviteiten naar milieuhinder; HMC = 4.1+ | ❌ | Classificatie-attribuut, geen object | HMC-kavel, milieucategorie 2 | nee |
+| retailhoofdstructuur | structuur | Rangorde en hiërarchie van winkelgebieden in de stad | ❌ | Beleidsinstrument, geen object | Binnenstad, bovenwijkse centra | nee |
+| functiemenging | concept | Meerdere functies (wonen, werken, voorzieningen) naast elkaar | ❌ | Ruimtelijk concept, geen object | Gemengd stedelijk gebied | nee |
+| commerciële voorziening | categorie | Functies met winstoogmerk: detailhandel, zorg, sport, kinderopvang | ❌ | Brede categorie, geen apart object | Sportschool, huisarts, kinderopvang | nee |
+| stadslogistiek | activiteit | Goederenstromen binnen stedelijke gebieden | ❌ | Proces/activiteit, geen object | Pakketbezorging, bouwhub | nee |
+| circulaire bedrijvigheid | kenmerk | Bedrijfsmodel gericht op hergebruik en kringloopsluiting | ❌ | Bedrijfskenmerk, geen object | Recyclingbedrijf, revisiebedrijf | nee |
 
 ## GGM-dekkingsanalyse
 
@@ -51,7 +61,7 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 |---|---|---|
 | **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Hotel → [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel]], Hotelbezoek → meting (geen BO), Vestiging → werklocatie |
 | **Taakveld 5 Musea** | Standplaats (3 attributen: beschrijving, adres, naamInstelling) | Standplaats → standplaats (sterk, maar domeinplaatsing betwistbaar) |
-| **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging-grondslag voor werklocatie |
+| **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging → individuele bedrijfslocatie; geen entiteit voor werklocatie als geografisch werkgebied |
 
 **GGM-hiaat Warenmarkt:** Warenmarkt ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject (locatie, frequentie, type, branchering) dat gemeenten beheren via de Marktverordening.
 
@@ -65,7 +75,9 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 
 **GGM-hiaat Horecabedrijf:** Het GGM kent geen specifieke horecaentiteit. Horecabedrijf is een specialisatie van Vestiging (RSGB), herkenbaar via SBI-code.
 
-**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie, warenmarkt.
+**GGM-hiaat Werklocatie:** Het GGM kent geen entiteit voor werklocatie als geografisch afgebakend werkgebied. Vestiging (RSGB) modelleert individuele bedrijfslocaties, maar niet het hogere abstractieniveau van aangewezen gebieden met een profiel, type en beleidskaders. Gemeenten identificeren 31+ werklocaties met 5 typen en stellen per locatie kaderstellende profielen vast.
+
+**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie, warenmarkt, werklocaties.
 
 ## Verwerkte bronnen
 
@@ -77,6 +89,7 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|beleidsregels-terrassen-utrecht]] — Gemeente Utrecht: beleidsregel terrassen in openbare ruimte (2024)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|beleidsregel-hotels-utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen en voorwaarden (2026)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|beleidsregels-short-stay-utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf (short stay)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|beleidsnota-werklocaties-2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035 (bedrijventerreinen, kantoren, winkelgebieden, innovatielocaties, wijkeconomie)
 
 ## Raakvlakken met andere domeinen
 

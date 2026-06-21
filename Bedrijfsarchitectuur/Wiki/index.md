@@ -6,7 +6,7 @@
 - [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: HR, arbeidsvoorwaarden, integriteit (afgerond, 0 BO's)
 - [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
-- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 8 BO's)
+- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -19,7 +19,7 @@
 - [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
 - [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
-- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 26 BO's)
+- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 28 BO's, 12 bronnen)
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 
 ## Bedrijfsobjecten
@@ -38,6 +38,7 @@
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/terras|terras]] — Tijdelijk gebruik openbare ruimte door horecabedrijf (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie|short-stay-accommodatie]] — Logies 2 weken–6 maanden voor kenniswerkers/studenten (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast|bed-and-breakfast]] — Kleinschalige logiesaccommodatie, max 4 kamers (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie|werklocatie]] — Aangewezen geografisch werkgebied met profiel; 5 subtypes (procesobject, GGM-hiaat)
 
 ### Financien (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
@@ -161,6 +162,8 @@
 - [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|voertuig]] — Vervoermiddel voor wegverkeer (GGM exact)
 - [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing|naheffing]] — Achteraf vordering te weinig betaalde parkeerbelasting (GGM exact)
 - [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit|mulderfeit]] — Administratieve parkeerovertreding onder Wet Mulder (GGM exact)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart|gehandicaptenparkeerkaart]] — Europese kaart voor parkeren op gehandicaptenparkeerplaatsen (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats|gehandicaptenparkeerplaats]] — Parkeerplaats gereserveerd voor GPK-houders, specialisatie van Parkeervlak (GGM partieel)
 
 ### Dierenwelzijn (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/hulpbehoevend-dier|hulpbehoevend-dier]] — Wild of gehouden dier waarvoor de gemeente wettelijk opvang organiseert
@@ -272,6 +275,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|beleidsregels-terrassen-utrecht]] — Gemeente Utrecht: beleidsregel terrassen (2024)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|beleidsregel-hotels-utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen (2026)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|beleidsregels-short-stay-utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|beleidsnota-werklocaties-2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035
 
 ### GEMMA
 - [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
