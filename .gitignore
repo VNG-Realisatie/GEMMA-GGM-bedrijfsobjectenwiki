@@ -1,4 +1,12 @@
-.obsidian
-.trash
-ggm_parsed.json
+# Obsidian
+Bedrijfsarchitectuur/.obsidian
+Bedrijfsarchitectuur/.trash
+
+# Claude Code settings (niet de commands)
+.claude/settings*
+.claude/plans/
+.claude/projects/
+
+# Generated
+Bedrijfsarchitectuur/Sources/GGM-repository/ggm_parsed.json
 __pycache__
