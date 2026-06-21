@@ -51,9 +51,15 @@ gemma_subtypes:
     ggm_entiteit: Keermuur
     ggm_guid: EAID_D629609F_088E_4504_99BB_C45F0EA633F
     ggm_attribuut:
+  - naam: Sluis
+    omschrijving: "Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
 bronnen:
   - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
   - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+  - [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -101,6 +107,7 @@ In het GGM is Kunstwerk een abstract object met specialisaties Gemaal, Overstort
 | Flyover | Viaductvormig kunstwerk voor ongelijkvloerse verkeerskruising | [Flyover](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
 | Kademuur | Verticale wand ter scheiding van land en water | [Kademuur](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
 | Keermuur | Muur die door vorm/gewicht/fundering de grond keert | [Keermuur](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
+| Sluis | Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen | — (GGM-hiaat) |
 
 De subtypes zijn geen GGM-kinderen van Kunstwerk (die zijn: Gemaal, Overstortconstructie, Uitlaatconstructie — water-infra). In het GGM zijn Brug/Viaduct/Flyover kinderen van **Overbruggingsobject** en Kademuur/Keermuur kinderen van **Scheiding**. Vanuit beleidsperspectief groepeert de nota ze als "civiele constructies" onder één beheerregime.
 

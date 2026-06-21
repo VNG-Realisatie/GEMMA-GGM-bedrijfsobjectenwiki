@@ -15,7 +15,7 @@ Checks:
 12. **Geen Wiki/Begrippen/ links** — zoek naar `[[Wiki/Begrippen/` in alle wiki-bestanden. Deze links zijn verouderd; begrippen staan op domeinpagina's.
 13. **Ontbrekende subtypes** — drie deelchecks:
     - **13a. Begrippentabel → BO:** begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Specialisaties-tabel in de body. Signaleer apart als het parent-BO niet in de wiki bestaat.
-    - **13b. Frontmatter → body:** BO's met `gemma_subtypes` in frontmatter maar zonder `## Specialisaties`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-tabel voorkomen.
+    - **13b. Frontmatter ↔ body:** BO's met `gemma_subtypes` in frontmatter maar zonder `## Specialisaties`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-tabel voorkomen, of subtypes die in de body-tabel staan maar niet in `gemma_subtypes` in frontmatter.
     - **13c. GGM-link compleetheid:** subtypes in `gemma_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
 
 14. **`bron:`-link in bronsamenvattingen** — bronsamenvattingen waarvan `bron:` een `[[wiki-link]]` is i.p.v. een markdown-link `[tekst](pad)`. Het `bron:` veld verwijst naar een source-bestand, geen wiki-pagina.

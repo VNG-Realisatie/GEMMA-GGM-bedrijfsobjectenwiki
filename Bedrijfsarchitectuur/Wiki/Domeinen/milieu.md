@@ -3,16 +3,17 @@ type: domein
 naam: Milieu
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
-bronnen_count: 7
-begrippen_count: 42
-bo_count: 23
+bronnen_count: 10
+begrippen_count: 62
+bo_count: 33
 ---
 
-Gemeentelijk domein voor milieubeheer in brede zin. Omvat drie subdomeinen:
+Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 1. **Bodem, grondwater en ondergrond** — beheer van bodemkwaliteit, aanpak verontreinigingen, grondwaterbeheer, hergebruik van grond en duurzaam gebruik van de ondergrond (waaronder bodemenergie). De gemeente is bevoegd gezag voor bodemtaken.
 2. **Afval en circulaire economie** — inzameling en verwerking van huishoudelijk en bedrijfsafval, grondstoffenscheiding, circulair hergebruik van materialen. De gemeente heeft wettelijke zorgplicht voor afvalinzameling (Wet Milieubeheer) en stuurt op de transitie naar een circulaire economie (doel: 2050 volledig circulair).
 3. **Luchtkwaliteit** — beleid voor verbetering van de luchtkwaliteit gericht op EU-grenswaarden en WHO-advieswaarden. De gemeente neemt maatregelen op drie hoofdbronnen van luchtverontreiniging: wegverkeer, houtstook en mobiele werktuigen.
+4. **Water en riolering** — beheer van het water- en rioleringssysteem (afvalwater, hemelwater, grondwater, oppervlaktewater) en gebruik van het stadswater (varen, zwemmen, goederenvervoer). De gemeente heeft drie wettelijke zorgplichten (afvalwater, hemelwater, grondwater) en beheert ~246 km watergangen. BO's vallen onder BOR (taakveld 8).
 
 ## Begrippentabel
 
@@ -71,6 +72,39 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat drie subdomeinen:
 | WHO-advieswaarden | referentiegegeven | Advieswaarden Wereldgezondheidsorganisatie | ❌ | Externe normstelling | WHO 2021: NO2 10 µg/m3, PM2.5 5 µg/m3 | nee |
 | EU-grenswaarden | referentiegegeven | Wettelijk verplichte maximumconcentraties | ❌ | Externe normstelling | EU 2030: NO2 20 µg/m3, PM2.5 10 µg/m3 | nee |
 
+### Water en riolering
+
+| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal]] | object | Constructie voor het verpompen van water in het rioleringssysteem | ✅ | 6/6 criteria, GGM exact (Gemaal) | Rioolgemaal Kardinaal de Jongweg, minigemalen, eindgemalen | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kolk]] | object | Reservoir voor opvang hemelwater en afvoer naar riool of ondergrond | ✅ | 6/6 criteria, GGM exact (Kolk) | Straatkolk, amfibievriendelijke kolk | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie]] | object | Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater | ✅ | 6/6 criteria, GGM exact (Overstortconstructie) | 156 gemengde overstorten in Utrecht | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin]] | object | Gesloten reservoir achter overstort voor tijdelijke opvang overstortwater | ✅ | 6/6 criteria, GGM exact (Bergingsbassin) | 18 bergbezinkbassins in Utrecht | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject]] | object | Functioneel stuk oppervlaktewater dat de gemeente beheert | ✅ | 6/6 criteria, GGM exact (Waterobject) | Watergangen, vijvers, grachten, kanalen, vaarwater | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied]] | gebied | Administratief beheersgebied van het rioolstelsel | ✅ | 6/6 criteria, GGM exact (Rioleringsgebied) | Zuiveringsgebied rwzi Brailledreef | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put]] | object | Verticale constructie voor inspectie en onderhoud van riolering | ✅ | 6/6 criteria, GGM exact (Put), subtypes Drainageput/Filterput/Infiltratieput | Rioolput, drainageput | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek]] | object | Locatie in open water waar buiten gezwommen wordt | ✅ | 6/6 criteria, GGM-hiaat | Haarrijnseplas, Strijkviertelplas, Muntsluis | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats]] | object | Aangewezen plek op openbaar water waar een vaartuig mag afmeren | ✅ | 6/6 criteria, GGM-hiaat | 482 vergunningen, ligplaatszones | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing]] | object | Gemeentelijke belasting voor water- en rioleringsbeheer | ✅ | 6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing]] | €254/jaar eigenarenheffing | nee |
+| sluis | subtype | Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen | ✅ subtype | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk]], GGM-hiaat | Weerdsluis, Muntsluis | nee |
+| pomp | onderdeel | Technische installatie voor watertransport onder druk | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal]], te granulair | — | ja |
+| uitlaatconstructie | onderdeel | Eindpunt rioolleiding naar oppervlaktewater | ❌ | Te granulair voor BO-niveau | — | ja |
+| persleiding | onderdeel | Riolering met kunstmatig drukverschil | ❌ | Type riolering, eigenschap van systeem | 150 km in Utrecht | nee |
+| hemelwaterriool | onderdeel | Apart leidingstelsel voor hemelwater | ❌ | Type riolering, eigenschap van gescheiden stelsel | — | nee |
+| wadi | voorziening | Bovengrondse greppel voor hemelwaterinfiltratie | ❌ | Type infiltratievoorziening, te specifiek | Wadi's Leidsche Rijn | nee |
+| havenverordening | governance | Gemeentelijke verordening met vaarregels | ❌ | Governance-instrument, geen zelfstandig object | Havenverordening Utrecht 2015 | nee |
+| havenatlas | instrument | Digitale kaart met ligplaatszones en functies | ❌ | Registratie/kaartproduct, geen zelfstandig BO | — | nee |
+| ligplaatsvergunning | vergunning | Vergunning voor innemen ligplaats | ❌ | VTH-vergunning, valt onder generiek vergunningconcept | 482 uitgegeven | nee |
+| exploitatievergunning | vergunning | Vergunning voor commercieel vaarverkeer | ❌ | VTH-vergunning, valt onder generiek vergunningconcept | 286 uitgegeven | nee |
+| havengeld | heffing | Vergoeding voor gebruik stadswater | ❌ | Te dun voor apart BO, onderdeel havenbeheer | — | nee |
+| ecoscan | meetmethode | Methode voor toetsing ecologische waterkwaliteit | ❌ | Meetmethode, geen object | Eenmaal per 3 jaar | nee |
+| WRIS | informatiesysteem | Water- en Rioleringsinformatiesysteem | ❌ | Informatiesysteem, geen bedrijfsobject | — | nee |
+| Waterproof030 | programma | Stimuleringsprogramma klimaatadaptatie | ❌ | Programma/proces, geen object | Tegeltaxi, NK-tegelwippen | nee |
+| afkoppelen | activiteit | Scheiden hemelwater van afvalwater | ❌ | Proces/activiteit, geen object | 15-19 ha/jaar doelstelling | nee |
+| baggeren | activiteit | Groot onderhoud oppervlaktewater | ❌ | Onderhoudsactiviteit, geen object | 30 km/jaar, 30.000 m³ | nee |
+
+Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Milieu). Vergelijkbaar met hoe groenbeleid-BO's onder BOR vallen maar vanuit milieu-bronnen worden afgeleid. Van de 10 BO's hebben 7 een directe GGM-grondslag (onder BOR); 3 zijn GGM-hiaten.
+
 ## GGM-entiteitendekking
 
 | GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
@@ -101,15 +135,18 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat drie subdomeinen:
 
 Het GGM heeft onder taakveld 7 (Volksgezondheid en Milieu) alleen het beleidsdomein **Afval**. Er is geen beleidsdomein voor bodem, grondwater, luchtkwaliteit of milieubeheer. De 6 bodem-BO's en alle 7 luchtkwaliteit-BO's zijn daarom **GGM-hiaten**. Van de 10 afval-BO's hebben 4 een GGM-grondslag; de overige 6 zijn procesobjecten of governance-objecten buiten GGM-scope.
 
-Gerelateerde GGM-entiteiten in andere taakvelden (geen directe match):
+Gerelateerde GGM-entiteiten in andere taakvelden (geen directe match voor milieu-specifieke BO's):
 - **Parkeerzone** (Parkeren) — vergelijkbaar zoneconcept, ander domein
 - **Verkeersbesluit** (Mobiliteit) — juridische grondslag waarmee milieuzones worden ingesteld
 - **VOMAanvraagOfMelding** (VTH) — generiek ontheffingsconcept
 - **Sensor**, **Verkeerstelling** (Mobiliteit) — meetconcepten, niet luchtkwaliteitsspecifiek
 - **Subsidie**, **Subsidieaanvraag** (Subsidies) — generiek subsidieconcept voor sloopregeling
-- **Filterput** (Beheer Openbare Ruimte) — fysiek drainageobject, geen milieumeetpunt
 
 Het ontbreken van GGM-beleidsdomeinen voor bodem/grondwater en luchtkwaliteit is een **significant structureel GGM-hiaat**.
+
+Water-gerelateerde GGM-entiteiten onder BOR (taakveld 8) die wél matchen:
+- **Gemaal**, **Kolk**, **Overstortconstructie**, **Bergingsbassin**, **Waterobject**, **Rioleringsgebied**, **Put** — 7 entiteiten met directe BO-match
+- **Pomp**, **Uitlaatconstructie**, **Bemalingsgebied**, **Drainageput**, **Filterput**, **Infiltratieput**, **Waterinrichtingsobject** — 7 entiteiten als subtype of te granulair opgenomen
 
 ## Verwerkte bronnen
 
@@ -125,6 +162,11 @@ Het ontbreken van GGM-beleidsdomeinen voor bodem/grondwater en luchtkwaliteit is
 
 ### Luchtkwaliteit
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]] — Utrechts luchtkwaliteitsbeleid: milieuzones, houtstook, mobiele werktuigen (1267 regels, 2024)
+
+### Water en riolering
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
+- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 
@@ -151,9 +193,13 @@ De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opges
 
 ## Terugmeldingen richting GGM
 
-Alle 13 niet-GGM BO's in dit domein zijn hiaten. Terugmeldingen:
+16 niet-GGM BO's in dit domein zijn hiaten. Terugmeldingen:
 - Het GGM mist een beleidsdomein voor bodem/grondwater onder taakveld 7.
 - Het GGM mist een beleidsdomein voor luchtkwaliteit onder taakveld 7: milieuzones, meetpunten, zones zijn dataobjecten die gemeenten actief beheren.
 - Het GGM mist een generiek herbruikbaar "Zone"-concept (vgl. Parkeerzone) dat ook voor milieuzones, rookvrije zones en vuurwerkvrije zones toepasbaar is.
 - Het GGM mist een generiek "Ontheffing"-concept; nu zijn er domeinspecifieke varianten (Ligplaatsontheffing, Ontheffing Inburgering, Ontheffing Werk) zonder gemeenschappelijk supertype.
+- Het GGM mist Buitenzwemplek als entiteit onder BOR — gemeenten beheren officiële en niet-officiële zwemlocaties met eigen monitoring en oeverinrichting.
+- Het GGM mist Ligplaats als entiteit onder BOR — gemeenten beheren ligplaatszones, verlenen vergunningen en heffen havengeld.
+- Het GGM mist Rioolheffing — vergelijkbaar met hoe Afvalstoffenheffing ontbreekt maar wel BO is.
+- Het GGM mist Sluis als subtype van Kunstwerk — waterbouwkundig kunstwerk dat gemeenten beheren.
 Zie [[Wiki/Analyses/ggm-terugmeldingen]].

@@ -11,7 +11,7 @@
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
-- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit: milieuzones, meetpunten, zones, bodemkwaliteit, containers, grondstofstromen (in behandeling, 23 BO's)
+- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
 - [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
@@ -19,7 +19,7 @@
 - [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
 - [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
-- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 28 BO's, 12 bronnen)
+- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 
@@ -114,6 +114,18 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speelterrein|Speelterrein]] — Afgebakende openbare ruimte ingericht als speelplaats (GGM exact, subtypes buurtplek/blokplek)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
 
+### Beheer Openbare Ruimte — Water en riolering (GGM BOR taakveld 8 + hiaten)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|gemaal]] — Constructie voor het verpompen van water in het rioleringssysteem (~700 in Utrecht, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kolk|kolk]] — Reservoir voor opvang hemelwater en afvoer naar riool (GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie|overstortconstructie]] — Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater (156 stuks, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin|bergingsbassin]] — Gesloten reservoir achter overstort voor tijdelijke opvang (18 stuks, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|waterobject]] — Functioneel stuk oppervlaktewater: watergangen, vaarwater, vijvers (246 km, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|rioleringsgebied]] — Administratief beheersgebied van het rioolstelsel (GGM exact, subtype Bemalingsgebied)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put|put]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek op openbaar water waar vaartuig mag afmeren (482 vergunningen, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
+
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|opwekgebied]] — Aangewezen gebied voor grootschalige opwek van duurzame energie (zon/wind)
@@ -135,6 +147,9 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/stil-gebied|stil-gebied]] — Rustig gebied dat de gemeente beschermt en uitbreidt (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidzone|geluidzone]] — Zone rond industrieterrein met cumulatieve geluidnormen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/geluidscherm|geluidscherm]] — Fysieke afscherming om geluidhinder te verminderen (GGM Geluidsscherm, exact)
+
+### Mobiliteit — Voetganger (governance-object, taakveld 2 — GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/voetgangersgebied|voetgangersgebied]] — Aangewezen gebied waar de voetganger hoofdgebruiker is
 
 ### Mobiliteit — Fiets (procesobjecten, taakveld 2 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|hoofdfietsroute]] — Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk
@@ -311,6 +326,11 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
+
+### Milieu — water en riolering
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
+- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
 
 ### Milieu — bodem
 - [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid

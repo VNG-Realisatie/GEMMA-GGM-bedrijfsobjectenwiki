@@ -29,6 +29,9 @@ Het Mobiliteitsplan 2040 (vastgesteld 15 juli 2021) beschrijft hoe Utrecht de gr
 
 ## Kernbegrippen
 
+### Voetganger
+- **[[Voetgangersgebied]]**: aangewezen gebied waar voetganger hoofdgebruiker is; binnenstad, USP, LRC worden uitgebreid
+
 ### Fiets
 - **[[Hoofdfietsroute]]**: aangewezen fietsroute met kwaliteitseisen, fijnmazig netwerk voor routekeuze en spreiden van stromen
 

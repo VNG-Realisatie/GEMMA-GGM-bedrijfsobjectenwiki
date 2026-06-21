@@ -1,5 +1,36 @@
 # Wiki Log
 
+## [2026-06-21] ingest | Milieu — Water en riolering (10 nieuwe BO's, 3 bronnen)
+- **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/water + 3 PDF's via bestuurlijkeinformatie.nl
+  - Visie Water en Riolering Utrecht (strategisch beleidskader, horizon 2050)
+  - Programma Water en Riolering 2025-2029 (uitvoeringsprogramma met budgetten)
+  - Beleidsnota Stadswater (gebruik vaarwegen en buitenzwemwater, horizon 2040)
+  - Overzichtspagina water.md → Niet-relevant (gedekt door bovenstaande)
+- **3 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/milieu/
+- **10 nieuwe BO's** aangemaakt in Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/:
+  - GGM exact (7): Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Waterobject, Rioleringsgebied, Put
+  - GGM-hiaat (3): Buitenzwemplek, Ligplaats, Rioolheffing
+- **1 subtype** toegevoegd aan bestaand BO Kunstwerk: Sluis (GGM-hiaat)
+- **Put** als BO met 3 subtypes: Drainageput, Filterput, Infiltratieput
+- **Rioleringsgebied** met subtype Bemalingsgebied
+- **Buitenzwemplek** met relatie naar Zwembad (Sport) — zelfde behoefte, ander objecttype
+- **Domeinoverzicht milieu** uitgebreid met 4e subdomein "Water en riolering" + begrippentabel (20 begrippen)
+- **GGM-terugmeldingen** uitgebreid: #46-49 (Buitenzwemplek, Ligplaats, Rioolheffing, Sluis)
+- Counts: bronnen 7→10, begrippen 42→62, BO's 23→33
+
+## [2026-06-21] re-ingest | Mobiliteit — Mobiliteitsplan 2040 (1 nieuw BO, regels bijgewerkt)
+- **Aanleiding:** heringest wegens gewijzigde assess-bo regels (data-object classificatie, instrumenten als BO-kandidaten).
+- Bron opgehaald via /fetch: omgevingsvisie.utrecht.nl/thematisch-beleid/verkeer-en-mobiliteit. Overzichtspagina niet-relevant (gedekt door bestaande PDF).
+- Mobiliteitsplan 2040 PDF opnieuw geconverteerd en frontmatter toegevoegd.
+- **Domeinoverzicht bijgewerkt:**
+  - Data-object kolom toegevoegd aan alle 8 secties van de begrippentabel (stap 9 assess-bo).
+  - 3 instrumenten herbeoordeeld (Kwaliteitsnet, Wiel met Spaken, MaaS) — alle drie blijven ❌ onder nieuwe regels (falen op meervoud/levenscyclus).
+  - 2 nieuwe begrippen: Voetgangersgebied (✅ BO), Compartimenteringszone (❌).
+- **1 nieuw BO:** [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/voetgangersgebied|Voetgangersgebied]] (6/6 criteria, governance-object, GGM-hiaat). Aangewezen gebied waar voetganger hoofdgebruiker is (binnenstad, USP, LRC).
+- **1 GGM-terugmelding:** Voetgangersgebied (#36) — vergelijkbaar met Zero-emissiezone qua opzet.
+- Bronsamenvatting aangevuld met Voetgangersgebied als kernbegrip.
+- Domein Mobiliteit: 29 BO's, 43 begrippen, 12 bronnen.
+
 ## [2026-06-21] ingest | Sport en Bewegen (7 BO's, 2 bronsamenvattingen, 1 GGM-hiaat)
 - Bronnen opgehaald via /fetch: omgevingsvisie.utrecht.nl/thematisch-beleid/beleid-voor-sport-en-bewegen + 3 PDF's (beleidsnota 2025-2032, raadsbrief, uitvoeringsprogramma 2025-2026).
 - PDF's geconverteerd naar markdown met convert_pdf.py.
