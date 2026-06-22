@@ -16,63 +16,63 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 
 ### Belastingtypen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| gemeentelijke belasting | thema | Overkoepelend begrip voor alle gemeentelijke heffingen | ❌ | Overkoepelend thema, geen object | — | nee |
-| algemene belasting | thema | Belasting waarvan opbrengsten naar algemene middelen vloeien | ❌ | Classificatie, geen object | OZB, hondenbelasting | nee |
-| bestemmingsbelasting | thema | Belasting waarvan opbrengsten bestemd zijn voor specifieke taken | ❌ | Classificatie, geen object | Afvalstoffenheffing, BIZ | nee |
-| retributie | thema | Heffing als vergoeding voor individueel voordeel (dienst of gebruik) | ❌ | Classificatie, geen object | Leges, marktgeld | nee |
-| leges | object | Retributie voor gemeentelijke dienstverlening (vergunningen, documenten) | ❌ | Subtype retributie, geen eigen bestaan los van dienst | Bouwvergunning, paspoort | nee |
-| onroerendezaakbelasting (OZB) | object | Belasting op eigendom/gebruik onroerende zaken, grootste eigen inkomstenbron | ❌ | Eén OZB per gemeente, geen meervoud; instantie van belastingtype | OZB-eigenaar woning | nee |
-| parkeerbelasting | object | Belasting op parkeren (incidenteel + vergunning), regulerend karakter | ❌ | Eén regeling per gemeente; instanties zijn aanslagen/vergunningen | Straatparkeren, vergunning | nee |
-| precariobelasting | object | Belasting voor gebruik openbare grond | ❌ | Eén regeling per gemeente | Terras, kabel, luifel | ja: Precario |
-| reclamebelasting | object | Belasting op openbare aankondigingen, vaak voor ondernemersfonds | ❌ | Eén regeling per gemeente | Gevelreclame, uithangbord | nee |
-| hondenbelasting | object | Belasting voor het houden van een hond | ❌ | Eén regeling per gemeente | Eerste hond, tweede hond | nee |
-| BIZ-bijdrage | instrument | Bestemmingsbelasting op verzoek ondernemers voor bedrijveninvesteringszone | ❌ | Governance-instrument, niet het object zelf | BIZ Winkelstraat 2025 | nee |
-| afvalstoffenheffing | object | Bestemmingsheffing voor inzameling huishoudelijk afval | ❌ | Eén regeling per gemeente | Vast tarief, diftar | nee |
-| reinigingsrecht | object | Retributie voor niet-verplichte afvalinzameling (bedrijven) | ❌ | Subtype retributie | Bedrijfsafval container | nee |
-| riool- en waterzorgheffing | object | Heffing voor gemeentelijke watertaken (afvoer, grondwater, droogte) | ❌ | Eén regeling per gemeente | Rioolheffing 2025 | nee |
-| toeristenbelasting | object | Heffing op verblijf niet-ingezetenen | ❌ | Eén regeling per gemeente | Hotelnacht, camping | nee |
-| forensenbelasting | object | Heffing op langdurig verblijf niet-ingezetenen (>90 dagen) | ❌ | Eén regeling per gemeente | Tweede woning | nee |
-| vermakelijkhedenretributie | object | Retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken | ❌ | Subtype retributie | Festival, evenement | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|gemeentelijke belasting|thema|Overkoepelend begrip voor alle gemeentelijke heffingen| ❌ | nee |Overkoepelend thema, geen object|—|nee|
+|algemene belasting|thema|Belasting waarvan opbrengsten naar algemene middelen vloeien| ❌ | nee |Classificatie, geen object|OZB, hondenbelasting|nee|
+|bestemmingsbelasting|thema|Belasting waarvan opbrengsten bestemd zijn voor specifieke taken| ❌ | nee |Classificatie, geen object|Afvalstoffenheffing, BIZ|nee|
+|retributie|thema|Heffing als vergoeding voor individueel voordeel (dienst of gebruik)| ❌ | nee |Classificatie, geen object|Leges, marktgeld|nee|
+|leges|object|Retributie voor gemeentelijke dienstverlening (vergunningen, documenten)| ❌ | ja |Subtype retributie, geen eigen bestaan los van dienst|Bouwvergunning, paspoort|nee|
+|onroerendezaakbelasting (OZB)|object|Belasting op eigendom/gebruik onroerende zaken, grootste eigen inkomstenbron| ❌ | ja |Eén OZB per gemeente, geen meervoud; instantie van belastingtype|OZB-eigenaar woning|nee|
+|parkeerbelasting|object|Belasting op parkeren (incidenteel + vergunning), regulerend karakter| ❌ | ja |Eén regeling per gemeente; instanties zijn aanslagen/vergunningen|Straatparkeren, vergunning|nee|
+|precariobelasting|object|Belasting voor gebruik openbare grond| ❌ | ja |Eén regeling per gemeente|Terras, kabel, luifel|ja: Precario|
+|reclamebelasting|object|Belasting op openbare aankondigingen, vaak voor ondernemersfonds| ❌ | ja |Eén regeling per gemeente|Gevelreclame, uithangbord|nee|
+|hondenbelasting|object|Belasting voor het houden van een hond| ❌ | ja |Eén regeling per gemeente|Eerste hond, tweede hond|nee|
+|BIZ-bijdrage|instrument|Bestemmingsbelasting op verzoek ondernemers voor bedrijveninvesteringszone| ❌ | nee |Governance-instrument, niet het object zelf|BIZ Winkelstraat 2025|nee|
+|afvalstoffenheffing|object|Bestemmingsheffing voor inzameling huishoudelijk afval| ❌ | ja |Eén regeling per gemeente|Vast tarief, diftar|nee|
+|reinigingsrecht|object|Retributie voor niet-verplichte afvalinzameling (bedrijven)| ❌ | ja |Subtype retributie|Bedrijfsafval container|nee|
+|riool- en waterzorgheffing|object|Heffing voor gemeentelijke watertaken (afvoer, grondwater, droogte)| ❌ | ja |Eén regeling per gemeente|Rioolheffing 2025|nee|
+|toeristenbelasting|object|Heffing op verblijf niet-ingezetenen| ❌ | ja |Eén regeling per gemeente|Hotelnacht, camping|nee|
+|forensenbelasting|object|Heffing op langdurig verblijf niet-ingezetenen (>90 dagen)| ❌ | ja |Eén regeling per gemeente|Tweede woning|nee|
+|vermakelijkhedenretributie|object|Retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken| ❌ | ja |Subtype retributie|Festival, evenement|nee|
 
 ### Objecten en processen
 
-| Begrip                                                          | Type       | Omschrijving                                                               | BO? | Reden                                                             | Voorbeelden                            | GGM                |
-| --------------------------------------------------------------- | ---------- | -------------------------------------------------------------------------- | --- | ----------------------------------------------------------------- | -------------------------------------- | ------------------ |
-| belastingaanslag                                                | object     | Individuele vaststelling van het belastingbedrag door de heffingsambtenaar | ✅   | 6/6 criteria, GGM-hiaat (procesobject)                            | OZB-aanslag 2025, naheffing parkeren   | nee                |
-| belastingverordening                                            | instrument | Juridische grondslag voor individuele belastingplicht                      | ✅   | Eigen levenscyclus, governance-object                             | OZB-verordening 2025, Legesverordening | nee                |
-| [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]]                    | object     | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld                    | ✅   | 6/6 criteria, exact GGM-match                                     | Woning Dorpsstraat 1, kantoor          | ja                 |
-| [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]] | object     | Vastgestelde marktwaarde van een WOZ-object per waardepeildatum            | ✅   | 6/6 criteria, exact GGM-match                                     | WOZ-waarde 2025: €350.000              | ja                 |
-| belastingplichtige                                              | actor      | Persoon die belasting moet betalen                                         | ❌   | Rol van een persoon, geen zelfstandig concept                     | Eigenaar woning, hondenbezitter        | nee                |
-| heffingsmaatstaf                                                | object     | Maatstaf waarmee de belastingschuld wordt bepaald                          | ❌   | Eigenschap van verordening, geen eigen bestaan                    | WOZ-waarde, oppervlakte, aantal honden | nee                |
-| tarief                                                          | object     | Bedrag of percentage per eenheid heffingsmaatstaf                          | ❌   | Eigenschap van verordening, geen eigen bestaan                    | 0,1% van WOZ-waarde                    | nee                |
-| woz-beschikking                                                 | object     | Formele bekendmaking WOZ-waarde aan belanghebbende                         | ❌   | Onderdeel WOZ-proces, geen zelfstandig bestaan los van WOZ-object | WOZ-beschikking 2025                   | nee                |
-| onroerende zaak                                                 | object     | Object van OZB-heffing en WOZ-waardering (BW-begrip)                       | ❌   | Juridisch begrip, het BO is WOZ-object                            | Woning, grond, kantoor                 | ja: via WOZ-object |
-| woonlasten                                                      | thema      | OZB + rioolheffing + afvalstoffenheffing per huishouden                    | ❌   | Aggregaat, geen object                                            | €900/jaar gemiddeld                    | nee                |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---------------------------------------------------------------|---|----------|--------------------------------------------------------------------------|---|-----------------------------------------------------------------|--------------------------------------|------------------|
+|belastingaanslag|object|Individuele vaststelling van het belastingbedrag door de heffingsambtenaar| ✅ | ja |6/6 criteria, GGM-hiaat (procesobject)|OZB-aanslag 2025, naheffing parkeren|nee|
+|belastingverordening|instrument|Juridische grondslag voor individuele belastingplicht| ✅ | ja |Eigen levenscyclus, governance-object|OZB-verordening 2025, Legesverordening|nee|
+|[[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]]|object|Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld| ✅ | ja |6/6 criteria, exact GGM-match|Woning Dorpsstraat 1, kantoor|ja|
+|[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]]|object|Vastgestelde marktwaarde van een WOZ-object per waardepeildatum| ✅ | ja |6/6 criteria, exact GGM-match|WOZ-waarde 2025: €350.000|ja|
+|belastingplichtige|actor|Persoon die belasting moet betalen| ❌ | nee |Rol van een persoon, geen zelfstandig concept|Eigenaar woning, hondenbezitter|nee|
+|heffingsmaatstaf|object|Maatstaf waarmee de belastingschuld wordt bepaald| ❌ | ja |Eigenschap van verordening, geen eigen bestaan|WOZ-waarde, oppervlakte, aantal honden|nee|
+|tarief|object|Bedrag of percentage per eenheid heffingsmaatstaf| ❌ | ja |Eigenschap van verordening, geen eigen bestaan|0,1% van WOZ-waarde|nee|
+|woz-beschikking|object|Formele bekendmaking WOZ-waarde aan belanghebbende| ❌ | ja |Onderdeel WOZ-proces, geen zelfstandig bestaan los van WOZ-object|WOZ-beschikking 2025|nee|
+|onroerende zaak|object|Object van OZB-heffing en WOZ-waardering (BW-begrip)| ❌ | ja |Juridisch begrip, het BO is WOZ-object|Woning, grond, kantoor|ja: via WOZ-object|
+|woonlasten|thema|OZB + rioolheffing + afvalstoffenheffing per huishouden| ❌ | nee |Aggregaat, geen object|€900/jaar gemiddeld|nee|
 
 ### Juridisch kader en actoren
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| belastinggebied | thema | Het geheel aan wettelijke heffingsmogelijkheden van gemeenten | ❌ | Beleidsmatig, geen object | Gesloten stelsel Gemeentewet | nee |
-| belastingmix | thema | De gekozen combinatie van belastingen en tarieven | ❌ | Beleidskeuze, geen object | — | nee |
-| kostendekkend tarief | thema | Principe dat opbrengsten de kosten niet mogen overschrijden | ❌ | Rechtsbeginsel, geen object | Max 100% dekking retributies | nee |
-| kostenonderbouwing | thema | Verplichte verantwoording kosten bij lokale heffingen | ❌ | Proces, geen object | BBV-rapportage | nee |
-| kruissubsidiering | thema | Overschot ene activiteit dekt tekort andere binnen heffing | ❌ | Beleidsmatig principe | Binnen legesverordening | nee |
-| onbenutte belastingcapaciteit | thema | Verschil tussen feitelijke en maximale OZB-opbrengst | ❌ | Kengetal, geen object | — | nee |
-| algemene middelen | thema | Niet-gelabelde gemeentelijke opbrengsten | ❌ | Financieel begrip, geen object | — | nee |
-| heffingsambtenaar | actor | Legt belastingaanslagen op | ❌ | Rol, geen zelfstandig concept | — | nee |
-| invorderingsambtenaar | actor | Int belastingaanslagen | ❌ | Rol, geen zelfstandig concept | — | nee |
-| waarderingskamer | actor | Toezichthouder op WOZ-uitvoering | ❌ | Externe organisatie, buiten gemeentelijk perspectief | — | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|belastinggebied|thema|Het geheel aan wettelijke heffingsmogelijkheden van gemeenten| ❌ | nee |Beleidsmatig, geen object|Gesloten stelsel Gemeentewet|nee|
+|belastingmix|thema|De gekozen combinatie van belastingen en tarieven| ❌ | nee |Beleidskeuze, geen object|—|nee|
+|kostendekkend tarief|thema|Principe dat opbrengsten de kosten niet mogen overschrijden| ❌ | nee |Rechtsbeginsel, geen object|Max 100% dekking retributies|nee|
+|kostenonderbouwing|thema|Verplichte verantwoording kosten bij lokale heffingen| ❌ | nee |Proces, geen object|BBV-rapportage|nee|
+|kruissubsidiering|thema|Overschot ene activiteit dekt tekort andere binnen heffing| ❌ | nee |Beleidsmatig principe|Binnen legesverordening|nee|
+|onbenutte belastingcapaciteit|thema|Verschil tussen feitelijke en maximale OZB-opbrengst| ❌ | nee |Kengetal, geen object|—|nee|
+|algemene middelen|thema|Niet-gelabelde gemeentelijke opbrengsten| ❌ | nee |Financieel begrip, geen object|—|nee|
+|heffingsambtenaar|actor|Legt belastingaanslagen op| ❌ | nee |Rol, geen zelfstandig concept|—|nee|
+|invorderingsambtenaar|actor|Int belastingaanslagen| ❌ | nee |Rol, geen zelfstandig concept|—|nee|
+|waarderingskamer|actor|Toezichthouder op WOZ-uitvoering| ❌ | nee |Externe organisatie, buiten gemeentelijk perspectief|—|nee|
 
 ### GGM Parkeren (gerelateerde BO-kandidaten)
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[naheffingsaanslag]] | object | Aanslag bij niet/te weinig betalen parkeerbelasting | ✅ | 6/6 criteria, exact GGM-match (Naheffing) | Parkeerboete €70 | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] | object | Vergunning om te parkeren in aangewezen gebied | ✅ | 6/6 criteria, exact GGM-match | Bewonersvergunning zone A | ja |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]] | object | Recht op parkeren na betaling | ✅ | 6/6 criteria, exact GGM-match | Parkeerticket 2 uur | ja |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[naheffingsaanslag]]|object|Aanslag bij niet/te weinig betalen parkeerbelasting| ✅ | ja |6/6 criteria, exact GGM-match (Naheffing)|Parkeerboete €70|ja|
+|[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]]|object|Vergunning om te parkeren in aangewezen gebied| ✅ | ja |6/6 criteria, exact GGM-match|Bewonersvergunning zone A|ja|
+|[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]]|object|Recht op parkeren na betaling| ✅ | ja |6/6 criteria, exact GGM-match|Parkeerticket 2 uur|ja|
 
 ## GGM-dekkingsanalyse
 

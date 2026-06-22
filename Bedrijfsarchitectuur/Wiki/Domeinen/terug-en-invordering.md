@@ -14,15 +14,15 @@ Gemeentelijke schuld- en vorderingenbeheer — procedures voor het innen van vor
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]] | object | Betaling van een afgesproken of opgelegd bedrag op een vordering | ✅ | ggm-entiteit, 6/6 criteria | Betaling OZB-schuld, aflossing | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | object | Alle afspraken over op welke vordering per wanneer welk bedrag wordt afgelost | ✅ | ggm-entiteit, 6/6 criteria | Aflossingsafspraak 12 maanden | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving\|Afschrijving]] | object | Afschrijven van oninbare vordering zonder investeningsperspectiefperspectief | ✅ | ggm-entiteit, 6/6 criteria | Afschrijving oudbetaalrechten | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie\|Interventie]] | object | Daadwerkelijke interventie naar aanleiding van achterwege blijven aflossingen | ✅ | ggm-entiteit, 6/6 criteria | Incassotraject, loonbeslag | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/kwijtschelding-bo\|Kwijtschelding]] | object | Kwijtschelden van het restant van de vordering | ✅ | ggm-entiteit, 6/6 criteria | Kwijtschelding bij beperkte draagkracht | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie\|Restitutie]] | object | Terugbetaling van te veel ontvangen aflossing | ✅ | ggm-entiteit, 6/6 criteria | Restitutie na overpayment | ja |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | object | Eis op een persoon die een zeker bedrag terug moet betalen aan de gemeente | ✅ | ggm-entiteit, 6/6 criteria | OZB-schuld, openstaande factuur | ja |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]]|object|Betaling van een afgesproken of opgelegd bedrag op een vordering| ✅ | ja |ggm-entiteit, 6/6 criteria|Betaling OZB-schuld, aflossing|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]]|object|Alle afspraken over op welke vordering per wanneer welk bedrag wordt afgelost| ✅ | ja |ggm-entiteit, 6/6 criteria|Aflossingsafspraak 12 maanden|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving\|Afschrijving]]|object|Afschrijven van oninbare vordering zonder investeningsperspectiefperspectief| ✅ | ja |ggm-entiteit, 6/6 criteria|Afschrijving oudbetaalrechten|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie\|Interventie]]|object|Daadwerkelijke interventie naar aanleiding van achterwege blijven aflossingen| ✅ | ja |ggm-entiteit, 6/6 criteria|Incassotraject, loonbeslag|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/kwijtschelding-bo\|Kwijtschelding]]|object|Kwijtschelden van het restant van de vordering| ✅ | ja |ggm-entiteit, 6/6 criteria|Kwijtschelding bij beperkte draagkracht|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie\|Restitutie]]|object|Terugbetaling van te veel ontvangen aflossing| ✅ | ja |ggm-entiteit, 6/6 criteria|Restitutie na overpayment|ja|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]]|object|Eis op een persoon die een zeker bedrag terug moet betalen aan de gemeente| ✅ | ja |ggm-entiteit, 6/6 criteria|OZB-schuld, openstaande factuur|ja|
 
 ## GGM-dekkingsanalyse
 

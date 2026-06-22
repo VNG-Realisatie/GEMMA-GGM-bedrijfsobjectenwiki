@@ -26,36 +26,33 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Civiel-technische constructie in de openbare ruimte voor de infrastructuur van wegen en water, zoals bruggen, viaducten en kademuren."
 gemma_subtypes:
-  - naam: Brug
+  - naam: "Brug"
     omschrijving: "Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden"
     ggm_entiteit: Brug
     ggm_guid: EAID_B56B8C37_AA54_4266_B96B_C466946D1C3
-    ggm_attribuut:
-  - naam: Viaduct
+    ggm_attribuut: generalisatie
+  - naam: "Viaduct"
     omschrijving: "Kunstwerk over een weg of spoorweg, bestaande uit een dek gesteund door pijlers en/of landhoofden"
     ggm_entiteit: Viaduct
     ggm_guid: EAID_4824C467_3BF6_45C2_BD8B_03F04CEBCA9
-    ggm_attribuut:
-  - naam: Flyover
-    omschrijving: "Viaductvormig kunstwerk waarmee een verkeersstroom over ongelijkvloerse kruisingen wordt geleid"
+    ggm_attribuut: generalisatie
+  - naam: "Flyover"
+    omschrijving: Viaductvormig kunstwerk waarmee een verkeersstroom over ongelijkvloerse kruisingen wordt geleid
     ggm_entiteit: Flyover
     ggm_guid: EAID_12F592F4_8E38_49B7_8DEF_F9B84A874BB
-    ggm_attribuut:
-  - naam: Kademuur
-    omschrijving: "Verticale wand ter scheiding van land en water"
+    ggm_attribuut: generalisatie
+  - naam: "Kademuur"
+    omschrijving: Verticale wand ter scheiding van land en water
     ggm_entiteit: Kademuur
     ggm_guid: EAID_22C76A86_D969_464E_87CD_53466BD75FC
-    ggm_attribuut:
-  - naam: Keermuur
+    ggm_attribuut: generalisatie
+  - naam: "Keermuur"
     omschrijving: "Muur die door vorm, gewicht en fundering de grond keert"
     ggm_entiteit: Keermuur
     ggm_guid: EAID_D629609F_088E_4504_99BB_C45F0EA633F
-    ggm_attribuut:
-  - naam: Sluis
-    omschrijving: "Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
+    ggm_attribuut: generalisatie
+  - naam: "Sluis"
+    omschrijving: Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
@@ -70,6 +67,7 @@ relaties:
     beschrijving: Verharding loopt over/langs kunstwerken
 bedrijfsprocessen: [Inspectie civiele constructies, Groot onderhoud kunstwerken, Vervanging kunstwerken, Conservering]
 bedrijfsfuncties: [Beheer openbare ruimte, Civiel beheer]
+ggm_gemma_naam: "Kunstwerk"
 ---
 
 ## BO-criteria toetsing

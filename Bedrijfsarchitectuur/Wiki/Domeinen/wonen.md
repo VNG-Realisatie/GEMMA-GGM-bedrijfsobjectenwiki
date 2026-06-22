@@ -4,7 +4,7 @@ naam: Wonen
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
 bronnen_count: 9
-begrippen_count: 32
+begrippen_count: 31
 bo_count: 5
 ---
 
@@ -18,13 +18,13 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-| [[Woning]] | object | Zelfstandige woonruimte voor permanente huisvesting van één huishouden | ✅ | ja | 6/6 criteria, GGM: Gebouw | Sociale huurwoning, middenhuurwoning, koopwoning | ja |
-| [[Woningbouwplan]] | object | Project waarin woningen worden geprogrammeerd en gerealiseerd | ✅ | ja | 6/6 criteria, GGM: Plan | Merwedekanaalzone, Cartesiusdriehoek | ja |
-| [[Urgentverklaring]] | instrument | Beschikking waarmee woningzoekende voorrang krijgt bij toewijzing sociale huur | ✅ | ja | 6/6 criteria, governance-object, GGM-hiaat | Medische urgentie, dreigend dakloos | nee |
-| sociale huurwoning | object | Huurwoning met huurprijs onder liberalisatiegrens (€900,07 in 2025) | — | ja | Subtype van [[Woning]], GGM: Huurwoningen | Corporatiewoning, kernvoorraad | ja |
-| middenhuurwoning | object | Huurwoning €900–€1.185, 144–186 WWS-punten | — | ja | Subtype van [[Woning]], GGM-hiaat | Beleggershuurwoning | nee |
-| betaalbare koopwoning | object | Koopwoning tot betaalbaarheidsgrens (€405.000 in 2025) | — | ja | Subtype van [[Woning]], GGM: Koopwoningen | Starterswoning met zelfbewoningsplicht | ja |
-| studentenwoning | object | Woning met campuscontract voor studenten | — | ja | Subtype van [[Woning]], GGM: Studentenwoningen | Zelfstandige of onzelfstandige studentenkamer | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning\|Woning]] | object | Zelfstandige woonruimte voor permanente huisvesting van één huishouden | ✅ | ja | 6/6 criteria, GGM: Gebouw | Sociale huurwoning, middenhuurwoning, koopwoning | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | object | Project waarin woningen worden geprogrammeerd en gerealiseerd | ✅ | ja | 6/6 criteria, GGM: Plan | Merwedekanaalzone, Cartesiusdriehoek | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/urgentverklaring\|Urgentverklaring]] | instrument | Beschikking waarmee woningzoekende voorrang krijgt bij toewijzing sociale huur | ✅ | ja | 6/6 criteria, governance-object, GGM-hiaat | Medische urgentie, dreigend dakloos | nee |
+| sociale huurwoning | object | Huurwoning met huurprijs onder liberalisatiegrens (€900,07 in 2025) | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning\|Woning]], GGM: Huurwoningen | Corporatiewoning, kernvoorraad | ja |
+| middenhuurwoning | object | Huurwoning €900–€1.185, 144–186 WWS-punten | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning\|Woning]], GGM-hiaat | Beleggershuurwoning | nee |
+| betaalbare koopwoning | object | Koopwoning tot betaalbaarheidsgrens (€405.000 in 2025) | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning\|Woning]], GGM: Koopwoningen | Starterswoning met zelfbewoningsplicht | ja |
+| studentenwoning | object | Woning met campuscontract voor studenten | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning\|Woning]], GGM: Studentenwoningen | Zelfstandige of onzelfstandige studentenkamer | ja |
 | huisvestingsvergunning | instrument | Vergunning voor betrekken vergunningplichtige woonruimte | ❌ | ja | Vergunning, past bij VTH-domein | Vergunning sociale huur, middenhuur | nee |
 | omzettingsvergunning | instrument | Vergunning voor omzetten zelfstandig naar onzelfstandig | ❌ | ja | Vergunning wijziging woonruimtevoorraad | Omzetting naar kamerverhuur | nee |
 | splitsingsvergunning | instrument | Vergunning voor bouwkundig of kadastraal splitsen | ❌ | ja | Vergunning wijziging woonruimtevoorraad | Kadastrale splitsing appartement | nee |
@@ -40,11 +40,11 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | zelfbewoningsplicht | instrument | Verplichting tot zelfbewoning bij nieuwbouw koop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar na BRP-inschrijving | nee |
 | antispeculatiebeding | instrument | Beding tegen speculatieve doorverkoop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar geldingsduur | nee |
 | woningdelen | thema | Meerdere huishoudens in één woning | ❌ | nee | Activiteit/proces, geen object | Max 3 personen vergunningvrij | nee |
-| [[Woonboot]] | object | Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats | ✅ | ja | 6/6 criteria, GGM: Vaartuig | Woonark, varend schip, historisch schip | ja |
-| [[Ligplaats]] | object | Door de gemeente aangewezen plaats in het water voor permanent afmeren | ✅ | ja | 6/6 criteria, GGM: Ligplaats (BAG) | Ligplaats Merwedekanaal, reserveligplaats | ja |
-| woonark | object | Betonnen bak met opbouw in het water, niet varend | — | ja | Subtype van [[Woonboot]] | Woonark Kruisvaart | ja |
-| varend schip | object | Schip met originele romp, ontworpen om te varen | — | ja | Subtype van [[Woonboot]], bij vervanging door ark max 18 m | Historisch vrachtschip | ja |
-| historisch schip | classificatie | Woonboot of bedrijfsvaartuig ≥50 jaar oud, beschermingsregime in drie zones | ❌ | ja | Classificatie van [[Woonboot]], niet apart BO | Schark, historisch vrachtschip | ja |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] | object | Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats | ✅ | ja | 6/6 criteria, GGM: Vaartuig | Woonark, varend schip, historisch schip | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | object | Door de gemeente aangewezen plaats in het water voor permanent afmeren | ✅ | ja | 6/6 criteria, GGM: Ligplaats (BAG) | Ligplaats Merwedekanaal, reserveligplaats | ja |
+| woonark | object | Betonnen bak met opbouw in het water, niet varend | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] | Woonark Kruisvaart | ja |
+| varend schip | object | Schip met originele romp, ontworpen om te varen | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]], bij vervanging door ark max 18 m | Historisch vrachtschip | ja |
+| historisch schip | classificatie | Woonboot of bedrijfsvaartuig ≥50 jaar oud, beschermingsregime in drie zones | ❌ | ja | Classificatie van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]], niet apart BO | Schark, historisch vrachtschip | ja |
 | schark | classificatie | Historisch schip met originele romp en vervangen houten opbouw | ❌ | ja | Subtype van historisch schip | Schark Keulsekade | ja |
 | havenatlas | instrument | Kaartwerk met locatie- en maatvoeringsregels per ligplaats, juridisch deel van Havenverordening | ❌ | nee | Governance-instrument, geen zelfstandig object | Havenatlas Utrecht 2006 | nee |
 | ligplaatsvergunning | instrument | Vergunning voor het innemen van een ligplaats | ❌ | ja | Vergunning, past bij VTH-domein | Ligplaatsvergunning Merwedekanaal | nee |
@@ -55,8 +55,8 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
 |---|---|---|---|---|---|
 | Bouwen en Wonen | 7 | 2 | 3 | 2 | Projectleider en Projectontwikkelaar zijn actoren, niet beoordeeld als BO-kandidaat voor wonen |
-| VTH (Vaartuig) | 1 | 1 | 0 | 0 | Vaartuig → [[Woonboot]] |
-| BAG (Ligplaats) | 1 | 1 | 0 | 0 | Ligplaats → [[Ligplaats]] |
+| VTH (Vaartuig) | 1 | 1 | 0 | 0 | Vaartuig → [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] |
+| BAG (Ligplaats) | 1 | 1 | 0 | 0 | Ligplaats → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats\|Ligplaats]] |
 
 ### GGM-dekkingsanalyse
 

@@ -70,6 +70,7 @@ relaties:
     beschrijving: Verhardingsobject is een specialisatie van Beheerobject
 bedrijfsprocessen: [Wegbeheer, Groot onderhoud verhardingen, Vervanging wegvakken, Inspectie verhardingen, Straatreiniging]
 bedrijfsfuncties: [Beheer openbare ruimte, Wegbeheer, Mobiliteit]
+ggm_gemma_naam: "Verhardingsobject"
 ---
 
 ## BO-criteria toetsing

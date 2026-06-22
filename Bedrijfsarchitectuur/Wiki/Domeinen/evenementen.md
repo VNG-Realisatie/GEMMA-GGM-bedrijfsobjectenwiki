@@ -14,17 +14,17 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 
 ## Begrippentabel
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement\|Evenement]] | object | Georganiseerde activiteit met publiek in de openbare ruimte | ✅ | 6/6 criteria, partiële GGM-match | Festival, braderie, sportevenement, stadsfeest | ja (OpenbareActiviteit) |
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie\|Evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning\|Evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
-| locatieprofiel | instrument | Set van regels per locatie: evenementendagen, omvang, geluid, rust | ❌ | Governance-instrument, geen zelfstandig object | Profiel Maliebaan, profiel Griftpark | nee |
-| reserveringskalender | instrument | Jaarlijkse kalender met toegewezen evenementen per locatie/datum | ❌ | Planningsinstrument, geen zelfstandig bestaan los van evenementen | Kalender 2025 | nee |
-| beoordelingscriteria | regel | Vier criteria voor verdeling bij overaanmelding | ❌ | Beleidsregels, geen object | Maatschappelijke waarde, inclusiviteit | nee |
-| stads- en volksfeest | classificatie | Evenement onlosmakelijk verbonden met de stad | ❌ | Classificatie van evenement, geen apart object | Koningsdag, Bevrijdingsdag, Canal Pride | nee |
-| rustperiode | regel | Verplichte pauze tussen evenementen op een locatie | ❌ | Regel in locatieprofiel, geen object | 12 dagen verhard, 18 dagen onverhard | nee |
-| winterbeperking | regel | Extra herstelperiode 1 nov–31 mrt in parken (vanaf 2027) | ❌ | Seizoensregel, geen object | — | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement\|Evenement]]|object|Georganiseerde activiteit met publiek in de openbare ruimte| ✅ | ja |6/6 criteria, partiële GGM-match|Festival, braderie, sportevenement, stadsfeest|ja (OpenbareActiviteit)|
+|[[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie\|Evenementenlocatie]]|object|Aangewezen fysieke locatie waar evenementen mogen plaatsvinden| ✅ | ja |6/6 criteria, GGM-hiaat|Park, plein, recreatiegebied|nee|
+|[[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning\|Evenementenvergunning]]|object|Toestemming van de gemeente om een evenement te organiseren| ✅ | ja |6/6 criteria, GGM-hiaat|Festivalvergunning, vergunning stadsfeest|nee|
+|locatieprofiel|instrument|Set van regels per locatie: evenementendagen, omvang, geluid, rust| ❌ | nee |Governance-instrument, geen zelfstandig object|Profiel Maliebaan, profiel Griftpark|nee|
+|reserveringskalender|instrument|Jaarlijkse kalender met toegewezen evenementen per locatie/datum| ❌ | nee |Planningsinstrument, geen zelfstandig bestaan los van evenementen|Kalender 2025|nee|
+|beoordelingscriteria|regel|Vier criteria voor verdeling bij overaanmelding| ❌ | nee |Beleidsregels, geen object|Maatschappelijke waarde, inclusiviteit|nee|
+|stads- en volksfeest|classificatie|Evenement onlosmakelijk verbonden met de stad| ❌ | ja |Classificatie van evenement, geen apart object|Koningsdag, Bevrijdingsdag, Canal Pride|nee|
+|rustperiode|regel|Verplichte pauze tussen evenementen op een locatie| ❌ | nee |Regel in locatieprofiel, geen object|12 dagen verhard, 18 dagen onverhard|nee|
+|winterbeperking|regel|Extra herstelperiode 1 nov–31 mrt in parken (vanaf 2027)| ❌ | nee |Seizoensregel, geen object|—|nee|
 
 ## GGM-entiteitendekking
 

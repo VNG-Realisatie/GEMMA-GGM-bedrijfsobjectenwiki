@@ -25,6 +25,11 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
+gemma_subtypes:
+  - naam: "Zonneveld"
+    omschrijving: "Terrein met zonnepanelen voor grootschalige opwek van zonne-energie"
+  - naam: "Windlocatie"
+    omschrijving: "Locatie aangewezen voor plaatsing van windturbines"
 bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
 bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
 bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie, Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]

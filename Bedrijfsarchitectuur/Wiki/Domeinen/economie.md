@@ -18,40 +18,40 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| brede welvaart | waarde | Maatschappelijk welzijn voorbij economische groei | ❌ | Normatief ideaal, geen object | — | nee |
-| vestigingsklimaat | doel | Aantrekkelijkheid gemeente/regio voor bedrijfsvestiging | ❌ | Strategisch doel, geen object | — | nee |
-| arbeidsmarkt | thema | Vraag en aanbod van arbeid, regionaal perspectief | ❌ | Thema, geen object | — | nee |
-| human capital | thema | Menselijk kapitaal, vaardigheden en inzetbaarheid | ❌ | Thema, geen object | — | nee |
-| ondernemersdienstverlening | thema | Gemeentelijke dienstverlening aan ondernemers | ❌ | Thema, geen object | — | nee |
-| regeldruk | thema | Ervaren last van regelgeving voor ondernemers | ❌ | Thema, geen object | — | nee |
-| economische ruimte | thema | Fysieke ruimte beschikbaar voor bedrijvigheid | ❌ | Thema, geen object | — | nee |
-| midden- en kleinbedrijf | doelgroep | Bedrijven tot 250 werknemers, ~60% werkgelegenheid | ❌ | Doelgroep, geen object | — | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie\|Werklocatie]] | object | Aangewezen geografisch werkgebied met vastgesteld profiel | ✅ | 6/6 criteria, GGM-hiaat | Lage Weide, Papendorp, Stationsgebied | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats\|Standplaats]] | object | Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd | ✅ | 6/6 criteria | Bloemenstandplaats, snackwagen | sterk |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt\|Warenmarkt]] | object | Periodieke georganiseerde verkoop, Marktverordening-gereguleerd | ✅ | 6/6 criteria, GGM-hiaat | Bloemenmarkt, zaterdagmarkt | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | object | Bedrijf voor eten, drinken en/of logies, vergunningplichtig | ✅ | 6/6 criteria | Restaurant, café, hotel | partieel |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] | object | Verblijfsaccommodatie, subtypes: concept-/doelgroep-/minihotel | ✅ | 6/6 criteria, GGM exact | Concepthotel, doelgroephotel | ja |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/terras\|Terras]] | object | Tijdelijk gebruik openbare ruimte door horecabedrijf | ✅ | 6/6 criteria, GGM-hiaat | Caféterras, restaurantterras | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie\|Short Stay Accommodatie]] | object | Logies 2 weken–6 maanden voor kenniswerkers/studenten | ✅ | 6/6 criteria, GGM-hiaat | Expatwoning, studentenunit | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast\|Bed-and-breakfast]] | object | Kleinschalige logiesaccommodatie, max 4 kamers | ✅ | 6/6 criteria, GGM-hiaat | Stadsappartement, kamer bij bewoner | nee |
-| hotelbezoek | object | Verblijf in een hotel, statistisch gegeven | ❌ | Meting/transactie, geen zelfstandig object | Overnachting in hotel | ja |
-| toeristenbelasting | instrument | Belasting op overnachtingen | ❌ | Instrument, domein Belastingen | — | nee |
-| horecavergunning | instrument | Vergunning voor exploitatie horecabedrijf | ❌ | Subtype vergunning, vastgelegd bij horecabedrijf | Exploitatievergunning | nee |
-| winkelgebied | subtype | Concentratie van retailfuncties; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Binnenstad, Overvecht Centrum | nee |
-| ambulante handel | thema | Overkoepelend voor warenmarkten en standplaatsen | ❌ | Categorie, geen object | — | nee |
-| detailhandelsvestiging | object | Fysieke winkellocatie | ❌ | Te generiek voor BO | Supermarkt, kledingwinkel | nee |
-| bedrijventerrein | subtype | Werklandschap voor hinderveroorzakende bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Lage Weide, Strijkviertel | nee |
-| kantoorlocatie | subtype | Gebied met kantoorbestemming; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Stationsgebied, Papendorp | nee |
-| innovatielocatie | subtype | Locatie voor kennisgedreven bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Utrecht Science Park | nee |
-| wijkeconomie | perspectief | Alle werkplekken buiten de vier andere typen werklocaties | ❌ | Beleidsperspectief, geen zelfstandig bestaan of meervoud | Thuiswerken, solitaire panden | nee |
-| milieucategorie | classificatie | Indeling bedrijfsactiviteiten naar milieuhinder; HMC = 4.1+ | ❌ | Classificatie-attribuut, geen object | HMC-kavel, milieucategorie 2 | nee |
-| retailhoofdstructuur | structuur | Rangorde en hiërarchie van winkelgebieden in de stad | ❌ | Beleidsinstrument, geen object | Binnenstad, bovenwijkse centra | nee |
-| functiemenging | concept | Meerdere functies (wonen, werken, voorzieningen) naast elkaar | ❌ | Ruimtelijk concept, geen object | Gemengd stedelijk gebied | nee |
-| commerciële voorziening | categorie | Functies met winstoogmerk: detailhandel, zorg, sport, kinderopvang | ❌ | Brede categorie, geen apart object | Sportschool, huisarts, kinderopvang | nee |
-| stadslogistiek | activiteit | Goederenstromen binnen stedelijke gebieden | ❌ | Proces/activiteit, geen object | Pakketbezorging, bouwhub | nee |
-| circulaire bedrijvigheid | kenmerk | Bedrijfsmodel gericht op hergebruik en kringloopsluiting | ❌ | Bedrijfskenmerk, geen object | Recyclingbedrijf, revisiebedrijf | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|brede welvaart|waarde|Maatschappelijk welzijn voorbij economische groei| ❌ | nee |Normatief ideaal, geen object|—|nee|
+|vestigingsklimaat|doel|Aantrekkelijkheid gemeente/regio voor bedrijfsvestiging| ❌ | nee |Strategisch doel, geen object|—|nee|
+|arbeidsmarkt|thema|Vraag en aanbod van arbeid, regionaal perspectief| ❌ | nee |Thema, geen object|—|nee|
+|human capital|thema|Menselijk kapitaal, vaardigheden en inzetbaarheid| ❌ | nee |Thema, geen object|—|nee|
+|ondernemersdienstverlening|thema|Gemeentelijke dienstverlening aan ondernemers| ❌ | nee |Thema, geen object|—|nee|
+|regeldruk|thema|Ervaren last van regelgeving voor ondernemers| ❌ | nee |Thema, geen object|—|nee|
+|economische ruimte|thema|Fysieke ruimte beschikbaar voor bedrijvigheid| ❌ | nee |Thema, geen object|—|nee|
+|midden- en kleinbedrijf|doelgroep|Bedrijven tot 250 werknemers, ~60% werkgelegenheid| ❌ | nee |Doelgroep, geen object|—|nee|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie\|Werklocatie]]|object|Aangewezen geografisch werkgebied met vastgesteld profiel| ✅ | ja |6/6 criteria, GGM-hiaat|Lage Weide, Papendorp, Stationsgebied|nee|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats\|Standplaats]]|object|Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd| ✅ | ja |6/6 criteria|Bloemenstandplaats, snackwagen|sterk|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt\|Warenmarkt]]|object|Periodieke georganiseerde verkoop, Marktverordening-gereguleerd| ✅ | ja |6/6 criteria, GGM-hiaat|Bloemenmarkt, zaterdagmarkt|nee|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]]|object|Bedrijf voor eten, drinken en/of logies, vergunningplichtig| ✅ | ja |6/6 criteria|Restaurant, café, hotel|partieel|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]]|object|Verblijfsaccommodatie, subtypes: concept-/doelgroep-/minihotel| ✅ | ja |6/6 criteria, GGM exact|Concepthotel, doelgroephotel|ja|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/terras\|Terras]]|object|Tijdelijk gebruik openbare ruimte door horecabedrijf| ✅ | ja |6/6 criteria, GGM-hiaat|Caféterras, restaurantterras|nee|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie\|Short Stay Accommodatie]]|object|Logies 2 weken–6 maanden voor kenniswerkers/studenten| ✅ | ja |6/6 criteria, GGM-hiaat|Expatwoning, studentenunit|nee|
+|[[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast\|Bed-and-breakfast]]|object|Kleinschalige logiesaccommodatie, max 4 kamers| ✅ | ja |6/6 criteria, GGM-hiaat|Stadsappartement, kamer bij bewoner|nee|
+|hotelbezoek|object|Verblijf in een hotel, statistisch gegeven| ❌ | ja |Meting/transactie, geen zelfstandig object|Overnachting in hotel|ja|
+|toeristenbelasting|instrument|Belasting op overnachtingen| ❌ | nee |Instrument, domein Belastingen|—|nee|
+|horecavergunning|instrument|Vergunning voor exploitatie horecabedrijf| ❌ | nee |Subtype vergunning, vastgelegd bij horecabedrijf|Exploitatievergunning|nee|
+|winkelgebied|subtype|Concentratie van retailfuncties; subtype van werklocatie| ❌ | ja |Subtype van werklocatie, geen apart BO|Binnenstad, Overvecht Centrum|nee|
+|ambulante handel|thema|Overkoepelend voor warenmarkten en standplaatsen| ❌ | nee |Categorie, geen object|—|nee|
+|detailhandelsvestiging|object|Fysieke winkellocatie| ❌ | ja |Te generiek voor BO|Supermarkt, kledingwinkel|nee|
+|bedrijventerrein|subtype|Werklandschap voor hinderveroorzakende bedrijven; subtype van werklocatie| ❌ | ja |Subtype van werklocatie, geen apart BO|Lage Weide, Strijkviertel|nee|
+|kantoorlocatie|subtype|Gebied met kantoorbestemming; subtype van werklocatie| ❌ | ja |Subtype van werklocatie, geen apart BO|Stationsgebied, Papendorp|nee|
+|innovatielocatie|subtype|Locatie voor kennisgedreven bedrijven; subtype van werklocatie| ❌ | ja |Subtype van werklocatie, geen apart BO|Utrecht Science Park|nee|
+|wijkeconomie|perspectief|Alle werkplekken buiten de vier andere typen werklocaties| ❌ | nee |Beleidsperspectief, geen zelfstandig bestaan of meervoud|Thuiswerken, solitaire panden|nee|
+|milieucategorie|classificatie|Indeling bedrijfsactiviteiten naar milieuhinder; HMC = 4.1+| ❌ | ja |Classificatie-attribuut, geen object|HMC-kavel, milieucategorie 2|nee|
+|retailhoofdstructuur|structuur|Rangorde en hiërarchie van winkelgebieden in de stad| ❌ | nee |Beleidsinstrument, geen object|Binnenstad, bovenwijkse centra|nee|
+|functiemenging|concept|Meerdere functies (wonen, werken, voorzieningen) naast elkaar| ❌ | nee |Ruimtelijk concept, geen object|Gemengd stedelijk gebied|nee|
+|commerciële voorziening|categorie|Functies met winstoogmerk: detailhandel, zorg, sport, kinderopvang| ❌ | nee |Brede categorie, geen apart object|Sportschool, huisarts, kinderopvang|nee|
+|stadslogistiek|activiteit|Goederenstromen binnen stedelijke gebieden| ❌ | nee |Proces/activiteit, geen object|Pakketbezorging, bouwhub|nee|
+|circulaire bedrijvigheid|kenmerk|Bedrijfsmodel gericht op hergebruik en kringloopsluiting| ❌ | nee |Bedrijfskenmerk, geen object|Recyclingbedrijf, revisiebedrijf|nee|
 
 ## GGM-dekkingsanalyse
 

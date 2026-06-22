@@ -29,26 +29,23 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden, met kenmerken als oppervlakte, woningtype en prijssegment."
 gemma_subtypes:
-  - naam: Sociale huurwoning
+  - naam: "Sociale huurwoning"
     omschrijving: "Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling"
     ggm_entiteit: Huurwoningen
     ggm_guid: EAID_E0F7D3A0_46C8_4e70_AA10_3888B60D14C0
-    ggm_attribuut:
-  - naam: Middenhuurwoning
+    ggm_attribuut: generalisatie
+  - naam: "Middenhuurwoning"
     omschrijving: "Huurwoning met 144-186 WWS-punten en huurprijs €900-€1.185, gereguleerd via Wet betaalbare huur"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Betaalbare koopwoning
-    omschrijving: "Koopwoning met verkoopprijs tot de betaalbaarheidsgrens van het Rijk (€405.000 in 2025)"
+  - naam: "Betaalbare koopwoning"
+    omschrijving: Koopwoning met verkoopprijs tot de betaalbaarheidsgrens van het Rijk (€405.000 in 2025)
     ggm_entiteit: Koopwoningen
     ggm_guid: EAID_7FECB5B2_E6CB_4637_9FD4_6EBA2CA96BBA
-    ggm_attribuut:
-  - naam: Studentenwoning
+    ggm_attribuut: generalisatie
+  - naam: "Studentenwoning"
     omschrijving: "Woning verhuurd met campuscontract aan studenten, zelfstandig of onzelfstandig"
     ggm_entiteit: Studentenwoningen
     ggm_guid: EAID_98C74EAB_3411_4d1a_8321_FF30567B6877
-    ggm_attribuut:
+    ggm_attribuut: generalisatie
 bronnen: [Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht, Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht, Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen, Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur, Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen, Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht, Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007, Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]
 relaties:
   - type: associatie

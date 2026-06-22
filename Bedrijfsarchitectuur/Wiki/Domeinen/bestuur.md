@@ -14,15 +14,15 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 
 ## Begrippentabel
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing\|Verkiezing]] | object | Periodieke vervangingskeuze van gekozen ambtsdragers (raadsleden, burgemeester) | ✅ | 6/6 criteria; gemeentelijke organisatieverplichting; eigen levenscyclus | Raadsverkiezing 2026, Kamerverkiezing maart 2026 | **nee** (hiaat) |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum\|Referendum]] | object | Volksstemming over een onderwerp, ingesteld door gemeente of raad | ✅ | 6/6 criteria; aparte organisatorische verantwoordelijkheid | Lokaal referendum over bouwplaats | **nee** (hiaat) |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau\|Stembureau]] | object | Fysieke locatie waar kiezers hun stem uitbrengen; registratie van adres, capaciteit, toegankelijkheid | ✅ | 6/6 criteria; operationeel object met eigenschappen en relaties | Basisschool De Toekomst (stembureaunummer 42), Wijkcentrum Noord | **nee** (hiaat) |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling\|Gemeenschappelijke Regeling]] | object | Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies, waterschappen (grondslag: Wgr) | ✅ | 6/6 criteria; juridische entiteit met eigen bestuur/begroting | GGD, RUD, woningmarktregeling, jeugdzorgregeling | **nee** (hiaat) |
-| lokale omroep | actor | Publieke mediaorganisatie op gemeentelijk niveau (externe partij) | ❌ | Externe organisatie; gemeente heeft relatie (bekostiging, advies) maar omroep is niet gemeentelijk object | Omroep Amsterdam, RTV Rijnmond | nee |
-| gemeenteraad | governance | Gekozen vertegenwoordigend lichaam; besluiten over beleid en begroting | ❌ | Governance-structuur; rol/functie, geen aparte dingen | — | nee |
-| college | governance | Dagelijks bestuur, collegeleden voeren raadsbesluit uit | ❌ | Governance-structuur; organisatorische rol | — | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing\|Verkiezing]]|object|Periodieke vervangingskeuze van gekozen ambtsdragers (raadsleden, burgemeester)| ✅ | ja |6/6 criteria; gemeentelijke organisatieverplichting; eigen levenscyclus|Raadsverkiezing 2026, Kamerverkiezing maart 2026|**nee** (hiaat)|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum\|Referendum]]|object|Volksstemming over een onderwerp, ingesteld door gemeente of raad| ✅ | ja |6/6 criteria; aparte organisatorische verantwoordelijkheid|Lokaal referendum over bouwplaats|**nee** (hiaat)|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau\|Stembureau]]|object|Fysieke locatie waar kiezers hun stem uitbrengen; registratie van adres, capaciteit, toegankelijkheid| ✅ | ja |6/6 criteria; operationeel object met eigenschappen en relaties|Basisschool De Toekomst (stembureaunummer 42), Wijkcentrum Noord|**nee** (hiaat)|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling\|Gemeenschappelijke Regeling]]|object|Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies, waterschappen (grondslag: Wgr)| ✅ | nee |6/6 criteria; juridische entiteit met eigen bestuur/begroting|GGD, RUD, woningmarktregeling, jeugdzorgregeling|**nee** (hiaat)|
+|lokale omroep|actor|Publieke mediaorganisatie op gemeentelijk niveau (externe partij)| ❌ | nee |Externe organisatie; gemeente heeft relatie (bekostiging, advies) maar omroep is niet gemeentelijk object|Omroep Amsterdam, RTV Rijnmond|nee|
+|gemeenteraad|governance|Gekozen vertegenwoordigend lichaam; besluiten over beleid en begroting| ❌ | nee |Governance-structuur; rol/functie, geen aparte dingen|—|nee|
+|college|governance|Dagelijks bestuur, collegeleden voeren raadsbesluit uit| ❌ | nee |Governance-structuur; organisatorische rol|—|nee|
 
 ## GGM-dekkingsanalyse
 

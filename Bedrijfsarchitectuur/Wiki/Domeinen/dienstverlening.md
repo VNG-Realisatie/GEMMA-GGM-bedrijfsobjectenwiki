@@ -22,22 +22,22 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| zaakgericht werken | thema | Werkwijze: dienstverlening organiseren rond zaken | ❌ | Werkwijze, geen object | — | nee |
-| overheidsbrede dienstverlening | thema | Integrale werkwijze: inwoners helpen met vragen aan meerdere overheidsorganisaties | ❌ | Werkwijze/organisatiemodel | BZK-programma overheidsbrede loketten | nee |
-| digitale toegankelijkheid | thema | Kwaliteitskenmerk van gemeentelijke digitale kanalen (Wdo) | ❌ | Kwaliteitskenmerk, geen object | Toegankelijkheidsverklaring, WCAG | nee |
-| gemeentelijke inkoop | thema | Het geheel van inkoopactiviteiten (€40+ mrd) | ❌ | Thema, geen object | — | nee |
-| aanbesteding | instrument | Verplichte inkoopprocedure boven drempelbedragen | ❌ | Instrument/procedure | Europese aanbesteding, meervoudig onderhands | nee |
-| MVOI | instrument | Maatschappelijk verantwoord opdrachtgeven en inkopen | ❌ | Instrument/beleidskader | Manifest MVOI, actieplan MVOI | nee |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | object | Verzoek of signaal aan de gemeente, startpunt dienstverlening | ✅ | 6/6 criteria, sterk match | Bijstandsaanvraag, MOR-melding, DigiD-vraag | ja |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | object | Geplande afspraak voor een klantcontact aan de balie | ✅ | 6/6 criteria, exact match | Afspraak paspoort, afspraak sociaal raadslid | ja |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | object | Door de gemeente aangeboden dienst of product | ✅ | 6/6 criteria, sterk match | Paspoort, bijstandsuitkering, bouwvergunning | ja |
-| zaaktypecatalogus | object | Verzameling zaaktypen met configuratie per domein | ✅ | BO, partieel match (ZTC2-standaard) | ZTC per gemeente | partieel |
-| informatieobject | object | Geheel van gegevens ongeacht vorm (breder dan "document") | ✅ | 6/6 criteria, sterk match | PDF-aanvraag, e-mail, scan | ja |
-| zaakdossier | object | Zaakkenmerken + informatieobjecten, basis voor archivering | ✅ | 6/6 criteria, sterk match | Zaakdossier vergunningaanvraag | ja |
-| resultaattype | object | Mogelijke uitkomsten per zaaktype, bepaalt archiefregime | ✅ | BO, exact match (ZTC2) | Verleend, Geweigerd, Buiten behandeling | ja |
-| IDO (Informatiepunt Digitale Overheid) | actor | Fysiek hulppunt in bibliotheken voor digitale overheidsvragen | ❌ | Actor/locatietype, geen eigen levenscyclus als gemeentelijk concept | IDO in bibliotheek Amsterdam | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|zaakgericht werken|thema|Werkwijze: dienstverlening organiseren rond zaken| ❌ | nee |Werkwijze, geen object|—|nee|
+|overheidsbrede dienstverlening|thema|Integrale werkwijze: inwoners helpen met vragen aan meerdere overheidsorganisaties| ❌ | nee |Werkwijze/organisatiemodel|BZK-programma overheidsbrede loketten|nee|
+|digitale toegankelijkheid|thema|Kwaliteitskenmerk van gemeentelijke digitale kanalen (Wdo)| ❌ | nee |Kwaliteitskenmerk, geen object|Toegankelijkheidsverklaring, WCAG|nee|
+|gemeentelijke inkoop|thema|Het geheel van inkoopactiviteiten (€40+ mrd)| ❌ | nee |Thema, geen object|—|nee|
+|aanbesteding|instrument|Verplichte inkoopprocedure boven drempelbedragen| ❌ | nee |Instrument/procedure|Europese aanbesteding, meervoudig onderhands|nee|
+|MVOI|instrument|Maatschappelijk verantwoord opdrachtgeven en inkopen| ❌ | nee |Instrument/beleidskader|Manifest MVOI, actieplan MVOI|nee|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]]|object|Verzoek of signaal aan de gemeente, startpunt dienstverlening| ✅ | ja |6/6 criteria, sterk match|Bijstandsaanvraag, MOR-melding, DigiD-vraag|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]]|object|Geplande afspraak voor een klantcontact aan de balie| ✅ | ja |6/6 criteria, exact match|Afspraak paspoort, afspraak sociaal raadslid|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]]|object|Door de gemeente aangeboden dienst of product| ✅ | ja |6/6 criteria, sterk match|Paspoort, bijstandsuitkering, bouwvergunning|ja|
+|zaaktypecatalogus|object|Verzameling zaaktypen met configuratie per domein| ✅ | ja |BO, partieel match (ZTC2-standaard)|ZTC per gemeente|partieel|
+|informatieobject|object|Geheel van gegevens ongeacht vorm (breder dan "document")| ✅ | ja |6/6 criteria, sterk match|PDF-aanvraag, e-mail, scan|ja|
+|zaakdossier|object|Zaakkenmerken + informatieobjecten, basis voor archivering| ✅ | ja |6/6 criteria, sterk match|Zaakdossier vergunningaanvraag|ja|
+|resultaattype|object|Mogelijke uitkomsten per zaaktype, bepaalt archiefregime| ✅ | ja |BO, exact match (ZTC2)|Verleend, Geweigerd, Buiten behandeling|ja|
+|IDO (Informatiepunt Digitale Overheid)|actor|Fysiek hulppunt in bibliotheken voor digitale overheidsvragen| ❌ | nee |Actor/locatietype, geen eigen levenscyclus als gemeentelijk concept|IDO in bibliotheek Amsterdam|nee|
 
 ## Bedrijfsobjecten
 

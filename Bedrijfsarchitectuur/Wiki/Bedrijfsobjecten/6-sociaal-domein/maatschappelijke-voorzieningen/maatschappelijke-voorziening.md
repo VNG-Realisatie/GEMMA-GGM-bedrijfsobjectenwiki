@@ -32,86 +32,47 @@ ggm_gemma_alternate_name:
 # GEMMA-velden
 gemma_definitie: "Plek die ruimte biedt aan activiteiten met primair een maatschappelijk doel op het gebied van zorg, welzijn, cultuur, sport of onderwijs."
 gemma_subtypes:
-  - naam: Buurtcentrum
-    omschrijving: "Welzijnsvoorziening met minimaal drie activiteitenruimten voor ontmoeting en bewonersactiviteiten"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Buurtkamer
+  - naam: "Buurtcentrum"
+    omschrijving: Welzijnsvoorziening met minimaal drie activiteitenruimten voor ontmoeting en bewonersactiviteiten
+  - naam: "Buurtkamer"
     omschrijving: "Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²), aanvullend op buurtcentrum"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Jongerenhuiskamer
+  - naam: "Jongerenhuiskamer"
     omschrijving: "Laagdrempelige ruimte voor jongeren (~150 m²), 1 per wijk"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Gezondheidscentrum
+  - naam: "Gezondheidscentrum"
     omschrijving: "Clustering van eerstelijns zorg (~800-1200 m²)"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Sporthal
-    omschrijving: "Binnensportaccommodatie voor training en competitie"
+  - naam: "Sporthal"
+    omschrijving: Binnensportaccommodatie voor training en competitie
     ggm_entiteit: Binnenlocatie
     ggm_guid: EAID_6508657D_7C3F_4261_B647_5D3B077A20F9
     ggm_attribuut: sporthal
-  - naam: Sportpark
+  - naam: "Sportpark"
     omschrijving: "Geheel van terreinen, gebouwen en voorzieningen voor buitensporten"
     ggm_entiteit: Sportpark
     ggm_guid: EAID_FE1A2EF2_44FA_46fa_A583_7BAB858E17FD
-    ggm_attribuut:
-  - naam: Zwembad
+    ggm_attribuut: sportpark
+  - naam: "Zwembad"
     omschrijving: "Overdekt of openlucht zwembad voor leszwemmen, recreatief zwemmen en zwemsporten"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Beheerde speeltuin
-    omschrijving: "Beheerde speelvoorziening (~5000 m²) als aanvulling op openbare speelplekken"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Speelplek
-    omschrijving: "Formele speelruimte in de openbare ruimte met speeltoestellen of sporttoestellen"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Wijkcultuurhuis
-    omschrijving: "Laagdrempelige culturele plek op wijkniveau voor kunst en cultuur"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: School
-    omschrijving: "Gebouw in gebruik voor primair of voortgezet onderwijs"
+  - naam: "Beheerde speeltuin"
+    omschrijving: Beheerde speelvoorziening (~5000 m²) als aanvulling op openbare speelplekken
+  - naam: "Speelplek"
+    omschrijving: Formele speelruimte in de openbare ruimte met speeltoestellen of sporttoestellen
+  - naam: "Wijkcultuurhuis"
+    omschrijving: Laagdrempelige culturele plek op wijkniveau voor kunst en cultuur
+  - naam: "School"
+    omschrijving: Gebouw in gebruik voor primair of voortgezet onderwijs
     ggm_entiteit: School
     ggm_guid: EAID_32DFC5DD_79D9_45d5_8F9D_7D5125961817
-    ggm_attribuut:
-  - naam: Volkstuinpark
-    omschrijving: "Groene maatschappelijke voorziening voor tuinieren en ontmoeting"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Scoutingaccommodatie
+    ggm_attribuut: school
+  - naam: "Volkstuinpark"
+    omschrijving: Groene maatschappelijke voorziening voor tuinieren en ontmoeting
+  - naam: "Scoutingaccommodatie"
     omschrijving: "Accommodatie in zelfbeheer voor jeugdactiviteiten (300-600 m²)"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Dagbestedingslocatie
-    omschrijving: "Locatie voor activering en zinvolle dagbesteding vanuit de Wmo"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Gezinshuis
+  - naam: "Dagbestedingslocatie"
+    omschrijving: Locatie voor activering en zinvolle dagbesteding vanuit de Wmo
+  - naam: "Gezinshuis"
     omschrijving: "Kleinschalige woonzorgvorm voor jeugdhulp met verblijf (4-6 kamers)"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
-  - naam: Maatschappelijke opvang
-    omschrijving: "Tijdelijke opvang met zorg en ondersteuning voor daklozen"
-    ggm_entiteit:
-    ggm_guid:
-    ggm_attribuut:
+  - naam: "Maatschappelijke opvang"
+    omschrijving: Tijdelijke opvang met zorg en ondersteuning voor daklozen
 bronnen: [Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen]
 relaties:
   - type: associatie

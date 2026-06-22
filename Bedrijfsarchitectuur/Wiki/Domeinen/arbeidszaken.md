@@ -4,7 +4,7 @@ naam: Arbeidszaken
 status: afgerond
 verwerkingsdatum: 2026-06-19
 bronnen_count: 11
-begrippen_count: 0
+begrippen_count: 11
 bo_count: 0
 ---
 
@@ -14,19 +14,19 @@ De gemeente als werkgever — arbeidsvoorwaarden, arbeidsomstandigheden, integri
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| arbeidsmarktkrapte | thema | Aanbod arbeid lager dan vraag; knelpunt gemeentelijk werving | ❌ | Beleidsmatig, geen object | Tekort sociale work, engineers | nee |
-| P&O-beleid | instrument | Beleid rond personeels- en organisatieontwikkeling | ❌ | Governance, geen object | Diversiteit, inclusie, mobiliteit | nee |
-| arbeidsvoorwaarden | thema | Collectieve regelingen, cao-afspraken voor medewerkers | ❌ | Beleidsmatig, geen object | Pensioen (ABP), zorgverzekering | nee |
-| gedragscode | instrument | Normen voor integriteit en ethisch gedrag | ❌ | Governance, geen object | Gedragscode gemeenten | nee |
-| integriteitsbeleid | thema | Cultuur en regelgeving rond eerlijkheid en integriteit | ❌ | Governance, geen object | Fraude, belangenverstrengeling | nee |
-| rechtspositieregeling | instrument | Regeling rechtspositie burgemeester, wethouders, raadsleden | ❌ | Governance, geen object | Rechtspositieregeling burgemeester | nee |
-| cao-gemeenten | instrument | Collectieve arbeidsovereenkomst voor lokaal overheden | ❌ | Instrument, externe afspraak | CAO gemeenten, HR21 | nee |
-| arbeidsmigranten | doelgroep | Arbeiders uit het buitenland; derde land of EU | ❌ | Doelgroep, niet object | Pools werker, loonvoorkamer | nee |
-| werk-voor-arbeidsbeperkten | thema | Programma banen voor mensen met arbeidsbeperkingen | ❌ | Programma, geen object | Banenafspraak, Cao Aan de Slag | nee |
-| gemeentelijk werkgever | actor | De gemeente in haar rol als werkgever | ❌ | Rol, geen zelfstandig concept met eigen levenscyclus | — | nee |
-| medewerker | actor | Persoon werkzaam bij de gemeente | ❌ | Rol van persoon, geen apart object | — | ja (via organisatie) |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|arbeidsmarktkrapte|thema|Aanbod arbeid lager dan vraag; knelpunt gemeentelijk werving| ❌ | nee |Beleidsmatig, geen object|Tekort sociale work, engineers|nee|
+|P&O-beleid|instrument|Beleid rond personeels- en organisatieontwikkeling| ❌ | nee |Governance, geen object|Diversiteit, inclusie, mobiliteit|nee|
+|arbeidsvoorwaarden|thema|Collectieve regelingen, cao-afspraken voor medewerkers| ❌ | nee |Beleidsmatig, geen object|Pensioen (ABP), zorgverzekering|nee|
+|gedragscode|instrument|Normen voor integriteit en ethisch gedrag| ❌ | nee |Governance, geen object|Gedragscode gemeenten|nee|
+|integriteitsbeleid|thema|Cultuur en regelgeving rond eerlijkheid en integriteit| ❌ | nee |Governance, geen object|Fraude, belangenverstrengeling|nee|
+|rechtspositieregeling|instrument|Regeling rechtspositie burgemeester, wethouders, raadsleden| ❌ | nee |Governance, geen object|Rechtspositieregeling burgemeester|nee|
+|cao-gemeenten|instrument|Collectieve arbeidsovereenkomst voor lokaal overheden| ❌ | nee |Instrument, externe afspraak|CAO gemeenten, HR21|nee|
+|arbeidsmigranten|doelgroep|Arbeiders uit het buitenland; derde land of EU| ❌ | nee |Doelgroep, niet object|Pools werker, loonvoorkamer|nee|
+|werk-voor-arbeidsbeperkten|thema|Programma banen voor mensen met arbeidsbeperkingen| ❌ | nee |Programma, geen object|Banenafspraak, Cao Aan de Slag|nee|
+|gemeentelijk werkgever|actor|De gemeente in haar rol als werkgever| ❌ | nee |Rol, geen zelfstandig concept met eigen levenscyclus|—|nee|
+|medewerker|actor|Persoon werkzaam bij de gemeente| ❌ | nee |Rol van persoon, geen apart object|—|ja (via organisatie)|
 
 ## GGM-dekkingsanalyse
 

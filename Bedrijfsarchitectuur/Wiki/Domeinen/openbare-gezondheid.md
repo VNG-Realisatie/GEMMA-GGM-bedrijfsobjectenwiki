@@ -14,16 +14,16 @@ Het domein openbare gezondheid omvat het gemeentelijk gezondheidsbeleid, de opdr
 
 ## Begrippentabel
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| GGD | actor | Regionale gezondheidsdienst, gemeente is opdrachtgever | ❌ | Ketenpartner, geen gemeentelijk object | GGD regio Utrecht | nee |
-| preventieakkoord | instrument | Lokale afspraken over gezondheidspreventie (roken, overgewicht, alcohol) | ❌ | Governance-instrument | Lokaal preventieakkoord Utrecht | nee |
-| GALA | instrument | Gezond en Actief Leven Akkoord, landelijk samenwerkingskader | ❌ | Landelijk akkoord, geen gemeentelijk object | — | nee |
-| IZA | instrument | Integraal ZorgAkkoord, samenwerking zorgpartijen en gemeenten | ❌ | Landelijk akkoord, geen gemeentelijk object | — | nee |
-| gezondheidsmonitor | activiteit | Periodieke dataverzameling over gezondheid inwoners | ❌ | Activiteit, geen eigen bestaan | Volksgezondheidsmonitor Utrecht | nee |
-| JGZ | actor | Jeugdgezondheidszorg, preventieve zorg voor jeugd | ❌ | Dienst/organisatie, geen object | JGZ Utrecht | nee |
-| begraafplaats | object | Gemeentelijke voorziening op grond van Wet op de lijkbezorging | ❌ | Hoort bij Beheer Openbare Ruimte (IMBOR), niet bij dit domein | Begraafplaats Kovelswade | ja (IMBOR) |
-| verkennend gesprek | instrument | Methode voor inwoners met vragen over mentale gezondheid | ❌ | Interventie/werkwijze | Pilot Kanaleneiland | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|GGD|actor|Regionale gezondheidsdienst, gemeente is opdrachtgever| ❌ | nee |Ketenpartner, geen gemeentelijk object|GGD regio Utrecht|nee|
+|preventieakkoord|instrument|Lokale afspraken over gezondheidspreventie (roken, overgewicht, alcohol)| ❌ | nee |Governance-instrument|Lokaal preventieakkoord Utrecht|nee|
+|GALA|instrument|Gezond en Actief Leven Akkoord, landelijk samenwerkingskader| ❌ | nee |Landelijk akkoord, geen gemeentelijk object|—|nee|
+|IZA|instrument|Integraal ZorgAkkoord, samenwerking zorgpartijen en gemeenten| ❌ | nee |Landelijk akkoord, geen gemeentelijk object|—|nee|
+|gezondheidsmonitor|activiteit|Periodieke dataverzameling over gezondheid inwoners| ❌ | nee |Activiteit, geen eigen bestaan|Volksgezondheidsmonitor Utrecht|nee|
+|JGZ|actor|Jeugdgezondheidszorg, preventieve zorg voor jeugd| ❌ | nee |Dienst/organisatie, geen object|JGZ Utrecht|nee|
+|begraafplaats|object|Gemeentelijke voorziening op grond van Wet op de lijkbezorging| ❌ | ja |Hoort bij Beheer Openbare Ruimte (IMBOR), niet bij dit domein|Begraafplaats Kovelswade|ja (IMBOR)|
+|verkennend gesprek|instrument|Methode voor inwoners met vragen over mentale gezondheid| ❌ | nee |Interventie/werkwijze|Pilot Kanaleneiland|nee|
 
 ## GGM-entiteitendekking
 

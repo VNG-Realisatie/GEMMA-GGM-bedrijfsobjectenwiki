@@ -14,28 +14,28 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| gemeentefonds | instrument | Grootste inkomstenbron, vrij besteedbaar | ❌ | Instrument, geen object | — | nee |
-| algemene uitkering | instrument | Hoofdcomponent gemeentefonds | ❌ | Instrument, geen object | — | nee |
-| specifieke uitkering | instrument | Geoormerkt geld van het rijk voor medebewindstaken | ❌ | Instrument, geen object | — | nee |
-| begrotingscyclus | thema | Kadernota → begroting → tussenrapportages → jaarrekening | ❌ | Proces, geen object | — | nee |
-| budgetrecht | instrument | Raadsbevoegdheid om geld beschikbaar te stellen | ❌ | Instrument, geen object | — | nee |
-| financiële verordening | instrument | Art. 212 Gemeentewet, lokale spelregels financieel beleid | ❌ | Instrument, geen object | — | nee |
-| kadernota | object | Voorjaarsnota met kaders voor de begroting | ❌ | Procesobject, beperkte levenscyclus | Kadernota 2026 | nee |
-| solvabiliteitsratio | object | Eigen vermogen / balanstotaal | ❌ | Kengetal, afgeleid gegeven | — | nee |
-| netto-schuldquote | object | Netto schuld / baten | ❌ | Kengetal, afgeleid gegeven | — | nee |
-| onbenutte belastingcapaciteit | object | Ruimte tot art. 12-tarief | ❌ | Kengetal, afgeleid gegeven | — | nee |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | object | Overzicht verwachte ontvangsten en voorziene uitgaven | ✅ | 6/6 criteria, GGM exact | Programmabegroting 2026 | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | object | Rekening waaraan boekingen worden toegeschreven | ✅ | 6/6 criteria, GGM exact | Afdeling, project | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] | object | Schriftelijke rekening voor geleverde zaken of diensten | ✅ | 6/6 criteria, GGM exact | Inkoopfactuur, verkoopfactuur | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] | object | Opdracht voor levering van goederen en/of diensten | ✅ | 6/6 criteria, GGM exact | Bestelling materiaal | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] | object | Persoon die een bedrag verschuldigd is aan de gemeente | ✅ | 6/6 criteria, GGM exact | Huurder, belastingplichtige | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]] | object | Samenhangend geheel van activiteiten en taken (IV3) | ✅ | 6/6 criteria, GGM exact | Taakveld 3 Economie | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] | object | Op korte of middellange termijn nagestreefde situatie | ✅ | 6/6 criteria, GGM exact | Begrotingsdoelstelling | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | object | Resultaat van een proces dat in het economisch verkeer waarde bezit | ✅ | 6/6 criteria, GGM exact | Paspoort, bouwvergunning | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | object | Bezittingen op de boekhoudkundige balans | ✅ | 6/6 criteria, GGM sterk | Grond, gebouw, inventaris | ja |
-| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]] | object | Opdracht voor uitvoering van een activiteit | ✅ | 6/6 criteria, GGM exact | Onderhoudsopdracht | ja |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|gemeentefonds|instrument|Grootste inkomstenbron, vrij besteedbaar| ❌ | nee |Instrument, geen object|—|nee|
+|algemene uitkering|instrument|Hoofdcomponent gemeentefonds| ❌ | nee |Instrument, geen object|—|nee|
+|specifieke uitkering|instrument|Geoormerkt geld van het rijk voor medebewindstaken| ❌ | nee |Instrument, geen object|—|nee|
+|begrotingscyclus|thema|Kadernota → begroting → tussenrapportages → jaarrekening| ❌ | nee |Proces, geen object|—|nee|
+|budgetrecht|instrument|Raadsbevoegdheid om geld beschikbaar te stellen| ❌ | nee |Instrument, geen object|—|nee|
+|financiële verordening|instrument|Art. 212 Gemeentewet, lokale spelregels financieel beleid| ❌ | nee |Instrument, geen object|—|nee|
+|kadernota|object|Voorjaarsnota met kaders voor de begroting| ❌ | ja |Procesobject, beperkte levenscyclus|Kadernota 2026|nee|
+|solvabiliteitsratio|object|Eigen vermogen / balanstotaal| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
+|netto-schuldquote|object|Netto schuld / baten| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
+|onbenutte belastingcapaciteit|object|Ruimte tot art. 12-tarief| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]]|object|Overzicht verwachte ontvangsten en voorziene uitgaven| ✅ | ja |6/6 criteria, GGM exact|Programmabegroting 2026|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]]|object|Rekening waaraan boekingen worden toegeschreven| ✅ | ja |6/6 criteria, GGM exact|Afdeling, project|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]]|object|Schriftelijke rekening voor geleverde zaken of diensten| ✅ | ja |6/6 criteria, GGM exact|Inkoopfactuur, verkoopfactuur|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]]|object|Opdracht voor levering van goederen en/of diensten| ✅ | ja |6/6 criteria, GGM exact|Bestelling materiaal|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]]|object|Persoon die een bedrag verschuldigd is aan de gemeente| ✅ | ja |6/6 criteria, GGM exact|Huurder, belastingplichtige|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]]|object|Samenhangend geheel van activiteiten en taken (IV3)| ✅ | ja |6/6 criteria, GGM exact|Taakveld 3 Economie|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]]|object|Op korte of middellange termijn nagestreefde situatie| ✅ | ja |6/6 criteria, GGM exact|Begrotingsdoelstelling|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]]|object|Resultaat van een proces dat in het economisch verkeer waarde bezit| ✅ | ja |6/6 criteria, GGM exact|Paspoort, bouwvergunning|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]]|object|Bezittingen op de boekhoudkundige balans| ✅ | ja |6/6 criteria, GGM sterk|Grond, gebouw, inventaris|ja|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]]|object|Opdracht voor uitvoering van een activiteit| ✅ | ja |6/6 criteria, GGM exact|Onderhoudsopdracht|ja|
 
 ## GGM-dekkingsanalyse
 

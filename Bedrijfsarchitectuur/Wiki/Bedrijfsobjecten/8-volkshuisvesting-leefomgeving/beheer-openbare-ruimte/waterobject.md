@@ -49,6 +49,7 @@ relaties:
     beschrijving: Kunstwerken (bruggen, kademuren) overbruggen of begrenzen waterobjecten
 bedrijfsprocessen: [Maaibeheer, Baggeren, Duikervervanging, Waterkwaliteitsmonitoring, Programma Gezond Water]
 bedrijfsfuncties: [Beheer openbare ruimte, Waterbeheer]
+ggm_gemma_naam: "Waterobject"
 ---
 
 ## BO-criteria toetsing

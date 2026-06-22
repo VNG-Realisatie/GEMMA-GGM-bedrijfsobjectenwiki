@@ -16,23 +16,23 @@ Het sociaal domein omvat de gemeentelijke verantwoordelijkheid voor zorg, welzij
 
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-| [[maatschappelijke-voorziening]] | object | Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs) | ✅ | ja | 6/6 criteria; overkoepelend concept met 16 subtypes | Buurtcentrum Zuilen, Sporthal Olympos | afgeleid |
-| Buurtcentrum | object | Welzijnsvoorziening met minimaal drie activiteitenruimten | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | Buurthuis de Musketon | nee |
-| Buurtkamer | object | Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²) | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Jongerenhuiskamer | object | Laagdrempelige ruimte voor jongeren (~150 m²) | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Gezondheidscentrum | object | Clustering eerstelijns zorg (~800-1200 m²) | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Sporthal | object | Binnensportaccommodatie voor training en competitie | subtype | ja | Subtype van [[maatschappelijke-voorziening]]; GGM: Binnenlocatie | Sporthal Lunetten | ja |
-| Sportpark | object | Geheel van terreinen en voorzieningen voor buitensporten | subtype | ja | Subtype van [[maatschappelijke-voorziening]]; GGM: Sportpark | Sportpark Zoudenbalch | ja |
-| Zwembad | object | Overdekt of openlucht zwembad | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | De Kwakel | nee |
-| Beheerde speeltuin | object | Beheerde speelvoorziening (~5000 m²) | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Speelplek | object | Formele speelruimte in openbare ruimte | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Wijkcultuurhuis | object | Laagdrempelige culturele plek op wijkniveau | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | UCK | nee |
-| School | object | Gebouw voor primair of voortgezet onderwijs | subtype | ja | Subtype van [[maatschappelijke-voorziening]]; GGM: School | Prinses Margrietschool | ja |
-| Volkstuinpark | object | Groene voorziening voor tuinieren en ontmoeting | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Scoutingaccommodatie | object | Accommodatie in zelfbeheer voor jeugdactiviteiten | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Dagbestedingslocatie | object | Locatie voor activering en dagbesteding vanuit Wmo | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Gezinshuis | object | Kleinschalige woonzorgvorm voor jeugdhulp met verblijf | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
-| Maatschappelijke opvang | object | Tijdelijke opvang met zorg voor daklozen | subtype | ja | Subtype van [[maatschappelijke-voorziening]] | — | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | object | Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs) | ✅ | ja | 6/6 criteria; overkoepelend concept met 16 subtypes | Buurtcentrum Zuilen, Sporthal Olympos | afgeleid |
+| Buurtcentrum | object | Welzijnsvoorziening met minimaal drie activiteitenruimten | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | Buurthuis de Musketon | nee |
+| Buurtkamer | object | Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²) | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Jongerenhuiskamer | object | Laagdrempelige ruimte voor jongeren (~150 m²) | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Gezondheidscentrum | object | Clustering eerstelijns zorg (~800-1200 m²) | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Sporthal | object | Binnensportaccommodatie voor training en competitie | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]]; GGM: Binnenlocatie | Sporthal Lunetten | ja |
+| Sportpark | object | Geheel van terreinen en voorzieningen voor buitensporten | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]]; GGM: Sportpark | Sportpark Zoudenbalch | ja |
+| Zwembad | object | Overdekt of openlucht zwembad | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | De Kwakel | nee |
+| Beheerde speeltuin | object | Beheerde speelvoorziening (~5000 m²) | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Speelplek | object | Formele speelruimte in openbare ruimte | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Wijkcultuurhuis | object | Laagdrempelige culturele plek op wijkniveau | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | UCK | nee |
+| School | object | Gebouw voor primair of voortgezet onderwijs | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]]; GGM: School | Prinses Margrietschool | ja |
+| Volkstuinpark | object | Groene voorziening voor tuinieren en ontmoeting | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Scoutingaccommodatie | object | Accommodatie in zelfbeheer voor jeugdactiviteiten | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Dagbestedingslocatie | object | Locatie voor activering en dagbesteding vanuit Wmo | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Gezinshuis | object | Kleinschalige woonzorgvorm voor jeugdhulp met verblijf | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
+| Maatschappelijke opvang | object | Tijdelijke opvang met zorg voor daklozen | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
 
 ## GGM-entiteitendekking
 

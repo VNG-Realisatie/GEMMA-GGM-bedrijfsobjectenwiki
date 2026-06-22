@@ -18,30 +18,30 @@ De gemeente heeft een regierol en werkt samen met netbeheerders (Stedin, TenneT)
 
 ## Begrippentabel
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet\|Warmtenet]] | object | Infrastructuur voor levering van warmte aan gebouwen | ✅ | 6/6 criteria, GGM-hiaat | Stadsverwarming Eneco, toekomstige lokale warmtenetten | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied\|Opwekgebied]] | object | Aangewezen gebied voor grootschalige opwek van duurzame energie | ✅ | 6/6 criteria, GGM-hiaat | Zonneveld Rijnenburg, windlocatie Lage Weide | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek\|Koelteplek]] | object | Groene verblijfsplek ≥200 m² met verkoelende functie | ✅ | 6/6 criteria, GGM-hiaat | Wilhelminapark, Park Oosterspoorbaan | nee |
-| warmteprogramma | instrument | Wettelijk verplicht gemeentelijk plan voor warmtetransitie (Wgiw) | ⚠️ | 6/6 criteria, maar type=instrument → ter discussie | Warmteprogramma Utrecht 2026 | nee |
-| RES | instrument | Regionale Energiestrategie, regionaal plan voor duurzame opwek | ❌ | Regionaal instrument, niet gemeentelijk | RES U16 | nee |
-| energietransitie | thema | Overgang van fossiel naar duurzaam energiesysteem | ❌ | Overkoepelend thema, geen object | — | nee |
-| klimaatadaptatie | thema | Aanpassing van de stad aan gevolgen van klimaatverandering | ❌ | Overkoepelend thema, geen object | — | nee |
-| energieloket | kanaal | Dienstverleningskanaal voor bewoners over energiebesparing | ❌ | Kanaal/dienst, geen zelfstandig object | Energieloket Utrecht | nee |
-| klimaatpanel | participatie | Groep van 50 Utrechters die meedenkt over klimaatbeleid | ❌ | Participatie-instrument, geen object | Klimaatpanel Utrecht | nee |
-| netcongestie | situatie | Overbelasting van het elektriciteitsnet | ❌ | Situatie/probleem, geen object | — | nee |
-| energielabel | classificatie | Energieprestatie-indicatie van gebouwen | ❌ | Eigenschap van gebouw, geen zelfstandig object | Label A, label G | ja |
-| buurtaanpak aardgasvrij | aanpak | Werkwijze voor buurt-voor-buurt warmtetransitie | ❌ | Werkwijze/methode, geen object | Buurtaanpak Overvecht-Noord | nee |
-| warmtebron | object | Technische installatie voor warmteproductie | ❌ | Component van warmtenet, te granulair voor BO | Warmtepomp RWZI Overvecht, electroboiler Lage Weide | nee |
-| zonneveld | object | Terrein met zonnepanelen voor grootschalige opwek | ❌ | Onderdeel/type van opwekgebied | Zonneveld Rijnenburg | nee |
-| hitte-eilandeffect | verschijnsel | Hogere temperatuur in stad dan buitengebied door verharding | ❌ | Verschijnsel/situatie, geen object | Max 5°C verschil als doelstelling | nee |
-| stresstest | instrument | Periodiek onderzoek naar klimaatkwetsbaarheden (elke 6 jaar) | ❌ | Onderzoeksinstrument, geen object | Stresstest hitte, wateroverlast | nee |
-| prioriteitsgebied | classificatie | Locatie waar klimaatrisico als urgent is beoordeeld | ❌ | Aanduiding/classificatie van een gebied | Binnenstad, Rivierenwijk | nee |
-| groen dak | eigenschap | Dakbedekking met plantaardige laag voor waterberging en verkoeling | ❌ | Eigenschap van gebouw | Subsidieregeling groene daken | nee |
-| klimaatadaptatieparagraaf | instrument | Verplicht onderdeel in bouwplannen over klimaatbestendigheid | ❌ | Instrument/documentonderdeel | — | nee |
-| transitiepad | instrument | Beleidsstructuur per thema (energie, mobiliteit, circulair) | ❌ | Organisatorisch instrument | 8 transitiepaden in klimaatvisie | nee |
-| WKO-installatie | object | Warmte-koude-opslag in de ondergrond | → | Subtype van [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem\|Bodemenergiesysteem]] (domein Milieu) | RWZI Overvecht | nee |
-| wadi | object | Groenvoorziening voor bovengrondse waterberging en infiltratie | → | Geparkeerd voor domein openbare ruimte | Klifrakplantsoen, Leidsche Rijn | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet\|Warmtenet]]|object|Infrastructuur voor levering van warmte aan gebouwen| ✅ | ja |6/6 criteria, GGM-hiaat|Stadsverwarming Eneco, toekomstige lokale warmtenetten|nee|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied\|Opwekgebied]]|object|Aangewezen gebied voor grootschalige opwek van duurzame energie| ✅ | ja |6/6 criteria, GGM-hiaat|Zonneveld Rijnenburg, windlocatie Lage Weide|nee|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek\|Koelteplek]]|object|Groene verblijfsplek ≥200 m² met verkoelende functie| ✅ | ja |6/6 criteria, GGM-hiaat|Wilhelminapark, Park Oosterspoorbaan|nee|
+|warmteprogramma|instrument|Wettelijk verplicht gemeentelijk plan voor warmtetransitie (Wgiw)| ⚠️ |  |6/6 criteria, maar type=instrument → ter discussie|Warmteprogramma Utrecht 2026|nee|
+|RES|instrument|Regionale Energiestrategie, regionaal plan voor duurzame opwek| ❌ | nee |Regionaal instrument, niet gemeentelijk|RES U16|nee|
+|energietransitie|thema|Overgang van fossiel naar duurzaam energiesysteem| ❌ | nee |Overkoepelend thema, geen object|—|nee|
+|klimaatadaptatie|thema|Aanpassing van de stad aan gevolgen van klimaatverandering| ❌ | nee |Overkoepelend thema, geen object|—|nee|
+|energieloket|kanaal|Dienstverleningskanaal voor bewoners over energiebesparing| ❌ | nee |Kanaal/dienst, geen zelfstandig object|Energieloket Utrecht|nee|
+|klimaatpanel|participatie|Groep van 50 Utrechters die meedenkt over klimaatbeleid| ❌ | nee |Participatie-instrument, geen object|Klimaatpanel Utrecht|nee|
+|netcongestie|situatie|Overbelasting van het elektriciteitsnet| ❌ | nee |Situatie/probleem, geen object|—|nee|
+|energielabel|classificatie|Energieprestatie-indicatie van gebouwen| ❌ | ja |Eigenschap van gebouw, geen zelfstandig object|Label A, label G|ja|
+|buurtaanpak aardgasvrij|aanpak|Werkwijze voor buurt-voor-buurt warmtetransitie| ❌ | nee |Werkwijze/methode, geen object|Buurtaanpak Overvecht-Noord|nee|
+|warmtebron|object|Technische installatie voor warmteproductie| ❌ | ja |Component van warmtenet, te granulair voor BO|Warmtepomp RWZI Overvecht, electroboiler Lage Weide|nee|
+|zonneveld|object|Terrein met zonnepanelen voor grootschalige opwek| ❌ | ja |Onderdeel/type van opwekgebied|Zonneveld Rijnenburg|nee|
+|hitte-eilandeffect|verschijnsel|Hogere temperatuur in stad dan buitengebied door verharding| ❌ | nee |Verschijnsel/situatie, geen object|Max 5°C verschil als doelstelling|nee|
+|stresstest|instrument|Periodiek onderzoek naar klimaatkwetsbaarheden (elke 6 jaar)| ❌ | nee |Onderzoeksinstrument, geen object|Stresstest hitte, wateroverlast|nee|
+|prioriteitsgebied|classificatie|Locatie waar klimaatrisico als urgent is beoordeeld| ❌ | ja |Aanduiding/classificatie van een gebied|Binnenstad, Rivierenwijk|nee|
+|groen dak|eigenschap|Dakbedekking met plantaardige laag voor waterberging en verkoeling| ❌ | nee |Eigenschap van gebouw|Subsidieregeling groene daken|nee|
+|klimaatadaptatieparagraaf|instrument|Verplicht onderdeel in bouwplannen over klimaatbestendigheid| ❌ | nee |Instrument/documentonderdeel|—|nee|
+|transitiepad|instrument|Beleidsstructuur per thema (energie, mobiliteit, circulair)| ❌ | nee |Organisatorisch instrument|8 transitiepaden in klimaatvisie|nee|
+|WKO-installatie|object|Warmte-koude-opslag in de ondergrond| → | ja |Subtype van [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem\|Bodemenergiesysteem]] (domein Milieu)|RWZI Overvecht|nee|
+|wadi|object|Groenvoorziening voor bovengrondse waterberging en infiltratie| → | ja |Geparkeerd voor domein openbare ruimte|Klifrakplantsoen, Leidsche Rijn|nee|
 
 ### Cross-domein verwijzingen
 

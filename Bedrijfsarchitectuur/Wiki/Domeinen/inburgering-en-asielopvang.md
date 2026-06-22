@@ -4,7 +4,7 @@ naam: Asiel en Integratie
 status: afgerond
 verwerkingsdatum: 2026-06-19
 bronnen_count: 6
-begrippen_count: 11
+begrippen_count: 12
 bo_count: 15
 ---
 
@@ -61,20 +61,20 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 
 ## Begrippen
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| asielopvang | thema | Overkoepelend thema voor opvang van asielzoekers | ❌ | Thema, geen object | — | nee |
-| inburgering | thema | Het formele traject na vergunningverlening | ❌ | Thema, geen object | — | nee |
-| spreidingswet | instrument | Wettelijke taak gemeenten voor opvangplekken | ❌ | Instrument, geen object | — | nee |
-| duurzame gemeentelijke opvang | instrument | Exploitatievorm waarbij gemeente begeleiding overneemt | ❌ | Instrument, geen object | — | nee |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst\|Bestuursovereenkomst]] | instrument | Formele afspraken COA-gemeente per locatie | ✅ | Governance-object, eigen levenscyclus | BOK Zeist | nee |
-| voorinburgering | instrument | Voorbereiding op inburgering in de opvangfase | ❌ | Onderdeel van inburgeringstraject | — | nee |
-| meedoenbalie | instrument | Loket voor participatie en arbeidstoeleiding | ❌ | Instrument, geen object | — | nee |
-| kansrijke koppeling | instrument | Koppeling statushouder aan gemeente op basis van profiel | ❌ | Instrument/procedure | — | nee |
-| statushouder | doelgroep | Persoon met verblijfsvergunning | ❌ | Doelgroep, geen object | — | nee |
-| alleenstaande minderjarige vreemdeling | doelgroep | Jongere zonder ouder/begeleider | ❌ | Doelgroep, geen object | — | nee |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie\|Opvanglocatie]] | object | Fysieke locatie voor opvang, in diverse vormen | ✅ | 6/6 criteria, procesobject | AZC, noodopvang | nee |
-| inhuisregistratie | object | Wekelijkse aanwezigheidscontrole op locatie | ❌ | Eigenschap/proces van opvanglocatie | — | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|asielopvang|thema|Overkoepelend thema voor opvang van asielzoekers| ❌ | nee |Thema, geen object|—|nee|
+|inburgering|thema|Het formele traject na vergunningverlening| ❌ | nee |Thema, geen object|—|nee|
+|spreidingswet|instrument|Wettelijke taak gemeenten voor opvangplekken| ❌ | nee |Instrument, geen object|—|nee|
+|duurzame gemeentelijke opvang|instrument|Exploitatievorm waarbij gemeente begeleiding overneemt| ❌ | nee |Instrument, geen object|—|nee|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst\|Bestuursovereenkomst]]|instrument|Formele afspraken COA-gemeente per locatie| ✅ | nee |Governance-object, eigen levenscyclus|BOK Zeist|nee|
+|voorinburgering|instrument|Voorbereiding op inburgering in de opvangfase| ❌ | nee |Onderdeel van inburgeringstraject|—|nee|
+|meedoenbalie|instrument|Loket voor participatie en arbeidstoeleiding| ❌ | nee |Instrument, geen object|—|nee|
+|kansrijke koppeling|instrument|Koppeling statushouder aan gemeente op basis van profiel| ❌ | nee |Instrument/procedure|—|nee|
+|statushouder|doelgroep|Persoon met verblijfsvergunning| ❌ | nee |Doelgroep, geen object|—|nee|
+|alleenstaande minderjarige vreemdeling|doelgroep|Jongere zonder ouder/begeleider| ❌ | nee |Doelgroep, geen object|—|nee|
+|[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie\|Opvanglocatie]]|object|Fysieke locatie voor opvang, in diverse vormen| ✅ | ja |6/6 criteria, procesobject|AZC, noodopvang|nee|
+|inhuisregistratie|object|Wekelijkse aanwezigheidscontrole op locatie| ❌ | ja |Eigenschap/proces van opvanglocatie|—|nee|
 
 ## Verwerkte bronnen
 

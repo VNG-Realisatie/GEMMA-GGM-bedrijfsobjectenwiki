@@ -26,11 +26,11 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Administratief beheersgebied waarbinnen het rioolstelsel afvalwater naar één gemaal of overnamepunt transporteert."
 gemma_subtypes:
-  - naam: Bemalingsgebied
-    omschrijving: "Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd"
+  - naam: "Bemalingsgebied"
+    omschrijving: Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd
     ggm_entiteit: Bemalingsgebied
     ggm_guid: EAID_A1EE11DF_4EEA_409A_8E43_F108DC0BF96
-    ggm_attribuut:
+    ggm_attribuut: generalisatie
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: associatie

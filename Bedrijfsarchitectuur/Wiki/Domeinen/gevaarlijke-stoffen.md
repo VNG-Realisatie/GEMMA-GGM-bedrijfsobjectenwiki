@@ -14,17 +14,17 @@ Omgevingsveiligheid betreft de beheersing van risico's voor de leefomgeving als 
 
 ## Begrippentabel
 
-| Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/risicobron\|Risicobron]] | object | Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt of vervoerd | ✅ | 6/6 criteria, partieel match | LPG-tankstation, aardgasleiding, A2 | partieel |
-| [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/aandachtsgebied\|Aandachtsgebied]] | object | Ruimtelijk gebied rond een risicobron waarbinnen mensen slachtoffer kunnen worden van een incident | ✅ | 6/6 criteria, partieel match | brandaandachtsgebied, explosieaandachtsgebied, gifwolkaandachtsgebied | partieel |
-| [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/voorschriftengebied\|Voorschriftengebied]] | object | Aangewezen deel van een aandachtsgebied met aanvullende bouweisen voor nieuwbouw | ✅ | 6/6 criteria, partieel match | brandvoorschriftengebied, explosievoorschriftengebied | partieel |
-| plaatsgebonden risico | norm | Kans op overlijden op een bepaalde afstand van de risicobron | ❌ | Meetwaarde/norm, geen eigen bestaan als object | PR 10⁻⁶ contour | nee |
-| groepsrisico | norm | Kans op overlijden van 10 of meer personen bij een incident | ❌ | Meetwaarde/norm | fN-curve | nee |
-| oriëntatiewaarde | norm | Referentiewaarde voor toetsing van het groepsrisico | ❌ | Normwaarde, eigenschap van groepsrisico | — | nee |
-| (beperkt) kwetsbare gebouwen | classificatie | Wettelijke indeling van gebouwen naar kwetsbaarheid | ❌ | Classificatie/eigenschap van gebouwen | woning, kantoor, sporthal | nee |
-| zeer kwetsbare gebouwen | classificatie | Gebouwen voor mensen die niet zelfstandig kunnen vluchten | ❌ | Classificatie/eigenschap van gebouwen | basisschool, kinderopvang, ziekenhuis | nee |
-| basisnet | instrument | Landelijk netwerk voor vervoer gevaarlijke stoffen | ❌ | Landelijk instrument, niet gemeentelijk | snelwegen, spoorwegen, waterwegen | nee |
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+|---|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/risicobron\|Risicobron]]|object|Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt of vervoerd| ✅ | ja |6/6 criteria, partieel match|LPG-tankstation, aardgasleiding, A2|partieel|
+|[[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/aandachtsgebied\|Aandachtsgebied]]|object|Ruimtelijk gebied rond een risicobron waarbinnen mensen slachtoffer kunnen worden van een incident| ✅ | ja |6/6 criteria, partieel match|brandaandachtsgebied, explosieaandachtsgebied, gifwolkaandachtsgebied|partieel|
+|[[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/voorschriftengebied\|Voorschriftengebied]]|object|Aangewezen deel van een aandachtsgebied met aanvullende bouweisen voor nieuwbouw| ✅ | ja |6/6 criteria, partieel match|brandvoorschriftengebied, explosievoorschriftengebied|partieel|
+|plaatsgebonden risico|norm|Kans op overlijden op een bepaalde afstand van de risicobron| ❌ | nee |Meetwaarde/norm, geen eigen bestaan als object|PR 10⁻⁶ contour|nee|
+|groepsrisico|norm|Kans op overlijden van 10 of meer personen bij een incident| ❌ | nee |Meetwaarde/norm|fN-curve|nee|
+|oriëntatiewaarde|norm|Referentiewaarde voor toetsing van het groepsrisico| ❌ | nee |Normwaarde, eigenschap van groepsrisico|—|nee|
+|(beperkt) kwetsbare gebouwen|classificatie|Wettelijke indeling van gebouwen naar kwetsbaarheid| ❌ | ja |Classificatie/eigenschap van gebouwen|woning, kantoor, sporthal|nee|
+|zeer kwetsbare gebouwen|classificatie|Gebouwen voor mensen die niet zelfstandig kunnen vluchten| ❌ | ja |Classificatie/eigenschap van gebouwen|basisschool, kinderopvang, ziekenhuis|nee|
+|basisnet|instrument|Landelijk netwerk voor vervoer gevaarlijke stoffen| ❌ | nee |Landelijk instrument, niet gemeentelijk|snelwegen, spoorwegen, waterwegen|nee|
 
 ## GGM-entiteitendekking
 

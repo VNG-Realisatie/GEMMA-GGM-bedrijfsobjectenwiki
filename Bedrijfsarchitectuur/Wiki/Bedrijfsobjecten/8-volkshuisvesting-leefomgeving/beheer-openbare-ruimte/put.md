@@ -26,21 +26,21 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Verticale constructie in het rioleringssysteem voor aansluiting, inspectie en onderhoud van leidingen."
 gemma_subtypes:
-  - naam: Drainageput
-    omschrijving: "Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer"
+  - naam: "Drainageput"
+    omschrijving: Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
     ggm_entiteit: Drainageput
     ggm_guid: EAID_01343EF1_EF8E_4FB1_9A58_8E885304D55
-    ggm_attribuut:
-  - naam: Filterput
-    omschrijving: "Put met filterconstructie voor onttrekken van grondwater"
+    ggm_attribuut: generalisatie
+  - naam: "Filterput"
+    omschrijving: Put met filterconstructie voor onttrekken van grondwater
     ggm_entiteit: Filterput
     ggm_guid: EAID_6E949D6F_0A40_4BB7_B655_5EF4B8BBA4D
-    ggm_attribuut:
-  - naam: Infiltratieput
-    omschrijving: "Put met waterdoorlatende wanden voor infiltratie van hemelwater"
+    ggm_attribuut: generalisatie
+  - naam: "Infiltratieput"
+    omschrijving: Put met waterdoorlatende wanden voor infiltratie van hemelwater
     ggm_entiteit: Infiltratieput
     ggm_guid: EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB
-    ggm_attribuut:
+    ggm_attribuut: generalisatie
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: associatie
@@ -60,6 +60,7 @@ relaties:
     beschrijving: Kolken zijn verbonden met putten voor hemelwaterafvoer
 bedrijfsprocessen: [Rioolbeheer, Rioolinspectie, Rioolvervanging]
 bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]
+ggm_gemma_naam: "Put"
 ---
 
 ## BO-criteria toetsing

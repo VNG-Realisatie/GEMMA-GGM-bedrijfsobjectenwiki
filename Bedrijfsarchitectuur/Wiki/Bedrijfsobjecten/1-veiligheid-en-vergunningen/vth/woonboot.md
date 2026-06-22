@@ -29,26 +29,26 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats, met gemeentelijke vergunningplicht voor situering en maatvoering."
 gemma_subtypes:
-  - naam: Woonark
+  - naam: "Woonark"
     omschrijving: "Betonnen bak met opbouw in het water, niet varend."
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
-    ggm_attribuut:
-  - naam: Varend schip
+    ggm_attribuut: type
+  - naam: "Varend schip"
     omschrijving: "Schip met originele romp, ontworpen om te varen. Bij vervanging door een ark geldt max 18 meter."
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
-    ggm_attribuut:
-  - naam: Historisch schip
+    ggm_attribuut: type
+  - naam: "Historisch schip"
     omschrijving: "Woonboot of bedrijfsvaartuig ≥50 jaar oud, met beschermingsregime in aangewezen zones."
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
-    ggm_attribuut:
-  - naam: Schark
-    omschrijving: "Historisch schip met originele romp en (deels) vervangen eenlaags houten opbouw."
+    ggm_attribuut: type
+  - naam: "Schark"
+    omschrijving: Historisch schip met originele romp en (deels) vervangen eenlaags houten opbouw.
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
-    ggm_attribuut:
+    ggm_attribuut: type
 bronnen: [Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht, Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht, Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen, Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur, Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen, Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht, Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007, Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]
 relaties:
   - type: associatie

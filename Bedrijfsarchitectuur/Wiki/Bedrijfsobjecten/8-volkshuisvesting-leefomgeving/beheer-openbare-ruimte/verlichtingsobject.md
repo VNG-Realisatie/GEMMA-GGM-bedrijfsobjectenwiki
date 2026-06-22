@@ -26,16 +26,16 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Paal, mast of gevelarmatuur in de openbare ruimte die voorziet in straatverlichting."
 gemma_subtypes:
-  - naam: Lichtmast
+  - naam: "Lichtmast"
     omschrijving: "Vrijstaande paal met armatuur voor straatverlichting, veruit het meeste type (56.000 stuks)"
     ggm_entiteit: Verlichtingsobject
     ggm_guid: EAID_8CD4C799_C403_41B6_B409_06D37398E31
-    ggm_attribuut:
-  - naam: Gevelarmatuur
+    ggm_attribuut: type
+  - naam: "Gevelarmatuur"
     omschrijving: "Aan gevel bevestigde verlichting, met name in de historische binnenstad"
     ggm_entiteit: Verlichtingsobject
     ggm_guid: EAID_8CD4C799_C403_41B6_B409_06D37398E31
-    ggm_attribuut:
+    ggm_attribuut: type
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
@@ -45,6 +45,7 @@ relaties:
     beschrijving: Verlichtingsobject is een specialisatie van Beheerobject
 bedrijfsprocessen: [Onderhoud openbare verlichting, Vervanging armaturen, Inspectie verlichting, Storingsdienst]
 bedrijfsfuncties: [Beheer openbare ruimte, Openbare verlichting]
+ggm_gemma_naam: "Verlichtingsobject"
 ---
 
 ## BO-criteria toetsing
