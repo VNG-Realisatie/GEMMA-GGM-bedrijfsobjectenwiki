@@ -38,7 +38,6 @@ gemma_subtypes:
     ggm_guid: "EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E"
     ggm_attribuut: "doelgroep"
 bronnen: [Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]"
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeervlak]]"

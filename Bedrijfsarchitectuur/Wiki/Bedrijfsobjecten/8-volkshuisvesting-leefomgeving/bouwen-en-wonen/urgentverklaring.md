@@ -65,9 +65,6 @@ gemma_subtypes:
     ggm_guid:
     ggm_attribuut:
 bronnen: [Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]
-  - "[[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Woning]]"

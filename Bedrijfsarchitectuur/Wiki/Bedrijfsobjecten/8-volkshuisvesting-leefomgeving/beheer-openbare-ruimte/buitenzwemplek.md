@@ -26,8 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie in open water waar buiten gezwommen wordt, met onderscheid tussen officieel aangewezen en niet-officiële zwemplekken."
 bronnen: [Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater, Wiki/Bronsamenvattingen/milieu/visie-water-riolering]
-  - [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
-  - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"

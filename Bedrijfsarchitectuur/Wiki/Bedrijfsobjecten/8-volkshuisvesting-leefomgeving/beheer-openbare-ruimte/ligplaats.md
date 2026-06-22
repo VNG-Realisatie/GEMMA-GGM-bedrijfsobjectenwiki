@@ -35,10 +35,6 @@ gemma_subtypes:
     ggm_guid: EAID_785E3B69_19DA_4952_84A8_592965B9229A
     ggm_attribuut:
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
-  - "[[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"

@@ -53,8 +53,6 @@ gemma_subtypes:
     ggm_guid: ""
     ggm_attribuut: "type"
 bronnen: [Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]
-  - "[[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]]"
-  - "[[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Vestiging]]"

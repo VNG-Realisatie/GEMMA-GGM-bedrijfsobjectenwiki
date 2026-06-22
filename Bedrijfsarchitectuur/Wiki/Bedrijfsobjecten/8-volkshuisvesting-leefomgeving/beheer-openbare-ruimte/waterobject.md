@@ -26,9 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Functioneel stuk oppervlaktewater dat de gemeente beheert, zoals watergangen, vijvers, grachten en kanalen."
 bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
-  - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
-  - [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
-  - [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)

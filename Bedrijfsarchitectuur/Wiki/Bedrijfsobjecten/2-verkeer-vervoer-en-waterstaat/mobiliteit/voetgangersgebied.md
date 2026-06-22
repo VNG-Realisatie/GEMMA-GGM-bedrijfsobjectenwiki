@@ -49,7 +49,6 @@ relaties:
     kardinaliteit: "0..1"
     beschrijving: "Voetgangersgebied kan overlappen met zero-emissiezone"
 bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
 ---
 
 # Voetgangersgebied

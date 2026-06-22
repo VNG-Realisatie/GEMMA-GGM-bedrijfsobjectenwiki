@@ -30,7 +30,6 @@ ggm_gemma_alternate_name:
 gemma_definitie: "Aangewezen locatie of zone waarbinnen roken niet is toegestaan, gericht op bescherming van de gezondheid."
 gemma_subtypes:
 bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties: []
 bedrijfsprocessen: [volksgezondheidsbeleid, luchtkwaliteitsbeleid]
 bedrijfsfuncties: [milieubeheer, volksgezondheid]

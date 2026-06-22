@@ -26,8 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer, geheven bij perceeleigenaren en grootverbruikers."
 bronnen: [Wiki/Bronsamenvattingen/milieu/visie-water-riolering, Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]
-  - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
-  - [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Afvalstoffenheffing]]"

@@ -50,10 +50,6 @@ gemma_subtypes:
     ggm_guid: EAID_98C74EAB_3411_4d1a_8321_FF30567B6877
     ggm_attribuut:
 bronnen: [Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht, Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht, Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen, Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur, Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen, Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht, Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007, Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]
-  - "[[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen]]"
-  - "[[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Woningbouwplan]]"

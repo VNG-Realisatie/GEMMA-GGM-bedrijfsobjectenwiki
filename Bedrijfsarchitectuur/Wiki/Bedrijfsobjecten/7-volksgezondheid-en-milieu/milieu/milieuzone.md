@@ -35,7 +35,6 @@ gemma_subtypes:
     ggm_guid:
     ggm_attribuut:
 bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Ontheffing (milieuzone)]]"

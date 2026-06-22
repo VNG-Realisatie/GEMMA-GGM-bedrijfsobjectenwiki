@@ -30,7 +30,6 @@ ggm_gemma_alternate_name:
 gemma_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijgen voor het vervangen van een voertuig dat door milieuzone-aanscherping niet meer is toegelaten."
 gemma_subtypes:
 bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"

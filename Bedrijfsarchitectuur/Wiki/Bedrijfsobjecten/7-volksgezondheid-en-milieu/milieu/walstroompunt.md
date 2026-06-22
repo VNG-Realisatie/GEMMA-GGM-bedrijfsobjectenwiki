@@ -30,7 +30,6 @@ ggm_gemma_alternate_name:
 gemma_definitie: "Fysiek aansluitpunt voor walstroom aan een vaarweg of kade, zodat schepen op elektriciteit kunnen draaien in plaats van hun dieselmotor."
 gemma_subtypes:
 bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties: []
 bedrijfsprocessen: [binnenvaartbeheer, luchtkwaliteitsbeleid]
 bedrijfsfuncties: [milieubeheer, waterbeheer]

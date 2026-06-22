@@ -30,7 +30,6 @@ ggm_gemma_alternate_name:
 gemma_definitie: "Fysieke locatie in het gemeentelijk meetnet waar luchtverontreinigende stoffen worden gemeten."
 gemma_subtypes:
 bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
-  - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties: []
 bedrijfsprocessen: [luchtkwaliteitsmonitoring, beleidsverantwoording]
 bedrijfsfuncties: [milieubeheer]

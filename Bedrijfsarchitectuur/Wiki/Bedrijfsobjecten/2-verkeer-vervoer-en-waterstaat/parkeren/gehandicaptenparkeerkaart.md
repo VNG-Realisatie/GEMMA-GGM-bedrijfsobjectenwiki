@@ -48,7 +48,6 @@ gemma_subtypes:
     ggm_guid: ""
     ggm_attribuut: ""
 bronnen: [Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]
-  - "[[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Gehandicaptenparkeerplaats]]"

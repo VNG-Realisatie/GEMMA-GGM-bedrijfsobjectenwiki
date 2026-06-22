@@ -30,8 +30,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
 gemma_subtypes: []
 bronnen: [Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak]
-  - "[[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak]]"
-  - "[[Wiki/Bronsamenvattingen/Welstand/welstandsnota-criteria-richtlijnen]]"
 relaties:
   - type: associatie
     bedrijfsobject: "[[Omgevingsvergunning]]"
