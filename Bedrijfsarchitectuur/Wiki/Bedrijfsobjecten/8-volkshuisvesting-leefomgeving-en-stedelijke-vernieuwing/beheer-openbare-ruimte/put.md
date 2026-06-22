@@ -43,12 +43,12 @@ gemma_subtypes:
     ggm_attribuut: generalisatie
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
     kardinaliteit: ""
     beschrijving: Putten en gemalen zijn onderdelen van hetzelfde rioolstelsel
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
     richting: bidirectioneel
     kardinaliteit: ""
     beschrijving: Putten liggen in een rioleringsgebied
@@ -71,7 +71,7 @@ ggm_gemma_naam: "Put"
 | Heeft een eigen bestaan binnen het domein | ✅ | Elke put is individueel geregistreerd met locatie, type, materiaal en staat |
 | Kan in meervoud bestaan | ✅ | Duizenden putten in het gemeentelijk rioolstelsel |
 | Heeft een eigen levenscyclus | ✅ | Aanleg → inspectie → onderhoud → renovatie → vervanging |
-| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]], Kolk |
+| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]], Kolk |
 
 Score: 6/6.
 
@@ -85,13 +85,13 @@ Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van put
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
-| Drainageput | Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer | [Drainageput](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Filterput | Put met filterconstructie voor onttrekken van grondwater | [Filterput](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Infiltratieput | Put met waterdoorlatende wanden voor infiltratie van hemelwater | [Infiltratieput](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
+| Drainageput | Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer | [Drainageput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Filterput | Put met filterconstructie voor onttrekken van grondwater | [Filterput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Infiltratieput | Put met waterdoorlatende wanden voor infiltratie van hemelwater | [Infiltratieput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 
 ## GGM-bron
 
-> "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Put
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -101,8 +101,8 @@ Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van put
 
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
 | associatie | [[Kolk]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen

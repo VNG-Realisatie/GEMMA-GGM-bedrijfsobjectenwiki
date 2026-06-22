@@ -32,12 +32,12 @@ relaties:
     kardinaliteit:
     beschrijving: Gemaal is een specialisatie van Kunstwerk in het GGM
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|Waterobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Gemaal verpompt water van of naar waterobjecten
@@ -68,7 +68,7 @@ Bij storingen aan gemalen kan wateroverlast of milieuschade optreden doordat afv
 
 ## GGM-bron
 
-> "Een constructie ten behoeve van het verplaatsen van water" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Een constructie ten behoeve van het verplaatsen van water" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Gemaal
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -86,8 +86,8 @@ De GEMMA-definitie specificeert het gemeentelijke perspectief: "verpompen van af
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Kunstwerk (GGM) | Gemaal → Kunstwerk | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

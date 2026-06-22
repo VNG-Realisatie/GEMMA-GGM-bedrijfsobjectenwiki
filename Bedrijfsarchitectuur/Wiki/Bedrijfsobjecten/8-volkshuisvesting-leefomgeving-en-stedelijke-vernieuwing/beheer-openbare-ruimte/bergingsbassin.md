@@ -32,12 +32,12 @@ relaties:
     kardinaliteit:
     beschrijving: Bergingsbassin is een specialisatie van Bouwwerk in het GGM
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
     richting: bidirectioneel
     kardinaliteit: "1..*"
     beschrijving: Bergbezinkbassin is geplaatst achter een overstortconstructie
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|Waterobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Bergingsbassin vermindert de belasting op oppervlaktewater
@@ -66,7 +66,7 @@ Utrecht beschikt over 18 bergbezinkbassins, geplaatst achter de belangrijkste ov
 
 ## GGM-bron
 
-> "Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen" — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Bergingsbassin
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -84,8 +84,8 @@ De GEMMA-definitie positioneert het bassin in de functionele context: achter een
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Bouwwerk (GGM) | Bergingsbassin → Bouwwerk | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

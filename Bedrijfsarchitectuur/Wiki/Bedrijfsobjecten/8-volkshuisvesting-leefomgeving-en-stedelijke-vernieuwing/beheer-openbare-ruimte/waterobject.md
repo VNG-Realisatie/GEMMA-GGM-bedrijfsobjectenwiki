@@ -32,17 +32,17 @@ relaties:
     kardinaliteit:
     beschrijving: Waterobject is een specialisatie van Beheerobject in het GGM
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Waterobject ontvangt overstortwater van overstortconstructies
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Gemaal verpompt water van of naar waterobjecten
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Kunstwerken (bruggen, kademuren) overbruggen of begrenzen waterobjecten
@@ -76,7 +76,7 @@ Het programma Gezond Water (samenwerking met Hoogheemraadschap De Stichtse Rijnl
 
 ## GGM-bron
 
-> "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Waterobject
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -94,9 +94,9 @@ De GEMMA-definitie benadrukt het gemeentelijk perspectief: "functioneel stuk opp
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Beheerobject (GGM) | Waterobject → Beheerobject | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

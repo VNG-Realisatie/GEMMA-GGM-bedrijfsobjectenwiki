@@ -19,11 +19,11 @@ De kwaliteit wordt gemeten met CROW-beeldkwaliteitsmaatlatten op vijf niveaus (A
 
 ## Kernbegrippen
 
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]]** — verharde lagen van wegen, fietspaden, voetpaden; levensduur 40 jaar; €35,7M achterstallig onderhoud
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]** — civiele constructies: bruggen, viaducten, kademuren; levensduur 50-70 jaar; €7,6M achterstallig
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]]** — palen en armaturen voor openbare verlichting; levensduur 25 jaar
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speeltoestel|Speeltoestel]]** — toestellen en structuren voor kinderen; levensduur 15 jaar; 4x/jaar geïnspecteerd
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]]** — verkeersregelinstallaties; levensduur 10 jaar
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]]** — verharde lagen van wegen, fietspaden, voetpaden; levensduur 40 jaar; €35,7M achterstallig onderhoud
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]** — civiele constructies: bruggen, viaducten, kademuren; levensduur 50-70 jaar; €7,6M achterstallig
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]]** — palen en armaturen voor openbare verlichting; levensduur 25 jaar
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel|Speeltoestel]]** — toestellen en structuren voor kinderen; levensduur 15 jaar; 4x/jaar geïnspecteerd
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]]** — verkeersregelinstallaties; levensduur 10 jaar
 - **Areaal** — het totaal aan objecten in de openbare ruimte dat de gemeente in beheer heeft
 - **CROW-beeldkwaliteit** — meetstandaard met 5 niveaus (A+ t/m D) voor de kwaliteit van de openbare ruimte
 - **Ontwikkelend beheer** — beheervisie waarbij vervanging wordt gecombineerd met verbetering op thema's als klimaat, gezondheid en circulariteit

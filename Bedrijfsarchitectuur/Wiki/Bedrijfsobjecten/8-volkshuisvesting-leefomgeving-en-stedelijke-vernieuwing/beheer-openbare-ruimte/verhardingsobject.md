@@ -135,7 +135,7 @@ Het GGM-Verhardingsobject is een specialisatie van **Beheerobject**, het abstrac
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Beheerobject (GGM) | Verhardingsobject → Beheerobject | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | bidirectioneel | Beleidsbron: verharding over/langs kunstwerken |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | bidirectioneel | Beleidsbron: verharding over/langs kunstwerken |
 
 ## Bedrijfsprocessen
 

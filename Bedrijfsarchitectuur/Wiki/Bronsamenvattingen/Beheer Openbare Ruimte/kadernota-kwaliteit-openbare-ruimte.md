@@ -24,7 +24,7 @@ De verdeling is: Domstad 85% (basiskwaliteit), Domstad Bijzonder 10% (bijzondere
 
 ## Relevantie voor bedrijfsarchitectuur
 
-De kadernota levert geen directe BO-kandidaten op — het is een beleidskader dat kwaliteitsniveaus en principes definieert. De kwaliteitsniveaus zijn attributen van de fysieke objecten die de gemeente beheert (bijv. `kwaliteitsniveauGewenst` op [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]], etc.).
+De kadernota levert geen directe BO-kandidaten op — het is een beleidskader dat kwaliteitsniveaus en principes definieert. De kwaliteitsniveaus zijn attributen van de fysieke objecten die de gemeente beheert (bijv. `kwaliteitsniveauGewenst` op [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]], etc.).
 
 ## Citaten
 

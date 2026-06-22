@@ -32,7 +32,7 @@ relaties:
     kardinaliteit:
     beschrijving: Kolk is een specialisatie van Put in het GGM
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|Waterobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Kolken voeren hemelwater af naar oppervlaktewater of riool
@@ -63,7 +63,7 @@ Kolkreiniging is een periodiek terugkerend onderhoudproces om verstopping en wat
 
 ## GGM-bron
 
-> "Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Kolk
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -81,7 +81,7 @@ De GEMMA-definitie vereenvoudigt de technische GGM-definitie tot het gemeentelij
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Put (GGM) | Kolk → Put | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

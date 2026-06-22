@@ -8,7 +8,7 @@
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
-- [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (7 BO's)
+- [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
@@ -24,6 +24,7 @@
 - [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 - [[Wiki/Domeinen/welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
 - [[Wiki/Domeinen/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
+- [[Wiki/Domeinen/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 
 ## Bedrijfsobjecten
 
@@ -107,32 +108,32 @@
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — Object met cultuurhistorische waarde in museale collectie
 
 ### Wonen (GGM beleidsdomein Bouwen en Wonen, taakveld 8)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woning|woning]] — Zelfstandige woonruimte voor permanente huisvesting; subtypes: sociale huur, middenhuur, betaalbare koop, studentenwoning (GGM Gebouw, sterk)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/woningbouwplan|woningbouwplan]] — Project waarin woningen worden geprogrammeerd en gerealiseerd (GGM Plan, exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/bouwen-en-wonen/urgentverklaring|urgentverklaring]] — Beschikking voor voorrang bij toewijzing sociale huur; 7 subtypes (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning|woning]] — Zelfstandige woonruimte voor permanente huisvesting; subtypes: sociale huur, middenhuur, betaalbare koop, studentenwoning (GGM Gebouw, sterk)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan|woningbouwplan]] — Project waarin woningen worden geprogrammeerd en gerealiseerd (GGM Plan, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/urgentverklaring|urgentverklaring]] — Beschikking voor voorrang bij toewijzing sociale huur; 7 subtypes (governance-object, GGM-hiaat)
 
 ### Beheer Openbare Ruimte (GGM beleidsdomein IMBOR, taakveld 8)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (110.000+ in Utrecht)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel van de groenstructuur (GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (GGM Ecoduct, sterk)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]] — Verharde lagen van wegen, fietspaden en voetpaden (GGM exact, levensduur 40 jaar)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk|Kunstwerk]] — Civiele constructie: bruggen, viaducten, kademuren (GGM exact, levensduur 50-70 jaar)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]] — Paal of mast voor openbare verlichting (GGM exact, levensduur 25 jaar)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speeltoestel|Speeltoestel]] — Toestel voor kinderen met certificering en veiligheidsklasse (GGM exact, levensduur 15 jaar)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/speelterrein|Speelterrein]] — Afgebakende openbare ruimte ingericht als speelplaats (GGM exact, subtypes buurtplek/blokplek)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]] — Individueel geregistreerd houtachtig gewas, beheerd door de gemeente (110.000+ in Utrecht)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] — Afgebakend stuk terrein met vegetatie, beheerd als onderdeel van de groenstructuur (GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage|Faunapassage]] — Fysieke voorziening voor diermigratie over/onder infrastructuurbarrières (GGM Ecoduct, sterk)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]] — Verharde lagen van wegen, fietspaden en voetpaden (GGM exact, levensduur 40 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]] — Civiele constructie: bruggen, viaducten, kademuren (GGM exact, levensduur 50-70 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject|Verlichtingsobject]] — Paal of mast voor openbare verlichting (GGM exact, levensduur 25 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel|Speeltoestel]] — Toestel voor kinderen met certificering en veiligheidsklasse (GGM exact, levensduur 15 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein|Speelterrein]] — Afgebakende openbare ruimte ingericht als speelplaats (GGM exact, subtypes buurtplek/blokplek)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
 
 ### Beheer Openbare Ruimte — Water en riolering (GGM BOR taakveld 8 + hiaten)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|gemaal]] — Constructie voor het verpompen van water in het rioleringssysteem (~700 in Utrecht, GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kolk|kolk]] — Reservoir voor opvang hemelwater en afvoer naar riool (GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie|overstortconstructie]] — Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater (156 stuks, GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin|bergingsbassin]] — Gesloten reservoir achter overstort voor tijdelijke opvang (18 stuks, GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|waterobject]] — Functioneel stuk oppervlaktewater: watergangen, vaarwater, vijvers (246 km, GGM exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|rioleringsgebied]] — Administratief beheersgebied van het rioolstelsel (GGM exact, subtype Bemalingsgebied)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put|put]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|gemaal]] — Constructie voor het verpompen van water in het rioleringssysteem (~700 in Utrecht, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk|kolk]] — Reservoir voor opvang hemelwater en afvoer naar riool (GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|overstortconstructie]] — Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater (156 stuks, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|bergingsbassin]] — Gesloten reservoir achter overstort voor tijdelijke opvang (18 stuks, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|waterobject]] — Functioneel stuk oppervlaktewater: watergangen, vaarwater, vijvers (246 km, GGM exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|rioleringsgebied]] — Administratief beheersgebied van het rioolstelsel (GGM exact, subtype Bemalingsgebied)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|put]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
@@ -151,16 +152,16 @@
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning|evenementenvergunning]] — Toestemming om een evenement te organiseren op een specifieke locatie en datum (procesobject, GGM-hiaat)
 
 ### Gevaarlijke stoffen / Omgevingsveiligheid (GGM taakveld 8 Omgevingswet, partieel)
-- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (GGM Activiteit, partieel)
-- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/aandachtsgebied|aandachtsgebied]] — Ruimtelijk gebied rond risicobron voor veiligheidsafweging (GGM Gebiedsaanwijzing, partieel)
-- [[Wiki/Bedrijfsobjecten/8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing/Omgevingswet/voorschriftengebied|voorschriftengebied]] — Aangewezen gebied met aanvullende bouweisen (GGM Gebiedsaanwijzing, partieel)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (GGM Activiteit, partieel)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied|aandachtsgebied]] — Ruimtelijk gebied rond risicobron voor veiligheidsafweging (GGM Gebiedsaanwijzing, partieel)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/voorschriftengebied|voorschriftengebied]] — Aangewezen gebied met aanvullende bouweisen (GGM Gebiedsaanwijzing, partieel)
 
 ### Geluid (GGM taakveld 7/8, procesobjecten + 1 ggm-entiteit)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron|geluidbron]] — Bron die geluid veroorzaakt, ingedeeld naar bronsoort (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidgevoelig-gebouw|geluidgevoelig-gebouw]] — Gebouw waarvoor geluidnormen gelden (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/stil-gebied|stil-gebied]] — Rustig gebied dat de gemeente beschermt en uitbreidt (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidzone|geluidzone]] — Zone rond industrieterrein met cumulatieve geluidnormen (procesobject, GGM-hiaat)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/geluidscherm|geluidscherm]] — Fysieke afscherming om geluidhinder te verminderen (GGM Geluidsscherm, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm|geluidscherm]] — Fysieke afscherming om geluidhinder te verminderen (GGM Geluidsscherm, exact)
 
 ### Mobiliteit — Voetganger (governance-object, taakveld 2 — GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/voetgangersgebied|voetgangersgebied]] — Aangewezen gebied waar de voetganger hoofdgebruiker is
@@ -243,8 +244,22 @@
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
 
+### Onderwijs (GGM taakveld 4)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/school|school]] — Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting (GGM exact, subtypes: PO, VO, SO, buurtschool, kindcentrum)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling|leerling]] — Kind of jongere dat onderwijs volgt aan een school in de gemeente (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/inschrijving|inschrijving]] — Deelname van iemand aan een opleiding bij een onderwijsinstelling (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/uitschrijving|uitschrijving]] — Beëindiging van een inschrijving van een leerling bij een school (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/ouder-of-verzorger|ouder-of-verzorger]] — Persoon wettelijk verantwoordelijk voor zorg en opvoeding van een kind (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|kinderopvangvoorziening]] — Locatie waar kinderopvang wordt geboden, geregistreerd in LRK (GGM-hiaat, subtypes: KDV, BSO, gastouderopvang)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding|verzuimmelding]] — Melding van school aan gemeente dat leerling niet verschijnt (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|vrijstelling]] — Besluit tot ontheffing van leerplicht (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs|procesverbaal-onderwijs]] — Officieel document bij overtreding leerplichtwet (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/aanvraag-leerlingenvervoer|aanvraag-leerlingenvervoer]] — Verzoek van ouders om vervoersvoorziening (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer|beschikking-leerlingenvervoer]] — Gemeentelijk besluit over toekenning leerlingenvervoer (GGM exact)
+
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen|vergunningen-en-ontheffingen]] — Domeinoverstijgend parent BO voor alle gemeentelijke vergunningen en ontheffingen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] — Door de gemeente aangeboden dienst of product
 - zaaktypecatalogus — Verzameling zaaktypen met configuratie per domein
@@ -261,9 +276,21 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - `Sources/GGM/sport-cultuur-en-recreatie.md` — Taakveld 5: 83 entiteiten
 - `Sources/GGM/schulden.md` — Beleidsdomein (taakveld 6): 33 entiteiten
 - `Sources/GGM/economie.md` — Beleidsdomein (taakveld 3): 6 entiteiten
+- `Sources/GGM/4-onderwijs/onderwijs.md` — Beleidsdomein Onderwijs (taakveld 4): 12 entiteiten
+- `Sources/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer.md` — Beleidsdomein Leerplicht en Leerlingenvervoer (taakveld 4): 15 entiteiten
 - `Sources/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein (taakveld 6): 35 entiteiten
 
 ## Bronsamenvattingen
+
+### Onderwijs
+- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] — Gemeente Utrecht: IHP Onderwijs, schoolgebouwen, gymzalen, MFA's, buurtscholen
+- [[Wiki/Bronsamenvattingen/onderwijs/uitvoeringsprogramma-ohv-utrecht|Uitvoeringsprogramma Onderwijshuisvesting]] — Gemeente Utrecht: 99 projecten voor schoolgebouwen 2026-2041
+- [[Wiki/Bronsamenvattingen/onderwijs/adviezen-duurzaamheid-ohv|Adviezen Duurzaamheid en Flexibele Huisvesting]] — Gemeente Utrecht: duurzaamheidsadviezen bij IHP Onderwijs
+- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer|Leerlingenvervoer]] — VNG: gemeentelijke regeling leerlingenvervoer
+- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs|Passend onderwijs]] — VNG: samenwerkingsverbanden, zorgcoördinatie
+- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra|Kindcentra]] — VNG: integrale kindcentra (IKC) 0-12 jaar
+- [[Wiki/Bronsamenvattingen/onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]] — VNG: gemeentelijk toezicht kinderopvang
+- [[Wiki/Bronsamenvattingen/onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]] — VNG: GOAB en voor- en vroegschoolse educatie
 
 ### Bestuur (VNG-rubrieken)
 - [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag

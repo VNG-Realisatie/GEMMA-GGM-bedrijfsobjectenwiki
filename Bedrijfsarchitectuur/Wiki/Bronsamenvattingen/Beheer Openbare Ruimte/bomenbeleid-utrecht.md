@@ -24,8 +24,8 @@ De gemeente beheert ruim 110.000 bomen via de dienst StadsWerken. Elke boom word
 
 ## Kernbegrippen
 
-- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]]**: centraal object, individueel geregistreerd en beheerd met rijke attributen (soort, leeftijd, stamdiameter, conditie, groeiplaats, monetaire waarde). 110.000+ exemplaren onder gemeentelijk beheer.
-- **Monumentale boom**: boom ≥80 jaar of anderszins bijzonder aangemerkt. Classificatie/status van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]], geen apart object.
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]]**: centraal object, individueel geregistreerd en beheerd met rijke attributen (soort, leeftijd, stamdiameter, conditie, groeiplaats, monetaire waarde). 110.000+ exemplaren onder gemeentelijk beheer.
+- **Monumentale boom**: boom ≥80 jaar of anderszins bijzonder aangemerkt. Classificatie/status van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]], geen apart object.
 - **Bomenstructuur**: samenhangende stedelijke structuur van boomlijnen en -vlakken, opgebouwd uit cultuurhistorische, ruimtelijke en ecologische lagen. Planningsconcept.
 - **Bomenparagraaf**: verplicht onderdeel van ruimtelijke plannen over gevolgen voor bomen. Governance-instrument.
 - **Kapvergunning**: vergunning voor het vellen van bomen. Type omgevingsvergunning.

@@ -32,17 +32,17 @@ relaties:
     kardinaliteit:
     beschrijving: Overstortconstructie is een specialisatie van Kunstwerk in het GGM
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]"
     richting: bidirectioneel
     kardinaliteit: "1..*"
     beschrijving: Achter de belangrijkste overstorten staan bergbezinkbassins
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject|Waterobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Overstortconstructie loost verdund afvalwater op oppervlaktewater
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
@@ -73,7 +73,7 @@ Het doel is vermindering van het aantal overstorten door ontvlechting van het ge
 
 ## GGM-bron
 
-> "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Overstortconstructie
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -91,9 +91,9 @@ De GEMMA-definitie beschrijft de functie vanuit gemeentelijk perspectief: lozing
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Kunstwerk (GGM) | Overstortconstructie → Kunstwerk | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

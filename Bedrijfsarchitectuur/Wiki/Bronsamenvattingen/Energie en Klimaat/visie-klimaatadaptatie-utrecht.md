@@ -38,7 +38,7 @@ Deze bron levert **één nieuw BO**: [[koelteplek]] — een fysiek object met ei
 
 Begrippen als stresstest, risicodialoog en klimaatadaptatieparagraaf zijn instrumenten/processen, geen zelfstandige objecten. Groen dak is een eigenschap van een gebouw. Wadi valt onder het domein openbare ruimte (geparkeerd).
 
-De visie versterkt de context voor bestaande BO's in andere domeinen: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] (vergroening, 60.000 bomen toevoegen), [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] (40% groen per buurt) en [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|Bodemenergiesysteem]] (WKO in relatie tot droogte en grondwater).
+De visie versterkt de context voor bestaande BO's in andere domeinen: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]] (vergroening, 60.000 bomen toevoegen), [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] (40% groen per buurt) en [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|Bodemenergiesysteem]] (WKO in relatie tot droogte en grondwater).
 
 ## Citaten
 

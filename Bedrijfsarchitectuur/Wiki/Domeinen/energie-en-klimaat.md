@@ -49,8 +49,8 @@ Begrippen uit de klimaatbronnen die al als BO bestaan in andere domeinen:
 - **Zero-emissiezone** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|Zero-emissiezone]] (domein mobiliteit)
 - **Laadpaal** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal|Laadpaal]] (domein mobiliteit)
 - **Bodemenergiesysteem** → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|Bodemenergiesysteem]] (domein milieu)
-- **Boom** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] (domein beheer openbare ruimte)
-- **Groenobject** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] (domein beheer openbare ruimte)
+- **Boom** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]] (domein beheer openbare ruimte)
+- **Groenobject** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] (domein beheer openbare ruimte)
 
 ## GGM-entiteitendekking
 

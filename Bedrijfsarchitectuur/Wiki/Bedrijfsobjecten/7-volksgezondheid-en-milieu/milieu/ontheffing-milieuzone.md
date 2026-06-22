@@ -30,6 +30,11 @@ ggm_gemma_alternate_name:
 gemma_definitie: "Individuele uitzondering op milieuzoneregels waarmee een specifiek voertuig tijdelijk toegang krijgt tot de milieuzone."
 gemma_subtypes:
 relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Vergunningen en ontheffingen]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: "Ontheffing milieuzone is een specialisatie van Vergunningen en ontheffingen"
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"
     richting: van-dit-BO
@@ -56,7 +61,7 @@ Score: **6/6** — BO.
 
 Een ontheffing (milieuzone) is een individuele uitzondering waarmee een voertuig dat niet aan de emissieklasse-eisen voldoet tijdelijk toch in de milieuzone mag rijden. Ontheffingen worden verstrekt voor uitzonderingssituaties, bijvoorbeeld voor campers van inwoners (wettelijke vrijstelling) of specifieke voertuigcategorieën.
 
-De ontheffing relateert aan het generieke VTH-concept "VOMAanvraagOfMelding" (Vergunning, Ontheffing of Melding) maar is domeinspecifiek voor de milieuzone.
+Dit BO is een specialisatie van [[Vergunningen en ontheffingen]], het domeinoverstijgende parent BO voor alle gemeentelijke vergunningen en ontheffingen.
 
 ## GGM-bron
 
@@ -76,6 +81,7 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 | Gerelateerd BO | Type | Richting | Beschrijving | Bron |
 |---|---|---|---|---|
+| [[Vergunningen en ontheffingen]] | generalisatie | ↑ | Specialisatie | — |
 | [[Milieuzone]] | associatie | van-dit-BO | Ontheffing geldt voor een specifieke zone | Beleidsnota §6.2.7 |
 
 
@@ -85,4 +91,4 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 ## Terugmelding GGM
 
-**Ontheffing (milieuzone)** — Specialisatie van het generieke ontheffingsconcept, vergelijkbaar met Ligplaatsontheffing (VTH). Het GGM kent domeinspecifieke ontheffingen (Inburgering, Werk) maar geen generiek herbruikbaar ontheffingsconcept. Zou als specialisatie van VOMAanvraagOfMelding passen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+**Ontheffing (milieuzone) ontbreekt in GGM.** Het GGM kent geen entiteit voor milieuzone-ontheffingen. Het generieke hiaat (ontbreken van een overkoepelend vergunnings-/ontheffingsconcept) is vastgelegd bij [[Vergunningen en ontheffingen]]. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

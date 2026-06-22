@@ -28,6 +28,11 @@ gemma_definitie: "Toestemming van de gemeente aan een organisator om een eveneme
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Vergunningen en ontheffingen]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: Evenementenvergunning is een specialisatie van Vergunningen en ontheffingen
   - type: associatie
     bedrijfsobject: "[[Evenement]]"
     richting: "naar-dit-BO"
@@ -63,7 +68,7 @@ De locatieprofielen (vastgelegd in de APV) bepalen de kaders waarbinnen de vergu
 
 Dit BO heeft geen directe GGM-grondslag. Het GGM kent diverse vergunninggerelateerde entiteiten (VOMAanvraagOfMelding, VTHzaak, Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) maar geen overkoepelend vergunningsconcept en geen specifieke evenementenvergunning.
 
-⚠️ **Ter discussie**: op termijn zou een generiek BO **Vergunning** moeten komen dat domeinoverstijgend werkt. De evenementenvergunning is voorlopig als apart BO opgenomen omdat het vergunningslandschap in het GGM gefragmenteerd is en er geen generiek vergunnings-BO bestaat.
+Dit BO is een specialisatie van [[Vergunningen en ontheffingen]], het domeinoverstijgende parent BO voor alle gemeentelijke vergunningen en ontheffingen.
 
 > "Zodra de kalender is vastgesteld, kunnen organisatoren een evenementenvergunning aanvragen. Een plek op de kalender betekent niet automatisch dat de aanvrager een vergunning krijgt. De vergunningsaanvraag moet voldoen aan de vergunningseisen."
 
@@ -71,6 +76,7 @@ Dit BO heeft geen directe GGM-grondslag. Het GGM kent diverse vergunninggerelate
 
 | Gerelateerd BO | Type | Richting | Kardinaliteit | Bron |
 |---|---|---|---|---|
+| [[Vergunningen en ontheffingen]] | generalisatie | ↑ | — | Specialisatie |
 | [[Evenement]] | associatie | ← | 1..1 | Beleidsnota: vergunning voor een specifiek evenement |
 | [[Evenementenlocatie]] | associatie | → | 1..1 | Beleidsnota: vergunning gebonden aan locatie |
 
@@ -88,4 +94,4 @@ Dit BO heeft geen directe GGM-grondslag. Het GGM kent diverse vergunninggerelate
 
 ## Terugmelding GGM
 
-**Generiek vergunningsconcept ontbreekt.** Het GGM kent vergunningen alleen als domeinspecifieke entiteiten (Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) zonder overkoepelend concept. Een evenementenvergunning past in geen van deze. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+**Evenementenvergunning ontbreekt in GGM.** Het GGM kent geen entiteit voor evenementenvergunningen. Het generieke hiaat (ontbreken van een overkoepelend vergunningsconcept) is vastgelegd bij [[Vergunningen en ontheffingen]]. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

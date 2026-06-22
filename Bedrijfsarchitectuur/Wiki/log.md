@@ -1,5 +1,35 @@
 # Wiki Log
 
+## [2026-06-22] update | Onderwijs — openstaande punten opgelost
+- **1 nieuw BO:** Kinderopvangvoorziening (procesobject, GGM-hiaat #51) — met subtypes KDV, BSO, gastouderopvang
+- **School bijgewerkt:** MFA als 6e subtype toegevoegd; relatie naar Binnenlocatie (gymzaal, cross-domein taakveld 5)
+- **Domeinoverzicht** uitgebreid naar 31 begrippen, 11 BO's
+- **Bron toegevoegd:** soorten-kinderopvang.md (Rijksoverheid)
+- **GGM-terugmelding** #51: Kinderopvangvoorziening ontbreekt in GGM
+
+## [2026-06-22] ingest | Onderwijs (10 nieuwe BO's, 10 bronnen)
+- **Bronnen opgehaald:** utrecht.nl/onderwijshuisvesting + 6 PDF's (beleidsnota, UVP, wijkprofielen, adviezen, voortgangsrapportage, leerlingenprognose) + 7 bestaande VNG-bronnen
+- **4 bronnen niet-relevant:** rubriek-onderwijs, wijkprofielen, voortgangsrapportage, leerlingenprognose (statistiek/operationeel)
+- **8 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/onderwijs/
+- **10 nieuwe BO's:**
+  - Onderwijs (5): School (subtypes: PO, VO, SO/SBO/VSO, buurtschool, kindcentrum), Leerling, Inschrijving, Uitschrijving, Ouder Of Verzorger
+  - Leerplicht en Leerlingenvervoer (5): Verzuimmelding, Vrijstelling, Procesverbaal Onderwijs, Aanvraag Leerlingenvervoer, Beschikking Leerlingenvervoer
+- **Domeinoverzicht** Wiki/Domeinen/onderwijs.md aangemaakt (27 begrippen, 10 BO's)
+- **GGM-dekking:** taakveld 4 volledig beoordeeld (27 entiteiten: 10 BO, 17 niet-BO). Geen GGM-hiaten; alle BO's hebben exact GGM-match.
+- **Observatie:** GGM modelleert geen entiteiten voor onderwijshuisvesting (schoolgebouw, gymzaal, MFA). Deze vallen buiten GGM-scope taakveld 4 maar zijn prominent in beleidsbronnen.
+
+## [2026-06-22] nieuw BO | Vergunningen en ontheffingen — domeinoverstijgend parent BO
+- **1 nieuw BO:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen|Vergunningen en ontheffingen]] (procesobject, GGM-hiaat #50)
+  - Domeinoverstijgend parent BO voor alle gemeentelijke vergunningen en ontheffingen
+  - Specialisaties: Evenementenvergunning, Parkeervergunning, Ontheffing (milieuzone)
+  - Subtypes (geen apart BO): Standplaatsvergunning, Horecavergunning, Ligplaatsvergunning, Exploitatievergunning (vaarverkeer), Omgevingsvergunning
+- **3 BO's bijgewerkt** met generalisatie-relatie naar parent:
+  - Evenementenvergunning — generalisatie + body geactualiseerd (ter-discussie verwijderd)
+  - Parkeervergunning — generalisatie-relatie toegevoegd
+  - Ontheffing (milieuzone) — generalisatie + body geactualiseerd
+- **Evenement** — aantekening over generiek vergunnings-BO geactualiseerd
+- **GGM-terugmeldingen** — nieuw item #50 (structuur: ontbrekend generiek vergunnings-/ontheffingsconcept), item #44 gelinkt
+
 ## [2026-06-21] ingest | Wonen — Woonboten (1 nieuw BO, 1 BO verrijkt, 3 bronnen)
 - **Bronnen opgehaald:** omgevingsvisie.utrecht.nl/thematisch-beleid/woonboten + 2 PDF's
   - Woonbotenbeleid september 2007 (hoofdbron, 30 p.)
@@ -51,7 +81,7 @@
   - Beleidsnota Stadswater (gebruik vaarwegen en buitenzwemwater, horizon 2040)
   - Overzichtspagina water.md → Niet-relevant (gedekt door bovenstaande)
 - **3 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/milieu/
-- **10 nieuwe BO's** aangemaakt in Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/:
+- **10 nieuwe BO's** aangemaakt in Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/:
   - GGM exact (7): Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Waterobject, Rioleringsgebied, Put
   - GGM-hiaat (3): Buitenzwemplek, Ligplaats, Rioolheffing
 - **1 subtype** toegevoegd aan bestaand BO Kunstwerk: Sluis (GGM-hiaat)

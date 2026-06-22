@@ -60,7 +60,7 @@ relaties:
     kardinaliteit:
     beschrijving: Kunstwerk is een specialisatie van Beheerobject
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject|Verhardingsobject]]"
     richting: bidirectioneel
     kardinaliteit:
     beschrijving: Verharding loopt over/langs kunstwerken
@@ -96,11 +96,11 @@ In het GGM is Kunstwerk een abstract object met specialisaties Gemaal, Overstort
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
-| Brug | Kunstwerk over een waterweg, brugdek op pijlers/landhoofden | [Brug](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Viaduct | Kunstwerk over een weg of spoorweg | [Viaduct](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Flyover | Viaductvormig kunstwerk voor ongelijkvloerse verkeerskruising | [Flyover](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Kademuur | Verticale wand ter scheiding van land en water | [Kademuur](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
-| Keermuur | Muur die door vorm/gewicht/fundering de grond keert | [Keermuur](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
+| Brug | Kunstwerk over een waterweg, brugdek op pijlers/landhoofden | [Brug](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Viaduct | Kunstwerk over een weg of spoorweg | [Viaduct](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Flyover | Viaductvormig kunstwerk voor ongelijkvloerse verkeerskruising | [Flyover](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Kademuur | Verticale wand ter scheiding van land en water | [Kademuur](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Keermuur | Muur die door vorm/gewicht/fundering de grond keert | [Keermuur](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 | Sluis | Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen | — (GGM-hiaat) |
 
 De subtypes zijn geen GGM-kinderen van Kunstwerk (die zijn: Gemaal, Overstortconstructie, Uitlaatconstructie — water-infra). In het GGM zijn Brug/Viaduct/Flyover kinderen van **Overbruggingsobject** en Kademuur/Keermuur kinderen van **Scheiding**. Vanuit beleidsperspectief groepeert de nota ze als "civiele constructies" onder één beheerregime.
@@ -124,7 +124,7 @@ De GEMMA-definitie benadrukt het gemeentelijke perspectief ("in de openbare ruim
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | generalisatie | Beheerobject (GGM) | Kunstwerk → Beheerobject | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

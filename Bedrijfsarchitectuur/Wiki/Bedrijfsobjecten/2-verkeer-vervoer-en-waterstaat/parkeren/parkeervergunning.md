@@ -28,6 +28,11 @@ gemma_definitie: "Door de gemeente verleende toestemming om op een bepaalde loca
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Vergunningen en ontheffingen]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: Parkeervergunning is een specialisatie van Vergunningen en ontheffingen
   - type: associatie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "van-dit-BO"
@@ -70,6 +75,7 @@ Een parkeervergunning is een officiele toestemming om op een bepaalde plek te pa
 
 ## Relaties
 
+- ↑ [[Vergunningen en ontheffingen]] — specialisatie
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone|Parkeerzone]] — parkeervergunning geldt binnen een parkeerzone
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht|Parkeerrecht]] — parkeervergunning verleent een parkeerrecht
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — parkeervergunning is gekoppeld aan een voertuig

@@ -32,7 +32,7 @@ relaties:
     kardinaliteit: ""
     beschrijving: Vergelijkbare gemeentelijke heffing voor een ander domein
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
     richting: bidirectioneel
     kardinaliteit: ""
     beschrijving: Rioolheffing financiert het beheer van rioleringsgebieden
@@ -49,7 +49,7 @@ bedrijfsfuncties: [Beheer openbare ruimte, Belastingheffing]
 | Heeft een eigen bestaan binnen het domein | ✅ | Eigen verordening, tarief, heffingsgrondslag en egalisatiereserve |
 | Kan in meervoud bestaan | ✅ | Circa 178.800 aansluitingen in 2025, groeiend met ~3.000/jaar |
 | Heeft een eigen levenscyclus | ✅ | Tariefvaststelling → heffing → inning → verantwoording; jaarlijkse cyclus |
-| Heeft relaties met andere concepten | ✅ | [[Afvalstoffenheffing]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] |
+| Heeft relaties met andere concepten | ✅ | [[Afvalstoffenheffing]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] |
 
 Score: 6/6.
 
@@ -75,7 +75,7 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riol
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | associatie | [[Afvalstoffenheffing]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 

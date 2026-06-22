@@ -82,10 +82,10 @@ Een woning is een zelfstandige woonruimte bedoeld voor de permanente huisvesting
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
-| Sociale huurwoning | Huurprijs onder liberalisatiegrens (€900,07 in 2025). Toewijzing via WoningNet/DĀK. Corporaties bezitten 29% van de voorraad. | [Huurwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen.md) |
+| Sociale huurwoning | Huurprijs onder liberalisatiegrens (€900,07 in 2025). Toewijzing via WoningNet/DĀK. Corporaties bezitten 29% van de voorraad. | [Huurwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen.md) |
 | Middenhuurwoning | Huurprijs €900–€1.185, 144–186 WWS-punten. Minimaal 20 jaar in segment (25 op gemeentegrond). Drie oppervlaktezones (A/B/C). | — (GGM-hiaat) |
-| Betaalbare koopwoning | Verkoopprijs tot €405.000 (2025). Zelfbewoningsplicht en antispeculatiebeding. | [Koopwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen.md) |
-| Studentenwoning | Campuscontract, stopt na beëindiging studie. Zelfstandig of onzelfstandig (WWSO). | [Studentenwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen.md) |
+| Betaalbare koopwoning | Verkoopprijs tot €405.000 (2025). Zelfbewoningsplicht en antispeculatiebeding. | [Koopwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen.md) |
+| Studentenwoning | Campuscontract, stopt na beëindiging studie. Zelfstandig of onzelfstandig (WWSO). | [Studentenwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen.md) |
 
 Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenmerken (toegankelijkheidsclassificatie), geen marktsegmenten.
 

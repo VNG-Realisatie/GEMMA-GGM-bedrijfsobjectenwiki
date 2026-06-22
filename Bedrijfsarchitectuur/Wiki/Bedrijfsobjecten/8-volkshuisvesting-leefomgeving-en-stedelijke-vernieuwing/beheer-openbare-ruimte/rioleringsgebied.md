@@ -33,7 +33,7 @@ gemma_subtypes:
     ggm_attribuut: generalisatie
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
     kardinaliteit: ""
     beschrijving: Een rioleringsgebied wordt bediend door een gemaal
@@ -55,7 +55,7 @@ bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]
 | Heeft een eigen bestaan binnen het domein | ✅ | Elk rioleringsgebied is een afgebakend beheersgebied met eigen gemaal en stelselkenmerken |
 | Kan in meervoud bestaan | ✅ | Utrecht heeft drie zuiveringsgebieden (Brailledreef, Proostwetering, Zandweg) met daarbinnen meerdere rioleringsgebieden |
 | Heeft een eigen levenscyclus | ✅ | Vaststelling → beheer → hemelwaterontvlechting → stelselvervanging → herindeling |
-| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]], [[Overstortconstructie]], Put |
+| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], [[Overstortconstructie]], Put |
 
 Score: 6/6.
 
@@ -74,11 +74,11 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
-| Bemalingsgebied | Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd | [Bemalingsgebied](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md) |
+| Bemalingsgebied | Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd | [Bemalingsgebied](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 
 ## GGM-bron
 
-> "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte.md)
+> "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren." — [GGM Beheer Openbare Ruimte](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md)
 
 - **Entiteit**: Rioleringsgebied
 - **Beleidsdomein**: Beheer Openbare Ruimte
@@ -88,7 +88,7 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
 | associatie | [[Overstortconstructie]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen

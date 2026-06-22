@@ -29,12 +29,12 @@ bedrijfsprocessen: [Klimaatadaptatiebeleid, Beheer openbare ruimte, Groenbeleid]
 bedrijfsfuncties: [Klimaatadaptatie, Beheer openbare ruimte]
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]]"
     richting: "van-dit-BO"
     kardinaliteit: "1..*"
     beschrijving: Koelteplek bestaat uit of overlapt met groenobjecten
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Bomen leveren schaduw en verkoeling aan koelteplekken
@@ -73,8 +73,8 @@ Bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrech
 
 | Gerelateerd BO | Type | Beschrijving |
 |---|---|---|
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject\|Groenobject]] | associatie | Koelteplek bestaat uit of overlapt met groenobjecten |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom\|Boom]] | associatie | Bomen leveren schaduw en verkoeling |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] | associatie | Koelteplek bestaat uit of overlapt met groenobjecten |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] | associatie | Bomen leveren schaduw en verkoeling |
 
 ## Bedrijfsprocessen
 
