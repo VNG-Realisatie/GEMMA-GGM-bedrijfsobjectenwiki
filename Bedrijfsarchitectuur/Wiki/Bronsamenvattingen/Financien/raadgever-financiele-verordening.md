@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Financien/raadgever-financiele-verordening]]"
+bron: "[raadgever-financiele-verordening](../../Sources/Onderwerpen/Financien/raadgever-financiele-verordening.md)"
 titel: "Raadgever De financiële verordening"
 domein: [Financien]
 datum_ingest: 2026-06-18

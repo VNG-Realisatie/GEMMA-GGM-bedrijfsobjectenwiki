@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde periode zodat eventuele tekorten en overschotten vroegtijdig in kaart kunnen worden gebracht
 bedrijfsprocessen: [Begrotingscyclus, Jaarrekening]
+bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 status: concept
 ---

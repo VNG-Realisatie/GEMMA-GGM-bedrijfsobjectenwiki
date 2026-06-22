@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Voorziening voor inname, reparatie en hoogwaardig hergebruik van grof huishoudelijk afval."
 bedrijfsprocessen: [Upcycling, Hergebruik goederen, Educatie circulaire economie]
 bedrijfsfuncties: [Afvalbeheer, Circulaire economie]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"

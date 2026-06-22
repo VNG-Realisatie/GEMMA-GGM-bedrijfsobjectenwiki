@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]
 relaties:
   - type: compositie
     bedrijfsobject: "[[Aandachtsgebied]]"

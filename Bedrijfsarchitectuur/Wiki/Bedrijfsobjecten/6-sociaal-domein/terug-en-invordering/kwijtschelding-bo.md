@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Het kwijtschelden van het restant van de vordering
 bedrijfsprocessen: [Invordering, Kwijtscheldingsbeoordeling]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---

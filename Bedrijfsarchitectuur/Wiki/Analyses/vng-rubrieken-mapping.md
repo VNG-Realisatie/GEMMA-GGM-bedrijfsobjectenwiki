@@ -17,7 +17,7 @@ De VNG organiseert haar kennisaanbod in 26 rubrieken op [vng.nl/rubrieken](https
 |---|---|---|---|
 | Arbeidszaken | 9 Interne Organisatie | HR | Goed |
 | Asiel tot integratie | 6 Sociaal Domein | Inburgering | Deels |
-| Belastingen | 9 Interne Organisatie | Financien | Hiaat — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] |
+| Belastingen | 9 Interne Organisatie | Financien | Hiaat — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein\|ggm-hiaten-belastingendomein]] |
 | Bestuur | 0 Bestuur, Politiek en Ondersteuning | Politiek, Griffie | Goed |
 | Cultuur en sport | 5 Sport, Cultuur en Recreatie | Erfgoed, Musea, Sport | Goed |
 | Dienstverlening en bedrijfsvoering | 10 Dienstverlening + 9 Interne Organisatie | Model Dienstverlening, ICT, Inkoop | Goed |
@@ -426,7 +426,7 @@ De volgende VNG-rubrieken worden niet of nauwelijks door het GGM gedekt:
 
 | Rubriek | Aard van het hiaat |
 |---|---|
-| **Belastingen** | Geen apart conceptueel informatiedomein — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] |
+| **Belastingen** | Geen apart conceptueel informatiedomein — zie [[Wiki/Analyses/ggm-hiaten-belastingendomein\|ggm-hiaten-belastingendomein]] |
 | **Energietransitie** | Geen beleidsdomein; raakt aan Milieu en Volkshuisvesting maar is daar niet gemodelleerd |
 | **Europa en internationaal** | Volledig buiten GGM-scope (beleidsmatig/bestuurlijk) |
 | **Openbare gezondheid** | Taakveld 7 bevat alleen Afval; gezondheidsbeleid ontbreekt |

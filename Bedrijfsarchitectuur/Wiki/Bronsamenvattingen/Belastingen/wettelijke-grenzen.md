@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Wettelijke grenzen]]"
+bron: "[Sources/Onderwerpen/Belastingen/Wettelijke grenzen.md](Sources/Onderwerpen/Belastingen/Wettelijke grenzen.md)"
 titel: "Wettelijke grenzen"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

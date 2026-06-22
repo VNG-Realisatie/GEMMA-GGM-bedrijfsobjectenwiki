@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Standaarden/ztc2-informatiemodel-v2.1]]"
+bron: "[ztc2-informatiemodel-v2.1](../../Sources/Standaarden/ztc2-informatiemodel-v2.1.md)"
 titel: "GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18

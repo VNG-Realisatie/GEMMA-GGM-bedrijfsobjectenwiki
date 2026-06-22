@@ -4,8 +4,8 @@ naam: Economie
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
 bronnen_count: 9
-begrippen_count: 30
-bo_count: 9
+begrippen_count: 32
+bo_count: 8
 ---
 
 # Domein: Economie

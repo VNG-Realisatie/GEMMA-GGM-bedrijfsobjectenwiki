@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Voorziening voor het gescheiden inzamelen van huishoudelijke afvalstoffen."
 bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]
 bedrijfsfuncties: [Afvalbeheer]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"

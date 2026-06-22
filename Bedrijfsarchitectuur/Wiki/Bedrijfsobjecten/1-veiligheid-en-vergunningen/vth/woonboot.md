@@ -49,7 +49,7 @@ gemma_subtypes:
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
     ggm_attribuut:
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht, Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht, Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen, Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur, Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen, Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht, Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007, Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]
   - "[[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007]]"
   - "[[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]]"
   - "[[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht]]"

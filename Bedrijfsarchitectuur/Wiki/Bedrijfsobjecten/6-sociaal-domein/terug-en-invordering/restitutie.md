@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Terugbetaling van te veel ontvangen aflossing
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---

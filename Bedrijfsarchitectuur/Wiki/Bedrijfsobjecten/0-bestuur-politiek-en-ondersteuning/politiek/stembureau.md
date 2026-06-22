@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda, Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]
 relaties:
   - type: associatie
     bedrijfsobject: Verkiezing

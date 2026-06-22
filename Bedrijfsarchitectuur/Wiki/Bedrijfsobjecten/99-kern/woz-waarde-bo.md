@@ -29,6 +29,7 @@ definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object na
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ, WOZ-beschikking verzenden]
 bedrijfsfuncties: [Waardering onroerende zaken, Belastingheffing]
 status: concept
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/belastingtypen, Wiki/Bronsamenvattingen/Belastingen/belastinggebied, Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek, Wiki/Bronsamenvattingen/Belastingen/belastingverordening, Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling, Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding, Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven, Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen, Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen, Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing, Wiki/Bronsamenvattingen/Belastingen/raadgever-woz]
 relaties:
   - type: associatie
     bedrijfsobject: "WOZ-object"
@@ -65,7 +66,7 @@ De waarde loopt altijd een jaar achter: WOZ-beschikking 2026 bevat de waarde op 
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Hoort bij | [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] | WOZ-Waarde → WOZ-object [1] | Geen |
+| Hoort bij | [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|woz-object]] | WOZ-Waarde → WOZ-object [1] | Geen |
 
 **Relatie met begrippen buiten GGM (hiaten):**
 - Is heffingsmaatstaf voor de belastingaanslag — GGM modelleert deze keten niet

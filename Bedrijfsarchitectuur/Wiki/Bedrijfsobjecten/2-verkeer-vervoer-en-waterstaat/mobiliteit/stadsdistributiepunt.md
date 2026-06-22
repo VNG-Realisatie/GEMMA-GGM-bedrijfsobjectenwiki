@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie voor overslag en bundeling van goederen ten behoeve van stadsdistributie."
 bedrijfsprocessen: [Goederenvervoerbeleid, Ruimtelijke ordening]
 bedrijfsfuncties: [Goederenvervoerbeleid, Economisch beleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route

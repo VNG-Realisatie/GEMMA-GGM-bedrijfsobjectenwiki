@@ -29,7 +29,7 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Aangewezen zone waarbinnen het afsteken van consumentenvuurwerk verboden is, vastgelegd in de Algemene Plaatselijke Verordening."
 gemma_subtypes:
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
   - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties: []
 bedrijfsprocessen: [openbare-orde, milieuhandhaving]

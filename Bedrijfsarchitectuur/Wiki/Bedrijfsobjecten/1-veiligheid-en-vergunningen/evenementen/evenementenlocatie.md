@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Evenement]]"

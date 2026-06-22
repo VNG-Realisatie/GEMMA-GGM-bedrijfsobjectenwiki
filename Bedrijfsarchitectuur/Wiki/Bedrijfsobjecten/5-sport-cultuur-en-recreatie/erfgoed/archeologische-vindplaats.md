@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden."
 bedrijfsprocessen: [Archeologisch advies, Selectiebesluit, Bestemmingsplantoetsing]
 bedrijfsfuncties: [Erfgoedbeheer, Ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]]"
@@ -78,8 +79,8 @@ De eerdere beoordeling markeerde dit begrip als niet-BO ("nationaal geregistreer
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Hoort bij onderzoek | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]] | Vindplaats → Project [1] | Geen |
-| Kan beschermd worden | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]] | *(geen GGM-relatie)* | Toegevoegd: vindplaats kan monumentstatus krijgen |
+| Hoort bij onderzoek | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|archeologisch-onderzoek]] | Vindplaats → Project [1] | Geen |
+| Kan beschermd worden | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|monument]] | *(geen GGM-relatie)* | Toegevoegd: vindplaats kan monumentstatus krijgen |
 
 ## Bedrijfsprocessen
 

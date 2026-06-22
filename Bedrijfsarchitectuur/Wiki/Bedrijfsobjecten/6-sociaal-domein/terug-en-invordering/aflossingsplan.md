@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Alle afspraken tussen de gemeente en de debiteur over op welke vordering per wanneer welk bedrag wordt afgelost
 bedrijfsprocessen: [Invordering, Schuldbeheer]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---

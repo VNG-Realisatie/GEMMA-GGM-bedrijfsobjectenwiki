@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: "Project (Organisatie)"
 gemma_definitie: "Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten."
 bedrijfsprocessen: [Archeologisch onderzoek, Vergunningverlening, Selectiebesluit]
 bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
+bronnen: [Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]]"
@@ -76,8 +77,8 @@ De operationele opgravingshiërarchie (Put → Vlak → Spoor → Vulling) en on
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Vindt plaats op | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] | Vindplaats → Project [1] | Geen |
-| Levert op | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|archeologische-vondst]] | Project → Put → Vlak → Spoor → Vulling → Vondst (indirect) | Ingekort naar directe relatie |
+| Vindt plaats op | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|archeologische-vindplaats]] | Vindplaats → Project [1] | Geen |
+| Levert op | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|archeologische-vondst]] | Project → Put → Vlak → Spoor → Vulling → Vondst (indirect) | Ingekort naar directe relatie |
 | Heeft besluiten | *(Archeologiebesluit — geaggregeerd)* | Project → Archeologiebesluit [0..*] | Geaggregeerd in dit BO |
 
 ## Bedrijfsprocessen

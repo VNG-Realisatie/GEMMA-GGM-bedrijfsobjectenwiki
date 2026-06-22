@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw, met eigen beschermingsstatus en eigen levenscyclus onafhankelijk van het gebouw."
 bedrijfsprocessen: [Monumentenaanwijzing, Erfgoedtoezicht, Herbestemming kerkgebouw]
 bedrijfsfuncties: [Erfgoedbeheer]
+bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]]"

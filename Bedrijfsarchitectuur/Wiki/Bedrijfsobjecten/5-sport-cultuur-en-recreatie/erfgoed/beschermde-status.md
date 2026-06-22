@@ -44,7 +44,7 @@ gemma_subtypes:
     ggm_entiteit: Beschermde Status
     ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
     ggm_attribuut: type
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]
   - "[[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak]]"
 relaties:
   - type: associatie

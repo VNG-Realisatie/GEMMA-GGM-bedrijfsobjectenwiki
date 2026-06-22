@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Het afschrijven van een oninbare vordering waarvoor geen perspectief op invordering bestaat
 bedrijfsprocessen: [Invordering, Jaarrekening]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering, Financieel beheer]
 status: concept
 ---

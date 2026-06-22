@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding]]"
+bron: "[Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding.md](Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding.md)"
 titel: "Invordering en kwijtschelding"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

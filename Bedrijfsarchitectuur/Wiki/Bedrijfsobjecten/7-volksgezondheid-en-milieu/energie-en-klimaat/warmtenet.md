@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied."
 bedrijfsprocessen: [warmtetransitie, buurtaanpak aardgasvrij, verduurzaming stadsverwarming]
 bedrijfsfuncties: [energiebeleid, gebiedsontwikkeling]
+bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht, Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]]"

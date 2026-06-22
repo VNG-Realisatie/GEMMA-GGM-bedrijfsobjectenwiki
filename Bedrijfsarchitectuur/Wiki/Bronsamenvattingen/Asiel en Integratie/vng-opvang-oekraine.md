@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Asiel en Integratie/opvang-oekraiense-ontheemden]]"
+bron: "[opvang-oekraiense-ontheemden](../../Sources/Onderwerpen/Asiel en Integratie/opvang-oekraiense-ontheemden.md)"
 titel: "Opvang Oekraïense ontheemden"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19

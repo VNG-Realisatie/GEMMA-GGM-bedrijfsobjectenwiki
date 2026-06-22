@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Object dat geluid veroorzaakt in de leefomgeving, ingedeeld naar bronsoort zoals wegverkeer, railverkeer, industrieterrein of scheepvaart."
 bedrijfsprocessen: [geluidkartering, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidgevoelig gebouw]]"

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke voorziening waar inwoners gescheiden huishoudelijk afval en grofvuil kunnen aanbieden."
 bedrijfsprocessen: [Afvalscheiding, Grofvuilinzameling, Bezoekersregistratie]
 bedrijfsfuncties: [Afvalbeheer]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"

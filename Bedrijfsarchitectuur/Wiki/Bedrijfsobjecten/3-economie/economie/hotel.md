@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
 bedrijfsprocessen: [hotelvergunningverlening, hotelbeleid, toeristenbelastingheffing]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
+bronnen: [Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng, Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012, Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015, Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht, Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota, Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vestiging]]"

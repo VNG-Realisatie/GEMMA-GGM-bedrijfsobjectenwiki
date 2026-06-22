@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Asiel en Integratie/rubriek-asiel-tot-integratie]]"
+bron: "[rubriek-asiel-tot-integratie](../../Sources/Onderwerpen/Asiel en Integratie/rubriek-asiel-tot-integratie.md)"
 titel: "Rubriek Asiel tot integratie"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19

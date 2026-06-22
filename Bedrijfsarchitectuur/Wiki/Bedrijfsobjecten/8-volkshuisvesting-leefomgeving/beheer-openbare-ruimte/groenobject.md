@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend stuk terrein met aaneengesloten vegetatie dat de gemeente beheert als onderdeel van de stedelijke groenstructuur."
 bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -49,7 +50,7 @@ relaties:
 | Heeft eigen bestaan | ✅ | Fysiek afgebakend terrein met vegetatie, onafhankelijk van processen |
 | Kan in meervoud bestaan | ✅ | Duizenden groenobjecten in de gemeente geregistreerd (parken, plantsoenen, gazons, hagen) |
 | Heeft eigen levenscyclus | ✅ | Aanleg → inrichting → beheer → herinrichting → eventueel verwijdering |
-| Heeft relaties met andere concepten | ✅ | Bevat [[Boom|bomen]], ligt in de groenstructuur, is onderdeel van beheergebied |
+| Heeft relaties met andere concepten | ✅ | Bevat [[Boom\|bomen]], ligt in de groenstructuur, is onderdeel van beheergebied |
 
 **Conclusie:** 6/6 criteria van toepassing. Groenobject is een bedrijfsobject.
 

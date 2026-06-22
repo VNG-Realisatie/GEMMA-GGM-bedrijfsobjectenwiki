@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Digitale vastlegging van de materialen in een gebouw of object in de openbare ruimte."
 bedrijfsprocessen: [Circulair bouwen, Materiaalmatch, Aanbesteding]
 bedrijfsfuncties: [Vastgoedbeheer, Circulaire economie]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstoffendepot]]"

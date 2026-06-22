@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Container]]"

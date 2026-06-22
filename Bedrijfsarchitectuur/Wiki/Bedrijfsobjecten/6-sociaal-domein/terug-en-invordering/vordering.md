@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
 bedrijfsprocessen: [Terugvordering, Invordering]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---

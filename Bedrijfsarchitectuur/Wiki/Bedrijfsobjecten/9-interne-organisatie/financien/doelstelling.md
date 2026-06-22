@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: "Doelstelling (Financien)"
 gemma_definitie: ""
 definitie: Een op korte of middellange termijn nagestreefde situatie
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
+bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Planning en control, Bestuur]
 status: concept
 ---

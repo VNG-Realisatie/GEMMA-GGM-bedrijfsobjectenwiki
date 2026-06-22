@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen."
 bedrijfsprocessen: [OV-beleid, Verkeersmanagement, Ruimtelijke ordening]
 bedrijfsfuncties: [Openbaar vervoer, Verkeersmanagement]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-lijn"

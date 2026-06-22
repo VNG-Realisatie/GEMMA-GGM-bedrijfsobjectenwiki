@@ -29,7 +29,7 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Individuele uitzondering op milieuzoneregels waarmee een specifiek voertuig tijdelijk toegang krijgt tot de milieuzone."
 gemma_subtypes:
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
   - "[[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]"
 relaties:
   - type: associatie

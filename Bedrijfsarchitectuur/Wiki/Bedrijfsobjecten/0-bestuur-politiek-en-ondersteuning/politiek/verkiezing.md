@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda, Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]
 relaties:
   - type: compositie
     bedrijfsobject: Stembureau

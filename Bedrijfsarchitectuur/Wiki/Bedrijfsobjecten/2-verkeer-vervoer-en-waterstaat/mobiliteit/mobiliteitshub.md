@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Multimodaal overstappunt met deelvoertuigen, voorzieningen en diensten voor het faciliteren van ketenreizen."
 bedrijfsprocessen: [Mobiliteitsmanagement, Deelmobiliteitsbeleid, Ruimtelijke ordening]
 bedrijfsfuncties: [Verkeersmanagement, Mobiliteitsbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "[[P+R-locatie]]"

@@ -4,8 +4,8 @@ naam: Milieu
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
 bronnen_count: 10
-begrippen_count: 62
-bo_count: 33
+begrippen_count: 68
+bo_count: 34
 ---
 
 Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:

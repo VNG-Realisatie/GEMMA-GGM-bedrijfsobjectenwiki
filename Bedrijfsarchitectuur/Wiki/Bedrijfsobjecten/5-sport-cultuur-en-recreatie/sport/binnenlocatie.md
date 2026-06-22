@@ -73,6 +73,13 @@ Een binnenlocatie is een binnensportaccommodatie — een sporthal of gymzaal —
 
 De GGM-definitie ("Locatie binnen een gebouw") is generiek. De GEMMA-definitie verduidelijkt de sportcontext: "Binnensportaccommodatie zoals een sporthal of gymzaal, met eigen capaciteitsberekening en bezettingsgraad."
 
+## Specialisaties
+
+| Subtype | Omschrijving | GGM-entiteit |
+|---|---|---|
+| Sporthal | Grote binnensportaccommodatie voor meerdere sporten en verenigingen | Binnenlocatie |
+| Gymzaal | Kleinere binnensportruimte, vaak gekoppeld aan onderwijs | Binnenlocatie |
+
 ## Relaties
 
 | Relatie | Richting | Kardinaliteit | Bron |

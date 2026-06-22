@@ -29,7 +29,7 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Een project of plan waarin woningen worden geprogrammeerd en gerealiseerd, met kenmerken als omvang, segmentering en fasering."
 gemma_subtypes:
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht, Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht, Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening, Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen, Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur, Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen, Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht, Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007, Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]
   - "[[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht]]"
   - "[[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen]]"
 relaties:

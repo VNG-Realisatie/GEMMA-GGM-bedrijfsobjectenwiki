@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]"
+bron: "[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen.md](Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen.md)"
 titel: "Raadgever Kostenonderbouwing van lokale heffingen"
 domein: [Belastingen]
 datum_ingest: 2026-06-18

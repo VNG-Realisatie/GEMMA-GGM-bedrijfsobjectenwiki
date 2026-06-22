@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]"
+bron: "[raadgever-financiele-conditie-gemeente](../../Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente.md)"
 titel: "Raadgever Financiële conditie gemeente"
 domein: [Financien]
 datum_ingest: 2026-06-18

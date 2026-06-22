@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer."
 bedrijfsprocessen: [OV-beleid, Beheer openbare ruimte]
 bedrijfsfuncties: [Openbaar vervoer]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: compositie
     bedrijfsobject: "OV-lijn"

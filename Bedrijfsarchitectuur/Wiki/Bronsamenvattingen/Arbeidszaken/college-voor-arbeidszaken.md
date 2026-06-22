@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Arbeidszaken/College voor Arbeidszaken]]"
+bron: "[College voor Arbeidszaken](../../Sources/Onderwerpen/Arbeidszaken/College voor Arbeidszaken.md)"
 titel: "College voor Arbeidszaken"
 domein: [Arbeidszaken]
 datum_ingest: 2026-06-19

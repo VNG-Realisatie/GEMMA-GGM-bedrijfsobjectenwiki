@@ -4,7 +4,7 @@ naam: Financien
 status: in-behandeling
 verwerkingsdatum: 2026-06-19
 bronnen_count: 4
-begrippen_count: 10
+begrippen_count: 20
 bo_count: 10
 ---
 
@@ -52,10 +52,10 @@ Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie
 
 ## Verwerkte bronnen
 
-- [[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
-- [[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
-- [[Sources/Onderwerpen/Financien/raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
-- [[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
+- [Raadgever inkomstenbronnen gemeenten](../../Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten.md) — VNG Raadgever: vier inkomstenbronnen van gemeenten
+- [Raadgever gemeentebegroting en jaarrekening](../../Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening.md) — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
+- [Raadgever financiele verordening](../../Sources/Onderwerpen/Financien/raadgever-financiele-verordening.md) — VNG Raadgever: art. 212, spelregels financieel beleid
+- [Raadgever financiele conditie gemeente](../../Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente.md) — VNG Raadgever: balans, kengetallen, financiële gezondheid
 
 ## Raakvlakken
 

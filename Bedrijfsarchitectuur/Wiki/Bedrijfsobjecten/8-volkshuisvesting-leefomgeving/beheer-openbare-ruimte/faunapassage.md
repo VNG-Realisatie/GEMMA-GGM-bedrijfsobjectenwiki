@@ -29,6 +29,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
+bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Overbruggingsobject (GGM)
@@ -51,7 +52,7 @@ relaties:
 | Heeft eigen bestaan | ✅ | Fysieke constructie op een specifieke locatie |
 | Kan in meervoud bestaan | ✅ | Tientallen passages in Utrecht; geïnventariseerd op overzichtskaart |
 | Heeft eigen levenscyclus | ✅ | Planning → aanleg → monitoring effectiviteit → onderhoud |
-| Heeft relaties met andere concepten | ✅ | Verbindt [[Groenobject|groengebieden]], passeert infrastructuur, dient beschermde soorten |
+| Heeft relaties met andere concepten | ✅ | Verbindt [[Groenobject\|groengebieden]], passeert infrastructuur, dient beschermde soorten |
 
 **Conclusie:** 6/6 criteria van toepassing. Faunapassage is een bedrijfsobject.
 

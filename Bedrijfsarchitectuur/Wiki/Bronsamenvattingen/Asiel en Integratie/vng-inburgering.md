@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Asiel en Integratie/inburgering]]"
+bron: "[inburgering](../../Sources/Onderwerpen/Asiel en Integratie/inburgering.md)"
 titel: "Inburgering"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19

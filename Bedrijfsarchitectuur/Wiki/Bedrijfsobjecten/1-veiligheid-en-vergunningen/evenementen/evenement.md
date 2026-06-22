@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Georganiseerde activiteit met publiek in de openbare ruimte, waarvoor de gemeente een vergunning verleent en die plaatsvindt op een aangewezen locatie."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen, Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Evenementenlocatie]]"

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen."
 bedrijfsprocessen: [Beheer openbare ruimte, Goederenvervoerbeleid, Handhaving]
 bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route

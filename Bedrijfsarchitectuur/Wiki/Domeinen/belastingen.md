@@ -4,8 +4,8 @@ naam: Belastingen
 status: in-behandeling
 verwerkingsdatum: 2026-06-19
 bronnen_count: 11
-begrippen_count: 30
-bo_count: 10
+begrippen_count: 40
+bo_count: 7
 ---
 
 # Domein: Belastingen

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Een door de gemeente aangeboden dienst of product waarvoor inwoners, ondernemers of organisaties een aanvraag kunnen indienen of een afspraak kunnen maken."
 bedrijfsprocessen: [Productcatalogusbeheer, Dienstverlening]
 bedrijfsfuncties: [Dienstverlening, Productmanagement]
+bronnen: [Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel, Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel, Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden, Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan, Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid, Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]]"
@@ -78,8 +79,8 @@ De GGM-definitie is een systeemreferentie naar het bronsysteem, niet een inhoude
 
 | Gerelateerd BO | Richting | Kardinaliteit | Beschrijving | Bron |
 |---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] | ← | 0..* | afspraak betreft dit product/dienst | GGM: Balieafspraak → ProductOfDienst |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] | ← | 0..* | aanvraag betreft (via klantcontact) | GGM: Klantcontact → ProductOfDienst |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|balieafspraak]] | ← | 0..* | afspraak betreft dit product/dienst | GGM: Balieafspraak → ProductOfDienst |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|aanvraag-of-melding]] | ← | 0..* | aanvraag betreft (via klantcontact) | GGM: Klantcontact → ProductOfDienst |
 | zaaktypecatalogus | → | 0..* | gekoppeld aan zaaktype(n) via ZTC | Standaard ZTC2 |
 
 ## Terugmelding GGM

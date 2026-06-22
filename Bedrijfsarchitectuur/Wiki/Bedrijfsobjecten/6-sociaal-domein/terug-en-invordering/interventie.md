@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: ""
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
 bedrijfsprocessen: [Invordering, Handhaving]
+bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---

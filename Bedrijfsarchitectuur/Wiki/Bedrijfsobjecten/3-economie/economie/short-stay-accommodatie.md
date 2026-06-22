@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Accommodatie voor bedrijfsmatig logies van minimaal twee weken tot maximaal zes maanden, gericht op internationale kenniswerkers en studenten."
 bedrijfsprocessen: [short stay vergunningverlening, monitoring woningvoorraad]
 bedrijfsfuncties: [vergunningverlening, economisch beleid, woonbeleid]
+bronnen: [Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"

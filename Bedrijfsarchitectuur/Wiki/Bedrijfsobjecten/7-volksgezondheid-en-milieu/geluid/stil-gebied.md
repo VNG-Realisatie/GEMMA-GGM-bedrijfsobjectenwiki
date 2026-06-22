@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend gebied in de gemeente dat de gemeente beschermt vanwege de relatieve rust en afwezigheid van nadrukkelijk omgevingsgeluid."
 bedrijfsprocessen: [actieplan geluid, geluidkartering, ruimtelijke planvorming]
 bedrijfsfuncties: [milieubeheer, groenbeheer, ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidgevoelig gebouw]]"

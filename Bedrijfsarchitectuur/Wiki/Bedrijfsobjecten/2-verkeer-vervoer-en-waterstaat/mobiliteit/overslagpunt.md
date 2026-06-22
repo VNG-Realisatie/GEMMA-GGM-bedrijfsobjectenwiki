@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor)."
 bedrijfsprocessen: [Goederenvervoerbeleid, Havenbeheer]
 bedrijfsfuncties: [Goederenvervoerbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route

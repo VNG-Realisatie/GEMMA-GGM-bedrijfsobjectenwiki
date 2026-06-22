@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]"
+bron: "[raadgever-inkoop-en-aanbesteden](../../Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden.md)"
 titel: "Raadgever Inkoop en aanbesteden"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18

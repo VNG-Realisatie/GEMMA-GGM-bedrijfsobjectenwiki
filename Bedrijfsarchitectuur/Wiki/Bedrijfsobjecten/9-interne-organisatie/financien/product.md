@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: "Product (Financien)"
 gemma_definitie: ""
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]
+bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Dienstverlening, Financieel beheer]
 status: concept
 ---

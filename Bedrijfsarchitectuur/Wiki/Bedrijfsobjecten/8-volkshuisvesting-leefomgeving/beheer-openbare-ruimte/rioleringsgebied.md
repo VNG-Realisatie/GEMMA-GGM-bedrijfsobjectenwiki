@@ -31,7 +31,7 @@ gemma_subtypes:
     ggm_entiteit: Bemalingsgebied
     ggm_guid: EAID_A1EE11DF_4EEA_409A_8E43_F108DC0BF96
     ggm_attribuut:
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
   - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
   - [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
 relaties:
@@ -58,7 +58,7 @@ bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]
 | Heeft een eigen bestaan binnen het domein | ✅ | Elk rioleringsgebied is een afgebakend beheersgebied met eigen gemaal en stelselkenmerken |
 | Kan in meervoud bestaan | ✅ | Utrecht heeft drie zuiveringsgebieden (Brailledreef, Proostwetering, Zandweg) met daarbinnen meerdere rioleringsgebieden |
 | Heeft een eigen levenscyclus | ✅ | Vaststelling → beheer → hemelwaterontvlechting → stelselvervanging → herindeling |
-| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]], [[Overstortconstructie]], Put |
+| Heeft relaties met andere concepten | ✅ | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]], [[Overstortconstructie]], Put |
 
 Score: 6/6.
 
@@ -91,7 +91,7 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | bidirectioneel | GGM / Beleidsbron |
 | associatie | [[Overstortconstructie]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen

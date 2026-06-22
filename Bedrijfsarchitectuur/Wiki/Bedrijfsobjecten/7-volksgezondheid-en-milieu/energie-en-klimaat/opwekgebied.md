@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
 bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
 bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie, Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]"

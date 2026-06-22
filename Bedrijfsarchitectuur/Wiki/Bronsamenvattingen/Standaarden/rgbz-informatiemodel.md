@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Standaarden/rgbz-1.0]], [[Sources/Standaarden/introductie-rgbz]]"
+bron: "[rgbz-1.0](../../Sources/Standaarden/rgbz-1.0.md), [introductie-rgbz](../../Sources/Standaarden/introductie-rgbz.md)"
 titel: "Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18

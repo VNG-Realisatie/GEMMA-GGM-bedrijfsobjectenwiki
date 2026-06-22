@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Belastingpolitiek]]"
+bron: "[Sources/Onderwerpen/Belastingen/Belastingpolitiek.md](Sources/Onderwerpen/Belastingen/Belastingpolitiek.md)"
 titel: "Belastingpolitiek"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Georganiseerde, periodieke verkoop van waren op een aangewezen locatie in de openbare ruimte, bestaande uit zes of meer standplaatsen, gereguleerd via de Marktverordening."
 bedrijfsprocessen: [marktorganisatie, vergunningverlening markten, monitoring detailhandel]
 bedrijfsfuncties: [economisch beleid, vergunningverlening]
+bronnen: [Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012]
 relaties:
   - type: compositie
     bedrijfsobject: "[[standplaats]]"

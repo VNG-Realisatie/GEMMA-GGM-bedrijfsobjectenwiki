@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysiek meetpunt in een monitoringsnetwerk voor het meten van grondwaterkwaliteit en -stand."
 bedrijfsprocessen: [gebiedsgericht grondwaterbeheer, milieumonitoring, bodemsanering]
 bedrijfsfuncties: [milieubeheer]
+bronnen: [Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]"

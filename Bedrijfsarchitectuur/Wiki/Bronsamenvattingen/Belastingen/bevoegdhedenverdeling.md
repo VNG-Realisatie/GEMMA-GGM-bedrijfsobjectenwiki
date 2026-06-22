@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling]]"
+bron: "[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling.md](Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling.md)"
 titel: "Bevoegdhedenverdeling"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

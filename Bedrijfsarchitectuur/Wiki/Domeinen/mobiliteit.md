@@ -4,7 +4,7 @@ naam: Mobiliteit
 status: in-behandeling
 verwerkingsdatum: 2026-06-21
 bronnen_count: 12
-begrippen_count: 43
+begrippen_count: 57
 bo_count: 29
 ---
 

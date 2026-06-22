@@ -20,8 +20,8 @@ Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) en beleidsdomeinen daaron
 
 | Beleidsdomein | Taakveld | Dekking | Wat het modelleert |
 |---|---|---|---|
-| **[[Wiki/Domeinen/financien|financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
-| **[[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
+| **[[Wiki/Domeinen/financien\|financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
+| **[[Wiki/Domeinen/terug-en-invordering\|terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
 
 Daarnaast bestaat er een `enum_Belasting` enumeratie en gerelateerde classificaties (`BelastingklasseNieuw`, `BelastingklasseOud`), maar deze zijn niet ingebed in een domeinmodel.
 
@@ -161,8 +161,8 @@ De verwerking van de Raadgever WOZ leverde twee bedrijfsobjecten op met directe 
 
 | Bedrijfsobject | GGM-entiteit | GGM-beleidsdomein | Status |
 |---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] | WOZ-object | RSGBPlus (taakveld 99 Kern) | **Match** — attributen en relaties dekken het bedrijfsperspectief |
-| [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|woz-waarde-bo]] | WOZ-Waarde | RSGBPlus (taakveld 99 Kern) | **Match** — inclusief beschikkingsaspect (statusBeschikking) |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|woz-object]] | WOZ-object | RSGBPlus (taakveld 99 Kern) | **Match** — attributen en relaties dekken het bedrijfsperspectief |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|woz-waarde-bo]] | WOZ-Waarde | RSGBPlus (taakveld 99 Kern) | **Match** — inclusief beschikkingsaspect (statusBeschikking) |
 
 De WOZ-beschikking is geen apart bedrijfsobject: het GGM modelleert het als attribuut van WOZ-Waarde, en op bedrijfsniveau is de beschikking niet onderscheidbaar van de waardebepaling.
 
@@ -193,15 +193,15 @@ Het GGM beleidsdomein Financien (taakveld 9, 24 entiteiten) dekt de **boekhoudku
 
 | GGM-entiteit | Bedrijfsobject | Dekking |
 |---|---|---|
-| Begroting | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] | Product van de begrotingscyclus |
+| Begroting | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|begroting]] | Product van de begrotingscyclus |
 | Begrotingregel | *(niet als BO)* | Te granulair |
-| Taakveld | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]] | IV3-indeling |
-| Doelstelling | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|doelstelling]] | W-vragen ("wat bereiken") |
-| Product | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|product]] | P×Q-sturing |
-| Kostenplaats | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]] | Interne toerekening |
-| Factuur, Inkooporder, Werkorder | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|inkooporder]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] | Operationele objecten |
-| Debiteur | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] | Wie moet betalen |
-| Activa | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] | Bezittingen op de balans |
+| Taakveld | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|taakveld]] | IV3-indeling |
+| Doelstelling | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|doelstelling]] | W-vragen ("wat bereiken") |
+| Product | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|product]] | P×Q-sturing |
+| Kostenplaats | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|kostenplaats]] | Interne toerekening |
+| Factuur, Inkooporder, Werkorder | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|factuur]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|inkooporder]], [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|werkorder]] | Operationele objecten |
+| Debiteur | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|debiteur]] | Wie moet betalen |
+| Activa | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|activa]] | Bezittingen op de balans |
 
 #### Structureel patroon
 

@@ -37,12 +37,17 @@ gemma_subtypes:
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: ""
+  - naam: "Combinatiekaart"
+    omschrijving: "GPK voor zowel bestuurder als passagier"
+    ggm_entiteit: ""
+    ggm_guid: ""
+    ggm_attribuut: ""
   - naam: "Instellingskaart"
     omschrijving: "GPK voor een zorginstelling"
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: ""
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]
   - "[[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]"
 relaties:
   - type: associatie

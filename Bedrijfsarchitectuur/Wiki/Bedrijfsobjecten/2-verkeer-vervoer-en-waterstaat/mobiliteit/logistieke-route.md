@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid."
 bedrijfsprocessen: [Routering goederenvervoer, Verkeersmanagement, Ruimtelijke ordening]
 bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Overslagpunt

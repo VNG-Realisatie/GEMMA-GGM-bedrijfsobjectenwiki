@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Gebouw waarvoor wettelijke geluidnormen gelden, zoals een woning, school of zorginstelling."
 bedrijfsprocessen: [ruimtelijke planvorming, vergunningverlening, maatregelenonderzoek]
 bedrijfsfuncties: [ruimtelijke ordening, milieubeheer, bouwen en wonen]
+bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"

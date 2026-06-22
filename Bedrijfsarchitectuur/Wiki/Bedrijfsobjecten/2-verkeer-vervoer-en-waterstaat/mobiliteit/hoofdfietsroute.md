@@ -33,6 +33,7 @@ gemma_subtypes:
     ggm_attribuut: ""
 bedrijfsprocessen: [Fietsbeleid, Beheer openbare ruimte, Verkeersmanagement]
 bedrijfsfuncties: [Verkeersmanagement, Fietsbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-knooppunt"

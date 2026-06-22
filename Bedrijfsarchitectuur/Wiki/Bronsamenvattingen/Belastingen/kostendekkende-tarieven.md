@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven]]"
+bron: "[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven.md](Sources/Onderwerpen/Belastingen/Kostendekkende tarieven.md)"
 titel: "Kostendekkende tarieven"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend gebied rond een industrieterrein waarbinnen de cumulatieve geluideffecten van alle bedrijven worden beheerst via omgevingswaarden."
 bedrijfsprocessen: [vergunningverlening, omgevingsplan, geluidkartering]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
+bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"

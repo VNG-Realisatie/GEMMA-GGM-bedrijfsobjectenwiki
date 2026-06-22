@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte."
 bedrijfsprocessen: [Laadinfrastructuurbeheer, Beheer openbare ruimte, Energietransitie]
 bedrijfsfuncties: [Verkeersmanagement, Duurzaamheidsbeleid]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"

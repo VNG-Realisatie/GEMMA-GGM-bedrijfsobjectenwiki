@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Belastingen/Belastingtypen]]"
+bron: "[Sources/Onderwerpen/Belastingen/Belastingtypen.md](Sources/Onderwerpen/Belastingen/Belastingtypen.md)"
 titel: "Belastingtypen"
 domein: [Belastingen]
 datum_ingest: 2026-06-17

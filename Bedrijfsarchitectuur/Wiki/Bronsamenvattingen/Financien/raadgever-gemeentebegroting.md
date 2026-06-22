@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]]"
+bron: "[raadgever-gemeentebegroting-en-jaarrekening](../../Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening.md)"
 titel: "Raadgever Gemeentebegroting en jaarrekening"
 domein: [Financien]
 datum_ingest: 2026-06-18

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers."
 bedrijfsprocessen: [OV-beleid, Concessiebeheer]
 bedrijfsfuncties: [Openbaar vervoer]
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-knooppunt"

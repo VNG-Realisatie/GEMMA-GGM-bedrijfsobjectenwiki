@@ -48,7 +48,7 @@ relaties:
     richting: "bidirectioneel"
     kardinaliteit: "0..1"
     beschrijving: "Voetgangersgebied kan overlappen met zero-emissiezone"
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
   - "[[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]"
 ---
 

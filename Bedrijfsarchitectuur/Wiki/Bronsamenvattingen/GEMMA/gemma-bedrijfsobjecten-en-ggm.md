@@ -1,6 +1,6 @@
 ---
 type: bronsamenvatting
-bron: "[[Sources/GEMMA/gemma-bedrijfsobjecten-en-ggm]]"
+bron: "[gemma-bedrijfsobjecten-en-ggm](../../Sources/GEMMA/gemma-bedrijfsobjecten-en-ggm.md)"
 titel: "GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM"
 domein: []
 datum_ingest: 2026-06-18

@@ -27,6 +27,7 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Ruimtelijk gebied rond een risicobron dat zichtbaar maakt waar mensen binnenshuis onvoldoende beschermd zijn tegen de gevolgen van een incident met gevaarlijke stoffen."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
+bronnen: [Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Risicobron]]"

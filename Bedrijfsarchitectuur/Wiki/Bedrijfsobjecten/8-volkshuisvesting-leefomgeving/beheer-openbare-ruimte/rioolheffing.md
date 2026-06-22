@@ -25,7 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer, geheven bij perceeleigenaren en grootverbruikers."
-bronnen:
+bronnen: [Wiki/Bronsamenvattingen/milieu/visie-water-riolering, Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]
   - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
   - [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
 relaties:
@@ -52,7 +52,7 @@ bedrijfsfuncties: [Beheer openbare ruimte, Belastingheffing]
 | Heeft een eigen bestaan binnen het domein | ✅ | Eigen verordening, tarief, heffingsgrondslag en egalisatiereserve |
 | Kan in meervoud bestaan | ✅ | Circa 178.800 aansluitingen in 2025, groeiend met ~3.000/jaar |
 | Heeft een eigen levenscyclus | ✅ | Tariefvaststelling → heffing → inning → verantwoording; jaarlijkse cyclus |
-| Heeft relaties met andere concepten | ✅ | [[Afvalstoffenheffing]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]] |
+| Heeft relaties met andere concepten | ✅ | [[Afvalstoffenheffing]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] |
 
 Score: 6/6.
 
@@ -78,7 +78,7 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riol
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | associatie | [[Afvalstoffenheffing]] | bidirectioneel | Beleidsbron |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | bidirectioneel | Beleidsbron |
 
 ## Bedrijfsprocessen
 
