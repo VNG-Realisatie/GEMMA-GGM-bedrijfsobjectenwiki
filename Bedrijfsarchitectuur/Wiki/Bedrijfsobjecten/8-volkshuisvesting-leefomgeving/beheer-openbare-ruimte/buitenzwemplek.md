@@ -64,7 +64,7 @@ Het beleid is: faciliteren waar het kan, ontmoedigen of verbieden waar veilighei
 
 ## Procesbron
 
-Bron: [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] en [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering]]
+Bron: [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] en [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]]
 
 > Officiële zwemlocaties worden aangewezen door de provincie; de gemeente faciliteert en beheert de locaties. Bij niet-officiële zwemplekken meet de gemeente waterkwaliteit en wordt per locatie bepaald of faciliteren of ontmoedigen gepast is.
 
@@ -84,4 +84,4 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadsw
 
 ## Terugmelding GGM
 
-> **Buitenzwemplek** — Locatie in open water waar buiten gezwommen wordt. Het GGM kent geen entiteit voor buitenzwemlocaties. Het concept is relevant voor gemeentelijk waterbeheer en recreatiebeleid, met eigen processen voor waterkwaliteitsmonitoring, oeverinrichting en aanwijzing van zwemwater. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+> **Buitenzwemplek** — Locatie in open water waar buiten gezwommen wordt. Het GGM kent geen entiteit voor buitenzwemlocaties. Het concept is relevant voor gemeentelijk waterbeheer en recreatiebeleid, met eigen processen voor waterkwaliteitsmonitoring, oeverinrichting en aanwijzing van zwemwater. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -30,7 +30,7 @@ bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
 bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie, Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]"
     richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: Opwekgebied kan warmtenet voeden; warmtenet kan warmte ontvangen uit opwekgebied
@@ -56,10 +56,10 @@ Een opwekgebied is een door de gemeente aangewezen locatie waar grootschalige op
 De keuze voor opwekgebieden gebeurt in samenspraak met de Regionale Energiestrategie (RES U16). De gezamenlijke ambitie is 1,8 TWh duurzame elektriciteit in 2030; ongeveer de helft is al gerealiseerd of vergund.
 
 > "Hernieuwbare energie opwekken gebeurt door elektriciteit en warmte te produceren uit onuitputtelijke bronnen. Voor gemeenten betekent dit een actieve rol in de ontwikkeling van projecten zoals zonneparken en windmolenvelden."
-> (bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie|VNG Opwekken duurzame energie]])
+> (bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie|VNG — Opwekken duurzame energie]])
 
 > "De afspraken in de RES leggen we vast in het omgevingsbeleid van onze gemeente."
-> (bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht|Energiebeleid Utrecht]])
+> (bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht|Energiebeleid gemeente Utrecht]])
 
 ## Specialisaties
 
@@ -79,7 +79,7 @@ Opwekgebieden ontstaan uit het ruimtelijke planningsproces voor de energietransi
 | Relatie | BO | Bron |
 |---|---|---|
 | wordt verankerd in | omgevingsplan (Omgevingswet-domein) | beleidsbron: RES-afspraken vastgelegd in omgevingsbeleid |
-| kan voeden | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]] | beleidsbron: bronnenstrategie |
+| kan voeden | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet\|Warmtenet]] | beleidsbron: bronnenstrategie |
 | valt binnen | RES-regio (regionaal, geen BO) | beleidsbron: RES U16 |
 
 ## Bedrijfsprocessen
@@ -95,4 +95,4 @@ Opwekgebieden ontstaan uit het ruimtelijke planningsproces voor de energietransi
 
 ## Terugmelding GGM
 
-**Opwekgebied** — Dataobject voor aangewezen locaties voor grootschalige energieopwek. Registreerbare eigenschappen: locatie (geometrie), type opwek (zon/wind/combinatie), capaciteit (MW), status (aangewezen, in ontwikkeling, operationeel), relatie met omgevingsplan, RES-regio. Wettelijke grondslag via Omgevingswet/omgevingsplan. Zou onder een nieuw beleidsdomein Energie (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Opwekgebied** — Dataobject voor aangewezen locaties voor grootschalige energieopwek. Registreerbare eigenschappen: locatie (geometrie), type opwek (zon/wind/combinatie), capaciteit (MW), status (aangewezen, in ontwikkeling, operationeel), relatie met omgevingsplan, RES-regio. Wettelijke grondslag via Omgevingswet/omgevingsplan. Zou onder een nieuw beleidsdomein Energie (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

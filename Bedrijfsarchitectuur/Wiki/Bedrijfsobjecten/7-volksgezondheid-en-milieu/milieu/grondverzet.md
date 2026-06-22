@@ -55,7 +55,7 @@ Een grondverzet is een registratie van het verplaatsen van grond of baggerspecie
 
 De gemeente toetst of de kwaliteit van de grond past bij de bodemfunctie op de bestemmingslocatie. Schone grond mag overal worden toegepast; licht verontreinigde grond mag onder voorwaarden worden hergebruikt voor wonen of industrie.
 
-> "Het vastgestelde kwaliteitsniveau van de grond en de functie (landbouw, woningbouw of industrie) waarvoor de grond bedoeld is, bepalen of en waar de grond hergebruikt mag worden." (bron: [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer]])
+> "Het vastgestelde kwaliteitsniveau van de grond en de functie (landbouw, woningbouw of industrie) waarvoor de grond bedoeld is, bepalen of en waar de grond hergebruikt mag worden." (bron: [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027 (Grondig Werken 4)]])
 
 ## Procesbron
 
@@ -67,4 +67,4 @@ Grondverzet ontstaat bij bouw- en infraprojecten. Melding is verplicht op grond 
 
 ## Terugmelding GGM
 
-Grondverzet is een registratie-object dat gemeenten bijhouden als bevoegd gezag bodembeheer. Het GGM heeft geen equivalent. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Grondverzet is een registratie-object dat gemeenten bijhouden als bevoegd gezag bodembeheer. Het GGM heeft geen equivalent. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

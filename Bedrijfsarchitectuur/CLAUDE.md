@@ -136,7 +136,7 @@ Alle beoordelingslogica staat in de skills, niet in dit bestand:
 - **Taal**: Nederlands, tenzij gevestigde Engelse term (ArchiMate, business object).
 - **Bestandsnamen**: lowercase, koppeltekens. Voorbeeld: `onroerende-zaak.md`.
 - **Cross-references**: Obsidian `[[wiki-links]]` voor alle verwijzingen tussen wiki-pagina's.
-- **Wiki-links in tabellen**: gebruik `[[pad/naar/pagina]]` zonder alias — de `|` in `[[pad|alias]]` breekt markdown-tabellen. Buiten tabellen mag alias-syntax wel.
+- **Wiki-links met alias**: alle `[[Wiki/...]]` links moeten een alias hebben zodat de lezer een leesbare naam ziet, niet een pad. In tabellen: `[[pad\|alias]]` (escaped pipe). Buiten tabellen: `[[pad|alias]]` (gewone pipe). Alias is de leesbare naam (bijv. `[[Wiki/Bedrijfsobjecten/.../boom\|Boom]]` in tabel, `[[Wiki/Bronsamenvattingen/.../nota|Nota Dierenwelzijn]]` in proza). Korte links zonder pad (bijv. `[[Stembureau]]`) hoeven geen alias.
 - **Citaten uit bronnen**: blockquotes (`>`) met bronvermelding.
 
 ## Ingest workflow

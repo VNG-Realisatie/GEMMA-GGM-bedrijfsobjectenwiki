@@ -30,9 +30,9 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 | gemeentelijke inkoop | thema | Het geheel van inkoopactiviteiten (€40+ mrd) | ❌ | Thema, geen object | — | nee |
 | aanbesteding | instrument | Verplichte inkoopprocedure boven drempelbedragen | ❌ | Instrument/procedure | Europese aanbesteding, meervoudig onderhands | nee |
 | MVOI | instrument | Maatschappelijk verantwoord opdrachtgeven en inkopen | ❌ | Instrument/beleidskader | Manifest MVOI, actieplan MVOI | nee |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding]] | object | Verzoek of signaal aan de gemeente, startpunt dienstverlening | ✅ | 6/6 criteria, sterk match | Bijstandsaanvraag, MOR-melding, DigiD-vraag | ja |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak]] | object | Geplande afspraak voor een klantcontact aan de balie | ✅ | 6/6 criteria, exact match | Afspraak paspoort, afspraak sociaal raadslid | ja |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst]] | object | Door de gemeente aangeboden dienst of product | ✅ | 6/6 criteria, sterk match | Paspoort, bijstandsuitkering, bouwvergunning | ja |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | object | Verzoek of signaal aan de gemeente, startpunt dienstverlening | ✅ | 6/6 criteria, sterk match | Bijstandsaanvraag, MOR-melding, DigiD-vraag | ja |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | object | Geplande afspraak voor een klantcontact aan de balie | ✅ | 6/6 criteria, exact match | Afspraak paspoort, afspraak sociaal raadslid | ja |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | object | Door de gemeente aangeboden dienst of product | ✅ | 6/6 criteria, sterk match | Paspoort, bijstandsuitkering, bouwvergunning | ja |
 | zaaktypecatalogus | object | Verzameling zaaktypen met configuratie per domein | ✅ | BO, partieel match (ZTC2-standaard) | ZTC per gemeente | partieel |
 | informatieobject | object | Geheel van gegevens ongeacht vorm (breder dan "document") | ✅ | 6/6 criteria, sterk match | PDF-aanvraag, e-mail, scan | ja |
 | zaakdossier | object | Zaakkenmerken + informatieobjecten, basis voor archivering | ✅ | 6/6 criteria, sterk match | Zaakdossier vergunningaanvraag | ja |
@@ -43,9 +43,9 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 
 | Begrip | Status | GGM-grondslag | Matchsterkte |
 |---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding]] | ✅ BO | AanvraagOfMelding (Model Dienstverlening) | sterk |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak]] | ✅ BO | Balieafspraak (Model Dienstverlening) | exact |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst]] | ✅ BO | ProductOfDienst (Model Dienstverlening) | sterk |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | ✅ BO | AanvraagOfMelding (Model Dienstverlening) | sterk |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | ✅ BO | Balieafspraak (Model Dienstverlening) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | ✅ BO | ProductOfDienst (Model Dienstverlening) | sterk |
 | zaaktypecatalogus | ✅ BO | CATALOGUS (ZTC2) | partieel |
 | informatieobject | ✅ BO | Document (RGBZPlus) | sterk |
 | zaakdossier | ✅ BO | Zaak (RGBZPlus) | sterk |
@@ -101,17 +101,17 @@ Het GGM modelleert dienstverlening in twee lagen:
 ## Verwerkte bronnen
 
 ### Standaarden
-- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|RGBZ 1.0 + Introductie]] — referentiemodel zaakgegevens, berichtenarchitectuur, evolutie naar ZGW API's
-- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|ZTC2 v2.1]] — informatiemodel zaaktypecatalogus
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — referentiemodel zaakgegevens, berichtenarchitectuur, evolutie naar ZGW API's
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — informatiemodel zaaktypecatalogus
 
 ### VNG-bronnen Dienstverlening
-- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever inkoop en aanbesteden]] — inkoop, aanbestedingsregels en MVOI
-- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening]] — BZK-programma overheidsbrede loketten, professionallijnen, IDO's
-- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan|Overheidsbrede Startscan]] — implementatiemethodiek overheidsbrede dienstverlening
-- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening|VNG-rubriek Dienstverlening]] — portaalpagina GGU, leveranciersmanagement, MijnServices
+- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever Inkoop en aanbesteden]] — inkoop, aanbestedingsregels en MVOI
+- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening voor gemeenten]] — BZK-programma overheidsbrede loketten, professionallijnen, IDO's
+- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan|Overheidsbrede Startscan voor gemeenten]] — implementatiemethodiek overheidsbrede dienstverlening
+- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening|VNG-rubriek Dienstverlening en bedrijfsvoering]] — portaalpagina GGU, leveranciersmanagement, MijnServices
 - [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening|Online dienstverlening]] — Wmebv, MijnServices, IDO's
 - [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid|Digitale toegankelijkheid]] — Wdo, toegankelijkheidsverklaring
-- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzicht)]] — portaalpagina, overlapt met raadgever
+- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzichtspagina)]] — portaalpagina, overlapt met raadgever
 
 ### GGM-bron
 - [Sources/GGM/10-dienstverlening/dienstverlening.md](Sources/GGM/10-dienstverlening/dienstverlening.md) — 16 entiteiten Model Dienstverlening

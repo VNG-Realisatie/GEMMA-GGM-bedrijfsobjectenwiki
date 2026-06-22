@@ -16,8 +16,8 @@ Gemeentelijk beleid voor de kwaliteit van de gebouwde omgeving. De welstandstoet
 
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies]] | object | Formeel oordeel op een bouwaanvraag over redelijke eisen van welstand | ✅ | ja | 6/6 criteria, procesobject | Positief advies dakkapel, negatief advies gevelwijziging | nee |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/beschermde-status]] | object | Formele beschermingsstatus van monument of stadsgezicht | ✅ | ja | 6/6 criteria, exact match; domein Erfgoed | Rijksmonument, gemeentelijk monument, beschermd stadsgezicht | ja |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies\|Welstandsadvies]] | object | Formeel oordeel op een bouwaanvraag over redelijke eisen van welstand | ✅ | ja | 6/6 criteria, procesobject | Positief advies dakkapel, negatief advies gevelwijziging | nee |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/beschermde-status\|Beschermde Status]] | object | Formele beschermingsstatus van monument of stadsgezicht | ✅ | ja | 6/6 criteria, exact match; domein Erfgoed | Rijksmonument, gemeentelijk monument, beschermd stadsgezicht | ja |
 | beleidsniveau | classificatie | Gebiedsclassificatie: Open, Respect, Behoud, Stimulans, Welstandsvrij | ❌ | nee | Attribuut/enumeratiewaarde van een gebied | Open, Respect, Behoud | nee |
 | stedenbouwkundige typologie | classificatie | Ruimtelijke karakteristiek van een gebied (12 typen) | ❌ | nee | Analytisch kenmerk, geen zelfstandig concept | Tuinwijk, gesloten stedelijk blok | nee |
 | welstandscriteria | regel | Objectieve toetsingseisen per beleidsniveau en bouwwerktype | ❌ | nee | Normen/regels, geen objecten | Criteria dakkapellen, erfafscheidingen | nee |
@@ -44,7 +44,7 @@ De Beschermde Status is het enige directe GGM-raakvlak. De overige 5 entiteiten 
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota — De Utrechtse aanpak (Deel A)]]
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]]
 - [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-criteria-richtlijnen|Welstandsnota — Welstandscriteria en richtlijnen (Deel B)]]
 
 ## Nog te verwerken bronnen

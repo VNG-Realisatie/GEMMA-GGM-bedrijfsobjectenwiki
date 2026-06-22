@@ -75,4 +75,4 @@ Voor verdere verdieping van dit domein zijn inhoudelijke beleidsdocumenten nodig
 
 ## Terugmeldingen richting GGM
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]] #44: overkoepelend concept maatschappelijke voorziening en welzijns-/zorg-/cultuursubtypen ontbreken in het GGM.
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] #44: overkoepelend concept maatschappelijke voorziening en welzijns-/zorg-/cultuursubtypen ontbreken in het GGM.

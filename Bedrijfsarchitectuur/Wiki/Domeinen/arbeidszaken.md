@@ -60,8 +60,8 @@ De begrippen in dit domein zijn overwegend van het type thema (arbeidsmarktkrapt
 
 ## Bronsamenvattingen
 
-- [[Wiki/Bronsamenvattingen/Arbeidszaken/college-voor-arbeidszaken]] — CvA: collectieve werkgeversbelangenbehartiging, cao-overleg, pensioen
-- [[Wiki/Bronsamenvattingen/Arbeidszaken/cva-beleidsplan-2023-2026]] — Beleidsplan 2023-2026: 8 thema's, arbeidsmarktkrapte-programma, Wtp-transitie
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/college-voor-arbeidszaken|College voor Arbeidszaken]] — CvA: collectieve werkgeversbelangenbehartiging, cao-overleg, pensioen
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/cva-beleidsplan-2023-2026|CvA Beleidsplan 2023-2026: Samen bereiken we meer]] — Beleidsplan 2023-2026: 8 thema's, arbeidsmarktkrapte-programma, Wtp-transitie
 
 ## Raakvlakken
 

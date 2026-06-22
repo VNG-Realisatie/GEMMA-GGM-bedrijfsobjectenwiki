@@ -110,4 +110,4 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 
 ## Terugmelding GGM
 
-> **Gehandicaptenparkeerkaart (GPK)** — Europees document dat gemeenten uitgeven op basis van medisch advies, met eigen levenscyclus (aanvraag, uitgifte, verlenging, intrekking) en relaties naar persoon, voertuig en parkeerrechten. Past in GGM beleidsdomein Parkeren als zelfstandige entiteit. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+> **Gehandicaptenparkeerkaart (GPK)** — Europees document dat gemeenten uitgeven op basis van medisch advies, met eigen levenscyclus (aanvraag, uitgifte, verlenging, intrekking) en relaties naar persoon, voertuig en parkeerrechten. Past in GGM beleidsdomein Parkeren als zelfstandige entiteit. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -16,11 +16,11 @@ Het domein geluid omvat het gemeentelijk beleid voor geluid en trillingen in de 
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron]] | object | Bron die geluid veroorzaakt, ingedeeld naar bronsoort | ✅ | 6/6 criteria | Gemeentelijke weg, tramlijn, industrieterrein | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidgevoelig-gebouw]] | object | Gebouw waarvoor geluidnormen gelden | ✅ | 6/6 criteria | Woning, school, ziekenhuis | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/stil-gebied]] | object | Rustig gebied dat de gemeente beschermt en uitbreidt | ✅ | 6/6 criteria | Park, hofje, groengebied | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidzone]] | object | Zone rond industrieterrein met cumulatieve geluidnormen | ✅ | 6/6 criteria | Zone Lage Weide, zone Overvecht | nee |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/geluidscherm]] | object | Fysieke afscherming om geluidhinder te verminderen | ✅ | 6/6 criteria, exact GGM-match | Scherm langs A2, scherm langs spoor | ja |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron\|Geluidbron]] | object | Bron die geluid veroorzaakt, ingedeeld naar bronsoort | ✅ | 6/6 criteria | Gemeentelijke weg, tramlijn, industrieterrein | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidgevoelig-gebouw\|Geluidgevoelig gebouw]] | object | Gebouw waarvoor geluidnormen gelden | ✅ | 6/6 criteria | Woning, school, ziekenhuis | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/stil-gebied\|Stil gebied]] | object | Rustig gebied dat de gemeente beschermt en uitbreidt | ✅ | 6/6 criteria | Park, hofje, groengebied | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidzone\|Geluidzone]] | object | Zone rond industrieterrein met cumulatieve geluidnormen | ✅ | 6/6 criteria | Zone Lage Weide, zone Overvecht | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] | object | Fysieke afscherming om geluidhinder te verminderen | ✅ | 6/6 criteria, exact GGM-match | Scherm langs A2, scherm langs spoor | ja |
 | geluidontheffing | instrument | Incidentele ontheffing van geluidnormen voor festiviteiten | ❌ | Subtype van Vergunning/Ontheffing | Ontheffing Koningsdag, sportclub | ja (Omgevingsvergunning) |
 | geluidluwe gevel | eigenschap | Gevel die voor alle bronsoorten aan standaardwaarde voldoet | ❌ | Bouwkundige eis, eigenschap van gebouw | — | nee |
 | geluidkartering | activiteit | Vijfjaarlijkse berekening geluidbelasting conform EU-richtlijn | ❌ | Periodieke activiteit, geen eigen bestaan | Kartering 2021, kartering 2026 | nee |
@@ -41,7 +41,7 @@ Het GGM heeft geen dedicated beleidsdomein voor geluid. De enige directe match i
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen (2024)]]
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen]]
 - [[Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht|Actieplan Geluid Utrecht 2018-2023]]
 
 ## Nog te verwerken bronnen

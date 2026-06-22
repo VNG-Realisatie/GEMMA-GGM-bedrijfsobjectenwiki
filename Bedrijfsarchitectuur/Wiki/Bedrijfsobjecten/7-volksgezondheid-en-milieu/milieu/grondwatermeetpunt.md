@@ -60,7 +60,7 @@ Een grondwatermeetpunt is een fysiek punt (peilbuis) in het monitoringsnetwerk v
 
 In het Utrechtse gebiedsplan vormen de meetpunten een netwerk dat de verspreiding van grondwaterverontreinigingen bewaakt. Het netwerk monitort of verontreinigingen binnen de beheergrens blijven en of de grondwaterkwaliteit verbetert.
 
-> "Door uitvoering en toepassing van het Saneringsplan ondergrond Utrecht is door de aanleg van een meetnet meer inzicht verkregen in bodemopbouw, grondwater en grondwaterverontreiniging." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]])
+> "Door uitvoering en toepassing van het Saneringsplan ondergrond Utrecht is door de aanleg van een meetnet meer inzicht verkregen in bodemopbouw, grondwater en grondwaterverontreiniging." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond]])
 
 ## Procesbron
 
@@ -73,4 +73,4 @@ Meetpunten worden geïnstalleerd als onderdeel van het monitoringsprogramma dat 
 
 ## Terugmelding GGM
 
-Het GGM heeft wel Filterput (Beheer Openbare Ruimte) als fysiek object, maar dat is een ander concept (drainageput, niet een milieumeetpunt). Grondwatermeetpunt als milieu-registratieobject ontbreekt. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM heeft wel Filterput (Beheer Openbare Ruimte) als fysiek object, maar dat is een ander concept (drainageput, niet een milieumeetpunt). Grondwatermeetpunt als milieu-registratieobject ontbreekt. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

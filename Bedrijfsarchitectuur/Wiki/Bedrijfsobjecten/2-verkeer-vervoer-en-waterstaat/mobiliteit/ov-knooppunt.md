@@ -73,7 +73,7 @@ Een OV-knooppunt is een multimodaal overstappunt waar openbaar-vervoerlijnen sam
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk OV-beleid en de knooppuntstrategie. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de rol van OV-knooppunten in het multimodale netwerk.
+Afgeleid uit het gemeentelijk OV-beleid en de knooppuntstrategie. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de rol van OV-knooppunten in het multimodale netwerk.
 
 ## Relaties
 
@@ -85,4 +85,4 @@ Afgeleid uit het gemeentelijk OV-beleid en de knooppuntstrategie. Het [[Wiki/Bro
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor OV-knooppunten. Dit is een registratieobject: gemeenten registreren knooppunten met locatie, modaliteiten, capaciteit en ontwikkelstatus. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor OV-knooppunten. Dit is een registratieobject: gemeenten registreren knooppunten met locatie, modaliteiten, capaciteit en ontwikkelstatus. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

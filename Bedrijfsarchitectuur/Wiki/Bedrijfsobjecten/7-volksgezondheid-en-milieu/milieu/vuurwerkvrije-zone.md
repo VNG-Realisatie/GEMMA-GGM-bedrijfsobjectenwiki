@@ -60,11 +60,11 @@ Geen GGM-entiteit. Geen verwant concept in het GGM.
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "In de Algemene Plaatselijke Verordening (APV) zijn voor de jaarwisseling 2022–2023 en 2023–2024 150 vuurwerkvrije zones aangewezen."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.6.1)
 
 ## Terugmelding GGM
 
-**Vuurwerkvrije zone** — Registratieobject voor aangewezen gebieden met vuurwerkverbod. Vergelijkbaar met Parkeerzone qua opzet (zone met regels en handhaving). Zou onder taakveld 1 (Veiligheid) of taakveld 7 (Milieu) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Vuurwerkvrije zone** — Registratieobject voor aangewezen gebieden met vuurwerkverbod. Vergelijkbaar met Parkeerzone qua opzet (zone met regels en handhaving). Zou onder taakveld 1 (Veiligheid) of taakveld 7 (Milieu) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

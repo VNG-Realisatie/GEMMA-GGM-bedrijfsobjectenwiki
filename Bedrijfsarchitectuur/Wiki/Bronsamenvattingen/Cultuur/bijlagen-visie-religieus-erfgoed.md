@@ -20,4 +20,4 @@ Bijlagendocument bij de oorspronkelijke Utrechtse visie religieus erfgoed (mei 2
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Ondersteunend referentiemateriaal bij de [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|visie religieus erfgoed 2025]]. Bevat inventarisatiegegevens die bevestigen dat orgels apart worden geregistreerd en geïnventariseerd. Levert geen eigen nieuwe begrippen of BO-kandidaten.
+Ondersteunend referentiemateriaal bij de [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]]. Bevat inventarisatiegegevens die bevestigen dat orgels apart worden geregistreerd en geïnventariseerd. Levert geen eigen nieuwe begrippen of BO-kandidaten.

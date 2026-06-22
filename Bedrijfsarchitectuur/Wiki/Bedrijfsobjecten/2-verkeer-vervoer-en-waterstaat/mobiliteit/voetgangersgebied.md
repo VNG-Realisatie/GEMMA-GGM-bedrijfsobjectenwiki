@@ -74,7 +74,7 @@ Het Mobiliteitsplan 2040 definieert voetgangersgebieden als kern van de A-zones.
 
 ## Juridische bron
 
-Governance-object met juridische grondslag in verkeersbesluiten. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de aanwijzing en uitbreiding van voetgangersgebieden als kernonderdeel van het A-zone beleid.
+Governance-object met juridische grondslag in verkeersbesluiten. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de aanwijzing en uitbreiding van voetgangersgebieden als kernonderdeel van het A-zone beleid.
 
 ## Relaties
 
@@ -85,4 +85,4 @@ Governance-object met juridische grondslag in verkeersbesluiten. Het [[Wiki/Bron
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor voetgangersgebieden of verkeerszonering. Als governance-object valt dit structureel buiten de GGM-scope. Het voetgangersgebied heeft relevante eigenschappen (begrenzing, geldend regime, venstertijden, toegangsregels) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor voetgangersgebieden of verkeerszonering. Als governance-object valt dit structureel buiten de GGM-scope. Het voetgangersgebied heeft relevante eigenschappen (begrenzing, geldend regime, venstertijden, toegangsregels) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

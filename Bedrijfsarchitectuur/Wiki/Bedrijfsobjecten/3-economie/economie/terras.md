@@ -59,7 +59,7 @@ Het terras mag niet breder zijn dan de gevel van het horecabedrijf en direct zic
 
 Het terras ontstaat uit het vergunningproces voor horecaexploitatie in de openbare ruimte. De beleidsregel terrassen (2024) is de juridische grondslag, vastgesteld op basis van de Verordening horeca gemeente Utrecht.
 
-> "Gebruik van openbare ruimte is tijdelijk gebruik. De grond blijft eigendom van de gemeente." — [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|Beleidsregel Terrassen]]
+> "Gebruik van openbare ruimte is tijdelijk gebruik. De grond blijft eigendom van de gemeente." — [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|Beleidsregel Terrassen Gemeente Utrecht]]
 
 ## Relaties
 

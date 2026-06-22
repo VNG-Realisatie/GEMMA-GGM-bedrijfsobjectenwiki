@@ -24,7 +24,7 @@ Het programma definieert:
 
 ## Kernbegrippen
 
-Aanvullend op de [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032|beleidsnota]]:
+Aanvullend op de [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032|Beleidsnota Sport en Bewegen 2025-2032]]:
 
 - **U-pas** — stadspas voor inwoners met inkomen tot 125% WSM; tegoed voor sport- en beweeglidmaatschap en sportspullen. Dalende besteding aan sport; verhoging met €600.000/jaar.
 - **Fondsen voor sport en bewegen** — Stichting Leergeld, Jeugdfonds Sport & Cultuur, Paul Verweel Sportfonds, Jeugdeducatiefonds; financiële hulp voor sport t/m 18 jaar.

@@ -60,11 +60,11 @@ Geen GGM-entiteit. Het GGM bevat wel **Sensor** en **Verkeerstelling** (Model Mo
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "Met 64 Utrechtse meetlocaties voor NO2 en 3 meetlocaties van het RIVM binnen de stad hebben we adequate instrumenten om de luchtkwaliteit over de hele stad in kaart te brengen."
 > (bron: Beleidsnota Luchtkwaliteit, hoofdstuk 8)
 
 ## Terugmelding GGM
 
-**Luchtkwaliteitsmeetpunt** — Registratieobject voor fysieke meetlocaties met type meting, locatie en meetreeksen. Vergelijkbaar met Verkeerstelling (Mobiliteit) qua opzet maar voor een ander domein. Zou onder een nieuw beleidsdomein Luchtkwaliteit (taakveld 7) of als generiek Meetpunt kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Luchtkwaliteitsmeetpunt** — Registratieobject voor fysieke meetlocaties met type meting, locatie en meetreeksen. Vergelijkbaar met Verkeerstelling (Mobiliteit) qua opzet maar voor een ander domein. Zou onder een nieuw beleidsdomein Luchtkwaliteit (taakveld 7) of als generiek Meetpunt kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

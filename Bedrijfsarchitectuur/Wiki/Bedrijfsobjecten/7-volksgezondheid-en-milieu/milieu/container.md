@@ -58,7 +58,7 @@ relaties:
 
 Fysieke containers die de gemeente plaatst en beheert voor de gescheiden inzameling van huishoudelijk afval. Het containerpark omvat ondergrondse containers (voor restafval en grondstoffen in de openbare ruimte), kliko's (minicontainers aan huis voor GFT, papier of PBP) en citybins (draagbare afvalemmers voor GFE-inzameling bij hoogbouw). Onderdeel van Het Nieuwe Inzamelen, het systeem waarbij de gemeente steeds meer afvalstromen gescheiden ophaalt. Ondergrondse containers zijn uitgerust met sensoren voor vulgraadmeting, zodat ophaalroutes kunnen worden geoptimaliseerd.
 
-> "Met Het Nieuwe Inzamelen zamelen we meer grondstoffen gescheiden in bij de bron." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+> "Met Het Nieuwe Inzamelen zamelen we meer grondstoffen gescheiden in bij de bron." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]])
 
 ## Specialisaties
 

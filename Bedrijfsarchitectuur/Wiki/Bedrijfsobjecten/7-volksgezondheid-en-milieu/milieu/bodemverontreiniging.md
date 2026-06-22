@@ -65,7 +65,7 @@ Een bodemverontreiniging is een geregistreerde locatie waar de bodem of het gron
 
 De gemeente registreert verontreinigingen als bevoegd gezag. Bij spoedlocaties zijn maatregelen verplicht om mens, plant, dier en bodem te beschermen. In het gebiedsplan Utrecht worden vermengde grondwaterverontreinigingen gebiedsgericht beheerd in plaats van per geval.
 
-> "Metingen hebben aangetoond dat het grondwater in de stad grotendeels verontreinigd is. Hieruit volgt onder meer dat sprake is van gebruiksbeperkingen en er maatregelen genomen moeten worden om mens en milieu te beschermen." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]])
+> "Metingen hebben aangetoond dat het grondwater in de stad grotendeels verontreinigd is. Hieruit volgt onder meer dat sprake is van gebruiksbeperkingen en er maatregelen genomen moeten worden om mens en milieu te beschermen." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond]])
 
 ## Procesbron
 
@@ -86,4 +86,4 @@ Verontreinigingen worden geïdentificeerd via bodemonderzoek en monitoring. De r
 
 ## Terugmelding GGM
 
-Bodemverontreiniging is een kernregistratie-object voor gemeenten als bevoegd gezag bodem. Het GGM heeft geen beleidsdomein hiervoor. Dit is een structureel hiaat — vergelijkbaar met hoe het GGM wel BAG-locaties maar niet milieu-locaties modelleert. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Bodemverontreiniging is een kernregistratie-object voor gemeenten als bevoegd gezag bodem. Het GGM heeft geen beleidsdomein hiervoor. Dit is een structureel hiaat — vergelijkbaar met hoe het GGM wel BAG-locaties maar niet milieu-locaties modelleert. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

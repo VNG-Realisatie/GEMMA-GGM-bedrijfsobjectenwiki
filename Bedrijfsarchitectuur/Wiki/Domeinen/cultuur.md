@@ -18,15 +18,15 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]] | object | Beschermd onroerend erfgoed met rijks-, provinciaal of gemeentelijke status | ✅ | 6/6 criteria, exact match (Beschermde Status) | Rijksmonument, gemeentelijk monument, beschermd gezicht | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk]] | object | Gearchiveerde informatie ongeacht medium, beheerd door gemeentearchief | ✅ | 6/6 criteria, exact match | Raadsbesluit in archief, historisch document, digitaal bestand | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject]] | object | Object met cultuurhistorische waarde in museale collectie | ✅ | 6/6 criteria, exact match | Schilderij, archeologisch artefact, historisch gebruiksvoorwerp | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats]] | object | Locatie met (verwachte) archeologische waarde | ✅ | 6/6 criteria, sterk match (GGM Vindplaats); gemeente is bevoegd gezag, beheert eigen beleidskaart | Opgraving binnenstad, Romeinse vondstlocatie | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst]] | object | Overblijfsel of voorwerp uit het verleden | ✅ | 6/6 criteria, exact match (GGM Vondst + Artefact); gemeente beheert collectie in eigen depot | Romeins schip De Meern 1, middeleeuwse moerbalk | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek]] | object | Onderzoeksproject door/namens gemeente als bevoegd gezag | ✅ | 6/6 criteria, sterk match (GGM Project); gemeente voert en begeleidt onderzoek | Opgraving Prinses Maxima Centrum, opgravingsproject Domplein | ja |
-| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/orgel]] | object | Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw | ✅ | 6/6 criteria; eigen monumentstatus, eigen levenscyclus, apart geregistreerd; GGM-hiaat | Domorgel, Bätz-orgel Jacobikerk | nee (hiaat) |
-| werelderfgoed | object | UNESCO-werelderfgoedsite met internationaal beschermingsregime | ❌ | Internationaal instrument, niet primair gemeentelijk; bescherming loopt via [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]] | Limes, NHW, Rietveld-Schröderhuis | nee |
-| beschermd stadsgezicht | object | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]] (via attribuut gezichtscode in GGM) | Binnenstad Utrecht | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | object | Beschermd onroerend erfgoed met rijks-, provinciaal of gemeentelijke status | ✅ | 6/6 criteria, exact match (Beschermde Status) | Rijksmonument, gemeentelijk monument, beschermd gezicht | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | object | Gearchiveerde informatie ongeacht medium, beheerd door gemeentearchief | ✅ | 6/6 criteria, exact match | Raadsbesluit in archief, historisch document, digitaal bestand | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | object | Object met cultuurhistorische waarde in museale collectie | ✅ | 6/6 criteria, exact match | Schilderij, archeologisch artefact, historisch gebruiksvoorwerp | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]] | object | Locatie met (verwachte) archeologische waarde | ✅ | 6/6 criteria, sterk match (GGM Vindplaats); gemeente is bevoegd gezag, beheert eigen beleidskaart | Opgraving binnenstad, Romeinse vondstlocatie | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | object | Overblijfsel of voorwerp uit het verleden | ✅ | 6/6 criteria, exact match (GGM Vondst + Artefact); gemeente beheert collectie in eigen depot | Romeins schip De Meern 1, middeleeuwse moerbalk | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | object | Onderzoeksproject door/namens gemeente als bevoegd gezag | ✅ | 6/6 criteria, sterk match (GGM Project); gemeente voert en begeleidt onderzoek | Opgraving Prinses Maxima Centrum, opgravingsproject Domplein | ja |
+| [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/orgel\|Orgel]] | object | Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw | ✅ | 6/6 criteria; eigen monumentstatus, eigen levenscyclus, apart geregistreerd; GGM-hiaat | Domorgel, Bätz-orgel Jacobikerk | nee (hiaat) |
+| werelderfgoed | object | UNESCO-werelderfgoedsite met internationaal beschermingsregime | ❌ | Internationaal instrument, niet primair gemeentelijk; bescherming loopt via [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | Limes, NHW, Rietveld-Schröderhuis | nee |
+| beschermd stadsgezicht | object | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] (via attribuut gezichtscode in GGM) | Binnenstad Utrecht | ja |
 | cultuurhistorische waardenkaart | instrument | Erfgoedwaarden in lagen en thema's, afwegingskader planvorming | ❌ | Beleidsinstrument | — | nee |
 | archeologische beleidskaart | instrument | Kaart met verwachte archeologische waarde en onderzoeksverplichtingen | ❌ | Beleidsinstrument | — | nee |
 | erfgoedverordening | instrument | Samenvoeging Monumenten- en Archeologieverordening, onderdeel omgevingsplan | ❌ | Governance-instrument | — | nee |
@@ -47,9 +47,9 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 | basisinfrastructuur (bis) | instrument | Rijksinstrument voor meerjarige cultuursubsidies | ❌ | Rijksinstrument, niet gemeentelijk | Rijksgesubsidieerde orkesten, musea | nee |
 | Erfgoedwet | instrument | Integrale wetgeving (2016) voor erfgoed, musea, archeologie | ❌ | Wet/governance | — | nee |
 | cultuurfinanciering | thema | Systematiek van publieke bekostiging van cultuur | ❌ | Beleidsmatig | Gemeentefonds-aandeel cultuur (€2 mrd) | nee |
-| luidklok | object | Klok in kerktoren, deels met eigen monumentstatus | ❌ | Onderdeel van kerkgebouw ([[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]]), geen zelfstandig BO | 112 luidklokken in Utrecht | nee |
+| luidklok | object | Klok in kerktoren, deels met eigen monumentstatus | ❌ | Onderdeel van kerkgebouw ([[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]]), geen zelfstandig BO | 112 luidklokken in Utrecht | nee |
 | ensemble | object | Samenhangend geheel van kerk met bijgebouwen | ❌ | Geen eigen bestaan los van individuele monumenten; cultuurhistorische samenhang is kenmerk | Kerk + pastorie + school | nee |
-| kerkgebouw | object | Religieus gebouw met monumentstatus | ❌ | Type van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]], geen apart BO | Domkerk, Janskerk, Pieterskerk | ja |
+| kerkgebouw | object | Religieus gebouw met monumentstatus | ❌ | Type van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]], geen apart BO | Domkerk, Janskerk, Pieterskerk | ja |
 | herbestemmingsprofiel | instrument | Bouwhistorisch onderzoek + waardestelling + transformatieruimte bij herbestemming | ❌ | Beleidsinstrument | Profiel Westerkerk, profiel Josephkerk | nee |
 | waardestelling | instrument | Vaststelling kernwaarden van een monument als uitgangspunt voor herbestemming | ❌ | Beleidsinstrument | — | nee |
 | carillon | object | Klokkenspel in kerktoren, eigendom gemeente | ❌ | Specifiek type luidklok-ensemble; drie stuks, geen apart BO naast Monument | Hemony-beiaard Domtoren | nee |
@@ -87,7 +87,7 @@ Museumobject → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/muse
 
 ### Cultuurbeleid
 
-Het GGM bevat **geen** beleidsdomein voor cultuurbeleid. Begrippen als cultuurvisie, cultuurfinanciering, ringenmodel zijn governance en beleid — structureel buiten GGM-scope (zie [[Wiki/Analyses/ggm-dekkingspatroon]]).
+Het GGM bevat **geen** beleidsdomein voor cultuurbeleid. Begrippen als cultuurvisie, cultuurfinanciering, ringenmodel zijn governance en beleid — structureel buiten GGM-scope (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
 
 ## Verwerkte bronnen
 
@@ -95,11 +95,11 @@ Het GGM bevat **geen** beleidsdomein voor cultuurbeleid. Begrippen als cultuurvi
 - [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur|Propositie Samen cultuur borgen]] — VNG-propositie vier pijlers cultuurbeleid
 - [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed|Architectuur en erfgoed]] — VNG-overzicht erfgoed, monumenten, archeologie
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG-overzicht bibliotheekwerk
-- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel]] — VNG-actualisering ringenmodel 2.0
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]] — Gemeente Utrecht, erfgoedbeleid 2021: monumenten, archeologie, verduurzaming, klimaatadaptatie
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Visie religieus erfgoed 2025]] — Gemeente Utrecht, geactualiseerde visie op religieus erfgoed: kerkgebouwen, orgels, herbestemming
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid Utrecht]] — Gemeente Utrecht, overzichtspagina erfgoedbeleid (secundaire bron)
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen visie religieus erfgoed]] — Gemeente Utrecht, referentiemateriaal: tabellen orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel — de culturele infrastructuur van gemeenten]] — VNG-actualisering ringenmodel 2.0
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']] — Gemeente Utrecht, erfgoedbeleid 2021: monumenten, archeologie, verduurzaming, klimaatadaptatie
+- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht, geactualiseerde visie op religieus erfgoed: kerkgebouwen, orgels, herbestemming
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht, overzichtspagina erfgoedbeleid (secundaire bron)
+- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht, referentiemateriaal: tabellen orgels, klokken, ensembles
 
 ## Nog te verwerken bronnen
 

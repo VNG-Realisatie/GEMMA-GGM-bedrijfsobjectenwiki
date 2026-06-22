@@ -93,6 +93,6 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 ## Terugmelding GGM
 
-**Definitieverbetering OpenbareActiviteit.** De huidige GGM-definitie "Activiteit in het publieke domein" is te breed. Een specifiekere definitie en uitbreiding met relaties naar locatie en vergunning zou de bruikbaarheid vergroten. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Definitieverbetering OpenbareActiviteit.** De huidige GGM-definitie "Activiteit in het publieke domein" is te breed. Een specifiekere definitie en uitbreiding met relaties naar locatie en vergunning zou de bruikbaarheid vergroten. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ⚠️ **Aantekening**: er is behoefte aan een generiek BO **Vergunning** dat domeinoverstijgend werkt. Het GGM kent diverse vergunninggerelateerde entiteiten (VOMAanvraagOfMelding, VTHzaak, Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) maar geen overkoepelend vergunningsconcept. [[Evenementenvergunning]] is voorlopig als apart BO opgenomen.

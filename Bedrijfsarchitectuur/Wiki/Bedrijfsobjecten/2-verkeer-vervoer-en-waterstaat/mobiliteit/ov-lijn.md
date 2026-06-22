@@ -65,7 +65,7 @@ Een OV-lijn is een tram- of buslijn met een vaste route, dienstregeling en frequ
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk OV-beleid en concessiebeheer. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de gewenste uitbreiding van het lijnennet.
+Afgeleid uit het gemeentelijk OV-beleid en concessiebeheer. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de gewenste uitbreiding van het lijnennet.
 
 ## Relaties
 
@@ -74,4 +74,4 @@ Afgeleid uit het gemeentelijk OV-beleid en concessiebeheer. Het [[Wiki/Bronsamen
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor OV-lijnen. Dit is een registratieobject: gemeenten registreren lijnen met route, frequentie, modaliteit en concessiehouder. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor OV-lijnen. Dit is een registratieobject: gemeenten registreren lijnen met route, frequentie, modaliteit en concessiehouder. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

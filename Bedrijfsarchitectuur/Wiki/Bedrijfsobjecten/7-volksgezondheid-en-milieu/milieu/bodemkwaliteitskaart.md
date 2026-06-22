@@ -64,9 +64,9 @@ De kaart bevat ontgravingskwaliteit (wat zit er in de grond?) en toepassingseise
 
 Wettelijke basis in het Besluit kwaliteit leefomgeving (voorheen Besluit bodemkwaliteit):
 
-> "In het Besluit kwaliteit leefomgeving staat dat een gemeente een bodemkwaliteitskaart en een bodembeheerplan kan hebben." (bron: [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|beleid bodem, grondwater en ondergrond]])
+> "In het Besluit kwaliteit leefomgeving staat dat een gemeente een bodemkwaliteitskaart en een bodembeheerplan kan hebben." (bron: [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]])
 
-> "Belangrijk onderdeel van de nota zijn de bodemkwaliteitskaarten, waarin de kwaliteit van de grond in alle wijken van de gemeente Utrecht is beschreven." (bron: [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer]])
+> "Belangrijk onderdeel van de nota zijn de bodemkwaliteitskaarten, waarin de kwaliteit van de grond in alle wijken van de gemeente Utrecht is beschreven." (bron: [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027 (Grondig Werken 4)]])
 
 ## Relaties
 
@@ -81,4 +81,4 @@ Wettelijke basis in het Besluit kwaliteit leefomgeving (voorheen Besluit bodemkw
 
 ## Terugmelding GGM
 
-Het GGM heeft geen beleidsdomein voor bodem of milieu (buiten Afval). De bodemkwaliteitskaart is een wettelijk verplicht ruimtelijk instrument dat elke gemeente kan opstellen. Dit is een structureel GGM-hiaat in taakveld 7 (Volksgezondheid en Milieu). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM heeft geen beleidsdomein voor bodem of milieu (buiten Afval). De bodemkwaliteitskaart is een wettelijk verplicht ruimtelijk instrument dat elke gemeente kan opstellen. Dit is een structureel GGM-hiaat in taakveld 7 (Volksgezondheid en Milieu). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

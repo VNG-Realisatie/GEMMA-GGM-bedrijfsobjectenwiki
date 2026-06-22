@@ -16,9 +16,9 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement]] | object | Georganiseerde activiteit met publiek in de openbare ruimte | ✅ | 6/6 criteria, partiële GGM-match | Festival, braderie, sportevenement, stadsfeest | ja (OpenbareActiviteit) |
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
-| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement\|Evenement]] | object | Georganiseerde activiteit met publiek in de openbare ruimte | ✅ | 6/6 criteria, partiële GGM-match | Festival, braderie, sportevenement, stadsfeest | ja (OpenbareActiviteit) |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie\|Evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning\|Evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
 | locatieprofiel | instrument | Set van regels per locatie: evenementendagen, omvang, geluid, rust | ❌ | Governance-instrument, geen zelfstandig object | Profiel Maliebaan, profiel Griftpark | nee |
 | reserveringskalender | instrument | Jaarlijkse kalender met toegewezen evenementen per locatie/datum | ❌ | Planningsinstrument, geen zelfstandig bestaan los van evenementen | Kalender 2025 | nee |
 | beoordelingscriteria | regel | Vier criteria voor verdeling bij overaanmelding | ❌ | Beleidsregels, geen object | Maatschappelijke waarde, inclusiviteit | nee |
@@ -42,7 +42,7 @@ Dit patroon — beleidspraktijk rijker dan het datamodel — sluit aan bij het [
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen 2024-2030]] — Gemeente Utrecht, juni 2024 (hoofdbron)
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht, juni 2024 (hoofdbron)
 - [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht, omgevingsvisie.utrecht.nl (secundair)
 
 ## Openstaande vragen of hiaten
@@ -52,4 +52,4 @@ Dit patroon — beleidspraktijk rijker dan het datamodel — sluit aan bij het [
 
 ## Terugmeldingen richting GGM
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -60,11 +60,11 @@ Geen GGM-entiteit. Geen verwant concept in het GGM.
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "Bij speelplekken (beheerd en onbeheerd), sportlocaties, musea en bushokjes hebben we rookvrije zones ingesteld, vooral gericht op het beschermen van kinderen. De gemeente kan hier niet op handhaven, maar er gaat wel een (collectief) sturende werking van uit en ze zijn effectief."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.5.1)
 
 ## Terugmelding GGM
 
-**Rookvrije zone** — Registratieobject voor aangewezen rookvrije locaties. Zou onder een beleidsdomein Volksgezondheid of Luchtkwaliteit (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Rookvrije zone** — Registratieobject voor aangewezen rookvrije locaties. Zou onder een beleidsdomein Volksgezondheid of Luchtkwaliteit (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -60,7 +60,7 @@ Een saneringsplan beschrijft hoe een bodem- of grondwaterverontreiniging wordt a
 
 Er bestaan twee vormen: een **gevalgericht saneringsplan** (per individuele verontreiniging) en een **gebiedsgericht beheerplan** (voor een heel beheergebied met vermengde verontreinigingen). Het Utrechtse gebiedsplan is een bijzondere vorm van het tweede type.
 
-> "Wettelijke voorwaarde hiervoor is een vastgesteld gebiedsplan waarin de gemeente beschrijft hoe het beheer is georganiseerd en welke beheersmaatregelen worden genomen." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]])
+> "Wettelijke voorwaarde hiervoor is een vastgesteld gebiedsplan waarin de gemeente beschrijft hoe het beheer is georganiseerd en welke beheersmaatregelen worden genomen." (bron: [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond]])
 
 ## Procesbron
 
@@ -73,4 +73,4 @@ Saneringsplannen ontstaan in het saneringsproces wanneer een verontreiniging als
 
 ## Terugmelding GGM
 
-Saneringsplan is een registratie-object dat gemeenten als bevoegd gezag opstellen en beheren. Geen GGM-equivalent. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Saneringsplan is een registratie-object dat gemeenten als bevoegd gezag opstellen en beheren. Geen GGM-equivalent. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

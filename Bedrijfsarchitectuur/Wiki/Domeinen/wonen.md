@@ -73,16 +73,16 @@ Daarnaast matchen twee GGM-entiteiten uit andere taakvelden op wonen-BO's:
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht 2025-2030]]
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht: Van woningmarkt naar volkshuisvesting 2025-2030]]
 - [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht|Huisvestingsverordening gemeente Utrecht]]
-- [[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening|Nadere regel Huisvestingsverordening]]
-- [[Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening|Beleidsregel Huisvestingsverordening]]
+- [[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening|Nadere regel Huisvestingsverordening gemeente Utrecht]]
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening|Beleidsregel Huisvestingsverordening gemeente Utrecht]]
 - [[Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen|Actieplan betaalbare koopwoningen 2021]]
-- [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur 2017]]
-- [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Werkwijze extra woningen toevoegen]]
+- [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur Actualisatie 2017]]
+- [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Optoppen, aanplakken en ondertoppen: de Utrechtse werkwijze]]
 - [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht|Beleid voor woonboten en historische schepen]]
 - [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007|Woonbotenbeleid (september 2007)]]
-- [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden van historische schepen (december 2015)]]
+- [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden van historische schepen in Utrecht (december 2015)]]
 
 ## Nog te verwerken bronnen
 
@@ -98,4 +98,4 @@ Daarnaast matchen twee GGM-entiteiten uit andere taakvelden op wonen-BO's:
 - **Middenhuurwoning** — Ontbreekt als subtype van Gebouw. Wettelijk gereguleerd segment sinds 2024.
 - **Urgentverklaring** — Ontbreekt als objecttype. Beschikking met eigen levenscyclus en categorieën.
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]] voor het volledige overzicht.
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] voor het volledige overzicht.

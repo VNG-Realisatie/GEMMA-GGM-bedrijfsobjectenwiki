@@ -72,7 +72,7 @@ Bij een negatief advies moet de motivatie worden onderbouwd vanuit de welstandsc
 
 Het welstandsadvies ontstaat in het **omgevingsvergunningproces**. Na ontvangst van een aanvraag omgevingsvergunning wordt beoordeeld of een welstandstoets nodig is (kanbepaling). Het advies is een verplicht onderdeel van de vergunningprocedure voor vergunningplichtige bouwwerken, tenzij het bouwwerk welstandsvrij is verklaard.
 
-Zie [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota - De Utrechtse aanpak]] voor het toetsingskader.
+Zie [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]] voor het toetsingskader.
 
 ## GGM-relatie
 

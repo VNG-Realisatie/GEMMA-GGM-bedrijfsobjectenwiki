@@ -58,7 +58,7 @@ relaties:
 
 Een bed-and-breakfast is een kleinschalige logiesaccommodatie met maximaal vier kamers, doorgaans geëxploiteerd vanuit een woning. De gemeente ziet B&B's als een welkome aanvulling op het reguliere hotelaanbod. Ze bedienen een eigen marktsegment en hebben beperkte invloed op de marktruimte voor hotels.
 
-> "Bed-and-breakfastverstrekkers zijn in Utrecht een welkome aanvulling op het aanbod van reguliere hotels." — [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|Actualisatie marktruimte hotelnota]]
+> "Bed-and-breakfastverstrekkers zijn in Utrecht een welkome aanvulling op het aanbod van reguliere hotels." — [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|Actualisatie marktruimte hotelnota 'Room With A View']]
 
 ## Procesbron
 

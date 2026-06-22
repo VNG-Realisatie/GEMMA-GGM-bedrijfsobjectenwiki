@@ -79,7 +79,7 @@
 - Bronnen opgehaald via /fetch: omgevingsvisie.utrecht.nl/thematisch-beleid/beleid-voor-sport-en-bewegen + 3 PDF's (beleidsnota 2025-2032, raadsbrief, uitvoeringsprogramma 2025-2026).
 - PDF's geconverteerd naar markdown met convert_pdf.py.
 - 2 bronnen niet-relevant verklaard: webpagina-samenvatting en raadsbrief (geen eigen informatie).
-- 2 bronsamenvattingen: [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]], [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]].
+- 2 bronsamenvattingen: [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032|Beleidsnota Sport en Bewegen 2025-2032]], [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025|Uitvoeringsprogramma Sport en Bewegen 2025-2026]].
 - **7 BO's aangemaakt** (GGM beleidsdomein Sport, taakveld 5):
   - **Sportlocatie** (6/6, GGM exact) — abstracte generalisatie
   - **Sportpark** (6/6, GGM exact) — specialisatie Sportlocatie
@@ -89,7 +89,7 @@
   - **Sportvereniging** (6/6, GGM exact) — actor, goedgekeurd door team
   - **Sportmateriaal** (6/6, GGM exact)
 - 5 niet-BO begrippen: sport- en beweegaanbieder, sportaccommodatie, beweegvriendelijke openbare ruimte, urban sports, positieve sportcultuur.
-- Nieuw domeinoverzicht: [[Wiki/Domeinen/sport-en-bewegen]].
+- Nieuw domeinoverzicht: [[Wiki/Domeinen/sport-en-bewegen|Sport En Bewegen]].
 - **1 GGM-terugmelding:** Zwembad ontbreekt in GGM beleidsdomein Sport.
 - GGM-dekking Sport: 6/13 entiteiten → BO, 5 niet-BO (4× Proxyconnector + Belijning), 2 meetwaarden (Bezetting, Onderhoudskosten).
 
@@ -97,7 +97,7 @@
 - Bron opgehaald via /fetch: omgevingsvisie.utrecht.nl/thematisch-beleid/speelruimte + PDF "Spelen in je eigen buurt" (48 p., maart 2022).
 - PDF geconverteerd naar markdown met convert_pdf.py, opgeslagen in `Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/`.
 - Webpagina verplaatst naar Niet-relevant (volledig gedekt door PDF).
-- Bronsamenvatting: [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]].
+- Bronsamenvatting: [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht]].
 - 1 nieuw BO: **Speelterrein** (6/6 criteria, exact GGM-match FunctioneelGebied). Subtypes: buurtplek, blokplek, speelhoekje, stedelijke sportplek.
 - 1 BO verrijkt: **Speeltoestel** — bron en relatie naar Speelterrein toegevoegd.
 - 6 nieuwe begrippen in domeinoverzicht BOR: speelterrein (BO), speelbuurt, buurtplek, blokplek, speelruimtenorm, speelruimtescan.
@@ -424,7 +424,7 @@
   - **Stembureau**: Registratieobject (fysieke locaties met capaciteit) → **wel terugmelding** (dataobject, pakt in GGM-scope)
   - **Gemeenschappelijke Regeling**: Juridische entiteit met registreerbare eigenschappen → **wel terugmelding** (dataobject, pakt in GGM-scope)
 - BO-pagina's bijgewerkt met uitleg waarom sommige processen zijn (en dus niet in GGM-scope)
-- [[Wiki/Analyses/ggm-terugmeldingen]] bijgewerkt: 4 items → 2 items (alleen Stembureau en GR als potentiële hiaten)
+- [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] bijgewerkt: 4 items → 2 items (alleen Stembureau en GR als potentiële hiaten)
 
 ## [2026-06-19] ingest | Bestuur — 4 BO's aangemaakt
 - Bronnen: 9 VNG-onderwerpenpagina's (rubriek + 8 onderwerpen)

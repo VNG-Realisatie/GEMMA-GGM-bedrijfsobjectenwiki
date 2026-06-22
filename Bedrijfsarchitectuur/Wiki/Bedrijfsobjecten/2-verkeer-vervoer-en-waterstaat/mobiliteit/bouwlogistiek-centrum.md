@@ -55,7 +55,7 @@ Een bouwlogistiek centrum is een tijdelijke hub waar bouwmaterialen en -personee
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk bouwlogistiek beleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft bouwlogistieke centra als instrument om bouwverkeer te bundelen en hinder te beperken bij grote bouwprojecten.
+Afgeleid uit het gemeentelijk bouwlogistiek beleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft bouwlogistieke centra als instrument om bouwverkeer te bundelen en hinder te beperken bij grote bouwprojecten.
 
 ## Relaties
 
@@ -63,4 +63,4 @@ Afgeleid uit het gemeentelijk bouwlogistiek beleid. Het [[Wiki/Bronsamenvattinge
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor bouwlogistieke centra. Dit is een registratieobject: gemeenten kennen locaties toe met eigenschappen als looptijd, capaciteit en gekoppeld bouwproject. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor bouwlogistieke centra. Dit is een registratieobject: gemeenten kennen locaties toe met eigenschappen als looptijd, capaciteit en gekoppeld bouwproject. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -14,7 +14,7 @@ Gemeenten voeren een gebiedsgerichte aanpak via het warmteprogramma, met wetteli
 
 ## Kernbegrippen
 
-- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]** — warmtelevering aan gebouwen, governance via Wcw
+- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]** — warmtelevering aan gebouwen, governance via Wcw
 - **warmteprogramma** — wettelijk verplicht gemeentelijk plan voor warmtetransitie (Wgiw)
 - **Wgiw** — Wet gemeentelijke instrumenten warmtetransitie, wettelijke grondslag
 - **Wcw** — Collectieve Warmtewet, regelt tarieven en gemeentelijke governance warmtenetten
@@ -23,4 +23,4 @@ Gemeenten voeren een gebiedsgerichte aanpak via het warmteprogramma, met wetteli
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Levert wettelijke context voor [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]: de Wcw geeft de gemeente governance over warmtenetten. Het warmteprogramma is het wettelijk instrument waarmee de gemeente de warmtetransitie buurt-voor-buurt aanstuurt. Beide wetten (Wgiw, Wcw) bevestigen de gemeentelijke rol maar leveren geen zelfstandige BO's op.
+Levert wettelijke context voor [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]: de Wcw geeft de gemeente governance over warmtenetten. Het warmteprogramma is het wettelijk instrument waarmee de gemeente de warmtetransitie buurt-voor-buurt aanstuurt. Beide wetten (Wgiw, Wcw) bevestigen de gemeentelijke rol maar leveren geen zelfstandige BO's op.

@@ -19,12 +19,12 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart]] | instrument | Kaart met vastgestelde bodemkwaliteit per zone | ✅ | 6/6 criteria, wettelijk instrument, GGM-hiaat | Ontgravingskaart, toepassingskaart | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging]] | object | Geregistreerde verontreinigingslocatie met type en status | ✅ | 6/6 criteria, registratie bevoegd gezag, GGM-hiaat | VOCl-pluim centrum, PFAS-locatie | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/saneringsplan]] | object | Plan voor aanpak verontreiniging met maatregelen en fasering | ✅ | 6/6 criteria, wettelijk verplicht, GGM-hiaat | Gevalgericht saneringsplan, gebiedsplan | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondwatermeetpunt]] | object | Fysiek meetpunt in monitoringsnetwerk | ✅ | 6/6 criteria, registratie beheerder, GGM-hiaat | Peilbuis, monitoringsput | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet]] | object | Registratie van grondverplaatsing met kwaliteit en volume | ✅ | 6/6 criteria, meldingsplicht, GGM-hiaat | Grondtransport bouwproject | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem]] | object | WKO-installatie in de ondergrond | ✅ | 6/6 criteria, vergunningsplichtig, GGM-hiaat | Open WKO kantoorgebouw | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart\|Bodemkwaliteitskaart]] | instrument | Kaart met vastgestelde bodemkwaliteit per zone | ✅ | 6/6 criteria, wettelijk instrument, GGM-hiaat | Ontgravingskaart, toepassingskaart | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging\|Bodemverontreiniging]] | object | Geregistreerde verontreinigingslocatie met type en status | ✅ | 6/6 criteria, registratie bevoegd gezag, GGM-hiaat | VOCl-pluim centrum, PFAS-locatie | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/saneringsplan\|Saneringsplan]] | object | Plan voor aanpak verontreiniging met maatregelen en fasering | ✅ | 6/6 criteria, wettelijk verplicht, GGM-hiaat | Gevalgericht saneringsplan, gebiedsplan | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondwatermeetpunt\|Grondwatermeetpunt]] | object | Fysiek meetpunt in monitoringsnetwerk | ✅ | 6/6 criteria, registratie beheerder, GGM-hiaat | Peilbuis, monitoringsput | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet\|Grondverzet]] | object | Registratie van grondverplaatsing met kwaliteit en volume | ✅ | 6/6 criteria, meldingsplicht, GGM-hiaat | Grondtransport bouwproject | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem\|Bodemenergiesysteem]] | object | WKO-installatie in de ondergrond | ✅ | 6/6 criteria, vergunningsplichtig, GGM-hiaat | Open WKO kantoorgebouw | nee |
 | dynamische zone | classificatie | Kerngebied met vermengde grondwaterverontreinigingen | ❌ | Ruimtelijke aanduiding, classificatie van beheergebied | Centrum Utrecht | nee |
 | bufferzone | classificatie | Overgangszone rondom de dynamische zone | ❌ | Ruimtelijke aanduiding, classificatie van beheergebied | Ring rond centrum | nee |
 | lokale maximale waarden | instrument | Gebiedsspecifieke normen die afwijken van landelijk beleid | ❌ | Norm/drempel, eigenschap van beleid, geen zelfstandig object | PCB-norm Leidsche Rijn | nee |
@@ -38,16 +38,16 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container]] | object | Voorziening voor gescheiden inzameling huishoudelijk afval | ✅ | 6/6 criteria, GGM exact (Container) | Ondergrondse container, kliko, citybin | ja |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom]] | object | Afzonderlijke afval-/grondstofstroom met eigen beleid | ✅ | 6/6 criteria, GGM sterk (Fractie) | GFT, PBP, papier, glas, textiel | ja |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat]] | object | Voorziening voor gescheiden aanbieden grof afval | ✅ | 6/6 criteria, GGM exact (Milieustraat) | Tractieweg, Lunetten | ja |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing]] | object | Gemeentelijke belasting voor afvalbeheerkosten | ✅ | 6/6 criteria, GGM partieel (Prijsafspraak) | Jaarlijkse heffing per huishouden | ja |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/verwerkingscontract]] | object | Overeenkomst met verwerker voor afvalverwerking | ✅ | 6/6 criteria, procesobject | AVU-contract restafval, AVR nascheiding | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/inzamelcontract]] | object | Overeenkomst gemeente-bedrijf voor bedrijfsafval | ✅ | 6/6 criteria, procesobject | Contract horeca binnenstad | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/upcyclecentrum]] | object | Voorziening voor hergebruik grof huishoudelijk afval | ✅ | 6/6 criteria, procesobject, GGM-hiaat | Tractieweg, Lunetten (gepland) | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot]] | object | Opslag vrijkomende materialen voor hergebruik | ✅ | 6/6 criteria, procesobject, GGM-hiaat | Lage Weide | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort]] | instrument | Digitale vastlegging materialen in gebouw/object | ✅ ⚠️ | 5/6 criteria, instrument — ter discussie | Paspoort kantoorgebouw | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening]] | instrument | Gemeentelijke verordening voor afvalinzameling | ✅ ⚠️ | 5/6 criteria, governance — ter discussie | Opt-in systeem reclamedrukwerk | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | object | Voorziening voor gescheiden inzameling huishoudelijk afval | ✅ | 6/6 criteria, GGM exact (Container) | Ondergrondse container, kliko, citybin | ja |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | object | Afzonderlijke afval-/grondstofstroom met eigen beleid | ✅ | 6/6 criteria, GGM sterk (Fractie) | GFT, PBP, papier, glas, textiel | ja |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | object | Voorziening voor gescheiden aanbieden grof afval | ✅ | 6/6 criteria, GGM exact (Milieustraat) | Tractieweg, Lunetten | ja |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] | object | Gemeentelijke belasting voor afvalbeheerkosten | ✅ | 6/6 criteria, GGM partieel (Prijsafspraak) | Jaarlijkse heffing per huishouden | ja |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/verwerkingscontract\|Verwerkingscontract]] | object | Overeenkomst met verwerker voor afvalverwerking | ✅ | 6/6 criteria, procesobject | AVU-contract restafval, AVR nascheiding | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/inzamelcontract\|Inzamelcontract]] | object | Overeenkomst gemeente-bedrijf voor bedrijfsafval | ✅ | 6/6 criteria, procesobject | Contract horeca binnenstad | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/upcyclecentrum\|Upcyclecentrum]] | object | Voorziening voor hergebruik grof huishoudelijk afval | ✅ | 6/6 criteria, procesobject, GGM-hiaat | Tractieweg, Lunetten (gepland) | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot\|Grondstoffendepot]] | object | Opslag vrijkomende materialen voor hergebruik | ✅ | 6/6 criteria, procesobject, GGM-hiaat | Lage Weide | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort\|Materiaalpasspoort]] | instrument | Digitale vastlegging materialen in gebouw/object | ✅ ⚠️ | 5/6 criteria, instrument — ter discussie | Paspoort kantoorgebouw | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening\|Afvalstoffenverordening]] | instrument | Gemeentelijke verordening voor afvalinzameling | ✅ ⚠️ | 5/6 criteria, governance — ter discussie | Opt-in systeem reclamedrukwerk | nee |
 | Het Nieuwe Inzamelen (HNI) | thema | Inzamelsysteem met gescheiden ophalen en brengen restafval | ❌ | Proces/systeem, geen zelfstandig object | — | nee |
 | nascheiding | thema | Machinale scheiding van PBP uit restafval | ❌ | Verwerkingsproces, geen object | — | nee |
 | circulaire economie | concept | Economisch systeem gericht op grondstoffenbehoud | ❌ | Beleidsconcept, geen object | — | nee |
@@ -57,13 +57,13 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieuzone]] | object | Afgebakend gebied met toegangsbeperkingen op basis van emissieklasse | ✅ | 6/6 criteria, GGM-hiaat | Milieuzone diesel personenauto, nul-emissiezone bestel/vracht | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/vuurwerkvrije-zone]] | object | Aangewezen zone met vuurwerkverbod | ✅ | 6/6 criteria, GGM-hiaat | 150 zones jaarwisseling 2022-2024 | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/luchtkwaliteitsmeetpunt]] | object | Fysieke meetlocatie in het gemeentelijk luchtkwaliteitsmeetnet | ✅ | 6/6 criteria, GGM-hiaat | 64 NO2-meetpunten, 3 RIVM-stations | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/rookvrije-zone]] | object | Aangewezen zone waar roken niet is toegestaan | ✅ | 6/6 criteria, GGM-hiaat | Bushaltes, speelplekken, sportlocaties, USP | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/ontheffing-milieuzone]] | object | Individuele uitzondering op milieuzoneregels | ✅ | 6/6 criteria, GGM-hiaat | Ontheffing camper, ontheffing oldtimer | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt]] | object | Fysiek aansluitpunt voor walstroom aan scheepvaart | ✅ | 6/6 criteria, GGM-hiaat | Ca. 50 punten in Utrecht | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling]] | instrument | Subsidieregeling voor vervanging voertuig bij milieuzone-aanscherping | ✅ ⚠️ | 6/6 criteria, instrument — ter discussie | Sloopsubsidie milieuzone, inruilregeling brom/snor | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieuzone\|Milieuzone]] | object | Afgebakend gebied met toegangsbeperkingen op basis van emissieklasse | ✅ | 6/6 criteria, GGM-hiaat | Milieuzone diesel personenauto, nul-emissiezone bestel/vracht | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/vuurwerkvrije-zone\|Vuurwerkvrije zone]] | object | Aangewezen zone met vuurwerkverbod | ✅ | 6/6 criteria, GGM-hiaat | 150 zones jaarwisseling 2022-2024 | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/luchtkwaliteitsmeetpunt\|Luchtkwaliteitsmeetpunt]] | object | Fysieke meetlocatie in het gemeentelijk luchtkwaliteitsmeetnet | ✅ | 6/6 criteria, GGM-hiaat | 64 NO2-meetpunten, 3 RIVM-stations | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/rookvrije-zone\|Rookvrije zone]] | object | Aangewezen zone waar roken niet is toegestaan | ✅ | 6/6 criteria, GGM-hiaat | Bushaltes, speelplekken, sportlocaties, USP | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/ontheffing-milieuzone\|Ontheffing (milieuzone)]] | object | Individuele uitzondering op milieuzoneregels | ✅ | 6/6 criteria, GGM-hiaat | Ontheffing camper, ontheffing oldtimer | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt\|Walstroompunt]] | object | Fysiek aansluitpunt voor walstroom aan scheepvaart | ✅ | 6/6 criteria, GGM-hiaat | Ca. 50 punten in Utrecht | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling\|Sloopregeling]] | instrument | Subsidieregeling voor vervanging voertuig bij milieuzone-aanscherping | ✅ ⚠️ | 6/6 criteria, instrument — ter discussie | Sloopsubsidie milieuzone, inruilregeling brom/snor | nee |
 | houtstookverbod | governance | Regulerend kader voor verbod op houtstook | ❌ | Governance-instrument, geen zelfstandig object | Buitenstookverbod 2025, binnenstookverbod 2030 | nee |
 | Schone Lucht Akkoord (SLA) | governance | Landelijk akkoord Rijk-provincies-gemeenten | ❌ | Extern akkoord, geen gemeentelijk object | — | nee |
 | convenant SEB | governance | Landelijk convenant Schoon en Emissieloos Bouwen | ❌ | Externe samenwerkingsafspraak | — | nee |
@@ -76,18 +76,18 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal]] | object | Constructie voor het verpompen van water in het rioleringssysteem | ✅ | 6/6 criteria, GGM exact (Gemaal) | Rioolgemaal Kardinaal de Jongweg, minigemalen, eindgemalen | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kolk]] | object | Reservoir voor opvang hemelwater en afvoer naar riool of ondergrond | ✅ | 6/6 criteria, GGM exact (Kolk) | Straatkolk, amfibievriendelijke kolk | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie]] | object | Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater | ✅ | 6/6 criteria, GGM exact (Overstortconstructie) | 156 gemengde overstorten in Utrecht | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin]] | object | Gesloten reservoir achter overstort voor tijdelijke opvang overstortwater | ✅ | 6/6 criteria, GGM exact (Bergingsbassin) | 18 bergbezinkbassins in Utrecht | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject]] | object | Functioneel stuk oppervlaktewater dat de gemeente beheert | ✅ | 6/6 criteria, GGM exact (Waterobject) | Watergangen, vijvers, grachten, kanalen, vaarwater | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied]] | gebied | Administratief beheersgebied van het rioolstelsel | ✅ | 6/6 criteria, GGM exact (Rioleringsgebied) | Zuiveringsgebied rwzi Brailledreef | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put]] | object | Verticale constructie voor inspectie en onderhoud van riolering | ✅ | 6/6 criteria, GGM exact (Put), subtypes Drainageput/Filterput/Infiltratieput | Rioolput, drainageput | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek]] | object | Locatie in open water waar buiten gezwommen wordt | ✅ | 6/6 criteria, GGM-hiaat | Haarrijnseplas, Strijkviertelplas, Muntsluis | nee |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats]] | object | Aangewezen plek in het water voor permanent afmeren van drijvend object | ✅ | 6/6 criteria, GGM: Ligplaats (BAG, exact) | 482 recreatief + 334 woonboten | ja |
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing]] | object | Gemeentelijke belasting voor water- en rioleringsbeheer | ✅ | 6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing]] | €254/jaar eigenarenheffing | nee |
-| sluis | subtype | Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen | ✅ subtype | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk]], GGM-hiaat | Weerdsluis, Muntsluis | nee |
-| pomp | onderdeel | Technische installatie voor watertransport onder druk | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal]], te granulair | — | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]] | object | Constructie voor het verpompen van water in het rioleringssysteem | ✅ | 6/6 criteria, GGM exact (Gemaal) | Rioolgemaal Kardinaal de Jongweg, minigemalen, eindgemalen | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kolk\|Kolk]] | object | Reservoir voor opvang hemelwater en afvoer naar riool of ondergrond | ✅ | 6/6 criteria, GGM exact (Kolk) | Straatkolk, amfibievriendelijke kolk | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] | object | Constructie die bij zware neerslag verdund afvalwater loost op oppervlaktewater | ✅ | 6/6 criteria, GGM exact (Overstortconstructie) | 156 gemengde overstorten in Utrecht | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] | object | Gesloten reservoir achter overstort voor tijdelijke opvang overstortwater | ✅ | 6/6 criteria, GGM exact (Bergingsbassin) | 18 bergbezinkbassins in Utrecht | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/waterobject\|Waterobject]] | object | Functioneel stuk oppervlaktewater dat de gemeente beheert | ✅ | 6/6 criteria, GGM exact (Waterobject) | Watergangen, vijvers, grachten, kanalen, vaarwater | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | gebied | Administratief beheersgebied van het rioolstelsel | ✅ | 6/6 criteria, GGM exact (Rioleringsgebied) | Zuiveringsgebied rwzi Brailledreef | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/put\|Put]] | object | Verticale constructie voor inspectie en onderhoud van riolering | ✅ | 6/6 criteria, GGM exact (Put), subtypes Drainageput/Filterput/Infiltratieput | Rioolput, drainageput | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/buitenzwemplek\|Buitenzwemplek]] | object | Locatie in open water waar buiten gezwommen wordt | ✅ | 6/6 criteria, GGM-hiaat | Haarrijnseplas, Strijkviertelplas, Muntsluis | nee |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | object | Aangewezen plek in het water voor permanent afmeren van drijvend object | ✅ | 6/6 criteria, GGM: Ligplaats (BAG, exact) | 482 recreatief + 334 woonboten | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/rioolheffing\|Rioolheffing]] | object | Gemeentelijke belasting voor water- en rioleringsbeheer | ✅ | 6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] | €254/jaar eigenarenheffing | nee |
+| sluis | subtype | Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen | ✅ subtype | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]], GGM-hiaat | Weerdsluis, Muntsluis | nee |
+| pomp | onderdeel | Technische installatie voor watertransport onder druk | ❌ | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal\|Gemaal]], te granulair | — | ja |
 | uitlaatconstructie | onderdeel | Eindpunt rioolleiding naar oppervlaktewater | ❌ | Te granulair voor BO-niveau | — | ja |
 | persleiding | onderdeel | Riolering met kunstmatig drukverschil | ❌ | Type riolering, eigenschap van systeem | 150 km in Utrecht | nee |
 | hemelwaterriool | onderdeel | Apart leidingstelsel voor hemelwater | ❌ | Type riolering, eigenschap van gescheiden stelsel | — | nee |
@@ -115,11 +115,11 @@ Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Mil
 
 | GGM-entiteit | BO? | Toelichting |
 |---|---|---|
-| **Container** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container]] | Exact match |
+| **Container** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | Exact match |
 | **Containertype** | ❌ | Subtypes van Container (kliko, ondergronds, citybin) |
-| **Fractie** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom]] | Sterk match, BO heet "Grondstofstroom" |
-| **Milieustraat** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat]] | Exact match |
-| **Prijsafspraak** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing]] | Partieel match |
+| **Fractie** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | Sterk match, BO heet "Grondstofstroom" |
+| **Milieustraat** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | Exact match |
+| **Prijsafspraak** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] | Partieel match |
 | **Prijsregel** | ❌ | Detail van Prijsafspraak, te granulair voor BO-niveau |
 | **Locatie** | ❌ | Generiek locatieconcept, geen zelfstandig BO in dit domein |
 | **Ophaalmoment** | ❌ | Operationele registratie, te granulair |
@@ -129,7 +129,7 @@ Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Mil
 | **Vulgraadmeting** | ❌ | Sensordata, eigenschap van Container |
 | **Pas** | ❌ | Toegangsmiddel milieustraat, eigenschap van bezoekersrelatie |
 | **Storting** | ❌ | Activiteit/event, geen zelfstandig object |
-| **Melding** | ❌ | Generiek meldingsconcept, valt onder [[Wiki/Domeinen/dienstverlening]] |
+| **Melding** | ❌ | Generiek meldingsconcept, valt onder [[Wiki/Domeinen/dienstverlening\|Dienstverlening]] |
 | **Categorie** | ❌ | Classificatie van meldingen, geen zelfstandig object |
 | **Routesoort** | ❌ | Enumeratie, classificatie |
 
@@ -151,9 +151,9 @@ Water-gerelateerde GGM-entiteiten onder BOR (taakveld 8) die wél matchen:
 ## Verwerkte bronnen
 
 ### Bodem, grondwater en ondergrond
-- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid bodem, grondwater en ondergrond]] — overzichtspagina gemeente Utrecht
-- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]] — gebiedsgericht grondwaterbeheer (56 p., 2015)
-- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027]] — hergebruik grond en bodembeheer
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]] — overzichtspagina gemeente Utrecht
+- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond]] — gebiedsgericht grondwaterbeheer (56 p., 2015)
+- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027 (Grondig Werken 4)]] — hergebruik grond en bodembeheer
 
 ### Afval en circulaire economie
 - [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]] — operationeel afvalbeleid per grondstofstroom (98 p., 2020)
@@ -161,18 +161,18 @@ Water-gerelateerde GGM-entiteiten onder BOR (taakveld 8) die wél matchen:
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030|Beleidsnota Utrecht Circulair 2030]] — uitwerking visie in meetbare doelen (2024)
 
 ### Luchtkwaliteit
-- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]] — Utrechts luchtkwaliteitsbeleid: milieuzones, houtstook, mobiele werktuigen (1267 regels, 2024)
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]] — Utrechts luchtkwaliteitsbeleid: milieuzones, houtstook, mobiele werktuigen (1267 regels, 2024)
 
 ### Water en riolering
 - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
-- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
 - [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 
-De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage]]. Zie de bronsamenvattingen:
-- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]]
-- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]]
+De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/faunapassage|Faunapassage]]. Zie de bronsamenvattingen:
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht – Stad en land verbonden]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]]
 
 ## Nog te verwerken bronnen
 
@@ -202,4 +202,4 @@ De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opges
 - ~~Het GGM mist Ligplaats als entiteit onder BOR~~ — **Opgelost:** GGM BAG kent Ligplaats als adresseerbaar object (exact match). Niet onder BOR maar onder 99 Kern/BAG.
 - Het GGM mist Rioolheffing — vergelijkbaar met hoe Afvalstoffenheffing ontbreekt maar wel BO is.
 - Het GGM mist Sluis als subtype van Kunstwerk — waterbouwkundig kunstwerk dat gemeenten beheren.
-Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

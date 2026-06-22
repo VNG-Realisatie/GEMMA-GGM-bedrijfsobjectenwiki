@@ -71,7 +71,7 @@ Gemeente organiseert alle landsverkiezingen (TK, PS, waterschappen, EP) én geme
 
 Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Het GGM modelleert **dataobjecten** (wat gemeenten registreren in informatiesystemen), niet **processen** (hoe werk verloopt). 
 
-**Verkiezing is een proces**, niet een registratieobject. Gemeenten registreren uitslagen en stemmers, maar niet "verkiezingen" zelf als database-entiteit. Dit valt **buiten de scope van het GGM** — niet omdat het een hiaat is, maar omdat het GGM per definitie alleen data modelleert (zie [[Wiki/Analyses/ggm-dekkingspatroon]]).
+**Verkiezing is een proces**, niet een registratieobject. Gemeenten registreren uitslagen en stemmers, maar niet "verkiezingen" zelf als database-entiteit. Dit valt **buiten de scope van het GGM** — niet omdat het een hiaat is, maar omdat het GGM per definitie alleen data modelleert (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
 
 **Geen terugmelding naar GGM** — dit is een scopekeuze, geen fout.
 

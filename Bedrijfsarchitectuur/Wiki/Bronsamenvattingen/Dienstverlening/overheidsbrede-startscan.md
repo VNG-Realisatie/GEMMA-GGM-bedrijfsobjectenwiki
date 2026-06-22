@@ -27,4 +27,4 @@ De scan beschrijft drie stappen: (1) huidige situatie in kaart brengen, (2) gewe
 
 ## Relevantie voor bedrijfsarchitectuur
 
-De startscan bevestigt het drielaagse dienstverleningsmodel (bereiken → contact → verdieping) maar beschrijft een implementatiemethodiek, geen nieuwe data-objecten. Inhoudelijk overlapt deze bron grotendeels met de [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening]].
+De startscan bevestigt het drielaagse dienstverleningsmodel (bereiken → contact → verdieping) maar beschrijft een implementatiemethodiek, geen nieuwe data-objecten. Inhoudelijk overlapt deze bron grotendeels met de [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening voor gemeenten]].

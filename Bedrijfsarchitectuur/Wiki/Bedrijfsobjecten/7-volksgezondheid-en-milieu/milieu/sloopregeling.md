@@ -75,7 +75,7 @@ De sloopregeling zou als een **Subsidieprogramma** met bijbehorende **Subsidieaa
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "We bieden een sloopregeling aan voor inwoners met een personenauto die niet meer toegestaan is. Hiermee kunnen inwoners een financiële bijdrage krijgen van de gemeente voor het vervangen van een auto die niet meer is toegestaan in de milieuzone."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.2.3)

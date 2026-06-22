@@ -98,8 +98,8 @@ Deze bronnen zijn de basis voor de analyse [[Wiki/Analyses/ggm-oorsprong-en-meer
 De wiki vult dit aan door bedrijfsobjecten ook top-down af te leiden uit beleidsbronnen, met de `grondslag`-classificatie (ggm-entiteit, ggm-afgeleid, procesobject, governance-object).
 
 **Aanvullende bronnen voor zaakgericht werken:**
-- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — het RGBZ als datamodel achter de zaak
-- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]] — de ZTC2 als configuratielaag: zaaktypecatalogi, resultaattypes, roltypes
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — het RGBZ als datamodel achter de zaak
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — de ZTC2 als configuratielaag: zaaktypecatalogi, resultaattypes, roltypes
 - De ZTC2-configuratielaag ontbreekt in het GGM — zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] (sectie Dienstverlening)
 
 ## Citaten

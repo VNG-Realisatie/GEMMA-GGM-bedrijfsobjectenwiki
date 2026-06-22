@@ -58,7 +58,7 @@ relaties:
 
 Een grondstofstroom is een afzonderlijke afval- of materiaalstroom die de gemeente beheert met een eigen inzamel- en verwerkingsstrategie. Elke grondstofstroom heeft eigen doelstellingen (kg/inwoner, scheidingspercentage), kwaliteitsmonitoring (sorteeranalyses), verwerkingscontracten en een eigen financieel model. De Grondstoffennota 2020 definieert per stroom het beleid, waaronder GFT (groente/fruit/tuin), PBP (plastic/blik/pak), papier/karton, glas, textiel en luiers.
 
-> "Utrecht wil de komende 10 jaar toe naar 130 kg restafval per inwoner per jaar door meer grondstoffen gescheiden in te zamelen." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+> "Utrecht wil de komende 10 jaar toe naar 130 kg restafval per inwoner per jaar door meer grondstoffen gescheiden in te zamelen." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]])
 
 ## GGM-bron
 
@@ -76,7 +76,7 @@ De naamkeuze "Grondstofstroom" sluit aan bij het gemeentelijk taalgebruik — de
 
 ## Terugmelding GGM
 
-De definitie van Fractie ("Onderdeel, deeltje") is te generiek voor de gemeentelijke context. Suggestie: verrijken naar een definitie die verwijst naar afval- en grondstofstromen, bijvoorbeeld: "Afzonderlijke afval- of grondstofstroom die gescheiden wordt ingezameld en verwerkt." Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+De definitie van Fractie ("Onderdeel, deeltje") is te generiek voor de gemeentelijke context. Suggestie: verrijken naar een definitie die verwijst naar afval- en grondstofstromen, bijvoorbeeld: "Afzonderlijke afval- of grondstofstroom die gescheiden wordt ingezameld en verwerkt." Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

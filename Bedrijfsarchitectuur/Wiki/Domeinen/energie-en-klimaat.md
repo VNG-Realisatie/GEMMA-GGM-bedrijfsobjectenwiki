@@ -20,9 +20,9 @@ De gemeente heeft een regierol en werkt samen met netbeheerders (Stedin, TenneT)
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]] | object | Infrastructuur voor levering van warmte aan gebouwen | ✅ | 6/6 criteria, GGM-hiaat | Stadsverwarming Eneco, toekomstige lokale warmtenetten | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]] | object | Aangewezen gebied voor grootschalige opwek van duurzame energie | ✅ | 6/6 criteria, GGM-hiaat | Zonneveld Rijnenburg, windlocatie Lage Weide | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek]] | object | Groene verblijfsplek ≥200 m² met verkoelende functie | ✅ | 6/6 criteria, GGM-hiaat | Wilhelminapark, Park Oosterspoorbaan | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet\|Warmtenet]] | object | Infrastructuur voor levering van warmte aan gebouwen | ✅ | 6/6 criteria, GGM-hiaat | Stadsverwarming Eneco, toekomstige lokale warmtenetten | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied\|Opwekgebied]] | object | Aangewezen gebied voor grootschalige opwek van duurzame energie | ✅ | 6/6 criteria, GGM-hiaat | Zonneveld Rijnenburg, windlocatie Lage Weide | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek\|Koelteplek]] | object | Groene verblijfsplek ≥200 m² met verkoelende functie | ✅ | 6/6 criteria, GGM-hiaat | Wilhelminapark, Park Oosterspoorbaan | nee |
 | warmteprogramma | instrument | Wettelijk verplicht gemeentelijk plan voor warmtetransitie (Wgiw) | ⚠️ | 6/6 criteria, maar type=instrument → ter discussie | Warmteprogramma Utrecht 2026 | nee |
 | RES | instrument | Regionale Energiestrategie, regionaal plan voor duurzame opwek | ❌ | Regionaal instrument, niet gemeentelijk | RES U16 | nee |
 | energietransitie | thema | Overgang van fossiel naar duurzaam energiesysteem | ❌ | Overkoepelend thema, geen object | — | nee |
@@ -40,17 +40,17 @@ De gemeente heeft een regierol en werkt samen met netbeheerders (Stedin, TenneT)
 | groen dak | eigenschap | Dakbedekking met plantaardige laag voor waterberging en verkoeling | ❌ | Eigenschap van gebouw | Subsidieregeling groene daken | nee |
 | klimaatadaptatieparagraaf | instrument | Verplicht onderdeel in bouwplannen over klimaatbestendigheid | ❌ | Instrument/documentonderdeel | — | nee |
 | transitiepad | instrument | Beleidsstructuur per thema (energie, mobiliteit, circulair) | ❌ | Organisatorisch instrument | 8 transitiepaden in klimaatvisie | nee |
-| WKO-installatie | object | Warmte-koude-opslag in de ondergrond | → | Subtype van [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem]] (domein Milieu) | RWZI Overvecht | nee |
+| WKO-installatie | object | Warmte-koude-opslag in de ondergrond | → | Subtype van [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem\|Bodemenergiesysteem]] (domein Milieu) | RWZI Overvecht | nee |
 | wadi | object | Groenvoorziening voor bovengrondse waterberging en infiltratie | → | Geparkeerd voor domein openbare ruimte | Klifrakplantsoen, Leidsche Rijn | nee |
 
 ### Cross-domein verwijzingen
 
 Begrippen uit de klimaatbronnen die al als BO bestaan in andere domeinen:
-- **Zero-emissiezone** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone]] (domein mobiliteit)
-- **Laadpaal** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal]] (domein mobiliteit)
-- **Bodemenergiesysteem** → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem]] (domein milieu)
-- **Boom** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom]] (domein beheer openbare ruimte)
-- **Groenobject** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject]] (domein beheer openbare ruimte)
+- **Zero-emissiezone** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|Zero-emissiezone]] (domein mobiliteit)
+- **Laadpaal** → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal|Laadpaal]] (domein mobiliteit)
+- **Bodemenergiesysteem** → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemenergiesysteem|Bodemenergiesysteem]] (domein milieu)
+- **Boom** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/boom|Boom]] (domein beheer openbare ruimte)
+- **Groenobject** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]] (domein beheer openbare ruimte)
 
 ## GGM-entiteitendekking
 
@@ -70,7 +70,7 @@ Dit past in het bekende patroon: taakveld 7 is het smalste taakveld in het GGM (
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving|VNG — Verduurzaming gebouwde omgeving]] — warmtetransitie, isolatie, Wgiw/Wcw
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrecht|Visie Klimaatadaptatie Utrecht]] — beleidskader klimaatadaptatie (hitte, water, droogte, overstroming)
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/ontwerpvisie-klimaatneutraal|Ontwerpvisie Utrecht Klimaatneutraal 2026-2050]] — overkoepelende klimaatvisie (mitigatie + transitiepaden)
-- [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie]] — aanbiedingsbrief met context en praktijkvoorbeelden
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie Utrecht klimaatneutraal]] — aanbiedingsbrief met context en praktijkvoorbeelden
 
 ## Nog te verwerken bronnen
 

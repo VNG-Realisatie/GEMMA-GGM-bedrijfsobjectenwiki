@@ -12,7 +12,7 @@ Overzichtspagina van de Omgevingsvisie Utrecht over het beleid voor kwaliteit va
 
 ## Kernbegrippen
 
-Geen nieuwe begrippen ten opzichte van [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota KOR]] en [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer OR]].
+Geen nieuwe begrippen ten opzichte van [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] en [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer Openbare Ruimte]].
 
 ## Relevantie voor bedrijfsarchitectuur
 

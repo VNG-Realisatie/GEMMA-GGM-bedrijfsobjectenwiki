@@ -16,8 +16,8 @@ De gemeente werkt samen met Eneco (verduurzaming stadsverwarming via samenwerkin
 
 ## Kernbegrippen
 
-- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]]** — fysieke infrastructuur voor warmtelevering aan gebouwen, meerdere netten in de stad (Eneco stadsverwarming + toekomstige lokale netten)
-- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]]** — door de gemeente aangewezen gebied voor grootschalige opwek van duurzame energie
+- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]** — fysieke infrastructuur voor warmtelevering aan gebouwen, meerdere netten in de stad (Eneco stadsverwarming + toekomstige lokale netten)
+- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]]** — door de gemeente aangewezen gebied voor grootschalige opwek van duurzame energie
 - **warmteprogramma** — wettelijk verplicht plan per gemeente (Wgiw, vóór eind 2026), basis voor buurt-voor-buurt aanpak
 - **energieloket** — dienstverleningskanaal voor bewoners over energiebesparing en financiële regelingen
 - **klimaatpanel** — participatie-instrument, 50 Utrechters in gesprek over klimaatbeleid
@@ -25,7 +25,7 @@ De gemeente werkt samen met Eneco (verduurzaming stadsverwarming via samenwerkin
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Rijkste bron voor het domein. Levert twee BO-kandidaten: [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet]] (fysieke infrastructuur waar de gemeente beleid op voert via SOK met Eneco) en [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]] (aangewezen gebieden voor grootschalige energieopwek). Het warmteprogramma is een instrument (type → ter discussie).
+Rijkste bron voor het domein. Levert twee BO-kandidaten: [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]] (fysieke infrastructuur waar de gemeente beleid op voert via SOK met Eneco) en [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]] (aangewezen gebieden voor grootschalige energieopwek). Het warmteprogramma is een instrument (type → ter discussie).
 
 ## Citaten
 

@@ -63,7 +63,7 @@ Gebaseerd op de Wet Milieubeheer. De gemeente heeft een zorgplicht voor huishoud
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM-domein Afval bevat geen contract-entiteit voor bedrijfsafvalinzameling. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM-domein Afval bevat geen contract-entiteit voor bedrijfsafvalinzameling. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bedrijfsprocessen
 

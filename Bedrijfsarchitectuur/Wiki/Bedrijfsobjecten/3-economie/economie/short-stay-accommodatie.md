@@ -59,7 +59,7 @@ De gemeente hanteert strikte capaciteitsgrenzen (1.080 eenheden totaal), ruimten
 
 Short stay accommodatie ontstaat uit het vergunning-/aanmeldingsproces voor tijdelijk verblijf. De beleidsregels tijdelijk verblijf vormen de juridische grondslag, gericht op bescherming van de woningvoorraad.
 
-> "Het bedrijfsmatig verstrekken van logies met een periode van minimaal twee weken tot maximaal zes maanden aan dezelfde persoon." — [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Short Stay]]
+> "Het bedrijfsmatig verstrekken van logies met een periode van minimaal twee weken tot maximaal zes maanden aan dezelfde persoon." — [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]]
 
 ## Relaties
 

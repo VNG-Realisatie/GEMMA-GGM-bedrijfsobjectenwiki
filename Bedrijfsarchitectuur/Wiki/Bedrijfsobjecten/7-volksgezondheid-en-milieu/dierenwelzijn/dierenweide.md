@@ -55,7 +55,7 @@ Geen GGM-match. Het GGM kent geen entiteit voor dierenweide. Er is geen beleidsd
 
 Dierenweides onderscheiden zich van kinderboerderijen door beperkte openingstijden, indirecte toegankelijkheid (dieren achter hek) en particulier beheer door vrijwilligers. De gemeente heeft met de meeste dierenweides een subsidierelatie via het budget dierenweides of het initiatievenfonds. De gemeente hanteert als beleidsuitgangspunt dat dierenweides voldoen aan de richtlijnen van het keurmerk Kinderboerderijen, met maatwerk voor particuliere initiatieven.
 
-> "Een dierenweide is hetzelfde als een kinderboerderij, maar heeft beperkte openingstijden of de dieren zijn niet direct toegankelijk (door hek gescheiden van publiek). Vaak zijn dit particuliere initiatieven, waar niet altijd professionele dierverzorgers aanwezig zijn." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn]])
+> "Een dierenweide is hetzelfde als een kinderboerderij, maar heeft beperkte openingstijden of de dieren zijn niet direct toegankelijk (door hek gescheiden van publiek). Vaak zijn dit particuliere initiatieven, waar niet altijd professionele dierverzorgers aanwezig zijn." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
 ## Relaties
 

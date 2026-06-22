@@ -96,4 +96,4 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 ## Terugmelding GGM
 
-Het GGM kent geen specifiek objecttype voor risicobronnen. De generieke Activiteit dekt het concept partieel. Overweeg bij een toekomstige GGM-release of een specialisatie "Activiteit met externe veiligheidsrisico's" zinvol is. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM kent geen specifiek objecttype voor risicobronnen. De generieke Activiteit dekt het concept partieel. Overweeg bij een toekomstige GGM-release of een specialisatie "Activiteit met externe veiligheidsrisico's" zinvol is. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -60,7 +60,7 @@ Een laad- en losplaats is een door de gemeente aangewezen locatie waar goederenv
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk verkeers- en goederenvervoerbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de ambitie om laad-/losplekken efficienter te benutten met realtime data en IT-systemen.
+Afgeleid uit het gemeentelijk verkeers- en goederenvervoerbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de ambitie om laad-/losplekken efficienter te benutten met realtime data en IT-systemen.
 
 ## Relaties
 
@@ -69,4 +69,4 @@ Afgeleid uit het gemeentelijk verkeers- en goederenvervoerbeleid. Het [[Wiki/Bro
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor laad- en losplaatsen. Dit is een registratieobject: gemeenten wijzen locaties aan met eigenschappen als tijdvenster, capaciteit en locatiegegevens. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor laad- en losplaatsen. Dit is een registratieobject: gemeenten wijzen locaties aan met eigenschappen als tijdvenster, capaciteit en locatiegegevens. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

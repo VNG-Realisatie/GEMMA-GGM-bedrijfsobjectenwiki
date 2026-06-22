@@ -68,7 +68,7 @@ Een P+R-locatie is een parkeer-en-reisvoorziening aan de rand van de stad of in 
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk parkeer- en mobiliteitsbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de strategie voor P+R-locaties als onderdeel van de multimodale bereikbaarheid.
+Afgeleid uit het gemeentelijk parkeer- en mobiliteitsbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de strategie voor P+R-locaties als onderdeel van de multimodale bereikbaarheid.
 
 ## Relaties
 
@@ -79,4 +79,4 @@ Afgeleid uit het gemeentelijk parkeer- en mobiliteitsbeleid. Het [[Wiki/Bronsame
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor P+R-locaties. Dit is een registratieobject: gemeenten registreren P+R-locaties met locatie, capaciteit, OV-aansluiting en tarieven. Hoewel het GGM wel Parkeergarage kent (beleidsdomein Parkeren), ontbreekt het specifieke concept van een parkeer-en-reisvoorziening met overstapfunctie. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor P+R-locaties. Dit is een registratieobject: gemeenten registreren P+R-locaties met locatie, capaciteit, OV-aansluiting en tarieven. Hoewel het GGM wel Parkeergarage kent (beleidsdomein Parkeren), ontbreekt het specifieke concept van een parkeer-en-reisvoorziening met overstapfunctie. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

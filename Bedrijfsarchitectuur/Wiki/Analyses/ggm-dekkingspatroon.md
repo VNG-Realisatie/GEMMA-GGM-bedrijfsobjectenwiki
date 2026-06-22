@@ -47,7 +47,7 @@ Het GGM levert de financiële administratie maar niet de planning-en-controlcycl
 | Beleidsveld | Ondernemersdienstverlening, vestigingsklimaat, arbeidsmarkt, werklocatie | **Afwezig** — de breedte van het taakveld ("economische ontwikkeling, bedrijvigheid en innovatie") is niet gedekt |
 | Waarden en doelen | Brede welvaart, versterking vestigingsklimaat | **Afwezig** (verwacht — normatief/strategisch) |
 
-Hier is het hiaat breder: niet alleen processen en governance ontbreken, maar ook een groot deel van de operationele objecten. Zie [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]].
+Hier is het hiaat breder: niet alleen processen en governance ontbreken, maar ook een groot deel van de operationele objecten. Zie [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]].
 
 ### Bedrijfsvoering
 
@@ -68,7 +68,7 @@ Zelfde patroon: de output van het inkoopproces (orders, facturen) is er, het pro
 | Klantcontact | Klantcontact, Balieafspraak | **Aanwezig** (RGBZPlus + tv10 Dienstverlening) |
 | Procesarchitectuur | Bedrijfsproces, Deelproces | **Aanwezig** (RGBZPlus) — het GGM heeft deze als uitbreiding op het RGBZ toegevoegd |
 
-Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De zaaktypecatalogus is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het resultaattype — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]].
+Dit domein toont een variant op het patroon: het GGM dekt de zaak-*runtime* goed (wat wordt geregistreerd) maar niet de zaaktype-*configuratie* (hoe zaaktypen worden gedefinieerd). De zaaktypecatalogus is een apart informatiemodel (ZTC2) dat het RGBZ aanvult maar niet in het GGM is opgenomen. Het resultaattype — cruciaal voor archivering — ontbreekt daarmee ook. Zie [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]].
 
 ## Het patroon
 

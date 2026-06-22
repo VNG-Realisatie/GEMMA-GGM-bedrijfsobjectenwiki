@@ -71,7 +71,7 @@ Het bedrijfsobject **Archeologische vindplaats** komt overeen met de GGM-entitei
 
 De naamkeuze "Archeologische vindplaats" is specifieker dan het GGM-"Vindplaats" om verwarring te voorkomen met de gelijknamige Archief-entiteit (opslaglocatie van archiefstukken).
 
-> "De nieuwe Archeologische Beleidskaart geeft op basis van de (verwachte) archeologische waarde aan in welke gevallen archeologisch onderzoek vereist is. Met de kaart wordt gestuurd op behoud van een representatieve voorraad Utrechtse archeologie." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]])
+> "De nieuwe Archeologische Beleidskaart geeft op basis van de (verwachte) archeologische waarde aan in welke gevallen archeologisch onderzoek vereist is. Met de kaart wordt gestuurd op behoud van een representatieve voorraad Utrechtse archeologie." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']])
 
 De eerdere beoordeling markeerde dit begrip als niet-BO ("nationaal geregistreerd in ARCHIS, niet primair gemeentelijk"). De erfgoednota maakt duidelijk dat gemeenten wél eigen vindplaatsen registreren en er als bevoegd gezag over beslissen.
 

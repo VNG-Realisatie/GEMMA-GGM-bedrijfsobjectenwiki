@@ -12,7 +12,7 @@ datum_ingest: 2026-06-19
 
 VNG-overzichtspagina over gemeentelijk kunst- en cultuurbeleid. Cultuur speelt een vitale rol in de samenleving: het biedt kleur en betekenis, draagt bij aan gezondheid, onderlinge verbinding en veerkracht van inwoners. Gemeenten faciliteren en ondersteunen een breed en toegankelijk aanbod aan culturele activiteiten en voorzieningen.
 
-De VNG zet zich in voor duurzame integratie van cultuur met andere maatschappelijke domeinen, met nadruk op de intrinsieke waarde. Dit gebeurt via de propositie "Samen cultuur borgen" (zie [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur|propositie]]).
+De VNG zet zich in voor duurzame integratie van cultuur met andere maatschappelijke domeinen, met nadruk op de intrinsieke waarde. Dit gebeurt via de propositie "Samen cultuur borgen" (zie [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur|Propositie Samen cultuur borgen]]).
 
 Een belangrijk aandachtspunt is de arbeidspositie in de culturele sector (fair pay). Het ringenmodel helpt gemeenten bij het bepalen van passende culturele ambities bij hun schaal en karakter.
 

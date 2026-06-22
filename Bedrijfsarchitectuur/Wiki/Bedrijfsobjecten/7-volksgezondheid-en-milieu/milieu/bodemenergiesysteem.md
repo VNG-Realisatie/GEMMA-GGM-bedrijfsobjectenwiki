@@ -55,7 +55,7 @@ Een bodemenergiesysteem (ook: WKO, warmte-koude opslag) is een installatie die g
 
 In het gebiedsplan Utrecht wordt bodemenergie gestimuleerd omdat het rondpompen van grondwater de biologische afbraak van verontreinigingen bevordert. Tegelijk gelden voorwaarden om verspreiding van verontreiniging te voorkomen, zoals maximale boordieptes.
 
-> "Tegelijk willen we dat het grondwater onder de stad gebruikt kan worden voor bijvoorbeeld duurzame bodemenergie om gebouwen mee te verwarmen en koelen." (bron: [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|beleid bodem, grondwater en ondergrond]])
+> "Tegelijk willen we dat het grondwater onder de stad gebruikt kan worden voor bijvoorbeeld duurzame bodemenergie om gebouwen mee te verwarmen en koelen." (bron: [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]])
 
 ## Procesbron
 
@@ -67,4 +67,4 @@ Bodemenergiesystemen worden geregistreerd via het vergunningsproces. De gemeente
 
 ## Terugmelding GGM
 
-Het GGM heeft geen entiteit voor bodemenergiesystemen. Dit raakt zowel taakveld 7 (Milieu) als het energiedomein. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM heeft geen entiteit voor bodemenergiesystemen. Dit raakt zowel taakveld 7 (Milieu) als het energiedomein. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -112,4 +112,4 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 
 ## Terugmelding GGM
 
-> **Gehandicaptenparkeerplaats** — Specialisatie van Parkeervlak met eigen aanvraag-/toewijzingsproces, kentekenkoppeling, venstertijden en sensormonitoring. Het GGM modelleert dit als attribuut `doelgroep` op Parkeervlak, maar de eigen processen rechtvaardigen een apart entiteittype. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+> **Gehandicaptenparkeerplaats** — Specialisatie van Parkeervlak met eigen aanvraag-/toewijzingsproces, kentekenkoppeling, venstertijden en sensormonitoring. Het GGM modelleert dit als attribuut `doelgroep` op Parkeervlak, maar de eigen processen rechtvaardigen een apart entiteittype. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

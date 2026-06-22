@@ -99,4 +99,4 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 ## Terugmelding GGM
 
-Het GGM kent geen specifiek objecttype voor aandachtsgebieden. Deze vallen onder de generieke Gebiedsaanwijzing. Overweeg of specialisatie zinvol is, gezien het belang van aandachtsgebieden in de Omgevingswet. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM kent geen specifiek objecttype voor aandachtsgebieden. Deze vallen onder de generieke Gebiedsaanwijzing. Overweeg of specialisatie zinvol is, gezien het belang van aandachtsgebieden in de Omgevingswet. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

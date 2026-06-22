@@ -65,7 +65,7 @@ Het grondstoffendepot ontstaat uit beleid voor circulaire gebiedsontwikkeling. H
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor grondstoffendepots. Het GGM-domein Afval richt zich op huishoudelijk afval, niet op materiaalhergebruik uit de openbare ruimte. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor grondstoffendepots. Het GGM-domein Afval richt zich op huishoudelijk afval, niet op materiaalhergebruik uit de openbare ruimte. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bedrijfsprocessen
 

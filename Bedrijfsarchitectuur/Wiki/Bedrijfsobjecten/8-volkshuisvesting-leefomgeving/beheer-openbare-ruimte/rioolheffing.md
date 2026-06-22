@@ -67,7 +67,7 @@ De rioolheffing is vergelijkbaar met de afvalstoffenheffing: beide zijn gemeente
 
 ## Procesbron
 
-Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering]] en [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering 2025-2029]]
+Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] en [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]]
 
 > De rioolheffing dekt de kosten van het gemeentelijk water- en rioleringsbeleid. Het tarief wordt jaarlijks vastgesteld op basis van kostendekkendheid, met een egalisatiereserve om schommelingen te dempen.
 
@@ -86,4 +86,4 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riol
 
 ## Terugmelding GGM
 
-> **Rioolheffing** — Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer. Het GGM kent geen entiteit voor rioolheffing, terwijl Afvalstoffenheffing (vergelijkbare bestemmingsheffing) wel als BO is vastgelegd. Het concept heeft eigen processen voor tariefvaststelling, heffing en kostentoerekening. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+> **Rioolheffing** — Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer. Het GGM kent geen entiteit voor rioolheffing, terwijl Afvalstoffenheffing (vergelijkbare bestemmingsheffing) wel als BO is vastgelegd. Het concept heeft eigen processen voor tariefvaststelling, heffing en kostentoerekening. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

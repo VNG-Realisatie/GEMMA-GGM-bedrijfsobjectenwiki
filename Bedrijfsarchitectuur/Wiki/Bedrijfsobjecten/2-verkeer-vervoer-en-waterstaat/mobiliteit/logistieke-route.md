@@ -72,7 +72,7 @@ Een logistieke route is een door de gemeente aangewezen voorkeursweg voor vracht
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het Kwaliteitsnet Goederenvervoer (2007) definieert het routenetwerk en de kwaliteitscriteria; het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] bevestigt het belang van logistieke routes voor de transitie naar zero-emissie stadslogistiek.
+Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het Kwaliteitsnet Goederenvervoer (2007) definieert het routenetwerk en de kwaliteitscriteria; het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] bevestigt het belang van logistieke routes voor de transitie naar zero-emissie stadslogistiek.
 
 ## Relaties
 
@@ -82,4 +82,4 @@ Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het Kwaliteitsnet Goederenv
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor logistieke routes of het kwaliteitsnet goederenvervoer. Dit is een registratieobject: gemeenten wijzen routes aan met specifieke kenmerken (classificatie, kwaliteitseisen, beperkingen). Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor logistieke routes of het kwaliteitsnet goederenvervoer. Dit is een registratieobject: gemeenten wijzen routes aan met specifieke kenmerken (classificatie, kwaliteitseisen, beperkingen). Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

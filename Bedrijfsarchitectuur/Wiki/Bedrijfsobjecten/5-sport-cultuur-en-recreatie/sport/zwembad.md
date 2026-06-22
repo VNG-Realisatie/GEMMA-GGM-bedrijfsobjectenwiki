@@ -3,7 +3,7 @@ type: bedrijfsobject
 naam: Zwembad
 domein: [Sport en Bewegen]
 archimate_type: "business-object"
-grondslag: "ggm-entiteit"
+grondslag: procesobject
 ggm_entiteit: ""
 ggm_guid: ""
 ggm_uml_type: ""

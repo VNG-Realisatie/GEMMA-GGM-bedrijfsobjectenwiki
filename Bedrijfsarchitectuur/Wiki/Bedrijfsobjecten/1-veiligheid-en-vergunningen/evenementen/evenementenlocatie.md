@@ -66,7 +66,7 @@ Locaties worden gecategoriseerd op basis van omvang, functie en type ondergrond.
 
 Dit BO heeft geen GGM-grondslag. Het GGM kent generieke `Locatie`-entiteiten in diverse domeinen (Onderwijs, Sport, Afval, Kern) maar geen specifieke evenementenlocatie. De generieke `Locatie` in Kern is te breed en mist de domeinspecifieke kenmerken (locatieprofiel, rustperiode, geluidsnorm).
 
-Het BO is afgeleid uit de [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen]] waarin locaties met hun profielen het fundament vormen van het beleid.
+Het BO is afgeleid uit de [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] waarin locaties met hun profielen het fundament vormen van het beleid.
 
 > "Locatieprofielen bieden duidelijke richtlijnen voor organisatoren, bezoekers en bewoners. Ze geven per locatie aan hoeveel evenementendagen er op jaarbasis mogen plaatsvinden."
 
@@ -85,4 +85,4 @@ Het BO is afgeleid uit de [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-ev
 
 ## Terugmelding GGM
 
-**Evenementenlocatie ontbreekt als entiteit.** Het GGM kent geen specifieke locatie-entiteit voor evenementen. De generieke Locatie (Kern) mist domeinspecifieke kenmerken. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Evenementenlocatie ontbreekt als entiteit.** Het GGM kent geen specifieke locatie-entiteit voor evenementen. De generieke Locatie (Kern) mist domeinspecifieke kenmerken. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

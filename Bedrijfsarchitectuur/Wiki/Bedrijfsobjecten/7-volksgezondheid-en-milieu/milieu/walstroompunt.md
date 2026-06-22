@@ -58,11 +58,11 @@ Geen GGM-entiteit. Het GGM bevat wel **Vaartuig** (Model VTH) als gerelateerd co
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "We hebben op verschillende locaties ca. 50 walstroompunten aangelegd."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.8.1)
 
 ## Terugmelding GGM
 
-**Walstroompunt** — Registratieobject voor fysieke walstroomaansluitpunten met locatie, capaciteit en status. Zou onder Mobiliteit (taakveld 2) of een nieuw beleidsdomein Binnenvaart kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Walstroompunt** — Registratieobject voor fysieke walstroomaansluitpunten met locatie, capaciteit en status. Zou onder Mobiliteit (taakveld 2) of een nieuw beleidsdomein Binnenvaart kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

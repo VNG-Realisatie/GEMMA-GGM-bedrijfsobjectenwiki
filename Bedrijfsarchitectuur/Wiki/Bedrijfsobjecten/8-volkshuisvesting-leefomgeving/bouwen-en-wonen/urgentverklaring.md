@@ -110,7 +110,7 @@ Het aantal urgenties neemt toe en zal naar verwachting verder stijgen door de aa
 
 De urgentverklaring is gedefinieerd in de Huisvestingsverordening gemeente Utrecht (geldend vanaf 11 juli 2024). De nadere regel specificeert urgentie op volkshuisvestelijke gronden (stadsurgentie, regio-urgentie, terugkeervoorrang).
 
-> "Urgentverklaringen zijn mogelijk bij dreigende dakloosheid, relatiebeëindiging, financiële problemen, medische gronden, mantelzorg, volkshuisvestelijke gronden, maatschappelijke gronden, statushouders en aanbodsysteemgedupeerden." — [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht|Huisvestingsverordening]]
+> "Urgentverklaringen zijn mogelijk bij dreigende dakloosheid, relatiebeëindiging, financiële problemen, medische gronden, mantelzorg, volkshuisvestelijke gronden, maatschappelijke gronden, statushouders en aanbodsysteemgedupeerden." — [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht|Huisvestingsverordening gemeente Utrecht]]
 
 ## Relaties
 

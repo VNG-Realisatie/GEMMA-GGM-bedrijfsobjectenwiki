@@ -70,7 +70,7 @@ Een hoofdfietsroute is een aangewezen fietsverbinding in het stedelijk hoofdfiet
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] definieert het hoofdfietsnetwerk en de kwaliteitseisen.
+Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] definieert het hoofdfietsnetwerk en de kwaliteitseisen.
 
 ## Relaties
 
@@ -79,4 +79,4 @@ Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobilit
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor fietsroutes of het hoofdfietsnetwerk. Dit is een registratieobject: gemeenten wijzen routes aan met specifieke kenmerken (routetype, kwaliteitseisen, lengte, capaciteit). Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor fietsroutes of het hoofdfietsnetwerk. Dit is een registratieobject: gemeenten wijzen routes aan met specifieke kenmerken (routetype, kwaliteitseisen, lengte, capaciteit). Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

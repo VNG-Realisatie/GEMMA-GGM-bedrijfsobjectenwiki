@@ -61,7 +61,7 @@ Een Mobiliteitshub is een fysieke locatie waar verschillende vervoersmodaliteite
 
 ## Procesbron
 
-Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]], §6.5 Multimodale reis.
+Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]], §6.5 Multimodale reis.
 
 ## Relaties
 

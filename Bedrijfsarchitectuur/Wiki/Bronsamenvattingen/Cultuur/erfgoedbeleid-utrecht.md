@@ -19,4 +19,4 @@ Korte overzichtspagina uit de omgevingsvisie van de gemeente Utrecht over erfgoe
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Secundaire bron die contextcijfers levert maar geen nieuwe begrippen of BO-kandidaten toevoegt. De inhoud wordt volledig gedekt door de [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|erfgoednota Utrecht]] en de [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|visie religieus erfgoed 2025]].
+Secundaire bron die contextcijfers levert maar geen nieuwe begrippen of BO-kandidaten toevoegt. De inhoud wordt volledig gedekt door de [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']] en de [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]].

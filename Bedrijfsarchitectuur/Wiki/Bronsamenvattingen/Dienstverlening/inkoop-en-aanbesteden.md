@@ -21,4 +21,4 @@ Portaalpagina over gemeentelijke inkoop. Gemeenten besteden jaarlijks tientallen
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Overlapt inhoudelijk met de al verwerkte [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever inkoop en aanbesteden]]. Geen nieuwe begrippen of objecten. GIBIT en SCG zijn instrumenten/organisaties, geen data-objecten.
+Overlapt inhoudelijk met de al verwerkte [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever Inkoop en aanbesteden]]. Geen nieuwe begrippen of objecten. GIBIT en SCG zijn instrumenten/organisaties, geen data-objecten.

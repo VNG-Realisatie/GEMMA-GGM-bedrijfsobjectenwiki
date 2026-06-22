@@ -28,14 +28,14 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 | regeldruk | thema | Ervaren last van regelgeving voor ondernemers | ❌ | Thema, geen object | — | nee |
 | economische ruimte | thema | Fysieke ruimte beschikbaar voor bedrijvigheid | ❌ | Thema, geen object | — | nee |
 | midden- en kleinbedrijf | doelgroep | Bedrijven tot 250 werknemers, ~60% werkgelegenheid | ❌ | Doelgroep, geen object | — | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie]] | object | Aangewezen geografisch werkgebied met vastgesteld profiel | ✅ | 6/6 criteria, GGM-hiaat | Lage Weide, Papendorp, Stationsgebied | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats]] | object | Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd | ✅ | 6/6 criteria | Bloemenstandplaats, snackwagen | sterk |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt]] | object | Periodieke georganiseerde verkoop, Marktverordening-gereguleerd | ✅ | 6/6 criteria, GGM-hiaat | Bloemenmarkt, zaterdagmarkt | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf]] | object | Bedrijf voor eten, drinken en/of logies, vergunningplichtig | ✅ | 6/6 criteria | Restaurant, café, hotel | partieel |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel]] | object | Verblijfsaccommodatie, subtypes: concept-/doelgroep-/minihotel | ✅ | 6/6 criteria, GGM exact | Concepthotel, doelgroephotel | ja |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/terras]] | object | Tijdelijk gebruik openbare ruimte door horecabedrijf | ✅ | 6/6 criteria, GGM-hiaat | Caféterras, restaurantterras | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie]] | object | Logies 2 weken–6 maanden voor kenniswerkers/studenten | ✅ | 6/6 criteria, GGM-hiaat | Expatwoning, studentenunit | nee |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast]] | object | Kleinschalige logiesaccommodatie, max 4 kamers | ✅ | 6/6 criteria, GGM-hiaat | Stadsappartement, kamer bij bewoner | nee |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie\|Werklocatie]] | object | Aangewezen geografisch werkgebied met vastgesteld profiel | ✅ | 6/6 criteria, GGM-hiaat | Lage Weide, Papendorp, Stationsgebied | nee |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats\|Standplaats]] | object | Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd | ✅ | 6/6 criteria | Bloemenstandplaats, snackwagen | sterk |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt\|Warenmarkt]] | object | Periodieke georganiseerde verkoop, Marktverordening-gereguleerd | ✅ | 6/6 criteria, GGM-hiaat | Bloemenmarkt, zaterdagmarkt | nee |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | object | Bedrijf voor eten, drinken en/of logies, vergunningplichtig | ✅ | 6/6 criteria | Restaurant, café, hotel | partieel |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] | object | Verblijfsaccommodatie, subtypes: concept-/doelgroep-/minihotel | ✅ | 6/6 criteria, GGM exact | Concepthotel, doelgroephotel | ja |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/terras\|Terras]] | object | Tijdelijk gebruik openbare ruimte door horecabedrijf | ✅ | 6/6 criteria, GGM-hiaat | Caféterras, restaurantterras | nee |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie\|Short Stay Accommodatie]] | object | Logies 2 weken–6 maanden voor kenniswerkers/studenten | ✅ | 6/6 criteria, GGM-hiaat | Expatwoning, studentenunit | nee |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast\|Bed-and-breakfast]] | object | Kleinschalige logiesaccommodatie, max 4 kamers | ✅ | 6/6 criteria, GGM-hiaat | Stadsappartement, kamer bij bewoner | nee |
 | hotelbezoek | object | Verblijf in een hotel, statistisch gegeven | ❌ | Meting/transactie, geen zelfstandig object | Overnachting in hotel | ja |
 | toeristenbelasting | instrument | Belasting op overnachtingen | ❌ | Instrument, domein Belastingen | — | nee |
 | horecavergunning | instrument | Vergunning voor exploitatie horecabedrijf | ❌ | Subtype vergunning, vastgelegd bij horecabedrijf | Exploitatievergunning | nee |
@@ -59,7 +59,7 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 
 | GGM-domein | Entiteiten | Status |
 |---|---|---|
-| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Hotel → [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel]], Hotelbezoek → meting (geen BO), Vestiging → werklocatie |
+| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Hotel → [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]], Hotelbezoek → meting (geen BO), Vestiging → werklocatie |
 | **Taakveld 5 Musea** | Standplaats (3 attributen: beschrijving, adres, naamInstelling) | Standplaats → standplaats (sterk, maar domeinplaatsing betwistbaar) |
 | **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging → individuele bedrijfslocatie; geen entiteit voor werklocatie als geografisch werkgebied |
 
@@ -81,15 +81,15 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
-- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|ontwikkelingskader-detailhandel-2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
-- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|detailhandel-utrecht-2015]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
-- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht|horecabeleid-utrecht]] — Gemeente Utrecht: overzicht horecabeleid (horeca, hotels, short stay)
-- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|actualisatie-marktruimte-hotelnota]] — Gemeente Utrecht: hotelmarktruimte op basis van Horwath HTL (2015)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|beleidsregels-terrassen-utrecht]] — Gemeente Utrecht: beleidsregel terrassen in openbare ruimte (2024)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|beleidsregel-hotels-utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen en voorwaarden (2026)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|beleidsregels-short-stay-utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf (short stay)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|beleidsnota-werklocaties-2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035 (bedrijventerreinen, kantoren, winkelgebieden, innovatielocaties, wijkeconomie)
+- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
+- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|Ontwikkelingskader Detailhandel 2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
+- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|Detailhandel Utrecht 2015 — Stand van zaken Beleid en acties]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
+- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht|Horecabeleid Gemeente Utrecht]] — Gemeente Utrecht: overzicht horecabeleid (horeca, hotels, short stay)
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|Actualisatie marktruimte hotelnota 'Room With A View']] — Gemeente Utrecht: hotelmarktruimte op basis van Horwath HTL (2015)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|Beleidsregel Terrassen Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel terrassen in openbare ruimte (2024)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|Beleidsregel Hotels Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen en voorwaarden (2026)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf (short stay)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|Beleidsnota Werklocaties 2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035 (bedrijventerreinen, kantoren, winkelgebieden, innovatielocaties, wijkeconomie)
 
 ## Raakvlakken met andere domeinen
 

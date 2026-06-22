@@ -22,7 +22,7 @@ Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle beg
 
 ### Linkconventie
 
-- **Begrippentabel kolom "Begrip":** `[[bedrijfsobject-naam]]` voor BO's, platte tekst voor niet-BO's
+- **Begrippentabel kolom "Begrip":** `[[Wiki/Bedrijfsobjecten/.../naam\|Leesbare naam]]` voor BO's (escaped pipe in tabellen), platte tekst voor niet-BO's
 - **"Verwerkte bronnen":** `[[Wiki/Bronsamenvattingen/{domein}/{slug}|display-tekst]]`
 - **"Nog te verwerken bronnen":** gebruik markdown-links naar Sources/ (omdat dat geen wiki-pagina's zijn)
 - **"Terugmeldingen":** `[[Wiki/Analyses/ggm-terugmeldingen|link naar terugmeldingen]]`
@@ -51,7 +51,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
 ```markdown
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-| [[woz-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | ja | 6/6 criteria, exact match | Woning, kantoor | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | ja | 6/6 criteria, exact match | Woning, kantoor | ja |
 | belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | ja | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
 | heffingsmaatstaf | object | Maatstaf voor belastingschuld | ❌ | ja | Eigenschap van verordening | WOZ-waarde | nee |
 | belastingmix | thema | Gekozen combinatie belastingen | ❌ | nee | Beleidsmatig, geen object | — | nee |

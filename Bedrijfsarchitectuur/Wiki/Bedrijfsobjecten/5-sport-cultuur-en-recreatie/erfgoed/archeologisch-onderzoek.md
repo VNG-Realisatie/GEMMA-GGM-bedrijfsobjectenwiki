@@ -71,7 +71,7 @@ De GGM-definitie is generiek ("project"); in het GGM-archeologie-model is dit sp
 
 De operationele opgravingshiërarchie (Put → Vlak → Spoor → Vulling) en onderzoekstechnieken (boring) zijn in het GGM gedetailleerd uitgewerkt. Op bedrijfsniveau zijn dit details van het onderzoeksproject, niet zelfstandige bedrijfsobjecten. Ook het **Archeologiebesluit** (EAID_836E51BF, "professioneel oordeel") is een uitkomst van het adviesproces, geaggregeerd in dit BO.
 
-> "We bewaken en bestuderen het Utrechtse bodemarchief door te adviseren bij voorgenomen werkzaamheden in de ondergrond, door archeologisch onderzoek als bevoegd gezag te begeleiden en door zelf onderzoek uit te voeren." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]])
+> "We bewaken en bestuderen het Utrechtse bodemarchief door te adviseren bij voorgenomen werkzaamheden in de ondergrond, door archeologisch onderzoek als bevoegd gezag te begeleiden en door zelf onderzoek uit te voeren." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']])
 
 ## Relaties
 

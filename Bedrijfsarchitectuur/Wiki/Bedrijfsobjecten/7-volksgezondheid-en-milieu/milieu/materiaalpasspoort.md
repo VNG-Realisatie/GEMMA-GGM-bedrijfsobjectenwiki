@@ -67,7 +67,7 @@ Het materiaalpasspoort ontstaat in het proces van circulair bouwen en aanbestede
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor materiaalpasspoorten. Dit is een cross-domein concept (Milieu/Bouw/Beheer openbare ruimte) dat structureel buiten het huidige GGM valt. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor materiaalpasspoorten. Dit is een cross-domein concept (Milieu/Bouw/Beheer openbare ruimte) dat structureel buiten het huidige GGM valt. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bedrijfsprocessen
 

@@ -65,7 +65,7 @@ Een zero-emissiezone is een door de gemeente ingesteld gebied waar alleen emissi
 
 ## Juridische bron
 
-Governance-object met juridische grondslag in verkeersbesluiten en Rijksbeleid (Klimaatakkoord). Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de uitrol van zero-emissiezones als kerninstrument voor schone stadslogistiek.
+Governance-object met juridische grondslag in verkeersbesluiten en Rijksbeleid (Klimaatakkoord). Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de uitrol van zero-emissiezones als kerninstrument voor schone stadslogistiek.
 
 ## Relaties
 
@@ -75,4 +75,4 @@ Governance-object met juridische grondslag in verkeersbesluiten en Rijksbeleid (
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor zero-emissiezones. Als governance-object valt dit structureel buiten de GGM-scope (het GGM modelleert data, niet juridische kaders). Niettemin heeft de zone registreerbare eigenschappen (begrenzing, ingangsdatum, voertuigcategorieen, ontheffingsregime) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor zero-emissiezones. Als governance-object valt dit structureel buiten de GGM-scope (het GGM modelleert data, niet juridische kaders). Niettemin heeft de zone registreerbare eigenschappen (begrenzing, ingangsdatum, voertuigcategorieen, ontheffingsregime) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

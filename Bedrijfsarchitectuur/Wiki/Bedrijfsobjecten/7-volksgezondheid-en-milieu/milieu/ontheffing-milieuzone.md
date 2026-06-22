@@ -68,7 +68,7 @@ Geen directe GGM-entiteit voor milieuzone-ontheffingen. Het GGM bevat:
 
 ## Procesbron
 
-Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "(extra) ontheffingen voor bepaalde voertuigen"
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.2.7)
@@ -81,4 +81,4 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 ## Terugmelding GGM
 
-**Ontheffing (milieuzone)** — Specialisatie van het generieke ontheffingsconcept, vergelijkbaar met Ligplaatsontheffing (VTH). Het GGM kent domeinspecifieke ontheffingen (Inburgering, Werk) maar geen generiek herbruikbaar ontheffingsconcept. Zou als specialisatie van VOMAanvraagOfMelding passen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Ontheffing (milieuzone)** — Specialisatie van het generieke ontheffingsconcept, vergelijkbaar met Ligplaatsontheffing (VTH). Het GGM kent domeinspecifieke ontheffingen (Inburgering, Werk) maar geen generiek herbruikbaar ontheffingsconcept. Zou als specialisatie van VOMAanvraagOfMelding passen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

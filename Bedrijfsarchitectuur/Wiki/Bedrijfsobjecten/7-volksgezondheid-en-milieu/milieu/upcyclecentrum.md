@@ -71,7 +71,7 @@ Het upcyclecentrum ontstaat uit gemeentelijk circulaire-economiebeleid. Dit is e
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor upcyclecentra. Het concept is verwant aan maar onderscheiden van [[Milieustraat]] (die gericht is op afvalscheiding, niet op hergebruik). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor upcyclecentra. Het concept is verwant aan maar onderscheiden van [[Milieustraat]] (die gericht is op afvalscheiding, niet op hergebruik). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bedrijfsprocessen
 

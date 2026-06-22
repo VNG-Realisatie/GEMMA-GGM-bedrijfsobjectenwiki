@@ -57,7 +57,7 @@ Wettelijke grondslag: Burgerlijk Wetboek art. 5:8 lid 3 (gevonden dieren) en Alg
 
 De gemeente organiseert opvang en vervoer via een contract met de Dierenbescherming. Onderaannemers: Stichts Asyl voor Dieren (honden/katten), Dierenambulance Utrecht (vervoer), Vogelopvang Utrecht (wilde vogels), Dierenbeschermingscentrum Amersfoort (konijnen/knaagdieren).
 
-> "Gemeente Utrecht kiest ervoor om opvang en vervoer van alle hulpbehoevende dieren uit de gemeente Utrecht - zowel wilde als gehouden dieren – structureel te regelen met een organisatie die reeds een sterke rol heeft in deze activiteit." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn]])
+> "Gemeente Utrecht kiest ervoor om opvang en vervoer van alle hulpbehoevende dieren uit de gemeente Utrecht - zowel wilde als gehouden dieren – structureel te regelen met een organisatie die reeds een sterke rol heeft in deze activiteit." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
 ## Relaties
 

@@ -60,7 +60,7 @@ Een stadsdistributiepunt is een locatie waar goederen worden gebundeld en overge
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft stadsdistributiepunten als hubs voor gebundelde last-mile distributie, passend bij de transitie naar zero-emissie stadslogistiek.
+Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft stadsdistributiepunten als hubs voor gebundelde last-mile distributie, passend bij de transitie naar zero-emissie stadslogistiek.
 
 ## Relaties
 
@@ -69,4 +69,4 @@ Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het [[Wiki/Bronsamenvatting
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor stadsdistributiepunten. Dit is een registratieobject: gemeenten wijzen locaties aan met eigenschappen als capaciteit, modaliteiten en ruimtelijke bestemming. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor stadsdistributiepunten. Dit is een registratieobject: gemeenten wijzen locaties aan met eigenschappen als capaciteit, modaliteiten en ruimtelijke bestemming. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

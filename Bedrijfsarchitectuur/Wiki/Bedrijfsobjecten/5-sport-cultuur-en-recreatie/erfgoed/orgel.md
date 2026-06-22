@@ -30,7 +30,7 @@ bedrijfsfuncties: [Erfgoedbeheer]
 bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]
 relaties:
   - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|Monument]]"
     richting: "naar-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: Een monument (kerkgebouw) kan een of meer orgels bevatten
@@ -74,7 +74,7 @@ Het bedrijfsobject **Orgel** is een registreerbaar roerend erfgoedobject. Het on
 
 | Relatie | Bedrijfsobject | Bron | Toelichting |
 |---|---|---|---|
-| Staat in | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]] | Visie religieus erfgoed 2025 | Een orgel bevindt zich in een kerkgebouw (monument); bij verplaatsing kan dit wijzigen |
+| Staat in | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | Visie religieus erfgoed 2025 | Een orgel bevindt zich in een kerkgebouw (monument); bij verplaatsing kan dit wijzigen |
 
 ## Bedrijfsprocessen
 

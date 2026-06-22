@@ -74,7 +74,7 @@ Overblijfsel of voorwerp uit het verleden dat bij archeologisch onderzoek is aan
 
 In het GGM is Vondst de vondstcontext (locatie, omstandigheden) en bevat het Artefacten (de fysieke objecten). Op bedrijfsniveau spreekt de gemeente over "vondsten" als geheel — de context en de objecten samen. Het GGM-detailniveau (Vondst → Artefact → Artefactsoort, en de opgravinghiërarchie Put → Vlak → Spoor → Vulling → Vondst) is te granulair voor de bedrijfsarchitectuur. De GGM-entiteit **Artefact** (EAID_2C230EE7) is daarom geaggregeerd in dit BO.
 
-> "De gemeente beheert de vondsten en documentatie van 50 jaar archeologisch en bouwhistorisch onderzoek door de gemeente Utrecht. Dit materiaal is meestal het enige materiële wat resteert na onderzoek en vormt dus in veel opzichten 'het geheugen van de stad'." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]])
+> "De gemeente beheert de vondsten en documentatie van 50 jaar archeologisch en bouwhistorisch onderzoek door de gemeente Utrecht. Dit materiaal is meestal het enige materiële wat resteert na onderzoek en vormt dus in veel opzichten 'het geheugen van de stad'." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']])
 
 ## Relaties
 

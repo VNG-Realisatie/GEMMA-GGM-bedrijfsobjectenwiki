@@ -207,4 +207,4 @@ Afgeleid uit de bronformulering:
 
 ## Terugmelding GGM
 
-Het GGM mist een overkoepelend concept voor maatschappelijke voorzieningen. De welzijns-, zorg- en cultuursubtypen (buurtcentrum, buurtkamer, jongerenhuiskamer, gezondheidscentrum, wijkcultuurhuis, dagbestedingslocatie, gezinshuis, maatschappelijke opvang) hebben geen GGM-entiteit. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM mist een overkoepelend concept voor maatschappelijke voorzieningen. De welzijns-, zorg- en cultuursubtypen (buurtcentrum, buurtkamer, jongerenhuiskamer, gezondheidscentrum, wijkcultuurhuis, dagbestedingslocatie, gezinshuis, maatschappelijke opvang) hebben geen GGM-entiteit. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -14,10 +14,10 @@ Gemeentelijk domein voor het welzijn van dieren in de stad. Omvat de wettelijke 
 
 | Begrip | Type | Omschrijving | BO? | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/hulpbehoevend-dier]] | object | Wild of gehouden dier dat opvang en vervoer nodig heeft | ✅ | 6/6 criteria, wettelijke taak, GGM-hiaat | Gevonden kat, gewonde vogel, dier bij huisontruiming | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/kinderboerderij]] | object | Openbaar toegankelijke boerderij met boerderijdieren voor educatie | ✅ | 6/6 criteria, gemeentelijk eigendom en subsidie, GGM-hiaat | Steede Leidsche Rijn, Steede Zuilen | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/dierenweide]] | object | Locatie met dieren, beperkte openingstijden, vaak particulier initiatief | ✅ | 6/6 criteria, subsidierelatie, apart van kinderboerderij, GGM-hiaat | Dierenweide Oog in Al, Dierenweide de Meern | nee |
-| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/visrecht]] | object | Recht om te vissen in gemeentelijke wateren, verhuurd via Visserijwet | ✅ | 6/6 criteria, eigen juridische grondslag, GGM-hiaat | Visrecht AUHV, visrecht Visserijbedrijf Peter Burger | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/hulpbehoevend-dier\|Hulpbehoevend dier]] | object | Wild of gehouden dier dat opvang en vervoer nodig heeft | ✅ | 6/6 criteria, wettelijke taak, GGM-hiaat | Gevonden kat, gewonde vogel, dier bij huisontruiming | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/kinderboerderij\|Kinderboerderij]] | object | Openbaar toegankelijke boerderij met boerderijdieren voor educatie | ✅ | 6/6 criteria, gemeentelijk eigendom en subsidie, GGM-hiaat | Steede Leidsche Rijn, Steede Zuilen | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/dierenweide\|Dierenweide]] | object | Locatie met dieren, beperkte openingstijden, vaak particulier initiatief | ✅ | 6/6 criteria, subsidierelatie, apart van kinderboerderij, GGM-hiaat | Dierenweide Oog in Al, Dierenweide de Meern | nee |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/visrecht\|Visrecht]] | object | Recht om te vissen in gemeentelijke wateren, verhuurd via Visserijwet | ✅ | 6/6 criteria, eigen juridische grondslag, GGM-hiaat | Visrecht AUHV, visrecht Visserijbedrijf Peter Burger | nee |
 | soortenmanagementplan | instrument | Plan voor omgang met beschermde gebouwbewonende soorten | ⚠️ | Instrument, 6/6 criteria maar type=instrument → ter discussie | Soortenmanagementplan diervriendelijk bouwen | nee |
 | Utrechtse soortenlijst | instrument | Lijst van karakteristieke en waardevolle Utrechtse plant- en diersoorten | ❌ | Eén lijst, geen meervoud | — | nee |
 | diervriendelijk bouwen | thema | Maatregelen bij bouwen voor beschermde gebouwbewonende soorten | ❌ | Aanpak/methode, geen zelfstandig object | — | nee |
@@ -37,7 +37,7 @@ Dit is vergelijkbaar met het patroon bij het domein Milieu (bodem/grondwater): e
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn 2019]] — actualisatie dierenwelzijnsbeleid gemeente Utrecht (26 pagina's, december 2019)
+- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — actualisatie dierenwelzijnsbeleid gemeente Utrecht (26 pagina's, december 2019)
 
 ## Nog te verwerken bronnen
 

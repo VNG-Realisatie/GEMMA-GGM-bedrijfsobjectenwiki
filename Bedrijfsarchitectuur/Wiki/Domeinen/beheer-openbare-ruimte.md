@@ -65,13 +65,13 @@ Van deze 200 entiteiten zijn nu 9 als BO beoordeeld: **Boom**, **Groenobject**, 
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009, aangevuld 2018)
-- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Visie op stedelijke groenstructuur tot 2030 (40 p.)
-- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Actualisatie met gezonde verstedelijking en klimaatadaptatie (45 p.)
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht – Stad en land verbonden]] — Visie op stedelijke groenstructuur tot 2030 (40 p.)
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]] — Actualisatie met gezonde verstedelijking en klimaatadaptatie (45 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer Openbare Ruimte]] — Beleidskader beheer openbare ruimte met areaalcijfers en financiële strategie (2021, 64 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Integraal visiedocument met drie kwaliteitsniveaus (2016, 49 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid voor kwaliteit openbare ruimte]] — Overzichtspagina Omgevingsvisie Utrecht
-- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Beschrijving BInG-toetsingsproces
-- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Visie Speelruimte Utrecht]] — Ontwerpvisie speelruimte met normen, speelbuurten en beoordelingsschema's (2022, 48 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: beheer, inrichting, gebruik (BInG)]] — Beschrijving BInG-toetsingsproces
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht]] — Ontwerpvisie speelruimte met normen, speelbuurten en beoordelingsschema's (2022, 48 p.)
 
 ## Nog te verwerken bronnen
 

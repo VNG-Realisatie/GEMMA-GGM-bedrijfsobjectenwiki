@@ -53,7 +53,7 @@ relaties:
 
 Een verwerkingscontract is een overeenkomst tussen de gemeente (vaak via de Gemeenschappelijke Regeling AVU) en afvalverwerkingsbedrijven voor de inzameling of verwerking van specifieke afval- en grondstofstromen. Belangrijke contracten: restafvalverwerking (via AVU), PBP-sortering (Combinatie Oost), GFT-compostering (via Cirkelwaarde). Contracten bepalen de kostenstructuur van de [[Afvalstoffenheffing]]. Steeds vaker is circulaire verwerking een selectiecriterium bij aanbesteding.
 
-> "De gemeente neemt deel aan de Gemeenschappelijke Regeling AVU voor de verwerking van het meeste huishoudelijk afval." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+> "De gemeente neemt deel aan de Gemeenschappelijke Regeling AVU voor de verwerking van het meeste huishoudelijk afval." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]])
 
 ## Procesbron
 

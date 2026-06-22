@@ -83,7 +83,7 @@ Geen GGM-entiteit. Het GGM bevat wel **Parkeerzone** (Model Parkeren) als vergel
 
 ## Procesbron
 
-De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformaliseerd via een verkeersbesluit. Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit 2025-2030]].
+De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformaliseerd via een verkeersbesluit. Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]].
 
 > "We breiden de milieuzone vanaf 2027 geografisch uit naar de gemeentegrenzen van Utrecht, voor de volgende voertuigen op diesel: personenauto's en bestelauto's tot en met emissieklasse 4, en de milieuzone voor vrachtauto's en autobussen tot en met emissieklasse 5."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.2.3)
@@ -97,4 +97,4 @@ De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformal
 
 ## Terugmelding GGM
 
-**Milieuzone** — Dataobject voor het afgebakend gebied met emissieklasse-eisen per voertuigcategorie. Vergelijkbaar met Parkeerzone (Model Parkeren) maar gericht op luchtkwaliteit in plaats van parkeerregulering. Zou onder Mobiliteit (taakveld 2) of een nieuw beleidsdomein Luchtkwaliteit (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Milieuzone** — Dataobject voor het afgebakend gebied met emissieklasse-eisen per voertuigcategorie. Vergelijkbaar met Parkeerzone (Model Parkeren) maar gericht op luchtkwaliteit in plaats van parkeerregulering. Zou onder Mobiliteit (taakveld 2) of een nieuw beleidsdomein Luchtkwaliteit (taakveld 7) kunnen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

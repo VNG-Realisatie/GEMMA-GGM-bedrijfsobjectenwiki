@@ -266,90 +266,90 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ## Bronsamenvattingen
 
 ### Bestuur (VNG-rubrieken)
-- [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag
-- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking]] — VNG: Wet gemeenschappelijke regelingen (Wgr), samenwerkingsvormen
-- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]] — VNG: voorbereiding raadsverkiezingen 2026, gemeentelijke taken
-- [[Wiki/Bronsamenvattingen/Bestuur/lokale-omroepen]] — VNG: rol gemeenten, stelselwijziging lokale media
-- [[Wiki/Bronsamenvattingen/Bestuur/rubriek-bestuur]] — VNG: raamwerk lokale democratie en bestuurlijke organisatie
-- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]] — VNG: gemeentelijke verantwoordelijkheid voor alle verkiezingen en referenda
-- [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie]] — VNG: initiatieven voor democratische vernieuwing
-- [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet]] — VNG: agendapunten richting rijksoverheid
-- [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers]] — VNG: informatiegidsen voor raadsleden
+- [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking|Gemeentelijke Samenwerking]] — VNG: Wet gemeenschappelijke regelingen (Wgr), samenwerkingsvormen
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — VNG: voorbereiding raadsverkiezingen 2026, gemeentelijke taken
+- [[Wiki/Bronsamenvattingen/Bestuur/lokale-omroepen|Lokale omroepen]] — VNG: rol gemeenten, stelselwijziging lokale media
+- [[Wiki/Bronsamenvattingen/Bestuur/rubriek-bestuur|Rubriek Bestuur]] — VNG: raamwerk lokale democratie en bestuurlijke organisatie
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — VNG: gemeentelijke verantwoordelijkheid voor alle verkiezingen en referenda
+- [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie|Versterking lokale democratie]] — VNG: initiatieven voor democratische vernieuwing
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet|VNG-inzet kabinet]] — VNG: agendapunten richting rijksoverheid
+- [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — VNG: informatiegidsen voor raadsleden
 
 ### Belastingen
-- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]] — VNG: drie typen gemeentelijke belastingen
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen|Belastingtypen]] — VNG: drie typen gemeentelijke belastingen
 - belastinggebied — VNG: reikwijdte belastinggebied, gesloten stelsel
-- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek]] — VNG: beleidskeuzes bij de belastingmix
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek|Belastingpolitiek]] — VNG: beleidskeuzes bij de belastingmix
 - belastingverordening — VNG: de verordening als juridisch instrument
-- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling]] — VNG: rollen van raad, college, ambtenaren
-- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding|invordering-en-kwijtschelding]] — VNG: invorderingsproces en kwijtscheldingsbeleid
-- [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven|kostendekkende-tarieven]] — VNG: kostendekkendheidsbeginsel
-- [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen|wettelijke-grenzen]] — VNG: juridische grenzen en rechtsbeginselen
-- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen|raadgever-gemeentelijke-belastingen]] — VNG Raadgever: belastingmix, typen, kwijtschelding, grenzen
-- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing|raadgever-kostenonderbouwing]] — VNG Raadgever: tariefverschillen en kostenonderbouwingsplicht
-- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz|raadgever-woz]] — VNG Raadgever: WOZ-waarde, taxatie, basisregistratie
+- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling|Bevoegdhedenverdeling]] — VNG: rollen van raad, college, ambtenaren
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding|Invordering en kwijtschelding]] — VNG: invorderingsproces en kwijtscheldingsbeleid
+- [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven|Kostendekkende tarieven]] — VNG: kostendekkendheidsbeginsel
+- [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen|Wettelijke grenzen]] — VNG: juridische grenzen en rechtsbeginselen
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen|Raadgever Gemeentelijke belastingen]] — VNG Raadgever: belastingmix, typen, kwijtschelding, grenzen
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing|Raadgever Kostenonderbouwing van lokale heffingen]] — VNG Raadgever: tariefverschillen en kostenonderbouwingsplicht
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz|Raadgever Wet waardering onroerende zaken (WOZ)]] — VNG Raadgever: WOZ-waarde, taxatie, basisregistratie
 
 ### Financiën
-- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen|raadgever-inkomstenbronnen]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
-- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting|raadgever-gemeentebegroting]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
-- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening|raadgever-financiele-verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
-- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie|raadgever-financiele-conditie]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen|Raadgever De inkomstenbronnen van gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting|Raadgever Gemeentebegroting en jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening|Raadgever De financiële verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie|Raadgever Financiële conditie gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
 
 ### Dienstverlening — inkoop
-- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|raadgever-inkoop-en-aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
+- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever Inkoop en aanbesteden]] — VNG Raadgever: inkoop, aanbestedingsregels en MVOI
 
 ### Dienstverlening — overheidsbrede dienstverlening en kanalen
-- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening]] — BZK-programma overheidsbrede loketten, professionallijnen, IDO's
-- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan|Overheidsbrede Startscan]] — implementatiemethodiek overheidsbrede dienstverlening
-- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening|VNG-rubriek Dienstverlening]] — portaalpagina GGU, leveranciersmanagement, MijnServices
+- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening voor gemeenten]] — BZK-programma overheidsbrede loketten, professionallijnen, IDO's
+- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan|Overheidsbrede Startscan voor gemeenten]] — implementatiemethodiek overheidsbrede dienstverlening
+- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening|VNG-rubriek Dienstverlening en bedrijfsvoering]] — portaalpagina GGU, leveranciersmanagement, MijnServices
 - [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening|Online dienstverlening]] — Wmebv, MijnServices, IDO's
 - [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid|Digitale toegankelijkheid]] — Wdo, toegankelijkheidsverklaring
-- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzicht)]] — portaalpagina, overlapt met raadgever
+- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzichtspagina)]] — portaalpagina, overlapt met raadgever
 
 ### Economie
-- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|economie-speerpunten-vng]] — VNG: vier speerpunten economisch beleid gemeenten
-- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|ontwikkelingskader-detailhandel-2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
-- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|detailhandel-utrecht-2015]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
-- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht|horecabeleid-utrecht]] — Gemeente Utrecht: overzicht horecabeleid (horeca, hotels, short stay)
-- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|actualisatie-marktruimte-hotelnota]] — Gemeente Utrecht: hotelmarktruimte Horwath HTL (2015)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|beleidsregels-terrassen-utrecht]] — Gemeente Utrecht: beleidsregel terrassen (2024)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|beleidsregel-hotels-utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen (2026)
-- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|beleidsregels-short-stay-utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
-- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|beleidsnota-werklocaties-2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035
+- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
+- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|Ontwikkelingskader Detailhandel 2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
+- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015|Detailhandel Utrecht 2015 — Stand van zaken Beleid en acties]] — Gemeente Utrecht: statusrapportage detailhandel per wijk
+- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht|Horecabeleid Gemeente Utrecht]] — Gemeente Utrecht: overzicht horecabeleid (horeca, hotels, short stay)
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota|Actualisatie marktruimte hotelnota 'Room With A View']] — Gemeente Utrecht: hotelmarktruimte Horwath HTL (2015)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht|Beleidsregel Terrassen Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel terrassen (2024)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|Beleidsregel Hotels Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen (2026)
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|Beleidsnota Werklocaties 2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035
 
 ### GEMMA
-- [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
+- [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
 
 ### Standaarden
-- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
-- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
-- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
 
 ### Inburgering en Asielopvang
-- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|asielopvangwijzer]] — COA: portaalpagina asielopvang voor gemeenten
-- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|coa-dienstverleningsgids]] — COA: taakverdeling en dienstverlening (januari 2026)
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|Asielopvangwijzer: alle informatie voor gemeenten]] — COA: portaalpagina asielopvang voor gemeenten
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|COA Dienstverleningsgids voor gemeenten (januari 2026)]] — COA: taakverdeling en dienstverlening (januari 2026)
 
 ### Beheer Openbare Ruimte
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009/2018)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte|Nota Beheer Openbare Ruimte]] — Gemeente Utrecht: areaalcijfers, financiële strategie, ontwikkelend beheer (2021, 64 p.)
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte|Kadernota Kwaliteit Openbare Ruimte]] — Gemeente Utrecht: drie kwaliteitsniveaus, vijf principes (2016, 49 p.)
-- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid kwaliteit openbare ruimte]] — Gemeente Utrecht: overzichtspagina Omgevingsvisie
-- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: BInG]] — Gemeente Utrecht: BInG-toetsingsproces
-- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Visie Speelruimte Utrecht]] — Gemeente Utrecht: ontwerpvisie speelruimte met normen en beoordelingsschema's (2022)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid voor kwaliteit openbare ruimte]] — Gemeente Utrecht: overzichtspagina Omgevingsvisie
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: beheer, inrichting, gebruik (BInG)]] — Gemeente Utrecht: BInG-toetsingsproces
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht]] — Gemeente Utrecht: ontwerpvisie speelruimte met normen en beoordelingsschema's (2022)
 
 ### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
-- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht 2007]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
-- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht – Stad en land verbonden]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
 
 ### Milieu — water en riolering
 - [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
-- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
 - [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
 
 ### Milieu — bodem
-- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid
-- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan grondwaterbeheer]] — Gemeente Utrecht: gebiedsgericht grondwaterbeheer (2015)
-- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027]] — Gemeente Utrecht: hergebruik grond en bodembeheer
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid
+- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer|Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond]] — Gemeente Utrecht: gebiedsgericht grondwaterbeheer (2015)
+- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer|Nota Bodembeheer 2017-2027 (Grondig Werken 4)]] — Gemeente Utrecht: hergebruik grond en bodembeheer
 
 ### Milieu — afval en circulaire economie
 - [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]] — Gemeente Utrecht: afvalbeleid per grondstofstroom (98 p., 2020)
@@ -363,44 +363,44 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/verduurzaming-gebouwde-omgeving|VNG — Verduurzaming gebouwde omgeving]] — VNG: warmtetransitie, isolatie, Wgiw, Wcw, NIP
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrecht|Visie Klimaatadaptatie Utrecht]] — Gemeente Utrecht: beleidskader klimaatadaptatie (hitte, water, droogte, overstroming)
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/ontwerpvisie-klimaatneutraal|Ontwerpvisie Utrecht Klimaatneutraal 2026-2050]] — Gemeente Utrecht: overkoepelende klimaatvisie (mitigatie, transitiepaden)
-- [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie]] — Gemeente Utrecht: aanbiedingsbrief met context en praktijkvoorbeelden
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie Utrecht klimaatneutraal]] — Gemeente Utrecht: aanbiedingsbrief met context en praktijkvoorbeelden
 
 ### Evenementen
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Locatiebeleid evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht]] — Gemeente Utrecht: overzichtspagina omgevingsvisie.utrecht.nl (secundair)
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)
+- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht: overzichtspagina omgevingsvisie.utrecht.nl (secundair)
 
 ### Gevaarlijke stoffen
 - [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid|Beleidsnota Omgevingsveiligheid Utrecht]] — Gemeente Utrecht: beleid omgevingsveiligheid gevaarlijke stoffen (2023)
 
 ### Geluid
-- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen (2024)]] — Gemeente Utrecht: beleidsnota geluid en trillingen, onderdeel omgevingsvisie
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen]] — Gemeente Utrecht: beleidsnota geluid en trillingen, onderdeel omgevingsvisie
 - [[Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht|Actieplan Geluid Utrecht 2018-2023]] — Gemeente Utrecht: operationeel uitvoeringsprogramma geluidknelpunten en stille gebieden
 
 ### Welstand
-- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota — De Utrechtse aanpak]] — Gemeente Utrecht: beleidskader welstand, typologieën, beleidsniveaus, criteria (deel A, 2015)
-- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-criteria-richtlijnen|Welstandsnota — Welstandscriteria en richtlijnen]] — Gemeente Utrecht: toetsingscriteria voor veelvoorkomende bouwwerken (deel B, 2015)
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]] — Gemeente Utrecht: beleidskader welstand, typologieën, beleidsniveaus, criteria (deel A, 2015)
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-criteria-richtlijnen|Welstandsnota — Welstandscriteria en richtlijnen (Deel B)]] — Gemeente Utrecht: toetsingscriteria voor veelvoorkomende bouwwerken (deel B, 2015)
 
 ### Wonen
-- [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht 2025-2030]] — Gemeente Utrecht: hoofdbeleidsnota woonbeleid (107 p.)
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht: Van woningmarkt naar volkshuisvesting 2025-2030]] — Gemeente Utrecht: hoofdbeleidsnota woonbeleid (107 p.)
 - [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht|Huisvestingsverordening gemeente Utrecht]] — Gemeente Utrecht: juridisch kader woonruimteverdeling en vergunningen
-- [[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening|Nadere regel Huisvestingsverordening]] — Gemeente Utrecht: leefbaarheidstoets, voorrangsregels, woongroepen
-- [[Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening|Beleidsregel Huisvestingsverordening]] — Gemeente Utrecht: omzetting, opkoopbescherming, goed verhuurderschap
+- [[Wiki/Bronsamenvattingen/Wonen/nadere-regel-huisvestingsverordening|Nadere regel Huisvestingsverordening gemeente Utrecht]] — Gemeente Utrecht: leefbaarheidstoets, voorrangsregels, woongroepen
+- [[Wiki/Bronsamenvattingen/Wonen/beleidsregel-huisvestingsverordening|Beleidsregel Huisvestingsverordening gemeente Utrecht]] — Gemeente Utrecht: omzetting, opkoopbescherming, goed verhuurderschap
 - [[Wiki/Bronsamenvattingen/Wonen/actieplan-betaalbare-koopwoningen|Actieplan betaalbare koopwoningen 2021]] — Gemeente Utrecht: zelfbewoningsplicht, antispeculatiebeding
-- [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur 2017]] — Gemeente Utrecht: eerste regulering middenhuur, zonering, oppervlakte-eisen
-- [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Werkwijze extra woningen toevoegen]] — Gemeente Utrecht: optoppen, aanplakken, ondertoppen
-- [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht|Beleid woonboten en historische schepen]] — Gemeente Utrecht: overzichtspagina woonbotenbeleid
-- [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007|Woonbotenbeleid 2007]] — Gemeente Utrecht: maatvoering, oevergebruik, vergunningenstelsel (30 p.)
-- [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden historische schepen 2015]] — Gemeente Utrecht: zones, vervangingsregeling, vormgevingseisen
+- [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur Actualisatie 2017]] — Gemeente Utrecht: eerste regulering middenhuur, zonering, oppervlakte-eisen
+- [[Wiki/Bronsamenvattingen/Wonen/werkwijze-extra-woningen|Optoppen, aanplakken en ondertoppen: de Utrechtse werkwijze]] — Gemeente Utrecht: optoppen, aanplakken, ondertoppen
+- [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht|Beleid voor woonboten en historische schepen]] — Gemeente Utrecht: overzichtspagina woonbotenbeleid
+- [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007|Woonbotenbeleid (september 2007)]] — Gemeente Utrecht: maatvoering, oevergebruik, vergunningenstelsel (30 p.)
+- [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden van historische schepen in Utrecht (december 2015)]] — Gemeente Utrecht: zones, vervangingsregeling, vormgevingseisen
 
 ### Mobiliteit
-- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] — Gemeente Utrecht: visie op mobiliteit 2040, alle modaliteiten (hoofdbron)
-- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer 2007]] — Gemeente Utrecht: routestructuur en kwaliteitseisen goederenvervoer
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] — Gemeente Utrecht: visie op mobiliteit 2040, alle modaliteiten (hoofdbron)
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer binnen de gemeente Utrecht]] — Gemeente Utrecht: routestructuur en kwaliteitseisen goederenvervoer
 
 ### Openbare Gezondheid
-- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie]] — VNG + gemeente Utrecht: gezondheidsbeleid, GALA/IZA, preventieakkoorden, mentale gezondheid, lijkbezorging
+- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie — VNG en gemeente Utrecht]] — VNG + gemeente Utrecht: gezondheidsbeleid, GALA/IZA, preventieakkoorden, mentale gezondheid, lijkbezorging
 
 ### Dierenwelzijn
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn 2019]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
+- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
 
 ### Sociaal Domein
 - [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht: koersdocument maatschappelijke voorzieningen bij gebiedsontwikkeling (2020)
@@ -410,11 +410,11 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur|Propositie Samen cultuur borgen]] — VNG: propositie vier pijlers cultuurbeleid
 - [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed|Architectuur en erfgoed]] — VNG: erfgoed, monumenten, archeologie
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG: bibliotheekwerk als gemeentelijke taak
-- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel]] — VNG: actualisering ringenmodel 2.0
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota Utrecht]] — Gemeente Utrecht: erfgoedbeleid, archeologie, monumenten, verduurzaming
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Visie religieus erfgoed 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid Utrecht]] — Gemeente Utrecht: overzichtspagina erfgoedbeleid (secundair)
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen visie religieus erfgoed]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel — de culturele infrastructuur van gemeenten]] — VNG: actualisering ringenmodel 2.0
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']] — Gemeente Utrecht: erfgoedbeleid, archeologie, monumenten, verduurzaming
+- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht: overzichtspagina erfgoedbeleid (secundair)
+- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
 
 ## Analyses
 

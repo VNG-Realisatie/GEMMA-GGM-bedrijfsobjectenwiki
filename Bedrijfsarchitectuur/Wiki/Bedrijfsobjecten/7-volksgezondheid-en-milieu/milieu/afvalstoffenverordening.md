@@ -71,7 +71,7 @@ De Wet Milieubeheer verplicht gemeenten tot vaststelling van een afvalstoffenver
 
 ## Terugmelding GGM
 
-GGM-hiaat. Als governance-object valt de afvalstoffenverordening structureel buiten de GGM-scope (het GGM modelleert data, niet governance). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Als governance-object valt de afvalstoffenverordening structureel buiten de GGM-scope (het GGM modelleert data, niet governance). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bedrijfsprocessen
 

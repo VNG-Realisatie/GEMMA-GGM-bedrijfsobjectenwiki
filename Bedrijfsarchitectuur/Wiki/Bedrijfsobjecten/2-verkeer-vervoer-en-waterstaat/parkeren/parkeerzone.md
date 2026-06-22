@@ -83,4 +83,4 @@ Een parkeerzone is een afgebakend gebied waar specifieke parkeerregels gelden, z
 
 ## Terugmelding GGM
 
-De GEMMA-naam bevat een typefout: "Perkeerzone" in plaats van "Parkeerzone". Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+De GEMMA-naam bevat een typefout: "Perkeerzone" in plaats van "Parkeerzone". Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -56,7 +56,7 @@ Een Laadpaal is een oplaadvoorziening voor elektrische voertuigen, geplaatst in 
 
 ## Procesbron
 
-Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]], §6.4 Auto en §7 Slim parkeren.
+Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]], §6.4 Auto en §7 Slim parkeren.
 
 ## Relaties
 

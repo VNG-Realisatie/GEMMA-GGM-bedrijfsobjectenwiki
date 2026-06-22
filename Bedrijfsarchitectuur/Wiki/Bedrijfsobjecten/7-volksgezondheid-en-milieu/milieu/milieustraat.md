@@ -58,7 +58,7 @@ relaties:
 
 Een milieustraat is een fysieke voorziening die de gemeente exploiteert waar inwoners gescheiden huishoudelijk afval en grofvuil kunnen aanbieden. Utrecht heeft drie milieustraten: Tractieweg, Lunetten (Het Zwarte Woud) en een derde locatie. In Utrecht ook bekend als "afvalscheidingsstation". Het aantal bezoekers steeg met 20% van 475.000 (2015) naar 567.000 (2019). Op een milieustraat worden tot 22 verschillende afvalsoorten geaccepteerd. Er wordt onderzocht of ook bedrijfsafval geaccepteerd kan worden. Milieustraten worden steeds vaker gekoppeld aan upcyclecentra voor hergebruik.
 
-> "Het aantal bezoekers aan de afvalscheidingsstations is gestegen van 475.000 in 2015 naar 567.000 in 2019." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+> "Het aantal bezoekers aan de afvalscheidingsstations is gestegen van 475.000 in 2015 naar 567.000 in 2019." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]])
 
 ## GGM-bron
 

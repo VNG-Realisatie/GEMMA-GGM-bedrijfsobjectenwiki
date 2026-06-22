@@ -2,14 +2,14 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 
 Checks:
 1. **Herleidbaarheid** — BO-pagina's zonder `bronnen` in frontmatter. Elke BO moet traceerbaar zijn naar ten minste één bronsamenvatting.
-2. **Onvolledige BO-frontmatter** — BO-pagina's zonder `grondslag`, `ggm_entiteit`, of (bij grondslag=ggm-entiteit) zonder `ggm_guid`.
+2. **Onvolledige BO-frontmatter** — BO-pagina's zonder `grondslag`, of (bij grondslag=ggm-entiteit) zonder `ggm_entiteit` of `ggm_guid`. Let op: `ggm_entiteit` hoeft alleen gevuld bij grondslag `ggm-entiteit`; bij andere grondslagen is leeg correct.
 3. **Ontbrekende GGM-velden** — BO-pagina's met grondslag `ggm-entiteit` die verrijkte velden missen (`ggm_guid`, `ggm_taakveld`, `ggm_diagram`, `ggm_gemma_naam`). Suggereer `python3 tools/enrich_bo_frontmatter.py`.
 4. **GGM-guid validatie** — als het geparsede XMI beschikbaar is, controleer of `ggm_guid` overeenkomt met een bestaande entiteit. Signaleer verwijderde of hernoemde entiteiten.
 5. **Domeinoverzicht compleetheid** — begrippen in de tabel zonder BO-beoordeling (BO? kolom leeg). BO's in `Wiki/Bedrijfsobjecten/` die niet in een domeinoverzicht staan.
 6. **Bronsamenvattingen** — bronbestanden in `Sources/` zonder bronsamenvatting in `Wiki/Bronsamenvattingen/`.
 7. **Wees-BO's** — BO-pagina's die door geen enkel domeinoverzicht worden gelinkt.
 8. **Tegenstrijdigheden** — definities die conflicteren tussen domeinoverzicht en BO-pagina.
-9. **Frontmatter enum-validatie** — ongeldige waarden voor grondslag, archimate_type, ggm_uml_type.
+9. **Frontmatter enum-validatie** — ongeldige waarden voor grondslag, archimate_type, ggm_uml_type. Geldige waarden (zie `templates/bedrijfsobject.md`): grondslag ∈ {ggm-entiteit, ggm-afgeleid, procesobject, governance-object}; archimate_type ∈ {business-object, contract, product}; ggm_uml_type ∈ {Class, Enumeration}.
 10. **Geen losse begrippenpagina's** — controleer of `Wiki/Begrippen/` directory niet bestaat. Begrippen horen in de begrippentabel op de domeinpagina, niet als aparte pagina's.
 11. **Begrippentabel format** — domeinoverzichten moeten een begrippentabel hebben met kolommen: Begrip, Type, Omschrijving, BO?, Reden, Voorbeelden, GGM. Signaleer domeinpagina's die begrippen als bullet-lijst hebben i.p.v. tabel.
 12. **Geen Wiki/Begrippen/ links** — zoek naar `[[Wiki/Begrippen/` in alle wiki-bestanden. Deze links zijn verouderd; begrippen staan op domeinpagina's.
@@ -25,7 +25,7 @@ Checks:
 18. **Terugmeldingen-consistentie** — BO's met "⚠️ ter discussie" of afwijking in body die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan, en omgekeerd (terugmeldingen die naar niet-bestaande BO verwijzen).
 19. **GGM-entiteitendekkingstabel** — domeinoverzichten zonder GGM-entiteitendekkingstabel, of waarvan de tellingen niet kloppen met de begrippentabel.
 20. **Domein-afgetekend** — domeinoverzichten met `status: in-behandeling` zonder verantwoording, of `_count`-frontmatter die niet klopt met de inhoud.
-21. **Tabel-wikilink-syntax** — `[[pad|alias]]` binnen markdown-tabelrijen (de `|` breekt de tabel). Buiten tabellen mag alias-syntax wel.
+21. **Wiki-link alias verplicht** — alle `[[Wiki/...]]` links (met pad ≥2 segmenten) moeten een alias hebben. In tabellen: `[[pad\|alias]]` (escaped pipe, anders breekt de tabel). Buiten tabellen: `[[pad|alias]]` (gewone pipe). Signaleer: (a) bare `[[Wiki/lang/pad]]` zonder alias, (b) onescaped `|` in `[[...|...]]` binnen tabelrijen, (c) kapotte syntax zoals `[[pad]\|alias]]`.
 22. **Anti-patroon registr\*** — begrippentabel "Reden" of BO-body die "registreerbaar"/"registratieobject" als afwijsgrond of motivatie gebruikt. De 6 BO-criteria zijn de enige toets.
 23. **Data-object kolom** — begrippentabellen zonder "Data-object" kolom; BO's met grondslag=ggm-entiteit maar Data-object=nee (inconsistent); Data-object=ja + GGM=nee zonder vermelding in openstaande acties.
 

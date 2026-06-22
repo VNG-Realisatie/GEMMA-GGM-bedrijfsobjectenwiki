@@ -15,4 +15,4 @@ Kernpunten: reserveringskalender, tien evenementenlocaties met locatieprofielen,
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Secundaire bron. Alle begrippen en objecten zijn uitgebreider beschreven in [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|de beleidsnota]].
+Secundaire bron. Alle begrippen en objecten zijn uitgebreider beschreven in [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]].

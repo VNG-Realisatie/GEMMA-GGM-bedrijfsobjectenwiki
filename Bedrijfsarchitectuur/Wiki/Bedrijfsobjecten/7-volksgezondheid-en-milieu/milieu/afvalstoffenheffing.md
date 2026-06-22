@@ -53,7 +53,7 @@ relaties:
 
 De afvalstoffenheffing is de gemeentelijke belasting die de kosten van huishoudelijk afvalbeheer dekt. Utrecht hanteert 100% kostendekkende afvalstoffenheffing (geen subsidie uit de algemene middelen). De heffing is historisch laag vergeleken met andere G4-gemeenten. De hoogte wordt beinvloed door de verbrandingsbelasting (EUR 32,12/ton in 2019), verwerkingscontracten en scheidingsresultaten — betere scheiding verlaagt de kosten doordat minder restafval tegen hogere tarieven verbrand hoeft te worden.
 
-> "De afvalstoffenheffing in Utrecht is kostendekkend. Betere scheiding leidt tot lagere verwerkingskosten en daarmee tot een lagere afvalstoffenheffing." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota Utrecht 2020]])
+> "De afvalstoffenheffing in Utrecht is kostendekkend. Betere scheiding leidt tot lagere verwerkingskosten en daarmee tot een lagere afvalstoffenheffing." (bron: [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020|Grondstoffennota 2020]])
 
 Cross-domein met Belastingen: de afvalstoffenheffing is formeel een gemeentelijke bestemmingsbelasting maar wordt operationeel aangestuurd vanuit het afvaldomein.
 

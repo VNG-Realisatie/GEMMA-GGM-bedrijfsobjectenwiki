@@ -58,7 +58,7 @@ Een halte is een fysieke voorziening in de openbare ruimte waar reizigers in- en
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk OV-beleid en beheer openbare ruimte. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] beschrijft de gewenste kwaliteit en toegankelijkheid van haltes.
+Afgeleid uit het gemeentelijk OV-beleid en beheer openbare ruimte. Het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] beschrijft de gewenste kwaliteit en toegankelijkheid van haltes.
 
 ## Relaties
 
@@ -67,4 +67,4 @@ Afgeleid uit het gemeentelijk OV-beleid en beheer openbare ruimte. Het [[Wiki/Br
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor OV-haltes. Dit is een registratieobject: gemeenten registreren haltes met locatie, type (tram/bus), toegankelijkheid en inrichting. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor OV-haltes. Dit is een registratieobject: gemeenten registreren haltes met locatie, type (tram/bus), toegankelijkheid en inrichting. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -60,7 +60,7 @@ Een overslagpunt is een locatie waar goederen worden overgeladen tussen vervoers
 
 ## Procesbron
 
-Afgeleid uit het gemeentelijk goederenvervoer- en havenbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer 2007]] beschrijft overslagpunten als knooppunten in het logistieke netwerk; het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040]] benadrukt hun rol bij de modal shift naar vervoer over water.
+Afgeleid uit het gemeentelijk goederenvervoer- en havenbeleid. Het [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer binnen de gemeente Utrecht]] beschrijft overslagpunten als knooppunten in het logistieke netwerk; het [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen]] benadrukt hun rol bij de modal shift naar vervoer over water.
 
 ## Relaties
 
@@ -69,4 +69,4 @@ Afgeleid uit het gemeentelijk goederenvervoer- en havenbeleid. Het [[Wiki/Bronsa
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor overslagpunten of multimodale knooppunten. Dit is een registratieobject: gemeenten beheren locaties met eigenschappen als modaliteiten, capaciteit en ligging. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor overslagpunten of multimodale knooppunten. Dit is een registratieobject: gemeenten beheren locaties met eigenschappen als modaliteiten, capaciteit en ligging. Past bij beleidsdomein Mobiliteit onder taakveld 2. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

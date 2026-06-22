@@ -83,4 +83,4 @@ Dit BO heeft geen directe GGM-grondslag. Het GGM kent diverse vergunninggerelate
 
 ## Terugmelding GGM
 
-**Generiek vergunningsconcept ontbreekt.** Het GGM kent vergunningen alleen als domeinspecifieke entiteiten (Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) zonder overkoepelend concept. Een evenementenvergunning past in geen van deze. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Generiek vergunningsconcept ontbreekt.** Het GGM kent vergunningen alleen als domeinspecifieke entiteiten (Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) zonder overkoepelend concept. Een evenementenvergunning past in geen van deze. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

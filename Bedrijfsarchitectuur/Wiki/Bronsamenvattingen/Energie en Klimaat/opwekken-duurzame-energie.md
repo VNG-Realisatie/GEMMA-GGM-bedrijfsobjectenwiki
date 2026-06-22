@@ -12,11 +12,11 @@ VNG-onderwerpenpagina over het opwekken van hernieuwbare energie. Gemeenten spel
 
 ## Kernbegrippen
 
-- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]]** — locatie waar grootschalige opwek plaatsvindt (zonneveld, windmolenveld)
+- **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]]** — locatie waar grootschalige opwek plaatsvindt (zonneveld, windmolenveld)
 - **RES** — Regionale Energiestrategie, regionaal plan voor duurzame opwek (30 regio's)
 - **Voorkeursvolgorde zon** — beleidsregel voor prioritering locaties zonne-energie
 - **wind op land** — windprojecten waarvoor gemeenten eigen milieunormen kunnen vaststellen
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Onderbouwt [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied]] als concept: gemeenten kiezen waar grootschalige opwek een plek krijgt. De RES is een regionaal instrument, geen gemeentelijk BO.
+Onderbouwt [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]] als concept: gemeenten kiezen waar grootschalige opwek een plek krijgt. De RES is een regionaal instrument, geen gemeentelijk BO.

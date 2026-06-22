@@ -103,4 +103,4 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 ## Terugmelding GGM
 
-Voorschriftengebied deelt dezelfde GGM-entiteit (Gebiedsaanwijzing) als [[Aandachtsgebied]]. Het zijn conceptueel verwante maar verschillende objecten: het aandachtsgebied is een kenmerk van de activiteit, het voorschriftengebied is een actieve aanwijzing in het omgevingsplan. Overweeg of het GGM hiervoor specialisaties van Gebiedsaanwijzing zou moeten kennen. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Voorschriftengebied deelt dezelfde GGM-entiteit (Gebiedsaanwijzing) als [[Aandachtsgebied]]. Het zijn conceptueel verwante maar verschillende objecten: het aandachtsgebied is een kenmerk van de activiteit, het voorschriftengebied is een actieve aanwijzing in het omgevingsplan. Overweeg of het GGM hiervoor specialisaties van Gebiedsaanwijzing zou moeten kennen. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
