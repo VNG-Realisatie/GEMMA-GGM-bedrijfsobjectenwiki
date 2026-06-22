@@ -31,4 +31,5 @@ Stappen:
      - "{domein}"
    ---
    ```
-6. Meld welk bestand is aangemaakt en stel voor om `/ingest` te starten.
+6. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — als de bron bij een bestaand domein hoort, voeg het toe aan de juiste sectie. Als het domein nieuw is, maak een nieuwe sectie aan.
+7. Meld welk bestand is aangemaakt en stel voor om `/ingest` te starten.

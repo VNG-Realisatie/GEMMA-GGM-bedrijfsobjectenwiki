@@ -4,7 +4,7 @@
 
 - [[Wiki/Domeinen/bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
 - [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
-- [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies
+- [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
@@ -70,9 +70,11 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] — Bezittingen op de boekhoudkundige balans
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] — Opdracht voor uitvoering van een activiteit
 
-### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern)
+### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern + VTH taakveld 1)
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|woz-waarde-bo]] — Vastgestelde waarde van een WOZ-object per waardepeildatum
+- [[Wiki/Bedrijfsobjecten/99-kern/heffing|heffing]] — Individuele vaststelling belastingbedrag (belastingaanslag), GGM Heffing (99 Kern)
+- [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|heffingsverordening]] — Juridische grondslag voor belastingheffing, GGM Heffingsverordening (1 VTH)
 
 ### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
@@ -329,6 +331,17 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen|Raadgever Gemeentelijke belastingen]] — VNG Raadgever: belastingmix, typen, kwijtschelding, grenzen
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing|Raadgever Kostenonderbouwing van lokale heffingen]] — VNG Raadgever: tariefverschillen en kostenonderbouwingsplicht
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz|Raadgever Wet waardering onroerende zaken (WOZ)]] — VNG Raadgever: WOZ-waarde, taxatie, basisregistratie
+- [[Wiki/Bronsamenvattingen/Belastingen/onroerendezaakbelastingen|Onroerendezaakbelastingen]] — VNG: OZB, eigenarenbelasting, gebruikersbelasting, roerende-zaakbelasting
+- [[Wiki/Bronsamenvattingen/Belastingen/parkeerbelastingen|Parkeerbelastingen]] — VNG: incidenteel/vergunningparkeren, naheffing, wielklem
+- [[Wiki/Bronsamenvattingen/Belastingen/precariobelasting|Precariobelasting]] — VNG: belasting gebruik openbare grond, gedoogplicht
+- [[Wiki/Bronsamenvattingen/Belastingen/reclamebelasting|Reclamebelasting]] — VNG: openbare aankondigingen, ondernemersfonds
+- [[Wiki/Bronsamenvattingen/Belastingen/hondenbelasting|Hondenbelasting]] — VNG: houderschap, gezinshond, jurisprudentie
+- [[Wiki/Bronsamenvattingen/Belastingen/biz-bijdrage|BIZ-bijdrage]] — VNG: Wet BIZ, draagvlakmeting, bestemmingsbelasting ondernemers
+- [[Wiki/Bronsamenvattingen/Belastingen/retributies|Retributies]] — VNG: leges, marktgeld, havengeld, lijkbezorgingsrechten, Wet markt en overheid
+- [[Wiki/Bronsamenvattingen/Belastingen/reinigingsheffingen|Reinigingsheffingen]] — VNG: afvalstoffenheffing, reinigingsrechten, tariefvormen
+- [[Wiki/Bronsamenvattingen/Belastingen/riool-en-waterzorgheffing|Riool- en waterzorgheffing]] — VNG: watertaken, collectief goed, verbreding heffingsgrondslag
+- [[Wiki/Bronsamenvattingen/Belastingen/toeristische-heffingen|Toeristische heffingen]] — VNG: toeristenbelasting, forensenbelasting, watertoeristenbelasting
+- [[Wiki/Bronsamenvattingen/Belastingen/beleidsregels-gemeentelijke-belastingen-dfm|Beleidsregels DFM]] — Gemeente De Fryske Marren: beleidsregels heffing en invordering
 
 ### Financiën
 - [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen|Raadgever De inkomstenbronnen van gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten

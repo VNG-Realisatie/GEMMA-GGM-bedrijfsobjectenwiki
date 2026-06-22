@@ -1,11 +1,11 @@
 ---
 type: domein
 naam: Belastingen
-status: in-behandeling
-verwerkingsdatum: 2026-06-19
-bronnen_count: 11
-begrippen_count: 40
-bo_count: 7
+status: afgerond
+verwerkingsdatum: 2026-06-22
+bronnen_count: 22
+begrippen_count: 45
+bo_count: 9
 ---
 
 # Domein: Belastingen
@@ -35,13 +35,18 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |toeristenbelasting|object|Heffing op verblijf niet-ingezetenen| ❌ | ja |Eén regeling per gemeente|Hotelnacht, camping|nee|
 |forensenbelasting|object|Heffing op langdurig verblijf niet-ingezetenen (>90 dagen)| ❌ | ja |Eén regeling per gemeente|Tweede woning|nee|
 |vermakelijkhedenretributie|object|Retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken| ❌ | ja |Subtype retributie|Festival, evenement|nee|
+|roerende-zaakbelasting|object|OZB-variant voor woonboten en drijvende bedrijfsruimten| ❌ | ja |Variant van OZB, eén regeling per gemeente|Woonboot, drijvend kantoor|nee|
+|watertoeristenbelasting|object|Variant toeristenbelasting gekoppeld aan ligplaatsen| ❌ | ja |Variant van toeristenbelasting|Ligplaats jachthaven|nee|
+|marktgeld|object|Retributie voor innemen standplaats op dag-/weekmarkten| ❌ | ja |Subtype retributie|Standplaats weekmarkt|nee|
+|havengeld|object|Retributie voor gebruik waterwegen, havens, bruggen, sluizen| ❌ | ja |Subtype retributie|Liggeld, sluis schutten|nee|
+|lijkbezorgingsrechten|object|Retributie voor gebruik gemeentelijke begraafplaats of crematorium| ❌ | ja |Subtype retributie|Grafrecht, crematie|nee|
 
 ### Objecten en processen
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
 |---------------------------------------------------------------|---|----------|--------------------------------------------------------------------------|---|-----------------------------------------------------------------|--------------------------------------|------------------|
-|belastingaanslag|object|Individuele vaststelling van het belastingbedrag door de heffingsambtenaar| ✅ | ja |6/6 criteria, GGM-hiaat (procesobject)|OZB-aanslag 2025, naheffing parkeren|nee|
-|belastingverordening|instrument|Juridische grondslag voor individuele belastingplicht| ✅ | ja |Eigen levenscyclus, governance-object|OZB-verordening 2025, Legesverordening|nee|
+|[[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing (belastingaanslag)]]|object|Individuele vaststelling van het belastingbedrag door de heffingsambtenaar| ✅ | ja |6/6 criteria, exact GGM-match|OZB-aanslag 2025, naheffing parkeren|ja: Heffing|
+|[[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]]|instrument|Juridische grondslag voor individuele belastingplicht| ✅ | ja |Eigen levenscyclus, exact GGM-match|OZB-verordening 2025, Legesverordening|ja: Heffingsverordening|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]]|object|Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld| ✅ | ja |6/6 criteria, exact GGM-match|Woning Dorpsstraat 1, kantoor|ja|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]]|object|Vastgestelde marktwaarde van een WOZ-object per waardepeildatum| ✅ | ja |6/6 criteria, exact GGM-match|WOZ-waarde 2025: €350.000|ja|
 |belastingplichtige|actor|Persoon die belasting moet betalen| ❌ | nee |Rol van een persoon, geen zelfstandig concept|Eigenaar woning, hondenbezitter|nee|
@@ -70,7 +75,7 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
 |---|---|---|---|---|---|---|---|
-|[[naheffingsaanslag]]|object|Aanslag bij niet/te weinig betalen parkeerbelasting| ✅ | ja |6/6 criteria, exact GGM-match (Naheffing)|Parkeerboete €70|ja|
+|[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing\|Naheffing]]|object|Aanslag bij niet/te weinig betalen parkeerbelasting| ✅ | ja |6/6 criteria, exact GGM-match (Naheffing)|Parkeerboete €70|ja|
 |[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]]|object|Vergunning om te parkeren in aangewezen gebied| ✅ | ja |6/6 criteria, exact GGM-match|Bewonersvergunning zone A|ja|
 |[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]]|object|Recht op parkeren na betaling| ✅ | ja |6/6 criteria, exact GGM-match|Parkeerticket 2 uur|ja|
 
@@ -84,9 +89,9 @@ Het GGM heeft geen beleidsdomein "Belastingen". Relevante entiteiten per GGM-dom
 | Vastgoed (9 Int. Org.) | WOZ-Belang, LocatieaanduidingWozObject | Technische tussenentiteiten |
 | Financien (9 Int. Org.) | Debiteur, Kostenplaats | Debiteur → BO (in domein Financien) |
 | Parkeren (2 V&V) | Naheffing, Parkeerrecht, Parkeervergunning, Parkeerzone, Parkeervlak | 3 → BO |
-| VTH (1 Veiligheid) | Heffing, Heffingsverordening, Heffinggrondslag, Precario | Generieke heffing-entiteiten, niet belastingspecifiek |
+| VTH (1 Veiligheid) | Heffing, Heffingsverordening, Heffinggrondslag, Precario | Heffing en Heffingsverordening → BO; Heffinggrondslag is tussenentiteit; Precario bevestigd |
 
-**Structureel hiaat:** het heffingsproces (verordening → maatstaf → tarief → aanslag → invordering) is niet als samenhangend domein gemodelleerd in het GGM. De BO's Belastingaanslag en Belastingverordening zijn procesobject resp. governance-object zonder GGM-grondslag.
+**Opmerking:** het heffingsproces (verordening → maatstaf → tarief → aanslag → invordering) is niet als samenhangend domein gemodelleerd in het GGM, maar de kernentiteiten Heffing en Heffingsverordening bestaan wel in GGM VTH/Kern en zijn nu als BO vastgelegd.
 
 ## Verwerkte bronnen
 
@@ -101,24 +106,18 @@ Het GGM heeft geen beleidsdomein "Belastingen". Relevante entiteiten per GGM-dom
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen|Raadgever Gemeentelijke belastingen]] — Belastingmix, typen, grenzen
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing|Raadgever Kostenonderbouwing van lokale heffingen]] — Tariefverschillen en kostenonderbouwingsplicht
 - [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz|Raadgever Wet waardering onroerende zaken (WOZ)]] — WOZ-waarde, taxatie, Waarderingskamer
-
-## Nog te verwerken bronnen
-
-Specifieke belastingtype-pagina's (inhoud is verwerkt in de begrippentabel hierboven; bronsamenvattingen nog aan te maken):
-
-- Sources/Onderwerpen/Belastingen/Onroerendezaakbelastingen.md
-- Sources/Onderwerpen/Belastingen/Parkeerbelastingen.md
-- Sources/Onderwerpen/Belastingen/Precariobelasting.md
-- Sources/Onderwerpen/Belastingen/Reclamebelasting.md
-- Sources/Onderwerpen/Belastingen/Hondenbelasting.md
-- Sources/Onderwerpen/Belastingen/BIZ-bijdrage.md
-- Sources/Onderwerpen/Belastingen/Retributies.md
-- Sources/Onderwerpen/Belastingen/Reinigingsheffingen (afvalstoffenheffing en reinigingsrechten).md
-- Sources/Onderwerpen/Belastingen/Riool- en waterzorgheffing.md
-- Sources/Onderwerpen/Belastingen/Toeristische heffingen.md
+- [[Wiki/Bronsamenvattingen/Belastingen/onroerendezaakbelastingen|Onroerendezaakbelastingen]] — OZB: twee belastingen, WOZ-waarde, vrijstellingen, roerende-zaakbelasting
+- [[Wiki/Bronsamenvattingen/Belastingen/parkeerbelastingen|Parkeerbelastingen]] — Incidenteel/vergunningparkeren, naheffing, wielklem, mobiel parkeren
+- [[Wiki/Bronsamenvattingen/Belastingen/precariobelasting|Precariobelasting]] — Gebruik openbare grond, gedoogplicht
+- [[Wiki/Bronsamenvattingen/Belastingen/reclamebelasting|Reclamebelasting]] — Openbare aankondigingen, ondernemersfonds
+- [[Wiki/Bronsamenvattingen/Belastingen/hondenbelasting|Hondenbelasting]] — Houderschap, gezinshond, jurisprudentie
+- [[Wiki/Bronsamenvattingen/Belastingen/biz-bijdrage|BIZ-bijdrage]] — Wet BIZ, draagvlakmeting, uitvoeringsovereenkomst
+- [[Wiki/Bronsamenvattingen/Belastingen/retributies|Retributies]] — Leges, marktgeld, havengeld, lijkbezorgingsrechten, Wet markt en overheid
+- [[Wiki/Bronsamenvattingen/Belastingen/reinigingsheffingen|Reinigingsheffingen]] — Afvalstoffenheffing en reinigingsrechten, tariefvormen
+- [[Wiki/Bronsamenvattingen/Belastingen/riool-en-waterzorgheffing|Riool- en waterzorgheffing]] — Watertaken, collectief goed, verbreding heffingsgrondslag
+- [[Wiki/Bronsamenvattingen/Belastingen/toeristische-heffingen|Toeristische heffingen]] — Toeristenbelasting, forensenbelasting, watertoeristenbelasting
+- [[Wiki/Bronsamenvattingen/Belastingen/beleidsregels-gemeentelijke-belastingen-dfm|Beleidsregels DFM]] — Aanwijzing belastingplichtige, ambtshalve vermindering, uitvoeringsregeling
 
 ## Openstaande acties
 
-- BO-pagina's aanmaken voor: Belastingaanslag (procesobject), Belastingverordening (governance-object), Naheffingsaanslag, Parkeervergunning, Parkeerrecht
-- Bronsamenvattingen aanmaken voor de 10 onverwerkte bronnen
 - Terugmelding GGM: ontbreken beleidsdomein Belastingen als samenhangend domein

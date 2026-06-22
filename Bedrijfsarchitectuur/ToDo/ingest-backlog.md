@@ -18,25 +18,33 @@ Status: 132 bronnen in 19 batches.
 
 > **Afgehandeld:** Handreiking flexibele arbeidsinzet (VNG/Capra, 2024) als rijkere bron toegevoegd. Domein herbeoordeld vanuit bedrijfsvoeringsperspectief → 12 BO's uit GGM HR-domein.
 
-## Belastingen (18)
-- [ ] BIZ-bijdrage
-- [ ] gemeentelijk-belastinggebied
-- [ ] Hondenbelasting
-- [ ] leges
-- [ ] Onroerendezaakbelastingen
-- [ ] overige-belastingen
-- [ ] ozb
-- [ ] parkeerbelastingen
-- [ ] Parkeerbelastingen
-- [ ] Precariobelasting
-- [ ] Reclamebelasting
-- [ ] Reinigingsheffingen (afvalstoffenheffing en reinigingsrechten)
-- [ ] Retributies
-- [ ] rijksbelastingen
-- [ ] Riool- en waterzorgheffing
-- [ ] rubriek-belastingen
-- [ ] Toeristische heffingen
-- [ ] wet-woz
+## ~~Belastingen (24)~~ ✓
+- [x] afvalstoffenheffing-bghu
+- [x] beleidsregels-gemeentelijke-belastingen-dfm
+- [x] BIZ-bijdrage
+- [x] gemeentebelasting-utrecht
+- [x] gemeentelijk-belastinggebied
+- [x] Hondenbelasting
+- [x] leges
+- [x] Onroerendezaakbelastingen
+- [x] overige-belastingen
+- [x] ozb
+- [x] ozb-bghu
+- [x] parkeerbelastingen
+- [x] Parkeerbelastingen
+- [x] Precariobelasting
+- [x] Reclamebelasting
+- [x] Reinigingsheffingen (afvalstoffenheffing en reinigingsrechten)
+- [x] Retributies
+- [x] rijksbelastingen
+- [x] rioolheffing-bghu
+- [x] Riool- en waterzorgheffing
+- [x] rubriek-belastingen
+- [x] toeristenbelasting-bghu
+- [x] Toeristische heffingen
+- [x] wet-woz
+
+> **Afgehandeld:** 11 rijke bronnen samengevat, 14 naar Niet-relevant (portaalpagina's, duplicaten, buiten scope). 2 nieuwe BO's: Heffing en Heffingsverordening (GGM-match gevonden). 6 nieuwe begrippen (subtypes retributie + varianten). Domein afgerond: 22 bronnen, 46 begrippen, 9 BO's.
 
 ## Economie (5)
 - [ ] breed-mkb-en-innovatie

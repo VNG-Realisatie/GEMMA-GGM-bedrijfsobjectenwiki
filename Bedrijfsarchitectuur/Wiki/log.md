@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-06-22] ingest | Belastingen — domein afgerond, 9 BO's
+- **11 nieuwe bronsamenvattingen:** OZB, parkeerbelastingen, precario, reclamebelasting, hondenbelasting, BIZ-bijdrage, retributies, reinigingsheffingen, riool- en waterzorgheffing, toeristische heffingen, beleidsregels DFM
+- **14 bronnen naar Niet-relevant:** portaalpagina's, duplicaten, buiten scope (rijksbelastingen)
+- **2 nieuwe BO's:** Heffing (belastingaanslag, GGM Heffing 99 Kern) en Heffingsverordening (GGM Heffingsverordening 1 VTH)
+- **6 nieuwe begrippen:** roerende-zaakbelasting, watertoeristenbelasting, marktgeld, havengeld, lijkbezorgingsrechten, staanplaatsgeld
+- **GGM-dekkingsanalyse** bijgewerkt: Heffing en Heffingsverordening waren reeds in GGM aanwezig (eerder als hiaat genoteerd)
+- **Domein status:** afgerond — 22 bronnen verwerkt, 46 begrippen, 9 BO's
+
 ## [2026-06-22] ingest | Arbeidszaken — 12 BO's vanuit bedrijfsvoeringsperspectief
 - **Nieuwe bron:** handreiking-flexibele-arbeidsinzet.pdf (VNG/Capra, feb 2024) — juridische handreiking detachering, contractvormen, inhuur
 - **Herbeoordeling:** domein opnieuw beoordeeld vanuit bedrijfsvoeringsperspectief; GGM HR-domein (31 entiteiten, taakveld 9) was eerder over het hoofd gezien

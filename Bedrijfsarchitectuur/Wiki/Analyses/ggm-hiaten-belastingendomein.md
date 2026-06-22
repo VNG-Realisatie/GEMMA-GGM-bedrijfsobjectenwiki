@@ -224,10 +224,19 @@ De kengetallen (solvabiliteitsratio, netto schuldquote, onbenutte belastingcapac
 
 De begrotingscyclus en governance-instrumenten (financiële verordening, budgetrecht) vallen buiten de scope van het GGM als informatiemodel maar zijn essentieel voor de ArchiMate-laag (business processes, business rules).
 
+## Update 2026-06-22: GGM-matches gevonden, hiaten bijgesteld
+
+Bij de volledige ingest van alle Belastingen-bronnen (22 bronnen totaal) zijn twee GGM-matches gevonden die eerder als hiaten waren genoteerd:
+
+| Bedrijfsobject | GGM-entiteit | GGM-beleidsdomein | Taakveld | Status |
+|---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] | Heffing | RGBZPlus | 99 Kern | **Match** — generieke entiteit "verplichting tot betaling" |
+| [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]] | Heffingsverordening | 1 Veiligheid en Vergunningen | 1 VTH | **Match** — exacte definitie belastingverordening |
+
+**Bijstelling hiaat-analyse:** het GGM heeft wél kernentiteiten voor het heffingsproces (Heffing, Heffingsverordening, Heffinggrondslag), maar deze zitten verspreid over RGBZPlus (99 Kern) en VTH (taakveld 1), niet in een samenhangend domeinmodel. Het structurele hiaat is daarmee verfijnd: niet "het heffingsproces ontbreekt volledig" maar "het heffingsproces is niet als samenhangend domein gemodelleerd".
+
+De eerder geïdentificeerde Kandidaat-entiteit "Belastingaanslag" blijkt te mappen op de bestaande GGM-entiteit Heffing. De Kandidaat-entiteit "Belastingverordening" op Heffingsverordening. De overige kandidaten (Belasting als abstractie, Tarief, Belastingplichtige als doelgroep) blijven ongedekt.
+
 ## Status
 
-Dit overzicht wordt aangevuld naarmate meer VNG-bronnen worden verwerkt. Resterende bronnen die waarschijnlijk aanvullende hiaten opleveren:
-- Onroerendezaakbelastingen → relatie WOZ-object/WOZ-waarde met OZB concreet
-- Parkeerbelastingen → specifiek heffingsproces met handhaving
-- BIZ-bijdrage → bijzonder type met draagvlakeis
-- Individuele belastingsoorten → concretisering van de taxonomie
+Alle Belastingen-bronnen zijn verwerkt. Domein afgerond met 22 bronnen, 46 begrippen, 9 BO's.
