@@ -44,10 +44,10 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 | belastingverordening | instrument | Juridische grondslag voor individuele belastingplicht | ✅ | Eigen levenscyclus, governance-object | OZB-verordening 2025, Legesverordening | nee |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-object]] | object | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld | ✅ | 6/6 criteria, exact GGM-match | Woning Dorpsstraat 1, kantoor | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo]] | object | Vastgestelde marktwaarde van een WOZ-object per waardepeildatum | ✅ | 6/6 criteria, exact GGM-match | WOZ-waarde 2025: €350.000 | ja |
-| belastingplichtige | actor | Persoon die belasting moet betalen | ❌ | Rol van een persoon, geen apart registratie-object | Eigenaar woning, hondenbezitter | nee |
+| belastingplichtige | actor | Persoon die belasting moet betalen | ❌ | Rol van een persoon, geen zelfstandig concept | Eigenaar woning, hondenbezitter | nee |
 | heffingsmaatstaf | object | Maatstaf waarmee de belastingschuld wordt bepaald | ❌ | Eigenschap van verordening, geen eigen bestaan | WOZ-waarde, oppervlakte, aantal honden | nee |
 | tarief | object | Bedrag of percentage per eenheid heffingsmaatstaf | ❌ | Eigenschap van verordening, geen eigen bestaan | 0,1% van WOZ-waarde | nee |
-| woz-beschikking | object | Formele bekendmaking WOZ-waarde aan belanghebbende | ❌ | Onderdeel van het WOZ-proces, niet zelfstandig registreerbaar | WOZ-beschikking 2025 | nee |
+| woz-beschikking | object | Formele bekendmaking WOZ-waarde aan belanghebbende | ❌ | Onderdeel WOZ-proces, geen zelfstandig bestaan los van WOZ-object | WOZ-beschikking 2025 | nee |
 | onroerende zaak | object | Object van OZB-heffing en WOZ-waardering (BW-begrip) | ❌ | Juridisch begrip, het BO is WOZ-object | Woning, grond, kantoor | ja: via WOZ-object |
 | woonlasten | thema | OZB + rioolheffing + afvalstoffenheffing per huishouden | ❌ | Aggregaat, geen object | €900/jaar gemiddeld | nee |
 
@@ -62,8 +62,8 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 | kruissubsidiering | thema | Overschot ene activiteit dekt tekort andere binnen heffing | ❌ | Beleidsmatig principe | Binnen legesverordening | nee |
 | onbenutte belastingcapaciteit | thema | Verschil tussen feitelijke en maximale OZB-opbrengst | ❌ | Kengetal, geen object | — | nee |
 | algemene middelen | thema | Niet-gelabelde gemeentelijke opbrengsten | ❌ | Financieel begrip, geen object | — | nee |
-| heffingsambtenaar | actor | Legt belastingaanslagen op | ❌ | Rol, geen registratie-object | — | nee |
-| invorderingsambtenaar | actor | Int belastingaanslagen | ❌ | Rol, geen registratie-object | — | nee |
+| heffingsambtenaar | actor | Legt belastingaanslagen op | ❌ | Rol, geen zelfstandig concept | — | nee |
+| invorderingsambtenaar | actor | Int belastingaanslagen | ❌ | Rol, geen zelfstandig concept | — | nee |
 | waarderingskamer | actor | Toezichthouder op WOZ-uitvoering | ❌ | Externe organisatie, buiten gemeentelijk perspectief | — | nee |
 
 ### GGM Parkeren (gerelateerde BO-kandidaten)

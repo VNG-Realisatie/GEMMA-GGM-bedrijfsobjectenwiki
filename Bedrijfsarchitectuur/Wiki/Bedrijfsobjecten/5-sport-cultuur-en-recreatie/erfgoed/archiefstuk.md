@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "gelijk aan GGM"
+gemma_definitie: "Informatiedrager die is gecreëerd, ontvangen en bewaard als onderdeel van het gemeentelijk archief."
 bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
 bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
 bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]

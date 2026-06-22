@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Financieel recht van de gemeente op terugbetaling van een bedrag door een debiteur."
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
 bedrijfsprocessen: [Terugvordering, Invordering]
 bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]

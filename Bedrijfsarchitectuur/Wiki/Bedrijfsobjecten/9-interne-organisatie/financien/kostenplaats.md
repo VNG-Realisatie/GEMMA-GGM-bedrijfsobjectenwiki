@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-126c564a-16fa-4e61-b52d-3af4968904d8"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Rekening in de financiële administratie waaraan kosten worden toegerekend."
 definitie: Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven
 bedrijfsprocessen: [Begrotingscyclus, Financiële administratie]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]

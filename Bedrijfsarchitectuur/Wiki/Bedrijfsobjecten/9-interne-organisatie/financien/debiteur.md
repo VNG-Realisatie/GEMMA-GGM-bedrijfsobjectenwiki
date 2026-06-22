@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e21e51ee-3a32-444b-80c7-b6694ff37253"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente
 bedrijfsprocessen: [Facturering, Debiteurenadministratie, Invordering]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]

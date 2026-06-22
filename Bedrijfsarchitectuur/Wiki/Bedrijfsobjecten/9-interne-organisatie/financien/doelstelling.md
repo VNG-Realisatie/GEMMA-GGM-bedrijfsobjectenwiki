@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Doelstelling (Financien)"
-gemma_definitie: ""
+gemma_definitie: "Een door de gemeente nagestreefde situatie op korte of middellange termijn, gekoppeld aan een begrotingsprogramma."
 definitie: Een op korte of middellange termijn nagestreefde situatie
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]

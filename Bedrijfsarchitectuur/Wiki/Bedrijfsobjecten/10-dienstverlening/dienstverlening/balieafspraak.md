@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "gelijk aan GGM"
+gemma_definitie: "Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie."
 bedrijfsprocessen: [Afsprakenbeheer, Klantcontactregistratie, Balieplanning]
 bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
 bronnen: [Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel, Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel, Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden, Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan, Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid, Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]

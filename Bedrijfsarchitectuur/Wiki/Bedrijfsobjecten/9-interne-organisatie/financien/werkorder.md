@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5029f2d1-bad6-4813-8f59-d3f7981849e3"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Opdracht voor de uitvoering van een specifieke activiteit of onderhoudstaak binnen de gemeente."
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces
 bedrijfsprocessen: [Operationeel beheer, Onderhoud]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]

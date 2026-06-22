@@ -37,7 +37,7 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 | informatieobject | object | Geheel van gegevens ongeacht vorm (breder dan "document") | ✅ | 6/6 criteria, sterk match | PDF-aanvraag, e-mail, scan | ja |
 | zaakdossier | object | Zaakkenmerken + informatieobjecten, basis voor archivering | ✅ | 6/6 criteria, sterk match | Zaakdossier vergunningaanvraag | ja |
 | resultaattype | object | Mogelijke uitkomsten per zaaktype, bepaalt archiefregime | ✅ | BO, exact match (ZTC2) | Verleend, Geweigerd, Buiten behandeling | ja |
-| IDO (Informatiepunt Digitale Overheid) | actor | Fysiek hulppunt in bibliotheken voor digitale overheidsvragen | ❌ | Actor/locatietype, geen registratieobject | IDO in bibliotheek Amsterdam | nee |
+| IDO (Informatiepunt Digitale Overheid) | actor | Fysiek hulppunt in bibliotheken voor digitale overheidsvragen | ❌ | Actor/locatietype, geen eigen levenscyclus als gemeentelijk concept | IDO in bibliotheek Amsterdam | nee |
 
 ## Bedrijfsobjecten
 
@@ -64,7 +64,7 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 |---|---|
 | Aanvraagdata | Attribuutwaarden van AanvraagOfMelding, geen eigen bestaan |
 | Afspraakstatus | Statuswaarde van Balieafspraak |
-| Artikel | Publicatieobject, geen gemeentelijk registratieobject |
+| Artikel | Publicatieobject, geen gemeentelijk bedrijfsobject |
 | ExterneBron | Technische herkomstverwijzing |
 | Formuliersoort | Configuratie-object (template), geen bedrijfsobject |
 | Formuliersoortveld | Velden binnen een formuliertemplate |

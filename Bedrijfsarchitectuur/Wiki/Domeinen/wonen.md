@@ -36,7 +36,7 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | woningcorporatie | actor | Organisatie die sociale huurwoningen bouwt en beheert | ❌ | ja | Actor, geen business object | Mitros, Portaal, Bo-Ex, Woonin | nee |
 | woningzoekende | doelgroep | Persoon ingeschreven bij WoningNet voor sociale huur | ❌ | ja | Rol van persoon, geen zelfstandig object | Actief woningzoekende op DĀK | nee |
 | woonruimteverdeling | thema | Systeem van toewijzing sociale huurwoningen | ❌ | nee | Proces, geen object | Aanbodmodel, loting, bemiddeling | nee |
-| opkoopbescherming | instrument | Regime dat verhuur na aankoop verbiedt in aangewezen wijken | ❌ | nee | Beleidsregime, geen registreerbaar object | Verbod verhuur 4 jaar, prijsgrens €611.000 | nee |
+| opkoopbescherming | instrument | Regime dat verhuur na aankoop verbiedt in aangewezen wijken | ❌ | nee | Beleidsregime, geen zelfstandig bestaan of eigen levenscyclus | Verbod verhuur 4 jaar, prijsgrens €611.000 | nee |
 | zelfbewoningsplicht | instrument | Verplichting tot zelfbewoning bij nieuwbouw koop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar na BRP-inschrijving | nee |
 | antispeculatiebeding | instrument | Beding tegen speculatieve doorverkoop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar geldingsduur | nee |
 | woningdelen | thema | Meerdere huishoudens in één woning | ❌ | nee | Activiteit/proces, geen object | Max 3 personen vergunningvrij | nee |

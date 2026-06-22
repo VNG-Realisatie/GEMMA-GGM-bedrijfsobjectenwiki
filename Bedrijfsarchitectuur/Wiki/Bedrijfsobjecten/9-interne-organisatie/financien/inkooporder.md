@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ede48ca8-4854-44b2-b549-0827bebf56ab"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Opdracht van de gemeente aan een leverancier voor levering van een bepaalde hoeveelheid goederen of diensten."
 definitie: Een opdracht voor één of meer leveringen door de leverancier aan de klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen voorwaarden en prijzen
 bedrijfsprocessen: [Inkoop en aanbesteding]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]

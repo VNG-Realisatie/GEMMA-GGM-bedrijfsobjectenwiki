@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Terugbetaling door de gemeente van te veel ontvangen aflossing op een vordering."
 definitie: Terugbetaling van te veel ontvangen aflossing
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]

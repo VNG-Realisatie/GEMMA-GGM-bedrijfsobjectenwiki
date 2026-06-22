@@ -25,7 +25,7 @@ De gemeente als werkgever — arbeidsvoorwaarden, arbeidsomstandigheden, integri
 | cao-gemeenten | instrument | Collectieve arbeidsovereenkomst voor lokaal overheden | ❌ | Instrument, externe afspraak | CAO gemeenten, HR21 | nee |
 | arbeidsmigranten | doelgroep | Arbeiders uit het buitenland; derde land of EU | ❌ | Doelgroep, niet object | Pools werker, loonvoorkamer | nee |
 | werk-voor-arbeidsbeperkten | thema | Programma banen voor mensen met arbeidsbeperkingen | ❌ | Programma, geen object | Banenafspraak, Cao Aan de Slag | nee |
-| gemeentelijk werkgever | actor | De gemeente in haar rol als werkgever | ❌ | Rol/organisatie, geen registratie-object | — | nee |
+| gemeentelijk werkgever | actor | De gemeente in haar rol als werkgever | ❌ | Rol, geen zelfstandig concept met eigen levenscyclus | — | nee |
 | medewerker | actor | Persoon werkzaam bij de gemeente | ❌ | Rol van persoon, geen apart object | — | ja (via organisatie) |
 
 ## GGM-dekkingsanalyse
@@ -42,7 +42,7 @@ Het GGM modelleert geen apart taakveld "Arbeidszaken". HR en personeelsbeheer va
 
 Geen bedrijfsobjecten. Dit domein betreft interne organisatie en HR-governance: cao's, gedragscodes, rechtspositieregelingen, personeelsbeleid. Dit zijn instrumenten en thema's die structureel buiten GGM-scope vallen (het GGM modelleert data-objecten, geen governance of HR). Er zijn geen GGM-entiteiten voor dit domein en geen terugmeldingen nodig.
 
-De begrippen in dit domein zijn overwegend van het type thema (arbeidsmarktkrapte, P&O-beleid, integriteitsbeleid) en instrument (cao gemeenten, HR21, gedragscode, rechtspositieregeling). Geen daarvan voldoet aan de BO-criteria: ze hebben geen eigen bestaan als registreerbaar object en zijn niet herkenbaar als "ding waar de gemeente mee werkt" op bedrijfsobjectniveau.
+De begrippen in dit domein zijn overwegend van het type thema (arbeidsmarktkrapte, P&O-beleid, integriteitsbeleid) en instrument (cao gemeenten, HR21, gedragscode, rechtspositieregeling). Geen daarvan voldoet aan de BO-criteria: ze hebben geen eigen bestaan binnen het domein en zijn niet herkenbaar als zelfstandig concept op bedrijfsobjectniveau.
 
 ## Verwerkte bronnen
 

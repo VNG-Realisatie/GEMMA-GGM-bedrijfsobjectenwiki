@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "De op grond van de Wet WOZ vastgestelde waarde van een WOZ-object naar een bepaalde waardepeildatum."
 definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ, WOZ-beschikking verzenden]
 bedrijfsfuncties: [Waardering onroerende zaken, Belastingheffing]

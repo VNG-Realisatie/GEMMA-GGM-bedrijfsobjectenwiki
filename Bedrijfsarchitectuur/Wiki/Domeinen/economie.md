@@ -45,7 +45,7 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 | bedrijventerrein | subtype | Werklandschap voor hinderveroorzakende bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Lage Weide, Strijkviertel | nee |
 | kantoorlocatie | subtype | Gebied met kantoorbestemming; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Stationsgebied, Papendorp | nee |
 | innovatielocatie | subtype | Locatie voor kennisgedreven bedrijven; subtype van werklocatie | ❌ | Subtype van werklocatie, geen apart BO | Utrecht Science Park | nee |
-| wijkeconomie | perspectief | Alle werkplekken buiten de vier andere typen werklocaties | ❌ | Beleidsperspectief, geen registreerbaar object | Thuiswerken, solitaire panden | nee |
+| wijkeconomie | perspectief | Alle werkplekken buiten de vier andere typen werklocaties | ❌ | Beleidsperspectief, geen zelfstandig bestaan of meervoud | Thuiswerken, solitaire panden | nee |
 | milieucategorie | classificatie | Indeling bedrijfsactiviteiten naar milieuhinder; HMC = 4.1+ | ❌ | Classificatie-attribuut, geen object | HMC-kavel, milieucategorie 2 | nee |
 | retailhoofdstructuur | structuur | Rangorde en hiërarchie van winkelgebieden in de stad | ❌ | Beleidsinstrument, geen object | Binnenstad, bovenwijkse centra | nee |
 | functiemenging | concept | Meerdere functies (wonen, werken, voorzieningen) naast elkaar | ❌ | Ruimtelijk concept, geen object | Gemengd stedelijk gebied | nee |

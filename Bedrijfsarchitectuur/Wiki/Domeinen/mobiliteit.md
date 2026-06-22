@@ -68,7 +68,7 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | stedelijke verbindingsweg | classificatie | Wegcategorie voor hoofdroutes naar wijken en Ring | ❌ | ja | Classificatie op bestaand Wegdeel (GGM BOR), geen apart object | Europalaan, Cartesiusweg | ja (BOR) |
 | stadsboulevard | classificatie | Herinrichtingsconcept voor stedelijke verbindingswegen (50 km/u) | ❌ | nee | Eigenschap/inrichtingsvorm van bestaande weg | 't Goylaan, Brailledreef | nee |
 | doseerlocatie | locatie | Punt waar autoverkeer wordt gedoseerd richting Ring | ❌ | nee | Operationele maatregel op bestaand kruispunt | Toegang 't Goylaan | nee |
-| compartimenteringszone | instrument | Gebiedsindeling binnenstad waar doorgaand autoverkeer wordt geweerd | ❌ | nee | 4/6 criteria; verkeersmanagementstrategie, geen zelfstandig geregistreerd object; wordt geëffectueerd via Verkeersbesluiten | Binnenstad oost/west | nee |
+| compartimenteringszone | instrument | Gebiedsindeling binnenstad waar doorgaand autoverkeer wordt geweerd | ❌ | nee | 4/6 criteria; verkeersmanagementstrategie, geen eigen levenscyclus; wordt geëffectueerd via Verkeersbesluiten | Binnenstad oost/west | nee |
 
 ### Parkeren (GGM-verificatie)
 

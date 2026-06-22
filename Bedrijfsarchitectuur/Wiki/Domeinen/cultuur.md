@@ -10,7 +10,7 @@ bo_count: 7
 
 # Cultuur
 
-Gemeentelijk domein voor kunst, cultuur en erfgoed. Gemeenten faciliteren culturele voorzieningen, voeren cultuurbeleid, en beheren erfgoed (monumenten, archieven, musea). Het cultuurbeleid is overwegend beleidsmatig; de concrete registratieobjecten zitten in het erfgoeddomein.
+Gemeentelijk domein voor kunst, cultuur en erfgoed. Gemeenten faciliteren culturele voorzieningen, voeren cultuurbeleid, en beheren erfgoed (monumenten, archieven, musea). Het cultuurbeleid is overwegend beleidsmatig; de concrete bedrijfsobjecten zitten in het erfgoeddomein.
 
 In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleidsdomeinen **Erfgoed** (44 entiteiten) en **Musea** (32 entiteiten). Er is geen apart "Cultuur"-beleidsdomein in het GGM — cultuurbeleid wordt niet als data gemodelleerd.
 
@@ -32,9 +32,9 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 | erfgoedverordening | instrument | Samenvoeging Monumenten- en Archeologieverordening, onderdeel omgevingsplan | ❌ | Governance-instrument | — | nee |
 | erfgoed effectrapportage | instrument | Analyse van gevolgen van ruimtelijke keuzes op erfgoed | ❌ | Beleidsinstrument | — | nee |
 | groen/blauw erfgoed | thema | Historische parken, waterlopen, bomenlanen als structurerend element | ❌ | Categorie van bestaande objecten (parken, waterlopen), geen eigenstandig BO; erfgoedwaarde is een kwalificatie | Maliebaan, Zocherpark, singel | nee |
-| immaterieel erfgoed | thema | Levende cultuuruitingen beleefd als erfgoed | ❌ | Gemeente heeft nog geen structurele ondersteuning; niet als object geregistreerd | Sint Maarten, Utrechts dialect | nee |
+| immaterieel erfgoed | thema | Levende cultuuruitingen beleefd als erfgoed | ❌ | Geen eigen bestaan als gemeentelijk concept; gemeente heeft nog geen structurele ondersteuning | Sint Maarten, Utrechts dialect | nee |
 | culturele voorziening | object | Organisatie/faciliteit die cultuur faciliteert | ❌ | Facilitaire/organisatorische entiteit, niet als erfgoedobject | Theater, podium, broedplaats, muziekschool | nee |
-| bibliotheek | object | Gemeentelijke voorziening voor kennis en cultuur | ❌ | Voorziening, niet als erfgoedobject geregistreerd | Openbare bibliotheek, vestiging | nee |
+| bibliotheek | object | Gemeentelijke voorziening voor kennis en cultuur | ❌ | Voorziening, geen eigen levenscyclus als erfgoedobject | Openbare bibliotheek, vestiging | nee |
 | cultuurbeleid | thema | Gemeentelijk beleid voor cultureel aanbod | ❌ | Beleidsmatig, geen object | Cultuurvisie, cultuuragenda | nee |
 | cultuurwaarde | waarde | Intrinsieke, maatschappelijke en economische waarde van cultuur | ❌ | Normatief concept | — | nee |
 | cultuureducatie | thema | Cultureel onderwijs binnen en buiten school | ❌ | Activiteit/proces | CmK, cultuur op school | nee |
@@ -52,7 +52,7 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 | kerkgebouw | object | Religieus gebouw met monumentstatus | ❌ | Type van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument]], geen apart BO | Domkerk, Janskerk, Pieterskerk | ja |
 | herbestemmingsprofiel | instrument | Bouwhistorisch onderzoek + waardestelling + transformatieruimte bij herbestemming | ❌ | Beleidsinstrument | Profiel Westerkerk, profiel Josephkerk | nee |
 | waardestelling | instrument | Vaststelling kernwaarden van een monument als uitgangspunt voor herbestemming | ❌ | Beleidsinstrument | — | nee |
-| carillon | object | Klokkenspel in kerktoren, eigendom gemeente | ❌ | Specifiek type luidklok-ensemble; gemeente bezit drie beiaarden maar geen apart registratie-BO | Hemony-beiaard Domtoren | nee |
+| carillon | object | Klokkenspel in kerktoren, eigendom gemeente | ❌ | Specifiek type luidklok-ensemble; drie stuks, geen apart BO naast Monument | Hemony-beiaard Domtoren | nee |
 
 ## GGM-entiteitendekking
 

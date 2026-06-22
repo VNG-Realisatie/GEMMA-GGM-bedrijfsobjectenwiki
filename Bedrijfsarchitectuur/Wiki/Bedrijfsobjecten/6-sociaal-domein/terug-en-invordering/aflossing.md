@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: ""
+gemma_definitie: "Betaling van een afgesproken of opgelegd bedrag op een openstaande vordering van de gemeente."
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]

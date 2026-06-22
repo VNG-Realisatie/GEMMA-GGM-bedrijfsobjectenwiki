@@ -20,7 +20,7 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie]] | object | Aangewezen fysieke locatie waar evenementen mogen plaatsvinden | ✅ | 6/6 criteria, GGM-hiaat | Park, plein, recreatiegebied | nee |
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning]] | object | Toestemming van de gemeente om een evenement te organiseren | ✅ | 6/6 criteria, GGM-hiaat | Festivalvergunning, vergunning stadsfeest | nee |
 | locatieprofiel | instrument | Set van regels per locatie: evenementendagen, omvang, geluid, rust | ❌ | Governance-instrument, geen zelfstandig object | Profiel Maliebaan, profiel Griftpark | nee |
-| reserveringskalender | instrument | Jaarlijkse kalender met toegewezen evenementen per locatie/datum | ❌ | Planningsinstrument, geen registratieobject | Kalender 2025 | nee |
+| reserveringskalender | instrument | Jaarlijkse kalender met toegewezen evenementen per locatie/datum | ❌ | Planningsinstrument, geen zelfstandig bestaan los van evenementen | Kalender 2025 | nee |
 | beoordelingscriteria | regel | Vier criteria voor verdeling bij overaanmelding | ❌ | Beleidsregels, geen object | Maatschappelijke waarde, inclusiviteit | nee |
 | stads- en volksfeest | classificatie | Evenement onlosmakelijk verbonden met de stad | ❌ | Classificatie van evenement, geen apart object | Koningsdag, Bevrijdingsdag, Canal Pride | nee |
 | rustperiode | regel | Verplichte pauze tussen evenementen op een locatie | ❌ | Regel in locatieprofiel, geen object | 12 dagen verhard, 18 dagen onverhard | nee |

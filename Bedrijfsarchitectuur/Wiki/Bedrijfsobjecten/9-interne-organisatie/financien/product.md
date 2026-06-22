@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-d7ab242e-b050-4af7-a400-d87ce1eceb43"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Product (Financien)"
-gemma_definitie: ""
+gemma_definitie: "Resultaat van een gemeentelijk proces dat als dienst of levering een waarde vertegenwoordigt."
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]
 bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
