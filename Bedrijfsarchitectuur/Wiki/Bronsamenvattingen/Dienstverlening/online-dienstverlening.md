@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/online-dienstverlening.md](Sources/Onderwerpen/Dienstverlening/online-dienstverlening.md)"
 titel: "Online dienstverlening"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -24,3 +23,7 @@ De VNG ondersteunt via de GGU en het GGU-fonds. Belangrijke initiatieven: MijnSe
 ## Relevantie voor bedrijfsarchitectuur
 
 De Wmebv creëert nieuwe verplichtingen (notificatie, ontvangstbevestiging) die het dienstverleningsproces raken maar geen nieuwe data-objecten introduceren. Het versterkt het belang van bestaande objecten als [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] en informatieobject.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/online-dienstverlening]]

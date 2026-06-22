@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeerhubs.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeerhubs.md)"
 titel: Uitwerking Parkeerhubs
 domein:
   - mobiliteit
@@ -43,3 +42,7 @@ De parkeerhub is een nieuw type voorziening dat het GGM niet kent. Het combineer
 > "Om te zorgen voor een goede bereikbaarheid met zoveel mogelijk vervoer met OV, fiets, lopen en deelmobiliteit hebben we goede overstappunten nodig waar de verschillende vervoerswijzen gecombineerd zijn: hubs."
 
 > "Hoe verder weg de auto staat, hoe hoger de drempel voor gebruik. Hoe lager het gebruik, hoe aantrekkelijker deelmobiliteit wordt t.o.v. de eigen auto."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeerhubs]]

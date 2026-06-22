@@ -52,7 +52,6 @@ gemma_subtypes:
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: "type"
-bronnen: [Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Vestiging]]"
@@ -120,6 +119,11 @@ De beleidsbron is de [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties
 - **Profilering** — per werklocatie een profiel opstellen met kaders voor gebruik en ontwikkeling
 - **Monitoring** — indicatoren bijhouden: leegstand, banengroei, diversiteit, voorzieningen
 - **Ruimtelijk-economisch programmeren** — kantoorprogrammering, bedrijventerreinenplanning
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]]
 
 ## Terugmelding GGM
 

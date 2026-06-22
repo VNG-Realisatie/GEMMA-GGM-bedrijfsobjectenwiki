@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/converted_pdf/visie-water-riolering.md](Sources/Onderwerpen/Milieu/converted_pdf/visie-water-riolering.md)"
 titel: Visie Water en Riolering Utrecht
 domein: [milieu]
 datum_ingest: 2026-06-21
@@ -49,3 +48,7 @@ Deze visie beschrijft het volledige water- en rioleringssysteem als gemeentelijk
 > "De gemeente heeft vanuit de wet een aantal specifieke zorgplichten en daarmee taken op het gebied van water en riolering." (Visie Water en Riolering Utrecht, §1.1)
 
 > "De gemeente Utrecht onderhoudt zelf 295 ha aan water, verdeeld over 246 km aan watergangen." (Visie Water en Riolering Utrecht, §2.4)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/converted_pdf/visie-water-riolering]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/visie-klimaatadaptatie-utrecht.md](Sources/Onderwerpen/Energie en Klimaat/visie-klimaatadaptatie-utrecht.md)"
 titel: Visie Klimaatadaptatie Utrecht
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -48,3 +47,7 @@ De visie versterkt de context voor bestaande BO's in andere domeinen: [[Wiki/Bed
 > "Iedereen heeft binnen 200 meter van een gebouw/woning een koele groene verblijfsplek in de openbare ruimte van minimaal 200 m²." (Doelstellingen)
 
 > "Niks doen is geen optie, want dan lopen de kosten voor schade flink op tot 1,6 miljard en meer." (Samenvatting)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/visie-klimaatadaptatie-utrecht]]

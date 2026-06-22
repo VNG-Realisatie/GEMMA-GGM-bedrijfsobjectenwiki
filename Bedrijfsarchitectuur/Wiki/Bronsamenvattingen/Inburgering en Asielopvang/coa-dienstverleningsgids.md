@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[COA Dienstverleningsgids voor gemeenten_januari 2026_TG](../../Sources/Onderwerpen/Asiel en Integratie/COA Dienstverleningsgids voor gemeenten_januari 2026_TG.md)"
 titel: "COA Dienstverleningsgids voor gemeenten (januari 2026)"
 domein: [Inburgering en Asielopvang]
 datum_ingest: 2026-06-17
@@ -64,3 +63,7 @@ Dit is de rijkste bron voor het gemeentelijk perspectief op asielopvang. De taak
 > "De gemeente is verantwoordelijk voor de inburgering van mensen met een verblijfsvergunning."
 
 > "De Spreidingswet maakt het mogelijk dat gemeenten zelf locaties aanbieden aan het COA, maar ook zelf kunnen exploiteren."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Asiel en Integratie/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]

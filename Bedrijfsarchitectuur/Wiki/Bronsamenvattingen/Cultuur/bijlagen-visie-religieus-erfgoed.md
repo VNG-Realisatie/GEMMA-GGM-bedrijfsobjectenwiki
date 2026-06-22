@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/bijlagen-visie-religieus-erfgoed.md](Sources/Onderwerpen/Cultuur/bijlagen-visie-religieus-erfgoed.md)"
 titel: "Bijlagen Utrechtse visie religieus erfgoed (2017)"
 domein: [Cultuur]
 datum_ingest: 2026-06-20
@@ -21,3 +20,7 @@ Bijlagendocument bij de oorspronkelijke Utrechtse visie religieus erfgoed (mei 2
 ## Relevantie voor bedrijfsarchitectuur
 
 Ondersteunend referentiemateriaal bij de [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]]. Bevat inventarisatiegegevens die bevestigen dat orgels apart worden geregistreerd en geïnventariseerd. Levert geen eigen nieuwe begrippen of BO-kandidaten.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Cultuur/bijlagen-visie-religieus-erfgoed]]

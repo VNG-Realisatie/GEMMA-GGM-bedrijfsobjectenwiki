@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie."
 bedrijfsprocessen: [Afsprakenbeheer, Klantcontactregistratie, Balieplanning]
 bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
-bronnen: [Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel, Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel, Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden, Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan, Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid, Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]]"
@@ -81,3 +80,15 @@ In de context van overheidsbrede dienstverlening zijn balieafspraken het registr
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|product-of-dienst]] | → | 0..* | betreft | GGM: Balieafspraak → ProductOfDienst |
 | zaakdossier | → | 0..1 | heeft betrekking op | GGM: Balieafspraak → Zaak |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|aanvraag-of-melding]] | → | 0..* | kan uitmonden in (via klantcontact) | GGM: Balieafspraak → Klantcontact → AanvraagOfMelding |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]]
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]]

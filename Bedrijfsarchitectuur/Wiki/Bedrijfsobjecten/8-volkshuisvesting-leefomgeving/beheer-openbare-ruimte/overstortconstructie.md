@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater."
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Kunstwerk (GGM)
@@ -101,3 +100,14 @@ De GEMMA-definitie beschrijft de functie vanuit gemeentelijk perspectief: lozing
 - **Rioolbeheer**: beheer van overstortconstructies als onderdeel van het rioolstelsel
 - **Monitoring overstorten**: meten van overstortfrequentie en -volume
 - **Waterkwaliteitsbeheer**: beheersing van de impact van overstorten op oppervlaktewater
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

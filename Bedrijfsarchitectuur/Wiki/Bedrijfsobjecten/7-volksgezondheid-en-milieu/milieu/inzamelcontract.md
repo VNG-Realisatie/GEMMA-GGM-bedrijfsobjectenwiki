@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Overeenkomst tussen gemeente en bedrijf voor de inzameling van bedrijfsafval."
 bedrijfsprocessen: [Bedrijfsafvalinzameling, Contractbeheer, Tariefvaststelling]
 bedrijfsfuncties: [Afvalbeheer]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond, Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer, Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer, Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020, Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050, Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030, Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025, Wiki/Bronsamenvattingen/milieu/visie-water-riolering, Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029, Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
@@ -60,6 +59,20 @@ Gebaseerd op de Wet Milieubeheer. De gemeente heeft een zorgplicht voor huishoud
 ## Relaties
 
 - **[[Grondstofstroom]]** — het contract betreft de inzameling van specifieke afvalstromen
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]]
+- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]]
+- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer]]
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
+- [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
+- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
 
 ## Terugmelding GGM
 

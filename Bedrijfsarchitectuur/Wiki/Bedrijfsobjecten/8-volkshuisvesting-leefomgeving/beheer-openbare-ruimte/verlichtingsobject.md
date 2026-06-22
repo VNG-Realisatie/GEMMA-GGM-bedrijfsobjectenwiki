@@ -36,7 +36,6 @@ gemma_subtypes:
     ggm_entiteit: Verlichtingsobject
     ggm_guid: EAID_8CD4C799_C403_41B6_B409_06D37398E31
     ggm_attribuut: type
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -102,3 +101,14 @@ Het GGM heeft geen attributen op Verlichtingsobject zelf (alleen geërfd van Beh
 - **Vervanging armaturen**: vervanging palen en armaturen bij einde levensduur
 - **Inspectie verlichting**: technische inspectie op conditie en veiligheid
 - **Storingsdienst**: meldingen van defecte verlichting
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

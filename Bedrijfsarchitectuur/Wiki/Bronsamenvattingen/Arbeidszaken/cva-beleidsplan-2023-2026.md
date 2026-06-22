@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[cva-beleidsplan_2023-2026](../../Sources/Onderwerpen/Arbeidszaken/cva-beleidsplan_2023-2026.md)"
 titel: "CvA Beleidsplan 2023-2026: Samen bereiken we meer"
 domein: [Arbeidszaken]
 datum_ingest: 2026-06-19
@@ -32,3 +31,7 @@ Meerjarenbeleidsplan van het College voor Arbeidszaken over de periode 2023-2026
 ## Relevantie voor bedrijfsarchitectuur
 
 Geen BO-kandidaten. Het beleidsplan beschrijft uitsluitend instrumenten (cao's, pensioenregelingen, programma's), actoren (CvA, WSGO, ZPW, LOGA) en thema's (arbeidsmarktkrapte, kwaliteit ambt). Alle begrippen vallen in de categorieën die structureel buiten GGM-scope liggen. Bevestigt de conclusie dat domein Arbeidszaken 0 BO's oplevert.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Arbeidszaken/cva-beleidsplan_2023-2026]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Openbare Gezondheid/gezondheidsbeleid.md](Sources/Onderwerpen/Openbare Gezondheid/gezondheidsbeleid.md)"
 titel: Gezondheidsbeleid en preventie — VNG en gemeente Utrecht
 domein: [openbare gezondheid]
 datum_ingest: 2026-06-20
@@ -46,3 +45,7 @@ Het enige potentiële object — begraafplaats — valt onder Beheer Openbare Ru
 > "We zetten mentale gezondheid op de agenda van alle gemeentelijke beleidsterreinen (Mental Health in all Policies)." (Utrechts uitvoeringsprogramma)
 
 > "In de Wet op de lijkbezorging staat dat gemeenten een gemeentelijke begraafplaats moeten hebben." (VNG)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Openbare Gezondheid/gezondheidsbeleid]]

@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: "Product (Financien)"
 gemma_definitie: "Resultaat van een gemeentelijk proces dat als dienst of levering een waarde vertegenwoordigt."
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]
-bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Dienstverlening, Financieel beheer]
 status: concept
 ---
@@ -59,3 +58,10 @@ Het resultaat van een proces dat in het economisch verkeer een waarde bezit. In 
 - leges worden geheven voor specifieke producten/diensten
 - Gekoppeld aan [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]] voor kostentoerekening
 - Onderdeel van een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld|taakveld]]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]]

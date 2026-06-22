@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/beleid-bodem-grondwater-en-ondergrond.md](Sources/Onderwerpen/Milieu/beleid-bodem-grondwater-en-ondergrond.md)"
 titel: Beleid voor bodem, grondwater en ondergrond
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -38,3 +37,7 @@ De pagina beschrijft het beleidskader waarbinnen de gemeente bodem, grondwater e
 > "In het Besluit kwaliteit leefomgeving staat dat een gemeente een bodemkwaliteitskaart en een bodembeheerplan kan hebben." (bron: beleid-bodem-grondwater-en-ondergrond.md)
 
 > "Het gebiedsplan valt onder het overgangsrecht van de Omgevingswet. Dat betekent dat het recht dat gold voor de inwerkingtreding van de Omgevingswet nog hooguit 4 jaar blijft gelden." (bron: beleid-bodem-grondwater-en-ondergrond.md)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/beleid-bodem-grondwater-en-ondergrond]]

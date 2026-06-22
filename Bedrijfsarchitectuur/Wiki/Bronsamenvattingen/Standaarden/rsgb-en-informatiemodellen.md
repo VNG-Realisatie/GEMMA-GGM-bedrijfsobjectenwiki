@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[RSG_Basisgegevens_2.02_deel_I_(in_gebruik)](../../Sources/Standaarden/RSG_Basisgegevens_2.02_deel_I_(in_gebruik).md)"
 titel: "RSGB 2.02 Deel I en VNG Informatiemodellen"
 domein: []
 datum_ingest: 2026-06-18

@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Samenhangend geheel van gemeentelijke activiteiten dat als eenheid in de begroting wordt verantwoord."
 definitie: Een samenhangend geheel van activiteiten en taken dat onder een programma hangt
 bedrijfsprocessen: [Begrotingscyclus, IV3-verantwoording]
-bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 status: concept
 ---
@@ -58,3 +57,10 @@ Een samenhangend geheel van activiteiten en taken en hangt onder een programma. 
 - Structureert de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]
 - Het GGM is opgebouwd uit taakvelden met daaronder beleidsdomeinen (zie [[structuur-ggm]])
 - Belastingopbrengsten zijn verdeeld over taakvelden; er is geen apart belastingtaakveld (zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]])
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]]

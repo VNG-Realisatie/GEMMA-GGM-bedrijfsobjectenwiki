@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Belastingtypen.md](Sources/Onderwerpen/Belastingen/Belastingtypen.md)"
 titel: "Belastingtypen"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -31,3 +30,7 @@ Dit artikel levert de fundamentele taxonomie van gemeentelijke belastingen. Het 
 - Welke bevoegdheden de gemeenteraad heeft
 
 Het GGM modelleert deze taxonomie niet expliciet — dit is een hiaat dat in de bedrijfsarchitectuur ingevuld moet worden.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Belastingtypen]]

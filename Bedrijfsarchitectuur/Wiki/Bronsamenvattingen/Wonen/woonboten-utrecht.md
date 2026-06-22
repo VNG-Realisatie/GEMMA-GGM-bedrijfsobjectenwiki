@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonboten-utrecht.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonboten-utrecht.md)"
 titel: Beleid voor woonboten en historische schepen
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -27,3 +26,7 @@ De gemeente beschermt historische schepen (minimaal 50 jaar oud) door drie zones
 ## Relevantie voor bedrijfsarchitectuur
 
 Dunne overzichtsbron die verwijst naar twee uitgewerkte beleidsnota's. De begrippen woonboot, ligplaats en historisch schip worden hier geïntroduceerd en in de beleidsnota's inhoudelijk uitgewerkt.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonboten-utrecht]]

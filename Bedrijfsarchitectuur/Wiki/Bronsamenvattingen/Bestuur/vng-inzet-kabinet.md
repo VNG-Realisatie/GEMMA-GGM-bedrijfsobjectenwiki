@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/vng-inzet-kabinet.md](Sources/Onderwerpen%20VNG/Bestuur/vng-inzet-kabinet.md)"
 titel: "VNG-inzet kabinet"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -30,3 +29,7 @@ Deze bron betreft VNG-advocacy en relatievorm met rijksoverheid, niet gemeenteli
 > Een effectief en daadkrachtig kabinet vereist nauwe betrokkenheid van lokale krachten. Op deze pagina worden de gemeentelijke belangen gepresenteerd die de VNG voorrang wil geven in de agenda van het nieuwe kabinet.
 
 > Een brede coalitie van maatschappelijke organisaties en medeoverheden heeft gezamenlijk "8 bouwstenen voor een sterker en eerlijker Nederland" opgesteld. Deze voorstellen richten zich op brede welvaart, doelgerichte keuzes en langjarige investeringen.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/vng-inzet-kabinet]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025.md](Sources/Onderwerpen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025.md)"
 titel: Uitvoeringsprogramma Sport en Bewegen 2025-2026
 domein: [Sport en Bewegen]
 datum_ingest: 2026-06-21
@@ -42,3 +41,7 @@ Het uitvoeringsprogramma voegt geen nieuwe objecttypen toe ten opzichte van de b
 > "Fondsen voor sport en bewegen: Hiermee worden in dit document alle fondsen bedoeld die financiële hulp bieden aan Utrechters t/m 18 jaar voor hun sport- en beweeglidmaatschap en/of sportspullen en -kleding." (bron: uitvoeringsprogramma-sport-en-bewegen-2025.md, p. 8)
 
 > "We stoppen met de ondersteuning van sport- en beweegaanbieders en de ingebruikgeving van accommodaties, als een sport- en beweegaanbieder geen toekomst meer heeft." (bron: uitvoeringsprogramma-sport-en-bewegen-2025.md, p. 9)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]]

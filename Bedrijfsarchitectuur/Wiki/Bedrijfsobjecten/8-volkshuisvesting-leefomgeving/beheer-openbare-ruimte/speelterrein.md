@@ -46,7 +46,6 @@ gemma_subtypes:
     ggm_entiteit: Speelterrein
     ggm_guid: EAID_941A17C1_A2B2_4CD1_8991_08B0EBCF0C2
     ggm_attribuut: type
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: FunctioneelGebied (GGM)
@@ -145,3 +144,14 @@ Het BO [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/m
 - **Beheerde speeltuin** (Sociaal Domein) = de maatschappelijke functie met toezicht en activiteiten
 
 Het subtype "Speelplek" bij Maatschappelijke Voorziening overlapt met Speelterrein en zou daar verwijderd kunnen worden, met een verwijzing naar dit BO. Dit is een aandachtspunt voor afstemming.
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-inkoop-en-aanbesteden](../../Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden.md)"
 titel: "Raadgever Inkoop en aanbesteden"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18
@@ -41,3 +40,7 @@ Inkoop is de uitgavenkant van de begroting. Sluit aan bij GGM-bedrijfsobjecten [
 > "Gemeenten kopen samen jaarlijks voor meer dan €40 miljard in. Daarmee nemen zij bijna de helft van de totale publieke inkoop voor hun rekening."
 
 > "Met hun inkoop kunnen gemeenten ook maatschappelijke doelen bevorderen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeervisie.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeervisie.md)"
 titel: Parkeervisie - Fiets- en autoparkeren in een groeiend Utrecht
 domein:
   - mobiliteit
@@ -53,3 +52,7 @@ De Parkeervisie is het overkoepelende beleidsdocument dat alle parkeerbegrippen 
 > "Het is ons doel om het autogebruik in de stad, ondanks de groei van het bewoners- en bezoekersaantal, te stabiliseren."
 
 > "In de Parkeervisie is vastgelegd dat we geen parkeerplaatsen reserveren voor of toewijzen aan specifieke gebruikers, omdat dit niet bijdraagt aan efficiënt gebruik van de schaarse ruimte. Parkeerplaatsen voor mensen met een beperking zijn hierop een uitzondering."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeervisie]]

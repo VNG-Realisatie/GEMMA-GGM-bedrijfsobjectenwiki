@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a65
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: Asielstatushouder
@@ -70,3 +69,12 @@ Gestructureerd proces waarbij de gemeente samen met de inburgeraar diens situati
 
 - ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — inburgeraar doorloopt een brede intake [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — resulteert in een PIP [1]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

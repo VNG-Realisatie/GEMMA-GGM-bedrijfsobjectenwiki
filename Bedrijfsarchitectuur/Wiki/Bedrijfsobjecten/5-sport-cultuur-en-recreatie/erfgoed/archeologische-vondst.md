@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Archeologisch overblijfsel of voorwerp dat door de gemeente is aangetroffen bij onderzoek en wordt beheerd in het gemeentelijk depot."
 bedrijfsprocessen: [Archeologisch onderzoek, Depotbeheer, Publieksactiviteiten]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
-bronnen: [Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]]"
@@ -94,3 +93,7 @@ In het GGM is Vondst de vondstcontext (locatie, omstandigheden) en bevat het Art
 
 - Erfgoedbeheer
 - Collectiebeheer
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]

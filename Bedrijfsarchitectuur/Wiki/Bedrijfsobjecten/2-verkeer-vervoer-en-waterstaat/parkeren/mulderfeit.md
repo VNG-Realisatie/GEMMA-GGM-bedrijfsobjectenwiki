@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Administratieve parkeerovertreding onder de Wet Mulder (WAHV)."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021, Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid, Wiki/Bronsamenvattingen/mobiliteit/parkeervisie, Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
@@ -62,3 +61,18 @@ Een MulderFeit is een administratieve parkeerovertreding die valt onder de Wet M
 ## Relaties
 
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — MulderFeit betreft een voertuig
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]]

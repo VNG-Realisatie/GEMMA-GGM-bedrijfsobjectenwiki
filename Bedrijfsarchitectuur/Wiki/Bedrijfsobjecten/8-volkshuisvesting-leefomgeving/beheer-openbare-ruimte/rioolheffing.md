@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer, geheven bij perceeleigenaren en grootverbruikers."
-bronnen: [Wiki/Bronsamenvattingen/milieu/visie-water-riolering, Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Afvalstoffenheffing]]"
@@ -83,6 +82,12 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riol
 - **Tariefvaststelling rioolheffing**: jaarlijkse berekening en vaststelling van het heffingstarief op basis van kostendekkendheid
 - **Heffing en inning**: opleggen en innen van de rioolheffing bij perceeleigenaren en grootverbruikers
 - **Kostentoerekening**: toerekening van kosten van water- en rioleringsbeheer aan de rioolheffing
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
 
 ## Terugmelding GGM
 

@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: Opvanglocatie
@@ -54,3 +53,12 @@ Geen GGM-match. Governance-objecten vallen structureel buiten GGM-scope. Het GGM
 ## Relaties
 
 - ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|opvanglocatie]] — regelt de afspraken voor een opvanglocatie [1]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

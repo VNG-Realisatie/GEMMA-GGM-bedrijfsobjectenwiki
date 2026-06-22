@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Functioneel stuk oppervlaktewater dat de gemeente beheert, zoals watergangen, vijvers, grachten en kanalen."
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -106,3 +105,14 @@ De GEMMA-definitie benadrukt het gemeentelijk perspectief: "functioneel stuk opp
 - **Duikervervanging**: vervangen van verouderde duikers onder wegen en dijken
 - **Waterkwaliteitsmonitoring**: ecoscan-metingen voor biologische en chemische waterkwaliteit
 - **Programma Gezond Water**: samenwerking met HDSR voor verbetering ecologische kwaliteit
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

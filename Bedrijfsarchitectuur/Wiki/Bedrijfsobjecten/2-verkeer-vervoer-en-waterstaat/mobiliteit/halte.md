@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer."
 bedrijfsprocessen: [OV-beleid, Beheer openbare ruimte]
 bedrijfsfuncties: [Openbaar vervoer]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: compositie
     bedrijfsobject: "OV-lijn"
@@ -64,6 +63,11 @@ Afgeleid uit het gemeentelijk OV-beleid en beheer openbare ruimte. Het [[Wiki/Br
 
 - ◆ [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|OV-lijn]] — halte hoort bij OV-lijnen [1..*]
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]] — halte kan onderdeel zijn van een knooppunt [0..1]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

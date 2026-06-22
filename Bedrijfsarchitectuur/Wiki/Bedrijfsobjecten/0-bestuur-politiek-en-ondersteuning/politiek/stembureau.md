@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda, Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]
 relaties:
   - type: associatie
     bedrijfsobject: Verkiezing
@@ -125,3 +124,8 @@ Zie bronsamenvattingen:
 ## Opmerking: Verschil met BAG-locatie
 
 Stembureau is niet hetzelfde als een BAG-locatie (bijv. "Basisschool De Toekomst"). Het stembureau **bevindt zich op** een BAG-locatie, maar is een separate registratie met specifieke eigenschappen (capaciteit, bemensing, voorstemming) per verkiezing/referendum. Dezelfde BAG-locatie kan meerdere stembureaus herbergen en stembureaus kunnen wisselen van locatie.
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]]

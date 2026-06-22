@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers."
 bedrijfsprocessen: [OV-beleid, Concessiebeheer]
 bedrijfsfuncties: [Openbaar vervoer]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-knooppunt"
@@ -71,6 +70,11 @@ Afgeleid uit het gemeentelijk OV-beleid en concessiebeheer. Het [[Wiki/Bronsamen
 
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]] — lijn passeert knooppunten [1..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]] — lijn heeft meerdere haltes [2..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Belastingverordening.md](Sources/Onderwerpen/Belastingen/Belastingverordening.md)"
 titel: "Belastingverordening"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -31,3 +30,7 @@ De gemeenteraad heeft keuzevrijheid bij: wel/niet heffen, heffingsmaatstaven, ta
 ## Relevantie bedrijfsarchitectuur
 
 De verordening is het centrale object in het belastingdomein: zonder verordening geen heffing. De elementen (belastingplichtige, maatstaf, tarief, vrijstelling) zijn kandidaat-bedrijfsobjecten die in het GGM ontbreken.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Belastingverordening]]

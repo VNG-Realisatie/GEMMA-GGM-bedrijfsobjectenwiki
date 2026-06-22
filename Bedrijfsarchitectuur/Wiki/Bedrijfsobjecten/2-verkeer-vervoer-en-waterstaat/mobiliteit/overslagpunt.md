@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor)."
 bedrijfsprocessen: [Goederenvervoerbeleid, Havenbeheer]
 bedrijfsfuncties: [Goederenvervoerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
@@ -66,6 +65,12 @@ Afgeleid uit het gemeentelijk goederenvervoer- en havenbeleid. Het [[Wiki/Bronsa
 
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] — wordt ontsloten door logistieke routes [1..*]
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stadsdistributiepunt|Stadsdistributiepunt]] — levert goederen aan stadsdistributiepunten [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

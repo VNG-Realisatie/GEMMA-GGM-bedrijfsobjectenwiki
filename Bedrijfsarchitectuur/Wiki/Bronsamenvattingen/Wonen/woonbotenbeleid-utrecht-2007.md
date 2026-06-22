@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonbotenbeleid-utrecht-2007.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonbotenbeleid-utrecht-2007.md)"
 titel: Woonbotenbeleid (september 2007)
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -60,3 +59,7 @@ Definieert de objecten [[Woonboot]] en [[Ligplaats]] met hun maatvoering, vergun
 
 > "In de afgelopen 15 jaar is het aantal woonschepen (334) in de gemeente Utrecht stabiel."
 — §2.3.1 Havenverordening en Havenatlas 1995
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonbotenbeleid-utrecht-2007]]

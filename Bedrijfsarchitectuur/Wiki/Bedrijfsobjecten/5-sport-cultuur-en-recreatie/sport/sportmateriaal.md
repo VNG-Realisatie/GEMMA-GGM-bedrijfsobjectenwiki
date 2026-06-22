@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-488958ee-08fd-4818-af8
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Materieel dat de gemeente beschikbaar stelt voor sportbeoefening of ter ondersteuning van de sportuitvoering."
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032, Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Binnenlocatie]]"
@@ -58,3 +57,8 @@ Sportmateriaal is materieel om sport mee te beoefenen of ter ondersteuning van d
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
 | [[Binnenlocatie]] | bevindt zich in | 0..* | GGM |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]]

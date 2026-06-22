@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid, bestuur en financiën."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking]
 relaties:
   - type: associatie
     bedrijfsobject: Gemeente
@@ -140,3 +139,7 @@ Dit BO heeft **geen GGM-entiteit**. Gemeenschappelijke Regelingen zijn juridisch
 3. Dit is relevant voor gemeentelijk bestuur: 80%+ van gemeenten werkt met één of meer GR's
 
 **Terugmelding:** Gemeenschappelijke Regelingen zouden kunnen worden gemodelleerd in GGM taakveld 0 (Bestuur) of taakveld 9 (Interne Organisatie), als nieuw beleidsdomein "Inter-gemeente Samenwerking" of uitbreiding van Organisatie-indeling.
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentelijke-samenwerking]]

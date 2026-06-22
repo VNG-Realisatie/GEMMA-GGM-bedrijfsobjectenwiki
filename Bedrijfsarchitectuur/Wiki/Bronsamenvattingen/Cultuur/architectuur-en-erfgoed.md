@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/architectuur-en-erfgoed.md](Sources/Onderwerpen%20VNG/Cultuur/architectuur-en-erfgoed.md)"
 titel: "Architectuur en erfgoed"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -35,3 +34,7 @@ Dit is de bron die het dichtst bij concrete registratieobjecten komt. Gemeenten 
 > Gemeenten hebben de bevoegdheid om zelf monumenten en beschermde stads- en dorpsgezichten aan te wijzen die van regionaal of lokaal belang zijn.
 
 > Per 1 juli 2016 is de Erfgoedwet van kracht, een integrale wetgeving die museale objecten, musea, monumenten en archeologie op land en onder water regelt.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Cultuur/architectuur-en-erfgoed]]

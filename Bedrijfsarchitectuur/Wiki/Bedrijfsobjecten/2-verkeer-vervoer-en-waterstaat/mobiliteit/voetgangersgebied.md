@@ -48,7 +48,6 @@ relaties:
     richting: "bidirectioneel"
     kardinaliteit: "0..1"
     beschrijving: "Voetgangersgebied kan overlappen met zero-emissiezone"
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 ---
 
 # Voetgangersgebied
@@ -82,6 +81,11 @@ Governance-object met juridische grondslag in verkeersbesluiten. Het [[Wiki/Bron
 - → [[Halte]] — OV-haltes binnen of aan de rand van het voetgangersgebied [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]] — laad-/losplaatsen met venstertijden binnen het gebied [0..*]
 - ↔ [[Zero-emissiezone]] — voetgangersgebied kan overlappen met zero-emissiezone [0..1]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

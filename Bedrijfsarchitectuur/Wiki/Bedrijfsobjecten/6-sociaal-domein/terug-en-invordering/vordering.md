@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Financieel recht van de gemeente op terugbetaling van een bedrag door een debiteur."
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
 bedrijfsprocessen: [Terugvordering, Invordering]
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---
@@ -67,3 +66,7 @@ De GGM-definitie beperkt zich tot bijstand; de bedrijfsobjectdefinitie is breder
 - Kan aanleiding geven tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] bij niet-betaling
 - Kan resulteren in [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie|restitutie]] bij te veel ontvangen aflossing
 - Verwant aan belastingaanslag — maar de GGM-vordering is specifiek sociaal domein, terwijl een belastingaanslag publiekrechtelijk is op grond van de belastingverordening
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]

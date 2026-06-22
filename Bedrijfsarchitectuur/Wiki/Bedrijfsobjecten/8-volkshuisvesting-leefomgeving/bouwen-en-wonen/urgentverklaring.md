@@ -64,7 +64,6 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-bronnen: [Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Woning]]"
@@ -122,6 +121,11 @@ De urgentverklaring is gedefinieerd in de Huisvestingsverordening gemeente Utrec
 
 - **Urgentieverlening** — Beoordeling en verlening van urgentverklaringen
 - **Woonruimteverdeling** — Urgentverklaringen beïnvloeden de rangorde in het aanbodmodel
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]]
 
 ## Terugmelding GGM
 

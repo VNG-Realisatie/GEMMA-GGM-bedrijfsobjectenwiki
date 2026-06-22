@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/grondstoffennota-utrecht-2020.md](Sources/Onderwerpen/Milieu/grondstoffennota-utrecht-2020.md)"
 titel: Grondstoffennota 2020
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -46,3 +45,7 @@ Zeer hoog. De nota beschrijft gedetailleerd de operationele objecten die de geme
 > "De maatregelen uit de vorige nota zorgden ervoor dat de hoeveelheid huishoudelijk restafval jaarlijks is gedaald en de gescheiden ingezamelde grondstoffen zijn gestegen. De hoeveelheid restafval is tussen 2015 en 2019 met 27 kilo per persoon afgenomen." (Samenvatting)
 
 > "Vanuit de Wet Milieubeheer hebben gemeenten de verantwoordelijkheid voor (gescheiden) inzameling en verwerking van afvalstromen." (§1.2.2)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/grondstoffennota-utrecht-2020]]

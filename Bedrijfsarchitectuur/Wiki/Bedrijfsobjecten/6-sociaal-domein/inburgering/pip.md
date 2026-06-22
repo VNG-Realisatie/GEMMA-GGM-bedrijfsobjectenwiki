@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a1f148c2-d310-45c0-aee
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Persoonlijk plan Inburgering en Participatie met de leerroute, verplichtingen en doelen van de inburgeraar."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: Brede Intake
@@ -71,3 +70,12 @@ Persoonlijk Plan Inburgering en Participatie — individueel plan vastgesteld do
 - ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|brede-intake]] — wordt opgesteld naar aanleiding van de brede intake [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|leerroute]] — bevat de afgesproken leerroute [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|inburgeringstraject]] — stuurt het inburgeringstraject aan [1]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

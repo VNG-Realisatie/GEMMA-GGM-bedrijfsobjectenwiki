@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Aangewezen locatie of zone waarbinnen roken niet is toegestaan, gericht op bescherming van de gezondheid."
 gemma_subtypes:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties: []
 bedrijfsprocessen: [volksgezondheidsbeleid, luchtkwaliteitsbeleid]
 bedrijfsfuncties: [milieubeheer, volksgezondheid]
@@ -64,6 +63,11 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 > "Bij speelplekken (beheerd en onbeheerd), sportlocaties, musea en bushokjes hebben we rookvrije zones ingesteld, vooral gericht op het beschermen van kinderen. De gemeente kan hier niet op handhaven, maar er gaat wel een (collectief) sturende werking van uit en ze zijn effectief."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.5.1)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 
 ## Terugmelding GGM
 

@@ -34,7 +34,6 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Ontheffing (milieuzone)]]"
@@ -94,6 +93,11 @@ De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformal
 |---|---|---|---|---|
 | [[Ontheffing (milieuzone)]] | associatie | naar-dit-BO | Individuele uitzonderingen op zone-regels | Beleidsnota §6.2.7 |
 | [[Sloopregeling]] | associatie | naar-dit-BO | Subsidieregeling bij aanscherping | Beleidsnota §6.2.7 |
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 
 ## Terugmelding GGM
 

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/rubriek-energie-en-klimaat.md](Sources/Onderwerpen/Energie en Klimaat/rubriek-energie-en-klimaat.md)"
 titel: VNG-rubriek Energie en Klimaat
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -22,3 +21,7 @@ De pagina noemt de Energiewet (vervangt Elektriciteitswet en Gaswet) en het conc
 ## Relevantie voor bedrijfsarchitectuur
 
 Beperkt. De bron beschrijft het VNG-kader en randvoorwaarden, geen concrete objecten die de gemeente registreert of beheert. Energiewet en energie delen zijn relevant als context voor toekomstige objecten (bijv. energiegemeenschappen).
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/rubriek-energie-en-klimaat]]

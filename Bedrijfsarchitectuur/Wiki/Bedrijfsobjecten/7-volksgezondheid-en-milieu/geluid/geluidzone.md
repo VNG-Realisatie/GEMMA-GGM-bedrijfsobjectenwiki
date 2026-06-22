@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend gebied rond een industrieterrein waarbinnen de cumulatieve geluideffecten van alle bedrijven worden beheerst via omgevingswaarden."
 bedrijfsprocessen: [vergunningverlening, omgevingsplan, geluidkartering]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
-bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"
@@ -70,6 +69,11 @@ Artefact dat in de wet- en regelgeving voor industriegeluid centraal staat. Het 
 
 - Bevat → [[Geluidbron]] (industriële bronnen liggen binnen de zone)
 - Beschermt → [[Geluidgevoelig gebouw]] (gebouwen binnen/nabij de zone worden beschermd)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]]
 
 ## Terugmelding GGM
 

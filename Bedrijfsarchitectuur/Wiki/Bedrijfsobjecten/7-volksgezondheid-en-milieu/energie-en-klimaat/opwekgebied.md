@@ -32,7 +32,6 @@ gemma_subtypes:
     omschrijving: "Locatie aangewezen voor plaatsing van windturbines"
 bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
 bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
-bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie, Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]"
@@ -97,6 +96,12 @@ Opwekgebieden ontstaan uit het ruimtelijke planningsproces voor de energietransi
 
 - Energiebeleid
 - Ruimtelijke ordening
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie]]
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht]]
 
 ## Terugmelding GGM
 

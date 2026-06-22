@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Fysieke locatie in het gemeentelijk meetnet waar luchtverontreinigende stoffen worden gemeten."
 gemma_subtypes:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties: []
 bedrijfsprocessen: [luchtkwaliteitsmonitoring, beleidsverantwoording]
 bedrijfsfuncties: [milieubeheer]
@@ -64,6 +63,11 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 > "Met 64 Utrechtse meetlocaties voor NO2 en 3 meetlocaties van het RIVM binnen de stad hebben we adequate instrumenten om de luchtkwaliteit over de hele stad in kaart te brengen."
 > (bron: Beleidsnota Luchtkwaliteit, hoofdstuk 8)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 
 ## Terugmelding GGM
 

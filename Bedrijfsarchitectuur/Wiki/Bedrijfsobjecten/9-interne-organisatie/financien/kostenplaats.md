@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Rekening in de financiële administratie waaraan kosten worden toegerekend."
 definitie: Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven
 bedrijfsprocessen: [Begrotingscyclus, Financiële administratie]
-bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Financieel beheer, Planning en control]
 status: concept
 ---
@@ -58,3 +57,10 @@ Rekening waaraan boekingen in een financiële administratie samen worden toegesc
 
 - Onderdeel van de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]structuur
 - Relevant voor kostendekkend-tarief: kosten van een bestemmingsbelasting of retributie moeten toerekenbaar zijn aan kostenplaatsen
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]]

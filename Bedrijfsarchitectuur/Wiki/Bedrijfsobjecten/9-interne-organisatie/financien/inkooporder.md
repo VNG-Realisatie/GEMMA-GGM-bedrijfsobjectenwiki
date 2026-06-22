@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Opdracht van de gemeente aan een leverancier voor levering van een bepaalde hoeveelheid goederen of diensten."
 definitie: Een opdracht voor één of meer leveringen door de leverancier aan de klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen voorwaarden en prijzen
 bedrijfsprocessen: [Inkoop en aanbesteding]
-bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Inkoop en contractbeheer]
 status: concept
 ---
@@ -56,3 +55,10 @@ Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leve
 
 - Resulteert in een inkomende [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur|factuur]]
 - Gekoppeld aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|kostenplaats]]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]]

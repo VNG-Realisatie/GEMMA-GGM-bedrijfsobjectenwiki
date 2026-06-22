@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[College voor Arbeidszaken](../../Sources/Onderwerpen/Arbeidszaken/College voor Arbeidszaken.md)"
 titel: "College voor Arbeidszaken"
 domein: [Arbeidszaken]
 datum_ingest: 2026-06-19
@@ -21,3 +20,7 @@ Het CvA is het VNG-orgaan voor collectieve belangenbehartiging op het terrein va
 ## Relevantie voor bedrijfsarchitectuur
 
 Geen. Het CvA is een organisatorisch/governance-orgaan binnen de VNG-structuur. Het produceert geen registreerbare objecten en valt structureel buiten GGM-scope. Geen BO-kandidaten geïdentificeerd.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Arbeidszaken/College voor Arbeidszaken]]

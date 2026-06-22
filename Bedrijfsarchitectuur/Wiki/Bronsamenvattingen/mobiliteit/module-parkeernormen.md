@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeernormen-fiets-en-auto.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeernormen-fiets-en-auto.md)"
 titel: Module Parkeernormen fiets en auto
 domein:
   - mobiliteit
@@ -40,3 +39,7 @@ De module verduidelijkt de beleidscontext van de parkeernormen. Belangrijke syst
 > "De parkeercapaciteit voor zowel fietsen als auto's is een sturingsinstrument dat we kunnen inzetten om fietsgebruik te stimuleren en het aantal (rijdende) auto's in de stad gelijk te houden."
 
 > "Het doel van parkeernormen is om ervoor te zorgen dat de mobiliteit voor (toekomstige) bewoners, gebruikers, en bezoekers bij bouwontwikkelingen gefaciliteerd wordt, zodat de locatie toegankelijk is en ook in de toekomst bereikbaar blijft."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeernormen-fiets-en-auto]]

@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afspraak tussen de gemeente en de debiteur over de termijnen en bedragen waarmee een vordering wordt afgelost."
 definitie: Alle afspraken tussen de gemeente en de debiteur over op welke vordering per wanneer welk bedrag wordt afgelost
 bedrijfsprocessen: [Invordering, Schuldbeheer]
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---
@@ -62,3 +61,7 @@ Alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij
 - Bevat [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing|aflossing]]en als concrete betalingen
 - Bij 36 maanden aflossingsdicipline: mogelijkheid tot kwijtschelding
 - Bij achterstalligheid: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]

@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets."
 bedrijfsprocessen: [Parkeerbeleid, Mobiliteitsmanagement, OV-beleid]
 bedrijfsfuncties: [Verkeersmanagement, Parkeerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-knooppunt"
@@ -76,6 +75,11 @@ Afgeleid uit het gemeentelijk parkeer- en mobiliteitsbeleid. Het [[Wiki/Bronsame
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]] — P+R kan onderdeel zijn van een hub [0..1]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]] — P+R kan een parkeergarage bevatten [0..1]
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]] — fietsroute verbindt met P+R [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

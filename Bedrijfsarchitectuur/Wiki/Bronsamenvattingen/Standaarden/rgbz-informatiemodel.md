@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[rgbz-1.0](../../Sources/Standaarden/rgbz-1.0.md), [introductie-rgbz](../../Sources/Standaarden/introductie-rgbz.md)"
 titel: "Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18
@@ -118,3 +117,7 @@ Het RGBZ is uitgewerkt in een ecosysteem van berichtenstandaarden:
 - Het RGBZ maakt de brug tussen RSGB-objecten en gemeentelijke processen via het zaak-concept
 - Begrippen als zaakgericht-werken, zaakdossier en informatieobject komen hier vandaan
 - De evolutie RGBZ 1.0 → RGBZ 2.0 (concept) → ZGW API's is relevant voor de vraag hoe actueel het GGM-beleidsdomein RGBZPlus nog is
+
+## Bronnen
+
+- [[Sources/Standaarden/rgbz-1.0]]

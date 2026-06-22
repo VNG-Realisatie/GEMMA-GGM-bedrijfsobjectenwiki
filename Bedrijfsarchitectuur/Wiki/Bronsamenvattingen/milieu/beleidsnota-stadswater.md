@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/converted_pdf/beleidsnota-stadswater.md](Sources/Onderwerpen/Milieu/converted_pdf/beleidsnota-stadswater.md)"
 titel: Beleidsnota Stadswater
 domein: [milieu]
 datum_ingest: 2026-06-21
@@ -52,3 +51,7 @@ Deze nota introduceert objecten rond het gebruik van stadswater die complementai
 > "Uit de modelberekeningen blijkt dat de maximale vaarcapaciteit in Utrecht pas bereikt wordt als er ongeveer twee keer meer vaartuigen op de grachten en singels komen varen dan op de drukste dag gemeten." (Beleidsnota Stadswater, §2.7)
 
 > "De verwachte groei van de stad zorgt voor een toename van de vraag naar buitenzwemplekken met 25-30% tot 2040." (Beleidsnota Stadswater, §2.7)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/converted_pdf/beleidsnota-stadswater]]

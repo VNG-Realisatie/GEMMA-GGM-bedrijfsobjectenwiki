@@ -30,7 +30,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Bedrijf dat zich richt op het verstrekken van eten, drinken en/of logies, gereguleerd via de Verordening horeca en het Ontwikkelingskader Horeca."
 bedrijfsprocessen: [horecavergunningverlening, handhaving horeca, horecabeleid]
 bedrijfsfuncties: [vergunningverlening, handhaving, economisch beleid]
-bronnen: [Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng, Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012, Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015, Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht, Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota, Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vestiging]]"
@@ -108,3 +107,15 @@ De eigen definitie wijkt af van de GGM-definitie doordat het specifiek gaat om h
 | [[Hotel]] | associatie | Horecabedrijf → Hotel | 0..* | Beleid |
 | [[Terras]] | associatie | Horecabedrijf → Terras | 0..* | Beleidsregel terrassen |
 | [[Bed-and-breakfast]] | associatie | Horecabedrijf → B&B | 0..* | Beleid |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng]]
+- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012]]
+- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015]]
+- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]]

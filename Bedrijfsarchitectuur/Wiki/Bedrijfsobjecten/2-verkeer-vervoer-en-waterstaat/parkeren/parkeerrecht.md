@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Recht om een voertuig te parkeren op een aangewezen plek, ontstaan door betaling van parkeerbelasting of -geld."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021, Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid, Wiki/Bronsamenvattingen/mobiliteit/parkeervisie, Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeerzone]]"
@@ -74,3 +73,18 @@ Een parkeerrecht is het recht om een voertuig te parkeren op een daartoe aangewe
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone|Parkeerzone]] — parkeerrecht geldt binnen een parkeerzone
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — parkeerrecht is gekoppeld aan een voertuig
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning|Parkeervergunning]] — parkeerrecht kan voortkomen uit een parkeervergunning
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/spelen-in-je-eigen-buurt-utrecht.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/spelen-in-je-eigen-buurt-utrecht.md)"
 titel: "Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht"
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-21
@@ -54,3 +53,7 @@ De bron verrijkt het bestaande BO [[Speeltoestel]] met:
 > "Een buurtplek is bedoeld voor de hele speelbuurt en is ingericht voor alle leeftijden. De blokplek is meer ingericht op de leeftijd tot 12 jaar."
 
 > "De gemeente is verantwoordelijk voor de veiligheid in de openbare ruimte. Dit betekent dat de gemeente moet zorgen voor deugdelijke, gekeurde en daarmee veilige speeltoestellen. De eisen voor speeltoestellen is geregeld in het Warenwetbesluit attractie- en speeltoestellen (WAS)."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/spelen-in-je-eigen-buurt-utrecht]]

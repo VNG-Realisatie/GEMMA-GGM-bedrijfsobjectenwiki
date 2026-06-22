@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Kleinschalige logiesaccommodatie met maximaal vier kamers, doorgaans in een woning, als aanvulling op het reguliere hotelaanbod."
 bedrijfsprocessen: [logiesvergunningverlening, monitoring toeristisch aanbod]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
-bronnen: [Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"
@@ -70,6 +69,11 @@ B&B's worden in het horecabeleid als aparte categorie benoemd naast hotels. Er i
 |---|---|---|---|---|
 | [[Horecabedrijf]] | associatie | Horecabedrijf → B&B | 1 | Beleid |
 | [[Hotel]] | associatie | bidirectioneel | — | Beleid (verwante logiesaccommodaties) |
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota]]
 
 ## Terugmelding GGM
 

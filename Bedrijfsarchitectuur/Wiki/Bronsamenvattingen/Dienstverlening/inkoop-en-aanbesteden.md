@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/inkoop-en-aanbesteden.md](Sources/Onderwerpen/Dienstverlening/inkoop-en-aanbesteden.md)"
 titel: "Inkoop en aanbesteden (overzichtspagina)"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -22,3 +21,7 @@ Portaalpagina over gemeentelijke inkoop. Gemeenten besteden jaarlijks tientallen
 ## Relevantie voor bedrijfsarchitectuur
 
 Overlapt inhoudelijk met de al verwerkte [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden|Raadgever Inkoop en aanbesteden]]. Geen nieuwe begrippen of objecten. GIBIT en SCG zijn instrumenten/organisaties, geen data-objecten.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/inkoop-en-aanbesteden]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nota-beheer-or.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nota-beheer-or.md)"
 titel: Nota Beheer Openbare Ruimte
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-21
@@ -40,3 +39,7 @@ Deze nota is de primaire bron voor het identificeren van fysieke objectsoorten d
 > "Utrecht krijgt de komende decennia te maken met grote vervangingsopgaven." (Nota Beheer OR, p.4)
 
 > "Ontwikkelend beheer betekent dat objecten in de openbare ruimte niet standaard worden vervangen door nieuwe objecten met dezelfde functionaliteit, maar zoveel mogelijk worden vervangen door objecten die tegemoet komen aan de veranderende behoeften in de maatschappij." (Nota Beheer OR, p.14)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nota-beheer-or]]

@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Overeenkomst met een verwerker voor de inzameling of verwerking van afval- en grondstofstromen."
 bedrijfsprocessen: [Aanbesteding afvalverwerking, Contractbeheer]
 bedrijfsfuncties: [Afvalbeheer, Inkoop]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
@@ -74,3 +73,7 @@ Het GGM modelleert Prijsafspraak als dichtstbijzijnde concept, maar een verwerki
 
 - Afvalbeheer
 - Inkoop
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]

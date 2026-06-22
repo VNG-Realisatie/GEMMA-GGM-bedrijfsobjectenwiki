@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-auto-2021.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-auto-2021.md)"
 titel: Beleidsregel parkeernormen auto 2021 gemeente Utrecht
 domein:
   - mobiliteit
@@ -40,3 +39,7 @@ De beleidsregel definieert het sturingsmodel voor autoparkeren bij bouwontwikkel
 > "Gebruikers hebben geen automatisch recht op parkeervergunning voor openbare weg."
 
 > "Aanvrager toont aan dat parkeerplaatsen gedurende 10 jaar vanaf ingebruikname structureel beschikbaar zijn."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-auto-2021]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/beleidsregel-hotels-utrecht.md](Sources/Onderwerpen/Economie/beleidsregel-hotels-utrecht.md)"
 titel: "Beleidsregel Hotels Gemeente Utrecht"
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -48,3 +47,7 @@ Definieert de subtypes van het [[Hotel]]-bedrijfsobject: concepthotel, doelgroep
 **Omgevingsvergunning**: het instrument waarmee de gemeente afwijking van het omgevingsplan toestaat voor hotelvestiging.
 
 > "Utrecht wil een divers hotelbestand bevorderen terwijl massatoerisme wordt voorkomen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/beleidsregel-hotels-utrecht]]

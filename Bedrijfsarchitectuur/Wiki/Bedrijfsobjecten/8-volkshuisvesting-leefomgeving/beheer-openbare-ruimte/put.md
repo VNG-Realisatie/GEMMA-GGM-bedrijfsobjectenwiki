@@ -41,7 +41,6 @@ gemma_subtypes:
     ggm_entiteit: Infiltratieput
     ggm_guid: EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB
     ggm_attribuut: generalisatie
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/gemaal|Gemaal]]"
@@ -111,3 +110,14 @@ Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van put
 - **Rioolbeheer**: dagelijks beheer en registratie van putten
 - **Rioolinspectie**: visuele en camera-inspectie van putten en aangesloten leidingen
 - **Rioolvervanging**: vervanging of renovatie van putten bij stelselvernieuwing
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

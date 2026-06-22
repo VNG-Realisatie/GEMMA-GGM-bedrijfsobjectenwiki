@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[nadere-regel-huisvestingsverordening.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nadere-regel-huisvestingsverordening.md)"
 titel: "Nadere regel Huisvestingsverordening gemeente Utrecht"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -38,3 +37,7 @@ De nadere regel specificeert de leefbaarheidstoets als concreet beoordelingsinst
 > "Geluidsisolatie: Moet NEN 5077:2019-normen voor nieuwbouw halen (minimaal 52dB luchtgeluidniveauverschil)." (Artikel 13)
 
 > "Minimaal 18m² per bewoner bij omzetting; minimaal 50m² per te vormen woonruimte." (Artikel 13)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nadere-regel-huisvestingsverordening]]

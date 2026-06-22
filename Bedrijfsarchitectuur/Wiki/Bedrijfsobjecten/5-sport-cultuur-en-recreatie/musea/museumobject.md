@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
-bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]
 relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
@@ -103,3 +102,15 @@ Archiefstukken en museumobjecten zijn voor gemeenten herkenbaar verschillende di
 
 - Erfgoedbeheer
 - Collectiebeheer
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
+- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur]]
+- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
+- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
+- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
+- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]

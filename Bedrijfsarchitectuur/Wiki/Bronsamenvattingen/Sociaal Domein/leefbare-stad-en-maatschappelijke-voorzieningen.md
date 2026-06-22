@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen.md](Sources/Onderwerpen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen.md)"
 titel: Leefbare stad en maatschappelijke voorzieningen
 domein: [Sociaal Domein]
 datum_ingest: 2026-06-21
@@ -56,3 +55,7 @@ Dit document definieert het voorzieningenlandschap dat een gemeente beheert. De 
 > "De buurtkamer bestaat uit één of twee activiteitenruimten, kleinschalig van opzet en ondersteunend aan het buurtcentrum."
 
 > "Een Integraal Kindcentrum (IKC) is een samenwerkingsverband tussen een school, kinderopvangorganisatie en/of een aanbieder van voorschoolse educatie (VE). [...] Het verschil [met Brede School] is dat een IKC uitgaat van verregaande inhoudelijke en geformaliseerde samenwerking, met als uitgangspunten een gezamenlijke visie en één organisatie die zich inzet voor de ontwikkeling van kinderen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen]]

@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-454
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Het door de gemeente vastgestelde onderwijstraject dat de inburgeraar volgt richting het inburgeringsdiploma."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: PIP
@@ -79,3 +78,12 @@ B1-route en Z-route zijn classificaties van dit BO, geen aparte bedrijfsobjecten
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/map|map]] — bevat de module arbeidsmarkt en participatie [0..1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pvt|pvt]] — bevat het participatieverklaringstraject [0..1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|examen]] — wordt afgerond met examens [0..*]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

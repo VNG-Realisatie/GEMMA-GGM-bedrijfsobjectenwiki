@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/versterking-lokale-democratie.md](Sources/Onderwerpen%20VNG/Bestuur/versterking-lokale-democratie.md)"
 titel: "Versterking lokale democratie"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -35,3 +34,7 @@ Deze bron adresseert governance-principes en procesmatig-democratische experimen
 > Het VNG standpunt is dat democratie veel breder is dan alleen politiek. Gemeenten experimenteren volop met nieuwe vormen door inwoners actief bij beleidsontwikkeling en besluitvorming te betrekken.
 
 > De korte lijnen tussen inwoners, gemeenteraden en colleges maken gemeenten bij uitstek geschikt als proeflokalen voor vernieuwende vormen van democratie.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/versterking-lokale-democratie]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/opwekken-duurzame-energie.md](Sources/Onderwerpen/Energie en Klimaat/opwekken-duurzame-energie.md)"
 titel: VNG — Opwekken duurzame energie
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -20,3 +19,7 @@ VNG-onderwerpenpagina over het opwekken van hernieuwbare energie. Gemeenten spel
 ## Relevantie voor bedrijfsarchitectuur
 
 Onderbouwt [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]] als concept: gemeenten kiezen waar grootschalige opwek een plek krijgt. De RES is een regionaal instrument, geen gemeentelijk BO.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/opwekken-duurzame-energie]]

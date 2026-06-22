@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Geautomatiseerde waarneming van een geparkeerd voertuig door een scanauto ten behoeve van parkeerhandhaving."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021, Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid, Wiki/Bronsamenvattingen/mobiliteit/parkeervisie, Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
@@ -80,3 +79,18 @@ Een parkeerscan is een waarneming van een geparkeerd voertuig door een scanauto.
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — parkeerscan betreft een voertuig
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht|Parkeerrecht]] — parkeerscan wordt getoetst aan een parkeerrecht
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing|Naheffing]] — parkeerscan kan leiden tot een naheffing
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]]

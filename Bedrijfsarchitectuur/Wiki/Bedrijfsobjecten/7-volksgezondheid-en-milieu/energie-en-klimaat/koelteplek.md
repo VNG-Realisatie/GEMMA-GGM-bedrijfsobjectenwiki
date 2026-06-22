@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Openbaar toegankelijke groene verblijfsplek van minimaal 200 m² waar de gevoelstemperatuur koeler is dan of gelijk aan het buitengebied."
 bedrijfsprocessen: [Klimaatadaptatiebeleid, Beheer openbare ruimte, Groenbeleid]
 bedrijfsfuncties: [Klimaatadaptatie, Beheer openbare ruimte]
-bronnen: [Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte/groenobject|Groenobject]]"
@@ -82,6 +81,11 @@ Bron: [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrech
 - **Klimaatadaptatiebeleid** — inventarisatie koelteplekken, prioriteitsgebieden aanwijzen
 - **Beheer openbare ruimte** — inrichting en onderhoud van koelteplekken
 - **Groenbeleid** — vergroening ten behoeve van verkoeling (Schaalsprong Groen)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Energie en Klimaat/visie-klimaatadaptatie-utrecht]]
 
 ## Terugmelding GGM
 

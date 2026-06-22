@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: Asielstatushouder
@@ -72,3 +71,12 @@ Ontheffing en Vrijstelling zijn attributen/statuswijzigingen van dit BO, geen ap
 
 - ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — inburgeraar heeft een inburgeringsplicht [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn|inburgeringstermijn]] — heeft een inburgeringstermijn [1]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

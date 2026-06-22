@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[beleidsnota-wonen-utrecht.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/beleidsnota-wonen-utrecht.md)"
 titel: "Beleidsnota Wonen in Utrecht: Van woningmarkt naar volkshuisvesting 2025-2030"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -63,3 +62,7 @@ Deze nota is de primaire bron voor het domein Wonen. Zij definieert het volledig
 > "We streven naar een bouwprogramma dat voor 75% uit betaalbare woningen bestaat (40% sociale huur + 35% middensegment)." (Doelstelling 1b)
 
 > "Sociale huur is corporatiehuur." (Doelstelling 1C)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/beleidsnota-wonen-utrecht]]

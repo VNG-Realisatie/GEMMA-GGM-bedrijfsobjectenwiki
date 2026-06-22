@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/digitale-toegankelijkheid.md](Sources/Onderwerpen/Dienstverlening/digitale-toegankelijkheid.md)"
 titel: "Digitale toegankelijkheid"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -22,3 +21,7 @@ Een kwart van de Nederlandse inwoners heeft een beperking of beschikt over minde
 ## Relevantie voor bedrijfsarchitectuur
 
 Kwaliteitsverplichting die het kanaal raakt, niet de data-objecten. De toegankelijkheidsverklaring is een compliance-document, geen registratieobject op bedrijfsniveau.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/digitale-toegankelijkheid]]

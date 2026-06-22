@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden gelden."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007, Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021, Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021, Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte, Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid, Wiki/Bronsamenvattingen/mobiliteit/parkeervisie, Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]
 relaties:
   - type: compositie
     bedrijfsobject: "[[Parkeervlak]]"
@@ -80,6 +79,22 @@ Een parkeerzone is een afgebakend gebied waar specifieke parkeerregels gelden, z
 - ▲ ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]] — parkeergarage is specialisatie van parkeerzone
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning|Parkeervergunning]] — parkeervergunning geldt binnen een parkeerzone
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht|Parkeerrecht]] — parkeerrecht is gekoppeld aan een parkeerzone
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-fiets-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/beleidsregel-parkeernormen-auto-2021]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/module-parkeernormen]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/rapportage-routekaart-parkeerhubs]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-fietsparkeren]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-parkeren-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitvoeringsprogramma-betaald-parkeren]]
 
 ## Terugmelding GGM
 

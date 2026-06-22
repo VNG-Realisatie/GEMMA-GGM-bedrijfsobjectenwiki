@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[beleidsregel-huisvestingsverordening.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-huisvestingsverordening.md)"
 titel: "Beleidsregel Huisvestingsverordening gemeente Utrecht"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -37,3 +36,7 @@ De beleidsregel definieert de omzettingsvergunning als concreet registratieobjec
 > "Een wekelijkse ambtelijke werkgroep (WSWV) behandelt aanvragen voor onttrekking, samenvoeging, omzetting, woningvorming en kadastrale splitsing." (Artikel 9)
 
 > "Prijsgrenzen per periode: 01-07-2025 tot 01-07-2026: € 611.000." (Artikel 7)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-huisvestingsverordening]]

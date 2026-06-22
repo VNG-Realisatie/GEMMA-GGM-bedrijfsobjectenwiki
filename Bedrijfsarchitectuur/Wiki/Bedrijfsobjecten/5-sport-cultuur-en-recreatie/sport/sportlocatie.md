@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a7a350a2-a9aa-4437-b67
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie waar sportbeoefening plaatsvindt, als overkoepelend begrip voor binnen- en buitensportaccommodaties."
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportpark]]"
@@ -78,3 +77,7 @@ Een sportlocatie is een locatie waar sport plaatsvindt. Het is het overkoepelend
 | [[Binnenlocatie]] | specialisatie | | GGM |
 | [[Sportvereniging]] | wordt gebruikt door | 0..* | GGM |
 | School | wordt gebruikt door | 0..* | GGM |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]

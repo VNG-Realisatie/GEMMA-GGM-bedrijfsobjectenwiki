@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[opvang-oekraiense-ontheemden](../../Sources/Onderwerpen/Asiel en Integratie/opvang-oekraiense-ontheemden.md)"
 titel: "Opvang Oekraïense ontheemden"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19
@@ -14,3 +13,7 @@ Met de Tijdelijke wet Opvang ontheemden Oekraïne (2024) is de verantwoordelijkh
 ## Relevantie voor bedrijfsarchitectuur
 
 Apart wettelijk kader, maar de bedrijfsobjecten (opvanglocatie) overlappen met reguliere asielopvang. Geen aanvullende BO's nodig — het BO Opvanglocatie dekt beide varianten.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Asiel en Integratie/opvang-oekraiense-ontheemden]]

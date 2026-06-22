@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/bibliotheekwerk.md](Sources/Onderwerpen%20VNG/Cultuur/bibliotheekwerk.md)"
 titel: "Bibliotheekwerk"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -20,3 +19,7 @@ Korte VNG-overzichtspagina. Bibliotheekwerk is een taak van gemeenten. Lokale bi
 ## Relevantie voor bedrijfsarchitectuur
 
 Zeer beperkte bron. Bibliotheken zijn voorzieningen die de gemeente faciliteert, maar als organisatie niet als bedrijfsobject gemodelleerd worden. Het GGM bevat geen apart beleidsdomein voor bibliotheken — de propositie noemt ze expliciet als buiten scope van de Wsc.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Cultuur/bibliotheekwerk]]

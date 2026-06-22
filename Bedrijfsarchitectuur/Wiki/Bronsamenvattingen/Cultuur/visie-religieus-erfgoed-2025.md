@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/visie-religieus-erfgoed-2025.md](Sources/Onderwerpen/Cultuur/visie-religieus-erfgoed-2025.md)"
 titel: "Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025"
 domein: [Cultuur]
 datum_ingest: 2026-06-20
@@ -51,3 +50,7 @@ De overige begrippen uit de visie vallen onder het bestaande BO [[Wiki/Bedrijfso
 > "Naast het herbestemmingsprofiel stellen wij daarom een afwegingskader voor orgels op, om de monumentale waarden van het orgel (die mogelijk strijdig zijn met de wensen voor herbestemming van het kerkgebouw) in ogenschouw te nemen." (Hoofdstuk 5)
 
 > "De gemeente beschikt over inventarisaties van het interieur, met name van een aantal rooms-katholieke kerken zijn deze gemaakt, in opdracht van de afdeling Erfgoed." (Hoofdstuk 5)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Cultuur/visie-religieus-erfgoed-2025]]

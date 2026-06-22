@@ -179,7 +179,7 @@ Bij een lint- of auditverzoek:
 3. **Concepten zonder pagina** — concepten/BO's die meerdere keren genoemd worden maar geen eigen pagina hebben; voeg toe aan openstaande taken
 4. **Verouderde claims** — claims die op basis van nieuwere bronnen mogelijk outdated zijn; flag met `🔍 Verificatie nodig` en citeer nieuwere bron
 5. **Template-naleving** — controleren of alle pagina's de juiste frontmatter, secties en formattering hebben (zie templates/)
-6. **Herleidbaarheid** — BO-pagina's moeten `bronnen` in frontmatter hebben; claims moeten citaten hebben
+6. **Herleidbaarheid** — BO-pagina's moeten een `## Bronnen`-sectie in de body hebben; claims moeten citaten hebben
 
 **Rapportage:** Bevindingen als **genummerde lijst met voorgestelde fixes** per categorie (contradities, orphans, verouderd, etc.).
 
@@ -223,7 +223,7 @@ Elke factische claim moet traceerbaar zijn naar zijn bron:
 2. **Format:** Verwijs naar `[[Wiki/Bronsamenvattingen/{domein}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`
 3. **Bij tegenspraak:** Als twee bronnen het oneens zijn, documenteer beide en mark als `⚠️ Tegenspraak` in de BO-pagina
 4. **Zonder bron:** Mark als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen
-5. **BO-grondslag:** Elke BO moet via `bronnen` in frontmatter traceerbaar zijn naar bronsamenvattingen
+5. **BO-grondslag:** Elke BO moet via de `## Bronnen`-sectie in de body traceerbaar zijn naar bronsamenvattingen
 6. **GGM-matching:** Bij onzekere matches: mark als `ter discussie`, niet gokken
 
 Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar originele bronnen.

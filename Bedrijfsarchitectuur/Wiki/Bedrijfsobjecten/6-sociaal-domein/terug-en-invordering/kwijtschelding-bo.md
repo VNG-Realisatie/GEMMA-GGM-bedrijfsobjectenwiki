@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Besluit van de gemeente om het restant van een vordering niet langer te innen."
 definitie: Het kwijtschelden van het restant van de vordering
 bedrijfsprocessen: [Invordering, Kwijtscheldingsbeoordeling]
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---
@@ -65,3 +64,7 @@ De structuur (bedrag, reden, boekingsdatum) is in beide contexten vergelijkbaar 
 - Betreft een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
 - In belastingcontext: verleend door de invorderingsambtenaar
 - In belastingcontext: betreft een belastingaanslag
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]

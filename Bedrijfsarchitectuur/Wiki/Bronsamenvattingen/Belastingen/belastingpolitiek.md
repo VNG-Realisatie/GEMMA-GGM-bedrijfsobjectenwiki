@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Belastingpolitiek.md](Sources/Onderwerpen/Belastingen/Belastingpolitiek.md)"
 titel: "Belastingpolitiek"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -27,3 +26,7 @@ Gemeenten vergelijken hun belastingmix vaak met buurgemeenten via de COELO Atlas
 ## Relevantie bedrijfsarchitectuur
 
 De belastingmix is een beleidsmatig begrip dat de context biedt voor individuele belastingverordeningen. Het verbindt het politieke besluitvormingsproces met de operationele belastingheffing.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Belastingpolitiek]]

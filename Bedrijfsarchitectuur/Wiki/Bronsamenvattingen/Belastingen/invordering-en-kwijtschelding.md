@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding.md](Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding.md)"
 titel: "Invordering en kwijtschelding"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -34,3 +33,7 @@ Standaard geldt de bijstandsnorm op 90%; de raad kan verruimen naar 100%. AOW'er
 ## Relevantie bedrijfsarchitectuur
 
 Kwijtschelding is het enige belastingbegrip met een directe GGM-mapping (entiteit "Kwijtschelding" in beleidsdomein Terug-en-invordering). Het GGM-model richt zich echter op het sociaal domein; de belastingcontext is anders (kwijtschelding van OZB/afvalstoffenheffing vs. terugvordering bijstand).
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Invordering en kwijtschelding]]

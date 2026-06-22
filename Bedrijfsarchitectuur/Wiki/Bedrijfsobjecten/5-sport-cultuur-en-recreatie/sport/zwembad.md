@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke voorziening voor zwemactiviteiten, met eigen capaciteitsbeleid en meerjarige investeringsplanning."
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032, Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Sportvereniging]]"
@@ -51,6 +50,12 @@ Genoemde zwembaden in het beleid: Máximapark (nieuwbouw, uitgesteld naar 2029),
 Geen GGM-match. Zwembad komt niet voor als entiteit in het GGM-beleidsdomein Sport.
 
 - **Matchsterkte:** geen
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]]
 
 ## Terugmelding GGM
 

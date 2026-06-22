@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/raadsbrief-klimaatneutraal.md](Sources/Onderwerpen/Energie en Klimaat/raadsbrief-klimaatneutraal.md)"
 titel: Raadsbrief Vrijgave ontwerpvisie Utrecht klimaatneutraal
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -39,3 +38,7 @@ De raadsbrief levert geen nieuwe BO's op, maar geeft waardevolle context bij bes
 > "De les die we uit afgelopen jaren trekken, en die richtinggevend is voor het Utrechtse klimaatbeleid, is dat we het ons niet kunnen permitteren om niets te doen, maar ook niet alles tegelijkertijd kunnen." (Inleiding)
 
 > "We willen een klimaatvisie met zowel de noodzakelijke ambitie, maar ook met voldoende realisme, binnen de beschikbare middelen en tijd." (Totstandkoming)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/raadsbrief-klimaatneutraal]]

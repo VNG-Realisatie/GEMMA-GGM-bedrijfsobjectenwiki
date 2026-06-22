@@ -30,7 +30,6 @@ definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet wor
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ]
 bedrijfsfuncties: [Belastingheffing, Waardering onroerende zaken]
 status: concept
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/belastingtypen, Wiki/Bronsamenvattingen/Belastingen/belastinggebied, Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek, Wiki/Bronsamenvattingen/Belastingen/belastingverordening, Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling, Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding, Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven, Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen, Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen, Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing, Wiki/Bronsamenvattingen/Belastingen/raadgever-woz]
 relaties:
   - type: associatie
     bedrijfsobject: "WOZ-waarde"
@@ -81,3 +80,17 @@ De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden ge
 
 - Waardering onroerende zaken
 - Belastingheffing
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastinggebied]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingverordening]]
+- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling]]
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven]]
+- [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz]]

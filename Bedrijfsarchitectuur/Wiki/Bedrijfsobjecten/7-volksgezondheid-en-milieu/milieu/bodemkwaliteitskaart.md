@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Kaart met de vastgestelde bodemkwaliteit per zone, op basis waarvan grondhergebruik wordt beoordeeld."
 bedrijfsprocessen: [bodembeheer, grondverzet beoordelen, bodemonderzoek]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond, Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet|Grondverzet]]"
@@ -78,6 +77,12 @@ Wettelijke basis in het Besluit kwaliteit leefomgeving (voorheen Besluit bodemkw
 - **Bodembeheer** — de kaart is het centrale instrument
 - **Grondverzet beoordelen** — toetsing hergebruik op basis van kwaliteitszone
 - **Bodemonderzoek** — data uit onderzoek voedt de kaart
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]]
+- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer]]
 
 ## Terugmelding GGM
 

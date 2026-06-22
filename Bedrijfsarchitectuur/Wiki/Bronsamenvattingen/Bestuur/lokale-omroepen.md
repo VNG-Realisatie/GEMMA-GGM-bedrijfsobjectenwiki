@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/lokale-omroepen.md](Sources/Onderwerpen%20VNG/Bestuur/lokale-omroepen.md)"
 titel: "Lokale omroepen"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -33,3 +32,7 @@ Lokale omroep is een externe organisatie, geen gemeente-eigend object. Gemeenten
 > Lokale media vormen een essentieel onderdeel van de democratische controle en zijn belangrijk voor de samenhang in plaatselijke gemeenschappen. Gemeenten ontvangen van de rijksoverheid budget voor ondersteuning van de publieke lokale omroep.
 
 > In het nieuwe stelsel komt deze verantwoordelijkheid grotendeels bij het rijk te liggen. Gemeenten zullen geen verplichte financieringsbijdrage meer ontvangen, hoewel zij nog steeds advies geven aan het Commissariaat voor de Media over de aanwijzing van omroepen voor vijfjaartermijnen.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/lokale-omroepen]]

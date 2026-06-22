@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie in de openbare ruimte waar goederen of diensten te koop worden aangeboden met verplaatsbare fysieke middelen, gereguleerd via de APV."
 bedrijfsprocessen: [standplaatsvergunningverlening, branchering ambulante handel, monitoring detailhandel]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
-bronnen: [Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng, Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012, Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015, Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht, Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota, Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht, Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]
 relaties:
   - type: compositie
     bedrijfsobject: "[[warenmarkt]]"
@@ -80,6 +79,19 @@ De GEMMA-definitie is breder dan de GGM-definitie: het benadrukt de APV-reguleri
 - **Standplaatsvergunningverlening** — verlening, weigering en intrekking van standplaatsvergunningen op basis van APV
 - **Branchering ambulante handel** — toewijzing van branches aan standplaatsen (food, bloemen/planten, seizoensgebonden)
 - **Monitoring detailhandel** — periodieke beoordeling van het standplaatsenbestand
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng]]
+- [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012]]
+- [[Wiki/Bronsamenvattingen/Economie/detailhandel-utrecht-2015]]
+- [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/actualisatie-marktruimte-hotelnota]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-terrassen-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht]]
+- [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]]
 
 ## Terugmelding GGM
 

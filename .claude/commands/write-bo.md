@@ -101,7 +101,7 @@ BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfs
 
 ## Stap 8: BO-pagina aanmaken
 
-Vul het volledige frontmatter-schema in volgens `templates/bedrijfsobject.md`, inclusief `bronnen` (verwijzend naar relevante bronsamenvattingen).
+Vul het volledige frontmatter-schema in volgens `templates/bedrijfsobject.md`.
 
 Plaats in `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` — folderstructuur volgt de GGM-indeling (bijv. `7-volksgezondheid-en-milieu/milieu/`).
 
@@ -113,6 +113,7 @@ Body-secties volgens template:
 - **BO-definitie**: alleen als eigen definitie afwijkt van GGM
 - **Relaties**: afgeleid van GGM-associaties of beleidsbronnen
 - **Bedrijfsprocessen** en **Bedrijfsfuncties**
+- **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid
 - **Terugmelding GGM** (indien van toepassing)
 
 ## Stap 9: Terugmeldingen

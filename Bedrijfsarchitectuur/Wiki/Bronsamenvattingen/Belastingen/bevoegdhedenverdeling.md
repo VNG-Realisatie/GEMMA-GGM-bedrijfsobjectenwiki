@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling.md](Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling.md)"
 titel: "Bevoegdhedenverdeling"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -31,3 +30,7 @@ Beide ambtenaren ontlenen hun bevoegdheden aan de AWR (Algemene wet inzake de ri
 ## Relevantie bedrijfsarchitectuur
 
 De actoren heffingsambtenaar en invorderingsambtenaar zijn essentiële rollen in het belastingproces. Ze ontbreken als entiteiten in het GGM maar zijn kandidaat-bedrijfsobjecten (ArchiMate business roles).
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Bevoegdhedenverdeling]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/visie-utrecht-circulair-2050.md](Sources/Onderwerpen/Milieu/visie-utrecht-circulair-2050.md)"
 titel: Visie Utrecht Circulair 2050
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -37,3 +36,7 @@ Gemiddeld voor directe BO-identificatie — de visie opereert op strategisch niv
 > "De circulaire economie is een economisch systeem, ontworpen om zo min mogelijk grondstoffen te gebruiken en de waarde van materialen en grondstoffen zo lang mogelijk te behouden in gesloten kringlopen." (Definitie, p. 7)
 
 > "Dankzij digitalisering van de bouwsector is er goed zicht op welke materialen in gebruik zijn en wanneer deze beschikbaar komen. Data over materialen in gebouwen en de openbare ruimte is vastgelegd in materiaalpaspoorten." (§1.1)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/visie-utrecht-circulair-2050]]

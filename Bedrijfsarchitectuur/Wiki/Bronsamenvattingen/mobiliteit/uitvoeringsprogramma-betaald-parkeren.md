@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitvoeringsprogramma-betaald-parkeren.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitvoeringsprogramma-betaald-parkeren.md)"
 titel: Uitvoeringsprogramma Invoeren betaald parkeren 2025-2028
 domein:
   - mobiliteit
@@ -46,3 +45,7 @@ Het uitvoeringsprogramma beschrijft het operationele proces van invoering betaal
 > "We gaan tot en met 2034 in de hele stad betaald parkeren invoeren. Zo zorgen we dat onze groeiende stad een aantrekkelijke en bereikbare plek blijft voor bewoners, ondernemers en bezoekers."
 
 > "De openbare ruimte in onze stad is schaars, geparkeerde auto's nemen veel ruimte in en we vinden het dan ook redelijk dat in dit geval geldt 'De gebruiker betaalt'."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitvoeringsprogramma-betaald-parkeren]]

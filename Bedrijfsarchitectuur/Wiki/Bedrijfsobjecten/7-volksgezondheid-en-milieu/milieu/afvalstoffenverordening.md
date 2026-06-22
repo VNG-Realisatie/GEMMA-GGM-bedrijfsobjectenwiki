@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke verordening met regels voor inzameling en beheer van huishoudelijke afvalstoffen."
 bedrijfsprocessen: [Verordeningsvaststelling, Handhaving afvalbeleid]
 bedrijfsfuncties: [Afvalbeheer, Regelgeving]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond, Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer, Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer, Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020, Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050, Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030, Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025, Wiki/Bronsamenvattingen/milieu/visie-water-riolering, Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029, Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
@@ -68,6 +67,20 @@ De Wet Milieubeheer verplicht gemeenten tot vaststelling van een afvalstoffenver
 
 - **[[Grondstofstroom]]** — de verordening regelt de inzameling per afvalstroom
 - **[[Afvalstoffenheffing]]** — de verordening vormt de grondslag voor de heffing
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]]
+- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]]
+- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer]]
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
+- [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
+- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
+- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
 
 ## Terugmelding GGM
 

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/alv-jaarcongres-en-bestuurdersdag.md](Sources/Onderwerpen%20VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag.md)"
 titel: "ALV, Jaarcongres en Bestuurdersdag"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -27,3 +26,7 @@ Deze bron beschrijft VNG-governance op het niveau van de koepelorganisatie, niet
 ## Citaten
 
 > De Algemene Ledenvergadering (ALV) vormt het hoogste besluitvormend orgaan van de VNG. Deze bijeenkomst met alle leden vindt minimaal eenmaal per jaar plaats, specifiek op de tweede en laatste dag van het VNG-jaarcongres in juni.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag]]

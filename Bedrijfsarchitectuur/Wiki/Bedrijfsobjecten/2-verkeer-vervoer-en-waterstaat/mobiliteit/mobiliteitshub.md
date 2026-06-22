@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Multimodaal overstappunt met deelvoertuigen, voorzieningen en diensten voor het faciliteren van ketenreizen."
 bedrijfsprocessen: [Mobiliteitsmanagement, Deelmobiliteitsbeleid, Ruimtelijke ordening]
 bedrijfsfuncties: [Verkeersmanagement, Mobiliteitsbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "[[P+R-locatie]]"
@@ -68,6 +67,11 @@ Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobilitei
 - [[P+R-locatie]] — hub kan geïntegreerd zijn in P+R-voorziening
 - [[OV-knooppunt]] — hub ligt bij of vormt onderdeel van OV-knooppunt
 - [[Hoofdfietsroute]] — fietsroutes sluiten aan op hub
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

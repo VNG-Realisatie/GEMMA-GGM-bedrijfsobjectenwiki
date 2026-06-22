@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/rubriek-bestuur.md](Sources/Onderwerpen%20VNG/Bestuur/rubriek-bestuur.md)"
 titel: "Rubriek Bestuur"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -30,3 +29,7 @@ Dit is een strategisch raamwerk dat governance-principes formuleert, maar geen c
 > Om de lokale democratie en het lokale bestuur te versterken hanteren gemeenten de verwachtingen en behoeften van de samenleving als leidraad. Ze benaderen vraagstukken vanuit een maatschappelijk perspectief en stellen collectieve opgaven centraal.
 
 > Omdat de samenleving divers is, bestaat er geen universeel optimale bestuurlijke schaal. Gemeenten hebben behoefte aan een organisatiestructuur die flexibel aansluit bij de noden van burgers en bedrijven en bij de omvang van maatschappelijke vraagstukken.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/rubriek-bestuur]]

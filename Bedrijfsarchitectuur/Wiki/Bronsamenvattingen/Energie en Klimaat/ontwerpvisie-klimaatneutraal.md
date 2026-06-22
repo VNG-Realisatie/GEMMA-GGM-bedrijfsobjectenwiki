@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/ontwerpvisie-klimaatneutraal.md](Sources/Onderwerpen/Energie en Klimaat/ontwerpvisie-klimaatneutraal.md)"
 titel: Ontwerpvisie Utrecht Klimaatneutraal 2026-2050
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -39,3 +38,7 @@ Het document bevestigt het patroon dat klimaatbeleid primair een overkoepelend t
 > "Onze ambitie is helder: Utrecht is in 2050 klimaatneutraal. Niet omdat het makkelijk is, maar omdat het nodig is." (Voorwoord)
 
 > "De manier waarop we nu omgaan met energie, grondstoffen en ruimte is niet houdbaar." (Voorwoord)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/ontwerpvisie-klimaatneutraal]]

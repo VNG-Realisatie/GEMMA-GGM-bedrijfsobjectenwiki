@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/goederenvervoer/converted_pdf/kwaliteitsnet-goederenvervoer-2007.md](Sources/Onderwerpen/goederenvervoer/converted_pdf/kwaliteitsnet-goederenvervoer-2007.md)"
 titel: Kwaliteitsnet Goederenvervoer binnen de gemeente Utrecht
 domein:
   - mobiliteit
@@ -35,3 +34,7 @@ De nota noemt [[Overslagpunt]]en voor weg↔water/spoor als onderdeel van het ne
 > "Het Kwaliteitsnet biedt een afwegingskader voor gemeentelijke verkeers- en vervoerplannen en de daarmee samenhangende investeringsplannen. Daarnaast vormt het kwaliteitsnet een leidraad voor locatiekeuzes en is daarmee van invloed op ruimtelijke ordeningsvraagstukken en economische afwegingen."
 
 > "Het Kwaliteitsnet heeft een dynamisch karakter. Het zal eenmaal per 3 jaar worden aangepast aan de feitelijke ontwikkelingen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/goederenvervoer/converted_pdf/kwaliteitsnet-goederenvervoer-2007]]

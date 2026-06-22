@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-inkomstenbronnen-gemeenten](../../Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten.md)"
 titel: "Raadgever De inkomstenbronnen van gemeenten"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -36,3 +35,7 @@ Fundamentele bron voor het begrip van de gemeentelijke financiële structuur. De
 > "Gemeenten zijn voor hun inkomsten grotendeels afhankelijk van het rijk. De gemeentelijke belastingen vormen slechts een beperkt deel van de inkomsten."
 
 > "De algemene uitkering heet zo, omdat het geld hoort tot de algemene middelen van een gemeente."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten]]

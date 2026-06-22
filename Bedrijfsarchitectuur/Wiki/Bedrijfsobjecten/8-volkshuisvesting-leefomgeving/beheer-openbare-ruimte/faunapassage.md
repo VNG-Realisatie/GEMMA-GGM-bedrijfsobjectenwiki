@@ -29,7 +29,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Overbruggingsobject (GGM)
@@ -95,6 +94,18 @@ De GEMMA-definitie is breder dan de GGM-definitie: het GGM beperkt "Ecoduct" tot
 - **Groene Web-programma** — planmatige realisatie van faunapassages en ecologische verbindingen
 - **Monitoring faunapassages** — effectiviteitsmeting van gerealiseerde passages
 - **Groenbeheer** — onderhoud van de passages en omliggende vegetatie
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]
 
 ## Terugmelding GGM
 

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/horecabeleid-utrecht.md](Sources/Onderwerpen/Economie/horecabeleid-utrecht.md)"
 titel: "Horecabeleid Gemeente Utrecht"
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -44,3 +43,7 @@ Dit is een overkoepelende beleidspagina die de drie deeldomeinen van het Utrecht
 > "Utrecht zet in op kwalitatief verblijfstoerisme dat de stad versterkt."
 
 **Short stay accommodatie**: logies voor 2 weken tot 6 maanden, gericht op expats en internationale studenten. Capaciteitsgrenzen: 300 (expats) + 780 (studenten) = 1.080 eenheden.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/horecabeleid-utrecht]]

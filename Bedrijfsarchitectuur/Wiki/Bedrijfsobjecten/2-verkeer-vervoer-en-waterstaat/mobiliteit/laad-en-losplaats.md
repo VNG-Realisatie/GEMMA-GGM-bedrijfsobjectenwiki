@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen."
 bedrijfsprocessen: [Beheer openbare ruimte, Goederenvervoerbeleid, Handhaving]
 bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
@@ -66,6 +65,11 @@ Afgeleid uit het gemeentelijk verkeers- en goederenvervoerbeleid. Het [[Wiki/Bro
 
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] — laad- en losplaats ligt aan een logistieke route [0..*]
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|Zero-emissiezone]] — kan binnen een zero-emissiezone liggen [0..1]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

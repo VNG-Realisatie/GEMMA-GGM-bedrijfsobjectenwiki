@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/verkiezingen-en-referenda.md](Sources/Onderwerpen%20VNG/Bestuur/verkiezingen-en-referenda.md)"
 titel: "Verkiezingen en referenda"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -33,3 +32,7 @@ De Verkiezingsagenda 2030 adresseert digitalisering en efficiency, relevant voor
 > Gemeenten dragen verantwoordelijkheid voor het organiseren van referenda en alle verkiezingen, waaronder Tweede Kameruitslagen, Provinciale Staten, waterschapsverkiezingen, Europese Parlementsverkiezingen en gemeenteraadsverkiezingen.
 
 > Een belangrijk aandachtspunt betreft toegankelijkheid. De organisatie heeft een handreiking gepubliceerd met praktijkvoorbeelden van gemeenten die stembureaus inclusiever hebben ingericht voor specifieke doelgroepen.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/verkiezingen-en-referenda]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/groenstructuurplan-utrecht-2007.md](Sources/Onderwerpen/Milieu/groenstructuurplan-utrecht-2007.md)"
 titel: "Groenstructuurplan Utrecht – Stad en land verbonden"
 domein: [Milieu, Beheer Openbare Ruimte]
 datum_ingest: 2026-06-20
@@ -44,3 +43,7 @@ Het groenstructuurplan definieert de beleidskaders waarbinnen [[Groenobject]]en 
 > "Het Groenstructuurplan Utrecht is een uitwerking van motie 2004/M86 van de gemeenteraad. Het plan dient voor het behoud en de ontwikkeling van de kwaliteiten van het stedelijk groen als onderdeel van een kwalitatief hoogstaand woon- en vestigingsklimaat." (p.5)
 
 > "De bestaande onderdelen van de groenstructuur verdienen bescherming. [...] een eventuele aantasting van bestaand stedelijk groen wordt elders in de groenstructuur gecompenseerd." (p.32)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/groenstructuurplan-utrecht-2007]]

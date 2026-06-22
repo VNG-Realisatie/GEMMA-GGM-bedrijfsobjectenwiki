@@ -29,7 +29,6 @@ ggm_gemma_alternate_name: ""
 
 gemma_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
 gemma_subtypes: []
-bronnen: [Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Omgevingsvergunning]]"
@@ -96,6 +95,11 @@ Geen directe GGM-match. De GGM-entiteit **Bevinding** (beleidsdomein VTH) is het
 
 - Vergunningverlening
 - Ruimtelijke kwaliteit
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak]]
 
 ## Terugmelding GGM
 

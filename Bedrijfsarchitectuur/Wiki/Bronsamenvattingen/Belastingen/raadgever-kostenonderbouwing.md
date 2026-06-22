@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen.md](Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen.md)"
 titel: "Raadgever Kostenonderbouwing van lokale heffingen"
 domein: [Belastingen]
 datum_ingest: 2026-06-18
@@ -31,3 +30,7 @@ Introduceert **kostenonderbouwing** als verplicht verantwoordingsinstrument. Ver
 > "Inwoners willen weten waarvoor ze betalen [...] Daarom is het belangrijk om de kosten goed te onderbouwen."
 
 > "Kan de gemeente de kosten en opbrengsten niet verantwoorden, dan vernietigt of verlaagt de rechter de aanslag."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/raadgever-kostenonderbouwing-lokale-heffingen]]

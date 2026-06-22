@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie waar dieren worden gehouden voor publiek contact, met beperkte openingstijden of indirecte toegang, vaak een particulier initiatief met gemeentelijke subsidierelatie."
-bronnen: [Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]
 relaties:
   - type: associatie
     bedrijfsobject: "[[kinderboerderij]]"
@@ -65,3 +64,7 @@ Dierenweides onderscheiden zich van kinderboerderijen door beperkte openingstijd
 
 - Subsidiëring via budget dierenweides of initiatievenfonds
 - Toezicht op dierenwelzijn (maatwerk per locatie)
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]]

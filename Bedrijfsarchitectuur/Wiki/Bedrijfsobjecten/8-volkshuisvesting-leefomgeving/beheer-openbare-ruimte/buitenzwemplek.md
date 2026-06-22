@@ -25,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie in open water waar buiten gezwommen wordt, met onderscheid tussen officieel aangewezen en niet-officiële zwemplekken."
-bronnen: [Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater, Wiki/Bronsamenvattingen/milieu/visie-water-riolering]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"
@@ -81,6 +80,12 @@ Bron: [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadsw
 - **Oeverinrichting**: aanpassing van oevers om veilig zwemmen mogelijk te maken
 - **Locatiebeheer**: beheer van voorzieningen op en rond zwemlocaties
 - **Aanwijzing officieel zwemwater**: procedure voor aanwijzing door de provincie, met gemeente als locatiebeheerder
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
+- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
 
 ## Terugmelding GGM
 

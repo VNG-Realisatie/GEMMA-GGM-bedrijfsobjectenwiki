@@ -36,7 +36,6 @@ gemma_subtypes:
     ggm_entiteit: "Binnenlocatie"
     ggm_guid: EAID_6508657D_7C3F_4261_B647_5D3B077A20F9
     ggm_attribuut: "gymzaal"
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032, Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"
@@ -89,3 +88,8 @@ De GGM-definitie ("Locatie binnen een gebouw") is generiek. De GEMMA-definitie v
 | Verblijfsobject (BAG) | is gevestigd in | 0..1 | GGM |
 | Wijk | bedient | 1 | GGM |
 | Belijning | heeft | 0..* | GGM |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]]

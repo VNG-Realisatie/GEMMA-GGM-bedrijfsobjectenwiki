@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/dierenwelzijn/2019-nota-dierenwelzijn.md](2019-nota-dierenwelzijn.md)"
 titel: Nota Dierenwelzijn — Actualisatie beleid
 domein:
   - Dierenwelzijn
@@ -53,3 +52,7 @@ Dit domein levert vier bedrijfsobjecten op, alle zonder GGM-grondslag (het GGM k
 > "De gemeente kan de gemeentelijke wateren, die in eigendom zijn van de gemeente Utrecht, verhuren. Dit is geregeld via de Visserijwet (uit 1963)." (p. 15)
 
 > "Om te voorkomen dat het welzijn van meer vissen wordt aangetast, wordt het aantal viswateren binnen de gemeente Utrecht niet verder uitgebreid en wordt de hengelsport niet gestimuleerd." (p. 16)
+
+## Bronnen
+
+- [[2019-nota-dierenwelzijn]]

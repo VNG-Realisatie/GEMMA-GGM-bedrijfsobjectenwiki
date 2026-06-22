@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/nota-bodembeheer-2017-2027.md](Sources/Onderwerpen/Milieu/nota-bodembeheer-2017-2027.md)"
 titel: Nota Bodembeheer 2017-2027 (Grondig Werken 4)
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -39,3 +38,7 @@ De nota is het meest concrete document voor registratie-objecten rond bodembehee
 > "Belangrijk onderdeel van de nota zijn de bodemkwaliteitskaarten, waarin de kwaliteit van de grond in alle wijken van de gemeente Utrecht is beschreven. Voordeel van de werkwijze met kwaliteitskaarten is dat er minder onderzoek en keuringen nodig zijn." (bron: nota-bodembeheer-2017-2027.md)
 
 > "Het vastgestelde kwaliteitsniveau van de grond en de functie (landbouw, woningbouw of industrie) waarvoor de grond bedoeld is, bepalen of en waar de grond hergebruikt mag worden." (bron: nota-bodembeheer-2017-2027.md)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/nota-bodembeheer-2017-2027]]

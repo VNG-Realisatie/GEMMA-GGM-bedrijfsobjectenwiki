@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-gemeentebegroting-en-jaarrekening](../../Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening.md)"
 titel: "Raadgever Gemeentebegroting en jaarrekening"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -36,3 +35,7 @@ De begrotingscyclus is het primaire financiële proces van de gemeente. Sluit di
 > "Budgetrecht is de bevoegdheid om financiële middelen beschikbaar te stellen."
 
 > "De raad heeft tijdens de bespreking van de Kadernota in het voorjaar veel invloed."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening]]

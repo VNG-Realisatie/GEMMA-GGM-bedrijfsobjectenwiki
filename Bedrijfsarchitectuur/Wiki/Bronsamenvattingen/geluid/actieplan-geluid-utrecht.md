@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/geluid/actieplan-geluid-utrecht-2018-2023.md](actieplan-geluid-utrecht-2018-2023.md)"
 titel: Actieplan Geluid Utrecht 2018-2023
 domein:
   - geluid
@@ -55,3 +54,7 @@ Het actieplan bevestigt het patroon dat geluidbeleid operationeel draait om de v
 > "Een regelmatig verblijf in een stille omgeving kan namelijk de negatieve effecten van een langdurige blootstelling aan lawaai compenseren." (belang stille gebieden)
 
 > "Het plaatsen van geluidsschermen langs binnenstedelijke wegen past niet bij de kwaliteitsambities voor de stad. Het leidt niet tot de gewenste ruimtelijke kwaliteit en oversteekbaarheid." (beperking geluidschermen)
+
+## Bronnen
+
+- [[actieplan-geluid-utrecht-2018-2023]]

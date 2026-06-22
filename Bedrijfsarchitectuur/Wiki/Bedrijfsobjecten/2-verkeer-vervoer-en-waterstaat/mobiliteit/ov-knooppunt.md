@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen."
 bedrijfsprocessen: [OV-beleid, Verkeersmanagement, Ruimtelijke ordening]
 bedrijfsfuncties: [Openbaar vervoer, Verkeersmanagement]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-lijn"
@@ -82,6 +81,11 @@ Afgeleid uit het gemeentelijk OV-beleid en de knooppuntstrategie. Het [[Wiki/Bro
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]] — P+R-locatie bij knooppunt [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]] — mobiliteitshub bij knooppunt [0..*]
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]] — fietsroute verbindt met knooppunt [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

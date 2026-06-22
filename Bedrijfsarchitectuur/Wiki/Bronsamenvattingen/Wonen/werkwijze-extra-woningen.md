@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[werkwijze-extra-woningen.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/werkwijze-extra-woningen.md)"
 titel: "Optoppen, aanplakken en ondertoppen: de Utrechtse werkwijze"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -35,3 +34,7 @@ Dit document definieert het vergunningenpad voor woningtoevoeging: omgevingsverg
 ## Citaten
 
 > "Wanneer je woningen toevoegt aan een appartementencomplex door optoppen, heb je bijvoorbeeld een omgevingsvergunning voor een bouwkundige splitsing nodig. Wanneer je deze nieuwe woningen daarna wil gaan verhuren of verkopen, heb je ook een aanvullende vergunning nodig." (Paragraaf 2)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/werkwijze-extra-woningen]]

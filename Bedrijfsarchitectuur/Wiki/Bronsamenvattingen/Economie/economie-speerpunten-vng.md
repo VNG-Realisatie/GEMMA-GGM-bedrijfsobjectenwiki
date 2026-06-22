@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Economie speerpunten VNG](../../Sources/Onderwerpen/Economie/Economie speerpunten VNG.md)"
 titel: "Economie: speerpunten VNG"
 domein: [Economie]
 datum_ingest: 2026-06-17
@@ -88,3 +87,7 @@ Het GGM taakveld 3 "Model Economie" bevat slechts 6 entiteiten (Contact, Hotel, 
 
 **Arbeidsmarkttekort**:
 > "Door het structurele tekort aan menselijk kapitaal staat het (regionale) economische verdien- en innovatievermogen onder druk en raken sociaal-maatschappelijke stelsels, zoals de zorg en onderwijs, ontwricht."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/Economie speerpunten VNG]]

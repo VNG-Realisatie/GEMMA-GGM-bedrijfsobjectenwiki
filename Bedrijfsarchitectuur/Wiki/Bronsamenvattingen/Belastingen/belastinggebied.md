@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Belastinggebied.md](Sources/Onderwerpen/Belastingen/Belastinggebied.md)"
 titel: "Belastinggebied"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -28,3 +27,7 @@ De drie omvangrijkste heffingen zijn OZB, rioolheffing en afvalstoffenheffing. S
 ## Relevantie bedrijfsarchitectuur
 
 Definieert de grenzen van het gemeentelijk belastingdomein. De volledige opsomming van belastingsoorten vormt de basis voor een taxonomie van gemeentelijke heffingen die in het GGM ontbreekt.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Belastinggebied]]

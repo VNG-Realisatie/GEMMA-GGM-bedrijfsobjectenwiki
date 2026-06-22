@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]
 relaties:
   - type: compositie
     bedrijfsobject: "[[Aandachtsgebied]]"
@@ -100,6 +99,11 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 - **Opstellen omgevingsplan** — voorschriftengebieden worden aangewezen met geometrische begrenzing in het omgevingsplan.
 - **Toetsing omgevingsvergunning bouw** — bij de omgevingsvergunning wordt getoetst of nieuwbouw voldoet aan de aanvullende bouweisen van het voorschriftengebied.
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]
 
 ## Terugmelding GGM
 

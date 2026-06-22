@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ca9df4ee-92e1-4c24-ace
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032, Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"
@@ -71,3 +70,8 @@ Een sportpark is een geheel van terreinen, gebouwen en voorzieningen voor versch
 | [[Veld]] | bevat | 0..* | GGM |
 | [[Sportvereniging]] | wordt gebruikt door | 0..* | GGM |
 | OverigBenoemdTerrein (BAG) | ligt op | 1 | GGM |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/uitvoeringsprogramma-sport-en-bewegen-2025]]

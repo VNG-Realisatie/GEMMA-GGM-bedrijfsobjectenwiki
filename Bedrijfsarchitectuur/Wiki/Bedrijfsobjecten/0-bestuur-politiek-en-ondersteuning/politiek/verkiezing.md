@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda, Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]
 relaties:
   - type: compositie
     bedrijfsobject: Stembureau
@@ -102,3 +101,8 @@ Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Het GGM modelleert **d
 Zie bronsamenvattingen:
 - [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid, Verkiezingsagenda 2030
 - [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026|Gemeenteraadsverkiezingen 2026]] — Concrete organisatietaken en ondersteuning VNG
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeenteraadsverkiezingen-2026]]

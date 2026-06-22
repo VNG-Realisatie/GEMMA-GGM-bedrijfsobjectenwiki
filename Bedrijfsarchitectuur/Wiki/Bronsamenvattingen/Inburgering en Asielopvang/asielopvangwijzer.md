@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Asielopvangwijzer alle informatie voor gemeenten](../../Sources/Onderwerpen/Asiel en Integratie/Asielopvangwijzer alle informatie voor gemeenten.md)"
 titel: "Asielopvangwijzer: alle informatie voor gemeenten"
 domein: [Inburgering en Asielopvang]
 datum_ingest: 2026-06-17
@@ -55,3 +54,7 @@ Gemeenten met asielopvang hebben recht op vergoedingen: decentralisatie-uitkerin
 | Statushouder | Persoon met verblijfsvergunning, wachtend op gemeentelijke huisvesting |
 | Nareiziger | Gezinslid dat via gezinshereniging naar Nederland komt |
 | Alleenstaande minderjarige vreemdeling | Jongere die zonder ouder/begeleider naar Nederland is gekomen |
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Asiel en Integratie/Asielopvangwijzer alle informatie voor gemeenten]]

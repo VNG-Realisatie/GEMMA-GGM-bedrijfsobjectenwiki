@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Toestemming van de gemeente aan een organisator om een evenement te organiseren op een specifieke locatie en datum."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen, Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Evenement]]"
@@ -80,6 +79,12 @@ Dit BO heeft geen directe GGM-grondslag. Het GGM kent diverse vergunninggerelate
 - **Vergunningaanvraag** — organisator dient aanvraag in na plaatsing op reserveringskalender
 - **Vergunningverlening** — gemeente beoordeelt aanvraag tegen vergunningseisen en locatieprofiel
 - **Toezicht en handhaving** — naleving vergunningsvoorwaarden tijdens evenement
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
 
 ## Terugmelding GGM
 

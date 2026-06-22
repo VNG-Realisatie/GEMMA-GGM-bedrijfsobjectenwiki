@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/gemeenteraadsverkiezingen-2026.md](Sources/Onderwerpen%20VNG/Bestuur/gemeenteraadsverkiezingen-2026.md)"
 titel: "Gemeenteraadsverkiezingen 2026"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -36,3 +35,7 @@ Dit formuleert de gemeentelijke taken rond [[Wiki/Bedrijfsobjecten/0-bestuur-pol
 > - Organisatie van de verkiezingen (logistiek en juridisch)
 > - Lokale opkomstbevordering
 > - Communicatie over toegankelijkheid en stemprocedures
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/gemeenteraadsverkiezingen-2026]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-financiele-conditie-gemeente](../../Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente.md)"
 titel: "Raadgever Financiële conditie gemeente"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -41,3 +40,7 @@ Deze kengetallen zijn de kernstuurinformatie voor gemeentebestuurders. Ze zijn a
 > "Balansreserves zijn dus geen geld maar zitten vast in de stenen van gebouwen, het asfalt van wegen en het beton van viaducten."
 
 > "Een gezonde gemeente heeft jaarlijks een klein exploitatie-overschot."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente]]

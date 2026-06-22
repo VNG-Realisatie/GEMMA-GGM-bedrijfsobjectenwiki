@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[huisvestingsverordening-utrecht.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/huisvestingsverordening-utrecht.md)"
 titel: "Huisvestingsverordening gemeente Utrecht"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -36,3 +35,7 @@ De verordening geeft het juridische kader voor de vergunningen en beschikkingen 
 > "Sociale huurwoningen, middenhuurwoningen (na 1 januari 2020) en betaalbare nieuwbouw koopwoningen zijn vergunningplichtig." (Kernonderwerpen)
 
 > "Particuliere vakantieverhuur mag max. 60 nachten per jaar; registratienummer en meldplicht vereist." (Toeristische Verhuur)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/huisvestingsverordening-utrecht]]

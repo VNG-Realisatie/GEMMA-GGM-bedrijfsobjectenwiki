@@ -73,7 +73,6 @@ gemma_subtypes:
     omschrijving: "Kleinschalige woonzorgvorm voor jeugdhulp met verblijf (4-6 kamers)"
   - naam: "Maatschappelijke opvang"
     omschrijving: Tijdelijke opvang met zorg en ondersteuning voor daklozen
-bronnen: [Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wijk]]"
@@ -165,6 +164,11 @@ Afgeleid uit de bronformulering:
 - **Maatschappelijke ontwikkeling** — beleid en regie op voorzieningenniveau
 - **Ruimtelijke ordening** — inpassing in omgevingsvisie en gebiedsplannen
 - **Vastgoedmanagement** — eigenaar/beheerder van gemeentelijk vastgoed
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen]]
 
 ## Terugmelding GGM
 

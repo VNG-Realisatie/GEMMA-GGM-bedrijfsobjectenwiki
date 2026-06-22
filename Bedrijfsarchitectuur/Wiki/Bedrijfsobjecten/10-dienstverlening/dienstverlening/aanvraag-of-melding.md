@@ -33,7 +33,6 @@ ggm_gemma_alternate_name: "AanvraagOfMelding (Dienstverlening)"
 gemma_definitie: "Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie."
 bedrijfsprocessen: [Zaakafhandeling, Klantcontactregistratie, Meldingenbeheer]
 bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
-bronnen: [Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel, Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel, Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden, Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan, Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening, Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid, Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]
 relaties:
   - type: associatie
     bedrijfsobject: zaakdossier
@@ -112,6 +111,19 @@ De GGM-definitie ("Komt overeen met een VJV") is een technische referentie naar 
 | informatieobject | → | 0..* | heeft documenten | GGM: AanvraagOfMelding → Document |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|product-of-dienst]] | ← | 0..* | betreft (indirect via klantcontact) | GGM: Klantcontact → ProductOfDienst |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|balieafspraak]] | ← | 0..* | kan ontstaan uit klantcontact na afspraak | GGM: Klantcontact → AanvraagOfMelding |
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]]
+- [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/raadgever-inkoop-en-aanbesteden]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/overheidsbrede-startscan]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/rubriek-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid]]
+- [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]]
 
 ## Terugmelding GGM
 

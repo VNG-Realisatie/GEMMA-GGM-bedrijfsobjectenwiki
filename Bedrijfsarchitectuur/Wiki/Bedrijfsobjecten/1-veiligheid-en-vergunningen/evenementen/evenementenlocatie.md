@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Evenement]]"
@@ -82,6 +81,11 @@ Het BO is afgeleid uit de [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-ev
 - **Reserveringskalender beheren** — evenementen toewijzen aan locaties en data
 - **Onderzoek** — vierjaarlijks flora/fauna, bodem/bomen en geluidsonderzoek per locatie
 - **Onderhoud en verbetering** — groene energie-/wateraansluitingen, verplaatsbaar stadsmeubilair
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
 
 ## Terugmelding GGM
 

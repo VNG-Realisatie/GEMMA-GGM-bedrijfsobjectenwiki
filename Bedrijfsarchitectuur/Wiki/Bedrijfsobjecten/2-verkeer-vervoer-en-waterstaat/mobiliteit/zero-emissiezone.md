@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden."
 bedrijfsprocessen: [Milieubeleid, Goederenvervoerbeleid, Handhaving]
 bedrijfsfuncties: [Verkeersmanagement, Milieubeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
@@ -72,6 +71,11 @@ Governance-object met juridische grondslag in verkeersbesluiten en Rijksbeleid (
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] — zone wordt ontsloten door logistieke routes [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]] — zone bevat laad- en losplaatsen [0..*]
 - ← [[Verkeersbesluit]] — zone wordt ingesteld via een verkeersbesluit [1]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

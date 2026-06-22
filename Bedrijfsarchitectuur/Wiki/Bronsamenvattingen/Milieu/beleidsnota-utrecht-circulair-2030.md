@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/beleidsnota-utrecht-circulair-2030.md](Sources/Onderwerpen/Milieu/beleidsnota-utrecht-circulair-2030.md)"
 titel: Beleidsnota Utrecht Circulair 2030
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -40,3 +39,7 @@ Hoog. Concretiseert de objecten uit de Visie 2050 met meetbare indicatoren en ui
 > "Meer dan 30% van het ingezamelde restafval bestaat nog uit groente-, fruit- en etensresten (GFE). Dit is waardevol, organisch materiaal." (§B.4.1)
 
 > "We ontwikkelen twee upcyclecentra voor meer en hoogwaardiger hergebruik van grof huishoudelijk afval. Die komen nabij de afvalscheidingsstations Tractieweg en Lunetten." (§B.4.1)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/beleidsnota-utrecht-circulair-2030]]

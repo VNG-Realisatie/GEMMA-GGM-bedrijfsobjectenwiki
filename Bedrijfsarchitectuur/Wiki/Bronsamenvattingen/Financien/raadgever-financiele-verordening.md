@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-financiele-verordening](../../Sources/Onderwerpen/Financien/raadgever-financiele-verordening.md)"
 titel: "Raadgever De financiële verordening"
 domein: [Financien]
 datum_ingest: 2026-06-18
@@ -35,3 +34,7 @@ De financiële verordening is het governance-instrument dat de begrotingscyclus 
 ## Citaten
 
 > "De raad moet zich ervan bewust zijn dat als er bij het vaststellen van de financiële verordening geen afspraken worden gemaakt, het aan het college is om te besluiten in hoeverre het zich in financieel opzicht via de begroting door de raad laat sturen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Financien/raadgever-financiele-verordening]]

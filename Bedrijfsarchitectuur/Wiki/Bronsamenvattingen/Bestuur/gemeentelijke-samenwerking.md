@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Bestuur/gemeentelijke-samenwerking.md](Sources/Onderwerpen%20VNG/Bestuur/gemeentelijke-samenwerking.md)"
 titel: "Gemeentelijke Samenwerking"
 domein: [Bestuur]
 datum_ingest: 2026-06-19
@@ -32,3 +31,7 @@ Dit is een sleutelconcept voor gemeentelijk bestuur. Een [[Wiki/Bedrijfsobjecten
 > Door de Wet gemeenschappelijke regelingen (Wgr) kunnen gemeenten, provincies en waterschappen samenwerken in publiekrechtelijke constructies. De Wgr is per 1 juli 2022 gewijzigd met het doel de democratische legitimatie van gemeenschappelijke regelingen te versterken.
 
 > Van RUD's tot GGD's, van woningmarkt tot jeugdzorg: er zijn verschillende vormen van samenwerking tussen gemeenten waarbij de krachten op bepaalde thema's worden gebundeld.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Bestuur/gemeentelijke-samenwerking]]

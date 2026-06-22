@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/ontwikkelingskader-detailhandel-2012.md](Sources/Onderwerpen/Economie/ontwikkelingskader-detailhandel-2012.md)"
 titel: Ontwikkelingskader Detailhandel 2012
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -34,3 +33,7 @@ Overige begrippen (winkelgebied, ambulante handel, branchering) zijn planologisc
 > "De regels voor markten staan in de Marktverordening. Van een markt is sprake bij 6 of meer standplaatsen." (bron: Ontwikkelingskader Detailhandel 2012, §V.3)
 
 > "Er is beleidsmatig een beperkt aantal standplaatsen in de openbare ruimte aangewezen ter gebruik voor ambulante handel. In Utrecht gaat het om 88 standplaatsen op gemeentegrond en 14 standplaatsen op grond van derden, totaal 102 standplaatsen." (bron: Ontwikkelingskader Detailhandel 2012, §V.4)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/ontwikkelingskader-detailhandel-2012]]

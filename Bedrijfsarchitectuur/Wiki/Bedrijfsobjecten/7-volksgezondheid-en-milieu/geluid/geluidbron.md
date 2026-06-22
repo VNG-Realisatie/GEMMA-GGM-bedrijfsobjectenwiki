@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Object dat geluid veroorzaakt in de leefomgeving, ingedeeld naar bronsoort zoals wegverkeer, railverkeer, industrieterrein of scheepvaart."
 bedrijfsprocessen: [geluidkartering, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
-bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidgevoelig gebouw]]"
@@ -75,6 +74,11 @@ Artefact dat in het geluidbeleid en de geluidkartering centraal staat. Het GGM m
 - Afgeschermd door → [[Geluidscherm]] (scherm vermindert overdracht)
 - Binnen → [[Geluidzone]] (industriële bronnen liggen binnen een zone)
 - Nabij → [[Stil gebied]] (bronnen bepalen of een gebied stil kan zijn)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]]
 
 ## Terugmelding GGM
 

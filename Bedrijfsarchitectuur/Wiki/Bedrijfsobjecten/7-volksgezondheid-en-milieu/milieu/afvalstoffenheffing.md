@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
 bedrijfsprocessen: [Tariefvaststelling, Belastinginning, Kostenverdeling afvalbeheer]
 bedrijfsfuncties: [Afvalbeheer, Belastingheffing]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
@@ -83,3 +82,7 @@ Het bedrijfsobject **Afvalstoffenheffing** wijkt af van de GGM-entiteit **Prijsa
 
 - Afvalbeheer
 - Belastingheffing
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]

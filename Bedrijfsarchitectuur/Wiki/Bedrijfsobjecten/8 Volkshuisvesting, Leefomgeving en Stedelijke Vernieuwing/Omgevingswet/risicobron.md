@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
 gemma_definitie: "Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd en die daardoor een gevaar kan vormen voor de omgeving."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Aandachtsgebied]]"
@@ -93,6 +92,11 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 
 - **Advisering ruimtelijke ontwikkelingen** — bij elk nieuw bouwplan voert de gemeente het gesprek over omgevingsveiligheid in relatie tot nabije risicobronnen.
 - **Opstellen omgevingsplan** — risicobronnen en hun aandachtsgebieden worden ruimtelijk vertaald in het omgevingsplan.
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]
 
 ## Terugmelding GGM
 

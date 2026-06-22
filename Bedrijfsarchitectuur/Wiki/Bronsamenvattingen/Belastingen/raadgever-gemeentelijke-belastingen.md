@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen.md](Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen.md)"
 titel: "Raadgever Gemeentelijke belastingen"
 domein: [Belastingen]
 datum_ingest: 2026-06-18
@@ -40,3 +39,7 @@ Versterkt bestaande begrippen (belastingmix, kwijtschelding, kostendekkend tarie
 > "Het geheel aan gemaakte keuzes aan te heffen belastingen en de hoogte daarvan, noemt men ook wel de belastingmix."
 
 > "Kruissubsidiering: een verwacht overschot bij de ene activiteit wordt gebruikt voor de dekking van een verwacht tekort bij een andere activiteit."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/raadgever-gemeentelijke-belastingen]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/openbare-ruimte-bing.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/openbare-ruimte-bing.md)"
 titel: "Openbare ruimte: beheer, inrichting, gebruik (BInG)"
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-21
@@ -17,3 +16,7 @@ Beschrijving van de BInG-toets (Beheer, Inrichting en Gebruik) voor projecten in
 ## Relevantie voor bedrijfsarchitectuur
 
 Beschrijft het toetsingsproces, geen registreerbare objecten. De BInG-commissie is een governance-mechanisme, geen BO.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/openbare-ruimte-bing]]

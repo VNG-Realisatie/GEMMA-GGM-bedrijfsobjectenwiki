@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden."
 bedrijfsprocessen: [Archeologisch advies, Selectiebesluit, Bestemmingsplantoetsing]
 bedrijfsfuncties: [Erfgoedbeheer, Ruimtelijke ordening]
-bronnen: [Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]]"
@@ -92,3 +91,7 @@ De eerdere beoordeling markeerde dit begrip als niet-BO ("nationaal geregistreer
 
 - Erfgoedbeheer
 - Ruimtelijke ordening
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]

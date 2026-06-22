@@ -37,7 +37,6 @@ gemma_subtypes:
     ggm_entiteit: "Parkeervlak"
     ggm_guid: "EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E"
     ggm_attribuut: "doelgroep"
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]
 relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeervlak]]"
@@ -109,6 +108,11 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 - ↑ [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak|Parkeervlak]] — generalisatie (gehandicaptenparkeerplaats is een specialisatie)
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart|Gehandicaptenparkeerkaart]] — GPK geeft recht tot gebruik
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — individuele plek gekoppeld aan kenteken
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
 
 ## Terugmelding GGM
 

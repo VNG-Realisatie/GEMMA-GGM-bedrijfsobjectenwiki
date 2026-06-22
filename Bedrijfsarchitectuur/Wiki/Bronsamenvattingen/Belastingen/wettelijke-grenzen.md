@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Wettelijke grenzen.md](Sources/Onderwerpen/Belastingen/Wettelijke grenzen.md)"
 titel: "Wettelijke grenzen"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -35,3 +34,7 @@ De rechter toetst verordeningen op wettelijke voorschriften en rechtsbeginselen.
 ## Relevantie bedrijfsarchitectuur
 
 De wettelijke grenzen vormen business rules die de ruimte voor belastingverordeningen definiëren. De beginselen zijn niet als entiteiten modelleerbaar maar als constraints op het belastingproces.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Wettelijke grenzen]]

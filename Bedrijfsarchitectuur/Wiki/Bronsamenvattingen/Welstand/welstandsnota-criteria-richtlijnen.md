@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-criteria-richtlijnen.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-criteria-richtlijnen.md)"
 titel: Welstandsnota — Welstandscriteria en richtlijnen (Deel B)
 domein: [Welstand]
 datum_ingest: 2026-06-21
@@ -58,3 +57,7 @@ Dit deel beschrijft het operationele toetsingskader — hoe de gemeente concreet
 > "In Utrecht de achterzijden van woningen (indien niet gekeerd naar het openbaar gebied) welstandsvrij. Onder achterzijden wordt de gevel verstaan van maaiveld tot nok (voor woningen met een kap) of tot de bovenste gootlijn (bij een platafgedekte woning)." (bron: welstandsnota-criteria-richtlijnen.md)
 
 > "Dit zijn over het algemeen panden en gebieden met zodanige specifieke kwaliteiten en waarden dat per pand afzonderlijk welstandscriteria zouden moeten worden geformuleerd." (bron: welstandsnota-criteria-richtlijnen.md, over monumenten)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-criteria-richtlijnen]]

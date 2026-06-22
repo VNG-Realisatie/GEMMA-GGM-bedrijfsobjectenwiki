@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Opslaglocatie voor vrijkomende materialen uit de openbare ruimte, bestemd voor hergebruik in projecten."
 bedrijfsprocessen: [Materiaalopslag, Materiaalmatch (vraag-aanbod), Circulair beheer openbare ruimte]
 bedrijfsfuncties: [Beheer openbare ruimte, Circulaire economie]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
@@ -62,6 +61,11 @@ Het grondstoffendepot ontstaat uit beleid voor circulaire gebiedsontwikkeling. H
 ## Relaties
 
 - **[[Grondstofstroom]]** — het depot slaat materiaalstromen op voor hergebruik
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
 
 ## Terugmelding GGM
 

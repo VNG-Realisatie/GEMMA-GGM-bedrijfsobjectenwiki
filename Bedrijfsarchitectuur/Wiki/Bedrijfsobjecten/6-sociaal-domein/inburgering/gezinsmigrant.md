@@ -29,7 +29,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-919
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel."
-bronnen: [Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer, Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine, Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]
 relaties:
   - type: associatie
     bedrijfsobject: Brede Intake
@@ -76,3 +75,12 @@ Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|brede-intake]] — doorloopt een brede intake [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — krijgt een PIP vastgesteld [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|inburgeringsplicht]] — heeft een inburgeringsplicht [1]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]

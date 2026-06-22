@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Container]]"
@@ -73,6 +72,11 @@ Een grondstofstroom is een afzonderlijke afval- of materiaalstroom die de gemeen
 Het bedrijfsobject **Grondstofstroom** wijkt af van de GGM-entiteit **Fractie**. Het GGM definieert Fractie generiek als "Onderdeel, deeltje". Het BO voegt de bestuurlijke en operationele dimensie toe: elke grondstofstroom heeft een eigen inzamelstrategie, verwerkingsketen, kwaliteitsnormen en financieel model.
 
 De naamkeuze "Grondstofstroom" sluit aan bij het gemeentelijk taalgebruik — de transitie van "afval" naar "grondstoffen" weerspiegelt het circulaire beleid.
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
 
 ## Terugmelding GGM
 

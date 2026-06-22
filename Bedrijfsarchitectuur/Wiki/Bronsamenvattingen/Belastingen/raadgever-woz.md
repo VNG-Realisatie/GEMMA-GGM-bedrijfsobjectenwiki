@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[raadgever-woz](../../Sources/Onderwerpen/Belastingen/raadgever-woz.md)"
 titel: "Raadgever Wet waardering onroerende zaken (WOZ)"
 domein: [Belastingen]
 datum_ingest: 2026-06-18
@@ -45,3 +44,7 @@ De WOZ vormt de schakel tussen het fysieke domein (onroerende zaken) en het fisc
 > "De WOZ-waarde is de prijs die de meestbiedende koper wil betalen voor een onroerende zaak. Dat is dus de werkelijke marktwaarde."
 
 > "Eén keer waarderen, meervoudig gebruiken."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/raadgever-woz]]

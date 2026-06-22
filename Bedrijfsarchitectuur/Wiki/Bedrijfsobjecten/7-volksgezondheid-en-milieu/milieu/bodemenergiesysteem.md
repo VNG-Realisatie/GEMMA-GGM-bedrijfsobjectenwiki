@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Installatie voor warmte-koude opslag (WKO) in de ondergrond, geregistreerd met locatie, capaciteit en diepte."
 bedrijfsprocessen: [vergunningverlening bodemenergie, gebiedsgericht grondwaterbeheer, energietransitie]
 bedrijfsfuncties: [milieubeheer, vergunningverlening, duurzaamheidsbeleid]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]"
@@ -64,6 +63,11 @@ Bodemenergiesystemen worden geregistreerd via het vergunningsproces. De gemeente
 ## Relaties
 
 - **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]** — WKO kan verontreinigingen beïnvloeden: rondpompen stimuleert afbraak, maar verspreiding moet worden voorkomen
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]]
 
 ## Terugmelding GGM
 

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md](Sources/Onderwerpen/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering.md)"
 titel: "VNG-rubriek Dienstverlening en bedrijfsvoering"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -25,3 +24,7 @@ De VNG ondersteunt via: leveranciersmanagement (afspraken met softwareleverancie
 ## Relevantie voor bedrijfsarchitectuur
 
 Overkoepelende portaalpagina zonder nieuwe objecten of begrippen. GGU en MijnServices zijn organisatorische arrangementen, geen data-objecten.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/rubriek-dienstverlening-en-bedrijfsvoering]]

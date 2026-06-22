@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-fietsparkeren.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-fietsparkeren.md)"
 titel: Uitwerking Fietsparkeren
 domein:
   - mobiliteit
@@ -41,3 +40,7 @@ Fietsparkeervoorzieningen zijn objecten die de gemeente beheert, registreert en 
 > "De vraag naar fietsparkeren is de afgelopen jaren sterk gegroeid en blijft groeien."
 
 > "Fietsparkeren vraagt maatwerk. Geschikte oplossingen hangen af van de locatie, doelgroep, moment, parkeerduur, type gebruik en de beschikbaarheid van (financiële) middelen."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-fietsparkeren]]

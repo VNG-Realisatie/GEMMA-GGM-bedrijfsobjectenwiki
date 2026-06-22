@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kadernota-kor.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kadernota-kor.md)"
 titel: Kadernota Kwaliteit Openbare Ruimte
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-21
@@ -32,3 +31,7 @@ De kadernota levert geen directe BO-kandidaten op — het is een beleidskader da
 > "De ambities van de Gemeente Utrecht voor de openbare ruimte staan in meer dan veertig beleidsnota's. Deze Kadernota Kwaliteit Openbare Ruimte brengt ze samen." (Kadernota KOR, p.3)
 
 > "De openbare ruimte wordt ingedeeld in drie kwaliteitsniveaus: Domstad, Domstad Bijzonder, Utrechtse Allure." (Kadernota KOR, p.5)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kadernota-kor]]

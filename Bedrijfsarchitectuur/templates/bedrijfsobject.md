@@ -44,7 +44,6 @@ gemma_subtypes:                    # optioneel — alleen als het BO herkende sp
     ggm_entiteit: {GGM-entiteit waar dit subtype bij hoort, leeg als geen match}
     ggm_guid: {GUID van die GGM-entiteit}
     ggm_attribuut: {attribuut op de GGM-entiteit dat het subtype draagt, bijv. "type"}
-bronnen: [[Wiki/Bronsamenvattingen/{domein}/{bronsamenvatting-slug]], [paden naar andere bronsamenvattingen]]
 relaties:
   - type: {associatie | compositie | generalisatie}
     bedrijfsobject: [[gerelateerd-bedrijfsobject]]
@@ -58,7 +57,6 @@ bedrijfsfuncties: [{bedrijfsfuncties}]
 
 ### Linkconventie frontmatter
 
-- **bronnen:** wiki-links naar bronsamenvattingen (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`)
 - **relaties.bedrijfsobject:** wiki-link naar het gerelateerde BO (bijv. `[[Verkiezing]]`)
 
 ### Drie naamvelden
@@ -113,4 +111,5 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Relaties**: afgeleid van GGM-associaties (bij GGM-grondslag) of uit beleidsbronnen (bij overige grondslagen), vereenvoudigd naar bedrijfsniveau. Noteer de bron van elke relatie — wiki-links naar gerelateerde BO's, in tabellen met `\|`-escaped alias (bijv. `[[Wiki/.../boom\|Boom]]`)
 - **Bedrijfsprocessen**: welke processen dit object gebruiken of produceren
 - **Bedrijfsfuncties**: welke functies dit object raken
+- **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
 - **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**

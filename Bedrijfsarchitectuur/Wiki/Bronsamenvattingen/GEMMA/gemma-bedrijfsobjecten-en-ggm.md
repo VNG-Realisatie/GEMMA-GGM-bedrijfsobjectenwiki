@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[gemma-bedrijfsobjecten-en-ggm](../../Sources/GEMMA/gemma-bedrijfsobjecten-en-ggm.md)"
 titel: "GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM"
 domein: []
 datum_ingest: 2026-06-18
@@ -118,3 +117,7 @@ De wiki vult dit aan door bedrijfsobjecten ook top-down af te leiden uit beleids
 
 > "Breid GEMMA-bedrijfsarchitectuur uit waar verwerkingsactiviteiten niet aan processen gekoppeld kunnen worden."
 > — *Samenhang PDC, UPL, zaaktypen en verwerkingsregister, gemmaonline.nl*
+
+## Bronnen
+
+- [[Sources/GEMMA/gemma-bedrijfsobjecten-en-ggm]]

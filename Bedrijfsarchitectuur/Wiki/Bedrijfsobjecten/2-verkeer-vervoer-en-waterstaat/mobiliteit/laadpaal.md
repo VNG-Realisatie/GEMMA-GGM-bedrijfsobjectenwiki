@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte."
 bedrijfsprocessen: [Laadinfrastructuurbeheer, Beheer openbare ruimte, Energietransitie]
 bedrijfsfuncties: [Verkeersmanagement, Duurzaamheidsbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
@@ -62,6 +61,11 @@ Afgeleid uit [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040|Mobilitei
 
 - [[Parkeervlak]] (GGM) — laadpaal staat bij een parkeervlak
 - [[Parkeerzone]] (GGM) — laadpaal valt binnen een parkeerzone
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

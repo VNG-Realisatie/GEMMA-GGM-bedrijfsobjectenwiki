@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/goederenvervoer/converted_pdf/mobiliteitsplan-2040.md](Sources/Onderwerpen/goederenvervoer/converted_pdf/mobiliteitsplan-2040.md)"
 titel: Mobiliteitsplan 2040 - Jouw straat en onze stad gezond, aantrekkelijk en bereikbaar voor iedereen
 domein:
   - mobiliteit
@@ -76,3 +75,7 @@ Het GGM Parkeren (13 entiteiten) is goed uitgewerkt en wordt bevestigd door het 
 > "Forenzen en bezoekers van het centrum en evenementen die met de auto richting Utrecht reizen, verleiden we over te stappen op openbaar vervoer en fiets op plekken vóór de Ring Utrecht."
 
 > "We sturen op de integratie van deelmobiliteit in ons mobiliteitssysteem. Utrecht heeft daarbij een duidelijk eindbeeld voor ogen: bewoners hoeven in de toekomst geen (privé)auto meer voor de deur te hebben."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/goederenvervoer/converted_pdf/mobiliteitsplan-2040]]

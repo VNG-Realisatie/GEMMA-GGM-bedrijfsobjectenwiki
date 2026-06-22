@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven.md](Sources/Onderwerpen/Belastingen/Kostendekkende tarieven.md)"
 titel: "Kostendekkende tarieven"
 domein: [Belastingen]
 datum_ingest: 2026-06-17
@@ -30,3 +29,7 @@ Tariefsverschillen tussen gemeenten komen zelden door kostenverschillen, maar do
 ## Relevantie bedrijfsarchitectuur
 
 Het kostendekkendheidsbeginsel is een business rule die van toepassing is op alle bestemmingsbelastingen en retributies. Het vereist een raming van baten en lasten per verordening — een informatieobject dat in het GGM ontbreekt.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Belastingen/Kostendekkende tarieven]]

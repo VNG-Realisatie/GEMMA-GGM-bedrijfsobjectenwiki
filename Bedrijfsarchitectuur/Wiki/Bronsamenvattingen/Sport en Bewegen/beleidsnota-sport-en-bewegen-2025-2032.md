@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032.md](Sources/Onderwerpen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032.md)"
 titel: Beleidsnota Sport en Bewegen 2025-2032
 domein: [Sport en Bewegen]
 datum_ingest: 2026-06-21
@@ -47,3 +46,7 @@ De nota bevestigt dat de gemeente directe verantwoordelijkheid draagt voor sport
 > "We sturen op efficiënt en multifunctioneel gebruik van onze sportvoorzieningen, waarbij de aanwezige capaciteit optimaal gebruikt wordt en waar nodig de beschikbare ruimte gedeeld wordt." (bron: beleidsnota-sport-en-bewegen-2025-2032.md, p. 34)
 
 > "Samen met onze aanbieders zoeken we naar out-of-the-box oplossingen om zoveel mogelijk inwoners van de sportvoorzieningen in de stad gebruik te laten maken." (bron: beleidsnota-sport-en-bewegen-2025-2032.md, p. 33)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]

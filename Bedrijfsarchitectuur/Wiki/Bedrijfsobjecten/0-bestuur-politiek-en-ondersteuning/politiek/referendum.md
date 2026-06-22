@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Volksstemming over een onderwerp, ingesteld door de raad of op grond van burgerbetrokkenheid, georganiseerd en uitgevoerd door de gemeente."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]
 relaties:
   - type: compositie
     bedrijfsobject: Stembureau
@@ -103,3 +102,7 @@ Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Wiki/Bedrijf
 
 Zie bronsamenvatting:
 - [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]] — Gemeentelijke verantwoordelijkheid voor alle referenda
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]

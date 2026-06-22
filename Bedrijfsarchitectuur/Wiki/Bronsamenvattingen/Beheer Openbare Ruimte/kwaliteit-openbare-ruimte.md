@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kwaliteit-openbare-ruimte.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kwaliteit-openbare-ruimte.md)"
 titel: Beleid voor kwaliteit openbare ruimte
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-21
@@ -17,3 +16,7 @@ Geen nieuwe begrippen ten opzichte van [[Wiki/Bronsamenvattingen/Beheer Openbare
 ## Relevantie voor bedrijfsarchitectuur
 
 Dun — fungeert als portaalpagina naar de twee substantiële nota's. Geen eigen BO-kandidaten.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kwaliteit-openbare-ruimte]]

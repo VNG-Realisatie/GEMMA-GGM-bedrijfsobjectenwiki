@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/evenementen/evenementenbeleid-utrecht.md](Sources/Onderwerpen/evenementen/evenementenbeleid-utrecht.md)"
 titel: Evenementenbeleid Utrecht — overzichtspagina
 domein:
   - evenementen
@@ -16,3 +15,7 @@ Kernpunten: reserveringskalender, tien evenementenlocaties met locatieprofielen,
 ## Relevantie voor bedrijfsarchitectuur
 
 Secundaire bron. Alle begrippen en objecten zijn uitgebreider beschreven in [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]].
+
+## Bronnen
+
+- [[Sources/Onderwerpen/evenementen/evenementenbeleid-utrecht]]

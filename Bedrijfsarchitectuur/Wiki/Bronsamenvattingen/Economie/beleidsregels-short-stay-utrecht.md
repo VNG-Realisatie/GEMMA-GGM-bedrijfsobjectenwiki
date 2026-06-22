@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/beleidsregels-short-stay-utrecht.md](Sources/Onderwerpen/Economie/beleidsregels-short-stay-utrecht.md)"
 titel: "Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht"
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -54,3 +53,7 @@ Definieert het [[Short Stay Accommodatie]]-bedrijfsobject met concrete eigenscha
 Registreerbare eigenschappen: doelgroep, oppervlakte, huurprijs, exploitant, beheerder, verblijfsduur.
 
 **Capaciteitsgrenzen**: 300 eenheden kenniswerkers + 780 eenheden studenten = 1.080 totaal.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/beleidsregels-short-stay-utrecht]]

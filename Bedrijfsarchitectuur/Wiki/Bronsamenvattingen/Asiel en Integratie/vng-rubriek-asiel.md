@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[rubriek-asiel-tot-integratie](../../Sources/Onderwerpen/Asiel en Integratie/rubriek-asiel-tot-integratie.md)"
 titel: "Rubriek Asiel tot integratie"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19
@@ -14,3 +13,7 @@ Overzichtspagina van de VNG-rubriek. Gemeenten hebben een centrale rol: huisvest
 ## Relevantie voor bedrijfsarchitectuur
 
 Geen nieuwe begrippen of objecten. Bevestigt de twee-fasenstructuur (asielopvang → inburgering) en de gemeentelijke scope.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Asiel en Integratie/rubriek-asiel-tot-integratie]]

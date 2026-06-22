@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Betaling van een afgesproken of opgelegd bedrag op een openstaande vordering van de gemeente."
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---
@@ -58,3 +57,7 @@ De betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflossi
 - Onderdeel van een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
 - Betaling op een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]]
 - Bij te veel ontvangen: leidt tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie|restitutie]]
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]

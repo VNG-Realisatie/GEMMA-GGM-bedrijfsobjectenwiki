@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
 bedrijfsprocessen: [Invordering, Handhaving]
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]
 bedrijfsfuncties: [Inning en invordering]
 status: concept
 ---
@@ -60,3 +59,7 @@ De daadwerkelijke interventie die wordt ondernomen naar aanleiding van achterbli
 - Betreft een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]] via een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]]
 - Gericht aan een [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]]
 - In belastingcontext vergelijkbaar: de invorderingsambtenaar kan aanmaningen en dwangbevelen inzetten als interventies
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]

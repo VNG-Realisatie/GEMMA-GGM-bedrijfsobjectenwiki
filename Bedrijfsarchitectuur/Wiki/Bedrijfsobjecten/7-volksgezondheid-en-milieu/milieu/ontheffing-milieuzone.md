@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Individuele uitzondering op milieuzoneregels waarmee een specifiek voertuig tijdelijk toegang krijgt tot de milieuzone."
 gemma_subtypes:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"
@@ -78,6 +77,11 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 | Gerelateerd BO | Type | Richting | Beschrijving | Bron |
 |---|---|---|---|---|
 | [[Milieuzone]] | associatie | van-dit-BO | Ontheffing geldt voor een specifieke zone | Beleidsnota §6.2.7 |
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 
 ## Terugmelding GGM
 

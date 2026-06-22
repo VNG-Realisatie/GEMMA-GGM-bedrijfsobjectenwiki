@@ -18,7 +18,6 @@ ggm_herkomst: ""
 ggm_gemma_naam: ""
 ggm_gemma_guid: ""
 ggm_gemma_definitie: ""
-bronnen: [Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]
 ggm_gemma_toelichting: ""
 ggm_gemma_synoniemen: ""
 ggm_gemma_type: ""
@@ -26,7 +25,6 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Het recht om te vissen in gemeentelijke wateren, door de gemeente als eigenaar verhuurd aan derden via de Visserijwet."
-bronnen: [Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]
 ---
 
 # Visrecht
@@ -66,3 +64,7 @@ Geen relaties met andere BO's in de wiki op dit moment.
 - Contractering (huurovereenkomst 6 jaar)
 - Evaluatie en verlenging
 - Toezicht op naleving (door huurder, AUHV heeft eigen BOA's)
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]]

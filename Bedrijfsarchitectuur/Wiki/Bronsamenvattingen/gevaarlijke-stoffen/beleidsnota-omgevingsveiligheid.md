@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid-utrecht.md](beleidsnota-omgevingsveiligheid-utrecht.md)"
 titel: Beleidsnota Omgevingsveiligheid Utrecht
 domein:
   - gevaarlijke-stoffen
@@ -49,3 +48,7 @@ De overige begrippen (plaatsgebonden risico, groepsrisico, oriëntatiewaarde) zi
 > "Wanneer we vinden dat bouwkundige maatregelen nodig zijn voor de afweging van het groepsrisico kan dit door een voorschriftengebied aan te wijzen in het omgevingsplan." (§2.4.4)
 
 > "De wetgever introduceert qua risico-ontvangers een nieuwe definitie, de 'zeer kwetsbare gebouwen'. De mensen in deze gebouwen zijn niet in staat om zelfstandig te vluchten bij een incident met gevaarlijke stoffen." (§2.4.5)
+
+## Bronnen
+
+- [[beleidsnota-omgevingsveiligheid-utrecht]]

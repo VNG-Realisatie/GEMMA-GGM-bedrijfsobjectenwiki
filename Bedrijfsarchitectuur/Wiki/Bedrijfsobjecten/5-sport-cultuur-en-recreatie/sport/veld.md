@@ -25,7 +25,6 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0f53081c-01f9-4c0a-b04
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 gemma_definitie: "Stuk land dat specifiek is ingericht voor het bedrijven van een veldsport."
-bronnen: [Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]
 relaties:
   - type: compositie
     bedrijfsobject: "[[Sportpark]]"
@@ -60,3 +59,7 @@ Een sportveld is een stuk land dat speciaal voor het bedrijven van een veldsport
 | [[Sportpark]] | onderdeel van | 0..1 | GGM |
 | Belijning | heeft | 0..* | GGM |
 | OverigBenoemdTerrein (BAG) | ligt op | 1 | GGM |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032]]

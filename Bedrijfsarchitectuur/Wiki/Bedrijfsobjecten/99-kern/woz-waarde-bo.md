@@ -29,7 +29,6 @@ definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object na
 bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ, WOZ-beschikking verzenden]
 bedrijfsfuncties: [Waardering onroerende zaken, Belastingheffing]
 status: concept
-bronnen: [Wiki/Bronsamenvattingen/Belastingen/belastingtypen, Wiki/Bronsamenvattingen/Belastingen/belastinggebied, Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek, Wiki/Bronsamenvattingen/Belastingen/belastingverordening, Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling, Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding, Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven, Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen, Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen, Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing, Wiki/Bronsamenvattingen/Belastingen/raadgever-woz]
 relaties:
   - type: associatie
     bedrijfsobject: "WOZ-object"
@@ -83,3 +82,17 @@ De WOZ-beschikking is op bedrijfsniveau niet onderscheidbaar van de WOZ-waarde: 
 - **WOZ-beschikking verzenden**: jaarlijks in de eerste 8 weken, 9+ miljoen beschikkingen
 - **OZB-heffing**: waarde × tarief = aanslag
 - **Bezwaarbehandeling**: beoordeling van bezwaren tegen de vastgestelde waarde
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastinggebied]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingpolitiek]]
+- [[Wiki/Bronsamenvattingen/Belastingen/belastingverordening]]
+- [[Wiki/Bronsamenvattingen/Belastingen/bevoegdhedenverdeling]]
+- [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Belastingen/kostendekkende-tarieven]]
+- [[Wiki/Bronsamenvattingen/Belastingen/wettelijke-grenzen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-gemeentelijke-belastingen]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-kostenonderbouwing]]
+- [[Wiki/Bronsamenvattingen/Belastingen/raadgever-woz]]

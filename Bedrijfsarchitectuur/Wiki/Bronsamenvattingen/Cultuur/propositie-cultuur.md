@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/propositie-cultuur-samen-cultuur-borgen.md](Sources/Onderwerpen%20VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen.md)"
 titel: "Propositie Samen cultuur borgen"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -44,3 +43,7 @@ Dit is een beleidspropositie die de governance-context schetst voor gemeentelijk
 > Cultuur is een publiek goed dat vraagt om structurele publieke investeringen. Net als bij welzijn, gezondheid en onderwijs is er meer nodig dan het vrije spel van de markt.
 
 > Het streven is dat elke gemeente vanaf 2029 een (al of geen fysieke) voorziening voor cultuureducatie en -participatie kent, nauw verweven met het onderwijs en maatschappelijke partners.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen]]

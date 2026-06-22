@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen locatie voor overslag en bundeling van goederen ten behoeve van stadsdistributie."
 bedrijfsprocessen: [Goederenvervoerbeleid, Ruimtelijke ordening]
 bedrijfsfuncties: [Goederenvervoerbeleid, Economisch beleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
@@ -66,6 +65,11 @@ Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het [[Wiki/Bronsamenvatting
 
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] — wordt ontsloten door logistieke routes [1..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/overslagpunt|Overslagpunt]] — ontvangt goederen van overslagpunten [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

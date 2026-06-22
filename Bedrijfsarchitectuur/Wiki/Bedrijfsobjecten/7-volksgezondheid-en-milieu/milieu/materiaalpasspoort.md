@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Digitale vastlegging van de materialen in een gebouw of object in de openbare ruimte."
 bedrijfsprocessen: [Circulair bouwen, Materiaalmatch, Aanbesteding]
 bedrijfsfuncties: [Vastgoedbeheer, Circulaire economie]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstoffendepot]]"
@@ -64,6 +63,11 @@ Het materiaalpasspoort ontstaat in het proces van circulair bouwen en aanbestede
 ## Relaties
 
 - **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot|Grondstoffendepot]]** — het paspoort informeert over beschikbare materialen voor het depot
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
 
 ## Terugmelding GGM
 

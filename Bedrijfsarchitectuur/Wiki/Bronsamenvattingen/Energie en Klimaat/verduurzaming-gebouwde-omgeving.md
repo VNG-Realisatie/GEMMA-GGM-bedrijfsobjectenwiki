@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/verduurzaming-gebouwde-omgeving.md](Sources/Onderwerpen/Energie en Klimaat/verduurzaming-gebouwde-omgeving.md)"
 titel: VNG — Verduurzaming gebouwde omgeving
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -24,3 +23,7 @@ Gemeenten voeren een gebiedsgerichte aanpak via het warmteprogramma, met wetteli
 ## Relevantie voor bedrijfsarchitectuur
 
 Levert wettelijke context voor [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]: de Wcw geeft de gemeente governance over warmtenetten. Het warmteprogramma is het wettelijk instrument waarmee de gemeente de warmtetransitie buurt-voor-buurt aanstuurt. Beide wetten (Wgiw, Wcw) bevestigen de gemeentelijke rol maar leveren geen zelfstandige BO's op.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/verduurzaming-gebouwde-omgeving]]

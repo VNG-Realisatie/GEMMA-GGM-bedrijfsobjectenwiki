@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/bomenbeleid-utrecht.md](Sources/Onderwerpen/Milieu/bomenbeleid-utrecht.md)"
 titel: Bomenbeleid Utrecht
 domein: [Beheer Openbare Ruimte]
 datum_ingest: 2026-06-20
@@ -47,3 +46,7 @@ Het bomenbeleid beschrijft één helder bedrijfsobject: de **Boom**. Dit is een 
 > "Voor 2030 willen we als gemeente inzetten op het behoud en de ontwikkeling van de bomenstructuur." (§2.2)
 
 > "In de Algemene Plaatselijke Verordening 2018 is herplant bij kapvergunningen verplicht gesteld." (§3.7)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/bomenbeleid-utrecht]]

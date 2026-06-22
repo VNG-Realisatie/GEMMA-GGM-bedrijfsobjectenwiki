@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Informatiedrager die is gecreëerd, ontvangen en bewaard als onderdeel van het gemeentelijk archief."
 bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
 bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
-bronnen: [Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur, Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur, Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed, Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk, Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel, Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht, Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025, Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht, Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]
 relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
@@ -90,3 +89,15 @@ In het GGM erft Archiefstuk van zowel **Document** (abstract) als **Erfgoed Obje
 
 - Informatiebeheer
 - Erfgoedbeheer
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
+- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur]]
+- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
+- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
+- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
+- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
+- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]

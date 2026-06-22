@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/milieu/beleidsnota-luchtkwaliteit-2025.md](Sources/milieu/beleidsnota-luchtkwaliteit-2025.md)"
 titel: "Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030"
 domein: [milieu]
 datum_ingest: 2026-06-21
@@ -56,3 +55,7 @@ De milieuzone is juridisch gebaseerd op verkeersbesluiten (GGM: Verkeersbesluit 
 
 > "Een volledig verbod op houtstook zorgt in 2030 voor een afname van 7 procent van de bijdrage aan de PM2,5-concentratie van alle bronnen binnen de gemeente en het zorgt voor een gezondheidswinst van meer dan 2.000 jaar, opgeteld voor alle inwoners van Utrecht."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.4.5)
+
+## Bronnen
+
+- [[Sources/milieu/beleidsnota-luchtkwaliteit-2025]]

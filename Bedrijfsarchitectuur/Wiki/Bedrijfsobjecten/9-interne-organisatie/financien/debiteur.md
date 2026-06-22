@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente
 bedrijfsprocessen: [Facturering, Debiteurenadministratie, Invordering]
-bronnen: [Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen, Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening, Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]
 bedrijfsfuncties: [Financieel beheer, Inning en invordering]
 status: concept
 ---
@@ -72,3 +71,10 @@ De bedrijfsobjectdefinitie is breder dan beide GGM-definities: "Persoon die een 
 - Verwant aan belastingplichtige — maar een belastingplichtige is specifiek iemand met een wettelijke belastingplicht, terwijl een debiteur breder is (ook dienstverlening)
 - Kan een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan|aflossingsplan]] hebben
 - Kan in aanmerking komen voor kwijtschelding
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening]]
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie]]

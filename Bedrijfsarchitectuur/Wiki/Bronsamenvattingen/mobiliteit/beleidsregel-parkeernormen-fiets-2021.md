@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-fiets-2021.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-fiets-2021.md)"
 titel: Beleidsregel parkeernormen fiets 2021 gemeente Utrecht
 domein:
   - mobiliteit
@@ -42,3 +41,7 @@ De beleidsregel definieert het juridische kader voor fietsparkeren bij bouwontwi
 > "Van op eigen terrein gerealiseerde plaatsen moet 10% voorzien zijn van laadpunt elektrische fietsen."
 
 > "Aanvrager dient mobiliteitsbeheerplan in."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-fiets-2021]]

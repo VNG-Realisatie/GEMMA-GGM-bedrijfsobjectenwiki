@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/beleidsregels-terrassen-utrecht.md](Sources/Onderwerpen/Economie/beleidsregels-terrassen-utrecht.md)"
 titel: "Beleidsregel Terrassen Gemeente Utrecht"
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -51,3 +50,7 @@ Belangrijkste bron voor het [[Terras]]-bedrijfsobject. Het terras is een zelfsta
 Registreerbare eigenschappen: locatie, afmetingen, openingstijden, inrichting.
 
 **Horecabedrijf**: het bedrijf dat het terras exploiteert. Terras mag niet breder zijn dan de gevel; direct zicht vanuit het bedrijf is verplicht.
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/beleidsregels-terrassen-utrecht]]

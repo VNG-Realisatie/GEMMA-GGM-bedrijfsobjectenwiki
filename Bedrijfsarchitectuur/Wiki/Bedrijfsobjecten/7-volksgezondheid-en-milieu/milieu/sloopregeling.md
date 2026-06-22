@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijgen voor het vervangen van een voertuig dat door milieuzone-aanscherping niet meer is toegelaten."
 gemma_subtypes:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"
@@ -85,3 +84,7 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 | Gerelateerd BO | Type | Richting | Beschrijving | Bron |
 |---|---|---|---|---|
 | [[Milieuzone]] | associatie | van-dit-BO | Sloopregeling is gekoppeld aan milieuzone-aanscherping | Beleidsnota §6.2.3 |
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]

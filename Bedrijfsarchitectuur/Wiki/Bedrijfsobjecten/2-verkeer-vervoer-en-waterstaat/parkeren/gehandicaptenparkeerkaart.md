@@ -47,7 +47,6 @@ gemma_subtypes:
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: ""
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Gehandicaptenparkeerplaats]]"
@@ -107,6 +106,11 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats|Gehandicaptenparkeerplaats]] — GPK geeft recht tot gebruik
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning|Parkeervergunning]] — in Utrecht wordt gratis parkeervergunning aan GPK gekoppeld
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — bestuurderskaart gekoppeld aan kenteken
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]
 
 ## Terugmelding GGM
 

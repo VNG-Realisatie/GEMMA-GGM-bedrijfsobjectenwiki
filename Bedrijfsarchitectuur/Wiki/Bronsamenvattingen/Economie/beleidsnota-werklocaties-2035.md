@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/converted_pdf/beleidsnota-werklocaties-2035.md](Sources/Onderwerpen/Economie/converted_pdf/beleidsnota-werklocaties-2035.md)"
 titel: Beleidsnota Werklocaties 2035
 domein: [Economie]
 datum_ingest: 2026-06-21
@@ -56,3 +55,7 @@ Het GGM kent geen entiteit "Werklocatie" — de GGM-grondslag loopt via Vestigin
 > "Innovatielocaties in Utrecht bieden ruimte aan innovatieve en kennisgedreven bedrijven en instellingen die samenwerken aan slimme oplossingen voor maatschappelijke vraagstukken." (p. 36)
 
 > "Onder wijkeconomie verstaan we alle werkplekken die buiten de vier andere typen werklocaties liggen. Dit betreft solitaire bedrijfspanden, werken vanuit woningen en maatschappelijke, leisure-, sport- en zorgbanen in de wijken." (p. 34)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/converted_pdf/beleidsnota-werklocaties-2035]]

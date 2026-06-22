@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/converted_pdf/programma-water-riolering-2025-2029.md](Sources/Onderwerpen/Milieu/converted_pdf/programma-water-riolering-2025-2029.md)"
 titel: Programma Water en Riolering Utrecht 2025-2029
 domein: [milieu]
 datum_ingest: 2026-06-21
@@ -49,3 +48,7 @@ Dit programma concretiseert de Visie Water en Riolering met budgetten en plannin
 > "Samen met het waterschap HDSR werken we aan het uitvoeringsprogramma Gezond Water. Het doel is de waterkwaliteit zodanig te verbeteren dat hiermee de vastgestelde waterkwaliteitsdoelen vanuit de Kaderrichtlijn Water worden behaald." (PWR 2025-2029, samenvatting)
 
 > "Ongeveer 60% van de grond in de gemeente is niet in handen van de gemeente, maar van bewoners, instellingen en bedrijven." (PWR 2025-2029, samenvatting)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/converted_pdf/programma-water-riolering-2025-2029]]

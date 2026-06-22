@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md](Sources/Onderwerpen%20VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten.md)"
 titel: "Toelichting ringenmodel — de culturele infrastructuur van gemeenten"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -36,3 +35,7 @@ Het ringenmodel is een beleidsinstrument dat gemeenten helpt hun cultureel voorz
 > Het ringenmodel dat de culturele infrastructuur beschrijft van grote, middelgrote en kleine gemeenten dateert uit 1996. Culturele infrastructuur is daarbij een verzamelnaam voor allerlei voorzieningen: organisaties, activiteiten, netwerken en diensten die gericht zijn op het bevorderen, aanbieden of ondersteunen van kunst, cultuur en erfgoed.
 
 > De mate waarin een gemeente een culturele centrumfunctie vervult moet per gemeente worden vastgesteld. Er zijn geen eenduidige groepen te onderscheiden.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten]]

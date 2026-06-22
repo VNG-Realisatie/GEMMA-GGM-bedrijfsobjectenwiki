@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md](Sources/Onderwerpen/Dienstverlening/hand-out-overheidsbrede-dienstverlening.md)"
 titel: "Hand-out overheidsbrede dienstverlening voor gemeenten"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -41,3 +40,7 @@ Dit document beschrijft primair een **werkwijze en organisatiemodel**, geen nieu
 > "Het gaat om niet om wéér een nieuw loket, maar om een nieuwe manier van samenwerken via de bestaande ingangen van een gemeente."
 
 > "Per 1 januari 2024 moeten gemeenten voldoen aan de zorgplicht in de Wet Modernisering Elektronisch Bestuurlijk Verkeer (Wmebv)."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/hand-out-overheidsbrede-dienstverlening]]

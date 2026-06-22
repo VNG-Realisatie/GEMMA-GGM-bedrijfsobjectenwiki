@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-utrechtse-aanpak.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-utrechtse-aanpak.md)"
 titel: Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)
 domein: [Welstand]
 datum_ingest: 2026-06-21
@@ -54,3 +53,7 @@ Het welstandsdomein raakt aan vergunningverlening (VTH), ruimtelijke ordening en
 > "Beeldbepalend is niet per definitie een aanduiding voor de esthetische kwaliteit van een gebouw of object, maar ook voor de beleving van een gebouw dat opvalt in zijn omgeving of nadrukkelijk het beeld van de omgeving bepaalt." (bron: welstandsnota-utrechtse-aanpak.md)
 
 > "Er is sprake van een exces wanneer een bouwwerk of een gedeelte daarvan op overduidelijke wijze - dus ook voor niet-deskundigen – in ernstige mate in strijd is met 'redelijke eisen van welstand'." (bron: welstandsnota-utrechtse-aanpak.md)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-utrechtse-aanpak]]

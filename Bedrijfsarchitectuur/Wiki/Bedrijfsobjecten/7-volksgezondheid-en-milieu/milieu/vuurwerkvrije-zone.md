@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 gemma_definitie: "Aangewezen zone waarbinnen het afsteken van consumentenvuurwerk verboden is, vastgelegd in de Algemene Plaatselijke Verordening."
 gemma_subtypes:
-bronnen: [Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]
 relaties: []
 bedrijfsprocessen: [openbare-orde, milieuhandhaving]
 bedrijfsfuncties: [milieubeheer, openbare-orde-en-veiligheid]
@@ -64,6 +63,11 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 > "In de Algemene Plaatselijke Verordening (APV) zijn voor de jaarwisseling 2022–2023 en 2023–2024 150 vuurwerkvrije zones aangewezen."
 > (bron: Beleidsnota Luchtkwaliteit, paragraaf 6.6.1)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 
 ## Terugmelding GGM
 

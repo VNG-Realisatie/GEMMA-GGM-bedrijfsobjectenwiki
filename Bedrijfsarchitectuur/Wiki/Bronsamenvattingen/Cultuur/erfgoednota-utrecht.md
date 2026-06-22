@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/erfgoednota-utrecht-2021.md](Sources/Onderwerpen/Cultuur/erfgoednota-utrecht-2021.md)"
 titel: "Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden'"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -55,3 +54,7 @@ De nota bevestigt bovendien het bestaande BO [[Wiki/Bedrijfsobjecten/5-sport-cul
 > "We bewaken en bestuderen het Utrechtse bodemarchief door te adviseren bij voorgenomen werkzaamheden in de ondergrond, door archeologisch onderzoek als bevoegd gezag te begeleiden en door zelf onderzoek uit te voeren." (p. 26)
 
 > "De gemeente beheert de vondsten en documentatie van 50 jaar archeologisch en bouwhistorisch onderzoek door de gemeente Utrecht. Dit materiaal is meestal het enige materiële wat resteert na onderzoek en vormt dus in veel opzichten 'het geheugen van de stad'." (p. 28)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Cultuur/erfgoednota-utrecht-2021]]

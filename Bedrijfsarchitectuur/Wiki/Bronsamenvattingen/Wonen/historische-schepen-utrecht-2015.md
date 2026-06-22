@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/historische-schepen-utrecht-2015.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/historische-schepen-utrecht-2015.md)"
 titel: Behouden van historische schepen in Utrecht (december 2015)
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -57,3 +56,7 @@ Introduceert "historisch schip" als classificatie van [[Woonboot]], niet als zel
 
 > "In deze zones worden historische boten altijd vervangen door historische boten."
 — §1.2 Doel en beoogde resultaten
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/historische-schepen-utrecht-2015]]

@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/rapportage-routekaart-parkeerhubs.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/rapportage-routekaart-parkeerhubs.md)"
 titel: Routekaart Parkeerhubs Utrecht
 domein:
   - mobiliteit
@@ -38,3 +37,7 @@ Het rapport levert capaciteitsdata en kostenkengetallen voor parkeerhubs. Het co
 > "Een exact kader of een exacte rekenmethodiek is lastig te geven. Wat wel kan worden vastgesteld is een rekenmethodiek, waarbij schaarste wordt vertaald naar plekken op afstand."
 
 > "De realisatie van hubs moet generiek bekostigd worden. Een Mobiliteitsfonds lijkt hiervoor het geëigende middel, maar kent uitdagingen in de juridische uitwerking."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/rapportage-routekaart-parkeerhubs]]

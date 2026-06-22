@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Cultuur/kunst-en-cultuur.md](Sources/Onderwerpen%20VNG/Cultuur/kunst-en-cultuur.md)"
 titel: "Kunst en cultuur"
 domein: [Cultuur]
 datum_ingest: 2026-06-19
@@ -32,3 +31,7 @@ Dit is een strategisch overzicht zonder concrete registratieobjecten. Het schets
 > Cultuur speelt een vitale rol in de samenleving. Het biedt niet alleen kleur en betekenis aan ons leven, maar draagt ook bij aan gezondheid, onderlinge verbinding en veerkracht van inwoners.
 
 > Het ringenmodel ondersteunt gemeenten bij strategische beleidsvorming rondom culturele infrastructuur.
+
+## Bronnen
+
+- [[Sources/Onderwerpen%20VNG/Cultuur/kunst-en-cultuur]]

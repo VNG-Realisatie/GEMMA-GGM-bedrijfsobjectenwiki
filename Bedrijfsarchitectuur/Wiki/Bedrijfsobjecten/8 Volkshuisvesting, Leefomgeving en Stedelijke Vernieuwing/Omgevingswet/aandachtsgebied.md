@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Ruimtelijk gebied rond een risicobron dat zichtbaar maakt waar mensen binnenshuis onvoldoende beschermd zijn tegen de gevolgen van een incident met gevaarlijke stoffen."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Risicobron]]"
@@ -96,6 +95,11 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 - **Advisering ruimtelijke ontwikkelingen** — binnen aandachtsgebieden worden maatregelen afgewogen bij nieuwe bouwplannen.
 - **Opstellen omgevingsplan** — aandachtsgebieden worden ruimtelijk weergegeven.
 - **Afweging groepsrisico** — binnen aandachtsgebieden vindt de groepsrisico-afweging plaats (art. 5.15 Bkl).
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]
 
 ## Terugmelding GGM
 

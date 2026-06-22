@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties."
 bedrijfsprocessen: [Bouwlogistiek, Vergunningverlening]
 bedrijfsfuncties: [Goederenvervoerbeleid, Bouwtoezicht]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Logistieke Route
@@ -60,6 +59,11 @@ Afgeleid uit het gemeentelijk bouwlogistiek beleid. Het [[Wiki/Bronsamenvattinge
 ## Relaties
 
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] — wordt ontsloten door logistieke routes [1..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

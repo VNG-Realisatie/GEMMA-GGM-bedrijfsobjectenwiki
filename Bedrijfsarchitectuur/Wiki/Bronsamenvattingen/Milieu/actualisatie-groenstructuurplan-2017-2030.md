@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/actualisatie-groenstructuurplan-2017-2030.md](Sources/Onderwerpen/Milieu/actualisatie-groenstructuurplan-2017-2030.md)"
 titel: "Actualisatie Groenstructuurplan Utrecht 2017-2030"
 domein: [Milieu, Beheer Openbare Ruimte]
 datum_ingest: 2026-06-20
@@ -46,3 +45,7 @@ De actualisatie bevestigt [[Groenobject]] als centraal beheerobject en voegt fun
 > "Aan de drie bestaande hoofdopgaven voegen we daarom de opgaven 'gezonde verstedelijking' en 'klimaatbestendig' toe." (p.6)
 
 > "We zijn met de uitvoering van faunapassages over de helft. Via het Meerjaren Groenprogramma (Groene Web) voeren we de komende jaren de overige faunapassages uit." (p.17)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/actualisatie-groenstructuurplan-2017-2030]]

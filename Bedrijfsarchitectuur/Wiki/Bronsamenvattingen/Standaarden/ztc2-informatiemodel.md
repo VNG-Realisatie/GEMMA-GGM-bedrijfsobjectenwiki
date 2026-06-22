@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[ztc2-informatiemodel-v2.1](../../Sources/Standaarden/ztc2-informatiemodel-v2.1.md)"
 titel: "GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-18
@@ -78,3 +77,7 @@ EIGENSCHAP voorziet in zaaktypespecifieke gegevens die niet als standaard zaakke
 - De ZTC2-concepten zijn essentieel voor hoe gemeenten zaakgericht-werken inrichten
 - zaaktypecatalogus en resultaattype zijn begrippen die uit deze bron komen
 - De relatie ZAAKTYPE = bedrijfsproces maakt de brug naar de GEMMA-procesarchitectuur
+
+## Bronnen
+
+- [[Sources/Standaarden/ztc2-informatiemodel-v2.1]]

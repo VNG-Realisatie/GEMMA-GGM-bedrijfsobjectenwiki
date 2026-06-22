@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Plan dat beschrijft hoe een bodem- of grondwaterverontreiniging wordt aangepakt, inclusief maatregelen, fasering en nazorg."
 bedrijfsprocessen: [bodemsanering, gebiedsgericht grondwaterbeheer, vergunningverlening]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
-bronnen: [Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]"
@@ -70,6 +69,11 @@ Saneringsplannen ontstaan in het saneringsproces wanneer een verontreiniging als
 
 - **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]** — het plan adresseert een of meer verontreinigingen
 - **[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondwatermeetpunt|Grondwatermeetpunt]]** — het plan kan monitoring via meetpunten voorschrijven
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]]
 
 ## Terugmelding GGM
 

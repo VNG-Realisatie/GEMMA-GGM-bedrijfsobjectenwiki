@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Economie/actualisatie-marktruimte-hotelnota-utrecht.md](Sources/Onderwerpen/Economie/actualisatie-marktruimte-hotelnota-utrecht.md)"
 titel: "Actualisatie marktruimte hotelnota 'Room With A View'"
 domein: [Economie]
 datum_ingest: 2026-06-20
@@ -50,3 +49,7 @@ Subtypes: concepthotel, doelgroephotel, boetiekhotel, budgethotel, zakenhotel, m
 
 **Toeristenbelasting**:
 > "Wel wordt er sinds 1989 toeristenbelasting geheven en is met de Utrechtse hoteliers afgesproken dat 50 procent van de opbrengsten uit toeristenbelasting direct weer wordt ingezet voor toeristische projecten."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Economie/actualisatie-marktruimte-hotelnota-utrecht]]

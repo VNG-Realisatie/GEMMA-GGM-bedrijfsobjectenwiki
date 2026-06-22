@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Georganiseerde activiteit met publiek in de openbare ruimte, waarvoor de gemeente een vergunning verleent en die plaatsvindt op een aangewezen locatie."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-bronnen: [Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen, Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Evenementenlocatie]]"
@@ -90,6 +89,12 @@ De GEMMA-definitie wijkt af van de GGM-definitie:
 - **Vergunningverlening** — na plaatsing op de reserveringskalender vraagt de organisator een vergunning aan
 - **Toezicht en handhaving** — gemeente houdt toezicht op naleving locatieprofielen
 - **Monitoring en evaluatie** — tweejaarlijkse inwonersenquête, vierjaarlijks bewonersonderzoek
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
 
 ## Terugmelding GGM
 

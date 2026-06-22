@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[actieplan-middenhuur.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-middenhuur.md)"
 titel: "Actieplan Middenhuur Actualisatie 2017"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -37,3 +36,7 @@ Het actieplan toont hoe de gemeente grondbeleid (erfpacht, grondprijzenbrief) en
 ## Citaten
 
 > "Bij uitponding van (midden)huurwoningen, waarvan de grond in erfpacht is uitgegeven, ontstaat op basis van de erfpachtvoorwaarden een mogelijkheid om de ontstane meerwaarde van de grond bij de erfpachter op te halen." (Hoofdstuk 2)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-middenhuur]]

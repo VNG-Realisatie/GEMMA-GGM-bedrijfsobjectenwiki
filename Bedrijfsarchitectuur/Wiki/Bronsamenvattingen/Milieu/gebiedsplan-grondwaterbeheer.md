@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Milieu/gebiedsplan-grondwaterbeheer-2016.md](Sources/Onderwerpen/Milieu/gebiedsplan-grondwaterbeheer-2016.md)"
 titel: Gebiedsplan gebiedsgericht grondwaterbeheer en visie op duurzaam gebruik van de ondergrond
 domein: [Milieu]
 datum_ingest: 2026-06-20
@@ -40,3 +39,7 @@ Het gebiedsplan is het meest gedetailleerde document over grondwaterbeheer. Het 
 > "Door een gebied met vermengde grondwaterverontreinigingen in zijn geheel aan te pakken en verontreinigingen niet per geval te benaderen, is het eenvoudiger om ingrepen in de ondergrond (aanleg WKO en grondwateronttrekkingen) te doen." (bron: gebiedsplan-grondwaterbeheer-2016.md)
 
 > "Het gebiedsplan kent een doorlooptijd tot 2043. Centraal onderdeel in het gebiedsplan is het gebiedsgericht grondwaterbeheer, dat zich richt op het beheer van het grondwatersysteem van een groot gedeelte van de stad." (bron: gebiedsplan-grondwaterbeheer-2016.md)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Milieu/gebiedsplan-grondwaterbeheer-2016]]

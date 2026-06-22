@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md](Sources/Onderwerpen/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten.md)"
 titel: "Overheidsbrede Startscan voor gemeenten"
 domein: [Dienstverlening]
 datum_ingest: 2026-06-19
@@ -28,3 +27,7 @@ De scan beschrijft drie stappen: (1) huidige situatie in kaart brengen, (2) gewe
 ## Relevantie voor bedrijfsarchitectuur
 
 De startscan bevestigt het drielaagse dienstverleningsmodel (bereiken → contact → verdieping) maar beschrijft een implementatiemethodiek, geen nieuwe data-objecten. Inhoudelijk overlapt deze bron grotendeels met de [[Wiki/Bronsamenvattingen/Dienstverlening/hand-out-overheidsbrede-dienstverlening|Hand-out overheidsbrede dienstverlening voor gemeenten]].
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Dienstverlening/overheidsbrede-startsscan-voor-gemeenten]]

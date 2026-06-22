@@ -7,14 +7,11 @@ Locatie: `Wiki/Bronsamenvattingen/{domein}/{slug}.md`
 ```yaml
 ---
 type: bronsamenvatting
-bron: "[Sources/{domein}/{bestand}.md](Sources/{domein}/{bestand}.md)"
 titel: {titel van het document}
 domein: [{domein(en)}]
 datum_ingest: {datum van verwerking}
 ---
 ```
-
-**Opmerking:** Het `bron:` veld gebruikt een markdown-link `[tekst](pad)`, niet een wiki-link, omdat het naar een source-bestand verwijst (geen wiki-pagina).
 
 ## Body
 
@@ -33,4 +30,12 @@ Alle verwijzingen naar wiki-pagina's en bedrijfsobjecten **moeten wiki-links zij
 
 **Uitzondering:** Citaten en blokkwoten uit externe bronnen (VNG-pagina's, etc.) zijn *plain text* — geen links.
 
-De bronsamenvatting is het **schakelstuk** in de herleidbaarheidsketen: het verwijst naar het bronbestand (Sources/) en wordt verwezen door de BO-pagina (via `bronnen` in frontmatter).
+### Bronnen-sectie
+
+Aan het eind van de body: `## Bronnen` met wiki-links naar de source-bestanden waarop deze samenvatting is gebaseerd:
+```markdown
+## Bronnen
+- [[Sources/{domein}/{bestand}]]
+```
+
+De bronsamenvatting is het **schakelstuk** in de herleidbaarheidsketen: het verwijst naar het bronbestand (via `## Bronnen`) en wordt verwezen door de BO-pagina (via `## Bronnen` in de body).

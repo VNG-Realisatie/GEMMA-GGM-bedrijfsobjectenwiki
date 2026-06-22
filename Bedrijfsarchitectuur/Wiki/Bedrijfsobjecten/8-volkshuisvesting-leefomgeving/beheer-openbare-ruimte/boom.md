@@ -28,7 +28,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Individueel geregistreerd en beheerd houtachtig gewas in de openbare ruimte, met eigen levenscyclus van aanplant tot kap."
 bedrijfsprocessen: [Bomenbeheer, Kapvergunningverlening, Boomveiligheid-inspectie (VTA), Verplanting, Herplant]
 bedrijfsfuncties: [Groenbeheer, Vergunningverlening, Openbare ruimte]
-bronnen: [Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht, Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007, Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing, Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]
 relaties:
   - type: generalisatie
     bedrijfsobject: Vegetatieobject (GGM)
@@ -83,3 +82,14 @@ De GGM-entiteit Boom is een specialisatie van **Vegetatieobject** (generalisatie
 - **Kapvergunningverlening**: aanvraag, veldbeoordeling (4 criteria: ecologisch, ruimtelijk, milieu, cultuurhistorisch), besluit
 - **Verplanting**: voorbereiding (1-2 jaar), uitvoering, nazorg
 - **Herplant**: compensatie bij kap, keuze boomsoort en locatie
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
+- [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/nota-beheer-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kadernota-kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing]]
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht]]

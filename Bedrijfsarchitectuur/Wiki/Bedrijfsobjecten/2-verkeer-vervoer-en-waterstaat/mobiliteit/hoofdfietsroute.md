@@ -33,7 +33,6 @@ gemma_subtypes:
     ggm_attribuut: ""
 bedrijfsprocessen: [Fietsbeleid, Beheer openbare ruimte, Verkeersmanagement]
 bedrijfsfuncties: [Verkeersmanagement, Fietsbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: "OV-knooppunt"
@@ -76,6 +75,11 @@ Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobilit
 
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]] — fietsroute verbindt met OV-knooppunten [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]] — fietsroute naar P+R-locatie [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

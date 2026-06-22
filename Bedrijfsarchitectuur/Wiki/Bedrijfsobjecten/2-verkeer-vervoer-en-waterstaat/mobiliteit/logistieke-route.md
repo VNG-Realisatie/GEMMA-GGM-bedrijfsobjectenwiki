@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid."
 bedrijfsprocessen: [Routering goederenvervoer, Verkeersmanagement, Ruimtelijke ordening]
 bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
-bronnen: [Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]
 relaties:
   - type: associatie
     bedrijfsobject: Overslagpunt
@@ -79,6 +78,11 @@ Afgeleid uit het gemeentelijk goederenvervoerbeleid. Het Kwaliteitsnet Goederenv
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/overslagpunt|Overslagpunt]] — route verbindt overslagpunten [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stadsdistributiepunt|Stadsdistributiepunt]] — route ontsluit stadsdistributiepunten [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]] — route geeft toegang tot laad- en losplaatsen [0..*]
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 
 ## Terugmelding GGM
 

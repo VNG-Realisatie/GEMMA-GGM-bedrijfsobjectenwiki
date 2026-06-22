@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeren-or.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeren-or.md)"
 titel: Uitwerking Aanpak parkeren openbare ruimte
 domein:
   - mobiliteit
@@ -44,3 +43,7 @@ Deze module raakt de meeste gemeentelijke parkeerobjecten: parkeerplaats, parkee
 > "We compenseren door elders in de stad parkeerplaatsen op te heffen. Zo zorgen we dat het totale aantal parkeerplekken (en daarmee ook het aantal auto's) in de stad grofweg gelijk blijft."
 
 > "In de meeste wijken in Utrecht is de ruimte beperkt, en gaat ruimte die wordt gereserveerd voor parkeren ten koste van andere functies."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeren-or]]

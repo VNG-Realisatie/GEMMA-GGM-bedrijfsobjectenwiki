@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[actieplan-betaalbare-koopwoningen.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-betaalbare-koopwoningen.md)"
 titel: "Actieplan betaalbare koopwoningen 2021"
 domein: [Wonen]
 datum_ingest: 2026-06-21
@@ -41,3 +40,7 @@ Het actieplan definieert de zelfbewoningsplicht en het antispeculatiebeding als 
 > "Een betaalbare koopwoning in Utrecht heeft een maximale verkoopprijs tot de NHG-grens (bij nieuwbouw vrij op naamprijs)." (1.2 Uitgangspunten)
 
 > "Het aandeel buy-to-let aankopen boven de €310.000 bij appartementen is in twee jaar tijd gestegen van 10% naar 20%." (Maatregel 2.1)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-betaalbare-koopwoningen]]

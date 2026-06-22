@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/geluid/beleidsnota-geluid-en-trillingen-utrecht.md](beleidsnota-geluid-en-trillingen-utrecht.md)"
 titel: Beleidsnota Geluid en Trillingen
 domein:
   - geluid
@@ -44,3 +43,7 @@ De nota levert vijf BO-kandidaten op: [[Geluidbron]], [[Geluidgevoelig gebouw]],
 > "In het coalitieakkoord 2022-2026 Investeren in Utrecht is opgenomen dat we in Utrecht bij nieuwe ontwikkelingen strengere geluidsnormen hanteren dan de landelijke wettelijke waarden." (grondslag aangescherpte normen)
 
 > "Bedrijven moeten ter plaatse van woningen in rustige woonwijken aan 5 dB lagere geluidnormen voldoen dan de standaardwaarden uit het Besluit kwaliteit leefomgeving (Bkl). Voor stille hofjes geldt een 10 dB lagere grenswaarde dan de standaardwaarde." (gebiedsdifferentiatie)
+
+## Bronnen
+
+- [[beleidsnota-geluid-en-trillingen-utrecht]]

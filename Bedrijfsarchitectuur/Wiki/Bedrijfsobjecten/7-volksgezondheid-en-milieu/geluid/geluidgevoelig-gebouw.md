@@ -27,7 +27,6 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Gebouw waarvoor wettelijke geluidnormen gelden, zoals een woning, school of zorginstelling."
 bedrijfsprocessen: [ruimtelijke planvorming, vergunningverlening, maatregelenonderzoek]
 bedrijfsfuncties: [ruimtelijke ordening, milieubeheer, bouwen en wonen]
-bronnen: [Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]
 relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"
@@ -75,6 +74,11 @@ Het GGM modelleert gebouwen (Pand, Gebouw, Verblijfsobject) maar niet de geluidg
 - Beschermd door → [[Geluidscherm]] (scherm vermindert geluidbelasting)
 - Ligt in/nabij → [[Stil gebied]] (gebouwen profiteren van stille gebieden)
 - Ligt in → [[Geluidzone]] (gebouwen binnen een geluidzone hebben aanvullende bescherming)
+
+
+## Bronnen
+
+- [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen]]
 
 ## Terugmelding GGM
 

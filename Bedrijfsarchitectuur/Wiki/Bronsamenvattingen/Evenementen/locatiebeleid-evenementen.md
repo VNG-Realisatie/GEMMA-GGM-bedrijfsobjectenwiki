@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/evenementen/locatiebeleid-evenementen-2024-2030.md](locatiebeleid-evenementen-2024-2030.md)"
 titel: Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030
 domein:
   - evenementen
@@ -46,3 +45,7 @@ Het GGM kent de entiteit `OpenbareActiviteit` (VTH, taakveld 1) met attributen `
 > "Als er meer aanmeldingen zijn dan dat er plek is, gaan we met organisatoren in gesprek om te kijken of een evenement kan verplaatsen. Als dit niet mogelijk is maakt de gemeente een inhoudelijke afweging op basis van kwaliteit en de in deze nota beschreven criteria."
 
 > "De locatieprofielen zijn vastgesteld in de APV om de komende beleidscyclus ervaring op te doen met het werken met locatieprofielen, voor de nieuwe regelgeving definitief vast te leggen in het Omgevingsplan."
+
+## Bronnen
+
+- [[locatiebeleid-evenementen-2024-2030]]

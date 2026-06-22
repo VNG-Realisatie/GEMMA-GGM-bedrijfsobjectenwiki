@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[asielopvang](../../Sources/Onderwerpen/Asiel en Integratie/asielopvang.md)"
 titel: "Asielopvang"
 domein: [Asiel en Integratie]
 datum_ingest: 2026-06-19
@@ -18,3 +17,7 @@ De VNG ondersteunt via het Ondersteuningsteam Asiel bij bestuurlijke besluitvorm
 - **Opvanglocatie** → BO-kandidaat (procesobject, geen GGM-match)
 - **Bestuursovereenkomst** → BO-kandidaat (governance-object, formele afspraken COA-gemeente)
 - Asielopvangfase valt buiten GGM — structureel hiaat
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Asiel en Integratie/asielopvang]]

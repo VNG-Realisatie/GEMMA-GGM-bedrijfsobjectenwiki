@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Energie en Klimaat/energiebeleid-utrecht.md](Sources/Onderwerpen/Energie en Klimaat/energiebeleid-utrecht.md)"
 titel: Energiebeleid gemeente Utrecht
 domein: [Energie en Klimaat]
 datum_ingest: 2026-06-20
@@ -37,3 +36,7 @@ Rijkste bron voor het domein. Levert twee BO-kandidaten: [[Wiki/Bedrijfsobjecten
 
 > "Elke gemeente in Nederland moet vóór eind 2026 zo'n warmteprogramma hebben."
 > (bron: energiebeleid-utrecht.md)
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Energie en Klimaat/energiebeleid-utrecht]]

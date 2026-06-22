@@ -1,6 +1,5 @@
 ---
 type: bronsamenvatting
-bron: "[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-toegankelijkheid.md](Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-toegankelijkheid.md)"
 titel: Uitwerking Parkeren en toegankelijkheid
 domein:
   - mobiliteit
@@ -45,3 +44,7 @@ De gehandicaptenparkeerplaats (algemeen en individueel) en de GPK zijn duidelijk
 > "Parkeren vormt geen fysieke belemmering voor de toegankelijkheid van bestemmingen in Utrecht voor mensen met een beperking en andere doelgroepen."
 
 > "Daarom moet binnen 100 meter een gehandicaptenparkeerplaats in de openbare ruimte gerealiseerd kunnen worden."
+
+## Bronnen
+
+- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-toegankelijkheid]]
