@@ -164,9 +164,9 @@ Water-gerelateerde GGM-entiteiten onder BOR (taakveld 8) die wél matchen:
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]] — Utrechts luchtkwaliteitsbeleid: milieuzones, houtstook, mobiele werktuigen (1267 regels, 2024)
 
 ### Water en riolering
-- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
-- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
-- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
+- [[visie-water-riolering 1|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
+- [[programma-water-riolering-2025-2029 1|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
+- [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 

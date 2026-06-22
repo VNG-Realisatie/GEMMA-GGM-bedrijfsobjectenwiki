@@ -70,9 +70,9 @@ Gebaseerd op de Wet Milieubeheer. De gemeente heeft een zorgplicht voor huishoud
 - [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
-- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering]]
-- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029]]
-- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater]]
+- [[visie-water-riolering 1]]
+- [[programma-water-riolering-2025-2029 1]]
+- [[beleidsnota-stadswater 1]]
 
 ## Terugmelding GGM
 

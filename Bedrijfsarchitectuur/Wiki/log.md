@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-06-22] ingest | Arbeidszaken — 12 BO's vanuit bedrijfsvoeringsperspectief
+- **Nieuwe bron:** handreiking-flexibele-arbeidsinzet.pdf (VNG/Capra, feb 2024) — juridische handreiking detachering, contractvormen, inhuur
+- **Herbeoordeling:** domein opnieuw beoordeeld vanuit bedrijfsvoeringsperspectief; GGM HR-domein (31 entiteiten, taakveld 9) was eerder over het hoofd gezien
+- **12 nieuwe BO's** in Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/:
+  - Formatie: Formatieplaats, Functie
+  - Werving: Vacature, Sollicitatie
+  - Dienstverband: Dienstverband (4 subtypes), Werknemer
+  - Uitvoering: Verlof, Verzuim, Declaratie, Beoordeling (3 subtypes gesprekscyclus), Disciplinaire Maatregel
+  - Samenwerking: Detacheringsovereenkomst (GGM-hiaat #52)
+- **GGM-dekking:** 31 entiteiten beoordeeld: 11 BO, 20 niet-BO, 1 hiaat, 1 definitiecorrectie (#53: Beoordeling)
+- **Domeinoverzicht** volledig herschreven: van 0 naar 12 BO's, begrippentabel van 11 naar 23 begrippen
+- **12 bronsamenvattingen** (9 eerder + 1 nieuw + 2 bestaand)
+
+## [2026-06-22] ingest | Arbeidszaken — 9 resterende bronnen samengevat
+- **9 bronsamenvattingen** aangemaakt: rubriek, arbeidsmarktkrapte, arbeidsmigranten, arbeidsvoorwaarden, financiële arbeidsvoorwaarden, integriteit, P&O-beleid, rechtspositie politieke ambtsdragers, werk voor arbeidsbeperkten
+
 ## [2026-06-22] update | Onderwijs — openstaande punten opgelost
 - **1 nieuw BO:** Kinderopvangvoorziening (procesobject, GGM-hiaat #51) — met subtypes KDV, BSO, gastouderopvang
 - **School bijgewerkt:** MFA als 6e subtype toegevoegd; relatie naar Binnenlocatie (gymzaal, cross-domein taakveld 5)

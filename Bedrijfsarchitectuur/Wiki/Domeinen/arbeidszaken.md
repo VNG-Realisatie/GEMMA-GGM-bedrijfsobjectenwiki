@@ -1,48 +1,96 @@
 ---
 type: domein
 naam: Arbeidszaken
-status: afgerond
-verwerkingsdatum: 2026-06-19
-bronnen_count: 11
-begrippen_count: 11
-bo_count: 0
+status: in behandeling
+verwerkingsdatum: 2026-06-22
+bronnen_count: 12
+begrippen_count: 23
+bo_count: 12
 ---
 
 # Domein: Arbeidszaken
 
-De gemeente als werkgever — arbeidsvoorwaarden, arbeidsomstandigheden, integriteit, rechtspositie politieke ambtsdragers, en de gemeentelijke aanpak van arbeidsmarktkrapte.
+De gemeente als werkgever — personeelsadministratie, dienstverbanden, werving en selectie, gesprekscyclus, verzuim, detachering en de bredere context van arbeidsvoorwaarden, integriteit en arbeidsmarktkrapte.
 
 ## Begrippen
 
-|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
-|---|---|---|---|---|---|---|---|
-|arbeidsmarktkrapte|thema|Aanbod arbeid lager dan vraag; knelpunt gemeentelijk werving| ❌ | nee |Beleidsmatig, geen object|Tekort sociale work, engineers|nee|
-|P&O-beleid|instrument|Beleid rond personeels- en organisatieontwikkeling| ❌ | nee |Governance, geen object|Diversiteit, inclusie, mobiliteit|nee|
-|arbeidsvoorwaarden|thema|Collectieve regelingen, cao-afspraken voor medewerkers| ❌ | nee |Beleidsmatig, geen object|Pensioen (ABP), zorgverzekering|nee|
-|gedragscode|instrument|Normen voor integriteit en ethisch gedrag| ❌ | nee |Governance, geen object|Gedragscode gemeenten|nee|
-|integriteitsbeleid|thema|Cultuur en regelgeving rond eerlijkheid en integriteit| ❌ | nee |Governance, geen object|Fraude, belangenverstrengeling|nee|
-|rechtspositieregeling|instrument|Regeling rechtspositie burgemeester, wethouders, raadsleden| ❌ | nee |Governance, geen object|Rechtspositieregeling burgemeester|nee|
-|cao-gemeenten|instrument|Collectieve arbeidsovereenkomst voor lokaal overheden| ❌ | nee |Instrument, externe afspraak|CAO gemeenten, HR21|nee|
-|arbeidsmigranten|doelgroep|Arbeiders uit het buitenland; derde land of EU| ❌ | nee |Doelgroep, niet object|Pools werker, loonvoorkamer|nee|
-|werk-voor-arbeidsbeperkten|thema|Programma banen voor mensen met arbeidsbeperkingen| ❌ | nee |Programma, geen object|Banenafspraak, Cao Aan de Slag|nee|
-|gemeentelijk werkgever|actor|De gemeente in haar rol als werkgever| ❌ | nee |Rol, geen zelfstandig concept met eigen levenscyclus|—|nee|
-|medewerker|actor|Persoon werkzaam bij de gemeente| ❌ | nee |Rol van persoon, geen apart object|—|ja (via organisatie)|
+### Bedrijfsobjecten (bedrijfsvoering/HR)
+
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|GGM|
+|---|---|---|---|---|---|---|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]]|object|Rechtsbetrekking werkgever-werknemer; subtypes: bepaalde/onbepaalde tijd, project, oproep| ✅ | ja |6/6 — kern personeelsadministratie|exact: Dienstverband|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]]|object|Contractuele wederpartij van de werkgever| ✅ | ja |6/6 — centraal object, hub naar alle HR-objecten|exact: Werknemer|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/functie\|Functie]]|object|Samenstel van taken en werkzaamheden (HR21)| ✅ | ja |6/6 — structureel element functiehuis|exact: Functie (HR)|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats\|Formatieplaats]]|object|Vastgestelde formatie in fte per organisatie-eenheid| ✅ | ja |6/6 — basis formatieplan|exact: Formatieplaats|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature\|Vacature]]|object|Te vullen arbeidsplaats, intern of extern opengesteld| ✅ | ja |6/6 — startpunt wervingsproces|exact: Vacature|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]]|object|Verzoek om in een functie te worden aangesteld| ✅ | ja |6/6 — kern wervingsproces|exact: Sollicitatie|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof\|Verlof]]|object|Goedgekeurde periode van afwezigheid| ✅ | ja |6/6 — eigen levenscyclus aanvraag→opname|exact: Verlof|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim\|Verzuim]]|object|Afwezigheid wegens ziekte; Wet Poortwachter| ✅ | ja |6/6 — wettelijk verplichte registratie|exact: Verzuim|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie\|Declaratie]]|object|Opgave van te vergoeden kosten| ✅ | ja |6/6 — eigen levenscyclus indiening→uitbetaling|exact: Declaratie (HR)|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling\|Beoordeling]]|object|Oordeel over functioneren; gesprekscyclus (planning, functionering, beoordeling)| ✅ | ja |6/6 — subtypes: plannings-/functionerings-/beoordelingsgesprek|exact: Beoordeling|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel\|Disciplinaire Maatregel]]|object|Formeel besluit bij plichtsverzuim of wangedrag| ✅ | ja |6/6 — eigen levenscyclus geconstateerd→opgelegd|exact: Disciplinaire Maatregel|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/detacheringsovereenkomst\|Detacheringsovereenkomst]]|object|Overeenkomst uitlener-inlener bij collegiale uitleen personeel| ✅ | ja |6/6 — eigen partijen, duur, vergoedingsmodel|GGM-hiaat #52|
+
+### Overige begrippen (governance/beleid)
+
+|Begrip|Type|Omschrijving|BO?| Data-object |Reden|GGM|
+|---|---|---|---|---|---|---|
+|arbeidsmarktkrapte|thema|Aanbod arbeid lager dan vraag| ❌ | nee |Beleidsmatig|nee|
+|P&O-beleid|instrument|Beleid personeels- en organisatieontwikkeling| ❌ | nee |Governance|nee|
+|arbeidsvoorwaarden|thema|Collectieve regelingen, cao-afspraken| ❌ | nee |Beleidsmatig|nee|
+|gedragscode|instrument|Normen voor integriteit en ethisch gedrag| ❌ | nee |Governance|nee|
+|integriteitsbeleid|thema|Cultuur en regelgeving rond integriteit| ❌ | nee |Governance|nee|
+|rechtspositieregeling|instrument|Regeling rechtspositie politieke ambtsdragers| ❌ | nee |Governance|nee|
+|cao-gemeenten|instrument|Collectieve arbeidsovereenkomst lokale overheden| ❌ | nee |Extern instrument|nee|
+|arbeidsmigranten|doelgroep|Arbeiders uit het buitenland| ❌ | nee |Doelgroep, registratie via BRP/RNI|nee|
+|werk-voor-arbeidsbeperkten|thema|Programma Banenafspraak| ❌ | nee |Programma|nee|
+|gemeentelijk werkgever|actor|Gemeente in haar werkgeversrol| ❌ | nee |Rol|nee|
+|medewerker|actor|Abstract type waarvan Werknemer erft| ❌ | ja |Abstract in GGM, niet zelfstandig|ja (abstract)|
 
 ## GGM-dekkingsanalyse
 
-Het GGM modelleert geen apart taakveld "Arbeidszaken". HR en personeelsbeheer vallen onder taakveld 9 (Interne Organisatie) als onderdeel van organisatiebeheer, niet als eigen beleidsdomein.
+Het GGM modelleert HR als beleidsdomein binnen taakveld 9 (Interne Organisatie) met 31 entiteiten.
 
-| GGM-domein | Entiteiten | Status |
+| GGM-beleidsdomein | Totaal entiteiten | BO | Niet-BO | Niet beoordeeld |
+|---|---|---|---|---|
+| **HR** | 31 | 11 | 20 | 0 |
+
+### Niet-BO entiteiten in GGM HR
+
+| Entiteit | Reden niet-BO |
+|---|---|
+| Verlofsoort | Enumeratie bij Verlof |
+| Verzuimsoort | Enumeratie bij Verzuim |
+| Declaratiesoort | Enumeratie bij Declaratie |
+| SoortDisciplinaireMaatregel | Enumeratie bij Disciplinaire Maatregel |
+| NormProfiel | Referentiedata HR21, geen gemeentelijk eigen object |
+| Functiehuis | Container voor Functie |
+| Rol | Attribuut/classificatie van Werknemer |
+| Inzet | Afgeleide van Dienstverband × OrganisatorischeEenheid |
+| Uren | Te granulair — onderdeel van tijdregistratie |
+| Individueel Keuzebudget | Te granulair — onderdeel arbeidsvoorwaarden |
+| KeuzebudgetBesteding | Te granulair |
+| KeuzebudgetBestedingsoort | Enumeratie |
+| GenotenOpleiding | Onderdeel werknemersdossier |
+| Opleiding | Referentiedata |
+| Onderwijsinstituut | Referentiedata |
+| Relatie | Familierelatie van Werknemer |
+| Geweldsincident | Raakt domein OOV |
+| OrganisatorischeEenheidHR | Organisatiestructuur, geen BO |
+| Sollicitant | Persoontype, onderdeel sollicitatieproces |
+| Sollicitatiegesprek | Onderdeel sollicitatieproces bij Sollicitatie |
+
+### GGM-hiaten
+
+| Hiaat | Omschrijving | Terugmelding |
 |---|---|---|
-| **Taakveld 9 Interne Organisatie** | Organisatie, Medewerker, Rol (personeelsbeheer als onderdeel) | Medewerker is voornamelijk boekhoudkundig, niet HR-strategisch |
+| Detacheringsovereenkomst | Overeenkomst bij intergemeentelijke uitleen; niet in GGM | #52 |
 
-**Structureel hiaat:** arbeidszaken is een beleidsdomein (cao-beleid, arbeidsmarktbeleid, integriteitsbeleid) maar geen informatieobjectdomein. Het GGM modelleert data-objecten, niet beleid of governance. Terugmelding naar GGM: is arbeidszaken een taakveld dat zou moeten worden gemodelleerd?
+### GGM-correcties
 
-## Conclusie
-
-Geen bedrijfsobjecten. Dit domein betreft interne organisatie en HR-governance: cao's, gedragscodes, rechtspositieregelingen, personeelsbeleid. Dit zijn instrumenten en thema's die structureel buiten GGM-scope vallen (het GGM modelleert data-objecten, geen governance of HR). Er zijn geen GGM-entiteiten voor dit domein en geen terugmeldingen nodig.
-
-De begrippen in dit domein zijn overwegend van het type thema (arbeidsmarktkrapte, P&O-beleid, integriteitsbeleid) en instrument (cao gemeenten, HR21, gedragscode, rechtspositieregeling). Geen daarvan voldoet aan de BO-criteria: ze hebben geen eigen bestaan binnen het domein en zijn niet herkenbaar als zelfstandig concept op bedrijfsobjectniveau.
+| Entiteit | Correctie | Terugmelding |
+|---|---|---|
+| Beoordeling | Definitie zegt "leerling" maar staat in HR-domein met relatie naar Werknemer | correctie |
 
 ## Verwerkte bronnen
 
@@ -57,14 +105,36 @@ De begrippen in dit domein zijn overwegend van het type thema (arbeidsmarktkrapt
 | rechtspositie-politieke-ambtsdragers | Regelingen burgemeesters, wethouders, raadsleden |
 | werk-voor-arbeidsbeperkten | Banenafspraak, Cao Aan de Slag, Cao SW |
 | arbeidsmigranten | Woon-/werkomstandigheden, integrale gemeentelijke aanpak |
+| handreiking-flexibele-arbeidsinzet | Juridische handreiking: detachering, contractvormen, inhuur, zzp |
+| College voor Arbeidszaken | CvA: werkgeversbelangenbehartiging, cao-overleg |
+| cva-beleidsplan-2023-2026 | Beleidsplan 2023-2026: 8 thema's, Wtp-transitie |
 
 ## Bronsamenvattingen
 
 - [[Wiki/Bronsamenvattingen/Arbeidszaken/college-voor-arbeidszaken|College voor Arbeidszaken]] — CvA: collectieve werkgeversbelangenbehartiging, cao-overleg, pensioen
-- [[Wiki/Bronsamenvattingen/Arbeidszaken/cva-beleidsplan-2023-2026|CvA Beleidsplan 2023-2026: Samen bereiken we meer]] — Beleidsplan 2023-2026: 8 thema's, arbeidsmarktkrapte-programma, Wtp-transitie
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/cva-beleidsplan-2023-2026|CvA Beleidsplan 2023-2026]] — Beleidsplan 2023-2026: 8 thema's, arbeidsmarktkrapte-programma, Wtp-transitie
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/rubriek-arbeidszaken|Rubriek Arbeidszaken]] — Overzichtspagina VNG-rubriek
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/arbeidsmarktkrapte-aanpak-gemeenten|Arbeidsmarktkrapte-aanpak Gemeenten]] — VNG-programma personeelstekorten
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/arbeidsmigranten|Arbeidsmigranten]] — Woon-/werkomstandigheden, gemeentelijke aanpak
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/arbeidsvoorwaarden|Arbeidsvoorwaarden]] — Arbeidsomstandigheden, zorgverzekering, HR21
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/financiele-arbeidsvoorwaarden|Financiële arbeidsvoorwaarden]] — Pensioen ABP, APPA-wijziging, ZPW
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/integriteit|Integriteit]] — Gedragscodes, toolkits, Netwerk Weerbaar Bestuur, LKOG
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/po-beleid|P&O-beleid]] — Werkboek arbeidsmarkt, diversiteit/inclusie
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/rechtspositie-politieke-ambtsdragers|Rechtspositie Politieke Ambtsdragers]] — Regelingen burgemeesters, wethouders, raadsleden
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/werk-voor-arbeidsbeperkten|Werk voor arbeidsbeperkten]] — Banenafspraak, Cao Aan de Slag, Cao SW
+- [[Wiki/Bronsamenvattingen/Arbeidszaken/handreiking-flexibele-arbeidsinzet|Handreiking flexibele arbeidsinzet]] — Juridische handreiking: detachering, contractvormen, inhuur
+
+## Conclusie
+
+Domein Arbeidszaken heeft twee lagen: (1) een **bedrijfsvoeringslaag** met 12 BO's uit het GGM HR-domein (taakveld 9) die de gemeente als werkgever beheert in haar personeelsadministratie, en (2) een **beleidslaag** met governance-begrippen (cao, gedragscode, integriteitsbeleid) die geen BO's opleveren.
+
+De 12 BO's dekken de volledige HR-levenscyclus: formatie (Formatieplaats, Functie) → werving (Vacature, Sollicitatie) → dienstverband (Dienstverband, Werknemer) → uitvoering (Verlof, Verzuim, Declaratie, Beoordeling, Disciplinaire Maatregel) → samenwerking (Detacheringsovereenkomst).
+
+GGM HR-dekking is goed (11 van 12 BO's exact match). Eén GGM-hiaat: Detacheringsovereenkomst. Eén GGM-correctie: definitie Beoordeling.
 
 ## Raakvlakken
 
 - **Werk en Inkomen** — werk-voor-arbeidsbeperkten raakt de Participatiewet en Banenafspraak
 - **Bestuur** — rechtspositie politieke ambtsdragers raakt gemeentewet en lokale democratie
 - **Asiel en Integratie** — arbeidsmigranten raakt ook migratie-en-werk
+- **Financien** — Declaratie en salarisadministratie raken financieel beheer (taakveld 9)

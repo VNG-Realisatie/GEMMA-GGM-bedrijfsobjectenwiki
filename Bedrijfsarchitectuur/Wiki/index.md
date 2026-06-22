@@ -3,7 +3,7 @@
 ## Domeinen
 
 - [[Wiki/Domeinen/bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
-- [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: HR, arbeidsvoorwaarden, integriteit (afgerond, 0 BO's)
+- [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
 - [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 9 BO's)
@@ -43,6 +43,20 @@
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie|short-stay-accommodatie]] — Logies 2 weken–6 maanden voor kenniswerkers/studenten (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast|bed-and-breakfast]] — Kleinschalige logiesaccommodatie, max 4 kamers (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/werklocatie|werklocatie]] — Aangewezen geografisch werkgebied met profiel; 5 subtypes (procesobject, GGM-hiaat)
+
+### Arbeidszaken / HR (GGM beleidsdomein HR, taakveld 9)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband|dienstverband]] — Rechtsbetrekking werkgever-werknemer; subtypes: bepaalde/onbepaalde tijd, project, oproep
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer|werknemer]] — Contractuele wederpartij van de werkgever
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/functie|functie]] — Samenstel van taken en werkzaamheden (HR21)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats|formatieplaats]] — Vastgestelde formatie in fte per organisatie-eenheid
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature|vacature]] — Te vullen arbeidsplaats, intern of extern opengesteld
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie|sollicitatie]] — Verzoek om in een functie te worden aangesteld
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof|verlof]] — Goedgekeurde periode van afwezigheid
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim|verzuim]] — Afwezigheid wegens ziekte; Wet Poortwachter
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie|declaratie]] — Opgave van te vergoeden kosten
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling|beoordeling]] — Gesprekscyclus: planning, functionering, beoordeling
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel|disciplinaire-maatregel]] — Formeel besluit bij plichtsverzuim of wangedrag
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/detacheringsovereenkomst|detacheringsovereenkomst]] — Overeenkomst uitlener-inlener bij collegiale uitleen (procesobject, GGM-hiaat)
 
 ### Financien (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]] — Overzicht verwachte ontvangsten en voorziene uitgaven
@@ -369,9 +383,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
 
 ### Milieu — water en riolering
-- [[Wiki/Bronsamenvattingen/milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
-- [[Wiki/Bronsamenvattingen/milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
-- [[Wiki/Bronsamenvattingen/milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
+- [[visie-water-riolering 1|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
+- [[programma-water-riolering-2025-2029 1|Programma Water en Riolering Utrecht 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
+- [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
 
 ### Milieu — bodem
 - [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid
