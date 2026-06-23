@@ -1,12 +1,12 @@
 # GGM-dekkingsanalyse
 
-**Gegenereerd:** 2026-06-23 13:32:37
+**Gegenereerd:** 2026-06-23 13:45:52
 
 ## Samenvattende statistieken
 
 - **Totaal GGM-entiteiten:** 437
 - **Bedrijfsobjecten vastgelegd:** 125
-- **Niet-bedrijfsobjecten (incl. generalisa ties):** 7
+- **Niet-bedrijfsobjecten (incl. generalisa ties):** 17
 - **Niet beoordeeld:** 337
 
 ## Beleidsdomeinen zonder bronnen
@@ -28,12 +28,6 @@
 |---|---|---|---|---|---|
 | 1 Veiligheid en Vergunningen | Belastingen, evenementen (22 bronnen) | 18 | Heffingsverordening, OpenbareActiviteit | — | BOA, Heffinggrondslag, Indiener, Inspectie, Kosten, Leges_Grondslag, Ligplaatsontheffing, MORAanvraagOfMelding, Precario, VOMAanvraagOfMelding, Vorderingregel, VTH-Melding, VTHzaak, WoonfraudeAanvraagOfMelding, WoonoverlastAanvraagOfMelding |
 
-### 10 Dienstverlening
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| 10 Dienstverlening | Dienstverlening (7 bronnen) | 9 | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | Aanvraagdata, Afspraakstatus, Artikel, Onderwerp, Telefoononderwerp, Telefoontje |
-
 ### 2 Verkeer, Vervoer en Waterstaat
 
 | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
@@ -45,7 +39,7 @@
 
 | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
 |---|---|---|---|---|---|
-| 3 Economie | Economie (10 bronnen) | 4 | Hotel | — | Hotelbezoek, Verkooppunt, Werkgelegenheid |
+| 3 Economie | Economie (10 bronnen) | 4 | Hotel | Hotel → Vestiging (generalisatie van Hotel) | Hotelbezoek, Verkooppunt, Werkgelegenheid |
 
 ### 4 Onderwijs
 
@@ -81,7 +75,7 @@
 
 | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
 |---|---|---|---|---|---|
-| Beheer Openbare Ruimte | Beheer Openbare Ruimte, geluid (8 bronnen) | 41 | Geluidsscherm, Groenobject, Ecoduct, Verkeerslicht, Verhardingsobject, Verlichtingsobject, Boom, Speelterrein, Speeltoestel, Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Rioleringsgebied, Waterobject, Put, Kunstwerk | Beheerobject (generalisatie van Kunstwerk), Bouwwerk (generalisatie van Bergingsbassin), FunctioneelGebied (generalisatie van Speelterrein), Meubilair (generalisatie van Speeltoestel), Vegetatieobject (generalisatie van Boom) | Bak, Bord, Installatie, Kast, Leiding, Leidingelement, Mast, Overbruggingsobject, Paal, Scheiding, Sensor, Terreindeel, Tunnelobject, Waterinrichtingsobject, Weginrichtingsobject, Areaal, Geo-Object, Grondbeheerder, KadastraleMutatie, Kwaliteitscatalogus Openbare Ruimte, Kwaliteitskenmerken, Logboek, Melding, MOOR-melding, Omgevingsvergunning, Onderhoud, Opbreking, Proces-verbaal-MOOR-melding, Schouwronde, Uitvoerder Graafwerkzaamheden |
+| Beheer Openbare Ruimte | Beheer Openbare Ruimte, geluid (8 bronnen) | 41 | Geluidsscherm, Groenobject, Ecoduct, Verkeerslicht, Verhardingsobject, Verlichtingsobject, Boom, Speelterrein, Speeltoestel, Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Rioleringsgebied, Waterobject, Put, Kunstwerk | van-dit-BO (generalisatie van Groenobject), van-dit-BO (generalisatie van Ecoduct), Beheerobject (generalisatie van Verkeerslicht), Beheerobject (generalisatie van Verhardingsobject), Beheerobject (generalisatie van Verlichtingsobject), Vegetatieobject (generalisatie van Boom), FunctioneelGebied (generalisatie van Speelterrein), Meubilair (generalisatie van Speeltoestel), Kunstwerk (generalisatie van Gemaal), Put (generalisatie van Kolk), Kunstwerk (generalisatie van Overstortconstructie), Bouwwerk (generalisatie van Bergingsbassin), Beheerobject (generalisatie van Waterobject), Beheerobject (generalisatie van Kunstwerk) | Bak, Bord, Installatie, Kast, Leiding, Leidingelement, Mast, Overbruggingsobject, Paal, Scheiding, Sensor, Terreindeel, Tunnelobject, Waterinrichtingsobject, Weginrichtingsobject, Areaal, Geo-Object, Grondbeheerder, KadastraleMutatie, Kwaliteitscatalogus Openbare Ruimte, Kwaliteitskenmerken, Logboek, Melding, MOOR-melding, Omgevingsvergunning, Onderhoud, Opbreking, Proces-verbaal-MOOR-melding, Schouwronde, Uitvoerder Graafwerkzaamheden |
 | Bouwen en Wonen | Wonen (10 bronnen) | 4 | Gebouw, Plan | — | Projectleider, Projectontwikkelaar |
 | Omgevingswet | gevaarlijke-stoffen (1 bron) | 24 | Activiteit, Gebiedsaanwijzing, Gebiedsaanwijzing | — | Bevoegd Gezag, Gemachtigde, Initiatiefnemer, Project, Projectlocatie, Uitvoerende instantie, Verzoek, Omgevingsdocument, Idealisatie, Instructieregel, Juridische Regel, Norm, Normwaarde, Omgevingsnorm, Omgevingswaarde, Omgevingswaarderegel, Regel voor Iedereen, Conclusie, Indieningsvereisten, Maatregelen, Toepasbare Regel, Uitvoeringsregel |
 
@@ -97,6 +91,12 @@
 | Subsidies | — | 7 | — | — | Rapportagemoment, Sector, Subsidie, Subsidieaanvraag, Subsidiebeschikking, Subsidieprogramma, Taak |
 | Vastgoed | — | 14 | — | — | Aanbesteding Vastgoed, CultuurOnbebouwd, Eigenaar, Gebruiksdoel, Huurder, Inspectie, LocatieaanduidingWozObject, MJOP, Pachter, Vastgoed Contract, Vastgoedobject, Verhuurbaar Eenheid, Werkbon, Zakelijk Recht |
 
+### 10 Dienstverlening
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| 10 Dienstverlening | Dienstverlening (7 bronnen) | 9 | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | Aanvraagdata, Afspraakstatus, Artikel, Onderwerp, Telefoononderwerp, Telefoontje |
+
 ### 99 Kern
 
 | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
@@ -104,13 +104,13 @@
 | 99 Kern | — | 4 | — | — | Periode, Foto, Locatie, Video-opname |
 | BAG | Beheer Openbare Ruimte, Wonen (16 bronnen) | 8 | Ligplaats | AdresseerbaarObject (generalisatie van Ligplaats) | Nummeraanduiding, Buurt, Gemeente, OpenbareRuimte, Pand, Wijk, Woonplaats |
 | RGBZPlus | Belastingen (22 bronnen) | 15 | Heffing | — | Bedrijfsproces, Besluit, Betaling, Betrokkene, Document, Klantcontact, Medewerker, Object, Offerte, OrganisatorischeEenheid, Status, VestigingVanZaakbehandelendeOrganisatie, Zaak, ZAAK - Origineel |
-| RSGBPlus | Belastingen, Economie (32 bronnen) | 48 | WOZ-object, WOZ-Waarde, Standplaats, Vestiging | — | Nummeraanduiding, BenoemdObject, BenoemdTerrein, Buurt, GebouwdObject, Gemeente, AdresseerbaarObjectAanduiding, OpenbareRuimte, Pand, Verblijfsobject, Wijk, Woonplaats, Briefadres, Onbestemd Adres, Appartementsrecht, Appartementsrechtsplitsing, Huishouden, KadastraalPerceel, KadastraleOnroerendeZaak, IngeschrevenPersoon, KadastraleOnroerendeZaakAantekening, Ingezetene, MaatschappelijkeActiviteit, NatuurlijkPersoon, NietNatuurlijkPersoon, OverigeAdresseerbaarObjectAanduiding, Reisdocument, Rechtspersoon, Tenaamstelling, Verblijfstitel, WOZ-deelobject, ZakelijkRecht, Zekerheidsrecht, AanduidingVerblijfsrecht, AutoriteitAfgifteNederlandsReisdocument, AkrKadastraleGemeentecode, CultuurcodeBebouwd, CultuurcodeOnbebouwd, KadastraleGemeente, LandOfgebied, Provincie, Partij, RedenVerkrijgingNationaliteit, RedenVerliesNationaliteit, Land, Nationaliteit |
+| RSGBPlus | Belastingen, Economie (32 bronnen) | 48 | WOZ-object, WOZ-Waarde, Standplaats, Vestiging | Horecabedrijf → Vestiging (generalisatie van Vestiging) | Nummeraanduiding, BenoemdObject, BenoemdTerrein, Buurt, GebouwdObject, Gemeente, AdresseerbaarObjectAanduiding, OpenbareRuimte, Pand, Verblijfsobject, Wijk, Woonplaats, Briefadres, Onbestemd Adres, Appartementsrecht, Appartementsrechtsplitsing, Huishouden, KadastraalPerceel, KadastraleOnroerendeZaak, IngeschrevenPersoon, KadastraleOnroerendeZaakAantekening, Ingezetene, MaatschappelijkeActiviteit, NatuurlijkPersoon, NietNatuurlijkPersoon, OverigeAdresseerbaarObjectAanduiding, Reisdocument, Rechtspersoon, Tenaamstelling, Verblijfstitel, WOZ-deelobject, ZakelijkRecht, Zekerheidsrecht, AanduidingVerblijfsrecht, AutoriteitAfgifteNederlandsReisdocument, AkrKadastraleGemeentecode, CultuurcodeBebouwd, CultuurcodeOnbebouwd, KadastraleGemeente, LandOfgebied, Provincie, Partij, RedenVerkrijgingNationaliteit, RedenVerliesNationaliteit, Land, Nationaliteit |
 
 ### Erfgoed
 
 | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
 |---|---|---|---|---|---|
-| Archeologie | Cultuur (9 bronnen) | 14 | Vondst | Put (generalisatie van Kolk) | Archeologiebesluit, Artefact, boring, Kaart, locatie, Magazijnlocatie, Magazijnplaatsing, Project, Spoor, Vindplaats, Vlak, Vulling |
+| Archeologie | Cultuur (9 bronnen) | 14 | Vondst | — | Archeologiebesluit, Artefact, boring, Kaart, locatie, Magazijnlocatie, Magazijnplaatsing, Project, Spoor, Vindplaats, Vlak, Vulling |
 | Archief | Cultuur (9 bronnen) | 9 | Archiefstuk, Vindplaats | — | Aanvraag, Archief, Auteur, Bezoeker, Depot, Nadere Toegang, Rechthebbende, Uitgever |
 | Generieke Entiteiten Erfgoed | — | 2 | — | — | Erfgoed Object, Historisch Persoon |
 | Monumenten | Cultuur (9 bronnen) | 4 | Beschermde Status | — | Ambacht, Bouwactiviteit, Bouwstijl |
