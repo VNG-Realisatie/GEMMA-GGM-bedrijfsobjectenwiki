@@ -1,119 +1,116 @@
----
-type: analyse
-titel: "GGM-dekking: welke beleidsdomeinen hebben bronnen, welke niet"
-datum: 2026-06-23
-source: "Coverage uit alle wiki-domeinen"
----
+# GGM-dekkingsanalyse
 
-# GGM-dekking per beleidsdomein
-
-Overzicht van GGM-entiteiten per beleidsdomein, ingedeeld naar:
-- **BO**: bedrijfsobjecten (GGM-entiteiten die in wiki als BO zijn vastgelegd)
-- **Niet-BO**: beoordeelde GGM-entiteiten die geen BO zijn (te granulair, classificaties, operationeel)
-- **Niet beoordeeld**: GGM-entiteiten zonder beleidsbron (dus nog niet beoordeeld; potentiële toekomstige BO's)
-
-**Waarom centraal, niet per wiki-domein:** GGM-beleidsdomeinen en wiki-domeinen lopen niet 1-op-1. Een wiki-domein kan meerdere GGM-beleidsdomeinen raken (bijv. cultuur → Monumenten + Archief + Archeologie + Musea). Dit overzicht werkt vanuit de GGM-structuur en maakt per beleidsdomein zichtbaar:
-- **Bronnen**: aantal verwerkte bronsamenvattingen dat dit beleidsdomein raakt (geeft aan of er voldoende materiaal is om entiteiten te beoordelen)
-- **Wiki-domein(en)**: welke wiki-domeinen dit domein afdekken (navigeerbaar)
-- **Reden niet beoordeeld**: waarom entiteiten nog niet zijn beoordeeld (geen bron, procesobject, ander subdomein, etc.)
-
-## GGM-entiteitendekking per beleidsdomein
-
-| Taakveld | Beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld | Wiki-domein(en) | Bronnen |
-|:--------:|:-------------:|:----------:|:--:|:-------:|:---------------:|:---------------------:|:----------------:|:-------:|
-| 0 | Politiek/Bestuur | Verkiezing, Referendum, Stembureau, Gemeenschappelijke Regeling | 0 | 0 | 4 | Procesobjecten en governance-objecten buiten GGM-scope | [[bestuur\|bestuur]] | — |
-| 1 | Model VTH | OpenbareActiviteit + 29 overige VTH-entiteiten | 1 | 0 | 29 | Alleen OpenbareActiviteit relevant; overige VTH-entiteiten buiten scope evenementen | [[evenementen\|evenementen]] | — |
-| 2 | Mobiliteit | OVChauffeursGroep, OVLijn, OVStopplaats, Route, Routetraject, Tramroute, Tram(lijn) + 4 overige | 4 | 7 | 0 | — | [[Wiki/Onderwerpoverzichten/mobiliteit\|mobiliteit]] | 13 |
-| 2 | Parkeren | Naheffing, Parkeerrecht, Parkeervergunning, Parkeerzone, Parkeervlak + 10 overige | 9 | 6 | 0 | — | [[Wiki/Onderwerpoverzichten/mobiliteit\|mobiliteit]] | 13 |
-| 3 | Taakveld 3 Economie | Hotel, Hotelbezoek, Vestiging + 3 overige | 1 | 0 | 5 | Hotel → BO; Hotelbezoek → meting; Vestiging → werklocatie | [[Wiki/Onderwerpoverzichten/economie\|economie]] | 10 |
-| 4 | Onderwijs | Leerling, Leraar, Mentor, Klasse, Schema, Schooljaar + 6 overige | 5 | 7 | 0 | — | [[Wiki/Onderwerpoverzichten/onderwijs\|onderwijs]] | 4 |
-| 4 | Leerplicht en Leerlingenvervoer | Vervoerroute, Vervoervoertuig, Concessie, Leerlingvervoerder + 11 overige | 5 | 10 | 0 | — | [[Wiki/Onderwerpoverzichten/onderwijs\|onderwijs]] | 4 |
-| 5 | Monumenten | Monument, BeschermdeStatus + 4 overige | 1 | 5 | 0 | — | [[cultuur\|cultuur]], [[welstand\|welstand]] | 10 |
-| 5 | Archief | ArchiefrepertoireMap, Archiefopstelling, Archiefagenda + 5 overige | 1 | 3 | 4 | Geen beleidsbron over archieflogistiek | [[cultuur\|cultuur]] | 10 |
-| 5 | Archeologie | ArcheologischWerkstuk, ArcheologischeVondst, Opgraving + 14 overige | 3 | 14 | 0 | Volledig beoordeeld o.b.v. erfgoednota Utrecht | [[cultuur\|cultuur]] | 10 |
-| 5 | Generiek Erfgoed | Erfgoedwaarde, Objecttype + 2 overige | 0 | 1 | 3 | Abstract parent-entiteit | [[cultuur\|cultuur]] | 10 |
-| 5 | Musea | MuseumExhibitie, Kunstwerk, Expositie + 29 overige | 1 | 9 | 22 | Prinsenhof-specifieke entiteiten; geen museale beleidsbron | [[cultuur\|cultuur]] | 10 |
-| 5 | Sport | Sportaccommodatie, Sportterrein, Sporthal, Zwembad + 9 overige | 6 | 5 | 2 | Bezetting en Onderhoudskosten: meetwaarde/financieel | [[sport-en-bewegen\|sport-en-bewegen]] | 2 |
-| 5 | Model VTH (Welstand) | 30 VTH-entiteiten | 0 | 0 | 30 | Geen VTH-specifieke bronnen verwerkt | [[welstand\|welstand]] | 2 |
-| 5 | Monumenten (Welstand) | Monument, BeschermdeStatus + 4 overige | 1 | 0 | 5 | Classificaties bij Beschermde Status | [[welstand\|welstand]] | 2 |
-| 6 | Inburgering | InburgeringCursus, Inburgeringcertificaat, Leerprogramma + 32 overige | 13 | 18 | 4 | Volledige GGM-dekking voor inburgering | [[inburgering-en-asielopvang\|inburgering-en-asielopvang]] | 1 |
-| 6 | Asielopvang | — | 2 | 0 | 0 | GGM-hiaat: geen dekking voor asielopvang | [[inburgering-en-asielopvang\|inburgering-en-asielopvang]] | 1 |
-| 6 | Generiek Jeugd en Wmo | Programmabudget, Zorgmelding, Ondersteuningsplan + 24 overige | 5 | 8 | 14 | Classificatie-entiteiten en financieel-administratief | [[maatschappelijke-ondersteuning\|maatschappelijke-ondersteuning]] | 1 |
-| 6 | Sociaal Domein Generiek | Inkomenscomponent (33x), Regelgeving, Uitkering + 20 overige | 1 | 5 | 50 | Groot deel Inkomen-domein; 33 inkomstencomponenten | [[maatschappelijke-ondersteuning\|maatschappelijke-ondersteuning]] | 1 |
-| 6 | Sociale Teams | Zorgmelding, Buurtteam, Preventief + 6 overige | 1 | 0 | 8 | Operationele entiteiten | [[maatschappelijke-ondersteuning\|maatschappelijke-ondersteuning]] | 1 |
-| 6 | Jeugdbescherming en reclassering | Reclassering, Toezicht, Vaststellingsbesluit + 1 overige | 1 | 0 | 3 | Ondersteunend bij Zorgmelding | [[maatschappelijke-ondersteuning\|maatschappelijke-ondersteuning]] | 1 |
-| 6 | Dak- en thuislozen | Opvangplek | 1 | 0 | 0 | — | [[maatschappelijke-ondersteuning\|maatschappelijke-ondersteuning]] | 1 |
-| 6 | Generiek Jeugd en Wmo (Sociaal Domein) | 27 entiteiten | 0 | 0 | 27 | Wmo/Jeugd-beleid nog niet als eigen bron verwerkt | [[sociaal-domein\|sociaal-domein]] | 1 |
-| 6 | Sociale Teams (Sociaal Domein) | 9 entiteiten | 0 | 0 | 9 | Buurtteams nog niet als eigen bron verwerkt | [[sociaal-domein\|sociaal-domein]] | 1 |
-| 6 | Sport (Sociaal Domein) | Sportaccommodatie (Binnenlocatie), Sportpark + 11 overige | 2 | 0 | 11 | Subtypes Binnenlocatie, Sportpark | [[sociaal-domein\|sociaal-domein]] | 1 |
-| 6 | Onderwijs (Sociaal Domein) | School (subtype) + 11 overige | 1 | 0 | 11 | Subtype School | [[sociaal-domein\|sociaal-domein]] | 1 |
-| 6 | Dak- en thuislozen (Sociaal Domein) | Opvangplek | 0 | 0 | 1 | Opvangbeleid nog niet als eigen bron verwerkt | [[sociaal-domein\|sociaal-domein]] | 1 |
-| 6 | Terug- en invordering | Terugvordering, Invorderingszaak, Dwangmiddel, Invorderingskosten + 3 overige | 7 | 0 | 0 | **100% GGM-dekking** | [[Wiki/Onderwerpoverzichten/terug-en-invordering\|terug-en-invordering]] | 1 |
-| 7 | Afval | AfvalContainer, Afvalroute, Inzameling + 11 overige | 4 | 12 | 0 | — | [[milieu\|milieu]] | 1 |
-| 7 | Afval (Dierenwelzijn) | 14 entiteiten | 0 | 0 | 14 | Ander subdomein; geen beleidsbron over afvalbeheer | [[dierenwelzijn\|dierenwelzijn]] | — |
-| 7 | Afval (Energie en Klimaat) | 14 entiteiten | 0 | 0 | 14 | Ander subdomein; geen beleidsbron over afvalbeheer | [[energie-en-klimaat\|energie-en-klimaat]] | 7 |
-| 7 | Beheer Openbare Ruimte (Geluid) | Geluidsscherm (1 relevant van 82) | 1 | 0 | 81 | Overige BOR-entiteiten buiten scope geluidbeleid | [[geluid\|geluid]] | 2 |
-| 7 | Omgevingswet (Geluid) | 31 entiteiten (geluidnormen) | 0 | 0 | 31 | Geluidnormen zijn geen apart BO | [[geluid\|geluid]] | 2 |
-| 7 | Beheer Openbare Ruimte (Openbare Gezondheid) | Begraafplaats | 0 | 1 | 0 | Begraafplaats hoort bij BOR | [[openbare-gezondheid\|openbare-gezondheid]] | — |
-| 8 | Beheer Openbare Ruimte | Boom, Groen, Verhardingelement, Verlichtingsmast + veel subentiteiten (200 totaal) | 9 | 0 | 191 | Subdomeinen: bomen, groen, verhardingen, civiele constructies, verlichting, VRI, speeltoestellen; water, riolering, kabels/leidingen, sensoren nog open | [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte\|beheer-openbare-ruimte]] | 1 |
-| 8 | Bouwen en Wonen | Bouwwerk, Bouwdeelnaam, Bouwactie + 4 overige | 2 | 3 | 2 | Projectleider/Projectontwikkelaar zijn actoren | [[Wiki/Onderwerpoverzichten/wonen\|wonen]] | 2 |
-| 8 | VTH (Vaartuig) | Woonboot | 1 | 0 | 0 | Vaartuig → Woonboot | [[Wiki/Onderwerpoverzichten/wonen\|wonen]] | 2 |
-| 8 | BAG (Ligplaats) | Ligplaats | 1 | 0 | 0 | Ligplaats exact match | [[Wiki/Onderwerpoverzichten/wonen\|wonen]] | 2 |
-| 8 | Omgevingswet (Gevaarlijke Stoffen) | 34 entiteiten | 0 | 0 | 34 | 3 BO's matchen partieel op Gebiedsaanwijzing, Activiteit | [[gevaarlijke-stoffen\|gevaarlijke-stoffen]] | 1 |
-| 9 | HR | Medewerker, Arbeidscontract, Betrokkenheid, Functie + 27 overige | 11 | 20 | 0 | — | [[arbeidszaken\|arbeidszaken]] | 3 |
-| 9 | Taakveld 9 Interne Organisatie / Financien | Rekeningkost, Begrotingsfase, Budgetregel, Budget + 20 overige | 10 | 0 | 14 | Boekhoudkundige kern goed gedekt | [[Wiki/Onderwerpoverzichten/financien\|financien]] | 4 |
-| 10 | Model Dienstverlening | DienstverleningsProduct, KwaliteitsIndicator + 14 overige | 3 | 9 | 4 | Operationeel/kwaliteitsregistratie | [[Wiki/Onderwerpoverzichten/dienstverlening\|dienstverlening]] | 2 |
-| 10 | RGBZPlus | Dossiercomponent, Dossier, Betrokken Partij + 22 overige | 2 | 23 | 0 | — | [[Wiki/Onderwerpoverzichten/dienstverlening\|dienstverlening]] | 2 |
-| 99 | RSGBPlus (99 Kern) | WOZ-object, WOZ-Waarde (+ WOZ-deelobject, SoortWOZObject) | 2 | 0 | 0 | — | [[belastingen\|belastingen]] | 1 |
-| 99 | Vastgoed (9 Int. Org.) | WOZ-Belang, LocatieaanduidingWozObject | 0 | 2 | 0 | Technische tussenentiteiten | [[belastingen\|belastingen]] | 1 |
-| 99 | Financien (9 Int. Org.) | Debiteur, Kostenplaats | 1 | 1 | 0 | Debiteur → BO; Kostenplaats is ondersteunend | [[belastingen\|belastingen]] | 1 |
-| 99 | Parkeren (2 V&V) | Naheffing, Parkeerrecht, Parkeervergunning, Parkeerzone, Parkeervlak | 3 | 2 | 0 | — | [[belastingen\|belastingen]] | 1 |
-| 99 | VTH (1 Veiligheid) | Heffing, Heffingsverordening, Heffinggrondslag, Precario | 2 | 2 | 0 | Heffing en Heffingsverordening → BO | [[belastingen\|belastingen]] | 1 |
+**Gegenereerd:** 2026-06-23 13:20:02
 
 ## Samenvattende statistieken
 
-**Geanalyseerd:** 24 wiki-domeinen, 48 beleidsdomeinen
-- **Totale GGM-entiteiten**: 922
-- **Bedrijfsobjecten (BO's)**: 122 (13,2%)
-- **Niet-BO's**: 173 (18,8%)
-- **Niet beoordeeld**: 627 (68%)
+- **Totaal GGM-entiteiten:** 437
+- **Bedrijfsobjecten vastgelegd:** 125
+- **Niet-bedrijfsobjecten:** 0
+- **Niet beoordeeld:** 344
 
-### Volledig GGM-gedekte beleidsdomeinen (100% beoordeeld)
+## Beleidsdomeinen zonder bronnen
 
-- **Taakveld 2:** Mobiliteit (4 BO's), Parkeren (9 BO's)
-- **Taakveld 6:** Asielopvang (2 BO's), Dak- en thuislozen (1 BO), Terug- en invordering (7 BO's)
-- **Taakveld 8:** BAG/Ligplaats (1 BO), VTH/Vaartuig (1 BO)
-- **Taakveld 10:** RGBZPlus (2 BO's)
+- 6 Sociaal Domein → Sociaal Domein Generiek
+- 6 Sociaal Domein → Sociale Teams
 
-### Beleidsdomeinen zonder bronnen
+## GGM-entiteitendekking per beleidsdomein
 
-Geen huidige wiki-bronnen beschikbaar:
+### 0 Bestuur, Politiek en Ondersteuning
 
-- Taakveld 0: Politiek/Bestuur
-- Taakveld 1: Model VTH (evenementen)
-- Taakveld 7: Afval (Dierenwelzijn), Beheer Openbare Ruimte (Openbare Gezondheid)
-- Taakveld 8: (alle hebben bronnen)
-- Taakveld 10: (beide hebben bronnen)
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Griffie | — | 10 | — | — | Aanwezige Deelnemer, Agendapunt, Collegelid, Dossier, Indiener, Raadscommissie, Raadslid, Raadsstuk, Stemming, Vergadering |
 
-Dit zijn kandidaten voor toekomstige bronnenverzamelingen.
+### 1 Veiligheid en Vergunningen
 
-### Opvallende hiaten
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| 1 Veiligheid en Vergunningen | Belastingen, evenementen (22 bronnen) | 18 | Heffingsverordening, OpenbareActiviteit | — | BOA, Heffinggrondslag, Indiener, Inspectie, Kosten, Leges_Grondslag, Ligplaatsontheffing, MORAanvraagOfMelding, Precario, VOMAanvraagOfMelding, Vorderingregel, VTH-Melding, VTHzaak, WoonfraudeAanvraagOfMelding, WoonoverlastAanvraagOfMelding |
 
-| Taakveld | Beleidsdomein | Issue | Impact |
-|:--------:|:-------------:|:-----:|:------:|
-| 1 | Evenementen (Model VTH) | Slechts 1 van 30 entiteiten relevant | Te veel overhead voor evenementen-specifieke objecten |
-| 5 | Welstand (Model VTH) | 30 VTH-entiteiten niet beoordeeld | Geen welstand-specifieke beleidsbronnen verwerkt |
-| 5 | Musea | 22 van 32 entiteiten niet beoordeeld | Prinsenhof-specifieke entiteiten; geen generieke museale beleidsbronnen |
-| 6 | Sociaal Domein (Inkomenscomponent) | 50 van 56 inkomenscomponenten niet beoordeeld | Inkomensdomein nog niet volledig vanuit bronnen ingesteld |
-| 7 | Milieu & Omgeving | Dierenwelzijn, Energie/Klimaat geen beleidsdomeinen | Structureel hiaat GGM |
-| 8 | Beheer Openbare Ruimte | 191 van 200 entiteiten niet beoordeeld | Water, riolering, kabels/leidingen, sensoren nog open |
+### 10 Dienstverlening
 
-## Actielijst: waar moeten beleidsdocumenten gezocht worden?
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| 10 Dienstverlening | Dienstverlening (7 bronnen) | 9 | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | Aanvraagdata, Afspraakstatus, Artikel, Onderwerp, Telefoononderwerp, Telefoontje |
 
-Beleidsdomeinen met 0 bronnen en veel niet-beoordeelde entiteiten zijn prioritair:
+### 2 Verkeer, Vervoer en Waterstaat
 
-1. **Taakveld 0**: Bestuur/Politiek-beleidsdocumenten
-2. **Taakveld 7**: Dierenwelzijn-specifieke beleidsnota's, Energie/Klimaat-specifieke documenten
-3. **Taakveld 5**: Welstand-specifieke bronnen voor VTH-matching
-4. **Taakveld 8**: Water-, riolerings-, kabelgebruik -specifieke beleidsdocumenten voor BOR-detailniveaus
-5. **Taakveld 6**: Wmo/Jeugd-beleidsnota's, Sociale Teams-beleidsraamwerk
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Mobiliteit | mobiliteit (12 bronnen) | 4 | Verkeersbesluit, Stremming, Verkeerstelling, Strooiroute | — | — |
+| Parkeren | mobiliteit (12 bronnen) | 9 | Parkeerzone, Parkeergarage, Parkeerrecht, Parkeervlak, Parkeerscan, Voertuig, Naheffing, MulderFeit, Parkeervergunning | — | Belprovider |
+
+### 3 Economie
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| 3 Economie | Economie (10 bronnen) | 4 | Hotel | — | Hotelbezoek, Verkooppunt, Werkgelegenheid |
+
+### 4 Onderwijs
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Leerplicht en Leerlingenvervoer | onderwijs (8 bronnen) | 13 | Verzuimmelding, Vrijstelling, Procesverbaal Onderwijs, Aanvraag Leerlingenvervoer, Beschikking Leerlingenvervoer | — | AanvraagOfMelding, Beslissing, Doorgeleiding OM, HALT-verwijzing, Klacht Leerlingenvervoer, Leerplichtambtenaar, Vervoerder, Ziekmelding Leerlingenvervoer |
+| Onderwijs | onderwijs (8 bronnen) | 10 | Leerling, Inschrijving, Uitschrijving, Ouder Of Verzorger, School | — | Leerjaar, Loopbaanstap, Onderwijsloopbaan, Onderwijsniveau, Startkwalificatie |
+
+### 5 Sport, Cultuur en Recreatie
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Musea | Cultuur (9 bronnen) | 25 | Museumobject | — | Activiteit, Balieverkoop, Balieverkoop Entreekaart, Belanghebbende, Bruikleen, Collectie, Doelgroep, Entreekaart, Incident, Lener, Mailing, Museumrelatie, Prijs, Product, Productie-eenheid, Programma, Reservering, Rondleiding, Samensteller, Standplaats, Tentoonstelling, Voorziening, Winkelverkoopgroep, Zaal |
+| Sport | Sport en Bewegen (2 bronnen) | 9 | Sportpark, Veld, Sportvereniging, Sportlocatie, Sportmateriaal, Binnenlocatie | — | Belijning, Bezetting, Onderhoudskosten |
+
+### 6 Sociaal Domein
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Gemeentebegrafenissen | — | 1 | — | — | Gemeentebegrafenis |
+| Generiek Jeugd en Wmo | Maatschappelijke Ondersteuning (8 bronnen) | 18 | Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning | — | AOM_AanvraagWmoJeugd, Beperking, Beperkingscore, Beschikte Voorziening, Declaratie, Leefgebied, Melding Eigen bijdrage, Score, Tarief, Team, Verplichting Wmo Jeugd, Verzoek om Toewijzing, Zelfredzaamheidmatrix |
+| Inburgering | Asiel en Integratie (4 bronnen) | 12 | Asielstatushouder, Brede Intake, Examen, Gezinsmigrant en Overige migrant, InburgeringsAanbod, Inburgeringsplicht, Inburgeringstermijn, Inburgeringstraject, Leerroute, PIP, PVT, Voorbereiding op Inburgering, MAP | — | Inburgeraar, Verblijfplaats AZC, Vreemdeling |
+| Sociaal Domein Generiek | maatschappelijke ondersteuning, sociaal domein (0 bronnen) | 4 | Client | — | Clientbegeleider, Huishouden, Relatie |
+| Sociale Teams | maatschappelijke ondersteuning (0 bronnen) | 5 | SociaalTeamDossier | — | Behandeling, Bijzonderheid, Caseaanmelding, Doelstelling |
+
+### 7 Volksgezondheid en Milieu
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Afval | Milieu (12 bronnen) | 12 | Container, Fractie, Milieustraat, Prijsafspraak | — | Locatie, Melding, Ophaalmoment, Pas, Rit, Route, Storting, Vuilniswagen |
+
+### 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Beheer Openbare Ruimte | Beheer Openbare Ruimte, geluid (8 bronnen) | 41 | Geluidsscherm, Groenobject, Ecoduct, Verkeerslicht, Verhardingsobject, Verlichtingsobject, Boom, Speelterrein, Speeltoestel, Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Rioleringsgebied, Waterobject, Put, Kunstwerk | — | Bak, Beheerobject, Bord, Bouwwerk, FunctioneelGebied, Installatie, Kast, Leiding, Leidingelement, Mast, Meubilair, Overbruggingsobject, Paal, Scheiding, Sensor, Terreindeel, Tunnelobject, Vegetatieobject, Waterinrichtingsobject, Weginrichtingsobject, Areaal, Geo-Object, Grondbeheerder, KadastraleMutatie, Kwaliteitscatalogus Openbare Ruimte, Kwaliteitskenmerken, Logboek, Melding, MOOR-melding, Omgevingsvergunning, Onderhoud, Opbreking, Proces-verbaal-MOOR-melding, Schouwronde, Uitvoerder Graafwerkzaamheden |
+| Bouwen en Wonen | Wonen (10 bronnen) | 4 | Gebouw, Plan | — | Projectleider, Projectontwikkelaar |
+| Omgevingswet | gevaarlijke-stoffen (1 bron) | 24 | Activiteit, Gebiedsaanwijzing, Gebiedsaanwijzing | — | Bevoegd Gezag, Gemachtigde, Initiatiefnemer, Project, Projectlocatie, Uitvoerende instantie, Verzoek, Omgevingsdocument, Idealisatie, Instructieregel, Juridische Regel, Norm, Normwaarde, Omgevingsnorm, Omgevingswaarde, Omgevingswaarderegel, Regel voor Iedereen, Conclusie, Indieningsvereisten, Maatregelen, Toepasbare Regel, Uitvoeringsregel |
+
+### 9 Interne Organisatie
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Financien | Financien, Terug-en-invordering (4 bronnen) | 19 | Activa, Begroting, Debiteur, Doelstelling, Factuur, Inkooporder, Kostenplaats, Product, Taakveld, Werkorder | — | Bankafschrift, Bankrekening, Batch, Batchregel, Begrotingregel, Hoofdrekening, Hoofdstuk, Mutatie, Opdrachtgever, Opdrachtnemer |
+| HR | Arbeidszaken (12 bronnen) | 20 | Dienstverband, Werknemer, Functie, Formatieplaats, Vacature, Verlof, Verzuim, Declaratie, Sollicitatie, Beoordeling, Disciplinaire Maatregel | — | Functiehuis, Geweldsincident, Individueel Keuzebudget, Onderwijsinstituut, Opleiding, Relatie, Rol, Sollicitant, Sollicitatiegesprek |
+| ICT | — | 26 | — | — | Aanvraag, Applicatie, CMDB-item, Database, Dienst, Domein/Taakveld, Externe Bron, Gegeven, Hardware, Inventaris, Licentie, Linkbaar CMDB-item, Log, Melding, Nertwerkcomponent, Notitie, Package, Product, Server, Software, Storing, Telefoniegegevens, Toegangsmiddel, Versie, Vervoersmiddel, Wijzigingsverzoek |
+| Inkoop | — | 13 | — | — | Aanbesteding, Aanbesteding Inhuur, Aankondiging, Aanvraag Inkooporder, Contract, CPV-code, Gunning, Inschrijving, Kandidaat, Leverancier, Offerte, Offerteaanvraag, Uitnodiging |
+| Organisatie-indeling | Cultuur (9 bronnen) | 2 | Project | — | Programma |
+| Subsidies | — | 7 | — | — | Rapportagemoment, Sector, Subsidie, Subsidieaanvraag, Subsidiebeschikking, Subsidieprogramma, Taak |
+| Vastgoed | — | 14 | — | — | Aanbesteding Vastgoed, CultuurOnbebouwd, Eigenaar, Gebruiksdoel, Huurder, Inspectie, LocatieaanduidingWozObject, MJOP, Pachter, Vastgoed Contract, Vastgoedobject, Verhuurbaar Eenheid, Werkbon, Zakelijk Recht |
+
+### 99 Kern
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| 99 Kern | — | 4 | — | — | Periode, Foto, Locatie, Video-opname |
+| BAG | Beheer Openbare Ruimte, Wonen (16 bronnen) | 8 | Ligplaats | — | Nummeraanduiding, Buurt, Gemeente, AdresseerbaarObject, OpenbareRuimte, Pand, Wijk, Woonplaats |
+| RGBZPlus | Belastingen (22 bronnen) | 15 | Heffing | — | Bedrijfsproces, Besluit, Betaling, Betrokkene, Document, Klantcontact, Medewerker, Object, Offerte, OrganisatorischeEenheid, Status, VestigingVanZaakbehandelendeOrganisatie, Zaak, ZAAK - Origineel |
+| RSGBPlus | Belastingen, Economie (32 bronnen) | 48 | WOZ-object, WOZ-Waarde, Standplaats, Vestiging | — | Nummeraanduiding, BenoemdObject, BenoemdTerrein, Buurt, GebouwdObject, Gemeente, AdresseerbaarObjectAanduiding, OpenbareRuimte, Pand, Verblijfsobject, Wijk, Woonplaats, Briefadres, Onbestemd Adres, Appartementsrecht, Appartementsrechtsplitsing, Huishouden, KadastraalPerceel, KadastraleOnroerendeZaak, IngeschrevenPersoon, KadastraleOnroerendeZaakAantekening, Ingezetene, MaatschappelijkeActiviteit, NatuurlijkPersoon, NietNatuurlijkPersoon, OverigeAdresseerbaarObjectAanduiding, Reisdocument, Rechtspersoon, Tenaamstelling, Verblijfstitel, WOZ-deelobject, ZakelijkRecht, Zekerheidsrecht, AanduidingVerblijfsrecht, AutoriteitAfgifteNederlandsReisdocument, AkrKadastraleGemeentecode, CultuurcodeBebouwd, CultuurcodeOnbebouwd, KadastraleGemeente, LandOfgebied, Provincie, Partij, RedenVerkrijgingNationaliteit, RedenVerliesNationaliteit, Land, Nationaliteit |
+
+### Erfgoed
+
+| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+|---|---|---|---|---|---|
+| Archeologie | Cultuur (9 bronnen) | 14 | Vondst | — | Archeologiebesluit, Artefact, boring, Kaart, locatie, Magazijnlocatie, Magazijnplaatsing, Project, Put, Spoor, Vindplaats, Vlak, Vulling |
+| Archief | Cultuur (9 bronnen) | 9 | Archiefstuk, Vindplaats | — | Aanvraag, Archief, Auteur, Bezoeker, Depot, Nadere Toegang, Rechthebbende, Uitgever |
+| Generieke Entiteiten Erfgoed | — | 2 | — | — | Erfgoed Object, Historisch Persoon |
+| Monumenten | Cultuur (9 bronnen) | 4 | Beschermde Status | — | Ambacht, Bouwactiviteit, Bouwstijl |

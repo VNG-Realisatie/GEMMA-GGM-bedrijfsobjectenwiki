@@ -1,12 +1,23 @@
 # Wiki Log
 
+## [2026-06-23] coverage | volledige GGM-dekkingsanalyse gegenereerd
+- **Gegenereerd:** Centrale dekkingspagina [[Wiki/Analyses/ggm-dekking|ggm-dekking]] per taakveld
+- **Structuur:** Tabel opgesplitst per taakveld met kolommen: beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld
+- **Statistieken:**
+  - Totaal GGM-entiteiten: 437
+  - Bedrijfsobjecten vastgelegd: 125 (28%)
+  - Niet beoordeeld: 344 (79%)
+  - Beleidsdomeinen zonder bronnen: 2 (Sociaal Domein Generiek, Sociale Teams)
+- **Coverage per domein:** onderwerp-links met bronnenaantal, entity names in kolommen
+- **Skill update:** `/coverage` aangepast voor nieuwe tabelstructuur
+
 ## [2026-06-23] Refactor: GGM-dekking naar centrale analysepagina
 - **Reden:** GGM-beleidsdomeinen en wiki-domeinen lopen niet 1-op-1. Centrale dekkingspagina maakt per beleidsdomein zichtbaar welke bronnen beschikbaar zijn.
 - **Wijzigingen:**
   - Nieuwe pagina: [[Wiki/Analyses/ggm-dekking|ggm-dekking]] — centrale dekkingstabel met 48 beleidsdomeinen, 922 GGM-entiteiten, bronnenaantal per domein
   - Verwijderd: GGM-entiteitendekking + GGM-dekkingsanalyse secties uit alle 24 domeinoverzichten
   - Herschreven: `/coverage` skill — nu met bronnenaantal per beleidsdomein
-  - Bijgewerkt: `templates/domeinoverzicht.md` — geen GGM-dekkingssecties meer
+  - Bijgewerkt: `templates/onderwerpoverzicht.md` — geen GGM-dekkingssecties meer
   - Bijgewerkt: `/ingest` skill — verwijderd GGM-dekkingsstap (coverage is aparte actie)
   - Bijgewerkt: `/domain-status` skill — verwijzing naar centrale pagina
   - Bijgewerkt: `CLAUDE.md` — werkwijze-beschrijving, coverage-beschrijving
