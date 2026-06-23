@@ -81,7 +81,7 @@ Arbeidsverhouding [1..1] ──── Arbeidsperiode [1..*]
 Arbeidsverhouding [0..*] ──── Werkzoekende [1..1]
 Bemiddelingsberoep [0..*] ──── Werkzoekende [1..1]
 Opleiding [1..1] ──── Opleidingsnaam [1..1]
-OpleidingsnaamGecodeerd [0..*] ──── OpleidingsnaamGecodeerd [1..1]
+OpleidingsnaamGecodeerd [0..*] ──── OpleidingsnaamGecodeerd [1..1] (heeft synoniem)
 Opleidingsniveau [1..1] ──── Opleiding [0..*]
 Reintegratievoorziening [0..1] ──── Loonkostensubsidie [0..1]
 Werkzoekende [1..1] ──── Arbeidsmarktkwalificaties [1..*]
@@ -100,10 +100,10 @@ Werkzoekende [1..1] ──── Rijbewijs /Certificaat [0..*]
 Werkzoekende [1..1] ──── Taalbeheersing [1..*]
 Werkzoekende [1..1] ──── TaalbeheersingNederlands [1..1]
 Werkzoekende [1..1] ──── Voorkeur [0..*]
-Werkzoekende [`1..`1] ──── VrijstellingArbeidsplicht [0..1] (`1)
+Werkzoekende [`1..`1] ──── VrijstellingArbeidsplicht [0..1]
 Werkzoekende [1..1] ──── Werkervaring [0..*]
 Werkzoekende [1..1] ──── Werkzaamheden anders dan in arbeidsverhouding [0..*]
-Werkzoekende [`1..`1] ──── ZelfredzaamheidScore [1..*] (`1)
+Werkzoekende [`1..`1] ──── ZelfredzaamheidScore [1..*]
 ```
 
 ## Observaties

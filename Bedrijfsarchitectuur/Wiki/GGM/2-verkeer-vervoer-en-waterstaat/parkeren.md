@@ -41,22 +41,22 @@ Parkeerzone (abstract)
 ## Relatiediagrammen
 
 ```
-MulderFeit ──── Voertuig
-Parkeerrecht [0..*] ──── Belprovider [0..1]
-Parkeerrecht ──── Parkeerzone
-Parkeerrecht ──── Voertuig
-Parkeerscan [0..1] ──── Naheffing [0..1]
-Parkeerscan ──── Parkeerrecht
-Parkeerscan ──── Parkeervlak
-Parkeerscan ──── Voertuig
-Parkeervergunning ──── Parkeerrecht
-Parkeervergunning ──── Parkeerzone
-Parkeerzone [1..1] ──── Parkeervlak [0..*]
-Parkeerzone [1..1] ──── Straatsectie [0..*]
-Productgroep ──── Parkeervergunning
-Productsoort ──── Parkeervergunning
-Productsoort [0..*] ──── Productgroep [1..1]
-Straatsectie [1..1] ──── Parkeervlak [0..*]
+MulderFeit [0..*] ──── Voertuig [0..1] (betreft voertuig)
+Parkeerrecht [0..*] ──── Belprovider [0..1] (leverancier)
+Parkeerrecht [0..*] ──── Parkeerzone [1..*] (betreft)
+Parkeerrecht [0..*] ──── Voertuig [1] (betreft)
+Parkeerscan [0..1] ──── Naheffing [0..1] (komt voort uit)
+Parkeerscan [0..1] ──── Parkeerrecht [0..1] (verificatie)
+Parkeerscan [0..*] ──── Parkeervlak [1] (betreft)
+Parkeerscan [0..*] ──── Voertuig [1] (betreft)
+Parkeervergunning [0..1] ──── Parkeerrecht [0..1] (resulteert)
+Parkeervergunning [0..*] ──── Parkeerzone [1..*] (geldig voor)
+Parkeerzone [1..1] ──── Parkeervlak [0..*] (bevat)
+Parkeerzone [1..1] ──── Straatsectie [0..*] (bevat)
+Productgroep [1] ──── Parkeervergunning [0..*] (soort)
+Productsoort [1] ──── Parkeervergunning [0..*] (soort)
+Productsoort [0..*] ──── Productgroep [1..1] (valt binnen)
+Straatsectie [1..1] ──── Parkeervlak [0..*] (bevat)
 ```
 
 ## Observaties

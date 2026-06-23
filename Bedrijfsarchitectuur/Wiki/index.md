@@ -2,7 +2,7 @@
 
 ## Domeinen
 
-- [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
+- [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie (in behandeling, 5 BO's)
 - [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
@@ -35,6 +35,7 @@
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum|referendum]] — Volksstemming over een onderwerp, ingesteld door raad of burgers
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|stembureau]] — Fysieke locatie voor stemming met registratie adres, capaciteit, toegankelijkheid
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling|gemeenschappelijke-regeling]] — Publiekrechtelijke samenwerkingsconstructie op basis van Wgr
+- [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|partijsubsidie]] — Door gemeente verstrekte subsidie aan decentrale politieke partij ter versterking partijorganisatie (procesobject, GGM-hiaat)
 
 ### Economie (GGM taakveld 3 + Musea taakveld 5)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats|standplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (GGM Standplaats, Musea, sterk)
@@ -350,6 +351,8 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie|Versterking lokale democratie]] — VNG: initiatieven voor democratische vernieuwing
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet|VNG-inzet kabinet]] — VNG: agendapunten richting rijksoverheid
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — VNG: informatiegidsen voor raadsleden
+- [[Wiki/Bronsamenvattingen/Bestuur/model-subsidieregeling-politieke-partijen|Model Subsidieregeling decentrale politieke partijen]] — VNG: modelverordening partijsubsidie, 14 artikelen + toelichting
+- [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-subsidieregeling-politieke-partijen|Implementatiehandleiding subsidieregeling politieke partijen]] — VNG: implementatie-instructies, varianten, bedragen per gemeente
 
 ### Belastingen
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen|Belastingtypen]] — VNG: drie typen gemeentelijke belastingen

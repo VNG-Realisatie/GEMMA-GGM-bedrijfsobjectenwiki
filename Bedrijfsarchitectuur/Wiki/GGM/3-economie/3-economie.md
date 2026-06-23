@@ -35,7 +35,7 @@ Vestiging (abstract)
 ## Relatiediagrammen
 
 ```
-Hotel ──── Hotelbezoek
+Hotel [1] ──── Hotelbezoek [0..*] (heeft)
 ```
 
 ## Observaties

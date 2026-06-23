@@ -72,43 +72,44 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Activa [0..*] ──── Activasoort [1..1]
-Bankafschrift [1..1] ──── Bankafschriftregel [0..*]
-Bankafschriftregel [0..1] ──── Mutatie [0..1]
-Bankrekening [1..1] ──── Bankafschrift [0..*]
-Batch [1..1] ──── Batchregel [0..*]
-Batchregel [0..1] ──── Mutatie [0..1]
-Begroting [1..1] ──── Begrotingregel [0..*]
-Begrotingregel [0..*] ──── Doelstelling [0..1]
-Begrotingregel [0..*] ──── Hoofdrekening [0..1]
-Begrotingregel [0..*] ──── Hoofdstuk [1..1]
-Begrotingregel [0..*] ──── Kostenplaats [0..1]
-Begrotingregel [0..*] ──── Product [0..1]
-Debiteur [1..1] ──── Factuur [0..*]
-Doelstelling [1..*] ──── Opdrachtgever [1..1]
-Doelstelling [1..1] ──── Product [0..*]
-Factuur [1..1] ──── Factuurregel [1..*]
-Factuur ──── Inkooporder
-Factuur [0..*] ──── Kostenplaats [0..1]
-Factuurregel [0..1] ──── Mutatie [0..1]
-Hoofdrekening [0..*] ──── Activa [0..*]
-Hoofdrekening [1..1] ──── Hoofdrekening [0..*]
-Hoofdrekening [1..*] ──── Kostenplaats [0..*]
-Hoofdrekening [1..1] ──── Subrekening [0..*]
-Hoofdrekening [1..1] ──── Werkorder [0..*]
-Hoofdstuk [1..1] ──── Doelstelling [0..*]
-Inkooporder ──── Hoofdrekening
-Inkooporder ──── Inkooporder
-Kostenplaats ──── Inkooporder
-Kostenplaats [1..*] ──── Opdrachtnemer [1..1]
-Kostenplaats [1..1] ──── Subrekening [0..*]
-Kostenplaats [1..*] ──── Taakveld [1..*]
-Kostenplaats [1..1] ──── Werkorder [0..*]
-Mutatie [0..*] ──── Hoofdrekening [1..1]
-Mutatie [0..*] ──── Kostenplaats [1..1]
-Opdrachtgever [0..1] ──── Product [0..*]
-Opdrachtnemer [0..1] ──── Product [0..*]
-Product [0..*] ──── Kostenplaats [1..1]
+Activa [0..*] ──── Activasoort [1..1] (is soort)
+Bankafschrift [1..1] ──── Bankafschriftregel [0..*] (heeft)
+Bankafschriftregel [0..1] ──── Mutatie [0..1] (leidt tot)
+Bankrekening [1..1] ──── Bankafschrift [0..*] (heeft)
+Batch [1..1] ──── Batchregel [0..*] (heeft)
+Batchregel [0..1] ──── Mutatie [0..1] (leidt tot)
+Begroting [1..1] ──── Begrotingregel [0..*] (heeft)
+Begrotingregel [0..*] ──── Doelstelling [0..1] (betreft)
+Begrotingregel [0..*] ──── Hoofdrekening [0..1] (betreft)
+Begrotingregel [0..*] ──── Hoofdstuk [1..1] (betreft)
+Begrotingregel [0..*] ──── Kostenplaats [0..1] (betreft)
+Begrotingregel [0..*] ──── Product [0..1] (betreft)
+Debiteur [1..1] ──── Factuur [0..*] (heeft)
+Doelstelling [1..*] ──── Opdrachtgever [1..1] (is opdrachtgever)
+Doelstelling [1..1] ──── Product [0..*] (heeft)
+Factuur [1..1] ──── Factuurregel [1..*] (heeft)
+Factuur [0..*] ──── Inkooporder [0..1] (gedekt via)
+Factuur [0..*] ──── Kostenplaats [0..1] (schrijft op)
+Factuurregel [0..1] ──── Mutatie [0..1] (leidt tot)
+Hoofdrekening [0..*] ──── Activa [0..*] (heeft)
+Hoofdrekening [1..1] ──── Hoofdrekening [0..*] (valt binnen)
+Hoofdrekening [1..*] ──── Kostenplaats [0..*] (heeft)
+Hoofdrekening [1..1] ──── Subrekening [0..*] (heeft)
+Hoofdrekening [1..1] ──── Werkorder [0..*] (heeft)
+Hoofdstuk [1..1] ──── Doelstelling [0..*] (heeft)
+Inkooporder [0..*] ──── Hoofdrekening [1..*] (wordt geschreven op)
+Inkooporder [0..1] ──── Inkooporder [0..*] (gerelateerd)
+Inkooporder [0..1] ──── Inkooporder [0..1] (oorspronkelijk)
+Kostenplaats [0..*] ──── Inkooporder [0..*] (heeft)
+Kostenplaats [1..*] ──── Opdrachtnemer [1..1] (is budgetverantwoordelijk)
+Kostenplaats [1..1] ──── Subrekening [0..*] (heeft)
+Kostenplaats [1..*] ──── Taakveld [1..*] (heeft)
+Kostenplaats [1..1] ──── Werkorder [0..*] (heeft)
+Mutatie [0..*] ──── Hoofdrekening [1..1] (van)
+Mutatie [0..*] ──── Kostenplaats [1..1] (heeft betrekking op)
+Opdrachtgever [0..1] ──── Product [0..*] (is opdrachtgever)
+Opdrachtnemer [0..1] ──── Product [0..*] (is opdrachtnemer)
+Product [0..*] ──── Kostenplaats [1..1] (heeft)
 ```
 
 ## Observaties

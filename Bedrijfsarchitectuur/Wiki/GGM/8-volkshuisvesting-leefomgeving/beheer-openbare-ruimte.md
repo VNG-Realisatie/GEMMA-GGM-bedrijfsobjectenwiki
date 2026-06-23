@@ -264,18 +264,18 @@ Weginrichtingsobject (abstract)
 ## Relatiediagrammen
 
 ```
-Areaal [1..*] ──── Schouwronde [0..*]
-Beheerobject [1..1] ──── Logboek [0..1]
-CROW-Melding [0..*] ──── Kwaliteitscatalogus Openbare Ruimte [1..1]
-Geo-Object [1..1] ──── Beheerobject [0..1]
-Logboek [1..1] ──── Melding [0..*]
-MOOR-melding ──── Omgevingsvergunning
-MOOR-melding ──── Opbreking
-MOOR-melding ──── Proces-verbaal-MOOR-melding
-Melding [0..*] ──── Beheerobject [1..*]
-Schouwronde [0..1] ──── Melding [0..*]
-Uitvoerder Graafwerkzaamheden ──── MOOR-melding
-Uitvoerder Graafwerkzaamheden ──── Opbreking
+Areaal [1..*] ──── Schouwronde [0..*] (binnen)
+Beheerobject [1..1] ──── Logboek [0..1] (heeft)
+CROW-Melding [0..*] ──── Kwaliteitscatalogus Openbare Ruimte [1..1] (conform)
+Geo-Object [1..1] ──── Beheerobject [0..1] (verwijst naar)
+Logboek [1..1] ──── Melding [0..*] (bevat)
+MOOR-melding [0..*] ──── Omgevingsvergunning [0..1] (verplicht tot)
+MOOR-melding [0..1] ──── Opbreking [1] (betreft)
+MOOR-melding [1] ──── Proces-verbaal-MOOR-melding [0..*] (betreft)
+Melding [0..*] ──── Beheerobject [1..*] (betreft)
+Schouwronde [0..1] ──── Melding [0..*] (heeft)
+Uitvoerder Graafwerkzaamheden [1] ──── MOOR-melding [0..*] (doet)
+Uitvoerder Graafwerkzaamheden [1..] ──── Opbreking [0..*] (maakt)
 ```
 
 ## Observaties

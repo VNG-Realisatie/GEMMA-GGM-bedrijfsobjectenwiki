@@ -112,41 +112,41 @@ Toepasbare Regel (abstract)
 ## Relatiediagrammen
 
 ```
-Activiteit ──── Activiteit
-Gemachtigde ──── Verzoek
-Initiatiefnemer ──── Verzoek
-Instructieregel ──── Gebiedsaanwijzing
-Juridische Regel ──── Activiteit
-Juridische Regel ──── Idealisatie
-Juridische Regel ──── Regeltekst
-Juridische Regel ──── Thema
-Norm ──── Normwaarde
-Omgevingsdocument ──── Regeltekst
-Omgevingswaarderegel ──── Omgevingsnorm
-Omgevingswaarderegel ──── Omgevingswaarde
-Project ──── Projectactiviteit
-Project ──── Projectlocatie
-Projectactiviteit ──── Projectlocatie
-Regel voor Iedereen ──── Activiteit
-Regel voor Iedereen ──── Gebiedsaanwijzing
-Regel voor Iedereen ──── Omgevingsnorm
-Regeltekst ──── Idealisatie
-Regeltekst ──── Regeltekst
-Regeltekst ──── Thema
-Specificatie ──── Projectactiviteit
-Thema ──── Thema
-Toepasbare Regel ──── Activiteit
-Toepasbare Regel ──── Juridische Regel
-Toepasbare Regel [0..*] ──── ToepasbareRegelBestand [1..1]
-Toepasbare Regel [1..1] ──── Uitvoeringsregel [0..*]
-ToepasbareRegelBestand ──── Uitvoeringsregel
-Verzoek ──── Activiteit
-Verzoek ──── Bevoegd Gezag
-Verzoek ──── Project
-Verzoek ──── Projectactiviteit
-Verzoek ──── Specificatie
-Verzoek ──── Uitvoerende instantie
-Verzoek ──── Verzoek
+Activiteit [1] ──── Activiteit [0..1] (gerelateerde activiteit)
+Gemachtigde [0..1] ──── Verzoek [1..*] (dient in )
+Initiatiefnemer [1] ──── Verzoek [1..*] (heeft als verantwoordelijke)
+Instructieregel [0..*] ──── Gebiedsaanwijzing [0..*] (beschrijft gebiedsaanwijzing)
+Juridische Regel [1..*] ──── Activiteit [1..*] (geldt voor)
+Juridische Regel [0..*] ──── Idealisatie [0..*] (heeft idealisatie)
+Juridische Regel [1..*] ──── Regeltekst [1] (is opgenomen in)
+Juridische Regel [0..*] ──── Thema [0..*] (heeft thema)
+Norm [1] ──── Normwaarde [1..*] (bevat)
+Omgevingsdocument [1] ──── Regeltekst [1..*] (bevat)
+Omgevingswaarderegel [1..*] ──── Omgevingsnorm [0..*] (beschrijft)
+Omgevingswaarderegel [1..*] ──── Omgevingswaarde [0..*] (beschrijft)
+Project [1] ──── Projectactiviteit [0..*] (heeft)
+Project [1] ──── Projectlocatie [0..*] (heeft)
+Projectactiviteit [1..*] ──── Projectlocatie [1] (uitgevoerd op)
+Regel voor Iedereen [1..*] ──── Activiteit [0..*] (beschrijft activiteit)
+Regel voor Iedereen [0..*] ──── Gebiedsaanwijzing [0..*] (beschrijft gebiedsaanwijzing)
+Regel voor Iedereen [0..*] ──── Omgevingsnorm [0..*] (beschrijft norm)
+Regeltekst [0..*] ──── Idealisatie [0..*] (heeft idealisatie)
+Regeltekst [0..1] ──── Regeltekst [0..*] (werkingsgebied)
+Regeltekst [0..*] ──── Thema [0..*] (heeft thema)
+Specificatie [1..*] ──── Projectactiviteit [0..1] (gedefinieerd door)
+Thema [0..1] ──── Thema [0..*] (subthema)
+Toepasbare Regel [0..*] ──── Activiteit [1] (betreft)
+Toepasbare Regel [0..*] ──── Juridische Regel [1..*] (komt voort uit)
+Toepasbare Regel [0..*] ──── ToepasbareRegelBestand [1..1] (heeft)
+Toepasbare Regel [1..1] ──── Uitvoeringsregel [0..*] (heeft)
+ToepasbareRegelBestand [1] ──── Uitvoeringsregel [0..*] (bevat)
+Verzoek [0..*] ──── Activiteit [1..*] (betreft)
+Verzoek [0..*] ──── Bevoegd Gezag [1] (verantwoordelijke)
+Verzoek [1..*] ──── Project [1..] (betreft)
+Verzoek [1..*] ──── Projectactiviteit [0..*] (betreft)
+Verzoek [1] ──── Specificatie [0..*] (bevat)
+Verzoek [0..*] ──── Uitvoerende instantie [0..1] (behandelaar)
+Verzoek [0..1] ──── Verzoek [0..*] (betreft eerder verzoek)
 ```
 
 ## Observaties

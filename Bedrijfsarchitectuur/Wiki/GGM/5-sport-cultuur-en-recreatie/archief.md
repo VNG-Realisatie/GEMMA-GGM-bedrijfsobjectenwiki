@@ -77,27 +77,27 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Aanvraag [0..*] ──── Archiefstuk [0..*]
-Archief [0..*] ──── Archiefcategorie [0..*]
-Archief [0..*] ──── Rechthebbende [0..1]
-Archiefstuk [0..*] ──── Archief [1..1]
-Archiefstuk [1..1] ──── DigitaalBestand [0..*]
-Archiefstuk [1..1] ──── Nadere Toegang [0..1]
-Archiefstuk [0..*] ──── Ordeningsschema [0..*]
-Archiefstuk [0..*] ──── Uitgever [0..1]
-Archiefstuk [0..*] ──── Vindplaats [1..1]
-Bezoeker [1..1] ──── Aanvraag [0..*]
-Depot [1..1] ──── Stelling [0..*]
-Indeling [0..*] ──── Archief [1..1]
-Indeling [0..1] ──── Archiefstuk [0..*]
-Indeling [1..1] ──── Indeling [0..*]
-Kast [0..1] ──── Plank [0..*]
-Nadere Toegang [1..1] ──── Index [1..*]
-Stelling [1..1] ──── Kast [0..*]
-Vindplaats [0..*] ──── Depot [1..1]
-Vindplaats [0..*] ──── Kast [1..1]
-Vindplaats [0..*] ──── Plank [1..1]
-Vindplaats [0..*] ──── Stelling [0..1]
+Aanvraag [0..*] ──── Archiefstuk [0..*] (voor)
+Archief [0..*] ──── Archiefcategorie [0..*] (valt binnen)
+Archief [0..*] ──── Rechthebbende [0..1] (heeft)
+Archiefstuk [0..*] ──── Archief [1..1] (is onderdeel van)
+Archiefstuk [1..1] ──── DigitaalBestand [0..*] (heeft)
+Archiefstuk [1..1] ──── Nadere Toegang [0..1] (heeft)
+Archiefstuk [0..*] ──── Ordeningsschema [0..*] (heeft)
+Archiefstuk [0..*] ──── Uitgever [0..1] (heeft)
+Archiefstuk [0..*] ──── Vindplaats [1..1] (heeft)
+Bezoeker [1..1] ──── Aanvraag [0..*] (doet)
+Depot [1..1] ──── Stelling [0..*] (heeft)
+Indeling [0..*] ──── Archief [1..1] (hoort bij)
+Indeling [0..1] ──── Archiefstuk [0..*] (valt binnen)
+Indeling [1..1] ──── Indeling [0..*] (valt binnen)
+Kast [0..1] ──── Plank [0..*] (heeft)
+Nadere Toegang [1..1] ──── Index [1..*] (wordt beschreven)
+Stelling [1..1] ──── Kast [0..*] (heeft)
+Vindplaats [0..*] ──── Depot [1..1] (is te vinden in)
+Vindplaats [0..*] ──── Kast [1..1] (is te vinden in)
+Vindplaats [0..*] ──── Plank [1..1] (is te vinden in)
+Vindplaats [0..*] ──── Stelling [0..1] (is te vinden in)
 ```
 
 ## Observaties

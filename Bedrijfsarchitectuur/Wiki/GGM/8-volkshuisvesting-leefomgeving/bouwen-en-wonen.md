@@ -42,9 +42,9 @@ NietNatuurlijkPersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Plan ──── Gebouw
-Projectleider [0..1] ──── Plan [0..*]
-Projectontwikkelaar ──── Plan
+Plan [1] ──── Gebouw [1..*] (Bestaat uit)
+Projectleider [0..1] ──── Plan [0..*] (is projectleider van)
+Projectontwikkelaar [1..*] ──── Plan [0..*] (heeft)
 ```
 
 ## Observaties

@@ -39,10 +39,10 @@ Zaak (abstract)
 ## Relatiediagrammen
 
 ```
-AanleverendeOrganisatie [1..1] ──── Contactpersoon [1..*]
-Vroegsignaal ──── Signaalpartner
-Vroegsignaal ──── Vroegsignaalzaak
-Vroegsignaalzaak ──── Contactpoging
+AanleverendeOrganisatie [1..1] ──── Contactpersoon [1..*] (contactpersonen)
+Vroegsignaal [0..*] ──── Signaalpartner [1] (verzondenDoor)
+Vroegsignaal [1..*] ──── Vroegsignaalzaak [0..1] (opgepaktIn)
+Vroegsignaalzaak [1] ──── Contactpoging [0..*] (heeft)
 ```
 
 ## Observaties

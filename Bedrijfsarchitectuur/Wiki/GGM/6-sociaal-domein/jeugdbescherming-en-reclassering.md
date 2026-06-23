@@ -27,8 +27,8 @@ AanvraagOfMelding (abstract)
 ## Relatiediagrammen
 
 ```
-Zorgelijke Situatie ──── Leefgebied
-Zorgmelding ──── Zorgelijke Situatie
+Zorgelijke Situatie [1] ──── Leefgebied [0..*] (toelichting)
+Zorgmelding [1] ──── Zorgelijke Situatie [1..*] (naar aanleiding van)
 ```
 
 ## Observaties

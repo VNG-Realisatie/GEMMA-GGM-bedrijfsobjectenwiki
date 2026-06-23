@@ -95,45 +95,45 @@ OrganisatorischeEenheid (abstract)
 ## Relatiediagrammen
 
 ```
-Declaratie [0..*] ──── Declaratiesoort [1..1]
-Dienstverband ──── Functie
-Dienstverband ──── OrganisatorischeEenheidHR
-Disciplinaire Maatregel [0..*] ──── SoortDisciplinaireMaatregel [1..1]
-Formatieplaats ──── Dienstverband
-Formatieplaats ──── Functie
-Formatieplaats ──── OrganisatorischeEenheidHR
-Functie ──── NormProfiel
-GenotenOpleiding [0..*] ──── Opleiding [1..1]
-Individueel Keuzebudget [1..1] ──── KeuzebudgetBesteding [0..*]
-Individueel Keuzebudget [0..*] ──── Werknemer [1..1]
-Inzet ──── Dienstverband
-Inzet ──── Functie
-Inzet ──── OrganisatorischeEenheidHR
-KeuzebudgetBesteding [0..*] ──── KeuzebudgetBestedingsoort [1..1]
-NormProfiel ──── Functiehuis
-Opleiding [1..*] ──── Onderwijsinstituut [1..*]
-Relatie ──── Werknemer
-Rol ──── OrganisatorischeEenheidHR
-Sollicitant [1..1] ──── Sollicitatie [0..*]
-Sollicitatie [0..*] ──── Vacature [1..1]
-Sollicitatiegesprek [0..*] ──── Sollicitant [0..*]
-Sollicitatiegesprek [0..*] ──── Sollicitatie [1..1]
-Sollicitatiegesprek [0..*] ──── Werknemer [1..*]
-Uren [1..1] ──── Dienstverband [0..*]
-Vacature [0..*] ──── Functie [1..1]
-Verlof [0..*] ──── Verlofsoort [1..1]
-Verzuim [0..*] ──── Verzuimsoort [1..1]
-Werknemer [1..1] ──── Beoordeling [0..*]
-Werknemer [1..1] ──── Declaratie [0..*]
-Werknemer [1..1] ──── Dienstverband [1..*]
-Werknemer [1..1] ──── Disciplinaire Maatregel [0..*]
-Werknemer [1..1] ──── GenotenOpleiding [0..*]
-Werknemer [0..*] ──── Geweldsincident [1..1]
-Werknemer ──── Relatie
-Werknemer ──── Rol
-Werknemer [1..1] ──── Sollicitatie [0..*]
-Werknemer [1..1] ──── Verlof [0..*]
-Werknemer [1..1] ──── Verzuim [0..*]
+Declaratie [0..*] ──── Declaratiesoort [1..1] (soort declaratie)
+Dienstverband [0..*] ──── Functie [1] (dienstverband conform functie)
+Dienstverband [0..*] ──── OrganisatorischeEenheidHR [1..*] (onderdeel van)
+Disciplinaire Maatregel [0..*] ──── SoortDisciplinaireMaatregel [1..1] (soort maatregel)
+Formatieplaats [0..*] ──── Dienstverband [0..*] (toegewezen aan)
+Formatieplaats [0..*] ──── Functie [1..*] (functie van formatieplaats)
+Formatieplaats [1] ──── OrganisatorischeEenheidHR [0..1] (onderdeel van)
+Functie [1] ──── NormProfiel [1] (gebaseerd op)
+GenotenOpleiding [0..*] ──── Opleiding [1..1] (soort opleiding)
+Individueel Keuzebudget [1..1] ──── KeuzebudgetBesteding [0..*] (besteding)
+Individueel Keuzebudget [0..*] ──── Werknemer [1..1] (heeft individueel keuzebudget)
+Inzet [1] ──── Dienstverband [0..*] (aantal volgens inzet)
+Inzet [1] ──── Functie [1] (inzet voor functie)
+Inzet [0..*] ──── OrganisatorischeEenheidHR [1] (inzet bij)
+KeuzebudgetBesteding [0..*] ──── KeuzebudgetBestedingsoort [1..1] (soort besteding)
+NormProfiel [1..*] ──── Functiehuis [1] (onderdeel van)
+Opleiding [1..*] ──── Onderwijsinstituut [1..*] (wordt gegeven door)
+Relatie [0..*] ──── Werknemer [1] (is kind van)
+Rol [0..*] ──── OrganisatorischeEenheidHR [0..1] (hoort bij)
+Sollicitant [1..1] ──── Sollicitatie [0..*] (solliciteert op functie)
+Sollicitatie [0..*] ──── Vacature [1..1] (op vacature)
+Sollicitatiegesprek [0..*] ──── Sollicitant [0..*] (kandidaat)
+Sollicitatiegesprek [0..*] ──── Sollicitatie [1..1] (in kader van)
+Sollicitatiegesprek [0..*] ──── Werknemer [1..*] (doet sollicitatiegesprek)
+Uren [1..1] ──── Dienstverband [0..*] (aantal volgens inzet)
+Vacature [0..*] ──── Functie [1..1] (vacature bij functie)
+Verlof [0..*] ──── Verlofsoort [1..1] (soort verlof)
+Verzuim [0..*] ──── Verzuimsoort [1..1] (soort verzuim)
+Werknemer [1..1] ──── Beoordeling [0..*] (Beoordeeld door)
+Werknemer [1..1] ──── Declaratie [0..*] (dient in)
+Werknemer [1..1] ──── Dienstverband [1..*] (medewerker heeft dienstverband)
+Werknemer [1..1] ──── Disciplinaire Maatregel [0..*] (heeft maatregel)
+Werknemer [1..1] ──── GenotenOpleiding [0..*] (heeft genoten)
+Werknemer [0..*] ──── Geweldsincident [1..1] (heeft ondergaan)
+Werknemer [1] ──── Relatie [0..1] (is partner van)
+Werknemer [1..*] ──── Rol [0..*] (heeft)
+Werknemer [1..1] ──── Sollicitatie [0..*] (solliciteert)
+Werknemer [1..1] ──── Verlof [0..*] (heeft verlof)
+Werknemer [1..1] ──── Verzuim [0..*] (heeft verzuim)
 ```
 
 ## Observaties

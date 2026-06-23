@@ -510,76 +510,78 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Adresaanduiding ──── Nummeraanduiding
-Appartementsrechtsplitsing ──── SplitsingstekeningReferentie
-BenoemdObject ──── BenoemdObject (De verwijzing naar vervallen BENOEMD(e) OBJECT(en) waaruit het BENOEMD OBJECT is ontstaan en naar BENOEMD(e) OBJECT (en) waarin een vervallen BENOEMD OBJECT is overgegaan.)
+Adresaanduiding [0..1] ──── Nummeraanduiding [0..1] (verwijst naar)
+Appartementsrechtsplitsing [1] ──── SplitsingstekeningReferentie [1..*]
+BenoemdObject [1..*] ──── BenoemdObject [0..*] (De verwijzing naar vervallen BENOEMD(e) OBJECT(en) waaruit het BENOEMD OBJECT is ontstaan en naar BENOEMD(e) OBJECT (en) waarin een vervallen BENOEMD OBJECT is overgegaan.)
 Briefadres [0..*] ──── Nummeraanduiding [1..1]
-Buurt ──── Wijk (De wijk waarin de buurt is gelegen.)
-FunctioneelGebied ──── SoortFunctioneelGebied
-Gebied [0..1] ──── Buurt [0..1]
-GeboorteIngeschrevenNatuurlijkPersoon ──── Woonplaats
-Gemeente ──── Gemeente (De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan.)
-Huishouden ──── IngeschrevenPersoon
+Buurt [1..*] ──── Wijk [1] (De wijk waarin de buurt is gelegen.)
+FunctioneelGebied [0..*] ──── SoortFunctioneelGebied [1]
+Gebied [0..1] ──── Buurt [0..1] (komt overeen)
+GeboorteIngeschrevenNatuurlijkPersoon [0..*] ──── Woonplaats [0..1] (heeft plaatsgevonden in )
+Gemeente [1..*] ──── Gemeente [0..*] (De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan.)
+Huishouden [0..1] ──── IngeschrevenPersoon [1..*] (heeft)
 IngeschrevenPersoon [1..*] ──── Briefadres [0..1]
-IngeschrevenPersoon [1..1] ──── IngeschrevenPersoon [1..1]
-IngeschrevenPersoon ──── Reisdocument
-Ingezetene ──── Verblijfstitel (De verwijzing naar de VERBLIJFSTITEL die aangeeft over welke verblijfsrechtelijke status de ingezetene beschikt.)
-KadastraleOnroerendeZaak [1..1] ──── KadastraleOnroerendeZaak [0..*]
-KadastraleOnroerendeZaak ──── KadastraleOnroerendeZaak (De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan.)
-KadastraleOnroerendeZaak ──── KoopsomKadastraleOnroerendeZaak
-KadastraleOnroerendeZaak ──── LocatieKadastraleOnroerendeZaak
-KadastraleOnroerendeZaakAantekening ──── KadastraleOnroerendeZaak (De KADASTRALE ONROERENDE ZAAK waarbij de AANTEKENING geplaatst is.)
-Kunstwerkdeel ──── SoortKunstwerk
-MaatschappelijkeActiviteit ──── NatuurlijkPersoon (nog niet in NHR uitgewerkt)
-MaatschappelijkeActiviteit ──── Rechtspersoon
-NatuurlijkPersoon [1..1] ──── Nationaliteit [1..*]
-NietNatuurlijkPersoon ──── NatuurlijkPersoon
-NietNatuurlijkPersoon ──── Vestiging
-Nummeraanduiding ──── AdresseerbaarObjectAanduiding (De unieke aanduiding van de Nummeraanduiding die in het kader van de Basisregistratie Adressen en Gebouwen is aangemerkt als het hoofdadres van een adresseerbaar object.)
-Nummeraanduiding ──── Buurt (De BUURT waarin een BENOEMD OBJECT is gelegen.)
-Nummeraanduiding ──── Gebied
-Nummeraanduiding ──── OpenbareRuimte (De unieke aanduiding van een OPENBARE RUIMTE waaraan het object, waaraan de ADRESSEERBAAR OBJECT AANDUIDING is toegekend, is gelegen.)
-Nummeraanduiding ──── Woonplaats (De unieke aanduiding van de WOONPLAATS waarbinnen het object, waaraan de ADRESSEERBAAR OBJECT AANDUIDING is toegekend, is gelegen.)
-ObjecttypeA ──── ObjecttypeB
-ObjecttypeD ──── ObjecttypeB
-ObjecttypeE ──── ObjecttypeF
-ObjecttypeE ──── ObjecttypeG
-OntbindingHuwelijk/geregistreerdPartnerschap ──── Woonplaats (De woonplaats van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd.)
-OpenbareRuimte ──── Woonplaats (Unieke aanduiding van de woonplaats waarbinnen een OPENBARE RUIMTE is gelegen.)
-OverigBenoemdTerrein ──── OverigeAdresseerbaarObjectAanduiding (De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen.)
-OverigBouwwerk ──── SoortOverigBouwwerk
-OverigGebouwdObject ──── OverigBouwwerk (Een OVERIG BOUWWERK dat een equivalent is van een OVERIG GEBOUWD OBJECT.)
-OverigGebouwdObject ──── OverigeAdresseerbaarObjectAanduiding (De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen.)
-OverlijdenIngeschrevenNatuurlijkPersoon ──── Woonplaats (De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar de persoon is overleden.)
-Postadres ──── Woonplaats (De woonplaats die behoort bij het postadres van het SUBJECT)
-Rechtspersoon [1..1] ──── AdresBuitenland [0..1]
-Rechtspersoon ──── Tenaamstelling
-Scheiding ──── SoortScheiding
-SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap ──── Woonplaats (De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.)
-Spoor ──── SoortSpoor
+IngeschrevenPersoon [1..1] ──── IngeschrevenPersoon [1..1] (Ouder 2)
+IngeschrevenPersoon [1] ──── Reisdocument [0..*] (is verstrekt aan)
+Ingezetene [0..*] ──── Verblijfstitel [0..1] (De verwijzing naar de VERBLIJFSTITEL die aangeeft over welke verblijfsrechtelijke status de ingezetene beschikt.)
+KadastraleOnroerendeZaak [1..1] ──── KadastraleOnroerendeZaak [0..*] (gerelateerd)
+KadastraleOnroerendeZaak [0..*] ──── KadastraleOnroerendeZaak [0..*] (De verwijzing naar andere KADASTRALE ONROERENDE ZAAKen waaruit de KADASTRALE ONROERENDE ZAAK is ontstaan.)
+KadastraleOnroerendeZaak [1] ──── KoopsomKadastraleOnroerendeZaak [0..1]
+KadastraleOnroerendeZaak [1] ──── LocatieKadastraleOnroerendeZaak [1..*]
+KadastraleOnroerendeZaakAantekening [0..*] ──── KadastraleOnroerendeZaak [1] (De KADASTRALE ONROERENDE ZAAK waarbij de AANTEKENING geplaatst is.)
+Kunstwerkdeel [0..*] ──── SoortKunstwerk [1]
+MaatschappelijkeActiviteit [0..*] ──── NatuurlijkPersoon [1..] (nog niet in NHR uitgewerkt)
+MaatschappelijkeActiviteit [0..1] ──── Rechtspersoon [1] (heeft als eigenaar)
+NatuurlijkPersoon [1..1] ──── Nationaliteit [1..*] (heeft)
+NietNatuurlijkPersoon [0..*] ──── NatuurlijkPersoon [0..*] (contactpersoon)
+NietNatuurlijkPersoon [1] ──── Vestiging [0..*] (heeft)
+Nummeraanduiding [1] ──── AdresseerbaarObjectAanduiding [0..1] (De unieke aanduiding van de Nummeraanduiding die in het kader van de Basisregistratie Adressen en Gebouwen is aangemerkt als het hoofdadres van een adresseerbaar object.)
+Nummeraanduiding [1..*] ──── AdresseerbaarObjectAanduiding [0..*] (heeft als nevenadres)
+Nummeraanduiding [0..*] ──── Buurt [0..1] (De BUURT waarin een BENOEMD OBJECT is gelegen.)
+Nummeraanduiding [0..*] ──── Gebied [0..*] (ligt in)
+Nummeraanduiding [0..*] ──── OpenbareRuimte [1] (De unieke aanduiding van een OPENBARE RUIMTE waaraan het object, waaraan de ADRESSEERBAAR OBJECT AANDUIDING is toegekend, is gelegen.)
+Nummeraanduiding [0..*] ──── Woonplaats [0..1] (De unieke aanduiding van de WOONPLAATS waarbinnen het object, waaraan de ADRESSEERBAAR OBJECT AANDUIDING is toegekend, is gelegen.)
+ObjecttypeA [1] ──── ObjecttypeB [0..*] (naam1 (werkwoord))
+ObjecttypeD [0..*] ──── ObjecttypeB [1..*] (naam2 (werkwoord))
+ObjecttypeE [0..*] ──── ObjecttypeF [1] (naam3)
+ObjecttypeE [0..*] ──── ObjecttypeG [1] (naam4)
+OntbindingHuwelijk/geregistreerdPartnerschap [0..*] ──── Woonplaats [0..1] (De woonplaats van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is ontbonden, dan wel het geregistreerd partnerschap is beëindigd.)
+OpenbareRuimte [1..*] ──── Woonplaats [1..] (Unieke aanduiding van de woonplaats waarbinnen een OPENBARE RUIMTE is gelegen.)
+OverigBenoemdTerrein [0..1] ──── OverigeAdresseerbaarObjectAanduiding [1] (De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen.)
+OverigBouwwerk [0..*] ──── SoortOverigBouwwerk [1]
+OverigGebouwdObject [0..1] ──── OverigBouwwerk [0..1] (Een OVERIG BOUWWERK dat een equivalent is van een OVERIG GEBOUWD OBJECT.)
+OverigGebouwdObject [0..1] ──── OverigeAdresseerbaarObjectAanduiding [0..1] (De OVERIGE ADRESSEERBAAR OBJECT AANDUIDING waaronder het officiële adres is opgenomen.)
+OverlijdenIngeschrevenNatuurlijkPersoon [0..*] ──── Woonplaats [0..1] (De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar de persoon is overleden.)
+Postadres [0..*] ──── Woonplaats [1] (De woonplaats die behoort bij het postadres van het SUBJECT)
+Rechtspersoon [1..1] ──── AdresBuitenland [0..1] (heeft)
+Rechtspersoon [1] ──── Tenaamstelling [0..*] (heeft)
+Scheiding [0..*] ──── SoortScheiding [1]
+SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap [0..*] ──── Woonplaats [0..1] (De naam van een door het bevoegde gemeentelijk orgaan als zodanig aangewezen gedeelte van het gemeentelijk grondgebied waar het huwelijk is gesloten of het geregistreerd partnerschap is aangegaan.)
+Spoor [0..*] ──── SoortSpoor [1]
 Tenaamstelling [1..1] ──── Aantekening [0..*]
-Tenaamstelling ──── ZakelijkRecht (Een verwijzing naar het recht dat door een persoon wordt uitgeoefend op een kadastrale onroerende zaak.)
-VerblijfadresIngeschrevenNatuurlijkPersoon ──── AdresseerbaarObjectAanduiding (De NUMMERAANDUIDING bij het ADRESSEERBAAR OBJECT waarin de INGESCHREVEN NATUURLIJK PERSOON verblijft en die hij/zij gekozen heeft als inschrijvingsadres.)
-VerblijfadresIngeschrevenNatuurlijkPersoon ──── Ligplaats (De LIGPLAATS behorende bij het woonadres van de persoon)
-VerblijfadresIngeschrevenNatuurlijkPersoon ──── Standplaats (De STANDPLAATS behorende bij het woonadres van de persoon)
-VerblijfadresIngeschrevenNatuurlijkPersoon ──── Verblijfsobject (Het VERBLIJFSOBJECT behorende bij het woonadres van de persoon)
-VerblijfadresIngeschrevenNatuurlijkPersoon ──── Woonplaats
-Verblijfsobject ──── Pand (De unieke aanduidingen van de PANDEN waarvan het VERBLIJFSOBJECT onderdeel uitmaakt.)
-Vestiging ──── BenoemdObject (De BENOEMDe OBJECTen waarin zich de gedeelten van een VESTIGING bevinden die niet beschouwd worden als hoofdlocatie voor de uitvoering van de activiteiten van deze VESTIGING.)
-Vestiging ──── MaatschappelijkeActiviteit (De MAATSCHAPPELIJKE ACTIVITEIT die activiteiten uitoefent voor een VESTIGING)
-Vestiging ──── Nummeraanduiding (De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (één van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres.)
-Vestiging ──── SBIActiviteitVestiging
-WOZ-Waarde ──── WOZ-object (De aan het WOZ-OBJECT gerelateerde WOZ-WAARDEn)
-WOZ-deelobject ──── WOZ-object (De unieke aanduidingen van de WOZ-DEELOBJECTen waaruit het WOZ-OBJECT bestaat.)
-WOZ-object [0..*] ──── KadastraleOnroerendeZaak [0..*]
-WOZ-object ──── KadastraleOnroerendeZaak (De unieke aanduidingen van de KADASTRALE ONROERENDE ZAAKen opgenomen in de Basis Registratie Kadaster die geheel of gedeeltelijk deel uitmaken van het WOZ-OBJECT.)
-Wijk ──── Gemeente (De gemeente waarin de wijk is gelegen.)
-Woonplaats ──── Gemeente (De GEMEENTE waarin de WOONPLAATS is gelegen.)
-ZakelijkRecht ──── KadastraleOnroerendeZaak (Een verwijzing naar de KADASTRALE ONROERENDE ZAAK waarop het ZAKELIJK RECHT betrekking heeft.)
-ZakelijkRecht ──── Tenaamstelling (Verwijzing naar de TENAAMSTELLING waarop het ZAKELIJK RECHT beperking heeft.)
-ZakelijkRecht ──── ZakelijkRecht (Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast.)
-Zekerheidsrecht ──── KadastraleOnroerendeZaak (De KADASTRAAL ONROERENDE ZAAK waarop een ZEKERHEIDSRECHT rust.)
-Zekerheidsrecht ──── Tenaamstelling (De TENAAMSTELLING waarop een ZEKERHEIDSRECHT rust.)
+Tenaamstelling [0..*] ──── ZakelijkRecht [1] (Een verwijzing naar het recht dat door een persoon wordt uitgeoefend op een kadastrale onroerende zaak.)
+VerblijfadresIngeschrevenNatuurlijkPersoon [0..*] ──── AdresseerbaarObjectAanduiding [0..1] (De NUMMERAANDUIDING bij het ADRESSEERBAAR OBJECT waarin de INGESCHREVEN NATUURLIJK PERSOON verblijft en die hij/zij gekozen heeft als inschrijvingsadres.)
+VerblijfadresIngeschrevenNatuurlijkPersoon [0..*] ──── Ligplaats [0..1] (De LIGPLAATS behorende bij het woonadres van de persoon)
+VerblijfadresIngeschrevenNatuurlijkPersoon [0..*] ──── Standplaats [0..1] (De STANDPLAATS behorende bij het woonadres van de persoon)
+VerblijfadresIngeschrevenNatuurlijkPersoon [0..*] ──── Verblijfsobject [0..1] (Het VERBLIJFSOBJECT behorende bij het woonadres van de persoon)
+VerblijfadresIngeschrevenNatuurlijkPersoon [0..*] ──── Woonplaats [0..1] (verblijft op locatie in)
+Verblijfsobject [0..*] ──── Pand [1..*] (De unieke aanduidingen van de PANDEN waarvan het VERBLIJFSOBJECT onderdeel uitmaakt.)
+Vestiging [0..*] ──── BenoemdObject [0..*] (De BENOEMDe OBJECTen waarin zich de gedeelten van een VESTIGING bevinden die niet beschouwd worden als hoofdlocatie voor de uitvoering van de activiteiten van deze VESTIGING.)
+Vestiging [0..*] ──── BenoemdObject [0..1] (Het BENOEMD OBJECT waarin of waarop zich (het gedeelte van) de VESTIGING bevindt dat beschouwd wordt als hoofdlocatie voor de uitvoering van de activiteiten van deze VESTIGING)
+Vestiging [0..*] ──── MaatschappelijkeActiviteit [1] (De MAATSCHAPPELIJKE ACTIVITEIT die activiteiten uitoefent voor een VESTIGING)
+Vestiging [0..1] ──── MaatschappelijkeActiviteit [0..1] (De door de MAATSCHAPPELIJKE ACTIVITEIT aangemerkte VESTIGING als hoofdvestiging.)
+Vestiging [0..*] ──── Nummeraanduiding [1] (De ADRESSEERBAAR OBJECT AANDUIDING bij het BENOEMD OBJECT waarin de VESTIGING (één van) haar lokatie(s) heeft en die bij inschrijving gekozen is als vestigingssadres.)
+Vestiging [1] ──── SBIActiviteitVestiging [1..*]
+WOZ-Waarde [0..*] ──── WOZ-object [1] (De aan het WOZ-OBJECT gerelateerde WOZ-WAARDEn)
+WOZ-deelobject [1..*] ──── WOZ-object [1] (De unieke aanduidingen van de WOZ-DEELOBJECTen waaruit het WOZ-OBJECT bestaat.)
+WOZ-object [0..*] ──── KadastraleOnroerendeZaak [0..*] (bevat)
+Wijk [1..*] ──── Gemeente [1] (De gemeente waarin de wijk is gelegen.)
+Woonplaats [1..*] ──── Gemeente [1] (De GEMEENTE waarin de WOONPLAATS is gelegen.)
+ZakelijkRecht [1..*] ──── KadastraleOnroerendeZaak [0..1] (Een verwijzing naar de KADASTRALE ONROERENDE ZAAK waarop het ZAKELIJK RECHT betrekking heeft.)
+ZakelijkRecht [0..*] ──── Tenaamstelling [0..*] (Verwijzing naar de TENAAMSTELLING waarop het ZAKELIJK RECHT beperking heeft.)
+ZakelijkRecht [0..1] ──── ZakelijkRecht [0..*] (Verwijzing naar het ZAKELIJK RECHT waarmee het onderhavige ZAKELIJK RECHT is belast.)
+Zekerheidsrecht [0..*] ──── KadastraleOnroerendeZaak [0..1] (De KADASTRAAL ONROERENDE ZAAK waarop een ZEKERHEIDSRECHT rust.)
+Zekerheidsrecht [0..*] ──── Tenaamstelling [0..1] (De TENAAMSTELLING waarop een ZEKERHEIDSRECHT rust.)
 ```
 
 ## Observaties

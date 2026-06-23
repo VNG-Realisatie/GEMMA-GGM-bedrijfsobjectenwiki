@@ -43,11 +43,11 @@ Sportlocatie (abstract)
 ## Relatiediagrammen
 
 ```
-Binnenlocatie ──── Belijning
-Binnenlocatie ──── Sportmateriaal
-Sportpark ──── Veld
-Sportvereniging ──── Sportlocatie
-Veld ──── Belijning
+Binnenlocatie [0..*] ──── Belijning [0..*] (heeft)
+Binnenlocatie [0..*] ──── Sportmateriaal [0..*] (heeft)
+Sportpark [0..1] ──── Veld [0..*] (heeft)
+Sportvereniging [0..*] ──── Sportlocatie [0..*] (gebruikt)
+Veld [0..*] ──── Belijning [0..*] (heeft)
 ```
 
 ## Observaties

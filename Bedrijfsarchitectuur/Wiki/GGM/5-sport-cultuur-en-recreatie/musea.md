@@ -95,36 +95,36 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Activiteit ──── Activiteit
-Activiteit ──── Activiteitsoort
-Activiteit [1..1] ──── Reservering [0..*]
-Activiteit ──── Rondleiding
-Balieverkoop ──── Prijs
-Balieverkoop ──── Product
-Bruikleen ──── Tentoonstelling
-Collectie [0..*] ──── Museumobject [0..*]
-Doelgroep ──── Doelgroep
-Incident ──── Museumobject
-Lener ──── Bruikleen
-Mailing ──── Museumrelatie
-Museumobject ──── Belanghebbende
-Museumobject ──── Bruikleen (In TMS loopt dit via LoanObjRefs)
-Museumobject ──── Standplaats
-Museumobject ──── Tentoonstelling
-Museumrelatie ──── Doelgroep
-Museumrelatie ──── Programma
-Product ──── Omzetgroep
-Product ──── Prijs
-Product ──── Productgroep
-Programma ──── Activiteit
-Programma ──── Programmasoort
-Reservering ──── Productie-eenheid
-Reservering ──── Voorziening
-Reservering ──── Zaal
-Rondleiding ──── Tentoonstelling
-Samensteller ──── Tentoonstelling
+Activiteit [1] ──── Activiteit [0..*] (bestaat uit)
+Activiteit [0..*] ──── Activiteitsoort [1] (van soort)
+Activiteit [1..1] ──── Reservering [0..*] (heeft)
+Activiteit [0..*] ──── Rondleiding [0..1] (heeft)
+Balieverkoop [0..*] ──── Prijs [1] (tegen prijs)
+Balieverkoop [0..*] ──── Product [1] (betreft)
+Bruikleen [0..*] ──── Tentoonstelling [0..*] (is bedoeld voor)
+Collectie [0..*] ──── Museumobject [0..*] (bevat)
+Doelgroep [1] ──── Doelgroep [0..*] (bestaat uit)
+Incident [0..*] ──── Museumobject [0..*] (betreft)
+Lener [1..*] ──── Bruikleen [0..*] (is)
+Mailing [0..*] ──── Museumrelatie [0..*] (versturen aan)
+Museumobject [0..*] ──── Belanghebbende [0..*] (heeft)
+Museumobject [0..*] ──── Bruikleen [0..1] (In TMS loopt dit via LoanObjRefs)
+Museumobject [0..*] ──── Standplaats [0..1] (locatie)
+Museumobject [0..*] ──── Tentoonstelling [0..*] (onderdeel)
+Museumrelatie [0..*] ──── Doelgroep [0..*] (valt binnen)
+Museumrelatie [1] ──── Programma [0..*] (voor)
+Product [0..*] ──── Omzetgroep [0..*] (valt binnen)
+Product [1] ──── Prijs [1..*] (heeft prijs)
+Product [0..*] ──── Productgroep [0..*] (valt binnen)
+Programma [1] ──── Activiteit [0..*] (bestaat uit)
+Programma [0..*] ──── Programmasoort [0..*] (voor)
+Reservering [0..*] ──── Productie-eenheid [0..1] (betreft)
+Reservering [0..*] ──── Voorziening [0..1] (betreft)
+Reservering [0..*] ──── Zaal [0..1] (betreft)
+Rondleiding [0..*] ──── Tentoonstelling [0..1] (voor)
+Samensteller [0..*] ──── Tentoonstelling [0..*] (stelt samen)
 Tentoonstelling [0..*] ──── Zaal [0..*]
-Winkelvoorraaditem ──── Product
+Winkelvoorraaditem [0..1] ──── Product [1] (betreft)
 ```
 
 ## Observaties

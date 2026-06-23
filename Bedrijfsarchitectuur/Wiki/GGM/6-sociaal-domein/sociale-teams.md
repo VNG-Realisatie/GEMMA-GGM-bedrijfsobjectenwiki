@@ -25,14 +25,14 @@ aantal_entiteiten: 9
 ## Relatiediagrammen
 
 ```
-Behandeling [0..*] ──── Behandelsoort [1..1]
-Bijzonderheid [0..*] ──── Bijzonderheidsoort [1..1]
-Doelstelling [0..*] ──── Doelstellingsoort [1..1]
-SociaalTeamDossier [1..1] ──── Behandeling [0..*]
-SociaalTeamDossier [1..1] ──── Bijzonderheid [0..*]
-SociaalTeamDossier [0..1] ──── Caseaanmelding [0..1]
-SociaalTeamDossier [1..1] ──── Doelstelling [0..*]
-SociaalTeamDossier [0..*] ──── SociaalteamDossiersoort [1..1]
+Behandeling [0..*] ──── Behandelsoort [1..1] (is van soort)
+Bijzonderheid [0..*] ──── Bijzonderheidsoort [1..1] (is van soort)
+Doelstelling [0..*] ──── Doelstellingsoort [1..1] (is van soort)
+SociaalTeamDossier [1..1] ──── Behandeling [0..*] (heeft behandeling)
+SociaalTeamDossier [1..1] ──── Bijzonderheid [0..*] (heeft bijzonderheid)
+SociaalTeamDossier [0..1] ──── Caseaanmelding [0..1] (heeft aanmelding)
+SociaalTeamDossier [1..1] ──── Doelstelling [0..*] (heeft doelstelling)
+SociaalTeamDossier [0..*] ──── SociaalteamDossiersoort [1..1] (heeft soort)
 ```
 
 ## Observaties

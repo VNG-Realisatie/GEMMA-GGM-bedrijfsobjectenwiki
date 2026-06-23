@@ -80,42 +80,42 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Aanmelding ──── Intake
-Begeleiding ──── Begeleidingssoort
-Begeleiding ──── Nazorg
-Intake ──── Begeleiding
-Intake ──── InformatieEnAdvies
-Intake ──── Stabilisatie
-Leefsituatie ──── Inkomen
-Leefsituatie ──── Ondernemer
-Leefsituatie ──── Partner
-Leefsituatie ──── Woningbezit
-Oplossing ──── Nazorg
-Oplossing ──── Oplossingssoort
-Schuld ──── Schuldeiser
-Schuldhulporganisatie ──── Begeleidingssoort
-Schuldhulporganisatie [1..*] ──── Contactpersoon [0..*]
-Schuldhulporganisatie ──── Oplossingssoort
-Schuldhulporganisatie ──── Schuldhulptraject
-Schuldhulptraject ──── Aanmelding
-Schuldhulptraject ──── Begeleiding
-Schuldhulptraject ──── Crisisinterventie
-Schuldhulptraject ──── InformatieEnAdvies
-Schuldhulptraject ──── Intake
-Schuldhulptraject ──── Moratorium
-Schuldhulptraject ──── Nazorg
-Schuldhulptraject ──── Oplossing
-Schuldhulptraject ──── PlanVanAanpak
-Schuldhulptraject ──── Schuld
-Schuldhulptraject ──── Schuldregeling
-Schuldhulptraject ──── Stabilisatie
-Schuldhulptraject ──── Uitstroom
-Schuldhulptraject ──── VoorlopigeVoorziening 
-Schuldregeling ──── Begeleiding
-Schuldregeling ──── Oplossing
-Stabilisatie ──── Begeleiding
-Stabilisatie ──── Schuldregeling
-WSNP-traject ──── Leefsituatie
+Aanmelding [1] ──── Intake [0..1] (resulteert in)
+Begeleiding [0..*] ──── Begeleidingssoort [1] (soort)
+Begeleiding [0..1] ──── Nazorg [0..1] (resulteert in)
+Intake [0..1] ──── Begeleiding [0..*] (resulteert in)
+Intake [0..1] ──── InformatieEnAdvies [0..1] (resulteert in)
+Intake [1] ──── Stabilisatie [0..1] (resulteert in )
+Leefsituatie [1] ──── Inkomen [0..*] (heeft)
+Leefsituatie [1] ──── Ondernemer [0..1] (is)
+Leefsituatie [0..1] ──── Partner [0..*] (heeft)
+Leefsituatie [0..*] ──── Woningbezit [0..*] (heeft)
+Oplossing [0..1] ──── Nazorg [0..1] (resulteert in)
+Oplossing [0..*] ──── Oplossingssoort [1] (soort)
+Schuld [0..*] ──── Schuldeiser [1] (schuld bij)
+Schuldhulporganisatie [0..*] ──── Begeleidingssoort [0..*] (dienstverlening)
+Schuldhulporganisatie [1..*] ──── Contactpersoon [0..*] (heeft)
+Schuldhulporganisatie [0..*] ──── Oplossingssoort [0..*] (dienstverlening)
+Schuldhulporganisatie [1..*] ──── Schuldhulptraject [0..*] (voert traject uit)
+Schuldhulptraject [1] ──── Aanmelding [0..1] (bevat)
+Schuldhulptraject [1] ──── Begeleiding [0..*] (bevat)
+Schuldhulptraject [1] ──── Crisisinterventie [0..*] (kan hebben)
+Schuldhulptraject [1] ──── InformatieEnAdvies [0..1] (bevat)
+Schuldhulptraject [1] ──── Intake [0..1] (bevat)
+Schuldhulptraject [1] ──── Moratorium [0..*] (kan hebben)
+Schuldhulptraject [1] ──── Nazorg [0..1] (bevat)
+Schuldhulptraject [1] ──── Oplossing [0..1] (bevat)
+Schuldhulptraject [1] ──── PlanVanAanpak [0..1] (heeft)
+Schuldhulptraject [1] ──── Schuld [0..*] (heeft)
+Schuldhulptraject [1] ──── Schuldregeling [0..1] (bevat)
+Schuldhulptraject [1] ──── Stabilisatie [0..1] (bevat)
+Schuldhulptraject [1] ──── Uitstroom [0..1] (uitstroom)
+Schuldhulptraject [1] ──── VoorlopigeVoorziening  [0..*] (heeft)
+Schuldregeling [0..1] ──── Begeleiding [0..*] (resulteert in)
+Schuldregeling [1] ──── Oplossing [0..1] (resulteert in)
+Stabilisatie [0..1] ──── Begeleiding [0..*] (resulteert in)
+Stabilisatie [1] ──── Schuldregeling [0..1] (resulteert in)
+WSNP-traject [0..*] ──── Leefsituatie [1] (heeft)
 ```
 
 ## Observaties

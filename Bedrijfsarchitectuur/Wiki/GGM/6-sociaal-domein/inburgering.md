@@ -76,40 +76,40 @@ Vreemdeling (abstract)
 
 ```
 Aandachtspunt  [0..0] ──── Subdoel Aandachtspunt [0..*]
-Aanvraag verlenging Inburgeringstermijn [1..1] ──── Inburgeringstermijn [1..*]
-Aanvraag verlenging Inburgeringstermijn ──── Verlengingsgrond
-Asielstatushouder ──── Diplomawaardering
-Asielstatushouder ──── Educatie
-Asielstatushouder ──── ICT-Vaardigheid
-Asielstatushouder ──── Taalvaardigheid
-Asielstatushouder ──── Training
-Asielstatushouder ──── Verblijfplaats AZC
-Asielstatushouder ──── Voorbereiding op Inburgering
-Asielstatushouder ──── Werk
-B1-route ──── Leerroute (Kan ook een generalisatie zijn. Geldt ook voor de overige routes)
-Brede Intake [1..1] ──── Inburgeringstraject [1..1]
-Brede Intake ──── Leerroute
-Examen ──── Inburgeringstraject
-Examenonderdeel ──── Examen
-Inburgeraar [1..1] ──── Aandachtspunt  [0..*]
-Inburgeraar ──── Aanvraag verlenging Inburgeringstermijn
-Inburgeraar [1..1] ──── Hoofddoel [0..*]
-Inburgeraar ──── Inburgeringsplicht
-Inburgeraar [1..1] ──── Ontwikkelwens  [0..*]
-InburgeringsAanbod [1..1] ──── Inburgeraar [1..*]
-Inburgeringsplicht [1..1] ──── Inburgeringstermijn [1..*]
-Inburgeringsplicht ──── Ontheffing
-Inburgeringsplicht ──── Vrijstelling
-Inburgeringstraject [1..1] ──── Inburgeringsplicht [1..1]
-Leerroute ──── PIP
-MAP ──── Leerroute
-Ontheffing ──── Examenonderdeel
+Aanvraag verlenging Inburgeringstermijn [1..1] ──── Inburgeringstermijn [1..*] (beoordeling Aanvraag)
+Aanvraag verlenging Inburgeringstermijn [1] ──── Verlengingsgrond [1..*]
+Asielstatushouder [1] ──── Diplomawaardering [0..*] (heeft aangevraagd)
+Asielstatushouder [1] ──── Educatie [0..*] (heeft gevolgd)
+Asielstatushouder [1] ──── ICT-Vaardigheid [0..*] (bezit)
+Asielstatushouder [1] ──── Taalvaardigheid [1] (heeft)
+Asielstatushouder [1] ──── Training [0..*] (heeft gevolgd)
+Asielstatushouder [0..*] ──── Verblijfplaats AZC [0..1] (verblijft)
+Asielstatushouder [1] ──── Voorbereiding op Inburgering [1] (neemt deel)
+Asielstatushouder [1] ──── Werk [0..*]
+B1-route [0..1] ──── Leerroute [1] (Kan ook een generalisatie zijn. Geldt ook voor de overige routes)
+Brede Intake [1..1] ──── Inburgeringstraject [1..1] (onderdeel van)
+Brede Intake [0..1] ──── Leerroute [1] (heeft)
+Examen [0..1] ──── Inburgeringstraject [1] (Afgerond met)
+Examenonderdeel [0..*] ──── Examen [1]
+Inburgeraar [1..1] ──── Aandachtspunt  [0..*] (heeft)
+Inburgeraar [1] ──── Aanvraag verlenging Inburgeringstermijn [0..1] (heeft)
+Inburgeraar [1..1] ──── Hoofddoel [0..*] (heeft)
+Inburgeraar [1] ──── Inburgeringsplicht [1] (heeft een)
+Inburgeraar [1..1] ──── Ontwikkelwens  [0..*] (heeft)
+InburgeringsAanbod [1..1] ──── Inburgeraar [1..*] (voor)
+Inburgeringsplicht [1..1] ──── Inburgeringstermijn [1..*] (heeft)
+Inburgeringsplicht [1] ──── Ontheffing [0..*] (Ontheffing)
+Inburgeringsplicht [1] ──── Vrijstelling [0..*] (Vrijstelling)
+Inburgeringstraject [1..1] ──── Inburgeringsplicht [1..1] (Heeft)
+Leerroute [0..1] ──── PIP [1] (afgesproken in)
+MAP [0..1] ──── Leerroute [1] (Onderdeel van)
+Ontheffing [1] ──── Examenonderdeel [0..*] (ontheffing voor)
 Ontwikkelwens  [0..0] ──── Subdoel Ontwikkelwens [0..*]
-PIP ──── InburgeringsAanbod
-PVT ──── Leerroute
-Voorbereiding op Inburgering ──── Introductiemodule
-Vrijstelling ──── Examenonderdeel
-Z-route [0..1] ──── Leerroute [1..1]
+PIP [1] ──── InburgeringsAanbod [1] (bevat)
+PVT [0..1] ──── Leerroute [1] (Onderdeel van)
+Voorbereiding op Inburgering [1] ──── Introductiemodule [1..*] (bestaat uit)
+Vrijstelling [1] ──── Examenonderdeel [1] (vrijstelling voor)
+Z-route [0..1] ──── Leerroute [1..1] (heeft (onderdeel van))
 ```
 
 ## Observaties

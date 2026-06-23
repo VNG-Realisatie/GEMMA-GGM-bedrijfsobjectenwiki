@@ -35,8 +35,8 @@ Maatregel (abstract)
 ## Relatiediagrammen
 
 ```
-Afwijkende maatregel [1..1] ──── Maatregel op uitkering [1..1]
-Normafwijking [0..1] ──── Maatregel [1..1]
+Afwijkende maatregel [1..1] ──── Maatregel op uitkering [1..1] (refereert)
+Normafwijking [0..1] ──── Maatregel [1..1] (Normafwijking leidt tot Maatregel)
 ```
 
 ## Observaties

@@ -27,11 +27,11 @@ aantal_entiteiten: 6
 ## Relatiediagrammen
 
 ```
-Beschermde Status ──── Ambacht
-Beschermde Status ──── Bouwactiviteit
-Beschermde Status ──── Bouwstijl
-Beschermde Status [0..*] ──── Bouwtype [0..*]
-Beschermde Status ──── OorspronkelijkeFunctie
+Beschermde Status [0..*] ──── Ambacht [0..*] (monument ambacht)
+Beschermde Status [0..*] ──── Bouwactiviteit [0..*] (monument bouwactiviteit)
+Beschermde Status [0..*] ──── Bouwstijl [0..*] (monument bouwstijl)
+Beschermde Status [0..*] ──── Bouwtype [0..*] (monument bouwtype)
+Beschermde Status [0..*] ──── OorspronkelijkeFunctie [0..*] (monument functie)
 ```
 
 ## Observaties

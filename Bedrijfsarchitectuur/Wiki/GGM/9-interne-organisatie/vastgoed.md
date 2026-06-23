@@ -102,30 +102,30 @@ ZakelijkRecht (abstract)
 ## Relatiediagrammen
 
 ```
-Aanbesteding Vastgoed [0..1] ──── Werkbon [0..*]
-Bouwdeel [1..1] ──── Bouwdeelelement [0..*]
-Huurder [0..*] ──── Zakelijk Recht [1..*]
-Inspectie ──── MJOP
-MJOP [1..1] ──── MJOP-Item [0..*]
-MJOP ──── Vastgoedobject
-MJOP [1..1] ──── Werkbon [0..*]
-MJOP-Item [0..*] ──── Bouwdeel [0..1]
-MJOP-Item [0..*] ──── Bouwdeelelement [0..1]
-MJOP-Item [0..*] ──── Prijzenboekitem [1..1]
-MJOP-Item [0..*] ──── Vastgoedobject [1..1]
-Vastgoedcontractregel [1..*] ──── Vastgoed Contract [1..1]
-Vastgoedobject [1..1] ──── Bouwdeel [0..*]
-Vastgoedobject ──── Inspectie
-Vastgoedobject [1..1] ──── Objectrelatie [0..*]
-Vastgoedobject ──── Vastgoedcontractregel [0..1]
-Vastgoedobject [1..1] ──── Verhuurbaar Eenheid [0..*]
-Vastgoedobject ──── Zakelijk Recht
-Verhuurbaar Eenheid [0..1] ──── Vastgoedcontractregel [1..1]
-Werkbon [0..*] ──── Bouwdeel [0..*]
-Werkbon [0..*] ──── Bouwdeelelement [0..*]
-Werkbon [0..*] ──── Vastgoedobject [1..1]
-Zakelijk Recht [0..*] ──── Eigenaar [0..*]
-Zakelijk Recht [1..*] ──── Pachter [0..*]
+Aanbesteding Vastgoed [0..1] ──── Werkbon [0..*] (uitvoering van)
+Bouwdeel [1..1] ──── Bouwdeelelement [0..*] (bestaat uit)
+Huurder [0..*] ──── Zakelijk Recht [1..*] (heeft huurrecht)
+Inspectie [0..1] ──── MJOP [0..1] (leidt tot)
+MJOP [1..1] ──── MJOP-Item [0..*] (bestaat uit)
+MJOP [0..*] ──── Vastgoedobject [1] (betreft)
+MJOP [1..1] ──── Werkbon [0..*] (gerealiseerd door)
+MJOP-Item [0..*] ──── Bouwdeel [0..1] (betreft)
+MJOP-Item [0..*] ──── Bouwdeelelement [0..1] (betreft)
+MJOP-Item [0..*] ──── Prijzenboekitem [1..1] (op basis van)
+MJOP-Item [0..*] ──── Vastgoedobject [1..1] (betreft)
+Vastgoedcontractregel [1..*] ──── Vastgoed Contract [1..1] (heeft)
+Vastgoedobject [1..1] ──── Bouwdeel [0..*] (bestaat uit)
+Vastgoedobject [1] ──── Inspectie [0..*] (betreft)
+Vastgoedobject [1..1] ──── Objectrelatie [0..*] (heeft)
+Vastgoedobject [1..] ──── Vastgoedcontractregel [0..1] (heeft)
+Vastgoedobject [1..1] ──── Verhuurbaar Eenheid [0..*] (heeft)
+Vastgoedobject [1..*] ──── Zakelijk Recht [0..*] (betreft)
+Verhuurbaar Eenheid [0..1] ──── Vastgoedcontractregel [1..1] (betreft)
+Werkbon [0..*] ──── Bouwdeel [0..*] (betreft)
+Werkbon [0..*] ──── Bouwdeelelement [0..*] (betreft)
+Werkbon [0..*] ──── Vastgoedobject [1..1] (betreft)
+Zakelijk Recht [0..*] ──── Eigenaar [0..*] (heeft eigenaar)
+Zakelijk Recht [1..*] ──── Pachter [0..*] (pacht)
 ```
 
 ## Observaties

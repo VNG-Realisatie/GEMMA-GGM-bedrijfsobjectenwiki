@@ -1,0 +1,156 @@
+---
+type: ggm-beleidsdomein
+naam: Omgevingswet
+definitie: "Het informatiedomein dat gegevens omvat over de uitvoering van de Omgevingswet, gericht op het integraal beheren en ontwikkelen van de fysieke leefomgeving."
+taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
+aantal_entiteiten: 31
+---
+
+# GGM Beleidsdomein: Omgevingswet
+
+### Omgevingswet Juridische Regels (CIMOW)
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Activiteit** | Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. | naam, groep, NEN3610ID | Nee | GGM |
+| **Beperkingsgebied** | Een bij of krachtens de wet aangewezen gebied, waar vanwege de aanwezigheid van een werk of object regels gelden, ten aanzien van het beperken van activiteiten die gevolgen hebben of kunnen hebben voor dat werk of object. | naam, groep | Nee | GGM |
+| **Functie** | Een samenhangende verzameling van rollen | naam, groep | Nee | GGM |
+| **Gebiedsaanwijzing** | Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels. | NEN3610ID, groep, naam | Nee | GGM |
+| **Instructieregel** | Objecttype Instructieregel Naam Definitie Toelichting Instructieregel De beschrijving van een juridische regel die een instructie is voor een extern omgevingsdocument of een orgaan. Het betreft hier juridische regel die instructie geeft aan andere overheden, gericht op externe omgevingsdocumenten, of een taakuitoefening. Een ander omgevingsdocument is bijvoorbeeld een Omgevingsplan, Omgevingsverordening en Waterschapsverordening. Een taakuitoefening is voor bijvoorbeeld een gemeentebestuur of een wildbeheereenheid. Een instructieregel is alleen gericht op een Omgevingsnorm of een Gebiedsaanduiding, zoals een Functie of een Beperkingengebied (en eventueel meerdere). | instructieregelInstrument, instructieregelTaakuitoefening | Nee | GGM |
+| **Juridische Regel** | De beschrijving van een regel met juridische werkingskracht. Een regel betreft binnen de Omgevingswet veelal activiteiten, en/of normen en/of functies en/of beperkingengebieden. | omschrijving, thema, regeltekst, datumStart, datumEindeGeldigheid, datumInWerking, datumBekend | Nee | GGM |
+| **Norm** | Omgevingswaarde of een omgevingsnorm, met een normatief karakter, die beschreven worden middels normwaarden. Een normwaarde kan kwalitatief of kwantitatief zijn. | NEN3610ID | Nee | GGM |
+| **Normwaarde** | Een van de kwantitatieve of kwalitatieve waarden van een norm. De normwaarde geeft aan wat de specifieke kwantitatieve of kwalitatieve eisen zijn, inclusief de toewijzing ervan aan de specifieke locatie(s) waar de normwaarde voor geldt. | kwalitatieveWaarde, kwantitatieveWaardeOmvang, kwantitatieveWaardeEenheid | Nee | GGM |
+| **Omgevingsnorm** | Een norm over de fysieke leefomgeving die in een kwantitatieve of kwalitatieve waarde wordt uitgedrukt en geen omgevingswaarde is. | naam, omgevingsnormGroep | Nee | GGM |
+| **Omgevingswaarde** | Een norm die voor (een onderdeel van) de fysieke leefomgeving de gewenste staat of kwaliteit, de toelaatbare belasting door activiteiten en/of de toelaatbare concentratie of depositie van stoffen als beleidsdoel vastlegt. | naam, omgevingswaardeGroep | Nee | GGM |
+| **Omgevingswaarderegel** | De beschrijving van een juridische regel gericht op een gestelde omgevingswaarde. Het betreft hier een juridische regel die verplichtingen oplegt aan het bevoegd gezag dat deze regel opstelt. Een omgevingswaarderegel is alleen gericht op een Omgevingswaarde (eventueel meerdere). | naam, groep | Nee | GGM |
+| **Regel voor Iedereen** | Een Juridische regel die voor eenieder werking heeft | activiteitRegelKwalificatie | Nee | GGM |
+| **Regeltekst** | De kleinste zelfstandige eenheid van (een of meer) bij elkaar horende juridische regels: een artikel en lid. | tekst, identificatie, omschrijving | Nee | GGM |
+
+### Omgevingswet Juridsiche regels en Idealisatie en Thema (CIMOW)
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Idealisatie** | Vastlegging van de manier de begrenzing van Locatie voor deze Juridische regel ge&#239;nterpreteerd moet worden en door het bevoegd gezag bedoeld is. | naam, omschrijving | Nee | GGM |
+| **Thema** | Kernachtige weergave van de grondgedachte achter een regel. | naam, omschrijving | Nee | GGM |
+
+### Omgevingswet Omgevingsplan StOP TPOD
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Omgevingsdocument** | In artikel 16.2 van de Omgevingswet aangemerkt instrument te weten: Omgevingsvisie, programma, omgevingsplan, waterschapsverordening, omgevingsverordening, projectbesluit of bij Algemene Maatregel van Bestuur (Omgevingsbesluit) aangewezen ander besluit of ander rechtsfiguur. | *(geen attributen)* | Nee | GGM |
+
+### Omgevingswet Toepasbare Regels
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Conclusie** | Conclusie van de check. Antwoord op de vraag of ik een melding moet doen of een vergunning aan moet vragen voor een bepaalde activiteit. | *(geen attributen)* | Nee | GGM |
+| **Indieningsvereisten** | Dat wat de initiatiefnemer moet aanleveren om het bevoegd gezag een aanvraag te kunnen laten beoordelen. De indieningsvereisten is de set aan informatie (gegevens en / of bijlagen) die aan een aanvraag moet worden toegevoegd voor een bepaalde vergunning of melding. | *(geen attributen)* | Nee | GGM |
+| **Maatregelen** | Beschrijft welke handelingen iemand moet uitvoeren om aan Voorschriften te kunnen voldoen. | *(geen attributen)* | Nee | GGM |
+| **Toepasbare Regel** | Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen. Het regelbeheerobject ‘conclusie gevelaanpassing’ kan een vraag beantwoorden zoals: “Heb ik een vergunning nodig voor het veranderen van een kozijn, kozijninvulling of gevelpaneel”. Het regelbeheerobject ‘melding lozing’ beantwoordt de vraag “Wat moet ik aan informatie (gegevens en documenten) aanleveren als ik ga lozen vanuit particuliere huishoudens”. Het regelbeheerobject “Opslaan van gasolie smeerolie of afgewerkte olie in een bovengrondse opslagtank” geeft aan welke maatregelen genomen dienen te worden. Het regelbeheerobject is onderdeel van de functionele structuur. De set met regels is gedefinieerd in het Toepasbare regelbestand2. | naam, omschrijving, domein, toestemming, soortAansluitpunt, datumBeginGeldigheid, datumEindeGeldigheid | Nee | GGM |
+| **ToepasbareRegelBestand** | Bestand met aangeleverde toepasbare regels | datumStart, datumEindeGeldigheid | Nee | GGM |
+| **Uitvoeringsregel** | De uitvoeringsregels bepalen hoe de benodigde gegevens (input data) wordt uitgevraagd. Dit kan op verschillende manieren gebeuren zoals een vraag aan een initiatiefnemer of een bevraging van een registratie. | naam, omschrijving, regel | Nee | GGM |
+
+### Omgevingswet Verzoek Activiteit op Locatie
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Initiatiefnemer** | Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die het initiatief neemt tot (fysieke) ingrepen in de (leef)omgeving en daartoe een Verzoek bij het Bevoegd Gezag indient. | *(geen attributen)* | Nee | GGM |
+| **Uitvoerende instantie** | Onderdeel van het bevoegd gezag dat uitvoering geeft aan wetten en besluiten | naam | Nee | GGM |
+| **Verzoek** | Een vraag aan het bevoegd gezag om een speficieke product of dienst te leveren. | akkoordverklaring, ambtshalve, doel, datumIndiening, naam, referentieAanvrager, toelichtingLaterAanTeLeverenInformatie, toelichtingNietAanTeLeverenInformatie, toelichtingVerzoek, type, verzoeknummer, volgnummer | Nee | GGM |
+
+### Omgevingswet Verzoek met Project (IMAM)
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Project** | Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat. | naam, omschrijving | Nee | GGM |
+| **Projectactiviteit** | Activiteit binnen het project | *(geen attributen)* | Nee | GGM |
+| **Projectlocatie** | Fysieke locatie waar een project betrekking op heeft of wordt uitgevoerd. | adres, kadastraalPerceel, kadastraleGemeente, kadastraleSectie | Nee | GGM |
+| **Specificatie** | Gesplitste opgave, vermelding van de afzonderlijke onderdelen waaruit een verzameling of een totaal bestaat | antwoord, groepering, publiceerbaar, vraagID, vraagClassificatie, vraagreferentie, vraagtekst | Nee | GGM |
+
+### Omgevingswet Verzoeken (IMAM)
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Bevoegd Gezag** | Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit. | *(geen attributen)* | Nee | GGM |
+| **Gemachtigde** | Een Natuurlijk Persoon of een Niet Natuurlijk Persoon die als vertegenwoordiger van een Initiatiefnemer optreedt. | *(geen attributen)* | Nee | GGM |
+
+## Overervingshiërarchie
+
+```
+Gebiedsaanwijzing (abstract)
+    └── Beperkingsgebied
+    └── Functie
+```
+
+```
+Juridische Regel (abstract)
+    └── Instructieregel
+    └── Omgevingswaarderegel
+    └── Regel voor Iedereen
+```
+
+```
+Norm (abstract)
+    └── Omgevingsnorm
+    └── Omgevingswaarde
+```
+
+```
+Rechtspersoon (abstract)
+    └── Bevoegd Gezag
+    └── Gemachtigde
+    └── Initiatiefnemer
+```
+
+```
+Toepasbare Regel (abstract)
+    └── Conclusie
+    └── Indieningsvereisten
+    └── Maatregelen
+```
+
+## Relatiediagrammen
+
+```
+Activiteit ──── Activiteit
+Gemachtigde ──── Verzoek
+Initiatiefnemer ──── Verzoek
+Instructieregel ──── Gebiedsaanwijzing
+Juridische Regel ──── Activiteit
+Juridische Regel ──── Idealisatie
+Juridische Regel ──── Regeltekst
+Juridische Regel ──── Thema
+Norm ──── Normwaarde
+Omgevingsdocument ──── Regeltekst
+Omgevingswaarderegel ──── Omgevingsnorm
+Omgevingswaarderegel ──── Omgevingswaarde
+Project ──── Projectactiviteit
+Project ──── Projectlocatie
+Projectactiviteit ──── Projectlocatie
+Regel voor Iedereen ──── Activiteit
+Regel voor Iedereen ──── Gebiedsaanwijzing
+Regel voor Iedereen ──── Omgevingsnorm
+Regeltekst ──── Idealisatie
+Regeltekst ──── Regeltekst
+Regeltekst ──── Thema
+Specificatie ──── Projectactiviteit
+Thema ──── Thema
+Toepasbare Regel ──── Activiteit
+Toepasbare Regel ──── Juridische Regel
+Toepasbare Regel [0..*] ──── ToepasbareRegelBestand [1..1]
+Toepasbare Regel [1..1] ──── Uitvoeringsregel [0..*]
+ToepasbareRegelBestand ──── Uitvoeringsregel
+Verzoek ──── Activiteit
+Verzoek ──── Bevoegd Gezag
+Verzoek ──── Project
+Verzoek ──── Projectactiviteit
+Verzoek ──── Specificatie
+Verzoek ──── Uitvoerende instantie
+Verzoek ──── Verzoek
+```
+
+## Observaties
+
+- Dit beleidsdomein bevat 31 Objecttype-entiteiten (+ 3 Enumeraties).
+- Entiteiten zijn gegroepeerd in 7 diagramgroepen: Omgevingswet Juridische Regels (CIMOW) (13), Omgevingswet Juridsiche regels en Idealisatie en Thema (CIMOW) (4), Omgevingswet Omgevingsplan StOP TPOD (4), Omgevingswet Toepasbare Regels (8), Omgevingswet Verzoek Activiteit op Locatie (10), Omgevingswet Verzoek met Project (IMAM) (5), Omgevingswet Verzoeken (IMAM) (8).
+- Er zijn 13 generalisatierelaties aanwezig.

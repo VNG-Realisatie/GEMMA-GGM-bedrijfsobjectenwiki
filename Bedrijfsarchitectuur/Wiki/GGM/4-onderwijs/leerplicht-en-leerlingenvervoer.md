@@ -65,11 +65,11 @@ Medewerker (abstract)
 ## Relatiediagrammen
 
 ```
-AanvraagOfMelding ──── Beslissing
-Beschikking Leerlingenvervoer [0..*] ──── Vervoerder [0..*]
-Beslissing ──── Leerplichtambtenaar
-Klacht Leerlingenvervoer ──── Vervoerder
-Leerplichtambtenaar [1..1] ──── Procesverbaal Onderwijs [0..*]
+AanvraagOfMelding [0..1] ──── Beslissing [0..1] (leidt tot)
+Beschikking Leerlingenvervoer [0..*] ──── Vervoerder [0..*] (vervoerder)
+Beslissing [0..*] ──── Leerplichtambtenaar [1] (behandelaar)
+Klacht Leerlingenvervoer [0..*] ──── Vervoerder [1] (betreft)
+Leerplichtambtenaar [1..1] ──── Procesverbaal Onderwijs [0..*] (opgelegd door)
 ```
 
 ## Observaties

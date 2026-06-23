@@ -86,36 +86,36 @@ Inkooporder (abstract)
 ## Relatiediagrammen
 
 ```
-AOM_AanvraagWmoJeugd ──── Beschikking
-Beperking [0..*] ──── Beperkingscategorie [0..1]
+AOM_AanvraagWmoJeugd [0..1] ──── Beschikking [0..*] (leidt_tot)
+Beperking [0..*] ──── Beperkingscategorie [0..1] (is een)
 Beperking [0..1] ──── Beperkingscore [0..*]
-Beperking ──── Beschikking
-Beperkingscore [0..*] ──── Beperkingscoresoort [0..1]
-Beschikking ──── AOMMeldingWmoJeugd
-Beschikking [1..1] ──── Beschikte Voorziening [1..*]
-Beschikking ──── Toewijzing
-Beschikte Voorziening [0..*] ──── Leveringsvorm [1..1]
-Beschikte Voorziening [1..*] ──── Toewijzing [0..1]
-Beschikte Voorziening [0..*] ──── Voorziening [1..1]
-Declaratieregel [0..*] ──── Beschikking [1..1]
-Declaratieregel [0..*] ──── Declaratie [1..1]
-Levering [0..*] ──── Beschikking [0..1]
-Levering ──── Toewijzing
-Levering ──── Voorziening
-Melding Eigen bijdrage ──── Beschikking
-PGB-Toekenning ──── Beschikte Voorziening
-PGB-Toekenning ──── Budgetuitputting
-Score [0..*] ──── Leefgebied [1..1]
-Score [0..*] ──── Scoresoort [1..1]
-Toewijzing [1..1] ──── Declaratieregel [0..*]
-Verplichting Wmo Jeugd ──── AOM_AanvraagWmoJeugd
-Verplichting Wmo Jeugd ──── Beschikte Voorziening
-Verzoek om Toewijzing ──── Beschikking
-Verzoek om Toewijzing ──── Voorziening
-Voorziening [1..1] ──── Tarief [1..*]
-Voorziening [0..*] ──── Voorzieningsoort [1..1]
-Zelfredzaamheidmatrix [1..*] ──── Leefgebied [1..*]
-Zelfredzaamheidmatrix [1..*] ──── Scoresoort [1..*]
+Beperking [0..*] ──── Beschikking [0..1] (is gebaseerd op)
+Beperkingscore [0..*] ──── Beperkingscoresoort [0..1] (is een)
+Beschikking [0..*] ──── AOMMeldingWmoJeugd [0..*] (betreft)
+Beschikking [1..1] ──── Beschikte Voorziening [1..*] (heeft voorzieningen)
+Beschikking [1] ──── Toewijzing [0..*] (toewijzing)
+Beschikte Voorziening [0..*] ──── Leveringsvorm [1..1] (heeft)
+Beschikte Voorziening [1..*] ──── Toewijzing [0..1] (Toegewezen Product)
+Beschikte Voorziening [0..*] ──── Voorziening [1..1] (is voorziening)
+Declaratieregel [0..*] ──── Beschikking [1..1] (is voor)
+Declaratieregel [0..*] ──── Declaratie [1..1] (valt binnen)
+Levering [0..*] ──── Beschikking [0..1] (geleverde prestatie)
+Levering [0..*] ──── Toewijzing [0..1] (geleverde zorg)
+Levering [0..*] ──── Voorziening [1] (voorziening)
+Melding Eigen bijdrage [0..*] ──── Beschikking [1] (betreft)
+PGB-Toekenning [0..*] ──── Beschikte Voorziening [1] (betreft)
+PGB-Toekenning [1] ──── Budgetuitputting [0..*] (betreft)
+Score [0..*] ──── Leefgebied [1..1] (score bij leeggebied)
+Score [0..*] ──── Scoresoort [1..1] (hoogte score)
+Toewijzing [1..1] ──── Declaratieregel [0..*] (is op basis van)
+Verplichting Wmo Jeugd [1] ──── AOM_AanvraagWmoJeugd [0..1]
+Verplichting Wmo Jeugd [1] ──── Beschikte Voorziening [0..1]
+Verzoek om Toewijzing [0..*] ──── Beschikking [0..1] (leidt tot)
+Verzoek om Toewijzing [0..*] ──── Voorziening [1] (betreft)
+Voorziening [1..1] ──── Tarief [1..*] (heeft)
+Voorziening [0..*] ──── Voorzieningsoort [1..1] (valt binnen)
+Zelfredzaamheidmatrix [1..*] ──── Leefgebied [1..*] (onderkent leefgebiieden)
+Zelfredzaamheidmatrix [1..*] ──── Scoresoort [1..*] (onderkent scores)
 ```
 
 ## Observaties

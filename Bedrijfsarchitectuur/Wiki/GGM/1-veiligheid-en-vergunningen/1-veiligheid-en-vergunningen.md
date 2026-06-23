@@ -115,23 +115,23 @@ Zaak (abstract)
 ## Relatiediagrammen
 
 ```
-Activiteit Omgevingswet ──── Leges_Grondslag
-Activiteit Omgevingswet ──── VTHzaak
-BOA ──── VTH-Melding
+Activiteit Omgevingswet [1] ──── Leges_Grondslag [1..*] (heeft)
+Activiteit Omgevingswet [1..*] ──── VTHzaak [1..*] (Heeft)
+BOA [1] ──── VTH-Melding [0..*] (verbalisant)
 Bevinding [1..1] ──── Bevinding [0..*]
-Bevinding ──── Inspectie
-Grondslag [1..1] ──── Leges_Grondslag [1..1]
-Heffinggrondslag ──── Activiteit Omgevingswet
-Heffingsverordening ──── Heffinggrondslag
-Inspectie ──── VTHzaak
-Kosten ──── VTHzaak
-Leges_Grondslag ──── VTHzaak
-Producttype ──── VTHzaak
-SubProducttype [-1..*] ──── Producttype [1..1]
-SubProducttype ──── VTHzaak
-Vordering ──── VTHzaak
-Vordering ──── Vorderingregel
-Vorderingregel ──── Kosten
+Bevinding [0..*] ──── Inspectie [1..] (heeft)
+Grondslag [1..1] ──── Leges_Grondslag [1..1] (heeft)
+Heffinggrondslag [1..*] ──── Activiteit Omgevingswet [1..] (heeft)
+Heffingsverordening [1] ──── Heffinggrondslag [0..*] (vermeld in)
+Inspectie [1..*] ──── VTHzaak [1..] (heeft)
+Kosten [1..*] ──── VTHzaak [1..] (heeft)
+Leges_Grondslag [1..*] ──── VTHzaak [1..] (is van)
+Producttype [1] ──── VTHzaak [1] (Heeft)
+SubProducttype [-1..*] ──── Producttype [1..1] (heeft)
+SubProducttype [*] ──── VTHzaak [0..*] (Heeft)
+Vordering [1..*] ──── VTHzaak [1..] (heeft)
+Vordering [1..] ──── Vorderingregel [1..*] (heeft)
+Vorderingregel [1..] ──── Kosten [0..1] (betreft)
 ```
 
 ## Observaties

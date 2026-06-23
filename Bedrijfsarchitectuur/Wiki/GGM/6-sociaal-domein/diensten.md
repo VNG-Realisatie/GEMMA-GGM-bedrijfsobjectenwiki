@@ -46,30 +46,30 @@ Voorwaarde (abstract)
 ## Relatiediagrammen
 
 ```
-Aanvraag [0..1] ──── Besluit [1..1]
-Aanvraagtype [0..*] ──── Aanvraag [1..1]
-Aanvraagtype [1..*] ──── Diensttype [1..1]
-Beschikking [1..*] ──── Onderdeel beschikking [1..1]
-Besluit [1..1] ──── Beschikking [1..1]
-Besluit [0..*] ──── Dienst [1..1]
-Dienst [0..1] ──── Betalingsblokkade [1..1]
-Dienst [0..*] ──── Individuele plicht [1..1]
-Dienst [0..1] ──── Referteperiode [1..1]
-Diensttype [0..*] ──── Dienst [1..1]
-Diensttype [1..*] ──── Leveringscomponenttype [1..1]
-Diensttype [0..*] ──── Onderdeel beschikking [1..1]
-Diensttype [1..*] ──── Verstrekkingsvorm [1..1]
-Diensttype [0..*] ──── Voorwaardetype [1..*]
-Leveringscomponenttype [0..*] ──── Leveringscomponent [1..1]
-Leveringsopdracht [1..1] ──── Dienst [1..*]
-Leveringsopdracht [1..*] ──── Leveringsspecificatie [1..1]
-Leveringsopdracht [1..1] ──── Verstrekkingsvorm [0..*]
-Leveringsspecificatie [1..*] ──── Leveringscomponent [1..1]
-Recht [1..1] ──── Besluit [1..1]
-Recht [0..*] ──── Voorwaarde [1..*]
-Regeling [1..*] ──── Diensttype [1..1]
-Voorwaarde [0..*] ──── Voorwaarde [1..*]
-Voorwaardetype [0..*] ──── Voorwaarde [1..1]
+Aanvraag [0..1] ──── Besluit [1..1] (leidt tot)
+Aanvraagtype [0..*] ──── Aanvraag [1..1] (beschrijft)
+Aanvraagtype [1..*] ──── Diensttype [1..1] (betreft)
+Beschikking [1..*] ──── Onderdeel beschikking [1..1] (bevat)
+Besluit [1..1] ──── Beschikking [1..1] (leidt tot)
+Besluit [0..*] ──── Dienst [1..1] (initieert)
+Dienst [0..1] ──── Betalingsblokkade [1..1] (ondergaat)
+Dienst [0..*] ──── Individuele plicht [1..1] (vereist)
+Dienst [0..1] ──── Referteperiode [1..1] (heeft)
+Diensttype [0..*] ──── Dienst [1..1] (beschrijft)
+Diensttype [1..*] ──── Leveringscomponenttype [1..1] (heeft)
+Diensttype [0..*] ──── Onderdeel beschikking [1..1] (bevat)
+Diensttype [1..*] ──── Verstrekkingsvorm [1..1] (heeft)
+Diensttype [0..*] ──── Voorwaardetype [1..*] (vereist)
+Leveringscomponenttype [0..*] ──── Leveringscomponent [1..1] (beschrijft)
+Leveringsopdracht [1..1] ──── Dienst [1..*] (in kader van)
+Leveringsopdracht [1..*] ──── Leveringsspecificatie [1..1] (bestaat uit)
+Leveringsopdracht [1..1] ──── Verstrekkingsvorm [0..*] (heeft)
+Leveringsspecificatie [1..*] ──── Leveringscomponent [1..1] (bestaat uit)
+Recht [1..1] ──── Besluit [1..1] (is grondslag voor)
+Recht [0..*] ──── Voorwaarde [1..*] (is gebaseerd op)
+Regeling [1..*] ──── Diensttype [1..1] (bevat)
+Voorwaarde [0..*] ──── Voorwaarde [1..*] (is opgebouwd uit)
+Voorwaardetype [0..*] ──── Voorwaarde [1..1] (beschrijft)
 ```
 
 ## Observaties

@@ -78,25 +78,26 @@ Object (abstract)
 ## Relatiediagrammen
 
 ```
-AdresseerbaarObject ──── Nummeraanduiding
-Buurt ──── Wijk (De wijk waarin de buurt is gelegen.)
-Gemeente ──── Gemeente (De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan.)
-Nummeraanduiding ──── Buurt
-Nummeraanduiding ──── OpenbareRuimte
-Nummeraanduiding ──── Woonplaats
-Onderzoek ──── Ligplaats
-Onderzoek ──── Nummeraanduiding
-Onderzoek ──── OpenbareRuimte
-Onderzoek ──── Pand
-Onderzoek ──── Standplaats
-Onderzoek ──── Verblijfsobject
-Onderzoek ──── Woonplaats
-OpenbareRuimte ──── Buurt
-OpenbareRuimte ──── Woonplaats
-Pand ──── Buurt (De BUURT waarin het PAND gelegen is waarbinnen zich geen verblijfsobjecten bevinden.)
-Verblijfsobject ──── Pand
-Wijk ──── Woonplaats
-Woonplaats ──── Gemeente
+AdresseerbaarObject [1] ──── Nummeraanduiding [1] (Heeft als hoofdadres)
+AdresseerbaarObject [1] ──── Nummeraanduiding [0..*] (Heeft als Nevenadres)
+Buurt [1..*] ──── Wijk [1] (De wijk waarin de buurt is gelegen.)
+Gemeente [0..*] ──── Gemeente [0..*] (De nieuwe GEMEENTE waarin de GEMEENTE bij zijn opheffing c.q. na herindeling is overgegaan.)
+Nummeraanduiding [1] ──── Buurt [1] (Ligt in)
+Nummeraanduiding [0..*] ──── OpenbareRuimte [1] (Ligt aan)
+Nummeraanduiding [0..*] ──── Woonplaats [0..1] (Ligt in)
+Onderzoek [0..1] ──── Ligplaats [1] (objectidentificatie)
+Onderzoek [0..1] ──── Nummeraanduiding [1] (objectidentificatie)
+Onderzoek [0..1] ──── OpenbareRuimte [1] (objectidentificatie)
+Onderzoek [0..1] ──── Pand [1] (objectidentificatie)
+Onderzoek [0..1] ──── Standplaats [1] (objectidentificatie)
+Onderzoek [0..1] ──── Verblijfsobject [1] (objectidentificatie)
+Onderzoek [0..1] ──── Woonplaats [1] (objectidentificatie)
+OpenbareRuimte [1] ──── Buurt [1..*] (Ligt in)
+OpenbareRuimte [1..*] ──── Woonplaats [1] (Ligt in)
+Pand [0..*] ──── Buurt [0..1] (De BUURT waarin het PAND gelegen is waarbinnen zich geen verblijfsobjecten bevinden.)
+Verblijfsobject [0..*] ──── Pand [1..*] (Maakt deel uit van)
+Wijk [1..*] ──── Woonplaats [1] (Ligt in)
+Woonplaats [1..*] ──── Gemeente [1..] (Ligt in)
 ```
 
 ## Observaties

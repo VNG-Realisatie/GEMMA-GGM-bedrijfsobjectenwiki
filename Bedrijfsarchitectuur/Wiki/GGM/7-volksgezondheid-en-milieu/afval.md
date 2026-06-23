@@ -49,29 +49,29 @@ AanvraagOfMelding (abstract)
 ## Relatiediagrammen
 
 ```
-Container ──── Containertype
-Container ──── Fractie
-Container ──── Locatie
-Container ──── Vulgraadmeting
-Melding ──── Categorie
-Melding ──── Containertype
-Melding ──── Fractie
-Melding ──── Locatie
-Milieustraat ──── Fractie
-Ophaalmoment ──── Container
-Ophaalmoment ──── Locatie
-Pas ──── Milieustraat
-Pas ──── Storting
-Prijsafspraak ──── Prijsregel
-Prijsregel ──── Fractie
-Rit ──── Ophaalmoment
-Rit ──── Route
-Rit ──── Vuilniswagen
-Route ──── Fractie
-Route ──── Locatie
-Storting ──── Fractie
-Storting ──── Milieustraat
-Vuilniswagen ──── Containertype
+Container [0..*] ──── Containertype [0..1] (soort)
+Container [0..*] ──── Fractie [1] (geschikt voor)
+Container [0..*] ──── Locatie [1] (heeft)
+Container [1] ──── Vulgraadmeting [0..*] (heeft)
+Melding [0..*] ──── Categorie [1] (hoofdcategorie)
+Melding [0..*] ──── Containertype [0..1] (betreft)
+Melding [0..*] ──── Fractie [0..1] (betreft)
+Melding [0..*] ──── Locatie [1] (betreft)
+Milieustraat [0..*] ──── Fractie [0..*] (inzamelpunt van)
+Ophaalmoment [0..*] ──── Container [0..1] (gelost)
+Ophaalmoment [0..*] ──── Locatie [1] (gestopt op)
+Pas [0..*] ──── Milieustraat [1..*] (geldig voor)
+Pas [1] ──── Storting [0..*] (uitgevoerde storting)
+Prijsafspraak [1] ──── Prijsregel [0..*] (heeft)
+Prijsregel [1..*] ──── Fractie [1] (betreft)
+Rit [1] ──── Ophaalmoment [0..*] (heeft)
+Rit [0..*] ──── Route [0..1] (volgens)
+Rit [0..*] ──── Vuilniswagen [1] (uitgevoerd met)
+Route [0..*] ──── Fractie [1] (ophalen)
+Route [0..1] ──── Locatie [0..*] (gaat langs)
+Storting [0..*] ──── Fractie [1..*] (fractie)
+Storting [0..*] ──── Milieustraat [1] (bij)
+Vuilniswagen [0..*] ──── Containertype [1..*] (geschikt voor)
 ```
 
 ## Observaties

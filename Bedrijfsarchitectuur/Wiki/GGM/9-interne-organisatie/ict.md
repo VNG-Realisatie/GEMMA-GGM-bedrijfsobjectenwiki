@@ -92,28 +92,28 @@ Linkbaar CMDB-item (abstract)
 ## Relatiediagrammen
 
 ```
-Applicatie ──── Gegeven
-Applicatie ──── Notitie
-Applicatie ──── Package
-Applicatie ──── Versie
-Attribuutsoort ──── Datatype
-CMDB-item  [1..1] ──── Log [0..*]
-Database ──── Server
-Dienst ──── Domein/Taakveld
-Dienst ──── Onderwerp
-Dienst ──── Product
-Domein/Taakveld ──── Onderwerp
-Domein/Taakveld ──── Product
-Externe Bron ──── Gegeven
-Gegeven [0..*] ──── Classificatie [0..*]
-Gegeven ──── Objecttype
-Koppeling ──── Linkbaar CMDB-item
-Linkbaar CMDB-item ──── Koppeling
-Objecttype ──── Attribuutsoort
-Objecttype ──── Generalisatie
-Objecttype ──── Relatiesoort
-Prijzenboek ──── Product
-Relatiesoort [0..*] ──── Objecttype [1..1]
+Applicatie [0..1] ──── Gegeven [0..*] (bevat)
+Applicatie [1] ──── Notitie [0..*] (heeft notities)
+Applicatie [1] ──── Package [0..*] (heeft packages)
+Applicatie [1] ──── Versie [1..*] (heeft versies)
+Attribuutsoort [0..*] ──── Datatype [0..1] (heeft)
+CMDB-item  [1..1] ──── Log [0..*] (heeft changelog)
+Database [0..*] ──── Server [1] (server van database)
+Dienst [0..*] ──── Domein/Taakveld [1] (valt binnen)
+Dienst [0..*] ──── Onderwerp [1] (heeft)
+Dienst [0..*] ──── Product [0..1] (betreft)
+Domein/Taakveld [1] ──── Onderwerp [0..*] (valt binnen)
+Domein/Taakveld [1] ──── Product [0..*] (valt binnen)
+Externe Bron [0..1] ──── Gegeven [0..*] (levert)
+Gegeven [0..*] ──── Classificatie [0..*] (geclassificeerd als)
+Gegeven [0..*] ──── Objecttype [0..1] (gedefinieerd door)
+Koppeling [0..*] ──── Linkbaar CMDB-item [1] (link naar)
+Linkbaar CMDB-item [1] ──── Koppeling [0..*] (link van)
+Objecttype [0..1] ──── Attribuutsoort [0..*] (bezit)
+Objecttype [1] ──── Generalisatie [0..1]
+Objecttype [1] ──── Relatiesoort [0..*] (bezit)
+Prijzenboek [0..*] ──── Product [0..*] (heeft prijs)
+Relatiesoort [0..*] ──── Objecttype [1..1] (gerelateerdObjecttype)
 ```
 
 ## Observaties

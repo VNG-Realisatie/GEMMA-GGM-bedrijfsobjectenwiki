@@ -38,8 +38,8 @@ aantal_entiteiten: 7
 ## Relatiediagrammen
 
 ```
-StrooirouteUitvoering ──── Strooidag
-StrooirouteUitvoering ──── Strooiroute
+StrooirouteUitvoering [0..*] ──── Strooidag [0..1] (uitvoering op)
+StrooirouteUitvoering [0..*] ──── Strooiroute [1] (volgens)
 ```
 
 ## Observaties

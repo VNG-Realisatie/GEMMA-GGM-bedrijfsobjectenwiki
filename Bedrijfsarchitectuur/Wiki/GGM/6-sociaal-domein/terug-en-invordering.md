@@ -73,35 +73,35 @@ Vordering (abstract)
 ## Relatiediagrammen
 
 ```
-Aflossingsafspraak [0..*] ──── Aflossing [1..1]
-Aflossingsafspraak [1..1] ──── Vordering [0..*]
-Aflossingsplan [1..*] ──── Aflossingsafspraak [1..1]
-Aflossingsplan [1..1] ──── Invorderingsbasis [1..1]
-Aflossingsplan [0..1] ──── Uitstel aflossing [1..1]
-Boetevordering [0..1] ──── Verwijtbare vordering [0..1]
-Debiteur [0..1] ──── Aflossingsplan [1..1]
-Debiteur [1..1] ──── Invorderingsbasis [1..1]
-Debiteur [0..1] ──── Krediethypotheek [1..2]
-Debiteur [0..*] ──── Leenbijstand [1..2]
-Debiteur [1..*] ──── Vordering [1..2]
-Incassokostenvordering [1..1] ──── Vordering [0..*]
-Interventieverzoek [1..*] ──── Aflossingsafspraak [0..*]
-Interventieverzoek [0..1] ──── Interventie [1..*]
-Krediethypotheek [0..*] ──── Krediethypotheekvordering [1..1]
-Leenbijstand [0..*] ──── Leenbijstandvordering [1..1]
-Rechtmaand [1..*] ──── Betaalcomponent [1..1]
-Rentevordering [1..1] ──── Vordering [0..*]
-Terugvorderingsverzoek [0..*] ──── Rechtmaand [1..1]
-Terugvorderingsverzoek [0..1] ──── Vordering [1..1]
-Vordering [0..*] ──── Aflossing [1..1]
-Vordering [0..1] ──── Afschrijving [1..1]
-Vordering [0..1] ──── Conservatoir beslag [1..1]
-Vordering [0..*] ──── Correctie [1..1]
-Vordering [0..1] ──── Kwijtschelding [1..1]
-Vordering [0..*] ──── Restitutie [1..1]
-Vordering [0..*] ──── Vermindering terugvordering [1..1]
-Vordering [0..*] ──── Vorderingscomponent [0..1]
-Vorderingscomponent [0..*] ──── Rechtmaand [1..1]
+Aflossingsafspraak [0..*] ──── Aflossing [1..1] (Aflossingsafspraak bevat Aflossing)
+Aflossingsafspraak [1..1] ──── Vordering [0..*] (Aflossingsafspraak betreft Vordering)
+Aflossingsplan [1..*] ──── Aflossingsafspraak [1..1] (bevat)
+Aflossingsplan [1..1] ──── Invorderingsbasis [1..1] (is gebaseerd op)
+Aflossingsplan [0..1] ──── Uitstel aflossing [1..1] (Aflossingsplan ondergaat Uitstel aflossing)
+Boetevordering [0..1] ──── Verwijtbare vordering [0..1] (is gerelateerd aan)
+Debiteur [0..1] ──── Aflossingsplan [1..1] (heeft)
+Debiteur [1..1] ──── Invorderingsbasis [1..1] (Debiteur heeft Invorderingsbasis)
+Debiteur [0..1] ──── Krediethypotheek [1..2] (Debiteur heeft afgesloten Krediethypotheek)
+Debiteur [0..*] ──── Leenbijstand [1..2] (Debiteur heeft aangegaan Leenbijstand)
+Debiteur [1..*] ──── Vordering [1..2] (Debiteur heeft Vordering)
+Incassokostenvordering [1..1] ──── Vordering [0..*] (Incassokostenvordering is gerelateerd aan Vorderin)
+Interventieverzoek [1..*] ──── Aflossingsafspraak [0..*] (heeft betrekking op)
+Interventieverzoek [0..1] ──── Interventie [1..*] (initieert)
+Krediethypotheek [0..*] ──── Krediethypotheekvordering [1..1] (is origine van)
+Leenbijstand [0..*] ──── Leenbijstandvordering [1..1] (is origine van)
+Rechtmaand [1..*] ──── Betaalcomponent [1..1] (Rechtmaand bevat Betaalcomponent)
+Rentevordering [1..1] ──── Vordering [0..*] (Rentevordering is gerelateerd aan Vordering)
+Terugvorderingsverzoek [0..*] ──── Rechtmaand [1..1] (Terugvorderingsverzoek bevat Rechtmaand)
+Terugvorderingsverzoek [0..1] ──── Vordering [1..1] (leidt tot)
+Vordering [0..*] ──── Aflossing [1..1] (Vordering bevat Aflossing)
+Vordering [0..1] ──── Afschrijving [1..1] (Vordering bevat Afschrijving)
+Vordering [0..1] ──── Conservatoir beslag [1..1] (Vordering is gerelateerd aan Conservatoir beslag)
+Vordering [0..*] ──── Correctie [1..1] (Vordering bevat Correctie)
+Vordering [0..1] ──── Kwijtschelding [1..1] (Vordering bevat Kwijtschelding)
+Vordering [0..*] ──── Restitutie [1..1] (Vordering bevat Restitutie)
+Vordering [0..*] ──── Vermindering terugvordering [1..1] (Vordering bevat Vermindering terugvordering)
+Vordering [0..*] ──── Vorderingscomponent [0..1] (Vordering bevat Vorderingscomponent)
+Vorderingscomponent [0..*] ──── Rechtmaand [1..1] (Vorderingscomponent bevat Rechtmaand)
 ```
 
 ## Observaties

@@ -212,38 +212,38 @@ Vermogenscomponent (abstract)
 ## Relatiediagrammen
 
 ```
-Betaald werk [0..*] ──── Dertiende maand - eindejaarsuitkering [1..1]
-Betaald werk [0..*] ──── Heffingskorting [1..1]
-Betaald werk [0..*] ──── Loonbeslag [1..1]
-Betaald werk [0..*] ──── Maaltijdvergoeding [1..1]
-Betaald werk [0..*] ──── Onkostenvergoeding [1..1]
-Betaald werk [0..*] ──── Reiskostenvergoeding [1..1]
-Betaald werk [0..*] ──── Vakantiegeld [1..1]
-Client ──── Bankrekening
-Client ──── Huishouden
-Client ──── Profiel
-Client [0..*] ──── Relatie [0..*]
-Clientbegeleider [0..*] ──── Client [0..*]
-Draagkracht [1..*] ──── Draagkrachtregime [1..1]
-Gerechtelijke uitspraak ──── Gezagsverhouding
-Hypotheek [1..1] ──── Onroerend goed [0..*]
-Inkomstenverhouding [1..*] ──── Primair inkomstencomponent [0..1]
-Onderhoudsverhouding [0..*] ──── Onderhoudsplicht [1..1]
-Pensioen [0..*] ──── Loonbeslag [1..1]
-Pensioen [0..*] ──── Vakantiegeld [1..1]
-Profiel ──── Inkomstenverhouding
-Profiel ──── Vermogenscomponent
-Relatie [0..*] ──── Huishouden [0..*]
-Relatie [0..*] ──── Relatiesoort [1..1]
-Stage [0..*] ──── Maaltijdvergoeding [1..1]
-Stage [0..*] ──── Onkostenvergoeding [1..1]
-Stage [0..*] ──── Reiskostenvergoeding [1..1]
-Stage [0..*] ──── Vergoeding in natura [1..1]
-Uitkering [0..*] ──── Loonbeslag [1..1]
-Uitkering [0..*] ──── Vakantiegeld [1..1]
-Uitkering [0..*] ──── Verlaging door boete [1..1]
-Uitkering [0..*] ──── Verlaging door maatregel [1..1]
-Vermogenscomponent [0..*] ──── Waardepeiling [1..1]
+Betaald werk [0..*] ──── Dertiende maand - eindejaarsuitkering [1..1] (Betaald werk heeft Dertiende maand - eindejaarsuit)
+Betaald werk [0..*] ──── Heffingskorting [1..1] (Betaald werk heeft Heffingskorting)
+Betaald werk [0..*] ──── Loonbeslag [1..1] (Betaald werk heeft Loonbeslag)
+Betaald werk [0..*] ──── Maaltijdvergoeding [1..1] (Betaald werk heeft Maaltijdvergoeding)
+Betaald werk [0..*] ──── Onkostenvergoeding [1..1] (Betaald werk heeft Onkostenvergoeding)
+Betaald werk [0..*] ──── Reiskostenvergoeding [1..1] (Betaald werk heeft Reiskostenvergoeding)
+Betaald werk [0..*] ──── Vakantiegeld [1..1] (Betaald werk heeft Vakantiegeld)
+Client [1..2] ──── Bankrekening [0..*] (bezit)
+Client [0..*] ──── Huishouden [1] (maakt onderdeel uit van)
+Client [1] ──── Profiel [1..*] (heeft)
+Client [0..*] ──── Relatie [0..*] (heeft relatie)
+Clientbegeleider [0..*] ──── Client [0..*] (ondersteunt client)
+Draagkracht [1..*] ──── Draagkrachtregime [1..1] (Draagkracht heeft Draagkrachtregime)
+Gerechtelijke uitspraak [0..1] ──── Gezagsverhouding [0..*] (basis van)
+Hypotheek [1..1] ──── Onroerend goed [0..*] (Hypotheek rust op Onroerend goed)
+Inkomstenverhouding [1..*] ──── Primair inkomstencomponent [0..1] (Inkomstenverhouding bevat Primair inkomstencompone)
+Onderhoudsverhouding [0..*] ──── Onderhoudsplicht [1..1] (Onderhoudsverhouding bevat Onderhoudsplicht)
+Pensioen [0..*] ──── Loonbeslag [1..1] (Pensioen heeft Loonbeslag)
+Pensioen [0..*] ──── Vakantiegeld [1..1] (Pensioen heeft Vakantiegeld)
+Profiel [1] ──── Inkomstenverhouding [0..*] (bevat)
+Profiel [1..2] ──── Vermogenscomponent [0..*] (bevat)
+Relatie [0..*] ──── Huishouden [0..*] (maakt onderdeel van)
+Relatie [0..*] ──── Relatiesoort [1..1] (is soort)
+Stage [0..*] ──── Maaltijdvergoeding [1..1] (Stage heeft Maaltijdvergoeding)
+Stage [0..*] ──── Onkostenvergoeding [1..1] (Stage heeft Onkostenvergoeding)
+Stage [0..*] ──── Reiskostenvergoeding [1..1] (Stage heeft Reiskostenvergoeding)
+Stage [0..*] ──── Vergoeding in natura [1..1] (Stage heeft Vergoeding in natura)
+Uitkering [0..*] ──── Loonbeslag [1..1] (Uitkering heeft Loonbeslag)
+Uitkering [0..*] ──── Vakantiegeld [1..1] (Uitkering heeft Vakantiegeld)
+Uitkering [0..*] ──── Verlaging door boete [1..1] (Uitkering heeft Verlaging door boete)
+Uitkering [0..*] ──── Verlaging door maatregel [1..1] (Uitkering heeft Verlaging door maatregel)
+Vermogenscomponent [0..*] ──── Waardepeiling [1..1] (Vermogenscomponent is gewaardeerd met Waardepeilin)
 ```
 
 ## Observaties

@@ -42,24 +42,24 @@ Ingezetene (abstract)
 ## Relatiediagrammen
 
 ```
-Aanwezige Deelnemer [0..1] ──── Collegelid [0..1]
-Categorie ──── Raadsstuk
-Dossier ──── Raadsstuk
-Indiener ──── Collegelid
-Indiener [0..1] ──── Raadslid [0..1]
-Indiener ──── Raadsstuk
-Raadscommissie ──── Vergadering
-Raadslid [0..1] ──── Aanwezige Deelnemer [0..1]
-Raadslid ──── Raadscommissie
-Raadsstuk ──── Agendapunt
-Raadsstuk ──── Programma
-Raadsstuk ──── Taakveld
-Raadsstuk ──── Vergadering
-Stemming ──── Agendapunt
-Stemming ──── Raadsstuk
+Aanwezige Deelnemer [0..1] ──── Collegelid [0..1] (is)
+Categorie [0..1] ──── Raadsstuk [0..*] (heeft)
+Dossier [0..*] ──── Raadsstuk [0..*] (hoort bij)
+Indiener [0..1] ──── Collegelid [0..1] (is)
+Indiener [0..1] ──── Raadslid [0..1] (is)
+Indiener [0..*] ──── Raadsstuk [1..*] (heeft)
+Raadscommissie [0..1] ──── Vergadering [0..*] (heeft)
+Raadslid [0..1] ──── Aanwezige Deelnemer [0..1] (is)
+Raadslid [0..*] ──── Raadscommissie [0..*] (is lid van)
+Raadsstuk [0..*] ──── Agendapunt [0..*] (behandelt)
+Raadsstuk [0..*] ──── Programma [0..*] (hoort bij)
+Raadsstuk [0..*] ──── Taakveld [0..1] (heeft)
+Raadsstuk [0..*] ──── Vergadering [0..*] (wordt behandeld in)
+Stemming [0..*] ──── Agendapunt [0..1] (hoort bij)
+Stemming [0..1] ──── Raadsstuk [1] (betreft)
 Vergadering [1..1] ──── Aanwezige Deelnemer [0..*]
-Vergadering ──── Agendapunt
-Vergadering ──── Raadsstuk
+Vergadering [1] ──── Agendapunt [0..*] (heeft)
+Vergadering [0..1] ──── Raadsstuk [0..1] (heeft verslag)
 ```
 
 ## Observaties

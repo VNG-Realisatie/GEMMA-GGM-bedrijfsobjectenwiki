@@ -63,37 +63,37 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Aanbesteding ──── Gunning
-Aanbesteding Inhuur ──── CPV-code
-Aanbesteding Inhuur ──── Categorie
-Aanbesteding Inhuur ──── Gunning
-Aankondiging ──── Aanbesteding
-Aanvraag Inkooporder ──── Contract
-Aanvraag Inkooporder ──── Leverancier
-CPV-code ──── Aanbesteding
-Contract ──── Contract
-FormulierInhuur ──── Aanbesteding Inhuur
-FormulierVerlengingInhuur ──── Leverancier
-Gunning ──── Inschrijving
-Gunning ──── Kandidaat
-Gunning ──── Offerte
-Inkooppakket [0..*] ──── CPV-code [1..*]
-Inschrijving ──── Aanbesteding
-Kandidaat ──── Aanbesteding Inhuur
-Kwalificatie ──── Aanbesteding
-Leverancier ──── Categorie
-Leverancier ──── Contract
-Leverancier ──── Inschrijving
-Leverancier ──── Kandidaat
-Leverancier ──── Kwalificatie
-Offerte ──── Aanbesteding
-Offerte ──── Leverancier
-Offerteaanvraag ──── Aanbesteding
-Offerteaanvraag ──── Leverancier
-StartformulierAanbesteden ──── Aanbesteding
-StartformulierAanbesteden ──── Aankondiging
-Uitnodiging ──── Aanbesteding Inhuur
-Uitnodiging ──── Leverancier
+Aanbesteding [0..1] ──── Gunning [0..1] (mondt uit)
+Aanbesteding Inhuur [0..*] ──── CPV-code [1] (valt onder)
+Aanbesteding Inhuur [0..*] ──── Categorie [1] (valt binnen)
+Aanbesteding Inhuur [1] ──── Gunning [0..1] (mondt uit)
+Aankondiging [0..*] ──── Aanbesteding [0..1] (mondt uit)
+Aanvraag Inkooporder [0..*] ──── Contract [1] (betreft)
+Aanvraag Inkooporder [0..*] ──── Leverancier [1] (betreft)
+CPV-code [1] ──── Aanbesteding [0..*] (valt onder)
+Contract [0..*] ──── Contract [0..1] (bovenliggend)
+FormulierInhuur [0..1] ──── Aanbesteding Inhuur [0..1] (mondt uit in)
+FormulierVerlengingInhuur [0..*] ──── Leverancier [1] (ingehuurd via)
+Gunning [0..1] ──── Inschrijving [0..1] (betreft)
+Gunning [0..1] ──── Kandidaat [1] (betreft)
+Gunning [0..1] ──── Offerte [0..1] (betreft)
+Inkooppakket [0..*] ──── CPV-code [1..*] (heeft)
+Inschrijving [0..*] ──── Aanbesteding [1] (betreft)
+Kandidaat [0..*] ──── Aanbesteding Inhuur [1] (ingediend voor)
+Kwalificatie [0..*] ──── Aanbesteding [1] (betreft)
+Leverancier [0..*] ──── Categorie [0..*] (gekwalificeerd)
+Leverancier [1] ──── Contract [0..*] (contractant)
+Leverancier [1] ──── Inschrijving [0..*] (heeft)
+Leverancier [1] ──── Kandidaat [0..*] (biedt aan)
+Leverancier [1] ──── Kwalificatie [0..*] (heeft)
+Offerte [0..*] ──── Aanbesteding [1] (betreft)
+Offerte [0..*] ──── Leverancier [1] (ingediend door)
+Offerteaanvraag [0..*] ──── Aanbesteding [1] (betreft)
+Offerteaanvraag [0..*] ──── Leverancier [1] (gericht aan)
+StartformulierAanbesteden [0..1] ──── Aanbesteding [0..1] (mondt uit)
+StartformulierAanbesteden [0..1] ──── Aankondiging [0..*] (mondt uit)
+Uitnodiging [0..*] ──── Aanbesteding Inhuur [1] (betreft)
+Uitnodiging [0..*] ──── Leverancier [1] (gericht aan)
 ```
 
 ## Observaties

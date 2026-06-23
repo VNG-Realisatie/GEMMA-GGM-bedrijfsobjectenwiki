@@ -32,15 +32,15 @@ aantal_entiteiten: 11
 ## Relatiediagrammen
 
 ```
-Component [1..*] ──── ComponentSoort [1..1]
-Component [1..*] ──── UitkeringsRun [1..1]
-Inkomensvoorziening [1..1] ──── Component [1..*]
-Inkomensvoorziening ──── Huisvestingsoort
-Inkomensvoorziening ──── RedenBlokkering
-Inkomensvoorziening ──── RedenInstroom
-Inkomensvoorziening ──── RedenUitstroom
-Inkomensvoorzieningsoort [1..1] ──── Inkomensvoorziening [0..*]
-Regeling [0..*] ──── Regelingsoort [1..1]
+Component [1..*] ──── ComponentSoort [1..1] (is van soort)
+Component [1..*] ──── UitkeringsRun [1..1] (heeft)
+Inkomensvoorziening [1..1] ──── Component [1..*] (is opgebouwd uit)
+Inkomensvoorziening [1] ──── Huisvestingsoort [0..*] (soortHuisvesting)
+Inkomensvoorziening [1] ──── RedenBlokkering [0..*] (redenBlokkering)
+Inkomensvoorziening [1] ──── RedenInstroom [1..*] (redenInstroom)
+Inkomensvoorziening [1] ──── RedenUitstroom [0..*] (redenUitstroom)
+Inkomensvoorzieningsoort [1..1] ──── Inkomensvoorziening [0..*] (is soort voorziening)
+Regeling [0..*] ──── Regelingsoort [1..1] (is regelingsoort)
 ```
 
 ## Observaties

@@ -126,44 +126,48 @@ Rechtspersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Bedrijfsproces ──── Bedrijfsprocestype
-Bedrijfsproces ──── Zaak
-Bedrijfsprocestype [0..*] ──── Bedrijfsprocestype [0..*]
-Bedrijfsprocestype ──── Zaaktype
-Besluit ──── Besluittype (Aanduiding van de aard van het BESLUIT.)
-Besluit ──── Document (Aanduiding van het (de) DOCUMENT(en) waarin het BESLUIT beschreven is.)
-Besluit ──── Zaak (Aanduiding van de ZAAK waarbinnen het BESLUIT genomen is.)
-Betrokkene ──── Medewerker (Een MEDEWERKER als specialisatie van BETROKKENE.)
-Betrokkene ──── OrganisatorischeEenheid (Een ORGANISATORISCHE EENHEID als specialisatie van BETROKKENE)
-Betrokkene ──── Zaak (De ROLlen die BETROKKENE heeft in de zaken waarin BETROKKENE een ROL speelt.)
-Deelproces ──── Bedrijfsproces
-Deelproces ──── Deelprocestype
-Deelprocestype ──── Bedrijfsprocestype
-Document ──── Documenttype (Aanduiding van de aard van het DOCUMENT.)
-Document [0..*] ──── Identificatiekenmerk [1..1]
-Klantcontact [0..*] ──── Betrokkene [0..1]
-Klantcontact [0..*] ──── Medewerker [0..1]
-Klantcontact [0..*] ──── VestigingVanZaakbehandelendeOrganisatie [0..1]
-Klantcontact [0..*] ──── Zaak [0..1]
-Medewerker ──── OrganisatorischeEenheid (De MEDEWERKER die anderen desgevraagd in contact brengt met (andere) medewerkers van deze ORGANISATORISCHE EENHEID.)
+Bedrijfsproces [1..*] ──── Bedrijfsprocestype [1..] (is van)
+Bedrijfsproces [1..*] ──── Zaak [1..*] (uitgevoerd binnen)
+Bedrijfsprocestype [0..*] ──── Bedrijfsprocestype [0..*] (is onderdeel van)
+Bedrijfsprocestype [1] ──── Zaaktype [1..*] (heeft)
+Besluit [0..*] ──── Besluittype [1] (Aanduiding van de aard van het BESLUIT.)
+Besluit [0..*] ──── Document [0..*] (Aanduiding van het (de) DOCUMENT(en) waarin het BESLUIT beschreven is.)
+Besluit [0..1] ──── Document [0..1] (is vastgelegd in)
+Besluit [0..*] ──── Zaak [1] (Aanduiding van de ZAAK waarbinnen het BESLUIT genomen is.)
+Betrokkene [0..1] ──── Medewerker [1] (Een MEDEWERKER als specialisatie van BETROKKENE.)
+Betrokkene [0..1] ──── OrganisatorischeEenheid [1] (Een ORGANISATORISCHE EENHEID als specialisatie van BETROKKENE)
+Betrokkene [1..*] ──── Zaak [1..*] (De ROLlen die BETROKKENE heeft in de zaken waarin BETROKKENE een ROL speelt.)
+Deelproces [1..] ──── Bedrijfsproces [1] (is deel van)
+Deelproces [1] ──── Deelprocestype [1] (is van)
+Deelprocestype [1] ──── Bedrijfsprocestype [1] (is deel van)
+Document [0..*] ──── Documenttype [1] (Aanduiding van de aard van het DOCUMENT.)
+Document [0..*] ──── Identificatiekenmerk [1..1] (heeft kenmerk)
+Klantcontact [0..*] ──── Betrokkene [0..1] (heeft klantcontacten)
+Klantcontact [0..*] ──── Medewerker [0..1] (is gevoerd door)
+Klantcontact [0..*] ──── VestigingVanZaakbehandelendeOrganisatie [0..1] (locatie)
+Klantcontact [0..*] ──── Zaak [0..1] (heeft betrekking op)
+Medewerker [0..1] ──── OrganisatorischeEenheid [0..1] (De MEDEWERKER die anderen desgevraagd in contact brengt met (andere) medewerkers van deze ORGANISATORISCHE EENHEID.)
+Medewerker [0..*] ──── OrganisatorischeEenheid [0..*] (De ORGANISATORISCHE EENHEID waarvan de MEDEWERKER deel uitmaakt of deel heeft uitgemaakt.)
 Medewerker [0..1] ──── Zaaktype [0..*] (De MEDEWERKER die verantwoordelijk is voor ZAAKen van het ZAAKTYPE.)
-Object ──── Besluit (Een BESLUIT als specialisatie van OBJECT.)
-Object ──── Zaak (De ZAAKen die betrekking hebben op het OBJECT)
-OrganisatorischeEenheid ──── OrganisatorischeEenheid
-OrganisatorischeEenheid ──── VestigingVanZaakbehandelendeOrganisatie (De VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE waar de ORGANISATORISCHE EENHEID haar activiteiten uitvoert.)
-OrganisatorischeEenheid ──── Zaaktype (De ORGANISATORISCHE EENHEID die verantwoordelijk is voor ZAAKen van het ZAAKTYPE.)
-SamengesteldDocument ──── EnkelvoudigDocument (De ENKELVOUDIGe DOCUMENTen die deel uit maken van het SAMENGESTELD DOCUMENT.)
-Status ──── Statustype (Aanduiding van de aard van de STATUS.)
-ZAAK - Origineel ──── ZAAK - Origineel (De andere ZAAKen die het onderwerp zijn van de ZAAK.)
-Zaak [0..1] ──── Betaling [0..*]
-Zaak ──── Document
-Zaak ──── Heffing
-Zaak [1..1] ──── KenmerkenZaak [0..*]
-Zaak ──── Medewerker
-Zaak ──── Status (De STATUSsen die bereikt zijn gedurende de behandeling van de ZAAK.)
-Zaak ──── Zaak (De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.)
-Zaak ──── Zaaktype (Aanduiding van de aard van de ZAAK.)
-Zaaktype ──── Statustype (De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE.)
+Object [0..1] ──── Besluit [1..] (Een BESLUIT als specialisatie van OBJECT.)
+Object [0..1] ──── Zaak [1] (De ZAAKen die betrekking hebben op het OBJECT)
+OrganisatorischeEenheid [1] ──── OrganisatorischeEenheid [0..1] (Is deel van)
+OrganisatorischeEenheid [1..*] ──── VestigingVanZaakbehandelendeOrganisatie [1] (De VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE waar de ORGANISATORISCHE EENHEID haar activiteiten uitvoert.)
+OrganisatorischeEenheid [0..1] ──── Zaaktype [0..*] (De ORGANISATORISCHE EENHEID die verantwoordelijk is voor ZAAKen van het ZAAKTYPE.)
+SamengesteldDocument [0..1] ──── EnkelvoudigDocument [2..*] (De ENKELVOUDIGe DOCUMENTen die deel uit maken van het SAMENGESTELD DOCUMENT.)
+Status [0..*] ──── Statustype [1] (Aanduiding van de aard van de STATUS.)
+ZAAK - Origineel ──── ZAAK - Origineel [0..*] (De andere ZAAKen die het onderwerp zijn van de ZAAK.)
+ZAAK - Origineel ──── ZAAK - Origineel [0..1] (De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.)
+Zaak [0..1] ──── Betaling [0..*] (heeft betaling)
+Zaak [0..*] ──── Document [1..*] (kent)
+Zaak [1] ──── Heffing [0..1] (heeft)
+Zaak [1..1] ──── KenmerkenZaak [0..*] (heeft kenmerken)
+Zaak [0..*] ──── Medewerker [0..*] (afhandelend medewerker)
+Zaak [1] ──── Status [0..*] (De STATUSsen die bereikt zijn gedurende de behandeling van de ZAAK.)
+Zaak [1] ──── Zaak [0..1] (De verwijzing naar de ZAAK, waarom verzocht is door de initiator daarvan, die door de zaakbehandelende organisatie is opgedeeld in twee of meer separaat te behandelen zaken waarvan de onderhavige zaak er één is.)
+Zaak [1] ──── Zaak [0..*] (De andere ZAAKen die het onderwerp zijn van de ZAAK.)
+Zaak [0..*] ──── Zaaktype [1] (Aanduiding van de aard van de ZAAK.)
+Zaaktype [1] ──── Statustype [1..*] (De STATUSTYPEn die bereikt kunnen worden bij behandeling van ZAAKen van het ZAAKTYPE.)
 ```
 
 ## Observaties

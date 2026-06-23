@@ -33,25 +33,25 @@ aantal_entiteiten: 17
 ## Relatiediagrammen
 
 ```
-Artefact [0..*] ──── Artefactsoort [1..1]
-Artefact ──── Doos
-Artefact [0..*] ──── Magazijnplaatsing [0..1]
-Doos [0..*] ──── Magazijnlocatie [1..1]
-Magazijnplaatsing [0..1] ──── Doos [0..*]
-Magazijnplaatsing [0..*] ──── Magazijnlocatie [0..1]
-Magazijnplaatsing [0..*] ──── Project [0..1]
-Project [1..1] ──── Archeologiebesluit [0..*]
-Project [1..1] ──── Put [0..*]
-Project [1..1] ──── boring [0..*]
-Project [0..*] ──── locatie [1..*]
-Put [1..1] ──── Vlak [0..*]
-Put [0..*] ──── locatie [1..*]
-Spoor [1..1] ──── Vulling [0..*]
-Stelling [1..1] ──── Magazijnlocatie [0..*]
-Vindplaats ──── Project
-Vlak [1..1] ──── Spoor [0..*]
-Vondst [0..1] ──── Artefact [0..*]
-Vulling [1..1] ──── Vondst [0..*]
+Artefact [0..*] ──── Artefactsoort [1..1] (is van soort)
+Artefact [0..*] ──── Doos [0..1] (zit in)
+Artefact [0..*] ──── Magazijnplaatsing [0..1] (vindbaar op)
+Doos [0..*] ──── Magazijnlocatie [1..1] (staat op)
+Magazijnplaatsing [0..1] ──── Doos [0..*] (zit in)
+Magazijnplaatsing [0..*] ──── Magazijnlocatie [0..1] (staat op)
+Magazijnplaatsing [0..*] ──── Project [0..1] (hoort bij)
+Project [1..1] ──── Archeologiebesluit [0..*] (heeft)
+Project [1..1] ──── Put [0..*] (heeft)
+Project [1..1] ──── boring [0..*] (heeft)
+Project [0..*] ──── locatie [1..*] (wordt begrensd door)
+Put [1..1] ──── Vlak [0..*] (heeft)
+Put [0..*] ──── locatie [1..*] (heeft locatie)
+Spoor [1..1] ──── Vulling [0..*] (heeft)
+Stelling [1..1] ──── Magazijnlocatie [0..*] (heeft)
+Vindplaats [0..1] ──── Project [1] (hoort bij)
+Vlak [1..1] ──── Spoor [0..*] (heeft)
+Vondst [0..1] ──── Artefact [0..*] (bevat)
+Vulling [1..1] ──── Vondst [0..*] (heeft)
 ```
 
 ## Observaties

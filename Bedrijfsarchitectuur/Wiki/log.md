@@ -1,5 +1,12 @@
 # Wiki Log
 
+## [2026-06-23] ingest | Bestuur — Partijsubsidie (1 BO, 2 bronsamenvattingen)
+- **4 bronnen opgehaald:** VNG Model Subsidieregeling decentrale politieke partijen (nieuwspagina, ledenbrief PDF, modelverordening DOCX, implementatiehandleiding DOCX)
+- **2 bronnen naar Niet-relevant:** nieuwspagina (dun, samenvatting), ledenbrief (dupliceert verordening)
+- **2 bronsamenvattingen:** model-subsidieregeling-politieke-partijen, implementatiehandleiding-subsidieregeling-politieke-partijen
+- **1 nieuw BO:** [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|Partijsubsidie]] — procesobject, geen GGM-entiteit in taakveld 0
+- **GGM-hiaat genoteerd:** politieke partijen niet gemodelleerd onder taakveld 0; Raadslid.fractie is enige referentie
+
 ## [2026-06-23] coverage | GGM-dekkingsanalyse geregenereerd
 - [[Wiki/Analyses/ggm-dekking|ggm-dekking]] opnieuw gegenereerd via `coverage_analysis.py`
 - 954 objecttype-entiteiten in 44 beleidsdomeinen, 132 BO's vastgelegd, 787 niet beoordeeld

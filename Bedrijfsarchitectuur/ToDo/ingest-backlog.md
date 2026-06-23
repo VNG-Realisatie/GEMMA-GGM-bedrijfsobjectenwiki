@@ -64,6 +64,14 @@ Status: 134 bronnen in 19 batches.
 
 > **Afgehandeld:** 2 bronnen naar Niet-relevant (portaalpagina's, inhoud gedekt door rijkere beleidsdocumenten). Geen nieuwe BO's. Domein afgerond: 7 bronsamenvattingen, 2 niet-relevant, 22 begrippen, 3 BO's.
 
+## ~~Bestuur (4)~~ ✓
+- [x] model-subsidieregeling-politieke-partijen
+- [x] ledenbrief-subsidieregeling-politieke-partijen
+- [x] model-subsidieregeling-politieke-partijen-verordening
+- [x] implementatiehandleiding-subsidieregeling-politieke-partijen
+
+> **Afgehandeld:** 2 rijke bronnen samengevat (modelverordening + implementatiehandleiding), 2 naar Niet-relevant (nieuwspagina, ledenbrief). 1 nieuw BO: Partijsubsidie (procesobject, GGM-hiaat). GGM mist "Politieke Partij" als entiteit onder taakveld 0.
+
 ## erfgoed (1)
 - [ ] lijst-beeldbepalende-panden
 

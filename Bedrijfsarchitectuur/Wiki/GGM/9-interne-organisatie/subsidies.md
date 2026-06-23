@@ -30,14 +30,14 @@ aantal_entiteiten: 9
 ## Relatiediagrammen
 
 ```
-Subsidie ──── Rapportagemoment
-Subsidie ──── Sector
-Subsidie ──── Taak
-Subsidieaanvraag ──── Subsidie
-Subsidieaanvraag ──── Subsidiebeschikking
-Subsidiebeschikking ──── Subsidie
-Subsidiecomponent ──── Betaalmoment
-Subsidieprogramma ──── Subsidie
+Subsidie [1] ──── Rapportagemoment [0..*] (heeft)
+Subsidie [0..*] ──── Sector [0..1] (valt binnen)
+Subsidie [1] ──── Taak [0..*] (heeft)
+Subsidieaanvraag [1] ──── Subsidie [1] (betreft)
+Subsidieaanvraag [1] ──── Subsidiebeschikking [0..1] (mondt uit)
+Subsidiebeschikking [0..1] ──── Subsidie [1] (betreft)
+Subsidiecomponent [1] ──── Betaalmoment [1..*] (heeft)
+Subsidieprogramma [0..1] ──── Subsidie [1..*] (gaat over)
 ```
 
 ## Observaties

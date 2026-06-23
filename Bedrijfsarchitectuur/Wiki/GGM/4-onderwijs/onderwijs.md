@@ -57,16 +57,16 @@ Vastgoedobject (abstract)
 ## Relatiediagrammen
 
 ```
-Inschrijving [0..*] ──── School [1..1]
-Leerling [1..1] ──── Inschrijving [0..*]
-Leerling [1..1] ──── Onderwijsloopbaan [0..*]
-Leerling [1..1] ──── Startkwalificatie [0..1]
-Leerling [1..1] ──── Uitschrijving [0..*]
-Onderwijsloopbaan ──── Loopbaanstap
-School [0..1] ──── Locatie [1..*]
-School [1..*] ──── Onderwijsloopbaan [0..*]
-School [0..*] ──── Onderwijssoort [1..*]
-School [1..1] ──── Uitschrijving [0..*]
+Inschrijving [0..*] ──── School [1..1] (heeft)
+Leerling [1..1] ──── Inschrijving [0..*] (heeft)
+Leerling [1..1] ──── Onderwijsloopbaan [0..*] (heeft)
+Leerling [1..1] ──── Startkwalificatie [0..1] (heeft)
+Leerling [1..1] ──── Uitschrijving [0..*] (heeft)
+Onderwijsloopbaan [1] ──── Loopbaanstap [0..*]
+School [0..1] ──── Locatie [1..*] (school heeft)
+School [1..*] ──── Onderwijsloopbaan [0..*] (kent)
+School [0..*] ──── Onderwijssoort [1..*] (heeft)
+School [1..1] ──── Uitschrijving [0..*] (heeft)
 ```
 
 ## Observaties

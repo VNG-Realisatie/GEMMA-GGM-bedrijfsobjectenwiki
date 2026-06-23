@@ -26,8 +26,8 @@ NatuurlijkPersoon (abstract)
 ## Relatiediagrammen
 
 ```
-Erfgoed Object ──── Objectclassificatie
-Historisch Persoon  ──── Erfgoed Object
+Erfgoed Object [0..*] ──── Objectclassificatie [0..*] (valt binnen)
+Historisch Persoon  [0..*] ──── Erfgoed Object [0..*] (speelt rol in)
 ```
 
 ## Observaties

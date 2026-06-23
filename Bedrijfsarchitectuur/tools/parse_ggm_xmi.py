@@ -338,9 +338,15 @@ def _parse_ea_connectors(connectors_section, relations):
                 rel['target_id'] = idref_tgt
 
         if labels is not None:
+            mt = labels.get('mt', '')
+            if mt:
+                rel['name'] = mt
             lb = labels.get('lb', '')
-            if lb:
-                rel['name'] = lb
+            if lb and not rel.get('source_card'):
+                rel['source_card'] = lb
+            rb = labels.get('rb', '')
+            if rb and not rel.get('target_card'):
+                rel['target_card'] = rb
 
         if docs is not None:
             doc_val = docs.get('value', '')

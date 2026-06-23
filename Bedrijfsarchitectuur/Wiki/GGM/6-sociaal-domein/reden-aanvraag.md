@@ -78,10 +78,10 @@ Reden afwijkende startdatum (abstract)
 ## Relatiediagrammen
 
 ```
-Diensten::Aanvraag ──── Reden aanvraag
-Ingang bijstandsuitkering ──── Diensten::Aanvraag levensonderhoud
-Ingang bijstandsuitkering [0..1] ──── Reden afwijkende startdatum [0..1]
-Levenssituatie::Levenssituatie [0..1] ──── Reden aanvraag [0..*]
+Diensten::Aanvraag [1..*] ──── Reden aanvraag [0..*] (Is aanleiding tot)
+Ingang bijstandsuitkering [0..*] ──── Diensten::Aanvraag levensonderhoud [1] (Bevat)
+Ingang bijstandsuitkering [0..1] ──── Reden afwijkende startdatum [0..1] (bevat)
+Levenssituatie::Levenssituatie [0..1] ──── Reden aanvraag [0..*] (Is reden tot)
 ```
 
 ## Observaties

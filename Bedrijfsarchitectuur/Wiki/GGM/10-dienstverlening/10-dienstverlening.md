@@ -69,18 +69,18 @@ AanvraagOfMelding (abstract)
 ## Relatiediagrammen
 
 ```
-AanvraagOfMelding [1..1] ──── Aanvraagdata [0..*]
-AanvraagOfMelding [0..*] ──── Formuliersoort [0..1]
-AanvraagOfMelding [0..*] ──── Onderwerp [1..*]
-Aanvraagdata [0..*] ──── Formuliersoortveld [1..1]
-Balieafspraak [0..*] ──── Afspraakstatus [1..1]
-Balieafspraak [0..*] ──── ProductOfDienst [0..*]
-Formuliersoort [1..1] ──── Formuliersoortveld [0..*]
-Klantbeoordeling ──── Klantbeoordelingreden
-Onderwerp [0..*] ──── Onderwerp [1..1]
-ProductOfDienst ──── Klantbeoordeling
-Telefoononderwerp [0..1] ──── Telefoontje [0..*]
-Telefoontje [0..*] ──── Telefoonstatus [1..1]
+AanvraagOfMelding [1..1] ──── Aanvraagdata [0..*] (heeft data)
+AanvraagOfMelding [0..*] ──── Formuliersoort [0..1] (aanvraag met )
+AanvraagOfMelding [0..*] ──── Onderwerp [1..*] (betreft)
+Aanvraagdata [0..*] ──── Formuliersoortveld [1..1] (is conform)
+Balieafspraak [0..*] ──── Afspraakstatus [1..1] (heeft)
+Balieafspraak [0..*] ──── ProductOfDienst [0..*] (betreft)
+Formuliersoort [1..1] ──── Formuliersoortveld [0..*] (heeft velden)
+Klantbeoordeling [1] ──── Klantbeoordelingreden [0..*] (heeft)
+Onderwerp [0..*] ──── Onderwerp [1..1] (hoofdonderwerp)
+ProductOfDienst [1..*] ──── Klantbeoordeling [0..*] (heeft)
+Telefoononderwerp [0..1] ──── Telefoontje [0..*] (heeft)
+Telefoontje [0..*] ──── Telefoonstatus [1..1] (heeft)
 ```
 
 ## Observaties

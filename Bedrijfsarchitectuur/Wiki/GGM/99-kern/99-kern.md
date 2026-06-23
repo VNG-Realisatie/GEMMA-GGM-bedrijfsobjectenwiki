@@ -53,9 +53,9 @@ Locatie (abstract)
 ## Relatiediagrammen
 
 ```
-Gebiedengroep ──── Gebied
-Lijnengroep ──── Lijn
-Puntengroep ──── Punt
+Gebiedengroep [0..1] ──── Gebied [1..*] (omvat)
+Lijnengroep [0..1] ──── Lijn [0..*] (omvat)
+Puntengroep [0..1] ──── Punt [1..*] (omvat)
 ```
 
 ## Observaties
