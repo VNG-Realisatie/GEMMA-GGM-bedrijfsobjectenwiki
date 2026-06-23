@@ -12,14 +12,6 @@ bo_count: 7
 
 Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcontact, producten- en dienstencatalogus, en de informatiestandaarden die het dienstverleningsproces ondersteunen. Dit domein is domeinoverstijgend: het levert de generieke structuur waarmee alle gemeentelijke domeinen hun dienstverlening organiseren.
 
-## GGM-taakvelden
-
-Dit wiki-domein raakt twee GGM-taakvelden:
-- **Taakveld 10 Dienstverlening** — meldingen, aanvragen, baliecontacten, telefonische afhandeling, formulieren, klantbeoordelingen en producten/diensten (16 entiteiten)
-- **Taakveld 99 Kern / RGBZPlus** — de zaakgerichte kern: Zaak, Status, Besluit, Document, Betrokkene, Medewerker (25 entiteiten)
-
-De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJECTTYPE) is niet in het GGM gemodelleerd.
-
 ## Begrippen
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
@@ -50,44 +42,6 @@ De ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJ
 | informatieobject | ✅ BO | Document (RGBZPlus) | sterk |
 | zaakdossier | ✅ BO | Zaak (RGBZPlus) | sterk |
 | resultaattype | ✅ BO | RESULTAATTYPE (ZTC2) | exact |
-
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Model Dienstverlening (tv. 10) | 16 | 3 | 9 | 4 | Klantbeoordeling, Telefoontje, Telefoononderwerp, Telefoonstatus: operationeel/kwaliteitsregistratie, niet uit beleidsbronnen |
-| RGBZPlus (tv. 99 Kern) | 25 | 2 | 23 | 0 | — |
-
-### Niet-BO entiteiten Model Dienstverlening
-
-| GGM-entiteit | Reden niet-BO |
-|---|---|
-| Aanvraagdata | Attribuutwaarden van AanvraagOfMelding, geen eigen bestaan |
-| Afspraakstatus | Statuswaarde van Balieafspraak |
-| Artikel | Publicatieobject, geen gemeentelijk bedrijfsobject |
-| ExterneBron | Technische herkomstverwijzing |
-| Formuliersoort | Configuratie-object (template), geen bedrijfsobject |
-| Formuliersoortveld | Velden binnen een formuliertemplate |
-| Klantbeoordelingreden | Detailwaarde van Klantbeoordeling |
-| MOR-AanvraagOfMelding | Specialisatie van AanvraagOfMelding, opgenomen in het generieke BO |
-| Onderwerp | Classificatiewaarde, geen eigen bestaan |
-
-### Twijfelgevallen (beoordeeld, niet als BO opgenomen)
-
-- **Klantbeoordeling**: heeft meervoud en levenscyclus, maar is een kwaliteitsmetric, geen kern-bedrijfsobject. Kan bij toekomstige bronnen over klanttevredenheidsbeleid heroverwogen worden.
-- **Telefoontje**: individueel telefoongesprek met technische attributen (trackID, ISDNconnectie). Te granulair en te operationeel voor bedrijfsniveau.
-
-## GGM-dekkingsanalyse
-
-Het GGM modelleert dienstverlening in twee lagen:
-
-**Taakveld 10 (Model Dienstverlening)** bevat de kanaal- en contactregistratie: aanvragen/meldingen, balieafspraken, telefooncontacten, formulieren, producten/diensten en klantbeoordelingen. Drie entiteiten worden BO: AanvraagOfMelding, Balieafspraak en ProductOfDienst. De overige zijn attributen, statuswaarden, classificaties of specialisaties.
-
-**Taakveld 99 Kern (RGBZPlus)** bevat de zaakgerichte kern: Zaak, Status, Besluit, Document, Betrokkene, Medewerker. Twee entiteiten worden BO in dit domein (Zaak → zaakdossier, Document → informatieobject). De overige zijn attribuutobjecten of raken andere domeinen.
-
-**Structureel hiaat:** de ZTC2-configuratielaag (CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ROLTYPE, ZAAKOBJECTTYPE) is een extern informatiemodel dat niet in het GGM is opgenomen. Zaaktypecatalogus en resultaattype zijn als BO opgenomen op basis van de ZTC2-standaard, niet op basis van GGM-entiteiten.
-
-**Beleidslaag:** de VNG-bronnen over overheidsbrede dienstverlening, digitale toegankelijkheid en online dienstverlening beschrijven werkwijzen, organisatiemodellen en wettelijke verplichtingen — geen nieuwe data-objecten. Dit is structureel: het GGM modelleert wat gemeenten registreren, niet hoe ze hun dienstverlening organiseren.
 
 ## Informatiestandaarden
 

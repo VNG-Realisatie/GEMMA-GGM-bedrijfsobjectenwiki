@@ -79,20 +79,6 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]]|object|Vergunning om te parkeren in aangewezen gebied| ✅ | ja |6/6 criteria, exact GGM-match|Bewonersvergunning zone A|ja|
 |[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]]|object|Recht op parkeren na betaling| ✅ | ja |6/6 criteria, exact GGM-match|Parkeerticket 2 uur|ja|
 
-## GGM-dekkingsanalyse
-
-Het GGM heeft geen beleidsdomein "Belastingen". Relevante entiteiten per GGM-domein:
-
-| GGM-domein | Relevante entiteiten | Status |
-|---|---|---|
-| RSGBPlus (99 Kern) | WOZ-object, WOZ-Waarde, WOZ-deelobject, SoortWOZObject | WOZ-object en WOZ-Waarde → BO |
-| Vastgoed (9 Int. Org.) | WOZ-Belang, LocatieaanduidingWozObject | Technische tussenentiteiten |
-| Financien (9 Int. Org.) | Debiteur, Kostenplaats | Debiteur → BO (in domein Financien) |
-| Parkeren (2 V&V) | Naheffing, Parkeerrecht, Parkeervergunning, Parkeerzone, Parkeervlak | 3 → BO |
-| VTH (1 Veiligheid) | Heffing, Heffingsverordening, Heffinggrondslag, Precario | Heffing en Heffingsverordening → BO; Heffinggrondslag is tussenentiteit; Precario bevestigd |
-
-**Opmerking:** het heffingsproces (verordening → maatstaf → tarief → aanslag → invordering) is niet als samenhangend domein gemodelleerd in het GGM, maar de kernentiteiten Heffing en Heffingsverordening bestaan wel in GGM VTH/Kern en zijn nu als BO vastgelegd.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen|Belastingtypen]] — Drie typen gemeentelijke belastingen

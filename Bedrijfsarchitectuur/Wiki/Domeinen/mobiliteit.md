@@ -116,21 +116,6 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | Strooidag | object | Dag waarop gestrooid wordt | ❌ | ja | Te operationeel, onderdeel van gladheidsbestrijdingsproces | — | ja |
 | StrooirouteUitvoering | object | Werkelijk gevolgde strooiroute | ❌ | ja | Te operationeel, uitvoeringsniveau | — | ja |
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Mobiliteit | 11 | 4 | 7 | 0 | — |
-| Parkeren | 15 | 9 | 6 | 0 | — |
-
-### GGM-dekkingsanalyse
-
-**Mobiliteit**: het GGM modelleert uitsluitend verkeersmanagement — stremmingen, gladheidsbestrijding, verkeersbesluiten en verkeerstellingen. De functionele mobiliteitslaag ontbreekt volledig: geen routes, knooppunten, haltes, zones of logistieke voorzieningen. Dit is een structureel hiaat. Alle 14 nieuwe BO-kandidaten uit het Mobiliteitsplan (inclusief Voetgangersgebied) vallen buiten de huidige GGM-scope.
-
-**Parkeren**: goed uitgewerkt met 13 entiteiten die het volledige parkeerbeheerproces dekken (zones, vlakken, rechten, vergunningen, handhaving). Alle kernentiteiten bevestigd door parkeerbeleidsbronnen. Twee hiaten geïdentificeerd: [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart|Gehandicaptenparkeerkaart (GPK)]] ontbreekt als entiteit, en [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats|Gehandicaptenparkeerplaats]] wordt slechts als attribuut `doelgroep` op Parkeervlak gedekt, terwijl het eigen processen en beleidsregel heeft. Aanvulling nodig voor laadinfrastructuur ([[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laadpaal|Laadpaal]]).
-
-**BOR-overlap**: fysieke assets (Wegdeel, Fietsparkeervoorziening, Verkeerslicht, Brug) zijn gemodelleerd in het BOR-domein (taakveld 8). De mobiliteitslaag bouwt hier functioneel bovenop — een [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]] is een aanduiding op bestaande Wegdelen, een [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]] is een functionele locatie op de openbare ruimte.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/mobiliteit/kwaliteitsnet-goederenvervoer-2007|Kwaliteitsnet Goederenvervoer binnen de gemeente Utrecht]]

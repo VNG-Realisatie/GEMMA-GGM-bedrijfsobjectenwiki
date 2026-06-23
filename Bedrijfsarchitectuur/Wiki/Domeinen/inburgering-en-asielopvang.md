@@ -48,17 +48,6 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie\|Opvanglocatie]] | procesobject | Asielopvang structureel niet gemodelleerd in GGM |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst\|Bestuursovereenkomst]] | governance-object | Governance-objecten vallen buiten GGM-scope |
 
-## GGM-dekkingsanalyse
-
-**35 GGM-entiteiten beoordeeld:**
-- 13 → BO (zie tabel hierboven)
-- 4 → classificatie/abstract: Inburgeraar (abstract, specialisaties zijn BO), Vreemdeling (te generiek), B1-route (type van Leerroute), Z-route (type van Leerroute)
-- 18 → attribuut/detail van ander BO: Aandachtspunt, Ontwikkelwens, Subdoel Aandachtspunt, Subdoel Ontwikkelwens, Hoofddoel, Taalvaardigheid, ICT-Vaardigheid (→ details van PIP/Brede Intake); Examenonderdeel (→ detail van Examen); Ontheffing, Vrijstelling, Verlengingsgrond (→ status van Inburgeringsplicht); Aanvraag verlenging Inburgeringstermijn (→ processtap); Diplomawaardering, Educatie, Werk, Training (→ achtergrondinformatie); Verblijfplaats AZC (→ locatiegegeven); Introductiemodule (→ onderdeel Voorbereiding)
-
-**Generalisatiekeuze:** Inburgeraar (abstract) → twee aparte BO's: Asielstatushouder en Gezinsmigrant. Reden: verschillende instroom, ander voortraject (voorinburgering alleen bij asiel), andere koppelingsroute.
-
-**Terugmelding GGM:** asielopvangfase ontbreekt volledig — opvanglocatie, bestuursovereenkomst en exploitatievorm zijn niet gemodelleerd.
-
 ## Begrippen
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|

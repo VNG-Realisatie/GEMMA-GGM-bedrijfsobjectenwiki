@@ -47,23 +47,6 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 | kinderopvangvoorziening | object | Locatie waar kinderopvang wordt geboden, geregistreerd in LRK | ✅ | ja | 6/6 criteria, GGM-hiaat | KDV, BSO, gastouderopvang | nee |
 | gymzaal | object | Sportvoorziening voor bewegingsonderwijs | ❌ | nee | Cross-domein: gedekt als [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] (taakveld 5) | Schoolgymzaal, sportzaal | ja |
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Onderwijs | 12 | 5 | 7 | 0 | — |
-| Leerplicht en Leerlingenvervoer | 15 | 5 | 10 | 0 | — |
-
-## GGM-dekkingsanalyse
-
-Het GGM taakveld 4 Onderwijs bevat 27 entiteiten verdeeld over twee beleidsdomeinen. Alle entiteiten zijn beoordeeld op basis van de beschikbare bronnen.
-
-**Onderwijs (12 entiteiten, 5 BO):** De kern-entiteiten School, Leerling, Inschrijving, Uitschrijving en Ouder Of Verzorger zijn alle BO. De overige 7 zijn classificaties (Onderwijssoort, Onderwijsniveau, Leerjaar), te granulaire objecten (Loopbaanstap, Startkwalificatie) of abstracte concepten (Onderwijsloopbaan, Locatie).
-
-**Leerplicht en Leerlingenvervoer (15 entiteiten, 5 BO):** De operationele kern bestaat uit Verzuimmelding, Vrijstelling, Procesverbaal Onderwijs, Aanvraag Leerlingenvervoer en Beschikking Leerlingenvervoer. De overige 10 zijn abstracte supertypes (AanvraagOfMelding, Beslissing), te granulaire subtypes (Verlofaanvraag, AanvraagVrijstelling, Klacht/Ziekmelding), justitie-specifieke concepten (Doorgeleiding OM, HALT-verwijzing) of rollen (Leerplichtambtenaar, Vervoerder).
-
-**Opvallend:** Het GGM modelleert geen entiteiten voor onderwijshuisvesting (schoolgebouw, gymzaal, MFA), kinderopvang of voor- en vroegschoolse educatie. Deze begrippen komen wel prominent voor in de beleidsbronnen maar vallen buiten de GGM-scope van taakveld 4. Schoolgebouw/gymzaal zijn deels gedekt via Locatie (generalisatie van Vastgoedobject in Kern) en Sportlocatie (taakveld 5).
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]]

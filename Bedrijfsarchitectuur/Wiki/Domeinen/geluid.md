@@ -26,19 +26,6 @@ Het domein geluid omvat het gemeentelijk beleid voor geluid en trillingen in de 
 |geluidkartering|activiteit|Vijfjaarlijkse berekening geluidbelasting conform EU-richtlijn| ❌ | nee |Periodieke activiteit, geen eigen bestaan|Kartering 2021, kartering 2026|nee|
 |actieplan geluid|instrument|Verplicht programma met maatregelen voor geluidknelpunten| ❌ | nee |Governance-instrument|Actieplan 2024-2029|nee|
 
-## GGM-entiteitendekking
-
-Het domein geluid valt niet samen met één GGM-beleidsdomein. Geluidsscherm zit in Beheer Openbare Ruimte (82 entiteiten), geluidnormen raken aan Omgevingswet (31 entiteiten). Alleen de direct geluid-gerelateerde entiteiten zijn beoordeeld.
-
-| GGM-beleidsdomein | Relevante entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Beheer Openbare Ruimte | 82 (1 relevant: Geluidsscherm) | 1 | 0 | 81 | Overige entiteiten (wegen, groen, riolering) buiten scope geluidbeleid |
-| Omgevingswet | 31 (deels relevant) | 0 | 0 | 31 | Brede domeinentiteiten; geluidnormen zijn geen apart BO |
-
-### Dekkingsanalyse
-
-Het GGM heeft geen dedicated beleidsdomein voor geluid. De enige directe match is **Geluidsscherm** (IMBOR). De begrippen Geluidbron, Geluidgevoelig gebouw, Stil gebied en Geluidzone zijn potentiële GGM-hiaten — het zijn herkenbare objecten in het geluidbeleid die de gemeente actief beheert, maar die niet als aparte entiteiten in het GGM voorkomen. Dit past bij het patroon dat het GGM fysieke objecten goed dekt (via IMBOR) maar beleidsmatige classificaties (welke gebouwen zijn geluidgevoelig, welke gebieden zijn stil) niet modelleert.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen]]

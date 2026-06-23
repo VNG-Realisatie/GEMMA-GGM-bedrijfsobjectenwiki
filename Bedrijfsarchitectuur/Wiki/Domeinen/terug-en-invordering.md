@@ -24,16 +24,6 @@ Gemeentelijke schuld- en vorderingenbeheer — procedures voor het innen van vor
 |[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie\|Restitutie]]|object|Terugbetaling van te veel ontvangen aflossing| ✅ | ja |ggm-entiteit, 6/6 criteria|Restitutie na overpayment|ja|
 |[[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]]|object|Eis op een persoon die een zeker bedrag terug moet betalen aan de gemeente| ✅ | ja |ggm-entiteit, 6/6 criteria|OZB-schuld, openstaande factuur|ja|
 
-## GGM-dekkingsanalyse
-
-Het GGM modelleert terug-en-invordering in taakveld 6 (Sociaal Domein), beleidsdomein "Terug- en invordering" met 7 entiteiten.
-
-| GGM-domein | Entiteiten | Status |
-|---|---|---|
-| **Taakveld 6 Sociaal Domein / Terug- en invordering** | Aflossing, Aflossingsplan, Afschrijving, Interventie, Kwijtschelding, Restitutie, Vordering (7 entiteiten) | 7 → BO (100% dekking) |
-
-**Observatie:** Alle GGM-entiteiten in dit beleidsdomein zijn direct als BO gemodelleerd. Dit is een goed voorbeeld van een domein waar GGM en BO-model volledig aligneren.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding|Invordering en kwijtschelding]] — VNG Raadgever: invorderingsprocedure, aflossingsafspraken, kwijtschelding

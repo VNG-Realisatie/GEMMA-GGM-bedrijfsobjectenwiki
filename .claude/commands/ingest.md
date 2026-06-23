@@ -17,6 +17,5 @@ Volg deze stappen exact:
    - Voeg nieuwe begrippen toe aan de begrippentabel (begrip, type, omschrijving, BO?, data-object, reden, voorbeelden, GGM).
    - Begrippen die BO's zijn: maak de naam een `[[link]]` naar de BO-pagina.
    - Voeg verwerkte bronnen toe aan de bronnenlijst.
-   - **Vul de GGM-entiteitendekking in**: inventariseer alle GGM-entiteiten in de relevante beleidsdomeinen (uit `Sources/GGM/`) en maak een tabel met per beleidsdomein: totaal entiteiten, hoeveel BO, hoeveel niet-BO, hoeveel **niet beoordeeld** (geen beleidsbron). Dit maakt zichtbaar waar de wiki bewust onvolledig is.
 9. **Update** `Wiki/index.md` en `Wiki/log.md`.
 10. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — vink verwerkte bronnen af (`[x]`). Als alle bronnen van een domein-sectie zijn afgevinkt, markeer de sectie als afgerond (`~~Domein~~  ✓`).

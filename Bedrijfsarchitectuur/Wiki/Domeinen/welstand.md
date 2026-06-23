@@ -27,21 +27,6 @@ Gemeentelijk beleid voor de kwaliteit van de gebouwde omgeving. De welstandstoet
 | Commissie Welstand en Monumenten | actor | Onafhankelijk adviesorgaan voor welstand en monumenten | ❌ | nee | Organisatieonderdeel, geen BO | — | nee |
 | beeldbepalend gebouw | classificatie | Gebouw dat opvalt of het beeld van de omgeving bepaalt | ❌ | nee | Aanduiding/attribuut van een gebouw | Domtoren, stadskantoor | nee |
 
-## GGM-entiteitendekking
-
-Het welstandsdomein heeft geen eigen GGM-beleidsdomein. De relevante GGM-beleidsdomeinen zijn:
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Monumenten (taakveld 5) | 6 | 1 | 0 | 5 | Ambacht, Bouwactiviteit, Bouwstijl, Bouwtype, OorspronkelijkeFunctie — classificaties bij Beschermde Status, geen bronnen voor apart BO |
-| Model VTH (taakveld 1) | 30 | 0 | 0 | 30 | Geen VTH-specifieke bronnen verwerkt; welstandsadvies is procesobject zonder GGM-match |
-
-### GGM-dekkingsanalyse
-
-Het welstandsdomein is primair een **beleidskader** dat beschrijft hoe de gemeente bouwplannen toetst. De objecten die erin voorkomen (bouwwerk, omgevingsvergunning, monument) zijn gemodelleerd in andere GGM-beleidsdomeinen (VTH, Bouwen en Wonen, Monumenten). Het welstandsadvies als procesobject valt structureel buiten de GGM-scope.
-
-De Beschermde Status is het enige directe GGM-raakvlak. De overige 5 entiteiten in het Monumenten-beleidsdomein zijn classificaties die bij Beschermde Status horen (Ambacht, Bouwstijl, Bouwtype, Bouwactiviteit, OorspronkelijkeFunctie) en geen aparte BO's.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]]

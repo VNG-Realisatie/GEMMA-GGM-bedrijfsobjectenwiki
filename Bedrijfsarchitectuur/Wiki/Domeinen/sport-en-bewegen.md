@@ -29,16 +29,6 @@ Het gemeentelijk domein sport en bewegen omvat het beleid, de voorzieningen en d
 | Urban sports | thema | Sporten in stedelijke omgeving | ❌ | nee | Sportcategorie, geen eigen object | Freerunning, 3x3 basketbal, skaten | nee |
 | Positieve sportcultuur | waarde | Omgeving met respect, gelijke kansen, plezier en sociale veiligheid | ❌ | nee | Richtinggevend principe, geen object | — | nee |
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Sport | 13 | 6 | 5 | 2 | Bezetting en Onderhoudskosten: meetwaarde resp. financieel gegeven |
-
-**Toelichting:** Van de 13 GGM-entiteiten in het beleidsdomein Sport zijn 6 als BO opgenomen (Sportlocatie, Sportpark, Binnenlocatie, Veld, Sportvereniging, Sportmateriaal). De 4 Proxyconnector-entiteiten en Belijning zijn technische of te granulaire details (niet-BO). Bezetting (bezettingsgraad) en Onderhoudskosten zijn meetwaarden/financiële gegevens, geen zelfstandige objecten.
-
-Zwembad is een GGM-hiaat: een operationeel object dat vergelijkbaar is met Binnenlocatie en Sportpark maar ontbreekt in het GGM.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Sport en Bewegen/beleidsnota-sport-en-bewegen-2025-2032|Beleidsnota Sport en Bewegen 2025-2032]]

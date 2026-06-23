@@ -6,7 +6,7 @@
 - [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
 - [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
-- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (in behandeling, 9 BO's)
+- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
 - [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -14,12 +14,13 @@
 - [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
 - [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
 - [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
-- [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (in behandeling, 3 BO's)
+- [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (afgerond, 3 BO's)
 - [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
 - [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
 - [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
 - [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
+- [[Wiki/Domeinen/maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, buurtteams, jeugdbescherming, dakloosheid (afgerond, 9 BO's)
 - [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 - [[Wiki/Domeinen/welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
@@ -257,6 +258,25 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt|walstroompunt]] — Fysiek aansluitpunt voor walstroom aan scheepvaart
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling|sloopregeling]] — Subsidieregeling bij milieuzone-aanscherping (⚠️ instrument, ter discussie)
 
+### Maatschappelijke Ondersteuning — Generiek Jeugd en Wmo (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|beschikking]] — Formeel besluit gemeente op aanvraag/melding Wmo/Jeugdwet (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening|voorziening]] — Middel voor ondersteuning Wmo/Jeugdwet; subtypes: maatwerkvoorziening, jeugdhulp, algemeen (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing|toewijzing]] — Opdracht gemeente aan zorgaanbieder voor levering (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering|levering]] — Daadwerkelijk geleverde zorg/ondersteuning (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning|pgb-toekenning]] — Toekenning persoonsgebonden budget (GGM exact)
+
+### Maatschappelijke Ondersteuning — Sociaal Domein Generiek (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|client]] — Inwoner die gebruik maakt van gemeentelijke ondersteuning sociaal domein (GGM exact)
+
+### Maatschappelijke Ondersteuning — Jeugdbescherming (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding|zorgmelding]] — Melding over veiligheid/ontwikkeling kind (GGM exact)
+
+### Maatschappelijke Ondersteuning — Sociale Teams (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|sociaalteamdossier]] — Geïntegreerd dossier buurtteam per cliënt/gezin (GGM exact)
+
+### Maatschappelijke Ondersteuning — Dak- en thuislozen (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid|dakloosheid]] — Registratie dakloosheidsstatus (GGM exact)
+
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
 
@@ -370,6 +390,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|Beleidsregel Hotels Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen (2026)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
 - [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|Beleidsnota Werklocaties 2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035
+- [[Wiki/Bronsamenvattingen/Economie/handreiking-effectrapportage-bedrijvigheid|Handreiking effectrapportage bij nieuwe bedrijvigheid]] — VNG: effectrapportage huisvesting arbeidsmigranten bij bedrijfsvestiging
 
 ### GEMMA
 - [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
@@ -456,6 +477,16 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Dierenwelzijn
 - [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
 
+### Maatschappelijke Ondersteuning
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht|Beleidsnota Jeugd — Samen opgroeien, samen opvoeden 2025-2034]] — Gemeente Utrecht: jeugdbeleid, acht opgaven, buurtteams, collectief werken
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre|Beleidsregels Jeugdhulp 2025 — gemeente Oost Gelre]] — Verordening: procedure, vormen jeugdhulp, PGB
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/aanpak-dakloosheid|Aanpak Dakloosheid]] — VNG: landelijke aanpak dakloosheid
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beschermd-thuis|Beschermd Thuis]] — VNG: transitie beschermd wonen naar ambulant
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/kindermishandeling-en-huiselijk-geweld|Kindermishandeling en huiselijk geweld]] — VNG: Veilig Thuis, jeugdbescherming
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo|Maatwerkvoorzieningen Wmo]] — VNG: hulpmiddelen, woningaanpassingen, vervoer
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning|Vrijwilligerswerk en mantelzorgondersteuning]] — VNG: mantelzorg, informele zorg
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
+
 ### Sociaal Domein
 - [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht: koersdocument maatschappelijke voorzieningen bij gebiedsontwikkeling (2020)
 
@@ -472,6 +503,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ## Analyses
 
+- [[Wiki/Analyses/ggm-dekking|ggm-dekking]] — Centrale dekkingstabel per GGM-beleidsdomein: welke beleidsdomeinen hebben bronnen, welke niet
 - [[Wiki/Analyses/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]] — Van data-inventarisatie naar bedrijfsarchitectuur: GGM in de GEMMA-context
 - [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] — Structureel patroon: GGM dekt data-objecten, niet processen of governance
 - [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] — Hiaten in het GGM: belastingendomein ontbreekt als conceptueel model

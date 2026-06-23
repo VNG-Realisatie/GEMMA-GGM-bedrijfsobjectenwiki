@@ -6,7 +6,7 @@ Rapporteer in chat (maak geen pagina aan):
 2. **Begrippen**: aantal in de domeinoverzichttabel, verdeling per type
 3. **BO's**: aantal, verdeling per grondslag (ggm-entiteit/procesobject/governance-object)
 4. **Herleidbaarheid**: hoeveel BO's hebben `bronnen` gevuld, hoeveel niet
-5. **GGM-dekking**: aantal entiteiten in GGM voor dit domein (uit `Sources/GGM-repository/ggm_parsed.json`), % met BO, hoeveel met `ggm_gemma_guid`
+5. **GGM-dekking**: aantal GGM-entiteiten in beleidsdomeinen die dit wiki-domein raakt, % gedekt met BO. Zie `[[Wiki/Analyses/ggm-dekking|GGM-dekking]]` voor volledig overzicht per beleidsdomein.
 6. **Openstaande acties**:
    - Onverwerkte bronnen (in Sources maar geen bronsamenvatting)
    - Begrippen zonder BO-beoordeling in domeinoverzicht

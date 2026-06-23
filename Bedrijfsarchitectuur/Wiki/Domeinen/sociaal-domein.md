@@ -34,26 +34,6 @@ Het sociaal domein omvat de gemeentelijke verantwoordelijkheid voor zorg, welzij
 | Gezinshuis | object | Kleinschalige woonzorgvorm voor jeugdhulp met verblijf | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
 | Maatschappelijke opvang | object | Tijdelijke opvang met zorg voor daklozen | subtype | ja | Subtype van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening\|Maatschappelijke voorziening]] | — | nee |
 
-## GGM-entiteitendekking
-
-Het koersdocument raakt meerdere GGM-taakvelden. De dekking per relevant beleidsdomein:
-
-| GGM-beleidsdomein | Taakveld | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|---|
-| Sport | 5 | 13 | 2 (Binnenlocatie, Sportpark als subtypes) | 0 | 11 | Sportbeleid nog niet als eigen bron verwerkt |
-| Onderwijs | 4 | 12 | 1 (School als subtype) | 0 | 11 | Onderwijsbeleid nog niet als eigen bron verwerkt |
-| Generiek Jeugd en Wmo | 6 | 27 | 0 | 0 | 27 | Wmo/Jeugd-beleid nog niet als eigen bron verwerkt |
-| Sociale Teams | 6 | 9 | 0 | 0 | 9 | Buurtteams nog niet als eigen bron verwerkt |
-| Dak- en thuislozen | 6 | 1 | 0 | 0 | 1 | Opvangbeleid nog niet als eigen bron verwerkt |
-
-### GGM-dekkingsanalyse
-
-Het koersdocument is een overkoepelende ruimtelijke bron die alle typen voorzieningen benoemt maar geen van de specifieke beleidsdomeinen diepgaand behandelt. De GGM-dekking voor dit domein is daardoor gering:
-
-- **Sport** (taakveld 5): Binnenlocatie en Sportpark zijn als subtype gekoppeld. De overige 11 entiteiten (Sportvereniging, Veld, Belijning, etc.) zijn niet beoordeeld — daarvoor is een sportnota nodig.
-- **Onderwijs** (taakveld 4): School is als subtype gekoppeld. Leerling, Inschrijving, etc. vallen buiten scope van dit koersdocument.
-- **Sociaal Domein** (taakveld 6): GGM-entiteit Voorziening (Wmo/Jeugd) is een ander concept (dienst, niet fysieke plek). De welzijns- en zorgvoorzieningen uit het koersdocument (buurtcentrum, gezondheidscentrum, etc.) ontbreken volledig in het GGM.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht, koersdocument maart 2020

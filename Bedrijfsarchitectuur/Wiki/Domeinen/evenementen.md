@@ -26,20 +26,6 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 |rustperiode|regel|Verplichte pauze tussen evenementen op een locatie| ❌ | nee |Regel in locatieprofiel, geen object|12 dagen verhard, 18 dagen onverhard|nee|
 |winterbeperking|regel|Extra herstelperiode 1 nov–31 mrt in parken (vanaf 2027)| ❌ | nee |Seizoensregel, geen object|—|nee|
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Model VTH | 30 | 1 | 0 | 29 | Alleen OpenbareActiviteit relevant voor evenementen; overige VTH-entiteiten (BOA, Inspectie, Combibon, etc.) vallen buiten dit domein |
-
-### GGM-dekkingsanalyse
-
-Het GGM kent geen beleidsdomein "Evenementen". De enige relevante entiteit is **OpenbareActiviteit** in Model VTH (taakveld 1), een dunne entiteit met vijf attributen en geen relaties of diagrammen. De match met het BO Evenement is partieel: de GGM-definitie ("Activiteit in het publieke domein") is breder dan het evenementenbegrip in de gemeentelijke praktijk.
-
-Evenementenlocatie en evenementenvergunning hebben geen GGM-grondslag. Het GGM kent generieke Locatie-entiteiten in diverse domeinen maar geen specifieke evenementenlocatie. Vergunningen zijn gefragmenteerd over domeinspecifieke entiteiten (Omgevingsvergunning, Parkeervergunning, Ligplaatsontheffing) zonder overkoepelend concept.
-
-Dit patroon — beleidspraktijk rijker dan het datamodel — sluit aan bij het [[Wiki/Analyses/ggm-dekkingspatroon|structurele GGM-dekkingspatroon]].
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht, juni 2024 (hoofdbron)

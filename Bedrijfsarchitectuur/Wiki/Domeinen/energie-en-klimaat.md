@@ -1,9 +1,9 @@
 ---
 type: domein
 naam: Energie en Klimaat
-status: in-behandeling
-verwerkingsdatum: 2026-06-20
-bronnen_count: 7
+status: afgerond
+verwerkingsdatum: 2026-06-22
+bronnen_count: 9
 begrippen_count: 22
 bo_count: 3
 ---
@@ -52,16 +52,6 @@ Begrippen uit de klimaatbronnen die al als BO bestaan in andere domeinen:
 - **Boom** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom|Boom]] (domein beheer openbare ruimte)
 - **Groenobject** → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] (domein beheer openbare ruimte)
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Afval | 14 | 0 | 0 | 14 | Ander subdomein; geen beleidsbron over afvalbeheer verwerkt |
-
-Het GGM heeft onder taakveld 7 (Volksgezondheid en Milieu) alleen het beleidsdomein **Afval**. Er is geen beleidsdomein voor energie, klimaat of warmtetransitie. Alle drie BO's uit dit domein zijn **GGM-hiaten** — objecten die de gemeente als zelfstandige dingen behandelt maar die niet in het gegevensmodel voorkomen.
-
-Dit past in het bekende patroon: taakveld 7 is het smalste taakveld in het GGM (alleen Afval), terwijl het VNG-beleidsveld Energie en Klimaat een van de grootste gemeentelijke opgaven is. Vergelijkbaar met de hiaten bij Dierenwelzijn en Milieu (bodem/grondwater).
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/energiebeleid-utrecht|Energiebeleid gemeente Utrecht]] — gemeentelijke overzichtspagina energiebeleid (omgevingsvisie.utrecht.nl)
@@ -72,7 +62,12 @@ Dit past in het bekende patroon: taakveld 7 is het smalste taakveld in het GGM (
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/ontwerpvisie-klimaatneutraal|Ontwerpvisie Utrecht Klimaatneutraal 2026-2050]] — overkoepelende klimaatvisie (mitigatie + transitiepaden)
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie Utrecht klimaatneutraal]] — aanbiedingsbrief met context en praktijkvoorbeelden
 
-## Nog te verwerken bronnen
+## Niet-relevante bronnen
+
+- `beleid-klimaatverandering.md` — portaalpagina klimaatadaptatie, inhoud volledig gedekt door Visie Klimaatadaptatie Utrecht
+- `utrecht-klimaatneutraal.md` — landingspagina klimaatneutraal, inhoud volledig gedekt door Ontwerpvisie Utrecht Klimaatneutraal
+
+## Potentiële aanvullende bronnen (iBabs)
 
 De energiebeleidspagina verwijst naar 9 beleidsdocumenten op utrecht.bestuurlijkeinformatie.nl (iBabs) die niet automatisch downloadbaar zijn:
 - Beleidsnota Opwekgebieden voor schone energie 2024-2030

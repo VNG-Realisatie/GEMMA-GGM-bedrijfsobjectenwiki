@@ -24,23 +24,6 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 |gemeenteraad|governance|Gekozen vertegenwoordigend lichaam; besluiten over beleid en begroting| ❌ | nee |Governance-structuur; rol/functie, geen aparte dingen|—|nee|
 |college|governance|Dagelijks bestuur, collegeleden voeren raadsbesluit uit| ❌ | nee |Governance-structuur; organisatorische rol|—|nee|
 
-## GGM-dekkingsanalyse
-
-**Bevinding: Scope-verschil tussen procesobjecten en dataobjecten.**
-
-Het GGM modelleert **dataobjecten** (wat gemeenten registreren), niet **processen** (hoe werk verloopt). Dit verklaart waarom sommige BO's geen GGM-grondslag hebben:
-
-| BO | Grondslag | Type | GGM-status |
-|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing\|Verkiezing]] | procesobject | **Proces** | Niet in GGM — geen database met "verkiezingen"; gemeenten registreren uitslagen (data), niet het proces |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum\|Referendum]] | procesobject | **Proces** | Niet in GGM — ook een proces, niet een registratieobject |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau\|Stembureau]] | procesobject | **Data** ⚠️ | **Potentiële hiaat** — fysieke locaties (adres, capaciteit, toegankelijkheid) zouden als registratieobject kunnen passen |
-| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling\|Gemeenschappelijke Regeling]] | governance-object | **Data** ⚠️ | **Potentiële hiaat** — juridische entiteit met registreerbare eigenschappen (deelnemers, personeelssterkte, begroting) |
-
-**Terugmelding-logica:**
-- Verkiezing en Referendum: **Geen terugmelding** — dit zijn processen, structureel buiten GGM-scope
-- Stembureau en Gemeenschappelijke Regeling: **Wel terugmelden** — dit zijn registratieobjecten die passen in GGM-data-laag
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG-niveau; relevantie voor gemeentelijke raadsvergaderingen

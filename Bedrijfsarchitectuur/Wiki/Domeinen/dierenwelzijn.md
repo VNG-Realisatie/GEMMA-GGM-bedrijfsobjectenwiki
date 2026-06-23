@@ -25,16 +25,6 @@ Gemeentelijk domein voor het welzijn van dieren in de stad. Omvat de wettelijke 
 |plaagdierbestrijding|proces|Preventie en bestrijding van overlastgevende dieren| ❌ | nee |Proces, geen object|—|nee|
 |dierenwelzijnsbeleid|thema|Overkoepelend beleidsgebied| ❌ | nee |Thema, geen object|—|nee|
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Afval | 14 | 0 | 0 | 14 | Ander subdomein; geen beleidsbron over afvalbeheer verwerkt |
-
-Het GGM heeft onder taakveld 7 (Volksgezondheid en Milieu) alleen het beleidsdomein **Afval**. Er is geen beleidsdomein voor dierenwelzijn, natuur, fauna of visserij. De 4 BO's uit dit domein zijn allemaal **GGM-hiaten** — er is geen enkele GGM-entiteit om tegen te matchen.
-
-Dit is vergelijkbaar met het patroon bij het domein Milieu (bodem/grondwater): een wettelijke gemeentelijke taak die volledig ontbreekt in het gegevensmodel.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — actualisatie dierenwelzijnsbeleid gemeente Utrecht (26 pagina's, december 2019)

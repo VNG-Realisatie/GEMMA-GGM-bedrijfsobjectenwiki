@@ -26,21 +26,6 @@ Omgevingsveiligheid betreft de beheersing van risico's voor de leefomgeving als 
 |zeer kwetsbare gebouwen|classificatie|Gebouwen voor mensen die niet zelfstandig kunnen vluchten| ❌ | ja |Classificatie/eigenschap van gebouwen|basisschool, kinderopvang, ziekenhuis|nee|
 |basisnet|instrument|Landelijk netwerk voor vervoer gevaarlijke stoffen| ❌ | nee |Landelijk instrument, niet gemeentelijk|snelwegen, spoorwegen, waterwegen|nee|
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Omgevingswet | 34 | 0 | 0 | 34 | Generiek Omgevingswet-domein; 3 BO's matchen partieel op entiteiten uit dit domein (Gebiedsaanwijzing, Activiteit) maar zijn niet 1:1 overgenomen |
-
-### GGM-dekkingsanalyse
-
-Het GGM heeft geen specifiek beleidsdomein voor omgevingsveiligheid of gevaarlijke stoffen. De relevante entiteiten zitten in het generieke Omgevingswet-package (34 entiteiten). De drie BO's uit dit domein matchen partieel op bestaande GGM-entiteiten:
-
-- **Risicobron** matcht partieel op `Activiteit` — een risicobron is een specifiek type activiteit met externe veiligheidsrisico's.
-- **Aandachtsgebied** en **Voorschriftengebied** matchen partieel op `Gebiedsaanwijzing` — het zijn specialisaties van gebiedsaanwijzingen specifiek voor omgevingsveiligheid.
-
-Dit patroon is structureel: het GGM modelleert generieke Omgevingswet-concepten, terwijl het gemeentelijk beleid per thema (geluid, veiligheid, etc.) specifiekere objecten hanteert.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid|Beleidsnota Omgevingsveiligheid Utrecht]]

@@ -50,27 +50,6 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | ligplaatsvergunning | instrument | Vergunning voor het innemen van een ligplaats | ❌ | ja | Vergunning, past bij VTH-domein | Ligplaatsvergunning Merwedekanaal | nee |
 | oevergebruik | thema | Gereguleerd gebruik van gemeentelijke oevers door woonbootbewoners | ❌ | nee | Thema/regime, geen object | Tuinen, bergingen, schrikstrook | nee |
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Bouwen en Wonen | 7 | 2 | 3 | 2 | Projectleider en Projectontwikkelaar zijn actoren, niet beoordeeld als BO-kandidaat voor wonen |
-| VTH (Vaartuig) | 1 | 1 | 0 | 0 | Vaartuig → [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] |
-| BAG (Ligplaats) | 1 | 1 | 0 | 0 | Ligplaats → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] |
-
-### GGM-dekkingsanalyse
-
-Het GGM-beleidsdomein "Bouwen en Wonen" bevat 7 entiteiten gericht op woningbouwprojecten. Twee entiteiten matchen direct op wiki-BO's: Gebouw → [[Woning]], Plan → [[Woningbouwplan]]. Drie subtypes (Huurwoningen, Koopwoningen, Studentenwoningen) zijn vastgelegd als specialisaties van [[Woning]]. Projectleider en Projectontwikkelaar zijn actoren die niet als BO zijn beoordeeld.
-
-Daarnaast matchen twee GGM-entiteiten uit andere taakvelden op wonen-BO's:
-- **Vaartuig** (VTH, taakveld 1) → [[Woonboot]] (sterk match — definitie noemt woonschepen expliciet)
-- **Ligplaats** (BAG, taakveld 99 Kern) → [[Ligplaats]] (exact match)
-
-**Hiaten:**
-- **Middenhuurwoning** ontbreekt als subtype van Gebouw. Sinds de Wet betaalbare huur (2024) is dit een wettelijk gereguleerd segment.
-- **Urgentverklaring** ontbreekt volledig. Een beschikking met eigen levenscyclus en 9 categorieën.
-- Het GGM modelleert geen toewijzings- of verdelingsinstrumenten (huisvestingsvergunning, urgentverklaring, woonruimteverdeling). Dit is consistent met het GGM-patroon dat governance en processen buiten scope vallen.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht|Beleidsnota Wonen in Utrecht: Van woningmarkt naar volkshuisvesting 2025-2030]]

@@ -105,49 +105,6 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 
 Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Milieu). Vergelijkbaar met hoe groenbeleid-BO's onder BOR vallen maar vanuit milieu-bronnen worden afgeleid. Van de 10 BO's hebben 7 een directe GGM-grondslag (onder BOR); 3 zijn GGM-hiaten.
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Afval | 16 | 4 | 12 | 0 | — |
-
-### GGM-entiteiten Afval — beoordeling
-
-| GGM-entiteit | BO? | Toelichting |
-|---|---|---|
-| **Container** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | Exact match |
-| **Containertype** | ❌ | Subtypes van Container (kliko, ondergronds, citybin) |
-| **Fractie** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | Sterk match, BO heet "Grondstofstroom" |
-| **Milieustraat** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | Exact match |
-| **Prijsafspraak** | ✅ → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] | Partieel match |
-| **Prijsregel** | ❌ | Detail van Prijsafspraak, te granulair voor BO-niveau |
-| **Locatie** | ❌ | Generiek locatieconcept, geen zelfstandig BO in dit domein |
-| **Ophaalmoment** | ❌ | Operationele registratie, te granulair |
-| **Rit** | ❌ | Operationele logistiek, te granulair |
-| **Route** | ❌ | Operationele logistiek, te granulair |
-| **Vuilniswagen** | ❌ | Operationeel voertuig, te granulair voor bedrijfsniveau |
-| **Vulgraadmeting** | ❌ | Sensordata, eigenschap van Container |
-| **Pas** | ❌ | Toegangsmiddel milieustraat, eigenschap van bezoekersrelatie |
-| **Storting** | ❌ | Activiteit/event, geen zelfstandig object |
-| **Melding** | ❌ | Generiek meldingsconcept, valt onder [[Wiki/Domeinen/dienstverlening\|Dienstverlening]] |
-| **Categorie** | ❌ | Classificatie van meldingen, geen zelfstandig object |
-| **Routesoort** | ❌ | Enumeratie, classificatie |
-
-Het GGM heeft onder taakveld 7 (Volksgezondheid en Milieu) alleen het beleidsdomein **Afval**. Er is geen beleidsdomein voor bodem, grondwater, luchtkwaliteit of milieubeheer. De 6 bodem-BO's en alle 7 luchtkwaliteit-BO's zijn daarom **GGM-hiaten**. Van de 10 afval-BO's hebben 4 een GGM-grondslag; de overige 6 zijn procesobjecten of governance-objecten buiten GGM-scope.
-
-Gerelateerde GGM-entiteiten in andere taakvelden (geen directe match voor milieu-specifieke BO's):
-- **Parkeerzone** (Parkeren) — vergelijkbaar zoneconcept, ander domein
-- **Verkeersbesluit** (Mobiliteit) — juridische grondslag waarmee milieuzones worden ingesteld
-- **VOMAanvraagOfMelding** (VTH) — generiek ontheffingsconcept
-- **Sensor**, **Verkeerstelling** (Mobiliteit) — meetconcepten, niet luchtkwaliteitsspecifiek
-- **Subsidie**, **Subsidieaanvraag** (Subsidies) — generiek subsidieconcept voor sloopregeling
-
-Het ontbreken van GGM-beleidsdomeinen voor bodem/grondwater en luchtkwaliteit is een **significant structureel GGM-hiaat**.
-
-Water-gerelateerde GGM-entiteiten onder BOR (taakveld 8) die wél matchen:
-- **Gemaal**, **Kolk**, **Overstortconstructie**, **Bergingsbassin**, **Waterobject**, **Rioleringsgebied**, **Put** — 7 entiteiten met directe BO-match
-- **Pomp**, **Uitlaatconstructie**, **Bemalingsgebied**, **Drainageput**, **Filterput**, **Infiltratieput**, **Waterinrichtingsobject** — 7 entiteiten als subtype of te granulair opgenomen
-
 ## Verwerkte bronnen
 
 ### Bodem, grondwater en ondergrond

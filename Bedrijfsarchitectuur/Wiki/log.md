@@ -1,5 +1,45 @@
 # Wiki Log
 
+## [2026-06-23] Refactor: GGM-dekking naar centrale analysepagina
+- **Reden:** GGM-beleidsdomeinen en wiki-domeinen lopen niet 1-op-1. Centrale dekkingspagina maakt per beleidsdomein zichtbaar welke bronnen beschikbaar zijn.
+- **Wijzigingen:**
+  - Nieuwe pagina: [[Wiki/Analyses/ggm-dekking|ggm-dekking]] — centrale dekkingstabel met 48 beleidsdomeinen, 922 GGM-entiteiten, bronnenaantal per domein
+  - Verwijderd: GGM-entiteitendekking + GGM-dekkingsanalyse secties uit alle 24 domeinoverzichten
+  - Herschreven: `/coverage` skill — nu met bronnenaantal per beleidsdomein
+  - Bijgewerkt: `templates/domeinoverzicht.md` — geen GGM-dekkingssecties meer
+  - Bijgewerkt: `/ingest` skill — verwijderd GGM-dekkingsstap (coverage is aparte actie)
+  - Bijgewerkt: `/domain-status` skill — verwijzing naar centrale pagina
+  - Bijgewerkt: `CLAUDE.md` — werkwijze-beschrijving, coverage-beschrijving
+- **Statistieken centraal overzicht:**
+  - 922 GGM-entiteiten: 122 BO (13%), 173 niet-BO (19%), 627 niet-beoordeeld (68%)
+  - Volledig gedekt: Mobiliteit, Parkeren, Terug-en-invordering, Inburgering
+  - Hiaten: Dierenwelzijn, Energie/Klimaat (geen beleidsdomeinen in GGM), Welstand (VTH nog niet verwerkt), BOR detail-niveaus
+
+## [2026-06-22] ingest | Maatschappelijke Ondersteuning — domein afgerond, 9 BO's
+- **16 bronnen beoordeeld:** 8 relevant, 8 naar Niet-relevant (portaalpagina's, procesbeschrijvingen)
+- **2 nieuwe bronnen opgehaald:** beleidsnota-jeugd-utrecht (PDF, gemeente Utrecht 2025-2034), beleidsregels-jeugdhulp-oost-gelre (verordening, gemeente Oost Gelre 2025)
+- **8 bronsamenvattingen** aangemaakt: 6 dunne VNG-pagina's + 2 rijke beleidsdocumenten
+- **9 BO-pagina's** aangemaakt:
+  - Generiek Jeugd en Wmo (5): Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning
+  - Sociaal Domein Generiek (1): Client
+  - Jeugdbescherming en reclassering (1): Zorgmelding
+  - Sociale Teams (1): SociaalTeamDossier
+  - Dak- en thuislozen (1): Dakloosheid
+- **25 begrippen** beoordeeld in domeinoverzicht (9 BO, 16 niet-BO)
+- **GGM-dekking:** 97 entiteiten in 5 beleidsdomeinen; kernketen goed gedekt, hiaten bij kinderbeschermingsmaatregelen en jeugdhulpvormen als expliciete entiteiten
+
+## [2026-06-22] ingest | Energie en Klimaat — domein afgerond, 3 BO's
+- **2 bronnen naar Niet-relevant:** beleid-klimaatverandering (portaalpagina, gedekt door Visie Klimaatadaptatie), utrecht-klimaatneutraal (landingspagina, gedekt door Ontwerpvisie Klimaatneutraal)
+- **Geen nieuwe BO's of begrippen:** beide bronnen bevatten geen informatie boven de al verwerkte rijkere beleidsdocumenten
+- **Domein status:** afgerond — 7 bronsamenvattingen, 2 niet-relevant, 22 begrippen, 3 BO's (Warmtenet, Opwekgebied, Koelteplek)
+
+## [2026-06-22] ingest | Economie — domein afgerond, 8 BO's
+- **1 nieuwe bronsamenvatting:** handreiking effectrapportage bij nieuwe bedrijvigheid (VNG, 2024)
+- **4 bronnen naar Niet-relevant:** rubriek-economie, breed-mkb-en-innovatie, regionale-economische-samenwerking, vitale-binnensteden-dorpskernen-en-werklocaties (portaalpagina's zonder BO-waarde)
+- **2 nieuwe begrippen:** effectrapportage (instrument), arbeidsmigrant (doelgroep) — beide geen BO
+- **Geen nieuwe BO's:** handreiking beschrijft beleidsinstrument/proces, geen registreerbare objecten
+- **Domein status:** afgerond — 10 bronsamenvattingen, 7 niet-relevant, 34 begrippen, 8 BO's
+
 ## [2026-06-22] ingest | Belastingen — domein afgerond, 9 BO's
 - **11 nieuwe bronsamenvattingen:** OZB, parkeerbelastingen, precario, reclamebelasting, hondenbelasting, BIZ-bijdrage, retributies, reinigingsheffingen, riool- en waterzorgheffing, toeristische heffingen, beleidsregels DFM
 - **14 bronnen naar Niet-relevant:** portaalpagina's, duplicaten, buiten scope (rijksbelastingen)

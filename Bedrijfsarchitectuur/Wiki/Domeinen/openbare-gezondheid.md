@@ -25,18 +25,6 @@ Het domein openbare gezondheid omvat het gemeentelijk gezondheidsbeleid, de opdr
 |begraafplaats|object|Gemeentelijke voorziening op grond van Wet op de lijkbezorging| ❌ | ja |Hoort bij Beheer Openbare Ruimte (IMBOR), niet bij dit domein|Begraafplaats Kovelswade|ja (IMBOR)|
 |verkennend gesprek|instrument|Methode voor inwoners met vragen over mentale gezondheid| ❌ | nee |Interventie/werkwijze|Pilot Kanaleneiland|nee|
 
-## GGM-entiteitendekking
-
-Het GGM heeft geen beleidsdomein voor openbare gezondheid. Er is geen directe overlap met GGM-taakvelden. Het enige raakvlak is Begraafplaats in IMBOR (Beheer Openbare Ruimte), maar dat valt buiten de scope van dit domein.
-
-| GGM-beleidsdomein | Relevante entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Beheer Openbare Ruimte | 1 (Begraafplaats) | 0 | 1 | — | Begraafplaats hoort bij BOR, niet bij openbare gezondheid |
-
-### Dekkingsanalyse
-
-Het domein openbare gezondheid is structureel buiten de scope van het GGM. De begrippen zijn thema's (preventie, mentale gezondheid), instrumenten (akkoorden, monitoren), actoren (GGD, JGZ) en activiteiten (screening, voorlichting). Dit past bij het patroon dat het GGM dataobjecten modelleert, niet processen of governance.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie — VNG en gemeente Utrecht]]

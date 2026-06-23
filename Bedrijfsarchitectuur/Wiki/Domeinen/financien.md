@@ -37,19 +37,6 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]]|object|Bezittingen op de boekhoudkundige balans| ✅ | ja |6/6 criteria, GGM sterk|Grond, gebouw, inventaris|ja|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]]|object|Opdracht voor uitvoering van een activiteit| ✅ | ja |6/6 criteria, GGM exact|Onderhoudsopdracht|ja|
 
-## GGM-dekkingsanalyse
-
-Het GGM modelleert beleidsdomein Financien onder taakveld 9 (Interne Organisatie) met 24 entiteiten.
-
-| GGM-domein | Entiteiten | Status |
-|---|---|---|
-| **Taakveld 9 Interne Organisatie / Financien** | Begroting, Kostenplaats, Factuur, Inkooporder, Debiteur, Taakveld, Doelstelling, Product, Activa, Werkorder (24 entiteiten totaal) | 10 → BO (boekhoudkundige kern is goed gedekt) |
-
-**Hiaten in GGM:**
-- De begrotingscyclus als proces (kadernota → begroting → tussenrapportage → jaarrekening)
-- Financiële kengetallen als afgeleide informatie (solvabiliteitsratio, netto-schuldquote)
-- De inkomstenbronstructuur (gemeentefonds, specifieke uitkering)
-
 ## Verwerkte bronnen
 
 - [Raadgever inkomstenbronnen gemeenten](../../Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten.md) — VNG Raadgever: vier inkomstenbronnen van gemeenten

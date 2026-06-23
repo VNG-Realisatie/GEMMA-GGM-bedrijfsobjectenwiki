@@ -47,51 +47,6 @@ De gemeente als werkgever — personeelsadministratie, dienstverbanden, werving 
 |gemeentelijk werkgever|actor|Gemeente in haar werkgeversrol| ❌ | nee |Rol|nee|
 |medewerker|actor|Abstract type waarvan Werknemer erft| ❌ | ja |Abstract in GGM, niet zelfstandig|ja (abstract)|
 
-## GGM-dekkingsanalyse
-
-Het GGM modelleert HR als beleidsdomein binnen taakveld 9 (Interne Organisatie) met 31 entiteiten.
-
-| GGM-beleidsdomein | Totaal entiteiten | BO | Niet-BO | Niet beoordeeld |
-|---|---|---|---|---|
-| **HR** | 31 | 11 | 20 | 0 |
-
-### Niet-BO entiteiten in GGM HR
-
-| Entiteit | Reden niet-BO |
-|---|---|
-| Verlofsoort | Enumeratie bij Verlof |
-| Verzuimsoort | Enumeratie bij Verzuim |
-| Declaratiesoort | Enumeratie bij Declaratie |
-| SoortDisciplinaireMaatregel | Enumeratie bij Disciplinaire Maatregel |
-| NormProfiel | Referentiedata HR21, geen gemeentelijk eigen object |
-| Functiehuis | Container voor Functie |
-| Rol | Attribuut/classificatie van Werknemer |
-| Inzet | Afgeleide van Dienstverband × OrganisatorischeEenheid |
-| Uren | Te granulair — onderdeel van tijdregistratie |
-| Individueel Keuzebudget | Te granulair — onderdeel arbeidsvoorwaarden |
-| KeuzebudgetBesteding | Te granulair |
-| KeuzebudgetBestedingsoort | Enumeratie |
-| GenotenOpleiding | Onderdeel werknemersdossier |
-| Opleiding | Referentiedata |
-| Onderwijsinstituut | Referentiedata |
-| Relatie | Familierelatie van Werknemer |
-| Geweldsincident | Raakt domein OOV |
-| OrganisatorischeEenheidHR | Organisatiestructuur, geen BO |
-| Sollicitant | Persoontype, onderdeel sollicitatieproces |
-| Sollicitatiegesprek | Onderdeel sollicitatieproces bij Sollicitatie |
-
-### GGM-hiaten
-
-| Hiaat | Omschrijving | Terugmelding |
-|---|---|---|
-| Detacheringsovereenkomst | Overeenkomst bij intergemeentelijke uitleen; niet in GGM | #52 |
-
-### GGM-correcties
-
-| Entiteit | Correctie | Terugmelding |
-|---|---|---|
-| Beoordeling | Definitie zegt "leerling" maar staat in HR-domein met relatie naar Werknemer | correctie |
-
 ## Verwerkte bronnen
 
 | Bron | Kerninhoud |

@@ -49,19 +49,6 @@ Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiel
 |speelruimtenorm|norm|Kwantitatief (3-5% buurtoppervlakte) en kwalitatief kader voor speelruimte| ❌ | nee |Beleidskader, geen object|5% norm, Schijf van Vijf|nee|
 |speelruimtescan|proces|Wijkbrede inventarisatie van speelruimte, elke vijf jaar herhaald| ❌ | nee |Procesactiviteit, geen object|Wijkscan West 2022|nee|
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Beheer Openbare Ruimte | 200 | 9 | 0 | 191 | Subdomeinen bomen, groen, verhardingen, civiele constructies, verlichting, VRI, speeltoestellen en speelterreinen verwerkt; overige subdomeinen (water, riolering, kabels/leidingen, sensoren, etc.) hebben geen beleidsbron |
-
-Het GGM-beleidsdomein Beheer Openbare Ruimte is met 200 entiteiten het grootste beleidsdomein in het GGM. De entiteiten zijn verdeeld over drie modellagen:
-- **Model Basis IMBOR** (115 entiteiten): basisobjecten uit de IMBOR-standaard
-- **Model IMBOR** (58 entiteiten): uitgebreide IMBOR-objecten waaronder Boom, Groenobject, Verhardingsobject, Kunstwerk, Speelterrein
-- **Model Beheer Openbare Ruimte** (27 entiteiten): BOR-specifieke objecten (meldingen, inspecties, schouwrondes)
-
-Van deze 200 entiteiten zijn nu 9 als BO beoordeeld: **Boom**, **Groenobject**, **Faunapassage** (Ecoduct), **Verhardingsobject**, **Kunstwerk**, **Verlichtingsobject**, **Speeltoestel**, **Speelterrein** en **Verkeerslicht**. De overige 191 entiteiten zijn niet beoordeeld — hiervoor zijn aanvullende beleidsbronnen nodig over water/riolering, kabels en leidingen, sensoren en overige beheerobjecten.
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009, aangevuld 2018)

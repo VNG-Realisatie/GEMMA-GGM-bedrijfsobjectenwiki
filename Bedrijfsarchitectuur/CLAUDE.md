@@ -17,7 +17,9 @@ De herleidbaarheidsketen is: `Sources/ → Bronsamenvattingen/ → Bedrijfsobjec
 
 ### Werkwijze
 
-De wiki wordt **domein voor domein** opgebouwd. Per domein wordt het volledige proces doorlopen (bronnen → samenvattingen → domeinoverzicht → BO's → dekkingsanalyse) voordat het volgende domein wordt opgepakt.
+De wiki wordt **domein voor domein** opgebouwd. Per domein wordt het volledige proces doorlopen (bronnen → samenvattingen → domeinoverzicht → BO's) voordat het volgende domein wordt opgepakt.
+
+GGM-dekkingsanalyse gebeurt centraal via `/coverage` en werkt vanuit GGM-beleidsdomeinen (niet per wiki-domein), omdat wiki-domeinen en GGM-beleidsdomeinen niet 1-op-1 overlappen. Het doel: inzicht welke beleidsdomeinen bronnen hebben vs. waar nog documenten gezocht moeten worden.
 
 ### Onderhoudscyclus
 
@@ -192,7 +194,7 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **ingest** | `/ingest {bron\|domein}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
 | **assess-bo** | `/assess-bo {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
 | **write-bo** | `/write-bo {BO}` | BO vastleggen: GGM-match, frontmatter, pagina aanmaken |
-| **coverage** | `/coverage {domein}` | GGM-dekkingsanalyse: tellen en signaleren, schrijft naar domeinoverzicht |
+| **coverage** | `/coverage dekking` | GGM-dekkingsanalyse: centrale pagina per beleidsdomein, telt entiteiten/BO's, signaleert welke beleidsdomeinen bronnen hebben |
 | **domain-status** | `/domain-status {domein}` | Read-only voortgangsrapportage |
 | **lint** | `/lint [domein]` | Consistentiechecks op wiki tegen templates en skills |
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |

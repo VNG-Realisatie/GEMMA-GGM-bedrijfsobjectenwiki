@@ -54,41 +54,6 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 |waardestelling|instrument|Vaststelling kernwaarden van een monument als uitgangspunt voor herbestemming| ❌ | nee |Beleidsinstrument|—|nee|
 |carillon|object|Klokkenspel in kerktoren, eigendom gemeente| ❌ | ja |Specifiek type luidklok-ensemble; drie stuks, geen apart BO naast Monument|Hemony-beiaard Domtoren|nee|
 
-## GGM-entiteitendekking
-
-| GGM-beleidsdomein | Entiteiten | BO | Niet-BO | Niet beoordeeld | Reden niet beoordeeld |
-|---|---|---|---|---|---|
-| Monumenten | 6 | 1 | 5 | 0 | — (+ 1 hiaat: Orgel ontbreekt als entiteit) |
-| Archief | 8 | 1 | 3 | 4 | Geen beleidsbron over archieflogistiek (Depot, Kast, Plank, Stelling) |
-| Archeologie | 17 | 3 | 14 | 0 | Volledig beoordeeld o.b.v. erfgoednota Utrecht |
-| Generiek Erfgoed | 4 | 0 | 1 | 3 | Erfgoed Object is abstract parent; Historisch Persoon, Objectclassificatie, Auteur niet beoordeeld |
-| Musea | 32 | 1 | 9 | 22 | Prinsenhof-specifieke entiteiten (verkoop, events); geen museale beleidsbron |
-
-**Totaal: 67 GGM-entiteiten, 6 BO (+ 1 hiaat-BO: Orgel), 32 niet-BO, 29 niet beoordeeld (43%)**
-
-## GGM-dekkingsanalyse
-
-### Erfgoed (taakveld 5, 44 entiteiten)
-
-Het GGM modelleert erfgoed zeer gedetailleerd in vier subdomeinen:
-
-- **Monumenten** (6 entiteiten): Beschermde Status → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]]. De 5 niet-BO's (Bouwstijl, Bouwtype, Bouwactiviteit, Ambacht, OorspronkelijkeFunctie) zijn classificaties/kenmerken van een monument, geen zelfstandige objecten.
-- **Archief** (8 entiteiten): Archiefstuk → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]]. Archief, Vindplaats, Ordeningsschema zijn containers/classificaties (niet-BO). Depot, Kast, Plank, Stelling zijn opslaglogistiek — niet beoordeeld, vermoedelijk te operationeel.
-- **Archeologie** (17 entiteiten): **Volledig beoordeeld** o.b.v. erfgoednota Utrecht 2021. Drie BO's:
-  - Vindplaats → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] (sterk match). Gemeente is bevoegd gezag, beheert eigen archeologische beleidskaart.
-  - Vondst → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|archeologische-vondst]] (exact match, Artefact geaggregeerd). Gemeente beheert collectie in eigen depot.
-  - Project → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]] (sterk match, naam afwijkend). Gemeente begeleidt/voert uit als bevoegd gezag.
-  - 14 niet-BO's: Archeologiebesluit (processtap, geaggregeerd in Archeologisch onderzoek), Artefact (detail van Vondst), Artefactsoort (classificatie), Put/Vlak/Spoor/Vulling/boring (operationele opgravingsdetails), Doos/Magazijnlocatie/Magazijnplaatsing/Stelling (depotlogistiek), Kaart (documentatie), locatie (coördinaatpunt).
-- **Generiek Erfgoed** (4 entiteiten): Erfgoed Object is abstract parent van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]] en [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — geen eigen BO. Historisch Persoon, Objectclassificatie en Auteur zijn niet beoordeeld.
-
-### Musea (taakveld 5, 32 entiteiten)
-
-Museumobject → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]]. Het overgrote deel van dit domein is **Prinsenhof-specifiek** (Balieverkoop, Winkelvoorraaditem, Omzetgroep, Productgroep, Entreekaart, etc.) — operationele museum-entiteiten die niet op bedrijfsobjectniveau thuishoren. Entiteiten als Collectie, Tentoonstelling, Bruikleen en Programma zijn wél herkenbaar maar niet beoordeeld tegen beleidsbronnen. Bij toevoeging van museale beleidsbronnen (bijv. collectiebeleid, Erfgoedwet-uitvoering) kunnen hier meer BO's uit komen.
-
-### Cultuurbeleid
-
-Het GGM bevat **geen** beleidsdomein voor cultuurbeleid. Begrippen als cultuurvisie, cultuurfinanciering, ringenmodel zijn governance en beleid — structureel buiten GGM-scope (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
-
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur|Kunst en cultuur]] — VNG-overzicht cultuurbeleid

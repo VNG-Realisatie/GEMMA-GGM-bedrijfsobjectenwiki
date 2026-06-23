@@ -1,20 +1,16 @@
 ---
 type: domein
 naam: Economie
-status: in-behandeling
-verwerkingsdatum: 2026-06-21
-bronnen_count: 9
-begrippen_count: 32
+status: afgerond
+verwerkingsdatum: 2026-06-22
+bronnen_count: 10
+begrippen_count: 34
 bo_count: 8
 ---
 
 # Domein: Economie
 
 Gemeentelijk beleid gericht op economische ontwikkeling, bedrijvigheid en ondernemerschap. Gemeenten zijn de "eerste overheid" voor ondernemers en spelen een rol als aanjager van economische transities, ruimtelijke facilitator en dienstverlener.
-
-## GGM-taakveld
-
-Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer beperkt: 6 entiteiten zonder definities, gericht op hotel/retail-statistieken rond Vestiging (RSGB). Zie `Sources/GGM/economie.md`.
 
 ## Begrippen
 
@@ -52,32 +48,8 @@ Taakveld 3 "Economie", beleidsdomein "Model Economie". Het GGM-model is zeer bep
 |commerciële voorziening|categorie|Functies met winstoogmerk: detailhandel, zorg, sport, kinderopvang| ❌ | nee |Brede categorie, geen apart object|Sportschool, huisarts, kinderopvang|nee|
 |stadslogistiek|activiteit|Goederenstromen binnen stedelijke gebieden| ❌ | nee |Proces/activiteit, geen object|Pakketbezorging, bouwhub|nee|
 |circulaire bedrijvigheid|kenmerk|Bedrijfsmodel gericht op hergebruik en kringloopsluiting| ❌ | nee |Bedrijfskenmerk, geen object|Recyclingbedrijf, revisiebedrijf|nee|
-
-## GGM-dekkingsanalyse
-
-Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein "Model Economie":
-
-| GGM-domein | Entiteiten | Status |
-|---|---|---|
-| **Taakveld 3 Economie** | Contact, Hotel, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak (6 entiteiten) | Hotel → [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]], Hotelbezoek → meting (geen BO), Vestiging → werklocatie |
-| **Taakveld 5 Musea** | Standplaats (3 attributen: beschrijving, adres, naamInstelling) | Standplaats → standplaats (sterk, maar domeinplaatsing betwistbaar) |
-| **RSGB (Taakveld 99)** | Vestiging, Verblijfsobject, Rechtspersoon (bv. bedrijf) | Vestiging → individuele bedrijfslocatie; geen entiteit voor werklocatie als geografisch werkgebied |
-
-**GGM-hiaat Warenmarkt:** Warenmarkt ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject (locatie, frequentie, type, branchering) dat gemeenten beheren via de Marktverordening.
-
-**Domeinplaatsing Standplaats:** De GGM-entiteit Standplaats staat onder Musea (taakveld 5) terwijl het een breed APV-concept is. Terugmelding overwegen.
-
-**GGM-hiaat Terras:** Terras ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject (locatie, afmetingen, openingstijden, inrichting) dat gemeenten reguleren via de beleidsregel terrassen.
-
-**GGM-hiaat Short Stay Accommodatie:** Short stay accommodatie ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject (doelgroep, oppervlakte, huurprijs, exploitant, verblijfsduur) met eigen beleidsregels en capaciteitsgrenzen.
-
-**GGM-hiaat Bed-and-breakfast:** B&B ontbreekt als entiteit in het GGM. Het GGM modelleert Hotel als Vestiging-specialisatie; B&B zou een vergelijkbare specialisatie kunnen zijn.
-
-**GGM-hiaat Horecabedrijf:** Het GGM kent geen specifieke horecaentiteit. Horecabedrijf is een specialisatie van Vestiging (RSGB), herkenbaar via SBI-code.
-
-**GGM-hiaat Werklocatie:** Het GGM kent geen entiteit voor werklocatie als geografisch afgebakend werkgebied. Vestiging (RSGB) modelleert individuele bedrijfslocaties, maar niet het hogere abstractieniveau van aangewezen gebieden met een profiel, type en beleidskaders. Gemeenten identificeren 31+ werklocaties met 5 typen en stellen per locatie kaderstellende profielen vast.
-
-**Structureel hiaat:** beleidsdomein Economie onder taakveld 3 dekt slechts statistieken en vestigingsgegevens. Ontbreken: ondernemersdienstverlening, MKB-classificatie, vestigingsklimaat, regeldruk, arbeidsmarktbeleid, regionale economie, warenmarkt, werklocaties.
+|effectrapportage|instrument|Instrument om huisvestingseffecten van bedrijfsvestiging inzichtelijk te maken| ❌ | nee |Beleidsinstrument/proces, geen registreerbaar object|Effectrapportage bij vestiging DC|nee|
+|arbeidsmigrant|doelgroep|EU-werknemer met tijdelijk verblijf zonder zelfstandige woonruimte| ❌ | nee |Doelgroep, geen gemeentelijk object|Seizoenarbeider, flexwerker|nee|
 
 ## Verwerkte bronnen
 
@@ -90,6 +62,7 @@ Het GGM modelleert economie zeer beperkt in Taakveld 3 "Economie", beleidsdomein
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregel-hotels-utrecht|Beleidsregel Hotels Gemeente Utrecht]] — Gemeente Utrecht: beleidsregel hotels, typeringen en voorwaarden (2026)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf (short stay)
 - [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|Beleidsnota Werklocaties 2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035 (bedrijventerreinen, kantoren, winkelgebieden, innovatielocaties, wijkeconomie)
+- [[Wiki/Bronsamenvattingen/Economie/handreiking-effectrapportage-bedrijvigheid|Handreiking effectrapportage bij nieuwe bedrijvigheid]] — VNG: effectrapportage huisvesting arbeidsmigranten bij bedrijfsvestiging (2024)
 
 ## Raakvlakken met andere domeinen
 
