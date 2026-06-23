@@ -20,7 +20,7 @@ Per onderwerp wordt het volgende proces doorlopen:
 2. **Bronsamenvattingen maken** — kernpunten uit de documenten worden geëxtraheerd en vastgelegd in `Wiki/Bronsamenvattingen/`
 3. **Onderwerpoverzicht opbouwen** — begrippen uit de samenvattingen worden geïdentificeerd, getypeerd als ArchiMate-concepten en vastgelegd in een overzichtstabel
 4. **BO-beoordeling** — elk begrip wordt getoetst aan expliciete criteria, zoals herkenbaarheid, eigen bestaan, levenscyclus en relaties; dit bepaalt de BO-kandidaten
-5. **GGM-matching** — BO-kandidaten worden gematcht met bestaande GGM-entiteiten; de matchsterkte geeft inzicht in de mate van verankering
+5. **GGM-matching** — BO-kandidaten worden gematcht met bestaande GGM-entiteiten
 6. **Hiaten signaleren** — GGM-entiteiten zonder BO-grondslag en BO-kandidaten zonder GGM-entiteit worden gesignaleerd richting het GGM-team
 
 Het resultaat per onderwerp bestaat uit **BO-pagina's met volledige onderbouwing** (bron → begrip → criteria → GGM-match). De vastgestelde eigenschappen worden vervolgens opgenomen in het GEMMA ArchiMate-model.

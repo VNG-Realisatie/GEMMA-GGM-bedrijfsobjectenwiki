@@ -120,7 +120,7 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 | Paginatype | Template | Locatie |
 |---|---|---|
 | Bedrijfsobject | `templates/bedrijfsobject.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
-| Onderwerpoverzicht | `templates/domeinoverzicht.md` | `Wiki/Onderwerpen/` |
+| Onderwerpoverzicht | `templates/onderwerpoverzicht.md` | `Wiki/Onderwerpen/` |
 | Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | Analyse | `templates/analyse.md` | `Wiki/Analyses/` |
 
@@ -148,7 +148,7 @@ Wanneer de gebruiker een bron of onderwerp aanwijst om te verwerken:
 1. Lees de volledige bron
 2. Bespreek de kernpunten met de gebruiker voordat je schrijft
 3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
-4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/domeinoverzicht.md`)
+4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/onderwerpoverzicht.md`)
 5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/bedrijfsobject.md`)
 6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
 7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd

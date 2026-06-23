@@ -12,7 +12,7 @@ Dit is het **meta-model van de wiki zelf**: welke soorten pagina's er zijn, welk
 Het document beschrijft de **doelstaat**. Twee dingen wijken af van de huidige mappenstructuur en worden binnenkort doorgevoerd:
 
 1. **GGM verhuist van `Sources/` naar de wiki.** Het JSON-bestand [`Sources/GGM-repository/ggm_parsed.json`](Sources/GGM-repository/ggm_parsed.json) blijft de bron; de leesbare GGM-representatie wordt een wiki-paginatype onder `Wiki/GGM/`.
-2. **"Domein" heet voortaan "onderwerp"** (consistent met [`Sources/Onderwerpen/`](Sources/Onderwerpen/)); het paginatype *domeinoverzicht* wordt *onderwerpoverzicht*. Het GGM houdt zijn eigen term **beleidsdomein**. De tekstdoorwerking in `CLAUDE.md`, templates en bestaande pagina's is een nog uit te voeren vervolgtaak.
+2. **"Domein" heet voortaan "onderwerp"** (consistent met [`Sources/Onderwerpen/`](Sources/Onderwerpen/)); het paginatype *onderwerpoverzicht* is doorgevoerd. Het GGM houdt zijn eigen term **beleidsdomein**.
 
 ---
 
@@ -33,7 +33,6 @@ classDiagram
     class Bronsamenvatting["Bronsamenvatting"]
     class Onderwerpoverzicht["Onderwerpoverzicht"]
     class Bedrijfsobject["Bedrijfsobject"]
-    class Analyse["Analyse"]
     class GGMstructuur["GGM-structuur "]
     class GGMbeleidsdomein["GGM-beleidsdomein"]
     class GGM-entiteit["GGM-entiteit (item op de pagina)"]
@@ -54,10 +53,9 @@ classDiagram
     GGMstructuur --> GGMbeleidsdomein : indexeert taakveld naar beleidsdomein
     GGMbeleidsdomein *-- GGM-entiteit : bevat
 
-    Bedrijfsobject ..> GGM-entiteit : matcht 0..1 optioneel via ggm_guid
+    Bedrijfsobject ..> GGM-entiteit : match 0..1
+    GGM-entiteit ..> Bedrijfsobject : match 0..1
     Bedrijfsobject --> Bedrijfsobject : associatie / generalisatie
-    Analyse ..> Bedrijfsobject : hiaat / terugmelding
-    Analyse ..> GGM-entiteit : dekking wiki
 ```
 
 Twee lagen:
@@ -73,13 +71,12 @@ De stippellijnen zijn **optionele** relaties. Met name `Bedrijfsobject ..> GGM-e
 | Type | Laag | Locatie | Kerninformatie | Template |
 |---|---|---|---|---|
 | **Bron — Onderwerp** | bron | `Sources/Onderwerpen/{onderwerp}/` | Immutabel beleidsdocument (VNG-publicatie, verordening, propositie). Frontmatter: title, source, author, published, tags | — |
-| **Bron — GGM-repository** | bron | `Sources/GGM-repository/ggm_parsed.json` | Geparst XMI; bron van waarheid voor GUIDs, GEMMA-tags, definities, relaties, diagrammen | — |
-| **GGM-structuur** | wiki | `Wiki/GGM/structuur-ggm.md` | Top-down indeling taakveld → beleidsdomein → diagramgroep → entiteit; index van alle beleidsdomeinen | — |
-| **GGM-beleidsdomeinpagina**  | wiki | `Wiki/GGM/{taakveld}/{beleidsdomein}.md` | Eén pagina per beleidsdomein met **alle** entiteiten van dat beleidsdomein; letterlijke definities uit het model, zonder synthese (geen pagina per entiteit) | — |
+| **Bron — GGM-repository** | bron | `Sources/GGM-repository/ggm_parsed.json` | Geparst XMI; bron van waarheid voor entiteiten, beleidsdomeinen, GUIDs, relaties, diagrammen, etc | — |
+| **GGM-structuur** | wiki | `Wiki/GGM/structuur-ggm.md` | Top-down indeling taakveld → beleidsdomein → diagramgroep; index van alle beleidsdomeinen | — |
+| **GGM-beleidsdomeinpagina**  | wiki | `Wiki/GGM/{taakveld}/{beleidsdomein}.md` | Eén pagina per beleidsdomein met **alle** entiteiten van dat beleidsdomein; letterlijke definities uit het model | — |
 | **Bronsamenvatting** | wiki | `Wiki/Bronsamenvattingen/{onderwerp}/` | `type, titel, onderwerp, datum_ingest`; samenvatting (≤500 w), kernbegrippen, citaten, `## Bronnen` | [bronsamenvatting.md](templates/bronsamenvatting.md) |
-| **Onderwerpoverzicht** | wiki | `Wiki/Onderwerpen/` (nu `Wiki/Domeinen/`) | `type, naam, status, *_count`; **begrippentabel** als hart (begrip, type, BO?, data-object?, GGM?) | [domeinoverzicht.md](templates/domeinoverzicht.md) |
+| **Onderwerpoverzicht** | wiki | `Wiki/Onderwerpoverzichten/` | `type, naam, status, *_count`; **begrippentabel** als hart (begrip, type, BO?, data-object?, GGM?) | [onderwerpoverzicht.md](templates/onderwerpoverzicht.md) |
 | **Bedrijfsobject** | wiki | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` | ~30 frontmattervelden in 4 blokken (eigen / `ggm_*` / `ggm_gemma_*` / `gemma_*`) + beslisdocument-body | [bedrijfsobject.md](templates/bedrijfsobject.md) |
-| **Analyse** | wiki | `Wiki/Analyses/` | Vrij format: dekking, hiaten, terugmeldingen, mappings, syntheses | [analyse.md](templates/analyse.md) |
 | **Register** | wiki | `Wiki/index.md`, `Wiki/log.md` | Inhoudelijk paginaoverzicht resp. chronologisch logboek | — |
 
 Voor de twee GGM-wikitypes geldt dezelfde relatie als bron → samenvatting: **de JSON is de bron, de wikipagina is de leesbare representatie**. De wikipagina synthetiseert niet, maar maakt het model linkbaar met `[[wiki-links]]`.
@@ -141,7 +138,7 @@ Dit zijn losse assen. De vier combinaties:
 | **BO = ✅** | Kernobject (bv. WOZ-object) | Governance-object (bv. verordening) |
 | **BO = ❌** | Te granulair maar wél geregistreerd → **sterkste GGM-hiaatkandidaat** | Beleidsmatig begrip (thema, doel, waarde) |
 
-In het onderwerpoverzicht wordt elk begrip getypeerd met één van **7 begripstypen** (object, instrument, actor, doelgroep, thema, doel, waarde), elk met een ArchiMate-mapping (zie [domeinoverzicht.md](templates/domeinoverzicht.md)).
+In het onderwerpoverzicht wordt elk begrip getypeerd met één van **7 begripstypen** (object, instrument, actor, doelgroep, thema, doel, waarde), elk met een ArchiMate-mapping (zie [onderwerpoverzicht.md](templates/onderwerpoverzicht.md)).
 
 ### Grondslag: waarom er altijd BO's buiten GGM-scope zijn
 
@@ -172,7 +169,7 @@ De omgekeerde kant — **GGM-entiteiten zonder BO** — zijn dekkingshiaten of b
 
 **Beter kan**
 - **GGM hoort in de wiki** (kernverbetering): nu alleen in `Sources/`, waardoor het niet als kennislaag meedoet en niet linkbaar is met `[[wiki-links]]`. Doelstaat: JSON-bron + GGM-wikipagina's (§2/§3). *Wordt via Obsidian verplaatst.*
-- **Terminologie "domein" → "onderwerp"** (besloten): consistent met `Sources/Onderwerpen/`; *domeinoverzicht* → *onderwerpoverzicht*; GGM houdt "beleidsdomein". Mappen/links via Obsidian; **tekstdoorwerking in `CLAUDE.md`, templates, skills en bestaande pagina's is een vervolgtaak.**
+- **Terminologie "domein" → "onderwerp"** (doorgevoerd): consistent met `Sources/Onderwerpen/`; template *domeinoverzicht* → *onderwerpoverzicht*; GGM houdt "beleidsdomein". Resterende tekstdoorwerking: bestaande pagina's in Wiki/Domeinen/ hernoemen naar Wiki/Onderwerpen/.
 - De GEMMA-varianten `ggm_toelichting`/`ggm_synoniemen` staan in de template als "toekomstig" maar zijn nog leeg.
 - `bedrijfsprocessen`/`bedrijfsfuncties` zijn vrije frontmatter-lijsten zonder eigen pagina's → niet herleidbaar of consistent.
 - Status-semantiek wisselt: de index gebruikt "in opbouw"/"in behandeling", de template kent alleen `afgerond`/`in-behandeling`/`niet-gestart`.

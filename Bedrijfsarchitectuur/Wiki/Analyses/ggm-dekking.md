@@ -1,116 +1,84 @@
 # GGM-dekkingsanalyse
 
-**Gegenereerd:** 2026-06-23 13:45:52
+**Gegenereerd:** 2026-06-23 14:58:53
 
 ## Samenvattende statistieken
 
-- **Totaal GGM-entiteiten:** 437
-- **Bedrijfsobjecten vastgelegd:** 125
-- **Niet-bedrijfsobjecten (incl. generalisa ties):** 17
-- **Niet beoordeeld:** 337
+- **Totaal GGM-entiteiten:** 1364
+  - Class (geen stereotype): 22 (niet meegeteld)
+  - Enumeratie: 388 (niet meegeteld)
+- **Objecttype-entiteiten (in tabellen):** 954
+- **Bedrijfsobjecten vastgelegd:** 123
+- **Geen bedrijfsobject (generalisaties):** 9
+- **Niet beoordeeld:** 822
 
 ## Beleidsdomeinen zonder bronnen
 
+- 0 Bestuur, Politiek en Ondersteuning → Griffie
+- 5 Sport, Cultuur en Recreatie → Erfgoed/Generieke Entiteiten Erfgoed
+- 6 Sociaal Domein → Dak- en thuislozen
+- 6 Sociaal Domein → Gemeentebegrafenissen
+- 6 Sociaal Domein → Inkomen/Diensten
+- 6 Sociaal Domein → Inkomen/Model Inkomen
+- 6 Sociaal Domein → Inkomen/Normafwijking
+- 6 Sociaal Domein → Inkomen/Reden aanvraag
+- 6 Sociaal Domein → Jeugdbescherming en reclassering
+- 6 Sociaal Domein → Schulden/Schuldhulpverlening
+- 6 Sociaal Domein → Schulden/Vroegsignalering
 - 6 Sociaal Domein → Sociaal Domein Generiek
 - 6 Sociaal Domein → Sociale Teams
+- 6 Sociaal Domein → Werk
+- 9 Interne Organisatie → ICT
+- 9 Interne Organisatie → Inkoop
+- 9 Interne Organisatie → Subsidies
+- 9 Interne Organisatie → Vastgoed
+- 99 Kern → 99 Kern
 
 ## GGM-entiteitendekking per beleidsdomein
 
-### 0 Bestuur, Politiek en Ondersteuning
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
+| taakveld | beleidsdomein (aantal entiteiten) | Entiteit is bedrijfsobject | Entiteit is geen bedrijfsobject | Niet beoordeeld | Onderwerp (aantal bedrijfsobjecten) |
 |---|---|---|---|---|---|
-| Griffie | — | 10 | — | — | Aanwezige Deelnemer, Agendapunt, Collegelid, Dossier, Indiener, Raadscommissie, Raadslid, Raadsstuk, Stemming, Vergadering |
-
-### 1 Veiligheid en Vergunningen
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| 1 Veiligheid en Vergunningen | Belastingen, evenementen (22 bronnen) | 18 | Heffingsverordening, OpenbareActiviteit | — | BOA, Heffinggrondslag, Indiener, Inspectie, Kosten, Leges_Grondslag, Ligplaatsontheffing, MORAanvraagOfMelding, Precario, VOMAanvraagOfMelding, Vorderingregel, VTH-Melding, VTHzaak, WoonfraudeAanvraagOfMelding, WoonoverlastAanvraagOfMelding |
-
-### 2 Verkeer, Vervoer en Waterstaat
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Mobiliteit | mobiliteit (12 bronnen) | 4 | Verkeersbesluit, Stremming, Verkeerstelling, Strooiroute | — | — |
-| Parkeren | mobiliteit (12 bronnen) | 9 | Parkeerzone, Parkeergarage, Parkeerrecht, Parkeervlak, Parkeerscan, Voertuig, Naheffing, MulderFeit, Parkeervergunning | — | Belprovider |
-
-### 3 Economie
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| 3 Economie | Economie (10 bronnen) | 4 | Hotel | Hotel → Vestiging (generalisatie van Hotel) | Hotelbezoek, Verkooppunt, Werkgelegenheid |
-
-### 4 Onderwijs
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Leerplicht en Leerlingenvervoer | onderwijs (8 bronnen) | 13 | Verzuimmelding, Vrijstelling, Procesverbaal Onderwijs, Aanvraag Leerlingenvervoer, Beschikking Leerlingenvervoer | — | AanvraagOfMelding, Beslissing, Doorgeleiding OM, HALT-verwijzing, Klacht Leerlingenvervoer, Leerplichtambtenaar, Vervoerder, Ziekmelding Leerlingenvervoer |
-| Onderwijs | onderwijs (8 bronnen) | 10 | Leerling, Inschrijving, Uitschrijving, Ouder Of Verzorger, School | — | Leerjaar, Loopbaanstap, Onderwijsloopbaan, Onderwijsniveau, Startkwalificatie |
-
-### 5 Sport, Cultuur en Recreatie
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Musea | Cultuur (9 bronnen) | 25 | Museumobject | — | Activiteit, Balieverkoop, Balieverkoop Entreekaart, Belanghebbende, Bruikleen, Collectie, Doelgroep, Entreekaart, Incident, Lener, Mailing, Museumrelatie, Prijs, Product, Productie-eenheid, Programma, Reservering, Rondleiding, Samensteller, Standplaats, Tentoonstelling, Voorziening, Winkelverkoopgroep, Zaal |
-| Sport | Sport en Bewegen (2 bronnen) | 9 | Sportpark, Veld, Sportvereniging, Sportlocatie, Sportmateriaal, Binnenlocatie | — | Belijning, Bezetting, Onderhoudskosten |
-
-### 6 Sociaal Domein
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Gemeentebegrafenissen | — | 1 | — | — | Gemeentebegrafenis |
-| Generiek Jeugd en Wmo | Maatschappelijke Ondersteuning (8 bronnen) | 18 | Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning | — | AOM_AanvraagWmoJeugd, Beperking, Beperkingscore, Beschikte Voorziening, Declaratie, Leefgebied, Melding Eigen bijdrage, Score, Tarief, Team, Verplichting Wmo Jeugd, Verzoek om Toewijzing, Zelfredzaamheidmatrix |
-| Inburgering | Asiel en Integratie (4 bronnen) | 12 | Asielstatushouder, Brede Intake, Examen, Gezinsmigrant en Overige migrant, InburgeringsAanbod, Inburgeringsplicht, Inburgeringstermijn, Inburgeringstraject, Leerroute, PIP, PVT, Voorbereiding op Inburgering, MAP | — | Inburgeraar, Verblijfplaats AZC, Vreemdeling |
-| Sociaal Domein Generiek | maatschappelijke ondersteuning, sociaal domein (0 bronnen) | 4 | Client | — | Clientbegeleider, Huishouden, Relatie |
-| Sociale Teams | maatschappelijke ondersteuning (0 bronnen) | 5 | SociaalTeamDossier | — | Behandeling, Bijzonderheid, Caseaanmelding, Doelstelling |
-
-### 7 Volksgezondheid en Milieu
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Afval | Milieu (12 bronnen) | 12 | Container, Fractie, Milieustraat, Prijsafspraak | — | Locatie, Melding, Ophaalmoment, Pas, Rit, Route, Storting, Vuilniswagen |
-
-### 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Beheer Openbare Ruimte | Beheer Openbare Ruimte, geluid (8 bronnen) | 41 | Geluidsscherm, Groenobject, Ecoduct, Verkeerslicht, Verhardingsobject, Verlichtingsobject, Boom, Speelterrein, Speeltoestel, Gemaal, Kolk, Overstortconstructie, Bergingsbassin, Rioleringsgebied, Waterobject, Put, Kunstwerk | van-dit-BO (generalisatie van Groenobject), van-dit-BO (generalisatie van Ecoduct), Beheerobject (generalisatie van Verkeerslicht), Beheerobject (generalisatie van Verhardingsobject), Beheerobject (generalisatie van Verlichtingsobject), Vegetatieobject (generalisatie van Boom), FunctioneelGebied (generalisatie van Speelterrein), Meubilair (generalisatie van Speeltoestel), Kunstwerk (generalisatie van Gemaal), Put (generalisatie van Kolk), Kunstwerk (generalisatie van Overstortconstructie), Bouwwerk (generalisatie van Bergingsbassin), Beheerobject (generalisatie van Waterobject), Beheerobject (generalisatie van Kunstwerk) | Bak, Bord, Installatie, Kast, Leiding, Leidingelement, Mast, Overbruggingsobject, Paal, Scheiding, Sensor, Terreindeel, Tunnelobject, Waterinrichtingsobject, Weginrichtingsobject, Areaal, Geo-Object, Grondbeheerder, KadastraleMutatie, Kwaliteitscatalogus Openbare Ruimte, Kwaliteitskenmerken, Logboek, Melding, MOOR-melding, Omgevingsvergunning, Onderhoud, Opbreking, Proces-verbaal-MOOR-melding, Schouwronde, Uitvoerder Graafwerkzaamheden |
-| Bouwen en Wonen | Wonen (10 bronnen) | 4 | Gebouw, Plan | — | Projectleider, Projectontwikkelaar |
-| Omgevingswet | gevaarlijke-stoffen (1 bron) | 24 | Activiteit, Gebiedsaanwijzing, Gebiedsaanwijzing | — | Bevoegd Gezag, Gemachtigde, Initiatiefnemer, Project, Projectlocatie, Uitvoerende instantie, Verzoek, Omgevingsdocument, Idealisatie, Instructieregel, Juridische Regel, Norm, Normwaarde, Omgevingsnorm, Omgevingswaarde, Omgevingswaarderegel, Regel voor Iedereen, Conclusie, Indieningsvereisten, Maatregelen, Toepasbare Regel, Uitvoeringsregel |
-
-### 9 Interne Organisatie
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Financien | Financien, Terug-en-invordering (4 bronnen) | 19 | Activa, Begroting, Debiteur, Doelstelling, Factuur, Inkooporder, Kostenplaats, Product, Taakveld, Werkorder | — | Bankafschrift, Bankrekening, Batch, Batchregel, Begrotingregel, Hoofdrekening, Hoofdstuk, Mutatie, Opdrachtgever, Opdrachtnemer |
-| HR | Arbeidszaken (12 bronnen) | 20 | Dienstverband, Werknemer, Functie, Formatieplaats, Vacature, Verlof, Verzuim, Declaratie, Sollicitatie, Beoordeling, Disciplinaire Maatregel | — | Functiehuis, Geweldsincident, Individueel Keuzebudget, Onderwijsinstituut, Opleiding, Relatie, Rol, Sollicitant, Sollicitatiegesprek |
-| ICT | — | 26 | — | — | Aanvraag, Applicatie, CMDB-item, Database, Dienst, Domein/Taakveld, Externe Bron, Gegeven, Hardware, Inventaris, Licentie, Linkbaar CMDB-item, Log, Melding, Nertwerkcomponent, Notitie, Package, Product, Server, Software, Storing, Telefoniegegevens, Toegangsmiddel, Versie, Vervoersmiddel, Wijzigingsverzoek |
-| Inkoop | — | 13 | — | — | Aanbesteding, Aanbesteding Inhuur, Aankondiging, Aanvraag Inkooporder, Contract, CPV-code, Gunning, Inschrijving, Kandidaat, Leverancier, Offerte, Offerteaanvraag, Uitnodiging |
-| Organisatie-indeling | Cultuur (9 bronnen) | 2 | Project | — | Programma |
-| Subsidies | — | 7 | — | — | Rapportagemoment, Sector, Subsidie, Subsidieaanvraag, Subsidiebeschikking, Subsidieprogramma, Taak |
-| Vastgoed | — | 14 | — | — | Aanbesteding Vastgoed, CultuurOnbebouwd, Eigenaar, Gebruiksdoel, Huurder, Inspectie, LocatieaanduidingWozObject, MJOP, Pachter, Vastgoed Contract, Vastgoedobject, Verhuurbaar Eenheid, Werkbon, Zakelijk Recht |
-
-### 10 Dienstverlening
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| 10 Dienstverlening | Dienstverlening (7 bronnen) | 9 | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | Aanvraagdata, Afspraakstatus, Artikel, Onderwerp, Telefoononderwerp, Telefoontje |
-
-### 99 Kern
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| 99 Kern | — | 4 | — | — | Periode, Foto, Locatie, Video-opname |
-| BAG | Beheer Openbare Ruimte, Wonen (16 bronnen) | 8 | Ligplaats | AdresseerbaarObject (generalisatie van Ligplaats) | Nummeraanduiding, Buurt, Gemeente, OpenbareRuimte, Pand, Wijk, Woonplaats |
-| RGBZPlus | Belastingen (22 bronnen) | 15 | Heffing | — | Bedrijfsproces, Besluit, Betaling, Betrokkene, Document, Klantcontact, Medewerker, Object, Offerte, OrganisatorischeEenheid, Status, VestigingVanZaakbehandelendeOrganisatie, Zaak, ZAAK - Origineel |
-| RSGBPlus | Belastingen, Economie (32 bronnen) | 48 | WOZ-object, WOZ-Waarde, Standplaats, Vestiging | Horecabedrijf → Vestiging (generalisatie van Vestiging) | Nummeraanduiding, BenoemdObject, BenoemdTerrein, Buurt, GebouwdObject, Gemeente, AdresseerbaarObjectAanduiding, OpenbareRuimte, Pand, Verblijfsobject, Wijk, Woonplaats, Briefadres, Onbestemd Adres, Appartementsrecht, Appartementsrechtsplitsing, Huishouden, KadastraalPerceel, KadastraleOnroerendeZaak, IngeschrevenPersoon, KadastraleOnroerendeZaakAantekening, Ingezetene, MaatschappelijkeActiviteit, NatuurlijkPersoon, NietNatuurlijkPersoon, OverigeAdresseerbaarObjectAanduiding, Reisdocument, Rechtspersoon, Tenaamstelling, Verblijfstitel, WOZ-deelobject, ZakelijkRecht, Zekerheidsrecht, AanduidingVerblijfsrecht, AutoriteitAfgifteNederlandsReisdocument, AkrKadastraleGemeentecode, CultuurcodeBebouwd, CultuurcodeOnbebouwd, KadastraleGemeente, LandOfgebied, Provincie, Partij, RedenVerkrijgingNationaliteit, RedenVerliesNationaliteit, Land, Nationaliteit |
-
-### Erfgoed
-
-| beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-|---|---|---|---|---|---|
-| Archeologie | Cultuur (9 bronnen) | 14 | Vondst | — | Archeologiebesluit, Artefact, boring, Kaart, locatie, Magazijnlocatie, Magazijnplaatsing, Project, Spoor, Vindplaats, Vlak, Vulling |
-| Archief | Cultuur (9 bronnen) | 9 | Archiefstuk, Vindplaats | — | Aanvraag, Archief, Auteur, Bezoeker, Depot, Nadere Toegang, Rechthebbende, Uitgever |
-| Generieke Entiteiten Erfgoed | — | 2 | — | — | Erfgoed Object, Historisch Persoon |
-| Monumenten | Cultuur (9 bronnen) | 4 | Beschermde Status | — | Ambacht, Bouwactiviteit, Bouwstijl |
+| **0 Bestuur, Politiek en Ondersteuning** | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Griffie]] (13) | — | — | Aanwezige Deelnemer, Agendapunt, Categorie, Collegelid, Dossier, Indiener, Programma, Raadscommissie, Raadslid, Raadsstuk, Stemming, Taakveld, Vergadering | — |
+| **1 Veiligheid en Vergunningen** | [[Wiki/GGM/1-veiligheid-en-vergunningen/vth\|1 Veiligheid en Vergunningen]] (30) | Heffingsverordening, OpenbareActiviteit, Vaartuig | — | AOMStatus, Activiteit Omgevingswet, BOA, Bevinding, Combibon, Fietsregistratie, Grondslag, Heffinggrondslag, Indiener, Inspectie, Kosten, Leges_Grondslag, Ligplaatsontheffing, MORAanvraagOfMelding, Precario, Producttype, SubProducttype, VOMAanvraagOfMelding, VTH-Melding, VTHAanvraagOfMelding, VTHzaak, Vordering, Vorderingregel, WABOAanvraagOfMelding, Waarneming, WoonfraudeAanvraagOfMelding, WoonoverlastAanvraagOfMelding | [[Wiki/Onderwerpoverzichten/belastingen\|Belastingen]] (5), [[Wiki/Onderwerpoverzichten/evenementen\|evenementen]] (3) |
+| **2 Verkeer, Vervoer en Waterstaat** | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Mobiliteit]] (7) | Stremming, Strooiroute, Verkeersbesluit, Verkeerstelling | — | Strooidag, StrooirouteUitvoering, VLogInfo | [[Wiki/Onderwerpoverzichten/mobiliteit\|mobiliteit]] (29) |
+|  | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeren]] (13) | MulderFeit, Naheffing, Parkeergarage, Parkeerrecht, Parkeerscan, Parkeervergunning, Parkeervlak, Parkeerzone, Voertuig | — | Belprovider, Productgroep, Productsoort, Straatsectie | [[Wiki/Onderwerpoverzichten/mobiliteit\|mobiliteit]] (29) |
+| **3 Economie** | [[Wiki/GGM/3-economie/economie\|3 Economie]] (6) | Hotel | — | Contact, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak | [[Wiki/Onderwerpoverzichten/economie\|Economie]] (8) |
+| **4 Onderwijs** | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Leerplicht en Leerlingenvervoer]] (15) | Aanvraag Leerlingenvervoer, Beschikking Leerlingenvervoer, Procesverbaal Onderwijs, Verzuimmelding, Vrijstelling | — | AanvraagOfMelding, AanvraagVrijstelling, Beslissing, Doorgeleiding OM, HALT-verwijzing, Klacht Leerlingenvervoer, Leerplichtambtenaar, Verlofaanvraag, Vervoerder, Ziekmelding Leerlingenvervoer | [[Wiki/Onderwerpoverzichten/onderwijs\|onderwijs]] (11) |
+|  | [[Wiki/GGM/4-onderwijs/onderwijs\|Onderwijs]] (12) | Inschrijving, Leerling, Ouder Of Verzorger, School, Uitschrijving | — | Leerjaar, Locatie, Loopbaanstap, Onderwijsloopbaan, Onderwijsniveau, Onderwijssoort, Startkwalificatie | [[Wiki/Onderwerpoverzichten/onderwijs\|onderwijs]] (11) |
+| **5 Sport, Cultuur en Recreatie** | [[Wiki/GGM/5-sport-cultuur-en-recreatie/archeologie\|Erfgoed/Archeologie]] (17) | Vondst | Put (generalisatie van Kolk) | Archeologiebesluit, Artefact, Artefactsoort, Doos, Kaart, Magazijnlocatie, Magazijnplaatsing, Project, Spoor, Stelling, Vindplaats, Vlak, Vulling, boring, locatie | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
+|  | [[Wiki/GGM/5-sport-cultuur-en-recreatie/archief\|Erfgoed/Archief]] (18) | Archiefstuk, Vindplaats | — | Aanvraag, Archief, Archiefcategorie, Auteur, Bezoeker, Depot, DigitaalBestand, Indeling, Index, Kast, Nadere Toegang, Ordeningsschema, Plank, Rechthebbende, Stelling, Uitgever | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
+|  | [[Wiki/GGM/5-sport-cultuur-en-recreatie/generieke-entiteiten-erfgoed\|Erfgoed/Generieke Entiteiten Erfgoed]] (3) | — | — | Erfgoed Object, Historisch Persoon, Objectclassificatie | — |
+|  | [[Wiki/GGM/5-sport-cultuur-en-recreatie/monumenten\|Erfgoed/Monumenten]] (6) | Beschermde Status | — | Ambacht, Bouwactiviteit, Bouwstijl, Bouwtype, OorspronkelijkeFunctie | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
+|  | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Musea]] (30) | Museumobject | — | Activiteit, Activiteitsoort, Balieverkoop, Balieverkoop Entreekaart, Belanghebbende, Bruikleen, Collectie, Doelgroep, Entreekaart, Incident, Lener, Mailing, Museumrelatie, Omzetgroep, Prijs, Product, Productgroep, Productie-eenheid, Programma, Programmasoort, Reservering, Rondleiding, Samensteller, Standplaats, Tentoonstelling, Voorziening, Winkelverkoopgroep, Winkelvoorraaditem, Zaal | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
+|  | [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sport]] (9) | Binnenlocatie, Sportlocatie, Sportmateriaal, Sportpark, Sportvereniging, Veld | — | Belijning, Bezetting, Onderhoudskosten | [[Wiki/Onderwerpoverzichten/sport-en-bewegen\|Sport en Bewegen]] (7) |
+| **6 Sociaal Domein** | [[Wiki/GGM/6-sociaal-domein/dak-en-thuislozen\|Dak- en thuislozen]] (1) | Dakloosheid | — | — | [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning\|maatschappelijke ondersteuning]] (4) |
+|  | [[Wiki/GGM/6-sociaal-domein/gemeentebegrafenissen\|Gemeentebegrafenissen]] (1) | — | — | Gemeentebegrafenis | — |
+|  | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Generiek Jeugd en Wmo]] (27) | Beschikking, Levering, PGB-Toekenning, Toewijzing, Voorziening | — | AOMMeldingWmoJeugd, AOM_AanvraagWmoJeugd, Beperking, Beperkingscategorie, Beperkingscore, Beperkingscoresoort, Beschikkingsoort, Beschikte Voorziening, Budgetuitputting, Declaratie, Declaratieregel, Leefgebied, Leveringsvorm, Melding Eigen bijdrage, Score, Scoresoort, Tarief, Team, Verplichting Wmo Jeugd, Verzoek om Toewijzing, Voorzieningsoort, Zelfredzaamheidmatrix | [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning\|Maatschappelijke Ondersteuning]] (5) |
+|  | [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgering]] (35) | Asielstatushouder, Brede Intake, Examen, Gezinsmigrant en Overige migrant, InburgeringsAanbod, Inburgeringsplicht, Inburgeringstermijn, Inburgeringstraject, Leerroute, MAP, PIP, PVT, Voorbereiding op Inburgering | — | Aandachtspunt, Aanvraag verlenging Inburgeringstermijn, B1-route, Diplomawaardering, Educatie, Examenonderdeel, Hoofddoel, ICT-Vaardigheid, Inburgeraar, Introductiemodule, Ontheffing, Ontwikkelwens, Subdoel Aandachtspunt, Subdoel Ontwikkelwens, Taalvaardigheid, Training, Verblijfplaats AZC, Verlengingsgrond, Vreemdeling, Vrijstelling, Werk, Z-route | [[Wiki/Onderwerpoverzichten/inburgering-en-asielopvang\|Asiel en Integratie]] (15) |
+|  | [[Wiki/GGM/6-sociaal-domein/diensten\|Inkomen/Diensten]] (22) | — | — | Aanvraag, Aanvraagtype, Beschikking, Besluit, Betalingsblokkade, Dienst, Diensttype, Individuele plicht, Leveringscomponent, Leveringscomponenttype, Leveringsopdracht, Leveringsspecificatie, Onderdeel beschikking, Periodiek dienst Bijz. bijstand, Recht, Referteperiode, Regeling, Uitsluitingsgrond, Verstrekkingsvorm, Voorliggende voorziening, Voorwaarde, Voorwaardetype | — |
+|  | Inkomen/Model Inkomen (11) | — | — | Component, ComponentSoort, Huisvestingsoort, Inkomensvoorziening, Inkomensvoorzieningsoort, RedenBlokkering, RedenInstroom, RedenUitstroom, Regeling, Regelingsoort, UitkeringsRun | — |
+|  | [[Wiki/GGM/6-sociaal-domein/normafwijking\|Inkomen/Normafwijking]] (5) | — | — | Afwijkende maatregel, Boete, Maatregel, Maatregel op uitkering, Normafwijking | — |
+|  | [[Wiki/GGM/6-sociaal-domein/reden-aanvraag\|Inkomen/Reden aanvraag]] (22) | — | — | Andere reden afwijkende startdatum, Andere reden verzoek, Diensten::Aanvraag, Diensten::Aanvraag levensonderhoud, Gestopt betaald werk, Gestopt of verkocht eigen bedrijf, Gestopte bijstanduitkering, Gestopte detentie, Gestopte of verlaagde alimentatie, Gestopte studiefinanciering, Gestopte uitkering, Ingang bijstandsuitkering, Levenssituatie::Levenssituatie, Opname instelling, Overleden partner, Reden aanvraag, Reden aanvraag Levensonderhoud, Reden afwijkende startdatum, Verbroken relatie, Vertrek uit asielzoekerscentrum, Wachten DigiD, Wachten beslissing instantie | — |
+|  | [[Wiki/GGM/6-sociaal-domein/terug-en-invordering\|Inkomen/Terug- en invordering]] (29) | Aflossing, Aflossingsplan, Afschrijving, Interventie, Kwijtschelding, Restitutie, Vordering | — | Aflossingsafspraak, Betaalcomponent, Boetevordering, Conservatoir beslag, Correctie, Debiteur, Incassokostenvordering, Interventieverzoek, Invorderingsbasis, Krediethypotheek, Krediethypotheekvordering, Leenbijstand, Leenbijstandvordering, Loonbeslagafspraak, Rechtmaand, Rentevordering, Terugvorderingsverzoek, Uitstel aflossing, Vermindering terugvordering, Verrekening, Verwijtbare vordering, Vorderingscomponent | [[Wiki/Onderwerpoverzichten/belastingen\|Belastingen]] (5), [[Wiki/Onderwerpoverzichten/terug-en-invordering\|Terug-en-invordering]] (8) |
+|  | [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Jeugdbescherming en reclassering]] (4) | Zorgmelding | — | Informering, Leefgebied, Zorgelijke Situatie | [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning\|maatschappelijke ondersteuning]] (4) |
+|  | [[Wiki/GGM/6-sociaal-domein/schuldhulpverlening\|Schulden/Schuldhulpverlening]] (27) | — | — | Aanmelding, Begeleiding, Begeleidingssoort, Contactpersoon, Crisisinterventie, InformatieEnAdvies, Inkomen, Intake, Leefsituatie, Moratorium, Nazorg, Ondernemer, Oplossing, Oplossingssoort, Partner, PlanVanAanpak, Schuld, Schuldeiser, Schuldhulporganisatie, Schuldhulptraject, Schuldregeling, Stabilisatie, Uitstroom, VoorlopigeVoorziening, WSNP-traject, WSNP-verklaring, Woningbezit | — |
+|  | [[Wiki/GGM/6-sociaal-domein/vroegsignalering\|Schulden/Vroegsignalering]] (6) | — | — | AanleverendeOrganisatie, Contactpersoon, Contactpoging, Signaalpartner, Vroegsignaal, Vroegsignaalzaak | — |
+|  | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociaal Domein Generiek]] (55) | Client | — | AanvraagStadspas, Alimentatie, Ander inkomen, Bankrekening, Beslag op inkomen, Betaald werk, Clientbegeleider, Dertiende maand - eindejaarsuitkering, Draagkracht, Draagkrachtregime, Eigen bedrijf, Eigen bijdrage, Gerechtelijke uitspraak, Gezagsverhouding, Heffingskorting, Hobby, Huishouden, Hypotheek, Incident, Inkomstencomponent, Inkomstenverhouding, Inkomstenvermindering, Kostencomponent, Leverancier, Loonbeslag, Maaltijdvergoeding, Motorvoertuig, Onderhoudsplicht, Onderhoudsverhouding, Onkostenvergoeding, Onroerend goed, Pensioen, Primair inkomstencomponent, Profiel, Reiskosten naar het werk, Reiskostenvergoeding, Relatie, Relatiesoort, Secundair inkomstencomponent, Sociale Groep, Sociale Relatie, Stadspas, Stage, Studiefinanciering, Te betalen alimentatie, Uitkering, Vakantiegeld, Vergoeding, Vergoeding in natura, Verlaging door boete, Verlaging door maatregel, Vermogenscomponent, Vrijlating inkomsten, Waardepeiling | [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning\|maatschappelijke ondersteuning]] (4), [[Wiki/Onderwerpoverzichten/sociaal-domein\|sociaal domein]] (1) |
+|  | [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Sociale Teams]] (9) | SociaalTeamDossier | — | Behandeling, Behandelsoort, Bijzonderheid, Bijzonderheidsoort, Caseaanmelding, Doelstelling, Doelstellingsoort, SociaalteamDossiersoort | [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning\|maatschappelijke ondersteuning]] (4) |
+|  | [[Wiki/GGM/6-sociaal-domein/werk\|Werk]] (33) | — | — | Arbeidsmarktkwalificaties, Arbeidsperiode, Arbeidsverhouding, Arbeidsvermogen, Bemiddelingsactiviteit, Bemiddelingsberoep, Bemiddelingstraject, BeschikbaarVoorArbeid, BeschikbaarVoorBemiddeling, DoelReintegratievoorziening, Doelgroep, Doelgroepenregister, Flexibliteit, Loonkostensubsidie, Mobiliteit, Ontheffing, Opleiding, Opleidingsnaam, OpleidingsnaamGecodeerd, OpleidingsnaamOngecodeerd, Opleidingsniveau, Reintegratievoorziening, Rijbewijs /Certificaat, Taalbeheersing, TaalbeheersingNederlands, Vaardigheidsvaststelling, Voorkeur, VrijstellingArbeidsplicht, Werkervaring, Werkzaamheden als mantelzorger, Werkzaamheden anders dan in arbeidsverhouding, Werkzoekende, ZelfredzaamheidScore | — |
+| **7 Volksgezondheid en Milieu** | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Afval]] (16) | Container, Fractie, Milieustraat, Prijsafspraak | — | Categorie, Containertype, Locatie, Melding, Ophaalmoment, Pas, Prijsregel, Rit, Route, Storting, Vuilniswagen, Vulgraadmeting | [[Wiki/Onderwerpoverzichten/milieu\|Milieu]] (16) |
+| **8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing** | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/beheer-openbare-ruimte\|Beheer Openbare Ruimte]] (82) | Bergingsbassin, Boom, Ecoduct, Geluidsscherm, Gemaal, Groenobject, Kolk, Kunstwerk, Overstortconstructie, Put, Rioleringsgebied, Speelterrein, Speeltoestel, Verhardingsobject, Verkeerslicht, Verlichtingsobject, Waterobject | Beheerobject (generalisatie van Kunstwerk, Verhardingsobject, Verkeerslicht, ...)<br>Bouwwerk (generalisatie van Bergingsbassin)<br>FunctioneelGebied (generalisatie van Speelterrein)<br>Meubilair (generalisatie van Speeltoestel)<br>Vegetatieobject (generalisatie van Boom) | Aansluitput, Actie, Afvalbak, Areaal, Bak, Bank, Bemalingsgebied, Bord, Brug, CROW-Melding, Deelplan/Veld, Drainageput, Fase/Oplevering, Fietsparkeervoorziening, Filterput, Flyover, Geo-Object, Grondbeheerder, Infiltratieput, Inspectie, Installatie, KadastraleMutatie, Kademuur, Kast, Keermuur, Klimplant, Kwaliteitscatalogus Openbare Ruimte, Kwaliteitskenmerken, Leiding, Leidingelement, Logboek, MOOR-melding, Mast, Melding, MeldingOngeval, Omgevingsvergunning, Onderhoud, Opbreking, Overbruggingsobject, Paal, Pomp, Proces-verbaal-MOOR-melding, Putdeksel, Rioolput, Scheiding, Schouwronde, Sensor, SolitairePlant, Sportterrein, Storing, Stuwgebied, Taak, Terreindeel, Tunnelobject, Uitlaatconstructie, Uitvoerder Graafwerkzaamheden, Verkeersdrempel, Viaduct, Waterinrichtingsobject, Weginrichtingsobject | [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte\|Beheer Openbare Ruimte]] (19), [[Wiki/Onderwerpoverzichten/geluid\|geluid]] (5) |
+|  | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Bouwen en Wonen]] (7) | Gebouw, Plan | — | Huurwoningen, Koopwoningen, Projectleider, Projectontwikkelaar, Studentenwoningen | [[Wiki/Onderwerpoverzichten/wonen\|Wonen]] (5) |
+|  | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingswet]] (31) | Activiteit, Gebiedsaanwijzing | — | Beperkingsgebied, Bevoegd Gezag, Conclusie, Functie, Gemachtigde, Idealisatie, Indieningsvereisten, Initiatiefnemer, Instructieregel, Juridische Regel, Maatregelen, Norm, Normwaarde, Omgevingsdocument, Omgevingsnorm, Omgevingswaarde, Omgevingswaarderegel, Project, Projectactiviteit, Projectlocatie, Regel voor Iedereen, Regeltekst, Specificatie, Thema, Toepasbare Regel, ToepasbareRegelBestand, Uitvoerende instantie, Uitvoeringsregel, Verzoek | [[Wiki/Onderwerpoverzichten/gevaarlijke-stoffen\|gevaarlijke-stoffen]] (3) |
+| **9 Interne Organisatie** | [[Wiki/GGM/9-interne-organisatie/financien\|Financien]] (24) | Activa, Begroting, Debiteur, Doelstelling, Factuur, Inkooporder, Kostenplaats, Product, Taakveld, Werkorder | — | Activasoort, Bankafschrift, Bankafschriftregel, Bankrekening, Batch, Batchregel, Begrotingregel, Factuurregel, Hoofdrekening, Hoofdstuk, Mutatie, Opdrachtgever, Opdrachtnemer, Subrekening | [[Wiki/Onderwerpoverzichten/financien\|Financien]] (10), [[Wiki/Onderwerpoverzichten/terug-en-invordering\|Terug-en-invordering]] (8) |
+|  | [[Wiki/GGM/9-interne-organisatie/hr\|HR]] (31) | Beoordeling, Declaratie, Dienstverband, Disciplinaire Maatregel, Formatieplaats, Functie, Sollicitatie, Vacature, Verlof, Verzuim, Werknemer | — | Declaratiesoort, Functiehuis, GenotenOpleiding, Geweldsincident, Individueel Keuzebudget, Inzet, KeuzebudgetBesteding, KeuzebudgetBestedingsoort, NormProfiel, Onderwijsinstituut, Opleiding, OrganisatorischeEenheidHR, Relatie, Rol, Sollicitant, Sollicitatiegesprek, SoortDisciplinaireMaatregel, Uren, Verlofsoort, Verzuimsoort | [[Wiki/Onderwerpoverzichten/arbeidszaken\|Arbeidszaken]] (12) |
+|  | [[Wiki/GGM/9-interne-organisatie/ict\|ICT]] (35) | — | — | Aanvraag, Applicatie, Attribuutsoort, CMDB-item, Classificatie, Database, Datatype, Dienst, Domein/Taakveld, Externe Bron, Gegeven, Generalisatie, Hardware, Inventaris, Koppeling, Licentie, Linkbaar CMDB-item, Log, Melding, Nertwerkcomponent, Notitie, Objecttype, Onderwerp, Package, Prijzenboek, Product, Relatiesoort, Server, Software, Storing, Telefoniegegevens, Toegangsmiddel, Versie, Vervoersmiddel, Wijzigingsverzoek | — |
+|  | [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkoop]] (20) | — | — | Aanbesteding, Aanbesteding Inhuur, Aankondiging, Aanvraag Inkooporder, CPV-code, Categorie, Contract, FormulierInhuur, FormulierVerlengingInhuur, Gunning, Inkooppakket, Inschrijving, Kandidaat, Kwalificatie, Leverancier, Offerte, Offerteaanvraag, SelectietabelAanbesteding, StartformulierAanbesteden, Uitnodiging | — |
+|  | [[Wiki/GGM/9-interne-organisatie/organisatie-indeling\|Organisatie-indeling]] (2) | Project | — | Programma | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
+|  | [[Wiki/GGM/9-interne-organisatie/subsidies\|Subsidies]] (9) | — | — | Betaalmoment, Rapportagemoment, Sector, Subsidie, Subsidieaanvraag, Subsidiebeschikking, Subsidiecomponent, Subsidieprogramma, Taak | — |
+|  | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed]] (27) | — | — | Aanbesteding Vastgoed, Adresaanduiding, Bouwdeel, Bouwdeelelement, CultuurOnbebouwd, Eigenaar, Gebruiksdoel, Huurder, Inspectie, KpBetrokkenBij, KpOnstaanUit, LocatieaanduidingWozObject, Locatieonroerendezaak, MJOP, MJOP-Item, NADAanvullingBRP, Objectrelatie, Offerte, Pachter, Prijzenboekitem, Vastgoed Contract, Vastgoedcontractregel, Vastgoedobject, Verhuurbaar Eenheid, WOZ-Belang, Werkbon, Zakelijk Recht | — |
+| **10 Dienstverlening** | [[Wiki/GGM/10-dienstverlening/dienstverlening\|10 Dienstverlening]] (16) | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | Aanvraagdata, Afspraakstatus, Artikel, ExterneBron, Formuliersoort, Formuliersoortveld, Klantbeoordeling, Klantbeoordelingreden, MOR-AanvraagOfMelding, Onderwerp, Telefoononderwerp, Telefoonstatus, Telefoontje | [[Wiki/Onderwerpoverzichten/dienstverlening\|Dienstverlening]] (3) |
+| **99 Kern** | 99 Kern (10) | — | — | Foto, Gebied, Gebiedengroep, Lijn, Lijnengroep, Locatie, Periode, Punt, Puntengroep, Video-opname | — |
+|  | [[Wiki/GGM/99-kern/bag\|BAG]] (13) | Ligplaats | AdresseerbaarObject (generalisatie van Ligplaats) | BinnenlandsAdres, Buurt, Gemeente, Nummeraanduiding, Onderzoek, OpenbareRuimte, Pand, Standplaats, Verblijfsobject, Wijk, Woonplaats | [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte\|Beheer Openbare Ruimte]] (19), [[Wiki/Onderwerpoverzichten/wonen\|Wonen]] (5) |
+|  | [[Wiki/GGM/99-kern/rgbzplus\|RGBZPlus]] (37) | Heffing | — | AfwijkendBuitenlandsCorrespondentieadresRol, AfwijkendCorrespondentiePostadresRol, AnderZaakobjectZaak, Bedrijfsproces, Bedrijfsprocestype, Besluit, Besluittype, Betaling, Betrokkene, Brondocumenten, ContactpersoonRol, Deelproces, Deelprocestype, Document, Documenttype, EnkelvoudigDocument, FormeleHistorie, Identificatiekenmerk, InOnderzoek, KenmerkenZaak, Klantcontact, MaterieleHistorie, Medewerker, Object, Offerte, OpschortingZaak, OrganisatorischeEenheid, SamengesteldDocument, Status, Statustype, StrijdigheidOfNietigheid, VerlengingZaak, VestigingVanZaakbehandelendeOrganisatie, ZAAK - Origineel, Zaak, Zaaktype | [[Wiki/Onderwerpoverzichten/belastingen\|Belastingen]] (5) |
+|  | [[Wiki/GGM/99-kern/rsgbplus\|RSGBPlus]] (128) | Standplaats, Vestiging, WOZ-Waarde, WOZ-object | FunctioneelGebied (generalisatie van Speelterrein)<br>Vegetatieobject (generalisatie van Boom) | AanduidingVerblijfsrecht, Aantekening, AardAantekening, AardFiliatie, AardZakelijkRecht, AcademischeTitel, AdresBuitenland, Adresaanduiding, AdresseerbaarObjectAanduiding, AkrKadastraleGemeentecode, Appartementsrecht, Appartementsrechtsplitsing, AutoriteitAfgifteNederlandsReisdocument, BegroeidTerreindeel, BenoemdObject, BenoemdTerrein, Briefadres, Buurt, CorrespondentieadresBuitenland, CultuurcodeBebouwd, CultuurcodeOnbebouwd, Gebied, GeboorteIngeschrevenNatuurlijkPersoon, GeboorteIngeschrevenPersoon, GebouwdObject, Gebouwinstallatie, Gemeente, HandelsnamenMaatschappelijkeActiviteit, HandelsnamenVestiging, Huishouden, IngeschrevenPersoon, Ingezetene, Inrichtingselement, KadastraalPerceel, KadastraleGemeente, KadastraleOnroerendeZaak, KadastraleOnroerendeZaakAantekening, KoopsomKadastraleOnroerendeZaak, Kunstwerkdeel, Land, LandOfgebied, Ligplaats, LocatieKadastraleOnroerendeZaak, LocatieaanduidingAdresWOZObject, MaatschappelijkeActiviteit, MigratieIngeschrevenNatuurlijkPersoon, NaamAanschrijvingNatuurlijkPersoon, NaamNatuurlijkPersoon, NaamgebruikNatuurlijkPersoon, Nationaliteit, Nationaliteit, NationaliteitIngeschrevenNatuurlijkPersoon, NatuurlijkPersoon, NederlandseNationaliteitIngeschrevenPersoon, NietNatuurlijkPersoon, Nummeraanduiding, ObjecttypeA, ObjecttypeB, ObjecttypeC, ObjecttypeD, ObjecttypeE, ObjecttypeF, ObjecttypeG, OnbegroeidTerreindeel, Onbestemd Adres, OndersteunendWaterdeel, OndersteunendWegdeel, OntbindingHuwelijk/geregistreerdPartnerschap, OpenbareRuimte, Overbruggingsdeel, OverigBenoemdTerrein, OverigBouwwerk, OverigGebouwdObject, OverigeAdresseerbaarObjectAanduiding, OverigeScheiding, OverlijdenIngeschrevenNatuurlijkPersoon, OverlijdenIngeschrevenPersoon, Pand, Partij, Postadres, Provincie, Rechtspersoon, RedenVerkrijgingNationaliteit, RedenVerliesNationaliteit, Reisdocument, Reisdocumentsoort, Rekeningnummer, SBIActiviteit, SBIActiviteitVestiging, SamengesteldeNaamNatuurlijkPersoon, Scheiding, SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap, SoortFunctioneelGebied, SoortGrootte, SoortKunstwerk, SoortOverigBouwwerk, SoortScheiding, SoortSpoor, SoortWOZObject, SplitsingstekeningReferentie, Spoor, Tenaamstelling, Tunneldeel, Valuta, Valutasoort, VerblijfBuitenland, VerblijfBuitenlandSubject, VerblijfadresIngeschrevenNatuurlijkPersoon, VerblijfadresIngeschrevenPersoon, Verblijfsobject, VerblijfsrechtIngeschrevenNatuurlijkPersoon, Verblijfstitel, Verblijfstitel, VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon, WOZ-Deelobjectcode, WOZ-deelobject, Waterdeel, Wegdeel, Wijk, Woonplaats, ZakelijkRecht, Zekerheidsrecht | [[Wiki/Onderwerpoverzichten/belastingen\|Belastingen]] (5), [[Wiki/Onderwerpoverzichten/economie\|Economie]] (8) |

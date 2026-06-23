@@ -11,33 +11,10 @@ Doel: inventariseer voor alle GGM-beleidsdomeinen welke entiteiten wél/niet een
 
 Input: "dekking" (volledige analyse van alle beleidsdomeinen) of "{onderwerp-naam}" (analyse voor domeinen die dit raken).
 
-Stappen:
-1. Lees het geparsede GGM uit `Sources/GGM-repository/ggm_parsed.json`.
-2. Lees alle BO-pagina's uit `Wiki/Bedrijfsobjecten/` en extract `ggm_guid`, `ggm_entiteit`, `beleidsdomein`, `grondslag` uit frontmatter.
-3. Lees alle bronsamenvattingen uit `Wiki/Bronsamenvattingen/` en bepaal per wiki-onderwerp welke beleidsdomeinen geraakt zijn.
-4. Genereer samenvattende statistieken: totaal entiteiten, BO-count, niet-BO-count, niet-beoordeeld-count.
-5. Sectie "Beleidsdomeinen zonder bronnen": lijst van beleidsdomeinen die nog geen bronnen hebben.
-6. **Onderste sectie (als laatste):** Tabel "GGM-entiteitendekking per beleidsdomein", opgesplitst per taakveld met headers.
+**Uitvoering:** draai `python3 tools/coverage_analysis.py`. Het script leest GGM, BO-pagina's, bronsamenvattingen en GGM/onderwerpoverzicht-pagina's, en genereert `Wiki/Analyses/ggm-dekking.md`.
 
-   **Taakveld-sortering:**
-   - Numerieke taakvelden sorteren op getal (0, 1, 2, ..., 10, 99)
-   - Erfgoed = onderdeel van taakveld 5 (Cultuur), als subsectie "Erfgoed"
-   - Schulden, Inkomen = ondergebracht onder relevante taakvelden
-   
-   **Per taakveld-header:**
-   | beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld |
-   |---|---|---|---|---|---|
-   
-   Kolom-richtlijnen:
-   - **beleidsdomein**: naam van het GGM-beleidsdomein
-   - **onderwerp (aantal bronnen)**: wiki-onderwerp(en) die dit raken, met link [[Wiki/...]], in haakjes: aantal bronsamenvattingen
-   - **aantal entiteiten**: totaal GGM-entiteiten in dit beleidsdomein
-   - **Bedrijfsobject**: GGM-entiteitnamen (komma-gescheiden) die als BO zijn vastgelegd
-   - **Geen bedrijfsobject**: GGM-entiteitnamen (komma-gescheiden) met (generalisatie/subtype notatie)
-   - **Niet beoordeeld**: GGM-entiteitnamen (komma-gescheiden)
-
-7. Update `Wiki/Analyses/ggm-dekking.md` met statistieken, hiaten-sectie, en onderste dekkingstabel.
-8. Voeg GGM-hiaten toe aan `Wiki/Analyses/ggm-terugmeldingen.md` (data-objecten zonder GGM-match).
-9. Voeg entry toe aan `Wiki/log.md`.
+Na het draaien van het script:
+1. Voeg entry toe aan `Wiki/log.md`.
+2. Verifieer output in `Wiki/Analyses/ggm-dekking.md`.
 
 Coverage telt en signaleert; het beoordeelt niet zelf of een entiteit een BO moet worden. Voor beoordeling: verwijs door naar `/assess-bo`.

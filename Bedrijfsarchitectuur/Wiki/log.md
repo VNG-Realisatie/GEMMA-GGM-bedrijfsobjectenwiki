@@ -1,15 +1,19 @@
 # Wiki Log
 
-## [2026-06-23] coverage | volledige GGM-dekkingsanalyse gegenereerd
+## [2026-06-23] coverage | volledige GGM-dekkingsanalyse v2
 - **Gegenereerd:** Centrale dekkingspagina [[Wiki/Analyses/ggm-dekking|ggm-dekking]] per taakveld
-- **Structuur:** Tabel opgesplitst per taakveld met kolommen: beleidsdomein | onderwerp (aantal bronnen) | aantal entiteiten | Bedrijfsobject | Geen bedrijfsobject | Niet beoordeeld
+- **Wijzigingen t.o.v. v1:**
+  - Filter `stereotype == 'Objecttype'` i.p.v. `gemma_type == 'business-object'` → 954 entiteiten (was 437)
+  - Taakveld-hiërarchie dynamisch uit GGM-packages: sub-taakvelden (Erfgoed, Inkomen, Schulden) genest onder hun parent
+  - Weggefilterde UML-types (Enumeratie: 388, Class zonder stereotype: 22) getoond in statistieken
+  - Generalisatie-detectie: parent entities als "Geen bedrijfsobject (generalisatie van ...)"
+  - Entiteiten alfabetisch gesorteerd
 - **Statistieken:**
-  - Totaal GGM-entiteiten: 437
-  - Bedrijfsobjecten vastgelegd: 125 (28%)
-  - Niet beoordeeld: 344 (79%)
-  - Beleidsdomeinen zonder bronnen: 2 (Sociaal Domein Generiek, Sociale Teams)
-- **Coverage per domein:** onderwerp-links met bronnenaantal, entity names in kolommen
-- **Skill update:** `/coverage` aangepast voor nieuwe tabelstructuur
+  - Totaal GGM-entiteiten: 1364 (waarvan 954 Objecttype in tabellen)
+  - Bedrijfsobjecten vastgelegd: 123 (13%)
+  - Generalisaties: 9
+  - Niet beoordeeld: 822 (86%)
+- **Skill update:** `/coverage` aangepast voor Objecttype-filter, package-hiërarchie, UML-type statistieken
 
 ## [2026-06-23] Refactor: GGM-dekking naar centrale analysepagina
 - **Reden:** GGM-beleidsdomeinen en wiki-domeinen lopen niet 1-op-1. Centrale dekkingspagina maakt per beleidsdomein zichtbaar welke bronnen beschikbaar zijn.
