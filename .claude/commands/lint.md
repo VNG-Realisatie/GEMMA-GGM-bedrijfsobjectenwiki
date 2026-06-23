@@ -12,7 +12,7 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Domeinoverzicht compleetheid** — begrippen in de tabel zonder BO-beoordeling (BO? kolom leeg). BO's in `Wiki/Bedrijfsobjecten/` die niet in een domeinoverzicht staan.
 - **Tegenstrijdige definities** — definities die conflicteren tussen domeinoverzicht en BO-pagina.
 - **Begrippentabel format** — domeinoverzichten moeten een begrippentabel hebben met kolommen: Begrip, Type, Omschrijving, BO?, Reden, Voorbeelden, GGM. Signaleer domeinpagina's die begrippen als bullet-lijst hebben i.p.v. tabel.
-- **GGM-entiteitendekkingstabel** — domeinoverzichten zonder GGM-entiteitendekkingstabel, of waarvan de tellingen niet kloppen met de begrippentabel.
+- **GGM-dekkingssecties verwijderd** — domeinoverzichten mogen geen `## GGM-entiteitendekking` of `## GGM-dekkingsanalyse` secties meer bevatten. GGM-dekking is verplaatst naar centrale pagina `[[Wiki/Analyses/ggm-dekking]]`.
 - **Domein-afgetekend** — domeinoverzichten met `status: in-behandeling` zonder verantwoording, of `_count`-frontmatter die niet klopt met de inhoud.
 - **Data-object kolom** — begrippentabellen zonder "Data-object" kolom; BO's met grondslag=ggm-entiteit maar Data-object=nee (inconsistent); Data-object=ja + GGM=nee zonder vermelding in openstaande acties.
 
@@ -30,6 +30,11 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
 - **Frontmatter ↔ body** — BO's met `gemma_subtypes` in frontmatter maar zonder `## Specialisaties`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-tabel voorkomen, of subtypes die in de body-tabel staan maar niet in `gemma_subtypes` in frontmatter.
 - **GGM-link compleetheid subtypes** — subtypes in `gemma_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
+
+### Analysepagina's
+
+- **GGM-dekking tabel** — `Wiki/Analyses/ggm-dekking.md` moet een volledige tabel hebben met alle 48+ beleidsdomeinen uit `ggm_parsed.json`. Controleer of de BO-counts kloppen met ingetelde BO's in `Wiki/Bedrijfsobjecten/`. Signaleer ontbrekende rijen of tellingen die niet meer kloppen na recente ingests.
+- **Analyse-links geldig** — links in analyses naar domeinen en BO's moeten naar bestaande pagina's verwijzen.
 
 ### Wiki-structuur & links
 
