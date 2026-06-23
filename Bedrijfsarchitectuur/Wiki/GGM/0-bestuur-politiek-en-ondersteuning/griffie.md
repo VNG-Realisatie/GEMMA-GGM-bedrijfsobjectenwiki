@@ -8,10 +8,6 @@ aantal_entiteiten: 13
 
 # GGM Beleidsdomein: Griffie
 
-Beleidsdomein binnen taakveld "0 Bestuur, Politiek en Ondersteuning" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Diagram Griffie
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -45,44 +41,29 @@ Ingezetene (abstract)
 
 ## Relatiediagrammen
 
-### Diagram Griffie
-
 ```
-Aanwezige Deelnemer [0..1] ──── Collegelid [0..1] (is)
-Aanwezige Deelnemer [0..1] ──── NatuurlijkPersoon [0..1] (is)
-Categorie [0..1] ──── Raadsstuk [0..*] (heeft)
-Dossier [0..*] ──── Raadsstuk [0..*] (hoort bij)
-Indiener [0..1] ──── Collegelid [0..1] (is)
-Indiener [0..1] ──── Raadslid [0..1] (is)
-Indiener [0..*] ──── Raadsstuk [1..*] (heeft)
-Indiener [0..1] ──── Rechtspersoon [0..1] (is)
-Raadscommissie [0..1] ──── Vergadering [0..*] (heeft)
-Raadslid [0..1] ──── Aanwezige Deelnemer [0..1] (is)
-Raadslid [0..*] ──── Raadscommissie [0..*] (is lid van)
-Raadsstuk [0..*] ──── Agendapunt [0..*] (behandelt)
-Raadsstuk [0..*] ──── Programma [0..*] (hoort bij)
-Raadsstuk [0..*] ──── Taakveld [0..1] (heeft)
-Raadsstuk [0..*] ──── Vergadering [0..*] (wordt behandeld in)
-Stemming [0..*] ──── Agendapunt [0..1] (hoort bij)
-Stemming [0..1] ──── Raadsstuk [1] (betreft)
-Vergadering [1] ──── Aanwezige Deelnemer [0..*]
-Vergadering [1] ──── Agendapunt [0..*] (heeft)
-Vergadering [0..1] ──── Raadsstuk [0..1] (heeft verslag)
-Vergadering [1] ──── Video-opname [0..*] (betreft)
-Video-opname [0..1] ──── Agendapunt [0..*] (betreft)
-```
-
-### Diagram Raadsstukken
-
-```
-Categorie [0..1] ──── Raadsstuk [0..*] (heeft)
-Dossier [0..*] ──── Raadsstuk [0..*] (hoort bij)
-Raadsstuk [0..*] ──── Programma [0..*] (hoort bij)
-Raadsstuk [0..*] ──── Taakveld [0..1] (heeft)
+Aanwezige Deelnemer [0..1] ──── Collegelid [0..1]
+Categorie ──── Raadsstuk
+Dossier ──── Raadsstuk
+Indiener ──── Collegelid
+Indiener [0..1] ──── Raadslid [0..1]
+Indiener ──── Raadsstuk
+Raadscommissie ──── Vergadering
+Raadslid [0..1] ──── Aanwezige Deelnemer [0..1]
+Raadslid ──── Raadscommissie
+Raadsstuk ──── Agendapunt
+Raadsstuk ──── Programma
+Raadsstuk ──── Taakveld
+Raadsstuk ──── Vergadering
+Stemming ──── Agendapunt
+Stemming ──── Raadsstuk
+Vergadering [1..1] ──── Aanwezige Deelnemer [0..*]
+Vergadering ──── Agendapunt
+Vergadering ──── Raadsstuk
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 13 entiteiten.
-- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Griffie (9), Diagram Raadsstukken (4).
+- Dit beleidsdomein bevat 13 Objecttype-entiteiten (+ 3 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Griffie (9), Diagram Raadsstukken (5).
 - Er zijn 2 generalisatierelaties aanwezig.

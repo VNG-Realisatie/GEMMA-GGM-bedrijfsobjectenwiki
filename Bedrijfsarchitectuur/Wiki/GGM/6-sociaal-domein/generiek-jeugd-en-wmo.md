@@ -8,15 +8,33 @@ aantal_entiteiten: 27
 
 # GGM Beleidsdomein: Generiek Jeugd en Wmo
 
-Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
+### AanvraagOfMelding
 
-## Entiteiten
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **AOMMeldingWmoJeugd** | *AOMMeldingWMOJeugd* is een objecttype in het gemeentelijk gegevensmodel dat een **melding van een situatie of hulpvraag binnen het kader van de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert. | aanmelder, aanmeldingDoor, aanmeldingDoorLandelijk, aanmeldwijze, redenAfsluiting, isClientOpDeHoogte, deskundigheid, vervolg, onderzoekswijze, verwezen | Nee | GGM |
+| **AOM_AanvraagWmoJeugd** | *AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert. | clientReactie, datumBeschikking, datumEersteAfspraak, datumPlanVastgesteld, datumStartAanvraag, datumEinde, deskundigheid, doorloopmethodiek, maximaleDoorlooptijd, redenAfsluiting | Nee | GGM |
+| **Beschikking** | In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift. | datumAfgifte, code, grondslagen, commentaar, wet | Nee | GGM |
+
+### Beperkingen
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Beperking** | Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt. | duur, categorie, commentaar, wet | Nee | GGM |
+| **Beperkingscategorie** | Een categorisering van beperkingen | code, wet | Nee | GGM |
+| **Beperkingscore** | Getalsmatige duiding van een beperking | score, commentaar, wet | Nee | GGM |
+| **Beperkingscoresoort** | Typering van beperkingscores | vraag, wet | Nee | GGM |
+
+### Relaties Sociaal Domein tot Kern
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Team** | Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken. | naam, omschrijving | Nee | GGM |
 
 ### Sociaal Domein Beschikking en Voorziening: Domain Objects
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
-| **Beschikking** | In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift. | datumAfgifte, code, grondslagen, commentaar, wet | Nee | GGM |
 | **Beschikte Voorziening** | Een voorziening waarover een beschikking is gedaan. | omvang, eenheid, frequentie, wet, code, datumStart, datumEinde, leveringsvorm, status, redenEinde, datumEindeOorspronkelijk | Nee | GGM |
 | **Budgetuitputting** | Overzicht van de te verwachte inkomsten en uitgaven over een bepaalde periode | datum, uitgenutBedrag | Nee | GGM |
 | **Declaratie** | Een opgave van te vergoeden kosten. | declaratieBedrag, datumDeclaratie, declaratieStatus | Nee | GGM |
@@ -31,21 +49,14 @@ Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
 | **Voorziening** | Middel om services/maatregelen in te vullen. | productcode, naam, omschrijving, wet, code, afhandelwijze | Nee | GGM |
 | **Voorzieningsoort** | Typering van een voorziening | naam, omschrijving, wet, code, productcode, productcategoriecode, productcategorie | Nee | GGM |
 
-### Beperkingen
+### Sociale team:Domeinmodel
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
-| **Beperking** | Een stoornis of conditie ‚ lichamelijk, zintuiglijk en-of geestelijk ‚ die een normaal maatschappelijk functioneren belemmert en nadelige sociale gevolgen met zich meebrengt. | duur, categorie, commentaar, wet | Nee | GGM |
-| **Beperkingscategorie** | Een categorisering van beperkingen | code, wet | Nee | GGM |
-| **Beperkingscore** | Getalsmatige duiding van een beperking | score, commentaar, wet | Nee | GGM |
-| **Beperkingscoresoort** | Typering van beperkingscores | vraag, wet | Nee | GGM |
-
-### AanvraagOfMelding
-
-| Entiteit | Definitie | Attributen | Abstract | Herkomst |
-|---|---|---|---|---|
-| **AOMMeldingWmoJeugd** | *AOMMeldingWMOJeugd* is een objecttype in het gemeentelijk gegevensmodel dat een **melding van een situatie of hulpvraag binnen het kader van de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert. | aanmelder, aanmeldingDoor, aanmeldingDoorLandelijk, aanmeldwijze, redenAfsluiting, isClientOpDeHoogte, deskundigheid, vervolg, onderzoekswijze, verwezen | Nee | GGM |
-| **AOM_AanvraagWmoJeugd** | *AOM_AanvraagWmoJeugd* is een objecttype in het gegevensmodel voor Wmo en Jeugd dat een **aanvraagtraject voor ondersteuning onder de Wet maatschappelijke ondersteuning (Wmo) en/of Jeugdwet** representeert. | clientReactie, datumBeschikking, datumEersteAfspraak, datumPlanVastgesteld, datumStartAanvraag, datumEinde, deskundigheid, doorloopmethodiek, maximaleDoorlooptijd, redenAfsluiting | Nee | GGM |
+| **Leefgebied** | Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen | naam | Nee | GGM |
+| **Score** | Het aantal behaalde punten | datum | Nee | GGM |
+| **Scoresoort** | Typologie van score | niveau | Nee | GGM |
+| **Zelfredzaamheidmatrix** | Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend. | naam, omschrijving, datumStartGeldigheid, datumEindeGeldigheid | Nee | GGM |
 
 ### Verplichtingen
 
@@ -58,11 +69,6 @@ Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
 | **Beschikkingsoort** | Typering van een beschikking | *(geen attributen)* | Nee | GGM |
-| **Leefgebied** | Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen | naam | Nee | GGM |
-| **Score** | Het aantal behaalde punten | datum | Nee | GGM |
-| **Scoresoort** | Typologie van score | niveau | Nee | GGM |
-| **Team** | Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van elkaar zijn om het doel te bereiken. | naam, omschrijving | Nee | GGM |
-| **Zelfredzaamheidmatrix** | Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een waarde voor zelfredzaamheid wordt toegekend. | naam, omschrijving, datumStartGeldigheid, datumEindeGeldigheid | Nee | GGM |
 
 ## Overervingshiërarchie
 
@@ -79,85 +85,41 @@ Inkooporder (abstract)
 
 ## Relatiediagrammen
 
-### Sociaal Domein Beschikking en Voorziening: Domain Objects
-
 ```
-AOM_AanvraagWmoJeugd [0..1] ──── Beschikking [0..*] (leidt_tot)
-Beperking [0..*] ──── Beschikking [0..1] (is gebaseerd op)
-Beschikking [0..*] ──── AOMMeldingWmoJeugd [0..*] (betreft)
-Beschikking [1] ──── Beschikte Voorziening [1..*] (heeft voorzieningen)
-Beschikking [0..*] ──── Client [1]
-Beschikking [1] ──── Toewijzing [0..*] (toewijzing)
-Beschikte Voorziening [0..*] ──── Leveringsvorm [1] (heeft)
-Beschikte Voorziening [1..*] ──── Toewijzing [0..1] (Toegewezen Product)
-Beschikte Voorziening [0..*] ──── Voorziening [1] (is voorziening)
-Clientbegeleider [1] ──── Beschikking [0..*] (geeft af)
-Contract [1] ──── Tarief [0..*] (bevat)
-Declaratie [0..*] ──── Leverancier [1] (Ingediend door)
-Declaratieregel [0..*] ──── Beschikking [1] (is voor)
-Declaratieregel [0..*] ──── Client [1] (betreft)
-Declaratieregel [0..*] ──── Declaratie [1] (valt binnen)
-Leverancier [1] ──── Levering [0..*] (leverde prestatie)
-Levering [0..*] ──── Beschikking [0..1] (geleverde prestatie)
-Levering [0..*] ──── Client [0..1] (prestatie voor)
-Levering [0..*] ──── Toewijzing [0..1] (geleverde zorg)
-Levering [0..*] ──── Voorziening [1] (voorziening)
-Melding Eigen bijdrage [0..*] ──── Beschikking [1] (betreft)
-PGB-Toekenning [0..*] ──── Beschikte Voorziening [1] (betreft)
-PGB-Toekenning [1] ──── Budgetuitputting [0..*] (betreft)
-Tarief [0..*] ──── Leverancier [1] (heeft)
-Toewijzing [1] ──── Declaratieregel [0..*] (is op basis van)
-Toewijzing [0..*] ──── Leverancier [0..1] (levert voorziening)
-Verplichting Wmo Jeugd [1] ──── Beschikte Voorziening [0..1]
-Verzoek om Toewijzing [0..*] ──── Beschikking [0..1] (leidt tot)
-Verzoek om Toewijzing [0..*] ──── Client [1] (betreft)
-Verzoek om Toewijzing [0..*] ──── Leverancier [1] (leverancier)
-Verzoek om Toewijzing [0..*] ──── Voorziening [1] (betreft)
-Voorziening [1] ──── Tarief [1..*] (heeft)
-Voorziening [0..*] ──── Voorzieningsoort [1] (valt binnen)
-```
-
-### Beperkingen
-
-```
-Beperking [0..*] ──── Beperkingscategorie [0..1] (is een)
+AOM_AanvraagWmoJeugd ──── Beschikking
+Beperking [0..*] ──── Beperkingscategorie [0..1]
 Beperking [0..1] ──── Beperkingscore [0..*]
-Beperking [0..*] ──── Beschikking [0..1] (is gebaseerd op)
-Beperkingscore [0..*] ──── Beperkingscoresoort [0..1] (is een)
-```
-
-### AanvraagOfMelding
-
-```
-AOMMeldingWmoJeugd [0..*] ──── Client [1] (heeft)
-AOM_AanvraagWmoJeugd [0..1] ──── Beschikking [0..*] (leidt_tot)
-AOM_AanvraagWmoJeugd [0..*] ──── Client [1] (heeft)
-Beschikking [0..*] ──── AOMMeldingWmoJeugd [0..*] (betreft)
-Verplichting Wmo Jeugd [1] ──── AOM_AanvraagWmoJeugd [0..1]
-```
-
-### Verplichtingen
-
-```
-Verplichting Wmo Jeugd [1] ──── AOM_AanvraagWmoJeugd [0..1]
-Verplichting Wmo Jeugd [1] ──── Beschikte Voorziening [0..1]
-Verplichting Wmo Jeugd [1] ──── Client [0..1] (heeft)
-Verplichting Wmo Jeugd [1] ──── Leverancier [0..1] (Verplichting aan)
-```
-
-### Overig
-
-```
-Client [1] ──── Score [0..*] (heeft)
-Clientbegeleider [0..*] ──── Team [1] (maakt onderdeel uit van)
-Score [0..*] ──── Leefgebied [1] (score bij leeggebied)
-Score [0..*] ──── Scoresoort [1] (hoogte score)
-Zelfredzaamheidmatrix [1..*] ──── Leefgebied [1..*] (onderkent leefgebiieden)
-Zelfredzaamheidmatrix [1..*] ──── Scoresoort [1..*] (onderkent scores)
+Beperking ──── Beschikking
+Beperkingscore [0..*] ──── Beperkingscoresoort [0..1]
+Beschikking ──── AOMMeldingWmoJeugd
+Beschikking [1..1] ──── Beschikte Voorziening [1..*]
+Beschikking ──── Toewijzing
+Beschikte Voorziening [0..*] ──── Leveringsvorm [1..1]
+Beschikte Voorziening [1..*] ──── Toewijzing [0..1]
+Beschikte Voorziening [0..*] ──── Voorziening [1..1]
+Declaratieregel [0..*] ──── Beschikking [1..1]
+Declaratieregel [0..*] ──── Declaratie [1..1]
+Levering [0..*] ──── Beschikking [0..1]
+Levering ──── Toewijzing
+Levering ──── Voorziening
+Melding Eigen bijdrage ──── Beschikking
+PGB-Toekenning ──── Beschikte Voorziening
+PGB-Toekenning ──── Budgetuitputting
+Score [0..*] ──── Leefgebied [1..1]
+Score [0..*] ──── Scoresoort [1..1]
+Toewijzing [1..1] ──── Declaratieregel [0..*]
+Verplichting Wmo Jeugd ──── AOM_AanvraagWmoJeugd
+Verplichting Wmo Jeugd ──── Beschikte Voorziening
+Verzoek om Toewijzing ──── Beschikking
+Verzoek om Toewijzing ──── Voorziening
+Voorziening [1..1] ──── Tarief [1..*]
+Voorziening [0..*] ──── Voorzieningsoort [1..1]
+Zelfredzaamheidmatrix [1..*] ──── Leefgebied [1..*]
+Zelfredzaamheidmatrix [1..*] ──── Scoresoort [1..*]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 27 entiteiten.
-- Entiteiten zijn gegroepeerd in 5 diagramgroepen: Sociaal Domein Beschikking en Voorziening: Domain Objects (14), Beperkingen (4), AanvraagOfMelding (2), Verplichtingen (1), Overig (6).
+- Dit beleidsdomein bevat 27 Objecttype-entiteiten (+ 6 Enumeraties).
+- Entiteiten zijn gegroepeerd in 6 diagramgroepen: AanvraagOfMelding (3), Beperkingen (5), Relaties Sociaal Domein tot Kern (1), Sociaal Domein Beschikking en Voorziening: Domain Objects (14), Sociale team:Domeinmodel (4), Verplichtingen (3).
 - Er zijn 3 generalisatierelaties aanwezig.

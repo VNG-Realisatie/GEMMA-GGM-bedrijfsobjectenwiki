@@ -21,8 +21,8 @@ Classificeer het begrip als een van deze typen:
 |---|---|---|---|---|
 | **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja | Ja |
 | **instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja | Nee (governance-hiaat GGM) |
-| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role | Mogelijk | Deels (RSGB) |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) | Mogelijk | Deels (RSGB) |
+| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role | Ja | Deels (RSGB) |
+| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) | Ja | Deels (RSGB) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
@@ -43,7 +43,7 @@ Combinatieregels:
 | object + operationeel | Sterke BO-kandidaat, GGM-match verwacht |
 | object + beleidsmatig | Ongewone combinatie, nader bekijken |
 | instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
-| actor/doelgroep + operationeel | Mogelijk BO, voorleggen aan team |
+| actor/doelgroep + operationeel | BO-kandidaat (actor-object), in GEMMA als Business Actor |
 
 ## FASE B — STRUCTUURANALYSE (vóór BO-criteria)
 
@@ -158,12 +158,12 @@ Formuleer als terugmelding:
 ### Stap 11: LLM-autonomieregels
 
 **Zelfstandig afhandelen** wanneer ALLE drie voorwaarden waar zijn:
-1. Begripstype is `object` en abstractieniveau is `operationeel`
+1. Begripstype is `object`, `actor` of `doelgroep`, en abstractieniveau is `operationeel`
 2. Minstens 5 van de 6 BO-criteria zijn van toepassing
 3. GGM-matchsterkte is `exact` of `sterk`
 
 **Voorleggen aan het team** bij:
-- Begripstype `instrument`, `actor` of `doelgroep` (altijd)
+- Begripstype `instrument` (altijd)
 - Minder dan 5 BO-criteria van toepassing
 - GGM-matchsterkte `partieel` of `zwak`
 - Generalisatiekeuzes (welk niveau wordt het BO?)

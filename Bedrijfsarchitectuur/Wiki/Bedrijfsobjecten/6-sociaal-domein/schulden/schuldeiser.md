@@ -1,0 +1,55 @@
+---
+type: bedrijfsobject
+naam: Schuldeiser
+onderwerp: [schulden en armoede]
+archimate_type: business-object
+grondslag: ggm-entiteit
+
+ggm_entiteit: Schuldeiser
+ggm_guid: EAID_DCDAD212_479E_4fc3_B886_585AE57D8C21
+ggm_uml_type: Class
+ggm_beleidsdomein: Schuldhulpverlening
+ggm_taakveld: "Schulden"
+ggm_diagram: [Schuldhulp Client]
+ggm_definitie: "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld."
+ggm_herkomst: GGM
+
+gemma_definitie: "Bedrijf of persoon aan wie een inwoner een schuld heeft."
+gemma_subtypes: []
+relaties:
+  - type: associatie
+    bedrijfsobject: "[[schuld]]"
+    richting: naar-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Schuldeiser heeft een of meer schulden"
+bedrijfsprocessen: [schuldhulpverlening, collectief schuldregelen]
+bedrijfsfuncties: [financiële hulpverlening]
+---
+
+## BO-criteria toetsing
+
+6/6 criteria. Actor met eigen registratie (naam, peildatum), meerdere per traject, eigen levenscyclus (wordt geïdentificeerd, benaderd, akkoord/weigering). Herkenbaar voor elke schuldhulpverlener.
+
+## Beschrijving
+
+Een schuldeiser is een bedrijf of persoon aan wie de inwoner geld verschuldigd is. De meest voorkomende schuldeisers zijn de Belastingdienst (meest voorkomend) en zorgverzekeraars (op twee). De gemeente onderhandelt namens de inwoner met schuldeisers over schuldregelingen.
+
+Via **collectief schuldregelen** (Haagse innovatie, landelijk opgeschaald) geven schuldeisers vooraf akkoord op betaalvoorstellen. Deelnemers zijn o.a. Belastingdienst, CAK, CJIB, DUO, banken en verzekeraars.
+
+## GGM-bron
+
+> "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar."
+
+- **Entiteit:** Schuldeiser (specialisatie van Rechtspersoon)
+- **Beleidsdomein:** Schuldhulpverlening
+- **Attributen:** peildatum, naam
+- **Matchsterkte:** exact
+
+## Relaties
+
+| Type | Bedrijfsobject | Kardinaliteit | Beschrijving |
+|---|---|---|---|
+| associatie | [[schuld\|Schuld]] | 0..* | Schuldeiser bij schulden |
+
+## Bronnen
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028]]

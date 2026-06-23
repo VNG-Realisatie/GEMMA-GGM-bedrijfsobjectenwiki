@@ -2,15 +2,13 @@
 type: ggm-beleidsdomein
 naam: Archeologie
 definitie: "Het informatiedomein dat gegevens omvat over archeologische opgravingen, onderzoeken en besluitvorming, gericht op het behoud, de bescherming en de ontsluiting van archeologisch erfgoed binnen de kaders van de Erfgoedwet."
-taakveld: "5 Sport, Cultuur en Recreatie"
+taakveld: "Erfgoed"
 aantal_entiteiten: 17
 ---
 
 # GGM Beleidsdomein: Archeologie
 
-Onderdeel van beleidsdomein **Erfgoed** binnen taakveld "5 Sport, Cultuur en Recreatie" (zie ../structuur-ggm.md).
-
-## Entiteiten
+### Erfgoed: Archeologie Domeinmodel
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
@@ -32,34 +30,31 @@ Onderdeel van beleidsdomein **Erfgoed** binnen taakveld "5 Sport, Cultuur en Rec
 | **boring** | Een verticale grondmonstername binnen een project De gegevens over het geheel van activiteiten, voor zover relevant voor het onderzoek, dat tot doel heeft door boren een gat in de ondergrond te maken om monsters uit de ondergrond te nemen en/of metingen aan de ondergrond te doen. Een middel om door boren of steken toegang te krijgen tot de ondergrond om bijvoorbeeld geroerde en/of ongeroerde monsters aan de ondergrond te ontlenen voor nader onderzoek. | *(geen attributen)* | Nee | GGM |
 | **locatie** | Een specifieke plaats | locatiePunt | Nee | GGM |
 
-## Overervingshiërarchie
-
-Geen overervingshiërarchie aanwezig in dit beleidsdomein.
-
 ## Relatiediagrammen
 
 ```
-Artefact [0..*] ──── Artefactsoort [1] (is van soort)
-Artefact [0..*] ──── Doos [0..1] (zit in)
-Artefact [0..*] ──── Magazijnplaatsing [0..1] (vindbaar op)
-Doos [0..*] ──── Magazijnlocatie [1] (staat op)
-Magazijnplaatsing [0..1] ──── Doos [0..*] (zit in)
-Magazijnplaatsing [0..*] ──── Magazijnlocatie [0..1] (staat op)
-Magazijnplaatsing [0..*] ──── Project [0..1] (hoort bij)
-Project [1] ──── Archeologiebesluit [0..*] (heeft)
-Project [1] ──── Put [0..*] (heeft)
-Project [1] ──── boring [0..*] (heeft)
-Project [0..*] ──── locatie [1..*] (wordt begrensd door)
-Put [1] ──── Vlak [0..*] (heeft)
-Put [0..*] ──── locatie [1..*] (heeft locatie)
-Spoor [1] ──── Vulling [0..*] (heeft)
-Stelling [1] ──── Magazijnlocatie [0..*] (heeft)
-Vindplaats [0..1] ──── Project [1] (hoort bij)
-Vlak [1] ──── Spoor [0..*] (heeft)
-Vondst [0..1] ──── Artefact [0..*] (bevat)
-Vulling [1] ──── Vondst [0..*] (heeft)
+Artefact [0..*] ──── Artefactsoort [1..1]
+Artefact ──── Doos
+Artefact [0..*] ──── Magazijnplaatsing [0..1]
+Doos [0..*] ──── Magazijnlocatie [1..1]
+Magazijnplaatsing [0..1] ──── Doos [0..*]
+Magazijnplaatsing [0..*] ──── Magazijnlocatie [0..1]
+Magazijnplaatsing [0..*] ──── Project [0..1]
+Project [1..1] ──── Archeologiebesluit [0..*]
+Project [1..1] ──── Put [0..*]
+Project [1..1] ──── boring [0..*]
+Project [0..*] ──── locatie [1..*]
+Put [1..1] ──── Vlak [0..*]
+Put [0..*] ──── locatie [1..*]
+Spoor [1..1] ──── Vulling [0..*]
+Stelling [1..1] ──── Magazijnlocatie [0..*]
+Vindplaats ──── Project
+Vlak [1..1] ──── Spoor [0..*]
+Vondst [0..1] ──── Artefact [0..*]
+Vulling [1..1] ──── Vondst [0..*]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 17 entiteiten.
+- Dit beleidsdomein bevat 17 Objecttype-entiteiten.
+- Entiteiten zijn gegroepeerd in 1 diagramgroepen: Erfgoed: Archeologie Domeinmodel (17).

@@ -200,6 +200,7 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |
 | **clip** | `/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/` |
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
+| **generate-ggm** | `/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen) |
 
 **Model voorkeur:** `/coverage` en `/lint` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
 
@@ -210,14 +211,16 @@ Python-scripts in `tools/` voor XMI-verwerking.
 | Tool | Functie |
 |---|---|
 | `parse_ggm_xmi.py` | Parse GGM XMI → JSON; schrijft naar `Sources/GGM-repository/ggm_parsed.json`. Alleen draaien bij nieuwe GGM-release. |
+| `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. |
 | `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed JSON |
 | `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's |
 
 ### GGM-data gebruiken
 
-- **Voor domeinbegrip** (entiteiten, definities, relaties): lees `Sources/GGM/{taakveld}/`
+- **Voor domeinbegrip** (entiteiten, definities, relaties): lees `Wiki/GGM/{taakveld}/` (gegenereerd door `generate_ggm_wiki.py`)
 - **Voor technische metadata** (GUIDs, GEMMA-tags, diagram-IDs): lees `Sources/GGM-repository/ggm_parsed.json`
 - **XMI niet direct lezen** — alleen via de parser bij een nieuwe GGM-release
+- **Wiki/GGM niet handmatig bewerken** — altijd via `/generate-ggm` regenereren
 
 ## Citation & verification rules
 

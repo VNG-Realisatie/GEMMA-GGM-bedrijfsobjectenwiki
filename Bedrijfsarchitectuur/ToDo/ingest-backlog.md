@@ -180,12 +180,14 @@ Status: 134 bronnen in 19 batches.
 - [ ] vergunningverlening-toezicht-en-handhaving
 - [ ] wabo-omgevingsvergunning
 
-## Schulden en Armoede (5)
-- [ ] Beleidsplan Schuldhulpverlening 2024
-- [ ] hersteloperatie-kinderopvangtoeslag
-- [ ] RIS319852-Bijlage-Beleidsplan-Schuldhulpverlening-Den-Haag-2024-2028
-- [ ] rubriek-schulden-en-armoede
-- [ ] schuldendomein
+## ~~Schulden en Armoede (5)~~ ✓
+- [x] Beleidsplan Schuldhulpverlening 2024
+- [x] hersteloperatie-kinderopvangtoeslag
+- [x] RIS319852-Bijlage-Beleidsplan-Schuldhulpverlening-Den-Haag-2024-2028
+- [x] rubriek-schulden-en-armoede
+- [x] schuldendomein
+
+> **Afgehandeld:** 1 rijke bron (beleidsplan Den Haag), 2 dunne VNG-pagina's gebundeld, 1 stub, 1 niet-relevant. 9 BO's uit GGM-domein Schulden (33 entiteiten). Actoren (Schuldeiser, Signaalpartner) als BO opgenomen. GGM-componenten patroon ingevoerd voor procesfasen.
 
 ## Werk en Inkomen (7)
 - [ ] arbeidsmarktbeleid

@@ -1,16 +1,21 @@
 ---
 type: ggm-beleidsdomein
 naam: Terug- en invordering
-definitie: "Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financi&#235;le processen effectief te beheren."
-taakveld: "6 Sociaal Domein"
+definitie: "Het onderdeel Terug- en Invordering richt zich op de processen en gegevens rondom het terugvorderen en invorderen van onterecht verstrekte inkomensvoorzieningen. Dit model biedt een gestructureerde weergave van de objecttypen en hun onderlinge relaties die nodig zijn om deze financiële processen effectief te beheren."
+taakveld: "Inkomen"
 aantal_entiteiten: 29
 ---
 
 # GGM Beleidsdomein: Terug- en invordering
 
-Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
+### Diagram GGM en Inkomen
 
-## Entiteiten
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Debiteur** | Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft. | Eigen kenmerk, Opvoerdatum, Soort debiteur | Nee | GGM |
+| **Terugvorderingsverzoek** | Het vorderingsverzoek is de handshake tussen een voorliggend proces en de bedrijfsfunctie Terug- en Invorderen. In het kader van een bepaalde regeling is geconstateerd dat een zeker bedrag terug moet worden gevorderd. Dit wordt her gemakshalve het voorliggende proces genoemd. Het voorliggende proces moet de juiste, noodzakelijke en voldoende gegevens toeleveren aan Terug- en invorderen opdat het verzoek tot terugvorderen in behandeling kan worden genomen.Het vorderingsverzoek start een terugvorderingszaak. Op basis van de voortgang van die zaak kan het verzoekende voorliggende proces op de hoogte worden gehouden van de voortgang via zaakstatusinformatie. | Aanmaakdatum, Behandelstatus verzoek, Categorie, Fiscaal, Periode einddatum, Periode startdatum, Priotype, Regeling, Subcategorie | Nee | GGM |
+
+### Diagram Terug- en invordering
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
@@ -22,7 +27,6 @@ Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie 
 | **Boetevordering** | Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente. Vorderingen die zijn ingesteld omdat er een boete vanwege een overtreding van de inlichtingenplicht is opgelegd. De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.Deze type vordering zijn als verbijzonderingen opgenomen, opdat deze relaties expliciet kunnen worden gelegd. | *(geen attributen)* | Nee | GGM |
 | **Conservatoir beslag** | In het Nederlands recht is een conservatoir beslag een beslaglegging op (een deel van) het vermogen van een schuldenaar ter verzekering van de betaling van een onbetaald gebleven vordering nog voordat de rechter uitspraak heeft gedaan over de juistheid van die vordering. De toestemming tot het leggen van dit beslag moet door een advocaat namens de schuldeiser aan de beslagrechter, ook wel "voorzieningenrechter", worden gevraagd. Door het leggen van het beslag ontstaat meer zekerheid dat het beslagen vermogen ter beschikking staat. De voorzieningenrechter is in Nederland over het algemeen snel geneigd toestemming voor het beslag te verlenen en dat zelfs zonder dat de schuldenaar van het verzoek op de hoogte is of daarover wordt gehoord. | Aanvraagdatum, Toestemmingsdatum | Nee | GGM |
 | **Correctie** | Na nader inzicht corrigeren van het te vorderen bedrag met een zeker bedrag. Correcties worden geadministreerd onder de vordering. | Bedrag, Boekingsdatum, Reden | Nee | GGM |
-| **Debiteur** | Binnen het domein van terug- en invorderen is een debiteur een persoon waarop de gemeente een of meerdere vorderingen heeft. | Eigen kenmerk, Opvoerdatum, Soort debiteur | Nee | GGM |
 | **Incassokostenvordering** | AlgemeenEen vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente.De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.IncassokostenvorderingBij het invorderproces kunnen incassokosten ontstaan bij een bepaalde vordering. Bij incassokosten boven een drempel (instelbare referentiewaarde) kan een incassokostenvordering worden opgevoerd. De incassokostenvordering wordt gerelateerd aan de hoofdvordering. De incassokostenvordering is een zogenaamde accessoire vordering, die zijn titel ontleend aan de hoofdvordering.Dit type vordering is als verbijzondering opgenomen, opdat deze relatie expliciet kan worden gelegd. | *(geen attributen)* | Nee | GGM |
 | **Interventie** | De daadwerkelijke interventie, die wordt ondernomen naar aanleiding van een interventieverzoek. | Beslisdatum, Ingangsdatum, Interventietype | Nee | GGM |
 | **Interventieverzoek** | In het geval van monitoring op aflossingsafspraken bij een vordering kan bij ongeregeldheden, zoals het achterwege blijven van aflossingen, een signaal worden gegeven om te interveneren. Dit gebeurt door een interventieverzoek. Interventies geschieden volgens een interventieladder. Altijd kan een medewerker daar gemotiveerd van afwijken, bijvoorbeeld na klantcontact. Dit betekent niet dat het interventieverzoek niet minder dwingend is. | Verzoekdatum | Nee | GGM |
@@ -36,7 +40,6 @@ Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie 
 | **Rechtmaand** | Een vordering in het kader van de bijvoorbeeld de bijstand kan over meerdere kalendermaanden betreffen. In die maanden had de debiteur recht op die bijstand. Zo'n maand onder die vordering noemt men een rechtmaand.Rechtmaanden worden geadministreerd onder een vorderingscomponent bij de vordering. Als de vordering meerdere rechtmaanden bevat die of niet opvolgend zijn of een jaargrens passeren, dan worden die rechtmaanden opgesplitst in reeksen van opvolgende rechtmaanden binnen een jaar. Elke opsplitsing vormt dan een vorderingscomponent. | Boekjaar, Jaar, Maand | Nee | GGM |
 | **Rentevordering** | AlgemeenEen vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente.De oorzaak van een vordering is velerlei, Zie daarvoor de categorie-indeling.Vorderingen kunnen uit meerdere componenten bestaan.Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: Een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering.RentevorderingBepaalde vorderingen zijn rentedragend. De rente wordt niet als aparte component opgevoerd bij de hoofdvordering, maar als een aparte vordering. De rentevordering wordt gerelateerd aan de hoofdvordering. De rentevordering is een zogenaamde accessoire vordering, die zijn titel ontleend aan de hoofdvordering.Dit type vordering is als verbijzondering opgenomen, opdat deze relatie expliciet kan worden gelegd. | *(geen attributen)* | Nee | GGM |
 | **Restitutie** | Restitutie is terugbetaling van te veel ontvangen aflossing. Restituties worden geadministreerd onder de vordering. | Bedrag, Betaaldatum, Boekingsdatum | Nee | GGM |
-| **Terugvorderingsverzoek** | Het vorderingsverzoek is de handshake tussen een voorliggend proces en de bedrijfsfunctie Terug- en Invorderen. In het kader van een bepaalde regeling is geconstateerd dat een zeker bedrag terug moet worden gevorderd. Dit wordt her gemakshalve het voorliggende proces genoemd. Het voorliggende proces moet de juiste, noodzakelijke en voldoende gegevens toeleveren aan Terug- en invorderen opdat het verzoek tot terugvorderen in behandeling kan worden genomen.Het vorderingsverzoek start een terugvorderingszaak. Op basis van de voortgang van die zaak kan het verzoekende voorliggende proces op de hoogte worden gehouden van de voortgang via zaakstatusinformatie. | Aanmaakdatum, Behandelstatus verzoek, Categorie, Fiscaal, Periode einddatum, Periode startdatum, Priotype, Regeling, Subcategorie | Nee | GGM |
 | **Uitstel aflossing** | Er kunnen redenen zijn om het aflossingsplan te pauseren. Zie de opties bij het attribuut Reden uitstel.Het volgende geldt:Uitstel van aflossing grijpt aan op alle afspraken in het aflossingsplan.Uitstel leidt tot termijnbewaking om de medewerker er op te attenderen of het uitstel nog aan de orde zou moeten zijn.De termijn in de termijnbewaking kan verschillen per reden van uitstel. | Aanmaakdatum, Periode einddatum, Periode startdatum, Reden uitstel | Nee | GGM |
 | **Vermindering terugvordering** | Vermindering terugvordering is het resultaat van een beslissing de terugvordering te verminderen met een zeker bedrag met zekere motivatie. De vermindering terugvordering wordt geadministreerd onder de vordering. | Bedrag, Boekingsdatum, Motivatie vermindering, Vaststeldatum, Verminderingtype | Nee | GGM |
 | **Verrekening** | Bij het vaststellen van de vordering wordt gekeken of de debiteur een uitkering geniet. Er zijn twee soorten situaties van verrekening. inkomstenverrekening waar de inkomsten 6 maanden wordt verrekend met de bijstandsuitkeringverrekening alias inhouding op een uitkering (een soort van loonbeslag) / verrekening in de zin van art. 60 lid 3 en 4 PW.Hier wordt de laatste bedoeld.Verrekening op grond van artikel 60 lid 3 en 4 Participatiewet door de gemeente gaat vóór beslag door een derde (artikel 60 lid 7 Participatiewet). Voor de praktijk betekent dit dat:Een lopend beslag wordt opgeschort zodra de gemeente (op grond van hun invorderingsbevoegdheid) een bedrag gaat verrekenen met de bijstandsuitkering. De beslaglegger wordt van de opschorting op de hoogte gesteld.De verrekening ongewijzigd wordt voortgezet indien nadien beslag door een derde wordt gelegd. De beslaglegger wordt medegedeeld dat het beslag niet uitvoerbaar is in verband met verrekening.Voorwaarde voor verrekening op grond van artikel 60 lid 3 en 4 Participatiewet is dat er een terugvorderingsbesluit of boetebesluit is genomen. Bij verstrekking van bijstand in de vorm van een geldlening kunnen echter de vastgestelde aflossingsbedragen direct worden verrekend op grond van artikel 48 lid 4 Participatiewet. Een terugvorderingsbesluit ingevolge artikel 58 lid 2 onderdeel b Participatiewet is dan dus niet noodzakelijk.Pseudo-verrekening gaat niet voor beslag.Pseudo-verrekening zoals bedoeld in artikel 60a Participatiewet gaat niet voor beslag door een derde onder een andere gemeente (of onder het Uitvoeringsinstituut werknemersverzekeringen of de Sociale verzekeringsbank).Een verrekening is verder te behandelen als een vordering, maar juridisch een ander ding. | *(geen attributen)* | Nee | GGM |
@@ -70,11 +73,39 @@ Vordering (abstract)
 ## Relatiediagrammen
 
 ```
-Debiteur [0..1] ──── Client [1] (verwijst)
-Terugvorderingsverzoek [0..*] ──── Client [1..2] (betreft)
+Aflossingsafspraak [0..*] ──── Aflossing [1..1]
+Aflossingsafspraak [1..1] ──── Vordering [0..*]
+Aflossingsplan [1..*] ──── Aflossingsafspraak [1..1]
+Aflossingsplan [1..1] ──── Invorderingsbasis [1..1]
+Aflossingsplan [0..1] ──── Uitstel aflossing [1..1]
+Boetevordering [0..1] ──── Verwijtbare vordering [0..1]
+Debiteur [0..1] ──── Aflossingsplan [1..1]
+Debiteur [1..1] ──── Invorderingsbasis [1..1]
+Debiteur [0..1] ──── Krediethypotheek [1..2]
+Debiteur [0..*] ──── Leenbijstand [1..2]
+Debiteur [1..*] ──── Vordering [1..2]
+Incassokostenvordering [1..1] ──── Vordering [0..*]
+Interventieverzoek [1..*] ──── Aflossingsafspraak [0..*]
+Interventieverzoek [0..1] ──── Interventie [1..*]
+Krediethypotheek [0..*] ──── Krediethypotheekvordering [1..1]
+Leenbijstand [0..*] ──── Leenbijstandvordering [1..1]
+Rechtmaand [1..*] ──── Betaalcomponent [1..1]
+Rentevordering [1..1] ──── Vordering [0..*]
+Terugvorderingsverzoek [0..*] ──── Rechtmaand [1..1]
+Terugvorderingsverzoek [0..1] ──── Vordering [1..1]
+Vordering [0..*] ──── Aflossing [1..1]
+Vordering [0..1] ──── Afschrijving [1..1]
+Vordering [0..1] ──── Conservatoir beslag [1..1]
+Vordering [0..*] ──── Correctie [1..1]
+Vordering [0..1] ──── Kwijtschelding [1..1]
+Vordering [0..*] ──── Restitutie [1..1]
+Vordering [0..*] ──── Vermindering terugvordering [1..1]
+Vordering [0..*] ──── Vorderingscomponent [0..1]
+Vorderingscomponent [0..*] ──── Rechtmaand [1..1]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 29 entiteiten.
+- Dit beleidsdomein bevat 29 Objecttype-entiteiten (+ 16 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram GGM en Inkomen (2), Diagram Terug- en invordering (29).
 - Er zijn 9 generalisatierelaties aanwezig.

@@ -10,6 +10,7 @@
 - [[inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
+- [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 9 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
 - [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
@@ -277,6 +278,17 @@
 ### Maatschappelijke Ondersteuning — Dak- en thuislozen (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid|dakloosheid]] — Registratie dakloosheidsstatus (GGM exact)
 
+### Schulden — Schuldhulpverlening (GGM taakveld 6/Schulden)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject|schuldhulptraject]] — Volledig begeleidingstraject van aanmelding tot uitstroom en nazorg (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuld|schuld]] — Financiële verplichting van een inwoner aan een schuldeiser (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldregeling|schuldregeling]] — Overeenkomst schuldenaar-schuldeisers voor aflossing/kwijtschelding (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldeiser|schuldeiser]] — Bedrijf of persoon met recht op betaling (GGM exact, actor)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/moratorium|moratorium]] — Tijdelijke blokkering inningsmogelijkheden via rechter (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject|wsnp-traject]] — Wettelijk schuldsaneringstraject onder bewindvoerder (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaal|vroegsignaal]] — Wettelijk verplichte melding betalingsachterstand door signaalpartner (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaalzaak|vroegsignaalzaak]] — Zaak voor behandeling van vroegsignalen (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner|signaalpartner]] — Organisatie bevoegd tot melden betalingsachterstanden (GGM exact, actor)
+
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
 
@@ -486,6 +498,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo|Maatwerkvoorzieningen Wmo]] — VNG: hulpmiddelen, woningaanpassingen, vervoer
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning|Vrijwilligerswerk en mantelzorgondersteuning]] — VNG: mantelzorg, informele zorg
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
+
+### Schulden en Armoede
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028|Beleidsplan Schuldhulpverlening Den Haag 2024-2028]] — Gemeente Den Haag: integrale schuldhulpverlening, vier pijlers, vroegsignalering, doelgroepen
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/vng-schulden-en-armoede|VNG — Schulden en armoede]] — VNG: rubriek, programma Verbinden Schuldendomein, basisdienstverlening
 
 ### Sociaal Domein
 - [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht: koersdocument maatschappelijke voorzieningen bij gebiedsontwikkeling (2020)

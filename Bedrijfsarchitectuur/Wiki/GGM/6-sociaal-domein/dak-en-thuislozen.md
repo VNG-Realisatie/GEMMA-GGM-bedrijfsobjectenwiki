@@ -8,29 +8,13 @@ aantal_entiteiten: 1
 
 # GGM Beleidsdomein: Dak- en thuislozen
 
-Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Diagram Dakloosheid
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
 | **Dakloosheid** | Informatie met betrekking tot dakloosheid | datumStart, datumEind, toestemmingGemeentelijkBriefadres, toestemmingNachtopvang, gemeenteOorsprong | Nee | GGM |
 
-## Overervingshiërarchie
-
-Geen overervingshiërarchie aanwezig in dit beleidsdomein.
-
-## Relatiediagrammen
-
-### Diagram Dakloosheid
-
-```
-Client [1] ──── Dakloosheid [0..*] (heeft)
-```
-
 ## Observaties
 
-- Dit beleidsdomein bevat 1 entiteiten.
+- Dit beleidsdomein bevat 1 Objecttype-entiteiten.
 - Entiteiten zijn gegroepeerd in 1 diagramgroepen: Diagram Dakloosheid (1).

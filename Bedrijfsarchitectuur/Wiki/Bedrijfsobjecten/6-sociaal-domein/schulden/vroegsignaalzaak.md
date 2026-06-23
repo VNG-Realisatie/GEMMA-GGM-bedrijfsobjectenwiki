@@ -1,0 +1,60 @@
+---
+type: bedrijfsobject
+naam: Vroegsignaalzaak
+onderwerp: [schulden en armoede]
+archimate_type: business-object
+grondslag: ggm-entiteit
+
+ggm_entiteit: Vroegsignaalzaak
+ggm_guid: EAID_1AA67F0D_3B94_48a3_A037_A2ACC6D61CF0
+ggm_uml_type: Class
+ggm_beleidsdomein: Vroegsignalering
+ggm_taakveld: "Schulden"
+ggm_diagram: [Vroegsignalering, Vroegsignalering Details, Vroegsignalering Klein]
+ggm_definitie: "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsignalen is ondergebracht."
+ggm_herkomst: GGM
+
+gemma_definitie: "Zaak waarin de gemeente de behandeling van één of meerdere vroegsignalen afhandelt, inclusief contactpogingen en toeleiding naar hulpverlening."
+gemma_subtypes: []
+relaties:
+  - type: associatie
+    bedrijfsobject: "[[vroegsignaal]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1..*"
+    beschrijving: "Zaak bevat een of meer vroegsignalen"
+bedrijfsprocessen: [vroegsignalering]
+bedrijfsfuncties: [financiële hulpverlening]
+---
+
+## BO-criteria toetsing
+
+6/6 criteria. Procesmatige eenheid (specialisatie van Zaak in GGM) met eigen resultaat, data en contactpogingen. Eigen levenscyclus (aangemaakt bij signaal → contactpogingen → afgesloten met resultaat).
+
+## Beschrijving
+
+Een vroegsignaalzaak bundelt één of meer vroegsignalen van dezelfde inwoner en bevat alle handelingen die de gemeente verricht: beoordeling, contactpogingen (telefoon, huisbezoek, brief, digitaal), en eventuele toeleiding naar schuldhulpverlening.
+
+## GGM-componenten
+
+GGM-entiteiten die onderdeel zijn van de vroegsignaalzaak. Gemodelleerd als aparte entiteiten voor DDAS-rapportage maar vormen geen zelfstandig bedrijfsobject.
+
+- **Contactpoging** — actie om in contact te treden met de inwoner: soort (telefoon, huisbezoek, brief), bereikt (ja/nee), datum, dagdeel.
+- **AanleverendeOrganisatie** — organisatie die data aanlevert aan het CBS (gemeente of gemandateerde partij). Naam, KvK-nummer.
+
+## GGM-bron
+
+> "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsignalen is ondergebracht."
+
+- **Entiteit:** Vroegsignaalzaak (specialisatie van Zaak)
+- **Beleidsdomein:** Vroegsignalering (taakveld Schulden)
+- **Attributen:** resultaat, matchingsdatum, startdatum_matchingperiode, datum_opgepakt, einddatum_matchingperiode
+- **Matchsterkte:** exact
+
+## Relaties
+
+| Type | Bedrijfsobject | Kardinaliteit | Beschrijving |
+|---|---|---|---|
+| associatie | [[vroegsignaal\|Vroegsignaal]] | 1..* | Bundelt signalen |
+
+## Bronnen
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028]]

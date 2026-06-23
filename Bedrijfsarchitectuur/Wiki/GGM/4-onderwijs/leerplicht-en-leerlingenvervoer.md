@@ -8,10 +8,6 @@ aantal_entiteiten: 15
 
 # GGM Beleidsdomein: Leerplicht en Leerlingenvervoer
 
-Beleidsdomein binnen taakveld "4 Onderwijs" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Diagram Beslissingen Leerplicht
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -68,31 +64,16 @@ Medewerker (abstract)
 
 ## Relatiediagrammen
 
-### Diagram Beslissingen Leerplicht
-
 ```
-AanvraagOfMelding [0..1] ──── Beslissing [0..1] (leidt tot)
-AanvraagOfMelding [0..*] ──── Leerling [1] (betreft)
-AanvraagOfMelding [0..*] ──── School [0..1] (betreft)
-Beschikking Leerlingenvervoer [0..*] ──── Vervoerder [0..*] (vervoerder)
-Beslissing [0..*] ──── Leerling [1] (betreft)
-Beslissing [0..*] ──── Leerplichtambtenaar [1] (behandelaar)
-Beslissing [0..*] ──── School [0..1] (betreft)
-Doorgeleiding OM [0..*] ──── Ouder Of Verzorger [0..*] (verantwoordelijk ouder)
-Klacht Leerlingenvervoer [0..*] ──── Leerling [1] (betreft)
-Klacht Leerlingenvervoer [0..*] ──── Vervoerder [1] (betreft)
-Leerling [1] ──── Procesverbaal Onderwijs [0..*] (betreft leerling)
-Leerling [1] ──── Verzuimmelding [0..*] (heeft)
-Leerling [1] ──── Vrijstelling [0..*] (heeft)
-Leerling [1] ──── Ziekmelding Leerlingenvervoer [0..*] (betreft)
-Leerplichtambtenaar [1] ──── Procesverbaal Onderwijs [0..*] (opgelegd door)
-Procesverbaal Onderwijs [0..*] ──── Ouder Of Verzorger [1..*] (verantwoordelijke ouder)
-Verzuimmelding [0..*] ──── School [1] (heeft)
-Vrijstelling [0..*] ──── School [1] (heeft)
+AanvraagOfMelding ──── Beslissing
+Beschikking Leerlingenvervoer [0..*] ──── Vervoerder [0..*]
+Beslissing ──── Leerplichtambtenaar
+Klacht Leerlingenvervoer ──── Vervoerder
+Leerplichtambtenaar [1..1] ──── Procesverbaal Onderwijs [0..*]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 15 entiteiten.
-- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Beslissingen Leerplicht (14), Overig (1).
+- Dit beleidsdomein bevat 15 Objecttype-entiteiten (+ 3 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Beslissingen Leerplicht (14), Onderwijs: Relaties met Kern (1).
 - Er zijn 11 generalisatierelaties aanwezig.

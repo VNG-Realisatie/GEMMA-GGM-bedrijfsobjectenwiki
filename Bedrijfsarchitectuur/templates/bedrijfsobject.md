@@ -38,12 +38,7 @@ ggm_gemma_alternate_name: {GEMMA alternate name in het GGM}
 
 # GEMMA-velden — beheerd door het GEMMA-team via deze wiki
 gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
-gemma_subtypes:                    # optioneel — alleen als het BO herkende specialisaties heeft
-  - naam: {subtype-naam}
-    omschrijving: "{korte omschrijving}"
-    ggm_entiteit: {GGM-entiteit waar dit subtype bij hoort, leeg als geen match}
-    ggm_guid: {GUID van die GGM-entiteit}
-    ggm_attribuut: {attribuut op de GGM-entiteit dat het subtype draagt, bijv. "type"}
+gemma_subtypes: []                  # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
 relaties:
   - type: {associatie | compositie | generalisatie}
     bedrijfsobject: [[gerelateerd-bedrijfsobject]]
@@ -102,7 +97,8 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 
 - **BO-criteria toetsing**: welke criteria zijn van toepassing, waarom is dit een BO
 - **Beschrijving**: het bedrijfsobject op het niveau waarop er in de gemeente over wordt gepraat
-- **Specialisaties** (optioneel): tabel met herkende subtypes die geen apart BO zijn maar wel herkenbaar in de praktijk. Correspondeert met `gemma_subtypes` in frontmatter. Subtypes zijn attribuutwaarden (bijv. GGM-enumeratie TypeMonument), geen aparte entiteiten. Kolommen: Subtype, Omschrijving, GGM-entiteit. GGM-entiteit is een markdown-link naar het GGM-bronbestand (verplicht indien match bestaat). GGM-GUID's staan alleen in de frontmatter (voor export), niet in de tabel.
+- **Subtypes** (optioneel): herkende specialisaties die geen apart BO zijn maar wel herkenbaar in de praktijk. Gevonden in bronnen én/of GGM. Gestructureerd als lijst met vetgedrukte naam en toelichting. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
+- **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zelfde format als Subtypes. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
 - **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
@@ -113,3 +109,33 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Bedrijfsfuncties**: welke functies dit object raken
 - **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
 - **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**
+
+### Subtypes en GGM-componenten format
+
+Beide secties gebruiken hetzelfde format: een inleidende zin, gevolgd door een lijst met vetgedrukte GGM-entiteitnaam en toelichting. De coverage- en export-tools parsen de vetgedrukte namen.
+
+```markdown
+## Subtypes
+
+Herkende specialisaties van {BO-naam}. Gevonden in bronnen en/of GGM. Geen apart BO.
+
+- **{GGM-entiteitnaam}** — {korte toelichting}
+- **{GGM-entiteitnaam}** — {korte toelichting}
+```
+
+```markdown
+## GGM-componenten
+
+GGM-entiteiten die onderdeel zijn van {BO-naam}. Gemodelleerd als aparte entiteiten in het GGM ({reden, bijv. "voor DDAS-rapportage"}) maar vormen geen zelfstandig bedrijfsobject.
+
+- **{GGM-entiteitnaam}** — {korte toelichting}
+- **{GGM-entiteitnaam}** — {korte toelichting}
+```
+
+**Verschil:**
+
+| | Subtypes | GGM-componenten |
+|---|---|---|
+| Herkomst | Bronnen én/of GGM | Alleen GGM |
+| Relatie | IS-A (specialisatie van dit BO) | PART-OF (onderdeel van dit BO) |
+| Coverage-label | `↓ subtype van {BO}` | `◆ onderdeel van {BO}` |

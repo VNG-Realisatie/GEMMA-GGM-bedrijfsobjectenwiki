@@ -8,10 +8,6 @@ aantal_entiteiten: 13
 
 # GGM Beleidsdomein: Parkeren
 
-Beleidsdomein binnen taakveld "2 Verkeer, Vervoer en Waterstaat" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Model Parkeren
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -44,33 +40,27 @@ Parkeerzone (abstract)
 
 ## Relatiediagrammen
 
-### Model Parkeren
-
 ```
-MulderFeit [0..*] ──── Voertuig [0..1] (betreft voertuig)
-Object [0..1] ──── Voertuig [0..1] (is)
-Parkeerrecht [0..*] ──── Belprovider [0..1] (leverancier)
-Parkeerrecht [0..*] ──── Parkeerzone [1..*] (betreft)
-Parkeerrecht [0..*] ──── Voertuig [1] (betreft)
-Parkeerscan [0..*] ──── Medewerker [1] (uitgevoerd door)
-Parkeerscan [0..1] ──── Naheffing [0..1] (komt voort uit)
-Parkeerscan [0..1] ──── Parkeerrecht [0..1] (verificatie)
-Parkeerscan [0..*] ──── Parkeervlak [1] (betreft)
-Parkeerscan [0..*] ──── Voertuig [1] (betreft)
-Parkeervergunning [*] ──── Ingezetene [1]
-Parkeervergunning [0..1] ──── Parkeerrecht [0..1] (resulteert)
-Parkeervergunning [0..*] ──── Parkeerzone [1..*] (geldig voor)
-Parkeervergunning [0..*] ──── Rechtspersoon [1] (houder)
-Parkeerzone [1] ──── Parkeervlak [0..*] (bevat)
-Parkeerzone [1] ──── Straatsectie [0..*] (bevat)
-Productgroep [1] ──── Parkeervergunning [0..*] (soort)
-Productsoort [1] ──── Parkeervergunning [0..*] (soort)
-Productsoort [0..*] ──── Productgroep [1] (valt binnen)
-Straatsectie [1] ──── Parkeervlak [0..*] (bevat)
+MulderFeit ──── Voertuig
+Parkeerrecht [0..*] ──── Belprovider [0..1]
+Parkeerrecht ──── Parkeerzone
+Parkeerrecht ──── Voertuig
+Parkeerscan [0..1] ──── Naheffing [0..1]
+Parkeerscan ──── Parkeerrecht
+Parkeerscan ──── Parkeervlak
+Parkeerscan ──── Voertuig
+Parkeervergunning ──── Parkeerrecht
+Parkeervergunning ──── Parkeerzone
+Parkeerzone [1..1] ──── Parkeervlak [0..*]
+Parkeerzone [1..1] ──── Straatsectie [0..*]
+Productgroep ──── Parkeervergunning
+Productsoort ──── Parkeervergunning
+Productsoort [0..*] ──── Productgroep [1..1]
+Straatsectie [1..1] ──── Parkeervlak [0..*]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 13 entiteiten.
-- Entiteiten zijn gegroepeerd in 1 diagramgroepen: Model Parkeren (13).
+- Dit beleidsdomein bevat 13 Objecttype-entiteiten (+ 2 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Model Parkeren (13), Objecten bij Vergunningaanvraag (1).
 - Er zijn 2 generalisatierelaties aanwezig.

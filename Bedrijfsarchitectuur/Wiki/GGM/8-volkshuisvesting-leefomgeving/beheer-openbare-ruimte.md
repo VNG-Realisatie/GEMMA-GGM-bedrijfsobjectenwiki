@@ -1,56 +1,45 @@
 ---
 type: ggm-beleidsdomein
 naam: Beheer Openbare Ruimte
-definitie: "\"Het informatiedomein dat gegevens omvat over: 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie. 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten.\""
+definitie: ""Het informatiedomein dat gegevens omvat over: 1. De fysieke objecten in de publieke buitenruimte, inclusief hun kenmerken, locatie en conditie. 2. De processen en activiteiten gericht op het onderhouden, inrichten en beheren van deze objecten.""
 taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 aantal_entiteiten: 82
 ---
 
 # GGM Beleidsdomein: Beheer Openbare Ruimte
 
-Beleidsdomein binnen taakveld "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
-### Schouwrondes Beheersobjecten
+### Diagram IMBOR vs IMGeo
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
-| **Actie** | Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment. | *(geen attributen)* | Nee | GGM |
-| **Beheerobject** | Verzamelobject - niveau 1 | aangemaaktDoor, beginGarantieperiode, beheergebied, beheerobjectBeheervak, beheerobjectGebruiksfunctie, beheerobjectMemo, beschermdeFloraEnFauna, buurt, conversieID, datumMutatie, datumOplevering, datumPublicatieLV, datumVerwijdering, eindeGarantieperiode, gebiedstype, gemeente, geometrie, gewijzigdDoor, grondsoort, grondsoortPlus, identificatieIMBOR, identificatieIMGeo, jaarVanAanleg, objectBeginTijd, objectEindtijd, onderhoudsplichtige, openbareRuimte, postcode, relatieveHoogteligging, stadsdeel, status, theoretischEindejaar, tijdstipRegistratie, typeBeheerder, typeBeheerderPlus, typeEigenaar, typeEigenaarPlus, typeLigging, waterschap, wijk, woonplaats, zettingsgevoeligheid, zettingsgevoeligheidPlus | Nee | GGM |
-| **CROW-Melding** | BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. | kwaliteitsniveau | Nee | GGM |
-| **Inspectie** | het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen. | *(geen attributen)* | Nee | GGM |
-| **Kwaliteitscatalogus Openbare Ruimte** | zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 | *(geen attributen)* | Nee | GGM |
-| **Logboek** | Registratie waarin gebeurtenissen worden bijgehouden. | *(geen attributen)* | Nee | GGM |
-| **Melding** | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend | datumMelding, status, categorie, constatering, opmerkingen, advies, datumAdvies, uitgevoerd, datumUitvoering, foto, locatie | Nee | GGM |
-| **MeldingOngeval** | Aangifte vna een ongeval | *(geen attributen)* | Nee | GGM |
-| **Schouwronde** | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. | *(geen attributen)* | Nee | GGM |
-| **Storing** | Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren. | *(geen attributen)* | Nee | GGM |
+| **Boom** | Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. | beleidsstatus, beoogdeOmlooptijd, boombeeld, boombeschermer, boomgroep, boomhoogteActueel, boomhoogteklasseActueel, boomhoogteklasseEindebeeld, boomspiegel, boomTypeBeschermingsstatusPlus, boomvoorziening, controlefrequentie, feestverlichting, groeifase, groeiplaatsinrichting, herplantplicht, kiemjaar, kroondiameterklasseActueel, kroondiameterklasseEindebeeld, kroonvolume, leeftijd, meerstammig, monetaireBoomwaarde, snoeifase, stamdiameter, stamdiameterklasse, takvrijeRuimteTotGebouw, takvrijeStam, takvrijeZonePrimair, takvrijeZoneSecundair, transponder, type, typeBeschermingsstatus, typeOmgevingsrisicoklasse, typePlus, typeVermeerderingsvorm, veiligheidsklasseBoom, verplant, verplantbaar, vrijeDoorrijhoogte, vrijeDoorrijhoogtePrimair, vrijeDoorrijhoogteSecundair, vrijeTakval | Nee | GGM |
 
-### Hoofdobjecten IMGeo en Beheerobjecten 
+### Diagram Verkeer en Vervoer
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
-| **Geo-Object** | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] | datumBeginGeldigheid, datumEindeGeldigheid, identificatie, geometrieSoort | Nee | GGM |
+| **Kast** | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. | aantalDeuren, adresTelecom, BAGCode, breedte, EANCode, fabrikant, hoogte, inbelgegevens, installateur, jaarOnderhoudUitgevoerd, kleur, lengte, leverancier, typeCommunicatie, typeFundering, typeSlot, vermogen | Nee | GGM |
+| **Paal** | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. | breedte, diameter, hoogte, jaarOnderhoudUitgevoerd, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, materiaal, vorm | Nee | GGM |
+| **Sensor** | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit). | aanleghoogte, elektrakast, frequentieOmvormer, hoogte, jaarOnderhoudUitgevoerd, leverancier, meetpunt, PLC | Nee | GGM |
 
 ### Hoofdobjecten IMBOR en Geo-object
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
 | **Bak** | Object met een permanent karakter dat dient om iets in te bergen of te verzamelen. (bron: definities.geostandaarden.nl) Synoniemen: Bak | breedte, diameter, gewichtLeeg, gewichtVol, hoogte, inhoud, jaarOnderhoudUitgevoerd, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, materiaal, verplaatsbaar, vorm | Nee | GGM |
+| **Beheerobject** | Verzamelobject - niveau 1 | aangemaaktDoor, beginGarantieperiode, beheergebied, beheerobjectBeheervak, beheerobjectGebruiksfunctie, beheerobjectMemo, beschermdeFloraEnFauna, buurt, conversieID, datumMutatie, datumOplevering, datumPublicatieLV, datumVerwijdering, eindeGarantieperiode, gebiedstype, gemeente, geometrie, gewijzigdDoor, grondsoort, grondsoortPlus, identificatieIMBOR, identificatieIMGeo, jaarVanAanleg, objectBeginTijd, objectEindtijd, onderhoudsplichtige, openbareRuimte, postcode, relatieveHoogteligging, stadsdeel, status, theoretischEindejaar, tijdstipRegistratie, typeBeheerder, typeBeheerderPlus, typeEigenaar, typeEigenaarPlus, typeLigging, waterschap, wijk, woonplaats, zettingsgevoeligheid, zettingsgevoeligheidPlus | Nee | GGM |
 | **Bord** | Paneel waarop (statische) informatie wordt afgebeeld, verwoord in tekst, pictogram of code. | breedte, diameter, drager, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, materiaal, vorm | Nee | GGM |
 | **Bouwwerk** | Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk (bron: definities.geostandaarden.nl) | aanleghoogte, bouwwerkMateriaal, breedte, fabrikant, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, oppervlakte, typeFundering | Nee | GGM |
 | **FunctioneelGebied** | Begrensd en benoemd gebied dat door een functionele eenheid beschreven wordt. (bron: definities.geostandaarden.nl) | functioneelGebiedCode, functioneelGebiedNaam, omtrek, oppervlakte | Nee | GGM |
+| **Geo-Object** | Abstractie van een fenomeen in de werkelijkheid, dat direct of indirect is geassocieerd met een locatie relatief ten opzichte van de aarde. [NEN 3610:2011] | datumBeginGeldigheid, datumEindeGeldigheid, identificatie, geometrieSoort | Nee | GGM |
 | **Groenobject** | Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie. | aantalObstakels, aantalZijden, afvoeren, bereikbaarheid, bergendVermogen, bewerkingspercentage, BGTFysiekVoorkomen, bollen, breedte, breedteklasseHaag, BVC, cultuurhistorischWaardevol, draagkrachtig, ecologischBeheer, fysiekVoorkomenIMGeo, gewenstSluitingspercentage, groenobjectBereikbaarheidPlus, groenobjectConstructielaag, groenobjectRand, groenobjectSoortnaam, haagvoetLengte, haagvoetOppervlakte, herplantplicht, hoogte, hoogteklasseHaag, knipfrequentie, knipoppervlakte, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, maaifrequentie, maximaleValhoogte, objectnummer, obstakels, omtrek, ondergroei, oppervlakte, opTalud, taludsteilte, type, typeBewerking, typeOmgevingsrisicoklasse, typePlus, typePlus2, veiligheidsklasseBoom | Nee | GGM |
 | **Installatie** | Samenhangend systeem dat een bepaald doel dient. | breedte, EANCode, fabrikant, hoogte, inbelgegevens, installateur, jaarOnderhoudUitgevoerd, lengte, leverancier, typeCommunicatie | Nee | GGM |
-| **Kast** | Object met een permanent karakter dat dient om iets in te bergen en te beschermen. | aantalDeuren, adresTelecom, BAGCode, breedte, EANCode, fabrikant, hoogte, inbelgegevens, installateur, jaarOnderhoudUitgevoerd, kleur, lengte, leverancier, typeCommunicatie, typeFundering, typeSlot, vermogen | Nee | GGM |
 | **Kunstwerk** | Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf. http://definities.geostandaarden.nl | aanleghoogte, antiGraffitiVoorziening, bereikbaarheid, breedte, constructietype, gewicht, hoogte, installateur, jaarConserveren, jaarOnderhoudUitgevoerd, jaarRenovatie, jaarVervanging, kilometreringBegin, kilometreringEinde, kleur, kunstwerkBereikbaarheidPlus, kunstwerkMateriaal, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, looprichel, minimumConditiescore, monument, monumentnummer, objectnaam, objectnummer, onderhoudsregime, oppervlakte, orientatie, technischeLevensduur, typeFundering, typeMonument, vervangingswaarde, wegnummer | Nee | GGM |
 | **Leiding** | Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie | afwijkendeDieptelegging, breedte, diameter, diepte, eisVoorzorgsmaatregel, geoNauwkeurigheidXY, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, materiaal, themaIMKL, verhoogdRisico | Nee | GGM |
 | **Leidingelement** | Een object dat bij een leiding behoort. | afwijkendeDieptelegging, diepte, geoNauwkeurigheidXY, jaarOnderhoudUitgevoerd, leverancier, themaIMKL | Nee | GGM |
 | **Mast** | Draagconstructie, bestaande uit een verticale buispaal, die wordt gebruikt om iets op hoogte te brengen. | *(geen attributen)* | Nee | GGM |
 | **Meubilair** | De verzameling van ruimtelijke objecten ter inrichting van de openbare ruimte of terreinen. Een ruimtelijk object ter inrichting van de openbare ruimte. | aanleghoogte, bouwjaar, breedte, datumAanschaf, diameter, fabrikant, gewicht, hoogte, installateur, jaarOnderhoudUitgevoerd, jaarPraktischEinde, kleur, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, meubilairMateriaal, model, ondergrond, oppervlakte, prijsAanschaf, serienummer, transponder, transponderlocatie, typeFundering, typePlaat | Nee | GGM |
 | **Overbruggingsobject** | Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zijn, dat essentieel is voor de constructie . | aanleghoogte, antiGraffitiVoorziening, bereikbaarheid, breedte, hoogte, installateur, jaarConserveren, jaarOnderhoudUitgevoerd, jaarRenovatie, jaarVervanging, kleur, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, looprichel, minimumConditiescore, onderhoudsregime, oppervlakte, overbruggingsobjectMateriaal, overbruggingsobjectModaliteit, technischeLevensduur, typeFundering, vervangingswaarde | Nee | GGM |
-| **Paal** | Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat. | breedte, diameter, hoogte, jaarOnderhoudUitgevoerd, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, materiaal, vorm | Nee | GGM |
 | **Put** | Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken | bovengrondsZichtbaar, breedte, diameter, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, maaiveldhoogte, materiaal, toegankelijk, typeAfdekking, vorm, wanddikte | Nee | GGM |
 | **Scheiding** | Kunstmatig, meestal lineair obstakel met een werende functie. | aanleghoogte, breedte, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, objectnaam, objectnummer, oppervlakte, scheidingMateriaal, verplaatsbaar | Nee | GGM |
 | **Terreindeel** | Kleinste functioneel onafhankelijk stukje van een terrein, dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met of zonder aaneengesloten vegetatie. | breedte, cultuurhistorischWaardevol, herplantplicht, oppervlakte, opTalud, percentageLoofbos, terreindeelSoortnaam, type, typeBewerking, typePlus, typePlus2 | Nee | GGM |
@@ -61,12 +50,6 @@ Beleidsdomein binnen taakveld "8 Volkshuisvesting, Leefomgeving en Stedelijke Ve
 | **Waterinrichtingsobject** | Een ruimtelijk object ter inrichting van het water. | aanleghoogte, breedte, jaarConserveren, jaarOnderhoudUitgevoerd, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, materiaal, oppervlakte | Nee | GGM |
 | **Waterobject** | Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is. (imgeo.geostandaarden.nl) | breedte, folie, hoogte, infiltrerendOppervlak, infiltrerendVermogen, lengte, lozingspunt, oppervlakte, porositeit, streefdiepte, type, typePlus, typePlus2, typeVaarwater, typeWaterplant, uitstroomniveau, vaarwegtraject, vorm, waternaam, waterpeil, waterpeilWinter, waterpeilZomer, waterplanten | Nee | GGM |
 | **Weginrichtingsobject** | Een ruimtelijk object dat dient voor de inrichting van de openbare weg. | aanleghoogte, breedte, hoogte, jaarConserveren, jaarOnderhoudUitgevoerd, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, materiaal, oppervlakte, weginrichtingsobjectWegfunctie | Nee | GGM |
-
-### Schouwrondes en Arealen
-
-| Entiteit | Definitie | Attributen | Abstract | Herkomst |
-|---|---|---|---|---|
-| **Areaal** | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. | geometrie | Nee | GGM |
 
 ### Meldingen Graafwerkzaamheden
 
@@ -79,17 +62,31 @@ Beleidsdomein binnen taakveld "8 Volkshuisvesting, Leefomgeving en Stedelijke Ve
 | **Proces-verbaal-MOOR-melding** | Officieel op papier gesteld verslag met betrekking tot heen MOOR-melding | datum, goedkeuring, opmerkingen | Nee | GGM |
 | **Uitvoerder Graafwerkzaamheden** | Degene die op de bouwlocatie van een project de leiding heeft met betrekking tot de graafwerkzaamheden | *(geen attributen)* | Nee | GGM |
 
-### Diagram IMBOR vs IMGeo
-
-| Entiteit | Definitie | Attributen | Abstract | Herkomst |
-|---|---|---|---|---|
-| **Boom** | Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. | beleidsstatus, beoogdeOmlooptijd, boombeeld, boombeschermer, boomgroep, boomhoogteActueel, boomhoogteklasseActueel, boomhoogteklasseEindebeeld, boomspiegel, boomTypeBeschermingsstatusPlus, boomvoorziening, controlefrequentie, feestverlichting, groeifase, groeiplaatsinrichting, herplantplicht, kiemjaar, kroondiameterklasseActueel, kroondiameterklasseEindebeeld, kroonvolume, leeftijd, meerstammig, monetaireBoomwaarde, snoeifase, stamdiameter, stamdiameterklasse, takvrijeRuimteTotGebouw, takvrijeStam, takvrijeZonePrimair, takvrijeZoneSecundair, transponder, type, typeBeschermingsstatus, typeOmgevingsrisicoklasse, typePlus, typeVermeerderingsvorm, veiligheidsklasseBoom, verplant, verplantbaar, vrijeDoorrijhoogte, vrijeDoorrijhoogtePrimair, vrijeDoorrijhoogteSecundair, vrijeTakval | Nee | GGM |
-
 ### Ruimte WOZ en Benoemd Object
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
 | **KadastraleMutatie** | Wijziging in de kadatrale registratie | *(geen attributen)* | Nee | GGM |
+
+### Schouwrondes Beheersobjecten
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Actie** | Kleinst mogelijke eenheid van werk die zinvol onderscheiden kan worden, uitgevoerd door een persoon of machine op 1 plek op 1 moment. | *(geen attributen)* | Nee | GGM |
+| **CROW-Melding** | BOR-MELD is een CROW-standaard voor het vastleggen van meldingen. | kwaliteitsniveau | Nee | GGM |
+| **Inspectie** | het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen. | *(geen attributen)* | Nee | GGM |
+| **Kwaliteitscatalogus Openbare Ruimte** | zie https://www.crow.nl/publicaties/kwaliteitscatalogus-openbare-ruimte-2018 | *(geen attributen)* | Nee | GGM |
+| **Logboek** | Registratie waarin gebeurtenissen worden bijgehouden. | *(geen attributen)* | Nee | GGM |
+| **Melding** | De betekenisvolle formulering van een waargenomen feit, waaraan een waarde kan worden toegekend | datumMelding, status, categorie, constatering, opmerkingen, advies, datumAdvies, uitgevoerd, datumUitvoering, foto, locatie | Nee | GGM |
+| **MeldingOngeval** | Aangifte vna een ongeval | *(geen attributen)* | Nee | GGM |
+| **Schouwronde** | Activiteit om te controleren of de opdrachtnemer aan de afspraken voldoet. | *(geen attributen)* | Nee | GGM |
+| **Storing** | Verlies van de mogelijkheid om volgens een specificatie te werken of om het vereiste resultaat te leveren. | *(geen attributen)* | Nee | GGM |
+
+### Schouwrondes en Arealen
+
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Areaal** | Het verspreidingsgebied van een een soort, een levensgemeenschap of een biotooptype. | geometrie | Nee | GGM |
 
 ### Overig
 
@@ -122,7 +119,6 @@ Beleidsdomein binnen taakveld "8 Volkshuisvesting, Leefomgeving en Stedelijke Ve
 | **Putdeksel** | Deksel met als functie het afdekken van een put (GWSW). Dekt meestal de opening van een rioolput af, is meestal rond, van zwaar metaal, soms van kunststof. | diameter, put, type, vorm | Nee | GGM |
 | **Rioleringsgebied** | Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. Toelichting: Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren. Een rioleringsgebied kan een enkelvoudig gebied zijn, maar kan ook meerdere rioleringsgebieden omvatten. Een gebied is zodanig gekozen dat het voldoende inzicht geeft in de belasting van oppervlaktewater en overnamepunt. | rioleringsgebied, zuiveringsgebied | Nee | GGM |
 | **Rioolput** | Constructie toegang gevend tot het rioolstelsel | aantalBedrijven, aantalRecreatie, aantalWoningen, afvoerendOppervlak, bergendOppervlak, rioolputConstructieonderdeel, rioolputRioolleiding, risicogebied, toegangBreedte, toegangLengte, type, typePlus | Nee | GGM |
-| **Sensor** | Apparaat voor de meting van een fysieke grootheid (bijv. temperatuur, licht, druk, elektriciteit). | aanleghoogte, elektrakast, frequentieOmvormer, hoogte, jaarOnderhoudUitgevoerd, leverancier, meetpunt, PLC | Nee | GGM |
 | **SolitairePlant** | Plant, heester of siergras, te beheren als solitair beplantingselement. | hoogte, type | Nee | GGM |
 | **Speelterrein** | Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen. Synoniemen: Speelplek, Speelgelegenheid | jaarHerinrichting, speelterreinLeeftijdDoelgroep, type, typePlus | Nee | GGM |
 | **Speeltoestel** | Toestel en structuren, met inbegrip van componenten en constructieve onderdelen, waarmee of waarop kinderen binnen of buiten kunnen spelen, individueel of gezamenlijk, volgens hun eigen spelregels of beweegredenen, die te allen tijde kunnen worden gewijzi Synoniemen: Speelvoorziening | catalogusprijs, certificaat, certificaatnummer, certificeringsinstantie, controlefrequentie, datumCertificaat, gemakkelijkToegankelijk, inspectievolgorde, installatiekosten, speelterrein, speeltoestelToestelonderdeel, technischeLevensduur, toestelcode, toestelgroep, toestelnaam, type, typenummer, typePlus, typePlus2, valruimteHoogte, valruimteOmvang, vrijeValhoogte | Nee | GGM |
@@ -182,29 +178,6 @@ FunctioneelGebied (abstract)
     └── Speelterrein
     └── Sportterrein
     └── Stuwgebied
-```
-
-```
-Geo-Object (abstract)
-    └── BegroeidTerreindeel
-    └── FunctioneelGebied
-    └── Gebouwinstallatie
-    └── Inrichtingselement
-    └── Kunstwerkdeel
-    └── OnbegroeidTerreindeel
-    └── OndersteunendWaterdeel
-    └── OndersteunendWegdeel
-    └── Overbruggingsdeel
-    └── OverigBenoemdTerrein
-    └── OverigBouwwerk
-    └── OverigeScheiding
-    └── Pand
-    └── Scheiding
-    └── Spoor
-    └── Tunneldeel
-    └── Vegetatieobject
-    └── Waterdeel
-    └── Wegdeel
 ```
 
 ```
@@ -290,74 +263,23 @@ Weginrichtingsobject (abstract)
 
 ## Relatiediagrammen
 
-### Schouwrondes Beheersobjecten
-
 ```
-Areaal [1..*] ──── Schouwronde [0..*] (binnen)
-Beheerobject [1] ──── Logboek [0..1] (heeft)
-CROW-Melding [0..*] ──── Kwaliteitscatalogus Openbare Ruimte [1] (conform)
-Geo-Object [1] ──── Beheerobject [0..1] (verwijst naar)
-Logboek [1] ──── Melding [0..*] (bevat)
-Medewerker [1] ──── Schouwronde [0..*] (voert uit)
-Melding [0..*] ──── Beheerobject [1..*] (betreft)
-Melding [0..*] ──── Leverancier [0..1] (uitvoerder)
-Melding [0..*] ──── Medewerker [0..1] (melder)
-Melding [0..*] ──── Medewerker [0..1] (uitvoerder)
-Melding [0..*] ──── NatuurlijkPersoon [0..1] (melder)
-Schouwronde [0..1] ──── Melding [0..*] (heeft)
-```
-
-### Hoofdobjecten IMGeo en Beheerobjecten 
-
-```
-Geo-Object [1] ──── Beheerobject [0..1] (verwijst naar)
-```
-
-### Hoofdobjecten IMBOR en Geo-object
-
-```
-VLogInfo [0..*] ──── Kast [0..1] (gegenereerd door)
-VLogInfo [0..*] ──── Paal [0..1] (gegenereerd door)
-```
-
-### Schouwrondes en Arealen
-
-```
-Areaal [0..*] ──── Buurt [1..*] (ligt in)
-Areaal [1..*] ──── Schouwronde [0..*] (binnen)
-Areaal [0..*] ──── Wijk [1..*] (valt binnen)
-```
-
-### Meldingen Graafwerkzaamheden
-
-```
-MOOR-melding [0..*] ──── Omgevingsvergunning [0..1] (verplicht tot)
-MOOR-melding [0..1] ──── Opbreking [1] (betreft)
-MOOR-melding [1] ──── Proces-verbaal-MOOR-melding [0..*] (betreft)
-Medewerker [1] ──── Proces-verbaal-MOOR-melding [0..*] (verleent)
-Omgevingsvergunning [0..*] ──── Plan [0..1] (betrekking op)
-Proces-verbaal-MOOR-melding [0..*] ──── Document [0..1] (heeft)
-Uitvoerder Graafwerkzaamheden [1] ──── MOOR-melding [0..*] (doet)
-Uitvoerder Graafwerkzaamheden [1..] ──── Opbreking [0..*] (maakt)
-```
-
-### Ruimte WOZ en Benoemd Object
-
-```
-KadastraleMutatie [0..*] ──── KadastraleOnroerendeZaak [0..*] (betreft)
-KadastraleMutatie [1] ──── ZakelijkRecht [0..*] (heeft betrekking op)
-Rechtspersoon [1..*] ──── KadastraleMutatie [0..*] (betrokkenen)
-```
-
-### Overig
-
-```
-Sensor [1] ──── Verkeerstelling [0..*] (gegenereerd door)
-VLogInfo [0..*] ──── Sensor [0..1] (gegenereerd door)
+Areaal [1..*] ──── Schouwronde [0..*]
+Beheerobject [1..1] ──── Logboek [0..1]
+CROW-Melding [0..*] ──── Kwaliteitscatalogus Openbare Ruimte [1..1]
+Geo-Object [1..1] ──── Beheerobject [0..1]
+Logboek [1..1] ──── Melding [0..*]
+MOOR-melding ──── Omgevingsvergunning
+MOOR-melding ──── Opbreking
+MOOR-melding ──── Proces-verbaal-MOOR-melding
+Melding [0..*] ──── Beheerobject [1..*]
+Schouwronde [0..1] ──── Melding [0..*]
+Uitvoerder Graafwerkzaamheden ──── MOOR-melding
+Uitvoerder Graafwerkzaamheden ──── Opbreking
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 82 entiteiten.
-- Entiteiten zijn gegroepeerd in 8 diagramgroepen: Schouwrondes Beheersobjecten (10), Hoofdobjecten IMGeo en Beheerobjecten  (1), Hoofdobjecten IMBOR en Geo-object (24), Schouwrondes en Arealen (1), Meldingen Graafwerkzaamheden (6), Diagram IMBOR vs IMGeo (1), Ruimte WOZ en Benoemd Object (1), Overig (38).
-- Er zijn 85 generalisatierelaties aanwezig.
+- Dit beleidsdomein bevat 82 Objecttype-entiteiten (+ 118 Enumeraties).
+- Entiteiten zijn gegroepeerd in 10 diagramgroepen: Diagram IMBOR vs IMGeo (1), Diagram Verkeer en Vervoer (3), Hoofdobjecten IMBOR en Geo-object (26), Hoofdobjecten IMGeo en Beheerobjecten  (2), Kern:Overige geo objecten op hoofdlijnen (1), Meldingen Graafwerkzaamheden (6), Ruimte WOZ en Benoemd Object (1), Schouwrondes Beheersobjecten (10), Schouwrondes en Arealen (2), Woningbouwprojecten (1).
+- Er zijn 65 generalisatierelaties aanwezig.

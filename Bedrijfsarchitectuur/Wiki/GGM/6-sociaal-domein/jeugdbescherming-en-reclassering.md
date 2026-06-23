@@ -8,10 +8,6 @@ aantal_entiteiten: 4
 
 # GGM Beleidsdomein: Jeugdbescherming en reclassering
 
-Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Zorgmelding
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -30,21 +26,13 @@ AanvraagOfMelding (abstract)
 
 ## Relatiediagrammen
 
-### Zorgmelding
-
 ```
-Incident [1] ──── Informering [0..*] (informering)
-Informering [0..*] ──── NatuurlijkPersoon [1] (informering)
-Zorgelijke Situatie [1] ──── Incident [0..*] (berust op)
-Zorgelijke Situatie [1] ──── Leefgebied [0..*] (toelichting)
-Zorgmelding [0..*] ──── Medewerker [0..*] (betrokken professional)
-Zorgmelding [0..*] ──── NatuurlijkPersoon [0..*] (betrokkenen)
-Zorgmelding [0..*] ──── NatuurlijkPersoon [1] (betreft)
-Zorgmelding [1] ──── Zorgelijke Situatie [1..*] (naar aanleiding van)
+Zorgelijke Situatie ──── Leefgebied
+Zorgmelding ──── Zorgelijke Situatie
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 4 entiteiten.
-- Entiteiten zijn gegroepeerd in 1 diagramgroepen: Zorgmelding (4).
-- Er is 1 generalisatierelatie aanwezig.
+- Dit beleidsdomein bevat 4 Objecttype-entiteiten (+ 5 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Zorgmelding (4), Zorgmelding Detail (2).
+- Er zijn 1 generalisatierelaties aanwezig.

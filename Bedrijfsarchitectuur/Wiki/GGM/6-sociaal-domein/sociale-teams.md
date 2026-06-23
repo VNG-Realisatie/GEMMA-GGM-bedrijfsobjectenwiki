@@ -8,10 +8,6 @@ aantal_entiteiten: 9
 
 # GGM Beleidsdomein: Sociale Teams
 
-Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Sociale team:Domeinmodel
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -26,29 +22,20 @@ Beleidsdomein binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
 | **SociaalTeamDossier** | SociaalTeamDossier* is een dossier-entiteit binnen het Model Sociale Teams dat de **geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team** voor een inwoner of gezin omvat. | datumStart, omschrijving, datumEinde, status, datumVaststelling | Nee | GGM |
 | **SociaalteamDossiersoort** | *SociaalteamDossiersoort* is de classificatie van een *SociaalTeamDossier* die aangeeft **het type of de categorie van het dossier** binnen de context van sociale ondersteuning en casemanagement in een sociaal team. | naam, omschrijving | Nee | GGM |
 
-## Overervingshiërarchie
-
-Geen overervingshiërarchie aanwezig in dit beleidsdomein.
-
 ## Relatiediagrammen
 
-### Sociale team:Domeinmodel
-
 ```
-Behandeling [0..*] ──── Behandelsoort [1] (is van soort)
-Bijzonderheid [0..*] ──── Bijzonderheidsoort [1] (is van soort)
-Client [1] ──── SociaalTeamDossier [0..*] (heeft)
-Clientbegeleider [1] ──── SociaalTeamDossier [0..*] (heeft)
-Doelstelling [0..*] ──── Doelstellingsoort [1] (is van soort)
-SociaalTeamDossier [1] ──── Behandeling [0..*] (heeft behandeling)
-SociaalTeamDossier [1] ──── Bijzonderheid [0..*] (heeft bijzonderheid)
-SociaalTeamDossier [0..1] ──── Caseaanmelding [0..1] (heeft aanmelding)
-SociaalTeamDossier [1] ──── Doelstelling [0..*] (heeft doelstelling)
-SociaalTeamDossier [0..*] ──── Relatie [0..*] (heeft betrokkenen)
-SociaalTeamDossier [0..*] ──── SociaalteamDossiersoort [1] (heeft soort)
+Behandeling [0..*] ──── Behandelsoort [1..1]
+Bijzonderheid [0..*] ──── Bijzonderheidsoort [1..1]
+Doelstelling [0..*] ──── Doelstellingsoort [1..1]
+SociaalTeamDossier [1..1] ──── Behandeling [0..*]
+SociaalTeamDossier [1..1] ──── Bijzonderheid [0..*]
+SociaalTeamDossier [0..1] ──── Caseaanmelding [0..1]
+SociaalTeamDossier [1..1] ──── Doelstelling [0..*]
+SociaalTeamDossier [0..*] ──── SociaalteamDossiersoort [1..1]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 9 entiteiten.
+- Dit beleidsdomein bevat 9 Objecttype-entiteiten.
 - Entiteiten zijn gegroepeerd in 1 diagramgroepen: Sociale team:Domeinmodel (9).

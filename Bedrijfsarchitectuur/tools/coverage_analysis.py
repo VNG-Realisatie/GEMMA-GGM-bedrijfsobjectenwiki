@@ -71,9 +71,45 @@ def extract_parents(content, bo_name):
                 parents.add(p)
     return parents
 
+
+def extract_subtypes(content):
+    """Extract subtypes from ## Subtypes or ## Specialisaties body section.
+
+    Parses two formats:
+    - List: **Naam** — toelichting
+    - Table: | Naam | Omschrijving | ... (first column, skip header/separator)
+    """
+    subtypes = set()
+    sec = re.search(r'## (?:Subtypes|Specialisaties)\s*\n(.*?)(?=\n##|\Z)', content, re.S)
+    if not sec:
+        return subtypes
+    text = sec.group(1)
+    for m in re.finditer(r'\*\*([^*]+?)\*\*', text):
+        subtypes.add(m.group(1).strip())
+    for m in re.finditer(r'^\|\s*([^|*\-][^|]*?)\s*\|', text, re.M):
+        val = m.group(1).strip()
+        if val and val.lower() not in ('subtype', 'subtypes', 'naam', 'begrip', '---', ''):
+            subtypes.add(val)
+    return subtypes
+
+
+def extract_components(content):
+    """Extract GGM-componenten from ## GGM-componenten body section.
+
+    Returns set of GGM entity names listed as **bold** in that section.
+    """
+    components = set()
+    sec = re.search(r'## GGM-componenten\s*\n(.*?)(?=\n##|\Z)', content, re.S)
+    if sec:
+        for m in re.finditer(r'\*\*([^*]+?)\*\*', sec.group(1)):
+            components.add(m.group(1).strip())
+    return components
+
 bo_guids = set()
 domain_topics = defaultdict(set)
 parent_map = {}
+subtype_map = {}
+component_map = {}
 bos_per_topic = defaultdict(int)
 
 for bo_file in BO_DIR.rglob("*.md"):
@@ -82,6 +118,7 @@ for bo_file in BO_DIR.rglob("*.md"):
     try:
         content = bo_file.read_text(encoding='utf-8')
         fm = extract_frontmatter(content)
+        bo_naam = fm.get('naam', bo_file.stem)
 
         # Tel alle BOs per onderwerp (ongeacht GGM-koppeling)
         domein = fm.get('domein', [])
@@ -95,21 +132,25 @@ for bo_file in BO_DIR.rglob("*.md"):
         ggm_entiteit = fm.get('ggm_entiteit', '')
         ggm_taakveld = fm.get('ggm_taakveld', '')
         ggm_beleidsdomein = fm.get('ggm_beleidsdomein', '')
-        if not (ggm_guid and ggm_taakveld and ggm_beleidsdomein):
-            continue
-        bo_guids.add(ggm_guid)
+        if ggm_guid:
+            bo_guids.add(ggm_guid)
         for p in extract_parents(content, ggm_entiteit):
-            parent_map.setdefault(p, set()).add(ggm_entiteit)
-        dk = (ggm_taakveld, ggm_beleidsdomein)
-        if isinstance(domein, list):
-            for d in domein:
-                domain_topics[dk].add(d)
-        elif domein:
-            domain_topics[dk].add(str(domein))
+            parent_map.setdefault(p, set()).add(ggm_entiteit or bo_naam)
+        for st in extract_subtypes(content):
+            subtype_map[st] = bo_naam
+        for comp in extract_components(content):
+            component_map[comp] = bo_naam
+        if ggm_taakveld and ggm_beleidsdomein:
+            dk = (ggm_taakveld, ggm_beleidsdomein)
+            if isinstance(domein, list):
+                for d in domein:
+                    domain_topics[dk].add(d)
+            elif domein:
+                domain_topics[dk].add(str(domein))
     except Exception as e:
         print(f"  Error: {bo_file.name}: {e}")
 
-print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} parent entities detected")
+print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} generalisaties, {len(subtype_map)} subtypes, {len(component_map)} componenten")
 
 print("Building wiki link lookups...")
 
@@ -166,7 +207,7 @@ print("Classifying entities...")
 
 domain_classified = {}
 for domain_key, entities in merged_by_domain.items():
-    bo, not_bo, not_assessed = [], [], []
+    bo, generalisaties, subtypes, componenten, not_assessed = [], [], [], [], []
     for ent in sorted(entities, key=lambda e: e['name']):
         name = ent['name']
         if ent['id'] in bo_guids:
@@ -174,10 +215,20 @@ for domain_key, entities in merged_by_domain.items():
         elif name in parent_map:
             children = sorted(parent_map[name])
             cs = ", ".join(children[:3]) + (", ..." if len(children) > 3 else "")
-            not_bo.append(f"{name} (generalisatie van {cs})")
+            generalisaties.append(f"↑ {name} (generalisatie van {cs})")
+        elif name in subtype_map:
+            subtypes.append(f"↓ {name} (subtype van {subtype_map[name]})")
+        elif name in component_map:
+            componenten.append(f"◆ {name} (onderdeel van {component_map[name]})")
         else:
             not_assessed.append(name)
-    domain_classified[domain_key] = {'bo': bo, 'not_bo': not_bo, 'not_assessed': not_assessed}
+    domain_classified[domain_key] = {
+        'bo': bo,
+        'generalisaties': generalisaties,
+        'subtypes': subtypes,
+        'componenten': componenten,
+        'not_assessed': not_assessed,
+    }
 
 merged_topics = defaultdict(set)
 for (tv, bd), topics in domain_topics.items():
@@ -221,8 +272,11 @@ lines.append("")
 
 total = sum(len(v) for v in merged_by_domain.values())
 total_bo = sum(len(c['bo']) for c in domain_classified.values())
-total_not_bo = sum(len(c['not_bo']) for c in domain_classified.values())
+total_gen = sum(len(c['generalisaties']) for c in domain_classified.values())
+total_sub = sum(len(c['subtypes']) for c in domain_classified.values())
+total_comp = sum(len(c['componenten']) for c in domain_classified.values())
 total_not_assessed = sum(len(c['not_assessed']) for c in domain_classified.values())
+total_assessed_no_bo = total_gen + total_sub + total_comp
 
 lines.append("## Samenvattende statistieken")
 lines.append("")
@@ -231,7 +285,9 @@ for ft, cnt in sorted(filtered_types.items()):
     lines.append(f"  - {ft}: {cnt} (niet meegeteld)")
 lines.append(f"- **Objecttype-entiteiten (in tabellen):** {total}")
 lines.append(f"- **Bedrijfsobjecten vastgelegd:** {total_bo}")
-lines.append(f"- **Geen bedrijfsobject (generalisaties):** {total_not_bo}")
+lines.append(f"- **Geen BO — generalisatie:** {total_gen}")
+lines.append(f"- **Geen BO — subtype:** {total_sub}")
+lines.append(f"- **Geen BO — component:** {total_comp}")
 lines.append(f"- **Entiteiten niet beoordeeld:** {total_not_assessed}")
 lines.append("")
 
@@ -251,7 +307,7 @@ lines.append("")
 
 lines.append("## GGM-entiteitendekking per beleidsdomein")
 lines.append("")
-lines.append("| Taakveld | Beleidsdomein (aantal entiteiten) | Entiteit is bedrijfsobject | Entiteit is geen bedrijfsobject | Entiteit is niet beoordeeld | Onderwerp (aantal bedrijfsobjecten) |")
+lines.append("| Taakveld | Beleidsdomein (aantal entiteiten) | Entiteit&nbsp;is&nbsp;bedrijfsobject | Entiteit&nbsp;is&nbsp;geen&nbsp;bedrijfsobject | Entiteit&nbsp;niet&nbsp;beoordeeld | Onderwerp (aantal BO's) |")
 lines.append("|---|---|---|---|---|---|")
 
 all_keys = sorted(merged_by_domain.keys(), key=lambda x: (taakveld_sort_key(x[0]), x[1]))
@@ -283,7 +339,8 @@ for tv, bd in all_keys:
         topic_col = "—"
 
     bo_str = ", ".join(cl['bo']) if cl['bo'] else "—"
-    nb_str = "<br>".join(cl['not_bo']) if cl['not_bo'] else "—"
+    no_bo_parts = cl['generalisaties'] + cl['subtypes'] + cl['componenten']
+    nb_str = "<br>".join(no_bo_parts) if no_bo_parts else "—"
     na_str = ", ".join(cl['not_assessed']) if cl['not_assessed'] else "—"
 
     lines.append(f"| {tv_col} | {bd_col} | {bo_str} | {nb_str} | {na_str} | {topic_col} |")

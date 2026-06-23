@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-06-23] coverage | GGM-dekkingsanalyse geregenereerd
+- [[Wiki/Analyses/ggm-dekking|ggm-dekking]] opnieuw gegenereerd via `coverage_analysis.py`
+- 954 objecttype-entiteiten in 44 beleidsdomeinen, 132 BO's vastgelegd, 787 niet beoordeeld
+- 19 beleidsdomeinen zonder bronnen (incl. Griffie, ICT, Inkoop, Subsidies, Vastgoed, Werk, div. Inkomen-subdomeinen)
+
+## [2026-06-23] ingest | Schulden en Armoede — 9 BO's, 2 bronsamenvattingen
+- **5 bronnen beoordeeld:** 1 zeer rijk (beleidsplan Den Haag), 2 dunne VNG-pagina's (gebundeld), 1 stub, 1 niet-relevant (hersteloperatie kinderopvangtoeslag → Niet-relevant/)
+- **2 bronsamenvattingen** aangemaakt: beleidsplan-schuldhulpverlening-den-haag-2024-2028, vng-schulden-en-armoede
+- **9 BO-pagina's** aangemaakt in Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/:
+  - Schuldhulpverlening (7): Schuldhulptraject, Schuld, Schuldregeling, Schuldeiser (actor), Moratorium, WSNP-traject
+  - Vroegsignalering (3): Vroegsignaal, Vroegsignaalzaak, Signaalpartner (actor)
+- **28 begrippen** beoordeeld in onderwerpoverzicht (9 BO, 19 niet-BO)
+- **GGM-dekking:** 33 entiteiten in 2 sub-domeinen (Schuldhulpverlening 27, Vroegsignalering 6). 9 BO, 12 GGM-componenten op Schuldhulptraject/Vroegsignaalzaak, 12 context/classificatie.
+- **Nieuw:** GGM-componenten patroon — procesfasen (Aanmelding, Intake, Stabilisatie, etc.) als ## GGM-componenten sectie op BO-pagina, niet als apart BO
+- **Tooling:** coverage_analysis.py uitgebreid met subtype- en componentdetectie (↓ subtype van X, ◆ onderdeel van X); assess-bo skill: actoren zijn nu BO-kandidaat; generate_ggm_wiki.py nieuw script + /generate-ggm skill
+
 ## [2026-06-23] coverage | volledige GGM-dekkingsanalyse v2
 - **Gegenereerd:** Centrale dekkingspagina [[Wiki/Analyses/ggm-dekking|ggm-dekking]] per taakveld
 - **Wijzigingen t.o.v. v1:**

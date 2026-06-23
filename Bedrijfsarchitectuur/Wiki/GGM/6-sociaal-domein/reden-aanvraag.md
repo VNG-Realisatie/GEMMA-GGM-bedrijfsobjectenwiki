@@ -1,22 +1,26 @@
 ---
 type: ggm-beleidsdomein
 naam: Reden aanvraag
-definitie: "Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cli&#235;nt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken."
-taakveld: "6 Sociaal Domein"
+definitie: "Het onderdeel Reden aanvraag richt zich op de registratie en categorisatie van redenen waarom een cliënt een inkomensvoorziening aanvraagt. Dit model biedt een overzicht van de verschillende soorten redenen en hun onderlinge relaties, waardoor gemeenten deze informatie gestructureerd kunnen vastleggen en verwerken."
+taakveld: "Inkomen"
 aantal_entiteiten: 22
 ---
 
 # GGM Beleidsdomein: Reden aanvraag
 
-Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
+### Diagram GGM en Inkomen
 
-## Entiteiten
+| Entiteit | Definitie | Attributen | Abstract | Herkomst |
+|---|---|---|---|---|
+| **Reden aanvraag** | Reden waarom dienst wordt aanvraagd bij gemeente. | Diensttype, Gewenste ingangsdatum | Nee | GGM |
+
+### Reden aanvraag- overzicht
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
 | **Andere reden afwijkende startdatum** | *Andere reden afwijkende startdatum* is een omschrijving van een **reden waarom de startdatum van een dienst of uitkering afwijkt van de standaard startdatum**, voor zover deze reden niet onder de standaardcategorieën valt. | omschrijvingBijzondereReden | Nee | GGM |
 | **Andere reden verzoek** | *Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de standaard-redencategorieën valt binnen het *Reden aanvraag*-model. | Opgave financiële ondersteuning, Specificatie geldtekort | Nee | GGM |
-| **Diensten::Aanvraag** | Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit). | *(geen attributen)* | Nee | GGM |
+| **Diensten::Aanvraag** | Een aanvraag is een verzoek van een burger, bedrijf of organisatie aan een overheid om een specifieke dienst te verkrijgen of een besluit te ontvangen (bijv. vergunning, subsidie, paspoort of beschikkingsbesluit). | *(geen attributen)* | Nee | https://www.overheid.nl/help/producten-en-diensten |
 | **Diensten::Aanvraag levensonderhoud** | Een aanvraag levensonderhoud is het formele verzoek van een persoon aan een gemeentelijke of overheidsinstantie om een uitkering of financiële ondersteuning te verkrijgen die het inkomen aanvult zodat in het basislevensonderhoud kan worden voorzien. | *(geen attributen)* | Nee | GGM |
 | **Gestopt betaald werk** | *Gestopt betaald werk* is de situatie waarin iemand **zijn of haar betaalde arbeidsrelatie heeft beëindigd**, waardoor het reguliere inkomen uit werk is komen te vervallen en dit relevant is voor de beoordeling van een uitkeringsaanvraag of inkomenssituatie. | Afwijsreden WW-aanvraag, Bedrijfsadres, Bedrijfstelefoonnummer, Contractperiode, Laatste salarisdatum, Minimaal 26 weken van 36 gewerkt, Naam bedrijf, Ontslagbrief ontvangen, Ontslagvergoeding ontvangen, Reden einde werk, Specificatie reden einde werk, Wettelijke stappen gezet, WW-uitkering aangevraagd, Ziektewet-uitkering aangevraagd | Nee | GGM |
 | **Gestopt of verkocht eigen bedrijf** | *Gestopt of verkocht eigen bedrijf* is de situatie waarin een persoon zijn of haar **bedrijf volledig beëindigt of overdraagt/verkoopt**, waardoor de zelfstandige activiteit ophoudt en de reguliere inkomsten uit de onderneming verdwijnen. | Datum gestopt met eigen bedrijf, KvK-inschrijfnummer, Reden eigen bedrijfs gestopt, Uitgeschreven bij Kamer van Koophandel, Verkoopbedrag | Nee | GGM |
@@ -29,7 +33,6 @@ Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie 
 | **Levenssituatie::Levenssituatie** | De levenssituatie is de kwaliteit van de omgeving en omstandigheden waarin een persoon leeft en functioneert op een bepaald moment. | *(geen attributen)* | Nee | GGM |
 | **Opname instelling** | *Opname instelling* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aanvraagt omdat hij of zij **(net) is opgenomen in of vrijgekomen uit een instelling**, wat financiële gevolgen heeft voor de inkomenssituatie. | Einddatum opname, Startdatum opname | Nee | GGM |
 | **Overleden partner** | *Overleden partner* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt omdat **de partner is overleden**, met als gevolg dat het huishoudinkomen is verminderd. | Meer dan 45% arbeidsongeschikt, Nabestaandeuitkering aangevraagd, Reden ANW afgewezen | Nee | GGM |
-| **Reden aanvraag** | Reden waarom dienst wordt aanvraagd bij gemeente. | Diensttype, Gewenste ingangsdatum | Nee | GGM |
 | **Reden aanvraag Levensonderhoud** | *Reden aanvraag Levensonderhoud* is een categorie binnen het GBI-Ontologiemodel die aangeeft dat een cliënt een inkomensdienst aanvraagt vanwege een situatie waarin **middelen voor levensonderhoud ontbreken of zijn weggevallen**, en deze aanleiding geeft voor ondersteuning. | Onvoldoende inkomen, Reden, Verblijfstatus, Wijziging gezin, Zelfstandige | Nee | GGM |
 | **Reden afwijkende startdatum** | *Reden afwijkende startdatum* is een categorie binnen het GBI-Ontologiemodel die aangeeft **waarom de ingangsdatum van een dienst of uitkering afwijkt van de standaard startdatum** (bijv. de datum van eerste melding). | Reden afwijking aanwezig, Reden Niet Eerder Aanvragen, RedenAfwijkendeStartdatumType | Nee | GGM |
 | **Verbroken relatie** | *Verbroken relatie* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een inkomensdienst aanvraagt doordat **de (huwelijkse/samenlevings)relatie is beëindigd**, met financiële gevolgen voor het levensonderhoud. | Afspraak onderhoudsbijdrage gemaakt, Datum relatie verbroken, Geregistreerde partner, Opgave financiële ondersteuning | Nee | GGM |
@@ -75,11 +78,14 @@ Reden afwijkende startdatum (abstract)
 ## Relatiediagrammen
 
 ```
-Levenssituatie::Levenssituatie [0..1] ──── Reden aanvraag [0..*] (Is reden tot)
-Profiel [1] ──── Reden aanvraag [0..1] (bevat)
+Diensten::Aanvraag ──── Reden aanvraag
+Ingang bijstandsuitkering ──── Diensten::Aanvraag levensonderhoud
+Ingang bijstandsuitkering [0..1] ──── Reden afwijkende startdatum [0..1]
+Levenssituatie::Levenssituatie [0..1] ──── Reden aanvraag [0..*]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 22 entiteiten.
+- Dit beleidsdomein bevat 22 Objecttype-entiteiten (+ 16 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram GGM en Inkomen (1), Reden aanvraag- overzicht (22).
 - Er zijn 17 generalisatierelaties aanwezig.

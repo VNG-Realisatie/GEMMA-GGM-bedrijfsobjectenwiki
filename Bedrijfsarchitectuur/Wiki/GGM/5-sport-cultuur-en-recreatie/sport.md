@@ -3,14 +3,10 @@ type: ggm-beleidsdomein
 naam: Sport
 definitie: "Dit informatiedomein bevat data over collectiebeheer, tentoonstellingen, bezoekersaantallen en educatieve activiteiten van musea die onderdeel zijn van een overheidsorganisatie. Het ondersteunt de uitvoering van de museale functie conform de Erfgoedwet, inclusief het beheer van eventuele rijkscollecties. De gegevens worden gebruikt voor beleidsontwikkeling, verantwoording en publieksbereik van het cultureel erfgoed."
 taakveld: "5 Sport, Cultuur en Recreatie"
-aantal_entiteiten: 13
+aantal_entiteiten: 9
 ---
 
 # GGM Beleidsdomein: Sport
-
-Beleidsdomein binnen taakveld "5 Sport, Cultuur en Recreatie" (zie ../structuur-ggm.md).
-
-## Entiteiten
 
 ### Diagram Sportbeleid
 
@@ -18,10 +14,6 @@ Beleidsdomein binnen taakveld "5 Sport, Cultuur en Recreatie" (zie ../structuur-
 |---|---|---|---|---|
 | **Belijning** | Op of in het oppervlak van de verharding aangebrachte tekens ter geleiding, waarschuwing, regeling of informatie van het verkeer | naam | Nee | GGM |
 | **Binnenlocatie** | Locatie binnen een gebouw | bouwjaar, vloeroppervlakte, klokurenOnderwijs, klokurenVerenigingen, onderhoudsstatus, onderhoudsniveau, geschatteKostenPerJaar, locatie, adres, sporthal, gymzaal, gemeentelijk | Nee | GGM |
-| **Proxyconnector** | *(geen definitie in GGM)* | *(geen attributen)* | Nee | GGM |
-| **Proxyconnector** | *(geen definitie in GGM)* | *(geen attributen)* | Nee | GGM |
-| **Proxyconnector** | *(geen definitie in GGM)* | *(geen attributen)* | Nee | GGM |
-| **Proxyconnector** | *(geen definitie in GGM)* | *(geen attributen)* | Nee | GGM |
 | **Sportlocatie** | Locatie waar de betreffende sport plaatsvindt | naam | Nee | GGM |
 | **Sportmateriaal** | Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering. | naam | Nee | GGM |
 | **Sportpark** | Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport. | *(geen attributen)* | Nee | GGM |
@@ -50,25 +42,16 @@ Sportlocatie (abstract)
 
 ## Relatiediagrammen
 
-### Diagram Sportbeleid
-
 ```
-Binnenlocatie [0..*] ──── Belijning [0..*] (heeft)
-Binnenlocatie [0..*] ──── Sportmateriaal [0..*] (heeft)
-Binnenlocatie [0..*] ──── Verblijfsobject [0..1] (is gevestigd in)
-Binnenlocatie [0..*] ──── Wijk [1] (bedient)
-Proxyconnector  ──── Proxyconnector 
-School [0..*] ──── Sportlocatie [0..*] (gebruikt)
-Sportpark [0..1] ──── OverigBenoemdTerrein [1] (ligt op)
-Sportpark [0..1] ──── Veld [0..*] (heeft)
-Sportvereniging [0..*] ──── Sport [1..*] (oefent uit)
-Sportvereniging [0..*] ──── Sportlocatie [0..*] (gebruikt)
-Veld [0..*] ──── Belijning [0..*] (heeft)
-Veld [0..1] ──── OverigBenoemdTerrein [1] (ligt op)
+Binnenlocatie ──── Belijning
+Binnenlocatie ──── Sportmateriaal
+Sportpark ──── Veld
+Sportvereniging ──── Sportlocatie
+Veld ──── Belijning
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 13 entiteiten.
-- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Sportbeleid (11), Overig (2).
+- Dit beleidsdomein bevat 9 Objecttype-entiteiten (+ 4 diagramhulpobjecten zonder stereotype).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Sportbeleid (7), Diagram Sportbeleid Locaties (4).
 - Er zijn 3 generalisatierelaties aanwezig.

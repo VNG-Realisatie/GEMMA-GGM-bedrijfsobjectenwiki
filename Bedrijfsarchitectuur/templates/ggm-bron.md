@@ -17,11 +17,19 @@ type: ggm-beleidsdomein | ggm-taakveld
 naam: {naam}
 taakveld: "{nr} {taakveldnaam}"
 definitie: "{korte definitie}"
-aantal_entiteiten: {n}
+aantal_entiteiten: {n}   # ALLEEN stereotype=Objecttype tellen; Enumeraties en diagramhulpobjecten (Class zonder stereotype) niet meetellen
 # alleen bij taakveld-niveau:
 beleidsdomeinen: [{lijst}]
 ---
 ```
+
+### Telregel `aantal_entiteiten`
+
+Tel **alleen** entiteiten met `stereotype == 'Objecttype'` in `ggm_parsed.json`. Niet meetellen:
+- **Enumeratie** — waardelijst, geen zelfstandig object
+- **Class zonder stereotype** — diagramcontainer/package-placeholder in Enterprise Architect
+
+Bij een **parent beleidsdomein** (bijv. Schulden = Schuldhulpverlening + Vroegsignalering): som van de Objecttype-tellingen van de kinderen.
 
 ## Verplichte secties per entiteitsgroep
 

@@ -2,15 +2,13 @@
 type: ggm-beleidsdomein
 naam: Diensten
 definitie: "Het Dienstenmodel biedt een gestructureerde weergave van de processen en objecttypen die betrokken zijn bij het leveren van diensten binnen het sociaal domein. Het model richt zich op de relaties tussen aanvragen, besluiten, rechten en voorwaarden die de basis vormen voor het verstrekken van voorzieningen."
-taakveld: "6 Sociaal Domein"
+taakveld: "Inkomen"
 aantal_entiteiten: 22
 ---
 
 # GGM Beleidsdomein: Diensten
 
-Onderdeel van beleidsdomein **Inkomen** binnen taakveld "6 Sociaal Domein" (zie ../structuur-ggm.md).
-
-## Entiteiten
+### Diagram Diensten
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
 |---|---|---|---|---|
@@ -48,12 +46,34 @@ Voorwaarde (abstract)
 ## Relatiediagrammen
 
 ```
-Client [1] ──── Aanvraag [0..*] (doet aanvraag)
-Client [1..2] ──── Dienst [0..*] (neemt dienst af)
-Leveringscomponent [0..*] ──── Kostenplaats [0..1] (heeft)
+Aanvraag [0..1] ──── Besluit [1..1]
+Aanvraagtype [0..*] ──── Aanvraag [1..1]
+Aanvraagtype [1..*] ──── Diensttype [1..1]
+Beschikking [1..*] ──── Onderdeel beschikking [1..1]
+Besluit [1..1] ──── Beschikking [1..1]
+Besluit [0..*] ──── Dienst [1..1]
+Dienst [0..1] ──── Betalingsblokkade [1..1]
+Dienst [0..*] ──── Individuele plicht [1..1]
+Dienst [0..1] ──── Referteperiode [1..1]
+Diensttype [0..*] ──── Dienst [1..1]
+Diensttype [1..*] ──── Leveringscomponenttype [1..1]
+Diensttype [0..*] ──── Onderdeel beschikking [1..1]
+Diensttype [1..*] ──── Verstrekkingsvorm [1..1]
+Diensttype [0..*] ──── Voorwaardetype [1..*]
+Leveringscomponenttype [0..*] ──── Leveringscomponent [1..1]
+Leveringsopdracht [1..1] ──── Dienst [1..*]
+Leveringsopdracht [1..*] ──── Leveringsspecificatie [1..1]
+Leveringsopdracht [1..1] ──── Verstrekkingsvorm [0..*]
+Leveringsspecificatie [1..*] ──── Leveringscomponent [1..1]
+Recht [1..1] ──── Besluit [1..1]
+Recht [0..*] ──── Voorwaarde [1..*]
+Regeling [1..*] ──── Diensttype [1..1]
+Voorwaarde [0..*] ──── Voorwaarde [1..*]
+Voorwaardetype [0..*] ──── Voorwaarde [1..1]
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 22 entiteiten.
+- Dit beleidsdomein bevat 22 Objecttype-entiteiten (+ 7 Enumeraties).
+- Entiteiten zijn gegroepeerd in 2 diagramgroepen: Diagram Diensten (22), Diagram GGM en Inkomen (5).
 - Er zijn 2 generalisatierelaties aanwezig.

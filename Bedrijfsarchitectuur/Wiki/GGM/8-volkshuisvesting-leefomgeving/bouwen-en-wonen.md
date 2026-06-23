@@ -8,10 +8,6 @@ aantal_entiteiten: 7
 
 # GGM Beleidsdomein: Bouwen en Wonen
 
-Beleidsdomein binnen taakveld "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing" (zie ../structuur-ggm.md).
-
-## Entiteiten
-
 ### Woningbouwprojecten
 
 | Entiteit | Definitie | Attributen | Abstract | Herkomst |
@@ -45,18 +41,14 @@ NietNatuurlijkPersoon (abstract)
 
 ## Relatiediagrammen
 
-### Woningbouwprojecten
-
 ```
-Omgevingsvergunning [0..*] ──── Plan [0..1] (betrekking op)
-Plan [1] ──── Gebouw [1..*] (Bestaat uit)
-Programma [0..1] ──── Plan [0..*] (binnen programma)
-Projectleider [0..1] ──── Plan [0..*] (is projectleider van)
-Projectontwikkelaar [1..*] ──── Plan [0..*] (heeft)
+Plan ──── Gebouw
+Projectleider [0..1] ──── Plan [0..*]
+Projectontwikkelaar ──── Plan
 ```
 
 ## Observaties
 
-- Dit beleidsdomein bevat 7 entiteiten.
+- Dit beleidsdomein bevat 7 Objecttype-entiteiten.
 - Entiteiten zijn gegroepeerd in 1 diagramgroepen: Woningbouwprojecten (7).
 - Er zijn 5 generalisatierelaties aanwezig.
