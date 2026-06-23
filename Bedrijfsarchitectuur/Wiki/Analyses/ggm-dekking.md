@@ -1,12 +1,12 @@
 # GGM-dekkingsanalyse
 
-**Gegenereerd:** 2026-06-23 13:20:02
+**Gegenereerd:** 2026-06-23 13:28:46
 
 ## Samenvattende statistieken
 
 - **Totaal GGM-entiteiten:** 437
 - **Bedrijfsobjecten vastgelegd:** 125
-- **Niet-bedrijfsobjecten:** 0
+- **Niet-bedrijfsobjecten (incl. subtypes):** 0
 - **Niet beoordeeld:** 344
 
 ## Beleidsdomeinen zonder bronnen
