@@ -3,7 +3,7 @@
 Overzicht van Sources/Onderwerpen die nog niet ingested zijn, per onderwerp.
 Bronnen in "Niet-relevant" mappen zijn beoordeeld maar bewust niet samengevat.
 
-Status: 132 bronnen in 19 batches.
+Status: 134 bronnen in 19 batches.
 
 ## ~~Arbeidszaken (9)~~ ✓
 - [x] arbeidsmarktkrapte-aanpak-gemeenten
@@ -46,16 +46,23 @@ Status: 132 bronnen in 19 batches.
 
 > **Afgehandeld:** 11 rijke bronnen samengevat, 14 naar Niet-relevant (portaalpagina's, duplicaten, buiten scope). 2 nieuwe BO's: Heffing en Heffingsverordening (GGM-match gevonden). 6 nieuwe begrippen (subtypes retributie + varianten). Domein afgerond: 22 bronnen, 46 begrippen, 9 BO's.
 
-## Economie (5)
-- [ ] breed-mkb-en-innovatie
-- [ ] handreiking-effectrapportage-bij-nieuwe-bedrijvigheid
-- [ ] regionale-economische-samenwerking
-- [ ] rubriek-economie
-- [ ] vitale-binnensteden-dorpskernen-en-werklocaties
+## ~~Economie (5)~~ ✓
+- [x] breed-mkb-en-innovatie
+- [x] handreiking-effectrapportage-bij-nieuwe-bedrijvigheid
+- [x] regionale-economische-samenwerking
+- [x] rubriek-economie
+- [x] vitale-binnensteden-dorpskernen-en-werklocaties
 
-## Energie en Klimaat (2)
-- [ ] beleid-klimaatverandering
-- [ ] utrecht-klimaatneutraal
+> **Afgehandeld:** 4 bronnen naar Niet-relevant (portaalpagina's). 1 bronsamenvatting: handreiking effectrapportage (VNG, 2024). Geen nieuwe BO's. Domein afgerond: 10 bronsamenvattingen, 34 begrippen, 8 BO's.
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] economische-visie-beemster-purmerend (PDF, gemeente Purmerend) → Niet-relevant (aspiratief visiestuk, geen BO-waarde)
+
+## ~~Energie en Klimaat (2)~~ ✓
+- [x] beleid-klimaatverandering
+- [x] utrecht-klimaatneutraal
+
+> **Afgehandeld:** 2 bronnen naar Niet-relevant (portaalpagina's, inhoud gedekt door rijkere beleidsdocumenten). Geen nieuwe BO's. Domein afgerond: 7 bronsamenvattingen, 2 niet-relevant, 22 begrippen, 3 BO's.
 
 ## erfgoed (1)
 - [ ] lijst-beeldbepalende-panden
@@ -88,21 +95,25 @@ Status: 132 bronnen in 19 batches.
 - [ ] rubriek-informatiesamenleving
 - [ ] wet-open-overheid
 
-## Maatschappelijke Ondersteuning (14)
-- [ ] aanpak-dakloosheid
-- [ ] abonnementstarief-wmo
-- [ ] beschermd-thuis
-- [ ] financien-wmo
-- [ ] inkoop-wmo-en-jeugdwet
-- [ ] kindermishandeling-en-huiselijk-geweld
-- [ ] maatwerkvoorzieningen-wmo
-- [ ] mensenhandel
-- [ ] regionale-samenwerking-gemeenten-en-zorgverzekeraars
-- [ ] re-integratie-ex-gedetineerden
-- [ ] rubriek-maatschappelijke-ondersteuning-en-zorg
-- [ ] verward-onbegrepen-gedrag
-- [ ] vrijwilligerswerk-en-mantelzorgondersteuning
-- [ ] wonen-voor-aandachtsgroepen
+## ~~Maatschappelijke Ondersteuning (16)~~ ✓
+- [x] aanpak-dakloosheid
+- [x] abonnementstarief-wmo
+- [x] beschermd-thuis
+- [x] financien-wmo
+- [x] inkoop-wmo-en-jeugdwet
+- [x] kindermishandeling-en-huiselijk-geweld
+- [x] maatwerkvoorzieningen-wmo
+- [x] mensenhandel
+- [x] regionale-samenwerking-gemeenten-en-zorgverzekeraars
+- [x] re-integratie-ex-gedetineerden
+- [x] rubriek-maatschappelijke-ondersteuning-en-zorg
+- [x] verward-onbegrepen-gedrag
+- [x] vrijwilligerswerk-en-mantelzorgondersteuning
+- [x] wonen-voor-aandachtsgroepen
+- [x] beleidsregels-jeugdhulp-oost-gelre (verordening, gemeente Oost Gelre 2025)
+- [x] beleidsnota-jeugd-utrecht (beleidsnota, gemeente Utrecht 2025-2034)
+
+> **Afgehandeld:** 8 bronnen verwerkt (6 dunne VNG-pagina's + 2 rijke beleidsdocumenten), 8 naar Niet-relevant (portaalpagina's, procesbeschrijvingen). 9 BO's: Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning, Client, Zorgmelding, SociaalTeamDossier, Dakloosheid. 25 begrippen, GGM-dekking over 5 beleidsdomeinen (97 entiteiten).
 
 ## Milieu (4)
 - [ ] afval-en-circulaire-economie

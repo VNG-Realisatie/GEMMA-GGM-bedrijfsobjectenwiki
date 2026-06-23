@@ -393,7 +393,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Economie/handreiking-effectrapportage-bedrijvigheid|Handreiking effectrapportage bij nieuwe bedrijvigheid]] — VNG: effectrapportage huisvesting arbeidsmigranten bij bedrijfsvestiging
 
 ### GEMMA
-- [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
+- [[Wiki/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
 
 ### Standaarden
 - [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
