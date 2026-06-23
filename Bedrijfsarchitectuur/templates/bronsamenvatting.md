@@ -1,6 +1,6 @@
 # Template: Bronsamenvatting
 
-Locatie: `Wiki/Bronsamenvattingen/{domein}/{slug}.md`
+Locatie: `Wiki/Bronsamenvattingen/{onderwerp}/{slug}.md`
 
 ## Frontmatter
 
@@ -8,7 +8,7 @@ Locatie: `Wiki/Bronsamenvattingen/{domein}/{slug}.md`
 ---
 type: bronsamenvatting
 titel: {titel van het document}
-domein: [{domein(en)}]
+onderwerp: [{onderwerp(en)}]
 datum_ingest: {datum van verwerking}
 ---
 ```
@@ -25,7 +25,7 @@ datum_ingest: {datum van verwerking}
 Alle verwijzingen naar wiki-pagina's en bedrijfsobjecten **moeten wiki-links zijn**:
 - BO's: `[[bedrijfsobject-naam]]` (bijv. `[[Verkiezing]]`, `[[Begroting]]`)
 - Begrippen met pagina: `[[begrip-naam]]` (bijv. `[[belastingmix]]`)
-- Andere wiki-pagina's: `[[Wiki/Domeinen/financien]]`, `[[Wiki/Analyses/ggm-hiaten]]`
+- Andere wiki-pagina's: `[[Wiki/Onderwerpen/financien]]`, `[[Wiki/Analyses/ggm-hiaten]]`
 - Citaten uit bronsamenvattingen in body: `[[andere-bronsamenvatting|display-tekst]]`
 
 **Uitzondering:** Citaten en blokkwoten uit externe bronnen (VNG-pagina's, etc.) zijn *plain text* — geen links.
@@ -35,7 +35,7 @@ Alle verwijzingen naar wiki-pagina's en bedrijfsobjecten **moeten wiki-links zij
 Aan het eind van de body: `## Bronnen` met wiki-links naar de source-bestanden waarop deze samenvatting is gebaseerd:
 ```markdown
 ## Bronnen
-- [[Sources/{domein}/{bestand}]]
+- [[Sources/{onderwerp}/{bestand}]]
 ```
 
 De bronsamenvatting is het **schakelstuk** in de herleidbaarheidsketen: het verwijst naar het bronbestand (via `## Bronnen`) en wordt verwezen door de BO-pagina (via `## Bronnen` in de body).

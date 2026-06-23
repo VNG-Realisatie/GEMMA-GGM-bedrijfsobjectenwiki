@@ -2,30 +2,30 @@
 
 ## Domeinen
 
-- [[Wiki/Domeinen/bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
-- [[Wiki/Domeinen/arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
-- [[Wiki/Domeinen/belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
-- [[Wiki/Domeinen/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
-- [[Wiki/Domeinen/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
-- [[Wiki/Domeinen/inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
-- [[Wiki/Domeinen/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
-- [[Wiki/Domeinen/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
-- [[Wiki/Domeinen/cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
-- [[Wiki/Domeinen/milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
-- [[Wiki/Domeinen/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
-- [[Wiki/Domeinen/dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
-- [[Wiki/Domeinen/energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (afgerond, 3 BO's)
-- [[Wiki/Domeinen/evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
-- [[Wiki/Domeinen/geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
-- [[Wiki/Domeinen/gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
-- [[Wiki/Domeinen/openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
-- [[Wiki/Domeinen/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
-- [[Wiki/Domeinen/maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, buurtteams, jeugdbescherming, dakloosheid (afgerond, 9 BO's)
-- [[Wiki/Domeinen/sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
-- [[Wiki/Domeinen/sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
-- [[Wiki/Domeinen/welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
-- [[Wiki/Domeinen/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
-- [[Wiki/Domeinen/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
+- [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen (afgerond, 4 BO's)
+- [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
+- [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
+- [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
+- [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
+- [[inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
+- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
+- [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
+- [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
+- [[milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
+- [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
+- [[dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
+- [[energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (afgerond, 3 BO's)
+- [[evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
+- [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
+- [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
+- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
+- [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
+- [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, buurtteams, jeugdbescherming, dakloosheid (afgerond, 9 BO's)
+- [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
+- [[sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
+- [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
+- [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
+- [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 
 ## Bedrijfsobjecten
 

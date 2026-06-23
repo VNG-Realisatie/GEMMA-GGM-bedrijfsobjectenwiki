@@ -1,13 +1,13 @@
-# Template: Domeinoverzicht
+# Template: Onderwerpoverzicht
 
-Locatie: `Wiki/Domeinen/{domeinnaam}.md`
+Locatie: `Wiki/Onderwerpen/{onderwerpnaam}.md`
 
 ## Frontmatter
 
 ```yaml
 ---
-type: domein
-naam: {domeinnaam}
+type: onderwerp
+naam: {onderwerpnaam}
 status: {afgerond | in-behandeling | niet-gestart}
 verwerkingsdatum: {datum laatste verwerking}
 bronnen_count: {aantal verwerkte bronnen}
@@ -18,12 +18,12 @@ bo_count: {aantal bedrijfsobjecten}
 
 ## Body
 
-Het domeinoverzicht is de **centrale werkpagina** per domein. Het bevat alle begrippen als tabel — geen aparte begrippenpagina's. Een domein wordt altijd afgetekend na verwerking — ook als de uitkomst 0 BO's is.
+Het onderwerpoverzicht is de **centrale werkpagina** per onderwerp. Het bevat alle begrippen als tabel — geen aparte begrippenpagina's. Een onderwerp wordt altijd afgetekend na verwerking — ook als de uitkomst 0 BO's is.
 
 ### Linkconventie
 
 - **Begrippentabel kolom "Begrip":** `[[Wiki/Bedrijfsobjecten/.../naam\|Leesbare naam]]` voor BO's (escaped pipe in tabellen), platte tekst voor niet-BO's
-- **"Verwerkte bronnen":** `[[Wiki/Bronsamenvattingen/{domein}/{slug}|display-tekst]]`
+- **"Verwerkte bronnen":** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}|display-tekst]]`
 - **"Nog te verwerken bronnen":** gebruik markdown-links naar Sources/ (omdat dat geen wiki-pagina's zijn)
 - **"Terugmeldingen":** `[[Wiki/Analyses/ggm-terugmeldingen|link naar terugmeldingen]]`
 
@@ -45,7 +45,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
 
 ### Secties
 
-- **Korte beschrijving** van het gemeentelijk domein
+- **Korte beschrijving** van het gemeentelijk onderwerp
 - **Begrippentabel** — het hart van de pagina:
 
 ```markdown
@@ -66,7 +66,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
   - **Voorbeelden**: concrete instanties
   - **GGM**: ja/nee — heeft dit begrip een GGM-entiteit
 
-- **Verwerkte bronnen**: lijst met wiki-links naar [[Wiki/Bronsamenvattingen/{domein}/{slug}|bronsamenvattingen]]
+- **Verwerkte bronnen**: lijst met wiki-links naar [[Wiki/Bronsamenvattingen/{onderwerp}/{slug}|bronsamenvattingen]]
 - **Nog te verwerken bronnen**: lijst naar Sources/-bestanden (markdown-links)
 - **Openstaande vragen of hiaten**
 - **Terugmeldingen richting GGM**: link naar [[Wiki/Analyses/ggm-terugmeldingen]]

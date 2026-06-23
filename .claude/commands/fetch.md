@@ -2,7 +2,7 @@ Haal de volgende URL op en sla op als bronbestand: $ARGUMENTS
 
 Stappen:
 1. Fetch de pagina met WebFetch. Prompt: "BELANGRIJK: Behoud de ORIGINELE NEDERLANDSE tekst EXACT zoals deze op de pagina staat. Vertaal NIETS naar het Engels. Geef ALLEEN de beschrijvende/inleidende tekst terug die het onderwerp inhoudelijk beschrijft. Laat het volgende WEG: navigatie, breadcrumbs, lijsten met gerelateerde onderwerpen, nieuwsberichten, agendapunten, footer, sidebar, cookie-meldingen, links naar publicaties/brieven. Geef de tekst terug als platte markdown."
-2. Bepaal het domein — volg de indelingsregels in CLAUDE.md § "Bronnen toevoegen".
+2. Bepaal het onderwerp — volg de indelingsregels in CLAUDE.md § "Bronnen toevoegen".
 3. Als de pagina links naar bronbestanden heeft (1 level diep):
    - **PDF-bestanden:**
      1. download pdf-bestanden
@@ -17,7 +17,7 @@ Stappen:
         - `source:` directe URL van de gelinkte pagina
         - `source_page:` URL van de webpagina waar de link op stond
         - overige velden (title, author, created, description, tags) zoals bij de hoofdpagina
-4. Sla op als `Sources/{domein}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
+4. Sla op als `Sources/{onderwerp}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
 5. Voeg frontmatter toe:
    ```yaml
    ---
@@ -28,8 +28,8 @@ Stappen:
    created: {datum van vandaag}
    description: "{korte beschrijving, max 1 zin}"
    tags:
-     - "{domein}"
+     - "{onderwerp}"
    ---
    ```
-6. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — als de bron bij een bestaand domein hoort, voeg het toe aan de juiste sectie. Als het domein nieuw is, maak een nieuwe sectie aan.
+6. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — als de bron bij een bestaand onderwerp hoort, voeg het toe aan de juiste sectie. Als het onderwerp nieuw is, maak een nieuwe sectie aan.
 7. Meld welk bestand is aangemaakt en stel voor om `/ingest` te starten.

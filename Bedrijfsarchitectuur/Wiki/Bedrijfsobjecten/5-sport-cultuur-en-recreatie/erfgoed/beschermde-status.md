@@ -82,9 +82,9 @@ De beschermde status heeft directe gevolgen voor het welstandsbeleid: bij rijks-
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---------|-------------|--------------|
-| Rijksmonument | Beschermd op grond van de Erfgoedwet door het Ministerie van OCW | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) |
-| Gemeentelijk monument | Beschermd op grond van de gemeentelijke monumentenverordening | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) |
-| Beschermd stadsgezicht | Ruimtelijk en cultuurhistorisch waardevol gebied, beschermd krachtens de Erfgoedwet | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) |
+| Rijksmonument | Beschermd op grond van de Erfgoedwet door het Ministerie van OCW | [Beschermde Status](monumenten.md) |
+| Gemeentelijk monument | Beschermd op grond van de gemeentelijke monumentenverordening | [Beschermde Status](monumenten.md) |
+| Beschermd stadsgezicht | Ruimtelijk en cultuurhistorisch waardevol gebied, beschermd krachtens de Erfgoedwet | [Beschermde Status](monumenten.md) |
 
 De GGM modelleert alle subtypes als waarden van het `type`-attribuut op de entiteit Beschermde Status. Het attribuut `gezichtscode` is specifiek voor beschermde stadsgezichten.
 

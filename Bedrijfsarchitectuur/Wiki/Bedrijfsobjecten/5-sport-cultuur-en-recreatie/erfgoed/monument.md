@@ -120,17 +120,17 @@ De Erfgoedwet (2016) en de Omgevingswet vormen het wettelijk kader. Gemeenten zi
 
 ## Specialisaties
 
-Herkende subtypes van monument. Geen aparte BO's — het zijn waarden van attributen op [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md).
+Herkende subtypes van monument. Geen aparte BO's — het zijn waarden van attributen op [Beschermde Status](monumenten.md).
 
 | Subtype | Omschrijving | GGM-attribuut |
 |---|---|---|
-| kerkgebouw | Religieus gebouw (kapittels, parochiekerken, kloosters) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
-| beschermd stadsgezicht | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `gezichtscode` |
-| synagoge | Joods gebedshuis | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
-| klooster | Kloostergebouw of -complex | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
-| woonhuis | Beschermd woonhuis of grachtenpand | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
-| verdedigingswerk | Fort, muur of ander militair erfgoed (Waterlinie, Limes) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
-| openbare ruimte | Beschermd park, plantsoen of singel (Zocherplantsoen) | [Beschermde Status](Sources/GGM/5-sport-cultuur-en-recreatie/monumenten.md) → `type` |
+| kerkgebouw | Religieus gebouw (kapittels, parochiekerken, kloosters) | [Beschermde Status](monumenten.md) → `type` |
+| beschermd stadsgezicht | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | [Beschermde Status](monumenten.md) → `gezichtscode` |
+| synagoge | Joods gebedshuis | [Beschermde Status](monumenten.md) → `type` |
+| klooster | Kloostergebouw of -complex | [Beschermde Status](monumenten.md) → `type` |
+| woonhuis | Beschermd woonhuis of grachtenpand | [Beschermde Status](monumenten.md) → `type` |
+| verdedigingswerk | Fort, muur of ander militair erfgoed (Waterlinie, Limes) | [Beschermde Status](monumenten.md) → `type` |
+| openbare ruimte | Beschermd park, plantsoen of singel (Zocherplantsoen) | [Beschermde Status](monumenten.md) → `type` |
 | luidklok | Klok in kerktoren, deels met eigen monumentstatus | — |
 
 ## Relaties

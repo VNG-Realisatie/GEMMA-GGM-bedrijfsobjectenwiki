@@ -183,7 +183,7 @@
   - **Sportvereniging** (6/6, GGM exact) — actor, goedgekeurd door team
   - **Sportmateriaal** (6/6, GGM exact)
 - 5 niet-BO begrippen: sport- en beweegaanbieder, sportaccommodatie, beweegvriendelijke openbare ruimte, urban sports, positieve sportcultuur.
-- Nieuw domeinoverzicht: [[Wiki/Domeinen/sport-en-bewegen|Sport En Bewegen]].
+- Nieuw domeinoverzicht: [[sport-en-bewegen|Sport En Bewegen]].
 - **1 GGM-terugmelding:** Zwembad ontbreekt in GGM beleidsdomein Sport.
 - GGM-dekking Sport: 6/13 entiteiten → BO, 5 niet-BO (4× Proxyconnector + Belijning), 2 meetwaarden (Bezetting, Onderhoudskosten).
 

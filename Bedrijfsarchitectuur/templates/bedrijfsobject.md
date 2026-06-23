@@ -8,7 +8,7 @@ Locatie: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/{naam}.md`
 ---
 type: bedrijfsobject
 naam: {naam}
-domein: [{domein(en)}]
+onderwerp: [{onderwerp(en)}]
 archimate_type: {business-object | contract | product}
 grondslag: {ggm-entiteit | ggm-afgeleid | procesobject | governance-object}
 
@@ -94,7 +94,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 ### Linkconventie body
 
 - **Verwijzingen naar gerelateerde BO's:** `[[bedrijfsobject-naam]]` (bijv. `[[Stembureau]]`, `[[Begroting]]`)
-- **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{domein}/{slug}}|display-tekst]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
+- **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}}|display-tekst]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
 - **Verwijzingen naar analyses:** `[[Wiki/Analyses/analyse-slug|display-tekst]]` (bijv. `[[Wiki/Analyses/ggm-dekkingspatroon]]`)
 - **Citaten uit bronnen:** platte tekst (geen links)
 

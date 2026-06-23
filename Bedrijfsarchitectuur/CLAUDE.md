@@ -1,31 +1,31 @@
 # GEMMA Bedrijfsobjecten Wiki
 
-Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen, onderhouden en doorontwikkelen van GEMMA bedrijfsobjecten. De wiki wordt domein voor domein opgebouwd vanuit gemeentelijke beleidsdocumenten en het GGM, en vormt het besliskader voor welke entiteiten bedrijfsobjecten worden.
+Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen, onderhouden en doorontwikkelen van GEMMA bedrijfsobjecten. De wiki wordt onderwerp voor onderwerp opgebouwd vanuit gemeentelijke beleidsdocumenten en het GGM, en vormt het besliskader voor welke entiteiten bedrijfsobjecten worden.
 
 ## Doel
 
 Het bestaande GEMMA bedrijfsobjectenmodel is een ongefiltreerde kopie van het GGM. Deze wiki bouwt het opnieuw op met onderbouwing:
 
 1. **Bronnen lezen en samenvatten** — VNG-beleidsdocumenten, proposities, verordeningen → bronsamenvattingen
-2. **Domeinoverzicht opbouwen** — begrippen identificeren, typeren en beoordelen als BO-kandidaat
+2. **Onderwerpoverzicht opbouwen** — begrippen identificeren, typeren en beoordelen als BO-kandidaat
 3. **BO's afleiden** — per BO-kandidaat: GGM matchen, BO-pagina aanmaken met onderbouwing
 4. **Hiaten signaleren** — GGM-entiteiten zonder BO, BO's zonder GGM-grondslag, correcties terugkoppelen
 
-Het resultaat per domein: BO-beslisdocumenten met metadata die als properties naar het GEMMA ArchiMate-model gaan.
+Het resultaat per onderwerp: BO-beslisdocumenten met metadata die als properties naar het GEMMA ArchiMate-model gaan.
 
-De herleidbaarheidsketen is: `Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/`. Het domeinoverzicht organiseert de begrippen en hun BO-beoordeling.
+De herleidbaarheidsketen is: `Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/`. Het onderwerpoverzicht organiseert de begrippen en hun BO-beoordeling.
 
 ### Werkwijze
 
-De wiki wordt **domein voor domein** opgebouwd. Per domein wordt het volledige proces doorlopen (bronnen → samenvattingen → domeinoverzicht → BO's) voordat het volgende domein wordt opgepakt.
+De wiki wordt **onderwerp voor onderwerp** opgebouwd. Per onderwerp wordt het volledige proces doorlopen (bronnen → samenvattingen → onderwerpoverzicht → BO's) voordat het volgende onderwerp wordt opgepakt.
 
-GGM-dekkingsanalyse gebeurt centraal via `/coverage` en werkt vanuit GGM-beleidsdomeinen (niet per wiki-domein), omdat wiki-domeinen en GGM-beleidsdomeinen niet 1-op-1 overlappen. Het doel: inzicht welke beleidsdomeinen bronnen hebben vs. waar nog documenten gezocht moeten worden.
+GGM-dekkingsanalyse gebeurt centraal via `/coverage` en werkt vanuit GGM-beleidsdomeinen (niet per wiki-onderwerp), omdat wiki-onderwerpen en GGM-beleidsdomeinen niet 1-op-1 overlappen. Het doel: inzicht welke beleidsdomeinen bronnen hebben vs. waar nog documenten gezocht moeten worden.
 
 ### Onderhoudscyclus
 
 Na de initiële opbouw wordt het model onderhouden bij:
 - Nieuwe GGM-releases (entiteiten hertoetsen)
-- Nieuwe gemeentelijke onderwerpen (bronnen toevoegen, domeinoverzicht uitbreiden, BO's afleiden)
+- Nieuwe gemeentelijke onderwerpen (bronnen toevoegen, onderwerpoverzicht uitbreiden, BO's afleiden)
 
 ### LLM-rol
 
@@ -38,44 +38,44 @@ Bedrijfsarchitectuur/
 ├── CLAUDE.md              # dit bestand — schema en conventies
 ├── templates/             # paginatemplates en referentietabellen
 ├── Sources/               # ruwe bronnen, NIET aanpassen
-│   ├── Onderwerpen/       # beleidsdocumenten per domein
-│   │   └── {domein}/
+│   ├── Onderwerpen/       # beleidsdocumenten per onderwerp
+│   │   └── {onderwerp}/
 │   ├── GGM/               # leesbare representatie van het Gemeentelijk Gegevensmodel
 │   │   ├── structuur-ggm.md
 │   │   └── {taakveld}/    # per taakveld, evt. met index.md en bestanden per beleidsdomein
 │   ├── GGM-repository/    # GGM-bronbestanden en geparsede data
 │   │   ├── Gemeentelijk Gegevensmodel XMI2.1.xml  # XMI-bron (alleen bij nieuwe release)
 │   │   └── ggm_parsed.json   # geparsed XMI — gebruik dit voor GUIDs, GEMMA-tags, relaties
-│   └── {domein}/          # overige bronnen per domein
+│   └── {onderwerp}/       # overige bronnen per onderwerp
 ├── Wiki/
 │   ├── index.md           # inhoudelijk overzicht van alle wiki-pagina's
 │   ├── log.md             # chronologisch logboek van alle acties
-│   ├── Domeinen/          # domeinoverzichten met begrippentabellen
+│   ├── Onderwerpen/       # onderwerpoverzichten met begrippentabellen
 │   ├── Bedrijfsobjecten/  # BO-pagina's, georganiseerd per {taakveld}/{beleidsdomein}/
-│   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {domein}/
+│   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {onderwerp}/
 │   └── Analyses/          # query-resultaten, vergelijkingen, syntheses
 └── tools/                 # Python-scripts voor XMI-verwerking
 ```
 
-Domeinen en taakvelden worden **niet** vooraf benoemd in de structuur — ze ontstaan bij het verwerken van bronnen. Controleer bestaande subdirectories voordat je een nieuwe aanmaakt.
+Onderwerpen en taakvelden worden **niet** vooraf benoemd in de structuur — ze ontstaan bij het verwerken van bronnen. Controleer bestaande subdirectories voordat je een nieuwe aanmaakt.
 
 ## Bronnen (Sources)
 
 - **Immutabel** — de LLM leest bronnen maar wijzigt ze nooit.
 - Bronnen zijn gemeentelijke beleidsdocumenten, VNG-publicaties, proposities, toelichtingen, verordeningen.
-- Georganiseerd per gemeentelijk domein als subdirectory onder `Sources/`.
+- Georganiseerd per gemeentelijk onderwerp als subdirectory onder `Sources/`.
 - Bronnen kunnen YAML-frontmatter bevatten (title, source, created, description, tags).
 - **GGM-pagina's zijn bronnen, geen wiki.** De bestanden in `Sources/GGM/` zijn een leesbare conversie van het XMI-bestand (de bron van waarheid). Ze bevatten letterlijke definities uit het model, zonder synthese of interpretatie.
 
 ### Bronnen toevoegen
 
-Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand in `Sources/{domein}/`.
+Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand in `Sources/{onderwerp}/`.
 
 #### Via URL (LLM fetcht)
 
 1. **Ophalen** — fetch de pagina en converteer naar markdown. Behoud de originele tekst; ruim alleen opmaakruis op (navigatie, footers, ads). Herschrijf geen inhoud.
-2. **Domein bepalen** — kies de juiste subdirectory onder `Sources/`. Controleer bestaande subdirectories eerst; maak alleen een nieuwe aan voor een echt nieuw domein.
-3. **Opslaan** als `Sources/{domein}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
+2. **Onderwerp bepalen** — kies de juiste subdirectory onder `Sources/`. Controleer bestaande subdirectories eerst; maak alleen een nieuwe aan voor een echt nieuw onderwerp.
+3. **Opslaan** als `Sources/{onderwerp}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
 4. **Frontmatter** toevoegen:
    ```yaml
    ---
@@ -86,7 +86,7 @@ Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand 
    created: {datum van ophalen}
    description: "{korte beschrijving, max 1 zin}"
    tags:
-     - "{domein}"
+     - "{onderwerp}"
    ---
    ```
 5. Als een bestand met dezelfde naam al bestaat, voeg een numeriek suffix toe (bijv. `-2.md`).
@@ -97,7 +97,7 @@ Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand 
 Web Clipper slaat pagina's op in `Clippings/` — een landingszone, geen bron.
 
 1. **Lees** het bestand in `Clippings/`.
-2. **Verplaats** naar `Sources/{domein}/{beschrijvende-slug}.md` — zelfde regels als bij URL-ophalen.
+2. **Verplaats** naar `Sources/{onderwerp}/{beschrijvende-slug}.md` — zelfde regels als bij URL-ophalen.
 3. **Frontmatter aanvullen** als velden ontbreken (description, tags).
 4. Ga verder met de reguliere ingest-workflow.
 
@@ -120,8 +120,8 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 | Paginatype | Template | Locatie |
 |---|---|---|
 | Bedrijfsobject | `templates/bedrijfsobject.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
-| Domeinoverzicht | `templates/domeinoverzicht.md` | `Wiki/Domeinen/` |
-| Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{domein}/` |
+| Onderwerpoverzicht | `templates/domeinoverzicht.md` | `Wiki/Onderwerpen/` |
+| Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | Analyse | `templates/analyse.md` | `Wiki/Analyses/` |
 
 Formats voor `index.md` en `log.md`: zie `templates/index-log.md`.
@@ -143,12 +143,12 @@ Alle beoordelingslogica staat in de skills, niet in dit bestand:
 
 ## Ingest workflow
 
-Wanneer de gebruiker een bron of domein aanwijst om te verwerken:
+Wanneer de gebruiker een bron of onderwerp aanwijst om te verwerken:
 
 1. Lees de volledige bron
 2. Bespreek de kernpunten met de gebruiker voordat je schrijft
 3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
-4. Maak of update het domeinoverzicht met nieuwe begrippen (zie `templates/domeinoverzicht.md`)
+4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/domeinoverzicht.md`)
 5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/bedrijfsobject.md`)
 6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
 7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd
@@ -168,7 +168,7 @@ Wanneer de gebruiker een vraag stelt:
 **Principe:** Goede antwoorden worden teruggeschreven naar de wiki zodat kennis zich opbouwt. Na elke substantiële vraag controleren: zou dit als analyse, begrip of BO-pagina moeten bestaan?
 
 **Format bij antwoord:**
-- Citeer relevant: `Zie [[Wiki/Domeinen/bestuur]] voor...`
+- Citeer relevant: `Zie [[Wiki/Onderwerpen/bestuur]] voor...`
 - Verwijs naar relaties: `Dit BO relateert aan [[Verkiezing]]`
 - Verwijs naar analyses: `Context via [[Wiki/Analyses/ggm-dekkingspatroon]]`
 
@@ -191,12 +191,12 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 | Skill | Aanroep | Functie |
 |---|---|---|
-| **ingest** | `/ingest {bron\|domein}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
+| **ingest** | `/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
 | **assess-bo** | `/assess-bo {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
 | **write-bo** | `/write-bo {BO}` | BO vastleggen: GGM-match, frontmatter, pagina aanmaken |
 | **coverage** | `/coverage dekking` | GGM-dekkingsanalyse: centrale pagina per beleidsdomein, telt entiteiten/BO's, signaleert welke beleidsdomeinen bronnen hebben |
-| **domain-status** | `/domain-status {domein}` | Read-only voortgangsrapportage |
-| **lint** | `/lint [domein]` | Consistentiechecks op wiki tegen templates en skills |
+| **domain-status** | `/domain-status {onderwerp}` | Read-only voortgangsrapportage |
+| **lint** | `/lint [onderwerp]` | Consistentiechecks op wiki tegen templates en skills |
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |
 | **clip** | `/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/` |
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
@@ -224,7 +224,7 @@ Python-scripts in `tools/` voor XMI-verwerking.
 Elke factische claim moet traceerbaar zijn naar zijn bron:
 
 1. **Refereer altijd naar bronbestanden** — geen ononderbouwde claims
-2. **Format:** Verwijs naar `[[Wiki/Bronsamenvattingen/{domein}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`
+2. **Format:** Verwijs naar `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`
 3. **Bij tegenspraak:** Als twee bronnen het oneens zijn, documenteer beide en mark als `⚠️ Tegenspraak` in de BO-pagina
 4. **Zonder bron:** Mark als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen
 5. **BO-grondslag:** Elke BO moet via de `## Bronnen`-sectie in de body traceerbaar zijn naar bronsamenvattingen

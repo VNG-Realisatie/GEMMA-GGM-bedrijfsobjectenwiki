@@ -1,6 +1,6 @@
 Leg vast als bedrijfsobject: $ARGUMENTS
 
-Input: BO-naam (reeds beoordeeld via `/assess-bo`), of "domein X" voor alle BO's in een domein.
+Input: BO-naam (reeds beoordeeld via `/assess-bo`), of "onderwerp X" voor alle BO's in een onderwerp.
 
 Verwacht een begrip dat al is beoordeeld als BO. Doet zelf géén BO-criteria of domeinbepaling.
 

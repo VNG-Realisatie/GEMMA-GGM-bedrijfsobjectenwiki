@@ -1,4 +1,4 @@
-Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, anders = opgegeven domein).
+Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, anders = opgegeven onderwerp).
 
 **Voer uit op model: Haiku** (deze skill is read-only analyse, geen reasoning nodig).
 
@@ -11,11 +11,11 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 
 ### Domeinoverzichten & begrippentabel
 
-- **Domeinoverzicht compleetheid** — begrippen in de tabel zonder BO-beoordeling (BO? kolom leeg). BO's in `Wiki/Bedrijfsobjecten/` die niet in een domeinoverzicht staan.
-- **Tegenstrijdige definities** — definities die conflicteren tussen domeinoverzicht en BO-pagina.
-- **Begrippentabel format** — domeinoverzichten moeten een begrippentabel hebben met kolommen: Begrip, Type, Omschrijving, BO?, Reden, Voorbeelden, GGM. Signaleer domeinpagina's die begrippen als bullet-lijst hebben i.p.v. tabel.
-- **GGM-dekkingssecties verwijderd** — domeinoverzichten mogen geen `## GGM-entiteitendekking` of `## GGM-dekkingsanalyse` secties meer bevatten. GGM-dekking is verplaatst naar centrale pagina `[[Wiki/Analyses/ggm-dekking]]`.
-- **Domein-afgetekend** — domeinoverzichten met `status: in-behandeling` zonder verantwoording, of `_count`-frontmatter die niet klopt met de inhoud.
+- **Domeinoverzicht compleetheid** — begrippen in de tabel zonder BO-beoordeling (BO? kolom leeg). BO's in `Wiki/Bedrijfsobjecten/` die niet in een onderwerpoverzicht staan.
+- **Tegenstrijdige definities** — definities die conflicteren tussen onderwerpoverzicht en BO-pagina.
+- **Begrippentabel format** — onderwerpoverzichten moeten een begrippentabel hebben met kolommen: Begrip, Type, Omschrijving, BO?, Reden, Voorbeelden, GGM. Signaleer domeinpagina's die begrippen als bullet-lijst hebben i.p.v. tabel.
+- **GGM-dekkingssecties verwijderd** — onderwerpoverzichten mogen geen `## GGM-entiteitendekking` of `## GGM-dekkingsanalyse` secties meer bevatten. GGM-dekking is verplaatst naar centrale pagina `[[Wiki/Analyses/ggm-dekking]]`.
+- **Domein-afgetekend** — onderwerpoverzichten met `status: in-behandeling` zonder verantwoording, of `_count`-frontmatter die niet klopt met de inhoud.
 - **Data-object kolom** — begrippentabellen zonder "Data-object" kolom; BO's met grondslag=ggm-entiteit maar Data-object=nee (inconsistent); Data-object=ja + GGM=nee zonder vermelding in openstaande acties.
 
 ### BO-frontmatter
@@ -40,7 +40,7 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 
 ### Wiki-structuur & links
 
-- **Wees-BO's** — BO-pagina's die door geen enkel domeinoverzicht worden gelinkt.
+- **Wees-BO's** — BO-pagina's die door geen enkel onderwerpoverzicht worden gelinkt.
 - **Geen losse begrippenpagina's** — controleer of `Wiki/Begrippen/` directory niet bestaat. Begrippen horen in de begrippentabel op de domeinpagina, niet als aparte pagina's.
 - **Geen Wiki/Begrippen/ links** — zoek naar `[[Wiki/Begrippen/` in alle wiki-bestanden. Deze links zijn verouderd; begrippen staan op domeinpagina's.
 - **Wiki-link alias verplicht** — alle `[[Wiki/...]]` links (met pad ≥2 segmenten) moeten een alias hebben. In tabellen: `[[pad\|alias]]` (escaped pipe, anders breekt de tabel). Buiten tabellen: `[[pad|alias]]` (gewone pipe). Signaleer: (a) bare `[[Wiki/lang/pad]]` zonder alias, (b) onescaped `|` in `[[...|...]]` binnen tabelrijen, (c) kapotte syntax zoals `[[pad]\|alias]]`. **Uitzondering:** links in `## Bronnen`-secties hebben bewust geen alias.

@@ -13,16 +13,16 @@ De aanpak volgt [Karpathy's LLM-wiki patroon](https://gist.github.com/karpathy/4
 
 ### Bottom-up proces: Bronnen → Bedrijfsobjecten
 
-Per domein wordt het volgende proces doorlopen:
+Per onderwerp wordt het volgende proces doorlopen:
 
 1. **Bronnen ophalen** — Beleidsdocumenten, proposities, verordeningen worden opgehaald, naar markdown geconverteerd en opgeslagen in `Sources/` (immutabel)
 2. **Bronsamenvattingen maken** — uit gelezen documenten worden kernpunten geëxtraheerd en samengevat in `Wiki/Bronsamenvattingen/`
-3. **Domeinoverzicht opbouwen** — uit samenvattingen worden begrippen geïdentificeerd, getypeerd (ArchiMate-concepten) en in een tabel vastgesteld
+3. **Onderwerpoverzicht opbouwen** — uit samenvattingen worden begrippen geïdentificeerd, getypeerd (ArchiMate-concepten) en in een tabel vastgesteld
 4. **BO-beoordeling** — elk begrip wordt getoetst aan expliciete criteria (herkenbaarheid, eigen bestaan, levenscyclus, relaties); dit bepaalt BO-kandidaten
 5. **GGM-matching** — BO-kandidaten worden gematcht op bestaande GGM-entiteiten; matchsterkte bepaalt hoe grondvast de BO is
 6. **Hiaten signaleren** — GGM-entiteiten zonder BO-grondslag, of BO-kandidaten zonder GGM-entiteit worden gesignaleerd richting GGM-team
 
-Het resultaat per domein: **BO-pagina's met volledige onderbouwing** (bron → begrip → criteria → GGM-match) die als eigenschappen naar het GEMMA ArchiMate-model gaan.
+Het resultaat per onderwerp: **BO-pagina's met volledige onderbouwing** (bron → begrip → criteria → GGM-match) die als eigenschappen naar het GEMMA ArchiMate-model gaan.
 
 ### GGM als **dekking en validatie**
 
@@ -40,8 +40,8 @@ Dit sluit de feedback-loop: van gemeentelijke bron naar GGM en terug.
 - GGM-representatie: leesbare conversie van het XMI-bronbestand (definitie, taakvelden, relaties)
 
 **Afgeleide kennisbasis** (`Wiki/`):
-- `Bronsamenvattingen/` — kernpunten uit Sources per domein
-- `Domeinen/` — domeinoverzichten met begrippentabellen (beleid → ArchiMate-type → BO-criteria)
+- `Bronsamenvattingen/` — kernpunten uit Sources per onderwerp
+- `Onderwerpen/` — onderwerpoverzichten met begrippentabellen (beleid → ArchiMate-type → BO-criteria)
 - `Bedrijfsobjecten/` — volledig onderbouwde BO-pagina's (bron → GGM-match → metadata)
 - `Analyses/` — query-resultaten, syntheses, GGM-dekkingsrapporten
 

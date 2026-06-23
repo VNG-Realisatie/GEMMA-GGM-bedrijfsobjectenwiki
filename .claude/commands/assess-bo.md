@@ -1,17 +1,17 @@
 Toets BO-criteria voor: $ARGUMENTS
 
-Input: begripsnaam uit domeinoverzicht, GGM-entiteit, of "domein X" voor alle onbeoordeelde begrippen.
+Input: begripsnaam uit onderwerpoverzicht, GGM-entiteit, of "onderwerp X" voor alle onbeoordeelde begrippen.
 
 ## FASE A — CLASSIFICATIE
 
 ### Stap 1: Domeinbepaling
 
-Welk gemeentelijk domein hoort dit begrip bij?
+Welk gemeentelijk onderwerp hoort dit begrip bij?
 
-1. Lees het domeinoverzicht en/of de GGM-entiteit(en).
-2. Check: bestaat het domeinoverzicht al? Staat het begrip al in een ander domein?
-3. **Verhuisregel:** begrip verhuist als het primair in een ander domein thuishoort (bijv. "horecavergunning" hoort bij horeca, niet bij vergunningen generiek).
-4. Bij twijfel: vastleggen in het domein waar het is gevonden, met verwijzing naar het domein waar het mogelijk beter past.
+1. Lees het onderwerpoverzicht en/of de GGM-entiteit(en).
+2. Check: bestaat het onderwerpoverzicht al? Staat het begrip al in een ander onderwerp?
+3. **Verhuisregel:** begrip verhuist als het primair in een ander onderwerp thuishoort (bijv. "horecavergunning" hoort bij horeca, niet bij vergunningen generiek).
+4. Bij twijfel: vastleggen in het onderwerp waar het is gevonden, met verwijzing naar het onderwerp waar het mogelijk beter past.
 
 ### Stap 2: Begripstype bepalen
 
@@ -88,9 +88,9 @@ Afhankelijk ding zonder eigen bestaan → mogelijk deel van een groter BO, niet 
 
 Scoor elk criterium met ja/nee:
 
-1. **Heeft betekenis binnen het domein** — is dit een herkenbaar concept in het vakgebied?
+1. **Heeft betekenis binnen het onderwerp** — is dit een herkenbaar concept in het vakgebied?
 2. **Is herkenbaar voor domeinexperts** — weten beleidsmedewerkers/uitvoerders wat dit is?
-3. **Heeft een eigen bestaan binnen het domein** — bestaat het onafhankelijk van andere objecten?
+3. **Heeft een eigen bestaan binnen het onderwerp** — bestaat het onafhankelijk van andere objecten?
 4. **Kan in meervoud bestaan** — zijn er meerdere exemplaren van?
 5. **Heeft een eigen levenscyclus** — wordt het aangemaakt, gewijzigd, beëindigd?
 6. **Heeft relaties met andere concepten** — relateert het aan andere BO's of concepten?
@@ -112,7 +112,7 @@ Scoor elk criterium met ja/nee:
 
 ### Stap 8: Subtypes vastleggen
 
-Begrippen die een subtype zijn van een breder concept, die generiek zijn, of die in een ander domein thuishoren: **niet weglaten** maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere domein/BO is voldoende.
+Begrippen die een subtype zijn van een breder concept, die generiek zijn, of die in een ander onderwerp thuishoren: **niet weglaten** maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere onderwerp/BO is voldoende.
 
 Gebruik het resultaat van stap 4 om de eigenstandig afgeleide specialisaties hier te borgen.
 
@@ -179,7 +179,7 @@ Per begrip presenteren:
 
 Vragen per begrip, niet in batch.
 
-Update de begrippentabel in het domeinoverzicht:
+Update de begrippentabel in het onderwerpoverzicht:
 - **BO?** kolom: ✅ of ❌
 - **Data-object** kolom: ja of nee
 - **Reden** kolom: korte samenvatting

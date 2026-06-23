@@ -68,7 +68,7 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 - [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzichtspagina)]] — portaalpagina, overlapt met raadgever
 
 ### GGM-bron
-- [Sources/GGM/10-dienstverlening/dienstverlening.md](Sources/GGM/10-dienstverlening/dienstverlening.md) — 16 entiteiten Model Dienstverlening
+- [Sources/GGM/10-dienstverlening/dienstverlening.md](Wiki/GGM/10-dienstverlening/dienstverlening.md) — 16 entiteiten Model Dienstverlening
 
 ## Evolutie
 

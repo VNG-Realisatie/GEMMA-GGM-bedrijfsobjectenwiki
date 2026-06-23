@@ -55,7 +55,7 @@ Een samenhangend geheel van activiteiten en taken en hangt onder een programma. 
 ## Relaties
 
 - Structureert de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting|begroting]]
-- Het GGM is opgebouwd uit taakvelden met daaronder beleidsdomeinen (zie [[structuur-ggm]])
+- Het GGM is opgebouwd uit taakvelden met daaronder beleidsdomeinen (zie [[GGM-indeling]])
 - Belastingopbrengsten zijn verdeeld over taakvelden; er is geen apart belastingtaakveld (zie [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]])
 
 ## Bronnen

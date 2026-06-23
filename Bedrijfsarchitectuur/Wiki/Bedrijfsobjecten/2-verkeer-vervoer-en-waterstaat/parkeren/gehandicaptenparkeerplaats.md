@@ -84,8 +84,8 @@ Een gehandicaptenparkeerplaats is een parkeerplaats gereserveerd voor mensen met
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
-| Algemene gehandicaptenparkeerplaats | Beschikbaar voor alle GPK-houders | [Parkeervlak](Sources/GGM/2-verkeer-vervoer-en-waterstaat/parkeren.md) (doelgroep) |
-| Individuele gehandicaptenparkeerplaats | Op kenteken, bij specifiek adres, met venstertijden | [Parkeervlak](Sources/GGM/2-verkeer-vervoer-en-waterstaat/parkeren.md) (doelgroep) |
+| Algemene gehandicaptenparkeerplaats | Beschikbaar voor alle GPK-houders | [Parkeervlak](parkeren.md) (doelgroep) |
+| Individuele gehandicaptenparkeerplaats | Op kenteken, bij specifiek adres, met venstertijden | [Parkeervlak](parkeren.md) (doelgroep) |
 
 ## GGM-bron
 

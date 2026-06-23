@@ -127,7 +127,7 @@ De specialisaties laten zien hoe divers vergunningen en ontheffingen zijn qua pr
 |---|---|---|
 | Standplaatsvergunning | APV-vergunning voor het innemen van een standplaats in de openbare ruimte | — |
 | Horecavergunning | Exploitatievergunning voor een horecabedrijf | — |
-| Ligplaatsvergunning | Vergunning voor het innemen van een ligplaats | [Ligplaatsontheffing](Sources/GGM/1-veiligheid-en-vergunningen/vth.md) |
+| Ligplaatsvergunning | Vergunning voor het innemen van een ligplaats | [Ligplaatsontheffing](vth.md) |
 | Exploitatievergunning (vaarverkeer) | Vergunning voor commercieel gebruik van vaartuig | — |
 | Omgevingsvergunning | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet | [Omgevingsvergunning](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 

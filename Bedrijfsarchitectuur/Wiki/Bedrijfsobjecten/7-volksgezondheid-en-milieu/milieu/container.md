@@ -61,13 +61,13 @@ Fysieke containers die de gemeente plaatst en beheert voor de gescheiden inzamel
 
 ## Specialisaties
 
-Herkende subtypes van container. Geen aparte BO's — het zijn waarden van het attribuut `naam` op [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md).
+Herkende subtypes van container. Geen aparte BO's — het zijn waarden van het attribuut `naam` op [Containertype](afval.md).
 
 | Subtype | Omschrijving | GGM-attribuut |
 |---|---|---|
-| Ondergrondse container | Ingegraven container voor restafval of grondstoffen | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
-| Kliko | Minicontainer aan huis voor GFT, papier of PBP | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
-| Citybin | Draagbare afvalemmer voor GFE-inzameling bij hoogbouw | [Containertype](Sources/GGM/7-volksgezondheid-en-milieu/afval.md) → `naam` |
+| Ondergrondse container | Ingegraven container voor restafval of grondstoffen | [Containertype](afval.md) → `naam` |
+| Kliko | Minicontainer aan huis voor GFT, papier of PBP | [Containertype](afval.md) → `naam` |
+| Citybin | Draagbare afvalemmer voor GFE-inzameling bij hoogbouw | [Containertype](afval.md) → `naam` |
 
 ## GGM-bron
 

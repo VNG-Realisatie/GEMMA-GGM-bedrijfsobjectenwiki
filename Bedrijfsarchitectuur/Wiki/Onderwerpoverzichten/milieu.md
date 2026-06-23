@@ -127,7 +127,7 @@ Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Mil
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 
-De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Domeinen/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage|Faunapassage]]. Zie de bronsamenvattingen:
+De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opgeslagen onder Sources/Onderwerpen/Milieu/ maar leveren BO's in het domein [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte|Beheer Openbare Ruimte]]: [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage|Faunapassage]]. Zie de bronsamenvattingen:
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht – Stad en land verbonden]]
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]]
 

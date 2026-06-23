@@ -116,13 +116,13 @@ Bij gebiedsontwikkeling zijn maatschappelijke voorzieningen een structurele opga
 | Buurtkamer | Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²), aanvullend op buurtcentrum | — |
 | Jongerenhuiskamer | Laagdrempelige ruimte voor jongeren (~150 m²), 1 per wijk | — |
 | Gezondheidscentrum | Clustering eerstelijns zorg (~800-1200 m²), norm: 1100 m² per 6500 inwoners | — |
-| Sporthal | Binnensportaccommodatie, norm: 1 per 17.500 inwoners | [Binnenlocatie](Sources/GGM/5-sport-cultuur-en-recreatie/sport.md) → sporthal |
-| Sportpark | Geheel van terreinen, gebouwen en voorzieningen voor buitensporten | [Sportpark](Sources/GGM/5-sport-cultuur-en-recreatie/sport.md) |
+| Sporthal | Binnensportaccommodatie, norm: 1 per 17.500 inwoners | [Binnenlocatie](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) → sporthal |
+| Sportpark | Geheel van terreinen, gebouwen en voorzieningen voor buitensporten | [Sportpark](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) |
 | Zwembad | Overdekt of openlucht zwembad | — |
 | Beheerde speeltuin | Beheerde speelvoorziening (~5000 m²) | — |
 | Speelplek | Formele speelruimte in openbare ruimte | — |
 | Wijkcultuurhuis | Laagdrempelige culturele plek op wijkniveau, norm: 0,25 m² BVO per woning | — |
-| School | Gebouw voor primair of voortgezet onderwijs, norm PO: 1 per 2000 woningen | [School](Sources/GGM/4-onderwijs/onderwijs.md) |
+| School | Gebouw voor primair of voortgezet onderwijs, norm PO: 1 per 2000 woningen | [School](Wiki/GGM/4-onderwijs/onderwijs.md) |
 | Volkstuinpark | Groene voorziening voor tuinieren en ontmoeting (15 in Utrecht) | — |
 | Scoutingaccommodatie | Accommodatie in zelfbeheer (300-600 m², buitenterrein 2200-3000 m²) | — |
 | Dagbestedingslocatie | Locatie voor activering en dagbesteding vanuit de Wmo | — |

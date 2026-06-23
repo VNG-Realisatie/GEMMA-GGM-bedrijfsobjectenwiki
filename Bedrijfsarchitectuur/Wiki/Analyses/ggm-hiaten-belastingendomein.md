@@ -16,12 +16,12 @@ De hiaat is niet op elk abstractieniveau even problematisch. Dat het GGM geen no
 
 ## Wat het GGM wél heeft
 
-Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) en beleidsdomeinen daaronder (zie [[structuur-ggm]]). Het belastingendomein wordt indirect geraakt via twee beleidsdomeinen:
+Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) en beleidsdomeinen daaronder (zie [[GGM-indeling]]). Het belastingendomein wordt indirect geraakt via twee beleidsdomeinen:
 
 | Beleidsdomein | Taakveld | Dekking | Wat het modelleert |
 |---|---|---|---|
-| **[[Wiki/Domeinen/financien\|financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
-| **[[Wiki/Domeinen/terug-en-invordering\|terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
+| **[[Wiki/Onderwerpoverzichten/financien\|financien]]** | 9 Interne Organisatie | Boekhoudkundig | Begrotingen, facturen, kostenplaatsen, taakvelden, bankrekeningen — de *financiële administratie*, niet de belastingheffing zelf |
+| **[[Wiki/Onderwerpoverzichten/terug-en-invordering\|terug-en-invordering]]** | 6 Sociaal Domein → Inkomen | Invorderingsproces | Vorderingen, aflossing, kwijtschelding, beslag — het *innen* van vorderingen, niet het *opleggen* van aanslagen |
 
 Daarnaast bestaat er een `enum_Belasting` enumeratie en gerelateerde classificaties (`BelastingklasseNieuw`, `BelastingklasseOud`), maar deze zijn niet ingebed in een domeinmodel.
 
@@ -96,7 +96,7 @@ Tactische begrippen als belastingverordening en belastinggebied zijn relevant vo
 
 ## Structureel hiaat
 
-Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) met daaronder beleidsdomeinen (zie [[structuur-ggm]]). De kern is gebaseerd op RSGB (basisgegevens) en RGBZ (zaakgericht werken), aangevuld met domeinmodellen. Het belastingendomein valt tussen drie stoelen:
+Het GGM is opgebouwd uit taakvelden (afgeleid van IV3) met daaronder beleidsdomeinen (zie [[GGM-indeling]]). De kern is gebaseerd op RSGB (basisgegevens) en RGBZ (zaakgericht werken), aangevuld met domeinmodellen. Het belastingendomein valt tussen drie stoelen:
 
 1. **Kern (taakveld 99) / RSGB** levert basisgegevens (personen, objecten, WOZ) die als grondslag dienen voor de heffing, maar modelleert de heffing zelf niet.
 2. **Financien (beleidsdomein onder taakveld 9)** modelleert de boekhoudkundige verwerking van opbrengsten, maar niet de belastingheffing als proces.
