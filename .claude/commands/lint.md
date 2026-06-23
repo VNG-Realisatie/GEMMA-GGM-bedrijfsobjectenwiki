@@ -1,5 +1,7 @@
 Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, anders = opgegeven domein).
 
+**Voer uit op model: Haiku** (deze skill is read-only analyse, geen reasoning nodig).
+
 ### Bronnen & herleidbaarheid
 
 - **BO zonder bronnen** — BO-pagina's zonder `## Bronnen`-sectie in de body. Elke BO moet traceerbaar zijn naar ten minste één bronsamenvatting.

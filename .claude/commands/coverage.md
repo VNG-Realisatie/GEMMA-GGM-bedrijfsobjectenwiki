@@ -1,5 +1,7 @@
 Maak een GGM-dekkingsanalyse (centrale pagina): $ARGUMENTS
 
+**Voer uit op model: Haiku** (deze skill is read-only analyse, geen reasoning nodig).
+
 Doel: inventariseer voor alle GGM-beleidsdomeinen welke entiteiten wél/niet een BO hebben, en waar bronnen beschikbaar zijn. 
 
 **Waarom centraal, niet per domein:** GGM-beleidsdomeinen en wiki-domeinen lopen niet 1-op-1. Een wiki-domein kan meerdere beleidsdomeinen raken; een beleidsdomein kan relevant zijn voor meerdere wiki-domeinen. Dit overzicht werkt vanuit de GGM-structuur (taakveld → beleidsdomein) en maakt per beleidsdomein zichtbaar:
