@@ -1,7 +1,7 @@
 ---
 type: bedrijfsobject
 naam: Ligplaats
-domein: [Beheer Openbare Ruimte, Wonen]
+onderwerp: [Beheer Openbare Ruimte, Wonen, Basisregistraties, BAG]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -26,6 +26,13 @@ ggm_gemma_type:
 ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
+
+ggm_duplicaat_entiteiten:
+  - entiteit: Ligplaats
+    guid: EAID_F4978264_32A5_4e70_97A8_D142B64400A8
+    beleidsdomein: RSGBPlus
+    taakveld: "99 Kern"
+    afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (ligplaatsidentificatie, ligplaatsstatus, indicatieGeconstateerdeLigplaats); minder attributen, geen geometrie/versie/documentvelden; voegt inOnderzoek toe"
 
 gemma_definitie: "Door de gemeente aangewezen plaats in het water voor het permanent afmeren van een drijvend object voor woon-, bedrijfsmatige of recreatieve doeleinden, als adresseerbaar object opgenomen in de BAG."
 gemma_subtypes:
@@ -98,6 +105,17 @@ Het ligplaatsenregime is gebaseerd op een vergunningstelsel: zonder ligplaatsver
 - Ligplaats → AdresseerbaarObject (generalisatie)
 - VerblijfadresIngeschrevenNatuurlijkPersoon → Ligplaats (associatie)
 
+## GGM-duplicaten
+
+De GGM-entiteit "Ligplaats" komt voor in 2 beleidsdomeinen:
+
+| Beleidsdomein | GUID | Status |
+|---|---|---|
+| **BAG** | `EAID_785E3B69_19DA_4952_84A8_592965B9229A` | **primair** — BAG is de bronregistratie voor adresseerbare objecten |
+| RSGBPlus | `EAID_F4978264_32A5_4e70_97A8_D142B64400A8` | duplicaat — zelfde concept met domein-geprefixte attribuutnamen (ligplaatsidentificatie, ligplaatsstatus) en minder attributen (geen geometrie, versie, documentvelden); voegt inOnderzoek toe |
+
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+
 ## Relaties
 
 | Relatie | Bedrijfsobject | Richting | Bron |
@@ -123,6 +141,7 @@ Het ligplaatsenregime is gebaseerd op een vergunningstelsel: zonder ligplaatsver
 
 ## Bronnen
 
+- [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bag-2018]]
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007]]
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030]]

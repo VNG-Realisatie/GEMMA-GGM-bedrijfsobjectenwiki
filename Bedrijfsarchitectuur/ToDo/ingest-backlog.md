@@ -3,7 +3,7 @@
 Overzicht van Sources/Onderwerpen die nog niet ingested zijn, per onderwerp.
 Bronnen in "Niet-relevant" mappen zijn beoordeeld maar bewust niet samengevat.
 
-Status: 134 bronnen in 19 batches.
+Status: 139 bronnen in 22 batches.
 
 ## ~~Arbeidszaken (9)~~ ✓
 - [x] arbeidsmarktkrapte-aanpak-gemeenten
@@ -204,6 +204,29 @@ Status: 134 bronnen in 19 batches.
 - [x] vroegsignaleringsaanpak-gemeenten-divosa-2024 (Clipping → Sources, Divosa onderzoek 167 gemeenten)
 
 > **Afgehandeld:** 1 rijke bron (beleidsplan Den Haag), 2 dunne VNG-pagina's gebundeld, 1 stub, 1 niet-relevant. 10 BO's uit GGM-domein Schulden (33 entiteiten). Actoren (Schuldeiser, Signaalpartner) als BO opgenomen. Contactpoging gepromoveerd van GGM-component naar BO op basis van Divosa-onderzoek.
+
+## ~~Basisregistraties — BAG (1)~~ ✓
+- [x] catalogus-bag-2018 (Catalogus BAG 2018, Ministerie van BZK, standaard)
+
+> **Bron:** Systeembeschrijving van de Basisregistratie Adressen en Gebouwen. Beschrijft 7 concrete objecttypen (Woonplaats, Openbare ruimte, Nummeraanduiding, Pand, Ligplaats, Standplaats, Verblijfsobject) + 1 abstract type. GGM-beleidsdomeinen BAG (13 entiteiten) en RSGBPlus (128 entiteiten, overlap 10) zijn beide relevant. Bestaande BO's: Ligplaats (Beheer OR), Standplaats (Economie, maar als marktstandplaats). Locatie: `Sources/Standaarden/catalogus-bag-2018.md`.
+
+## ~~Basisregistraties — BRP (1)~~ ✓
+- [x] logisch-ontwerp-brp-2025q1 (Logisch Ontwerp BRP 2025.Q1, RvIG/BZK, standaard)
+
+> **Afgehandeld:** 765 pagina's PDF geconverteerd. 1 bronsamenvatting. 3 nieuwe BO's: Ingeschreven Persoon (GGM exact, Ingezetene), Huwelijk (GGM exact, SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap), Reisdocument (GGM exact). 10 begrippen, 9 GGM-componenten bij Ingeschreven Persoon. Nationaliteit, Verblijfstitel, Gezagsverhouding, Kiesrecht en Overlijden zijn eigenschappen van persoon, geen apart BO.
+
+## ~~Basisregistraties — BRK (1)~~ ✓
+- [x] catalogus-brk (Catalogus BRK 2020, Het Kadaster, standaard/PDF, 35 pagina's, IMKAD informatiemodel)
+
+> **Afgehandeld:** 1 rijke bron (35 pagina's PDF). 1 bronsamenvatting. 8 nieuwe BO's: Kadastraal Perceel (GGM exact), Appartementsrecht (GGM exact), Zakelijk Recht (GGM exact), Tenaamstelling (GGM exact), Zekerheidsrecht (GGM exact), Publiekrechtelijke Beperking (GGM-hiaat), Stuk (GGM-hiaat), Stukdeel (GGM-hiaat). 14 begrippen, 3 GGM-terugmeldingen (#62-64).
+
+## ~~Basisregistraties — NHR (1)~~ ✓
+- [x] catalogus-nhr (Handelsregisterwet / NHR Gegevenscatalogus, KvK)
+
+> **Afgehandeld:** 1 rijke bron (Handelsregisterwet + Handelsregisterbesluit + KvK gegevenscatalogus v3.0.4). 1 bronsamenvatting. 3 nieuwe BO's: Maatschappelijke Activiteit (GGM exact), Niet-Natuurlijk Persoon (GGM exact), Vestiging (GGM exact). 7 begrippen, 3 GGM Kern RSGB entiteiten. Hotel en Horecabedrijf (Economie) zijn specialisaties van Vestiging.
+
+## Basisregistraties — RSGBPlus overig
+- [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten, IMGeo/BGT)
 
 ## ~~Werk en Inkomen (7 + 5 + 1 aanvullend)~~ ✓
 - [x] arbeidsmarktbeleid → Niet-relevant

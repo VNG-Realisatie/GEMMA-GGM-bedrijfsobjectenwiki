@@ -63,10 +63,11 @@ Twee onafhankelijke bronnen analyseren:
 
 **Beslisregel:** praat de gemeente erover als aparte dingen?
 
-| Situatie | BO-keuze |
-|---|---|
-| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt ook BO (met opsomming subtypes) als het zelf de 6 criteria haalt |
-| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO |
+| Situatie | BO-keuze | Body-sectie |
+|---|---|---|
+| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt ook BO als het zelf de 6 criteria haalt | Parent-BO: `## Specialisaties` (tabel met links). Child-BO's: `generalisatie`-relatie in frontmatter |
+| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO | `## Subtypes` (lijst met vetgedrukte namen) |
+| BO's delen dezelfde structuur in een hiërarchie (bijv. gebiedsindelingen) | Elk niveau wordt een apart BO | Elk BO: `## Generalisatie` (beschrijft positie in hiërarchie) |
 
 Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 
@@ -110,11 +111,17 @@ Scoor elk criterium met ja/nee:
 
 **De enige toets zijn de 6 criteria hierboven.** Gebruik het woord "registr*" niet in de motivatie.
 
-### Stap 8: Subtypes vastleggen
+### Stap 8: Hiërarchie vastleggen
 
 Begrippen die een subtype zijn van een breder concept, die generiek zijn, of die in een ander onderwerp thuishoren: **niet weglaten** maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere onderwerp/BO is voldoende.
 
-Gebruik het resultaat van stap 4 om de eigenstandig afgeleide specialisaties hier te borgen.
+Gebruik het resultaat van stap 4 om de eigenstandig afgeleide specialisaties en generalisaties hier te borgen. Kies het juiste patroon:
+
+| Patroon | Wanneer | Vastleggen als |
+|---|---|---|
+| **Subtypes** | Children zijn geen apart BO (uitwisselbaar) | `## Subtypes` + `gemma_subtypes` frontmatter bij parent-BO |
+| **Specialisaties** | Children zijn wél apart BO (eigen processen) | `## Specialisaties` bij parent-BO + `generalisatie`-relatie bij child-BO's |
+| **Generalisatie** | BO's delen structuur in een hiërarchie | `## Generalisatie` bij elk niveau-BO |
 
 ## FASE D — DATA-OBJECT CLASSIFICATIE EN AFRONDEN
 

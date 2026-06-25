@@ -21,7 +21,7 @@ Landelijk beeld: de winkelmarkt is veranderd van groeimarkt naar verdringingsmar
 
 De bron voegt geen nieuwe BO-kandidaten toe boven het Ontwikkelingskader 2012. Het bevestigt de fijnmazige winkelstructuur en het belang van monitoring per winkelgebied. KVO en winkelstraatmanagement zijn organisatie-instrumenten, geen registreerbare objecten.
 
-Aanvullende context voor [[standplaats]] en [[warenmarkt]]: het document toont dat markten functioneel verbonden zijn met winkelgebieden en dat standplaatsen bijdragen aan levendigheid en voorzieningenniveau in de wijk.
+Aanvullende context voor [[Marktstandplaats]] en [[warenmarkt]]: het document toont dat markten functioneel verbonden zijn met winkelgebieden en dat standplaatsen bijdragen aan levendigheid en voorzieningenniveau in de wijk.
 
 ## Bronnen
 

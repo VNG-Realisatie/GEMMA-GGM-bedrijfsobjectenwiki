@@ -27,11 +27,17 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **`relaties`-structuur** — BO-pagina's met `relaties`-items die `type`, `richting` of `kardinaliteit` missen, of waarvan `bedrijfsobject:` geen wiki-link bevat.
 - **`gemma_definitie` geldig** — BO-pagina's zonder `gemma_definitie`, met lege waarde, of met de placeholder `"gelijk aan GGM"`. Dit veld moet altijd een zelfstandige definitie op bedrijfsniveau bevatten (één zin). "Gelijk aan GGM" is geen definitie — herformuleer vanuit gemeentelijk perspectief.
 
-### Subtypes
+### Subtypes en Specialisaties
 
-- **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
-- **Frontmatter ↔ body** — BO's met `gemma_subtypes` in frontmatter maar zonder `## Specialisaties`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-tabel voorkomen, of subtypes die in de body-tabel staan maar niet in `gemma_subtypes` in frontmatter.
+- **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Subtypes- of Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
+- **Frontmatter ↔ body subtypes** — BO's met `gemma_subtypes` in frontmatter maar zonder `## Subtypes`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-lijst voorkomen, of subtypes die in de body-lijst staan maar niet in `gemma_subtypes` in frontmatter.
 - **GGM-link compleetheid subtypes** — subtypes in `gemma_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
+
+### Generalisatie en Specialisaties (BO-hiërarchie)
+
+- **Specialisaties ↔ generalisatie symmetrie** — BO's met `## Specialisaties`-sectie die children noemen: elk child-BO moet een `generalisatie`-relatie in frontmatter hebben die terugwijst naar het parent-BO (met `richting: naar-dit-BO`). Omgekeerd: BO's met `generalisatie`-relatie in frontmatter (`richting: naar-dit-BO`) moeten voorkomen in de `## Specialisaties`-tabel van het genoemde parent-BO.
+- **Generalisatie-sectie consistentie** — BO's met `## Generalisatie`-sectie in de body: de hiërarchie moet wiki-links bevatten naar andere BO's die in de wiki bestaan. Signaleer dode links naar niet-bestaande BO's.
+- **Verwarring Subtypes vs Specialisaties** — `## Specialisaties` is voor children die wél aparte BO's zijn (tabel met wiki-links). `## Subtypes` is voor children die géén apart BO zijn (lijst met vetgedrukte namen). Signaleer Specialisaties-secties die naar niet-bestaande BO's linken, of Subtypes-secties die naar bestaande BO's linken (die horen dan in Specialisaties).
 
 ### Analysepagina's
 
@@ -44,6 +50,13 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Geen losse begrippenpagina's** — controleer of `Wiki/Begrippen/` directory niet bestaat. Begrippen horen in de begrippentabel op de domeinpagina, niet als aparte pagina's.
 - **Geen Wiki/Begrippen/ links** — zoek naar `[[Wiki/Begrippen/` in alle wiki-bestanden. Deze links zijn verouderd; begrippen staan op domeinpagina's.
 - **Wiki-link alias verplicht** — alle `[[Wiki/...]]` links (met pad ≥2 segmenten) moeten een alias hebben. In tabellen: `[[pad\|alias]]` (escaped pipe, anders breekt de tabel). Buiten tabellen: `[[pad|alias]]` (gewone pipe). Signaleer: (a) bare `[[Wiki/lang/pad]]` zonder alias, (b) onescaped `|` in `[[...|...]]` binnen tabelrijen, (c) kapotte syntax zoals `[[pad]\|alias]]`. **Uitzondering:** links in `## Bronnen`-secties hebben bewust geen alias.
+
+### GGM-duplicaten
+
+- **Duplicaat-frontmatter compleetheid** — BO's met `ggm_duplicaat_entiteiten` in frontmatter: elk item moet `entiteit`, `guid`, `beleidsdomein` en `taakveld` bevatten. `afwijkende_attributen` mag leeg zijn.
+- **Duplicaat-body consistentie** — BO's met gevulde `ggm_duplicaat_entiteiten` moeten een `## GGM-duplicaten` sectie in de body hebben, en omgekeerd.
+- **Duplicaat-terugmelding** — BO's met `ggm_duplicaat_entiteiten` die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan als type `duplicaat`.
+- **Homoniem-terugmelding** — `## GGM-duplicaten` secties die homoniemen vermelden: controleer of het homoniem in `Wiki/Analyses/ggm-terugmeldingen.md` staat als type `homoniem`.
 
 ### Inhoudelijke consistentie
 

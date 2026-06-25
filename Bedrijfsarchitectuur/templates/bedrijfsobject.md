@@ -36,6 +36,14 @@ ggm_gemma_url: {GEMMA Online URL in het GGM}
 ggm_gemma_bron: {GEMMA-bron in het GGM}
 ggm_gemma_alternate_name: {GEMMA alternate name in het GGM}
 
+# GGM-duplicaten — entiteiten met dezelfde naam in andere beleidsdomeinen die hetzelfde concept vertegenwoordigen
+ggm_duplicaat_entiteiten: []
+#  - entiteit: {naam}
+#    guid: {EA GUID}
+#    beleidsdomein: {beleidsdomein}
+#    taakveld: {taakveld}
+#    afwijkende_attributen: {korte beschrijving van attribuutverschillen, leeg als identiek}
+
 # GEMMA-velden — beheerd door het GEMMA-team via deze wiki
 gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
 gemma_subtypes: []                  # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
@@ -97,9 +105,12 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 
 - **BO-criteria toetsing**: welke criteria zijn van toepassing, waarom is dit een BO
 - **Beschrijving**: het bedrijfsobject op het niveau waarop er in de gemeente over wordt gepraat
+- **Generalisatie** (optioneel): als dit BO onderdeel is van een conceptuele hiërarchie met andere BO's die dezelfde structuur delen (bijv. gebiedsindelingen, locatietypen). Beschrijft de hiërarchie en wat dit niveau onderscheidt. Zie [format hieronder](#generalisatie-format).
+- **Specialisaties** (optioneel): als dit BO een overkoepelend concept is met specialisaties die wél aparte BO's zijn (bijv. Sportlocatie → Sportpark, Binnenlocatie). Tabel met links naar de specialisatie-BO's. Zie [format hieronder](#specialisaties-format).
 - **Subtypes** (optioneel): herkende specialisaties die geen apart BO zijn maar wel herkenbaar in de praktijk. Gevonden in bronnen én/of GGM. Gestructureerd als lijst met vetgedrukte naam en toelichting. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zelfde format als Subtypes. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
+- **GGM-duplicaten** (optioneel): wanneer dezelfde entiteitnaam in meerdere GGM-beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt (bijv. BAG en RSGBPlus). Beschrijft welke duplicaten bestaan, waarom de primaire GUID is gekozen, en eventuele attribuutverschillen. Zie [format hieronder](#ggm-duplicaten-format). **Niet** gebruiken voor homoniemen (zelfde naam, ander concept).
 - **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
 - **Procesbron** (bij grondslag `procesobject`): uit welk proces, welke beleidsbron beschrijft dit — **link naar de bronsamenvatting**
@@ -109,6 +120,32 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Bedrijfsfuncties**: welke functies dit object raken
 - **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
 - **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**
+
+### Generalisatie format
+
+Gebruik `## Generalisatie` wanneer het BO onderdeel is van een hiërarchie van BO's die dezelfde structuur delen maar elk een eigen BO zijn. Dit is het omgekeerde van Specialisaties: het beschrijft de positie van dit BO in een opwaartse hiërarchie.
+
+```markdown
+## Generalisatie
+
+{BO-naam} is onderdeel van de {hiërarchie-naam}: [[Parent]] → [[Sibling]] → **{BO-naam}** → [[Child]]. Alle niveaus delen {gedeelde kenmerken}. {BO-naam} onderscheidt zich door {onderscheidend kenmerk}.
+```
+
+Voorbeeld: Buurt beschrijft dat het het laagste niveau is van Gemeente → Woonplaats → Wijk → Buurt, met als gedeeld patroon: code, naam, geometrie, geldigheidsperiode.
+
+### Specialisaties format
+
+Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met specialisaties die **wél aparte BO's** zijn. Het parent-BO heeft `generalisatie`-relaties in frontmatter (`richting: van-dit-BO`); elk child-BO heeft een `generalisatie`-relatie terug (`richting: naar-dit-BO`).
+
+```markdown
+## Specialisaties
+
+| Subtype | Omschrijving | GGM-entiteit |
+|---|---|---|
+| [[Child-BO]] | Korte omschrijving | [GGM-naam](Wiki/GGM/...) |
+```
+
+Voorbeeld: Sportlocatie heeft Specialisaties met Sportpark en Binnenlocatie als aparte BO's.
 
 ### Subtypes en GGM-componenten format
 
@@ -132,10 +169,38 @@ GGM-entiteiten die onderdeel zijn van {BO-naam}. Gemodelleerd als aparte entitei
 - **{GGM-entiteitnaam}** — {korte toelichting}
 ```
 
-**Verschil:**
+**Overzicht hiërarchiesecties:**
 
-| | Subtypes | GGM-componenten |
+| Sectie | Richting | Children zijn BO? | Relatietype frontmatter | Coverage-label |
+|---|---|---|---|---|
+| **Generalisatie** | opwaarts (dit BO → parent) | ja (zelfstandige BO's) | `associatie` of `generalisatie` | *(geen — alle niveaus zijn BO)* |
+| **Specialisaties** | neerwaarts (dit BO → children) | ja (aparte BO's) | `generalisatie` (van-dit-BO) | *(geen — alle niveaus zijn BO)* |
+| **Subtypes** | neerwaarts (dit BO → children) | nee (geen apart BO) | — | `↓ subtype van {BO}` |
+| **GGM-componenten** | neerwaarts (dit BO → parts) | nee (geen apart BO) | — | `◆ onderdeel van {BO}` |
+
+### GGM-duplicaten format
+
+Gebruik `## GGM-duplicaten` wanneer dezelfde GGM-entiteitnaam in meerdere beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt. De primaire GUID staat in `ggm_guid`; de duplicaten staan in `ggm_duplicaat_entiteiten` (frontmatter) en worden hier toegelicht.
+
+**Twee soorten duplicaten (voor terugmelding):**
+- **Echte duplicaten** — zelfde concept, twee GUIDs (bijv. BAG en RSGBPlus) → terugmelding type `duplicaat`: "samenvoegen"
+- **Homoniemen** — zelfde naam, ander concept (bijv. Standplaats BAG vs Standplaats Musea) → terugmelding type `homoniem`: "hernoemadvies"
+
+Homoniemen worden **niet** in `ggm_duplicaat_entiteiten` opgenomen (het is een ander concept), maar wél in de body vermeld als waarschuwing.
+
+```markdown
+## GGM-duplicaten
+
+De GGM-entiteit "{naam}" komt voor in {n} beleidsdomeinen:
+
+| Beleidsdomein | GUID | Status |
 |---|---|---|
-| Herkomst | Bronnen én/of GGM | Alleen GGM |
-| Relatie | IS-A (specialisatie van dit BO) | PART-OF (onderdeel van dit BO) |
-| Coverage-label | `↓ subtype van {BO}` | `◆ onderdeel van {BO}` |
+| **{primair beleidsdomein}** | `{GUID}` | **primair** — gekozen als canonieke mapping omdat {motivatie} |
+| {secundair beleidsdomein} | `{GUID}` | duplicaat — {toelichting, bijv. "identieke attributen"} |
+
+{Optioneel: beschrijving van attribuutverschillen}
+
+**Homoniem:** de GGM-entiteit "{naam}" in beleidsdomein {domein} is een ander concept ({korte uitleg}). Zie [[BO-van-dat-concept]] / niet te verwarren.
+
+Teruggemeld als #{nr} in [[Wiki/Analyses/ggm-terugmeldingen]].
+```

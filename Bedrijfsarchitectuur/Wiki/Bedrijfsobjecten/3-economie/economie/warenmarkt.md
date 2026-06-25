@@ -29,7 +29,7 @@ bedrijfsprocessen: [marktorganisatie, vergunningverlening markten, monitoring de
 bedrijfsfuncties: [economisch beleid, vergunningverlening]
 relaties:
   - type: compositie
-    bedrijfsobject: "[[standplaats]]"
+    bedrijfsobject: "[[Marktstandplaats]]"
     richting: "van-dit-BO"
     kardinaliteit: "6..*"
     beschrijving: Een warenmarkt bestaat uit 6 of meer standplaatsen
@@ -68,7 +68,7 @@ De warenmarkt ontstaat uit het gemeentelijk marktbeleid en wordt ingesteld via d
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
-| [[standplaats]] (compositie) | warenmarkt bevat standplaatsen | 6..* | beleidsbron |
+| [[Marktstandplaats]] (compositie) | warenmarkt bevat standplaatsen | 6..* | beleidsbron |
 
 ## Bedrijfsprocessen
 
@@ -83,4 +83,4 @@ De warenmarkt ontstaat uit het gemeentelijk marktbeleid en wordt ingesteld via d
 
 ## Terugmelding GGM
 
-⚠️ Warenmarkt ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject met eigen eigenschappen (locatie, frequentie, type, branchering) dat alle gemeenten met markten beheren. Past conceptueel in taakveld 3 Economie. Vergelijkbaar met [[standplaats]] (dat wél in het GGM staat, zij het onder Musea).
+⚠️ Warenmarkt ontbreekt als entiteit in het GGM. Het is een registreerbaar dataobject met eigen eigenschappen (locatie, frequentie, type, branchering) dat alle gemeenten met markten beheren. Past conceptueel in taakveld 3 Economie. Vergelijkbaar met [[Marktstandplaats]] (dat wél in het GGM staat, zij het onder Musea).

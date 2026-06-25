@@ -25,7 +25,7 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 10 | Milieu | Grondwatermeetpunt | hiaat | Fysiek meetpunt (peilbuis) in monitoringsnetwerk voor grondwaterkwaliteit. GGM heeft wel Filterput (BOR) maar dat is een drainageobject, geen milieumeetpunt. Zou onder taakveld 7 passen. | open |
 | 11 | Milieu | Grondverzet | hiaat | Meldingsplichtige grondverplaatsing (Besluit bodemkwaliteit) met herkomst, bestemming, kwaliteit, volume. Gemeente beoordeelt en houdt toezicht. Zou onder taakveld 7 passen. | open |
 | 12 | Milieu | Bodemenergiesysteem | hiaat | Vergunningsplichtige WKO-installatie in de ondergrond. Registratie met locatie, capaciteit, diepte. Raakt zowel taakveld 7 (milieu) als energiedomein. | open |
-| 13 | Economie | Standplaats | scope | GGM-entiteit Standplaats staat onder beleidsdomein Musea (taakveld 5). Het is echter een breed APV-concept dat primair onder Economie (taakveld 3) hoort. Ontbreken attributen voor branchering, type (dag/seizoen/incidenteel), vergunningsstatus. | open |
+| 13 | Economie | Marktstandplaats | hiaat | Marktstandplaats (APV-gereguleerde ambulante handel) ontbreekt als GGM-entiteit. De bestaande GGM-entiteit "Standplaats" (RSGBPlus/BAG) gaat over woonwagenstandplaatsen, niet over marktstandplaatsen. De eerdere scope-melding is herzien: het is een hiaat, geen scope-probleem. Overweeg toevoeging "Marktstandplaats" of "StandplaatsAPV" onder taakveld 3 met attributen voor branchering, type, vergunningsstatus. | open |
 | 14 | Economie | Warenmarkt | hiaat | Registreerbaar dataobject dat ontbreekt in het GGM: georganiseerde periodieke verkoop op aangewezen locatie, gereguleerd via Marktverordening. Eigenschappen: locatie, frequentie, type, branchering, aantal kramen. Zou onder taakveld 3 Economie passen. | open |
 | 15 | Energie en Klimaat | — | hiaat | Taakveld 7 mist een beleidsdomein Energie/Klimaat. Alleen Afval is gemodelleerd. Het hele domein van de gemeentelijke energietransitie ontbreekt: warmtenetten, opwekgebieden, warmteprogramma. Vergelijkbaar met het ontbreken van Bodem/Milieu onder hetzelfde taakveld. | open |
 | 16 | Energie en Klimaat | Warmtenet | hiaat | Fysieke warmte-infrastructuur voor levering aan gebouwen. Registreerbare eigenschappen: locatie (tracé), capaciteit, eigenaar/exploitant, aangesloten gebouwen, warmtebronnen, status. Wettelijke grondslag via Wcw. Zou onder een nieuw beleidsdomein Energie (taakveld 7) passen. | open |
@@ -72,6 +72,13 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 57 | Inkomen | Draagkracht | definitie | GGM-definitie bevat vraagtekens ("(?) voor de bijzondere bijstand(?)") en informeel taalgebruik ("een ingewikkelde berekening"). Voorstel: "Het berekende deel van het inkomen en vermogen van een inwoner dat beschikbaar is om zelf in noodzakelijke kosten te voorzien, bepalend voor het recht op bijzondere bijstand." | open |
 | 58 | Inkomen | Periodiek dienst Bijz. bijstand | structuur | GGM markeert deze entiteit zelf als redundant ("Dit concept is redundant met leveringscomponenten in een leveringsspecificatie"). Bevestigd door analyse: bijzondere bijstand is een Inkomensvoorzieningsoort, niet een aparte entiteit. | open |
 
+| 59 | BAG / Kern | Ligplaats, Standplaats, Pand, Verblijfsobject, Nummeraanduiding, OpenbareRuimte, Woonplaats, Wijk, Buurt, Gemeente | duplicaat | Alle 10 BAG-entiteiten bestaan als duplicaat in beleidsdomein RSGBPlus (zelfde taakveld 99 Kern). RSGBPlus-varianten gebruiken domein-geprefixte attribuutnamen (bijv. pandidentificatie vs identificatie), hebben minder attributen, en voegen soms IMGeo-identificatie of inOnderzoek toe. Advies: samenvoegen tot één entiteit per concept. | open |
+| 60 | Musea / BAG | Standplaats | homoniem | GGM-entiteitnaam "Standplaats" wordt in 3 beleidsdomeinen gebruikt voor 2 verschillende concepten: BAG/RSGBPlus (terrein voor woonwagen, adresseerbaar object) vs Musea (locatie voor verkoop van goederen/diensten met fysieke middelen). Advies: hernoeming Musea-variant naar bijv. "TentoonstellingsStandplaats" of "VerkoopStandplaats". | open |
+| 61 | BRP / Kern | Reisdocument | definitie | GGM-definitie "Een document dat vereist is voor reizen naar het buitenland" dekt niet de Nederlandse identiteitskaart, die in de BRP ook als reisdocument wordt geregistreerd maar primair dient als identiteitsbewijs. Suggestie: "Een door de overheid uitgegeven identiteits- of reisdocument." | open |
+| 62 | BRK / Kern | Publiekrechtelijke Beperking | hiaat | Beperkingsbesluit van een bestuursorgaan op een onroerende zaak (WKPB). Gemeente is bronhouder. Concrete registratie in BRK-PB met levenscyclus (oorspronkelijk besluit → wijziging → beëindiging/herroeping). Eigen identificatie. Past in RSGBPlus (99 Kern). | open |
+| 63 | BRK / Kern | Stuk | hiaat | Brondocument in openbare registers van het Kadaster. Authentieke gegevens: deel-en-nummer, tijdstip aanbieding. Alle BRK-bijwerkingen traceren naar stukken. Twee subtypes: TerInschrijvingAangebodenStuk en Kadasterstuk. Past in RSGBPlus (99 Kern). | open |
+| 64 | BRK / Kern | Stukdeel | hiaat | Component van Stuk (compositie) met rechtsfeiten op basis waarvan de BRK wordt bijgewerkt. Eigen attributen (aard stukdeel). Alle BRK-objecten (zakelijk recht, tenaamstelling, kadastraal object) traceren naar stukdelen als grondslag. Past in RSGBPlus (99 Kern). | open |
+
 ## Typen
 
 | Type | Betekenis |
@@ -80,6 +87,8 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | **definitie** | Entiteit bestaat maar definitie is onjuist, onvolledig of geen begripsdefinitie |
 | **structuur** | Modellering is onhandig (verkeerde overerving, ontbrekende relatie, verkeerde granulariteit) |
 | **scope** | Entiteit hoort niet in dit beleidsdomein of ontbreekt in een ander |
+| **duplicaat** | Dezelfde entiteit (zelfde concept) bestaat met meerdere GUIDs in verschillende beleidsdomeinen → advies: samenvoegen |
+| **homoniem** | Dezelfde entiteitnaam wordt in verschillende beleidsdomeinen voor een ander concept gebruikt → advies: hernoemadvies |
 
 ## Status
 

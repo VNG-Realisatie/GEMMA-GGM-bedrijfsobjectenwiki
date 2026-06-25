@@ -37,7 +37,25 @@ Zoek in `Sources/GGM/` naar kandidaat-entiteiten:
 
 - Bij voorkeur **1-op-1 mapping** (beheerbaarheid, herkenbaarheid).
 - **Aggregatie** toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
-- Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt: maak één bedrijfsobject met alle GGM-bronnen.
+- Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt als hetzelfde concept: maak één bedrijfsobject met de thematisch passende GUID als primair en de overige in `ggm_duplicaat_entiteiten`. Meld als `duplicaat` terug.
+- Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: vermeld het homoniem in de body als waarschuwing. Meld als `homoniem` terug.
+
+## Stap 4b: GGM-duplicaten detecteren
+
+Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkomt.
+
+1. **Zoek in `ggm_parsed.json`** naar alle entiteiten met dezelfde naam als de gematchte entiteit.
+2. **Classificeer** elk voorkomen:
+   - **Duplicaat** (zelfde concept, andere GUID) — typisch BAG vs RSGBPlus, of dezelfde entiteit in verwante domeinen
+   - **Homoniem** (zelfde naam, ander concept) — bijv. Standplaats BAG vs Standplaats Musea (tentoonstellingsplek)
+3. **Kies de primaire GUID** — het beleidsdomein waar het BO thematisch thuishoort. Leg de keuze voor aan de gebruiker.
+4. **Vergelijk attributen** — als duplicaten afwijkende attributen hebben, beschrijf de verschillen.
+5. **Vul frontmatter:**
+   - `ggm_guid`: primaire GUID
+   - `ggm_duplicaat_entiteiten`: lijst van duplicaten (niet homoniemen)
+6. **Terugmelding:**
+   - Duplicaten → type `duplicaat` in `Wiki/Analyses/ggm-terugmeldingen.md`
+   - Homoniemen → type `homoniem` in `Wiki/Analyses/ggm-terugmeldingen.md`
 
 ## Stap 5: GGM-velden ophalen
 
@@ -68,24 +86,54 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
   - Als `ggm_definitie` te technisch of te breed is: herformuleer vanuit gemeentelijk perspectief (wat het voor de gemeente ís, niet hoe het technisch is gedefinieerd)
   - Documenteer afwijkingen t.o.v. de GGM-definitie in de body-sectie **BO-definitie**
 
-## Stap 6: Subtypes vastleggen
+### Disambiguatie (BO-naam ≠ GGM-entiteitnaam)
+
+Wanneer een BO een andere naam krijgt dan de GGM-entiteit (bijv. door naamconflict of verduidelijking):
+- `naam`: de GEMMA-naam (bijv. "Marktstandplaats")
+- `ggm_entiteit`: de originele GGM-entiteitnaam (bijv. "Standplaats") — behoudt de herleidbaarheid naar het GGM
+- `ggm_gemma_naam`: de GEMMA-naam (bijv. "Marktstandplaats") — de naam waarmee dit BO naar het ArchiMate-model en GEMMA Online wordt geëxporteerd
+
+Dit patroon geldt ook wanneer er geen GGM-match is maar het BO wel een herkenbare GEMMA-naam heeft: vul dan alleen `ggm_gemma_naam` met de GEMMA-naam en laat `ggm_entiteit` leeg.
+
+## Stap 6: Hiërarchie vastleggen (generalisatie, specialisaties, subtypes)
+
+Drie patronen, afhankelijk van de richting en of children aparte BO's zijn:
+
+### 6a. Generalisatie (opwaarts — dit BO is onderdeel van een hiërarchie)
+
+Gebruik `## Generalisatie` wanneer het BO onderdeel is van een conceptuele hiërarchie met andere BO's die dezelfde structuur delen (bijv. Gemeente → Woonplaats → Wijk → Buurt). Elk niveau is een zelfstandig BO.
+
+**Body:** `## Generalisatie`-sectie met:
+- De hiërarchie als keten met wiki-links (bijv. `[[Gemeente]] → [[Woonplaats]] → [[Wijk]] → **Buurt**`)
+- Welke kenmerken alle niveaus delen
+- Wat dit niveau onderscheidt
+
+**Frontmatter:** de relaties naar andere niveaus worden als `associatie` of `generalisatie` opgenomen in `relaties:`.
+
+### 6b. Specialisaties (neerwaarts — dit BO heeft children die wél aparte BO's zijn)
+
+Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met specialisaties die elk een eigen BO-pagina hebben (bijv. Sportlocatie → Sportpark, Binnenlocatie).
+
+**Body:** `## Specialisaties`-sectie met tabel (Subtype, Omschrijving, GGM-entiteit).
+
+**Frontmatter:** `generalisatie`-relaties in `relaties:` met `richting: van-dit-BO`. Elk child-BO heeft een corresponderende `generalisatie`-relatie met `richting: naar-dit-BO`.
+
+### 6c. Subtypes (neerwaarts — children zijn géén apart BO)
 
 Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (uitwisselbaar, zelfde register en processen):
 
-### 6a. Subtypes identificeren uit drie bronnen
+**Subtypes identificeren uit drie bronnen:**
 
 1. **Beleidsbronnen** — welke typen, categorieën of voorbeelden noemen de bronnen als aparte groep? Denk aan materiaaltypen (asfalt/beton/klinkers), functietypes (rijbaan/fietspad/voetpad), of specifieke modellen (Steegarmatuur). Als de bron het als apart type benoemt met eigen kenmerken (levensduur, inspectieregime, beheeraanpak), dan is het een subtype.
 2. **GGM type-attributen** — entiteiten met `type`, `typePlus`, `toestelgroep`, `materiaal`, of vergelijkbare classificatie-attributen hebben per definitie subtypes. Het GGM implementeert subtypes als attribuutwaarden — dat is een implementatiekeuze, geen reden om subtypes niet te benoemen.
 3. **GGM generalisatie-relaties** — aparte GGM-entiteiten die via generalisatie aan het BO-concept gerelateerd zijn. Let op: de GGM-hiërarchie kan afwijken van het beleidsperspectief (bijv. Brug zit onder Overbruggingsobject, niet onder Kunstwerk). Documenteer afwijkingen.
-
-### 6b. Subtypes vastleggen
 
 **Frontmatter:** `gemma_subtypes` met per subtype:
 - `naam`, `omschrijving`
 - `ggm_entiteit`, `ggm_guid` (de GGM-entiteit waar dit subtype bij hoort — dat kan het parent-BO zijn als het subtype een attribuutwaarde is, of een aparte entiteit)
 - `ggm_attribuut` (het GGM-attribuut dat het subtype draagt, leeg als het een aparte entiteit is)
 
-**Body:** `## Specialisaties`-sectie met tabel. Bij afwijking tussen beleids- en GGM-hiërarchie: toelichting onder de tabel.
+**Body:** `## Subtypes`-sectie met lijst. Bij afwijking tussen beleids- en GGM-hiërarchie: toelichting onder de lijst.
 
 ## Stap 7: BO-relaties afleiden
 
@@ -108,8 +156,11 @@ Plaats in `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` — folderstructuu
 Body-secties volgens template:
 - **BO-criteria toetsing**: welke criteria zijn van toepassing
 - **Beschrijving**: het BO op het niveau waarop de gemeente erover praat
-- **Specialisaties** (optioneel): tabel met subtypes
+- **Generalisatie** (optioneel): positie in opwaartse hiërarchie van BO's met gedeelde structuur
+- **Specialisaties** (optioneel): tabel met children-BO's (aparte BO-pagina's)
+- **Subtypes** (optioneel): lijst met subtypes die geen apart BO zijn
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, matchsterkte
+- **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/bedrijfsobject.md` voor format.
 - **BO-definitie**: alleen als eigen definitie afwijkt van GGM
 - **Relaties**: afgeleid van GGM-associaties of beleidsbronnen
 - **Bedrijfsprocessen** en **Bedrijfsfuncties**

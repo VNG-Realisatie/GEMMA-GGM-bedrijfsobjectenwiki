@@ -6,7 +6,8 @@
 - [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid (afgerond, 10 BO's)
-- [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
+- [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
+- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK en NHR: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging (in behandeling, 23 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -39,8 +40,24 @@
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling|gemeenschappelijke-regeling]] — Publiekrechtelijke samenwerkingsconstructie op basis van Wgr
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|partijsubsidie]] — Door gemeente verstrekte subsidie aan decentrale politieke partij ter versterking partijorganisatie (procesobject, GGM-hiaat)
 
+### Basisregistraties — BAG (GGM taakveld 99 Kern, beleidsdomein BAG)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/pand|pand]] — Bouwkundig-constructief zelfstandige eenheid, geregistreerd in de BAG (GGM Pand, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject|verblijfsobject]] — Eenheid van gebruik binnen pand(en), geregistreerd in de BAG (GGM Verblijfsobject, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats|woonplaats]] — Aangewezen en benoemd gedeelte van het grondgebied (GGM Woonplaats, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte|openbare-ruimte]] — Benoemde buitenruimte binnen één woonplaats (GGM OpenbareRuimte, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding|nummeraanduiding]] — Formeel adres: huisnummer + postcode (GGM Nummeraanduiding, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|standplaats-bag]] — Aangewezen terrein voor verplaatsbare ruimte/woonwagen (GGM Standplaats BAG, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente|gemeente]] — Grondwettelijk ingesteld gedeelte van Nederland (GGM Gemeente, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk|wijk]] — Gebiedsdeel op sociaal-geografische kenmerken (GGM Wijk, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt|buurt]] — Gebiedsdeel op topografische elementen (GGM Buurt, exact)
+
+### Basisregistraties — NHR (GGM taakveld 99 Kern, RSGB Model)
+- [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit|maatschappelijke-activiteit]] — Activiteit van een persoon of organisatie, geregistreerd met KVK-nummer (GGM MaatschappelijkeActiviteit, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon|niet-natuurlijk-persoon]] — Organisatie met rechtspersoonlijkheid: BV, NV, stichting, vereniging (GGM NietNatuurlijkPersoon, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging|vestiging]] — Locatie waar activiteiten worden uitgeoefend, met vestigingsnummer (GGM Vestiging, exact)
+
 ### Economie (GGM taakveld 3 + Musea taakveld 5)
-- [[Wiki/Bedrijfsobjecten/3-economie/economie/standplaats|standplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (GGM Standplaats, Musea, sterk)
+- [[Wiki/Bedrijfsobjecten/3-economie/economie/marktstandplaats|marktstandplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/warenmarkt|warenmarkt]] — Periodieke georganiseerde verkoop op aangewezen locatie (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf|horecabedrijf]] — Bedrijf voor eten, drinken en/of logies (Vestiging RSGB, partieel)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel|hotel]] — Verblijfsaccommodatie met subtypes concept/doelgroep/mini (GGM Hotel, exact)
@@ -430,6 +447,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
+- [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]] — KvK: gegevenscatalogus Handelsregister, Handelsregisterwet 2007, Handelsregisterbesluit 2008
 
 ### Asiel en Integratie
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen|Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid]] — Divosa: financieel ontzorgen statushouders, wettelijk kader, uitvoering, praktijkvoorbeelden

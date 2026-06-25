@@ -13,7 +13,7 @@ Het kader is bewust op hoofdlijnen gehouden om flexibel te kunnen inspelen op de
 
 ## Kernbegrippen
 
-- **[[standplaats]]** — expliciet gedefinieerd conform APV: "het vanaf een vaste plaats op een openbare en in de openlucht gelegen plaats te koop aanbieden, verkopen, afleveren of promoten van goederen dan wel diensten, gebruikmakend van verplaatsbare fysieke middelen." Gereguleerd via branchering, maximumstelsel (102 standplaatsen in Utrecht), en selectievoorwaarden.
+- **[[Marktstandplaats]]** — expliciet gedefinieerd conform APV: "het vanaf een vaste plaats op een openbare en in de openlucht gelegen plaats te koop aanbieden, verkopen, afleveren of promoten van goederen dan wel diensten, gebruikmakend van verplaatsbare fysieke middelen." Gereguleerd via branchering, maximumstelsel (102 standplaatsen in Utrecht), en selectievoorwaarden.
 - **[[warenmarkt]]** — gereguleerd via Marktverordening. Utrecht kent 12 bestaande warenmarkten (dag- en weekmarkten) plus themamarkten (bloemenmarkt, lapjesmarkt, boerenmarkt, antiekmarkt). Een markt is gedefinieerd als 6 of meer standplaatsen.
 - **Winkelgebied** — hiërarchisch: binnenstad, stadsdeelcentra (Overvecht, Kanaleneiland), wijk-/buurtcentra. Aangewezen in omgevingsplan/bestemmingsplan.
 - **Ambulante handel** — overkoepelend voor warenmarkten en standplaatsen.
@@ -22,7 +22,7 @@ Het kader is bewust op hoofdlijnen gehouden om flexibel te kunnen inspelen op de
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Twee concrete BO-kandidaten: [[standplaats]] (APV-geregistreerd, vergunningsplichtig, gebrancheerd) en [[warenmarkt]] (Marktverordening-gereguleerd, eigen locatie en frequentie). Beide zijn dataobjecten die gemeenten registreren en beheren.
+Twee concrete BO-kandidaten: [[Marktstandplaats]] (APV-geregistreerd, vergunningsplichtig, gebrancheerd) en [[warenmarkt]] (Marktverordening-gereguleerd, eigen locatie en frequentie). Beide zijn dataobjecten die gemeenten registreren en beheren.
 
 Overige begrippen (winkelgebied, ambulante handel, branchering) zijn planologische/beleidsconcepten zonder zelfstandig registratiekarakter.
 

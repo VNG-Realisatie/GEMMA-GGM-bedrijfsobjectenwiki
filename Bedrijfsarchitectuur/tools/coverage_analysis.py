@@ -72,6 +72,24 @@ def extract_parents(content, bo_name):
     return parents
 
 
+def extract_specialisaties(content):
+    """Extract child-BO names from ## Specialisaties body section.
+
+    These are BO's that ARE separate BO pages (unlike Subtypes which are not).
+    Returns set of BO names found as wiki-links in the table.
+    """
+    children = set()
+    sec = re.search(r'## Specialisaties\s*\n(.*?)(?=\n##|\Z)', content, re.S)
+    if not sec:
+        return children
+    text = sec.group(1)
+    for m in re.finditer(r'\[\[(?:Wiki/[^|]*?\|)?([^\]]+?)\]\]', text):
+        name = m.group(1).strip()
+        if name and name.lower() not in ('subtype', 'omschrijving', 'ggm-entiteit'):
+            children.add(name)
+    return children
+
+
 def extract_subtypes(content):
     """Extract subtypes from ## Subtypes or ## Specialisaties body section.
 
@@ -110,6 +128,7 @@ domain_topics = defaultdict(set)
 parent_map = {}
 subtype_map = {}
 component_map = {}
+specialisatie_map = {}
 bos_per_topic = defaultdict(int)
 
 for bo_file in BO_DIR.rglob("*.md"):
@@ -121,7 +140,7 @@ for bo_file in BO_DIR.rglob("*.md"):
         bo_naam = fm.get('naam', bo_file.stem)
 
         # Tel alle BOs per onderwerp (ongeacht GGM-koppeling)
-        domein = fm.get('domein', [])
+        domein = fm.get('domein', fm.get('onderwerp', []))
         if isinstance(domein, list):
             for d in domein:
                 bos_per_topic[d] += 1
@@ -140,17 +159,20 @@ for bo_file in BO_DIR.rglob("*.md"):
             subtype_map[st] = bo_naam
         for comp in extract_components(content):
             component_map[comp] = bo_naam
+        for child in extract_specialisaties(content):
+            specialisatie_map[child] = bo_naam
         if ggm_taakveld and ggm_beleidsdomein:
             dk = (ggm_taakveld, ggm_beleidsdomein)
-            if isinstance(domein, list):
-                for d in domein:
+            onderwerp = fm.get('onderwerp', domein)
+            if isinstance(onderwerp, list):
+                for d in onderwerp:
                     domain_topics[dk].add(d)
-            elif domein:
-                domain_topics[dk].add(str(domein))
+            elif onderwerp:
+                domain_topics[dk].add(str(onderwerp))
     except Exception as e:
         print(f"  Error: {bo_file.name}: {e}")
 
-print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} generalisaties, {len(subtype_map)} subtypes, {len(component_map)} componenten")
+print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} generalisaties, {len(subtype_map)} subtypes, {len(component_map)} componenten, {len(specialisatie_map)} specialisaties")
 
 print("Loading begrippentabel assessments...")
 begrip_no_bo = {}

@@ -1,5 +1,58 @@
 # Wiki Log
 
+## [2026-06-25] ingest | Basisregistraties — Gegevenscatalogus NHR 3.0.4
+- **Bron:** Gegevenscatalogus Handelsregister v3.0.4 (KvK / Ministerie van EZK), Handelsregisterwet 2007, Handelsregisterbesluit 2008
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]]
+- **Begrippen:** 7 nieuwe begrippen in onderwerpoverzicht [[Wiki/Onderwerpoverzichten/basisregistraties|Basisregistraties]] (3 BO's + 4 niet-BO's: Onderneming, Rechtspersoon, Handelsnaam, SBI-code, UBO, Functionaris, Faillissement)
+- **Nieuwe BO's (3):** [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit|Maatschappelijke Activiteit]], [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon|Niet-Natuurlijk Persoon]], [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging|Vestiging]]
+- **GGM-matching:** 3 exact match op RSGB Model Kern (MaatschappelijkeActiviteit, NietNatuurlijkPersoon, Vestiging). Geen GGM-hiaten.
+- **bo_count:** 161 → 164
+
+## [2026-06-25] ingest | Basisregistraties — Catalogus BRK 2020
+- **Bron:** Catalogus Basisregistratie Kadaster versie 1.0 (Het Kadaster, 10 december 2020, PDF 35 pagina's)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/catalogus-brk|Catalogus BRK 2020]]
+- **Begrippen:** 14 nieuwe begrippen in onderwerpoverzicht [[Wiki/Onderwerpoverzichten/basisregistraties|Basisregistraties]] (8 BO's + 6 niet-BO's)
+- **Nieuwe BO's (8):** [[Wiki/Bedrijfsobjecten/99-kern/brk/kadastraal-perceel|Kadastraal Perceel]], [[Wiki/Bedrijfsobjecten/99-kern/brk/appartementsrecht|Appartementsrecht]], [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht|Zakelijk Recht]], [[Wiki/Bedrijfsobjecten/99-kern/brk/tenaamstelling|Tenaamstelling]], [[Wiki/Bedrijfsobjecten/99-kern/brk/zekerheidsrecht|Zekerheidsrecht]], [[Wiki/Bedrijfsobjecten/99-kern/brk/publiekrechtelijke-beperking|Publiekrechtelijke Beperking]], [[Wiki/Bedrijfsobjecten/99-kern/brk/stuk|Stuk]], [[Wiki/Bedrijfsobjecten/99-kern/brk/stukdeel|Stukdeel]]
+- **GGM-matching:** 5 exact match op RSGBPlus (KadastraalPerceel, Appartementsrecht, ZakelijkRecht, Tenaamstelling, Zekerheidsrecht), 3 GGM-hiaten (Publiekrechtelijke Beperking, Stuk, Stukdeel)
+- **Terugmeldingen:** #62 (Publiekrechtelijke Beperking hiaat), #63 (Stuk hiaat), #64 (Stukdeel hiaat)
+- **bo_count:** 153 → 161
+
+## [2026-06-25] ingest | Basisregistraties — Logisch Ontwerp BRP 2025.Q1
+- **Bron:** Logisch Ontwerp BRP Versie 2025.Q1 (RvIG/BZK, 1 januari 2025, PDF 765 pagina's)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/logisch-ontwerp-brp-2025q1|Logisch Ontwerp BRP 2025.Q1]]
+- **Begrippen:** 10 nieuwe begrippen in onderwerpoverzicht [[Wiki/Onderwerpoverzichten/basisregistraties|Basisregistraties]] (3 BO's + 2 subtypes + 5 niet-BO's)
+- **Nieuwe BO's (3):** [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon|Ingeschreven Persoon]], [[Wiki/Bedrijfsobjecten/99-kern/brp/huwelijk|Huwelijk]], [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument|Reisdocument]]
+- **GGM-matching:** alle 3 exact match op RSGBPlus-entiteiten (Ingezetene, SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap, Reisdocument)
+- **GGM-componenten bij Ingeschreven Persoon:** 9 detailentiteiten (nationaliteit, geboorte, overlijden, migratie, verblijfadres, verblijfstitel, verstrekkingsbeperking, naamgebruik, samengesteldenaam)
+- **Niet-BO's:** Nationaliteit, Verblijfstitel, Gezagsverhouding, Kiesrecht, Overlijden (allen eigenschap/status van persoon)
+- **Terugmelding:** #61 (definitie Reisdocument dekt niet ID-kaart)
+- **bo_count:** 150 → 153
+
+## [2026-06-25] coverage | GGM-dekkingsanalyse bijgewerkt
+- **Script:** `coverage_analysis.py` — volledige analyse alle beleidsdomeinen
+- **Resultaat:** 954 objecttype-entiteiten, 150 BO's, 758 niet beoordeeld
+- **Output:** [[Wiki/Analyses/ggm-dekking|GGM-dekkingsanalyse]]
+
+## [2026-06-25] GGM-duplicaten — BAG/RSGBPlus conventie en doorvoering
+- **Conventie vastgelegd:**
+  - Template: `ggm_duplicaat_entiteiten` frontmatter-veld + `## GGM-duplicaten` body-sectie
+  - Skill write-bo: stap 4b voor duplicaat-detectie, classificatie (duplicaat vs homoniem), primaire GUID-keuze
+  - Skill lint: checks op duplicaat-frontmatter en -body consistentie
+  - Terugmeldingen: nieuwe typen `duplicaat` (samenvoeg-advies) en `homoniem` (hernoemadvies)
+- **Doorgevoerd voor 10 BAG-BO's:** Pand, Verblijfsobject, Woonplaats, Openbare Ruimte, Nummeraanduiding, Standplaats (BAG), Ligplaats, Gemeente, Wijk, Buurt — alle met RSGBPlus-duplicaat; Standplaats ook met Musea-homoniem
+- **Terugmeldingen:** #59 (structureel BAG/RSGBPlus duplicaat, 10 entiteiten) en #60 (homoniem Standplaats BAG vs Musea)
+
+## [2026-06-25] ingest | Basisregistraties — Catalogus BAG 2018
+- **Bron:** Catalogus BAG 2018 (Ministerie van BZK, 29 maart 2018)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bag-2018|Catalogus BAG 2018]]
+- **Begrippen:** 13 begrippen in nieuw onderwerpoverzicht [[Wiki/Onderwerpoverzichten/basisregistraties|Basisregistraties]]
+- **Nieuwe BO's (8):** [[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]], [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject|Verblijfsobject]], [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats|Woonplaats]], [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte|Openbare Ruimte]], [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding|Nummeraanduiding]], [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]], [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente|Gemeente]], [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk|Wijk]], [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt|Buurt]]
+- **Bestaande BO's aangepast:**
+  - Ligplaats: onderwerp uitgebreid met Basisregistraties/BAG, bronverwijzing toegevoegd
+  - Standplaats (Economie) → hernoemd naar [[Wiki/Bedrijfsobjecten/3-economie/economie/marktstandplaats|Marktstandplaats]]: GGM-match gecorrigeerd (was foutief gematcht op BAG Standplaats), grondslag gewijzigd naar procesobject
+- **Wiki-links bijgewerkt:** warenmarkt, bronsamenvattingen Economie, onderwerpoverzicht Economie
+- **GGM-dekking:** alle 9 BO's exact match op GGM BAG-beleidsdomein (13 entiteiten); Marktstandplaats is nieuw geïdentificeerd GGM-hiaat
+
 ## [2026-06-25] ingest | Bestuur — Implementatiehandleiding Model Participatieverordening 2024
 - **Bron:** Implementatiehandleiding VNG Model Participatieverordening 2024 (VNG, december 2024, PDF)
 - **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-model-participatieverordening-2024|Implementatiehandleiding Model Participatieverordening 2024]]
