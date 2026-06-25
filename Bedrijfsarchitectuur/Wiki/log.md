@@ -1,5 +1,32 @@
 # Wiki Log
 
+## [2026-06-25] ingest | Openbare Gezondheid — Kerntaken infectieziektebestrijding
+
+- **Bron:** Adviesrapport De Kerntaken van de Infectieziektebestrijding (GGD GHOR Nederland, september 2022, PDF 509 regels)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestrijding|Kerntaken infectieziektebestrijding]]
+- **Begrippen:** 7 nieuwe begrippen in onderwerpoverzicht (1 BO + 6 niet-BO's: infectieziektemelding, BCO, surveillance, outbreak management, vangnetfunctie, risicoprofiel, opschalingsplan)
+- **Nieuw BO (1):** [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/infectieziektemelding|Infectieziektemelding]] — procesobject, GGM-hiaat, 6/6 criteria, Wpg meldingsplicht
+- **GGM-terugmelding:** #65 — Infectieziektemelding als specialisatie van AanvraagOfMelding; taakveld 7 mist beleidsdomein Volksgezondheid
+- **Perspectief:** gemeente is opdrachtgever GGD, niet uitvoerder. Meeste IZB-begrippen zijn GGD-processen, buiten gemeentelijke scope.
+- **bo_count:** +1
+
+## [2026-06-25] ingest | Openbare Gezondheid — herziening en BO Gemeentebegrafenis
+
+- **Bronnen:** 6 bronnen (4 VNG-portaalpagina's, Utrechts gezondheidsbeleid, Uitvoeringsprogramma mentale gezondheid). 2 eerder naar Niet-relevant verplaatst.
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie]] bijgewerkt — bronnenlijst aangevuld, BO-conclusie herzien
+- **GGM-analyse:** Taakveld 7 bevat alleen Afval; Gemeentebegrafenissen zit onder taakveld 6 (Sociaal Domein). Geen volksgezondheid-specifieke entiteiten in het GGM.
+- **Nieuw BO (1):** [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis|Gemeentebegrafenis]] — 6/6 criteria, GGM exact match, art. 21 Wet op de lijkbezorging
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/openbare-gezondheid|Openbare Gezondheid]] bijgewerkt — status open (onvoldoende bronnen), 9 begrippen, 1 BO. Ontbrekende bronnen gesignaleerd (begraafplaatsbeheer, infectieziektebestrijding, milieugezondheid, hygiënetoezicht, lijkschouw).
+- **bo_count:** +1
+
+## [2026-06-25] ingest | Informatiesamenleving — alle bronnen niet-relevant
+
+- **Bronnen:** 14 VNG-portaalpagina's (ai-en-algoritmen, archieven, data-en-samenleving, digital-decade, digitale-autonomie, digitale-identiteit, digitale-veiligheid-en-privacy, federatief-datastelsel, generieke-digitale-infrastructuur-gdi, innovatie-en-trends, regie-op-de-digitale-samenleving, rubriek-informatiesamenleving, standaarden, wet-open-overheid)
+- **Beoordeling:** Alle bronnen zijn governance/strategie op VNG-niveau, geen concrete gemeentelijke registraties of objecttypen
+- **Resultaat:** 0 bronsamenvattingen, 0 begrippen, 0 BO's. 14 bronnen → Niet-relevant
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/informatiesamenleving|Informatiesamenleving]] aangemaakt (afgerond)
+- **Signalering:** Woo-verzoek, Algoritmeregistratie en Datalek potentieel BO bij rijkere bronnen
+
 ## [2026-06-25] ingest | Basisregistraties — Gegevenscatalogus NHR 3.0.4
 - **Bron:** Gegevenscatalogus Handelsregister v3.0.4 (KvK / Ministerie van EZK), Handelsregisterwet 2007, Handelsregisterbesluit 2008
 - **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]]

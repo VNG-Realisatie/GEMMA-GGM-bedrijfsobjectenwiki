@@ -32,9 +32,9 @@ Deze bronsamenvatting bundelt zes bronnen over het domein openbare gezondheid: v
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Dit domein levert **geen BO-kandidaten** op. Alle begrippen zijn thema's (mentale gezondheid, preventie), instrumenten (GALA, IZA, preventieakkoord), actoren (GGD, JGZ) of activiteiten (monitoring, screening). Dit past bij het patroon dat beleidsdomeinen die gaan over processen en governance structureel buiten de scope van het bedrijfsobjectenmodel vallen.
+Dit domein levert één BO-kandidaat op: **gemeentebegrafenis** — de wettelijke taak van de gemeente wanneer niemand anders in de lijkbezorging voorziet (art. 21 Wet op de lijkbezorging). Het GGM heeft een exacte entiteit hiervoor (beleidsdomein Gemeentebegrafenissen, taakveld 6).
 
-Het enige potentiële object — begraafplaats — valt onder Beheer Openbare Ruimte (IMBOR kent Begraafplaats als entiteit), niet onder Openbare Gezondheid.
+De overige begrippen zijn thema's (mentale gezondheid, preventie), instrumenten (GALA, IZA, preventieakkoord), actoren (GGD, JGZ) of activiteiten (monitoring, screening). Het domein is met de huidige bronnen arm aan BO-kandidaten, maar dit is eerder een bronnenprobleem dan een domeinprobleem — aanvullende bronnen over infectieziektebestrijding, milieugezondheid, hygiënetoezicht en begraafplaatsbeheer zouden meer objecten kunnen opleveren.
 
 ## Relevante citaten
 
@@ -49,3 +49,8 @@ Het enige potentiële object — begraafplaats — valt onder Beheer Openbare Ru
 ## Bronnen
 
 - [[Sources/Onderwerpen/Openbare Gezondheid/gezondheidsbeleid]]
+- [[Sources/Onderwerpen/Openbare Gezondheid/gezond-en-actief-leven]]
+- [[Sources/Onderwerpen/Openbare Gezondheid/gezondheidsbeleid-utrecht]]
+- [[Sources/Onderwerpen/Openbare Gezondheid/lokale-preventieakkoorden]]
+- [[Sources/Onderwerpen/Openbare Gezondheid/uitvoeringsprogramma-mentale-gezondheid]]
+- [[Sources/Onderwerpen/Openbare Gezondheid/wet-op-de-lijkbezorging]]

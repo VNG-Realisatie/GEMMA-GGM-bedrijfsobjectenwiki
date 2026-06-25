@@ -78,6 +78,7 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 62 | BRK / Kern | Publiekrechtelijke Beperking | hiaat | Beperkingsbesluit van een bestuursorgaan op een onroerende zaak (WKPB). Gemeente is bronhouder. Concrete registratie in BRK-PB met levenscyclus (oorspronkelijk besluit → wijziging → beëindiging/herroeping). Eigen identificatie. Past in RSGBPlus (99 Kern). | open |
 | 63 | BRK / Kern | Stuk | hiaat | Brondocument in openbare registers van het Kadaster. Authentieke gegevens: deel-en-nummer, tijdstip aanbieding. Alle BRK-bijwerkingen traceren naar stukken. Twee subtypes: TerInschrijvingAangebodenStuk en Kadasterstuk. Past in RSGBPlus (99 Kern). | open |
 | 64 | BRK / Kern | Stukdeel | hiaat | Component van Stuk (compositie) met rechtsfeiten op basis waarvan de BRK wordt bijgewerkt. Eigen attributen (aard stukdeel). Alle BRK-objecten (zakelijk recht, tenaamstelling, kadastraal object) traceren naar stukdelen als grondslag. Past in RSGBPlus (99 Kern). | open |
+| 65 | Openbare Gezondheid | Infectieziektemelding | hiaat | Melding van een meldingsplichtige infectieziekte conform Wpg, met levenscyclus melding → verificatie → BCO → bestrijdingsmaatregelen → afsluiting. Past als specialisatie van AanvraagOfMelding. Taakveld 7 mist een beleidsdomein Volksgezondheid/Infectieziektebestrijding; alleen Afval is gemodelleerd. | open |
 
 ## Typen
 

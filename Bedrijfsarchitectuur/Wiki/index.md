@@ -20,7 +20,7 @@
 - [[evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
 - [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
-- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, lijkbezorging (afgerond, 0 BO's)
+- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging (open — onvoldoende bronnen, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
 - [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, buurtteams, jeugdbescherming, dakloosheid (afgerond, 9 BO's)
 - [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
@@ -30,6 +30,7 @@
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 - [[omgevingswet|omgevingswet]] — Vergunningverlening, toezicht en handhaving in de fysieke leefomgeving (in behandeling, 4 BO's)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
+- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: alle bronnen governance/strategie, geen BO's (afgerond, 0 BO's)
 
 ## Bedrijfsobjecten
 
@@ -322,6 +323,12 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner|signaalpartner]] — Organisatie bevoegd tot melden betalingsachterstanden (GGM exact, actor)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpoging|contactpoging]] — Actie om inwoner te bereiken naar aanleiding van vroegsignaal (GGM exact)
 
+### Openbare Gezondheid — Gemeentebegrafenissen (GGM taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis|gemeentebegrafenis]] — Uitvaart die de gemeente verzorgt als niemand anders in lijkbezorging voorziet (GGM exact)
+
+### Openbare Gezondheid — Infectieziektebestrijding (procesobject, taakveld 7 — GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/infectieziektemelding|infectieziektemelding]] — Melding meldingsplichtige infectieziekte conform Wpg (procesobject, GGM-hiaat)
+
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
 
@@ -527,6 +534,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ### Openbare Gezondheid
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie — VNG en gemeente Utrecht]] — VNG + gemeente Utrecht: gezondheidsbeleid, GALA/IZA, preventieakkoorden, mentale gezondheid, lijkbezorging
+- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestrijding|De kerntaken van de infectieziektebestrijding]] — GGD GHOR Nederland: 7 kerntaken IZB, meldingsplicht Wpg, bron- en contactonderzoek, outbreak management
 
 ### Dierenwelzijn
 - [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)

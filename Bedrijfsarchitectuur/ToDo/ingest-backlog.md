@@ -94,20 +94,22 @@ Status: 139 bronnen in 22 batches.
 
 > **Afgehandeld:** 2 portaalpagina's naar Niet-relevant (inhoud gedekt door 4 eerder verwerkte raadgever-bronsamenvattingen). Onderwerpoverzicht bijgewerkt. 10 BO's uit GGM-beleidsdomein Financien (taakveld 9), 20 begrippen. Geen nieuwe BO's.
 
-## Informatiesamenleving (13)
-- [ ] ai-en-algoritmen
-- [ ] archieven
-- [ ] data-en-samenleving
-- [ ] digital-decade
-- [ ] digitale-autonomie
-- [ ] digitale-identiteit
-- [ ] digitale-veiligheid-en-privacy
-- [ ] federatief-datastelsel
-- [ ] generieke-digitale-infrastructuur-gdi
-- [ ] innovatie-en-trends
-- [ ] regie-op-de-digitale-samenleving
-- [ ] rubriek-informatiesamenleving
-- [ ] wet-open-overheid
+## ~~Informatiesamenleving (13)~~ ✓
+- [x] ai-en-algoritmen
+- [x] archieven
+- [x] data-en-samenleving
+- [x] digital-decade
+- [x] digitale-autonomie
+- [x] digitale-identiteit
+- [x] digitale-veiligheid-en-privacy
+- [x] federatief-datastelsel
+- [x] generieke-digitale-infrastructuur-gdi
+- [x] innovatie-en-trends
+- [x] regie-op-de-digitale-samenleving
+- [x] rubriek-informatiesamenleving
+- [x] wet-open-overheid
+
+> **Afgehandeld:** 14 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. Potentiële BO's bij rijkere bronnen: Woo-verzoek, Algoritmeregistratie, Datalek. Domein afgerond: 0 bronsamenvattingen, 14 niet-relevant, 0 begrippen, 0 BO's.
 
 ## ~~Maatschappelijke Ondersteuning (16)~~ ✓
 - [x] aanpak-dakloosheid
@@ -150,12 +152,17 @@ Status: 139 bronnen in 22 batches.
 ## Onderwijs (1)
 - [ ] soorten-kinderopvang
 
-## Openbare Gezondheid (5)
-- [ ] gezond-en-actief-leven
-- [ ] gezondheidsbeleid-utrecht
-- [ ] lokale-preventieakkoorden
-- [ ] uitvoeringsprogramma-mentale-gezondheid
-- [ ] wet-op-de-lijkbezorging
+## ~~Openbare Gezondheid (5)~~ ✓
+- [x] gezond-en-actief-leven
+- [x] gezondheidsbeleid-utrecht
+- [x] lokale-preventieakkoorden
+- [x] uitvoeringsprogramma-mentale-gezondheid
+- [x] wet-op-de-lijkbezorging
+
+> **Afgehandeld:** Alle bronnen gebundeld in bestaande bronsamenvatting. 1 nieuw BO: Gemeentebegrafenis (GGM exact). Domein open — onvoldoende bronnen voor volledig beeld; aanvullende bronnen nodig over begraafplaatsbeheer, infectieziektebestrijding, milieugezondheid, hygiënetoezicht.
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] kerntaken-infectieziektebestrijding (GGD GHOR Nederland, PDF, adviesrapport 7 kerntaken IZB) → 1 BO: Infectieziektemelding (procesobject, GGM-hiaat)
 
 ## Openbare Orde en Veiligheid (10)
 - [ ] aanpak-radicalisering
@@ -227,6 +234,9 @@ Status: 139 bronnen in 22 batches.
 
 ## Basisregistraties — RSGBPlus overig
 - [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten, IMGeo/BGT)
+
+basisregistratie BGT
+- [ ] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/
 
 ## ~~Werk en Inkomen (7 + 5 + 1 aanvullend)~~ ✓
 - [x] arbeidsmarktbeleid → Niet-relevant
