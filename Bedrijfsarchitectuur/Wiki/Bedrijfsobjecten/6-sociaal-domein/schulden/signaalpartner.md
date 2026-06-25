@@ -51,3 +51,4 @@ Signaalpartners zijn dienstverleners met een maatschappelijk belang die wettelij
 
 ## Bronnen
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028]]
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/vroegsignaleringsaanpak-gemeenten-divosa-2024]]

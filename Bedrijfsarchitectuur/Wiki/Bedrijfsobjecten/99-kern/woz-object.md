@@ -36,6 +36,11 @@ relaties:
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
     beschrijving: "Een WOZ-object heeft per waardepeildatum een WOZ-waarde"
+  - type: compositie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject|WOZ-deelobject]]"
+    richting: "van-dit-BO"
+    kardinaliteit: "1..*"
+    beschrijving: "Een WOZ-object bestaat uit een of meer deelobjecten"
   - type: associatie
     bedrijfsobject: Debiteur
     richting: bidirectioneel
@@ -67,7 +72,7 @@ De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden ge
 |---|---|---|---|
 | Heeft waarde | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|woz-waarde-bo]] | WOZ-object → WOZ-Waarde [0..*] | Geen |
 | Heeft belanghebbende | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|debiteur]] | WOZ-object → WOZ-Belang → Rechtspersoon | Ingekort: WOZ-Belang is tussenliggend (onderscheidt eigenaar/gebruiker) |
-| Bestaat uit | *(WOZ-deelobject)* | WOZ-object → WOZ-deelobject [1..*] | Deelobject niet als apart BO — te granulair voor bedrijfsniveau |
+| Bestaat uit | [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | WOZ-object → WOZ-deelobject [1..*] | — |
 | Gerelateerd aan kadaster | *(KadastraleOnroerendeZaak)* | WOZ-object → KadastraleOnroerendeZaak [0..*] | Kadastrale objecten zijn basisregistratie, geen apart BO |
 
 ## Bedrijfsprocessen

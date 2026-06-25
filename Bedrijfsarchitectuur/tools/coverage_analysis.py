@@ -152,6 +152,40 @@ for bo_file in BO_DIR.rglob("*.md"):
 
 print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} generalisaties, {len(subtype_map)} subtypes, {len(component_map)} componenten")
 
+print("Loading begrippentabel assessments...")
+begrip_no_bo = {}
+
+for ow_file in ONDERWERP_DIR.glob("*.md"):
+    try:
+        content = ow_file.read_text(encoding='utf-8')
+        sec = re.search(r'## Begrippen\s*\n(.*?)(?=\n##|\Z)', content, re.S)
+        if not sec:
+            continue
+        for line in sec.group(1).split('\n'):
+            if not line.strip().startswith('|') or '---' in line:
+                continue
+            cols = [c.strip() for c in line.split('|')]
+            if len(cols) < 9:
+                continue
+            begrip_raw = cols[1]
+            bo_col = cols[4]
+            reden = cols[6]
+            ggm_col = cols[8]
+            if '❌' not in bo_col:
+                continue
+            if ggm_col.lower().strip() != 'ja':
+                continue
+            name = re.sub(r'\[\[.*?\|([^\]]+?)\]\]', r'\1', begrip_raw)
+            name = re.sub(r'\[\[(.*?)\]\]', r'\1', name)
+            name = re.sub(r'\s*\(GGM\)\s*', '', name)
+            name = name.strip()
+            if name:
+                begrip_no_bo[name.lower()] = reden
+    except Exception as e:
+        print(f"  Error: {ow_file.name}: {e}")
+
+print(f"  Begrippentabel niet-BO met GGM=ja: {len(begrip_no_bo)}")
+
 print("Building wiki link lookups...")
 
 ggm_page_lookup = {}
@@ -207,7 +241,7 @@ print("Classifying entities...")
 
 domain_classified = {}
 for domain_key, entities in merged_by_domain.items():
-    bo, generalisaties, subtypes, componenten, not_assessed = [], [], [], [], []
+    bo, generalisaties, subtypes, componenten, begrip_afgewezen, not_assessed = [], [], [], [], [], []
     for ent in sorted(entities, key=lambda e: e['name']):
         name = ent['name']
         if ent['id'] in bo_guids:
@@ -220,6 +254,9 @@ for domain_key, entities in merged_by_domain.items():
             subtypes.append(f"↓ {name} (subtype van {subtype_map[name]})")
         elif name in component_map:
             componenten.append(f"◆ {name} (onderdeel van {component_map[name]})")
+        elif name.lower() in begrip_no_bo:
+            reason = begrip_no_bo[name.lower()]
+            begrip_afgewezen.append(f"✗ {name} ({reason})")
         else:
             not_assessed.append(name)
     domain_classified[domain_key] = {
@@ -227,6 +264,7 @@ for domain_key, entities in merged_by_domain.items():
         'generalisaties': generalisaties,
         'subtypes': subtypes,
         'componenten': componenten,
+        'begrip_afgewezen': begrip_afgewezen,
         'not_assessed': not_assessed,
     }
 
@@ -275,8 +313,8 @@ total_bo = sum(len(c['bo']) for c in domain_classified.values())
 total_gen = sum(len(c['generalisaties']) for c in domain_classified.values())
 total_sub = sum(len(c['subtypes']) for c in domain_classified.values())
 total_comp = sum(len(c['componenten']) for c in domain_classified.values())
+total_begrip = sum(len(c['begrip_afgewezen']) for c in domain_classified.values())
 total_not_assessed = sum(len(c['not_assessed']) for c in domain_classified.values())
-total_assessed_no_bo = total_gen + total_sub + total_comp
 
 lines.append("## Samenvattende statistieken")
 lines.append("")
@@ -288,6 +326,7 @@ lines.append(f"- **Bedrijfsobjecten vastgelegd:** {total_bo}")
 lines.append(f"- **Geen BO — generalisatie:** {total_gen}")
 lines.append(f"- **Geen BO — subtype:** {total_sub}")
 lines.append(f"- **Geen BO — component:** {total_comp}")
+lines.append(f"- **Geen BO — begrippentabel:** {total_begrip}")
 lines.append(f"- **Entiteiten niet beoordeeld:** {total_not_assessed}")
 lines.append("")
 
@@ -339,7 +378,7 @@ for tv, bd in all_keys:
         topic_col = "—"
 
     bo_str = ", ".join(cl['bo']) if cl['bo'] else "—"
-    no_bo_parts = cl['generalisaties'] + cl['subtypes'] + cl['componenten']
+    no_bo_parts = cl['generalisaties'] + cl['subtypes'] + cl['componenten'] + cl['begrip_afgewezen']
     nb_str = "<br>".join(no_bo_parts) if no_bo_parts else "—"
     na_str = ", ".join(cl['not_assessed']) if cl['not_assessed'] else "—"
 

@@ -65,3 +65,4 @@ Vroegsignalen worden afhankelijk van urgentie opgepakt via e-mail, kaartje, tele
 
 ## Bronnen
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028]]
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/vroegsignaleringsaanpak-gemeenten-divosa-2024]]

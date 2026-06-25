@@ -22,6 +22,11 @@ relaties:
     richting: naar-dit-BO
     kardinaliteit: "1..*"
     beschrijving: "Zaak bevat een of meer vroegsignalen"
+  - type: associatie
+    bedrijfsobject: "[[contactpoging]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Zaak heeft contactpogingen"
 bedrijfsprocessen: [vroegsignalering]
 bedrijfsfuncties: [financiële hulpverlening]
 ---
@@ -38,7 +43,6 @@ Een vroegsignaalzaak bundelt één of meer vroegsignalen van dezelfde inwoner en
 
 GGM-entiteiten die onderdeel zijn van de vroegsignaalzaak. Gemodelleerd als aparte entiteiten voor DDAS-rapportage maar vormen geen zelfstandig bedrijfsobject.
 
-- **Contactpoging** — actie om in contact te treden met de inwoner: soort (telefoon, huisbezoek, brief), bereikt (ja/nee), datum, dagdeel.
 - **AanleverendeOrganisatie** — organisatie die data aanlevert aan het CBS (gemeente of gemandateerde partij). Naam, KvK-nummer.
 
 ## GGM-bron
@@ -55,6 +59,8 @@ GGM-entiteiten die onderdeel zijn van de vroegsignaalzaak. Gemodelleerd als apar
 | Type | Bedrijfsobject | Kardinaliteit | Beschrijving |
 |---|---|---|---|
 | associatie | [[vroegsignaal\|Vroegsignaal]] | 1..* | Bundelt signalen |
+| associatie | [[contactpoging\|Contactpoging]] | 0..* | Heeft contactpogingen |
 
 ## Bronnen
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028]]
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/vroegsignaleringsaanpak-gemeenten-divosa-2024]]

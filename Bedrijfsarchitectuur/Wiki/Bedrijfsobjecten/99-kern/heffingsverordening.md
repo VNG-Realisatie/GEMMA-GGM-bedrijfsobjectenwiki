@@ -70,11 +70,38 @@ De heffingsverordening is het juridische instrument waarmee de gemeenteraad bela
 
 VNG-modelverordeningen dienen als basis; de gemeenteraad maakt per belastingtype keuzes binnen de wettelijke kaders.
 
+## Subtypes
+
+Herkende specialisaties van Heffingsverordening. Elke gemeente heeft een set verordeningen per belastingtype. Geen apart BO, tenzij anders vermeld.
+
+**Belastingverordeningen** (algemene belastingen):
+- **OZB-verordening** — twee tarieven: eigenaar en gebruiker; heffingsmaatstaf is WOZ-waarde
+- **Hondenbelastingverordening** — tarief per hond, eventueel kennel-tarief
+- **Reclamebelastingverordening** — tarief per openbare aankondiging, vaak gebiedsgericht
+- **Precariobelastingverordening** — tarief per voorwerp op openbare grond
+- **Parkeerbelastingverordening** — tarief incidenteel parkeren en vergunningen
+
+**Bestemmingsheffingsverordeningen**:
+- **Afvalstoffenverordening** — verordening voor afvalstoffenheffing (apart BO: [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening|Afvalstoffenverordening]])
+- **Rioolheffingverordening** — verordening voor riool- en waterzorgheffing
+- **BIZ-verordening** — verordening op verzoek ondernemers, met draagvlakmeting
+
+**Toeristische heffingsverordeningen**:
+- **Toeristenbelastingverordening** — tarief per overnachting
+- **Forensenbelastingverordening** — tarief voor verblijf >90 dagen niet-ingezetenen
+
+**Retributieverordeningen**:
+- **Legesverordening** — door de raad vastgestelde verordening voor de heffing van leges op gemeentelijke dienstverlening; gesloten circuit met voorziening om fluctuaties op te vangen
+- **Marktgeldverordening** — tarief per standplaats op markten
+- **Havengeldverordening** — tarief voor gebruik waterwegen en havens
+- **Lijkbezorgingsrechtenverordening** — tarief voor begraafplaats en crematorium
+
 ## Relaties
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Grondslag voor heffingen | [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] | Heffingsverordening → Heffinggrondslag ← Heffing | Ingekort: Heffinggrondslag is tussenliggend |
+| Bevat grondslagen | [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] | Heffingsverordening → Heffinggrondslag | — |
+| Grondslag voor heffingen | [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] | Heffingsverordening → Heffinggrondslag ← Heffing | Via Heffinggrondslag |
 | Specialisatie van | *(Document)* | Heffingsverordening → Document (generalisatie) | Document niet als apart BO |
 
 ## Bedrijfsprocessen
@@ -95,3 +122,4 @@ VNG-modelverordeningen dienen als basis; de gemeenteraad maakt per belastingtype
 - [[Wiki/Bronsamenvattingen/Belastingen/onroerendezaakbelastingen]]
 - [[Wiki/Bronsamenvattingen/Belastingen/retributies]]
 - [[Wiki/Bronsamenvattingen/Belastingen/reinigingsheffingen]]
+- [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft]]

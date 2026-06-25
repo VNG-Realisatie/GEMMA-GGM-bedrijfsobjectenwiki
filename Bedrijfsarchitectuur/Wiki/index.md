@@ -4,13 +4,13 @@
 
 - [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie (in behandeling, 5 BO's)
 - [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
-- [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 9 BO's)
-- [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid
+- [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
+- [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid (afgerond, 10 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, standplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
-- [[inburgering-en-asielopvang|inburgering-en-asielopvang]] — Asielopvang, inburgering statushouders, gemeentelijke rol in de asielketen
+- [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
-- [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 9 BO's)
+- [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
 - [[milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
 - [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
@@ -27,6 +27,8 @@
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
+- [[omgevingswet|omgevingswet]] — Vergunningverlening, toezicht en handhaving in de fysieke leefomgeving (in behandeling, 4 BO's)
+- [[werk-en-inkomen|werk-en-inkomen]] — Bijstandsverlening, bijzondere bijstand, inkomenstoeslagen, tijdelijke inkomensregelingen (afgerond, 2 BO's)
 
 ## Bedrijfsobjecten
 
@@ -76,8 +78,10 @@
 ### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern + VTH taakveld 1)
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|woz-waarde-bo]] — Vastgestelde waarde van een WOZ-object per waardepeildatum
-- [[Wiki/Bedrijfsobjecten/99-kern/heffing|heffing]] — Individuele vaststelling belastingbedrag (belastingaanslag), GGM Heffing (99 Kern)
-- [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|heffingsverordening]] — Juridische grondslag voor belastingheffing, GGM Heffingsverordening (1 VTH)
+- [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject|woz-deelobject]] — Afzonderlijk element van een WOZ-object voor onderbouwing waarde
+- [[Wiki/Bedrijfsobjecten/99-kern/heffing|heffing]] — Individuele vaststelling belastingbedrag (belastingaanslag), 18 subtypes per belastingtype
+- [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|heffingsverordening]] — Juridische grondslag voor belastingheffing, subtypes per belastingtype
+- [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag|heffinggrondslag]] — Tariefregel in een heffingsverordening (GGM Heffinggrondslag, 1 VTH)
 
 ### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
@@ -162,7 +166,11 @@
 ### Wonen — Woonboten (GGM VTH taakveld 1)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot|woonboot]] — Drijvend object voor permanente bewoning (GGM Vaartuig, sterk); subtypes: woonark, varend schip, historisch schip, schark
 
-### Welstand / VTH (procesobject, taakveld 1 — GGM-hiaat)
+### VTH — Omgevingswet (GGM taakveld 1 + procesobject)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vth-zaak|vth-zaak]] — Zaak of dossier voor vergunningverlening, toezicht of handhaving in de fysieke leefomgeving (GGM VTHzaak, exact)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie|inspectie]] — Toezichtscontrole waarbij de toestand van een bouwwerk of situatie wordt vastgesteld (GGM Inspectie, functioneel)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/bevinding|bevinding]] — Uitkomst van inspectie: wat is geconstateerd, inclusief risico en ernst (GGM Bevinding, exact)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/handhavingsbesluit|handhavingsbesluit]] — Formeel besluit om bij overtreding een sanctie op te leggen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] — Formeel oordeel over welstandseisen bij bouwaanvraag (procesobject, GGM-hiaat)
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
@@ -289,6 +297,7 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaal|vroegsignaal]] — Wettelijk verplichte melding betalingsachterstand door signaalpartner (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaalzaak|vroegsignaalzaak]] — Zaak voor behandeling van vroegsignalen (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner|signaalpartner]] — Organisatie bevoegd tot melden betalingsachterstanden (GGM exact, actor)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpoging|contactpoging]] — Actie om inwoner te bereiken naar aanleiding van vroegsignaal (GGM exact)
 
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
@@ -415,7 +424,12 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
 
-### Inburgering en Asielopvang
+### Asiel en Integratie
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen|Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid]] — Divosa: financieel ontzorgen statushouders, wettelijk kader, uitvoering, praktijkvoorbeelden
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang|VNG — Asielopvang]] — VNG: asielopvang, spreidingswet, opvanglocaties
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering|VNG — Inburgering]] — VNG: Wi2021, PIP, brede intake, RP2
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine|VNG — Opvang Oekraïense ontheemden]] — VNG: opvang Oekraïense ontheemden
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel|VNG — Rubriek Asiel tot integratie]] — VNG: rubriekspagina asiel en integratie
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|Asielopvangwijzer: alle informatie voor gemeenten]] — COA: portaalpagina asielopvang voor gemeenten
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|COA Dienstverleningsgids voor gemeenten (januari 2026)]] — COA: taakverdeling en dienstverlening (januari 2026)
 
@@ -505,6 +519,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Schulden en Armoede
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028|Beleidsplan Schuldhulpverlening Den Haag 2024-2028]] — Gemeente Den Haag: integrale schuldhulpverlening, vier pijlers, vroegsignalering, doelgroepen
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/vng-schulden-en-armoede|VNG — Schulden en armoede]] — VNG: rubriek, programma Verbinden Schuldendomein, basisdienstverlening
+- [[Wiki/Bronsamenvattingen/Schulden en Armoede/vroegsignaleringsaanpak-gemeenten-divosa-2024|Divosa — Vroegsignaleringsaanpak gemeenten (2024)]] — Divosa: landelijk onderzoek vroegsignalering schulden, werkwijzen 167 gemeenten
 
 ### Sociaal Domein
 - [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]] — Gemeente Utrecht: koersdocument maatschappelijke voorzieningen bij gebiedsontwikkeling (2020)

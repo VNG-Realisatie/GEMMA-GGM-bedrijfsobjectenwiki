@@ -129,7 +129,7 @@ De specialisaties laten zien hoe divers vergunningen en ontheffingen zijn qua pr
 | Horecavergunning | Exploitatievergunning voor een horecabedrijf | — |
 | Ligplaatsvergunning | Vergunning voor het innemen van een ligplaats | [Ligplaatsontheffing](vth.md) |
 | Exploitatievergunning (vaarverkeer) | Vergunning voor commercieel gebruik van vaartuig | — |
-| Omgevingsvergunning | Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet | [Omgevingsvergunning](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Omgevingsvergunning | Beschikking op aanvraag voor activiteiten in de fysieke leefomgeving; doorloopt vooroverleg, toetsing en bezwaar/beroep. Onder de Wkb vervalt de bouwtechnische toets voor gevolgklasse 1 naar een kwaliteitsborger. | [Omgevingsvergunning](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 
 ## Procesbron
 
@@ -160,6 +160,7 @@ Het concept is afgeleid uit gemeentelijke beleidsbronnen die elk hun eigen vergu
 - [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 - [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft]]
 
 ## Terugmelding GGM
 

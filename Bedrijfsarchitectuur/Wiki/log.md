@@ -1,5 +1,85 @@
 # Wiki Log
 
+## [2026-06-25] ingest | Asiel en Integratie — handreiking financieel ontzorgen, onderwerpoverzicht aangemaakt
+- **Bron:** Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid (feb. 2024, update juli 2025), gecrawld via crawl4ai
+- **Geen nieuwe BO's:** alle begrippen vallen onder bestaande BO's (Asielstatushouder, PIP, Brede Intake, etc.) of bestaande GGM-entiteiten (Leenbijstand, Inkomensvoorziening)
+- **Nieuw onderwerpoverzicht:** `Wiki/Onderwerpen/asiel-en-integratie.md` — 38 begrippen, 15 BO's, 7 verwerkte bronnen
+- **Bronsamenvatting:** `Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen.md`
+- **Observatie:** financieel ontzorgen is proces (vastgelegd in PIP en Inkomensvoorziening), geen zelfstandig BO. Inrichtingskrediet = Leenbijstand (GGM). Budgetbeheer = uitvoeringswijze Schuldhulptraject.
+
+## [2026-06-25] ingest | Schulden en Armoede — vroegsignalering verrijkt, 1 nieuw BO
+- **Bron:** Divosa — Vroegsignaleringsaanpak gemeenten onder de loep (sept. 2024), landelijk onderzoek 167 gemeenten
+- **1 nieuw BO:** Contactpoging (GGM exact, Vroegsignalering) — gepromoveerd van GGM-component naar zelfstandig BO op basis van empirische onderbouwing (meest bepalende factor voor bereik, eigen attributen en levenscyclus)
+- **3 bestaande BO's verrijkt:** Vroegsignaal, Vroegsignaalzaak, Signaalpartner — nieuwe bronsamenvatting toegevoegd
+- **6 nieuwe begrippen** in onderwerpoverzicht: contactpoging (✅), hulpacceptatie, drempelbedrag, laatsignaal, BRP-koppeling, CAK-lijst, bereikpercentage
+- **bo_count:** 139 → 140
+
+## [2026-06-25] ingest | Werk en Inkomen — afgerond, 2 BO's
+- **7 VNG-portaalpagina's** → Niet-relevant (arbeidsmarktbeleid, inkomensondersteuning-alleenverdieners, migratie-en-werk, participatiewet-in-balans, rubriek, toezicht-en-handhaving, wsw)
+- Domein afgerond: 1 bronsamenvatting, 7 niet-relevant, 15 begrippen, 2 BO's
+
+## [2026-06-25] ingest | Werk en Inkomen — eerste bron, 2 nieuwe BO's
+- **Bron:** Factsheet Bijzondere Bijstand (Divosa/BMC/Stimulansz, mei 2024) — 4 bronbestanden, 1 bronsamenvatting
+- **Nieuw onderwerp:** Werk en Inkomen — eerste onderwerpoverzicht met 15 begrippen
+- **2 nieuwe BO's:**
+  - Inkomensvoorziening (GGM exact, Model Inkomen) — overkoepelend concept voor structurele en tijdelijke inkomensregelingen (bijstandsuitkering, bijzondere bijstand, energietoeslag, TONK); 10 subtypes
+  - Draagkracht (GGM exact, Sociaal Domein Generiek) — berekend vermogen van inwoner om zelf in kosten te voorzien; bepalend voor recht op bijzondere bijstand
+- **GGM-terugmeldingen:** #56-58 (Inkomensvoorziening definitie, Draagkracht definitie, Periodiek dienst Bijz. bijstand redundant)
+- **Eerste dekking** voor GGM-beleidsdomeinen Inkomen/Diensten, Model Inkomen, Normafwijking, Reden aanvraag (stonden allen op "zonder bronnen")
+- **bo_count:** 137 → 139
+
+## [2026-06-25] coverage | Herberekening na VTH-ingest
+- **137 BO's** (was 135), 771 entiteiten niet beoordeeld (was 773)
+- 9 generalisaties, 18 subtypes, 14 componenten, 5 begrippentabel-assessments
+- 19 beleidsdomeinen zonder bronnen
+- Taakveld 1 VTH: 7 BO-matches (was 6), 6 subtypes beoordeeld
+
+## [2026-06-23] herbeoordeling | Belastingen — subtypes en 2 nieuwe BO's
+- **Herbeoordeling onderwerpoverzicht belastingen**: 18 belastingtypen (OZB, hondenbelasting, precario, etc.) geherclassificeerd van "object ❌" naar "subtype ❌" — het zijn subtypes van Heffing, geen losse classificaties
+- **2 nieuwe BO's:**
+  - Heffinggrondslag (GGM exact, 1 VV) — tariefregel in verordening; koppelt Heffingsverordening aan Heffing
+  - WOZ-deelobject (GGM exact, RSGBPlus) — element van WOZ-object voor waarde-onderbouwing
+- **Verrijkte bestaande BO's:**
+  - Heffing: uitgebreide Subtypes-sectie met alle 18 belastingtypen in 4 categorieën + relatie Heffinggrondslag
+  - Heffingsverordening: Subtypes-sectie uitgebreid van 2 naar 14 verordening-subtypes + relatie Heffinggrondslag
+  - WOZ-object: relatie naar WOZ-deelobject toegevoegd
+- **Onderwerpoverzicht:** heffingsmaatstaf en tarief geherclassificeerd als attributen van Heffinggrondslag
+- **bo_count:** 9 → 11
+
+## [2026-06-23] coverage | Herberekening na Omgevingswet-ingest
+- **135 BO's**, 773 entiteiten niet beoordeeld (was 782)
+- Taakveld 1 VTH: 6 BO-matches (was 2), 6 subtypes beoordeeld
+- Onderwerpoverzicht Omgevingswet nu gelinkt in coverage
+
+## [2026-06-23] ingest | Omgevingswet — eerste bron, 4 nieuwe BO's
+- **Bron:** Uitvoeringsbeleid VTH Delft 2024-2028 (58 pagina's, gemeente Delft)
+- **Nieuw onderwerp:** Omgevingswet — onderwerpoverzicht aangemaakt met 14 begrippen
+- **4 nieuwe BO's:**
+  - VTH-zaak (GGM VTHzaak, exact) — centraal dossier voor vergunningverlening, toezicht en handhaving
+  - Inspectie (GGM Inspectie, functioneel) — toezichtscontrole; ⚠️ GGM-definitie te smal (boezemkade)
+  - Bevinding (GGM Bevinding, exact) — uitkomst van inspectie met risico en ernst
+  - Handhavingsbesluit (procesobject, GGM-hiaat) — formeel besluit bij overtreding
+- **Verrijkte bestaande BO's:**
+  - Vergunningen en ontheffingen: omgevingsvergunning-subtype verrijkt
+  - Aanvraag of melding: subtypes-sectie toegevoegd (bouwmelding Wkb, handhavingsverzoek, VTH-melding, e.a.)
+  - Heffingsverordening: subtype legesverordening toegevoegd
+- **Terugmeldingen GGM:** Inspectie-definitie te domeinspecifiek; Handhavingsbesluit ontbreekt
+- **Status:** 9 bronnen nog te verwerken in dit onderwerp
+
+## [2026-06-23] Economie — 5 GGM-entiteiten beoordeeld, coverage-script uitgebreid
+- **5 GGM-entiteiten taakveld 3** formeel beoordeeld als geen BO: Contact, Hotelbezoek, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak
+- **Begrippentabel uitgebreid:** 4 nieuwe entries (Contact, Verkooppunt, Werkgelegenheid, Winkelvloeroppervlak; Hotelbezoek stond er al)
+- **Coverage-script verbeterd:** `coverage_analysis.py` detecteert nu ook begrippentabel-beoordelingen (BO?=❌, GGM=ja) als "beoordeeld, geen BO"
+- **Taakveld 3 Economie:** van 1/6 naar 6/6 entiteiten beoordeeld
+- **Totaal niet beoordeeld:** 787 → 782
+
+## [2026-06-23] ingest | Financien — afgerond (10 BO's, 4 bronsamenvattingen)
+- **6 bronnen beoordeeld:** 4 raadgever-bronnen (eerder samengevat), 2 VNG-portaalpagina's
+- **2 bronnen naar Niet-relevant:** begroting-en-verantwoording (portaalpagina, gedekt door raadgevers), gemeentefonds-en-btw-compensatiefonds (portaalpagina, gedekt door raadgever-inkomstenbronnen)
+- **Onderwerpoverzicht bijgewerkt:** bronverwijzingen gecorrigeerd naar wiki-links, niet-relevante bronnen toegevoegd, cross-domein sectie uitgebreid, status → afgerond
+- **Geen nieuwe BO's** — 10 bestaande BO's uit GGM-beleidsdomein Financien (taakveld 9) bevestigd via bronnen
+- **20 begrippen** in onderwerpoverzicht: 10 BO, 10 niet-BO (instrumenten, kengetallen, thema's)
+
 ## [2026-06-23] ingest | Bestuur — Partijsubsidie (1 BO, 2 bronsamenvattingen)
 - **4 bronnen opgehaald:** VNG Model Subsidieregeling decentrale politieke partijen (nieuwspagina, ledenbrief PDF, modelverordening DOCX, implementatiehandleiding DOCX)
 - **2 bronnen naar Niet-relevant:** nieuwspagina (dun, samenvatting), ledenbrief (dupliceert verordening)

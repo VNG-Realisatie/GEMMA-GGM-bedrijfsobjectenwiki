@@ -27,10 +27,15 @@ ggm_gemma_alternate_name: ""
 gemma_definitie: "Individuele vaststelling van het belastingbedrag door de heffingsambtenaar, resulterend in een betalingsverplichting."
 relaties:
   - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag|Heffinggrondslag]]"
+    richting: "naar-dit-BO"
+    kardinaliteit: "1"
+    beschrijving: "Een heffing is gebaseerd op een heffinggrondslag"
+  - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|Heffingsverordening]]"
     richting: "naar-dit-BO"
     kardinaliteit: "1"
-    beschrijving: "Een heffing is gebaseerd op een heffingsverordening (via heffingsgrondslag)"
+    beschrijving: "Een heffing is gebaseerd op een heffingsverordening (via heffinggrondslag)"
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]"
     richting: "naar-dit-BO"
@@ -75,11 +80,42 @@ De GGM-definitie is bewust generiek ("verplichting tot betaling"). In de gemeent
 
 Het begrip "heffing" omvat ook leges en retributies — de GGM-entiteit is breed genoeg voor alle gemeentelijke heffingsvormen.
 
+## Subtypes
+
+Herkende specialisaties van Heffing. Elke gemeente heft een selectie van deze belastingtypen; individuele aanslagen zijn instanties van Heffing. Geen apart BO.
+
+**Algemene belastingen** (opbrengst naar algemene middelen):
+- **OZB (onroerendezaakbelasting)** — belasting op eigendom/gebruik onroerende zaken, grootste eigen inkomstenbron; heffingsmaatstaf is WOZ-waarde
+- **Roerende-zaakbelasting** — OZB-variant voor woonboten en drijvende bedrijfsruimten
+- **Hondenbelasting** — belasting voor het houden van een hond
+- **Reclamebelasting** — belasting op openbare aankondigingen, vaak besteed via ondernemersfonds
+- **Precariobelasting** — belasting voor voorwerpen op/onder/boven openbare gemeentegrond (GGM-entiteit: Precario)
+- **Parkeerbelasting** — belasting op parkeren; instanties als [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht|Parkeerrecht]], [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing|Naheffing]]
+
+**Bestemmingsheffingen** (opbrengst voor specifieke taken):
+- **Afvalstoffenheffing** — bestemmingsheffing voor inzameling huishoudelijk afval
+- **Riool- en waterzorgheffing** — heffing voor gemeentelijke watertaken
+- **BIZ-bijdrage** — bestemmingsbelasting op verzoek ondernemers voor bedrijveninvesteringszone
+
+**Toeristische heffingen**:
+- **Toeristenbelasting** — heffing op verblijf niet-ingezetenen
+- **Forensenbelasting** — heffing op langdurig verblijf niet-ingezetenen (>90 dagen)
+- **Watertoeristenbelasting** — variant gekoppeld aan ligplaatsen
+
+**Retributies** (vergoeding voor individueel voordeel):
+- **Leges** — retributie voor gemeentelijke dienstverlening (vergunningen, documenten)
+- **Reinigingsrecht** — retributie voor niet-verplichte afvalinzameling (bedrijven)
+- **Marktgeld** — retributie voor standplaats op dag-/weekmarkten
+- **Havengeld** — retributie voor gebruik waterwegen, havens, bruggen, sluizen
+- **Lijkbezorgingsrechten** — retributie voor gebruik begraafplaats of crematorium
+- **Vermakelijkhedenretributie** — retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken
+
 ## Relaties
 
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
-| Gebaseerd op verordening | [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]] | Heffing → Heffinggrondslag ← Heffingsverordening | Ingekort: Heffinggrondslag is tussenliggend |
+| Heeft grondslag | [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] | Heffing → Heffinggrondslag | — |
+| Gebaseerd op verordening | [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]] | Heffingsverordening → Heffinggrondslag ← Heffing | Via Heffinggrondslag |
 | Betreft WOZ-object | [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Via Zaak | Bij OZB/rioolheffing |
 | Gekoppeld aan zaak | *(Zaak)* | Zaak → Heffing [1] | Zaak niet als apart BO in dit domein |
 | Heeft vorderingregel | *(Vorderingregel)* | Heffing → Vorderingregel [0..1] | Financieel tussenobject |

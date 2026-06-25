@@ -97,6 +97,19 @@ Het GGM kent 11 specialisaties van AanvraagOfMelding, verspreid over meerdere do
 
 **Beslissing:** het BO wordt gedefinieerd op het **generieke niveau** (AanvraagOfMelding). De specialisaties horen inhoudelijk bij hun eigen domein en worden daar beoordeeld als dat domein wordt verwerkt. Op bedrijfsniveau is "aanvraag of melding" het herkenbare concept; de specialisaties zijn varianten in het registratiesysteem.
 
+## Subtypes
+
+Herkende specialisaties van Aanvraag of melding. Gevonden in bronnen en/of GGM. Geen apart BO.
+
+- **VTHAanvraagOfMelding** — aanvraag of melding voor vergunning, toezicht of handhaving in de fysieke leefomgeving
+- **WABOAanvraagOfMelding** — aanvraag of melding in het kader van de Wet algemene bepalingen omgevingsrecht
+- **VTH-Melding** — signaalmelding met betrekking tot vergunningen, toezicht en handhaving
+- **Bouwmelding (Wkb)** — melding vier weken vóór bouwstart onder de Wet kwaliteitsborging, met risicobeoordeling door kwaliteitsborger
+- **Handhavingsverzoek** — verzoek van burger of bedrijf aan de gemeente om handhavend op te treden bij een vermoedelijke overtreding; moet altijd worden behandeld
+- **MORAanvraagOfMelding** — melding openbare ruimte
+- **WoonfraudeAanvraagOfMelding** — melding of aanvraag van woonfraude
+- **WoonoverlastAanvraagOfMelding** — melding of aanvraag met betrekking tot woonoverlast
+
 ## BO-definitie
 
 De GGM-definitie ("Komt overeen met een VJV") is een technische referentie naar het bronsysteem (VJV = Vraag, Ja/Nee, Verzoek), niet een bedrijfsdefinitie. De GEMMA-definitie is daarom afwijkend en beschrijvend geformuleerd:
@@ -124,6 +137,7 @@ De GGM-definitie ("Komt overeen met een VJV") is een technische referentie naar 
 - [[Wiki/Bronsamenvattingen/Dienstverlening/online-dienstverlening]]
 - [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid]]
 - [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden]]
+- [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft]]
 
 ## Terugmelding GGM
 

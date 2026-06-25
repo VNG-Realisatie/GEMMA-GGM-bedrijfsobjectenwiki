@@ -57,6 +57,7 @@ Status: 134 bronnen in 19 batches.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] economische-visie-beemster-purmerend (PDF, gemeente Purmerend) → Niet-relevant (aspiratief visiestuk, geen BO-waarde)
+- [x] aanwijzingsbesluit-vergunningvrije-horeca-utrecht (lokaleregelgeving.overheid.nl, gemeente Utrecht) → Niet-relevant (classificatie vergunningvrije horeca, geen nieuwe BO's)
 
 ## ~~Energie en Klimaat (2)~~ ✓
 - [x] beleid-klimaatverandering
@@ -84,9 +85,11 @@ Status: 134 bronnen in 19 batches.
 - [ ] rubriek-europa-en-internationaal
 - [ ] versterking-lokaal-bestuur-wereldwijd
 
-## Financien (2)
-- [ ] begroting-en-verantwoording
-- [ ] gemeentefonds-en-btw-compensatiefonds
+## ~~Financien (2)~~ ✓
+- [x] begroting-en-verantwoording
+- [x] gemeentefonds-en-btw-compensatiefonds
+
+> **Afgehandeld:** 2 portaalpagina's naar Niet-relevant (inhoud gedekt door 4 eerder verwerkte raadgever-bronsamenvattingen). Onderwerpoverzicht bijgewerkt. 10 BO's uit GGM-beleidsdomein Financien (taakveld 9), 20 begrippen. Geen nieuwe BO's.
 
 ## Informatiesamenleving (13)
 - [ ] ai-en-algoritmen
@@ -129,7 +132,7 @@ Status: 134 bronnen in 19 batches.
 - [ ] rubriek-milieu
 - [ ] zeer-zorgwekkende-stoffen
 
-## Omgevingswet (9)
+## Omgevingswet (10)
 - [ ] digitaal-stelsel-omgevingswet-dso
 - [ ] gemeenteraad-en-de-omgevingswet
 - [ ] monitoringsinitiatieven-omgevingswet-en-wkb
@@ -139,6 +142,7 @@ Status: 134 bronnen in 19 batches.
 - [ ] veranderopgave-omgevingswet
 - [ ] vergunningverlening-toezicht-en-handhaving-onder-de-omgevingswet
 - [ ] wet-kwaliteitsborging-voor-het-bouwen-wkb
+- [x] uitvoeringsbeleid-vth-delft-2024-2028
 
 ## Onderwijs (1)
 - [ ] soorten-kinderopvang
@@ -188,20 +192,28 @@ Status: 134 bronnen in 19 batches.
 - [ ] vergunningverlening-toezicht-en-handhaving
 - [ ] wabo-omgevingsvergunning
 
-## ~~Schulden en Armoede (5)~~ ✓
+## ~~Schulden en Armoede (5 + 1 aanvullend)~~ ✓
 - [x] Beleidsplan Schuldhulpverlening 2024
 - [x] hersteloperatie-kinderopvangtoeslag
 - [x] RIS319852-Bijlage-Beleidsplan-Schuldhulpverlening-Den-Haag-2024-2028
 - [x] rubriek-schulden-en-armoede
 - [x] schuldendomein
+- [x] vroegsignaleringsaanpak-gemeenten-divosa-2024 (Clipping → Sources, Divosa onderzoek 167 gemeenten)
 
-> **Afgehandeld:** 1 rijke bron (beleidsplan Den Haag), 2 dunne VNG-pagina's gebundeld, 1 stub, 1 niet-relevant. 9 BO's uit GGM-domein Schulden (33 entiteiten). Actoren (Schuldeiser, Signaalpartner) als BO opgenomen. GGM-componenten patroon ingevoerd voor procesfasen.
+> **Afgehandeld:** 1 rijke bron (beleidsplan Den Haag), 2 dunne VNG-pagina's gebundeld, 1 stub, 1 niet-relevant. 10 BO's uit GGM-domein Schulden (33 entiteiten). Actoren (Schuldeiser, Signaalpartner) als BO opgenomen. Contactpoging gepromoveerd van GGM-component naar BO op basis van Divosa-onderzoek.
 
-## Werk en Inkomen (7)
-- [ ] arbeidsmarktbeleid
-- [ ] inkomensondersteuning-alleenverdieners
-- [ ] migratie-en-werk
-- [ ] participatiewet-in-balans
-- [ ] rubriek-werk-inkomen-en-sociale-zekerheid
-- [ ] werk-en-inkomen-toezicht-en-handhaving
-- [ ] wet-sociale-werkvoorziening-wsw
+## ~~Werk en Inkomen (7 + 5 aanvullend)~~ ✓
+- [x] arbeidsmarktbeleid → Niet-relevant
+- [x] inkomensondersteuning-alleenverdieners → Niet-relevant
+- [x] migratie-en-werk → Niet-relevant
+- [x] participatiewet-in-balans → Niet-relevant
+- [x] rubriek-werk-inkomen-en-sociale-zekerheid → Niet-relevant
+- [x] werk-en-inkomen-toezicht-en-handhaving → Niet-relevant
+- [x] wet-sociale-werkvoorziening-wsw → Niet-relevant
+- [x] factsheet-bijzondere-bijstand-inleiding (Divosa, mei 2024)
+- [x] factsheet-bijzondere-bijstand-achtergrond (Divosa, mei 2024)
+- [x] factsheet-bijzondere-bijstand-ontwikkelingen (Divosa, mei 2024)
+- [x] factsheet-bijzondere-bijstand-uitgaven (Divosa, mei 2024)
+- [x] factsheet-bijzondere-bijstand-ontvangers (Divosa, mei 2024)
+
+> **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (te dun). 5 bronbestanden (1 Divosa-publicatie) → 1 bronsamenvatting, 2 nieuwe BO's (Inkomensvoorziening, Draagkracht). Domein afgerond: 1 bronsamenvatting, 7 niet-relevant, 15 begrippen, 2 BO's.

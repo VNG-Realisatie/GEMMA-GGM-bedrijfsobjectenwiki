@@ -4,7 +4,7 @@ naam: Economie
 status: afgerond
 verwerkingsdatum: 2026-06-22
 bronnen_count: 10
-begrippen_count: 34
+begrippen_count: 38
 bo_count: 8
 ---
 
@@ -33,6 +33,10 @@ Gemeentelijk beleid gericht op economische ontwikkeling, bedrijvigheid en ondern
 | [[Wiki/Bedrijfsobjecten/3-economie/economie/short-stay-accommodatie\|Short Stay Accommodatie]] | object        | Logies 2 weken–6 maanden voor kenniswerkers/studenten                          | ✅   | ja          | 6/6 criteria, GGM-hiaat                                  | Expatwoning, studentenunit            | nee      |
 | [[Wiki/Bedrijfsobjecten/3-economie/economie/bed-and-breakfast\|Bed-and-breakfast]]             | object        | Kleinschalige logiesaccommodatie, max 4 kamers                                 | ✅   | ja          | 6/6 criteria, GGM-hiaat                                  | Stadsappartement, kamer bij bewoner   | nee      |
 | hotelbezoek                                                                                    | object        | Verblijf in een hotel, statistisch gegeven                                     | ❌   | ja          | Meting/transactie, geen zelfstandig object               | Overnachting in hotel                 | ja       |
+| contact (GGM)                                                                                  | object        | Persoon waarmee communicatie plaatsvindt                                        | ❌   | nee         | Generiek communicatieobject, niet domeinspecifiek         | Contactpersoon bij vestiging          | ja       |
+| verkooppunt (GGM)                                                                              | object        | Locatie waar iets wordt verkocht                                               | ❌   | ja          | Te generiek; specifieke varianten (standplaats, detailhandel) al beoordeeld | Winkel, marktkraam     | ja       |
+| werkgelegenheid (GGM)                                                                          | aggregaat     | Vraag naar arbeid, statistisch aggregaat per gebied                             | ❌   | nee         | Statistisch aggregaat, geen individueel object            | Arbeidsplaatsen per werklocatie       | ja       |
+| winkelvloeroppervlak (GGM)                                                                     | attribuut     | Gemeten oppervlakte in vierkante meters van een winkel                          | ❌   | nee         | Meetgegeven/attribuut, geen zelfstandig object            | m² winkelruimte, WVO-klasse           | ja       |
 | toeristenbelasting                                                                             | instrument    | Belasting op overnachtingen                                                    | ❌   | nee         | Instrument, domein Belastingen                           | —                                     | nee      |
 | horecavergunning                                                                               | instrument    | Vergunning voor exploitatie horecabedrijf                                      | ❌   | nee         | Subtype vergunning, vastgelegd bij horecabedrijf         | Exploitatievergunning                 | nee      |
 | winkelgebied                                                                                   | subtype       | Concentratie van retailfuncties; subtype van werklocatie                       | ❌   | ja          | Subtype van werklocatie, geen apart BO                   | Binnenstad, Overvecht Centrum         | nee      |

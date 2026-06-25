@@ -4,8 +4,8 @@ naam: Belastingen
 status: afgerond
 verwerkingsdatum: 2026-06-22
 bronnen_count: 22
-begrippen_count: 45
-bo_count: 9
+begrippen_count: 47
+bo_count: 11
 ---
 
 # Domein: Belastingen
@@ -22,24 +22,24 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |algemene belasting|thema|Belasting waarvan opbrengsten naar algemene middelen vloeien| ❌ | nee |Classificatie, geen object|OZB, hondenbelasting|nee|
 |bestemmingsbelasting|thema|Belasting waarvan opbrengsten bestemd zijn voor specifieke taken| ❌ | nee |Classificatie, geen object|Afvalstoffenheffing, BIZ|nee|
 |retributie|thema|Heffing als vergoeding voor individueel voordeel (dienst of gebruik)| ❌ | nee |Classificatie, geen object|Leges, marktgeld|nee|
-|leges|object|Retributie voor gemeentelijke dienstverlening (vergunningen, documenten)| ❌ | ja |Subtype retributie, geen eigen bestaan los van dienst|Bouwvergunning, paspoort|nee|
-|onroerendezaakbelasting (OZB)|object|Belasting op eigendom/gebruik onroerende zaken, grootste eigen inkomstenbron| ❌ | ja |Eén OZB per gemeente, geen meervoud; instantie van belastingtype|OZB-eigenaar woning|nee|
-|parkeerbelasting|object|Belasting op parkeren (incidenteel + vergunning), regulerend karakter| ❌ | ja |Eén regeling per gemeente; instanties zijn aanslagen/vergunningen|Straatparkeren, vergunning|nee|
-|precariobelasting|object|Belasting voor gebruik openbare grond| ❌ | ja |Eén regeling per gemeente|Terras, kabel, luifel|ja: Precario|
-|reclamebelasting|object|Belasting op openbare aankondigingen, vaak voor ondernemersfonds| ❌ | ja |Eén regeling per gemeente|Gevelreclame, uithangbord|nee|
-|hondenbelasting|object|Belasting voor het houden van een hond| ❌ | ja |Eén regeling per gemeente|Eerste hond, tweede hond|nee|
+|leges|subtype|Retributie voor gemeentelijke dienstverlening (vergunningen, documenten)| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele leges zijn heffingen|Bouwvergunning, paspoort|nee|
+|onroerendezaakbelasting (OZB)|subtype|Belasting op eigendom/gebruik onroerende zaken, grootste eigen inkomstenbron| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele OZB-aanslagen zijn heffingen|OZB-eigenaar woning|nee|
+|parkeerbelasting|subtype|Belasting op parkeren (incidenteel + vergunning), regulerend karakter| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; instanties zijn aanslagen, vergunningen en naheffingen|Straatparkeren, vergunning|nee|
+|precariobelasting|subtype|Belasting voor gebruik openbare grond| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele precario-aanslagen zijn heffingen|Terras, kabel, luifel|ja: Precario|
+|reclamebelasting|subtype|Belasting op openbare aankondigingen, vaak voor ondernemersfonds| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Gevelreclame, uithangbord|nee|
+|hondenbelasting|subtype|Belasting voor het houden van een hond| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Eerste hond, tweede hond|nee|
 |BIZ-bijdrage|instrument|Bestemmingsbelasting op verzoek ondernemers voor bedrijveninvesteringszone| ❌ | nee |Governance-instrument, niet het object zelf|BIZ Winkelstraat 2025|nee|
-|afvalstoffenheffing|object|Bestemmingsheffing voor inzameling huishoudelijk afval| ❌ | ja |Eén regeling per gemeente|Vast tarief, diftar|nee|
-|reinigingsrecht|object|Retributie voor niet-verplichte afvalinzameling (bedrijven)| ❌ | ja |Subtype retributie|Bedrijfsafval container|nee|
-|riool- en waterzorgheffing|object|Heffing voor gemeentelijke watertaken (afvoer, grondwater, droogte)| ❌ | ja |Eén regeling per gemeente|Rioolheffing 2025|nee|
-|toeristenbelasting|object|Heffing op verblijf niet-ingezetenen| ❌ | ja |Eén regeling per gemeente|Hotelnacht, camping|nee|
-|forensenbelasting|object|Heffing op langdurig verblijf niet-ingezetenen (>90 dagen)| ❌ | ja |Eén regeling per gemeente|Tweede woning|nee|
-|vermakelijkhedenretributie|object|Retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken| ❌ | ja |Subtype retributie|Festival, evenement|nee|
-|roerende-zaakbelasting|object|OZB-variant voor woonboten en drijvende bedrijfsruimten| ❌ | ja |Variant van OZB, eén regeling per gemeente|Woonboot, drijvend kantoor|nee|
-|watertoeristenbelasting|object|Variant toeristenbelasting gekoppeld aan ligplaatsen| ❌ | ja |Variant van toeristenbelasting|Ligplaats jachthaven|nee|
-|marktgeld|object|Retributie voor innemen standplaats op dag-/weekmarkten| ❌ | ja |Subtype retributie|Standplaats weekmarkt|nee|
-|havengeld|object|Retributie voor gebruik waterwegen, havens, bruggen, sluizen| ❌ | ja |Subtype retributie|Liggeld, sluis schutten|nee|
-|lijkbezorgingsrechten|object|Retributie voor gebruik gemeentelijke begraafplaats of crematorium| ❌ | ja |Subtype retributie|Grafrecht, crematie|nee|
+|afvalstoffenheffing|subtype|Bestemmingsheffing voor inzameling huishoudelijk afval| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Vast tarief, diftar|nee|
+|reinigingsrecht|subtype|Retributie voor niet-verplichte afvalinzameling (bedrijven)| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] (retributie); individuele aanslagen zijn heffingen|Bedrijfsafval container|nee|
+|riool- en waterzorgheffing|subtype|Heffing voor gemeentelijke watertaken (afvoer, grondwater, droogte)| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Rioolheffing 2025|nee|
+|toeristenbelasting|subtype|Heffing op verblijf niet-ingezetenen| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Hotelnacht, camping|nee|
+|forensenbelasting|subtype|Heffing op langdurig verblijf niet-ingezetenen (>90 dagen)| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; individuele aanslagen zijn heffingen|Tweede woning|nee|
+|vermakelijkhedenretributie|subtype|Retributie voor vermakelijkheden die gemeentelijke voorzieningen gebruiken| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] (retributie); individuele aanslagen zijn heffingen|Festival, evenement|nee|
+|roerende-zaakbelasting|subtype|OZB-variant voor woonboten en drijvende bedrijfsruimten| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; variant van OZB|Woonboot, drijvend kantoor|nee|
+|watertoeristenbelasting|subtype|Variant toeristenbelasting gekoppeld aan ligplaatsen| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]]; variant van toeristenbelasting|Ligplaats jachthaven|nee|
+|marktgeld|subtype|Retributie voor innemen standplaats op dag-/weekmarkten| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] (retributie); individuele aanslagen zijn heffingen|Standplaats weekmarkt|nee|
+|havengeld|subtype|Retributie voor gebruik waterwegen, havens, bruggen, sluizen| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] (retributie); individuele aanslagen zijn heffingen|Liggeld, sluis schutten|nee|
+|lijkbezorgingsrechten|subtype|Retributie voor gebruik gemeentelijke begraafplaats of crematorium| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] (retributie); individuele aanslagen zijn heffingen|Grafrecht, crematie|nee|
 
 ### Objecten en processen
 
@@ -47,11 +47,13 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |---------------------------------------------------------------|---|----------|--------------------------------------------------------------------------|---|-----------------------------------------------------------------|--------------------------------------|------------------|
 |[[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing (belastingaanslag)]]|object|Individuele vaststelling van het belastingbedrag door de heffingsambtenaar| ✅ | ja |6/6 criteria, exact GGM-match|OZB-aanslag 2025, naheffing parkeren|ja: Heffing|
 |[[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]]|instrument|Juridische grondslag voor individuele belastingplicht| ✅ | ja |Eigen levenscyclus, exact GGM-match|OZB-verordening 2025, Legesverordening|ja: Heffingsverordening|
+|[[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]]|object|Tariefregel die heffingsmaatstaf en bedrag koppelt aan een verordening| ✅ | ja |6/6 criteria, exact GGM-match; eigen attributen (domein, hoofdstuk, paragraaf, bedrag)|Legestarief bouwvergunning, OZB-tarief eigenaar|ja: Heffinggrondslag|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]]|object|Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld| ✅ | ja |6/6 criteria, exact GGM-match|Woning Dorpsstraat 1, kantoor|ja|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]]|object|Vastgestelde marktwaarde van een WOZ-object per waardepeildatum| ✅ | ja |6/6 criteria, exact GGM-match|WOZ-waarde 2025: €350.000|ja|
+|[[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]]|object|Afzonderlijk element van een WOZ-object voor onderbouwing van de waarde| ✅ | ja |6/6 criteria, exact GGM-match; eigen ID, code, status, levenscyclus|Woning-deel, garage, grond|ja: WOZ-deelobject|
 |belastingplichtige|actor|Persoon die belasting moet betalen| ❌ | nee |Rol van een persoon, geen zelfstandig concept|Eigenaar woning, hondenbezitter|nee|
-|heffingsmaatstaf|object|Maatstaf waarmee de belastingschuld wordt bepaald| ❌ | ja |Eigenschap van verordening, geen eigen bestaan|WOZ-waarde, oppervlakte, aantal honden|nee|
-|tarief|object|Bedrag of percentage per eenheid heffingsmaatstaf| ❌ | ja |Eigenschap van verordening, geen eigen bestaan|0,1% van WOZ-waarde|nee|
+|heffingsmaatstaf|object|Maatstaf waarmee de belastingschuld wordt bepaald| ❌ | ja |Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]]|WOZ-waarde, oppervlakte, aantal honden|nee|
+|tarief|object|Bedrag of percentage per eenheid heffingsmaatstaf| ❌ | ja |Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]]|0,1% van WOZ-waarde|nee|
 |woz-beschikking|object|Formele bekendmaking WOZ-waarde aan belanghebbende| ❌ | ja |Onderdeel WOZ-proces, geen zelfstandig bestaan los van WOZ-object|WOZ-beschikking 2025|nee|
 |onroerende zaak|object|Object van OZB-heffing en WOZ-waardering (BW-begrip)| ❌ | ja |Juridisch begrip, het BO is WOZ-object|Woning, grond, kantoor|ja: via WOZ-object|
 |woonlasten|thema|OZB + rioolheffing + afvalstoffenheffing per huishouden| ❌ | nee |Aggregaat, geen object|€900/jaar gemiddeld|nee|

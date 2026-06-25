@@ -1,9 +1,9 @@
 ---
-type: domein
+type: onderwerp
 naam: Financien
-status: in-behandeling
-verwerkingsdatum: 2026-06-19
-bronnen_count: 4
+status: afgerond
+verwerkingsdatum: 2026-06-23
+bronnen_count: 6
 begrippen_count: 20
 bo_count: 10
 ---
@@ -39,12 +39,18 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 
 ## Verwerkte bronnen
 
-- [Raadgever inkomstenbronnen gemeenten](../../Sources/Onderwerpen/Financien/raadgever-inkomstenbronnen-gemeenten.md) — VNG Raadgever: vier inkomstenbronnen van gemeenten
-- [Raadgever gemeentebegroting en jaarrekening](../../Sources/Onderwerpen/Financien/raadgever-gemeentebegroting-en-jaarrekening.md) — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
-- [Raadgever financiele verordening](../../Sources/Onderwerpen/Financien/raadgever-financiele-verordening.md) — VNG Raadgever: art. 212, spelregels financieel beleid
-- [Raadgever financiele conditie gemeente](../../Sources/Onderwerpen/Financien/raadgever-financiele-conditie-gemeente.md) — VNG Raadgever: balans, kengetallen, financiële gezondheid
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-inkomstenbronnen|Raadgever De inkomstenbronnen van gemeenten]] — VNG Raadgever: vier inkomstenbronnen van gemeenten
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting|Raadgever Gemeentebegroting en jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening|Raadgever De financiële verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
+- [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie|Raadgever Financiële conditie gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
 
-## Raakvlakken
+## Niet-relevante bronnen
 
-- **Belastingen** — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; onbenutte belastingcapaciteit koppelt de domeinen
-- **Dienstverlening** — inkoop en aanbesteding zijn de uitgavenkant van de begroting
+- begroting-en-verantwoording.md — VNG portaalpagina, inhoud gedekt door raadgever-bronsamenvattingen
+- gemeentefonds-en-btw-compensatiefonds.md — VNG portaalpagina, inhoud gedekt door raadgever-inkomstenbronnen
+
+## Cross-domein
+
+- [[Wiki/Onderwerpoverzichten/belastingen|Belastingen]] — gemeentelijke belastingen zijn een van de vier inkomstenbronnen; onbenutte belastingcapaciteit koppelt de domeinen
+- [[Wiki/Onderwerpoverzichten/dienstverlening|Dienstverlening]] — inkoop en aanbesteding zijn de uitgavenkant van de begroting
+- [[Wiki/Onderwerpoverzichten/terug-en-invordering|Terug-en-invordering]] — debiteurenbeheer en vorderingen raken het financieel domein
