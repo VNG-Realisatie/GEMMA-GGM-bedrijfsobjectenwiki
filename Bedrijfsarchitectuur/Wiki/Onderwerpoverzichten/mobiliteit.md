@@ -70,7 +70,7 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | doseerlocatie | locatie | Punt waar autoverkeer wordt gedoseerd richting Ring | ❌ | nee | Operationele maatregel op bestaand kruispunt | Toegang 't Goylaan | nee |
 | compartimenteringszone | instrument | Gebiedsindeling binnenstad waar doorgaand autoverkeer wordt geweerd | ❌ | nee | 4/6 criteria; verkeersmanagementstrategie, geen eigen levenscyclus; wordt geëffectueerd via Verkeersbesluiten | Binnenstad oost/west | nee |
 
-### Parkeren (GGM-verificatie)
+### Parkeren
 
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
@@ -83,17 +83,12 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig\|Voertuig]] | object | Vervoermiddel voor wegverkeer | ✅ | ja | GGM: bevestigd — onderscheid elektrisch/fossiel relevant | Auto, bestelbus | ja |
 | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing\|Naheffing]] | object | Achteraf vordering te weinig betaalde belasting | ✅ | ja | GGM: operationeel relevant | Parkeernaheffing | ja |
 | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit\|MulderFeit]] | object | Administratieve parkeerovertreding (WAHV) | ✅ | ja | GGM: operationeel relevant | Parkeerboete | ja |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart\|Gehandicaptenparkeerkaart]] | object | Europese kaart voor parkeren op gehandicaptenparkeerplaatsen | ✅ | ja | 6/6 criteria; eigen levenscyclus (aanvraag→uitgifte→verlenging→intrekking), relaties met persoon, voertuig, vergunning | GPK bestuurder, GPK passagier | nee (hiaat) |
+| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats\|Gehandicaptenparkeerplaats]] | object | Parkeerplaats gereserveerd voor GPK-houders | ✅ | ja | 6/6 criteria; specialisatie Parkeervlak met eigen processen, beleidsregel, sensoren, kentekenkoppeling | Algemene GPP binnenstad, individuele GPP op kenteken | partieel (Parkeervlak.doelgroep) |
 | Belprovider | object | Leverancier van mobiele beldiensten voor parkeren | ❌ | ja | Te technisch/operationeel, geen herkenbaar bedrijfsobject | — | ja |
 | Productgroep | classificatie | Groepering van parkeerproducten | ❌ | ja | Administratieve classificatie | — | ja |
 | Productsoort | classificatie | Typologie van parkeerproduct | ❌ | ja | Administratieve classificatie | — | ja |
 | Straatsectie | classificatie | Gedeelte van een straat voor parkeerbeheer | ❌ | ja | Administratieve indeling, geen zelfstandig object | — | ja |
-
-### Parkeren (parkeerbeleid)
-
-| Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
-|---|---|---|---|---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerkaart\|Gehandicaptenparkeerkaart]] | object | Europese kaart voor parkeren op gehandicaptenparkeerplaatsen | ✅ | ja | 6/6 criteria; eigen levenscyclus (aanvraag→uitgifte→verlenging→intrekking), relaties met persoon, voertuig, vergunning | GPK bestuurder, GPK passagier | nee (hiaat) |
-| [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats\|Gehandicaptenparkeerplaats]] | object | Parkeerplaats gereserveerd voor GPK-houders | ✅ | ja | 6/6 criteria; specialisatie Parkeervlak met eigen processen, beleidsregel, sensoren, kentekenkoppeling | Algemene GPP binnenstad, individuele GPP op kenteken | partieel (Parkeervlak.doelgroep) |
 | Parkeernorm | regel | Minimum-/maximumnorm voor parkeerplaatsen per zone en functie | ❌ | nee | Beleidsregel/referentiedata, geen zelfstandig object | Norm woning A-gebied: 0,78 auto | nee |
 | Deelautoplek | object | Gereserveerde parkeerplaats voor deelauto's met exploitatie-eisen | ❌ | ja | Subtype/eigenschap van Parkeervlak, beperkt als zelfstandig BO | Deelautoplek Papendorp | nee |
 | Bereikbaarheidsfonds | instrument | Financieel instrument: bijdrage per niet-aangelegde parkeerplaats | ❌ | nee | 3/6 criteria; financieel mechanisme, geen meervoud, geen eigen levenscyclus als object | — | nee |

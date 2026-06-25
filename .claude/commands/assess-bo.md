@@ -57,7 +57,7 @@ Twee onafhankelijke bronnen analyseren:
 
 **b) Uit GGM (generalisatierelaties):**
 - Welke generalisatie-relaties bestaan er in het GGM voor dit begrip of verwante entiteiten?
-- Zoek in de GGM-bronpagina's naar overerving en specialisaties.
+- Zoek in source/GGM naar overerving, specialisaties en generalisaties
 
 **Vergelijk a) en b):** komen ze overeen? Waar wijkt de bronnenanalyse af van het GGM? Afwijkingen zijn waardevolle bevindingen.
 

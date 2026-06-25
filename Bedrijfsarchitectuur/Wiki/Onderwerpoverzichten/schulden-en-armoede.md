@@ -64,6 +64,6 @@ Gemeentelijke schuldhulpverlening: het begeleiden van inwoners met problematisch
 
 ## Cross-domein
 
-- [[Wiki/Onderwerpen/terug-en-invordering|Terug-en-invordering]] — vorderingenbeheer vanuit gemeenteperspectief (de gemeente als schuldeiser). Complementair: dit onderwerp beschrijft de gemeente als schuldhulpverlener.
-- [[Wiki/Onderwerpen/maatschappelijke-ondersteuning|Maatschappelijke ondersteuning]] — Wmo, dakloosheid, buurtteams. Schulden gaan vaak gepaard met problemen op andere leefgebieden.
-- [[Wiki/Onderwerpen/belastingen|Belastingen]] — belastingschuld is meest voorkomende schuld. Kwijtschelding en invordering raken beide domeinen.
+- [[Wiki/Onderwerpoverzichten/terug-en-invordering|Terug-en-invordering]] — vorderingenbeheer vanuit gemeenteperspectief (de gemeente als schuldeiser). Complementair: dit onderwerp beschrijft de gemeente als schuldhulpverlener.
+- [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning|Maatschappelijke ondersteuning]] — Wmo, dakloosheid, buurtteams. Schulden gaan vaak gepaard met problemen op andere leefgebieden.
+- [[Wiki/Onderwerpoverzichten/belastingen|Belastingen]] — belastingschuld is meest voorkomende schuld. Kwijtschelding en invordering raken beide domeinen.

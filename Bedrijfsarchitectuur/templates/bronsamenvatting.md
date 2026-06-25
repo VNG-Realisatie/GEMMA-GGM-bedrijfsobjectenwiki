@@ -25,7 +25,7 @@ datum_ingest: {datum van verwerking}
 Alle verwijzingen naar wiki-pagina's en bedrijfsobjecten **moeten wiki-links zijn**:
 - BO's: `[[bedrijfsobject-naam]]` (bijv. `[[Verkiezing]]`, `[[Begroting]]`)
 - Begrippen met pagina: `[[begrip-naam]]` (bijv. `[[belastingmix]]`)
-- Andere wiki-pagina's: `[[Wiki/Onderwerpen/financien]]`, `[[Wiki/Analyses/ggm-hiaten]]`
+- Andere wiki-pagina's: `[[Wiki/Onderwerpoverzichten/financien]]`, `[[Wiki/Analyses/ggm-hiaten]]`
 - Citaten uit bronsamenvattingen in body: `[[andere-bronsamenvatting|display-tekst]]`
 
 **Uitzondering:** Citaten en blokkwoten uit externe bronnen (VNG-pagina's, etc.) zijn *plain text* — geen links.

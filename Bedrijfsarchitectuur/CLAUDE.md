@@ -120,7 +120,7 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 | Paginatype | Template | Locatie |
 |---|---|---|
 | Bedrijfsobject | `templates/bedrijfsobject.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
-| Onderwerpoverzicht | `templates/onderwerpoverzicht.md` | `Wiki/Onderwerpen/` |
+| Onderwerpoverzicht | `templates/onderwerpoverzicht.md` | `Wiki/Onderwerpoverzichten/` |
 | Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | Analyse | `templates/analyse.md` | `Wiki/Analyses/` |
 
@@ -168,7 +168,7 @@ Wanneer de gebruiker een vraag stelt:
 **Principe:** Goede antwoorden worden teruggeschreven naar de wiki zodat kennis zich opbouwt. Na elke substantiële vraag controleren: zou dit als analyse, begrip of BO-pagina moeten bestaan?
 
 **Format bij antwoord:**
-- Citeer relevant: `Zie [[Wiki/Onderwerpen/bestuur]] voor...`
+- Citeer relevant: `Zie [[Wiki/Onderwerpoverzichten/bestuur]] voor...`
 - Verwijs naar relaties: `Dit BO relateert aan [[Verkiezing]]`
 - Verwijs naar analyses: `Context via [[Wiki/Analyses/ggm-dekkingspatroon]]`
 

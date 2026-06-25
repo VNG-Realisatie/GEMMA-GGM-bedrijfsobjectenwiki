@@ -110,6 +110,7 @@ Herkende specialisaties van Inkomensvoorziening. Gevonden in bronnen en/of GGM. 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]
 
 ## Terugmelding GGM
 

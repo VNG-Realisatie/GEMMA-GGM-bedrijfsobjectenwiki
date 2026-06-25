@@ -28,7 +28,7 @@
 - [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 - [[omgevingswet|omgevingswet]] — Vergunningverlening, toezicht en handhaving in de fysieke leefomgeving (in behandeling, 4 BO's)
-- [[werk-en-inkomen|werk-en-inkomen]] — Bijstandsverlening, bijzondere bijstand, inkomenstoeslagen, tijdelijke inkomensregelingen (afgerond, 2 BO's)
+- [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
 
 ## Bedrijfsobjecten
 
@@ -287,6 +287,12 @@
 ### Maatschappelijke Ondersteuning — Dak- en thuislozen (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid|dakloosheid]] — Registratie dakloosheidsstatus (GGM exact)
 
+### Werk en Inkomen (GGM beleidsdomein Werk + Model Inkomen, taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|loonkostensubsidie]] — Tegemoetkoming aan werkgever voor verschil loonwaarde en WML (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/re-integratievoorziening|re-integratievoorziening]] — Voorziening gericht op vergroten arbeidskansen werkzoekende (GGM exact, 12 attributen)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening|inkomensvoorziening]] — Regeling die voorziet in inkomen conform landelijke wetgeving (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht|draagkracht]] — Berekend deel inkomen/vermogen beschikbaar voor eigen kosten (GGM exact)
+
 ### Schulden — Schuldhulpverlening (GGM taakveld 6/Schulden)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject|schuldhulptraject]] — Volledig begeleidingstraject van aanmelding tot uitstroom en nazorg (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuld|schuld]] — Financiële verplichting van een inwoner aan een schuldeiser (GGM exact)
@@ -362,6 +368,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — VNG: informatiegidsen voor raadsleden
 - [[Wiki/Bronsamenvattingen/Bestuur/model-subsidieregeling-politieke-partijen|Model Subsidieregeling decentrale politieke partijen]] — VNG: modelverordening partijsubsidie, 14 artikelen + toelichting
 - [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-subsidieregeling-politieke-partijen|Implementatiehandleiding subsidieregeling politieke partijen]] — VNG: implementatie-instructies, varianten, bedragen per gemeente
+- [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-model-participatieverordening-2024|Implementatiehandleiding Model Participatieverordening 2024]] — VNG: artikelsgewijze toelichting twee varianten participatieverordening (Wet versterking participatie decentraal niveau)
 
 ### Belastingen
 - [[Wiki/Bronsamenvattingen/Belastingen/belastingtypen|Belastingtypen]] — VNG: drie typen gemeentelijke belastingen
@@ -515,6 +522,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo|Maatwerkvoorzieningen Wmo]] — VNG: hulpmiddelen, woningaanpassingen, vervoer
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning|Vrijwilligerswerk en mantelzorgondersteuning]] — VNG: mantelzorg, informele zorg
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
+
+### Werk en Inkomen
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand|Factsheet Bijzondere Bijstand]] — Divosa: bijzondere bijstand, beschermingsbewind, draagkracht (2024)
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw|Handreiking Explicitering budgetten Participatiewet en Wsw]] — Berenschot/Divosa/Cedris/VNG/SZW: financieringssystematiek Participatiewet (2025)
 
 ### Schulden en Armoede
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028|Beleidsplan Schuldhulpverlening Den Haag 2024-2028]] — Gemeente Den Haag: integrale schuldhulpverlening, vier pijlers, vroegsignalering, doelgroepen

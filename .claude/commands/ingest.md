@@ -13,7 +13,7 @@ Volg deze stappen exact:
 5. Na akkoord: **maak bronsamenvattingen** aan in `Wiki/Bronsamenvattingen/{onderwerp}/` per bron.
 6. **Beoordeel begrippen** — per begrip: voer `/assess-bo` uit (alle beoordelingslogica).
 7. **Maak BO-pagina's** — per BO-kandidaat: voer `/write-bo` uit (GGM-match + pagina aanmaken).
-8. **Update het onderwerpoverzicht** in `Wiki/Onderwerpen/`:
+8. **Update het onderwerpoverzicht** in `Wiki/Onderwerpoverzichten/`:
    - Voeg nieuwe begrippen toe aan de begrippentabel (begrip, type, omschrijving, BO?, data-object, reden, voorbeelden, GGM).
    - Begrippen die BO's zijn: maak de naam een `[[link]]` naar de BO-pagina.
    - Voeg verwerkte bronnen toe aan de bronnenlijst.

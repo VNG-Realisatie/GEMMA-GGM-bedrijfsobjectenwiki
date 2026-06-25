@@ -2,9 +2,9 @@
 type: domein
 naam: Bestuur
 status: afgerond
-verwerkingsdatum: 2026-06-19
-bronnen_count: 9
-begrippen_count: 7
+verwerkingsdatum: 2026-06-25
+bronnen_count: 10
+begrippen_count: 14
 bo_count: 4
 ---
 
@@ -23,6 +23,13 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 |lokale omroep|actor|Publieke mediaorganisatie op gemeentelijk niveau (externe partij)| ❌ | nee |Externe organisatie; gemeente heeft relatie (bekostiging, advies) maar omroep is niet gemeentelijk object|Omroep Amsterdam, RTV Rijnmond|nee|
 |gemeenteraad|governance|Gekozen vertegenwoordigend lichaam; besluiten over beleid en begroting| ❌ | nee |Governance-structuur; rol/functie, geen aparte dingen|—|nee|
 |college|governance|Dagelijks bestuur, collegeleden voeren raadsbesluit uit| ❌ | nee |Governance-structuur; organisatorische rol|—|nee|
+|participatieverordening|document|Gemeentelijke verordening met spelregels voor participatie (art. 150 Gemeentewet)| ❌ | nee |Subtype verordening; geen zelfstandig registratieobject|—|nee|
+|inwonersparticipatie|proces|Op initiatief gemeente betrekken van inwoners bij beleid| ❌ | nee |Werkwijze/procedure, geen registreerbaar ding|—|nee|
+|overheidsparticipatie|proces|Op initiatief inwoners/maatschappelijke partijen betrekken van gemeente| ❌ | nee |Werkwijze/procedure, geen registreerbaar ding|—|nee|
+|uitdaagrecht|recht|Recht van inwoners/maatschappelijke partijen om overname gemeentelijke taak te verzoeken| ❌ | nee |Bevoegdheid/procedure, geen data-object|—|nee|
+|participatieplan|processtuk|Openbaar plan per participatietraject met spelregels en rolverdeling| ❌ | nee |Documenttype binnen proces; geen zelfstandige levenscyclus|—|nee|
+|inspraak|procedure|Formele participatievorm via afd. 3.4 Awb| ❌ | nee |Procedure, geen ding|—|nee|
+|maatschappelijke partij|actor|Verenigingen, stichtingen, buurtcomités die bijdragen aan samenleving| ❌ | nee |Externe actor; niet door gemeente geregistreerd als eigen object|—|nee|
 
 ## Verwerkte bronnen
 
@@ -35,10 +42,11 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 - [[Wiki/Bronsamenvattingen/Bestuur/versterking-lokale-democratie|Versterking lokale democratie]] — Governance-principes en democratische experimenten
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet|VNG-inzet kabinet]] — VNG-level advocacy; context
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — Informatieresources; context
+- [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-model-participatieverordening-2024|Implementatiehandleiding Model Participatieverordening 2024]] — Artikelsgewijze toelichting op twee varianten participatieverordening; governance en procedures
 
 ## Nog te verwerken
 
-Geen; alle 9 Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
+Geen; alle 10 Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
 
 ## Designkeuzes
 

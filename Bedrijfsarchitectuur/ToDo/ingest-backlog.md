@@ -73,6 +73,9 @@ Status: 134 bronnen in 19 batches.
 
 > **Afgehandeld:** 2 rijke bronnen samengevat (modelverordening + implementatiehandleiding), 2 naar Niet-relevant (nieuwspagina, ledenbrief). 1 nieuw BO: Partijsubsidie (procesobject, GGM-hiaat). GGM mist "Politieke Partij" als entiteit onder taakveld 0.
 
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] implementatiehandleiding-model-participatieverordening-2024 (VNG, PDF, participatieverordening / lokale democratie) → 7 begrippen, geen nieuwe BO's (governance/procedures)
+
 ## erfgoed (1)
 - [ ] lijst-beeldbepalende-panden
 
@@ -202,7 +205,7 @@ Status: 134 bronnen in 19 batches.
 
 > **Afgehandeld:** 1 rijke bron (beleidsplan Den Haag), 2 dunne VNG-pagina's gebundeld, 1 stub, 1 niet-relevant. 10 BO's uit GGM-domein Schulden (33 entiteiten). Actoren (Schuldeiser, Signaalpartner) als BO opgenomen. Contactpoging gepromoveerd van GGM-component naar BO op basis van Divosa-onderzoek.
 
-## ~~Werk en Inkomen (7 + 5 aanvullend)~~ ✓
+## ~~Werk en Inkomen (7 + 5 + 1 aanvullend)~~ ✓
 - [x] arbeidsmarktbeleid → Niet-relevant
 - [x] inkomensondersteuning-alleenverdieners → Niet-relevant
 - [x] migratie-en-werk → Niet-relevant
@@ -215,5 +218,6 @@ Status: 134 bronnen in 19 batches.
 - [x] factsheet-bijzondere-bijstand-ontwikkelingen (Divosa, mei 2024)
 - [x] factsheet-bijzondere-bijstand-uitgaven (Divosa, mei 2024)
 - [x] factsheet-bijzondere-bijstand-ontvangers (Divosa, mei 2024)
+- [x] handreiking-explicitering-budgetten-participatiewet-wsw (Berenschot/Divosa/Cedris/VNG/SZW, april 2025)
 
 > **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (te dun). 5 bronbestanden (1 Divosa-publicatie) → 1 bronsamenvatting, 2 nieuwe BO's (Inkomensvoorziening, Draagkracht). Domein afgerond: 1 bronsamenvatting, 7 niet-relevant, 15 begrippen, 2 BO's.

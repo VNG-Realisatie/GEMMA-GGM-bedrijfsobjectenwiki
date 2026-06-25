@@ -57,7 +57,7 @@ Beleidsplan van de gemeente Den Haag voor de periode 2024-2028. Den Haag wordt l
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Rijke bron voor het schuldendomein. Beschrijft het volledige schuldhulpverleningsproces met concrete fasen (aanmelding → intake → stabilisatie → schuldregeling → nazorg), doelgroepen, instrumenten en ketenpartners. Sluit direct aan op het GGM-beleidsdomein Schulden (33 Objecttype-entiteiten). De vier pijlers structureren het domein helder. Cross-domein met [[Wiki/Onderwerpen/terug-en-invordering|terug-en-invordering]] (vorderingenbeheer) en [[Wiki/Onderwerpen/maatschappelijke-ondersteuning|maatschappelijke ondersteuning]] (Wmo, dakloosheid).
+Rijke bron voor het schuldendomein. Beschrijft het volledige schuldhulpverleningsproces met concrete fasen (aanmelding → intake → stabilisatie → schuldregeling → nazorg), doelgroepen, instrumenten en ketenpartners. Sluit direct aan op het GGM-beleidsdomein Schulden (33 Objecttype-entiteiten). De vier pijlers structureren het domein helder. Cross-domein met [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] (vorderingenbeheer) en [[Wiki/Onderwerpoverzichten/maatschappelijke-ondersteuning|maatschappelijke ondersteuning]] (Wmo, dakloosheid).
 
 ## Bronnen
 - [Beleidsplan Schuldhulpverlening 2024](Sources/Onderwerpen/Schulden en Armoede/Beleidsplan Schuldhulpverlening 2024.md)

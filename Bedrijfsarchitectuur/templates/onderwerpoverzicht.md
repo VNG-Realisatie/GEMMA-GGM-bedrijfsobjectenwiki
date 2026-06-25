@@ -1,6 +1,6 @@
 # Template: Onderwerpoverzicht
 
-Locatie: `Wiki/Onderwerpen/{onderwerpnaam}.md`
+Locatie: `Wiki/Onderwerpoverzichten/{onderwerpnaam}.md`
 
 ## Frontmatter
 

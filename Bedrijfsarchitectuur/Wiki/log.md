@@ -1,9 +1,32 @@
 # Wiki Log
 
+## [2026-06-25] ingest | Bestuur — Implementatiehandleiding Model Participatieverordening 2024
+- **Bron:** Implementatiehandleiding VNG Model Participatieverordening 2024 (VNG, december 2024, PDF)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-model-participatieverordening-2024|Implementatiehandleiding Model Participatieverordening 2024]]
+- **Begrippen:** 7 nieuwe begrippen toegevoegd aan onderwerpoverzicht (participatieverordening, inwonersparticipatie, overheidsparticipatie, uitdaagrecht, participatieplan, inspraak, maatschappelijke partij)
+- **BO's:** geen nieuwe BO's — alle begrippen zijn processen, procedures, governance of externe actoren
+- **Conclusie:** bron beschrijft governance en procesregels voor gemeentelijke participatie; verrijkt context voor bestaand domein Bestuur
+
+## [2026-06-25] coverage | GGM-dekkingsanalyse bijgewerkt
+- **Script:** `coverage_analysis.py` — 954 objecttype-entiteiten, 44 beleidsdomeinen
+- **142 BO's**, 9 generalisaties, 18 subtypes, 13 componenten, 5 begrippentabel niet-BO's
+- **767 entiteiten niet beoordeeld**
+- **19 beleidsdomeinen zonder bronnen** (o.a. Griffie, ICT, Inkoop, Subsidies, Vastgoed, meerdere Inkomen-subdomeinen)
+
+## [2026-06-25] ingest | Werk en Inkomen — handreiking Participatiewet, 2 nieuwe BO's
+- **Bron:** Handreiking Explicitering budgetten Participatiewet en Wsw (Berenschot, april 2025, in opdracht Cedris/Divosa/VNG/SZW) — PDF geconverteerd, 1019 regels
+- **2 nieuwe BO's:**
+  - Loonkostensubsidie (GGM exact, Werk) — tegemoetkoming aan werkgever voor verschil loonwaarde en WML; historische budgetverdeling, €7.355 per eenheid in gemeentefonds
+  - Re-integratievoorziening (GGM exact, Werk, 12 attributen) — voorziening/dienst voor vergroten arbeidskansen werkzoekende; scholing, werkervaring, bemiddeling
+- **Onderwerpoverzicht uitgebreid:** 15 → 19 begrippen, 2 → 4 BO's
+- **GGM-terugmelding:** Loonkostensubsidie heeft slechts 1 attribuut (PercentageLoonwaardeWML); in praktijk worden meer gegevens geregistreerd
+- **Eerste dekking** voor GGM-beleidsdomein Werk (33 entiteiten, nu 2 BO's)
+- **bo_count:** 140 → 142
+
 ## [2026-06-25] ingest | Asiel en Integratie — handreiking financieel ontzorgen, onderwerpoverzicht aangemaakt
 - **Bron:** Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid (feb. 2024, update juli 2025), gecrawld via crawl4ai
 - **Geen nieuwe BO's:** alle begrippen vallen onder bestaande BO's (Asielstatushouder, PIP, Brede Intake, etc.) of bestaande GGM-entiteiten (Leenbijstand, Inkomensvoorziening)
-- **Nieuw onderwerpoverzicht:** `Wiki/Onderwerpen/asiel-en-integratie.md` — 38 begrippen, 15 BO's, 7 verwerkte bronnen
+- **Nieuw onderwerpoverzicht:** `Wiki/Onderwerpoverzichten/asiel-en-integratie.md` — 38 begrippen, 15 BO's, 7 verwerkte bronnen
 - **Bronsamenvatting:** `Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen.md`
 - **Observatie:** financieel ontzorgen is proces (vastgelegd in PIP en Inkomensvoorziening), geen zelfstandig BO. Inrichtingskrediet = Leenbijstand (GGM). Budgetbeheer = uitvoeringswijze Schuldhulptraject.
 

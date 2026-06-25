@@ -71,7 +71,7 @@ _(geen)_
 
 ## Cross-domein
 
-- [[Wiki/Onderwerpen/schulden-en-armoede|Schulden en armoede]] — budgetbeheer en schuldhulpverlening worden in de praktijk door dezelfde teams uitgevoerd. Financieel ontzorgen is preventie van schuldenproblematiek.
+- [[Wiki/Onderwerpoverzichten/schulden-en-armoede|Schulden en armoede]] — budgetbeheer en schuldhulpverlening worden in de praktijk door dezelfde teams uitgevoerd. Financieel ontzorgen is preventie van schuldenproblematiek.
 - Werk en Inkomen — bijstandsuitkering, inkomensvoorziening en toeslagen vormen de financiële basis voor statushouders. Leenbijstand en bijzondere bijstand zijn instrumenten uit dit domein.
 - Terug- en Invordering — inrichtingskrediet als leenbijstand leidt tot vordering; Reba-schulden uit opvang worden meegenomen.
 

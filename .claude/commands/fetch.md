@@ -18,6 +18,8 @@ Stappen:
         - `source_page:` URL van de webpagina waar de link op stond
         - overige velden (title, author, created, description, tags) zoals bij de hoofdpagina
 4. Sla op als `Sources/{onderwerp}/{beschrijvende-slug}.md` (lowercase, kebab-case, max 60 tekens).
+   - **Bij geconverteerde PDF's:** verplaats het .md-bestand met `mv` naar de doellocatie, voeg daarna alleen de frontmatter toe met Edit. Schrijf nooit de volledige inhoud opnieuw via Write.
+   - **Bij HTML-pagina's:** gebruik Write alleen als het bestand nieuw moet worden aangemaakt vanuit WebFetch-output.
 5. Voeg frontmatter toe:
    ```yaml
    ---
