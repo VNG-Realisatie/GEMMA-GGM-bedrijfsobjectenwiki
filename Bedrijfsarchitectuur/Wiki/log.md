@@ -1,5 +1,21 @@
 # Wiki Log
 
+## [2026-06-26] ingest | Vastgoed — 2 bronnen, 7 BO's
+
+- **Bronnen:** Actualisatie Vastgoedstrategie Amsterdam (PDF, ~1.000 panden), Beleidsplan Gemeentelijk Vastgoed Hulst 2020-2024 (lokale regelgeving, ~50 gebouwen)
+- **Bronsamenvattingen:** [[Wiki/Bronsamenvattingen/Vastgoed/vastgoedstrategie-amsterdam|Vastgoedstrategie Amsterdam]], [[Wiki/Bronsamenvattingen/Vastgoed/beleidsplan-vastgoed-hulst|Beleidsplan Vastgoed Hulst]]
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/vastgoed|Vastgoed]] — 18 begrippen, 7 BO's
+- **Nieuwe BO's:** 6 — Vastgoedobject (GGM exact), Verhuurbare Eenheid (GGM exact), Vastgoedcontract (GGM exact), MJOP (GGM exact), Werkbon (GGM exact), Algemeenbelangbesluit (governance-object, GGM-hiaat)
+- **Bijgewerkt:** Inspectie — uitgebreid met vastgoedcontext, GGM-duplicaat Vastgoed-domein, relaties naar Vastgoedobject en MJOP
+- **GGM-dekking Vastgoed:** 6 van 27 entiteiten → BO, 6 → GGM-component, 3 → actor/rol, rest → enumeratie/verankering
+
+## [2026-06-26] coverage | GGM-dekkingsanalyse gegenereerd
+
+- **Output:** [[Wiki/Analyses/ggm-dekking|GGM-dekkingsanalyse]]
+- **Scope:** alle 44 beleidsdomeinen, 954 objecttype-entiteiten
+- **Resultaat:** 167 BO's vastgelegd, 37 als begrip gevonden (niet-BO), 688 niet beoordeeld
+- **Beleidsdomeinen zonder bronnen:** 18 (o.a. Griffie, ICT, Inkoop, Subsidies, diverse Inkomen-subdomeinen)
+
 ## [2026-06-26] ingest | Maatschappelijke Ondersteuning — Wmo 2015
 
 - **Bron:** Wet maatschappelijke ondersteuning 2015 (wetten.overheid.nl, BWBR0035362 per 2026-01-01)

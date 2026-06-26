@@ -3,7 +3,7 @@
 Overzicht van Sources/Onderwerpen die nog niet ingested zijn, per onderwerp.
 Bronnen in "Niet-relevant" mappen zijn beoordeeld maar bewust niet samengevat.
 
-Status: 139 bronnen in 22 batches.
+Status: 141 bronnen in 23 batches.
 
 ## ~~Arbeidszaken (9)~~ ✓
 - [x] arbeidsmarktkrapte-aanpak-gemeenten
@@ -272,6 +272,12 @@ Status: 139 bronnen in 22 batches.
 - [x] catalogus-nhr (Handelsregisterwet / NHR Gegevenscatalogus, KvK)
 
 > **Afgehandeld:** 1 rijke bron (Handelsregisterwet + Handelsregisterbesluit + KvK gegevenscatalogus v3.0.4). 1 bronsamenvatting. 3 nieuwe BO's: Maatschappelijke Activiteit (GGM exact), Niet-Natuurlijk Persoon (GGM exact), Vestiging (GGM exact). 7 begrippen, 3 GGM Kern RSGB entiteiten. Hotel en Horecabedrijf (Economie) zijn specialisaties van Vestiging.
+
+## ~~Vastgoed (2)~~ ✓
+- [x] actualisatie-vastgoedstrategie-amsterdam (Gemeente Amsterdam, PDF, vastgoedstrategie ~1000 panden, verduurzaming, huurprijssystematiek)
+- [x] beleidsplan-vastgoed-hulst (Gemeente Hulst, lokaleregelgeving.overheid.nl, beleidsplan beheer en onderhoud gemeentelijk vastgoed 2020-2024)
+
+> **Afgehandeld:** 2 rijke bronnen verwerkt (complementair: Amsterdam strategisch/financieel, Hulst operationeel/beheer). 6 nieuwe BO's uit GGM-domein Vastgoed (Vastgoedobject, Verhuurbare Eenheid, Vastgoedcontract, MJOP, Werkbon + Algemeenbelangbesluit als governance-object). Inspectie-BO uitgebreid met vastgoedcontext. GGM Vastgoed (27 entiteiten) grotendeels gedekt.
 
 ## Basisregistraties — RSGBPlus overig
 - [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten, IMGeo/BGT)

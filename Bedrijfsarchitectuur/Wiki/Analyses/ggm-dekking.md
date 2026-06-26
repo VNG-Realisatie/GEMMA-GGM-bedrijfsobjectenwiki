@@ -1,6 +1,6 @@
 # GGM-dekkingsanalyse
 
-**Gegenereerd:** 2026-06-26 22:35:38
+**Gegenereerd:** 2026-06-26 22:39:30
 
 ## Samenvattende statistieken
 
@@ -35,7 +35,6 @@
 - 9 Interne Organisatie → ICT
 - 9 Interne Organisatie → Inkoop
 - 9 Interne Organisatie → Subsidies
-- 9 Interne Organisatie → Vastgoed
 - 99 Kern → 99 Kern
 
 ## GGM-entiteitendekking per beleidsdomein
@@ -80,7 +79,7 @@
 |  | [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkoop]] (20) | — | — | ◆ Categorie (onderdeel van Raadsstuk) | Aanbesteding, Aanbesteding Inhuur, Aankondiging, Aanvraag Inkooporder, CPV-code, Contract, FormulierInhuur, FormulierVerlengingInhuur, Gunning, Inkooppakket, Inschrijving, Kandidaat, Kwalificatie, Leverancier, Offerte, Offerteaanvraag, SelectietabelAanbesteding, StartformulierAanbesteden, Uitnodiging | — |
 |  | [[Wiki/GGM/9-interne-organisatie/organisatie-indeling\|Organisatie-indeling]] (2) | Project | — | ◆ Programma (onderdeel van Raadsstuk) | — | [[Wiki/Onderwerpoverzichten/cultuur\|Cultuur]] (7) |
 |  | [[Wiki/GGM/9-interne-organisatie/subsidies\|Subsidies]] (9) | — | — | — | Betaalmoment, Rapportagemoment, Sector, Subsidie, Subsidieaanvraag, Subsidiebeschikking, Subsidiecomponent, Subsidieprogramma, Taak | — |
-|  | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed]] (27) | — | — | — | Aanbesteding Vastgoed, Adresaanduiding, Bouwdeel, Bouwdeelelement, CultuurOnbebouwd, Eigenaar, Gebruiksdoel, Huurder, Inspectie, KpBetrokkenBij, KpOnstaanUit, LocatieaanduidingWozObject, Locatieonroerendezaak, MJOP, MJOP-Item, NADAanvullingBRP, Objectrelatie, Offerte, Pachter, Prijzenboekitem, Vastgoed Contract, Vastgoedcontractregel, Vastgoedobject, Verhuurbaar Eenheid, WOZ-Belang, Werkbon, Zakelijk Recht | — |
+|  | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed]] (27) | Vastgoedobject, Verhuurbaar Eenheid, Vastgoed Contract, MJOP, Werkbon, Inspectie | — | ◆ Bouwdeel (onderdeel van Vastgoedobject)<br>◆ Bouwdeelelement (onderdeel van Bouwdeel)<br>◆ Vastgoedcontractregel (onderdeel van Vastgoedcontract)<br>◆ MJOP-Item (onderdeel van MJOP)<br>◆ Prijzenboekitem (onderdeel van MJOP-Item)<br>◆ Objectrelatie (onderdeel van Vastgoedobject)<br>◆ Adresaanduiding (onderdeel van Vastgoedobject)<br>◆ Gebruiksdoel (onderdeel van Vastgoedobject)<br>◆ CultuurOnbebouwd (onderdeel van Vastgoedobject)<br>↓ Eigenaar (actor/rol Rechtspersoon)<br>↓ Huurder (actor/rol Rechtspersoon)<br>↓ Pachter (actor/rol Rechtspersoon) | Aanbesteding Vastgoed, KpBetrokkenBij, KpOnstaanUit, LocatieaanduidingWozObject, Locatieonroerendezaak, NADAanvullingBRP, Offerte, WOZ-Belang, Zakelijk Recht | [[Wiki/Onderwerpoverzichten/vastgoed\|Vastgoed]] (7) |
 | **10 Dienstverlening** | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|10 Dienstverlening]] (16) | AanvraagOfMelding, Balieafspraak, ProductOfDienst | — | — | Aanvraagdata, Afspraakstatus, Artikel, ExterneBron, Formuliersoort, Formuliersoortveld, Klantbeoordeling, Klantbeoordelingreden, MOR-AanvraagOfMelding, Onderwerp, Telefoononderwerp, Telefoonstatus, Telefoontje | [[Wiki/Onderwerpoverzichten/dienstverlening\|Dienstverlening]] (5) |
 | **99 Kern** | [[Wiki/GGM/99-kern/99-kern\|99 Kern]] (10) | — | Locatie | ◆ Video-opname (onderdeel van Vergadering)<br>✗ Locatie (Generiek kern-concept (Vastgoedobject); cross-domein) | Foto, Gebied, Gebiedengroep, Lijn, Lijnengroep, Periode, Punt, Puntengroep | — |
 |  | [[Wiki/GGM/99-kern/bag\|BAG]] (13) | Buurt, Gemeente, Ligplaats, Nummeraanduiding, OpenbareRuimte, Pand, Standplaats, Verblijfsobject, Wijk, Woonplaats | — | ↑ AdresseerbaarObject (generalisatie van Ligplaats) | BinnenlandsAdres, Onderzoek | BAG (10), [[Wiki/Onderwerpoverzichten/basisregistraties\|Basisregistraties]] (24), [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte\|Beheer Openbare Ruimte]] (20), [[Wiki/Onderwerpoverzichten/wonen\|Wonen]] (6) |

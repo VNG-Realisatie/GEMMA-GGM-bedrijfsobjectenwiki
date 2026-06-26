@@ -32,6 +32,7 @@
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister (in behandeling, 7 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
+- [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
 
 ## Bedrijfsobjecten
 
@@ -93,6 +94,15 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] — Persoon die een bedrag verschuldigd is aan de gemeente
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] — Bezittingen op de boekhoudkundige balans
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] — Opdracht voor uitvoering van een activiteit
+
+### Vastgoed (GGM beleidsdomein, taakveld 9)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject|vastgoedobject]] — Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/verhuurbare-eenheid|verhuurbare-eenheid]] — Individueel verhuurbaar deel van een vastgoedobject
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract|vastgoedcontract]] — Huurovereenkomst over gebruik van een vastgoedobject
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop|mjop]] — Meerjaren onderhoudsplanning per vastgoedobject
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon|werkbon]] — Document dat een hoeveelheid uit te voeren werk beschrijft
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/algemeenbelangbesluit|algemeenbelangbesluit]] — Raadsbesluit dat verhuur onder de kostprijs mogelijk maakt (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie|inspectie]] — Periodieke controle van technische staat (uitgebreid met vastgoedcontext)
 
 ### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern + VTH taakveld 1)
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
