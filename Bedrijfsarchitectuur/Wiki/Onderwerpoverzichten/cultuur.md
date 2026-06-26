@@ -3,8 +3,8 @@ type: domein
 naam: Cultuur
 status: in opbouw
 verwerkingsdatum: 2026-06-20
-bronnen_count: 9
-begrippen_count: 35
+bronnen_count: 11
+begrippen_count: 43
 bo_count: 7
 ---
 
@@ -19,12 +19,20 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
 |---|---|---|---|---|---|---|---|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]]|object|Beschermd onroerend erfgoed met rijks-, provinciaal of gemeentelijke status| ✅ | ja |6/6 criteria, exact match (Beschermde Status)|Rijksmonument, gemeentelijk monument, beschermd gezicht|ja|
-|[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]]|object|Gearchiveerde informatie ongeacht medium, beheerd door gemeentearchief| ✅ | ja |6/6 criteria, exact match|Raadsbesluit in archief, historisch document, digitaal bestand|ja|
+|[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]]|object|Gearchiveerde informatie ongeacht medium, beheerd door gemeentearchief; raakt zowel erfgoed als informatiebeheer| ✅ | ja |6/6 criteria, exact match|Raadsbesluit in archief, historisch document, digitaal bestand|ja|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]]|object|Object met cultuurhistorische waarde in museale collectie| ✅ | ja |6/6 criteria, exact match|Schilderij, archeologisch artefact, historisch gebruiksvoorwerp|ja|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]]|object|Locatie met (verwachte) archeologische waarde| ✅ | ja |6/6 criteria, sterk match (GGM Vindplaats); gemeente is bevoegd gezag, beheert eigen beleidskaart|Opgraving binnenstad, Romeinse vondstlocatie|ja|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]]|object|Overblijfsel of voorwerp uit het verleden| ✅ | ja |6/6 criteria, exact match (GGM Vondst + Artefact); gemeente beheert collectie in eigen depot|Romeins schip De Meern 1, middeleeuwse moerbalk|ja|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]]|object|Onderzoeksproject door/namens gemeente als bevoegd gezag| ✅ | ja |6/6 criteria, sterk match (GGM Project); gemeente voert en begeleidt onderzoek|Opgraving Prinses Maxima Centrum, opgravingsproject Domplein|ja|
 |[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/orgel\|Orgel]]|object|Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw| ✅ | ja |6/6 criteria; eigen monumentstatus, eigen levenscyclus, apart geregistreerd; GGM-hiaat|Domorgel, Bätz-orgel Jacobikerk|nee (hiaat)|
+|archiefbewaarplaats|locatie|Juridisch aangewezen locatie voor overgebrachte archiefbescheiden; fysiek (regionaal archief) of digitaal (e-depot)| ❌ | ja |GGM kent "Depot" (fysieke opslag) en "Archief" (verzameling + bewaarplaats); geen apart BO maar component van archiefbeheer. E-depot-variant ontbreekt in GGM.|Gemeentearchief, regionaal historisch centrum, e-depot|deels (Depot)|
+|archiefruimte|locatie|Ruimte waar semi-statische archieven (afgesloten, niet overgebracht) worden bewaard vóór overbrenging naar archiefbewaarplaats| ❌ | nee |Fysieke ruimte met inrichtingseisen (art. 21 Aw); component van archiefbeheer, geen zelfstandig BO|Archiefkelder gemeentehuis, depotruimte|nee|
+|archiefbescheiden|object|Informatiedragers van gemeentelijke organen onder de Archiefwet, "ongeacht hun vorm" (incl. digitaal)| ❌ | ja |Synoniem van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]]; geen apart BO|Raadsdossier, vergunningdossier, digitaal bestand|ja|
+|zorgdrager|governance|Overheidsorgaan met bestuurlijke verantwoordelijkheid voor archiefbescheiden (voor gemeente: B&W)| ❌ | nee |Governance-rol; onderscheid zorg (bestuurlijk) vs. beheer (operationeel)|—|nee|
+|gemeentearchivaris|actor|Functionaris met wettelijke toezichtstaak op archiefbeheer| ❌ | nee |Rol/functie, geen gemeentelijk registratieobject|—|nee|
+|overbrenging|proces|Formele overdracht van archiefbescheiden naar de archiefbewaarplaats na 20 jaar| ❌ | nee |Procesmoment; geen eigen bestaan als object. Sleutelmoment: na overbrenging geldt Archiefwet-openbaarheid i.p.v. Wob|Overbrenging na 20 jaar|nee|
+|vernietigingslijst|instrument|Verplicht opgestelde lijst met te vernietigen archiefbescheiden en termijnen| ❌ | nee |Procesinstrument voor selectie en vernietiging; geen eigen levenscyclus als data-object|Vernietigingslijst gemeente 2024|nee|
+|substitutie|proces|Vervanging van originele archiefbescheiden door reproducties (incl. digitaal), waarna originelen mogen worden vernietigd| ❌ | nee |Proces; basis voor digitalisering en e-depot|Verfilming, digitalisering|nee|
 |werelderfgoed|object|UNESCO-werelderfgoedsite met internationaal beschermingsregime| ❌ | ja |Internationaal instrument, niet primair gemeentelijk; bescherming loopt via [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]]|Limes, NHW, Rietveld-Schröderhuis|nee|
 |beschermd stadsgezicht|object|Rijks- of gemeentelijk beschermd stads- of dorpsgezicht| ❌ | ja |Onderdeel van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] (via attribuut gezichtscode in GGM)|Binnenstad Utrecht|ja|
 |cultuurhistorische waardenkaart|instrument|Erfgoedwaarden in lagen en thema's, afwegingskader planvorming| ❌ | nee |Beleidsinstrument|—|nee|
@@ -65,6 +73,8 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht, geactualiseerde visie op religieus erfgoed: kerkgebouwen, orgels, herbestemming
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht, overzichtspagina erfgoedbeleid (secundaire bron)
 - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht, referentiemateriaal: tabellen orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen|Archiefverordening Wageningen 2019]] — Modelverordening Archiefwet 1995: zorgplicht B&W, taken gemeentearchivaris, duale positionering archief (erfgoed + informatiebeheer)
+- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet|Memorie van toelichting Archiefwet 1995]] — Parlementaire toelichting: definities, overbrengingstermijn 20 jaar, digitale informatiedragers, levenscyclus archieven
 
 ## Nog te verwerken bronnen
 
@@ -73,7 +83,7 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 ## Openstaande vragen
 
 - **29 van 67 GGM-entiteiten (43%) zijn niet beoordeeld** — met name Generiek Erfgoed (3) en Musea (22). Het Musea-domein is grotendeels Prinsenhof-specifiek; bij toevoeging van museale beleidsbronnen (collectiebeleid, Erfgoedwet-uitvoering) kunnen Collectie, Tentoonstelling en Bruikleen alsnog BO worden.
-- **Archief** — Depot, Kast, Plank, Stelling zijn opslaglogistiek, niet beoordeeld. Vermoedelijk te operationeel voor BO.
+- **Archief** — Depot, Kast, Plank, Stelling zijn opslaglogistiek, niet beoordeeld. Vermoedelijk te operationeel voor BO. Het GGM mist een e-depot-concept (digitale archiefbewaarplaats). De Archiefwet 2021 vereist digitale overbrenging; dit raakt informatiebeheer meer dan erfgoed.
 - **Groen/blauw erfgoed** — de erfgoednota Utrecht beschrijft historische parken en waterlopen als structurerend element. Dit zijn potentieel herkenbare objecten met eigen levenscyclus (aanleg → ontwikkeling → herstel), maar op dit moment een categorie van bestaande objecten (park, waterloop) eerder dan een eigenstandig BO-type. Zou bij toevoeging van bronnen over groenbeleid/openbare ruimte nader bekeken moeten worden.
 
 ## Terugmeldingen richting GGM

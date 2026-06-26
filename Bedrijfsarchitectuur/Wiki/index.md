@@ -9,7 +9,7 @@
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK en NHR: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging (in behandeling, 23 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
-- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (8 BO's)
+- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (6 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, cultuurbeleid (in opbouw, 7 BO's)
@@ -130,7 +130,7 @@
 ### Cultuur — Erfgoed (GGM beleidsdomein Erfgoed/Monumenten/Archeologie, taakveld 5)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/beschermde-status|beschermde-status]] — Formele beschermingsstatus van monument of stadsgezicht (GGM exact, subtypes: rijksmonument, gemeentelijk monument, beschermd stadsgezicht)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]] — Beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
-- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]] — Gearchiveerde informatie, beheerd door gemeentearchief
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]] — Gearchiveerde informatie, beheerd door gemeentearchief (cross-domein: erfgoed + informatiebeheer)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] — Locatie met (verwachte) archeologische waarde, geregistreerd op beleidskaart
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|archeologische-vondst]] — Archeologisch overblijfsel of voorwerp, beheerd in gemeentelijk depot
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]] — Onderzoeksproject door/namens gemeente als bevoegd gezag
@@ -346,6 +346,8 @@
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer|beschikking-leerlingenvervoer]] — Gemeentelijk besluit over toekenning leerlingenvervoer (GGM exact)
 
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|zaak]] — Afgebakende werkeenheid met aanleiding, doorlooptijd en resultaat (RGBZ-kern)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|document]] — Informatiedrager ongeacht vorm; na overbrenging wordt het een archiefstuk (cross-domein: dienstverlening + informatiebeheer)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen|vergunningen-en-ontheffingen]] — Domeinoverstijgend parent BO voor alle gemeentelijke vergunningen en ontheffingen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie

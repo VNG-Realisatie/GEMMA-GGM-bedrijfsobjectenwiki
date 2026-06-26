@@ -66,12 +66,12 @@ bedrijfsfuncties:
 - Klantcontactcentrum
 relaties:
 - type: associatie
-  bedrijfsobject: zaakdossier
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"
   richting: van-dit-BO
   kardinaliteit: 0..*
   beschrijving: kan leiden tot een zaak
 - type: associatie
-  bedrijfsobject: informatieobject
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]]"
   richting: van-dit-BO
   kardinaliteit: 0..*
   beschrijving: heeft documenten

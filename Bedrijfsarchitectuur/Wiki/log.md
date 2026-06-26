@@ -1,5 +1,22 @@
 # Wiki Log
 
+## [2026-06-26] ingest | Dienstverlening — RGBZ-kernobjecten Zaak en Document
+
+- **Bronnen:** bestaande bronsamenvattingen RGBZ 1.0 en ZTC2 v2.1
+- **2 nieuwe BO's:** Zaak (GGM exact, RGBZ-kern) en Document (GGM exact, RGBZ-kern)
+- **Onderwerpoverzicht:** Zaak en Document toegevoegd, zaakdossier gecorrigeerd naar ❌ (impliciet concept), informatieobject naar ❌ (abstract supertype)
+- **Relaties gefixt:** aanvraag-of-melding en balieafspraak verwijzen nu naar Zaak i.p.v. platte tekst "zaakdossier"
+- **Cross-domein link:** Document → Archiefstuk (via overbrenging Archiefwet), informatieobject als abstract archiveringsconcept
+
+## [2026-06-26] ingest | Cultuur — Archiefverordening Wageningen 2019 + Memorie van toelichting Archiefwet 1995
+
+- **Bronnen:** Archiefverordening Wageningen 2019 (lokaleregelgeving.overheid.nl) + Memorie van toelichting Archiefwet 1995 (PDF, 638 regels)
+- **Bronsamenvattingen:** archiefverordening-wageningen.md, memorie-van-toelichting-archiefwet.md
+- **Geen nieuwe BO's** — beide bronnen bevestigen bestaand BO Archiefstuk
+- **BO bijgewerkt:** Archiefstuk — domein uitgebreid naar [Cultuur, Informatiebeheer], duale positionering gedocumenteerd
+- **Onderwerpoverzicht:** 8 begrippen toegevoegd (archiefbewaarplaats, archiefruimte, archiefbescheiden, zorgdrager, gemeentearchivaris, overbrenging, vernietigingslijst, substitutie)
+- **Signalering:** GGM mist e-depot-concept (digitale archiefbewaarplaats) en archiefruimte (semi-statische opslag vóór overbrenging). MvT adresseert digitale archivering al in 1992.
+
 ## [2026-06-25] ingest | Openbare Gezondheid — Kerntaken infectieziektebestrijding
 
 - **Bron:** Adviesrapport De Kerntaken van de Infectieziektebestrijding (GGD GHOR Nederland, september 2022, PDF 509 regels)

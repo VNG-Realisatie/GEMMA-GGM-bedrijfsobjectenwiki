@@ -76,8 +76,12 @@ Status: 139 bronnen in 22 batches.
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] implementatiehandleiding-model-participatieverordening-2024 (VNG, PDF, participatieverordening / lokale democratie) → 7 begrippen, geen nieuwe BO's (governance/procedures)
 
-## erfgoed (1)
+## erfgoed (3)
 - [ ] lijst-beeldbepalende-panden
+- [x] archiefverordening-wageningen-2019
+- [x] memorie-van-toelichting-archiefwet-1995
+
+> **archiefverordening-wageningen-2019:** Modelverordening Archiefwet 1995. Geen nieuwe BO's. Bestaand BO Archiefstuk verrijkt met duale domeinpositionering (erfgoed + informatiebeheer). 4 begrippen. GGM-signalering: e-depot ontbreekt.
 
 ## Europa en Internationaal (7)
 - [ ] europese-kennisnetwerken

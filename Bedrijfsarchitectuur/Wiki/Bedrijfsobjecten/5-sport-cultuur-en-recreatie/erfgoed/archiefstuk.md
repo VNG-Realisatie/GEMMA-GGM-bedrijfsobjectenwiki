@@ -1,7 +1,7 @@
 ---
 type: bedrijfsobject
 naam: Archiefstuk
-domein: [Cultuur]
+domein: [Cultuur, Informatiebeheer]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Archiefstuk"
@@ -43,6 +43,8 @@ relaties:
 # Archiefstuk
 
 Gearchiveerde informatie die door de gemeente of haar voorgangers is gecreëerd, ontvangen of gearchiveerd in het kader van wettelijke verplichtingen of zakelijke transacties. Het gemeentearchief beheert archiefstukken conform de Archiefwet.
+
+Archiefstuk bevindt zich op het raakvlak van twee domeinen: als **informatieobject** valt het onder informatiebeheer (lopende dossiers, bewaartermijnen, overbrenging naar e-depot), als **erfgoedobject** valt het onder cultuur (historisch archief, gemeentearchivaris, openbaarheid). Het GGM weerspiegelt dit via dubbele overerving: Document (abstract) én Erfgoed Object (abstract).
 
 ## BO-criteria toetsing
 
@@ -101,3 +103,5 @@ In het GGM erft Archiefstuk van zowel **Document** (abstract) als **Erfgoed Obje
 - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
 - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
+- [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen]]
+- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]

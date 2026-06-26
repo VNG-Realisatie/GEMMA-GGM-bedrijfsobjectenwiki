@@ -4,8 +4,8 @@ naam: Dienstverlening
 status: in-behandeling
 verwerkingsdatum: 2026-06-19
 bronnen_count: 9
-begrippen_count: 14
-bo_count: 7
+begrippen_count: 16
+bo_count: 6
 ---
 
 # Domein: Dienstverlening
@@ -22,12 +22,14 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 |gemeentelijke inkoop|thema|Het geheel van inkoopactiviteiten (€40+ mrd)| ❌ | nee |Thema, geen object|—|nee|
 |aanbesteding|instrument|Verplichte inkoopprocedure boven drempelbedragen| ❌ | nee |Instrument/procedure|Europese aanbesteding, meervoudig onderhands|nee|
 |MVOI|instrument|Maatschappelijk verantwoord opdrachtgeven en inkopen| ❌ | nee |Instrument/beleidskader|Manifest MVOI, actieplan MVOI|nee|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]]|object|Afgebakende werkeenheid met aanleiding, doorlooptijd en resultaat; organiserend principe voor dienstverlening| ✅ | ja |6/6 criteria, exact match|Vergunningaanvraag, bijstandszaak, melding openbare ruimte|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]]|object|Informatiedrager ongeacht vorm, ontvangen of opgemaakt bij taakuitvoering (ZTC2: informatieobject)| ✅ | ja |6/6 criteria, exact match|PDF-aanvraag, e-mail, scan, foto, dataset|ja|
 |[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]]|object|Verzoek of signaal aan de gemeente, startpunt dienstverlening| ✅ | ja |6/6 criteria, sterk match|Bijstandsaanvraag, MOR-melding, DigiD-vraag|ja|
 |[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]]|object|Geplande afspraak voor een klantcontact aan de balie| ✅ | ja |6/6 criteria, exact match|Afspraak paspoort, afspraak sociaal raadslid|ja|
 |[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]]|object|Door de gemeente aangeboden dienst of product| ✅ | ja |6/6 criteria, sterk match|Paspoort, bijstandsuitkering, bouwvergunning|ja|
+|informatieobject|synoniem|ZGW API's / ZTC2-naam voor dezelfde entiteit als GGM "Document"; bredere term dan dagelijks begrip "document"| ❌ | ja |Synoniem van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] (identieke definitie); geen apart BO|PDF, XML-bericht, scan, dataset, e-mail|ja (= Document)|
+|zaakdossier|concept|Zaakkenmerken + informatieobjecten samen; basis voor archivering| ❌ | nee |Impliciet concept (RGBZ): geen apart objecttype maar de verzameling van zaak + documenten|Zaakdossier vergunningaanvraag|nee|
 |zaaktypecatalogus|object|Verzameling zaaktypen met configuratie per domein| ✅ | ja |BO, partieel match (ZTC2-standaard)|ZTC per gemeente|partieel|
-|informatieobject|object|Geheel van gegevens ongeacht vorm (breder dan "document")| ✅ | ja |6/6 criteria, sterk match|PDF-aanvraag, e-mail, scan|ja|
-|zaakdossier|object|Zaakkenmerken + informatieobjecten, basis voor archivering| ✅ | ja |6/6 criteria, sterk match|Zaakdossier vergunningaanvraag|ja|
 |resultaattype|object|Mogelijke uitkomsten per zaaktype, bepaalt archiefregime| ✅ | ja |BO, exact match (ZTC2)|Verleend, Geweigerd, Buiten behandeling|ja|
 |IDO (Informatiepunt Digitale Overheid)|actor|Fysiek hulppunt in bibliotheken voor digitale overheidsvragen| ❌ | nee |Actor/locatietype, geen eigen levenscyclus als gemeentelijk concept|IDO in bibliotheek Amsterdam|nee|
 
@@ -35,12 +37,12 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 
 | Begrip | Status | GGM-grondslag | Matchsterkte |
 |---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | ✅ BO | Zaak (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | ✅ BO | Document (RGBZPlus) | exact |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | ✅ BO | AanvraagOfMelding (Model Dienstverlening) | sterk |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | ✅ BO | Balieafspraak (Model Dienstverlening) | exact |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | ✅ BO | ProductOfDienst (Model Dienstverlening) | sterk |
 | zaaktypecatalogus | ✅ BO | CATALOGUS (ZTC2) | partieel |
-| informatieobject | ✅ BO | Document (RGBZPlus) | sterk |
-| zaakdossier | ✅ BO | Zaak (RGBZPlus) | sterk |
 | resultaattype | ✅ BO | RESULTAATTYPE (ZTC2) | exact |
 
 ## Informatiestandaarden
