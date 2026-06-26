@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-06-26] ingest | Inkoop — 3 bronnen, 8 BO's
+
+- **Bronnen:** VNG Model Inkoop- en Aanbestedingsbeleid 2025 (PDF), Inkoop- en aanbestedingsbeleid OVER-gemeenten (PDF, bgr-2023-799), Inkoop- en aanbestedingsbeleid West-Betuwe 2024-2027 (lokaleregelgeving.overheid.nl)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Inkoop/inkoop-en-aanbestedingsbeleid|Gemeentelijk inkoop- en aanbestedingsbeleid]] — gebundelde samenvatting van 3 bronnen
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/inkoop|Inkoop]] — 17 begrippen, 8 BO's
+- **Nieuwe BO's:** 8 — Aanbesteding (GGM exact), Contract (GGM exact), Leverancier (GGM exact, 2 duplicaten), Gunning (GGM exact), Offerte (GGM exact, 3 duplicaten), Inschrijving (GGM exact, homoniem Onderwijs), Inkooppakket (GGM exact), Marktconsultatie (procesobject, GGM-hiaat)
+- **GGM-terugmeldingen:** #78 Leverancier duplicaat, #79 Offerte duplicaat, #80 Inschrijving homoniem, #81 Marktconsultatie hiaat
+- **GGM-dekking Inkoop:** 7 van 20 entiteiten → BO, 8 → GGM-component/subtype, 5 → referentiedata/formulier
+
 ## [2026-06-26] ingest | Vastgoed — 2 bronnen, 7 BO's
 
 - **Bronnen:** Actualisatie Vastgoedstrategie Amsterdam (PDF, ~1.000 panden), Beleidsplan Gemeentelijk Vastgoed Hulst 2020-2024 (lokale regelgeving, ~50 gebouwen)

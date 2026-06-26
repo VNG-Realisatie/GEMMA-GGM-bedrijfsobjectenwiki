@@ -3,7 +3,7 @@
 Overzicht van Sources/Onderwerpen die nog niet ingested zijn, per onderwerp.
 Bronnen in "Niet-relevant" mappen zijn beoordeeld maar bewust niet samengevat.
 
-Status: 141 bronnen in 23 batches.
+Status: 144 bronnen in 24 batches.
 
 ## ~~Arbeidszaken (9)~~ ✓
 - [x] arbeidsmarktkrapte-aanpak-gemeenten
@@ -301,3 +301,10 @@ basisregistratie BGT
 - [x] handreiking-explicitering-budgetten-participatiewet-wsw (Berenschot/Divosa/Cedris/VNG/SZW, april 2025)
 
 > **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (te dun). 5 bronbestanden (1 Divosa-publicatie) → 1 bronsamenvatting, 2 nieuwe BO's (Inkomensvoorziening, Draagkracht). Domein afgerond: 1 bronsamenvatting, 7 niet-relevant, 15 begrippen, 2 BO's.
+
+## ~~Inkoop (3)~~ ✓
+- [x] vng-model-inkoop-en-aanbestedingsbeleid (VNG, PDF, Model Inkoop- en Aanbestedingsbeleid 2025, modelbeleid met keuzeruimte voor gemeenten)
+- [x] inkoop-aanbestedingsbeleid-over-gemeenten (OVER-gemeenten Wormerland/Oostzaan, PDF, inkoop- en aanbestedingsbeleid gebaseerd op VNG-model)
+- [x] inkoop-aanbestedingsbeleid-west-betuwe (Gemeenten Culemborg/Tiel/West Betuwe, lokaleregelgeving.overheid.nl, gezamenlijk inkoopbeleid 2024-2027)
+
+> **Afgehandeld:** 3 bronnen verwerkt (VNG-modelbeleid + 2 gemeentelijke uitwerkingen) → 1 gebundelde bronsamenvatting. 8 nieuwe BO's: Aanbesteding, Contract, Leverancier, Gunning, Offerte, Inschrijving, Inkooppakket (alle GGM exact), Marktconsultatie (procesobject, GGM-hiaat). 17 begrippen. GGM Inkoop (20 entiteiten): 7 → BO, 8 → component/subtype, 5 → referentiedata. 4 terugmeldingen (#78-81: 2 duplicaten, 1 homoniem, 1 hiaat).

@@ -33,6 +33,7 @@
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister (in behandeling, 7 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
+- [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
 
 ## Bedrijfsobjecten
 
@@ -103,6 +104,16 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon|werkbon]] — Document dat een hoeveelheid uit te voeren werk beschrijft
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/algemeenbelangbesluit|algemeenbelangbesluit]] — Raadsbesluit dat verhuur onder de kostprijs mogelijk maakt (governance-object, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie|inspectie]] — Periodieke controle van technische staat (uitgebreid met vastgoedcontext)
+
+### Inkoop (GGM taakveld 9, beleidsdomein Inkoop)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding|aanbesteding]] — Procedure waarmee de gemeente een opdracht in de markt zet en gunt aan een ondernemer
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract|contract]] — Bindende overeenkomst tussen gemeente en leverancier voor levering van werken, diensten of goederen
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier|leverancier]] — Niet-natuurlijk persoon die goederen, diensten of werken levert aan de gemeente
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning|gunning]] — Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte|offerte]] — Aanbod van een leverancier met prijsopgave voor levering aan de gemeente
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inschrijving|inschrijving]] — Formele deelname van een ondernemer aan een nationale of Europese aanbesteding
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket|inkooppakket]] — Categorisering waarmee de gemeente inkopen structureert in samenhangende groepen
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/marktconsultatie|marktconsultatie]] — Voorbereidend onderzoek naar marktmogelijkheden, voorafgaand aan aanbesteding (procesobject, GGM-hiaat)
 
 ### Belastingen (GGM basisregistratie RSGB, taakveld 99 Kern + VTH taakveld 1)
 - [[Wiki/Bedrijfsobjecten/99-kern/woz-object|woz-object]] — Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld
@@ -620,6 +631,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht: overzichtspagina erfgoedbeleid (secundair)
 - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
+
+### Inkoop
+- [[Wiki/Bronsamenvattingen/Inkoop/inkoop-en-aanbestedingsbeleid|Gemeentelijk inkoop- en aanbestedingsbeleid]] — VNG-model + OVER-gemeenten + West-Betuwe: inkoopproces, aanbestedingsprocedures, drempelbedragen, MVOI, contractbeheer
 
 ## Analyses
 
