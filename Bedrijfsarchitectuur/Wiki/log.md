@@ -1,5 +1,167 @@
 # Wiki Log
 
+## [2026-06-26] ingest | Bestuur — Gemeentewet + positionering Griffier
+
+- **Bronnen:** Gemeentewet wettekst (wetten.overheid.nl, BWBR0005416); Op weg naar gelijkwaardige verhoudingen (NVvR, functieprofiel Griffier)
+- **Bronsamenvattingen:**
+  - [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst|Gemeentewet (wettekst)]]
+  - [[Wiki/Bronsamenvattingen/Bestuur/positionering-griffier|Positionering Griffier]]
+- **Begrippen:** 10 nieuwe (raadsstuk, vergadering, stemming, raadslid, collegelid, burgemeester, griffier, secretaris, rekenkamer, ombudsman)
+- **Nieuwe BO's:** 3 — Raadsstuk (GGM exact, Griffie), Vergadering (GGM exact, Griffie), Stemming (GGM exact, Griffie)
+- **GGM-dekking:** beleidsdomein Griffie (13 entiteiten): 3 BO's, 6 GGM-componenten (Agendapunt, Aanwezige Deelnemer, Video-opname, Categorie, Dossier, Indiener), 4 actoren (Raadslid, Collegelid, Raadscommissie, Programma/Taakveld)
+- **Onderwerpoverzicht Bestuur:** bronnen_count 10→12, begrippen_count 14→24, bo_count 4→7 (5 Politiek + 3 Griffie, maar totaal domein = 7 BO's want Partijsubsidie telt ook)
+
+## [2026-06-26] coverage | GGM-dekkingsanalyse geregenereerd
+
+- **Output:** [[Wiki/Analyses/ggm-dekking|GGM-dekkingsanalyse]]
+- **Scope:** 954 Objecttype-entiteiten over 44 beleidsdomeinen
+- **Stand:** 164 BO's vastgelegd, 61 niet-BO (generalisatie/subtype/component/begrippentabel), 729 niet beoordeeld
+- **Zonder bronnen:** 19 beleidsdomeinen (o.a. Griffie, ICT, Inkoop, Subsidies, Vastgoed, Kern, meerdere Sociaal Domein subdomeinen)
+
+## [2026-06-26] ingest | Beheer OR — Amsterdam beheerplan + VNG natuur/groen
+
+- **Bronnen:** Integraal beheerplan openbare ruimte Amsterdam 2023-2026 (35 p.); Factsheet informatiebronnen natuur en groen (VNG, verwijzingsdocument)
+- **Bronsamenvattingen:**
+  - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/beheerplan-or-amsterdam-2023-2026|Integraal beheerplan OR Amsterdam]]
+  - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/factsheet-informatiebronnen-natuur-groen|Informatiebronnen natuur en groen (VNG)]]
+- **Begrippen:** 5 nieuwe (brandkraan, steiger, wegtunnel, fietsenrek, watertappunt)
+- **Nieuwe BO's:** geen — nieuwe objecten zijn subtypes of hebben onvoldoende brondiepte
+- **Bestaande BO's bevestigd:** Boom (260k), Groenobject, Waterobject (29k ha), Ligplaats (3k), Kunstwerk (1851 bruggen), Verhardingsobject (3k ha), Verkeerslicht (400 VRI), Verlichtingsobject (128k), Speeltoestel (7.4k), Geluidscherm (19.5 km), Laadpaal (3.3k)
+- **Onderwerpoverzicht BOR:** bronnen_count 8→10, begrippen_count 32→37
+
+## [2026-06-26] ingest | Omgevingswet — register bij omgevingsplan, 1 nieuw BO
+
+- **Bron:** Het omgevingsplan en een register (VNG, PDF, april 2026, 10 p.)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsplan-register|Het omgevingsplan en een register (VNG)]]
+- **Begrippen:** 3 nieuwe (register omgevingsplan, statisch register, dynamisch register)
+- **Nieuwe BO's (1):**
+  - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/register-omgevingsplan|Register (omgevingsplan)]] — procesobject, GGM-hiaat, 6/6 criteria, meervoud per gemeente
+- **GGM-terugmeldingen:** #73 Register (omgevingsplan) (hiaat)
+- **Onderwerpoverzicht:** bronnen_count 2→3, begrippen_count 19→22, bo_count 4→5
+
+## [2026-06-26] ingest | Ruimte Wonen en Mobiliteit — 7 niet-relevant
+
+- **Bronnen:** 7 VNG-portaalpagina's → Niet-relevant (bouwregelgeving, klimaatadaptatie-en-water, landelijk-gebied, rubriek-ruimte-wonen-en-mobiliteit, ruimtelijke-ordening, vergunningverlening-toezicht-en-handhaving, wabo-omgevingsvergunning)
+- **Nieuwe BO's:** geen
+- **Backlog:** sectie Ruimte Wonen en Mobiliteit afgerond (~~doorgestreept~~)
+
+## [2026-06-26] ingest | Beheer OR — GWR Twenterand, 1 nieuw BO
+
+- **Bron:** Gemeentelijk Water- en Rioleringsplan 2024-2028 (gemeente Twenterand)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/gwr-twenterand-2024-2028|GWR Twenterand 2024-2028]]
+- **Begrippen:** 4 nieuwe (rioolleiding, IBA, drukriolering, GWR)
+- **Nieuwe BO's (1):**
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|Rioolleiding]] — GGM Leiding exact, 13 attributen, subtypes vuilwater/hemelwater/gemengd/persleiding
+- **Bestaande BO's bevestigd:** Gemaal, Kolk, Rioolheffing (areaalcijfers Twenterand)
+- **Onderwerpoverzicht milieu:** bronnen_count 10→11, begrippen_count 68→72, bo_count 34→35
+
+## [2026-06-26] ingest | Omgevingswet — planketen + 9 niet-relevant
+
+- **Bronnen:** Factsheet Omgevingsvisie (VNG, PDF 2018); 9 VNG-portaalpagina's → niet-relevant
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsvisie-vng|Factsheet Omgevingsvisie (VNG)]]
+- **Niet-relevant (9):** digitaal-stelsel-omgevingswet-dso, gemeenteraad-en-de-omgevingswet, monitoringsinitiatieven-omgevingswet-en-wkb, participatie-onder-de-omgevingswet, planketen-omgevingswet, rubriek-omgevingswet, veranderopgave-omgevingswet, vergunningverlening-toezicht-en-handhaving-onder-de-omgevingswet, wet-kwaliteitsborging-voor-het-bouwen-wkb
+- **Begrippen:** 5 nieuwe (omgevingsvisie GOVI, programma Ow, planketen, zienswijze, omgevingsdocument)
+- **Nieuwe BO's:** geen — alle begrippen zijn instrumenten/governance
+- **Onderwerpoverzicht:** bronnen_count 1→2, begrippen_count 14→19
+- **Backlog:** sectie Omgevingswet afgerond (~~doorgestreept~~)
+
+## [2026-06-26] ingest | Informatiesamenleving — Algoritmeregister, 1 nieuw BO
+
+- **Bronnen:** Handleiding Publicatiestandaard Algoritmeregister (BZK); Rapportage Algoritmerisico's Nederland (AP, → niet-relevant)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]]
+- **Niet-relevant:** rapportage-algoritmerisicos-nederland (AP, beleidsanalyse)
+- **Begrippen:** 2 nieuwe begrippen (algoritmeregister, publicatiecategorie)
+- **Nieuwe BO's (1):**
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister|Algoritmeregister]] — procesobject, GGM-hiaat, 6/6 criteria, Publicatiestandaard BZK
+- **GGM-terugmeldingen:** #72 Algoritmeregister (hiaat)
+- **Onderwerpoverzicht:** bronnen_count 7→8, begrippen_count 25→27, bo_count 6→7
+- **bo_count:** +1
+
+## [2026-06-26] ingest | Informatiesamenleving — Datalekken IBD, 1 nieuw BO
+
+- **Bron:** Factsheet Datalekken (IBD, versie 2.0, augustus 2024)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]]
+- **Begrippen:** 3 nieuwe begrippen (datalek, beveiligingsincident, verwerkersovereenkomst)
+- **Nieuwe BO's (1):**
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek|Datalek]] — procesobject, GGM-hiaat, 6/6 criteria, art. 33-34 AVG
+- **GGM-terugmeldingen:** #71 Datalek (hiaat)
+- **Onderwerpoverzicht:** bronnen_count 6→7, begrippen_count 22→25, bo_count 5→6
+- **bo_count:** +1
+
+## [2026-06-26] ingest | Informatiesamenleving — AVG/DPIA, 2 nieuwe BO's
+
+- **Bronnen:** AVG art. 30, 35, 36 (EU); DPIA-toelichting (AP); DPIA-gids (EDPB, → niet-relevant)
+- **Bronsamenvattingen:**
+  - [[Wiki/Bronsamenvattingen/Informatiesamenleving/avg-verwerkingsregister-dpia|AVG — Verwerkingsregister en DPIA]]
+  - [[Wiki/Bronsamenvattingen/Informatiesamenleving/dpia-ap|DPIA — Autoriteit Persoonsgegevens]]
+- **Niet-relevant:** dpia-edpb-gids (EDPB, te beknopt)
+- **Begrippen:** 5 nieuwe begrippen (DPIA, verwerkingsactiviteit, verwerkingsregister, voorafgaande raadpleging, FG)
+- **Nieuwe BO's (2):**
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/dpia|DPIA]] — procesobject, GGM-hiaat, 6/6 criteria, art. 35 AVG
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|Verwerkingsactiviteit]] — procesobject, GGM-hiaat, 6/6 criteria, art. 30 AVG
+- **GGM-terugmeldingen:** #69 DPIA (hiaat), #70 Verwerkingsactiviteit (hiaat)
+- **Onderwerpoverzicht:** bronnen_count 4→6, begrippen_count 17→22, bo_count 3→5
+- **bo_count:** +2
+
+## [2026-06-26] ingest | Informatiesamenleving — EU AI-verordening, 1 nieuw BO
+
+- **Bron:** Verordening (EU) 2024/1689 — AI-verordening (selectie art. 3-5, 26-27, bijlage III)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/eu-ai-verordening|Verordening (EU) 2024/1689]]
+- **Begrippen:** 1 nieuw begrip (ernstig incident — potentieel BO)
+- **Nieuwe BO's (1):**
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/grondrechteneffectbeoordeling|Grondrechteneffectbeoordeling]] — procesobject, GGM-hiaat, 6/6 criteria, art. 27 AI-verordening
+- **GGM-terugmeldingen:** #68 Grondrechteneffectbeoordeling (hiaat)
+- **Onderwerpoverzicht:** bronnen_count 3→4, begrippen_count 16→17, bo_count 2→3
+- **bo_count:** +1
+
+## [2026-06-26] ingest | Informatiesamenleving — VNG factsheet AI-verordening + BZK niet-relevant
+
+- **Bronnen:** Uitvoeringsanalyse Digital Decade AI-verordening (VNG, 2025, 4p factsheet); Algoritmekader AI-verordening in het kort (BZK)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-ai-verordening-vng|Uitvoeringsanalyse Digital Decade AI-verordening]]
+- **Niet-relevant:** algoritmekader-ai-verordening-kort (BZK, te beknopt)
+- **Begrippen:** 3 nieuwe begrippen (gebruiksverantwoordelijke, aanbieder, AI compliance officer — alle actoren/rollen, geen BO's)
+- **Nieuwe BO's:** 0
+- **Correctie:** "registratie"-taal verwijderd uit begrippentabel en beoordelingssectie (feedback: registreren is geen BO-criterium)
+- **Onderwerpoverzicht:** bronnen_count 2→3, begrippen_count 13→16
+- **bo_count:** ongewijzigd (2)
+
+## [2026-06-26] ingest | Informatiesamenleving — AI-verordening AP
+
+- **Bron:** AI-verordening overzichtspagina (Autoriteit Persoonsgegevens)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/ai-verordening-ap|AI-verordening — Autoriteit Persoonsgegevens]]
+- **Begrippen:** 4 nieuwe begrippen in onderwerpoverzicht (AI-systeem, risicogroep, grondrechteneffectbeoordeling, AI-geletterdheid)
+- **Nieuwe BO's:** 0 (bron onvoldoende concreet over gemeentelijke registraties)
+- **Signalering:** grondrechteneffectbeoordeling als nieuw potentieel BO (verwant aan DPIA); algoritmeregister bevestigd
+- **Onderwerpoverzicht:** bronnen_count 1→2, begrippen_count 9→13
+- **bo_count:** ongewijzigd (2)
+
+## [2026-06-26] ingest | Informatiesamenleving — Handreiking Woo, 2 nieuwe BO's
+
+- **Bron:** Handreiking "De Wet open overheid in de gemeentelijke praktijk" (VNG/Pels Rijcken, 2025, 110 pagina's)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/handreiking-woo-gemeentelijke-praktijk|Handreiking Woo in de gemeentelijke praktijk]]
+- **Begrippen:** 9 begrippen in onderwerpoverzicht (2 BO's + 7 niet-BO's: actieve openbaarmaking, informatiecategorie, Woo-contactpersoon, uitzonderingsgrond, convenant, geheimhouding, beschikking)
+- **Nieuwe BO's (2):**
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek|Woo-verzoek]] — procesobject, GGM-hiaat, 6/6 criteria, art. 4.1 Woo
+  - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht|Klacht]] — procesobject, GGM-hiaat, 6/6 criteria, titel 9.1 Awb
+- **GGM-terugmeldingen:** #66 Woo-verzoek (hiaat), #67 Klacht (hiaat, alleen domeinspecifiek "Klacht Leerlingenvervoer" in taakveld 4)
+- **Onderwerpoverzicht:** status open → in-behandeling, 1 bronsamenvatting, 9 begrippen, 2 BO's
+- **bo_count:** +2
+
+## [2026-06-26] herziening | Informatiesamenleving — zoeksuggesties toegevoegd
+
+- **Status:** afgerond → open (onvoldoende bronnen)
+- **Potentiële BO's uitgebreid:** Verwerkingsactiviteit (AVG art. 30) en DPIA toegevoegd naast bestaande drie (Woo-verzoek, Algoritmeregister, Datalek)
+- **Zoeksuggesties:** per potentiële BO concrete zoektermen en bronlocaties opgenomen
+- **Prioritering:** Woo-verzoek meest kansrijk, Verwerkingsactiviteit tweede (wettelijk verplicht register)
+
+## [2026-06-26] ingest | Europa en Internationaal — alle bronnen niet-relevant
+
+- **Bronnen:** 7 VNG-portaalpagina's (europese-kennisnetwerken, europese-subsidies, gemeentelijk-internationaal-beleid, global-goals-voor-gemeenten, grensoverschrijdende-samenwerking, rubriek-europa-en-internationaal, versterking-lokaal-bestuur-wereldwijd)
+- **Beoordeling:** Alle bronnen governance/strategie op VNG-niveau, geen concrete gemeentelijke registraties
+- **Resultaat:** 0 bronsamenvattingen, 0 begrippen, 0 BO's. 7 bronnen → Niet-relevant
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/europa-en-internationaal|Europa en Internationaal]] aangemaakt (open — onvoldoende bronnen)
+- **Signalering:** Europese subsidie(aanvraag) potentieel BO bij rijkere bronnen (EFRO/ESF-projectadministratie, jaarrekening). Zoeksuggesties opgenomen in onderwerpoverzicht.
+
 ## [2026-06-26] ingest | Dienstverlening — RGBZ-kernobjecten Zaak en Document
 
 - **Bronnen:** bestaande bronsamenvattingen RGBZ 1.0 en ZTC2 v2.1
@@ -42,7 +204,7 @@
 - **Beoordeling:** Alle bronnen zijn governance/strategie op VNG-niveau, geen concrete gemeentelijke registraties of objecttypen
 - **Resultaat:** 0 bronsamenvattingen, 0 begrippen, 0 BO's. 14 bronnen → Niet-relevant
 - **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/informatiesamenleving|Informatiesamenleving]] aangemaakt (afgerond)
-- **Signalering:** Woo-verzoek, Algoritmeregistratie en Datalek potentieel BO bij rijkere bronnen
+- **Signalering:** Woo-verzoek, Algoritmeregister en Datalek potentieel BO bij rijkere bronnen
 
 ## [2026-06-25] ingest | Basisregistraties — Gegevenscatalogus NHR 3.0.4
 - **Bron:** Gegevenscatalogus Handelsregister v3.0.4 (KvK / Ministerie van EZK), Handelsregisterwet 2007, Handelsregisterbesluit 2008

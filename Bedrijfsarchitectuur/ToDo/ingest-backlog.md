@@ -75,6 +75,7 @@ Status: 139 bronnen in 22 batches.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] implementatiehandleiding-model-participatieverordening-2024 (VNG, PDF, participatieverordening / lokale democratie) → 7 begrippen, geen nieuwe BO's (governance/procedures)
+- [x] positionering-griffier-gelijkwaardige-verhoudingen (Nederlandse Vereniging voor Raadsleden, PDF, generiek functieprofiel Griffier en positionering in lokale driehoek) → context voor Griffie-domein, geen nieuwe BO's
 
 ## erfgoed (3)
 - [ ] lijst-beeldbepalende-panden
@@ -83,14 +84,16 @@ Status: 139 bronnen in 22 batches.
 
 > **archiefverordening-wageningen-2019:** Modelverordening Archiefwet 1995. Geen nieuwe BO's. Bestaand BO Archiefstuk verrijkt met duale domeinpositionering (erfgoed + informatiebeheer). 4 begrippen. GGM-signalering: e-depot ontbreekt.
 
-## Europa en Internationaal (7)
-- [ ] europese-kennisnetwerken
-- [ ] europese-subsidies
-- [ ] gemeentelijk-internationaal-beleid
-- [ ] global-goals-voor-gemeenten
-- [ ] grensoverschrijdende-samenwerking
-- [ ] rubriek-europa-en-internationaal
-- [ ] versterking-lokaal-bestuur-wereldwijd
+## ~~Europa en Internationaal (7)~~ ✓
+- [x] europese-kennisnetwerken
+- [x] europese-subsidies
+- [x] gemeentelijk-internationaal-beleid
+- [x] global-goals-voor-gemeenten
+- [x] grensoverschrijdende-samenwerking
+- [x] rubriek-europa-en-internationaal
+- [x] versterking-lokaal-bestuur-wereldwijd
+
+> **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. Potentiële BO's bij rijkere bronnen: Europese subsidie(aanvraag). Zoeksuggesties voor rijkere bronnen in onderwerpoverzicht. Domein open: 0 bronsamenvattingen, 7 niet-relevant, 0 begrippen, 0 BO's.
 
 ## ~~Financien (2)~~ ✓
 - [x] begroting-en-verantwoording
@@ -113,7 +116,20 @@ Status: 139 bronnen in 22 batches.
 - [x] rubriek-informatiesamenleving
 - [x] wet-open-overheid
 
-> **Afgehandeld:** 14 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. Potentiële BO's bij rijkere bronnen: Woo-verzoek, Algoritmeregistratie, Datalek. Domein afgerond: 0 bronsamenvattingen, 14 niet-relevant, 0 begrippen, 0 BO's.
+> **Afgehandeld:** 14 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. Potentiële BO's bij rijkere bronnen: Woo-verzoek, Algoritmeregister, Datalek. Domein afgerond: 0 bronsamenvattingen, 14 niet-relevant, 0 begrippen, 0 BO's.
+
+### Nieuwe bronnen (niet ingested)
+- [x] ai-verordening-ap (AP: AI-verordening — risicogroepen, verplichtingen overheden, grondrechteneffectbeoordeling)
+- [x] factsheet-ai-verordening-vng (VNG: uitvoeringsanalyse AI-verordening — gemeentelijke impact, compliance, grondrechtenbeoordeling, EU-databank)
+- [x] algoritmekader-ai-verordening-kort → Niet-relevant (BZK, te beknopt)
+- [x] eu-ai-verordening-2024-1689 (EU: AI-verordening wettekst — selectie art. 3-5, 26-27, bijlage III)
+- [x] dpia-ap (AP: DPIA — wanneer verplicht, 9 criteria, uitvoering, basisvereisten, herhalingsplicht)
+- [x] dpia-edpb-gids → Niet-relevant (EDPB, te beknopt)
+- [x] avg-art-30-35-36 (EU AVG: verwerkingsregister art. 30, DPIA art. 35, voorafgaande raadpleging art. 36)
+- [x] factsheet-datalekken-ibd (IBD: datalekken — definitie, meldplicht 72u, registratieplicht, risicoafweging)
+- [x] handleiding-publicatiestandaard-algoritmeregister (BZK: alle velden Publicatiestandaard Algoritmeregister — 4 secties, ~25 velden)
+- [x] rapportage-algoritmerisicos-nederland → Niet-relevant (AP: beleidsanalyse, geen BO-attributen)
+- [ ] handreiking-woo-gemeentelijke-praktijk
 
 ## ~~Maatschappelijke Ondersteuning (16)~~ ✓
 - [x] aanpak-dakloosheid
@@ -141,17 +157,23 @@ Status: 139 bronnen in 22 batches.
 - [ ] rubriek-milieu
 - [ ] zeer-zorgwekkende-stoffen
 
-## Omgevingswet (10)
-- [ ] digitaal-stelsel-omgevingswet-dso
-- [ ] gemeenteraad-en-de-omgevingswet
-- [ ] monitoringsinitiatieven-omgevingswet-en-wkb
-- [ ] participatie-onder-de-omgevingswet
-- [ ] planketen-omgevingswet
-- [ ] rubriek-omgevingswet
-- [ ] veranderopgave-omgevingswet
-- [ ] vergunningverlening-toezicht-en-handhaving-onder-de-omgevingswet
-- [ ] wet-kwaliteitsborging-voor-het-bouwen-wkb
+## ~~Omgevingswet (10 + 1 aanvullend)~~ ✓
+- [x] digitaal-stelsel-omgevingswet-dso → Niet-relevant
+- [x] gemeenteraad-en-de-omgevingswet → Niet-relevant
+- [x] monitoringsinitiatieven-omgevingswet-en-wkb → Niet-relevant
+- [x] participatie-onder-de-omgevingswet → Niet-relevant
+- [x] planketen-omgevingswet → Niet-relevant
+- [x] rubriek-omgevingswet → Niet-relevant
+- [x] veranderopgave-omgevingswet → Niet-relevant
+- [x] vergunningverlening-toezicht-en-handhaving-onder-de-omgevingswet → Niet-relevant
+- [x] wet-kwaliteitsborging-voor-het-bouwen-wkb → Niet-relevant
 - [x] uitvoeringsbeleid-vth-delft-2024-2028
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] factsheet-omgevingsvisie-vng (VNG, PDF, factsheet verplichtingen en procedure omgevingsvisie)
+- [x] factsheet-omgevingsplan-register (VNG, PDF april 2026, registers bij omgevingsplan) → 1 BO: Register (omgevingsplan)
+
+> **Afgehandeld:** 9 VNG-portaalpagina's naar Niet-relevant (te dun). 1 rijke bron verwerkt (VTH Delft), 1 factsheet (omgevingsvisie). 2 bronsamenvattingen, 19 begrippen, 4 BO's (VTH-zaak, Inspectie, Bevinding, Handhavingsbesluit). Planketen (omgevingsvisie/programma/omgevingsplan) als instrumenten genoteerd. GGM Omgevingswet-domein (31 entiteiten) grotendeels onbeoordeeld — rijkere bronnen nodig.
 
 ## Onderwijs (1)
 - [ ] soorten-kinderopvang
@@ -180,7 +202,7 @@ Status: 139 bronnen in 22 batches.
 - [ ] weerbare-samenleving
 - [ ] zorg-en-veiligheidshuizen
 
-## Recht (9)
+## Recht (9 + 1 aanvullend)
 - [ ] algemene-plaatselijke-verordening-apv
 - [ ] algemene-wet-bestuursrecht-awb
 - [ ] gemeentewet
@@ -191,20 +213,30 @@ Status: 139 bronnen in 22 batches.
 - [ ] rubriek-recht
 - [ ] subsidierecht
 
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] gemeentewet-wettekst (Rijksoverheid, wetten.overheid.nl, volledige wettekst Gemeentewet BWBR0005416 per 2024-01-31) → 3 nieuwe BO's: Raadsstuk, Vergadering, Stemming (GGM Griffie-domein)
+
 ## Risicobeheer (4)
 - [ ] initiatief-risicobeheerfonds
 - [ ] risico-overdracht
 - [ ] risico-platform-overheden
 - [ ] rubriek-risicobeheer
 
-## Ruimte Wonen en Mobiliteit (7)
-- [ ] bouwregelgeving
-- [ ] klimaatadaptatie-en-water
-- [ ] landelijk-gebied
-- [ ] rubriek-ruimte-wonen-en-mobiliteit
-- [ ] ruimtelijke-ordening
-- [ ] vergunningverlening-toezicht-en-handhaving
-- [ ] wabo-omgevingsvergunning
+## ~~Ruimte Wonen en Mobiliteit (7 + 1 aanvullend)~~ ✓
+- [x] bouwregelgeving → Niet-relevant
+- [x] klimaatadaptatie-en-water → Niet-relevant
+- [x] landelijk-gebied → Niet-relevant
+- [x] rubriek-ruimte-wonen-en-mobiliteit → Niet-relevant
+- [x] ruimtelijke-ordening → Niet-relevant
+- [x] vergunningverlening-toezicht-en-handhaving → Niet-relevant
+- [x] wabo-omgevingsvergunning → Niet-relevant
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] gwr-twenterand-2024-2028 (gemeente Twenterand, water- en rioleringsplan 2024-2028, areaal/zorgplichten/klimaatadaptatie) → 1 BO: Rioolleiding
+- [x] beheerplan-or-amsterdam-2023-2026 (gemeente Amsterdam, integraal beheerplan OR 2023-2026, 35 p.) → bevestigt alle BOR-BO's, 5 nieuwe begrippen
+- [x] factsheet-informatiebronnen-natuur-groen (VNG, aug 2025) → verwijzingsdocument, geen BO's
+
+> **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (te dun). 1 aanvullende bron verwerkt (GWR Twenterand). Inhoud van dit VNG-onderwerp verdeeld over 4 onderwerpoverzichten: mobiliteit (29 BO's), wonen (5 BO's), welstand (2 BO's), beheer-openbare-ruimte (9 BO's). Totaal: 45+ BO's, 130+ begrippen, 33 bronsamenvattingen.
 
 ## ~~Schulden en Armoede (5 + 1 aanvullend)~~ ✓
 - [x] Beleidsplan Schuldhulpverlening 2024

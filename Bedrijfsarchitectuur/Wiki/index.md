@@ -2,7 +2,7 @@
 
 ## Domeinen
 
-- [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie (in behandeling, 5 BO's)
+- [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie, raadsstukken, vergaderingen, stemmingen (afgerond, 7 BO's + Griffie-domein)
 - [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid (afgerond, 10 BO's)
@@ -28,9 +28,10 @@
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
-- [[omgevingswet|omgevingswet]] — Vergunningverlening, toezicht en handhaving in de fysieke leefomgeving (in behandeling, 4 BO's)
+- [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + planketen + registers bij omgevingsplan (in behandeling, 5 BO's, 22 begrippen)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
-- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: alle bronnen governance/strategie, geen BO's (afgerond, 0 BO's)
+- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister (in behandeling, 7 BO's)
+- [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 
 ## Bedrijfsobjecten
 
@@ -175,6 +176,7 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|rioolleiding]] — Buisinfrastructuur voor transport afval-/hemelwater (GGM Leiding, exact, 13 attributen)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
@@ -190,6 +192,7 @@
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/bevinding|bevinding]] — Uitkomst van inspectie: wat is geconstateerd, inclusief risico en ernst (GGM Bevinding, exact)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/handhavingsbesluit|handhavingsbesluit]] — Formeel besluit om bij overtreding een sanctie op te leggen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] — Formeel oordeel over welstandseisen bij bouwaanvraag (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/register-omgevingsplan|register-omgevingsplan]] — Verzameling feitelijke informatie bij planregels, statisch of dynamisch (procesobject, GGM-hiaat)
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
@@ -357,6 +360,15 @@
 - zaakdossier — Zaakkenmerken + informatieobjecten, basis voor archivering
 - resultaattype — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
 
+### Dienstverlening — Informatiesamenleving (procesobjecten, taakveld 10 — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek|woo-verzoek]] — Verzoek om openbaarmaking publieke informatie op grond van de Woo (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht|klacht]] — Uiting van ontevredenheid over gedraging bestuursorgaan, titel 9.1 Awb (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/grondrechteneffectbeoordeling|grondrechteneffectbeoordeling]] — Verplichte beoordeling gevolgen voor grondrechten bij inzet hoog-risico AI (art. 27 AI-verordening, procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/dpia|dpia]] — Gegevensbeschermingseffectbeoordeling bij hoog-risicoverwerkingen (art. 35 AVG, procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|verwerkingsactiviteit]] — Individuele verwerking persoonsgegevens met 7 verplichte attributen (art. 30 AVG, procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek|datalek]] — Inbreuk in verband met persoonsgegevens, meldplicht AP 72u, registratieplicht (art. 33-34 AVG, procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister|algoritmeregister]] — Vastlegging algoritme in Algoritmeregister, ~25 velden, driedeling hoog-risico/impactvol/overig (procesobject, GGM-hiaat)
+
 ## GGM (referentie — zie Sources/GGM/)
 
 De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM/`:
@@ -437,6 +449,16 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Dienstverlening/digitale-toegankelijkheid|Digitale toegankelijkheid]] — Wdo, toegankelijkheidsverklaring
 - [[Wiki/Bronsamenvattingen/Dienstverlening/inkoop-en-aanbesteden|Inkoop en aanbesteden (overzichtspagina)]] — portaalpagina, overlapt met raadgever
 
+### Informatiesamenleving
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/handreiking-woo-gemeentelijke-praktijk|Handreiking Woo in de gemeentelijke praktijk]] — VNG/Pels Rijcken: volledige artikelsgewijze Woo-toelichting met jurisprudentie en stroomschema's
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/ai-verordening-ap|AI-verordening — Autoriteit Persoonsgegevens]] — AP: risicogroepen AI-systemen, verplichtingen overheden
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-ai-verordening-vng|Uitvoeringsanalyse Digital Decade AI-verordening]] — VNG: gemeentelijke impact, rollen, AICO, grondrechtenbeoordeling
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/eu-ai-verordening|Verordening (EU) 2024/1689 — AI-verordening]] — EU: wettekst selectie art. 3-5, 26-27, bijlage III
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/avg-verwerkingsregister-dpia|AVG — Verwerkingsregister en DPIA]] — EU AVG: art. 30, 35, 36
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/dpia-ap|DPIA — Autoriteit Persoonsgegevens]] — AP: 9 criteria, basisvereisten, herhalingsplicht
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]] — IBD: definitie, meldplicht 72u, registratieplicht
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]] — BZK: alle velden Publicatiestandaard (~25 velden)
+
 ### Economie
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
 - [[Wiki/Bronsamenvattingen/Economie/ontwikkelingskader-detailhandel-2012|Ontwikkelingskader Detailhandel 2012]] — Gemeente Utrecht: beleidskader detailhandel, markten, standplaatsen
@@ -474,6 +496,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte|Beleid voor kwaliteit openbare ruimte]] — Gemeente Utrecht: overzichtspagina Omgevingsvisie
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: beheer, inrichting, gebruik (BInG)]] — Gemeente Utrecht: BInG-toetsingsproces
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht]] — Gemeente Utrecht: ontwerpvisie speelruimte met normen en beoordelingsschema's (2022)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/gwr-twenterand-2024-2028|GWR Twenterand 2024-2028]] — Gemeente Twenterand: areaal riolering, drie zorgplichten, klimaatadaptatie
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/beheerplan-or-amsterdam-2023-2026|Integraal beheerplan OR Amsterdam 2023-2026]] — Gemeente Amsterdam: areaalcijfers alle kapitaalgoederen, kwaliteitsniveaus (35 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/factsheet-informatiebronnen-natuur-groen|Informatiebronnen natuur en groen (VNG)]] — VNG: verwijzingsdocument natuur/groen onder Omgevingswet
 
 ### Beheer Openbare Ruimte — groenbeleid (bronnen onder Milieu/)
 - [[Wiki/Bronsamenvattingen/Milieu/groenstructuurplan-utrecht-2007|Groenstructuurplan Utrecht – Stad en land verbonden]] — Gemeente Utrecht: visie stedelijke groenstructuur tot 2030 (40 p.)
@@ -513,6 +538,11 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 ### Geluid
 - [[Wiki/Bronsamenvattingen/geluid/beleidsnota-geluid-en-trillingen|Beleidsnota Geluid en Trillingen]] — Gemeente Utrecht: beleidsnota geluid en trillingen, onderdeel omgevingsvisie
 - [[Wiki/Bronsamenvattingen/geluid/actieplan-geluid-utrecht|Actieplan Geluid Utrecht 2018-2023]] — Gemeente Utrecht: operationeel uitvoeringsprogramma geluidknelpunten en stille gebieden
+
+### Omgevingswet
+- [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft|Uitvoeringsbeleid VTH Delft 2024-2028]] — Gemeente Delft: VTH-uitvoeringsbeleid, risicoanalyse, prioriteiten, sanctiestrategie (65 p.)
+- [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsvisie-vng|Factsheet Omgevingsvisie (VNG)]] — VNG: verplichtingen, procedure, planketen (visie/programma/plan), digitalisering
+- [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsplan-register|Het omgevingsplan en een register (VNG)]] — VNG: registers bij omgevingsplan, juridisch kader, vijf opnamewijzen (april 2026)
 
 ### Welstand
 - [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]] — Gemeente Utrecht: beleidskader welstand, typologieën, beleidsniveaus, criteria (deel A, 2015)

@@ -2,10 +2,10 @@
 type: domein
 naam: Milieu
 status: in-behandeling
-verwerkingsdatum: 2026-06-21
-bronnen_count: 10
-begrippen_count: 68
-bo_count: 34
+verwerkingsdatum: 2026-06-26
+bronnen_count: 11
+begrippen_count: 72
+bo_count: 35
 ---
 
 Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
@@ -87,6 +87,10 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]]|object|Aangewezen plek in het water voor permanent afmeren van drijvend object| ✅ | ja |6/6 criteria, GGM: Ligplaats (BAG, exact)|482 recreatief + 334 woonboten|ja|
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing\|Rioolheffing]]|object|Gemeentelijke belasting voor water- en rioleringsbeheer| ✅ | ja |6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]]|€254/jaar eigenarenheffing|nee|
 |sluis|subtype|Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen| ✅ subtype | ja |Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]], GGM-hiaat|Weerdsluis, Muntsluis|nee|
+|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]]|object|Buisinfrastructuur voor transport van afval- en/of hemelwater| ✅ | ja |6/6 criteria, GGM exact (Leiding, 13 attributen), 395 km in Twenterand|Vuilwaterriool, hemelwaterriool, gemengd riool|ja|
+|IBA|object|Individuele Behandelingsinstallatie Afvalwater in buitengebied| ❌ | ja |Perceeleigenaar verantwoordelijk, niet gemeentelijk beheerobject|IBA Buitengebied Twenterand|nee|
+|drukriolering|classificatie|Riooltype waarbij afvalwater onder druk wordt getransporteerd via minigemalen| ❌ | nee |Type riolering, eigenschap van rioolleiding/stelsel|Drukriolering buitengebied|nee|
+|GWR|instrument|Gemeentelijk Water- en Rioleringsplan, verplicht beleidsplan per gemeente| ❌ | nee |Governance-document, één per gemeente per planperiode|GWR Twenterand 2024-2028|nee|
 |pomp|onderdeel|Technische installatie voor watertransport onder druk| ❌ | nee |Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], te granulair|—|ja|
 |uitlaatconstructie|onderdeel|Eindpunt rioolleiding naar oppervlaktewater| ❌ | nee |Te granulair voor BO-niveau|—|ja|
 |persleiding|onderdeel|Riolering met kunstmatig drukverschil| ❌ | nee |Type riolering, eigenschap van systeem|150 km in Utrecht|nee|
@@ -124,6 +128,7 @@ Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Mil
 - [[visie-water-riolering 1|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
 - [[programma-water-riolering-2025-2029 1|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
 - [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/gwr-twenterand-2024-2028|GWR Twenterand 2024-2028]] — gemeente Twenterand: areaal, zorgplichten, klimaatadaptatie, financiering
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)
 

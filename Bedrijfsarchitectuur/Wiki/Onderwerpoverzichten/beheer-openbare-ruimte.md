@@ -2,9 +2,9 @@
 type: domein
 naam: Beheer Openbare Ruimte
 status: in-behandeling
-verwerkingsdatum: 2026-06-21
-bronnen_count: 8
-begrippen_count: 32
+verwerkingsdatum: 2026-06-26
+bronnen_count: 10
+begrippen_count: 37
 bo_count: 9
 ---
 
@@ -37,6 +37,11 @@ Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiel
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]]|object|Toestel waarop kinderen kunnen spelen, met certificering en veiligheidsklasse| ✅ | ja |6/6 criteria, honderden geregistreerd, levensduur 15 jaar, 4x/jaar inspectie, exact GGM-match|Schommel, glijbaan, klimrek|ja|
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht\|Verkeerslicht]]|object|Verkeersregelinstallatie (VRI) op kruispunten en oversteekplaatsen| ✅ | ja |6/6 criteria, honderden geregistreerd, levensduur 10 jaar, exact GGM-match|Verkeersregelinstallatie, voetgangerslicht|ja|
 |kwaliteitsniveau|classificatie|Drieledige indeling: Domstad (85%), Domstad Bijzonder (10%), Utrechtse Allure (5%)| ❌ | ja |Classificatie van gebieden, attribuut op beheerobjecten (kwaliteitsniveauGewenst in GGM)|Binnenstad = Utrechtse Allure|nee|
+|brandkraan|object|Bluswatervoorziening in de openbare ruimte| ❌ | ja |Beheerd door waterleiding/brandweer, gemeente niet primaire beheerder|16.000 in Amsterdam|nee|
+|steiger|object|Civiele constructie voor watertoegang| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]]|501 in Amsterdam|ja (BOR)|
+|wegtunnel|object|Ondergrondse verkeersinfrastructuur| ❌ | ja |Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]], beperkt meervoud|5 in Amsterdam, 1 in Utrecht|ja (BOR)|
+|fietsenrek|object|Straatmeubilair voor het stallen van fietsen| ❌ | ja |Massa-object, beperkte beleidsdiepte|100.000 in Amsterdam|ja (BOR)|
+|watertappunt|object|Openbare drinkwatervoorziening in de openbare ruimte| ❌ | ja |Beperkte beleidsdiepte, operationeel object|500 in Amsterdam|nee|
 |BInG-toets|proces|Integrale beoordeling van inrichting, gebruik, veiligheid en onderhoud bij projecten| ❌ | nee |Governance-proces, geen zelfstandig concept met eigen levenscyclus|Toets herinrichting Mariaplaats|nee|
 |CROW-beeldkwaliteit|meetstandaard|Meetstandaard met 5 niveaus (A+ t/m D) voor kwaliteit openbare ruimte| ❌ | nee |Externe standaard, classificatieschaal, geen gemeentelijk concept|CROW-niveau B voor verhardingen|nee|
 |ontwikkelend beheer|concept|Beheervisie: vervanging combineren met verbetering op klimaat, gezondheid, circulariteit| ❌ | nee |Beleidsconcept, geen zelfstandig bestaan of eigen levenscyclus|Herinrichting met vergroening en 30 km/u|nee|
@@ -60,10 +65,12 @@ Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiel
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/openbare-ruimte-bing|Openbare ruimte: beheer, inrichting, gebruik (BInG)]] — Beschrijving BInG-toetsingsproces
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/visie-speelruimte-utrecht|Spelen in je eigen buurt — Ontwerpvisie Speelruimte Utrecht]] — Ontwerpvisie speelruimte met normen, speelbuurten en beoordelingsschema's (2022, 48 p.)
 
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/beheerplan-or-amsterdam-2023-2026|Integraal beheerplan openbare ruimte Amsterdam 2023-2026]] — Gemeente Amsterdam: areaalcijfers, kwaliteitsniveaus, vier prioritaire opgaven, financiële kloof (35 p.)
+- [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/factsheet-informatiebronnen-natuur-groen|Overzicht informatiebronnen natuur en groen (VNG)]] — VNG: verwijzingsdocument informatiebronnen natuur/groen onder Omgevingswet
+
 ## Nog te verwerken bronnen
 
 Potentiële bronnen voor verdere uitbreiding:
-- Water- en rioleringsvisie Utrecht — voor waterobjecten, riolering, gemalen
 - Kabels- en leidingenbeleid — voor leidingen, putten, kasten
 - VNG-rubrieken openbare ruimte / beheer
 

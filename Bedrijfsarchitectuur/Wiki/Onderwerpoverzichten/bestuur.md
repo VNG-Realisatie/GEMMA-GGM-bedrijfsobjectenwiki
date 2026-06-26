@@ -2,10 +2,10 @@
 type: domein
 naam: Bestuur
 status: afgerond
-verwerkingsdatum: 2026-06-25
-bronnen_count: 10
-begrippen_count: 14
-bo_count: 4
+verwerkingsdatum: 2026-06-26
+bronnen_count: 12
+begrippen_count: 24
+bo_count: 7
 ---
 
 # Bestuur
@@ -31,6 +31,16 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 |participatieplan|processtuk|Openbaar plan per participatietraject met spelregels en rolverdeling| ❌ | nee |Documenttype binnen proces; geen zelfstandige levenscyclus|—|nee|
 |inspraak|procedure|Formele participatievorm via afd. 3.4 Awb| ❌ | nee |Procedure, geen ding|—|nee|
 |maatschappelijke partij|actor|Verenigingen, stichtingen, buurtcomités die bijdragen aan samenleving| ❌ | nee |Externe actor; niet door gemeente geregistreerd als eigen object|—|nee|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]]|object|Document dat door de gemeenteraad wordt behandeld, met registratie van type, indiener, publicatie en besluitvorming| ✅ | ja |6/6 criteria; wettelijke registratie-, publicatie- en archiveringsplicht; kernobject raadsinformatiesysteem|Motie, amendement, initiatiefvoorstel, raadsvraag|**ja** (Griffie)|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]]|object|Formele bijeenkomst van raad, commissie of college met agenda, registratie van aanwezigheid en besluitenlijst| ✅ | ja |6/6 criteria; wettelijke openbaarheids- en verslagplicht; kernproces lokale democratie|Raadsvergadering 12 maart, commissievergadering Ruimte|**ja** (Griffie)|
+|[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]]|object|Formele stemming in raadsvergadering over agendapunt of raadsstuk, met stemmingstype en resultaat| ✅ | ja |6/6 criteria; formeel besluitvormingsmoment; wettelijke stemregels|Hoofdelijke stemming begroting, geheime stemming wethouder|**ja** (Griffie)|
+|raadslid|actor|Gekozen volksvertegenwoordiger; vereisten, incompatibiliteiten, eed, vergoeding (art. 7-15)| ❌ | ja |Actor/rol, geen ding; wél geregistreerd in raadsinformatiesysteem|Raadslid Janssen (PvdA), raadslid De Vries (VVD)|**ja** (Griffie)|
+|collegelid|actor|Lid van B&W; benoeming, vereisten, incompatibiliteiten (art. 34-41b)| ❌ | ja |Actor/rol; zelfde patroon als raadslid|Wethouder Financiën, wethouder Ruimte|**ja** (Griffie)|
+|burgemeester|actor|Bij koninklijk besluit benoemde ambtenaar; voorzitter raad en college, openbare orde (art. 61-81bis)| ❌ | nee |Actor/functie; gemeente registreert niet "burgemeester" als data-object|—|nee|
+|griffier|actor|Door raad benoemde ambtenaar; ondersteunt raad, administratie, secretariaat, advies (art. 101, 107-107e)| ❌ | nee |Functie/rol; niet als zelfstandig data-object geregistreerd|—|nee|
+|secretaris|actor|Ambtenaar in dienst gemeente; ondersteunt college, administratie, advies (art. 100, 102-106)| ❌ | nee |Functie/rol; niet als zelfstandig data-object geregistreerd|—|nee|
+|rekenkamer|governance|Onafhankelijk controleorgaan; financiële bedrijfsvoering (art. 81a-81o)| ❌ | nee |Governance-structuur; orgaan, geen registreerbaar object|—|nee|
+|ombudsman|governance|Onafhankelijk klachtbehandelingsorgaan (art. 81p-81z)| ❌ | nee |Governance-structuur; orgaan, geen registreerbaar object|—|nee|
 
 ## Verwerkte bronnen
 
@@ -44,10 +54,12 @@ Dit domein omvat de lokale politieke en bestuurlijke processen van gemeenten: ve
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-inzet-kabinet|VNG-inzet kabinet]] — VNG-level advocacy; context
 - [[Wiki/Bronsamenvattingen/Bestuur/vng-raadgevers|VNG Raadgevers]] — Informatieresources; context
 - [[Wiki/Bronsamenvattingen/Bestuur/implementatiehandleiding-model-participatieverordening-2024|Implementatiehandleiding Model Participatieverordening 2024]] — Artikelsgewijze toelichting op twee varianten participatieverordening; governance en procedures
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst|Gemeentewet (wettekst)]] — Volledige wettekst; wettelijke grondslag voor inrichting gemeentebestuur, griffie, raadsprocessen
+- [[Wiki/Bronsamenvattingen/Bestuur/positionering-griffier|Positionering Griffier]] — Generiek functieprofiel griffier; positionering in lokale driehoek
 
 ## Nog te verwerken
 
-Geen; alle 10 Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
+Geen; alle Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
 
 ## Designkeuzes
 
@@ -55,6 +67,7 @@ Geen; alle 10 Sources/Onderwerpen/Bestuur-bestanden zijn verwerkt.
 2. **Referendum als apart BO**: Aparte organisatie (Wgr voor GR, geen Wgr voor referendum) → aparte BO.
 3. **Stembureau als operationeel object**: Fysieke locatie met registratie (adres, capaciteit, toegankelijkheid) → sterke BO.
 4. **Gemeenschappelijke Regeling als governance-object**: Juridische construct (Wgr) met eigen rechtspersoonlijkheid → sterke BO, maar grondslag is governance, niet GGM-data.
+5. **Griffie-BO's als GGM-entiteiten**: Raadsstuk, Vergadering en Stemming zijn exact matches op het GGM-beleidsdomein Griffie. Agendapunt is GGM-component van Vergadering (te granulair voor apart BO). Raadslid en Collegelid zijn actoren in het GGM maar geen BO (rol, geen ding).
 
 ## Terugmeldingen naar GGM-community
 
