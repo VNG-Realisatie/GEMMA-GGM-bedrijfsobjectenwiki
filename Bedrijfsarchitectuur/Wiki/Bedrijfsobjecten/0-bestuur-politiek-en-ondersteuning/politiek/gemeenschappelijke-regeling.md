@@ -1,43 +1,45 @@
 ---
 type: bedrijfsobject
 naam: Gemeenschappelijke Regeling
-domein: [Bestuur]
-archimate_type: "business-object"
-grondslag: "governance-object"
-ggm_entiteit: "~"
-ggm_beleidsdomein: "Niet expliciet gemodelleerd"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+domein:
+- Bestuur
+archimate_type: business-object
+grondslag: governance-object
+ggm_entiteit: '~'
+ggm_beleidsdomein: Niet expliciet gemodelleerd
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: "~"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid, bestuur en financiën."
-bedrijfsprocessen: ""
-bedrijfsfuncties: ""
+ggm_definitie: '~'
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid,
+  bestuur en financiën.
+bedrijfsprocessen: ''
+bedrijfsfuncties: ''
 relaties:
-  - type: associatie
-    bedrijfsobject: Gemeente
-    richting: bidirectioneel
-    kardinaliteit: "2..*"
-    beschrijving: "Gemeenschappelijke Regeling is samenwerking van meerdere gemeenten (en mogelijk ook provincies, waterschappen)"
-  - type: associatie
-    bedrijfsobject: Bestuur
-    richting: "naar-dit-BO"
-    kardinaliteit: 1
-    beschrijving: Gemeenschappelijke Regeling heeft eigen bestuur en governance
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente|Gemeente]]'
+  richting: bidirectioneel
+  kardinaliteit: 2..*
+  beschrijving: Gemeenschappelijke Regeling is samenwerking van meerdere gemeenten (en mogelijk ook provincies, waterschappen)
+- type: associatie
+  bedrijfsobject: Bestuur
+  richting: naar-dit-BO
+  kardinaliteit: 1
+  beschrijving: Gemeenschappelijke Regeling heeft eigen bestuur en governance
 ---
 
 # Gemeenschappelijke Regeling

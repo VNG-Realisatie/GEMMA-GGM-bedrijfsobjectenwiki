@@ -65,6 +65,6 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 
 ## Terugmeldingen richting GGM
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]]:
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]]:
 - **Jeugdhulpvormen als entiteiten:** Het GGM modelleert jeugdhulpvormen (pleegzorg, gezinshuiszorg, residentieel verblijf) alleen via productcodes in Voorzieningsoort. Overweeg expliciete entiteiten of een enumeratie.
 - **Kinderbeschermingsmaatregel:** OTS en gezagsbeëindiging ontbreken als entiteiten; alleen Zorgmelding en Zorgelijke Situatie zijn gemodelleerd.

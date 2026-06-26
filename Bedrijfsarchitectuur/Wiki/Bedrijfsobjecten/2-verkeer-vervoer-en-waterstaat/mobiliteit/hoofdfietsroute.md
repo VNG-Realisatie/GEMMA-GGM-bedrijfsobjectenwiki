@@ -1,49 +1,55 @@
 ---
 type: bedrijfsobject
 naam: Hoofdfietsroute
-domein: [mobiliteit]
-archimate_type: "business-object"
+domein:
+- mobiliteit
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen."
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen.
 gemma_subtypes:
-  - naam: snelfietsroute
-    omschrijving: "Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-bedrijfsprocessen: [Fietsbeleid, Beheer openbare ruimte, Verkeersmanagement]
-bedrijfsfuncties: [Verkeersmanagement, Fietsbeleid]
+- naam: snelfietsroute
+  omschrijving: Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid
+  ggm_entiteit: ''
+  ggm_guid: ''
+  ggm_attribuut: ''
+bedrijfsprocessen:
+- Fietsbeleid
+- Beheer openbare ruimte
+- Verkeersmanagement
+bedrijfsfuncties:
+- Verkeersmanagement
+- Fietsbeleid
 relaties:
-  - type: associatie
-    bedrijfsobject: "OV-knooppunt"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Hoofdfietsroute verbindt met OV-knooppunten"
-  - type: associatie
-    bedrijfsobject: "P+R-locatie"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Fietsroute naar P+R-locatie"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Hoofdfietsroute verbindt met OV-knooppunten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Fietsroute naar P+R-locatie
 ---
 
 # Hoofdfietsroute
@@ -76,6 +82,11 @@ Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobilit
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]] — fietsroute verbindt met OV-knooppunten [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]] — fietsroute naar P+R-locatie [0..*]
 
+
+
+## Subtypes
+
+- **snelfietsroute** — Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid
 
 ## Bronnen
 

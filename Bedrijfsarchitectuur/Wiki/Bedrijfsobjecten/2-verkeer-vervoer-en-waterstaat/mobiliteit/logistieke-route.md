@@ -1,48 +1,54 @@
 ---
 type: bedrijfsobject
 naam: Logistieke Route
-domein: [mobiliteit]
-archimate_type: "business-object"
+domein:
+- mobiliteit
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid."
-bedrijfsprocessen: [Routering goederenvervoer, Verkeersmanagement, Ruimtelijke ordening]
-bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid.
+bedrijfsprocessen:
+- Routering goederenvervoer
+- Verkeersmanagement
+- Ruimtelijke ordening
+bedrijfsfuncties:
+- Verkeersmanagement
+- Goederenvervoerbeleid
 relaties:
-  - type: associatie
-    bedrijfsobject: Overslagpunt
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Route verbindt overslagpunten
-  - type: associatie
-    bedrijfsobject: Stadsdistributiepunt
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Route ontsluit stadsdistributiepunten
-  - type: associatie
-    bedrijfsobject: "Laad- en Losplaats"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Route geeft toegang tot laad- en losplaatsen"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/overslagpunt|Overslagpunt]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Route verbindt overslagpunten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stadsdistributiepunt|Stadsdistributiepunt]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Route ontsluit stadsdistributiepunten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Route geeft toegang tot laad- en losplaatsen
 ---
 
 # Logistieke Route

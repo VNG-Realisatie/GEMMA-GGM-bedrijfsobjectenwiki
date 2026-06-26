@@ -121,7 +121,7 @@ Het NHR (Nationaal Handelsregister) is de basisregistratie voor ondernemers en r
 
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-| Kadastrale kaart | object | Landelijke kaart met perceelsgrenzen en aanduidingen | ❌ | nee | Informatieproduct, geen registratieobject | — | nee |
+| Kadastrale kaart | object | Landelijke kaart met perceelsgrenzen en aanduidingen | ❌ | nee | Informatieproduct (visualisatie); geen eigen levenscyclus of relaties | — | nee |
 | Terugmelding | proces | Melding van gerede twijfel over authentiek BRK-gegeven | ❌ | nee | Processtap, geen zelfstandig object | — | nee |
 
 ### NHR — Hoofdobjecten

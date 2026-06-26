@@ -92,7 +92,7 @@ De GGM-entiteit "Buurt" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_38649FF6_88C6_437d_AF8E_A9023D55E16C` | **primair** — BAG is de bronregistratie voor de gebiedsindeling |
 | RSGBPlus | `EAID_67CC2144_6B88_433c_853D_07379C66D6CF` | duplicaat — domein-geprefixte attribuutnamen (buurtcode, buurtnaam, buurtgeometrie); voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde) |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

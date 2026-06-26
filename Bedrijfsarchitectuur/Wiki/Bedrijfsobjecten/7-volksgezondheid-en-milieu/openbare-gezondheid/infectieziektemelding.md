@@ -97,4 +97,4 @@ Zie [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestri
 
 ## Terugmelding GGM
 
-GGM-hiaat: het GGM kent geen beleidsdomein voor volksgezondheid/infectieziektebestrijding onder taakveld 7. De infectieziektemelding past als specialisatie van het bestaande AanvraagOfMelding-patroon. Zie #65 in [[Wiki/Analyses/ggm-terugmeldingen]].
+GGM-hiaat: het GGM kent geen beleidsdomein voor volksgezondheid/infectieziektebestrijding onder taakveld 7. De infectieziektemelding past als specialisatie van het bestaande AanvraagOfMelding-patroon. Zie #65 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

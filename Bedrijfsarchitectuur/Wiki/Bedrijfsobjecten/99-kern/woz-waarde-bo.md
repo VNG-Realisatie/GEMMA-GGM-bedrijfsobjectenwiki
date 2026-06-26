@@ -1,40 +1,57 @@
 ---
 type: bedrijfsobject
-naam: "WOZ-waarde"
-domein: [Belastingen]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "WOZ-Waarde"
+naam: WOZ-waarde
+domein:
+- Belastingen
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: WOZ-Waarde
 ggm_guid: EAID_7C387F42_EC1A_4a78_B09B_533AAB03C0C2
 ggm_uml_type: Class
-ggm_beleidsdomein: "RSGBPlus"
-ggm_taakveld: "99 Kern"
-ggm_diagram: [Vastgoed WOZ, Detaillering WOZ-objecttypen op hoofdlijnen, Detaillering WOZ-objecttypen met attributen, WOZ-OBJECT, WOZ-WAARDE]
-ggm_diagram_ids: [EAID_0CF01F05_D23F_454a_A0CD_042C2DD9EE7D, EAID_3F813481_9A40_4b1b_9B24_1FD069230A45, EAID_5E76FEEA_58F8_41fd_9FF1_B44274C80FA5, EAID_4785522F_7798_4d8d_A437_48602B8ACA21, EAID_EB7771AD_FBE8_40e5_9CD7_2C8EED4A6C33]
-ggm_definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "De op grond van de Wet WOZ vastgestelde waarde van een WOZ-object naar een bepaalde waardepeildatum."
-definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
-bedrijfsprocessen: [WOZ-taxatie, OZB-heffing, bezwaarbehandeling WOZ, WOZ-beschikking verzenden]
-bedrijfsfuncties: [Waardering onroerende zaken, Belastingheffing]
+ggm_beleidsdomein: RSGBPlus
+ggm_taakveld: 99 Kern
+ggm_diagram:
+- Vastgoed WOZ
+- Detaillering WOZ-objecttypen op hoofdlijnen
+- Detaillering WOZ-objecttypen met attributen
+- WOZ-OBJECT
+- WOZ-WAARDE
+ggm_diagram_ids:
+- EAID_0CF01F05_D23F_454a_A0CD_042C2DD9EE7D
+- EAID_3F813481_9A40_4b1b_9B24_1FD069230A45
+- EAID_5E76FEEA_58F8_41fd_9FF1_B44274C80FA5
+- EAID_4785522F_7798_4d8d_A437_48602B8ACA21
+- EAID_EB7771AD_FBE8_40e5_9CD7_2C8EED4A6C33
+ggm_definitie: De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum.
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: De op grond van de Wet WOZ vastgestelde waarde van een WOZ-object naar een bepaalde waardepeildatum.
+definitie: De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum.
+bedrijfsprocessen:
+- WOZ-taxatie
+- OZB-heffing
+- bezwaarbehandeling WOZ
+- WOZ-beschikking verzenden
+bedrijfsfuncties:
+- Waardering onroerende zaken
+- Belastingheffing
 status: concept
 relaties:
-  - type: associatie
-    bedrijfsobject: "WOZ-object"
-    richting: "naar-dit-BO"
-    kardinaliteit: 1
-    beschrijving: "Elke WOZ-waarde hoort bij precies één WOZ-object"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]'
+  richting: naar-dit-BO
+  kardinaliteit: 1
+  beschrijving: Elke WOZ-waarde hoort bij precies één WOZ-object
 ---
 
 # WOZ-waarde (bedrijfsobject)

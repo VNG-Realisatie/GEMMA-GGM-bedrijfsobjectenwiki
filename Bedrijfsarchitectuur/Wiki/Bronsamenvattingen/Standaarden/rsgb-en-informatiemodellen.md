@@ -86,3 +86,8 @@ Het RSGB beschrijft wat de gemeente met basisregistraties uitwisselt. Intern reg
 > "KING raadt gemeenten dringend aan om bij de ontwikkeling van hun informatievoorziening uit te gaan van het referentiemodel en niet alleen van één, of meer, catalogi van landelijke basisregistraties."
 
 > "Het kan voorkomen dat taakspecifieke modellen ook zijn gebaseerd op gegevensuitwisseling met niet-gemeentelijke ketenpartners, die op hun beurt weer andere sectormodellen toepassen."
+
+## Bronnen
+
+- [[Sources/Standaarden/RSG_Basisgegevens_2.02_deel_I_(in_gebruik)]]
+- [[Sources/Standaarden/Wat is een Informatiemodel]]

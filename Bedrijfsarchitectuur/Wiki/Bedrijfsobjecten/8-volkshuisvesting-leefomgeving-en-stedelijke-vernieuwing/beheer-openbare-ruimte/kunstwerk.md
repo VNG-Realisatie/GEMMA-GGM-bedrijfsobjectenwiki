@@ -132,6 +132,16 @@ De GEMMA-definitie benadrukt het gemeentelijke perspectief ("in de openbare ruim
 - **Groot onderhoud kunstwerken**: conservering, voegwerk, betonreparatie
 - **Vervanging kunstwerken**: vervanging bij einde levensduur of functionele noodzaak
 
+
+## Subtypes
+
+- **Brug** — Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden
+- **Viaduct** — Kunstwerk over een weg of spoorweg, bestaande uit een dek gesteund door pijlers en/of landhoofden
+- **Flyover** — Viaductvormig kunstwerk waarmee een verkeersstroom over ongelijkvloerse kruisingen wordt geleid
+- **Kademuur** — Verticale wand ter scheiding van land en water
+- **Keermuur** — Muur die door vorm, gewicht en fundering de grond keert
+- **Sluis** — Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

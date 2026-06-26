@@ -51,4 +51,4 @@ De overige begrippen (plaatsgebonden risico, groepsrisico, oriëntatiewaarde) zi
 
 ## Bronnen
 
-- [[beleidsnota-omgevingsveiligheid-utrecht]]
+- [[Sources/Onderwerpen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid-utrecht]]

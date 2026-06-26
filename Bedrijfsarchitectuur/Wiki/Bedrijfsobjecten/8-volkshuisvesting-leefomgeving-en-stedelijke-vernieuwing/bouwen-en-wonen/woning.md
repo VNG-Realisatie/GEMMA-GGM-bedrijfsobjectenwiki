@@ -121,6 +121,14 @@ De GEMMA-definitie voegt "prijssegment" toe als relevant kenmerk vanuit het woon
 - **Handhaving goed verhuurderschap** — Toezicht op verhuurkwaliteit
 
 
+
+## Subtypes
+
+- **Sociale huurwoning** — Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling
+- **Middenhuurwoning** — Huurwoning met 144-186 WWS-punten en huurprijs €900-€1.185, gereguleerd via Wet betaalbare huur
+- **Betaalbare koopwoning** — Koopwoning met verkoopprijs tot de betaalbaarheidsgrens van het Rijk (€405.000 in 2025)
+- **Studentenwoning** — Woning verhuurd met campuscontract aan studenten, zelfstandig of onzelfstandig
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht]]

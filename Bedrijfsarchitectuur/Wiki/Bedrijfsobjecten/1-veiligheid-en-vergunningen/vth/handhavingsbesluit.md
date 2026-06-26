@@ -85,4 +85,4 @@ Het handhavingsbesluit ontstaat in het handhavingsproces wanneer de gemeente na 
 
 ## Terugmelding GGM
 
-Het GGM bevat geen entiteit voor Handhavingsbesluit. Dit is een procesobject dat ontstaat in het handhavingsproces en een eigen levenscyclus kent (voornemen → besluit → bezwaar → onherroepelijk). Het is vergelijkbaar met [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]] in het sociaal domein. Voorstel: overweeg toevoeging van een Handhavingsbesluit-entiteit aan het GGM. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Het GGM bevat geen entiteit voor Handhavingsbesluit. Dit is een procesobject dat ontstaat in het handhavingsproces en een eigen levenscyclus kent (voornemen → besluit → bezwaar → onherroepelijk). Het is vergelijkbaar met [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]] in het sociaal domein. Voorstel: overweeg toevoeging van een Handhavingsbesluit-entiteit aan het GGM. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

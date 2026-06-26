@@ -83,7 +83,7 @@ De GGM-entiteit "Gemeente" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_EA6F820F_C458_4b24_8055_5C2CC76F5904` | **primair** — BAG is de bronregistratie voor de gebiedsindeling |
 | RSGBPlus | `EAID_B0D9792B_46E7_4b88_B267_C72691616733` | duplicaat — domein-geprefixte attribuutnamen (gemeenteGeometrie, datumBeginGeldigheidGemeente); minder attributen (geen Geconstateerd, versie, datumIngang, datumEinde) |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

@@ -95,6 +95,11 @@ De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformal
 | [[Sloopregeling]] | associatie | naar-dit-BO | Subsidieregeling bij aanscherping | Beleidsnota §6.2.7 |
 
 
+
+## Subtypes
+
+- **Nul-emissiezone** — Zone waarbinnen uitsluitend uitstootvrije voertuigen zijn toegelaten
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]

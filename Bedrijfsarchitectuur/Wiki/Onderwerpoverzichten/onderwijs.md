@@ -71,4 +71,4 @@ Geen openstaande vragen. Alle drie eerder openstaande punten zijn opgelost:
 
 ## Terugmeldingen richting GGM
 
-- #51: Kinderopvangvoorziening ontbreekt in GGM (hiaat). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+- #51: Kinderopvangvoorziening ontbreekt in GGM (hiaat). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

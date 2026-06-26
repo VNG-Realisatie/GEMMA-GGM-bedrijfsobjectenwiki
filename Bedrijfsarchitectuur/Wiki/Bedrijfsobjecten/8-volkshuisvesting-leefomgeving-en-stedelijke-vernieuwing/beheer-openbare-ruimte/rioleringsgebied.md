@@ -97,6 +97,11 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 - **Gebiedsplanning**: planvorming voor hemelwaterontvlechting en stelselverbetering per gebied
 - **Rioolvervangingsplanning**: programmering van rioolvervanging op gebiedsniveau
 
+
+## Subtypes
+
+- **Bemalingsgebied** — Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

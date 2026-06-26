@@ -110,6 +110,12 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 - ← [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — individuele plek gekoppeld aan kenteken
 
 
+
+## Subtypes
+
+- **Algemene gehandicaptenparkeerplaats** — Beschikbaar voor iedereen met een GPK
+- **Individuele gehandicaptenparkeerplaats** — Op kenteken, bij woon-/werk-/studieadres, met venstertijden
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]

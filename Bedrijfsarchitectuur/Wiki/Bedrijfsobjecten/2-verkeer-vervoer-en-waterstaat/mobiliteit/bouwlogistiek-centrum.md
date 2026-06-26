@@ -1,38 +1,43 @@
 ---
 type: bedrijfsobject
 naam: Bouwlogistiek Centrum
-domein: [mobiliteit]
-archimate_type: "business-object"
+domein:
+- mobiliteit
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties."
-bedrijfsprocessen: [Bouwlogistiek, Vergunningverlening]
-bedrijfsfuncties: [Goederenvervoerbeleid, Bouwtoezicht]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties.
+bedrijfsprocessen:
+- Bouwlogistiek
+- Vergunningverlening
+bedrijfsfuncties:
+- Goederenvervoerbeleid
+- Bouwtoezicht
 relaties:
-  - type: associatie
-    bedrijfsobject: Logistieke Route
-    richting: "naar-dit-BO"
-    kardinaliteit: "1..*"
-    beschrijving: Bouwlogistiek centrum wordt ontsloten door logistieke routes
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
+  richting: naar-dit-BO
+  kardinaliteit: 1..*
+  beschrijving: Bouwlogistiek centrum wordt ontsloten door logistieke routes
 ---
 
 # Bouwlogistiek Centrum

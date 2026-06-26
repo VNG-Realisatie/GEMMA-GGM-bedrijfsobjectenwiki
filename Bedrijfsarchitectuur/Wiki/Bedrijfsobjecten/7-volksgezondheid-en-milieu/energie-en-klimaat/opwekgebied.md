@@ -98,6 +98,12 @@ Opwekgebieden ontstaan uit het ruimtelijke planningsproces voor de energietransi
 - Ruimtelijke ordening
 
 
+
+## Subtypes
+
+- **Zonneveld** — Terrein met zonnepanelen voor grootschalige opwek van zonne-energie
+- **Windlocatie** — Locatie aangewezen voor plaatsing van windturbines
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/opwekken-duurzame-energie]]

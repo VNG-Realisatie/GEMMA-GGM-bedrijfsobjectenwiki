@@ -88,4 +88,4 @@ Het GGM modelleert wel een `KadastraleOnroerendeZaakAantekening` (EAID_0BC18F79)
 
 ## Terugmelding GGM
 
-Publiekrechtelijke Beperking ontbreekt als objecttype in het GGM. Data-object met eigen identificatie, levenscyclus en bronhouderschapsrol (gemeente). Wettelijke basis: WKPB / Kadasterwet. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Publiekrechtelijke Beperking ontbreekt als objecttype in het GGM. Data-object met eigen identificatie, levenscyclus en bronhouderschapsrol (gemeente). Wettelijke basis: WKPB / Kadasterwet. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

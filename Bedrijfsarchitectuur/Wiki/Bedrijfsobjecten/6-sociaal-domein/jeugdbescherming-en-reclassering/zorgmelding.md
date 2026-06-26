@@ -1,51 +1,56 @@
 ---
 type: bedrijfsobject
 naam: Zorgmelding
-domein: [maatschappelijke ondersteuning]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-
-ggm_entiteit: "Zorgmelding"
+domein:
+- maatschappelijke ondersteuning
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Zorgmelding
 ggm_guid: EAID_B852AF03_A5E0_4148_AFC1_108509FF8BBD
 ggm_uml_type: Class
-ggm_beleidsdomein: "Jeugdbescherming en reclassering"
-ggm_taakveld: "6 Sociaal Domein"
-ggm_diagram: [Zorgmelding]
-ggm_diagram_ids: [EAID_96845001_991F_4bd6_9249_FBE26A26AC4C]
-ggm_definitie: "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-
-gemma_definitie: "Melding bij de gemeente of Veilig Thuis over de veiligheid of ontwikkeling van een kind, als startpunt voor beoordeling en eventuele beschermingsmaatregelen."
+ggm_beleidsdomein: Jeugdbescherming en reclassering
+ggm_taakveld: 6 Sociaal Domein
+ggm_diagram:
+- Zorgmelding
+ggm_diagram_ids:
+- EAID_96845001_991F_4bd6_9249_FBE26A26AC4C
+ggm_definitie: Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere.
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Melding bij de gemeente of Veilig Thuis over de veiligheid of ontwikkeling van een kind, als startpunt voor beoordeling en eventuele beschermingsmaatregelen.
 relaties:
-  - type: associatie
-    bedrijfsobject: NatuurlijkPersoon
-    richting: "van-dit-BO"
-    kardinaliteit: "1"
-    beschrijving: "betreft een persoon"
-  - type: associatie
-    bedrijfsobject: Medewerker
-    richting: "van-dit-BO"
-    kardinaliteit: "0..1"
-    beschrijving: "betrokken professional"
-  - type: generalisatie
-    bedrijfsobject: AanvraagOfMelding
-    richting: "naar-dit-BO"
-    kardinaliteit: ""
-    beschrijving: "specialisatie van AanvraagOfMelding (abstract)"
-bedrijfsprocessen: [melding kindermishandeling beoordelen, onderzoek Veilig Thuis, triage zorgmelding]
-bedrijfsfuncties: [jeugdbescherming, veilig thuis]
+- type: associatie
+  bedrijfsobject: NatuurlijkPersoon
+  richting: van-dit-BO
+  kardinaliteit: '1'
+  beschrijving: betreft een persoon
+- type: associatie
+  bedrijfsobject: Medewerker
+  richting: van-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: betrokken professional
+- type: generalisatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]'
+  richting: naar-dit-BO
+  kardinaliteit: ''
+  beschrijving: specialisatie van AanvraagOfMelding (abstract)
+bedrijfsprocessen:
+- melding kindermishandeling beoordelen
+- onderzoek Veilig Thuis
+- triage zorgmelding
+bedrijfsfuncties:
+- jeugdbescherming
+- veilig thuis
 ---
 
 # Zorgmelding

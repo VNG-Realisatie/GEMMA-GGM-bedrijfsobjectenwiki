@@ -92,7 +92,7 @@ De GGM-entiteit "Woonplaats" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_24BDA4BA_CFCC_4e3f_8305_671F4ED7C502` | **primair** — BAG is de bronregistratie voor woonplaatsen |
 | RSGBPlus | `EAID_039AFF88_F5F7_4c1a_B7E4_1BDFC495F67A` | duplicaat — domein-geprefixte attribuutnamen; minder attributen (geen versie, voorkomen, tijdstipRegistratie, eindRegistratie, documentvelden); voegt inOnderzoek toe |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

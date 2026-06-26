@@ -28,6 +28,9 @@ Concepten die bij rijkere bronnen alsnog BO-kandidaat zouden kunnen worden:
 
 ## Begrippentabel
 
+| Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
+|---|---|---|---|---|---|---|---|
+
 *Geen begrippen geïdentificeerd — bronnen bevatten uitsluitend governance en strategie.*
 
 ## Verwerkte bronnen

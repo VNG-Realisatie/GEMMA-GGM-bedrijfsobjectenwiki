@@ -114,7 +114,7 @@ De GGM-entiteit "Ligplaats" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_785E3B69_19DA_4952_84A8_592965B9229A` | **primair** — BAG is de bronregistratie voor adresseerbare objecten |
 | RSGBPlus | `EAID_F4978264_32A5_4e70_97A8_D142B64400A8` | duplicaat — zelfde concept met domein-geprefixte attribuutnamen (ligplaatsidentificatie, ligplaatsstatus) en minder attributen (geen geometrie, versie, documentvelden); voegt inOnderzoek toe |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 
@@ -138,6 +138,11 @@ Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
 - BAG-beheer
 - Vergunningverlening
 - Handhaving
+
+
+## Subtypes
+
+- **Reserveligplaats** — Tijdelijke ligplaats voor noodgevallen zoals kade-onderhoud of verplaatsing.
 
 ## Bronnen
 

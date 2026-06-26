@@ -1,43 +1,49 @@
 ---
 type: bedrijfsobject
-naam: "Laad- en Losplaats"
-domein: [mobiliteit]
-archimate_type: "business-object"
+naam: Laad- en Losplaats
+domein:
+- mobiliteit
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen."
-bedrijfsprocessen: [Beheer openbare ruimte, Goederenvervoerbeleid, Handhaving]
-bedrijfsfuncties: [Verkeersmanagement, Goederenvervoerbeleid]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen.
+bedrijfsprocessen:
+- Beheer openbare ruimte
+- Goederenvervoerbeleid
+- Handhaving
+bedrijfsfuncties:
+- Verkeersmanagement
+- Goederenvervoerbeleid
 relaties:
-  - type: associatie
-    bedrijfsobject: Logistieke Route
-    richting: "naar-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Laad- en losplaats ligt aan een logistieke route"
-  - type: associatie
-    bedrijfsobject: "Zero-emissiezone"
-    richting: "naar-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: "Laad- en losplaats kan binnen een zero-emissiezone liggen"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Laad- en losplaats ligt aan een logistieke route
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|Zero-emissiezone]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: Laad- en losplaats kan binnen een zero-emissiezone liggen
 ---
 
 # Laad- en Losplaats

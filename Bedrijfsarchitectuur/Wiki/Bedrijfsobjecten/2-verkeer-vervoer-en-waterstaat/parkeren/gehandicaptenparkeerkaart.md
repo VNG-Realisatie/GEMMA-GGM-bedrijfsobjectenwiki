@@ -108,6 +108,14 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — bestuurderskaart gekoppeld aan kenteken
 
 
+
+## Subtypes
+
+- **Bestuurderskaart** — GPK voor een bestuurder met loopbeperking
+- **Passagierskaart** — GPK voor een passagier die niet zelf rijdt
+- **Combinatiekaart** — GPK voor zowel bestuurder als passagier
+- **Instellingskaart** — GPK voor een zorginstelling
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid]]

@@ -87,4 +87,4 @@ Geen GGM-match gevonden. Stuk is een **GGM-hiaat**.
 
 ## Terugmelding GGM
 
-Stuk ontbreekt als objecttype in het GGM. Data-object met authentieke gegevens (deel-en-nummer, tijdstip aanbieding) en eigen identificatie. Brondocument waarop alle BRK-bijwerkingen traceren. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Stuk ontbreekt als objecttype in het GGM. Data-object met authentieke gegevens (deel-en-nummer, tijdstip aanbieding) en eigen identificatie. Brondocument waarop alle BRK-bijwerkingen traceren. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

@@ -1,43 +1,51 @@
 ---
 type: bedrijfsobject
 naam: Kolk
-domein: [Beheer Openbare Ruimte]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Kolk"
+domein:
+- Beheer Openbare Ruimte
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Kolk
 ggm_guid: EAID_E6AFE8F7_95A7_4A0C_A6E8_F6D2091FB8B
 ggm_uml_type: Class
-ggm_beleidsdomein: "Beheer Openbare Ruimte"
-ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
+ggm_beleidsdomein: Beheer Openbare Ruimte
+ggm_taakveld: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+ggm_diagram:
+- Hoofdobjecten IMBOR en Geo-object
 ggm_diagram_ids: []
-ggm_definitie: "Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond. Synoniemen: Afvoerput"
-ggm_toelichting: ""
-ggm_synoniemen: "Afvoerput"
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond."
+ggm_definitie: 'Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water
+  naar een rioolstelsel of naar de ondergrond. Synoniemen: Afvoerput'
+ggm_toelichting: ''
+ggm_synoniemen: Afvoerput
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond.
 relaties:
-  - type: generalisatie
-    bedrijfsobject: Put (GGM)
-    richting: "van-dit-BO"
-    kardinaliteit:
-    beschrijving: Kolk is een specialisatie van Put in het GGM
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
-    richting: bidirectioneel
-    kardinaliteit:
-    beschrijving: Kolken voeren hemelwater af naar oppervlaktewater of riool
-bedrijfsprocessen: [Rioolbeheer, Kolkreiniging, Amfibievriendelijk maken kolken]
-bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]
+- type: generalisatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|Put]]'
+  richting: van-dit-BO
+  kardinaliteit: null
+  beschrijving: Kolk is een specialisatie van Put in het GGM
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]'
+  richting: bidirectioneel
+  kardinaliteit: null
+  beschrijving: Kolken voeren hemelwater af naar oppervlaktewater of riool
+bedrijfsprocessen:
+- Rioolbeheer
+- Kolkreiniging
+- Amfibievriendelijk maken kolken
+bedrijfsfuncties:
+- Beheer openbare ruimte
+- Rioleringsbeheer
 ---
 
 ## BO-criteria toetsing

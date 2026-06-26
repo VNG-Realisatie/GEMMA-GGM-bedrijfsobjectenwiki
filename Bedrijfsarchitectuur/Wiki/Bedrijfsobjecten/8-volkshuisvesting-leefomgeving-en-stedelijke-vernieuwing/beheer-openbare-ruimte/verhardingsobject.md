@@ -144,6 +144,17 @@ Het GGM-Verhardingsobject is een specialisatie van **Beheerobject**, het abstrac
 - **Vervanging wegvakken**: volledige vervanging verharding inclusief fundering
 - **Inspectie verhardingen**: CROW-beeldkwaliteitsmeting, conditie-inspectie per wegvak
 
+
+## Subtypes
+
+- **Rijbaan** — Verharding bestemd voor gemotoriseerd verkeer
+- **Fietspad** — Verharding bestemd voor fietsverkeer
+- **Voetpad** — Verharding bestemd voor voetgangers (trottoir)
+- **Parkeervak** — Verharding bestemd voor het parkeren van voertuigen
+- **Asfaltverharding** — Verharding van asfalt, levensduur 10-70 jaar, geluidsreducerende variant beschikbaar
+- **Betonverharding** — Verharding van beton, levensduur 20-40 jaar
+- **Elementenverharding** — Verharding van gebakken klinkers, levensduur 70-100 jaar
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

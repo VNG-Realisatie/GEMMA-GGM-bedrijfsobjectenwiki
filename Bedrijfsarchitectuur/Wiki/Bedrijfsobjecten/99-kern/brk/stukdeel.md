@@ -86,4 +86,4 @@ Geen GGM-match gevonden. Stukdeel is een **GGM-hiaat**.
 
 ## Terugmelding GGM
 
-Stukdeel ontbreekt als objecttype in het GGM. Component van Stuk (compositie) met eigen attributen (aard stukdeel). Alle BRK-objecten traceren naar stukdelen als grondslag. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Stukdeel ontbreekt als objecttype in het GGM. Component van Stuk (compositie) met eigen attributen (aard stukdeel). Alle BRK-objecten traceren naar stukdelen als grondslag. Past in beleidsdomein RSGBPlus (99 Kern). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

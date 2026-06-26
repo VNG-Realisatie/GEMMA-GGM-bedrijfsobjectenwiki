@@ -1,53 +1,59 @@
 ---
 type: bedrijfsobject
-naam: "Voetgangersgebied"
-domein: [mobiliteit]
-archimate_type: "business-object"
-grondslag: "governance-object"
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+naam: Voetgangersgebied
+domein:
+- mobiliteit
+archimate_type: business-object
+grondslag: governance-object
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen gebied waar de voetganger hoofdgebruiker is en gemotoriseerd verkeer beperkt is toegestaan."
-bedrijfsprocessen: [Verkeersbeleid, Inrichting openbare ruimte, Handhaving]
-bedrijfsfuncties: [Verkeersmanagement, Beheer openbare ruimte]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Aangewezen gebied waar de voetganger hoofdgebruiker is en gemotoriseerd verkeer beperkt is toegestaan.
+bedrijfsprocessen:
+- Verkeersbeleid
+- Inrichting openbare ruimte
+- Handhaving
+bedrijfsfuncties:
+- Verkeersmanagement
+- Beheer openbare ruimte
 relaties:
-  - type: associatie
-    bedrijfsobject: Verkeersbesluit
-    richting: "naar-dit-BO"
-    kardinaliteit: 1
-    beschrijving: "Voetgangersgebied wordt ingesteld via een verkeersbesluit"
-  - type: associatie
-    bedrijfsobject: Halte
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "OV-haltes binnen of aan de rand van het voetgangersgebied"
-  - type: associatie
-    bedrijfsobject: "Laad- en Losplaats"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Voetgangersgebied bevat laad- en losplaatsen met venstertijden"
-  - type: associatie
-    bedrijfsobject: Zero-emissiezone
-    richting: "bidirectioneel"
-    kardinaliteit: "0..1"
-    beschrijving: "Voetgangersgebied kan overlappen met zero-emissiezone"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit|Verkeersbesluit]]'
+  richting: naar-dit-BO
+  kardinaliteit: 1
+  beschrijving: Voetgangersgebied wordt ingesteld via een verkeersbesluit
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: OV-haltes binnen of aan de rand van het voetgangersgebied
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Voetgangersgebied bevat laad- en losplaatsen met venstertijden
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/zero-emissiezone|Zero-emissiezone]]'
+  richting: bidirectioneel
+  kardinaliteit: 0..1
+  beschrijving: Voetgangersgebied kan overlappen met zero-emissiezone
 ---
 
 # Voetgangersgebied

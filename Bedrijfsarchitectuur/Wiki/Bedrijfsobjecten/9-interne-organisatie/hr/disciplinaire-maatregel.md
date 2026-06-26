@@ -102,6 +102,14 @@ Soorten worden in het GGM vastgelegd via enumeratie SoortDisciplinaireMaatregel.
 |---|---|---|---|
 | [[Werknemer]] heeft disciplinaire maatregel | naar dit BO | 1 | GGM |
 
+
+## Subtypes
+
+- **Schriftelijke waarschuwing** — Formele waarschuwing of berisping
+- **Schorsing** — Tijdelijke non-actiefstelling
+- **Inhouding periodieke verhoging** — Geen schaalverhoging als sanctie
+- **Ontslag** — Beëindiging dienstverband als zwaarste maatregel
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Arbeidszaken/integriteit]]

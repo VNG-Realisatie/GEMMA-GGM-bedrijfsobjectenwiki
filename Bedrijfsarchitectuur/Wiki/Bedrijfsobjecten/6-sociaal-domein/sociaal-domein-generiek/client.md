@@ -1,51 +1,59 @@
 ---
 type: bedrijfsobject
 naam: Client
-domein: [maatschappelijke ondersteuning, sociaal domein]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-
-ggm_entiteit: "Client"
+domein:
+- maatschappelijke ondersteuning
+- sociaal domein
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Client
 ggm_guid: EAID_DAF09055_A5A6_4ff4_A158_21B20567B296
 ggm_uml_type: Class
-ggm_beleidsdomein: "Sociaal Domein Generiek"
-ggm_taakveld: "6 Sociaal Domein"
-ggm_diagram: [Sociaal Domein Domain, "Sociaal Domein Beschikking en Voorziening: Domain Objects"]
-ggm_diagram_ids: [EAID_FD6966FF_E4FC_437d_983E_71B33445A62C, EAID_5AE29494_3572_4924_B2B8_3206E55D71BB]
-ggm_definitie: "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_beleidsdomein: Sociaal Domein Generiek
+ggm_taakveld: 6 Sociaal Domein
+ggm_diagram:
+- Sociaal Domein Domain
+- 'Sociaal Domein Beschikking en Voorziening: Domain Objects'
+ggm_diagram_ids:
+- EAID_FD6966FF_E4FC_437d_983E_71B33445A62C
+- EAID_5AE29494_3572_4924_B2B8_3206E55D71BB
+ggm_definitie: Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.
+ggm_toelichting: ''
+ggm_synoniemen: ''
 ggm_herkomst: GGM
-
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-
-gemma_definitie: "Inwoner die gebruik maakt van ondersteuning, zorg of diensten van de gemeente in het sociaal domein."
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Inwoner die gebruik maakt van ondersteuning, zorg of diensten van de gemeente in het sociaal domein.
 relaties:
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "heeft beschikking(en)"
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|SociaalTeamDossier]]"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "heeft dossier(s)"
-  - type: generalisatie
-    bedrijfsobject: IngeschrevenPersoon
-    richting: "naar-dit-BO"
-    kardinaliteit: ""
-    beschrijving: "specialisatie van IngeschrevenPersoon"
-bedrijfsprocessen: [intake sociaal domein, ondersteuningsplan opstellen, voortgang monitoren]
-bedrijfsfuncties: [cliëntregistratie, toegang sociaal domein]
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: heeft beschikking(en)
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|SociaalTeamDossier]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: heeft dossier(s)
+- type: generalisatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon|Ingeschreven Persoon]]'
+  richting: naar-dit-BO
+  kardinaliteit: ''
+  beschrijving: specialisatie van IngeschrevenPersoon
+bedrijfsprocessen:
+- intake sociaal domein
+- ondersteuningsplan opstellen
+- voortgang monitoren
+bedrijfsfuncties:
+- cliëntregistratie
+- toegang sociaal domein
 ---
 
 # Client

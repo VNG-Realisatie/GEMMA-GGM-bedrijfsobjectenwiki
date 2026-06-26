@@ -126,6 +126,14 @@ De GGM-definitie van Vaartuig is breder dan het BO Woonboot: het omvat ook bagge
 - Vergunningverlening
 - Handhaving
 
+
+## Subtypes
+
+- **Woonark** — Betonnen bak met opbouw in het water, niet varend.
+- **Varend schip** — Schip met originele romp, ontworpen om te varen. Bij vervanging door een ark geldt max 18 meter.
+- **Historisch schip** — Woonboot of bedrijfsvaartuig ≥50 jaar oud, met beschermingsregime in aangewezen zones.
+- **Schark** — Historisch schip met originele romp en (deels) vervangen eenlaags houten opbouw.
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Wonen/beleidsnota-wonen-utrecht]]

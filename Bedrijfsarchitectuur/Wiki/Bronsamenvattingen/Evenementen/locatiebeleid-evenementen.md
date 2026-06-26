@@ -48,4 +48,4 @@ Het GGM kent de entiteit `OpenbareActiviteit` (VTH, taakveld 1) met attributen `
 
 ## Bronnen
 
-- [[locatiebeleid-evenementen-2024-2030]]
+- [[Sources/Onderwerpen/evenementen/locatiebeleid-evenementen-2024-2030]]

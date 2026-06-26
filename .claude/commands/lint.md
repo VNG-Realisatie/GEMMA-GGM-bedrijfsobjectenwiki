@@ -30,7 +30,7 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 ### Subtypes en Specialisaties
 
 - **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Subtypes- of Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
-- **Frontmatter ↔ body subtypes** — BO's met `gemma_subtypes` in frontmatter maar zonder `## Subtypes`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-lijst voorkomen, of subtypes die in de body-lijst staan maar niet in `gemma_subtypes` in frontmatter.
+- **Frontmatter ↔ body subtypes** — BO's met **gevulde** `gemma_subtypes` in frontmatter (niet `[]`) maar zonder `## Subtypes`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-lijst voorkomen, of subtypes die in de body-lijst staan maar niet in `gemma_subtypes` in frontmatter. Lege placeholders (`gemma_subtypes: []`) overslaan — die vereisen geen body-sectie.
 - **GGM-link compleetheid subtypes** — subtypes in `gemma_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
 
 ### Generalisatie en Specialisaties (BO-hiërarchie)
@@ -53,9 +53,9 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 
 ### GGM-duplicaten
 
-- **Duplicaat-frontmatter compleetheid** — BO's met `ggm_duplicaat_entiteiten` in frontmatter: elk item moet `entiteit`, `guid`, `beleidsdomein` en `taakveld` bevatten. `afwijkende_attributen` mag leeg zijn.
-- **Duplicaat-body consistentie** — BO's met gevulde `ggm_duplicaat_entiteiten` moeten een `## GGM-duplicaten` sectie in de body hebben, en omgekeerd.
-- **Duplicaat-terugmelding** — BO's met `ggm_duplicaat_entiteiten` die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan als type `duplicaat`.
+- **Duplicaat-frontmatter compleetheid** — BO's met **gevulde** `ggm_duplicaat_entiteiten` in frontmatter (niet `[]`): elk item moet `entiteit`, `guid`, `beleidsdomein` en `taakveld` bevatten. `afwijkende_attributen` mag leeg zijn. Lege placeholders (`ggm_duplicaat_entiteiten: []`) overslaan.
+- **Duplicaat-body consistentie** — BO's met **gevulde** `ggm_duplicaat_entiteiten` (niet `[]`) moeten een `## GGM-duplicaten` sectie in de body hebben, en omgekeerd. Lege lijsten negeren.
+- **Duplicaat-terugmelding** — BO's met **gevulde** `ggm_duplicaat_entiteiten` (niet `[]`) die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan als type `duplicaat`.
 - **Homoniem-terugmelding** — `## GGM-duplicaten` secties die homoniemen vermelden: controleer of het homoniem in `Wiki/Analyses/ggm-terugmeldingen.md` staat als type `homoniem`.
 
 ### Inhoudelijke consistentie

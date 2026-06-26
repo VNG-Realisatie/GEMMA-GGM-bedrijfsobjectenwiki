@@ -83,7 +83,7 @@ De GGM-entiteit "OpenbareRuimte" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_BFE30E32_8CB9_4272_A559_9FB3FD74DACC` | **primair** — BAG is de bronregistratie voor openbare ruimten |
 | RSGBPlus | `EAID_FB13857C_C695_4b53_8060_BACFA0E16950` | duplicaat — domein-geprefixte attribuutnamen; voegt IMGeo-identificatie toe; minder attributen (geen versie, wegsegment, straatcode, documentvelden); voegt inOnderzoek toe |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

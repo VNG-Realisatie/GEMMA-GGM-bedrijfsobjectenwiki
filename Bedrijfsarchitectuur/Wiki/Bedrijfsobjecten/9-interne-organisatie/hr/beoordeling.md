@@ -105,7 +105,14 @@ De GGM-definitie verwijst naar "leerling" maar de entiteit staat in het HR-domei
 
 ## Terugmelding GGM
 
-**Beoordeling** — Definitie verwijst naar "leerling" maar entiteit staat in HR-domein met relatie naar Werknemer. Voorgestelde correctie: "Het oordeel over het functioneren van een werknemer." Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Beoordeling** — Definitie verwijst naar "leerling" maar entiteit staat in HR-domein met relatie naar Werknemer. Voorgestelde correctie: "Het oordeel over het functioneren van een werknemer." Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
+
+## Subtypes
+
+- **Planningsgesprek** — Gesprek aan het begin van de cyclus waarin doelstellingen en verwachtingen worden vastgelegd
+- **Functioneringsgesprek** — Tussentijds gesprek over voortgang, knelpunten en bijstelling van afspraken
+- **Beoordelingsgesprek** — Eindgesprek met formeel oordeel over functioneren, basis voor periodieke verhoging of promotie
 
 ## Bronnen
 

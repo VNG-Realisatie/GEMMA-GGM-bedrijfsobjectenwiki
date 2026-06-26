@@ -27,5 +27,5 @@ Beschikbare tools: Routekaart Financiële Zorgen, handboeken preventie/jeugd/ond
 Dunne portaalpagina's die het landelijke kader schetsen maar geen nieuwe BO-kandidaten bevatten boven wat het beleidsplan al beschrijft. Bevestigen het belang van basisdienstverlening als landelijk instrument en vroegsignalering als wettelijke plicht.
 
 ## Bronnen
-- [Rubriek Schulden en armoede](Sources/Onderwerpen/Schulden en Armoede/rubriek-schulden-en-armoede.md)
-- [Verbinden Schuldendomein](Sources/Onderwerpen/Schulden en Armoede/schuldendomein.md)
+- [[Sources/Onderwerpen/Schulden en Armoede/rubriek-schulden-en-armoede.md]]
+- [[Sources/Onderwerpen/Schulden en Armoede/schuldendomein.md]]

@@ -1,89 +1,102 @@
 ---
 type: bedrijfsobject
 naam: Monument
-domein: [Cultuur]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Beschermde Status"
+domein:
+- Cultuur
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Beschermde Status
 ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
 ggm_uml_type: Class
-ggm_beleidsdomein: "Monumenten"
-ggm_taakveld: "Erfgoed"
-ggm_diagram: [Diagram Monumenten, Diagram Monumenten Detail]
-ggm_diagram_ids: [EAID_7429E175_1CBE_4336_BF92_6C5029395E69, EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2]
-ggm_definitie: "Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: "BeschermdeStatus"
-ggm_gemma_guid: "4ebf7f05-0ff1-4d2e-aa62-879be7565dd7"
-ggm_gemma_definitie: "Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-arc"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: "business-object"
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister."
+ggm_beleidsdomein: Monumenten
+ggm_taakveld: Erfgoed
+ggm_diagram:
+- Diagram Monumenten
+- Diagram Monumenten Detail
+ggm_diagram_ids:
+- EAID_7429E175_1CBE_4336_BF92_6C5029395E69
+- EAID_58EA4966_DBC2_4359_94C4_ABC774DBE5E2
+ggm_definitie: Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische,
+  volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument /
+  erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: BeschermdeStatus
+ggm_gemma_guid: 4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
+ggm_gemma_definitie: Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de
+  historische, volkskundige, artistieke, wetenschappelijke, industrieel-arc
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: business-object
+ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister.
 gemma_subtypes:
-  - naam: kerkgebouw
-    omschrijving: "Religieus gebouw (kapittels, parochiekerken, kloosters)"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: beschermd stadsgezicht
-    omschrijving: "Rijks- of gemeentelijk beschermd stads- of dorpsgezicht"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "gezichtscode"
-  - naam: synagoge
-    omschrijving: "Joods gebedshuis"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: klooster
-    omschrijving: "Kloostergebouw of -complex"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: woonhuis
-    omschrijving: "Beschermd woonhuis of grachtenpand"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: verdedigingswerk
-    omschrijving: "Fort, muur of ander militair erfgoed (Waterlinie, Limes)"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: openbare ruimte
-    omschrijving: "Beschermd park, plantsoen of singel (Zocherplantsoen)"
-    ggm_entiteit: "Beschermde Status"
-    ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
-    ggm_attribuut: "type"
-  - naam: luidklok
-    omschrijving: "Klok in kerktoren, deels met eigen monumentstatus"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
-bedrijfsprocessen: [Monumentenaanwijzing, Monumentenvergunning, Erfgoedtoezicht]
-bedrijfsfuncties: [Erfgoedbeheer, Vergunningverlening]
+- naam: kerkgebouw
+  omschrijving: Religieus gebouw (kapittels, parochiekerken, kloosters)
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: beschermd stadsgezicht
+  omschrijving: Rijks- of gemeentelijk beschermd stads- of dorpsgezicht
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: gezichtscode
+- naam: synagoge
+  omschrijving: Joods gebedshuis
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: klooster
+  omschrijving: Kloostergebouw of -complex
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: woonhuis
+  omschrijving: Beschermd woonhuis of grachtenpand
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: verdedigingswerk
+  omschrijving: Fort, muur of ander militair erfgoed (Waterlinie, Limes)
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: openbare ruimte
+  omschrijving: Beschermd park, plantsoen of singel (Zocherplantsoen)
+  ggm_entiteit: Beschermde Status
+  ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
+  ggm_attribuut: type
+- naam: luidklok
+  omschrijving: Klok in kerktoren, deels met eigen monumentstatus
+  ggm_entiteit: ''
+  ggm_guid: ''
+  ggm_attribuut: ''
+bedrijfsprocessen:
+- Monumentenaanwijzing
+- Monumentenvergunning
+- Erfgoedtoezicht
+bedrijfsfuncties:
+- Erfgoedbeheer
+- Vergunningverlening
 relaties:
-  - type: associatie
-    bedrijfsobject: "*(Pand — BAG)*"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Een monument betreft een of meer panden
-  - type: associatie
-    bedrijfsobject: "*(KadastraleOnroerendeZaak — Kadaster)*"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Een monument betreft een of meer kadastrale objecten
-  - type: associatie
-    bedrijfsobject: "*(OpenbareRuimte — BAG)*"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Een beschermd gezicht betreft een of meer openbare ruimten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Een monument betreft een of meer panden
+- type: associatie
+  bedrijfsobject: '*(KadastraleOnroerendeZaak — Kadaster)*'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Een monument betreft een of meer kadastrale objecten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte|Openbare Ruimte]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Een beschermd gezicht betreft een of meer openbare ruimten
 ---
 
 # Monument
@@ -157,6 +170,18 @@ De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzami
 
 - Erfgoedbeheer
 - Vergunningverlening
+
+
+## Subtypes
+
+- **kerkgebouw** — Religieus gebouw (kapittels, parochiekerken, kloosters)
+- **beschermd stadsgezicht** — Rijks- of gemeentelijk beschermd stads- of dorpsgezicht
+- **synagoge** — Joods gebedshuis
+- **klooster** — Kloostergebouw of -complex
+- **woonhuis** — Beschermd woonhuis of grachtenpand
+- **verdedigingswerk** — Fort, muur of ander militair erfgoed (Waterlinie, Limes)
+- **openbare ruimte** — Beschermd park, plantsoen of singel (Zocherplantsoen)
+- **luidklok** — Klok in kerktoren, deels met eigen monumentstatus
 
 ## Bronnen
 

@@ -121,6 +121,15 @@ De beleidsbron is de [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties
 - **Ruimtelijk-economisch programmeren** — kantoorprogrammering, bedrijventerreinenplanning
 
 
+
+## Subtypes
+
+- **Bedrijventerrein** — Werklandschap bedoeld voor bedrijven die hinder veroorzaken (geluid, stof, gevaar, geur); milieucategorie-gestuurd.
+- **Kantoorlocatie** — Gebied met kantoorbestemming waar meerdere kantoorgebouwen bij elkaar staan; gesegmenteerd in top-, midden- en ondersegment.
+- **Winkelgebied** — Ruimtelijke concentratie van retailfuncties en publieksgerichte voorzieningen; onderdeel van de retailhoofdstructuur.
+- **Innovatielocatie** — Locatie voor innovatieve en kennisgedreven bedrijven rondom maatschappelijke vraagstukken, vaak gemengd met onderwijs en onderzoek.
+- **Wijkeconomie** — Alle werkplekken buiten de vier andere typen: solitaire bedrijfspanden, thuiswerken, voorzieningen in wijken.
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035]]

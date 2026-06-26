@@ -102,6 +102,12 @@ Het GGM heeft geen attributen op Verlichtingsobject zelf (alleen geërfd van Beh
 - **Inspectie verlichting**: technische inspectie op conditie en veiligheid
 - **Storingsdienst**: meldingen van defecte verlichting
 
+
+## Subtypes
+
+- **Lichtmast** — Vrijstaande paal met armatuur voor straatverlichting, veruit het meeste type (56.000 stuks)
+- **Gevelarmatuur** — Aan gevel bevestigde verlichting, met name in de historische binnenstad
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

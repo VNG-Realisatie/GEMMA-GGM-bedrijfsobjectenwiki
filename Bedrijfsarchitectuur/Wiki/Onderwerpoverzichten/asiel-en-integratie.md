@@ -79,4 +79,4 @@ _(geen)_
 
 Het GGM-beleidsdomein Inburgering modelleert het Wi2021-traject gedetailleerd (35 entiteiten) maar mist het financieel ontzorgen als concept. Dit is geen GGM-hiaat omdat het financieel ontzorgen een proces is dat via PIP en Inkomensvoorziening wordt geregistreerd, niet een zelfstandige entiteit.
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]] voor het volledige overzicht.
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] voor het volledige overzicht.

@@ -85,7 +85,7 @@ De GGM-entiteit "Verblijfsobject" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_461EFCF0_E65E_4c7c_B44D_8F36C36FDCE4` | **primair** — BAG is de bronregistratie voor verblijfsobjecten |
 | RSGBPlus | `EAID_A33151CE_37B2_4026_B0AF_B541687B5B7C` | duplicaat — domein-geprefixte attribuutnamen; minder attributen (geen geometrie, gebruiksdoel, oppervlakte, documentvelden); voegt inOnderzoek toe |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

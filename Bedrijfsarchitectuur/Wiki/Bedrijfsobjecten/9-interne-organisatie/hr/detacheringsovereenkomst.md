@@ -77,7 +77,7 @@ Dit BO komt voort uit het proces van intergemeentelijke personeelsuitwisseling. 
 
 ## Terugmelding GGM
 
-**Detacheringsovereenkomst** — Niet gemodelleerd in GGM. Relevant data-object bij intergemeentelijke samenwerking met eigen attributen (partijen, duur, vergoedingsmodel, re-integratie/loopbaanontwikkeling). Past in beleidsdomein HR, taakveld 9. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+**Detacheringsovereenkomst** — Niet gemodelleerd in GGM. Relevant data-object bij intergemeentelijke samenwerking met eigen attributen (partijen, duur, vergoedingsmodel, re-integratie/loopbaanontwikkeling). Past in beleidsdomein HR, taakveld 9. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Bronnen
 

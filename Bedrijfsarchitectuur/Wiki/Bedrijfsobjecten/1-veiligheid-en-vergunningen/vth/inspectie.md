@@ -97,4 +97,4 @@ De GGM-definitie verwijst naar boezemkades (waterbeheer-context). Voor het VTH-d
 
 ## Terugmelding GGM
 
-Definitie van Inspectie in GGM verwijst specifiek naar boezemkades (waterbeheer), maar de entiteit wordt in het VTH-domein breed ingezet voor toezichtscontroles op bouwwerken en de bestaande leefomgeving. Voorstel: generaliseer de definitie. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Definitie van Inspectie in GGM verwijst specifiek naar boezemkades (waterbeheer), maar de entiteit wordt in het VTH-domein breed ingezet voor toezichtscontroles op bouwwerken en de bestaande leefomgeving. Voorstel: generaliseer de definitie. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

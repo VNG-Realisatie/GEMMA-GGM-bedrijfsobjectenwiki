@@ -111,6 +111,13 @@ Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van put
 - **Rioolinspectie**: visuele en camera-inspectie van putten en aangesloten leidingen
 - **Rioolvervanging**: vervanging of renovatie van putten bij stelselvernieuwing
 
+
+## Subtypes
+
+- **Drainageput** — Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
+- **Filterput** — Put met filterconstructie voor onttrekken van grondwater
+- **Infiltratieput** — Put met waterdoorlatende wanden voor infiltratie van hemelwater
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

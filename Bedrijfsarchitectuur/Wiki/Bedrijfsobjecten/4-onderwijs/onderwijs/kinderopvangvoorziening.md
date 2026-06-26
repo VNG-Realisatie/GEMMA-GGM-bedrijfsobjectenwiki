@@ -89,6 +89,13 @@ Dit BO ontstaat in het proces van registratie en toezicht kinderopvang. De Wet k
 
 - Onderwijsbeleid
 
+
+## Subtypes
+
+- **Kinderdagverblijf (KDV)** — Dagopvang voor kinderen die nog niet naar de basisschool gaan
+- **Buitenschoolse opvang (BSO)** — Opvang voor schoolgaande kinderen buiten schooltijden
+- **Gastouderopvang** — Opvang door geregistreerde gastouder aan huis
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/onderwijs/kinderopvang-toezicht]]
@@ -96,4 +103,4 @@ Dit BO ontstaat in het proces van registratie en toezicht kinderopvang. De Wet k
 
 ## Terugmelding GGM
 
-Kinderopvangvoorziening is een data-object zonder GGM-entiteit. De gemeente registreert voorzieningen in het LRK, houdt toezicht en handhaaft. Dit past in GGM taakveld 4 Onderwijs, beleidsdomein Onderwijs. Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Kinderopvangvoorziening is een data-object zonder GGM-entiteit. De gemeente registreert voorzieningen in het LRK, houdt toezicht en handhaaft. Dit past in GGM taakveld 4 Onderwijs, beleidsdomein Onderwijs. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

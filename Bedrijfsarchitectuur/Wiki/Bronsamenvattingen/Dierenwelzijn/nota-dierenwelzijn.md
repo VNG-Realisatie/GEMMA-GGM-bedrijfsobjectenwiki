@@ -55,4 +55,4 @@ Dit domein levert vier bedrijfsobjecten op, alle zonder GGM-grondslag (het GGM k
 
 ## Bronnen
 
-- [[2019-nota-dierenwelzijn]]
+- [[Sources/Onderwerpen/dierenwelzijn/2019-nota-dierenwelzijn]]

@@ -64,4 +64,4 @@ Deze bron levert:
 
 ## Bronnen
 
-- Sources/Onderwerpen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw.md
+- [[Sources/Onderwerpen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]

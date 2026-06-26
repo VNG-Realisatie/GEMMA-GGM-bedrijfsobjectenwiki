@@ -1,53 +1,60 @@
 ---
 type: bedrijfsobject
 naam: Overstortconstructie
-domein: [Beheer Openbare Ruimte]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Overstortconstructie"
+domein:
+- Beheer Openbare Ruimte
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Overstortconstructie
 ggm_guid: EAID_845EC5C5_7B96_4999_9659_5617436D269
 ggm_uml_type: Class
-ggm_beleidsdomein: "Beheer Openbare Ruimte"
-ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
+ggm_beleidsdomein: Beheer Openbare Ruimte
+ggm_taakveld: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+ggm_diagram:
+- Hoofdobjecten IMBOR en Geo-object
 ggm_diagram_ids: []
-ggm_definitie: "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater."
+ggm_definitie: Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte.
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater.
 relaties:
-  - type: generalisatie
-    bedrijfsobject: Kunstwerk (GGM)
-    richting: "van-dit-BO"
-    kardinaliteit:
-    beschrijving: Overstortconstructie is een specialisatie van Kunstwerk in het GGM
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]"
-    richting: bidirectioneel
-    kardinaliteit: "1..*"
-    beschrijving: Achter de belangrijkste overstorten staan bergbezinkbassins
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
-    richting: bidirectioneel
-    kardinaliteit:
-    beschrijving: Overstortconstructie loost verdund afvalwater op oppervlaktewater
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
-    richting: bidirectioneel
-    kardinaliteit:
-    beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
-bedrijfsprocessen: [Rioolbeheer, Monitoring overstorten, Waterkwaliteitsbeheer]
-bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]
+- type: generalisatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
+  richting: van-dit-BO
+  kardinaliteit: null
+  beschrijving: Overstortconstructie is een specialisatie van Kunstwerk in het GGM
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]'
+  richting: bidirectioneel
+  kardinaliteit: 1..*
+  beschrijving: Achter de belangrijkste overstorten staan bergbezinkbassins
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]'
+  richting: bidirectioneel
+  kardinaliteit: null
+  beschrijving: Overstortconstructie loost verdund afvalwater op oppervlaktewater
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]'
+  richting: bidirectioneel
+  kardinaliteit: null
+  beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
+bedrijfsprocessen:
+- Rioolbeheer
+- Monitoring overstorten
+- Waterkwaliteitsbeheer
+bedrijfsfuncties:
+- Beheer openbare ruimte
+- Rioleringsbeheer
 ---
 
 ## BO-criteria toetsing

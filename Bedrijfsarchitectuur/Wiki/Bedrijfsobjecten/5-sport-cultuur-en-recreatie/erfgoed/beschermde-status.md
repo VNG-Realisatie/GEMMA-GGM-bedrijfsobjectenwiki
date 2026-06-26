@@ -126,6 +126,13 @@ De GGM-definitie focust op monumenten en erfgoed als objecten; de GEMMA-definiti
 - Erfgoedbeheer
 - Vergunningverlening
 
+
+## Subtypes
+
+- **Rijksmonument** — Monument beschermd op grond van de Erfgoedwet door het Ministerie van OCW
+- **Gemeentelijk monument** — Monument beschermd op grond van de gemeentelijke monumentenverordening
+- **Beschermd stadsgezicht** — Ruimtelijk en cultuurhistorisch waardevol gebied beschermd krachtens de Erfgoedwet
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]

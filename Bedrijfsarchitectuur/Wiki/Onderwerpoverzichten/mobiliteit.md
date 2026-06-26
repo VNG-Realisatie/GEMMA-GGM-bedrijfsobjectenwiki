@@ -132,7 +132,7 @@ Geen openstaande bronnen.
 
 ## Openstaande vragen of hiaten
 
-- **Deelvoertuig**: gemeente introduceert vergunningenstelsel voor deelmobiliteit — wordt dit een registratieobject? Bij nadere uitwerking opnieuw beoordelen.
+- **Deelvoertuig**: gemeente introduceert vergunningenstelsel voor deelmobiliteit — BO-kandidaat? Bij nadere uitwerking opnieuw beoordelen tegen de 6 criteria.
 - **P+R vs. Parkeergarage**: overlap — P+R-locaties zijn deels parkeergarages maar met specifieke multimodale functie. Relatie vastleggen.
 - **Bouwlogistiek Centrum**: tijdelijke voorzieningen — hoe modelleren als de levenscyclus per definitie eindig is?
 

@@ -1,48 +1,54 @@
 ---
 type: bedrijfsobject
-naam: "Zero-emissiezone"
-domein: [mobiliteit]
-archimate_type: "business-object"
-grondslag: "governance-object"
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+naam: Zero-emissiezone
+domein:
+- mobiliteit
+archimate_type: business-object
+grondslag: governance-object
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden."
-bedrijfsprocessen: [Milieubeleid, Goederenvervoerbeleid, Handhaving]
-bedrijfsfuncties: [Verkeersmanagement, Milieubeleid]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden.
+bedrijfsprocessen:
+- Milieubeleid
+- Goederenvervoerbeleid
+- Handhaving
+bedrijfsfuncties:
+- Verkeersmanagement
+- Milieubeleid
 relaties:
-  - type: associatie
-    bedrijfsobject: Logistieke Route
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Zero-emissiezone wordt ontsloten door logistieke routes"
-  - type: associatie
-    bedrijfsobject: "Laad- en Losplaats"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: "Zero-emissiezone bevat laad- en losplaatsen"
-  - type: associatie
-    bedrijfsobject: Verkeersbesluit
-    richting: "naar-dit-BO"
-    kardinaliteit: 1
-    beschrijving: Zone wordt ingesteld via een verkeersbesluit
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Zero-emissiezone wordt ontsloten door logistieke routes
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/laad-en-losplaats|Laad- en Losplaats]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Zero-emissiezone bevat laad- en losplaatsen
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit|Verkeersbesluit]]'
+  richting: naar-dit-BO
+  kardinaliteit: 1
+  beschrijving: Zone wordt ingesteld via een verkeersbesluit
 ---
 
 # Zero-emissiezone

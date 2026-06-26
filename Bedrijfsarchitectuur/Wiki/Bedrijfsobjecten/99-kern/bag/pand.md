@@ -92,7 +92,7 @@ De GGM-entiteit "Pand" komt voor in 2 beleidsdomeinen:
 
 RSGBPlus voegt 3D-geometrieën (LOD1, LOD2, LOD3) en inwinningGeometrie toe die de BAG-entiteit niet heeft. Dit zijn IMGeo-uitbreidingen bovenop de BAG-kern.
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

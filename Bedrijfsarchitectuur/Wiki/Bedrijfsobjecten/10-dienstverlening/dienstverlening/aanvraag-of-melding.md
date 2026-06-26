@@ -1,59 +1,90 @@
 ---
 type: bedrijfsobject
 naam: Aanvraag of melding
-domein: [Dienstverlening]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "AanvraagOfMelding"
+domein:
+- Dienstverlening
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: AanvraagOfMelding
 ggm_guid: EAID_8E6BAEF8_1878_400f_9244_23575BD41EAB
 ggm_uml_type: Class
-ggm_beleidsdomein: "10 Dienstverlening"
-ggm_taakveld: "10 Dienstverlening"
-ggm_diagram: [Diagram Vergunningen en Meldingen, Brede Handhaving, Diagram Aanvragen, Zaken en Besluiten, Verkamering en Woonoverlast, Diagram Beslissingen Leerplicht, AanvraagOfMelding, Zorgmelding, Zorgmelding Detail, Diagram Afval Meldingen, MOR 2.0, Entiteiten Dienstverlening, Dienstverlening en Klanten, Entiteiten Klantcontact]
-ggm_diagram_ids: [EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267, EAID_EC84A03C_FC04_401a_8263_7809B74179F8, EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268, EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF, EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308, EAID_5F3782EB_C416_461c_A9FA_40991A7F0165, EAID_96845001_991F_4bd6_9249_FBE26A26AC4C, EAID_7D74F8FB_7AF2_4fb6_B951_C78139A17FCF, EAID_157F610A_619E_4d1a_BB45_5C1F55178944, EAID_B3CC7874_57AA_4aeb_BF3F_98A64E9D76E5, EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78, EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC, EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970]
-ggm_definitie: "Komt overeen met een VJV
+ggm_beleidsdomein: 10 Dienstverlening
+ggm_taakveld: 10 Dienstverlening
+ggm_diagram:
+- Diagram Vergunningen en Meldingen
+- Brede Handhaving
+- Diagram Aanvragen
+- Zaken en Besluiten
+- Verkamering en Woonoverlast
+- Diagram Beslissingen Leerplicht
+- AanvraagOfMelding
+- Zorgmelding
+- Zorgmelding Detail
+- Diagram Afval Meldingen
+- MOR 2.0
+- Entiteiten Dienstverlening
+- Dienstverlening en Klanten
+- Entiteiten Klantcontact
+ggm_diagram_ids:
+- EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267
+- EAID_EC84A03C_FC04_401a_8263_7809B74179F8
+- EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268
+- EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF
+- EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308
+- EAID_5F3782EB_C416_461c_A9FA_40991A7F0165
+- EAID_96845001_991F_4bd6_9249_FBE26A26AC4C
+- EAID_7D74F8FB_7AF2_4fb6_B951_C78139A17FCF
+- EAID_157F610A_619E_4d1a_BB45_5C1F55178944
+- EAID_B3CC7874_57AA_4aeb_BF3F_98A64E9D76E5
+- EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78
+- EAID_1D7802F4_3458_4bb4_8431_16C7F85473FC
+- EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970
+ggm_definitie: 'Komt overeen met een VJV
 
-Bron: GEM_VJV (Distinct op REQ_ID)
-ID: REQ_ID"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: "AanvraagOfMelding"
-ggm_gemma_guid: "f14fa1cf-f2c7-4bd6-862d-28ff1616a882"
-ggm_gemma_definitie: "Komt overeen met een VJV
+  Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID'
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: AanvraagOfMelding
+ggm_gemma_guid: f14fa1cf-f2c7-4bd6-862d-28ff1616a882
+ggm_gemma_definitie: 'Komt overeen met een VJV
 
-Bron: GEM_VJV (Distinct op REQ_ID)
-ID: REQ_ID"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: "business-object"
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: "AanvraagOfMelding (Dienstverlening)"
-gemma_definitie: "Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie."
-bedrijfsprocessen: [Zaakafhandeling, Klantcontactregistratie, Meldingenbeheer]
-bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
+  Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID'
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: business-object
+ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
+gemma_definitie: Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie.
+bedrijfsprocessen:
+- Zaakafhandeling
+- Klantcontactregistratie
+- Meldingenbeheer
+bedrijfsfuncties:
+- Dienstverlening
+- Klantcontactcentrum
 relaties:
-  - type: associatie
-    bedrijfsobject: zaakdossier
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: kan leiden tot een zaak
-  - type: associatie
-    bedrijfsobject: informatieobject
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: heeft documenten
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]]"
-    richting: "naar-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: betreft (via klantcontact)
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]]"
-    richting: "naar-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: kan ontstaan uit klantcontact na balieafspraak
+- type: associatie
+  bedrijfsobject: zaakdossier
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: kan leiden tot een zaak
+- type: associatie
+  bedrijfsobject: informatieobject
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: heeft documenten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|Product of dienst]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: betreft (via klantcontact)
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: kan ontstaan uit klantcontact na balieafspraak
 ---
 
 ## BO-criteria toetsing

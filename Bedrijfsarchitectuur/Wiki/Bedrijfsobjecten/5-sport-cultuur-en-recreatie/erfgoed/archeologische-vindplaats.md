@@ -1,43 +1,51 @@
 ---
 type: bedrijfsobject
 naam: Archeologische vindplaats
-domein: [Cultuur]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Vindplaats"
+domein:
+- Cultuur
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Vindplaats
 ggm_guid: EAID_D7947186_4317_407b_A456_41DF5187E810
 ggm_uml_type: Class
-ggm_beleidsdomein: "Archief"
-ggm_taakveld: "Erfgoed"
-ggm_diagram: [Archief Model]
-ggm_diagram_ids: [EAID_59241C4B_FD65_484b_88E5_83189334A510]
-ggm_definitie: "Een plek waar men iets gevonden heeft."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden."
-bedrijfsprocessen: [Archeologisch advies, Selectiebesluit, Bestemmingsplantoetsing]
-bedrijfsfuncties: [Erfgoedbeheer, Ruimtelijke ordening]
+ggm_beleidsdomein: Archief
+ggm_taakveld: Erfgoed
+ggm_diagram:
+- Archief Model
+ggm_diagram_ids:
+- EAID_59241C4B_FD65_484b_88E5_83189334A510
+ggm_definitie: Een plek waar men iets gevonden heeft.
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden.
+bedrijfsprocessen:
+- Archeologisch advies
+- Selectiebesluit
+- Bestemmingsplantoetsing
+bedrijfsfuncties:
+- Erfgoedbeheer
+- Ruimtelijke ordening
 relaties:
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]]"
-    richting: "naar-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: Een vindplaats hoort bij een archeologisch onderzoek
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]]"
-    richting: "van-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: Een vindplaats kan beschermde status krijgen als monument
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|Archeologisch onderzoek]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: Een vindplaats hoort bij een archeologisch onderzoek
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|Monument]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: Een vindplaats kan beschermde status krijgen als monument
 ---
 
 # Archeologische vindplaats

@@ -1,48 +1,62 @@
 ---
 type: bedrijfsobject
 naam: Balieafspraak
-domein: [Dienstverlening]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Balieafspraak"
+domein:
+- Dienstverlening
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Balieafspraak
 ggm_guid: EAID_631FEEF1_88D3_4d18_ADB2_BF999068493E
 ggm_uml_type: Class
-ggm_beleidsdomein: "10 Dienstverlening"
-ggm_taakveld: "10 Dienstverlening"
-ggm_diagram: [Afspraken en Klantcontacten, Entiteiten Klantcontact]
-ggm_diagram_ids: [EAID_282A4979_0BBC_4448_B71C_0CE64829083B, EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970]
-ggm_definitie: "Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden."
-ggm_toelichting: "Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden."
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: "Balieafspraak"
-ggm_gemma_guid: "8fd2ff34-a208-4924-bec3-b5ee7e5e7a18"
-ggm_gemma_definitie: "Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaats"
-ggm_gemma_toelichting: "Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden."
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: "business-object"
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie."
-bedrijfsprocessen: [Afsprakenbeheer, Klantcontactregistratie, Balieplanning]
-bedrijfsfuncties: [Dienstverlening, Klantcontactcentrum]
+ggm_beleidsdomein: 10 Dienstverlening
+ggm_taakveld: 10 Dienstverlening
+ggm_diagram:
+- Afspraken en Klantcontacten
+- Entiteiten Klantcontact
+ggm_diagram_ids:
+- EAID_282A4979_0BBC_4448_B71C_0CE64829083B
+- EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970
+ggm_definitie: Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen,
+  of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden.
+ggm_toelichting: Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog
+  niet heeft plaatsgevonden.
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: Balieafspraak
+ggm_gemma_guid: 8fd2ff34-a208-4924-bec3-b5ee7e5e7a18
+ggm_gemma_definitie: Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen
+  dagen, of iets anders waardoor het klantcontact nog niet heeft plaats
+ggm_gemma_toelichting: Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact
+  nog niet heeft plaatsgevonden.
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: business-object
+ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie.
+bedrijfsprocessen:
+- Afsprakenbeheer
+- Klantcontactregistratie
+- Balieplanning
+bedrijfsfuncties:
+- Dienstverlening
+- Klantcontactcentrum
 relaties:
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]]"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: betreft een product of dienst
-  - type: associatie
-    bedrijfsobject: zaakdossier
-    richting: "van-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: heeft betrekking op een zaak
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]]"
-    richting: "van-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: kan uitmonden in een aanvraag of melding (via klantcontact)
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|Product of dienst]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: betreft een product of dienst
+- type: associatie
+  bedrijfsobject: zaakdossier
+  richting: van-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: heeft betrekking op een zaak
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: kan uitmonden in een aanvraag of melding (via klantcontact)
 ---
 
 ## BO-criteria toetsing

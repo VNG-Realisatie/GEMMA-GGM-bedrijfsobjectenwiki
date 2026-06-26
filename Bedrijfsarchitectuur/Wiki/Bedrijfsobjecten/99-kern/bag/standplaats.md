@@ -79,7 +79,7 @@ RSGBPlus voegt `inOnderzoek` niet toe als attribuut (Standplaats BAG heeft dat o
 
 **Homoniem:** de GGM-entiteit "Standplaats" in beleidsdomein Musea (`EAID_98F3132E_F97A_4f49_B4F5_28618BB693F8`) is een ander concept: een locatie voor het te koop aanbieden van goederen of diensten met fysieke middelen. Zie [[Marktstandplaats]] voor het verwante BO in het economiedomein.
 
-Teruggemeld als #59 en #60 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 en #60 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

@@ -1,43 +1,47 @@
 ---
 type: bedrijfsobject
 naam: Overslagpunt
-domein: [mobiliteit]
-archimate_type: "business-object"
+domein:
+- mobiliteit
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: "Mobiliteit"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: ''
+ggm_beleidsdomein: Mobiliteit
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor)."
-bedrijfsprocessen: [Goederenvervoerbeleid, Havenbeheer]
-bedrijfsfuncties: [Goederenvervoerbeleid]
+ggm_definitie: ''
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor).
+bedrijfsprocessen:
+- Goederenvervoerbeleid
+- Havenbeheer
+bedrijfsfuncties:
+- Goederenvervoerbeleid
 relaties:
-  - type: associatie
-    bedrijfsobject: Logistieke Route
-    richting: "naar-dit-BO"
-    kardinaliteit: "1..*"
-    beschrijving: Overslagpunt wordt ontsloten door logistieke routes
-  - type: associatie
-    bedrijfsobject: Stadsdistributiepunt
-    richting: "naar-dit-BO"
-    kardinaliteit: "0..*"
-    beschrijving: Overslagpunt levert goederen aan stadsdistributiepunten
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
+  richting: naar-dit-BO
+  kardinaliteit: 1..*
+  beschrijving: Overslagpunt wordt ontsloten door logistieke routes
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stadsdistributiepunt|Stadsdistributiepunt]]'
+  richting: naar-dit-BO
+  kardinaliteit: 0..*
+  beschrijving: Overslagpunt levert goederen aan stadsdistributiepunten
 ---
 
 # Overslagpunt

@@ -1,48 +1,56 @@
 ---
 type: bedrijfsobject
 naam: Archeologische vondst
-domein: [Cultuur]
-archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Vondst"
+domein:
+- Cultuur
+archimate_type: business-object
+grondslag: ggm-entiteit
+ggm_entiteit: Vondst
 ggm_guid: EAID_F8283401_70F8_41b8_A97C_32A9074AD4B1
 ggm_uml_type: Class
-ggm_beleidsdomein: "Archeologie"
-ggm_taakveld: "Erfgoed"
-ggm_diagram: [Erfgoed: Archeologie Domeinmodel]
-ggm_diagram_ids: [EAID_C91D2D84_69FA_4320_BFE0_F10EFEB8F49B]
-ggm_definitie: "Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument"
-ggm_toelichting: ""
-ggm_synoniemen: "Archeologische vondst"
-ggm_herkomst: ""
-ggm_gemma_naam: "Vondst"
-ggm_gemma_guid: "fc805177-e231-40eb-8f59-0fb3bdc896a1"
-ggm_gemma_definitie: "Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: "Archeologische vondst"
-ggm_gemma_type: "business-object"
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-fc805177-e231-40eb-8f59-0fb3bdc896a1"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Archeologisch overblijfsel of voorwerp dat door de gemeente is aangetroffen bij onderzoek en wordt beheerd in het gemeentelijk depot."
-bedrijfsprocessen: [Archeologisch onderzoek, Depotbeheer, Publieksactiviteiten]
-bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
+ggm_beleidsdomein: Archeologie
+ggm_taakveld: Erfgoed
+ggm_diagram:
+- Erfgoed: Archeologie Domeinmodel
+ggm_diagram_ids:
+- EAID_C91D2D84_69FA_4320_BFE0_F10EFEB8F49B
+ggm_definitie: Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
+ggm_toelichting: ''
+ggm_synoniemen: Archeologische vondst
+ggm_herkomst: ''
+ggm_gemma_naam: Vondst
+ggm_gemma_guid: fc805177-e231-40eb-8f59-0fb3bdc896a1
+ggm_gemma_definitie: Overblijfsel, voorwerp of ander spoor van menselijke aanwezigheid in het verleden afkomstig van een archeologisch monument
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: Archeologische vondst
+ggm_gemma_type: business-object
+ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-fc805177-e231-40eb-8f59-0fb3bdc896a1
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Archeologisch overblijfsel of voorwerp dat door de gemeente is aangetroffen bij onderzoek en wordt beheerd in het gemeentelijk depot.
+bedrijfsprocessen:
+- Archeologisch onderzoek
+- Depotbeheer
+- Publieksactiviteiten
+bedrijfsfuncties:
+- Erfgoedbeheer
+- Collectiebeheer
 relaties:
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]]"
-    richting: "van-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: Een vondst is aangetroffen op een vindplaats (via Project/Put/Vulling in GGM)
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|archeologisch-onderzoek]]"
-    richting: "van-dit-BO"
-    kardinaliteit: 1
-    beschrijving: Een vondst komt voort uit een onderzoeksproject (via Put/Vlak/Spoor/Vulling in GGM)
-  - type: associatie
-    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]]"
-    richting: "van-dit-BO"
-    kardinaliteit: 0..1
-    beschrijving: Een vondst kan worden opgenomen in een museale collectie
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|Archeologische vindplaats]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: Een vondst is aangetroffen op een vindplaats (via Project/Put/Vulling in GGM)
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|Archeologisch onderzoek]]'
+  richting: van-dit-BO
+  kardinaliteit: 1
+  beschrijving: Een vondst komt voort uit een onderzoeksproject (via Put/Vlak/Spoor/Vulling in GGM)
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|Museumobject]]'
+  richting: van-dit-BO
+  kardinaliteit: 0..1
+  beschrijving: Een vondst kan worden opgenomen in een museale collectie
 ---
 
 # Archeologische vondst

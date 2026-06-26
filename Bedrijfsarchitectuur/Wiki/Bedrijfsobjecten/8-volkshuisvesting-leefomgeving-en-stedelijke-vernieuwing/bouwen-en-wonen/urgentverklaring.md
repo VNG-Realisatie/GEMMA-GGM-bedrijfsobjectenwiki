@@ -123,6 +123,17 @@ De urgentverklaring is gedefinieerd in de Huisvestingsverordening gemeente Utrec
 - **Woonruimteverdeling** — Urgentverklaringen beïnvloeden de rangorde in het aanbodmodel
 
 
+
+## Subtypes
+
+- **Medische urgentie** — Urgentie op medische gronden
+- **Herhuisvestingsurgentie** — Urgentie bij sloop, renovatie of groot onderhoud
+- **Mantelzorgurgentie** — Urgentie voor het verlenen of ontvangen van mantelzorg
+- **Urgentie dreigend dakloos** — Urgentie bij dreigende dakloosheid
+- **Financiële urgentie** — Urgentie bij financiële problemen die de woonsituatie bedreigen
+- **Relationele urgentie** — Urgentie bij relatiebeëindiging
+- **Statushouderurgentie** — Urgentie voor vergunninghouders met taakstelling
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Wonen/huisvestingsverordening-utrecht]]

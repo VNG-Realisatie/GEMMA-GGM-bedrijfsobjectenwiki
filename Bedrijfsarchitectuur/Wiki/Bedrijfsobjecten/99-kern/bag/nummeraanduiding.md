@@ -98,7 +98,7 @@ De GGM-entiteit "Nummeraanduiding" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_32A22BC6_89EC_44af_8D7D_79B12311AE2D` | **primair** — BAG is de bronregistratie voor adresgegevens |
 | RSGBPlus | `EAID_31A87864_6CE0_4e93_A493_ECD0FBDD4461` | duplicaat — domein-geprefixte geldigheidsvelden; minder attributen (geen versie, geometrie, documentvelden); voegt inOnderzoek toe |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

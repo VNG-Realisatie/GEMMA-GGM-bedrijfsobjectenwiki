@@ -145,6 +145,14 @@ Het BO [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/m
 
 Het subtype "Speelplek" bij Maatschappelijke Voorziening overlapt met Speelterrein en zou daar verwijderd kunnen worden, met een verwijzing naar dit BO. Dit is een aandachtspunt voor afstemming.
 
+
+## Subtypes
+
+- **Buurtplek** — Speelterrein van ≥3.000 m² voor de hele buurt, ingericht voor alle leeftijden met ontmoetingsfunctie
+- **Blokplek** — Speelterrein van ≥500 m² voor direct omwonenden, gericht op kinderen tot 12 jaar
+- **Speelhoekje** — Klein speelterrein met beperkte inrichting, aanvulling op het netwerk van buurt- en blokplekken
+- **Stedelijke sportplek** — Buurtoverstijgende voorziening voor specifieke doelgroep: skatepark, freerunbaan, calisthenics, danceground
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

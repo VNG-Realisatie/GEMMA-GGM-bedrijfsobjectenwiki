@@ -82,7 +82,7 @@ De GGM-entiteit "Wijk" komt voor in 2 beleidsdomeinen:
 | **BAG** | `EAID_120EA50B_B9A2_4869_A3BE_46931F631D33` | **primair** — BAG is de bronregistratie voor de gebiedsindeling |
 | RSGBPlus | `EAID_2F759BC4_7E3C_4ce9_94FF_33A4106A6E5A` | duplicaat — domein-geprefixte attribuutnamen; voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde) |
 
-Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

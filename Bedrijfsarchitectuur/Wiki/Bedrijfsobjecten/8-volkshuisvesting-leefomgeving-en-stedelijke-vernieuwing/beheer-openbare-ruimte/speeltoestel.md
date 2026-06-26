@@ -111,6 +111,13 @@ De nota noemt sportcontainers, skateparks en freerunbanen als voorbeelden van "f
 - **Vervanging speeltoestellen**: vervanging bij einde levensduur of veiligheidsproblemen
 - **Herinrichting speelplekken**: vergroening, klimaatadaptatie, afstemming op leeftijdsdoelgroep wijk
 
+
+## Subtypes
+
+- **Vast speeltoestel** — Permanent geplaatst speeltoestel op een speelterrein (schommel, glijbaan, klimrek)
+- **Sportcontainer** — Modulaire container met sportvoorzieningen, verplaatsbaar naar andere locatie
+- **Skatepark/freerunbaan** — Modulair systeem van elementen voor skateboarden of freerunnen
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

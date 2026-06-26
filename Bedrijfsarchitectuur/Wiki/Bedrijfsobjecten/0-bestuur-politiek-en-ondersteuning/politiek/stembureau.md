@@ -1,48 +1,49 @@
 ---
 type: bedrijfsobject
 naam: Stembureau
-domein: [Bestuur]
-archimate_type: "business-object"
+domein:
+- Bestuur
+archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: "~"
-ggm_beleidsdomein: "Politiek (niet expliciet gemodelleerd)"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit: '~'
+ggm_beleidsdomein: Politiek (niet expliciet gemodelleerd)
+ggm_guid: ''
+ggm_uml_type: ''
+ggm_taakveld: ''
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: "~"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
-gemma_definitie: "Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet."
-bedrijfsprocessen: ""
-bedrijfsfuncties: ""
+ggm_definitie: '~'
+ggm_toelichting: ''
+ggm_synoniemen: ''
+ggm_herkomst: ''
+ggm_gemma_naam: ''
+ggm_gemma_guid: ''
+ggm_gemma_definitie: ''
+ggm_gemma_toelichting: ''
+ggm_gemma_synoniemen: ''
+ggm_gemma_type: ''
+ggm_gemma_url: ''
+ggm_gemma_bron: ''
+ggm_gemma_alternate_name: ''
+gemma_definitie: Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet.
+bedrijfsprocessen: ''
+bedrijfsfuncties: ''
 relaties:
-  - type: associatie
-    bedrijfsobject: Verkiezing
-    richting: "naar-dit-BO"
-    kardinaliteit: "*"
-    beschrijving: Stembureau maakt onderdeel uit van een verkiezing
-  - type: associatie
-    bedrijfsobject: Referendum
-    richting: "naar-dit-BO"
-    kardinaliteit: "*"
-    beschrijving: Stembureau maakt onderdeel uit van een referendum
-  - type: associatie
-    bedrijfsobject: Locatie
-    richting: "naar-dit-BO"
-    kardinaliteit: 1
-    beschrijving: "Stembureau bevindt zich op een specifieke BAG-locatie"
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]]'
+  richting: naar-dit-BO
+  kardinaliteit: '*'
+  beschrijving: Stembureau maakt onderdeel uit van een verkiezing
+- type: associatie
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum|Referendum]]'
+  richting: naar-dit-BO
+  kardinaliteit: '*'
+  beschrijving: Stembureau maakt onderdeel uit van een referendum
+- type: associatie
+  bedrijfsobject: Locatie
+  richting: naar-dit-BO
+  kardinaliteit: 1
+  beschrijving: Stembureau bevindt zich op een specifieke BAG-locatie
 ---
 
 # Stembureau

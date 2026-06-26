@@ -55,4 +55,4 @@ Het gemeentelijk domein van vergunningverlening, toezicht en handhaving (VTH) in
 
 ## Terugmeldingen richting GGM
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen]].
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

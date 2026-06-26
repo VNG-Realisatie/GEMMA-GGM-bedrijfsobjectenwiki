@@ -53,8 +53,8 @@ Deze bron is de eerste inhoudelijke context voor de GGM-beleidsdomeinen onder ta
 
 ## Bronnen
 
-- Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-inleiding.md
-- Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-achtergrond.md
-- Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-ontwikkelingen.md
-- Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-uitgaven.md
-- Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-ontvangers.md
+- [[Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-inleiding]]
+- [[Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-achtergrond]]
+- [[Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-ontwikkelingen]]
+- [[Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-uitgaven]]
+- [[Sources/Onderwerpen/Werk en Inkomen/factsheet-bijzondere-bijstand-ontvangers]]
