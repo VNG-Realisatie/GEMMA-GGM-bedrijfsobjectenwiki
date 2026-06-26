@@ -22,7 +22,7 @@
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging (open — onvoldoende bronnen, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
-- [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, buurtteams, jeugdbescherming, dakloosheid (afgerond, 9 BO's)
+- [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 13 BO's)
 - [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
@@ -295,12 +295,16 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing|toewijzing]] — Opdracht gemeente aan zorgaanbieder voor levering (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering|levering]] — Daadwerkelijk geleverde zorg/ondersteuning (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning|pgb-toekenning]] — Toekenning persoonsgebonden budget (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/hulpverleningsplan|hulpverleningsplan]] — Verplicht plan voor jeugdhulpverlening of kinderbeschermingsmaatregel (procesobject, GGM-hiaat)
 
 ### Maatschappelijke Ondersteuning — Sociaal Domein Generiek (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|client]] — Inwoner die gebruik maakt van gemeentelijke ondersteuning sociaal domein (GGM exact)
 
 ### Maatschappelijke Ondersteuning — Jeugdbescherming (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding|zorgmelding]] — Melding over veiligheid/ontwikkeling kind (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/kinderbeschermingsmaatregel|kinderbeschermingsmaatregel]] — Rechterlijk opgelegde maatregel (OTS, voogdij) ter bescherming minderjarige (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/machtiging-gesloten-jeugdhulp|machtiging-gesloten-jeugdhulp]] — Rechterlijke machtiging voor opname in gesloten accommodatie (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/pleegcontract|pleegcontract]] — Overeenkomst pleegzorgaanbieder–pleegouder over verzorging jeugdige (contract, GGM-hiaat)
 
 ### Maatschappelijke Ondersteuning — Sociale Teams (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|sociaalteamdossier]] — Geïntegreerd dossier buurtteam per cliënt/gezin (GGM exact)
@@ -458,6 +462,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/dpia-ap|DPIA — Autoriteit Persoonsgegevens]] — AP: 9 criteria, basisvereisten, herhalingsplicht
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]] — IBD: definitie, meldplicht 72u, registratieplicht
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]] — BZK: alle velden Publicatiestandaard (~25 velden)
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP: normenkader informatiebeveiliging, ISMS, overheidsmaatregelen
 
 ### Economie
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
@@ -580,6 +585,8 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo|Maatwerkvoorzieningen Wmo]] — VNG: hulpmiddelen, woningaanpassingen, vervoer
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning|Vrijwilligerswerk en mantelzorgondersteuning]] — VNG: mantelzorg, informele zorg
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet|Jeugdwet (BWBR0034925)]] — Wettekst: gemeentelijke verantwoordelijkheid jeugdhulp, kinderbescherming, gesloten jeugdhulp, pleegzorg, PGB
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015|Wmo 2015 (BWBR0035362)]] — Wettekst: wettelijke grondslag maatwerkvoorzieningen, cliënt, PGB, beschermd wonen, opvang
 
 ### Werk en Inkomen
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand|Factsheet Bijzondere Bijstand]] — Divosa: bijzondere bijstand, beschermingsbewind, draagkracht (2024)

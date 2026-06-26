@@ -100,3 +100,4 @@ De GGM modelleert Client als specialisatie van IngeschrevenPersoon, met attribut
 
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]

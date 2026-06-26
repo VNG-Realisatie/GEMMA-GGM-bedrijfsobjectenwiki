@@ -2,10 +2,10 @@
 type: domein
 naam: maatschappelijke ondersteuning
 status: afgerond
-verwerkingsdatum: 2026-06-22
-bronnen_count: 8
-begrippen_count: 25
-bo_count: 9
+verwerkingsdatum: 2026-06-26
+bronnen_count: 10
+begrippen_count: 32
+bo_count: 13
 ---
 
 # Maatschappelijke Ondersteuning
@@ -41,6 +41,13 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 | woonzorgvisie | instrument | Gemeentelijk beleidsplan wonen+zorg | ❌ | nee | Governance-instrument, geen data-object | — | nee |
 | aandachtsgroep | doelgroep | Groep met specifieke woonbehoeften | ❌ | nee | Doelgroep, geen object | Ouderen, GGZ-cliënten | nee |
 | respijtzorg | object | Tijdelijke overname mantelzorg | ❌ | nee | Type voorziening, geen apart BO | Logeeropvang | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/hulpverleningsplan\|Hulpverleningsplan]] | object | Verplicht plan voor jeugdhulpverlening of kinderbeschermingsmaatregel | ✅ | ja | 6/6 criteria, GGM-hiaat | Plan ambulante behandeling | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/kinderbeschermingsmaatregel\|Kinderbeschermingsmaatregel]] | object | Rechterlijk opgelegde maatregel (OTS, voogdij) ter bescherming minderjarige | ✅ | ja | 6/6 criteria, GGM-hiaat | Ondertoezichtstelling | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/machtiging-gesloten-jeugdhulp\|Machtiging Gesloten Jeugdhulp]] | object | Rechterlijke machtiging voor opname in gesloten accommodatie | ✅ | ja | 6/6 criteria, GGM-hiaat | Spoedmachtiging gesloten jeugdhulp | nee |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/pleegcontract\|Pleegcontract]] | contract | Overeenkomst pleegzorgaanbieder–pleegouder over verzorging jeugdige | ✅ | ja | 6/6 criteria, GGM-hiaat | Contract netwerkpleegzorg | nee |
+| familiegroepsplan | object | Plan opgesteld door ouders en sociaal netwerk | ❌ | ja | Subtype van Hulpverleningsplan, geen apart BO | — | nee |
+| verwijsindex risicojongeren | object | Landelijk signaleringssysteem voor risicojongeren | ❌ | ja | Landelijk systeem, gemeente meldt maar beheert niet | Match-signaal | nee |
+| dossier (jeugdhulp) | object | Geheel van vastgelegde gegevens over jeugdhulpverlening | ❌ | ja | Gedekt door [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | — | ja |
 
 ## Verwerkte bronnen
 
@@ -52,6 +59,8 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo|Maatwerkvoorzieningen Wmo]] — VNG: hulpmiddelen, woningaanpassingen, vervoer
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning|Vrijwilligerswerk en mantelzorgondersteuning]] — VNG: mantelzorg, informele zorg
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet|Jeugdwet (BWBR0034925)]] — Wettekst: gemeentelijke verantwoordelijkheid jeugdhulp, kinderbescherming, gesloten jeugdhulp, pleegzorg, PGB
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015|Wmo 2015 (BWBR0035362)]] — Wettekst: wettelijke grondslag maatwerkvoorzieningen, cliënt, PGB, beschermd wonen, opvang
 
 ## Niet-relevante bronnen
 
@@ -59,7 +68,7 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 
 ## Openstaande vragen
 
-- Kinderbeschermingsmaatregelen (OTS, gezagsbeëindiging) zijn juridische instrumenten die de gemeente registreert maar niet zelf oplegt — is dit een BO of alleen een processtap?
+- ~~Kinderbeschermingsmaatregelen (OTS, gezagsbeëindiging) zijn juridische instrumenten die de gemeente registreert maar niet zelf oplegt — is dit een BO of alleen een processtap?~~ → **Opgelost:** Jeugdwet geeft heldere grondslag; gemeente is verantwoordelijk voor uitvoering (art. 2.4). BO [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/kinderbeschermingsmaatregel|Kinderbeschermingsmaatregel]] aangemaakt.
 - Het GGM modelleert Beschikking twee keer (Generiek Jeugd en Wmo én Diensten) met iets andere attributen — consolidatie nodig?
 - Collectief werken als nieuwe leveringsvorm past niet in het huidige Voorzieningsoort-model; signaleren als potentieel GGM-hiaat?
 
@@ -68,3 +77,6 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]]:
 - **Jeugdhulpvormen als entiteiten:** Het GGM modelleert jeugdhulpvormen (pleegzorg, gezinshuiszorg, residentieel verblijf) alleen via productcodes in Voorzieningsoort. Overweeg expliciete entiteiten of een enumeratie.
 - **Kinderbeschermingsmaatregel:** OTS en gezagsbeëindiging ontbreken als entiteiten; alleen Zorgmelding en Zorgelijke Situatie zijn gemodelleerd.
+- **Hulpverleningsplan:** Het plan is een verplicht registratieobject (Jeugdwet art. 4.1.3) maar ontbreekt als entiteit in Generiek Jeugd en Wmo. Alleen het attribuut `datumPlanVastgesteld` op AOM_AanvraagWmoJeugd verwijst ernaar.
+- **Machtiging gesloten jeugdhulp:** Rechterlijke machtiging voor gesloten plaatsing ontbreekt volledig in het GGM-beleidsdomein Jeugdbescherming en reclassering.
+- **Pleegcontract:** Wettelijk verplicht contract (Jeugdwet hfd. 5) ontbreekt in het GGM; pleegzorg wordt alleen als Voorzieningsoort benaderd.

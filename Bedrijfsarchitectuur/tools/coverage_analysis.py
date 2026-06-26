@@ -176,11 +176,12 @@ print(f"Loaded {len(bo_guids)} BO pages, {len(parent_map)} generalisaties, {len(
 
 print("Loading begrippentabel assessments...")
 begrip_no_bo = {}
+begrip_all_names = set()
 
 for ow_file in ONDERWERP_DIR.glob("*.md"):
     try:
         content = ow_file.read_text(encoding='utf-8')
-        sec = re.search(r'## Begrippen\s*\n(.*?)(?=\n##|\Z)', content, re.S)
+        sec = re.search(r'## Begrippen(?:tabel)?\s*\n(.*?)(?=\n##|\Z)', content, re.S)
         if not sec:
             continue
         for line in sec.group(1).split('\n'):
@@ -193,20 +194,21 @@ for ow_file in ONDERWERP_DIR.glob("*.md"):
             bo_col = cols[4]
             reden = cols[6]
             ggm_col = cols[8]
-            if '❌' not in bo_col:
-                continue
             if ggm_col.lower().strip() != 'ja':
                 continue
             name = re.sub(r'\[\[.*?\|([^\]]+?)\]\]', r'\1', begrip_raw)
             name = re.sub(r'\[\[(.*?)\]\]', r'\1', name)
             name = re.sub(r'\s*\(GGM\)\s*', '', name)
             name = name.strip()
-            if name:
+            if not name:
+                continue
+            begrip_all_names.add(name.lower())
+            if '❌' in bo_col:
                 begrip_no_bo[name.lower()] = reden
     except Exception as e:
         print(f"  Error: {ow_file.name}: {e}")
 
-print(f"  Begrippentabel niet-BO met GGM=ja: {len(begrip_no_bo)}")
+print(f"  Begrippen met GGM=ja: {len(begrip_all_names)}, waarvan niet-BO: {len(begrip_no_bo)}")
 
 print("Building wiki link lookups...")
 
@@ -264,11 +266,19 @@ print("Classifying entities...")
 domain_classified = {}
 for domain_key, entities in merged_by_domain.items():
     bo, generalisaties, subtypes, componenten, begrip_afgewezen, not_assessed = [], [], [], [], [], []
+    begrip_gevonden = []
     for ent in sorted(entities, key=lambda e: e['name']):
         name = ent['name']
+        is_begrip = name.lower() in begrip_all_names
+
         if ent['id'] in bo_guids:
             bo.append(name)
-        elif name in parent_map:
+            continue
+
+        if is_begrip:
+            begrip_gevonden.append(name)
+
+        if name in parent_map:
             children = sorted(parent_map[name])
             cs = ", ".join(children[:3]) + (", ..." if len(children) > 3 else "")
             generalisaties.append(f"↑ {name} (generalisatie van {cs})")
@@ -279,7 +289,7 @@ for domain_key, entities in merged_by_domain.items():
         elif name.lower() in begrip_no_bo:
             reason = begrip_no_bo[name.lower()]
             begrip_afgewezen.append(f"✗ {name} ({reason})")
-        else:
+        elif not is_begrip:
             not_assessed.append(name)
     domain_classified[domain_key] = {
         'bo': bo,
@@ -287,6 +297,7 @@ for domain_key, entities in merged_by_domain.items():
         'subtypes': subtypes,
         'componenten': componenten,
         'begrip_afgewezen': begrip_afgewezen,
+        'begrip_gevonden': begrip_gevonden,
         'not_assessed': not_assessed,
     }
 
@@ -336,6 +347,7 @@ total_gen = sum(len(c['generalisaties']) for c in domain_classified.values())
 total_sub = sum(len(c['subtypes']) for c in domain_classified.values())
 total_comp = sum(len(c['componenten']) for c in domain_classified.values())
 total_begrip = sum(len(c['begrip_afgewezen']) for c in domain_classified.values())
+total_begrip_gevonden = sum(len(c['begrip_gevonden']) for c in domain_classified.values())
 total_not_assessed = sum(len(c['not_assessed']) for c in domain_classified.values())
 
 lines.append("## Samenvattende statistieken")
@@ -345,6 +357,7 @@ for ft, cnt in sorted(filtered_types.items()):
     lines.append(f"  - {ft}: {cnt} (niet meegeteld)")
 lines.append(f"- **Objecttype-entiteiten (in tabellen):** {total}")
 lines.append(f"- **Bedrijfsobjecten vastgelegd:** {total_bo}")
+lines.append(f"- **Gevonden als begrip (niet-BO):** {total_begrip_gevonden}")
 lines.append(f"- **Geen BO — generalisatie:** {total_gen}")
 lines.append(f"- **Geen BO — subtype:** {total_sub}")
 lines.append(f"- **Geen BO — component:** {total_comp}")
@@ -368,8 +381,8 @@ lines.append("")
 
 lines.append("## GGM-entiteitendekking per beleidsdomein")
 lines.append("")
-lines.append("| Taakveld | Beleidsdomein (aantal entiteiten) | Entiteit&nbsp;is&nbsp;bedrijfsobject | Entiteit&nbsp;is&nbsp;geen&nbsp;bedrijfsobject | Entiteit&nbsp;niet&nbsp;beoordeeld | Onderwerp (aantal BO's) |")
-lines.append("|---|---|---|---|---|---|")
+lines.append("| Taakveld | Beleidsdomein (aantal entiteiten) | Entiteit&nbsp;is&nbsp;bedrijfsobject | Entiteit&nbsp;gevonden&nbsp;als&nbsp;begrip | Entiteit&nbsp;is&nbsp;geen&nbsp;bedrijfsobject | Entiteit&nbsp;niet&nbsp;beoordeeld | Onderwerp (aantal BO's) |")
+lines.append("|---|---|---|---|---|---|---|")
 
 all_keys = sorted(merged_by_domain.keys(), key=lambda x: (taakveld_sort_key(x[0]), x[1]))
 
@@ -400,11 +413,12 @@ for tv, bd in all_keys:
         topic_col = "—"
 
     bo_str = ", ".join(cl['bo']) if cl['bo'] else "—"
+    bg_str = ", ".join(cl['begrip_gevonden']) if cl['begrip_gevonden'] else "—"
     no_bo_parts = cl['generalisaties'] + cl['subtypes'] + cl['componenten'] + cl['begrip_afgewezen']
     nb_str = "<br>".join(no_bo_parts) if no_bo_parts else "—"
     na_str = ", ".join(cl['not_assessed']) if cl['not_assessed'] else "—"
 
-    lines.append(f"| {tv_col} | {bd_col} | {bo_str} | {nb_str} | {na_str} | {topic_col} |")
+    lines.append(f"| {tv_col} | {bd_col} | {bo_str} | {bg_str} | {nb_str} | {na_str} | {topic_col} |")
 
 lines.append("")
 

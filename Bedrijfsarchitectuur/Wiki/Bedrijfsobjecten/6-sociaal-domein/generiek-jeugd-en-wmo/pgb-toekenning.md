@@ -96,3 +96,5 @@ Een PGB-toekenning is de toekenning van een persoonsgebonden budget aan een cli√
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]

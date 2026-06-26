@@ -102,3 +102,5 @@ Een toewijzing is de opdracht die de gemeente aan een zorgaanbieder stuurt om ee
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]

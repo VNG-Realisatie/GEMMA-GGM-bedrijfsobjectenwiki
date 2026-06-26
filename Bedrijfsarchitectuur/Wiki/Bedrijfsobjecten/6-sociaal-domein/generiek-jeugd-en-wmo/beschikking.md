@@ -98,3 +98,5 @@ In het Utrechtse model neemt het buurtteam het beschikkingsbesluit namens de gem
 
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]

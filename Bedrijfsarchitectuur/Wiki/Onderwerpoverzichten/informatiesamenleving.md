@@ -3,8 +3,8 @@ type: onderwerp
 naam: informatiesamenleving
 status: in-behandeling
 verwerkingsdatum: 2026-06-26
-bronnen_count: 8
-begrippen_count: 27
+bronnen_count: 9
+begrippen_count: 33
 bo_count: 7
 ---
 
@@ -59,6 +59,12 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | verwerkersovereenkomst | instrument | Schriftelijke afspraken met verwerker over o.a. datalekken | ❌ | nee | Instrument/contract | — | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister\|Algoritmeregister]] | object | Vastlegging algoritme in Algoritmeregister conform Publicatiestandaard BZK (~25 velden) | ✅ | ja | 6/6 criteria, ~25 velden, eigen levenscyclus, GGM-hiaat | Parkeerscanauto, Wmo-matching, chatbot | nee |
 | publicatiecategorie | classificatie | Driedeling: hoog-risico AI (A), impactvol (B), overig (C) | ❌ | nee | Enumeratie/classificatie | — | nee |
+| ISMS | governance | Managementsysteem voor informatiebeveiliging (ISO 27001) | ❌ | nee | Werkwijze/methode, geen data-object | — | nee |
+| Verklaring van Toepasselijkheid (VvT) | instrument | Document met geselecteerde beheersmaatregelen en uitzonderingen | ❌ | nee | Intern compliance-document | — | nee |
+| risicoregister | instrument | Register met tijdelijk geaccepteerde informatiebeveiligingsrisico's | ❌ | nee | Intern beheerinstrument | — | nee |
+| informatiebeveiligingsbeleid | instrument | Door bestuur vastgesteld beleid voor informatiebeveiliging (BIO2 5.01.01) | ❌ | nee | Governance-document | — | nee |
+| In Control Verklaring (ICV) | instrument | Jaarlijkse verklaring over informatiebeveiliging in P&C-cyclus (BIO2 5.36.01) | ❌ | nee | Verantwoordingsinstrument | — | nee |
+| CISO | actor | Chief Information Security Officer, coördineert informatiebeveiliging | ❌ | nee | Rol, geen object | — | nee |
 
 ## Verwerkte bronnen
 
@@ -70,6 +76,7 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/dpia-ap|DPIA — Autoriteit Persoonsgegevens]] — AP: 9 criteria, basisvereisten, adviespartijen, herhalingsplicht
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]] — IBD (2024): definitie, meldplicht 72u, registratieplicht, risicoafweging
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]] — BZK: alle velden Publicatiestandaard (~25 velden, 4 secties)
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP (2026): normenkader informatiebeveiliging, ISMS, overheidsmaatregelen, Cbw-verankering
 
 Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht:
 

@@ -1,5 +1,30 @@
 # Wiki Log
 
+## [2026-06-26] ingest | Maatschappelijke Ondersteuning — Wmo 2015
+
+- **Bron:** Wet maatschappelijke ondersteuning 2015 (wetten.overheid.nl, BWBR0035362 per 2026-01-01)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015|Wmo 2015 (BWBR0035362)]]
+- **Nieuwe BO's:** 0 — alle kernconcepten al vastgelegd uit eerdere bronnen
+- **Verrijkt:** 6 bestaande BO's (Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning, Client) met Wmo 2015 als wettelijke grondslag
+
+## [2026-06-26] ingest | Informatiesamenleving — BIO2
+
+- **Bron:** Baseline Informatiebeveiliging Overheid 2 (BIO2 v1.3 definitief, BZK/CIP, januari 2026)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|BIO2]]
+- **Begrippen:** 6 nieuwe (ISMS, VvT, risicoregister, informatiebeveiligingsbeleid, ICV, CISO) — alle governance/instrument, geen BO's
+- **Nieuwe BO's:** 0 — bron bevat uitsluitend governance-instrumenten, processen en actoren
+- **Context:** verrijkt bestaande BO's Datalek (meldplicht CSIRT, bewaartermijn 3 jaar) en DPIA (risicoafweging nieuwe systemen)
+
+## [2026-06-26] ingest | Maatschappelijke Ondersteuning — Jeugdwet
+
+- **Bron:** Jeugdwet (wetten.overheid.nl, BWBR0034925 per 2024-01-01)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet|Jeugdwet (BWBR0034925)]]
+- **Begrippen:** 7 nieuwe (hulpverleningsplan, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, familiegroepsplan, verwijsindex risicojongeren, dossier jeugdhulp)
+- **Nieuwe BO's:** 4 — Hulpverleningsplan (procesobject, GGM-hiaat), Kinderbeschermingsmaatregel (procesobject, GGM-hiaat), Machtiging Gesloten Jeugdhulp (procesobject, GGM-hiaat), Pleegcontract (contract, GGM-hiaat)
+- **Verrijkt:** 6 bestaande BO's (Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning, Zorgmelding) met Jeugdwet als aanvullende bron
+- **GGM-terugmeldingen:** #74–#77 (4 hiaten in beleidsdomein Jeugdbescherming en reclassering / Generiek Jeugd en Wmo)
+- **Openstaande vraag opgelost:** Kinderbeschermingsmaatregel is nu BO (Jeugdwet art. 2.4 geeft gemeentelijke verantwoordelijkheid)
+
 ## [2026-06-26] ingest | Bestuur — Gemeentewet + positionering Griffier
 
 - **Bronnen:** Gemeentewet wettekst (wetten.overheid.nl, BWBR0005416); Op weg naar gelijkwaardige verhoudingen (NVvR, functieprofiel Griffier)
@@ -15,7 +40,7 @@
 
 - **Output:** [[Wiki/Analyses/ggm-dekking|GGM-dekkingsanalyse]]
 - **Scope:** 954 Objecttype-entiteiten over 44 beleidsdomeinen
-- **Stand:** 164 BO's vastgelegd, 61 niet-BO (generalisatie/subtype/component/begrippentabel), 729 niet beoordeeld
+- **Stand:** 167 BO's vastgelegd, 74 niet-BO (9 generalisatie, 18 subtype, 42 component, 5 begrippentabel), 713 niet beoordeeld
 - **Zonder bronnen:** 19 beleidsdomeinen (o.a. Griffie, ICT, Inkoop, Subsidies, Vastgoed, Kern, meerdere Sociaal Domein subdomeinen)
 
 ## [2026-06-26] ingest | Beheer OR — Amsterdam beheerplan + VNG natuur/groen

@@ -96,3 +96,4 @@ Het GGM modelleert Zorgmelding als specialisatie van AanvraagOfMelding (abstract
 
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/kindermishandeling-en-huiselijk-geweld]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]

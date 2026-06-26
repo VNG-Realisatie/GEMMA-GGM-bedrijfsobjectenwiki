@@ -97,3 +97,5 @@ Een levering is de registratie van daadwerkelijk geleverde zorg of ondersteuning
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/maatwerkvoorzieningen-wmo]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsregels-jeugdhulp-oost-gelre]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]

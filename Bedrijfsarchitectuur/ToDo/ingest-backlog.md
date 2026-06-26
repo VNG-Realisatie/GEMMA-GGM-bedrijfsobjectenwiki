@@ -130,6 +130,7 @@ Status: 139 bronnen in 22 batches.
 - [x] handleiding-publicatiestandaard-algoritmeregister (BZK: alle velden Publicatiestandaard Algoritmeregister — 4 secties, ~25 velden)
 - [x] rapportage-algoritmerisicos-nederland → Niet-relevant (AP: beleidsanalyse, geen BO-attributen)
 - [ ] handreiking-woo-gemeentelijke-praktijk
+- [x] bio2-baseline-informatiebeveiliging-overheid (BZK/CIP, PDF, BIO2 v1.3 definitief — normenkader informatiebeveiliging overheid op basis van ISO 27001/27002, 29 pagina's) → 0 BO's (governance-instrumenten, geen registratieobjecten)
 
 ## ~~Maatschappelijke Ondersteuning (16)~~ ✓
 - [x] aanpak-dakloosheid
@@ -150,6 +151,10 @@ Status: 139 bronnen in 22 batches.
 - [x] beleidsnota-jeugd-utrecht (beleidsnota, gemeente Utrecht 2025-2034)
 
 > **Afgehandeld:** 8 bronnen verwerkt (6 dunne VNG-pagina's + 2 rijke beleidsdocumenten), 8 naar Niet-relevant (portaalpagina's, procesbeschrijvingen). 9 BO's: Beschikking, Voorziening, Toewijzing, Levering, PGB-Toekenning, Client, Zorgmelding, SociaalTeamDossier, Dakloosheid. 25 begrippen, GGM-dekking over 5 beleidsdomeinen (97 entiteiten).
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] jeugdwet (Rijksoverheid, wetten.overheid.nl, volledige wettekst Jeugdwet BWBR0034925 per 2024-01-31) → 4 nieuwe BO's: Hulpverleningsplan, Kinderbeschermingsmaatregel, Machtiging Gesloten Jeugdhulp, Pleegcontract (alle GGM-hiaat)
+- [x] wmo-2015 (Rijksoverheid, wetten.overheid.nl, volledige wettekst Wmo 2015 BWBR0035362 per 2026-01-01) → 0 nieuwe BO's (wettelijke grondslag bestaande BO's)
 
 ## Milieu (4)
 - [ ] afval-en-circulaire-economie

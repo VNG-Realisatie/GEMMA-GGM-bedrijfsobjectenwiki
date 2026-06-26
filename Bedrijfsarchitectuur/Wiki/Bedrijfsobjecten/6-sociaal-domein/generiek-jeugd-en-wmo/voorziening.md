@@ -126,3 +126,5 @@ Een voorziening is het middel waarmee de gemeente ondersteuning levert aan een c
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beschermd-thuis]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/vrijwilligerswerk-en-mantelzorgondersteuning]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]
