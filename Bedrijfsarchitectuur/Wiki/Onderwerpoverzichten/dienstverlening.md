@@ -4,8 +4,8 @@ naam: Dienstverlening
 status: in-behandeling
 verwerkingsdatum: 2026-06-19
 bronnen_count: 9
-begrippen_count: 16
-bo_count: 6
+begrippen_count: 27
+bo_count: 13
 ---
 
 # Domein: Dienstverlening
@@ -32,6 +32,17 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 |zaaktypecatalogus|object|Verzameling zaaktypen met configuratie per domein| ✅ | ja |BO, partieel match (ZTC2-standaard)|ZTC per gemeente|partieel|
 |resultaattype|object|Mogelijke uitkomsten per zaaktype, bepaalt archiefregime| ✅ | ja |BO, exact match (ZTC2)|Verleend, Geweigerd, Buiten behandeling|ja|
 |IDO (Informatiepunt Digitale Overheid)|actor|Fysiek hulppunt in bibliotheken voor digitale overheidsvragen| ❌ | nee |Actor/locatietype, geen eigen levenscyclus als gemeentelijk concept|IDO in bibliotheek Amsterdam|nee|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]]|object|Formele beslissing op een individueel geval binnen een zaak| ✅ | ja |6/6 criteria, exact match|Vergunningbesluit, toekenning uitkering, bezwaarbesluit|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]]|object|Contactmoment dat werkelijk heeft plaatsgevonden tussen burger/bedrijf en gemeente| ✅ | ja |6/6 criteria, exact match|Telefooncontact, baliebezoek, e-mailcontact|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]]|object|Overboeken of ontvangen van geld in het kader van een zaak| ✅ | ja |6/6 criteria, exact match|Legesbetaling, uitkeringsuitbetaling|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]]|object|Reeks activiteiten die bijdraagt aan levering van een product of dienst| ✅ | ja |6/6 criteria, exact match|Vergunningproces, uitkeringsproces|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]]|actor|Medewerker van de organisatie die zaken behandelt| ✅ | ja |6/6 criteria, exact match|Vergunningverlener, klantadviseur|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]]|actor|Functioneel afgebakend onderdeel dat verantwoordelijk is voor zaakbehandeling| ✅ | ja |6/6 criteria, exact match|Afdeling Vergunningen, team Burgerzaken|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]]|object|Definitie van een soort zaak met doorlooptijd, servicenorm en archiefcode| ✅ | ja |6/6 criteria, exact match|Omgevingsvergunning regulier, bijstandsaanvraag|ja|
+|ZAAK - Origineel|object|GGM-variant van Zaak met zelfde definitie| ❌ | ja |Duplicaat van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]]|—|ja|
+|Statustype|object|Generieke aanduiding van de aard van een status| ❌ | ja |Attribuut/modelleringskeuze, geen zelfstandig BO|In behandeling, Afgerond|ja|
+|Status|object|Stand van zaken van een zaak| ❌ | ja |Voortgangsindicatie op Zaak, geen zelfstandig BO|Status "in behandeling" op zaak|ja|
+|Besluittype|object|Generieke aanduiding van de aard van een besluit| ❌ | ja |Typering bij Besluit — waardelijst|Vergunningbesluit, subsidiebesluit|ja|
 
 ## Bedrijfsobjecten
 
@@ -44,6 +55,13 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | ✅ BO | ProductOfDienst (Model Dienstverlening) | sterk |
 | zaaktypecatalogus | ✅ BO | CATALOGUS (ZTC2) | partieel |
 | resultaattype | ✅ BO | RESULTAATTYPE (ZTC2) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | ✅ BO | Besluit (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | ✅ BO | Klantcontact (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | ✅ BO | Betaling (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | ✅ BO | Bedrijfsproces (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | ✅ BO | Medewerker (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | ✅ BO | OrganisatorischeEenheid (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | ✅ BO | Zaaktype (RGBZPlus) | exact |
 
 ## Informatiestandaarden
 

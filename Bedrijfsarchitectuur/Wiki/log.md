@@ -1,5 +1,27 @@
 # Wiki Log
 
+## [2026-06-27] ingest | Dienstverlening — ZTC2 begeleidend document verwerkt
+
+- **Bron:** [[Sources/Onderwerpen/Dienstverlening/ztc2-begeleidend-document|ZTC2 Begeleidend document v2.1]] (KING, 2014) — gedownload en geconverteerd via convert_pdf
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|ZTC2 Informatiemodel]] aangevuld met context, gebruik, beheermodel en relaties met andere bouwstenen
+- **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|Zaaktype]] — context over omvang (~300 attrs/rels per zaaktype) en centraal/decentraal beheer
+- **Geen nieuwe BO's** — configuratie-objecttypen (Roltype, Zaakobjecttype, Eigenschap) zijn onderdelen van Zaaktype
+
+## [2026-06-27] ingest | Dienstverlening — 7 nieuwe BO's uit RGBZPlus
+
+- **Bron:** bestaande [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|RGBZ bronsamenvatting]] (geen nieuwe bronnen)
+- **Nieuwe BO's:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit|Besluit]], [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact|Klantcontact]], [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling|Betaling]], [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces|Bedrijfsproces]], [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|Medewerker]] (actor), [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|Organisatorische eenheid]] (actor), [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|Zaaktype]]
+- **Niet-BO:** ZAAK-Origineel (duplicaat van Zaak), Statustype (attribuut/modelleringskeuze), Status (voortgangsindicatie op Zaak), Besluittype (typering bij Besluit)
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/dienstverlening|Dienstverlening]] bijgewerkt — 27 begrippen, 13 BO's
+- **Bestaande BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]] — relaties naar nieuwe BO's (was: placeholders)
+- **Aanleiding:** `/bo-coverage` analyse toonde 9 sterke kandidaten in RGBZPlus
+
+## [2026-06-27] coverage | GGM-dekkingsanalyse gegenereerd
+
+- **Script:** `tools/coverage_analysis.py` — volledige analyse van alle 44 beleidsdomeinen
+- **Resultaat:** [[Wiki/Analyses/ggm-dekking|ggm-dekking.md]] — 954 objecttype-entiteiten, 181 BO's, 644 niet beoordeeld
+- **Beleidsdomeinen zonder bronnen:** 17 (o.a. Griffie, Dak- en thuislozen, Inkomen/Diensten, Inkomen/Normafwijking, Inkomen/Reden aanvraag, Subsidies, 99 Kern)
+
 ## [2026-06-27] ingest | erfgoed — 4 bronnen verwerkt, 1 nieuw BO, 1 duplicaat opgelost
 
 - **Bronnen:** Erfgoedwet BWBR0037521 (wetten.overheid.nl), GR Regionaal Archief Rivierenland 2024 (lokaleregelgeving), Besluit Informatiebeheer GR Cure 2021 (officielebekendmakingen), Beleidsplan Westfries Archief 2024-2027 (PDF). 2 bronnen naar Niet-relevant (portaalpagina erfgoedbeleid Utrecht, lijst beeldbepalende panden).

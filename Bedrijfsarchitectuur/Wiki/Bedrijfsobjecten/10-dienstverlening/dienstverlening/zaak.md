@@ -49,20 +49,35 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: Een balieafspraak kan betrekking hebben op een zaak
   - type: associatie
-    bedrijfsobject: "*(Besluit)*"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit|Besluit]]"
     richting: naar-dit-BO
     kardinaliteit: "0..*"
     beschrijving: Besluiten zijn uitkomst van een zaak
   - type: associatie
-    bedrijfsobject: "*(Status)*"
-    richting: van-dit-BO
-    kardinaliteit: "0..*"
-    beschrijving: Een zaak doorloopt statussen
-  - type: associatie
-    bedrijfsobject: "*(Zaaktype)*"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|Zaaktype]]"
     richting: van-dit-BO
     kardinaliteit: "1"
     beschrijving: Elke zaak is van een zaaktype
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact|Klantcontact]]"
+    richting: naar-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Klantcontacten hebben betrekking op een zaak
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|Medewerker]]"
+    richting: naar-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Medewerkers behandelen de zaak
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling|Betaling]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Betalingen gekoppeld aan de zaak
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces|Bedrijfsproces]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1..*"
+    beschrijving: Bedrijfsprocessen uitgevoerd binnen de zaak
 bedrijfsprocessen:
   - Zaakafhandeling
   - Dienstverleningsproces
@@ -112,9 +127,12 @@ Dit is het scharnierpunt tussen zaakgericht werken (informatiebeheer) en archief
 | Gestart door | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | AanvraagOfMelding → Zaak [0..*] | Aanleiding voor de zaak |
 | Levert | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | Zaak → Producttype [1] | Resultaat van de zaak |
 | Heeft betrekking op | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | Balieafspraak → Zaak [0..1] | Afspraak gekoppeld aan zaak |
-| Is uitkomst van | *(Besluit)* | Besluit → Zaak [1] | Beschikking, vergunning, etc. |
-| Doorloopt | *(Status)* | Zaak → Status [0..*] | Voortgangsindicatie |
-| Is van type | *(Zaaktype)* | Zaak → Zaaktype [1] | Configuratie en archiefregime |
+| Is uitkomst van | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | Besluit → Zaak [1] | Beschikking, vergunning, etc. |
+| Is van type | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Zaak → Zaaktype [1] | Configuratie en archiefregime |
+| Klantcontacten | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | Klantcontact → Zaak [0..1] | Contactmomenten bij de zaak |
+| Behandeld door | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Zaak → Medewerker [0..*] | Afhandelend medewerker |
+| Betalingen | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | Zaak → Betaling [0..*] | Financiële transacties |
+| Processen | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | Bedrijfsproces → Zaak [1..*] | Procesuitvoering |
 | Is deelzaak van | Zaak | Zaak → Zaak [0..1] | Hiërarchie van hoofd- en deelzaken |
 
 ## Bronnen

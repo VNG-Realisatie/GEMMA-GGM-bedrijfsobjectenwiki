@@ -70,6 +70,31 @@ Er kan niet één landelijke zaaktypecatalogus bestaan. Er zullen catalogi zijn 
 ### Eigenschap als extensiemechanisme
 EIGENSCHAP voorziet in zaaktypespecifieke gegevens die niet als standaard zaakkenmerk in het RGBZ zitten. Het biedt twee specificatiewijzen: (a) eenvoudig via formaat/lengte/waardenverzameling, (b) via referentie naar een extern informatiemodel en XML-schema.
 
+## Context en gebruik (uit Begeleidend document)
+
+De ZTC2 is niet één landelijke catalogus maar een **sjabloon** voor zaaktypecatalogi. Organisaties, sectoren en ketens maken eigen catalogi gevuld met hun zaaktypen.
+
+> "KING is na uitvoerig onderzoek tot de conclusie gekomen dat de verbreding die voor aansluiting van de zaaktypecatalogus op RGBZ nodig is, niet valt te combineren met een uitputtende lijst van in hoge mate gestandaardiseerde zaaktypen binnen één, door KING te ontwikkelen en beheren, catalogus voor gemeenten."
+
+**Functie van de ZTC2:**
+1. **Configuratie-instrument** — zaaktypen parametriseren generieke referentieprocessen (doorlooptijden, documenten, rollen, besluiten)
+2. **Communicatie-instrument** — "het goede gesprek" over zaakgericht werken, gemeenschappelijke taal
+3. **Managementinformatie** — KPI's via doorlooptijden, statussen, resultaten per zaaktype
+4. **Systeemconfiguratie** — zaaksystemen lezen parameters uit de ZTC en configureren procesondersteuning
+
+**Relaties met andere bouwstenen:**
+- PDC → Zaaktype: 1:n (één zaaktype kan meerdere producten opleveren)
+- Formulier → Zaaktype: n:1 (meerdere formulieren leiden tot zaken van één zaaktype)
+- Referentieproces → Zaaktype: 1:n (zaaktypen parametriseren een generiek proces)
+- RGBZ ↔ ZTC2: twee-eenheid (runtime-data vs. configuratie)
+
+**Beheermodel:**
+- **KING:** sjablonen, informatiemodel, uitwisselformaat, referentiezaaktypen, validatie
+- **Gemeenten/sectoren:** inhoud van eigen catalogi
+- **Landelijke publicatie:** KING valideert conformiteit, publiceert catalogi met keurmerk
+
+**Omvang per zaaktype:** ~300 attribuut- en relatiesoorten (32 zaaktype-attrs + statustypen, documenttypen, besluittypen, resultaattypen, roltypen, eigenschappen, zaakobjecttypen).
+
 ## Relevantie voor bedrijfsarchitectuur
 
 - De ZTC2 definieert objecttypen die **niet** in het GGM zitten: CATALOGUS, RESULTAATTYPE, EIGENSCHAP, ZAAKOBJECTTYPE, ROLTYPE
@@ -81,3 +106,4 @@ EIGENSCHAP voorziet in zaaktypespecifieke gegevens die niet als standaard zaakke
 ## Bronnen
 
 - [[Sources/Standaarden/ztc2-informatiemodel-v2.1]]
+- [[Sources/Onderwerpen/Dienstverlening/ztc2-begeleidend-document]]

@@ -9,7 +9,7 @@
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK en NHR: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging (in behandeling, 23 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
-- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (6 BO's)
+- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (13 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, collecties, cultuurbeleid (in opbouw, 8 BO's)
@@ -384,6 +384,13 @@
 - informatieobject — Geheel van gegevens ongeacht vorm, breder dan "document"
 - zaakdossier — Zaakkenmerken + informatieobjecten, basis voor archivering
 - resultaattype — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit|besluit]] — Formele beslissing op een individueel geval binnen een zaak (RGBZ-kern)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact|klantcontact]] — Contactmoment dat werkelijk heeft plaatsgevonden tussen burger/bedrijf en gemeente
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling|betaling]] — Overboeken of ontvangen van geld in het kader van een zaak
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces|bedrijfsproces]] — Reeks activiteiten die bijdraagt aan levering van een product of dienst
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|medewerker]] — Medewerker van de organisatie die zaken behandelt (actor)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|organisatorische-eenheid]] — Functioneel afgebakend onderdeel verantwoordelijk voor zaakbehandeling (actor)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|zaaktype]] — Definitie van een soort zaak met doorlooptijd, servicenorm en archiefcode
 
 ### Dienstverlening — Informatiesamenleving (procesobjecten, taakveld 10 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek|woo-verzoek]] — Verzoek om openbaarmaking publieke informatie op grond van de Woo (procesobject, GGM-hiaat)

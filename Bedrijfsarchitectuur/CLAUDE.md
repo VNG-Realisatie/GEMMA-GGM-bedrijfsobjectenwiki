@@ -202,6 +202,7 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
 | **generate-ggm** | `/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen) |
 | **audit-duplicaten** | `/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's |
+| **bo-coverage** | `/bo-coverage` | Structurele BO-dekking: per GGM-entiteit bepalen of het een BO heeft of met reden geen BO is; signaleert waar bronnen gezocht moeten worden |
 
 **Model voorkeur:** `/coverage`, `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
 
@@ -215,6 +216,7 @@ Python-scripts in `tools/` voor XMI-verwerking.
 | `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. |
 | `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed JSON |
 | `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's |
+| `bo_coverage_assess.py` | Classificeer alle GGM Objecttype-entiteiten als BO, niet-BO of te-beoordelen. Output: JSON + markdown in `Wiki/Analyses/` |
 
 ### GGM-data gebruiken
 
