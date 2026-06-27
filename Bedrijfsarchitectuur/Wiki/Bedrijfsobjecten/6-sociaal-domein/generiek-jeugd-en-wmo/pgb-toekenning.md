@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Toekenning van een persoonsgebonden budget aan een cliënt voor inkoop van eigen zorg of ondersteuning."
-relaties:
+bo_definitie: "Toekenning van een persoonsgebonden budget aan een cliënt voor inkoop van eigen zorg of ondersteuning."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
     richting: naar-dit-BO

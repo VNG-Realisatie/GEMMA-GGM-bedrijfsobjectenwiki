@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Openbaar toegankelijke groene verblijfsplek van minimaal 200 m² waar de gevoelstemperatuur koeler is dan of gelijk aan het buitengebied."
+bo_definitie: "Openbaar toegankelijke groene verblijfsplek van minimaal 200 m² waar de gevoelstemperatuur koeler is dan of gelijk aan het buitengebied."
 bedrijfsprocessen: [Klimaatadaptatiebeleid, Beheer openbare ruimte, Groenbeleid]
 bedrijfsfuncties: [Klimaatadaptatie, Beheer openbare ruimte]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject|Groenobject]]"
     richting: "van-dit-BO"

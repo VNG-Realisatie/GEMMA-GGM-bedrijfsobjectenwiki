@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Constructie bestemd voor het parkeren van voertuigen, al dan niet in gemeentelijk eigendom of beheer."
+bo_definitie: "Constructie bestemd voor het parkeren van voertuigen, al dan niet in gemeentelijk eigendom of beheer."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "van-dit-BO"

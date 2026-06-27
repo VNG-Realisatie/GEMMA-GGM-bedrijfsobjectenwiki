@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f2c26bb2-4c76-4b03-8ceb
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting."
-gemma_subtypes:
+bo_definitie: "Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting."
+bo_subtypes:
   - naam: PO-school
     omschrijving: "School voor primair onderwijs"
     ggm_entiteit: ""
@@ -59,7 +59,7 @@ gemma_subtypes:
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: ""
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
     richting: naar-dit-BO

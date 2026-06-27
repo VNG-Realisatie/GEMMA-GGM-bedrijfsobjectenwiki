@@ -26,7 +26,7 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: Project (Organisatie)
-gemma_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
+bo_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
 bedrijfsprocessen:
 - Archeologisch onderzoek
 - Vergunningverlening
@@ -34,7 +34,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Erfgoedbeheer
 - Vergunningverlening
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|Archeologische vindplaats]]'
   richting: van-dit-BO

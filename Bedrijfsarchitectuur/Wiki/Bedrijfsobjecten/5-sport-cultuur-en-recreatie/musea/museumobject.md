@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
+bo_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
     richting: "van-dit-BO"

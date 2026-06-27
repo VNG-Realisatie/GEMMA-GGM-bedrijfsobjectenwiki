@@ -33,14 +33,14 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Een door de gemeente aangeboden dienst of product waarvoor inwoners, ondernemers of organisaties een aanvraag kunnen indienen of een afspraak kunnen maken.
+bo_definitie: Een door de gemeente aangeboden dienst of product waarvoor inwoners, ondernemers of organisaties een aanvraag kunnen indienen of een afspraak kunnen maken.
 bedrijfsprocessen:
 - Productcatalogusbeheer
 - Dienstverlening
 bedrijfsfuncties:
 - Dienstverlening
 - Productmanagement
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]'
   richting: naar-dit-BO

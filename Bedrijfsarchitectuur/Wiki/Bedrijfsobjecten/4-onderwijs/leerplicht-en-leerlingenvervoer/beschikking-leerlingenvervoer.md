@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f048a6b-523c-4e8e-a581
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Gemeentelijk besluit over het toekennen of afwijzen van leerlingenvervoer."
-relaties:
+bo_definitie: "Gemeentelijk besluit over het toekennen of afwijzen van leerlingenvervoer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanvraag Leerlingenvervoer]]"
     richting: naar-dit-BO

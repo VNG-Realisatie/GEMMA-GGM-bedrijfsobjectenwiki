@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Ruimtelijk gebied rond een risicobron dat zichtbaar maakt waar mensen binnenshuis onvoldoende beschermd zijn tegen de gevolgen van een incident met gevaarlijke stoffen."
+bo_definitie: "Ruimtelijk gebied rond een risicobron dat zichtbaar maakt waar mensen binnenshuis onvoldoende beschermd zijn tegen de gevolgen van een incident met gevaarlijke stoffen."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Risicobron]]"
     richting: "naar-dit-BO"

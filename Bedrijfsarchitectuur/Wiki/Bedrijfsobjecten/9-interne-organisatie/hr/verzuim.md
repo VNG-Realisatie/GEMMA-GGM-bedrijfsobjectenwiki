@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Afwezigheid van een werknemer wegens ziekte of andere oorzaak, met bijbehorende registratie en begeleiding."
-relaties:
+bo_definitie: "Afwezigheid van een werknemer wegens ziekte of andere oorzaak, met bijbehorende registratie en begeleiding."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte."
+bo_definitie: "Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte."
 bedrijfsprocessen: [Laadinfrastructuurbeheer, Beheer openbare ruimte, Energietransitie]
 bedrijfsfuncties: [Verkeersmanagement, Duurzaamheidsbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "van-dit-BO"

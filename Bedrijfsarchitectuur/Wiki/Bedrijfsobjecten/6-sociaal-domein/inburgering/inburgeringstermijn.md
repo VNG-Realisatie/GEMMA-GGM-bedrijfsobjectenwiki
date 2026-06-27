@@ -28,8 +28,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: De wettelijke termijn waarbinnen een inburgeraar aan de inburgeringsplicht moet voldoen.
-relaties:
+bo_definitie: De wettelijke termijn waarbinnen een inburgeraar aan de inburgeringsplicht moet voldoen.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]'
   richting: naar-dit-BO

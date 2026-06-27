@@ -27,8 +27,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa6
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Formele beschermingsstatus die aan een monument, erfgoed of stadsgezicht is toegekend op grond van een aanwijzingsbesluit van het Rijk, de provincie of de gemeente."
-gemma_subtypes:
+bo_definitie: "Formele beschermingsstatus die aan een monument, erfgoed of stadsgezicht is toegekend op grond van een aanwijzingsbesluit van het Rijk, de provincie of de gemeente."
+bo_subtypes:
   - naam: Rijksmonument
     omschrijving: "Monument beschermd op grond van de Erfgoedwet door het Ministerie van OCW"
     ggm_entiteit: Beschermde Status
@@ -44,7 +44,7 @@ gemma_subtypes:
     ggm_entiteit: Beschermde Status
     ggm_guid: EAID_32C02923_EE3A_4553_B94B_31E0C273A829
     ggm_attribuut: type
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Pand]]"
     richting: naar-dit-BO

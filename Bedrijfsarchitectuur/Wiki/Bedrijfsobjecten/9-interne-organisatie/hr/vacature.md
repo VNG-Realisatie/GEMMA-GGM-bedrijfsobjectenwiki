@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Een arbeidsplaats die nog gevuld dient te worden, intern of extern opengesteld."
-relaties:
+bo_definitie: "Een arbeidsplaats die nog gevuld dient te worden, intern of extern opengesteld."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Functie]]"
     richting: van-dit-BO

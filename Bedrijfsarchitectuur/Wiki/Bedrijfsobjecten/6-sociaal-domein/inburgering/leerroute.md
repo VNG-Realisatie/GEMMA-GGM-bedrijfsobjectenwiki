@@ -30,8 +30,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Het door de gemeente vastgestelde onderwijstraject dat de inburgeraar volgt richting het inburgeringsdiploma.
-relaties:
+bo_definitie: Het door de gemeente vastgestelde onderwijstraject dat de inburgeraar volgt richting het inburgeringsdiploma.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
   richting: naar-dit-BO

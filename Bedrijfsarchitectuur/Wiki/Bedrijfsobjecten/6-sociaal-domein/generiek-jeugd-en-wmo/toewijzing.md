@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Opdracht van de gemeente aan een zorgaanbieder om een beschikte voorziening te leveren aan een cliënt."
-relaties:
+bo_definitie: "Opdracht van de gemeente aan een zorgaanbieder om een beschikte voorziening te leveren aan een cliënt."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
     richting: naar-dit-BO

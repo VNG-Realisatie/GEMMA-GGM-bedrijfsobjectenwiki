@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Administratieve parkeerovertreding onder de Wet Mulder (WAHV)."
+bo_definitie: "Administratieve parkeerovertreding onder de Wet Mulder (WAHV)."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
     richting: "van-dit-BO"

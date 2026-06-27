@@ -27,8 +27,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Melding bij de gemeente of Veilig Thuis over de veiligheid of ontwikkeling van een kind, als startpunt voor beoordeling en eventuele beschermingsmaatregelen.
-relaties:
+bo_definitie: Melding bij de gemeente of Veilig Thuis over de veiligheid of ontwikkeling van een kind, als startpunt voor beoordeling en eventuele beschermingsmaatregelen.
+bo_relaties:
 - type: associatie
   bedrijfsobject: NatuurlijkPersoon
   richting: van-dit-BO

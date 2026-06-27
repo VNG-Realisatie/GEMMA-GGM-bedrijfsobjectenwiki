@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een onderdeel van een ingeschreven stuk dat een rechtsfeit beschrijft op basis waarvan de BRK wordt bijgewerkt."
-relaties:
+bo_definitie: "Een onderdeel van een ingeschreven stuk dat een rechtsfeit beschrijft op basis waarvan de BRK wordt bijgewerkt."
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Stuk]]"
     richting: naar-dit-BO

@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
-relaties:
+bo_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Client]]"
     richting: naar-dit-BO

@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-563fd27c-7299-4311-8f40-60a95b9da4b5"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Situatie waarbij de doorstroming van het weg- of vaarwegverkeer plaatselijk is geblokkeerd als gevolg van een incident."
+bo_definitie: "Situatie waarbij de doorstroming van het weg- of vaarwegverkeer plaatselijk is geblokkeerd als gevolg van een incident."
 bedrijfsprocessen: [Verkeersmanagement, Incidentmanagement]
 bedrijfsfuncties: [Verkeersmanagement]
 ---

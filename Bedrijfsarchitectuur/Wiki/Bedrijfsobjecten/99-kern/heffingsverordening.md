@@ -24,8 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Door de gemeenteraad vastgestelde verordening die de heffing en invordering van een gemeentelijke belasting of recht regelt."
-relaties:
+bo_definitie: "Door de gemeenteraad vastgestelde verordening die de heffing en invordering van een gemeentelijke belasting of recht regelt."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Document)*"
     richting: "van-dit-BO"

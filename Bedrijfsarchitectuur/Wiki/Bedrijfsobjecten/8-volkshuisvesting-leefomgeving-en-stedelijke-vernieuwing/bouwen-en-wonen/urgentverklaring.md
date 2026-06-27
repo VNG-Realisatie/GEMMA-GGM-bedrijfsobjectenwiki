@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Een beschikking waarmee een woningzoekende voorrang krijgt bij de toewijzing van een sociale huurwoning op grond van urgente omstandigheden."
-gemma_subtypes:
+bo_definitie: "Een beschikking waarmee een woningzoekende voorrang krijgt bij de toewijzing van een sociale huurwoning op grond van urgente omstandigheden."
+bo_subtypes:
   - naam: Medische urgentie
     omschrijving: "Urgentie op medische gronden"
     ggm_entiteit:
@@ -64,7 +64,7 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woning]]"
     richting: van-dit-BO

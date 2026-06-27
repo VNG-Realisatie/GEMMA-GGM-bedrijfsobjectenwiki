@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Kleinschalige logiesaccommodatie met maximaal vier kamers, doorgaans in een woning, als aanvulling op het reguliere hotelaanbod."
+bo_definitie: "Kleinschalige logiesaccommodatie met maximaal vier kamers, doorgaans in een woning, als aanvulling op het reguliere hotelaanbod."
 bedrijfsprocessen: [logiesvergunningverlening, monitoring toeristisch aanbod]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"
     richting: "naar-dit-BO"

@@ -25,10 +25,10 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet.
+bo_definitie: Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet.
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]]'
   richting: naar-dit-BO

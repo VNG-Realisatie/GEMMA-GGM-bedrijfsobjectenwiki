@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Object dat geluid veroorzaakt in de leefomgeving, ingedeeld naar bronsoort zoals wegverkeer, railverkeer, industrieterrein of scheepvaart."
+bo_definitie: "Object dat geluid veroorzaakt in de leefomgeving, ingedeeld naar bronsoort zoals wegverkeer, railverkeer, industrieterrein of scheepvaart."
 bedrijfsprocessen: [geluidkartering, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidgevoelig gebouw]]"
     richting: "naar-dit-BO"

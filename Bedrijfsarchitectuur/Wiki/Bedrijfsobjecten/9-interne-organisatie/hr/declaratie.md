@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Een opgave van te vergoeden kosten ingediend door een werknemer."
-relaties:
+bo_definitie: "Een opgave van te vergoeden kosten ingediend door een werknemer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Individueel verhuurbaar deel van een vastgoedobject, als eenheid van exploitatie."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Individueel verhuurbaar deel van een vastgoedobject, als eenheid van exploitatie."
+bo_subtypes: []
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Vastgoedobject]]"
     richting: naar-dit-BO

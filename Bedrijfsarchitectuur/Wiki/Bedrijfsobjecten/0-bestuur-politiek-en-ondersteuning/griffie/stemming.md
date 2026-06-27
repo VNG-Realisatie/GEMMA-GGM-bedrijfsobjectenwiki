@@ -31,9 +31,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Formele stemming in een raads- of commissievergadering over een agendapunt of raadsstuk, met registratie van stemmingstype en resultaat."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Formele stemming in een raads- of commissievergadering over een agendapunt of raadsstuk, met registratie van stemmingstype en resultaat."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Raadsstuk]]"
     richting: van-dit-BO

@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
+bo_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Container]]"
     richting: "van-dit-BO"

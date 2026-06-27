@@ -34,8 +34,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel.
-relaties:
+bo_definitie: Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
   richting: van-dit-BO

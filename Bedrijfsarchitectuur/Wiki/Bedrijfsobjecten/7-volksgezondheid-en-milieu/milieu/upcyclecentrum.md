@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Voorziening voor inname, reparatie en hoogwaardig hergebruik van grof huishoudelijk afval."
+bo_definitie: "Voorziening voor inname, reparatie en hoogwaardig hergebruik van grof huishoudelijk afval."
 bedrijfsprocessen: [Upcycling, Hergebruik goederen, Educatie circulaire economie]
 bedrijfsfuncties: [Afvalbeheer, Circulaire economie]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"
     richting: "van-dit-BO"

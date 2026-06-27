@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Locatie waar dieren worden gehouden voor publiek contact, met beperkte openingstijden of indirecte toegang, vaak een particulier initiatief met gemeentelijke subsidierelatie."
-relaties:
+bo_definitie: "Locatie waar dieren worden gehouden voor publiek contact, met beperkte openingstijden of indirecte toegang, vaak een particulier initiatief met gemeentelijke subsidierelatie."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[kinderboerderij]]"
     richting: bidirectioneel

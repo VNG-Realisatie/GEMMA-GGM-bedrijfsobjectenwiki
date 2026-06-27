@@ -34,14 +34,14 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (ligplaatsidentificatie, ligplaatsstatus, indicatieGeconstateerdeLigplaats); minder attributen, geen geometrie/versie/documentvelden; voegt inOnderzoek toe"
 
-gemma_definitie: "Door de gemeente aangewezen plaats in het water voor het permanent afmeren van een drijvend object voor woon-, bedrijfsmatige of recreatieve doeleinden, als adresseerbaar object opgenomen in de BAG."
-gemma_subtypes:
+bo_definitie: "Door de gemeente aangewezen plaats in het water voor het permanent afmeren van een drijvend object voor woon-, bedrijfsmatige of recreatieve doeleinden, als adresseerbaar object opgenomen in de BAG."
+bo_subtypes:
   - naam: "Reserveligplaats"
     omschrijving: "Tijdelijke ligplaats voor noodgevallen zoals kade-onderhoud of verplaatsing."
     ggm_entiteit: Ligplaats
     ggm_guid: EAID_785E3B69_19DA_4952_84A8_592965B9229A
     ggm_attribuut: type
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"
     richting: bidirectioneel

@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afgebakende openbare ruimte ingericht als speelplaats voor kinderen, met speeltoestellen, verharding en groenvoorziening."
-gemma_subtypes:
+bo_definitie: "Afgebakende openbare ruimte ingericht als speelplaats voor kinderen, met speeltoestellen, verharding en groenvoorziening."
+bo_subtypes:
   - naam: Buurtplek
     omschrijving: "Speelterrein van ≥3.000 m² voor de hele buurt, ingericht voor alle leeftijden met ontmoetingsfunctie"
     ggm_entiteit: Speelterrein
@@ -46,7 +46,7 @@ gemma_subtypes:
     ggm_entiteit: Speelterrein
     ggm_guid: EAID_941A17C1_A2B2_4CD1_8991_08B0EBCF0C2
     ggm_attribuut: type
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: FunctioneelGebied (GGM)
     richting: "van-dit-BO"

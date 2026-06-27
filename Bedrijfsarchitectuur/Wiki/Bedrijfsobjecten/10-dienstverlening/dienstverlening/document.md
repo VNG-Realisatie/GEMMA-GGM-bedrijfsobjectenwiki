@@ -25,8 +25,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-10eaa33f-03bf-42b4-931
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
-gemma_definitie: "Informatiedrager met eigen identiteit, ongeacht vorm, die de gemeente ontvangt of opmaakt bij de uitvoering van taken."
-gemma_subtypes:
+bo_definitie: "Informatiedrager met eigen identiteit, ongeacht vorm, die de gemeente ontvangt of opmaakt bij de uitvoering van taken."
+bo_subtypes:
   - naam: Enkelvoudig document
     omschrijving: Document dat als één geheel wordt behandeld en beheerd
     ggm_entiteit: EnkelvoudigDocument
@@ -35,7 +35,7 @@ gemma_subtypes:
     omschrijving: Document dat uit twee of meer enkelvoudige documenten bestaat
     ggm_entiteit: SamengesteldDocument
     ggm_guid: EAID_47DA1FC8_F181_41bc_B16A_CE80D2CA13B1
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"
     richting: naar-dit-BO

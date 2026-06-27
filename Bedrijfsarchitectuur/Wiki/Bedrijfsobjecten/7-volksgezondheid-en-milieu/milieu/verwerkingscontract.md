@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Overeenkomst met een verwerker voor de inzameling of verwerking van afval- en grondstofstromen."
+bo_definitie: "Overeenkomst met een verwerker voor de inzameling of verwerking van afval- en grondstofstromen."
 bedrijfsprocessen: [Aanbesteding afvalverwerking, Contractbeheer]
 bedrijfsfuncties: [Afvalbeheer, Inkoop]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

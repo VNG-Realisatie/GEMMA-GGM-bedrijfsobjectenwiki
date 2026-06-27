@@ -24,8 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-488958ee-08fd-4818-af8b-2d7ebb73c01f"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Materieel dat de gemeente beschikbaar stelt voor sportbeoefening of ter ondersteuning van de sportuitvoering."
-relaties:
+bo_definitie: "Materieel dat de gemeente beschikbaar stelt voor sportbeoefening of ter ondersteuning van de sportuitvoering."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Binnenlocatie]]"
     richting: "naar-dit-BO"

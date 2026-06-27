@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ae658af8-46be-4d41-ba95-c5e24cec7598"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Recht om een voertuig te parkeren op een aangewezen plek, ontstaan door betaling van parkeerbelasting of -geld."
+bo_definitie: "Recht om een voertuig te parkeren op een aangewezen plek, ontstaan door betaling van parkeerbelasting of -geld."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "van-dit-BO"

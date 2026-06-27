@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats, met gemeentelijke vergunningplicht voor situering en maatvoering."
-gemma_subtypes:
+bo_definitie: "Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats, met gemeentelijke vergunningplicht voor situering en maatvoering."
+bo_subtypes:
   - naam: "Woonark"
     omschrijving: "Betonnen bak met opbouw in het water, niet varend."
     ggm_entiteit: Vaartuig
@@ -49,7 +49,7 @@ gemma_subtypes:
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
     ggm_attribuut: type
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Ligplaats]]"
     richting: van-dit-BO

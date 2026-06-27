@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (pandidentificatie, pandstatus, etc.) en voegt LOD1/2/3-geometrie, IMGeo-identificatie en inwinningGeometrie toe; mist versie/datumIngang/datumEinde"
 
-gemma_definitie: "Kleinste functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden, betreedbaar en afsluitbaar, geregistreerd in de BAG."
-relaties:
+bo_definitie: "Kleinste functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden, betreedbaar en afsluitbaar, geregistreerd in de BAG."
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Verblijfsobject]]"
     richting: "van-dit-BO"

@@ -53,8 +53,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister."
-relaties:
+bo_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Ingeschreven Persoon]]"
     richting: bidirectioneel

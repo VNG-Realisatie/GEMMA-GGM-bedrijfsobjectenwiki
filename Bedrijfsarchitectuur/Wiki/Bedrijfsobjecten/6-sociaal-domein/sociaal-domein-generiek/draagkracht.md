@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Het berekende deel van het inkomen en vermogen van een inwoner dat beschikbaar is om zelf in bijzondere kosten te voorzien, bepalend voor het recht op bijzondere bijstand."
-relaties:
+bo_definitie: "Het berekende deel van het inkomen en vermogen van een inwoner dat beschikbaar is om zelf in bijzondere kosten te voorzien, bepalend voor het recht op bijzondere bijstand."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inkomensvoorziening]]"
     richting: van-dit-BO

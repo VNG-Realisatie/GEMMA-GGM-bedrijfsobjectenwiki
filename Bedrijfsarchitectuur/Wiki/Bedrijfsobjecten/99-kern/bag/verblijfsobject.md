@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (verblijfsobjectidentificatie, verblijfsobjectstatus, etc.); minder attributen (geen geometrie, gebruiksdoel, oppervlakte, documentvelden); voegt inOnderzoek toe"
 
-gemma_definitie: "Kleinste binnen een of meer panden gelegen eenheid van gebruik, ontsloten via een eigen afsluitbare toegang, met een of meer gebruiksdoelen, geregistreerd in de BAG."
-relaties:
+bo_definitie: "Kleinste binnen een of meer panden gelegen eenheid van gebruik, ontsloten via een eigen afsluitbare toegang, met een of meer gebruiksdoelen, geregistreerd in de BAG."
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Pand]]"
     richting: "naar-dit-BO"

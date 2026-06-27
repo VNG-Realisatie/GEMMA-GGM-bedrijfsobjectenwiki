@@ -33,9 +33,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Document dat door de gemeenteraad wordt behandeld, met registratie van type, indiener, publicatie en besluitvorming."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Document dat door de gemeenteraad wordt behandeld, met registratie van type, indiener, publicatie en besluitvorming."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vergadering]]"
     richting: van-dit-BO

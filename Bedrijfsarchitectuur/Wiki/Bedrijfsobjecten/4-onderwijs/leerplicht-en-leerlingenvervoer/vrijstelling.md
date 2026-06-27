@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht."
-relaties:
+bo_definitie: "Besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
     richting: naar-dit-BO

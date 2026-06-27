@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5293eea-47b8-4091-8ac3-b28139a17c9f"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden gelden."
+bo_definitie: "Afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden gelden."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "van-dit-BO"

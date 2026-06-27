@@ -29,8 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Inbreuk in verband met persoonsgegevens: ongeoorloofde toegang, verstrekking, verlies, vernietiging of wijziging van persoonsgegevens."
-relaties:
+bo_definitie: "Inbreuk in verband met persoonsgegevens: ongeoorloofde toegang, verstrekking, verlies, vernietiging of wijziging van persoonsgegevens."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|Verwerkingsactiviteit]]"
     richting: naar-dit-BO

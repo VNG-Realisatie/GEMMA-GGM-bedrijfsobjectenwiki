@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Formeel besluit van de gemeente waarmee een inwoner of ondernemer toestemming krijgt voor een specifieke activiteit of een uitzondering op een verbod."
-gemma_subtypes:
+bo_definitie: "Formeel besluit van de gemeente waarmee een inwoner of ondernemer toestemming krijgt voor een specifieke activiteit of een uitzondering op een verbod."
+bo_subtypes:
   - naam: Standplaatsvergunning
     omschrijving: "APV-vergunning voor het innemen van een standplaats in de openbare ruimte"
     ggm_entiteit: ""
@@ -54,7 +54,7 @@ gemma_subtypes:
     ggm_entiteit: "Omgevingsvergunning"
     ggm_guid: EAID_053B594A_5E45_4413_9339_D2D026ECCE20
     ggm_attribuut: ""
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Evenementenvergunning]]"
     richting: van-dit-BO

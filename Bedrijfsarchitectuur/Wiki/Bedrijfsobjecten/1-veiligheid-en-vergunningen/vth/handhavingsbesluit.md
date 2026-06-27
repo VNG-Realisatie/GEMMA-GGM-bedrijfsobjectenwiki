@@ -27,9 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Formeel besluit van het college om bij een geconstateerde overtreding een sanctie op te leggen, zoals een last onder dwangsom of bestuursdwang."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Formeel besluit van het college om bij een geconstateerde overtreding een sanctie op te leggen, zoals een last onder dwangsom of bestuursdwang."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[VTH-zaak]]"
     richting: van-dit-BO

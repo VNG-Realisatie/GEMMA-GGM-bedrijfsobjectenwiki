@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Individuele parkeergelegenheid langs de openbare weg, bestemd voor het parkeren van een of meer voertuigen."
+bo_definitie: "Individuele parkeergelegenheid langs de openbare weg, bestemd voor het parkeren van een of meer voertuigen."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "naar-dit-BO"

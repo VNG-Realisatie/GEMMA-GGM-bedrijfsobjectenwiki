@@ -25,8 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen.
-gemma_subtypes:
+bo_definitie: Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen.
+bo_subtypes:
 - naam: snelfietsroute
   omschrijving: Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid
   ggm_entiteit: ''
@@ -39,7 +39,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Fietsbeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
   richting: van-dit-BO

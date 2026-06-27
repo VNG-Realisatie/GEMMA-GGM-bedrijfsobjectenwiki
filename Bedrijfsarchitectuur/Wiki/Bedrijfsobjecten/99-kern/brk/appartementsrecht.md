@@ -37,8 +37,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een aandeel in een gesplitst gebouw met het uitsluitend gebruiksrecht van een privé-gedeelte, geregistreerd als kadastrale onroerende zaak."
-relaties:
+bo_definitie: "Een aandeel in een gesplitst gebouw met het uitsluitend gebruiksrecht van een privé-gedeelte, geregistreerd als kadastrale onroerende zaak."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Appartementsrecht]]"
     richting: naar-dit-BO

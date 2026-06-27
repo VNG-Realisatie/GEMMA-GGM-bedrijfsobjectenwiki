@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e623ef14-c4de-498b-9504
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Melding van een school aan de gemeente dat een leerling niet op school verschijnt."
-relaties:
+bo_definitie: "Melding van een school aan de gemeente dat een leerling niet op school verschijnt."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
     richting: naar-dit-BO

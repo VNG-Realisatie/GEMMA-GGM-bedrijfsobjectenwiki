@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gesloten reservoir achter een overstortconstructie voor tijdelijke opvang en bezinking van overstortwater."
-relaties:
+bo_definitie: "Gesloten reservoir achter een overstortconstructie voor tijdelijke opvang en bezinking van overstortwater."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Bouwwerk (GGM)
     richting: "van-dit-BO"

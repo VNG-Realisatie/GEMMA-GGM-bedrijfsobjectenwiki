@@ -24,8 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a7a350a2-a9aa-4437-b67b-016fec0d048d"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Locatie waar sportbeoefening plaatsvindt, als overkoepelend begrip voor binnen- en buitensportaccommodaties."
-relaties:
+bo_definitie: "Locatie waar sportbeoefening plaatsvindt, als overkoepelend begrip voor binnen- en buitensportaccommodaties."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportpark]]"
     richting: "van-dit-BO"

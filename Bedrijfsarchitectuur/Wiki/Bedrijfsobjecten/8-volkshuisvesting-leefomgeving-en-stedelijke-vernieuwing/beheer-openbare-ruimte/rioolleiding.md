@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
-relaties:
+bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Put]]"
     richting: bidirectioneel

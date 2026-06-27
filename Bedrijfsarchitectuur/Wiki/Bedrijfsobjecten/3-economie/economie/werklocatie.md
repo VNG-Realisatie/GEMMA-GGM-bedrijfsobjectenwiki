@@ -24,9 +24,9 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen geografisch gebied in de gemeente waar bedrijvigheid, voorzieningen of andere werkfuncties zijn geconcentreerd, met een vastgesteld profiel voor gewenst gebruik en ontwikkeling."
+bo_definitie: "Aangewezen geografisch gebied in de gemeente waar bedrijvigheid, voorzieningen of andere werkfuncties zijn geconcentreerd, met een vastgesteld profiel voor gewenst gebruik en ontwikkeling."
 gemma_toelichting: "Werklocaties worden getypeerd als bedrijventerrein, kantoorlocatie, winkelgebied, innovatielocatie of wijkeconomie. De gemeente stelt per werklocatie een profiel vast met kaders voor milieucategorie, functiemenging en sturingsintensiteit."
-gemma_subtypes:
+bo_subtypes:
   - naam: Bedrijventerrein
     omschrijving: "Werklandschap bedoeld voor bedrijven die hinder veroorzaken (geluid, stof, gevaar, geur); milieucategorie-gestuurd."
     ggm_entiteit: ""
@@ -52,7 +52,7 @@ gemma_subtypes:
     ggm_entiteit: ""
     ggm_guid: ""
     ggm_attribuut: "type"
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vestiging]]"
     richting: "naar-dit-BO"

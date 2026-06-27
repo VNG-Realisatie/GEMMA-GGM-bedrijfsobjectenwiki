@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
-relaties:
+bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening|Voorziening]]"
     richting: van-dit-BO

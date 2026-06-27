@@ -24,15 +24,15 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
-gemma_subtypes:
+bo_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
+bo_subtypes:
   - naam: "Zonneveld"
     omschrijving: "Terrein met zonnepanelen voor grootschalige opwek van zonne-energie"
   - naam: "Windlocatie"
     omschrijving: "Locatie aangewezen voor plaatsing van windturbines"
 bedrijfsprocessen: [ruimtelijke planning energieopwek, RES-uitvoering, vergunningverlening]
 bedrijfsfuncties: [energiebeleid, ruimtelijke ordening]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|Warmtenet]]"
     richting: bidirectioneel

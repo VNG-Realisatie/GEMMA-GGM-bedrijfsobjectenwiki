@@ -26,8 +26,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Constructie voor het verpompen van afvalwater, hemelwater of oppervlaktewater binnen het gemeentelijk rioleringssysteem.
-relaties:
+bo_definitie: Constructie voor het verpompen van afvalwater, hemelwater of oppervlaktewater binnen het gemeentelijk rioleringssysteem.
+bo_relaties:
 - type: generalisatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
   richting: van-dit-BO

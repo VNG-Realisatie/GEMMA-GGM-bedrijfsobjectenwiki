@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Beperktere diagram-set (Sociaal Domein, Verplichtingen, Relaties Sociaal Domein tot Kern)"
 
-gemma_definitie: "Niet-natuurlijk persoon die goederen, diensten of werken levert aan de gemeente op basis van een contract of opdracht."
-relaties:
+bo_definitie: "Niet-natuurlijk persoon die goederen, diensten of werken levert aan de gemeente op basis van een contract of opdracht."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Contract]]"
     richting: van-dit-BO
@@ -98,7 +98,7 @@ De GGM-entiteit "Leverancier" komt voor met 2 GUIDs:
 | **Inkoop** | `EAID_EA7FE08E_34F7_45d2_BE2E_E4E3B8333BF3` | **primair** — gekozen als canonieke mapping omdat deze op 13 diagrammen voorkomt, waaronder alle Inkoop-diagrammen |
 | Inkoop | `EAID_51A266C7_3BDA_457c_9A32_CD1B166CA5BF` | duplicaat — beperktere diagram-set (Sociaal Domein, Verplichtingen) |
 
-Teruggemeld als #78 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #78 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

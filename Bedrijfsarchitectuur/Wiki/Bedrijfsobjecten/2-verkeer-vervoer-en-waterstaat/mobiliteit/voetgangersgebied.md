@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Aangewezen gebied waar de voetganger hoofdgebruiker is en gemotoriseerd verkeer beperkt is toegestaan.
+bo_definitie: Aangewezen gebied waar de voetganger hoofdgebruiker is en gemotoriseerd verkeer beperkt is toegestaan.
 bedrijfsprocessen:
 - Verkeersbeleid
 - Inrichting openbare ruimte
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Beheer openbare ruimte
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit|Verkeersbesluit]]'
   richting: naar-dit-BO

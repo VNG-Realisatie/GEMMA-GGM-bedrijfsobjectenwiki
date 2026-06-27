@@ -27,9 +27,9 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Individuele uitzondering op milieuzoneregels waarmee een specifiek voertuig tijdelijk toegang krijgt tot de milieuzone."
-gemma_subtypes:
-relaties:
+bo_definitie: "Individuele uitzondering op milieuzoneregels waarmee een specifiek voertuig tijdelijk toegang krijgt tot de milieuzone."
+bo_subtypes:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vergunningen en ontheffingen]]"
     richting: van-dit-BO

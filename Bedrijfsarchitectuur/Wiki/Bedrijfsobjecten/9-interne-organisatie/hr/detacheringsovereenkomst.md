@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Overeenkomst tussen een uitlenende en inlenende organisatie voor het tijdelijk ter beschikking stellen van een werknemer."
-relaties:
+bo_definitie: "Overeenkomst tussen een uitlenende en inlenende organisatie voor het tijdelijk ter beschikking stellen van een werknemer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: van-dit-BO

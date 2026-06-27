@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-1486de79-ad71-4dce-8473-f23f1e9c436c"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Door de gemeente verleende toestemming om op een bepaalde locatie of in een bepaalde zone te parkeren."
+bo_definitie: "Door de gemeente verleende toestemming om op een bepaalde locatie of in een bepaalde zone te parkeren."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vergunningen en ontheffingen]]"
     richting: van-dit-BO

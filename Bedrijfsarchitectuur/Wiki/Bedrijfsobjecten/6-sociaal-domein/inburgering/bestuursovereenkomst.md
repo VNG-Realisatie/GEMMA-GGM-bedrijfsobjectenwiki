@@ -25,8 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie.
-relaties:
+bo_definitie: Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|Opvanglocatie]]'
   richting: naar-dit-BO

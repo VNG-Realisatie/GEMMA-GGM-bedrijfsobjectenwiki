@@ -31,8 +31,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-a1f148c2-d310-45c0-aee9-33e2c641ce37
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Persoonlijk plan Inburgering en Participatie met de leerroute, verplichtingen en doelen van de inburgeraar.
-relaties:
+bo_definitie: Persoonlijk plan Inburgering en Participatie met de leerroute, verplichtingen en doelen van de inburgeraar.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
   richting: naar-dit-BO

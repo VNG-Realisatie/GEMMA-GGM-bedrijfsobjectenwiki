@@ -27,9 +27,9 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijgen voor het vervangen van een voertuig dat door milieuzone-aanscherping niet meer is toegelaten."
-gemma_subtypes:
-relaties:
+bo_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijgen voor het vervangen van een voertuig dat door milieuzone-aanscherping niet meer is toegelaten."
+bo_subtypes:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"
     richting: van-dit-BO

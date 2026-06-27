@@ -25,14 +25,14 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties.
+bo_definitie: Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties.
 bedrijfsprocessen:
 - Bouwlogistiek
 - Vergunningverlening
 bedrijfsfuncties:
 - Goederenvervoerbeleid
 - Bouwtoezicht
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
   richting: naar-dit-BO

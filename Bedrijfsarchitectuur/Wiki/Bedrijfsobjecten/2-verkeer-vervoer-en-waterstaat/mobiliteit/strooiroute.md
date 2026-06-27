@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8d6c2c57-1e18-4257-a894-5f5d751279ea"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Vastgelegd traject waarop de gemeente bij gladheid strooiwerkzaamheden uitvoert."
+bo_definitie: "Vastgelegd traject waarop de gemeente bij gladheid strooiwerkzaamheden uitvoert."
 bedrijfsprocessen: [Gladheidsbestrijding, Winterdienst]
 bedrijfsfuncties: [Beheer openbare ruimte]
 ---

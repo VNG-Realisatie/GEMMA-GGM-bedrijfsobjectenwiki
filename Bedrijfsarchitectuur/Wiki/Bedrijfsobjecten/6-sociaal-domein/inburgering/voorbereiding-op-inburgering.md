@@ -31,8 +31,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Activiteiten die de gemeente aanbiedt aan asielstatushouders in de opvang ter voorbereiding op het inburgeringstraject.
-relaties:
+bo_definitie: Activiteiten die de gemeente aanbiedt aan asielstatushouders in de opvang ter voorbereiding op het inburgeringstraject.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
   richting: naar-dit-BO

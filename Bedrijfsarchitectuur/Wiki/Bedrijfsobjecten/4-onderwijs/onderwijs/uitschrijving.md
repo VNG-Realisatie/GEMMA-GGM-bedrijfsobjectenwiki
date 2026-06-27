@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-b83efc57-9184-4405-8c23
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Beeindiging van de inschrijving van een leerling bij een school."
-relaties:
+bo_definitie: "Beeindiging van de inschrijving van een leerling bij een school."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
     richting: naar-dit-BO

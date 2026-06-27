@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Een periode van goedgekeurde afwezigheid van een werknemer."
-relaties:
+bo_definitie: "Een periode van goedgekeurde afwezigheid van een werknemer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

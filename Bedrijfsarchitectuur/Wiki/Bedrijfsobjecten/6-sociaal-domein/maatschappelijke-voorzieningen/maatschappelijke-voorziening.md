@@ -30,8 +30,8 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 # GEMMA-velden
-gemma_definitie: "Plek die ruimte biedt aan activiteiten met primair een maatschappelijk doel op het gebied van zorg, welzijn, cultuur, sport of onderwijs."
-gemma_subtypes:
+bo_definitie: "Plek die ruimte biedt aan activiteiten met primair een maatschappelijk doel op het gebied van zorg, welzijn, cultuur, sport of onderwijs."
+bo_subtypes:
   - naam: "Buurtcentrum"
     omschrijving: Welzijnsvoorziening met minimaal drie activiteitenruimten voor ontmoeting en bewonersactiviteiten
   - naam: "Buurtkamer"
@@ -73,7 +73,7 @@ gemma_subtypes:
     omschrijving: "Kleinschalige woonzorgvorm voor jeugdhulp met verblijf (4-6 kamers)"
   - naam: "Maatschappelijke opvang"
     omschrijving: Tijdelijke opvang met zorg en ondersteuning voor daklozen
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wijk]]"
     richting: bidirectioneel

@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Paal, mast of gevelarmatuur in de openbare ruimte die voorziet in straatverlichting."
-gemma_subtypes:
+bo_definitie: "Paal, mast of gevelarmatuur in de openbare ruimte die voorziet in straatverlichting."
+bo_subtypes:
   - naam: "Lichtmast"
     omschrijving: "Vrijstaande paal met armatuur voor straatverlichting, veruit het meeste type (56.000 stuks)"
     ggm_entiteit: Verlichtingsobject
@@ -36,7 +36,7 @@ gemma_subtypes:
     ggm_entiteit: Verlichtingsobject
     ggm_guid: EAID_8CD4C799_C403_41B6_B409_06D37398E31
     ggm_attribuut: type
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"

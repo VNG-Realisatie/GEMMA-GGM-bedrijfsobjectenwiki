@@ -19,9 +19,9 @@ ggm_gemma_guid: "id-839017b2-0f95-42d0-ab2b-e873636340da"
 ggm_gemma_definitie: ""
 ggm_gemma_type: ""
 
-gemma_definitie: "Het volledige begeleidingstraject dat een inwoner met problematische schulden doorloopt bij de gemeente, van aanmelding tot uitstroom en nazorg."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Het volledige begeleidingstraject dat een inwoner met problematische schulden doorloopt bij de gemeente, van aanmelding tot uitstroom en nazorg."
+bo_subtypes: []
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[schuld]]"
     richting: van-dit-BO

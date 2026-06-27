@@ -38,7 +38,7 @@ Zoek in `Sources/GGM/` naar kandidaat-entiteiten:
 - Bij voorkeur **1-op-1 mapping** (beheerbaarheid, herkenbaarheid).
 - **Aggregatie** toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
 - Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt als hetzelfde concept: maak één bedrijfsobject met de thematisch passende GUID als primair en de overige in `ggm_duplicaat_entiteiten`. Meld als `duplicaat` terug.
-- Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: vermeld het homoniem in de body als waarschuwing. Meld als `homoniem` terug.
+- Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: dit is een homoniem. Stel 2-3 alternatieve namen voor (zie stap 4c) en leg de keuze voor aan de gebruiker. Meld als `homoniem` terug.
 
 ## Stap 4b: GGM-duplicaten detecteren
 
@@ -53,9 +53,26 @@ Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkom
 5. **Vul frontmatter:**
    - `ggm_guid`: primaire GUID
    - `ggm_duplicaat_entiteiten`: lijst van duplicaten (niet homoniemen)
+   - `bo_synoniemen`: andere namen voor hetzelfde concept (GGM-naam als die afwijkt, namen uit bronnen, dagelijks gebruik)
+   - `bo_homoniemen`: bij homoniem-detectie — verwijzing naar de andere BO's met dezelfde GGM-entiteitnaam maar een ander concept. Elk item bevat: `bedrijfsobject` (wiki-link), `ggm_entiteit`, `ggm_guid`, `ggm_beleidsdomein`, `toelichting`
 6. **Terugmelding:**
    - Duplicaten → type `duplicaat` in `Wiki/Analyses/ggm-terugmeldingen.md`
    - Homoniemen → type `homoniem` in `Wiki/Analyses/ggm-terugmeldingen.md`
+
+## Stap 4c: Homoniem-naamkeuze
+
+Bij homoniem-detectie (stap 4b): de BO-naam moet disambigueren. Stel **2-3 namen** voor en leg de keuze voor aan de gebruiker.
+
+**Suggestiestrategieën:**
+- Domein-prefix: bijv. "Onderwijs-inschrijving"
+- Samengesteld woord: bijv. "Onderwijsinschrijving"
+- Functionele naam: bijv. "Aanbestedings-inschrijving" (gericht op wat het concept doet)
+
+**Regels:**
+- Gebruik **niet** de GEMMA `ggm_gemma_alternate_name` conventie (bijv. "Inschrijving (Onderwijs)") als BO-naam — haakjes in bestandsnamen zijn ongewenst. Wel opnemen in `bo_synoniemen` als referentie.
+- De GGM-entiteitnaam wordt `ggm_entiteit`; de gekozen naam wordt `naam` en `ggm_gemma_naam`.
+- Documenteer de naamkeuze in de body-sectie `## Naamkeuze` (zie template).
+- Voeg de niet-gekozen namen en de originele GGM-naam toe aan `bo_synoniemen`.
 
 ## Stap 5: GGM-velden ophalen
 
@@ -80,8 +97,8 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
 - `ggm_gemma_naam`, `ggm_gemma_guid`, `ggm_gemma_definitie`, `ggm_gemma_toelichting`, `ggm_gemma_synoniemen`, `ggm_gemma_type`, `ggm_gemma_url`, `ggm_gemma_bron`, `ggm_gemma_alternate_name`
 - Haal uit entities[id].gemma_tags
 
-**GEMMA-velden (wiki-eigen):**
-- `gemma_definitie`: altijd een zelfstandige definitie op bedrijfsniveau (één zin). Nooit "gelijk aan GGM" — dat is geen definitie. Bepaal als volgt:
+**Wiki-velden (BO-model):**
+- `bo_definitie`: altijd een zelfstandige definitie op bedrijfsniveau (één zin). Nooit "gelijk aan GGM" — dat is geen definitie. Bepaal als volgt:
   - Als `ggm_gemma_definitie` niet leeg is en op bedrijfsniveau klopt: neem die over
   - Als `ggm_definitie` te technisch of te breed is: herformuleer vanuit gemeentelijk perspectief (wat het voor de gemeente ís, niet hoe het technisch is gedefinieerd)
   - Documenteer afwijkingen t.o.v. de GGM-definitie in de body-sectie **BO-definitie**
@@ -108,7 +125,7 @@ Gebruik `## Generalisatie` wanneer het BO onderdeel is van een conceptuele hiër
 - Welke kenmerken alle niveaus delen
 - Wat dit niveau onderscheidt
 
-**Frontmatter:** de relaties naar andere niveaus worden als `associatie` of `generalisatie` opgenomen in `relaties:`.
+**Frontmatter:** de relaties naar andere niveaus worden als `associatie` of `generalisatie` opgenomen in `bo_relaties:`.
 
 ### 6b. Specialisaties (neerwaarts — dit BO heeft children die wél aparte BO's zijn)
 
@@ -116,7 +133,7 @@ Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met spec
 
 **Body:** `## Specialisaties`-sectie met tabel (Subtype, Omschrijving, GGM-entiteit).
 
-**Frontmatter:** `generalisatie`-relaties in `relaties:` met `richting: van-dit-BO`. Elk child-BO heeft een corresponderende `generalisatie`-relatie met `richting: naar-dit-BO`.
+**Frontmatter:** `generalisatie`-relaties in `bo_relaties:` met `richting: van-dit-BO`. Elk child-BO heeft een corresponderende `generalisatie`-relatie met `richting: naar-dit-BO`.
 
 ### 6c. Subtypes (neerwaarts — children zijn géén apart BO)
 
@@ -128,7 +145,7 @@ Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (uitwisselbaar
 2. **GGM type-attributen** — entiteiten met `type`, `typePlus`, `toestelgroep`, `materiaal`, of vergelijkbare classificatie-attributen hebben per definitie subtypes. Het GGM implementeert subtypes als attribuutwaarden — dat is een implementatiekeuze, geen reden om subtypes niet te benoemen.
 3. **GGM generalisatie-relaties** — aparte GGM-entiteiten die via generalisatie aan het BO-concept gerelateerd zijn. Let op: de GGM-hiërarchie kan afwijken van het beleidsperspectief (bijv. Brug zit onder Overbruggingsobject, niet onder Kunstwerk). Documenteer afwijkingen.
 
-**Frontmatter:** `gemma_subtypes` met per subtype:
+**Frontmatter:** `bo_subtypes` met per subtype:
 - `naam`, `omschrijving`
 - `ggm_entiteit`, `ggm_guid` (de GGM-entiteit waar dit subtype bij hoort — dat kan het parent-BO zijn als het subtype een attribuutwaarde is, of een aparte entiteit)
 - `ggm_attribuut` (het GGM-attribuut dat het subtype draagt, leeg als het een aparte entiteit is)
@@ -160,6 +177,7 @@ Body-secties volgens template:
 - **Specialisaties** (optioneel): tabel met children-BO's (aparte BO-pagina's)
 - **Subtypes** (optioneel): lijst met subtypes die geen apart BO zijn
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, matchsterkte
+- **Naamkeuze** (optioneel): wanneer stap 4c een homoniem-naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/bedrijfsobject.md` voor format.
 - **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/bedrijfsobject.md` voor format.
 - **BO-definitie**: alleen als eigen definitie afwijkt van GGM
 - **Relaties**: afgeleid van GGM-associaties of beleidsbronnen

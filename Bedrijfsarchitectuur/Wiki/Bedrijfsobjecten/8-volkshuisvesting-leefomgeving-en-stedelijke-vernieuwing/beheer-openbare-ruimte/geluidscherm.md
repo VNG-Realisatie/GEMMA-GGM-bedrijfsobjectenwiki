@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Fysieke constructie langs een weg of spoorlijn die geluidhinder voor de omgeving vermindert."
+bo_definitie: "Fysieke constructie langs een weg of spoorlijn die geluidhinder voor de omgeving vermindert."
 bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [beheer openbare ruimte, milieubeheer]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"
     richting: "van-dit-BO"

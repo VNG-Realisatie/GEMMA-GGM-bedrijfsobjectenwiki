@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "gelijk aan GGM"
-gemma_subtypes: []
-relaties:
+bo_definitie: "Opdracht voor uitvoering van een onderhoudstaak aan een vastgoedobject, met omschrijving van het werk, de locatie en de uitvoerder."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedobject]]"
     richting: naar-dit-BO

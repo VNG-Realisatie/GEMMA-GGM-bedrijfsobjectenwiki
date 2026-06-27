@@ -27,14 +27,14 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Afgebakend gebied waarbinnen toegangsbeperkingen gelden voor voertuigen op basis van emissieklasse en brandstofsoort, ingesteld ter verbetering van de luchtkwaliteit."
-gemma_subtypes:
+bo_definitie: "Afgebakend gebied waarbinnen toegangsbeperkingen gelden voor voertuigen op basis van emissieklasse en brandstofsoort, ingesteld ter verbetering van de luchtkwaliteit."
+bo_subtypes:
   - naam: Nul-emissiezone
     omschrijving: "Zone waarbinnen uitsluitend uitstootvrije voertuigen zijn toegelaten"
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Ontheffing (milieuzone)]]"
     richting: naar-dit-BO

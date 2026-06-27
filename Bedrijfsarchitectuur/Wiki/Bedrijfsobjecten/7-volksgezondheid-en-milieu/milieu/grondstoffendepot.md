@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Opslaglocatie voor vrijkomende materialen uit de openbare ruimte, bestemd voor hergebruik in projecten."
+bo_definitie: "Opslaglocatie voor vrijkomende materialen uit de openbare ruimte, bestemd voor hergebruik in projecten."
 bedrijfsprocessen: [Materiaalopslag, Materiaalmatch (vraag-aanbod), Circulair beheer openbare ruimte]
 bedrijfsfuncties: [Beheer openbare ruimte, Circulaire economie]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

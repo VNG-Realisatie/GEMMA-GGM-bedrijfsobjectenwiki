@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Toestemming van de gemeente aan een organisator om een evenement te organiseren op een specifieke locatie en datum."
+bo_definitie: "Toestemming van de gemeente aan een organisator om een evenement te organiseren op een specifieke locatie en datum."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vergunningen en ontheffingen]]"
     richting: van-dit-BO

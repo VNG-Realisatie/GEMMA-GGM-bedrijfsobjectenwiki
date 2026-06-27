@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Verhard oppervlak in de openbare ruimte — rijbaan, fietspad, voetpad of parkeervak — dat de gemeente beheert en onderhoudt."
-gemma_subtypes:
+bo_definitie: "Verhard oppervlak in de openbare ruimte — rijbaan, fietspad, voetpad of parkeervak — dat de gemeente beheert en onderhoudt."
+bo_subtypes:
   - naam: Rijbaan
     omschrijving: "Verharding bestemd voor gemotoriseerd verkeer"
     ggm_entiteit: Verhardingsobject
@@ -61,7 +61,7 @@ gemma_subtypes:
     ggm_entiteit: Verhardingsobject
     ggm_guid: EAID_47F12418_C5F8_44E0_8EC6_3D0C5993372
     ggm_attribuut: materiaal
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"

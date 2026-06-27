@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Verkeersregelinstallatie in de openbare ruimte die het verkeer regelt op kruispunten en oversteekplaatsen."
-relaties:
+bo_definitie: "Verkeersregelinstallatie in de openbare ruimte die het verkeer regelt op kruispunten en oversteekplaatsen."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"

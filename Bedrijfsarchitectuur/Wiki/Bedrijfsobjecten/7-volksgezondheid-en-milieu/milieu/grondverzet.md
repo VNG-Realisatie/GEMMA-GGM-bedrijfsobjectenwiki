@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Registratie van een grondverplaatsing met herkomstlocatie, bestemmingslocatie, kwaliteit en volume."
+bo_definitie: "Registratie van een grondverplaatsing met herkomstlocatie, bestemmingslocatie, kwaliteit en volume."
 bedrijfsprocessen: [grondverzet beoordelen, milieuhandhaving, bodembeheer]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart|Bodemkwaliteitskaart]]"
     richting: "naar-dit-BO"

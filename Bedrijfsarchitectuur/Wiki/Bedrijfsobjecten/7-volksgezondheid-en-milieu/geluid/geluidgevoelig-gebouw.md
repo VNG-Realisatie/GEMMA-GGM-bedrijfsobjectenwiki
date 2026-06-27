@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gebouw waarvoor wettelijke geluidnormen gelden, zoals een woning, school of zorginstelling."
+bo_definitie: "Gebouw waarvoor wettelijke geluidnormen gelden, zoals een woning, school of zorginstelling."
 bedrijfsprocessen: [ruimtelijke planvorming, vergunningverlening, maatregelenonderzoek]
 bedrijfsfuncties: [ruimtelijke ordening, milieubeheer, bouwen en wonen]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"
     richting: "van-dit-BO"

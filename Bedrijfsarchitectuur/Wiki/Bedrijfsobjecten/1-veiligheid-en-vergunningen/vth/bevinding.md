@@ -27,9 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Uitkomst van een inspectie of waarneming die vastlegt wat is geconstateerd, inclusief het controle-element, het niveau, het resultaat en het risico."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Uitkomst van een inspectie of waarneming die vastlegt wat is geconstateerd, inclusief het controle-element, het niveau, het resultaat en het risico."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inspectie]]"
     richting: van-dit-BO

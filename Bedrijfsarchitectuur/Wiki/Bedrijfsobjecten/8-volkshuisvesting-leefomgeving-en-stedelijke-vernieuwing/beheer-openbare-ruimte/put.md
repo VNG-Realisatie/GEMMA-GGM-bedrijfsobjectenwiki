@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Verticale constructie in het rioleringssysteem voor aansluiting, inspectie en onderhoud van leidingen."
-gemma_subtypes:
+bo_definitie: "Verticale constructie in het rioleringssysteem voor aansluiting, inspectie en onderhoud van leidingen."
+bo_subtypes:
   - naam: "Drainageput"
     omschrijving: Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
     ggm_entiteit: Drainageput
@@ -41,7 +41,7 @@ gemma_subtypes:
     ggm_entiteit: Infiltratieput
     ggm_guid: EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB
     ggm_attribuut: generalisatie
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel

@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."
-relaties:
+bo_definitie: "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Dienstverband]]"
     richting: van-dit-BO

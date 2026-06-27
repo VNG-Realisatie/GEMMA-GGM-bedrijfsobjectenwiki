@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-d10d2101-2e16-4f56-bcce-43783fd256be"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Achteraf vorderen van parkeerbelasting wanneer bij controle geen geldig parkeerrecht wordt aangetroffen."
+bo_definitie: "Achteraf vorderen van parkeerbelasting wanneer bij controle geen geldig parkeerrecht wordt aangetroffen."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeerscan]]"
     richting: "naar-dit-BO"

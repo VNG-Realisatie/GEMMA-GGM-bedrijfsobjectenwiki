@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Vastgestelde eenheid in het formatieplan, uitgedrukt in fte, gekoppeld aan een functie en organisatorische eenheid."
-relaties:
+bo_definitie: "Vastgestelde eenheid in het formatieplan, uitgedrukt in fte, gekoppeld aan een functie en organisatorische eenheid."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Functie]]"
     richting: van-dit-BO

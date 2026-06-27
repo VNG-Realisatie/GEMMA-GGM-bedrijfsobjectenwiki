@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Samenhangend geheel van gemeentelijke activiteiten dat als eenheid in de begroting wordt verantwoord."
+bo_definitie: "Samenhangend geheel van gemeentelijke activiteiten dat als eenheid in de begroting wordt verantwoord."
 definitie: Een samenhangend geheel van activiteiten en taken dat onder een programma hangt
 bedrijfsprocessen: [Begrotingscyclus, IV3-verantwoording]
 bedrijfsfuncties: [Planning en control, Financieel beheer]

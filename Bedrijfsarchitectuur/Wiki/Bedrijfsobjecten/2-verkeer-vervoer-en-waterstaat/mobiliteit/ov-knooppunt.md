@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen.
+bo_definitie: Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen.
 bedrijfsprocessen:
 - OV-beleid
 - Verkeersmanagement
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Openbaar vervoer
 - Verkeersmanagement
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|OV-lijn]]'
   richting: van-dit-BO

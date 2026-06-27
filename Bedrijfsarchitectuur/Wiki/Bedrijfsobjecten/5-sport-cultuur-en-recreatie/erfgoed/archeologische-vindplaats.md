@@ -27,7 +27,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden.
+bo_definitie: Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden.
 bedrijfsprocessen:
 - Archeologisch advies
 - Selectiebesluit
@@ -35,7 +35,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Erfgoedbeheer
 - Ruimtelijke ordening
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|Archeologisch onderzoek]]'
   richting: naar-dit-BO

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
-relaties:
+bo_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Gunning]]"
     richting: van-dit-BO

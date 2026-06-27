@@ -34,9 +34,9 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "alleen datum en bevindingen (minder attributen dan VTH-variant)"
 
-gemma_definitie: "Periodieke controle waarbij de toestand van een bouwwerk, activiteit of situatie wordt vastgesteld — zowel in het kader van VTH-toezicht als vastgoedbeheer."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Periodieke controle waarbij de toestand van een bouwwerk, activiteit of situatie wordt vastgesteld — zowel in het kader van VTH-toezicht als vastgoedbeheer."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[VTH-zaak]]"
     richting: van-dit-BO

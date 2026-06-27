@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (IdentificatiecodeOpenbareRuimte, statusOpenbareRuimte, etc.); voegt IMGeo-identificatie toe; minder attributen (geen versie, wegsegment, straatcode, documentvelden); voegt inOnderzoek toe"
 
-gemma_definitie: "Door de gemeente aangewezen en van een naam voorziene buitenruimte binnen één woonplaats, als onderdeel van de adresseringshiërarchie in de BAG."
-relaties:
+bo_definitie: "Door de gemeente aangewezen en van een naam voorziene buitenruimte binnen één woonplaats, als onderdeel van de adresseringshiërarchie in de BAG."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woonplaats]]"
     richting: "naar-dit-BO"

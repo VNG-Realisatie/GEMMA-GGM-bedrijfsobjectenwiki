@@ -49,7 +49,7 @@ Het GGM modelleert dit als beleidsdomein "Inkoop" onder taakveld 9 (Interne Orga
 
 ## Terugmeldingen richting GGM
 
-4 terugmeldingen (#78-#81) in [[Wiki/Analyses/ggm-terugmeldingen]]:
+4 terugmeldingen (#78-#81) in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]]:
 - #78: Leverancier — duplicaat (2 GUIDs)
 - #79: Offerte — duplicaat (3 GUIDs)
 - #80: Inschrijving — homoniem (Inkoop vs. Onderwijs)

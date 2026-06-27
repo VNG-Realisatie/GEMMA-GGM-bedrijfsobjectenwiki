@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a9b50546-d72d-4e60-8da5-184a27a626c5"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Voorziening voor het gescheiden inzamelen van huishoudelijke afvalstoffen."
+bo_definitie: "Voorziening voor het gescheiden inzamelen van huishoudelijke afvalstoffen."
 bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]
 bedrijfsfuncties: [Afvalbeheer]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid.
+bo_definitie: Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid.
 bedrijfsprocessen:
 - Routering goederenvervoer
 - Verkeersmanagement
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Goederenvervoerbeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/overslagpunt|Overslagpunt]]'
   richting: van-dit-BO

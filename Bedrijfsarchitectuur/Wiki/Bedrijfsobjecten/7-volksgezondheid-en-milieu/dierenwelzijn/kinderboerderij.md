@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Openbaar toegankelijke boerderij waar boerderijdieren in kleine aantallen worden gehouden voor educatie en ontmoeting, beheerd door een professionele organisatie."
-relaties:
+bo_definitie: "Openbaar toegankelijke boerderij waar boerderijdieren in kleine aantallen worden gehouden voor educatie en ontmoeting, beheerd door een professionele organisatie."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[dierenweide]]"
     richting: bidirectioneel

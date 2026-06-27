@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een persoon met een persoonslijst in de Basisregistratie Personen (BRP), bijgehouden door een gemeente (ingezetene) of de RNI (niet-ingezetene)."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Een persoon met een persoonslijst in de Basisregistratie Personen (BRP), bijgehouden door een gemeente (ingezetene) of de RNI (niet-ingezetene)."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Nummeraanduiding]]"
     richting: van-dit-BO

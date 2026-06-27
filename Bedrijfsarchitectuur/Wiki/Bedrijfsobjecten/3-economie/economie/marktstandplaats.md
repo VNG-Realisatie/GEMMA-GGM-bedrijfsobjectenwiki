@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen locatie in de openbare ruimte waar goederen of diensten te koop worden aangeboden met verplaatsbare fysieke middelen, gereguleerd via de APV."
+bo_definitie: "Aangewezen locatie in de openbare ruimte waar goederen of diensten te koop worden aangeboden met verplaatsbare fysieke middelen, gereguleerd via de APV."
 bedrijfsprocessen: [standplaatsvergunningverlening, branchering ambulante handel, monitoring detailhandel]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
-relaties:
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[warenmarkt]]"
     richting: "naar-dit-BO"

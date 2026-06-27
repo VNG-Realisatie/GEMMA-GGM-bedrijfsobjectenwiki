@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afspraak tussen de gemeente en de debiteur over de termijnen en bedragen waarmee een vordering wordt afgelost."
+bo_definitie: "Afspraak tussen de gemeente en de debiteur over de termijnen en bedragen waarmee een vordering wordt afgelost."
 definitie: Alle afspraken tussen de gemeente en de debiteur over op welke vordering per wanneer welk bedrag wordt afgelost
 bedrijfsprocessen: [Invordering, Schuldbeheer]
 bedrijfsfuncties: [Inning en invordering]

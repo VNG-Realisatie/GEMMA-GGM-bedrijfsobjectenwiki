@@ -39,8 +39,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "De vastlegging van welke persoon welk zakelijk recht uitoefent op welk kadastraal object."
-relaties:
+bo_definitie: "De vastlegging van welke persoon welk zakelijk recht uitoefent op welk kadastraal object."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Zakelijk Recht]]"
     richting: van-dit-BO

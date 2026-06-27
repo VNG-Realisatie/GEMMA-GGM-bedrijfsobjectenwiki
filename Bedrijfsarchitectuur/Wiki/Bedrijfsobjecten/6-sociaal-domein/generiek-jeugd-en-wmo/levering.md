@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Daadwerkelijk geleverde zorg of ondersteuning door een zorgaanbieder aan een cliënt."
-relaties:
+bo_definitie: "Daadwerkelijk geleverde zorg of ondersteuning door een zorgaanbieder aan een cliënt."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing|Toewijzing]]"
     richting: naar-dit-BO

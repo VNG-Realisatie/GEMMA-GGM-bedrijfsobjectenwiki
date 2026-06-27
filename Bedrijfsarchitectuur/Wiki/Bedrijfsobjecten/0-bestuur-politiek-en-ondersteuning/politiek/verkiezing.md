@@ -25,10 +25,10 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling.
+bo_definitie: Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling.
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
-relaties:
+bo_relaties:
 - type: compositie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]'
   richting: van-dit-BO

@@ -39,8 +39,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Niet op een diagram geplaatst"
 
-gemma_definitie: "Aanbod van een leverancier met prijsopgave voor de levering van goederen, diensten of werken aan de gemeente."
-relaties:
+bo_definitie: "Aanbod van een leverancier met prijsopgave voor de levering van goederen, diensten of werken aan de gemeente."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"
     richting: naar-dit-BO
@@ -93,7 +93,7 @@ De GGM-entiteit "Offerte" komt voor met 3 GUIDs:
 | Inkoop | `EAID_EF55544A_F59B_4411_A3D2_9C1A2BA2663C` | duplicaat — niet op een diagram geplaatst |
 | Inkoop | `EAID_B259BE5F_AC3A_4e0f_A149_D1F165277CC2` | duplicaat — niet op een diagram geplaatst |
 
-Teruggemeld als #79 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #79 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

@@ -45,6 +45,19 @@ Combinatieregels:
 | instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
 | actor/doelgroep + operationeel | BO-kandidaat (actor-object), in GEMMA als Business Actor |
 
+### Stap 3b: Duplicaat/homoniem-detectie (signaal)
+
+Voordat de structuuranalyse begint: check of het begrip een naam deelt met een bestaand BO of GGM-entiteit in een ander domein.
+
+1. **Check bestaande BO's** — zoek in `Wiki/Bedrijfsobjecten/` of er al een BO met dezelfde naam (of een synoniem) bestaat in een ander domein.
+2. **Check GGM** — zoek in `Sources/GGM/` of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
+3. **Classificeer** het signaal:
+   - **Duplicaat** (zelfde concept, ander domein) — dit begrip is al afgedekt door een bestaand BO. Verwijs ernaar in het onderwerpoverzicht, maak geen nieuw BO aan.
+   - **Homoniem** (andere naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-bo` een disambiguerende naam kiezen.
+   - **Geen conflict** — ga door met de normale flow.
+
+**Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-bo` stap 4b-4c.
+
 ## FASE B — STRUCTUURANALYSE (vóór BO-criteria)
 
 ### Stap 4: Specialisaties en generalisaties afleiden
@@ -119,7 +132,7 @@ Gebruik het resultaat van stap 4 om de eigenstandig afgeleide specialisaties en 
 
 | Patroon | Wanneer | Vastleggen als |
 |---|---|---|
-| **Subtypes** | Children zijn geen apart BO (uitwisselbaar) | `## Subtypes` + `gemma_subtypes` frontmatter bij parent-BO |
+| **Subtypes** | Children zijn geen apart BO (uitwisselbaar) | `## Subtypes` + `bo_subtypes` frontmatter bij parent-BO |
 | **Specialisaties** | Children zijn wél apart BO (eigen processen) | `## Specialisaties` bij parent-BO + `generalisatie`-relatie bij child-BO's |
 | **Generalisatie** | BO's delen structuur in een hiërarchie | `## Generalisatie` bij elk niveau-BO |
 
@@ -182,6 +195,7 @@ Per begrip presenteren:
 - **Criteria-score** (bijv. 5/6)
 - **Voorstel:** BO / geen BO / subtype van [parent]
 - **Data-object:** ja / nee
+- **Naamconflict:** geen / duplicaat van [[bestaand-BO]] / homoniem (naamkeuze nodig)
 - **Argument:** 1-2 zinnen
 
 Vragen per begrip, niet in batch.

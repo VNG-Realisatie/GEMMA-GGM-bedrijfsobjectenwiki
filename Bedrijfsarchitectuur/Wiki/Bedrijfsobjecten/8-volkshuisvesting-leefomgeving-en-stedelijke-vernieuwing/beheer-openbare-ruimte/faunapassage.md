@@ -26,10 +26,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
+bo_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Overbruggingsobject (GGM)
     richting: "van-dit-BO"

@@ -26,8 +26,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater.
-relaties:
+bo_definitie: Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater.
+bo_relaties:
 - type: generalisatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
   richting: van-dit-BO

@@ -33,7 +33,7 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie.
+bo_definitie: Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie.
 bedrijfsprocessen:
 - Afsprakenbeheer
 - Klantcontactregistratie
@@ -41,7 +41,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Dienstverlening
 - Klantcontactcentrum
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|Product of dienst]]'
   richting: van-dit-BO

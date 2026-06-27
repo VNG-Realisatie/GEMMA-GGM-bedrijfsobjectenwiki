@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Kaart met de vastgestelde bodemkwaliteit per zone, op basis waarvan grondhergebruik wordt beoordeeld."
+bo_definitie: "Kaart met de vastgestelde bodemkwaliteit per zone, op basis waarvan grondhergebruik wordt beoordeeld."
 bedrijfsprocessen: [bodembeheer, grondverzet beoordelen, bodemonderzoek]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondverzet|Grondverzet]]"
     richting: "naar-dit-BO"

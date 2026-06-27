@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Formeel besluit van de werkgever jegens een werknemer bij plichtsverzuim of wangedrag."
-gemma_subtypes:
+bo_definitie: "Formeel besluit van de werkgever jegens een werknemer bij plichtsverzuim of wangedrag."
+bo_subtypes:
   - naam: Schriftelijke waarschuwing
     omschrijving: "Formele waarschuwing of berisping"
     ggm_entiteit:
@@ -49,7 +49,7 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

@@ -25,8 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd.
-relaties:
+bo_definitie: Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|Bestuursovereenkomst]]'
   richting: van-dit-BO

@@ -24,8 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Individuele vaststelling van het belastingbedrag door de heffingsambtenaar, resulterend in een betalingsverplichting."
-relaties:
+bo_definitie: "Individuele vaststelling van het belastingbedrag door de heffingsambtenaar, resulterend in een betalingsverplichting."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag|Heffinggrondslag]]"
     richting: "naar-dit-BO"

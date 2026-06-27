@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-5e8930d4-8f06-4075-bf2b
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Inschrijving (Onderwijs)"
 
-gemma_definitie: "Registratie van de deelname van een leerling aan onderwijs bij een school."
-relaties:
+bo_definitie: "Registratie van de deelname van een leerling aan onderwijs bij een school."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
     richting: naar-dit-BO

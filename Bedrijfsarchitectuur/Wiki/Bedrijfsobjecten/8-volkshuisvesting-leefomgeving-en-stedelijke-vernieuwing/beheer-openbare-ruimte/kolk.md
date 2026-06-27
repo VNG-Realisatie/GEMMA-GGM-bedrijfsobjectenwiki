@@ -27,8 +27,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond.
-relaties:
+bo_definitie: Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond.
+bo_relaties:
 - type: generalisatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|Put]]'
   richting: van-dit-BO

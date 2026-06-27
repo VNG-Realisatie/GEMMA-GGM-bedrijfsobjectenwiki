@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-360b8000-41ce-453f-bed8-b0cc7fa21164"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afgebakend stuk terrein met aaneengesloten vegetatie dat de gemeente beheert als onderdeel van de stedelijke groenstructuur."
+bo_definitie: "Afgebakend stuk terrein met aaneengesloten vegetatie dat de gemeente beheert als onderdeel van de stedelijke groenstructuur."
 bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"

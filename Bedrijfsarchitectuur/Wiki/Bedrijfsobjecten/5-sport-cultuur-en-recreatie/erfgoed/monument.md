@@ -32,8 +32,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister.
-gemma_subtypes:
+bo_definitie: Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister.
+bo_subtypes:
 - naam: kerkgebouw
   omschrijving: Religieus gebouw (kapittels, parochiekerken, kloosters)
   ggm_entiteit: Beschermde Status
@@ -81,7 +81,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Erfgoedbeheer
 - Vergunningverlening
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]]'
   richting: van-dit-BO

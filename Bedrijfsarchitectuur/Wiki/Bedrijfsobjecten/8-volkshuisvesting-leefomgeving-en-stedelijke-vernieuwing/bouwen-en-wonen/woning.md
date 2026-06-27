@@ -27,8 +27,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-69e60d64-7165-488f-a39
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden, met kenmerken als oppervlakte, woningtype en prijssegment."
-gemma_subtypes:
+bo_definitie: "Een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden, met kenmerken als oppervlakte, woningtype en prijssegment."
+bo_subtypes:
   - naam: "Sociale huurwoning"
     omschrijving: "Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling"
     ggm_entiteit: Huurwoningen
@@ -46,7 +46,7 @@ gemma_subtypes:
     ggm_entiteit: Studentenwoningen
     ggm_guid: EAID_98C74EAB_3411_4d1a_8321_FF30567B6877
     ggm_attribuut: generalisatie
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woningbouwplan]]"
     richting: naar-dit-BO

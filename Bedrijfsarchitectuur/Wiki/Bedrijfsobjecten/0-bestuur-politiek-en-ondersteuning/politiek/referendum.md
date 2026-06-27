@@ -25,10 +25,10 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Volksstemming over een onderwerp, ingesteld door de raad of op grond van burgerbetrokkenheid, georganiseerd en uitgevoerd door de gemeente.
+bo_definitie: Volksstemming over een onderwerp, ingesteld door de raad of op grond van burgerbetrokkenheid, georganiseerd en uitgevoerd door de gemeente.
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
-relaties:
+bo_relaties:
 - type: compositie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]'
   richting: van-dit-BO

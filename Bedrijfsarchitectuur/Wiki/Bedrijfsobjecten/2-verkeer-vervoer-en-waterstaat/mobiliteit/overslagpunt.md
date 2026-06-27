@@ -25,13 +25,13 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor).
+bo_definitie: Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor).
 bedrijfsprocessen:
 - Goederenvervoerbeleid
 - Havenbeheer
 bedrijfsfuncties:
 - Goederenvervoerbeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
   richting: naar-dit-BO

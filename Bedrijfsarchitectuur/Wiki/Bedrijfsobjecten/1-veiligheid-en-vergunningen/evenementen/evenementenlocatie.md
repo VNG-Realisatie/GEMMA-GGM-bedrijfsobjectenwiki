@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
+bo_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Evenement]]"
     richting: "naar-dit-BO"

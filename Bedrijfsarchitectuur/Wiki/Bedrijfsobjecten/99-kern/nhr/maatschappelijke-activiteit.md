@@ -49,8 +49,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Activiteit van een persoon of organisatie, geregistreerd in het Handelsregister met KVK-nummer."
-relaties:
+bo_definitie: "Activiteit van een persoon of organisatie, geregistreerd in het Handelsregister met KVK-nummer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Niet-Natuurlijk Persoon]]"
     richting: naar-dit-BO

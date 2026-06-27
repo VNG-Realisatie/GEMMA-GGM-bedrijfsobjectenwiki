@@ -28,8 +28,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-25fe4f05-5edf-451d-9c67-1dd286a162af
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: 'Module Arbeidsmarkt en Participatie: verplicht onderdeel van het inburgeringstraject gericht op arbeidstoeleiding.'
-relaties:
+bo_definitie: 'Module Arbeidsmarkt en Participatie: verplicht onderdeel van het inburgeringstraject gericht op arbeidstoeleiding.'
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]'
   richting: naar-dit-BO

@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."
-gemma_subtypes:
+bo_definitie: "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."
+bo_subtypes:
   - naam: Arbeidsovereenkomst voor onbepaalde tijd
     omschrijving: "Vast contract zonder einddatum"
     ggm_entiteit:
@@ -49,7 +49,7 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

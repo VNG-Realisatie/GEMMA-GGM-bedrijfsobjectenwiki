@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen.
+bo_definitie: Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen.
 bedrijfsprocessen:
 - Beheer openbare ruimte
 - Goederenvervoerbeleid
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Goederenvervoerbeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
   richting: naar-dit-BO

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Overeenkomst met een externe verwerker die namens de gemeente persoonsgegevens verwerkt, met verplichte bepalingen over doel, beveiliging en datalekmelding (art. 28 AVG)."
-relaties:
+bo_definitie: "Overeenkomst met een externe verwerker die namens de gemeente persoonsgegevens verwerkt, met verplichte bepalingen over doel, beveiliging en datalekmelding (art. 28 AVG)."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|Verwerkingsactiviteit]]"
     richting: van-dit-BO

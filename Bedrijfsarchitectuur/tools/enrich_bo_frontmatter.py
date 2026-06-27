@@ -44,7 +44,7 @@ def parse_frontmatter(content: str) -> tuple[dict, str, str]:
     fm_raw = parts[1]
     body = parts[2]
 
-    # Simple YAML parse for flat fields + relaties block
+    # Simple YAML parse for flat fields + bo_relaties block
     fields = {}
     current_key = None
     current_list = None
@@ -60,9 +60,9 @@ def parse_frontmatter(content: str) -> tuple[dict, str, str]:
             value = match.group(2).strip()
             current_key = key
 
-            if key == 'relaties':
+            if key in ('bo_relaties', 'relaties'):
                 current_list = []
-                fields[key] = current_list
+                fields['bo_relaties'] = current_list
             elif value.startswith('[') and value.endswith(']'):
                 items = [v.strip().strip('"').strip("'")
                          for v in value[1:-1].split(',') if v.strip()]
@@ -73,7 +73,7 @@ def parse_frontmatter(content: str) -> tuple[dict, str, str]:
                 fields[key] = value[1:-1]
             else:
                 fields[key] = value
-        elif line.startswith('  - type:') and current_key == 'relaties':
+        elif line.startswith('  - type:') and current_key in ('bo_relaties', 'relaties'):
             current_list.append({'type': line.split(':', 1)[1].strip()})
         elif line.startswith('    ') and current_list and current_list:
             m = re.match(r'\s+(\w+)\s*:\s*(.*)', line)
@@ -88,7 +88,7 @@ def build_new_frontmatter(fields: dict, entity: dict | None, data: dict) -> str:
     lines = []
 
     def add_field(key, value):
-        if isinstance(value, list) and key != 'relaties':
+        if isinstance(value, list) and key != 'bo_relaties':
             if value:
                 lines.append(f'{key}: [{", ".join(str(v) for v in value)}]')
             else:
@@ -192,9 +192,9 @@ def build_new_frontmatter(fields: dict, entity: dict | None, data: dict) -> str:
         add_quoted_field('ggm_gemma_bron', '')
         add_quoted_field('ggm_gemma_alternate_name', '')
 
-    # GEMMA definition (wiki's own)
-    gemma_def = fields.get('gemma_definitie', '')
-    add_quoted_field('gemma_definitie', gemma_def)
+    # BO definition (wiki's own)
+    bo_def = fields.get('bo_definitie', fields.get('gemma_definitie', ''))
+    add_quoted_field('bo_definitie', bo_def)
 
     # Remaining fields
     for key in ('definitie', 'gerelateerde_begrippen', 'bedrijfsprocessen',
@@ -203,9 +203,9 @@ def build_new_frontmatter(fields: dict, entity: dict | None, data: dict) -> str:
             add_field(key, fields[key])
 
     # Relaties block
-    if 'relaties' in fields and fields['relaties']:
-        lines.append('relaties:')
-        for rel in fields['relaties']:
+    if 'bo_relaties' in fields and fields['bo_relaties']:
+        lines.append('bo_relaties:')
+        for rel in fields['bo_relaties']:
             lines.append(f'  - type: {rel.get("type", "")}')
             for rkey in ('bedrijfsobject', 'richting', 'kardinaliteit', 'beschrijving'):
                 if rkey in rel:

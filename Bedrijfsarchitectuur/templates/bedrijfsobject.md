@@ -44,10 +44,19 @@ ggm_duplicaat_entiteiten: []
 #    taakveld: {taakveld}
 #    afwijkende_attributen: {korte beschrijving van attribuutverschillen, leeg als identiek}
 
-# GEMMA-velden — beheerd door het GEMMA-team via deze wiki
-gemma_definitie: {GEMMA-definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
-gemma_subtypes: []                  # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
-relaties:
+# Wiki-velden — het uit bronnen afgeleide BO-model, beheerd door het GEMMA-team via deze wiki
+bo_definitie: {definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
+bo_subtypes: []                     # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
+bo_synoniemen: []
+#  - naam: {alternatieve naam}
+#    context: {waar deze naam wordt gebruikt, bijv. "GGM", "beleidsdocumenten", "dagelijks gebruik"}
+bo_homoniemen: []
+#  - bedrijfsobject: {wiki-link naar het andere BO, bijv. "[[Inschrijving (Onderwijs)]]"}
+#    ggm_entiteit: {GGM-entiteitnaam}
+#    ggm_guid: {EA GUID van het andere concept}
+#    ggm_beleidsdomein: {beleidsdomein van het andere concept}
+#    toelichting: {waarom het een ander concept is}
+bo_relaties:
   - type: {associatie | compositie | generalisatie}
     bedrijfsobject: [[gerelateerd-bedrijfsobject]]
     richting: {van-dit-BO | naar-dit-BO | bidirectioneel}
@@ -60,20 +69,20 @@ bedrijfsfuncties: [{bedrijfsfuncties}]
 
 ### Linkconventie frontmatter
 
-- **relaties.bedrijfsobject:** wiki-link naar het gerelateerde BO (bijv. `[[Verkiezing]]`)
+- **bo_relaties.bedrijfsobject:** wiki-link naar het gerelateerde BO (bijv. `[[Verkiezing]]`)
 
 ### Drie naamvelden
 
 Elk veld bestaat in een GGM-, GGM-GEMMA- en GEMMA-variant:
 
-| Veld | GGM (XMI-bron) | GGM-GEMMA (referentie) | GEMMA (wiki/export) |
+| Veld | GGM (XMI-bron) | GGM-GEMMA (referentie) | Wiki (BO-model) |
 |---|---|---|---|
 | naam | `ggm_entiteit` | `ggm_gemma_naam` | `naam` |
-| definitie | `ggm_definitie` | `ggm_gemma_definitie` | `gemma_definitie` |
+| definitie | `ggm_definitie` | `ggm_gemma_definitie` | `bo_definitie` |
 | toelichting | `ggm_toelichting` | `ggm_gemma_toelichting` | *(toekomstig)* |
-| synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | *(toekomstig)* |
+| synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | `bo_synoniemen` |
 
-Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `gemma_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
+Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `bo_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
 
 ### Status
 
@@ -110,6 +119,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Subtypes** (optioneel): herkende specialisaties die geen apart BO zijn maar wel herkenbaar in de praktijk. Gevonden in bronnen én/of GGM. Gestructureerd als lijst met vetgedrukte naam en toelichting. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zelfde format als Subtypes. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
+- **Naamkeuze** (optioneel): wanneer de BO-naam afwijkt van de GGM-entiteitnaam door homoniem-disambiguatie. Documenteert welke namen zijn overwogen en waarom deze naam is gekozen. Zie [format hieronder](#naamkeuze-format).
 - **GGM-duplicaten** (optioneel): wanneer dezelfde entiteitnaam in meerdere GGM-beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt (bijv. BAG en RSGBPlus). Beschrijft welke duplicaten bestaan, waarom de primaire GUID is gekozen, en eventuele attribuutverschillen. Zie [format hieronder](#ggm-duplicaten-format). **Niet** gebruiken voor homoniemen (zelfde naam, ander concept).
 - **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
@@ -186,7 +196,7 @@ Gebruik `## GGM-duplicaten` wanneer dezelfde GGM-entiteitnaam in meerdere beleid
 - **Echte duplicaten** — zelfde concept, twee GUIDs (bijv. BAG en RSGBPlus) → terugmelding type `duplicaat`: "samenvoegen"
 - **Homoniemen** — zelfde naam, ander concept (bijv. Standplaats BAG vs Standplaats Musea) → terugmelding type `homoniem`: "hernoemadvies"
 
-Homoniemen worden **niet** in `ggm_duplicaat_entiteiten` opgenomen (het is een ander concept), maar wél in de body vermeld als waarschuwing.
+Homoniemen worden **niet** in `ggm_duplicaat_entiteiten` opgenomen (het is een ander concept), maar wél in `homoniemen` (frontmatter) en in de body als cross-link.
 
 ```markdown
 ## GGM-duplicaten
@@ -203,4 +213,19 @@ De GGM-entiteit "{naam}" komt voor in {n} beleidsdomeinen:
 **Homoniem:** de GGM-entiteit "{naam}" in beleidsdomein {domein} is een ander concept ({korte uitleg}). Zie [[BO-van-dat-concept]] / niet te verwarren.
 
 Teruggemeld als #{nr} in [[Wiki/Analyses/ggm-terugmeldingen]].
+```
+
+### Naamkeuze format
+
+Gebruik `## Naamkeuze` wanneer de BO-naam afwijkt van de GGM-entiteitnaam, typisch door homoniem-disambiguatie. Documenteert de overwogen namen en motivatie.
+
+```markdown
+## Naamkeuze
+
+De GGM-entiteitnaam "{originele naam}" is een homoniem — dezelfde naam wordt in beleidsdomein {ander domein} gebruikt voor een ander concept. Dit BO heet **{gekozen naam}**.
+
+**Overwogen namen:**
+- **{gekozen naam}** — {waarom gekozen}
+- {alternatief 1} — {waarom niet gekozen}
+- {alternatief 2} — {waarom niet gekozen}
 ```

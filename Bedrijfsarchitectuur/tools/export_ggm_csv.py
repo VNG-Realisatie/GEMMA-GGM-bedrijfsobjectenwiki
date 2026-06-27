@@ -38,7 +38,11 @@ def load_xmi_data(json_path: str) -> dict:
 
 
 def load_wiki_bo_pages() -> dict:
-    """Load all wiki BO pages. Returns dict keyed by ggm_guid and by naam."""
+    """Load all wiki BO pages. Returns dict keyed by ggm_guid and by naam.
+
+    When a BO has ggm_duplicaat_entiteiten, the same BO entry is registered
+    under each duplicate GUID so that the export generates a row per GUID.
+    """
     by_guid = {}
     by_name = {}
     for md in WIKI_BO.rglob('*.md'):
@@ -57,13 +61,13 @@ def load_wiki_bo_pages() -> dict:
         if not fm or fm.get('type') != 'bedrijfsobject':
             continue
 
-        subtypes = fm.get('gemma_subtypes', [])
+        subtypes = fm.get('bo_subtypes', [])
         subtypes_str = ', '.join(s.get('naam', '') for s in subtypes) if subtypes else ''
 
         entry = {
             'naam': fm.get('naam', ''),
-            'gemma_definitie': fm.get('gemma_definitie', ''),
-            'gemma_subtypes': subtypes_str,
+            'bo_definitie': fm.get('bo_definitie', ''),
+            'bo_subtypes': subtypes_str,
             'ggm_guid': fm.get('ggm_guid', ''),
             'ggm_entiteit': fm.get('ggm_entiteit', ''),
             'grondslag': fm.get('grondslag', ''),
@@ -72,6 +76,15 @@ def load_wiki_bo_pages() -> dict:
             by_guid[entry['ggm_guid']] = entry
         if entry['naam']:
             by_name[entry['naam']] = entry
+
+        # Register duplicate GUIDs so the export emits a row per GUID
+        duplicates = fm.get('ggm_duplicaat_entiteiten', [])
+        if duplicates:
+            for dup in duplicates:
+                dup_guid = dup.get('guid', '')
+                if dup_guid and dup_guid not in by_guid:
+                    by_guid[dup_guid] = entry
+
     return by_guid, by_name
 
 
@@ -166,8 +179,8 @@ def export_objecten(data: dict, bo_by_guid: dict, bo_by_name: dict,
         # Wiki BO lookup
         bo = bo_by_guid.get(eid) or bo_by_name.get(name)
         wiki_naam = bo['naam'] if bo else ''
-        wiki_def = bo.get('gemma_definitie', '') if bo else ''
-        wiki_subtypes = bo.get('gemma_subtypes', '') if bo else ''
+        wiki_def = bo.get('bo_definitie', '') if bo else ''
+        wiki_subtypes = bo.get('bo_subtypes', '') if bo else ''
         if wiki_def == 'gelijk aan GGM':
             wiki_def = ''
 

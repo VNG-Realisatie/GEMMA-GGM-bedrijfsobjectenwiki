@@ -28,8 +28,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-b48d2c3e-646e-4858-b98a-b776f949cd8f
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: 'Participatieverklaringstraject: verplicht onderdeel van de inburgering waarin de inburgeraar kennismaakt met Nederlandse kernwaarden.'
-relaties:
+bo_definitie: 'Participatieverklaringstraject: verplicht onderdeel van de inburgering waarin de inburgeraar kennismaakt met Nederlandse kernwaarden.'
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]'
   richting: naar-dit-BO

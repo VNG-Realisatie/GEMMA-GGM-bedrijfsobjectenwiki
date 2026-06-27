@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
+bo_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
 bedrijfsprocessen: [Invordering, Handhaving]
 bedrijfsfuncties: [Inning en invordering]

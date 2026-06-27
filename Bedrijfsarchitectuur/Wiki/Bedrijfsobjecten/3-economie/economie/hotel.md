@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4b2cc303-de99-49c4-968f-836a71825814"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
+bo_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
 bedrijfsprocessen: [hotelvergunningverlening, hotelbeleid, toeristenbelastingheffing]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vestiging]]"
     richting: "van-dit-BO"

@@ -14,9 +14,9 @@ ggm_diagram: [Schuldhulpproces]
 ggm_definitie: "Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen."
 ggm_herkomst: GGM
 
-gemma_definitie: "Wettelijk schuldsaneringstraject (Wsnp) onder toezicht van een bewindvoerder, als het minnelijke traject niet slaagt."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Wettelijk schuldsaneringstraject (Wsnp) onder toezicht van een bewindvoerder, als het minnelijke traject niet slaagt."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[schuldhulptraject]]"
     richting: naar-dit-BO

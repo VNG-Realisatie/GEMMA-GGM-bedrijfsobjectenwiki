@@ -27,9 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Actie van de gemeente om contact te leggen met een inwoner naar aanleiding van een vroegsignaal."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Actie van de gemeente om contact te leggen met een inwoner naar aanleiding van een vroegsignaal."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[vroegsignaalzaak]]"
     richting: naar-dit-BO

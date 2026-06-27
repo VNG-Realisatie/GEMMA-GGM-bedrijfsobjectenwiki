@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Door de gemeente verstrekte subsidie aan een decentrale politieke partij ter ondersteuning van de partijorganisatie en versterking van de lokale democratie."
+bo_definitie: "Door de gemeente verstrekte subsidie aan een decentrale politieke partij ter ondersteuning van de partijorganisatie en versterking van de lokale democratie."
 bedrijfsprocessen:
   - Subsidieaanvraag beoordelen
   - Subsidie vaststellen en uitbetalen
@@ -32,7 +32,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
   - Democratische ondersteuning
   - Subsidieverstrekking
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Verkiezing]]"
     richting: van-dit-BO

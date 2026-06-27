@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e2ea124f-56ce-4614-9e32
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
-relaties:
+bo_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
     richting: van-dit-BO

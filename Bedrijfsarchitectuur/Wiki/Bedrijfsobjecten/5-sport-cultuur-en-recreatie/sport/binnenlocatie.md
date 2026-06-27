@@ -24,8 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cda4149f-f0a0-44d9-b893-25bcce04d20d"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Binnensportaccommodatie zoals een sporthal of gymzaal, met eigen capaciteitsberekening en bezettingsgraad."
-gemma_subtypes:
+bo_definitie: "Binnensportaccommodatie zoals een sporthal of gymzaal, met eigen capaciteitsberekening en bezettingsgraad."
+bo_subtypes:
   - naam: sporthal
     omschrijving: "Grote binnensportaccommodatie voor meerdere sporten en verenigingen"
     ggm_entiteit: "Binnenlocatie"
@@ -36,7 +36,7 @@ gemma_subtypes:
     ggm_entiteit: "Binnenlocatie"
     ggm_guid: EAID_6508657D_7C3F_4261_B647_5D3B077A20F9
     ggm_attribuut: "gymzaal"
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"
     richting: "naar-dit-BO"

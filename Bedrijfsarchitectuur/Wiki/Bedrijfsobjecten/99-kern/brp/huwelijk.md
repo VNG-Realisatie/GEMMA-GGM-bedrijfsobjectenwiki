@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een in de BRP geregistreerd huwelijk of geregistreerd partnerschap tussen twee personen, inclusief sluiting en eventuele ontbinding."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Een in de BRP geregistreerd huwelijk of geregistreerd partnerschap tussen twee personen, inclusief sluiting en eventuele ontbinding."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Ingeschreven Persoon]]"
     richting: naar-dit-BO

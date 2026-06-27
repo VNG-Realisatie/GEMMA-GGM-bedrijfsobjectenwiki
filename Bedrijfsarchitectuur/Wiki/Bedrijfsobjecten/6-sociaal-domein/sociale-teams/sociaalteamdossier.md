@@ -29,8 +29,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Dossier van een sociaal team (buurtteam) met de geïntegreerde registratie van ondersteuning, interventies en casusontwikkeling voor een inwoner of gezin.
-relaties:
+bo_definitie: Dossier van een sociaal team (buurtteam) met de geïntegreerde registratie van ondersteuning, interventies en casusontwikkeling voor een inwoner of gezin.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]'
   richting: naar-dit-BO

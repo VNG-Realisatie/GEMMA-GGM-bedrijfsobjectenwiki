@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0310645e-6873-4cb3-93ec-734f0ac3323e"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gemeentelijke voorziening waar inwoners gescheiden huishoudelijk afval en grofvuil kunnen aanbieden."
+bo_definitie: "Gemeentelijke voorziening waar inwoners gescheiden huishoudelijk afval en grofvuil kunnen aanbieden."
 bedrijfsprocessen: [Afvalscheiding, Grofvuilinzameling, Bezoekersregistratie]
 bedrijfsfuncties: [Afvalbeheer]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

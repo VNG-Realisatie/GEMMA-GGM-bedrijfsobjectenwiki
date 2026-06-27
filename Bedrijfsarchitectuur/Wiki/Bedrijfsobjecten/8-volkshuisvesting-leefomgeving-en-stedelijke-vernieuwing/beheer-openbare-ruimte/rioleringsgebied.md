@@ -24,14 +24,14 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Administratief beheersgebied waarbinnen het rioolstelsel afvalwater naar één gemaal of overnamepunt transporteert."
-gemma_subtypes:
+bo_definitie: "Administratief beheersgebied waarbinnen het rioolstelsel afvalwater naar één gemaal of overnamepunt transporteert."
+bo_subtypes:
   - naam: "Bemalingsgebied"
     omschrijving: Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd
     ggm_entiteit: Bemalingsgebied
     ggm_guid: EAID_A1EE11DF_4EEA_409A_8E43_F108DC0BF96
     ggm_attribuut: generalisatie
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel

@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Raadsbesluit op grond van de Wet markt en overheid dat voor aangewezen economische activiteiten verhuur onder de kostprijs mogelijk maakt."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Raadsbesluit op grond van de Wet markt en overheid dat voor aangewezen economische activiteiten verhuur onder de kostprijs mogelijk maakt."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedcontract]]"
     richting: van-dit-BO

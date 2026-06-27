@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Het samenstel van feitelijk opgedragen taken en werkzaamheden, gewaardeerd via het functiehuis (HR21)."
-relaties:
+bo_definitie: "Het samenstel van feitelijk opgedragen taken en werkzaamheden, gewaardeerd via het functiehuis (HR21)."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Dienstverband]]"
     richting: naar-dit-BO

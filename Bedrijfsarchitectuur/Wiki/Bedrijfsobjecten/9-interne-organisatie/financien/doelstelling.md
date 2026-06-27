@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-2bd07fb4-4cfb-4d89-ac99-cb2377decd2d"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Doelstelling (Financien)"
-gemma_definitie: "Een door de gemeente nagestreefde situatie op korte of middellange termijn, gekoppeld aan een begrotingsprogramma."
+bo_definitie: "Een door de gemeente nagestreefde situatie op korte of middellange termijn, gekoppeld aan een begrotingsprogramma."
 definitie: Een op korte of middellange termijn nagestreefde situatie
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
 bedrijfsfuncties: [Planning en control, Bestuur]

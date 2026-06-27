@@ -27,9 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Zaak of dossier voor vergunningverlening, toezicht of handhaving van regels in de fysieke leefomgeving."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Zaak of dossier voor vergunningverlening, toezicht of handhaving van regels in de fysieke leefomgeving."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inspectie]]"
     richting: naar-dit-BO

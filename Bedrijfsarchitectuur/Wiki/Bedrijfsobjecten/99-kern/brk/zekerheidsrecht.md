@@ -35,8 +35,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een hypotheek of beslag op een onroerende zaak, geregistreerd in de BRK."
-relaties:
+bo_definitie: "Een hypotheek of beslag op een onroerende zaak, geregistreerd in de BRK."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"
     richting: van-dit-BO

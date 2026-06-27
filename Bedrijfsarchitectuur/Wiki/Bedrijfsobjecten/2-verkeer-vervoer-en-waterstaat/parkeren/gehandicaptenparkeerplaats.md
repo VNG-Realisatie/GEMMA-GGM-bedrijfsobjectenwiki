@@ -24,9 +24,9 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Parkeerplaats gereserveerd voor houders van een gehandicaptenparkeerkaart, met specifieke inrichting en beheerregime."
+bo_definitie: "Parkeerplaats gereserveerd voor houders van een gehandicaptenparkeerkaart, met specifieke inrichting en beheerregime."
 gemma_toelichting: "Twee typen: algemene gehandicaptenparkeerplaatsen (voor alle GPK-houders) en individuele (op kenteken, bij specifiek adres). De gemeente heeft een aparte Beleidsregel aanleg gehandicaptenparkeerplaatsen."
-gemma_subtypes:
+bo_subtypes:
   - naam: "Algemene gehandicaptenparkeerplaats"
     omschrijving: "Beschikbaar voor iedereen met een GPK"
     ggm_entiteit: "Parkeervlak"
@@ -37,7 +37,7 @@ gemma_subtypes:
     ggm_entiteit: "Parkeervlak"
     ggm_guid: "EAID_5E5C58AD_1634_4656_A183_EBA00F18F30E"
     ggm_attribuut: "doelgroep"
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "naar-dit-BO"

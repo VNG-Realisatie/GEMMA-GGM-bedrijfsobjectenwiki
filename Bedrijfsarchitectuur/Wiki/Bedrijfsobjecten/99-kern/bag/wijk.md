@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (geometrieWijk, datumBeginGeldigheidWijk, etc.); voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde)"
 
-gemma_definitie: "Aaneengesloten gedeelte van het grondgebied van een gemeente, met grenzen gebaseerd op sociaal-geografische kenmerken, als middenniveau van de gemeentelijke gebiedsindeling."
-relaties:
+bo_definitie: "Aaneengesloten gedeelte van het grondgebied van een gemeente, met grenzen gebaseerd op sociaal-geografische kenmerken, als middenniveau van de gemeentelijke gebiedsindeling."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woonplaats]]"
     richting: "naar-dit-BO"

@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (standplaatsidentificatie, standplaatsstatus, indicatieGeconstateerdeStandplaats); minder attributen, geen geometrie/versie/documentvelden"
 
-gemma_definitie: "Door de gemeente aangewezen terrein voor het permanent plaatsen van een verplaatsbare ruimte voor woon-, bedrijfsmatige of recreatieve doeleinden (bijv. woonwagen), als adresseerbaar object opgenomen in de BAG."
-relaties:
+bo_definitie: "Door de gemeente aangewezen terrein voor het permanent plaatsen van een verplaatsbare ruimte voor woon-, bedrijfsmatige of recreatieve doeleinden (bijv. woonwagen), als adresseerbaar object opgenomen in de BAG."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Nummeraanduiding]]"
     richting: "naar-dit-BO"

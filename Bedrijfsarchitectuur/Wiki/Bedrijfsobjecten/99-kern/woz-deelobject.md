@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afzonderlijk element van een WOZ-object dat bijdraagt aan de onderbouwing van de vastgestelde waarde."
-relaties:
+bo_definitie: "Afzonderlijk element van een WOZ-object dat bijdraagt aan de onderbouwing van de vastgestelde waarde."
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]"
     richting: "naar-dit-BO"

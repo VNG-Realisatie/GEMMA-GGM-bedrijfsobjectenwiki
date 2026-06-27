@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Door de rechter opgelegde maatregel ter bescherming van een minderjarige, bestaande uit ondertoezichtstelling of (voorlopige) voogdij, waarvan de gemeente de uitvoering organiseert."
-relaties:
+bo_definitie: "Door de rechter opgelegde maatregel ter bescherming van een minderjarige, bestaande uit ondertoezichtstelling of (voorlopige) voogdij, waarvan de gemeente de uitvoering organiseert."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"
     richting: naar-dit-BO

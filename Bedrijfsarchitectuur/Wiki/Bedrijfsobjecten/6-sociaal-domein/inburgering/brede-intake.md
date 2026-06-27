@@ -30,8 +30,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656-c52473ea36dc
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt.
-relaties:
+bo_definitie: Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
   richting: naar-dit-BO

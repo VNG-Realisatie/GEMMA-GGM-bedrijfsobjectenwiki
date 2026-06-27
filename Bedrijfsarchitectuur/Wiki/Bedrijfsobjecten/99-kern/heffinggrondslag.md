@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Tariefregel in een heffingsverordening die de maatstaf, het tarief en de berekening van een specifieke heffing vastlegt."
-relaties:
+bo_definitie: "Tariefregel in een heffingsverordening die de maatstaf, het tarief en de berekening van een specifieke heffing vastlegt."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|Heffingsverordening]]"
     richting: "naar-dit-BO"

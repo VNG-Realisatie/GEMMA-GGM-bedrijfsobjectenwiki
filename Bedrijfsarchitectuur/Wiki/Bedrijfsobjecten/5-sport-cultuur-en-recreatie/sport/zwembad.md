@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gemeentelijke voorziening voor zwemactiviteiten, met eigen capaciteitsbeleid en meerjarige investeringsplanning."
-relaties:
+bo_definitie: "Gemeentelijke voorziening voor zwemactiviteiten, met eigen capaciteitsbeleid en meerjarige investeringsplanning."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Sportvereniging]]"
     richting: "naar-dit-BO"

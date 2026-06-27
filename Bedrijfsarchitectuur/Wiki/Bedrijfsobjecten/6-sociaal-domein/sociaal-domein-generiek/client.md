@@ -30,8 +30,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Inwoner die gebruik maakt van ondersteuning, zorg of diensten van de gemeente in het sociaal domein.
-relaties:
+bo_definitie: Inwoner die gebruik maakt van ondersteuning, zorg of diensten van de gemeente in het sociaal domein.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]'
   richting: van-dit-BO

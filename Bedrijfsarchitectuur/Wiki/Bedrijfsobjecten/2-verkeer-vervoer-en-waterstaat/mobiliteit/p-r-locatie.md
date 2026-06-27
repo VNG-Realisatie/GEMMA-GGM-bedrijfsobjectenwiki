@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets.
+bo_definitie: Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets.
 bedrijfsprocessen:
 - Parkeerbeleid
 - Mobiliteitsmanagement
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Parkeerbeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
   richting: van-dit-BO

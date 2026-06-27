@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Toestel of constructie in de openbare ruimte bestemd voor spel en beweging, met certificering en periodieke veiligheidsinspectie."
-gemma_subtypes:
+bo_definitie: "Toestel of constructie in de openbare ruimte bestemd voor spel en beweging, met certificering en periodieke veiligheidsinspectie."
+bo_subtypes:
   - naam: Vast speeltoestel
     omschrijving: "Permanent geplaatst speeltoestel op een speelterrein (schommel, glijbaan, klimrek)"
     ggm_entiteit: Speeltoestel
@@ -41,7 +41,7 @@ gemma_subtypes:
     ggm_entiteit: Speeltoestel
     ggm_guid: EAID_4EFB3A19_E491_469F_AA96_DEBED9C1BE4
     ggm_attribuut: toestelgroep
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Meubilair (GGM)
     richting: "van-dit-BO"

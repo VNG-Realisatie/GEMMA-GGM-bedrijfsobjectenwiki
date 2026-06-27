@@ -28,8 +28,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021.
-relaties:
+bo_definitie: De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
   richting: naar-dit-BO

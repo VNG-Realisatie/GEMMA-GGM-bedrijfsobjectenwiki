@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Vastgelegd oordeel over het functioneren van een werknemer, als onderdeel van de gesprekscyclus."
-gemma_subtypes:
+bo_definitie: "Vastgelegd oordeel over het functioneren van een werknemer, als onderdeel van de gesprekscyclus."
+bo_subtypes:
   - naam: Planningsgesprek
     omschrijving: "Gesprek aan het begin van de cyclus waarin doelstellingen en verwachtingen worden vastgelegd"
     ggm_entiteit:
@@ -44,7 +44,7 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
     richting: naar-dit-BO

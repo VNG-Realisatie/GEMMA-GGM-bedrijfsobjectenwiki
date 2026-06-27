@@ -25,13 +25,13 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers.
+bo_definitie: Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers.
 bedrijfsprocessen:
 - OV-beleid
 - Concessiebeheer
 bedrijfsfuncties:
 - Openbaar vervoer
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
   richting: van-dit-BO

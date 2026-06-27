@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gemeentelijke verordening met regels voor inzameling en beheer van huishoudelijke afvalstoffen."
+bo_definitie: "Gemeentelijke verordening met regels voor inzameling en beheer van huishoudelijke afvalstoffen."
 bedrijfsprocessen: [Verordeningsvaststelling, Handhaving afvalbeleid]
 bedrijfsfuncties: [Afvalbeheer, Regelgeving]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Softwaretoepassing die de gemeente inzet ter ondersteuning van eindgebruikers in bedrijfsprocessen."
-relaties:
+bo_definitie: "Softwaretoepassing die de gemeente inzet ter ondersteuning van eindgebruikers in bedrijfsprocessen."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract|Contract]]"
     richting: naar-dit-BO

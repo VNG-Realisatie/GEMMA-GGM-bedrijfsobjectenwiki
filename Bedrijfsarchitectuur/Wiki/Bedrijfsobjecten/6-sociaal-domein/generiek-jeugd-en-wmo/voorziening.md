@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
-gemma_subtypes:
+bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
+bo_subtypes:
   - naam: Maatwerkvoorziening Wmo
     omschrijving: "Op de persoon afgestemde voorziening na individuele beoordeling (Wmo 2015)"
     ggm_entiteit: Voorzieningsoort
@@ -41,7 +41,7 @@ gemma_subtypes:
     omschrijving: "Toegankelijk aanbod zonder beschikking (bijv. informatie, advies)"
     ggm_entiteit: Voorzieningsoort
     ggm_attribuut: productcategorie
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
     richting: naar-dit-BO

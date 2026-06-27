@@ -27,9 +27,9 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Aangewezen locatie of zone waarbinnen roken niet is toegestaan, gericht op bescherming van de gezondheid."
-gemma_subtypes:
-relaties: []
+bo_definitie: "Aangewezen locatie of zone waarbinnen roken niet is toegestaan, gericht op bescherming van de gezondheid."
+bo_subtypes:
+bo_relaties: []
 bedrijfsprocessen: [volksgezondheidsbeleid, luchtkwaliteitsbeleid]
 bedrijfsfuncties: [milieubeheer, volksgezondheid]
 ---

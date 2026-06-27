@@ -25,13 +25,13 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer.
+bo_definitie: Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer.
 bedrijfsprocessen:
 - OV-beleid
 - Beheer openbare ruimte
 bedrijfsfuncties:
 - Openbaar vervoer
-relaties:
+bo_relaties:
 - type: compositie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|OV-lijn]]'
   richting: naar-dit-BO

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Bindende overeenkomst tussen de gemeente en een leverancier voor de levering van werken, diensten of goederen."
-relaties:
+bo_definitie: "Bindende overeenkomst tussen de gemeente en een leverancier voor de levering van werken, diensten of goederen."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leverancier]]"
     richting: naar-dit-BO

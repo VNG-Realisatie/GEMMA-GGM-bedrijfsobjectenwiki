@@ -28,8 +28,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Het door de gemeente vastgestelde aanbod van inburgeringsvoorzieningen waaruit de inburgeraar een passend traject volgt.
-relaties:
+bo_definitie: Het door de gemeente vastgestelde aanbod van inburgeringsvoorzieningen waaruit de inburgeraar een passend traject volgt.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
   richting: naar-dit-BO

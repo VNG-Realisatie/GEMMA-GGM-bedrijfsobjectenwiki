@@ -34,8 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (woonplaatsIdentificatie, woonplaatsStatus, etc.); minder attributen (geen versie, voorkomen, tijdstipRegistratie, eindRegistratie, tijdstipActief, documentvelden); voegt inOnderzoek toe"
 
-gemma_definitie: "Door de gemeente aangewezen en van een naam voorzien gedeelte van het grondgebied, als hoogste niveau van de adresseringshiërarchie in de BAG."
-relaties:
+bo_definitie: "Door de gemeente aangewezen en van een naam voorzien gedeelte van het grondgebied, als hoogste niveau van de adresseringshiërarchie in de BAG."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Openbare Ruimte]]"
     richting: "van-dit-BO"

@@ -25,7 +25,7 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden.
+bo_definitie: Aangewezen zone waarbinnen alleen voertuigen zonder uitstoot van schadelijke stoffen mogen rijden.
 bedrijfsprocessen:
 - Milieubeleid
 - Goederenvervoerbeleid
@@ -33,7 +33,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Verkeersmanagement
 - Milieubeleid
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/logistieke-route|Logistieke Route]]'
   richting: van-dit-BO

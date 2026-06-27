@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Afgebakend gebied rond een industrieterrein waarbinnen de cumulatieve geluideffecten van alle bedrijven worden beheerst via omgevingswaarden."
+bo_definitie: "Afgebakend gebied rond een industrieterrein waarbinnen de cumulatieve geluideffecten van alle bedrijven worden beheerst via omgevingswaarden."
 bedrijfsprocessen: [vergunningverlening, omgevingsplan, geluidkartering]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Geluidbron]]"
     richting: "naar-dit-BO"

@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-078d57f3-e8a0-485e-a175-c1b3de49eee0"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Geautomatiseerde waarneming van een geparkeerd voertuig door een scanauto ten behoeve van parkeerhandhaving."
+bo_definitie: "Geautomatiseerde waarneming van een geparkeerd voertuig door een scanauto ten behoeve van parkeerhandhaving."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "van-dit-BO"

@@ -24,7 +24,7 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Besluit van de gemeente om het restant van een vordering niet langer te innen."
+bo_definitie: "Besluit van de gemeente om het restant van een vordering niet langer te innen."
 definitie: Het kwijtschelden van het restant van de vordering
 bedrijfsprocessen: [Invordering, Kwijtscheldingsbeoordeling]
 bedrijfsfuncties: [Inning en invordering]

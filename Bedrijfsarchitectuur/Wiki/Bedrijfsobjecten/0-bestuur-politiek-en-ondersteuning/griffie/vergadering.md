@@ -31,9 +31,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Raadsstuk]]"
     richting: naar-dit-BO

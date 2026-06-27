@@ -30,8 +30,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e1620918-61a7-4cef-b0e2-6b8e206608c8
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Persoonlijk begeleidingstraject dat een inburgeraar doorloopt om te voldoen aan de eisen van de Wet inburgering.
-relaties:
+bo_definitie: Persoonlijk begeleidingstraject dat een inburgeraar doorloopt om te voldoen aan de eisen van de Wet inburgering.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
   richting: naar-dit-BO

@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied."
+bo_definitie: "Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied."
 bedrijfsprocessen: [warmtetransitie, buurtaanpak aardgasvrij, verduurzaming stadsverwarming]
 bedrijfsfuncties: [energiebeleid, gebiedsontwikkeling]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/opwekgebied|Opwekgebied]]"
     richting: bidirectioneel

@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-343e027e-16c9-43d7-8b90-891aaf9c4b70"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
+bo_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
 bedrijfsprocessen: [Tariefvaststelling, Belastinginning, Kostenverdeling afvalbeheer]
 bedrijfsfuncties: [Afvalbeheer, Belastingheffing]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"

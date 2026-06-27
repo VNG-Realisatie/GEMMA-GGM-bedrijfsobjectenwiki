@@ -51,7 +51,7 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f
 ggm_gemma_bron: BRWOZ
 ggm_gemma_alternate_name: ''
-gemma_definitie: Onroerende zaak waarvan de gemeente op grond van de Wet WOZ de waarde bepaalt en vaststelt.
+bo_definitie: Onroerende zaak waarvan de gemeente op grond van de Wet WOZ de waarde bepaalt en vaststelt.
 definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.
 bedrijfsprocessen:
 - WOZ-taxatie
@@ -61,7 +61,7 @@ bedrijfsfuncties:
 - Belastingheffing
 - Waardering onroerende zaken
 status: concept
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|WOZ-waarde]]'
   richting: van-dit-BO

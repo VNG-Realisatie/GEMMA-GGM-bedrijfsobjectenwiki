@@ -25,11 +25,11 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid,
+bo_definitie: Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid,
   bestuur en financiën.
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente|Gemeente]]'
   richting: bidirectioneel

@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Een door de gemeente ingezette voorziening of dienst gericht op het vergroten van de kansen van een werkzoekende op arbeidsparticipatie, zoals scholing, werkervaring, bemiddeling of jobcoaching."
-relaties:
+bo_definitie: "Een door de gemeente ingezette voorziening of dienst gericht op het vergroten van de kansen van een werkzoekende op arbeidsparticipatie, zoals scholing, werkervaring, bemiddeling of jobcoaching."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Loonkostensubsidie]]"
     richting: van-dit-BO

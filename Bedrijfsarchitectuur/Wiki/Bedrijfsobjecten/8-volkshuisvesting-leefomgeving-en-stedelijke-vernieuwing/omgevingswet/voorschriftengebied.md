@@ -24,10 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
+bo_definitie: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
-relaties:
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Aandachtsgebied]]"
     richting: "naar-dit-BO"

@@ -27,7 +27,7 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-fc805177-e231-40eb-8f59-0fb3bdc896a1
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Archeologisch overblijfsel of voorwerp dat door de gemeente is aangetroffen bij onderzoek en wordt beheerd in het gemeentelijk depot.
+bo_definitie: Archeologisch overblijfsel of voorwerp dat door de gemeente is aangetroffen bij onderzoek en wordt beheerd in het gemeentelijk depot.
 bedrijfsprocessen:
 - Archeologisch onderzoek
 - Depotbeheer
@@ -35,7 +35,7 @@ bedrijfsprocessen:
 bedrijfsfuncties:
 - Erfgoedbeheer
 - Collectiebeheer
-relaties:
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|Archeologische vindplaats]]'
   richting: van-dit-BO

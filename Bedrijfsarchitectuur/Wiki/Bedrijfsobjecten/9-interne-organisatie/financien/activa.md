@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e83e86ad-4769-41ce-91c7-675e93441074"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Bezittingen van de gemeente zoals vastgelegd op de boekhoudkundige balans."
+bo_definitie: "Bezittingen van de gemeente zoals vastgelegd op de boekhoudkundige balans."
 definitie: Bezittingen van een onderneming op een boekhoudkundige balans
 bedrijfsprocessen: [Activabeheer, Jaarrekening]
 bedrijfsfuncties: [Financieel beheer]

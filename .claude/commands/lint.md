@@ -24,14 +24,14 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Ontbrekende GGM-verrijkingsvelden** — BO-pagina's met grondslag `ggm-entiteit` die verrijkte velden missen (`ggm_guid`, `ggm_taakveld`, `ggm_diagram`, `ggm_gemma_naam`). Controleer tegen `ggm_parsed.json`: als het veld in de GGM-bron zelf leeg is, is leeg in de wiki correct (geen actie). Alleen vlaggen wanneer de bron data heeft die niet is overgenomen. Suggereer `python3 tools/enrich_bo_frontmatter.py` voor velden die wél beschikbaar zijn.
 - **GGM-guid validatie** — als het geparsede XMI beschikbaar is, controleer of `ggm_guid` overeenkomt met een bestaande entiteit. Signaleer verwijderde of hernoemde entiteiten.
 - **Frontmatter enum-validatie** — ongeldige waarden voor grondslag, archimate_type, ggm_uml_type. Geldige waarden (zie `templates/bedrijfsobject.md`): grondslag ∈ {ggm-entiteit, ggm-afgeleid, procesobject, governance-object}; archimate_type ∈ {business-object, contract, product}; ggm_uml_type ∈ {Class, Enumeration}.
-- **`relaties`-structuur** — BO-pagina's met `relaties`-items die `type`, `richting` of `kardinaliteit` missen, of waarvan `bedrijfsobject:` geen wiki-link bevat.
-- **`gemma_definitie` geldig** — BO-pagina's zonder `gemma_definitie`, met lege waarde, of met de placeholder `"gelijk aan GGM"`. Dit veld moet altijd een zelfstandige definitie op bedrijfsniveau bevatten (één zin). "Gelijk aan GGM" is geen definitie — herformuleer vanuit gemeentelijk perspectief.
+- **`bo_relaties`-structuur** — BO-pagina's met `bo_relaties`-items die `type`, `richting` of `kardinaliteit` missen, of waarvan `bedrijfsobject:` geen wiki-link bevat.
+- **`bo_definitie` geldig** — BO-pagina's zonder `bo_definitie`, met lege waarde, of met de placeholder `"gelijk aan GGM"`. Dit veld moet altijd een zelfstandige definitie op bedrijfsniveau bevatten (één zin). "Gelijk aan GGM" is geen definitie — herformuleer vanuit gemeentelijk perspectief.
 
 ### Subtypes en Specialisaties
 
-- **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `gemma_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Subtypes- of Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
-- **Frontmatter ↔ body subtypes** — BO's met **gevulde** `gemma_subtypes` in frontmatter (niet `[]`) maar zonder `## Subtypes`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-lijst voorkomen, of subtypes die in de body-lijst staan maar niet in `gemma_subtypes` in frontmatter. Lege placeholders (`gemma_subtypes: []`) overslaan — die vereisen geen body-sectie.
-- **GGM-link compleetheid subtypes** — subtypes in `gemma_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
+- **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de reden een subtype-patroon bevat (match op: "subtype van", "type van", "onderdeel van", "onderdeel/type van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet voorkomen als `bo_subtypes` in de frontmatter van het genoemde parent-BO, en ook niet in een Subtypes- of Specialisaties-tabel in de body. Alleen signaleren wanneer het parent-BO in de wiki bestaat — verwijzingen naar externe concepten overslaan. Let op: "onderdeel van" vangt ook composities (component/fase), niet alleen subtypes; beoordeel handmatig of het daadwerkelijk een subtype betreft.
+- **Frontmatter ↔ body subtypes** — BO's met **gevulde** `bo_subtypes` in frontmatter (niet `[]`) maar zonder `## Subtypes`-sectie in de body, of subtypes die in frontmatter staan maar niet in de body-lijst voorkomen, of subtypes die in de body-lijst staan maar niet in `bo_subtypes` in frontmatter. Lege placeholders (`gemma_subtypes: []`) overslaan — die vereisen geen body-sectie.
+- **GGM-link compleetheid subtypes** — subtypes in `bo_subtypes` die een `ggm_entiteit` hebben maar geen `ggm_guid` of `ggm_attribuut` missen (verplicht per CLAUDE.md-regel "GGM-link verplicht").
 
 ### Generalisatie en Specialisaties (BO-hiërarchie)
 
@@ -57,6 +57,15 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Duplicaat-body consistentie** — BO's met **gevulde** `ggm_duplicaat_entiteiten` (niet `[]`) moeten een `## GGM-duplicaten` sectie in de body hebben, en omgekeerd. Lege lijsten negeren.
 - **Duplicaat-terugmelding** — BO's met **gevulde** `ggm_duplicaat_entiteiten` (niet `[]`) die niet in `Wiki/Analyses/ggm-terugmeldingen.md` staan als type `duplicaat`.
 - **Homoniem-terugmelding** — `## GGM-duplicaten` secties die homoniemen vermelden: controleer of het homoniem in `Wiki/Analyses/ggm-terugmeldingen.md` staat als type `homoniem`.
+
+### Synoniemen en homoniemen
+
+- **Synoniemen-compleetheid** — BO's met **gevulde** `bo_synoniemen` in frontmatter (niet `[]`): elk item moet `naam` en `context` bevatten.
+- **Homoniemen-compleetheid** — BO's met **gevulde** `bo_homoniemen` in frontmatter (niet `[]`): elk item moet `bedrijfsobject`, `ggm_entiteit`, `ggm_guid`, `ggm_beleidsdomein` en `toelichting` bevatten.
+- **Homoniemen-symmetrie** — als BO-A in `bo_homoniemen` naar BO-B verwijst, moet BO-B ook in `bo_homoniemen` naar BO-A verwijzen. Signaleer eenzijdige verwijzingen.
+- **Homoniemen ↔ GGM-duplicaten consistentie** — bo_homoniemen in frontmatter moeten ook in de `## GGM-duplicaten` body-sectie vermeld worden als homoniem-waarschuwing.
+- **Naamkeuze-consistentie** — BO's waarvan `naam` ≠ `ggm_entiteit` (en `ggm_entiteit` niet leeg): moeten een `## Naamkeuze` sectie in de body hebben die de naamsafwijking documenteert. **Uitzondering:** als het verschil alleen hoofdlettergebruik of triviale formatting betreft.
+- **Duplicaat-bestandsnamen** — twee of meer BO-bestanden met dezelfde bestandsnaam in verschillende domeinfolders. Dit is een potentieel homoniem dat nog niet gedocumenteerd is.
 
 ### Inhoudelijke consistentie
 

@@ -27,10 +27,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403"
 ggm_gemma_bron: "NHR"
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Bedrijf dat zich richt op het verstrekken van eten, drinken en/of logies, gereguleerd via de Verordening horeca en het Ontwikkelingskader Horeca."
+bo_definitie: "Bedrijf dat zich richt op het verstrekken van eten, drinken en/of logies, gereguleerd via de Verordening horeca en het Ontwikkelingskader Horeca."
 bedrijfsprocessen: [horecavergunningverlening, handhaving horeca, horecabeleid]
 bedrijfsfuncties: [vergunningverlening, handhaving, economisch beleid]
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vestiging]]"
     richting: "van-dit-BO"

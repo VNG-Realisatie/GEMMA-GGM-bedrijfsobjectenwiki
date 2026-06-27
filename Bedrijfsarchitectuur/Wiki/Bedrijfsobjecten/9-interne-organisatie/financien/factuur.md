@@ -24,7 +24,7 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e3c92496-53d2-473e-9643-9774cdda2891"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Schriftelijke rekening voor door de gemeente geleverde of ontvangen goederen of diensten."
+bo_definitie: "Schriftelijke rekening voor door de gemeente geleverde of ontvangen goederen of diensten."
 definitie: Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten
 bedrijfsprocessen: [Facturering, Crediteuren- en debiteurenadministratie]
 bedrijfsfuncties: [Financieel beheer]

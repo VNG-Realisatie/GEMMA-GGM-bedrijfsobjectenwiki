@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Locatie in open water waar buiten gezwommen wordt, met onderscheid tussen officieel aangewezen en niet-officiële zwemplekken."
-relaties:
+bo_definitie: "Locatie in open water waar buiten gezwommen wordt, met onderscheid tussen officieel aangewezen en niet-officiële zwemplekken."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"
     richting: bidirectioneel

@@ -29,8 +29,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-gemma_definitie: Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering.
-relaties:
+bo_definitie: Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering.
+bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|Inburgeringstraject]]'
   richting: naar-dit-BO

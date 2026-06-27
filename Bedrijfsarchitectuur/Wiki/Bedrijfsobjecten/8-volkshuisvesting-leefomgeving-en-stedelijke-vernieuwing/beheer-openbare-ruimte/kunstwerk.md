@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Civiel-technische constructie in de openbare ruimte voor de infrastructuur van wegen en water, zoals bruggen, viaducten en kademuren."
-gemma_subtypes:
+bo_definitie: "Civiel-technische constructie in de openbare ruimte voor de infrastructuur van wegen en water, zoals bruggen, viaducten en kademuren."
+bo_subtypes:
   - naam: "Brug"
     omschrijving: "Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden"
     ggm_entiteit: Brug
@@ -53,7 +53,7 @@ gemma_subtypes:
     ggm_attribuut: generalisatie
   - naam: "Sluis"
     omschrijving: Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen
-relaties:
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"

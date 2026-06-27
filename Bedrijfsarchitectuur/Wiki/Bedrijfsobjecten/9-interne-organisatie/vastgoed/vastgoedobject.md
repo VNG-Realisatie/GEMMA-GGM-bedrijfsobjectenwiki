@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft en dat wordt beheerd, verhuurd of verpacht."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft en dat wordt beheerd, verhuurd of verpacht."
+bo_subtypes: []
+bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Verhuurbare Eenheid]]"
     richting: van-dit-BO

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Verzameling van geordende feitelijke informatie over een onderwerp, beheerd door de gemeente ten behoeve van de toepassing van planregels in het omgevingsplan."
-relaties:
+bo_definitie: "Verzameling van geordende feitelijke informatie over een onderwerp, beheerd door de gemeente ten behoeve van de toepassing van planregels in het omgevingsplan."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[VTH-zaak]]"
     richting: naar-dit-BO

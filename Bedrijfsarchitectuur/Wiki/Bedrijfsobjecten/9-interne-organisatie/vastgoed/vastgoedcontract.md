@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Overeenkomst tussen de gemeente en een huurder, pachter of gebruiker over het gebruik van een vastgoedobject of verhuurbare eenheid."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Overeenkomst tussen de gemeente en een huurder, pachter of gebruiker over het gebruik van een vastgoedobject of verhuurbare eenheid."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedobject]]"
     richting: naar-dit-BO

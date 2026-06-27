@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Rechterlijke machtiging voor opname en verblijf van een jeugdige in een gesloten accommodatie vanwege ernstige opgroei- of opvoedingsproblemen."
-relaties:
+bo_definitie: "Rechterlijke machtiging voor opname en verblijf van een jeugdige in een gesloten accommodatie vanwege ernstige opgroei- of opvoedingsproblemen."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"
     richting: naar-dit-BO

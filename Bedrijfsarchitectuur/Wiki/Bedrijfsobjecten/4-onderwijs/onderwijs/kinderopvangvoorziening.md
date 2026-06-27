@@ -27,8 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Locatie waar kinderopvang wordt geboden, geregistreerd in het Landelijk Register Kinderopvang."
-gemma_subtypes:
+bo_definitie: "Locatie waar kinderopvang wordt geboden, geregistreerd in het Landelijk Register Kinderopvang."
+bo_subtypes:
   - naam: Kinderdagverblijf (KDV)
     omschrijving: "Dagopvang voor kinderen die nog niet naar de basisschool gaan"
     ggm_entiteit:
@@ -44,7 +44,7 @@ gemma_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
     richting: naar-dit-BO

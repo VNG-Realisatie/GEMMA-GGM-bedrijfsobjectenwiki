@@ -27,8 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-gemma_definitie: "Verzoek van ouders aan de gemeente om een vervoersvoorziening voor hun kind."
-relaties:
+bo_definitie: "Verzoek van ouders aan de gemeente om een vervoersvoorziening voor hun kind."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
     richting: naar-dit-BO

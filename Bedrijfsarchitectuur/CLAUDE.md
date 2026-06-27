@@ -201,8 +201,9 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **clip** | `/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/` |
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
 | **generate-ggm** | `/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen) |
+| **audit-duplicaten** | `/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's |
 
-**Model voorkeur:** `/coverage` en `/lint` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
+**Model voorkeur:** `/coverage`, `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
 
 ## Tools
 

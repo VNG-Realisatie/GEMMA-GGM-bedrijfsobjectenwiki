@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Dynamisch planningsdocument per vastgoedobject dat het verwachte onderhoud over een periode van 15 jaar beschrijft, gevoed door inspecties."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Dynamisch planningsdocument per vastgoedobject dat het verwachte onderhoud over een periode van 15 jaar beschrijft, gevoed door inspecties."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedobject]]"
     richting: naar-dit-BO

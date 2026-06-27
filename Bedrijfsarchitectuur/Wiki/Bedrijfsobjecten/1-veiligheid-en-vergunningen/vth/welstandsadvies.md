@@ -27,9 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Omgevingsvergunning]]"
     richting: naar-dit-BO

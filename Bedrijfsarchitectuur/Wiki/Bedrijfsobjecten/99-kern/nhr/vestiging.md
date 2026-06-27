@@ -57,8 +57,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
-relaties:
+bo_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"
     richting: van-dit-BO

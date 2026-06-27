@@ -29,8 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Uitvaart die de gemeente verzorgt wanneer niemand anders in de lijkbezorging voorziet, op grond van artikel 21 van de Wet op de lijkbezorging."
-relaties:
+bo_definitie: "Uitvaart die de gemeente verzorgt wanneer niemand anders in de lijkbezorging voorziet, op grond van artikel 21 van de Wet op de lijkbezorging."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[NatuurlijkPersoon]]"
     richting: van-dit-BO

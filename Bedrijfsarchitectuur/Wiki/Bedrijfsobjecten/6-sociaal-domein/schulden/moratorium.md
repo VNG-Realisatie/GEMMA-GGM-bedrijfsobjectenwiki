@@ -14,9 +14,9 @@ ggm_diagram: [Schuldhulpproces]
 ggm_definitie: "Het gaat hier om de datum waarop een verzoek tot een moratorium (ex art. 287 b Fw) is ingediend bij de rechter. Er kan een verzoek tot een moratorium bij de rechter worden gedaan om te voorkomen dat een schuldeiser zijn specifieke inningsmogelijkheden gebruikt, terwijl een aanvraag voor een minnelijke schuldregeling in behandeling is."
 ggm_herkomst: GGM
 
-gemma_definitie: "Verzoek aan de rechter om schuldeisers tijdelijk te blokkeren tijdens een lopende aanvraag voor een minnelijke schuldregeling."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Verzoek aan de rechter om schuldeisers tijdelijk te blokkeren tijdens een lopende aanvraag voor een minnelijke schuldregeling."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[schuldhulptraject]]"
     richting: naar-dit-BO

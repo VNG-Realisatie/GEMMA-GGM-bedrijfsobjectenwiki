@@ -41,8 +41,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een kadastraal geïdentificeerd en begrensd deel van het Nederlands grondgebied waarop zakelijke rechten rusten."
-relaties:
+bo_definitie: "Een kadastraal geïdentificeerd en begrensd deel van het Nederlands grondgebied waarop zakelijke rechten rusten."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Kadastraal Perceel]]"
     richting: naar-dit-BO

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Formele deelname van een ondernemer aan een nationale of Europese aanbesteding van de gemeente."
-relaties:
+bo_definitie: "Formele deelname van een ondernemer aan een nationale of Europese aanbesteding van de gemeente."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"
     richting: naar-dit-BO
@@ -75,7 +75,7 @@ Een inschrijving is de formele deelname van een ondernemer aan een nationale of 
 
 **Homoniem:** de GGM-entiteit "Inschrijving" in beleidsdomein Onderwijs (EAID_CFFD5F20) is een ander concept: "Deelname van iemand aan een opleiding bij een onderwijsinstelling." Niet te verwarren.
 
-Teruggemeld als #80 in [[Wiki/Analyses/ggm-terugmeldingen]].
+Teruggemeld als #80 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

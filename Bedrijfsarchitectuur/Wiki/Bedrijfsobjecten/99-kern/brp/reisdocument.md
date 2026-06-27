@@ -29,9 +29,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Een Nederlands paspoort of Nederlandse identiteitskaart, geregistreerd in de BRP bij de persoon aan wie het is verstrekt."
-gemma_subtypes: []
-relaties:
+bo_definitie: "Een Nederlands paspoort of Nederlandse identiteitskaart, geregistreerd in de BRP bij de persoon aan wie het is verstrekt."
+bo_subtypes: []
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Ingeschreven Persoon]]"
     richting: naar-dit-BO

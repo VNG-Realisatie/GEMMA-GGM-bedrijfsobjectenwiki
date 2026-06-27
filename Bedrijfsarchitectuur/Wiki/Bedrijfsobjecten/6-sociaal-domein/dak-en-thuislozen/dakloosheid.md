@@ -27,8 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-gemma_definitie: "Registratie van de dakloosheidsstatus van een cliënt, inclusief toestemming voor briefadres en nachtopvang."
-relaties:
+bo_definitie: "Registratie van de dakloosheidsstatus van een cliënt, inclusief toestemming voor briefadres en nachtopvang."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"
     richting: "naar-dit-BO"

@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Installatie voor warmte-koude opslag (WKO) in de ondergrond, geregistreerd met locatie, capaciteit en diepte."
+bo_definitie: "Installatie voor warmte-koude opslag (WKO) in de ondergrond, geregistreerd met locatie, capaciteit en diepte."
 bedrijfsprocessen: [vergunningverlening bodemenergie, gebiedsgericht grondwaterbeheer, energietransitie]
 bedrijfsfuncties: [milieubeheer, vergunningverlening, duurzaamheidsbeleid]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemverontreiniging|Bodemverontreiniging]]"
     richting: bidirectioneel

@@ -29,8 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-gemma_definitie: "Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer op basis van een aanbestedingsprocedure."
-relaties:
+bo_definitie: "Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer op basis van een aanbestedingsprocedure."
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"
     richting: naar-dit-BO

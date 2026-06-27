@@ -24,10 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Digitale vastlegging van de materialen in een gebouw of object in de openbare ruimte."
+bo_definitie: "Digitale vastlegging van de materialen in een gebouw of object in de openbare ruimte."
 bedrijfsprocessen: [Circulair bouwen, Materiaalmatch, Aanbesteding]
 bedrijfsfuncties: [Vastgoedbeheer, Circulaire economie]
-relaties:
+bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstoffendepot]]"
     richting: "van-dit-BO"

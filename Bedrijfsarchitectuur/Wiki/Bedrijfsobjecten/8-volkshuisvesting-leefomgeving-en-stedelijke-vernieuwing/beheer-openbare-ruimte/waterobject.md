@@ -24,8 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-gemma_definitie: "Functioneel stuk oppervlaktewater dat de gemeente beheert, zoals watergangen, vijvers, grachten en kanalen."
-relaties:
+bo_definitie: "Functioneel stuk oppervlaktewater dat de gemeente beheert, zoals watergangen, vijvers, grachten en kanalen."
+bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
     richting: "van-dit-BO"
