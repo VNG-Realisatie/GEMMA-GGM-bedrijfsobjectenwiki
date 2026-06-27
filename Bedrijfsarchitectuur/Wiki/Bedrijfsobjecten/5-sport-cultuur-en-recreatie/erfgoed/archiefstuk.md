@@ -95,14 +95,9 @@ In het GGM erft Archiefstuk van zowel **Document** (abstract) als **Erfgoed Obje
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
-- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur]]
-- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
-- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
 - [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen]]
 - [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
+- [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland|GR Regionaal Archief Rivierenland 2024]]
+- [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure|Besluit Informatiebeheer GR Cure 2021]]
+- [[Wiki/Bronsamenvattingen/erfgoed/beleidsplan-westfries-archief|Beleidsplan Westfries Archief 2024-2027]]

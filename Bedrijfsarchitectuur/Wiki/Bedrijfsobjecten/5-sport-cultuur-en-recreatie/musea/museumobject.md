@@ -110,12 +110,6 @@ De GGM-definitie beschrijft technische implementatiedetails in plaats van het co
 
 ## Bronnen
 
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
-- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur]]
 - [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
-- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]

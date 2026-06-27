@@ -1,5 +1,16 @@
 # Wiki Log
 
+## [2026-06-27] ingest | erfgoed — 4 bronnen verwerkt, 1 nieuw BO, 1 duplicaat opgelost
+
+- **Bronnen:** Erfgoedwet BWBR0037521 (wetten.overheid.nl), GR Regionaal Archief Rivierenland 2024 (lokaleregelgeving), Besluit Informatiebeheer GR Cure 2021 (officielebekendmakingen), Beleidsplan Westfries Archief 2024-2027 (PDF). 2 bronnen naar Niet-relevant (portaalpagina erfgoedbeleid Utrecht, lijst beeldbepalende panden).
+- **Bronsamenvattingen:** [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet]], [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland|GR Rivierenland]], [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure|Besluit Informatiebeheer Cure]], [[Wiki/Bronsamenvattingen/erfgoed/beleidsplan-westfries-archief|Beleidsplan WFA]]
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/cultuur|Cultuur]] bijgewerkt — 49 begrippen, 8 BO's
+- **Nieuw BO:** Collectie (GGM exact, Erfgoedwet art. 2.8-2.11 als wettelijke grondslag)
+- **Duplicaat opgelost:** Monument/Beschermde Status — zelfde GGM-entiteit (EAID_32C02923). Monument behouden als primair BO, Beschermde Status verwijderd.
+- **Beoordeeld als niet-BO:** beschermd cultuurgoed (Minister-bevoegdheid), beschermde verzameling (status op Collectie), tentoonstelling (operationeel), bruikleen (operationeel), eDepot (infrastructuur), pre-eDepot (tussenvorm)
+- **GGM-terugmelding:** eDepot ontbreekt als concept in GGM (alleen fysiek Depot)
+- **BO's bijgewerkt:** Monument, Archiefstuk, Museumobject — bronverwijzingen aangevuld met erfgoed-bronsamenvattingen
+
 ## [2026-06-27] ingest | Informatiesamenleving — 4 bronnen (2 verwerkt, 2 niet-relevant), 3 nieuwe BO's
 
 - **Bronnen:** Informatiebeleidsplan Nunspeet 2024-2028 (PDF), Beleid I en ICT BEL Combinatie 2020-2024 (PDF), Begroting Rotterdam IV 2026 (web → niet-relevant), Informatiebeveiligingsbeleid Heumen 2024-2028 (lokaleregelgeving → niet-relevant)

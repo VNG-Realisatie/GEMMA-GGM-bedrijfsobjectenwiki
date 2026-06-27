@@ -3,7 +3,7 @@
 Overzicht van Sources/Onderwerpen die nog niet ingested zijn, per onderwerp.
 Bronnen in "Niet-relevant" mappen zijn beoordeeld maar bewust niet samengevat.
 
-Status: 144 bronnen in 24 batches.
+Status: 148 bronnen in 24 batches.
 
 ## ~~Arbeidszaken (9)~~ ✓
 - [x] arbeidsmarktkrapte-aanpak-gemeenten
@@ -77,12 +77,20 @@ Status: 144 bronnen in 24 batches.
 - [x] implementatiehandleiding-model-participatieverordening-2024 (VNG, PDF, participatieverordening / lokale democratie) → 7 begrippen, geen nieuwe BO's (governance/procedures)
 - [x] positionering-griffier-gelijkwaardige-verhoudingen (Nederlandse Vereniging voor Raadsleden, PDF, generiek functieprofiel Griffier en positionering in lokale driehoek) → context voor Griffie-domein, geen nieuwe BO's
 
-## erfgoed (3)
-- [ ] lijst-beeldbepalende-panden
+## ~~erfgoed (3 + 4 aanvullend)~~ ✓
+- [x] lijst-beeldbepalende-panden → Niet-relevant (pure adreslijst)
 - [x] archiefverordening-wageningen-2019
 - [x] memorie-van-toelichting-archiefwet-1995
 
 > **archiefverordening-wageningen-2019:** Modelverordening Archiefwet 1995. Geen nieuwe BO's. Bestaand BO Archiefstuk verrijkt met duale domeinpositionering (erfgoed + informatiebeheer). 4 begrippen. GGM-signalering: e-depot ontbreekt.
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] gr-regionaal-archief-rivierenland-2024 (Gemeenten Rivierenland, lokaleregelgeving.overheid.nl, GR Regionaal Archief Rivierenland 2024 — bestuursstructuur, taken, financiering regionaal archief)
+- [x] besluit-informatiebeheer-gr-cure-2021 (GR Cure, officielebekendmakingen.nl, Besluit Informatiebeheer — archiefbewaarplaats, documentair informatiebeheer, selectie en vernietiging)
+- [x] beleidsplan-westfries-archief-2024-2027 (Westfries Archief, PDF, meerjaren beleidsplan 2024-2027 — digitale archivering, eDepot, inspectie, Woo-publicatie, kenniscentrum)
+- [x] erfgoedwet-bwbr0037521 (Rijksoverheid, wetten.overheid.nl, Erfgoedwet per 2026-01-01 — beheer collecties, aanwijzing beschermd erfgoed, cultuurgoedbescherming, archeologische monumentenzorg)
+
+> **Afgehandeld:** 6 rijke bronnen verwerkt (4 nieuw + 2 eerder via Cultuur), 2 naar Niet-relevant (portaalpagina, adreslijst). 1 nieuw BO: Collectie (GGM exact, Erfgoedwet-grondslag). Duplicaat Monument/Beschermde Status opgelost. 6 begrippen toegevoegd aan onderwerpoverzicht Cultuur. eDepot als GGM-hiaat gesignaleerd. Domein afgerond: 15 bronsamenvattingen (11 Cultuur + 4 erfgoed), 49 begrippen, 8 BO's.
 
 ## ~~Europa en Internationaal (7)~~ ✓
 - [x] europese-kennisnetwerken

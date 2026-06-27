@@ -32,8 +32,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: "Status van de bescherming van een monument."
-bo_toelichting: "Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks-, provinciaal of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente."
+bo_definitie: "Onroerende zaak met formeel vastgestelde cultuurhistorische waarde, beschermd op grond van een aanwijzingsbesluit door Rijk, provincie of gemeente en ingeschreven in het betreffende erfgoedregister."
+bo_toelichting: "De GGM-entiteit heet 'Beschermde Status' en modelleert de registratie van de bescherming, niet het fysieke object zelf. Attributen als rijksmonumentcode, gemeentelijkMonumentCode en datumInschrijvingRegister bevestigen dit. De wiki gebruikt 'Monument' als BO-naam omdat dit herkenbaarder is voor domeinexperts."
 bo_subtypes:
 - naam: kerkgebouw
   omschrijving: Religieus gebouw (kapittels, parochiekerken, kloosters)
@@ -178,12 +178,9 @@ De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzami
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
-- [[Wiki/Bronsamenvattingen/Cultuur/propositie-cultuur]]
-- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
-- [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
 - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
-- [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
 - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
+- [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
+- [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
