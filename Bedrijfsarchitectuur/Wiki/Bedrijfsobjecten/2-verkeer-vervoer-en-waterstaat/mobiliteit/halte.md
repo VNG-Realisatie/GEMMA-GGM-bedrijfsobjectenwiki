@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Fysieke voorziening in de openbare ruimte waar reizigers in- en uitstappen voor openbaar vervoer.
+bo_toelichting: ''
 bedrijfsprocessen:
 - OV-beleid
 - Beheer openbare ruimte

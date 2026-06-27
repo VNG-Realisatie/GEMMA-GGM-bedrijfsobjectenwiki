@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Toestemming van de gemeente aan een organisator om een evenement te organiseren op een specifieke locatie en datum."
+bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:

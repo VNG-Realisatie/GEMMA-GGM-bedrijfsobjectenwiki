@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Rioolput]]"
@@ -95,6 +96,10 @@ Herkende specialisaties van Rioolleiding. Geen apart BO.
 - **Taakveld:** 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
 - **Attributen:** afwijkendeDieptelegging, breedte, diameter, diepte, eisVoorzorgsmaatregel, geoNauwkeurigheidXY, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, materiaal, themaIMKL, verhoogdRisico
 - **Matchsterkte:** exact — GGM Leiding is breder (alle leidingen) maar de gemeentelijke toepassing is primair riolering
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

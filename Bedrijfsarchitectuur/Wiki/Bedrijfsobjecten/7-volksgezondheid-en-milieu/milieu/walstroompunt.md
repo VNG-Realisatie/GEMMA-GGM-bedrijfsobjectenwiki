@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Fysiek aansluitpunt voor walstroom aan een vaarweg of kade, zodat schepen op elektriciteit kunnen draaien in plaats van hun dieselmotor."
+bo_toelichting: ''
 bo_subtypes:
 bo_relaties: []
 bedrijfsprocessen: [binnenvaartbeheer, luchtkwaliteitsbeleid]

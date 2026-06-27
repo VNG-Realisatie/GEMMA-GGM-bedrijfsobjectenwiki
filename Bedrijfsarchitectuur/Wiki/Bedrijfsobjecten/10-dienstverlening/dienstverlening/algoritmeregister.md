@@ -30,6 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Vastlegging van een algoritme in het Algoritmeregister met doel, werking, verantwoording en metadata conform de Publicatiestandaard."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|Verwerkingsactiviteit]]"

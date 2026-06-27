@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5b29c1f2-feeb-4e72-9b7
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
+bo_toelichting: ''
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
 bo_relaties:

@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen.
+bo_toelichting: ''
 bedrijfsprocessen:
 - OV-beleid
 - Verkeersmanagement

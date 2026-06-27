@@ -30,7 +30,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-ab441c2e-d5a6-4546-b1b8-a08d3bee1c07
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Het door de gemeente vastgestelde onderwijstraject dat de inburgeraar volgt richting het inburgeringsdiploma.
+bo_definitie: "Een Leerroute is het door de gemeente vastgestelde traject dat een inburgeringsplichtige volgt om te voldoen aan de inburgeringsplicht, bestaande uit taallessen, participatieactiviteiten en aanvullende modules, afgestemd op het leervermogen en het hoofddoel van de inburgeraar."
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'

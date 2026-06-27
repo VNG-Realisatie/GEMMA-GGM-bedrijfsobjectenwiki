@@ -39,7 +39,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "De vastlegging van welke persoon welk zakelijk recht uitoefent op welk kadastraal object."
+bo_definitie: "Een TENAAMSTELLING vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Zakelijk Recht]]"

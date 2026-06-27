@@ -27,7 +27,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa6
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Formele beschermingsstatus die aan een monument, erfgoed of stadsgezicht is toegekend op grond van een aanwijzingsbesluit van het Rijk, de provincie of de gemeente."
+bo_definitie: "Status van de bescherming van een monument."
+bo_toelichting: "Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks-, provinciaal of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente."
 bo_subtypes:
   - naam: Rijksmonument
     omschrijving: "Monument beschermd op grond van de Erfgoedwet door het Ministerie van OCW"
@@ -96,10 +97,6 @@ De GGM modelleert alle subtypes als waarden van het `type`-attribuut op de entit
 **Matchsterkte:** exact. De GGM-entiteit beschrijft hetzelfde concept.
 
 **GGM-attributen:** rijksmonumentcode, gemeentelijkMonumentCode, datumInschrijvingRegister, naam, type, gezichtscode, complex, opmerkingen, bronnen, omschrijving.
-
-## BO-definitie
-
-De GGM-definitie focust op monumenten en erfgoed als objecten; de GEMMA-definitie benadrukt de status zelf als formeel besluit en voegt beschermde stadsgezichten expliciet toe.
 
 ## Relaties
 

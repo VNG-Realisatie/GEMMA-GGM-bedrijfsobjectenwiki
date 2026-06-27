@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Verplicht plan voor de verlening van jeugdhulp of de uitvoering van een kinderbeschermingsmaatregel, in samenspraak met de jeugdige en ouders opgesteld."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"

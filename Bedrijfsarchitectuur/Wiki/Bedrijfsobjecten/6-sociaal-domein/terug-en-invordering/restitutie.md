@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Terugbetaling door de gemeente van te veel ontvangen aflossing op een vordering."
+bo_definitie: "Restitutie is terugbetaling van te veel ontvangen aflossing."
+bo_toelichting: "Restituties worden geadministreerd onder de vordering."
 definitie: Terugbetaling van te veel ontvangen aflossing
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]

@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Afgebakend gebied in de gemeente dat de gemeente beschermt vanwege de relatieve rust en afwezigheid van nadrukkelijk omgevingsgeluid."
+bo_toelichting: ''
 bedrijfsprocessen: [actieplan geluid, geluidkartering, ruimtelijke planvorming]
 bedrijfsfuncties: [milieubeheer, groenbeheer, ruimtelijke ordening]
 bo_relaties:

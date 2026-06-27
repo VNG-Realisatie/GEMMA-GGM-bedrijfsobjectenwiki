@@ -28,7 +28,8 @@ ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
 ggm_duplicaat_entiteiten:
   - "EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92"
 
-bo_definitie: "Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd en die daardoor een gevaar kan vormen voor de omgeving."
+bo_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
+bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:
@@ -78,12 +79,6 @@ In Utrecht zijn de belangrijkste risicobronnen:
 > — GGM, Activiteit (EAID_8BE600D0), beleidsdomein Omgevingswet
 
 **Matchsterkte: partieel.** Activiteit is een generiek Omgevingswet-concept dat alle activiteiten in de leefomgeving omvat. Een risicobron is een specifiek type activiteit — namelijk een activiteit met externe veiligheidsrisico's. De GGM-entiteit is breder; het BO is een specialisatie. Het GGM kent geen apart objecttype voor risicobronnen.
-
-## BO-definitie
-
-De GEMMA-definitie wijkt af van de GGM-definitie:
-- **GGM**: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
-- **GEMMA**: "Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd en die daardoor een gevaar kan vormen voor de omgeving."
 
 ## Relaties
 

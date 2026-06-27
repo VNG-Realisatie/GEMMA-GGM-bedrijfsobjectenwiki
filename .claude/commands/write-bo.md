@@ -101,9 +101,9 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
 
 `bo_definitie` — kort, helder, goed leesbaar. Bij voorkeur 1 zin, max ~160 tekens. Langer mag alleen als de tekst letterlijk uit GGM of bron wordt overgenomen. Bepaal als volgt:
 
-1. **GGM-definitie toetsen aan bronnen.** Vergelijk `ggm_definitie` (of `ggm_gemma_definitie` als die er is) inhoudelijk met de Sources-bestanden van dit onderwerp.
+1. **GGM-definitie toetsen aan bronnen.** Vergelijk `ggm_definitie` (of `ggm_gemma_definitie` als die er is) inhoudelijk met de Sources-bestanden van dit onderwerp. Een GGM-definitie die leeg is, alleen een placeholder bevat (bijv. `~`, `-`, `?`, `TODO`) of geen inhoudelijke omschrijving geeft, telt als "geen definitie" — behandel als scenario 3 (zonder GGM-match).
 2. **Drie scenario's:**
-   - **GGM klopt qua strekking** → neem de GGM-definitie letterlijk over als `bo_definitie`. Niet aanpassen.
+   - **GGM klopt qua strekking** → neem de GGM-definitie over als `bo_definitie`. Niet inhoudelijk aanpassen. Wel opschonen: taalfouten corrigeren (tikfouten, afbrekingen, ontbrekende spaties), HTML-tags en HTML-entities verwijderen (bijv. `<font>`, `<b>`, `&#243;` → ó), en opsommingen, voorbeelden of uitweidingen verplaatsen naar `bo_toelichting`. De definitie bevat de kernomschrijving; de toelichting bevat de uitleg. Dit is geen afwijking en hoeft niet gedocumenteerd te worden.
    - **GGM wijkt inhoudelijk af van bronnen** → maak een eigen definitie gebaseerd op de bronnen. Als een bron een definitie bevat: neem die letterlijk over. Anders: afleiden uit hoe het begrip in de bronnen wordt gebruikt. Toon de brontekst en de voorgestelde definitie aan de gebruiker ter verificatie. Documenteer de afwijking in de body-sectie **BO-definitie**.
    - **GGM klopt maar is onvolledig** → neem de GGM-definitie letterlijk over als `bo_definitie`. Zet de aanvulling (uitleg, voorbeelden, verdere context) in `bo_toelichting`.
 3. **Zonder GGM-match:** maak een definitie uit de bronnen. Bron-definitie letterlijk overnemen als die er is, anders afleiden.

@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Afgebakend gebied rond een industrieterrein waarbinnen de cumulatieve geluideffecten van alle bedrijven worden beheerst via omgevingswaarden."
+bo_toelichting: ''
 bedrijfsprocessen: [vergunningverlening, omgevingsplan, geluidkartering]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
 bo_relaties:

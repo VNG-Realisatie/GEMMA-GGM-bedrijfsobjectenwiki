@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Afspraak tussen de gemeente en de debiteur over de termijnen en bedragen waarmee een vordering wordt afgelost."
+bo_definitie: "Een aflossingsplan bevat alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij per wanneer welk bedrag aflost."
+bo_toelichting: "Er kunnen bijzondere afspraken worden vastgelegd, bijvoorbeeld Dwangbevel. In zulke gevallen wordt de gehele schuld in één keer weer opeisbaar gesteld."
 definitie: Alle afspraken tussen de gemeente en de debiteur over op welke vordering per wanneer welk bedrag wordt afgelost
 bedrijfsprocessen: [Invordering, Schuldbeheer]
 bedrijfsfuncties: [Inning en invordering]

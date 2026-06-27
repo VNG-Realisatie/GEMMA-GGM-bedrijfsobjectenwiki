@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Europese kaart die het recht geeft om te parkeren op gehandicaptenparkeerplaatsen, uitgegeven door de gemeente op basis van medisch advies."
+bo_toelichting: ''
 gemma_toelichting: "De GPK wordt uitgegeven als bestuurderskaart, passagierskaart, combinatiekaart of instellingskaart. Maximale geldigheid is 5 jaar. In Utrecht geldt dat GPK-houders gratis mogen parkeren in de openbare ruimte."
 bo_subtypes:
   - naam: "Bestuurderskaart"

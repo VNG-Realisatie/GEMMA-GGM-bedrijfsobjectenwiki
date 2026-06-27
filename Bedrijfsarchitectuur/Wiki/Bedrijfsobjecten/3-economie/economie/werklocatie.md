@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Aangewezen geografisch gebied in de gemeente waar bedrijvigheid, voorzieningen of andere werkfuncties zijn geconcentreerd, met een vastgesteld profiel voor gewenst gebruik en ontwikkeling."
+bo_toelichting: ''
 gemma_toelichting: "Werklocaties worden getypeerd als bedrijventerrein, kantoorlocatie, winkelgebied, innovatielocatie of wijkeconomie. De gemeente stelt per werklocatie een profiel vast met kaders voor milieucategorie, functiemenging en sturingsintensiteit."
 bo_subtypes:
   - naam: Bedrijventerrein

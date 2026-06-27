@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Multimodaal overstappunt met deelvoertuigen, voorzieningen en diensten voor het faciliteren van ketenreizen."
+bo_toelichting: ''
 bedrijfsprocessen: [Mobiliteitsmanagement, Deelmobiliteitsbeleid, Ruimtelijke ordening]
 bedrijfsfuncties: [Verkeersmanagement, Mobiliteitsbeleid]
 bo_relaties:

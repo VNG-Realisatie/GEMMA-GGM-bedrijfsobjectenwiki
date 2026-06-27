@@ -30,6 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Uitvaart die de gemeente verzorgt wanneer niemand anders in de lijkbezorging voorziet, op grond van artikel 21 van de Wet op de lijkbezorging."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[NatuurlijkPersoon]]"
@@ -67,6 +68,10 @@ Wanneer niemand voorziet in de lijkbezorging van een overledene, is de gemeente 
 **Matchsterkte:** exact — 1:1 mapping op GGM-entiteit.
 
 Het GGM plaatst deze entiteit onder taakveld 6 (Sociaal Domein). Inhoudelijk hoort lijkbezorging bij volksgezondheid (Wet op de lijkbezorging, Wet publieke gezondheid). Dit is een classificatieverschil in het GGM, geen inhoudelijke afwijking.
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

@@ -27,7 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Verzoek van een kandidaat om in een functie te worden aangesteld."
+bo_definitie: "Verzoek om in een functie te worden aangesteld."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vacature]]"

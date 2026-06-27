@@ -25,7 +25,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-10eaa33f-03bf-42b4-931
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
-bo_definitie: "Informatiedrager met eigen identiteit, ongeacht vorm, die de gemeente ontvangt of opmaakt bij de uitvoering van taken."
+bo_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Enkelvoudig document
     omschrijving: Document dat als één geheel wordt behandeld en beheerd

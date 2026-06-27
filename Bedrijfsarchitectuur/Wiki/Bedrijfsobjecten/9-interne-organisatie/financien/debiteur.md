@@ -29,6 +29,7 @@ ggm_duplicaat_entiteiten:
   - "EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E"
 
 bo_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
+bo_toelichting: ''
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente
 bedrijfsprocessen: [Facturering, Debiteurenadministratie, Invordering]
 bedrijfsfuncties: [Financieel beheer, Inning en invordering]
@@ -67,6 +68,10 @@ De bedrijfsobjectdefinitie is breder dan beide GGM-definities: "Persoon die een 
 
 - **Financieel beheer** — debiteurenregistratie
 - **Inning en invordering** — vorderingenbeheer
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

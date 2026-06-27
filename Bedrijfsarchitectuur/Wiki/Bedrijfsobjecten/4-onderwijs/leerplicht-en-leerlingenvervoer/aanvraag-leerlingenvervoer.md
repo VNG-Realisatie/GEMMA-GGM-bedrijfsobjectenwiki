@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Verzoek van ouders aan de gemeente om een vervoersvoorziening voor hun kind."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
@@ -66,6 +67,10 @@ Een aanvraag leerlingenvervoer is een verzoek van ouders aan de gemeente om een 
 > — GGM-entiteit: Aanvraag Leerlingenvervoer, beleidsdomein: Leerplicht en Leerlingenvervoer
 
 **Matchsterkte: exact.** De GGM-entiteit beschrijft hetzelfde concept.
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

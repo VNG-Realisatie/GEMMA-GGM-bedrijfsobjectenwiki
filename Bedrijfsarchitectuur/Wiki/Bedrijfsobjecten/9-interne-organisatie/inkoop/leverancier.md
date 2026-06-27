@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Beperktere diagram-set (Sociaal Domein, Verplichtingen, Relaties Sociaal Domein tot Kern)"
 
-bo_definitie: "Niet-natuurlijk persoon die goederen, diensten of werken levert aan de gemeente op basis van een contract of opdracht."
+bo_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Contract]]"

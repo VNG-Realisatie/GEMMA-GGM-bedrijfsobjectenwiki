@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Object dat geluid veroorzaakt in de leefomgeving, ingedeeld naar bronsoort zoals wegverkeer, railverkeer, industrieterrein of scheepvaart."
+bo_toelichting: ''
 bedrijfsprocessen: [geluidkartering, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [milieubeheer, ruimtelijke ordening]
 bo_relaties:

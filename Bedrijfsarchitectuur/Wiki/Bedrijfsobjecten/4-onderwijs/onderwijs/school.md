@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting."
+bo_toelichting: ''
 bo_subtypes:
   - naam: PO-school
     omschrijving: "School voor primair onderwijs"
@@ -111,6 +112,10 @@ Een school is een instelling voor funderend onderwijs. De gemeente is verantwoor
 - **Beleidsdomein:** Onderwijs
 - **Attributen:** naam
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

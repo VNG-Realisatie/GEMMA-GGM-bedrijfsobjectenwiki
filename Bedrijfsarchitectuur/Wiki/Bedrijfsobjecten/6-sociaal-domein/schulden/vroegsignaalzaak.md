@@ -14,7 +14,8 @@ ggm_diagram: [Vroegsignalering, Vroegsignalering Details, Vroegsignalering Klein
 ggm_definitie: "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsignalen is ondergebracht."
 ggm_herkomst: GGM
 
-bo_definitie: "Zaak waarin de gemeente de behandeling van één of meerdere vroegsignalen afhandelt, inclusief contactpogingen en toeleiding naar hulpverlening."
+bo_definitie: "Een Vroegsignaalzaak is procesmatige eenheid binnen de gemeentelijke organisatie waarin de behandeling van één of meerdere vroegsignalen is ondergebracht."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

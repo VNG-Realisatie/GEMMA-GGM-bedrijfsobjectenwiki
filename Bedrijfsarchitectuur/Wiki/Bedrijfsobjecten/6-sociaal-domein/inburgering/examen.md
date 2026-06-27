@@ -30,6 +30,7 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering.
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|Inburgeringstraject]]'
@@ -66,6 +67,10 @@ Examenonderdeel is detail/classificatie van dit BO, geen apart bedrijfsobject. H
 - **Beleidsdomein:** Inburgering (taakveld 6 — Sociaal Domein)
 - **Attributen:** ExamenResultaat
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie beschrijft een generiek onderwijsexamen ("leerling of student", "cursus, module of opleiding"). Dit BO betreft specifiek het inburgeringsexamen onder de Wet inburgering 2021, afgelegd door inburgeraars bij DUO.
 
 ## Relaties
 

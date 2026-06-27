@@ -27,7 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Formeel besluit van de werkgever jegens een werknemer bij plichtsverzuim of wangedrag."
+bo_definitie: "Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Schriftelijke waarschuwing
     omschrijving: "Formele waarschuwing of berisping"

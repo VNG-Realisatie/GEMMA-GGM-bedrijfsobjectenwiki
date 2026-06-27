@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte geldigheidsvelden (datumBeginGeldigheidNummeraanduiding, etc.); minder attributen (geen versie, geometrie, documentvelden); voegt inOnderzoek toe"
 
-bo_definitie: "Door de gemeente toegekende aanduiding (huisnummer, huisletter, toevoeging, postcode) van een verblijfsobject, standplaats of ligplaats, als formeel adres in de BAG."
+bo_definitie: "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Openbare Ruimte]]"

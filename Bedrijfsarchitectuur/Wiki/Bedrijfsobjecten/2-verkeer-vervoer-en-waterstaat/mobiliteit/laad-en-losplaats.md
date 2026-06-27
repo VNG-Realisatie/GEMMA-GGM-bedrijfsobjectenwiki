@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Aangewezen locatie in de openbare ruimte voor het laden en lossen van goederen.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Beheer openbare ruimte
 - Goederenvervoerbeleid

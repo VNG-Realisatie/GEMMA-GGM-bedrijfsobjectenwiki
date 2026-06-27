@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-59d3efaa-a05f-477a-a27
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Organisatie waarin sport wordt beoefend en die als primaire gebruiker optreedt van gemeentelijke sportaccommodaties."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Sportlocatie]]"
@@ -57,6 +58,10 @@ Een sportvereniging is een organisatievorm waarin sport bedreven kan worden. In 
 - **Attributen:** naam, typeSport, binnensport, buitensport, email, adres, ledenaantal, aantalNormTeams
 - **Matchsterkte:** exact
 - **Overerving:** specialisatie van NietNatuurlijkPersoon (abstract)
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

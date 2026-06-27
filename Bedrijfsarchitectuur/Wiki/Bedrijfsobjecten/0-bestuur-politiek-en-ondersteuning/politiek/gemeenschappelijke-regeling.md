@@ -25,8 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op basis van de Wet gemeenschappelijke regelingen (Wgr), met eigen juridische persoonlijkheid,
-  bestuur en financiën.
+bo_definitie: "Publiekrechtelijke samenwerkingsconstructie waarmee gemeenten, provincies en waterschappen op basis van de Wet gemeenschappelijke regelingen (Wgr) gezamenlijk taken uitvoeren."
+bo_toelichting: ''
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
 bo_relaties:
@@ -83,10 +83,6 @@ Elke GR heeft:
 - Eigen rechtspersoonlijkheid (handlichaam met eigen vermogen)
 - Inschrijving in KvK-handelsregister
 - Raad van Advies en/of Raad van Bestuur (afhankelijk van GR-type)
-
-## BO-definitie
-
-> **Gemeenschappelijke Regeling** — Publiekrechtelijke samenwerkingsconstructie tussen gemeenten, provincies en/of waterschappen, gevormd op grondslag van de Wet gemeenschappelijke regelingen, met eigen juridische persoonlijkheid, bestuursstructuur, vermogen en taken.
 
 ## Verschil met andere samenwerkingsvormen
 

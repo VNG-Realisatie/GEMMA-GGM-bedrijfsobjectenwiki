@@ -14,7 +14,8 @@ ggm_diagram: [Schuldhulpproces]
 ggm_definitie: "De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers. Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt."
 ggm_herkomst: GGM
 
-bo_definitie: "Overeenkomst tussen een inwoner met problematische schulden en de schuldeisers, gericht op aflossing binnen 18 maanden met kwijtschelding van het restant."
+bo_definitie: "De schuldregeling heeft als doel een overeenkomst te sluiten tussen iemand met problematische schulden en zijn schuldeisers."
+bo_toelichting: "Op basis van eventueel ingezet vermogen en de berekende afloscapaciteit lost de schuldenaar in maximaal 18 maanden zo veel mogelijk van de schuld af. Daarna schelden de schuldeisers de rest van hun vordering kwijt."
 bo_subtypes: []
 bo_relaties:
   - type: associatie

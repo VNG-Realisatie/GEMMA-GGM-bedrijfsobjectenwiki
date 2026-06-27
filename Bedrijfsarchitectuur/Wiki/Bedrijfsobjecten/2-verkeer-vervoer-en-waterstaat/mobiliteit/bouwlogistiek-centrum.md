@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Tijdelijke hub voor gebundelde aanvoer van bouwmaterialen en -personeel naar bouwlocaties.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Bouwlogistiek
 - Vergunningverlening

@@ -27,7 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-aa2cb2d9-8482-473c-a5bf
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Officieel document dat een overtreding van de leerplichtwet vastlegt."
+bo_definitie: "Een officieel document dat een overtreding van de leerplichtwet vastlegt."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

@@ -27,7 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Een periode van goedgekeurde afwezigheid van een werknemer."
+bo_definitie: "Een periode waarin iemand toestemming heeft om iets te doen, in het bijzonder om afwezig te zijn."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"

@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Fysieke locatie voor overslag van goederen tussen verschillende vervoersmodaliteiten (weg, water, spoor).
+bo_toelichting: ''
 bedrijfsprocessen:
 - Goederenvervoerbeleid
 - Havenbeheer

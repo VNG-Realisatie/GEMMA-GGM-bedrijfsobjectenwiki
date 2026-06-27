@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (gemeenteGeometrie, datumBeginGeldigheidGemeente, etc.); minder attributen (geen Geconstateerd, versie, datumIngang, datumEinde)"
 
-bo_definitie: "Gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet, als hoogste niveau van de gemeentelijke gebiedsindeling."
+bo_definitie: "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woonplaats]]"

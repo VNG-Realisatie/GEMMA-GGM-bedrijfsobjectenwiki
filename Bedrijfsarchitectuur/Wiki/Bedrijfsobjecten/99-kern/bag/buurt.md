@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (buurtcode, buurtnaam, buurtgeometrie, etc.); voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde)"
 
-bo_definitie: "Aaneengesloten gedeelte van een wijk, met grenzen gebaseerd op topografische elementen, als laagste niveau van de gemeentelijke gebiedsindeling."
+bo_definitie: "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wijk]]"

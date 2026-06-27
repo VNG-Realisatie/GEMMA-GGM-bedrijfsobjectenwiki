@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Wild of gehouden dier dat gevonden, gewond of anderszins hulpbehoevend is en waarvoor de gemeente wettelijk verplicht opvang en vervoer organiseert."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[kinderboerderij]]"

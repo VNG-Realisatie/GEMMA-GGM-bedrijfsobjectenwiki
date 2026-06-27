@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cda4149f-f0a0-44d9-b89
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Binnensportaccommodatie zoals een sporthal of gymzaal, met eigen capaciteitsberekening en bezettingsgraad."
+bo_toelichting: ''
 bo_subtypes:
   - naam: sporthal
     omschrijving: "Grote binnensportaccommodatie voor meerdere sporten en verenigingen"

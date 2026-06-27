@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Registratie van een grondverplaatsing met herkomstlocatie, bestemmingslocatie, kwaliteit en volume."
+bo_toelichting: ''
 bedrijfsprocessen: [grondverzet beoordelen, milieuhandhaving, bodembeheer]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
 bo_relaties:

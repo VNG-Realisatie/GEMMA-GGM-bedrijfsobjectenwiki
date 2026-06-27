@@ -60,7 +60,8 @@ ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
 ggm_duplicaat_entiteiten:
   - "EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2"
 
-bo_definitie: Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie.
+bo_definitie: "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"
+bo_toelichting: ''
 bedrijfsprocessen:
 - Zaakafhandeling
 - Klantcontactregistratie
@@ -144,12 +145,6 @@ Herkende specialisaties van Aanvraag of melding. Gevonden in bronnen en/of GGM. 
 - **MORAanvraagOfMelding** — melding openbare ruimte
 - **WoonfraudeAanvraagOfMelding** — melding of aanvraag van woonfraude
 - **WoonoverlastAanvraagOfMelding** — melding of aanvraag met betrekking tot woonoverlast
-
-## BO-definitie
-
-De GGM-definitie ("Komt overeen met een VJV") is een technische referentie naar het bronsysteem (VJV = Vraag, Ja/Nee, Verzoek), niet een bedrijfsdefinitie. De GEMMA-definitie is daarom afwijkend en beschrijvend geformuleerd:
-
-> **Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie.**
 
 ## Relaties
 

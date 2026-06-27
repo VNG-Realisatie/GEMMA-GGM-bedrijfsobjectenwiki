@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8ffff080-afa5-43cf-a1dc-1ab2052f20ac"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
+bo_definitie: "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels."
+bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:
@@ -81,12 +82,6 @@ De gemeente kan afwijken van aanwijzing als de omgevingsveiligheidssituatie daar
 > — GGM, Gebiedsaanwijzing (EAID_503BD06E), beleidsdomein Omgevingswet
 
 **Matchsterkte: partieel.** Gebiedsaanwijzing is het generieke GGM-concept. Een voorschriftengebied is een specifiek type gebiedsaanwijzing dat in het omgevingsplan wordt vastgelegd met bijbehorende bouweisen. Zelfde GGM-entiteit als [[Aandachtsgebied]] maar met een ander doel en een ander juridisch regime.
-
-## BO-definitie
-
-De GEMMA-definitie wijkt af van de GGM-definitie:
-- **GGM**: "Functie of een Beperkingengebied, met een verwijzing naar locatie, veelal een gebied, waarbij aangegeven wordt hoe het gebied beschouwd wordt vanuit de bijbehorende regels."
-- **GEMMA**: "In het omgevingsplan aangewezen deel van een aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw ter bescherming tegen brand en/of explosie."
 
 ## Relaties
 

@@ -32,7 +32,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Beschermd onroerend erfgoed (rijks-, provinciaal of gemeentelijk) waarvan de cultuurhistorische waarde is vastgesteld en dat is ingeschreven in het monumentenregister.
+bo_definitie: "Status van de bescherming van een monument."
+bo_toelichting: "Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische, volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks-, provinciaal of gemeentelijke monument / erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente."
 bo_subtypes:
 - naam: kerkgebouw
   omschrijving: Religieus gebouw (kapittels, parochiekerken, kloosters)
@@ -122,14 +123,6 @@ Beschermd onroerend erfgoed waarvan de cultuurhistorische waarde formeel is vast
 **Entiteit:** Beschermde Status
 **Attributen:** rijksmonumentcode, gemeentelijkMonumentCode, datumInschrijvingRegister, naam, type, gezichtscode, complex, opmerkingen, bronnen, omschrijving
 **Matchsterkte:** exact
-
-## BO-definitie
-
-Het bedrijfsobject **Monument** komt overeen met de GGM-entiteit **Beschermde Status**. De naamkeuze "Monument" sluit aan bij het gangbare gemeentelijke taalgebruik — men spreekt van "monumenten" en het "monumentenregister", niet van "beschermde statussen".
-
-De entiteit omvat zowel individuele monumenten als beschermde stads- en dorpsgezichten (via het attribuut `gezichtscode`). Typen bescherming: rijksmonument, provinciaal monument, gemeentelijk monument.
-
-De Erfgoedwet (2016) en de Omgevingswet vormen het wettelijk kader. Gemeenten zijn bevoegd tot aanwijzing van gemeentelijke monumenten en beschermde gezichten.
 
 ## Specialisaties
 

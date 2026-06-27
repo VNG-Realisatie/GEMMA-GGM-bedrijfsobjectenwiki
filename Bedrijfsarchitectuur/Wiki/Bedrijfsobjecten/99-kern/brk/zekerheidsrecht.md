@@ -36,6 +36,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Een hypotheek of beslag op een onroerende zaak, geregistreerd in de BRK."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"
@@ -84,6 +85,10 @@ Herkende specialisaties van Zekerheidsrecht. Gevonden in de BRK Catalogus en GGM
 - **Beleidsdomein:** RSGBPlus (99 Kern)
 - **Attributen:** identificatieZekerheidsrecht, omschrijvingBetrokkenRecht, typeZekerheidsrecht, aandeelInBetrokkenRecht, datumIngangRecht, datumEindeRecht
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b083bd60-0137-40b0-ad72-4602b3c1d754"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Vervoermiddel bestemd voor het wegverkeer, in de parkeercontext geïdentificeerd door kenteken."
+bo_definitie: "Vervoermiddel bestemd voor het verkeer over wegen"
+bo_toelichting: ''
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:

@@ -27,7 +27,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-833312cc-f7d8-4b4c-9e79-b21c8e7597cb
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Formeel besluit van de gemeente als wegbeheerder over plaatsing, wijziging of intrekking van verkeerstekens of verkeersmaatregelen.
+bo_definitie: "Een besluit van een wegbeheerder om een bepaald verkeersteken te plaatsen, te wijzigen of in te trekken of een bepaalde fysieke maatregel te treffen."
+bo_toelichting: ''
 bedrijfsprocessen:
 - Verkeersmanagement
 - Wegbeheer

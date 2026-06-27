@@ -32,6 +32,7 @@ ggm_duplicaat_entiteiten:
   - "EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D"
 
 bo_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Archeologisch onderzoek
 - Vergunningverlening
@@ -83,6 +84,10 @@ De GGM-definitie is generiek ("project"); in het GGM-archeologie-model is dit sp
 De operationele opgravingshiërarchie (Put → Vlak → Spoor → Vulling) en onderzoekstechnieken (boring) zijn in het GGM gedetailleerd uitgewerkt. Op bedrijfsniveau zijn dit details van het onderzoeksproject, niet zelfstandige bedrijfsobjecten. Ook het **Archeologiebesluit** (EAID_836E51BF, "professioneel oordeel") is een uitkomst van het adviesproces, geaggregeerd in dit BO.
 
 > "We bewaken en bestuderen het Utrechtse bodemarchief door te adviseren bij voorgenomen werkzaamheden in de ondergrond, door archeologisch onderzoek als bevoegd gezag te begeleiden en door zelf onderzoek uit te voeren." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']])
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

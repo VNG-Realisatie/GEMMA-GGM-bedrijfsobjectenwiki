@@ -25,7 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Periodieke vervangingskeuze van gekozen ambtsdragers, georganiseerd en uitgevoerd door de gemeente, met formele processen voor registratie, stemming en telling.
+bo_definitie: "Periodiek georganiseerd democratisch proces waarbij kiezers ambtsdragers kiezen, door de gemeente voorbereid en uitgevoerd."
+bo_toelichting: ''
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
 bo_relaties:
@@ -74,10 +75,6 @@ Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Het GGM modelleert **d
 **Verkiezing is een proces**, niet een registratieobject. Gemeenten registreren uitslagen en stemmers, maar niet "verkiezingen" zelf als database-entiteit. Dit valt **buiten de scope van het GGM** — niet omdat het een hiaat is, maar omdat het GGM per definitie alleen data modelleert (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
 
 **Geen terugmelding naar GGM** — dit is een scopekeuze, geen fout.
-
-## BO-definitie
-
-> **Verkiezing** — Periodieke vervangingskeuze van gekozen ambtsdragers (raadsleden, burgemeester, waterschapsleden, EP-vertegenwoordigers, TK-afgevaardigden), volledig georganiseerd en uitgevoerd door de gemeente conform de Kieswet en aanverwante regelgeving.
 
 ## Relaties
 

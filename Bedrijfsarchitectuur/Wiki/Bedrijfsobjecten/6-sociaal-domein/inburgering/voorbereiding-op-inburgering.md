@@ -31,7 +31,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Activiteiten die de gemeente aanbiedt aan asielstatushouders in de opvang ter voorbereiding op het inburgeringstraject.
+bo_definitie: "Voorbereiding op inburgering omvat de activiteiten die worden aangeboden aan asielstatushouders vóór de start van de formele inburgeringsplicht, gericht op oriëntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel."
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'

@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Formeel besluit van het college om bij een geconstateerde overtreding een sanctie op te leggen, zoals een last onder dwangsom of bestuursdwang."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

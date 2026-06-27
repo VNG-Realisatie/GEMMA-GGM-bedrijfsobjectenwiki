@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Aangewezen locatie of zone waarbinnen roken niet is toegestaan, gericht op bescherming van de gezondheid."
+bo_toelichting: ''
 bo_subtypes:
 bo_relaties: []
 bedrijfsprocessen: [volksgezondheidsbeleid, luchtkwaliteitsbeleid]

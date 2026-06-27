@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Installatie voor warmte-koude opslag (WKO) in de ondergrond, geregistreerd met locatie, capaciteit en diepte."
+bo_toelichting: ''
 bedrijfsprocessen: [vergunningverlening bodemenergie, gebiedsgericht grondwaterbeheer, energietransitie]
 bedrijfsfuncties: [milieubeheer, vergunningverlening, duurzaamheidsbeleid]
 bo_relaties:

@@ -15,6 +15,7 @@ ggm_definitie: "Een schuld is een financiële verplichting waarbij een persoon n
 ggm_herkomst: GGM
 
 bo_definitie: "Financiële verplichting van een inwoner aan een schuldeiser, waaraan de inwoner niet kan voldoen."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -53,6 +54,10 @@ Herkende specialisaties van schuld. Geen apart BO.
 - **Beleidsdomein:** Schuldhulpverlening
 - **Attributen:** bedrag, peildatum, zakelijkeSchuld, schuldsoort
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie is generiek ("een persoon", "een derde"). De BO-definitie specificeert de gemeentelijke context: het gaat om een inwoner die niet aan een financiële verplichting kan voldoen.
 
 ## Relaties
 

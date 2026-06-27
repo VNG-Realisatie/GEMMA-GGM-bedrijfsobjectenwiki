@@ -30,6 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: Uiting van ontevredenheid over een gedraging van een bestuursorgaan of een ambtenaar, behandeld conform titel 9.1 Awb.
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

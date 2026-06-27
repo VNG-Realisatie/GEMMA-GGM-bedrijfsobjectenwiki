@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Client]]"
@@ -87,6 +88,10 @@ Herkende specialisaties van Inkomensvoorziening. Gevonden in bronnen en/of GGM. 
 **Matchsterkte:** exact — de GGM-entiteit beschrijft precies het concept van een toegekende inkomensregeling.
 
 **Attributen (GGM):** ingangsdatum, einddatum, toekenningsdatum, bedrag, eenmalig, groep, administratieveEinddatum, administratieveStartdatum, betalingsmomentcode, code, datumToekenning, indicatieBlokkering, indicatieStudietoeslag, indicatieUitkeringSplitsen, indicatieUitkeringsspecificatie, verstrekkingsvorm, verwerktTotEnMetDatum
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

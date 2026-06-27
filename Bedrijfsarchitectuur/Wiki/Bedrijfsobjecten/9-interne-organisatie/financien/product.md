@@ -29,7 +29,8 @@ ggm_duplicaat_entiteiten:
   - "EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A"
   - "EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F"
 
-bo_definitie: "Resultaat van een gemeentelijk proces dat als dienst of levering een waarde vertegenwoordigt."
+bo_definitie: "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."
+bo_toelichting: ''
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]
 bedrijfsfuncties: [Dienstverlening, Financieel beheer]

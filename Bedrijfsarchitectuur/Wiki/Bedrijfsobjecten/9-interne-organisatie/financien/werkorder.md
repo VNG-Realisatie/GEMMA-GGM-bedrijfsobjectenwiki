@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5029f2d1-bad6-4813-8f59-d3f7981849e3"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Opdracht voor de uitvoering van een specifieke activiteit of onderhoudstaak binnen de gemeente."
+bo_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
+bo_toelichting: ''
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces
 bedrijfsprocessen: [Operationeel beheer, Onderhoud]
 bedrijfsfuncties: [Beheer openbare ruimte, Facilitair beheer]

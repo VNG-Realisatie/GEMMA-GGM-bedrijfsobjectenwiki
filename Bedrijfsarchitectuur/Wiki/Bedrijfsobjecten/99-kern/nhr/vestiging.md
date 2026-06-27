@@ -58,6 +58,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"
@@ -140,6 +141,10 @@ GGM-entiteiten die onderdeel zijn van Vestiging. Gemodelleerd als aparte entitei
 - **Package:** RSGB Model > Model Kern RSGB
 - **Attributen:** vestigingsnummer, handelsnaam, verkorteNaam, datumAanvang, datumEinde, datumVoortzetting, toevoegingAdres, fulltimeWerkzameMannen, parttimeWerkzameMannen, fulltimeWerkzameVrouwen, parttimeWerkzameVrouwen, commercieleVestiging, totaalWerkzamePersonen
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

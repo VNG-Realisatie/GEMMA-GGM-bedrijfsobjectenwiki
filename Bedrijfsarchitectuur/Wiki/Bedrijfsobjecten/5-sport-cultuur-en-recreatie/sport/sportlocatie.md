@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a7a350a2-a9aa-4437-b67
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Locatie waar sportbeoefening plaatsvindt, als overkoepelend begrip voor binnen- en buitensportaccommodaties."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportpark]]"
@@ -68,6 +69,10 @@ Een sportlocatie is een locatie waar sport plaatsvindt. Het is het overkoepelend
 - **Beleidsdomein:** Sport
 - **Attributen:** naam
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Door de gemeente verstrekte subsidie aan een decentrale politieke partij ter ondersteuning van de partijorganisatie en versterking van de lokale democratie."
+bo_definitie: "Door de gemeente verstrekte financiële bijdrage aan een decentrale politieke partij met ten minste één raadszetel, bestemd voor partijorganisatie."
+bo_toelichting: "Nadrukkelijk iets anders dan fractieondersteuning (art. 33 Gemeentewet): gescheiden geldstromen met verschillende aanvragers (partijen vs. fracties), doelen (partijorganisatie vs. raadswerk) en juridische grondslagen."
 bedrijfsprocessen:
   - Subsidieaanvraag beoordelen
   - Subsidie vaststellen en uitbetalen
@@ -79,10 +80,6 @@ Dit BO ontstaat in het subsidieproces voor decentrale politieke partijen:
 6. **Partij publiceert** financieel verslag (uiterlijk 30 juni) en activiteitenverslag (uiterlijk 31 augustus)
 
 Het GGM modelleert generieke subsidie-entiteiten onder taakveld 9 (Subsidie, Subsidieaanvraag, Subsidiebeschikking). De partijsubsidie wijkt af van het generieke subsidieproces: directe vaststelling (geen verlening→verantwoording→vaststelling), zetelafhankelijk bedrag, en transparantieverplichtingen die verder gaan dan de standaard ASV.
-
-## BO-definitie
-
-> **Partijsubsidie** — Door de gemeente verstrekte subsidie aan een decentrale politieke partij ter ondersteuning van de partijorganisatie en versterking van de lokale democratie, met bedragen per raadszetel en specifieke transparantieverplichtingen.
 
 ## Relaties
 

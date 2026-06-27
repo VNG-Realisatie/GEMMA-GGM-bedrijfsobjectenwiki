@@ -36,7 +36,8 @@ bo_homoniemen:
     ggm_beleidsdomein: "Onderwijs"
     toelichting: "Deelname aan een opleiding bij een onderwijsinstelling — ander concept dan aanbieding op een aanbesteding"
 
-bo_definitie: "Formele deelname van een ondernemer aan een nationale of Europese aanbesteding van de gemeente."
+bo_definitie: "Inschrijving op een nationale of Europese aanbesteding"
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

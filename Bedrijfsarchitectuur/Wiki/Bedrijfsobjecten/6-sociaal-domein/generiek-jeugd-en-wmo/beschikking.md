@@ -31,6 +31,7 @@ ggm_duplicaat_entiteiten:
   - "EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2"
 
 bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening|Voorziening]]"
@@ -76,6 +77,10 @@ In het Utrechtse model neemt het buurtteam het beschikkingsbesluit namens de gem
 - **Beleidsdomein:** Generiek Jeugd en Wmo
 - **Attributen:** datumAfgifte, code, grondslagen, commentaar, wet
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie beschrijft het generieke juridische begrip ("In het bestuursrecht: een beslissing van een overheidsorgaan"). Dit BO betreft specifiek de gemeentelijke beschikking op een Wmo- of Jeugdwetaanvraag.
 
 ## Relaties
 

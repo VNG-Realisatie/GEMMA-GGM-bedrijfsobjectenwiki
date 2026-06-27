@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Tijdelijk gebruik van openbare ruimte door een horecabedrijf voor het plaatsen van tafels en stoelen, gereguleerd via de beleidsregel terrassen."
+bo_toelichting: ''
 bedrijfsprocessen: [terrasvergunningverlening, handhaving terrassen]
 bedrijfsfuncties: [vergunningverlening, handhaving, beheer openbare ruimte]
 bo_relaties:

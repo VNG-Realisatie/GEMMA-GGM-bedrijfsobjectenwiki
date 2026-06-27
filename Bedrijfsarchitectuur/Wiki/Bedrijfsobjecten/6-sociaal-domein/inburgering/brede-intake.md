@@ -31,6 +31,7 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt.
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
@@ -70,6 +71,10 @@ Gestructureerd proces waarbij de gemeente samen met de inburgeraar diens situati
 - **Beleidsdomein:** Inburgering (taakveld 6 — Sociaal Domein)
 - **Attributen:** GevolgdeUrenKNMenTaalles, UrenGeoorloofdVerzuim, UrenOngeoorloofdVerzuim, DatumTot(Peildatum), AantalUrenAlfabetiseringsOnderwijs, startdatum, einddatum
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie beschrijft een generiek sociaal-domein intakeproces ("hulpverlener", "inwoner", "schulden of werkloosheid"). In de inburgeringscontext is de Brede Intake specifiek het gesprek van de gemeente met de inburgeraar over leefsituatie, vaardigheden en ondersteuningsbehoefte (Wi2021). De BO-definitie specificeert deze inburgeringscontext.
 
 ## Relaties
 

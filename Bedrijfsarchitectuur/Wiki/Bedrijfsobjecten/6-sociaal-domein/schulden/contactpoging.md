@@ -27,7 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Actie van de gemeente om contact te leggen met een inwoner naar aanleiding van een vroegsignaal."
+bo_definitie: "Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

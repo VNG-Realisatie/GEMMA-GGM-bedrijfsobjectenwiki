@@ -25,7 +25,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7d5124d4-f23d-432d-ad5
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
-bo_definitie: "Afgebakende werkeenheid van de gemeente met een aanleiding, een doorlooptijd en een resultaat, waaraan documenten, betrokkenen en besluiten zijn gekoppeld."
+bo_definitie: "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]]"

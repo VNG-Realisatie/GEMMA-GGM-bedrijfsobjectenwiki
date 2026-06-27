@@ -27,7 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een leerplichtig kind."
+bo_definitie: "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

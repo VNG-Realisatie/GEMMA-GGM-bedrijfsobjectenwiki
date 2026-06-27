@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Opdracht voor uitvoering van een onderhoudstaak aan een vastgoedobject, met omschrijving van het werk, de locatie en de uitvoerder."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -69,6 +70,10 @@ De uitvoering kan in eigen beheer (door medewerkers van de gemeente) of worden u
 - **Beleidsdomein:** Vastgoed
 - **Attributen:** *(geen in GGM)*
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

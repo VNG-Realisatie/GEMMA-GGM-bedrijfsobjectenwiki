@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Door de gemeente aangewezen gebied waar grootschalige opwek van duurzame energie (zon en/of wind) is toegestaan."
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Zonneveld"
     omschrijving: "Terrein met zonnepanelen voor grootschalige opwek van zonne-energie"

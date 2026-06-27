@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Categorisering waarmee de gemeente haar inkopen van werken, diensten en leveringen structureert in samenhangende groepen."
+bo_definitie: "Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

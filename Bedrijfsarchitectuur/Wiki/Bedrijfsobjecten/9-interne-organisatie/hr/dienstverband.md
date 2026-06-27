@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Arbeidsovereenkomst voor onbepaalde tijd
     omschrijving: "Vast contract zonder einddatum"

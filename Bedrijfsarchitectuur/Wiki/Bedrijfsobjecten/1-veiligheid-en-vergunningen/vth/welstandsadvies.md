@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

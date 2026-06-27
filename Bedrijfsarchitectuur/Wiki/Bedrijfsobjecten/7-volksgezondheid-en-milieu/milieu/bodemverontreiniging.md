@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Geregistreerde locatie waar de bodem of het grondwater verontreinigd is, met type verontreiniging, omvang en saneringsstatus."
+bo_toelichting: ''
 bedrijfsprocessen: [bodemsanering, gebiedsgericht grondwaterbeheer, milieuhandhaving, bodemonderzoek]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
 bo_relaties:

@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Verhard oppervlak in de openbare ruimte — rijbaan, fietspad, voetpad of parkeervak — dat de gemeente beheert en onderhoudt."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Rijbaan
     omschrijving: "Verharding bestemd voor gemotoriseerd verkeer"
@@ -129,6 +130,10 @@ Alle subtypes zijn attribuutwaarden op dezelfde GGM-entiteit, geen aparte entite
 - **Attributen** (55): aanleghoogte, aanOfVrijliggend, aantalDeklagen, aantalOnderlagen, aantalTussenlagen, afmeting, belasting, bergendVermogen, BGTFysiekVoorkomen, breedte, dikteConstructie, draagkrachtig, formaat, fysiekVoorkomenIMGeo, geluidsreducerend, jaarConserveren, jaarOnderhoudUitgevoerd, jaarPraktischEinde, kleur, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, lengteKunstgras, lengteVoegen, levensduur, materiaal, maximaleValhoogte, omtrek, ondergrondcode, oppervlakte, opTalud, plaatsorientatie, prijsAanschaf, rijstrook, soortVoeg, toelichtingGemengdeBestrating, type, typeConstructie, typeFundering, typePlus, typePlus2, typeRijstrook, typeVoeg, typeVoegvulling, vegen, verhardingsobjectConstructielaag, verhardingsobjectModaliteit, verhardingsobjectRand, verhardingsobjectWegfunctie, verhoogdeLigging, vulmateriaalKunstgras, waterdoorlatendheid, wegas, wegcategorieDV, wegcategorieDVPlus, wegnummer, wegtypeBestaand, wegvak, wegvaknummer
 
 Het GGM-Verhardingsobject is een specialisatie van **Beheerobject**, het abstracte basisobject voor alle objecten in de openbare ruimte.
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

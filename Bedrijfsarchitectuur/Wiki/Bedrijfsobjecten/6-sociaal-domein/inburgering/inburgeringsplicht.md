@@ -29,6 +29,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021.
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
@@ -70,6 +71,10 @@ Ontheffing en Vrijstelling zijn attributen/statuswijzigingen van dit BO, geen ap
 - **Beleidsdomein:** Inburgering (taakveld 6 — Sociaal Domein)
 - **Attributen:** IndicatorInburgeringsplicht, UitkomstLeerbaarheidstoets, BeschikkingVoldaanInburgeringsplicht, V-nummer, InburgeraarSpecialisatie, DatumStart, DatumEind, RedenGeenInburgeringsplicht, DatumGewijzigdInburgeringsplicht, WordtBehandelsAls, DatumGewijzigdWordtBehandeldAls
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie beschrijft technische implementatiedetails ("Bevat de uitkomst Leerbaarheidstoets", "DUO berichten", "per API beschikbaar stellen") in plaats van het concept zelf. De BO-definitie beschrijft wat de inburgeringsplicht is vanuit de Wet inburgering 2021.
 
 ## Relaties
 

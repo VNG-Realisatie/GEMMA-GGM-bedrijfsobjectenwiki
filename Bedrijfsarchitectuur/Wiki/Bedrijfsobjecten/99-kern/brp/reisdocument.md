@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Een Nederlands paspoort of Nederlandse identiteitskaart, geregistreerd in de BRP bij de persoon aan wie het is verstrekt."
+bo_definitie: "Een document dat vereist is voor reizen naar het buitenland"
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -66,10 +67,6 @@ Een persoon kan meerdere reisdocumenten tegelijk bezitten (bijv. een paspoort en
 - **Beleidsdomein:** RSGBPlus
 - **Attributen (8):** soort, reisdocumentnummer, datumUitgifte, autoriteitVanAfgifte, datumIngangDocument, datumEindeGeldigheidDocument, datumInhoudingOfVermissing, aanduidingInhoudingVermissing
 - **Matchsterkte:** exact — 1:1 match met BRP-categorie 12
-
-## BO-definitie
-
-De GGM-definitie ("Een document dat vereist is voor reizen naar het buitenland") is te beperkt — een identiteitskaart is ook een reisdocument in de BRP maar is niet primair voor buitenlandreizen. De GEMMA-definitie is: "Een Nederlands paspoort of Nederlandse identiteitskaart, geregistreerd in de BRP bij de persoon aan wie het is verstrekt."
 
 ## Relaties
 

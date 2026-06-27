@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Een in de BRP geregistreerd huwelijk of geregistreerd partnerschap tussen twee personen, inclusief sluiting en eventuele ontbinding."
+bo_definitie: "Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -84,10 +85,6 @@ GGM-entiteiten die onderdeel zijn van Huwelijk. Het GGM splitst de verbintenis i
 - **Beleidsdomein:** RSGBPlus
 - **Attributen (6):** datumAanvang, gemeenteAanvang, buitenlandsePlaatsAanvang, landOfGebiedAanvang, buitenlandseRegioAanvang, omschrijvingLocatieAanvang
 - **Matchsterkte:** exact — het GGM modelleert sluiting en ontbinding als aparte entiteiten; het BO bundelt deze als levenscyclus van één verbintenis, conform de BRP-categorie 05
-
-## BO-definitie
-
-De GGM-definitie beschrijft alleen de sluitingsgegevens. De GEMMA-definitie is breder: "Een in de BRP geregistreerd huwelijk of geregistreerd partnerschap tussen twee personen, inclusief sluiting en eventuele ontbinding." Dit weerspiegelt de BRP-registratie waarin sluiting en ontbinding samen in één categorie staan.
 
 ## Relaties
 

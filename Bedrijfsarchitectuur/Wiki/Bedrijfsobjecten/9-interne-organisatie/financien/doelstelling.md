@@ -28,7 +28,8 @@ ggm_gemma_alternate_name: "Doelstelling (Financien)"
 ggm_duplicaat_entiteiten:
   - "EAID_28C572B5_C147_4b99_B920_00062C843FDE"
 
-bo_definitie: "Een door de gemeente nagestreefde situatie op korte of middellange termijn, gekoppeld aan een begrotingsprogramma."
+bo_definitie: "Een op korte of middellange termijn nagestreefde situatie"
+bo_toelichting: ''
 definitie: Een op korte of middellange termijn nagestreefde situatie
 bedrijfsprocessen: [Begrotingscyclus, Beleidsvorming]
 bedrijfsfuncties: [Planning en control, Bestuur]

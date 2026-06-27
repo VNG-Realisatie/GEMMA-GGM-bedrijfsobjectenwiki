@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Kleinschalige logiesaccommodatie met maximaal vier kamers, doorgaans in een woning, als aanvulling op het reguliere hotelaanbod."
+bo_toelichting: ''
 bedrijfsprocessen: [logiesvergunningverlening, monitoring toeristisch aanbod]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
 bo_relaties:

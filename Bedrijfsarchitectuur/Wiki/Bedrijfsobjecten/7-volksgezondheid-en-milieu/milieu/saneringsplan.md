@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Plan dat beschrijft hoe een bodem- of grondwaterverontreiniging wordt aangepakt, inclusief maatregelen, fasering en nazorg."
+bo_toelichting: ''
 bedrijfsprocessen: [bodemsanering, gebiedsgericht grondwaterbeheer, vergunningverlening]
 bedrijfsfuncties: [milieubeheer, vergunningverlening]
 bo_relaties:

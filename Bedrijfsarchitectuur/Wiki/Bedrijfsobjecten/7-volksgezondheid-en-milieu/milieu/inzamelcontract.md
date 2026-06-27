@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Overeenkomst tussen gemeente en bedrijf voor de inzameling van bedrijfsafval."
+bo_toelichting: ''
 bedrijfsprocessen: [Bedrijfsafvalinzameling, Contractbeheer, Tariefvaststelling]
 bedrijfsfuncties: [Afvalbeheer]
 bo_relaties:

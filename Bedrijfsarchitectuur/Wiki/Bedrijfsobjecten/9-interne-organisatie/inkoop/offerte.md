@@ -39,7 +39,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Niet op een diagram geplaatst"
 
-bo_definitie: "Aanbod van een leverancier met prijsopgave voor de levering van goederen, diensten of werken aan de gemeente."
+bo_definitie: "Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

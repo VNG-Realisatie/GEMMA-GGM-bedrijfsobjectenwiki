@@ -36,7 +36,8 @@ bo_homoniemen:
     ggm_beleidsdomein: "Inkoop"
     toelichting: "Deelname aan een aanbesteding — ander concept dan opleidingsinschrijving"
 
-bo_definitie: "Registratie van de deelname van een leerling aan onderwijs bij een school."
+bo_definitie: "Deelname van iemand aan een opleiding bij een onderwijsinstelling."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"

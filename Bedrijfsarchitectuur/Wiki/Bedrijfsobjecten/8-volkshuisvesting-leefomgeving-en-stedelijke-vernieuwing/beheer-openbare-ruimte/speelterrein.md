@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Afgebakende openbare ruimte ingericht als speelplaats voor kinderen, met speeltoestellen, verharding en groenvoorziening."
+bo_definitie: "Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Buurtplek
     omschrijving: "Speelterrein van ≥3.000 m² voor de hele buurt, ingericht voor alle leeftijden met ontmoetingsfunctie"
@@ -115,10 +116,6 @@ De subtypes worden in het GGM geïmplementeerd via het attribuut `type`. De spee
 - **Taakveld**: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
 - **Matchsterkte**: exact
 - **Attributen** (4): jaarHerinrichting, speelterreinLeeftijdDoelgroep, type, typePlus
-
-## BO-definitie
-
-De GGM-definitie ("Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen") beschrijft de fysieke samenstelling. De GEMMA-definitie benadrukt het als afgebakende openbare ruimte met een inrichtingsfunctie — dat sluit beter aan bij hoe gemeenten erover spreken in beleid en beheer.
 
 ## Relaties
 

@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-1486de79-ad71-4dce-8473-f23f1e9c436c"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Door de gemeente verleende toestemming om op een bepaalde locatie of in een bepaalde zone te parkeren."
+bo_definitie: "Officiele toestemming dat je op een bepaalde plek mag parkeren"
+bo_toelichting: ''
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:

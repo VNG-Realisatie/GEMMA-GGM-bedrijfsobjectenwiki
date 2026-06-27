@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Aangewezen fysieke locatie in de openbare ruimte waar evenementen mogen plaatsvinden, met vastgestelde kaders voor gebruik."
+bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:

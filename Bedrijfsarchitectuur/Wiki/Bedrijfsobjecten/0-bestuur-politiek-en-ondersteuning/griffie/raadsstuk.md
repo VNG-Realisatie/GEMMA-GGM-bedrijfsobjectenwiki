@@ -33,7 +33,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Document dat door de gemeenteraad wordt behandeld, met registratie van type, indiener, publicatie en besluitvorming."
+bo_definitie: "Stuk dat door de gemeenteraad wordt behandeld"
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

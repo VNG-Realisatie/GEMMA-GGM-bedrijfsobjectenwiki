@@ -32,6 +32,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

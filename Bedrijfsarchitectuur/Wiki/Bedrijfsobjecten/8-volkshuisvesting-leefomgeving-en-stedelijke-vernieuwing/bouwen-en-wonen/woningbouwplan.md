@@ -27,7 +27,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5933d4f-02b6-4851-a31
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Een project of plan waarin woningen worden geprogrammeerd en gerealiseerd, met kenmerken als omvang, segmentering en fasering."
+bo_definitie: "Project waarin woningen worden gerealiseerd"
+bo_toelichting: ''
 bo_subtypes:
 bo_relaties:
   - type: associatie

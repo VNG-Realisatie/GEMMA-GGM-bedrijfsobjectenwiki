@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Tariefregel in een heffingsverordening die de maatstaf, het tarief en de berekening van een specifieke heffing vastlegt."
+bo_definitie: "De maatstaf waarop een belasting is gebaseerd, het bedrag op basis waarvan een bepaalde belasting wordt geheven of de premie voor sociale zekerheid wordt vastgesteld."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|Heffingsverordening]]"
@@ -63,12 +64,6 @@ Tariefregel in een heffingsverordening die de maatstaf, het tarief en de bereken
 **Entiteit:** Heffinggrondslag
 **Attributen:** domein, hoofdstuk, paragraaf, omschrijving, bedrag
 **Matchsterkte:** exact — de GGM-entiteit koppelt Heffingsverordening aan Heffing en legt de tariefregel vast.
-
-## BO-definitie
-
-De heffinggrondslag is het tussenliggende object dat een verordening concreet maakt: het specificeert per tariefregel de heffingsmaatstaf (bijv. WOZ-waarde, oppervlakte, aantal), de berekeningswijze en het bedrag. Het GGM modelleert dit als een apart object met eigen attributen, niet als eigenschap van de verordening.
-
-De attributen `domein`, `hoofdstuk` en `paragraaf` reflecteren de structuur van de tarieventabel in de verordening.
 
 ## Relaties
 

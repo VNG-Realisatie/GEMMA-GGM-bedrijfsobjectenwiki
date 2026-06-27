@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Aangewezen gebied waar de voetganger hoofdgebruiker is en gemotoriseerd verkeer beperkt is toegestaan.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Verkeersbeleid
 - Inrichting openbare ruimte

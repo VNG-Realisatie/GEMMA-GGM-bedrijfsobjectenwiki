@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Oplaadvoorziening voor elektrische voertuigen in de openbare ruimte."
+bo_toelichting: ''
 bedrijfsprocessen: [Laadinfrastructuurbeheer, Beheer openbare ruimte, Energietransitie]
 bedrijfsfuncties: [Verkeersmanagement, Duurzaamheidsbeleid]
 bo_relaties:

@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Een brondocument dat is ingeschreven in de openbare registers van het Kadaster en de grondslag vormt voor bijwerking van de BRK."
+bo_toelichting: ''
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Stukdeel]]"

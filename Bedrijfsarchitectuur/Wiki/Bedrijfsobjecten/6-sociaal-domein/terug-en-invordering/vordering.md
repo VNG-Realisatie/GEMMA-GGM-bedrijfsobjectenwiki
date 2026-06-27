@@ -28,7 +28,8 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten:
   - "EAID_341942C1_0F72_4e13_ADD1_235805BB81C0"
 
-bo_definitie: "Financieel recht van de gemeente op terugbetaling van een bedrag door een debiteur."
+bo_definitie: "Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag (terug) moet betalen aan de gemeente in het kader van de bijstand of een bijstandsgerelateerde uitkering."
+bo_toelichting: "De oorzaak van een vordering is velerlei, zie daarvoor de categorie-indeling. Vorderingen kunnen uit meerdere componenten bestaan. Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering."
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
 bedrijfsprocessen: [Terugvordering, Invordering]
 bedrijfsfuncties: [Inning en invordering]

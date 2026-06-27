@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Civiel-technische constructie in de openbare ruimte voor de infrastructuur van wegen en water, zoals bruggen, viaducten en kademuren."
+bo_definitie: "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf."
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Brug"
     omschrijving: "Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden"
@@ -114,10 +115,6 @@ De subtypes zijn geen GGM-kinderen van Kunstwerk (die zijn: Gemaal, Overstortcon
 - **Taakveld**: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
 - **Matchsterkte**: exact
 - **Attributen** (30): aanleghoogte, antiGraffitiVoorziening, bereikbaarheid, breedte, constructietype, gewicht, hoogte, installateur, jaarConserveren, jaarOnderhoudUitgevoerd, jaarRenovatie, jaarVervanging, kilometreringBegin, kilometreringEinde, kleur, kunstwerkBereikbaarheidPlus, kunstwerkMateriaal, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, lengte, leverancier, looprichel, minimumConditiescore, monument, monumentnummer, objectnaam, objectnummer, onderhoudsregime, oppervlakte, orientatie, technischeLevensduur, typeFundering, typeMonument, vervangingswaarde, wegnummer
-
-## BO-definitie
-
-De GEMMA-definitie benadrukt het gemeentelijke perspectief ("in de openbare ruimte", "bruggen, viaducten en kademuren") tegenover de bredere GGM-definitie die ook spoorbanen en waterkeringen noemt.
 
 ## Relaties
 

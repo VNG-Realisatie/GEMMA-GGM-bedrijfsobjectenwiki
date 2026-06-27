@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Toekenning van een persoonsgebonden budget aan een cliÃ«nt voor inkoop van eigen zorg of ondersteuning."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
@@ -71,6 +72,10 @@ Een PGB-toekenning is de toekenning van een persoonsgebonden budget aan een cliÃ
 - **Beleidsdomein:** Generiek Jeugd en Wmo
 - **Attributen:** datumToekenning, budget, datumEinde
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

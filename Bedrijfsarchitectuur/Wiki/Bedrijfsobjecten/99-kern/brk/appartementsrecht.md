@@ -37,7 +37,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Een aandeel in een gesplitst gebouw met het uitsluitend gebruiksrecht van een privé-gedeelte, geregistreerd als kadastrale onroerende zaak."
+bo_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden gebruikt (art. 5:106 lid 4 BW)."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Appartementsrecht]]"

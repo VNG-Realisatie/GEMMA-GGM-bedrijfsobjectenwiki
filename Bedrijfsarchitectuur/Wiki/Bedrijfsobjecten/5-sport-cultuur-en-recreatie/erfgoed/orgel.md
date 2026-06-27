@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw, met eigen beschermingsstatus en eigen levenscyclus onafhankelijk van het gebouw."
+bo_toelichting: ''
 bedrijfsprocessen: [Monumentenaanwijzing, Erfgoedtoezicht, Herbestemming kerkgebouw]
 bedrijfsfuncties: [Erfgoedbeheer]
 bo_relaties:

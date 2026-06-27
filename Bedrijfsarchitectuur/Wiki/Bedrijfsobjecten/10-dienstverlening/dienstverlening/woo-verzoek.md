@@ -30,6 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: Verzoek van eenieder aan een bestuursorgaan om openbaarmaking van publieke informatie op grond van de Wet open overheid.
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: generalisatie

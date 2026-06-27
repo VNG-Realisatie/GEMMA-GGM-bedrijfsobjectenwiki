@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Aangewezen voorkeursroute voor goederenvervoer over de weg, met specifieke kwaliteitseisen voor doorstroming, veiligheid en leefbaarheid.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Routering goederenvervoer
 - Verkeersmanagement

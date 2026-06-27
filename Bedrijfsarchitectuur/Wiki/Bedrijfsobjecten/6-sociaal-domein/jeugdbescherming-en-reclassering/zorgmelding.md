@@ -27,7 +27,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Melding bij de gemeente of Veilig Thuis over de veiligheid of ontwikkeling van een kind, als startpunt voor beoordeling en eventuele beschermingsmaatregelen.
+bo_definitie: "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere."
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: NatuurlijkPersoon

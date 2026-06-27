@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ae658af8-46be-4d41-ba95-c5e24cec7598"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Recht om een voertuig te parkeren op een aangewezen plek, ontstaan door betaling van parkeerbelasting of -geld."
+bo_definitie: "Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren."
+bo_toelichting: ''
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:

@@ -27,7 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Het berekende deel van het inkomen en vermogen van een inwoner dat beschikbaar is om zelf in bijzondere kosten te voorzien, bepalend voor het recht op bijzondere bijstand."
+bo_definitie: "Het gedeelte uit je inkomen of vermogen dat je zelf zou kunnen bijdragen in de kosten (?) voor de bijzondere bijstand(?). De draagkracht is de uitkomst van een ingewikkelde berekening maar wordt voor een jaar vastgesteld en gebruikt."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inkomensvoorziening]]"

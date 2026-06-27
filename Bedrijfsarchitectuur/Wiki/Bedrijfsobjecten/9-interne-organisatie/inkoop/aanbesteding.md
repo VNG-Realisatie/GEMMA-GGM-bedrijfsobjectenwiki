@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Gunning]]"
@@ -109,6 +110,10 @@ GGM-entiteiten die onderdeel zijn van Aanbesteding. Gemodelleerd als aparte enti
 **Matchsterkte:** exact — GGM-entiteit en BO zijn hetzelfde concept.
 
 **Attributen:** naam, tendernedKenmerk, status, datumStart, volgendeSluiting, type, procedure, digitaal, referentienummer, datumPublicatie, scoreMaximaal
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

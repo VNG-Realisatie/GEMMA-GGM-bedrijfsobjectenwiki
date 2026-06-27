@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Gemeentelijke verordening met regels voor inzameling en beheer van huishoudelijke afvalstoffen."
+bo_toelichting: ''
 bedrijfsprocessen: [Verordeningsvaststelling, Handhaving afvalbeleid]
 bedrijfsfuncties: [Afvalbeheer, Regelgeving]
 bo_relaties:

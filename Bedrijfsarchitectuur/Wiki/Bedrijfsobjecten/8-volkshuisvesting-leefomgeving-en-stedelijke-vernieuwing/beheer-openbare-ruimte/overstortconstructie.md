@@ -26,7 +26,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Constructie in het gemengde rioolstelsel die bij zware neerslag verdund afvalwater loost op oppervlaktewater.
+bo_definitie: "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte."
+bo_toelichting: ''
 bo_relaties:
 - type: generalisatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
@@ -88,10 +89,6 @@ Het doel is vermindering van het aantal overstorten door ontvlechting van het ge
 - **Matchsterkte**: exact
 - **Overerving**: Overstortconstructie is een specialisatie van Kunstwerk in het GGM
 - **Attributen** (7): bassin, drempelbreedte, drempelniveau, klep, type, vormDrempel, waking
-
-## BO-definitie
-
-De GEMMA-definitie beschrijft de functie vanuit gemeentelijk perspectief: lozing van verdund afvalwater bij zware neerslag. De GGM-definitie is technisch en beschrijft de fysieke constructie (drempel met breedte en hoogte).
 
 ## Relaties
 

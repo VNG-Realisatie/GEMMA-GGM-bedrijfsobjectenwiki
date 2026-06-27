@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Aangewezen locatie voor overslag en bundeling van goederen ten behoeve van stadsdistributie.
+bo_toelichting: ''
 bedrijfsprocessen:
 - Goederenvervoerbeleid
 - Ruimtelijke ordening

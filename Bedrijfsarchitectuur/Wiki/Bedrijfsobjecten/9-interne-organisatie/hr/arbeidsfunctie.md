@@ -35,7 +35,8 @@ bo_homoniemen:
     ggm_beleidsdomein: "Omgevingswet"
     toelichting: "Ruimtelijke gebiedsfunctie (centrumgebied, bedrijventerrein) — ander concept dan arbeidsfunctie"
 
-bo_definitie: "Het samenstel van feitelijk opgedragen taken en werkzaamheden, gewaardeerd via het functiehuis (HR21)."
+bo_definitie: "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Dienstverband]]"

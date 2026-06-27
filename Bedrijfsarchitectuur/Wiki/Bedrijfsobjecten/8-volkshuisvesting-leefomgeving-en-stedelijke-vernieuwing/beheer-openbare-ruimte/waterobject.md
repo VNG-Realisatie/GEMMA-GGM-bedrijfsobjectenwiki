@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Functioneel stuk oppervlaktewater dat de gemeente beheert, zoals watergangen, vijvers, grachten en kanalen."
+bo_definitie: "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -84,10 +85,6 @@ Het programma Gezond Water (samenwerking met Hoogheemraadschap De Stichtse Rijnl
 - **Matchsterkte**: exact
 - **Overerving**: Waterobject is een specialisatie van Beheerobject in het GGM
 - **Attributen** (23): breedte, folie, hoogte, infiltrerendOppervlak, infiltrerendVermogen, lengte, lozingspunt, oppervlakte, porositeit, streefdiepte, type, typePlus, typePlus2, typeVaarwater, typeWaterplant, uitstroomniveau, vaarwegtraject, vorm, waternaam, waterpeil, waterpeilWinter, waterpeilZomer, waterplanten
-
-## BO-definitie
-
-De GEMMA-definitie benadrukt het gemeentelijk perspectief: "functioneel stuk oppervlaktewater dat de gemeente beheert" met herkenbare voorbeelden (watergangen, vijvers, grachten, kanalen). De GGM-definitie is technisch en verwijst naar NEN 3610 en homogene eigenschappen.
 
 ## Relaties
 

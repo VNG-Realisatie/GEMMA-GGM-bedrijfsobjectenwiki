@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Overeenkomst tussen de gemeente en een huurder, pachter of gebruiker over het gebruik van een vastgoedobject of verhuurbare eenheid."
+bo_definitie: "Een contract is een afspraak tussen 2 of meer partijen."
+bo_toelichting: "Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor."
 bo_subtypes: []
 bo_relaties:
   - type: associatie

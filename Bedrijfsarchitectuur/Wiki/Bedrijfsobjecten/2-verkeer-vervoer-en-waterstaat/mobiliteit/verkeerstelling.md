@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Onderzoek naar de hoeveelheid verkeer, de modale verdeling en de gereden snelheid op een locatie."
+bo_definitie: "Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid."
+bo_toelichting: ''
 bedrijfsprocessen: [Verkeersmanagement, Monitoring en evaluatie]
 bedrijfsfuncties: [Verkeersmanagement]
 ---

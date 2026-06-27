@@ -28,7 +28,8 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten:
   - "EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18"
 
-bo_definitie: "Samenhangend geheel van gemeentelijke activiteiten dat als eenheid in de begroting wordt verantwoord."
+bo_definitie: "Een samenhangend geheel van activiteiten en taken en hangt onder een programma."
+bo_toelichting: ''
 definitie: Een samenhangend geheel van activiteiten en taken dat onder een programma hangt
 bedrijfsprocessen: [Begrotingscyclus, IV3-verantwoording]
 bedrijfsfuncties: [Planning en control, Financieel beheer]

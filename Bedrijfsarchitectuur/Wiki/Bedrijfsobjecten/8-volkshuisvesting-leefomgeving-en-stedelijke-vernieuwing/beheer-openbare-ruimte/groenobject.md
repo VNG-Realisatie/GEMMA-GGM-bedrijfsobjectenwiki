@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-360b8000-41ce-453f-bed8-b0cc7fa21164"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Afgebakend stuk terrein met aaneengesloten vegetatie dat de gemeente beheert als onderdeel van de stedelijke groenstructuur."
+bo_definitie: "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie."
+bo_toelichting: ''
 bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
 bo_relaties:
@@ -75,10 +76,6 @@ Sinds de actualisatie van het Groenstructuurplan (2018) worden groenobjecten ook
 - **Attributen:** aantalObstakels, bereikbaarheid, bergendVermogen, cultuurhistorischWaardevol, ecologischBeheer, herplantplicht, kwaliteitsniveauActueel, kwaliteitsniveauGewenst, maaifrequentie, objectnummer, oppervlakte, type, typePlus, typePlus2, veiligheidsklasseBoom (46 attributen totaal)
 
 Het attribuut `cultuurhistorischWaardevol` weerspiegelt de cultuurhistorische samenhang die het Groenstructuurplan beschrijft. Het attribuut `ecologischBeheer` sluit aan bij de Nature Based Solutions uit de actualisatie.
-
-## BO-definitie
-
-De GGM-definitie richt zich op het technische niveau (NEN 3610 objecttype Terrein). De GEMMA-definitie legt de nadruk op het beheerperspectief van de gemeente en de beleidscontext van de groenstructuur.
 
 ## Relaties
 

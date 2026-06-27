@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Registratie van de dakloosheidsstatus van een cliënt, inclusief toestemming voor briefadres en nachtopvang."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"
@@ -67,6 +68,10 @@ Het Nationaal Actieplan Dakloosheid verplicht gemeenten tot een integrale aanpak
 - **Beleidsdomein:** Dak- en thuislozen (taakveld 6 — Sociaal Domein)
 - **Attributen:** datumStart, datumEind, toestemmingGemeentelijkBriefadres, toestemmingNachtopvang, gemeenteOorsprong
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Fysiek meetpunt in een monitoringsnetwerk voor het meten van grondwaterkwaliteit en -stand."
+bo_toelichting: ''
 bedrijfsprocessen: [gebiedsgericht grondwaterbeheer, milieumonitoring, bodemsanering]
 bedrijfsfuncties: [milieubeheer]
 bo_relaties:

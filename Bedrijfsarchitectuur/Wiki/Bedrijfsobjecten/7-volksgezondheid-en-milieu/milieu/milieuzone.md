@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Afgebakend gebied waarbinnen toegangsbeperkingen gelden voor voertuigen op basis van emissieklasse en brandstofsoort, ingesteld ter verbetering van de luchtkwaliteit."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Nul-emissiezone
     omschrijving: "Zone waarbinnen uitsluitend uitstootvrije voertuigen zijn toegelaten"

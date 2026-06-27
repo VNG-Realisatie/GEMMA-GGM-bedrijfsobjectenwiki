@@ -54,6 +54,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Ingeschreven Persoon]]"
@@ -129,6 +130,10 @@ Herkende specialisaties van Niet-Natuurlijk Persoon op basis van rechtsvorm. Gee
 - **Package:** RSGB Model > Model Kern RSGB
 - **Attributen:** NNPID, statutaireNaam, datumAanvang, rechtsvorm, datumEinde, statutaireZetel, datumVoortzetting, faxnummer, KVKnummer, ingeschreven, RSINNummer, datumUitschrijving, websiteURL, inOprichting
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

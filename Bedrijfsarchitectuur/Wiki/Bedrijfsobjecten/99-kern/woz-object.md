@@ -51,7 +51,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f
 ggm_gemma_bron: BRWOZ
 ggm_gemma_alternate_name: ''
-bo_definitie: Onroerende zaak waarvan de gemeente op grond van de Wet WOZ de waarde bepaalt en vaststelt.
+bo_definitie: "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."
+bo_toelichting: ''
 definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.
 bedrijfsprocessen:
 - WOZ-taxatie
@@ -90,12 +91,6 @@ De onroerende zaak waarvan de gemeente jaarlijks de woz-waarde vaststelt onder d
 
 **Entiteit:** WOZ-object (BRWOZ)
 **Attributen:** WOZObjectnummer, geometrieWOZObject, statusWOZObject, grondoppervlakte, gebruikscode, soortobjectcode, vastgesteldeWaarde, datumWaardepeiling, datumBeginGeldigheidWOZObject, datumEindeGeldigheidWOZObject
-
-## BO-definitie
-
-Het bedrijfsobject WOZ-object komt overeen met de GGM-entiteit. Het is het centrale object in het WOZ-proces: het wordt getaxeerd, krijgt een waarde, en die waarde is de heffingsmaatstaf voor de OZB en andere heffingen.
-
-De WOZ is een van de 11 basisregistraties in Nederland. Per WOZ-object worden gegevens bijgehouden over oppervlakte, bouwtype, bouwjaar, onderhoud, omgevingsfactoren, verkoop- en huurcijfers.
 
 ## Relaties
 

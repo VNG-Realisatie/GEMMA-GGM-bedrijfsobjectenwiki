@@ -11,7 +11,7 @@ ggm_beleidsdomein: "Terug- en invordering"
 ggm_taakveld: "Inkomen"
 ggm_diagram: [Diagram Terug- en invordering]
 ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
-ggm_definitie: "Een aflossing is de betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflos-sing gebeurt in het kader van een aflossingsafspraak gemaakt bij een vordering of wordt eenzijdig opgelegd. De aflossing wordt geadministreerd als een vorderingscomponent onder die vordering. Afgesproken is minnelijk maar kan ook opgelegd worden, bijv 5% verrekening of beslag op loon."
+ggm_definitie: "Een aflossing is de betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflossing gebeurt in het kader van een aflossingsafspraak gemaakt bij een vordering of wordt eenzijdig opgelegd. De aflossing wordt geadministreerd als een vorderingscomponent onder die vordering. Afgesproken is minnelijk maar kan ook opgelegd worden, bijv 5% verrekening of beslag op loon."
 ggm_toelichting: ""
 ggm_synoniemen: ""
 ggm_herkomst: ""
@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Betaling van een afgesproken of opgelegd bedrag op een openstaande vordering van de gemeente."
+bo_definitie: "Een aflossing is de betaling van een afgesproken of opgelegd bedrag op een vordering."
+bo_toelichting: "Een aflossing gebeurt in het kader van een aflossingsafspraak gemaakt bij een vordering of wordt eenzijdig opgelegd. De aflossing wordt geadministreerd als een vorderingscomponent onder die vordering. Afgesproken is minnelijk maar kan ook opgelegd worden, bijv. 5% verrekening of beslag op loon."
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering
 bedrijfsprocessen: [Invordering, Betalingsverwerking]
 bedrijfsfuncties: [Inning en invordering]

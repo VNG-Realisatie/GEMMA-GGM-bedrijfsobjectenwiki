@@ -35,6 +35,7 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel.
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
@@ -75,6 +76,10 @@ Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere
 - **Attributen:** *(geen)*
 - **Overerving:** Inburgeraar (abstract) → Gezinsmigrant en Overige migrant
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie is een technische UML-toelichting over de overervingsstructuur ("Object Inburgeraar is gespecialiseerd in..."), geen inhoudelijke definitie van het concept Gezinsmigrant. De BO-definitie beschrijft wat een gezinsmigrant is vanuit de Wet inburgering.
 
 ## Relaties
 

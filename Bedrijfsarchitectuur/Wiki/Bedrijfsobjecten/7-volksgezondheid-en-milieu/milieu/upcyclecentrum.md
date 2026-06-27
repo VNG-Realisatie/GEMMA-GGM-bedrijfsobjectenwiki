@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Voorziening voor inname, reparatie en hoogwaardig hergebruik van grof huishoudelijk afval."
+bo_toelichting: ''
 bedrijfsprocessen: [Upcycling, Hergebruik goederen, Educatie circulaire economie]
 bedrijfsfuncties: [Afvalbeheer, Circulaire economie]
 bo_relaties:

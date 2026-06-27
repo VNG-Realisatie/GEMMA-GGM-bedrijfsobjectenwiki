@@ -31,7 +31,8 @@ ggm_gemma_alternate_name: ''
 ggm_duplicaat_entiteiten:
   - "EAID_84DED9A9_2D33_4a77_94F2_29657024590F"
 
-bo_definitie: Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden.
+bo_definitie: "Een plek waar men iets gevonden heeft."
+bo_toelichting: ''
 bedrijfsprocessen:
 - Archeologisch advies
 - Selectiebesluit
@@ -75,16 +76,6 @@ Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aa
 **Entiteit:** Vindplaats
 **Attributen:** projectcode, locatie, vindplaatsOmschrijving, gemeente, datering, begindatering, einddatering, aard, onderzoek, mobilia, depot, documentatie, bibliografie, beschrijving
 **Matchsterkte:** sterk
-
-## BO-definitie
-
-Het bedrijfsobject **Archeologische vindplaats** komt overeen met de GGM-entiteit **Vindplaats**. De GGM-definitie ("Een plek waar men iets gevonden heeft") is zeer kort; op bedrijfsniveau gaat het om locaties met (verwachte) archeologische waarde die op de gemeentelijke beleidskaart staan en waarover de gemeente besluiten neemt.
-
-De naamkeuze "Archeologische vindplaats" is specifieker dan het GGM-"Vindplaats" om verwarring te voorkomen met de gelijknamige Archief-entiteit (opslaglocatie van archiefstukken).
-
-> "De nieuwe Archeologische Beleidskaart geeft op basis van de (verwachte) archeologische waarde aan in welke gevallen archeologisch onderzoek vereist is. Met de kaart wordt gestuurd op behoud van een representatieve voorraad Utrechtse archeologie." (bron: [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']])
-
-De eerdere beoordeling markeerde dit begrip als niet-BO ("nationaal geregistreerd in ARCHIS, niet primair gemeentelijk"). De erfgoednota maakt duidelijk dat gemeenten wél eigen vindplaatsen registreren en er als bevoegd gezag over beslissen.
 
 ## Relaties
 

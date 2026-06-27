@@ -33,7 +33,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-8fd2ff34-a208-4924-bec3-b5ee7e5e7a18
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Geplande of ongeplande afspraak voor een klantcontact aan de gemeentelijke balie.
+bo_definitie: "Balieafspraken zijn afspraken voor een klantcontact. Dit ongeacht of deze werkelijk heeft plaatsgevonden of gaat plaatsvinden, soms liggen deze in de toekomst of is iemand niet op komen dagen, of iets anders waardoor het klantcontact nog niet heeft plaatsgevonden."
+bo_toelichting: ''
 bedrijfsprocessen:
 - Afsprakenbeheer
 - Klantcontactregistratie

@@ -30,7 +30,8 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten:
   - "EAID_5E542F35_E413_49c4_8FB7_335B6BE9667A"
 
-bo_definitie: "Een opgave van te vergoeden kosten ingediend door een werknemer."
+bo_definitie: "Een opgave van te vergoeden kosten."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"

@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Verkeersregelinstallatie in de openbare ruimte die het verkeer regelt op kruispunten en oversteekplaatsen."
+bo_definitie: "Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: Beheerobject (GGM)
@@ -55,10 +56,6 @@ Een verkeerslicht (verkeersregelinstallatie, VRI) is een installatie in de openb
 De afschrijvingstermijn is 10 jaar, de kortste van alle objectsoorten in de openbare ruimte. De Nota Beheer OR vermeldt dat er geen achterstallig onderhoud is bij VRI's — het zekerheidspercentage is 95-100%.
 
 In het GGM is Verkeerslicht een entiteit binnen het beleidsdomein Beheer Openbare Ruimte. De brede GGM-definitie ("lichten die aangeven dat je moet stoppen...") beschrijft het concept vanuit de weggebruiker; de GEMMA-definitie benadrukt het gemeentelijke beheer- en registratieperspectief.
-
-## BO-definitie
-
-De GEMMA-definitie benadrukt het gemeentelijke perspectief: het gaat om de verkeersregelinstallatie als beheerd object, niet om het verkeerslicht als visueel signaal voor de weggebruiker.
 
 ## GGM-bron
 

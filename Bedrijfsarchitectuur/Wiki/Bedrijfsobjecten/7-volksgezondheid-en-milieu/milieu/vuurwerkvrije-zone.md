@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Aangewezen zone waarbinnen het afsteken van consumentenvuurwerk verboden is, vastgelegd in de Algemene Plaatselijke Verordening."
+bo_toelichting: ''
 bo_subtypes:
 bo_relaties: []
 bedrijfsprocessen: [openbare-orde, milieuhandhaving]

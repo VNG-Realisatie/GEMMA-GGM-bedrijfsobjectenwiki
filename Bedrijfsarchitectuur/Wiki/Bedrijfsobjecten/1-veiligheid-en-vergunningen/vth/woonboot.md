@@ -27,7 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats, met gemeentelijke vergunningplicht voor situering en maatvoering."
+bo_definitie: "Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten."
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Woonark"
     omschrijving: "Betonnen bak met opbouw in het water, niet varend."
@@ -100,12 +101,6 @@ Historische schepen worden beschermd in drie aangewezen zones: Keulsekade (Merwe
 — GGM-entiteit: Vaartuig, beleidsdomein VTH, taakveld 1 Veiligheid en Vergunningen
 
 **Matchsterkte: sterk.** Vaartuig is de generalisatie; de definitie noemt "woonschepen" expliciet. Het GGM kent geen apart objecttype voor woonboten — Vaartuig is het brede containerbegrip. De GGM-attributen (naamVaartuig, registratienummer, kleur, lengte, breedte, hoogte) sluiten goed aan op de maatvoeringskenmerken uit het woonbotenbeleid.
-
-## BO-definitie
-
-De GGM-definitie van Vaartuig is breder dan het BO Woonboot: het omvat ook baggerwerktuigen, kranen, bokken, elevators, glijboten en ponten. Het BO Woonboot beperkt zich tot drijvende objecten bestemd voor permanente bewoning (inclusief historische bedrijfsvaartuigen die als woonboot worden gebruikt).
-
-**GEMMA-definitie:** Drijvend object bestemd voor permanente bewoning op een aangewezen ligplaats, met gemeentelijke vergunningplicht voor situering en maatvoering.
 
 ## Relaties
 

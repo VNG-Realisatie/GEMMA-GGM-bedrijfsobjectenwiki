@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft en dat wordt beheerd, verhuurd of verpacht."
+bo_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: compositie

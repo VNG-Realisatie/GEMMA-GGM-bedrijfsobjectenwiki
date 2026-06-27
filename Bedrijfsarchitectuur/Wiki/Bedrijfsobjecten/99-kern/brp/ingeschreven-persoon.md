@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Een persoon met een persoonslijst in de Basisregistratie Personen (BRP), bijgehouden door een gemeente (ingezetene) of de RNI (niet-ingezetene)."
+bo_definitie: "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -109,10 +110,6 @@ GGM-entiteiten die onderdeel zijn van Ingeschreven Persoon. Gemodelleerd als apa
 - **Attributen IngeschrevenPersoon (24):** adresHerkomst, anummer, beschrijvingLocatie, burgerlijkeStaat, indicatieGeheim, gemeenteVanInschrijving, landWaarvandaanIngeschreven, landWaarnaarVertrokken, datumInschrijvingGemeente, datumBeginGeldigheidVerblijfplaats, signaleringReisdocument, buitenlandsReisdocument, datumVestigingNederland, datumVertrekUitNederland, redenOpschortingBijhouding, datumOpschortingBijhouding, ingezetene, datumEindeGeldigheidVerblijfsplaats, redenEindeBewoning, verblijfstitel, ouder1, gezinsrelatie, ouder2, partnerID
 - **Attributen NatuurlijkPersoon (25):** aanduidingNaamgebruik, voornamen, academischeTitel, datumGeboorte, geboorteplaats, geslachtsnaam, overlijdensplaats, datumOverlijden, geboorteland, geslachtsaanduiding, landOverlijden, burgerservicenummer, nationaliteit, anummer, indicatieOverleden, IndicatieAfschermingPersoonsgegevens, e.a.
 - **Matchsterkte:** exact — de GGM-overervingshiërarchie dekt precies de BRP-structuur
-
-## BO-definitie
-
-De GGM-definitie van Ingezetene ("Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister") beschrijft alleen ingezetenen. De GEMMA-definitie is breder: "Een persoon met een persoonslijst in de Basisregistratie Personen (BRP), bijgehouden door een gemeente (ingezetene) of de RNI (niet-ingezetene)." Dit sluit aan bij de Wet BRP die zowel ingezetenen als niet-ingezetenen omvat.
 
 ## Relaties
 

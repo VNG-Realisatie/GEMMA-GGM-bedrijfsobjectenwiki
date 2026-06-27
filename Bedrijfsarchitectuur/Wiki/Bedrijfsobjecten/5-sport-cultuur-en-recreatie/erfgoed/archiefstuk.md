@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Informatiedrager die is gecreëerd, ontvangen en bewaard als onderdeel van het gemeentelijk archief."
+bo_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"
+bo_toelichting: ''
 bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
 bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
 bo_relaties:

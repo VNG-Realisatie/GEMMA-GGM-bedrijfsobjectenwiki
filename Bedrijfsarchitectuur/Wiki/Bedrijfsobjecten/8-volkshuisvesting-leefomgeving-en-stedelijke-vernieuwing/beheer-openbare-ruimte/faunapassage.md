@@ -26,7 +26,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Fysieke voorziening die dieren in staat stelt infrastructuurbarrières te passeren, zoals tunnels onder wegen, bruggen over kanalen of ecoducten over snelwegen."
+bo_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage Toelichting: Opheffen van barriÃ¨res en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
+bo_toelichting: ''
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
 bo_relaties:
@@ -77,10 +78,6 @@ De actualisatie van het Groenstructuurplan meldt dat meer dan de helft van de ge
 - **Overerving:** specialisatie van Overbruggingsobject → Kunstwerk → Beheerobject
 - **Matchsterkte:** sterk — de GGM-entiteit Ecoduct beschrijft specifiek bovengrondse passages (viaducten). In de gemeentelijke praktijk omvat "faunapassage" ook tunnels en loopplanken, waardoor de GEMMA-definitie breder is dan de GGM-definitie.
 - **Attributen:** aantalOverspanningen, draagvermogen, type (8 attributen)
-
-## BO-definitie
-
-De GEMMA-definitie is breder dan de GGM-definitie: het GGM beperkt "Ecoduct" tot viaducten, terwijl de gemeente onder "faunapassage" alle typen constructies voor fauna-migratie verstaat (tunnels, bruggen, loopplanken). Deze afwijking is een potentiële terugmelding.
 
 ## Relaties
 

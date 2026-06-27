@@ -30,6 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Melding van een (vermoedelijke) meldingsplichtige infectieziekte conform de Wet publieke gezondheid, die bij de GGD wordt afgehandeld namens de gemeente."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[NatuurlijkPersoon]]"

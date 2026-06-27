@@ -27,7 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Uitkomst van een inspectie of waarneming die vastlegt wat is geconstateerd, inclusief het controle-element, het niveau, het resultaat en het risico."
+bo_definitie: "Een bevinding is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

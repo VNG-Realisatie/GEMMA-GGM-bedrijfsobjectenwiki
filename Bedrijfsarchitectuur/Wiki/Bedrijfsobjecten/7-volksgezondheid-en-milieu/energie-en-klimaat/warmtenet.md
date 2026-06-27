@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Infrastructuur van leidingen, warmtebronnen en afleverstations voor de levering van warmte aan gebouwen in een bepaald gebied."
+bo_toelichting: ''
 bedrijfsprocessen: [warmtetransitie, buurtaanpak aardgasvrij, verduurzaming stadsverwarming]
 bedrijfsfuncties: [energiebeleid, gebiedsontwikkeling]
 bo_relaties:

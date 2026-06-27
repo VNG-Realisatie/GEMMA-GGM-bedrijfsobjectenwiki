@@ -35,7 +35,8 @@ bo_homoniemen:
     ggm_beleidsdomein: "Inburgering"
     toelichting: "Vrijstelling van de inburgeringsplicht — ander concept dan leerplichtvrijstelling"
 
-bo_definitie: "Besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht."
+bo_definitie: "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

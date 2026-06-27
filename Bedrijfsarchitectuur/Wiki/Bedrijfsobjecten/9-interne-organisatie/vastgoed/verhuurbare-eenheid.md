@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Individueel verhuurbaar deel van een vastgoedobject, als eenheid van exploitatie."
+bo_definitie: "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: compositie

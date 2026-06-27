@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Door de gemeenteraad vastgestelde verordening die de heffing en invordering van een gemeentelijke belasting of recht regelt."
+bo_definitie: "Een heffingsverordening is een door de gemeenteraad vastgestelde verordening die de heffing en invordering van gemeentelijke belastingen en rechten regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Document)*"
@@ -63,12 +64,6 @@ Door de gemeenteraad vastgestelde verordening die de heffing en invordering van 
 **Entiteit:** Heffingsverordening (specialisatie van Document)
 **Attributen:** *(geen eigen attributen, erft van Document)*
 **Matchsterkte:** exact — de GGM-definitie komt volledig overeen met het begrip "belastingverordening" uit de beleidsbronnen.
-
-## BO-definitie
-
-De heffingsverordening is het juridische instrument waarmee de gemeenteraad belastingheffing mogelijk maakt. Elke gemeentelijke belasting vereist een eigen verordening. De verordening bevat de belastingplichtigen, het belastbare feit, de heffingsmaatstaf, het tarief, vrijstellingen en de wijze van heffing.
-
-VNG-modelverordeningen dienen als basis; de gemeenteraad maakt per belastingtype keuzes binnen de wettelijke kaders.
 
 ## Subtypes
 

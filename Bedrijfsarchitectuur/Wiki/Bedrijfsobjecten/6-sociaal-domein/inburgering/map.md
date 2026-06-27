@@ -28,7 +28,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-25fe4f05-5edf-451d-9c67-1dd286a162af
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: 'Module Arbeidsmarkt en Participatie: verplicht onderdeel van het inburgeringstraject gericht op arbeidstoeleiding.'
+bo_definitie: "De Module Arbeidsmarkt en Participatie (MAP) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige wordt voorbereid op deelname aan de Nederlandse arbeidsmarkt, door middel van voorlichting, oriëntatie en arbeidsmarktgerichte activiteiten."
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]'

@@ -35,7 +35,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: De op grond van de Wet WOZ vastgestelde waarde van een WOZ-object naar een bepaalde waardepeildatum.
+bo_definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
+bo_toelichting: ''
 definitie: De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum.
 bedrijfsprocessen:
 - WOZ-taxatie
@@ -65,18 +66,6 @@ De vastgestelde marktwaarde van een [[Wiki/Bedrijfsobjecten/99-kern/woz-object|w
 
 **Entiteit:** WOZ-Waarde (BRWOZ)
 **Attributen:** datumWaardepeiling, vastgesteldeWaarde, datumPeilingToestand, statusBeschikking
-
-## BO-definitie
-
-Het bedrijfsobject WOZ-waarde omvat zowel de getaxeerde waarde als het beschikkingsaspect (statusBeschikking). In de GGM is de WOZ-beschikking geen aparte entiteit maar een attribuut van WOZ-Waarde. Op bedrijfsniveau geldt hetzelfde: de beschikking IS de formele vaststelling van de waarde.
-
-De WOZ-waarde is de centrale heffingsmaatstaf voor:
-- Gemeentelijke heffingen: OZB, riool- en waterzorgheffing, forensenbelasting
-- Rijksbelastingen: eigenwoningforfait, erfbelasting
-- Waterschapsbelasting
-- Niet-fiscaal: hypotheekverstrekking, huurprijsberekening, fraudebestrijding
-
-De waarde loopt altijd een jaar achter: WOZ-beschikking 2026 bevat de waarde op peildatum 1 januari 2025.
 
 ## Relaties
 

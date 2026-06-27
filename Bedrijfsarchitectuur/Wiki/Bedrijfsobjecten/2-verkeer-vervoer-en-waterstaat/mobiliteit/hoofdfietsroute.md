@@ -26,6 +26,7 @@ ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk voor het spreiden en faciliteren van fietsstromen.
+bo_toelichting: ''
 bo_subtypes:
 - naam: snelfietsroute
   omschrijving: Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid

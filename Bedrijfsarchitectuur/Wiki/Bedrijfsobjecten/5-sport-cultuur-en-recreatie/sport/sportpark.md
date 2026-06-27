@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ca9df4ee-92e1-4c24-ace
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
+bo_toelichting: ''
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"

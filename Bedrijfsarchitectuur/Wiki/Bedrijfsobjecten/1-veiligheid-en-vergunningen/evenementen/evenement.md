@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Georganiseerde activiteit met publiek in de openbare ruimte, waarvoor de gemeente een vergunning verleent en die plaatsvindt op een aangewezen locatie."
+bo_definitie: "Activiteit in het publieke domein"
+bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:
@@ -67,13 +68,6 @@ Zeven stads- en volksfeesten hebben een vaste plek op de reserveringskalender: K
 > Geen relaties, geen diagrammen.
 
 **Matchsterkte: partieel.** OpenbareActiviteit dekt het basisconcept (activiteit in publiek domein met start/eind, naam, locatie, status), maar is veel dunner dan wat gemeenten in de praktijk registreren. De GGM-entiteit heeft geen relaties met locaties, vergunningen of organisatoren, en mist attributen als omvang, type, beoordelingscriteria. De naam "OpenbareActiviteit" is breder dan "Evenement" — het kan ook betogingen of markten omvatten die in het beleid juist worden uitgesloten.
-
-## BO-definitie
-
-De GEMMA-definitie wijkt af van de GGM-definitie:
-
-- **GGM**: "Activiteit in het publieke domein" — te breed, omvat ook activiteiten die geen evenement zijn
-- **GEMMA**: "Georganiseerde activiteit met publiek in de openbare ruimte, waarvoor de gemeente een vergunning verleent en die plaatsvindt op een aangewezen locatie" — specifieker, sluit aan bij gemeentelijke praktijk
 
 ## Relaties
 

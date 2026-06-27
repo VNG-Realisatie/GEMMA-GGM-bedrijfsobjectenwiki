@@ -27,7 +27,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-69e60d64-7165-488f-a39
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden, met kenmerken als oppervlakte, woningtype en prijssegment."
+bo_definitie: "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Sociale huurwoning"
     omschrijving: "Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling"
@@ -96,15 +97,6 @@ Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenme
 **Matchsterkte: sterk.** De GGM-entiteit "Gebouw" komt inhoudelijk overeen met het beleidsconcept "Woning". De beleidsnota hanteert de definitie: "het complex van ruimten dat een zelfstandige woonruimte vormt, bedoeld voor de permanente huisvesting van één afzonderlijk huishouden." De GGM-naam "Gebouw" is generieker dan de beleidsterm "Woning".
 
 **Attributen GGM:** aantal, aantalAdressen, aantalKamers, energielabel, oppervlakte, duurzaam, natuurinclusief, regenwater, aardgasloos.
-
-## BO-definitie
-
-De GEMMA-definitie wijkt af van het GGM:
-
-- **GGM:** "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
-- **GEMMA:** "Een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden, met kenmerken als oppervlakte, woningtype en prijssegment."
-
-De GEMMA-definitie voegt "prijssegment" toe als relevant kenmerk vanuit het woonbeleid.
 
 ## Relaties
 

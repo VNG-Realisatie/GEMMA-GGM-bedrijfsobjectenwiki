@@ -33,7 +33,8 @@ bo_homoniemen:
     ggm_beleidsdomein: "Archeologie"
     toelichting: "Archeologische put (waterput of afvalput als grondspoor) — ander concept dan rioolput"
 
-bo_definitie: "Verticale constructie in het rioleringssysteem voor aansluiting, inspectie en onderhoud van leidingen."
+bo_definitie: "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken"
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Drainageput"
     omschrijving: Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer

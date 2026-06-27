@@ -27,7 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Vastgelegd oordeel over het functioneren van een werknemer, als onderdeel van de gesprekscyclus."
+bo_definitie: "Beoordeling is het oordeel van de professional over het functioneren van een leerling"
+bo_toelichting: ''
 bo_subtypes:
   - naam: Planningsgesprek
     omschrijving: "Gesprek aan het begin van de cyclus waarin doelstellingen en verwachtingen worden vastgelegd"
@@ -92,10 +93,6 @@ De beoordeling omvat de volledige gesprekscyclus waarmee de gemeente het functio
 - **Beleidsdomein:** HR (taakveld 9 Interne Organisatie)
 - **Attributen:** datum, oordeel, omschrijving
 - **Matchsterkte:** exact (maar definitie incorrect — "leerling" moet "werknemer" zijn)
-
-## BO-definitie
-
-De GGM-definitie verwijst naar "leerling" maar de entiteit staat in het HR-domein en relateert aan Werknemer. De GEMMA-definitie corrigeert dit: "Vastgelegd oordeel over het functioneren van een werknemer, als onderdeel van de gesprekscyclus."
 
 ## Relaties
 

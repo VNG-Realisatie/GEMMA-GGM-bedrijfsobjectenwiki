@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Een door een bestuursorgaan opgelegde beperking op een onroerende zaak, ingeschreven in de BRK-PB."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"

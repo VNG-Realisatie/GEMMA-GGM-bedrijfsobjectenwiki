@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Formeel besluit van de gemeente waarmee een inwoner of ondernemer toestemming krijgt voor een specifieke activiteit of een uitzondering op een verbod."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Standplaatsvergunning
     omschrijving: "APV-vergunning voor het innemen van een standplaats in de openbare ruimte"

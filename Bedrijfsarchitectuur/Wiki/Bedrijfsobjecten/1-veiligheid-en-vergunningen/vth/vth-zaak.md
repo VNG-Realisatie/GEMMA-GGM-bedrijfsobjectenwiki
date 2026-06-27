@@ -27,7 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Zaak of dossier voor vergunningverlening, toezicht of handhaving van regels in de fysieke leefomgeving."
+bo_definitie: "Een VTHzaak is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op vergunningverlening, toezicht en handhaving (VTH) van regels en voorschriften in de fysieke leefomgeving."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

@@ -29,7 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Bindende overeenkomst tussen de gemeente en een leverancier voor de levering van werken, diensten of goederen."
+bo_definitie: "Bindende overeenkomst"
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leverancier]]"
@@ -84,10 +85,6 @@ GGM-entiteiten die onderdeel zijn van Contract. Gemodelleerd als aparte entiteit
 **Attributen:** contractRevisie, internContractID, internContractRevisie, status, groep, type, categorie, classificatie, voorwaarde, beschrijving, zoekwoorden, autorisatiegroep, opmerkingen, datumStart, datumEinde, datumCreatie
 
 Het contract verschijnt op 5 GGM-diagrammen (Inkoop, Sociaal Domein, Financiën, Inhuur), wat de domeindoorsnijdende aard bevestigt.
-
-## BO-definitie
-
-De GGM-definitie ("Bindende overeenkomst") is correct maar zeer minimaal. De gemma_definitie specificeert de gemeentelijke inkoopcontext.
 
 ## Relaties
 

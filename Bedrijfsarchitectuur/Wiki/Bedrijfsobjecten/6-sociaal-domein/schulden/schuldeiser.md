@@ -14,7 +14,8 @@ ggm_diagram: [Schuldhulp Client]
 ggm_definitie: "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld."
 ggm_herkomst: GGM
 
-bo_definitie: "Bedrijf of persoon aan wie een inwoner een schuld heeft."
+bo_definitie: "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie

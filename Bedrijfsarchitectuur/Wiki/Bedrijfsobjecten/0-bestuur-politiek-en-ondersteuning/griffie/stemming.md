@@ -31,7 +31,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Formele stemming in een raads- of commissievergadering over een agendapunt of raadsstuk, met registratie van stemmingstype en resultaat."
+bo_definitie: "Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering"
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -82,10 +83,6 @@ Bij staking van stemmen in een niet-voltallige vergadering wordt het voorstel aa
 **Entiteit:** Stemming
 **Attributen:** resultaat, stemmingstype
 **Matchsterkte:** exact — 1:1 mapping
-
-## BO-definitie
-
-De GGM-definitie beschrijft "stem" als individuele handeling. De GEMMA-definitie specificeert naar de formele stemming als geheel (het stemmingsmoment met resultaat), niet de individuele stem. Dit sluit aan bij het registratieniveau in raadsinformatiesystemen.
 
 ## Relaties
 

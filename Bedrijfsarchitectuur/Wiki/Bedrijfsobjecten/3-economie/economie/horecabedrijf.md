@@ -27,7 +27,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403"
 ggm_gemma_bron: "NHR"
 ggm_gemma_alternate_name: ""
-bo_definitie: "Bedrijf dat zich richt op het verstrekken van eten, drinken en/of logies, gereguleerd via de Verordening horeca en het Ontwikkelingskader Horeca."
+bo_definitie: "Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt."
+bo_toelichting: ''
 bedrijfsprocessen: [horecavergunningverlening, handhaving horeca, horecabeleid]
 bedrijfsfuncties: [vergunningverlening, handhaving, economisch beleid]
 bo_relaties:
@@ -89,15 +90,6 @@ De horecavergunning is een subtype van vergunning, hier vastgelegd vanwege de di
 - **Matchsterkte**: **partieel** — Vestiging is het generieke concept; horecabedrijf is een specialisatie die het GGM niet apart modelleert
 
 Het GGM kent geen specifieke horecaentiteit. Horecabedrijf is een specialisatie van Vestiging, herkenbaar via SBI-code. De GGM-entiteit Hotel is een aparte specialisatie van Vestiging.
-
-## BO-definitie
-
-De eigen definitie wijkt af van de GGM-definitie doordat het specifiek gaat om horeca (eten, drinken, logies) terwijl Vestiging elke bedrijfsvestiging omvat.
-
-| Veld | Waarde |
-|---|---|
-| GGM-definitie | Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt. |
-| GEMMA-definitie | Bedrijf dat zich richt op het verstrekken van eten, drinken en/of logies, gereguleerd via de Verordening horeca en het Ontwikkelingskader Horeca. |
 
 ## Relaties
 

@@ -33,7 +33,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Een door de gemeente aangeboden dienst of product waarvoor inwoners, ondernemers of organisaties een aanvraag kunnen indienen of een afspraak kunnen maken.
+bo_definitie: "Bron: QP_CALENDAR. CFM_SERVICES"
+bo_toelichting: ''
 bedrijfsprocessen:
 - Productcatalogusbeheer
 - Dienstverlening
@@ -82,10 +83,6 @@ Het product of dienst vormt de schakel tussen de dienstverleningslaag (wat bied 
 - **Attributen:** naam, afhandeltijd, ingebruik
 
 De GGM-definitie is een systeemreferentie naar het bronsysteem, niet een inhoudelijke definitie. De GEMMA-definitie is daarom afwijkend geformuleerd.
-
-## BO-definitie
-
-> **Een door de gemeente aangeboden dienst of product waarvoor inwoners, ondernemers of organisaties een aanvraag kunnen indienen of een afspraak kunnen maken.**
 
 ## Relaties
 

@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Accommodatie voor bedrijfsmatig logies van minimaal twee weken tot maximaal zes maanden, gericht op internationale kenniswerkers en studenten."
+bo_toelichting: ''
 bedrijfsprocessen: [short stay vergunningverlening, monitoring woningvoorraad]
 bedrijfsfuncties: [vergunningverlening, economisch beleid, woonbeleid]
 bo_relaties:

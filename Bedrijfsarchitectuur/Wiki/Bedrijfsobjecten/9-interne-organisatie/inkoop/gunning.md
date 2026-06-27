@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer op basis van een aanbestedingsprocedure."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"
@@ -74,6 +75,10 @@ Gunning geschiedt standaard op basis van beste prijs-kwaliteitverhouding (BPKV),
 **Matchsterkte:** exact — GGM-entiteit en BO zijn hetzelfde concept.
 
 **Attributen:** datumGunning, bericht, datumVoorlopigeGunning, gegundePrijs, datumPublicatie
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

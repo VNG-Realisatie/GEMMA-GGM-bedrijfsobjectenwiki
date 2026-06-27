@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Boekhoudkundige verwijdering van een oninbare vordering waarvan geen aflossingsmogelijkheid wordt verwacht."
+bo_definitie: "De vordering blijkt oninbaar. Er is (nog) geen aflossingsmogelijkheid en er is geen perspectief tot invordering. Afscheid nemen van de vordering gebeurt via het afschrijven van de vordering."
+bo_toelichting: "De reden van afschrijving wordt opgegeven."
 definitie: Het afschrijven van een oninbare vordering waarvoor geen perspectief op invordering bestaat
 bedrijfsprocessen: [Invordering, Jaarrekening]
 bedrijfsfuncties: [Inning en invordering, Financieel beheer]

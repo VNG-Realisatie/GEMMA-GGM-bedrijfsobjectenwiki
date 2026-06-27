@@ -25,7 +25,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Individueel geregistreerd en beheerd houtachtig gewas in de openbare ruimte, met eigen levenscyclus van aanplant tot kap."
+bo_definitie: "Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt."
+bo_toelichting: ''
 bedrijfsprocessen: [Bomenbeheer, Kapvergunningverlening, Boomveiligheid-inspectie (VTA), Verplanting, Herplant]
 bedrijfsfuncties: [Groenbeheer, Vergunningverlening, Openbare ruimte]
 bo_relaties:

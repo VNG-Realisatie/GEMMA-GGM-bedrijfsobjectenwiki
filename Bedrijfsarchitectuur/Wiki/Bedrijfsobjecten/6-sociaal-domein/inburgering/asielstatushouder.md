@@ -30,6 +30,7 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3991c605-2abb-4185-b7ce
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 bo_definitie: Inburgeringsplichtige met verblijfsvergunning asiel die door de gemeente wordt gekoppeld aan een inburgeringstraject.
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
@@ -75,6 +76,10 @@ De inburgeringsplichtige die rechtmatig verblijf heeft als asielgerechtigde en d
 - **Attributen:** Telefoonnummer verblijf AZC, Emailadres verblijf AZC, DigiD aangevraagd, Rijbewijs, Land Rijbewijs, Is gekoppeld aan
 - **Overerving:** Inburgeraar (abstract) → Asielstatushouder
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie ("De Inburgeringsplichtige die rechtmatig verblijf heeft") is te vaag: ze noemt niet dat het om asielgerechtigden gaat en mist het koppelingsbegrip aan de gemeente. De bronnen (COA Dienstverleningsgids, Asielopvangwijzer) beschrijven asielstatushouders specifiek als statushouders die via kansrijke koppeling aan een gemeente worden toegewezen voor inburgering.
 
 ## Relaties
 

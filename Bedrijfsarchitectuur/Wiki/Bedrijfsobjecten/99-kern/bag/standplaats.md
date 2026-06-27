@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (standplaatsidentificatie, standplaatsstatus, indicatieGeconstateerdeStandplaats); minder attributen, geen geometrie/versie/documentvelden"
 
-bo_definitie: "Door de gemeente aangewezen terrein voor het permanent plaatsen van een verplaatsbare ruimte voor woon-, bedrijfsmatige of recreatieve doeleinden (bijv. woonwagen), als adresseerbaar object opgenomen in de BAG."
+bo_definitie: "Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Nummeraanduiding]]"

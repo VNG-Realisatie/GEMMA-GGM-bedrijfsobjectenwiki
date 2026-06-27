@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Het recht om te vissen in gemeentelijke wateren, door de gemeente als eigenaar verhuurd aan derden via de Visserijwet."
+bo_toelichting: ''
 ---
 
 # Visrecht

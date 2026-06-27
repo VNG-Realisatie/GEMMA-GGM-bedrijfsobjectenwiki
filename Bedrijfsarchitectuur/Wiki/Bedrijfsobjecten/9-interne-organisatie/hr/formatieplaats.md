@@ -27,7 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-bo_definitie: "Vastgestelde eenheid in het formatieplan, uitgedrukt in fte, gekoppeld aan een functie en organisatorische eenheid."
+bo_definitie: "Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting."
+bo_toelichting: "Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Arbeidsfunctie]]"

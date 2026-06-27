@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Overeenkomst met een verwerker voor de inzameling of verwerking van afval- en grondstofstromen."
+bo_toelichting: ''
 bedrijfsprocessen: [Aanbesteding afvalverwerking, Contractbeheer]
 bedrijfsfuncties: [Afvalbeheer, Inkoop]
 bo_relaties:

@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (ligplaatsidentificatie, ligplaatsstatus, indicatieGeconstateerdeLigplaats); minder attributen, geen geometrie/versie/documentvelden; voegt inOnderzoek toe"
 
-bo_definitie: "Door de gemeente aangewezen plaats in het water voor het permanent afmeren van een drijvend object voor woon-, bedrijfsmatige of recreatieve doeleinden, als adresseerbaar object opgenomen in de BAG."
+bo_definitie: "Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object."
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Reserveligplaats"
     omschrijving: "Tijdelijke ligplaats voor noodgevallen zoals kade-onderhoud of verplaatsing."

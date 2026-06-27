@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Toestel of constructie in de openbare ruimte bestemd voor spel en beweging, met certificering en periodieke veiligheidsinspectie."
+bo_definitie: "Toestel en structuren, met inbegrip van componenten en constructieve onderdelen, waarmee of waarop kinderen binnen of buiten kunnen spelen, individueel of gezamenlijk, volgens hun eigen spelregels of beweegredenen, die te allen tijde kunnen worden gewijzigd."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Vast speeltoestel
     omschrijving: "Permanent geplaatst speeltoestel op een speelterrein (schommel, glijbaan, klimrek)"

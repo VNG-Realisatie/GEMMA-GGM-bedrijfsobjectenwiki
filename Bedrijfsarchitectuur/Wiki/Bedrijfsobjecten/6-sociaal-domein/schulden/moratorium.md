@@ -15,6 +15,7 @@ ggm_definitie: "Het gaat hier om de datum waarop een verzoek tot een moratorium 
 ggm_herkomst: GGM
 
 bo_definitie: "Verzoek aan de rechter om schuldeisers tijdelijk te blokkeren tijdens een lopende aanvraag voor een minnelijke schuldregeling."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -42,6 +43,10 @@ Een moratorium is een tijdelijke opschorting van inningsmogelijkheden door schul
 - **Beleidsdomein:** Schuldhulpverlening
 - **Attributen:** datumAanvraag, datumGoedkeuring, startdatum, einddatum
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie beschrijft technische implementatiedetails ("het gaat hier om de datum waarop een verzoek tot een moratorium is ingediend") in plaats van het concept zelf. De bron (Beleidsplan Schuldhulpverlening Den Haag) definieert moratorium als verzoek aan de rechter om schuldeisers tijdelijk te blokkeren.
 
 ## Relaties
 

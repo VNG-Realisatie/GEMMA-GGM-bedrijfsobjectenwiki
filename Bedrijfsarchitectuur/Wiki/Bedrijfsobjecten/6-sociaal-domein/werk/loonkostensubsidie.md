@@ -27,7 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
-bo_definitie: "Een door de gemeente aan een werkgever verstrekte tegemoetkoming die het verschil compenseert tussen de loonwaarde van een werknemer met een arbeidsbeperking en het wettelijk minimumloon."
+bo_definitie: "Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Re-integratievoorziening]]"

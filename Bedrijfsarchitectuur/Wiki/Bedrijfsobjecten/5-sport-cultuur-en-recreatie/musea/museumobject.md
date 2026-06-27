@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b04
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
+bo_toelichting: ''
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
 bo_relaties:
@@ -80,6 +81,10 @@ Erfgoed Object (abstract)
 ```
 
 Archiefstukken en museumobjecten zijn voor gemeenten herkenbaar verschillende dingen met eigen processen (archiefbeheer vs. collectiebeheer). Daarom aparte BO's, niet één abstract "Erfgoedobject" als BO.
+
+## BO-definitie
+
+De GGM-definitie beschrijft technische implementatiedetails in plaats van het concept zelf. De BO-definitie beschrijft het begrip vanuit de gemeentelijke praktijk.
 
 ## Relaties
 

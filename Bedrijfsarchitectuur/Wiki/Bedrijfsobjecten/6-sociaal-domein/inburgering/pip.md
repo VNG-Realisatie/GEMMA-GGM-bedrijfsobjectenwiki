@@ -31,7 +31,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-a1f148c2-d310-45c0-aee9-33e2c641ce37
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Persoonlijk plan Inburgering en Participatie met de leerroute, verplichtingen en doelen van de inburgeraar.
+bo_definitie: "Het Persoonlijk Plan Inburgering en Participatie (PIP) is een individueel plan dat door de gemeente wordt vastgesteld in overleg met de inburgeringsplichtige, waarin het leerrouteadvies, het inburgeringsaanbod, het hoofddoel en de begeleidingsafspraken zijn vastgelegd, met als doel het succesvol afronden van de inburgering binnen de gestelde termijn."
+bo_toelichting: ''
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'

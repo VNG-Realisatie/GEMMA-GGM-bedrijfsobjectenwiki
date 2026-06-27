@@ -31,6 +31,7 @@ ggm_duplicaat_entiteiten:
   - "EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC"
 
 bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Maatwerkvoorziening Wmo
     omschrijving: "Op de persoon afgestemde voorziening na individuele beoordeling (Wmo 2015)"
@@ -95,6 +96,10 @@ Een voorziening is het middel waarmee de gemeente ondersteuning levert aan een c
 - **Beleidsdomein:** Generiek Jeugd en Wmo
 - **Attributen:** productcode, naam, omschrijving, wet, code, afhandelwijze
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

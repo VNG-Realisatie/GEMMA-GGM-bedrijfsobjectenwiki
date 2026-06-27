@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Fysieke constructie langs een weg of spoorlijn die geluidhinder voor de omgeving vermindert."
+bo_definitie: "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. (IMGeo)"
+bo_toelichting: ''
 bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [beheer openbare ruimte, milieubeheer]
 bo_relaties:

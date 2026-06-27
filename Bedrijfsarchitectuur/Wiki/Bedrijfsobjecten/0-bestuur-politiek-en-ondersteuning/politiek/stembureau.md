@@ -25,7 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Fysieke locatie waar kiezers hun stem uitbrengen; geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen en personeelsinzet.
+bo_definitie: "Door het college aangewezen fysieke locatie waar kiezers hun stem uitbrengen bij verkiezingen of referenda."
+bo_toelichting: ''
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
 bo_relaties:
@@ -80,10 +81,6 @@ Dit BO heeft **geen GGM-entiteit**. Anders dan [[Wiki/Bedrijfsobjecten/0-bestuur
 Dit zou in het GGM kunnen — vergelijkbaar met BAG-locaties maar met stemming-specifieke attributen. 
 
 **Terugmelding: Ja** — voorstellen aan GGM-team om Stembureau als registratieobject te modelleren, waarschijnlijk onder taakveld 0 (Bestuur) of als specialisatie van Lokatie.
-
-## BO-definitie
-
-> **Stembureau** — Aangewezen fysieke locatie waar kiezers hun stem uitbrengen, geregistreerd met adres, capaciteit, toegankelijkheidseigenschappen, bemensing en voorstemming-mogelijkheden.
 
 ## Attributen (gemeentelijk perspectief)
 

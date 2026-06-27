@@ -43,7 +43,8 @@ ggm_gemma_alternate_name: "ZakelijkRecht (RSGB Model)"
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: "Het eigendom of een beperkt recht van een persoon op een onroerende zaak."
+bo_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"

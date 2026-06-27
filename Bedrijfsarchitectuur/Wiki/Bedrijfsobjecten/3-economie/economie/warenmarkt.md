@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Georganiseerde, periodieke verkoop van waren op een aangewezen locatie in de openbare ruimte, bestaande uit zes of meer standplaatsen, gereguleerd via de Marktverordening."
+bo_toelichting: ''
 bedrijfsprocessen: [marktorganisatie, vergunningverlening markten, monitoring detailhandel]
 bedrijfsfuncties: [economisch beleid, vergunningverlening]
 bo_relaties:

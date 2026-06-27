@@ -30,6 +30,7 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Voorbereidend onderzoek waarmee de gemeente de markt verkent voorafgaand aan een mogelijke aanbesteding."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

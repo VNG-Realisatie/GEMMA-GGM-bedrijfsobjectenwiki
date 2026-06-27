@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Melding van een school aan de gemeente dat een leerling niet op school verschijnt."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"
@@ -68,6 +69,10 @@ Een verzuimmelding is een melding van een school aan de gemeente dat een leerlin
 **Matchsterkte: exact.** De GGM-entiteit beschrijft hetzelfde concept.
 
 **GGM-attributen:** datumStart, datumEinde, voorstelSchool.
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

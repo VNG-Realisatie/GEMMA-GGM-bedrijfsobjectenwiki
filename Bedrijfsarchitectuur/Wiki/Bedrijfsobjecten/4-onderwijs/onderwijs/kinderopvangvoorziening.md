@@ -28,6 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Locatie waar kinderopvang wordt geboden, geregistreerd in het Landelijk Register Kinderopvang."
+bo_toelichting: ''
 bo_subtypes:
   - naam: Kinderdagverblijf (KDV)
     omschrijving: "Dagopvang voor kinderen die nog niet naar de basisschool gaan"

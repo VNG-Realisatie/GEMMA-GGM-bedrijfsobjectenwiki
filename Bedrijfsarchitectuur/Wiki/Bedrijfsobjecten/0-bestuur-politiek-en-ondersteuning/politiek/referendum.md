@@ -25,7 +25,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Volksstemming over een onderwerp, ingesteld door de raad of op grond van burgerbetrokkenheid, georganiseerd en uitgevoerd door de gemeente.
+bo_definitie: "Volksstemming waarbij kiezers rechtstreeks over een gemeentelijk beleidsonderwerp kunnen stemmen."
+bo_toelichting: ''
 bedrijfsprocessen: ''
 bedrijfsfuncties: ''
 bo_relaties:
@@ -71,10 +72,6 @@ Organisatorisch is een referendum vergelijkbaar met verkiezingen (dezelfde stemb
 Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] is **Referendum een proces**, niet een registratieobject. Dit valt **buiten de scope van het GGM** per definitie (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
 
 **Geen terugmelding naar GGM** — dit is een structurele scopekeuze, geen fout.
-
-## BO-definitie
-
-> **Referendum** — Volksstemming over een onderwerp, ingesteld door de raad of op basis van burgerinitiatief, georganiseerd en uitgevoerd door de gemeente conform de Gemeentelijke Kieswet.
 
 ## Onderscheid met Verkiezing
 

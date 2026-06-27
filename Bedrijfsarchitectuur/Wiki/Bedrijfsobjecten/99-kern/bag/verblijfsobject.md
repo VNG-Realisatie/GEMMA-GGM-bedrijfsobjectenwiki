@@ -35,6 +35,7 @@ ggm_duplicaat_entiteiten:
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (verblijfsobjectidentificatie, verblijfsobjectstatus, etc.); minder attributen (geen geometrie, gebruiksdoel, oppervlakte, documentvelden); voegt inOnderzoek toe"
 
 bo_definitie: "Kleinste binnen een of meer panden gelegen eenheid van gebruik, ontsloten via een eigen afsluitbare toegang, met een of meer gebruiksdoelen, geregistreerd in de BAG."
+bo_toelichting: ''
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Pand]]"
@@ -86,6 +87,10 @@ De GGM-entiteit "Verblijfsobject" komt voor in 2 beleidsdomeinen:
 | RSGBPlus | `EAID_A33151CE_37B2_4026_B0AF_B541687B5B7C` | duplicaat — domein-geprefixte attribuutnamen; minder attributen (geen geometrie, gebruiksdoel, oppervlakte, documentvelden); voegt inOnderzoek toe |
 
 Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
+## BO-definitie
+
+De GGM-definitie beschrijft technische implementatiedetails in plaats van het concept zelf. De BO-definitie beschrijft het begrip vanuit de gemeentelijke praktijk.
 
 ## Relaties
 

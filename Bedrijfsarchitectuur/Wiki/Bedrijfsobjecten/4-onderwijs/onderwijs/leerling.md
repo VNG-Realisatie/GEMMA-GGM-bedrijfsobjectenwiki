@@ -28,6 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
 bo_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
+bo_toelichting: ''
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
@@ -89,6 +90,10 @@ Een leerling is een kind of jongere dat onderwijs volgt aan een school in de gem
 - **Beleidsdomein:** Onderwijs
 - **Attributen:** kwetsbareJongere
 - **Matchsterkte:** exact
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 

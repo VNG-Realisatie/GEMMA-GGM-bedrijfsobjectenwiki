@@ -34,7 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "alleen datum en bevindingen (minder attributen dan VTH-variant)"
 
-bo_definitie: "Periodieke controle waarbij de toestand van een bouwwerk, activiteit of situatie wordt vastgesteld — zowel in het kader van VTH-toezicht als vastgoedbeheer."
+bo_definitie: "Het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen."
+bo_toelichting: ''
 bo_subtypes: []
 bo_relaties:
   - type: associatie
@@ -87,16 +88,6 @@ De GGM-entiteit "Inspectie" komt voor in 3 beleidsdomeinen:
 | Beheer Openbare Ruimte | *(reeds bekend)* | duplicaat — zelfde concept in BOR-context |
 
 In het vastgoeddomein is de inspectie specifiek een NEN 2767-conditiemeting waarbij bouwdelen van een [[Vastgoedobject]] worden beoordeeld op technische staat. Het resultaat voedt de [[MJOP]].
-
-## BO-definitie
-
-De GGM-definitie verwijst naar boezemkades (waterbeheer-context). Voor VTH en vastgoed is de definitie:
-
-> **GGM:** Het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen.
-
-> **GEMMA:** Toezichtscontrole waarbij de toestand van een bouwwerk, activiteit of situatie in de fysieke leefomgeving wordt vastgesteld.
-
-⚠️ Terugmelding: GGM-definitie is domeinspecifiek (waterbeheer) maar entiteit wordt breder gebruikt in VTH-domein.
 
 ## GGM-bron
 

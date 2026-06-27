@@ -25,6 +25,7 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
+bo_toelichting: ''
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
 bedrijfsprocessen: [Invordering, Handhaving]
 bedrijfsfuncties: [Inning en invordering]
@@ -53,6 +54,10 @@ De daadwerkelijke interventie die wordt ondernomen naar aanleiding van achterbli
 ## Bedrijfsfuncties
 
 - **Inning en invordering** — interventieladder
+
+## BO-definitie
+
+De GGM-definitie klopt grotendeels maar is aangepast voor de gemeentelijke context en leesbaarheid.
 
 ## Relaties
 

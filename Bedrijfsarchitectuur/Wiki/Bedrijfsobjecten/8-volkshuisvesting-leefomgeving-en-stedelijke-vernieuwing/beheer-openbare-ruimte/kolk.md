@@ -27,7 +27,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
-bo_definitie: Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond.
+bo_definitie: "Een reservoir bestemd voor de opvang van hemelwater afkomstig van erop aangesloten oppervlakken, het laten bezinken van in dit water meegevoerde bezinkbare stoffen en de afvoer van dit water naar een rioolstelsel of naar de ondergrond. Synoniemen: Afvoerput"
+bo_toelichting: ''
 bo_relaties:
 - type: generalisatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput|Rioolput]]'
@@ -79,10 +80,6 @@ Kolkreiniging is een periodiek terugkerend onderhoudproces om verstopping en wat
 - **Matchsterkte**: exact
 - **Overerving**: Kolk is een specialisatie van Put in het GGM
 - **Attributen** (3): bereikbaarheidKolk, risicogebied, type
-
-## BO-definitie
-
-De GEMMA-definitie vereenvoudigt de technische GGM-definitie tot het gemeentelijk perspectief: opvang van hemelwater en afvoer. De GGM-definitie beschrijft ook het bezinkingsproces.
 
 ## Relaties
 

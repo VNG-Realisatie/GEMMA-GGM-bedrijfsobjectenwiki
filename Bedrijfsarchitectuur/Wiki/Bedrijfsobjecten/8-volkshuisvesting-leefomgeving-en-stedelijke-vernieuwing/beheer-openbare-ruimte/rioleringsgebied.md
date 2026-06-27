@@ -24,7 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Administratief beheersgebied waarbinnen het rioolstelsel afvalwater naar één gemaal of overnamepunt transporteert."
+bo_definitie: "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren."
+bo_toelichting: ''
 bo_subtypes:
   - naam: "Bemalingsgebied"
     omschrijving: Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd

@@ -24,7 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3aed2196-8ba9-4441-a27f-15a1f76d3fda"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
-bo_definitie: "Constructie bestemd voor het parkeren van voertuigen, al dan niet in gemeentelijk eigendom of beheer."
+bo_definitie: "Open constructie die geheel of gedeeltelijk in gebruik is als voorziening voor het parkeren van voertuigen"
+bo_toelichting: ''
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:

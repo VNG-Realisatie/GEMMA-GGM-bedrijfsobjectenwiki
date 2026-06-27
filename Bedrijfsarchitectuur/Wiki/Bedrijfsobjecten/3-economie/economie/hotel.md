@@ -25,6 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4b2cc303-de99-49c4-968
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 bo_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
+bo_toelichting: ''
 bedrijfsprocessen: [hotelvergunningverlening, hotelbeleid, toeristenbelastingheffing]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
 bo_relaties:
@@ -85,6 +86,10 @@ De subtypes zijn beleidsmatige categorieën uit de beleidsregel hotels (2026), g
 - **Matchsterkte**: **exact** — GGM-entiteit en BO zijn hetzelfde concept
 
 De GGM-definitie is summier maar correct. De beleidsregel voegt typeringen en voorwaarden toe die het GGM niet modelleert.
+
+## BO-definitie
+
+De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begrip. De BO-definitie is gebaseerd op de bronnen.
 
 ## Relaties
 
