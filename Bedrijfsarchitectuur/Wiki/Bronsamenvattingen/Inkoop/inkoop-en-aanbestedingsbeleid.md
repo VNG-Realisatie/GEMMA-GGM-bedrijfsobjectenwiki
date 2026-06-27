@@ -28,7 +28,7 @@ Contractbeheer omvat vier rollen: contracteigenaar, contractmanager, contractgeb
 - **[[Leverancier]]** — Niet-natuurlijk persoon die een product of dienst levert. Geregistreerd in leveranciersbestand; gekwalificeerd per categorie.
 - **[[Gunning]]** — Formeel besluit tot toewijzing van een opdracht aan een ondernemer. Heeft publicatieplicht bij nationale/Europese aanbestedingen.
 - **[[Offerte]]** — Aanbod van goederen of diensten met prijsopgave, ingediend door een leverancier op een offerteaanvraag.
-- **[[Inschrijving]]** — Formele deelname aan een nationale of Europese aanbesteding, met prijs en score.
+- **[[Aanbieding]]** — Formele deelname aan een nationale of Europese aanbesteding, met prijs en score.
 - **[[Inkooppakket]]** — Standaardindeling om werken, diensten en leveringen te structureren; groepeert samenhangende producten/diensten.
 - **Marktconsultatie** — Voorbereidend instrument om de markt te verkennen, duurzame/innovatieve oplossingen te inventariseren en randvoorwaarden te toetsen. Kan leiden tot go/no-go beslissing.
 - **Offerteaanvraag** — Aanvraag van de gemeente aan leveranciers om een offerte in te dienen (enkelvoudig of meervoudig).

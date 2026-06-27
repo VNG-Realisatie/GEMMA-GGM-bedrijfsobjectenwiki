@@ -30,7 +30,7 @@ ggm_gemma_alternate_name: ''
 bo_definitie: Reservoir in de openbare ruimte voor opvang van hemelwater en afvoer naar het rioolstelsel of de ondergrond.
 bo_relaties:
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|Put]]'
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput|Rioolput]]'
   richting: van-dit-BO
   kardinaliteit: null
   beschrijving: Kolk is een specialisatie van Put in het GGM

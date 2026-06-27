@@ -24,6 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+
+ggm_duplicaat_entiteiten:
+  - "EAID_341942C1_0F72_4e13_ADD1_235805BB81C0"
+
 bo_definitie: "Financieel recht van de gemeente op terugbetaling van een bedrag door een debiteur."
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente
 bedrijfsprocessen: [Terugvordering, Invordering]

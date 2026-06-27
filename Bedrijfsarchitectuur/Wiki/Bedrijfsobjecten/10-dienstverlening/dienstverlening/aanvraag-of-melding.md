@@ -56,6 +56,10 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
+
+ggm_duplicaat_entiteiten:
+  - "EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2"
+
 bo_definitie: Verzoek of signaal van een inwoner, ondernemer of organisatie aan de gemeente, gericht op het verkrijgen van een dienst, product of het melden van een situatie.
 bedrijfsprocessen:
 - Zaakafhandeling

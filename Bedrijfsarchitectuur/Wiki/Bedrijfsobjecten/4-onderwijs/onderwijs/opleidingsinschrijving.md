@@ -1,6 +1,6 @@
 ---
 type: bedrijfsobject
-naam: Inschrijving
+naam: Opleidingsinschrijving
 domein: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -27,6 +27,15 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-5e8930d4-8f06-4075-bf2b
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Inschrijving (Onderwijs)"
 
+ggm_duplicaat_entiteiten: []
+
+bo_homoniemen:
+  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding|Aanbieding]]"
+    ggm_entiteit: "Inschrijving"
+    ggm_guid: "EAID_2902E8D6_FF16_45d6_A0A4_47E2857D2D19"
+    ggm_beleidsdomein: "Inkoop"
+    toelichting: "Deelname aan een aanbesteding — ander concept dan opleidingsinschrijving"
+
 bo_definitie: "Registratie van de deelname van een leerling aan onderwijs bij een school."
 bo_relaties:
   - type: associatie
@@ -45,11 +54,15 @@ bedrijfsfuncties: [Onderwijsbeleid]
 
 ## BO-criteria toetsing
 
-6/6 criteria: heeft betekenis (ja), herkenbaar (ja), eigen bestaan (ja), meervoud (ja), levenscyclus (ja — inschrijving wordt aangemaakt bij aanmelding, is actief tijdens schoolbezoek, wordt beeindigd bij uitschrijving), relaties (ja — met school en leerling).
+6/6 criteria: heeft betekenis (ja), herkenbaar (ja), eigen bestaan (ja), meervoud (ja), levenscyclus (ja — opleidingsinschrijving wordt aangemaakt bij aanmelding, is actief tijdens schoolbezoek, wordt beëindigd bij uitschrijving), relaties (ja — met school en leerling).
 
 ## Beschrijving
 
-Een inschrijving registreert de deelname van een leerling aan onderwijs bij een school. De inschrijving legt het moment vast waarop een leerling start bij een school en vormt de basis voor leerplichtregistratie. Via inschrijvingen houdt de gemeente zicht op welke leerplichtige kinderen waar onderwijs volgen.
+Een opleidingsinschrijving registreert de deelname van een leerling aan onderwijs bij een school. De opleidingsinschrijving legt het moment vast waarop een leerling start bij een school en vormt de basis voor leerplichtregistratie. Via opleidingsinschrijvingen houdt de gemeente zicht op welke leerplichtige kinderen waar onderwijs volgen.
+
+## Naamkeuze
+
+De GGM-entiteit heet "Inschrijving". Hernoemd naar "Opleidingsinschrijving" ter disambiguatie van de GGM-homoniem "Inschrijving" in beleidsdomein Inkoop (deelname aan een aanbesteding). Overwogen alternatieven: Inschrijving (onderwijs), Leerlinginschrijving.
 
 ## GGM-bron
 

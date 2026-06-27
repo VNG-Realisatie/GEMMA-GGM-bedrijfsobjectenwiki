@@ -47,7 +47,7 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: "dient in"
   - type: associatie
-    bedrijfsobject: "[[Inschrijving]]"
+    bedrijfsobject: "[[Aanbieding]]"
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: "heeft"
@@ -106,7 +106,7 @@ Teruggemeld als #78 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 |---|---|---|---|---|
 | [[Contract\|Contract]] | contractant bij | → | 0..* | GGM |
 | [[Offerte\|Offerte]] | dient in | → | 0..* | GGM |
-| [[Inschrijving\|Inschrijving]] | heeft | → | 0..* | GGM |
+| [[Aanbieding\|Aanbieding]] | heeft | → | 0..* | GGM |
 
 ## Bedrijfsprocessen
 

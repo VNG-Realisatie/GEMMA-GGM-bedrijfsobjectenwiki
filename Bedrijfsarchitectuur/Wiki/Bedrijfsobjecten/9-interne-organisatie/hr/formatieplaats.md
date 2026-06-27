@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 bo_definitie: "Vastgestelde eenheid in het formatieplan, uitgedrukt in fte, gekoppeld aan een functie en organisatorische eenheid."
 bo_relaties:
   - type: associatie
-    bedrijfsobject: "[[Functie]]"
+    bedrijfsobject: "[[Arbeidsfunctie]]"
     richting: van-dit-BO
     kardinaliteit: "1..*"
     beschrijving: "Functie van formatieplaats"
@@ -73,7 +73,7 @@ Een formatieplaats is een goedgekeurde positie in het formatieplan van de gemeen
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
-| Formatieplaats heeft [[Functie]] | van dit BO | 1..* | GGM |
+| Formatieplaats heeft [[Arbeidsfunctie]] | van dit BO | 1..* | GGM |
 | Formatieplaats toegewezen aan [[Dienstverband]] | van dit BO | 0..* | GGM |
 
 ## Bronnen

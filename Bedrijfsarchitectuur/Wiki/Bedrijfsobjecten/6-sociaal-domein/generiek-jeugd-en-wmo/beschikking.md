@@ -27,6 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+ggm_duplicaat_entiteiten:
+  - "EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2"
+
 bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
 bo_relaties:
   - type: associatie

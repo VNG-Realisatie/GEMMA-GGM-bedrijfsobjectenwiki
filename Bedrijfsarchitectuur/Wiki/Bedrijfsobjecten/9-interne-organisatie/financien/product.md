@@ -24,6 +24,11 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-d7ab242e-b050-4af7-a400-d87ce1eceb43"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Product (Financien)"
+
+ggm_duplicaat_entiteiten:
+  - "EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A"
+  - "EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F"
+
 bo_definitie: "Resultaat van een gemeentelijk proces dat als dienst of levering een waarde vertegenwoordigt."
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]

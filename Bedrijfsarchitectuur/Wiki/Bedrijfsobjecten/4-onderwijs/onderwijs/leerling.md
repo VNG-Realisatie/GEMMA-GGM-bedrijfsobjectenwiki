@@ -35,7 +35,7 @@ bo_relaties:
     kardinaliteit: "1..*"
     beschrijving: Leerling is ingeschreven bij school
   - type: associatie
-    bedrijfsobject: "[[Inschrijving]]"
+    bedrijfsobject: "[[Opleidingsinschrijving]]"
     richting: van-dit-BO
     kardinaliteit: "1..*"
     beschrijving: Leerling heeft inschrijvingen
@@ -50,7 +50,7 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: Verzuimmelding betreft leerling
   - type: associatie
-    bedrijfsobject: "[[Vrijstelling]]"
+    bedrijfsobject: "[[Leerplichtvrijstelling]]"
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: Vrijstelling betreft leerling
@@ -95,10 +95,10 @@ Een leerling is een kind of jongere dat onderwijs volgt aan een school in de gem
 | Gerelateerd BO | Type | Richting | Kardinaliteit | Beschrijving |
 |---|---|---|---|---|
 | [[School]] | associatie | van-dit-BO | 1..* | Leerling is ingeschreven bij school |
-| [[Inschrijving]] | associatie | van-dit-BO | 1..* | Leerling heeft inschrijvingen |
+| [[Opleidingsinschrijving]] | associatie | van-dit-BO | 1..* | Leerling heeft inschrijvingen |
 | [[Uitschrijving]] | associatie | van-dit-BO | 0..* | Leerling heeft uitschrijvingen |
 | [[Verzuimmelding]] | associatie | van-dit-BO | 0..* | Verzuimmelding betreft leerling |
-| [[Vrijstelling]] | associatie | van-dit-BO | 0..* | Vrijstelling betreft leerling |
+| [[Leerplichtvrijstelling]] | associatie | van-dit-BO | 0..* | Vrijstelling betreft leerling |
 | [[Procesverbaal Onderwijs]] | associatie | van-dit-BO | 0..* | Procesverbaal betreft leerling |
 | [[Ouder Of Verzorger]] | associatie | naar-dit-BO | 1..* | Ouder of verzorger is verantwoordelijk voor leerling |
 | [[Aanvraag Leerlingenvervoer]] | associatie | van-dit-BO | 0..* | Aanvraag leerlingenvervoer betreft leerling |

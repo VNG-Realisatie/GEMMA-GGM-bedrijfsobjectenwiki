@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 bo_definitie: "Een arbeidsplaats die nog gevuld dient te worden, intern of extern opengesteld."
 bo_relaties:
   - type: associatie
-    bedrijfsobject: "[[Functie]]"
+    bedrijfsobject: "[[Arbeidsfunctie]]"
     richting: van-dit-BO
     kardinaliteit: "1"
     beschrijving: "Vacature bij functie"
@@ -73,7 +73,7 @@ Een vacature is een openstaande arbeidsplaats gekoppeld aan een functie. Vacatur
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
-| Vacature bij [[Functie]] | van dit BO | 1 | GGM |
+| Vacature bij [[Arbeidsfunctie]] | van dit BO | 1 | GGM |
 | [[Sollicitatie]] op vacature | naar dit BO | 0..* | GGM |
 
 ## Bronnen

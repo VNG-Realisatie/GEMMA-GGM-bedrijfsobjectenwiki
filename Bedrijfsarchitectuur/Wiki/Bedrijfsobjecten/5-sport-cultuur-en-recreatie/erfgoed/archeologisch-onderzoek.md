@@ -26,6 +26,11 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: Project (Organisatie)
+
+ggm_duplicaat_entiteiten:
+  - "EAID_E42A32F7_262F_4005_9EB9_4674B76E8825"
+  - "EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D"
+
 bo_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
 bedrijfsprocessen:
 - Archeologisch onderzoek

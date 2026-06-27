@@ -32,7 +32,7 @@ ggm_duplicaat_entiteiten: []
 bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
 bo_relaties:
   - type: associatie
-    bedrijfsobject: "[[Put]]"
+    bedrijfsobject: "[[Rioolput]]"
     richting: bidirectioneel
     kardinaliteit: "1..*"
     beschrijving: "Rioolleiding sluit aan op putten voor inspectie en onderhoud"
@@ -100,7 +100,7 @@ Herkende specialisaties van Rioolleiding. Geen apart BO.
 
 | Gerelateerd BO | Relatie | Richting | Toelichting |
 |---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | sluit aan op | bidirectioneel | Verticale constructie voor inspectie en onderhoud |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | sluit aan op | bidirectioneel | Verticale constructie voor inspectie en onderhoud |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | wordt bemalen door | naar-dit-BO | Gemaal pompt water uit leiding |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk\|Kolk]] | ontvangt water van | naar-dit-BO | Hemelwater via straatkolk |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | behoort tot | naar-dit-BO | Administratief beheersgebied |

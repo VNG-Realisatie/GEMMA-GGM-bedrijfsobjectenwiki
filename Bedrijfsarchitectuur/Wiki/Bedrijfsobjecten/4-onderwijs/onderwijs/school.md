@@ -66,7 +66,7 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: Leerling is ingeschreven bij school
   - type: associatie
-    bedrijfsobject: "[[Inschrijving]]"
+    bedrijfsobject: "[[Opleidingsinschrijving]]"
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: School heeft inschrijvingen
@@ -76,7 +76,7 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: School meldt verzuim
   - type: associatie
-    bedrijfsobject: "[[Vrijstelling]]"
+    bedrijfsobject: "[[Leerplichtvrijstelling]]"
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: Vrijstelling betreft school
@@ -117,9 +117,9 @@ Een school is een instelling voor funderend onderwijs. De gemeente is verantwoor
 | Gerelateerd BO | Type | Richting | Kardinaliteit | Beschrijving |
 |---|---|---|---|---|
 | [[Leerling]] | associatie | naar-dit-BO | 0..* | Leerling is ingeschreven bij school |
-| [[Inschrijving]] | associatie | van-dit-BO | 0..* | School heeft inschrijvingen |
+| [[Opleidingsinschrijving]] | associatie | van-dit-BO | 0..* | School heeft inschrijvingen |
 | [[Verzuimmelding]] | associatie | van-dit-BO | 0..* | School meldt verzuim |
-| [[Vrijstelling]] | associatie | van-dit-BO | 0..* | Vrijstelling betreft school |
+| [[Leerplichtvrijstelling]] | associatie | van-dit-BO | 0..* | Vrijstelling betreft school |
 | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] | associatie | van-dit-BO | 0..* | School gebruikt gymzaal voor bewegingsonderwijs |
 
 ## Bedrijfsprocessen

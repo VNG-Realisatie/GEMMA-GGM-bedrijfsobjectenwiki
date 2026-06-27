@@ -42,7 +42,7 @@ bo_relaties:
     kardinaliteit: "0..1"
     beschrijving: "betreft"
   - type: associatie
-    bedrijfsobject: "[[Inschrijving]]"
+    bedrijfsobject: "[[Aanbieding]]"
     richting: naar-dit-BO
     kardinaliteit: "0..1"
     beschrijving: "betreft"
@@ -81,7 +81,7 @@ Gunning geschiedt standaard op basis van beste prijs-kwaliteitverhouding (BPKV),
 |---|---|---|---|---|
 | [[Aanbesteding\|Aanbesteding]] | voortgekomen uit | ← | 0..1 | GGM |
 | [[Offerte\|Offerte]] | betreft | ← | 0..1 | GGM |
-| [[Inschrijving\|Inschrijving]] | betreft | ← | 0..1 | GGM |
+| [[Aanbieding\|Aanbieding]] | betreft | ← | 0..1 | GGM |
 
 ## Bedrijfsprocessen
 

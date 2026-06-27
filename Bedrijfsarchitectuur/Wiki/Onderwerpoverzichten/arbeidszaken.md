@@ -20,7 +20,7 @@ De gemeente als werkgever — personeelsadministratie, dienstverbanden, werving 
 |---|---|---|---|---|---|---|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]]|object|Rechtsbetrekking werkgever-werknemer; subtypes: bepaalde/onbepaalde tijd, project, oproep| ✅ | ja |6/6 — kern personeelsadministratie|exact: Dienstverband|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]]|object|Contractuele wederpartij van de werkgever| ✅ | ja |6/6 — centraal object, hub naar alle HR-objecten|exact: Werknemer|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/functie\|Functie]]|object|Samenstel van taken en werkzaamheden (HR21)| ✅ | ja |6/6 — structureel element functiehuis|exact: Functie (HR)|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]]|object|Samenstel van taken en werkzaamheden (HR21)| ✅ | ja |6/6 — structureel element functiehuis|exact: Functie (HR)|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats\|Formatieplaats]]|object|Vastgestelde formatie in fte per organisatie-eenheid| ✅ | ja |6/6 — basis formatieplan|exact: Formatieplaats|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature\|Vacature]]|object|Te vullen arbeidsplaats, intern of extern opengesteld| ✅ | ja |6/6 — startpunt wervingsproces|exact: Vacature|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]]|object|Verzoek om in een functie te worden aangesteld| ✅ | ja |6/6 — kern wervingsproces|exact: Sollicitatie|

@@ -1,6 +1,6 @@
 ---
 type: bedrijfsobject
-naam: Functie
+naam: Arbeidsfunctie
 domein: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -26,6 +26,14 @@ ggm_gemma_type:
 ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
+
+ggm_duplicaat_entiteiten: []
+
+bo_homoniemen:
+  - ggm_entiteit: "Functie"
+    ggm_guid: "EAID_3BDD29C7_FBCD_4c90_A520_8187E2D9BD57"
+    ggm_beleidsdomein: "Omgevingswet"
+    toelichting: "Ruimtelijke gebiedsfunctie (centrumgebied, bedrijventerrein) — ander concept dan arbeidsfunctie"
 
 bo_definitie: "Het samenstel van feitelijk opgedragen taken en werkzaamheden, gewaardeerd via het functiehuis (HR21)."
 bo_relaties:
@@ -63,7 +71,11 @@ Score: **6/6**
 
 ## Beschrijving
 
-Een functie beschrijft het samenstel van taken en werkzaamheden op een bepaald schaalniveau. Elke functie is gebaseerd op een NormProfiel uit het HR21-functiewaarderingssysteem. Een functie bestaat onafhankelijk van of er iemand op werkt — het is de structurele positie in het functiehuis.
+Een arbeidsfunctie beschrijft het samenstel van taken en werkzaamheden op een bepaald schaalniveau. Elke arbeidsfunctie is gebaseerd op een NormProfiel uit het HR21-functiewaarderingssysteem. Een arbeidsfunctie bestaat onafhankelijk van of er iemand op werkt — het is de structurele positie in het functiehuis.
+
+## Naamkeuze
+
+De GGM-entiteit heet "Functie". Hernoemd naar "Arbeidsfunctie" ter disambiguatie van de GGM-homoniem "Functie" in beleidsdomein Omgevingswet (ruimtelijke gebiedsfunctie). Overwogen alternatieven: Functie (ongewijzigd).
 
 ## GGM-bron
 
@@ -74,15 +86,13 @@ Een functie beschrijft het samenstel van taken en werkzaamheden op een bepaald s
 - **Attributen:** Naam, Omschrijving, Taken, Schaal, Code
 - **Matchsterkte:** exact
 
-NB: Het GGM heeft ook een entiteit "Functie" in beleidsdomein Omgevingswet (taakveld 8) met een andere betekenis (ruimtelijke functie). Dit BO betreft de HR-variant.
-
 ## Relaties
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
-| [[Dienstverband]] conform functie | naar dit BO | 0..* | GGM |
-| [[Formatieplaats]] heeft functie | naar dit BO | 1..* | GGM |
-| [[Vacature]] bij functie | naar dit BO | 0..* | GGM |
+| [[Dienstverband]] conform arbeidsfunctie | naar dit BO | 0..* | GGM |
+| [[Formatieplaats]] heeft arbeidsfunctie | naar dit BO | 1..* | GGM |
+| [[Vacature]] bij arbeidsfunctie | naar dit BO | 0..* | GGM |
 
 ## Bronnen
 

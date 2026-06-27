@@ -56,7 +56,7 @@ bo_relaties:
     kardinaliteit: "1..*"
     beschrijving: "Werknemer heeft een of meer dienstverbanden"
   - type: associatie
-    bedrijfsobject: "[[Functie]]"
+    bedrijfsobject: "[[Arbeidsfunctie]]"
     richting: van-dit-BO
     kardinaliteit: "1"
     beschrijving: "Dienstverband conform functie"
@@ -113,7 +113,7 @@ De subtypes komen uit de [[Wiki/Bronsamenvattingen/Arbeidszaken/handreiking-flex
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
 | [[Werknemer]] heeft dienstverband | naar dit BO | 1..* | GGM |
-| Dienstverband conform [[Functie]] | van dit BO | 1 | GGM |
+| Dienstverband conform [[Arbeidsfunctie]] | van dit BO | 1 | GGM |
 | [[Formatieplaats]] toegewezen aan dienstverband | naar dit BO | 0..* | GGM |
 
 

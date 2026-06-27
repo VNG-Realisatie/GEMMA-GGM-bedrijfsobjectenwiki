@@ -27,6 +27,10 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+
+ggm_duplicaat_entiteiten:
+  - "EAID_84DED9A9_2D33_4a77_94F2_29657024590F"
+
 bo_definitie: Locatie met archeologische waarde waar sporen of resten uit het verleden zijn aangetroffen of verwacht worden.
 bedrijfsprocessen:
 - Archeologisch advies

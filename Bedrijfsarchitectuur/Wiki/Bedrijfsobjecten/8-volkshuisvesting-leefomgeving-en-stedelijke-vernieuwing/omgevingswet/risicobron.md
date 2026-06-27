@@ -24,6 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8deec5da-a06a-4159-9b20-e9f9ff24674e"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
+
+ggm_duplicaat_entiteiten:
+  - "EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92"
+
 bo_definitie: "Bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd en die daardoor een gevaar kan vormen voor de omgeving."
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""

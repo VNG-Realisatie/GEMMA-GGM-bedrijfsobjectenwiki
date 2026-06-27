@@ -27,6 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+ggm_duplicaat_entiteiten:
+  - "EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC"
+
 bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
 bo_subtypes:
   - naam: Maatwerkvoorziening Wmo

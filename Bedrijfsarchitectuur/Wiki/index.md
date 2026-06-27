@@ -73,7 +73,7 @@
 ### Arbeidszaken / HR (GGM beleidsdomein HR, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband|dienstverband]] — Rechtsbetrekking werkgever-werknemer; subtypes: bepaalde/onbepaalde tijd, project, oproep
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer|werknemer]] — Contractuele wederpartij van de werkgever
-- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/functie|functie]] — Samenstel van taken en werkzaamheden (HR21)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie|arbeidsfunctie]] — Samenstel van taken en werkzaamheden (HR21)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats|formatieplaats]] — Vastgestelde formatie in fte per organisatie-eenheid
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature|vacature]] — Te vullen arbeidsplaats, intern of extern opengesteld
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie|sollicitatie]] — Verzoek om in een functie te worden aangesteld
@@ -111,7 +111,7 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier|leverancier]] — Niet-natuurlijk persoon die goederen, diensten of werken levert aan de gemeente
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning|gunning]] — Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte|offerte]] — Aanbod van een leverancier met prijsopgave voor levering aan de gemeente
-- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inschrijving|inschrijving]] — Formele deelname van een ondernemer aan een nationale of Europese aanbesteding
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding|aanbieding]] — Formele deelname van een ondernemer aan een nationale of Europese aanbesteding
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket|inkooppakket]] — Categorisering waarmee de gemeente inkopen structureert in samenhangende groepen
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/marktconsultatie|marktconsultatie]] — Voorbereidend onderzoek naar marktmogelijkheden, voorafgaand aan aanbesteding (procesobject, GGM-hiaat)
 
@@ -193,7 +193,7 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|bergingsbassin]] — Gesloten reservoir achter overstort voor tijdelijke opvang (18 stuks, GGM exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|waterobject]] — Functioneel stuk oppervlaktewater: watergangen, vaarwater, vijvers (246 km, GGM exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|rioleringsgebied]] — Administratief beheersgebied van het rioolstelsel (GGM exact, subtype Bemalingsgebied)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|put]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput|rioolput]] — Verticale constructie voor inspectie en onderhoud riolering (GGM exact, subtypes Drainageput/Filterput/Infiltratieput)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
@@ -363,12 +363,12 @@
 ### Onderwijs (GGM taakveld 4)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/school|school]] — Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting (GGM exact, subtypes: PO, VO, SO, buurtschool, kindcentrum)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling|leerling]] — Kind of jongere dat onderwijs volgt aan een school in de gemeente (GGM exact)
-- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/inschrijving|inschrijving]] — Deelname van iemand aan een opleiding bij een onderwijsinstelling (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|opleidingsinschrijving]] — Deelname van iemand aan een opleiding bij een onderwijsinstelling (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/uitschrijving|uitschrijving]] — Beëindiging van een inschrijving van een leerling bij een school (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/ouder-of-verzorger|ouder-of-verzorger]] — Persoon wettelijk verantwoordelijk voor zorg en opvoeding van een kind (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|kinderopvangvoorziening]] — Locatie waar kinderopvang wordt geboden, geregistreerd in LRK (GGM-hiaat, subtypes: KDV, BSO, gastouderopvang)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding|verzuimmelding]] — Melding van school aan gemeente dat leerling niet verschijnt (GGM exact)
-- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|vrijstelling]] — Besluit tot ontheffing van leerplicht (GGM exact)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling|leerplichtvrijstelling]] — Besluit tot ontheffing van leerplicht (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs|procesverbaal-onderwijs]] — Officieel document bij overtreding leerplichtwet (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/aanvraag-leerlingenvervoer|aanvraag-leerlingenvervoer]] — Verzoek van ouders om vervoersvoorziening (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer|beschikking-leerlingenvervoer]] — Gemeentelijk besluit over toekenning leerlingenvervoer (GGM exact)

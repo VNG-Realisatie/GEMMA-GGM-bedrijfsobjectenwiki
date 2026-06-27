@@ -1,6 +1,6 @@
 ---
 type: bedrijfsobject
-naam: Vrijstelling
+naam: Leerplichtvrijstelling
 domein: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -26,6 +26,14 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
+
+ggm_duplicaat_entiteiten: []
+
+bo_homoniemen:
+  - ggm_entiteit: "Vrijstelling"
+    ggm_guid: "EAID_C31D4A7E_1F25_4b85_B49C_AEC45EB3DB54"
+    ggm_beleidsdomein: "Inburgering"
+    toelichting: "Vrijstelling van de inburgeringsplicht — ander concept dan leerplichtvrijstelling"
 
 bo_definitie: "Besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht."
 bo_relaties:
@@ -58,7 +66,11 @@ bedrijfsfuncties: [Leerplicht]
 
 ## Beschrijving
 
-Een vrijstelling is een formeel besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht. De Leerplichtwet kent verschillende gronden voor vrijstelling, zoals lichamelijke of psychische ongeschiktheid, het volgen van onderwijs in het buitenland, of bezwaren tegen de richting van het beschikbare onderwijs. De gemeente registreert en beoordeelt de vrijstellingen als onderdeel van de leerplichthandhaving.
+Een leerplichtvrijstelling is een formeel besluit waarbij een leerling geheel of gedeeltelijk wordt ontheven van de leerplicht. De Leerplichtwet kent verschillende gronden voor vrijstelling, zoals lichamelijke of psychische ongeschiktheid, het volgen van onderwijs in het buitenland, of bezwaren tegen de richting van het beschikbare onderwijs. De gemeente registreert en beoordeelt de leerplichtvrijstellingen als onderdeel van de leerplichthandhaving.
+
+## Naamkeuze
+
+De GGM-entiteit heet "Vrijstelling". Hernoemd naar "Leerplichtvrijstelling" ter disambiguatie van de GGM-homoniem "Vrijstelling" in beleidsdomein Inburgering (vrijstelling van de inburgeringsplicht). Overwogen alternatieven: Vrijstelling (ongewijzigd).
 
 ## GGM-bron
 

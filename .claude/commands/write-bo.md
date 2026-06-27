@@ -69,10 +69,10 @@ Bij homoniem-detectie (stap 4b): de BO-naam moet disambigueren. Stel **2-3 namen
 - Functionele naam: bijv. "Aanbestedings-inschrijving" (gericht op wat het concept doet)
 
 **Regels:**
-- Gebruik **niet** de GEMMA `ggm_gemma_alternate_name` conventie (bijv. "Inschrijving (Onderwijs)") als BO-naam — haakjes in bestandsnamen zijn ongewenst. Wel opnemen in `bo_synoniemen` als referentie.
+- Gebruik **niet** de GEMMA `ggm_gemma_alternate_name` conventie (bijv. "Inschrijving (Onderwijs)") als BO-naam — haakjes in bestandsnamen zijn ongewenst.
 - De GGM-entiteitnaam wordt `ggm_entiteit`; de gekozen naam wordt `naam` en `ggm_gemma_naam`.
 - Documenteer de naamkeuze in de body-sectie `## Naamkeuze` (zie template).
-- Voeg de niet-gekozen namen en de originele GGM-naam toe aan `bo_synoniemen`.
+- Voeg de originele GGM-naam **niet** toe aan `bo_synoniemen` — bij een homoniem is de oude naam juist het probleem, geen synoniem. Het homoniem wordt gedocumenteerd in `bo_homoniemen` (zie stap 4b).
 
 ## Stap 5: GGM-velden ophalen
 

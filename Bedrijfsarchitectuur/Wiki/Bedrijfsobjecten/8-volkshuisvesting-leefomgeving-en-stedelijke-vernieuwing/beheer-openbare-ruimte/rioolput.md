@@ -1,6 +1,6 @@
 ---
 type: bedrijfsobject
-naam: Put
+naam: Rioolput
 domein: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
@@ -24,6 +24,15 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+
+ggm_duplicaat_entiteiten: []
+
+bo_homoniemen:
+  - ggm_entiteit: "Put"
+    ggm_guid: "EAID_17286CE1_21F2_454b_95A6_3E4C0C6E2453"
+    ggm_beleidsdomein: "Archeologie"
+    toelichting: "Archeologische put (waterput of afvalput als grondspoor) — ander concept dan rioolput"
+
 bo_definitie: "Verticale constructie in het rioleringssysteem voor aansluiting, inspectie en onderhoud van leidingen."
 bo_subtypes:
   - naam: "Drainageput"
@@ -77,9 +86,13 @@ Score: 6/6.
 
 ## Beschrijving
 
-Een put is een verticale constructie in het rioleringssysteem. Putten vormen de toegangspunten tot het ondergrondse rioolstelsel. Ze worden gebruikt voor het aansluiten van leidingen, het veranderen van richting of niveau, en voor inspectie, reiniging en onderhoud van de riolering. Daarnaast zorgen putten voor beluchting en ventilatie van het stelsel.
+Een rioolput is een verticale constructie in het rioleringssysteem. Rioolputten vormen de toegangspunten tot het ondergrondse rioolstelsel. Ze worden gebruikt voor het aansluiten van leidingen, het veranderen van richting of niveau, en voor inspectie, reiniging en onderhoud van de riolering. Daarnaast zorgen rioolputten voor beluchting en ventilatie van het stelsel.
 
-Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van putten is een belangrijk criterium bij de beoordeling van het rioolstelsel.
+Bij rioolvervanging worden ook rioolputten vervangen of gerenoveerd. De staat van rioolputten is een belangrijk criterium bij de beoordeling van het rioolstelsel.
+
+## Naamkeuze
+
+De GGM-entiteit heet "Put". Hernoemd naar "Rioolput" ter disambiguatie van de GGM-homoniem "Put" in beleidsdomein Archeologie (waterput of afvalput als grondspoor). Overwogen alternatieven: Put (ongewijzigd).
 
 ## Specialisaties
 

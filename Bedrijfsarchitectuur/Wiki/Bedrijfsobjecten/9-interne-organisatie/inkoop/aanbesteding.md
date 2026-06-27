@@ -42,7 +42,7 @@ bo_relaties:
     kardinaliteit: "0..*"
     beschrijving: "ontvangt offertes"
   - type: associatie
-    bedrijfsobject: "[[Inschrijving]]"
+    bedrijfsobject: "[[Aanbieding]]"
     richting: naar-dit-BO
     kardinaliteit: "0..*"
     beschrijving: "ontvangt inschrijvingen"
@@ -116,7 +116,7 @@ GGM-entiteiten die onderdeel zijn van Aanbesteding. Gemodelleerd als aparte enti
 |---|---|---|---|---|
 | [[Gunning\|Gunning]] | mondt uit in | → | 0..1 | GGM |
 | [[Offerte\|Offerte]] | ontvangt | ← | 0..* | GGM |
-| [[Inschrijving\|Inschrijving]] | ontvangt | ← | 0..* | GGM |
+| [[Aanbieding\|Aanbieding]] | ontvangt | ← | 0..* | GGM |
 | [[Inkooppakket\|Inkooppakket]] | valt onder | ← | 0..1 | GGM |
 | [[Marktconsultatie\|Marktconsultatie]] | voorafgegaan door | ← | 0..1 | bronnen |
 | [[Contract\|Contract]] | leidt tot | → | 0..1 | bronnen |
