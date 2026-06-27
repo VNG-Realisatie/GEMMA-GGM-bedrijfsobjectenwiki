@@ -1,5 +1,35 @@
 # Wiki Log
 
+## [2026-06-27] ingest | Basisregistraties — BRO verwerkt
+
+- **Bronnen:** 2 bronnen verwerkt:
+  - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet BRO]] (Rijksoverheid, BWBR0037095) — volledige wettekst
+  - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus GLD]] (Geonovum) — grondwaterstandonderzoek
+- **3 nieuwe BO's (alle GGM-hiaat):**
+  - [[Wiki/Bedrijfsobjecten/99-kern/bro/verkenning|Verkenning]] — waarneming opbouw ondergrond (art. 19)
+  - [[Wiki/Bedrijfsobjecten/99-kern/bro/constructie|Constructie]] — werk in de ondergrond (art. 21)
+  - [[Wiki/Bedrijfsobjecten/99-kern/bro/gebruiksrecht|Gebruiksrecht]] — besluit/melding winnen/opslaan/bodemkwaliteit (art. 20)
+- **13 nieuwe begrippen:** 4 BRO-subtypes (GMW, GMN, GLD, GAR), authentiek model, 6 stelselrollen (bronhouder, afnemer, terugmelder, dataleverancier, registratiehouder, beheerder LV), normwaarde, regeltekst
+- **Stelselrollen** als cross-cutting actoren toegevoegd aan begrippentabel Basisregistraties (bronhouder, afnemer, terugmelder, dataleverancier, registratiehouder, beheerder)
+
+## [2026-06-27] ingest | Omgevingswet — IMOW, Bbl, Wkb, Bal verwerkt
+
+- **Bronnen:** 5 nieuwe bronnen opgehaald, 4 verwerkt als bronsamenvatting, 1 naar Niet-relevant:
+  - [[Wiki/Bronsamenvattingen/Omgevingswet/imow-informatiemodel-omgevingswet|IMOW v3.0.1]] (Geonovum) — informatiemodel DSO objecttypen
+  - [[Wiki/Bronsamenvattingen/Omgevingswet/besluit-bouwwerken-leefomgeving|Bbl]] (Rijksoverheid) — technische bouwvoorschriften, Wkb, meldingen
+  - [[Wiki/Bronsamenvattingen/Omgevingswet/wkb-iplo-toelichting|Wkb IPLO]] (IPLO + 3 subpagina's) — kwaliteitsborging, gevolgklassen
+  - [[Wiki/Bronsamenvattingen/Omgevingswet/besluit-activiteiten-leefomgeving|Bal]] (Rijksoverheid) — structuur rijksregels
+  - Beleidsplan Omgevingsrecht Bernheze → Niet-relevant (bevestigt VTH Delft)
+- **6 nieuwe BO's (alle exact GGM-match):**
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]] — gereguleerd handelen/nalaten in de fysieke leefomgeving
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Gebiedsaanwijzing]] — aanwijzing gebied met type/naam/locatie
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm|Omgevingsnorm]] — norm met waarden per locatie
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingswaarde|Omgevingswaarde]] — beleidsdoel fysieke leefomgeving
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel|Juridische Regel]] — regel met juridische werkingskracht
+  - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel|Toepasbare Regel]] — vragenbomen voor DSO/Omgevingsloket
+- **15 nieuwe begrippen** in onderwerpoverzicht (meldingen, energielabel, gevolgklasse, borgingsplan, etc.)
+- **Signaleringen:** Activiteit is homoniem met Activiteit (Musea) in GGM. GGM Omgevingswet-domein nu 17 van 31 entiteiten beoordeeld.
+
 ## [2026-06-27] ingest | Dienstverlening — ZTC2 begeleidend document verwerkt
 
 - **Bron:** [[Sources/Onderwerpen/Dienstverlening/ztc2-begeleidend-document|ZTC2 Begeleidend document v2.1]] (KING, 2014) — gedownload en geconverteerd via convert_pdf

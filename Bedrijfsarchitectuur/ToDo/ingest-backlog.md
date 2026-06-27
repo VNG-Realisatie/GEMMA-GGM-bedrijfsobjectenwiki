@@ -189,8 +189,13 @@ Status: 148 bronnen in 24 batches.
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] factsheet-omgevingsvisie-vng (VNG, PDF, factsheet verplichtingen en procedure omgevingsvisie)
 - [x] factsheet-omgevingsplan-register (VNG, PDF april 2026, registers bij omgevingsplan) → 1 BO: Register (omgevingsplan)
+- [x] beleidsplan-omgevingsrecht-bernheze-2024 (Gemeente Bernheze, lokaleregelgeving.overheid.nl, VTH-beleidsplan omgevingsrecht 2024-2027) → Niet-relevant (bevestigt VTH Delft)
+- [x] besluit-activiteiten-leefomgeving (Rijksoverheid, wetten.overheid.nl, Bal — AMvB rijksregels activiteiten fysieke leefomgeving) → context-samenvatting, geen nieuwe BO's
+- [x] wkb-iplo-toelichting (IPLO, iplo.nl, toelichting Wkb-stelsel incl. 3 subpagina's) → bronsamenvatting, verdieping bestaande begrippen
+- [x] imow-informatiemodel-omgevingswet (Geonovum, IMOW v3.0.1 dec 2023) → 6 BO's: Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel
+- [x] besluit-bouwwerken-leefomgeving (Rijksoverheid, wetten.overheid.nl, Bbl) → bronsamenvatting, subtypes meldingen bevestigd
 
-> **Afgehandeld:** 9 VNG-portaalpagina's naar Niet-relevant (te dun). 1 rijke bron verwerkt (VTH Delft), 1 factsheet (omgevingsvisie). 2 bronsamenvattingen, 19 begrippen, 4 BO's (VTH-zaak, Inspectie, Bevinding, Handhavingsbesluit). Planketen (omgevingsvisie/programma/omgevingsplan) als instrumenten genoteerd. GGM Omgevingswet-domein (31 entiteiten) grotendeels onbeoordeeld — rijkere bronnen nodig.
+> **Afgehandeld:** 9 VNG-portaalpagina's + 1 beleidsplan naar Niet-relevant. 7 bronsamenvattingen, 37 begrippen, 11 BO's. Eerste ronde: 5 BO's (VTH-zaak, Inspectie, Bevinding, Handhavingsbesluit, Register). Tweede ronde: 6 BO's (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel — alle exact GGM-match IMOW/CIMOW). GGM Omgevingswet-domein (31 entiteiten): 17 beoordeeld, 14 resterend (actoren, classificaties, verzoek-gerelateerd).
 
 ## Onderwijs (1)
 - [ ] soorten-kinderopvang
@@ -296,6 +301,12 @@ Status: 148 bronnen in 24 batches.
 
 basisregistratie BGT
 - [ ] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/
+
+## ~~Basisregistraties — BRO (Basisregistratie Ondergrond) (2)~~ ✓
+- [x] wet-bro-bwbr0037095 (Rijksoverheid, Wet BRO per 2026-06-04) → 3 BO's: Verkenning, Constructie, Gebruiksrecht (alle GGM-hiaat) + 6 stelselrollen
+- [x] catalogus-bro-gld (Geonovum, BRO Catalogus GLD v2023) → specialisaties GMW/GMN/GLD/GAR, bevestigt wettelijke objecttypen
+
+> **Afgehandeld:** 2 bronnen verwerkt. 3 nieuwe BO's op wettelijk niveau (Verkenning, Constructie, Gebruiksrecht — alle GGM-hiaat). 4 concrete BRO-registratieobjecten als subtypes (GMW, GMN, GLD, GAR). 6 stelselrollen als cross-cutting actoren in begrippentabel Basisregistraties (bronhouder, afnemer, terugmelder, dataleverancier, registratiehouder, beheerder LV).
 
 ## ~~Werk en Inkomen (7 + 5 + 1 aanvullend)~~ ✓
 - [x] arbeidsmarktbeleid → Niet-relevant

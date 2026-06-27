@@ -7,7 +7,7 @@
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid (afgerond, 10 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
-- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK en NHR: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging (in behandeling, 23 BO's)
+- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR en BRO: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht (in behandeling, 26 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (13 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -28,7 +28,7 @@
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
-- [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + planketen + registers bij omgevingsplan (in behandeling, 5 BO's, 22 begrippen)
+- [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (in behandeling, 11 BO's, 37 begrippen)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
@@ -122,6 +122,11 @@
 - [[Wiki/Bedrijfsobjecten/99-kern/heffing|heffing]] — Individuele vaststelling belastingbedrag (belastingaanslag), 18 subtypes per belastingtype
 - [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|heffingsverordening]] — Juridische grondslag voor belastingheffing, subtypes per belastingtype
 - [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag|heffinggrondslag]] — Tariefregel in een heffingsverordening (GGM Heffinggrondslag, 1 VTH)
+
+### BRO — Basisregistratie Ondergrond (GGM-hiaat, procesobjecten)
+- [[Wiki/Bedrijfsobjecten/99-kern/bro/verkenning|verkenning]] — Waarneming opbouw ondergrond: bodemonderzoek, sondering, grondwaterstandonderzoek (Wet BRO art. 19)
+- [[Wiki/Bedrijfsobjecten/99-kern/bro/constructie|constructie]] — Werk in de ondergrond: grondwatermonitoringput, winningsput (Wet BRO art. 21)
+- [[Wiki/Bedrijfsobjecten/99-kern/bro/gebruiksrecht|gebruiksrecht]] — Besluit/melding over winnen, opslaan of bodemkwaliteit (Wet BRO art. 20)
 
 ### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
@@ -219,6 +224,14 @@
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenlocatie|evenementenlocatie]] — Aangewezen fysieke locatie waar evenementen mogen plaatsvinden (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenementenvergunning|evenementenvergunning]] — Toestemming om een evenement te organiseren op een specifieke locatie en datum (procesobject, GGM-hiaat)
+
+### Omgevingsplan-objecten (GGM taakveld 8 Omgevingswet, IMOW/CIMOW)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|activiteit]] — Gereguleerd menselijk handelen/nalaten in de fysieke leefomgeving (GGM Activiteit, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|gebiedsaanwijzing]] — Aanwijzing van gebied met type, naam en locatie in het omgevingsplan (GGM Gebiedsaanwijzing, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm|omgevingsnorm]] — Norm met kwantitatieve of kwalitatieve waarden per locatie (GGM Omgevingsnorm, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingswaarde|omgevingswaarde]] — Beleidsdoel voor gewenste staat/kwaliteit fysieke leefomgeving (GGM Omgevingswaarde, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel|juridische-regel]] — Regel met juridische werkingskracht in het omgevingsplan (GGM Juridische Regel, exact)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel|toepasbare-regel]] — Vertaling van juridische regels naar vragenbomen voor het Omgevingsloket (GGM Toepasbare Regel, exact)
 
 ### Gevaarlijke stoffen / Omgevingsveiligheid (GGM taakveld 8 Omgevingswet, partieel)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (GGM Activiteit, partieel)
@@ -519,6 +532,8 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]] — KvK: gegevenscatalogus Handelsregister, Handelsregisterwet 2007, Handelsregisterbesluit 2008
+- [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]] — Rijksoverheid: bronhouderschap, registratie verkenningen/gebruiksrechten/constructies/modellen, gebruiksplicht, terugmelding
+- [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus Grondwaterstandonderzoek (GLD)]] — Geonovum: registratieobject GLD, samenhang GMW/GMN/GAR, kwaliteitsregimes
 
 ### Asiel en Integratie
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen|Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid]] — Divosa: financieel ontzorgen statushouders, wettelijk kader, uitvoering, praktijkvoorbeelden
@@ -583,6 +598,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft|Uitvoeringsbeleid VTH Delft 2024-2028]] — Gemeente Delft: VTH-uitvoeringsbeleid, risicoanalyse, prioriteiten, sanctiestrategie (65 p.)
 - [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsvisie-vng|Factsheet Omgevingsvisie (VNG)]] — VNG: verplichtingen, procedure, planketen (visie/programma/plan), digitalisering
 - [[Wiki/Bronsamenvattingen/Omgevingswet/factsheet-omgevingsplan-register|Het omgevingsplan en een register (VNG)]] — VNG: registers bij omgevingsplan, juridisch kader, vijf opnamewijzen (april 2026)
+- [[Wiki/Bronsamenvattingen/Omgevingswet/imow-informatiemodel-omgevingswet|Informatiemodel Omgevingswet (IMOW) v3.0.1]] — Geonovum: objecttypen DSO — Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel
+- [[Wiki/Bronsamenvattingen/Omgevingswet/besluit-bouwwerken-leefomgeving|Besluit bouwwerken leefomgeving (Bbl)]] — Rijksoverheid: Wkb-stelsel, vergunningplichten, energielabel, sloop-/gebruiksmelding
+- [[Wiki/Bronsamenvattingen/Omgevingswet/wkb-iplo-toelichting|Wet kwaliteitsborging bouwen (Wkb)]] — IPLO: gevolgklassen, kwaliteitsborger, borgingsplan, privaatrecht
+- [[Wiki/Bronsamenvattingen/Omgevingswet/besluit-activiteiten-leefomgeving|Besluit activiteiten leefomgeving (Bal)]] — Rijksoverheid: structuur rijksregels milieubelastende activiteiten (19 hoofdstukken)
 
 ### Welstand
 - [[Wiki/Bronsamenvattingen/Welstand/welstandsnota-utrechtse-aanpak|Welstandsnota De schoonheid van Utrecht — De Utrechtse aanpak (Deel A)]] — Gemeente Utrecht: beleidskader welstand, typologieën, beleidsniveaus, criteria (deel A, 2015)
