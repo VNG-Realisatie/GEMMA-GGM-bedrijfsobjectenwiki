@@ -1,5 +1,14 @@
 # Wiki Log
 
+## [2026-06-27] ingest | Informatiesamenleving — 4 bronnen (2 verwerkt, 2 niet-relevant), 3 nieuwe BO's
+
+- **Bronnen:** Informatiebeleidsplan Nunspeet 2024-2028 (PDF), Beleid I en ICT BEL Combinatie 2020-2024 (PDF), Begroting Rotterdam IV 2026 (web → niet-relevant), Informatiebeveiligingsbeleid Heumen 2024-2028 (lokaleregelgeving → niet-relevant)
+- **Bronsamenvattingen:** [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Nunspeet]], [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|BEL Combinatie]]
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/informatiesamenleving|Informatiesamenleving]] — 36 begrippen, 10 BO's
+- **Nieuwe BO's:** 3 — Applicatie (GGM exact, ICT-domein taakveld 9), Verwerkersovereenkomst (governance-object, GGM-hiaat, relatie privacy-BO's), Dataproduct (procesobject, GGM-hiaat)
+- **GGM-terugmeldingen:** #82 Verwerkersovereenkomst hiaat, #83 Dataproduct hiaat
+- **GGM-dekking ICT:** Applicatie is eerste BO uit GGM ICT-domein (35 entiteiten); 7 entiteiten als GGM-component bij Applicatie
+
 ## [2026-06-26] ingest | Inkoop — 3 bronnen, 8 BO's
 
 - **Bronnen:** VNG Model Inkoop- en Aanbestedingsbeleid 2025 (PDF), Inkoop- en aanbestedingsbeleid OVER-gemeenten (PDF, bgr-2023-799), Inkoop- en aanbestedingsbeleid West-Betuwe 2024-2027 (lokaleregelgeving.overheid.nl)

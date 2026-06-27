@@ -129,8 +129,12 @@ Status: 144 bronnen in 24 batches.
 - [x] factsheet-datalekken-ibd (IBD: datalekken — definitie, meldplicht 72u, registratieplicht, risicoafweging)
 - [x] handleiding-publicatiestandaard-algoritmeregister (BZK: alle velden Publicatiestandaard Algoritmeregister — 4 secties, ~25 velden)
 - [x] rapportage-algoritmerisicos-nederland → Niet-relevant (AP: beleidsanalyse, geen BO-attributen)
-- [ ] handreiking-woo-gemeentelijke-praktijk
+- [x] handreiking-woo-gemeentelijke-praktijk
 - [x] bio2-baseline-informatiebeveiliging-overheid (BZK/CIP, PDF, BIO2 v1.3 definitief — normenkader informatiebeveiliging overheid op basis van ISO 27001/27002, 29 pagina's) → 0 BO's (governance-instrumenten, geen registratieobjecten)
+- [x] informatiebeleidsplan-nunspeet-2024-2028 (Gemeente Nunspeet, PDF, informatiebeleidsplan 2024-2028) → 3 BO's: Applicatie (GGM exact), Verwerkersovereenkomst (GGM-hiaat), Dataproduct (GGM-hiaat)
+- [x] begroting-rotterdam-informatievoorziening-2026 → Niet-relevant (te dun, geen nieuwe begrippen)
+- [x] informatiebeveiligingsbeleid-heumen-2024-2028 → Niet-relevant (bevestigt bestaande begrippen BIO/CISO/ENSIA)
+- [x] beleid-informatie-ict-bel-combinatie (BEL Combinatie, PDF, informatiebeleid 2020-2024) → bevestigt Applicatie als BO, complementair perspectief outsourcing
 
 ## ~~Maatschappelijke Ondersteuning (16)~~ ✓
 - [x] aanpak-dakloosheid

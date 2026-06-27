@@ -30,7 +30,7 @@
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 - [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + planketen + registers bij omgevingsplan (in behandeling, 5 BO's, 22 begrippen)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
-- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister (in behandeling, 7 BO's)
+- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
@@ -393,6 +393,11 @@
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit|verwerkingsactiviteit]] — Individuele verwerking persoonsgegevens met 7 verplichte attributen (art. 30 AVG, procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek|datalek]] — Inbreuk in verband met persoonsgegevens, meldplicht AP 72u, registratieplicht (art. 33-34 AVG, procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister|algoritmeregister]] — Vastlegging algoritme in Algoritmeregister, ~25 velden, driedeling hoog-risico/impactvol/overig (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkersovereenkomst|verwerkersovereenkomst]] — AVG-verplichte overeenkomst met externe verwerker persoonsgegevens, relaties met DPIA/Datalek/Applicatie (governance-object, GGM-hiaat)
+
+### ICT (taakveld 9 Interne Organisatie)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie|applicatie]] — Softwaretoepassing ter ondersteuning eindgebruikers, ~250 per gemeente (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/dataproduct|dataproduct]] — Dashboard, rapportage of analyse als resultaat van datagedreven werken (procesobject, GGM-hiaat)
 
 ## GGM (referentie — zie Sources/GGM/)
 
@@ -484,6 +489,8 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]] — IBD: definitie, meldplicht 72u, registratieplicht
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]] — BZK: alle velden Publicatiestandaard (~25 velden)
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP: normenkader informatiebeveiliging, ISMS, overheidsmaatregelen
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] — strategisch informatiebeleid, applicatielandschap, datagedreven werken
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband, outsourcing, applicatiebeheer
 
 ### Economie
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten

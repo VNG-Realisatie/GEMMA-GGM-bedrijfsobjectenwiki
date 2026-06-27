@@ -95,6 +95,8 @@ Bevindingen uit de BO-toetsing per domein. Elk item is een verschil tussen het G
 | 79 | Inkoop | Offerte | duplicaat | Zelfde entiteit bestaat met 3 GUIDs: EAID_BF21FFA3 (op Inkoop-diagram, primair), EAID_EF55544A en EAID_B259BE5F (beide niet op een diagram). Advies: samenvoegen. | open |
 | 80 | Inkoop / Onderwijs | Inschrijving | homoniem | "Inschrijving" in Inkoop (EAID_2902E8D6, "Inschrijving op een nationale of Europese aanbesteding") en Onderwijs (EAID_CFFD5F20, "Deelname van iemand aan een opleiding bij een onderwijsinstelling") zijn verschillende concepten met dezelfde naam. Hernoemadvies: "Inschrijving (aanbesteding)" vs. "Inschrijving (onderwijs)". | open |
 | 81 | Inkoop | Marktconsultatie | hiaat | Voorbereidend procesobject voor marktverkenning voorafgaand aan een aanbesteding. Eigen levenscyclus (voorbereiding → aankondiging → uitvoering → go/no-go). Wordt geregistreerd (TenderNed-aankondiging, verslag, deelnemerslijst). Ontbreekt als entiteit in GGM Inkoop. | open |
+| 82 | ICT / Dienstverlening | Verwerkersovereenkomst | hiaat | AVG-verplichte overeenkomst met externe verwerker van persoonsgegevens (art. 28 AVG). 8 verplichte bepalingen. Relaties met Verwerkingsactiviteit, DPIA, Datalek, Applicatie, Leverancier. GGM ICT-domein modelleert applicatiebeheer maar niet privacy-contractvormen. Past in ICT of nieuw beleidsdomein Privacy/AVG. | open |
+| 83 | ICT | Dataproduct | hiaat | Concreet resultaat van datagedreven werken (dashboard, rapportage, analyse). Eigen levenscyclus, eigenaar, databronnen. GGM ICT modelleert applicaties en gegevens maar niet de producten die uit data worden afgeleid. Past als sibling van Applicatie of in nieuw beleidsdomein Data/BI. | open |
 
 ## Typen
 

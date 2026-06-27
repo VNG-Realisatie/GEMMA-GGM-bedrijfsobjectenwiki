@@ -2,10 +2,10 @@
 type: onderwerp
 naam: informatiesamenleving
 status: in-behandeling
-verwerkingsdatum: 2026-06-26
-bronnen_count: 9
-begrippen_count: 33
-bo_count: 7
+verwerkingsdatum: 2026-06-27
+bronnen_count: 11
+begrippen_count: 36
+bo_count: 10
 ---
 
 # Informatiesamenleving
@@ -56,7 +56,7 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | functionaris gegevensbescherming | actor | Verplichte adviesrol bij DPIA en toezicht verwerkingsregister | ❌ | nee | Rol, geen object | — | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek\|Datalek]] | object | Inbreuk in verband met persoonsgegevens (art. 4 lid 12 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht, registratieplicht alle incidenten, meldplicht AP 72u, GGM-hiaat | E-mail verkeerd adres, USB-stick kwijt, laptopdieftal | nee |
 | beveiligingsincident | object | Inbreuk op beveiliging, breder dan datalek | ❌ | nee | Breder begrip, geen eigen gemeentelijke verplichting | Storing, DDoS-aanval | nee |
-| verwerkersovereenkomst | instrument | Schriftelijke afspraken met verwerker over o.a. datalekken | ❌ | nee | Instrument/contract | — | nee |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkersovereenkomst\|Verwerkersovereenkomst]] | instrument | Overeenkomst met externe verwerker van persoonsgegevens (art. 28 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht, 8 verplichte bepalingen, GGM-hiaat | VWO met SaaS-leverancier, VWO met salarisverwerker | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister\|Algoritmeregister]] | object | Vastlegging algoritme in Algoritmeregister conform Publicatiestandaard BZK (~25 velden) | ✅ | ja | 6/6 criteria, ~25 velden, eigen levenscyclus, GGM-hiaat | Parkeerscanauto, Wmo-matching, chatbot | nee |
 | publicatiecategorie | classificatie | Driedeling: hoog-risico AI (A), impactvol (B), overig (C) | ❌ | nee | Enumeratie/classificatie | — | nee |
 | ISMS | governance | Managementsysteem voor informatiebeveiliging (ISO 27001) | ❌ | nee | Werkwijze/methode, geen data-object | — | nee |
@@ -65,6 +65,8 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | informatiebeveiligingsbeleid | instrument | Door bestuur vastgesteld beleid voor informatiebeveiliging (BIO2 5.01.01) | ❌ | nee | Governance-document | — | nee |
 | In Control Verklaring (ICV) | instrument | Jaarlijkse verklaring over informatiebeveiliging in P&C-cyclus (BIO2 5.36.01) | ❌ | nee | Verantwoordingsinstrument | — | nee |
 | CISO | actor | Chief Information Security Officer, coördineert informatiebeveiliging | ❌ | nee | Rol, geen object | — | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | object | Softwaretoepassing die de gemeente inzet ter ondersteuning van eindgebruikers | ✅ | ja | 6/6 criteria, ~250 per gemeente, eigen levenscyclus, GGM exact (ICT-domein) | Zaaksysteem, BAG-applicatie, financieel pakket | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/dataproduct\|Dataproduct]] | object | Concreet resultaat van datagedreven werken: dashboard, rapportage, analyse | ✅ | ja | 6/6 criteria, eigen eigenaar en levenscyclus, GGM-hiaat | Armoede-dashboard, wijkmonitor, begrotingsrapportage | nee |
 
 ## Verwerkte bronnen
 
@@ -77,8 +79,10 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken — IBD]] — IBD (2024): definitie, meldplicht 72u, registratieplicht, risicoafweging
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/handleiding-publicatiestandaard-algoritmeregister|Handleiding Publicatiestandaard Algoritmeregister]] — BZK: alle velden Publicatiestandaard (~25 velden, 4 secties)
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP (2026): normenkader informatiebeveiliging, ISMS, overheidsmaatregelen, Cbw-verankering
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] — strategisch informatiebeleid kleine gemeente, applicatielandschap, datagedreven werken, verwerkersovereenkomst
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband Blaricum/Eemnes/Laren, outsourcing, applicatiebeheer
 
-Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht:
+Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht + 2 dunne beleidsdocumenten:
 
 - [ai-en-algoritmen.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/ai-en-algoritmen.md)
 - [archieven.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/archieven.md)
@@ -97,6 +101,8 @@ Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht:
 - [algoritmekader-ai-verordening-kort.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/algoritmekader-ai-verordening-kort.md)
 - [dpia-edpb-gids.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/dpia-edpb-gids.md)
 - [rapportage-algoritmerisicos-nederland.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/rapportage-algoritmerisicos-nederland.md)
+- [begroting-rotterdam-informatievoorziening-2026.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/begroting-rotterdam-informatievoorziening-2026.md)
+- [informatiebeveiligingsbeleid-heumen-2024-2028.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/informatiebeveiligingsbeleid-heumen-2024-2028.md)
 
 ## Ontbrekende bronnen — zoeksuggesties
 
