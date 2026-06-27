@@ -45,7 +45,8 @@ ggm_duplicaat_entiteiten: []
 #    afwijkende_attributen: {korte beschrijving van attribuutverschillen, leeg als identiek}
 
 # Wiki-velden — het uit bronnen afgeleide BO-model, beheerd door het GEMMA-team via deze wiki
-bo_definitie: {definitie op bedrijfsniveau, of "gelijk aan GGM" als er geen afwijking is}
+bo_definitie: {definitie op bedrijfsniveau — kort, bij voorkeur 1 zin ≤160 tekens. Langer mag alleen als letterlijk uit GGM of bron overgenomen.}
+bo_toelichting: {aanvulling, uitleg of voorbeelden bij de definitie — ook gebaseerd op bronnen. Leeg als de definitie volstaat.}
 bo_subtypes: []                     # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
 bo_synoniemen: []
 #  - naam: {alternatieve naam}
@@ -79,7 +80,7 @@ Elk veld bestaat in een GGM-, GGM-GEMMA- en GEMMA-variant:
 |---|---|---|---|
 | naam | `ggm_entiteit` | `ggm_gemma_naam` | `naam` |
 | definitie | `ggm_definitie` | `ggm_gemma_definitie` | `bo_definitie` |
-| toelichting | `ggm_toelichting` | `ggm_gemma_toelichting` | *(toekomstig)* |
+| toelichting | `ggm_toelichting` | `ggm_gemma_toelichting` | `bo_toelichting` |
 | synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | `bo_synoniemen` |
 
 Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `bo_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
@@ -121,7 +122,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
 - **Naamkeuze** (optioneel): wanneer de BO-naam afwijkt van de GGM-entiteitnaam door homoniem-disambiguatie. Documenteert welke namen zijn overwogen en waarom deze naam is gekozen. Zie [format hieronder](#naamkeuze-format).
 - **GGM-duplicaten** (optioneel): wanneer dezelfde entiteitnaam in meerdere GGM-beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt (bijv. BAG en RSGBPlus). Beschrijft welke duplicaten bestaan, waarom de primaire GUID is gekozen, en eventuele attribuutverschillen. Zie [format hieronder](#ggm-duplicaten-format). **Niet** gebruiken voor homoniemen (zelfde naam, ander concept).
-- **BO-definitie**: alleen als de eigen definitie afwijkt van de GGM-definitie — beide opnemen zodat het verschil terugkoppelbaar is
+- **BO-definitie** (alleen bij afwijking van GGM): GGM-definitie als blockquote, eigen definitie eronder, en toelichting waarom is afgeweken. Zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
 - **Procesbron** (bij grondslag `procesobject`): uit welk proces, welke beleidsbron beschrijft dit — **link naar de bronsamenvatting**
 - **Juridische bron** (bij grondslag `governance-object`): welke wet/verordening, welke beleidsbron — **link naar de bronsamenvatting**

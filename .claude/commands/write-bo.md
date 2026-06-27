@@ -98,10 +98,16 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
 - Haal uit entities[id].gemma_tags
 
 **Wiki-velden (BO-model):**
-- `bo_definitie`: altijd een zelfstandige definitie op bedrijfsniveau (één zin). Nooit "gelijk aan GGM" — dat is geen definitie. Bepaal als volgt:
-  - Als `ggm_gemma_definitie` niet leeg is en op bedrijfsniveau klopt: neem die over
-  - Als `ggm_definitie` te technisch of te breed is: herformuleer vanuit gemeentelijk perspectief (wat het voor de gemeente ís, niet hoe het technisch is gedefinieerd)
-  - Documenteer afwijkingen t.o.v. de GGM-definitie in de body-sectie **BO-definitie**
+
+`bo_definitie` — kort, helder, goed leesbaar. Bij voorkeur 1 zin, max ~160 tekens. Langer mag alleen als de tekst letterlijk uit GGM of bron wordt overgenomen. Bepaal als volgt:
+
+1. **GGM-definitie toetsen aan bronnen.** Vergelijk `ggm_definitie` (of `ggm_gemma_definitie` als die er is) inhoudelijk met de Sources-bestanden van dit onderwerp.
+2. **Drie scenario's:**
+   - **GGM klopt qua strekking** → neem de GGM-definitie letterlijk over als `bo_definitie`. Niet aanpassen.
+   - **GGM wijkt inhoudelijk af van bronnen** → maak een eigen definitie gebaseerd op de bronnen. Als een bron een definitie bevat: neem die letterlijk over. Anders: afleiden uit hoe het begrip in de bronnen wordt gebruikt. Toon de brontekst en de voorgestelde definitie aan de gebruiker ter verificatie. Documenteer de afwijking in de body-sectie **BO-definitie**.
+   - **GGM klopt maar is onvolledig** → neem de GGM-definitie letterlijk over als `bo_definitie`. Zet de aanvulling (uitleg, voorbeelden, verdere context) in `bo_toelichting`.
+3. **Zonder GGM-match:** maak een definitie uit de bronnen. Bron-definitie letterlijk overnemen als die er is, anders afleiden.
+4. **`bo_toelichting`:** aanvullingen, uitleg en voorbeelden — ook gebaseerd op bronnen, niet vrij verzonnen. Leeg laten als de definitie volstaat.
 
 ### Disambiguatie (BO-naam ≠ GGM-entiteitnaam)
 
