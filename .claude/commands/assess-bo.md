@@ -15,17 +15,20 @@ Welk gemeentelijk onderwerp hoort dit begrip bij?
 
 ### Stap 2: Begripstype bepalen
 
-Classificeer het begrip als een van deze typen:
+Classificeer het begrip als een van deze begripstypen:
 
 | Begripstype | Omschrijving | ArchiMate-elementtype | BO-kandidaat? | GGM-match verwacht? |
 |---|---|---|---|---|
 | **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja | Ja |
-| **instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja | Nee (governance-hiaat GGM) |
-| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role | Ja | Deels (RSGB) |
+| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja | Nee (governance-hiaat GGM) |
+| **actor** | Organisatie, afdeling, samenwerkingsverband | Business Actor | Ja | Deels (RSGB) |
+| **rol** | Functie of verantwoordelijkheid die een actor vervult | Business Role | Ja | Deels (RSGB) |
 | **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) | Ja | Deels (RSGB) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
+
+**Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/ggm-vergelijking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
 
 **Stop-regel:** thema / doel / waarde = geen BO-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
 
@@ -42,8 +45,8 @@ Combinatieregels:
 |---|---|
 | object + operationeel | Sterke BO-kandidaat, GGM-match verwacht |
 | object + beleidsmatig | Ongewone combinatie, nader bekijken |
-| instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
-| actor/doelgroep + operationeel | BO-kandidaat (actor-object), in GEMMA als Business Actor |
+| governance-instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
+| actor/rol/doelgroep + operationeel | BO-kandidaat (actor-object), in GEMMA als Business Actor/Role |
 
 ### Stap 3b: Duplicaat/homoniem-detectie (signaal)
 
@@ -178,12 +181,12 @@ Formuleer als terugmelding:
 ### Stap 11: LLM-autonomieregels
 
 **Zelfstandig afhandelen** wanneer ALLE drie voorwaarden waar zijn:
-1. Begripstype is `object`, `actor` of `doelgroep`, en abstractieniveau is `operationeel`
+1. Begripstype is `object`, `actor`, `rol` of `doelgroep`, en abstractieniveau is `operationeel`
 2. Minstens 5 van de 6 BO-criteria zijn van toepassing
 3. GGM-matchsterkte is `exact` of `sterk`
 
 **Voorleggen aan het team** bij:
-- Begripstype `instrument` (altijd)
+- Begripstype `governance-instrument` (altijd)
 - Minder dan 5 BO-criteria van toepassing
 - GGM-matchsterkte `partieel` of `zwak`
 - Generalisatiekeuzes (welk niveau wordt het BO?)

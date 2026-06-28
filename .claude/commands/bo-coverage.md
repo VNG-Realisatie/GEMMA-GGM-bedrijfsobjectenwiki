@@ -33,9 +33,9 @@ Lees `Wiki/Analyses/bo-dekking-data.json`. Voor elke entiteit met `status: "te-b
    6. **Relaties** — relateert het aan andere concepten?
 3. Classificeer als:
    - `bo-kandidaat` — structureel BO-waardig, bron nodig voor definitieve beoordeling
-   - `niet-bo` — duidelijk geen BO op basis van structuur
+   - `niet-bo` — duidelijk geen BO op basis van structuur. Geef het **entiteitstype** aan uit de `/ggm-vergelijking` classificatie: classificatie, detail, component, proces, actor, rol, meetinstrument, of cross-cutting. Dit maakt de niet-bo motivatie uniform met de vergelijkingsanalyse.
    - `ter-discussie` — onduidelijk, inhoudelijke beoordeling via `/assess-bo` nodig
-4. Motivatie: label + 1-regel onderbouwing.
+4. Motivatie: entiteitstype + 1-regel onderbouwing.
 
 **Anti-patronen (uit /assess-bo):** gebruik NOOIT "registreerbaar", "eigendom", "systeembeheer" als criterium. Alleen de 6 criteria.
 
@@ -55,5 +55,6 @@ Voeg entry toe aan `Wiki/log.md`.
 ### Relatie met andere skills
 
 - `/coverage` — complementair: coverage telt, bo-coverage beoordeelt
-- `/assess-bo` — onafhankelijk: assess-bo doet diepte-beoordeling met bronnen, bo-coverage doet structurele triage
+- `/assess-bo` — onafhankelijk: assess-bo doet diepte-beoordeling met bronnen (begripstypen), bo-coverage doet structurele triage (entiteitstypen)
+- `/ggm-vergelijking` — complementair: bo-coverage doet brede sweep over alle entiteiten, ggm-vergelijking doet diepte-analyse per onderwerp. Beide gebruiken dezelfde entiteitstype-classificatie.
 - `/ingest` — bo-coverage output bepaalt waar bronnen gezocht moeten worden

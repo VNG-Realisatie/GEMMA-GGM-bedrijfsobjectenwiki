@@ -14,8 +14,9 @@ Volg deze stappen exact:
 6. **Beoordeel begrippen** — per begrip: voer `/assess-bo` uit (alle beoordelingslogica).
 7. **Maak BO-pagina's** — per BO-kandidaat: voer `/write-bo` uit (GGM-match + pagina aanmaken).
 8. **Update het onderwerpoverzicht** in `Wiki/Onderwerpoverzichten/`:
-   - Voeg nieuwe begrippen toe aan de begrippentabel (begrip, type, omschrijving, BO?, data-object, reden, voorbeelden, GGM).
+   - Voeg nieuwe begrippen toe aan de begrippentabel (begrip, begripstype, omschrijving, BO?, data-object, reden, voorbeelden, GGM).
    - Begrippen die BO's zijn: maak de naam een `[[link]]` naar de BO-pagina.
    - Voeg verwerkte bronnen toe aan de bronnenlijst.
 9. **Update** `Wiki/index.md` en `Wiki/log.md`.
 10. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — vink verwerkte bronnen af (`[x]`). Als alle bronnen van een onderwerp-sectie zijn afgevinkt, markeer de sectie als afgerond (`~~Onderwerp~~  ✓`).
+11. **Optioneel: GGM-vergelijking** — als het onderwerp is afgerond (alle bronnen verwerkt), stel voor om `/ggm-vergelijking {onderwerp}` te draaien voor een vergelijking van GGM-entiteiten met de gevonden begrippen.
