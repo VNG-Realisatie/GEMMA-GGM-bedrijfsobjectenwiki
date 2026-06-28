@@ -1,5 +1,36 @@
 # Wiki Log
 
+## [2026-06-28] analyse | GGM-vergelijking Basisregistraties
+
+- **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-basisregistraties|GGM-vergelijking Basisregistraties]]
+- **Scope:** BAG (13 entiteiten) + RSGBPlus (78 in scope na filtering), totaal 91 unieke GGM-entiteiten
+- **Registraties:** BAG, BRP, BRK, NHR, WOZ, BRO
+- **Resultaat:** 24 van 30 BO's hebben GGM-match (80%); 6 hiaten (3× BRK-brondocumenten, 3× BRO)
+- **RSGBPlus-scoping:** 21 IMGeo/BGT-entiteiten en 7 tekenwijze-hulpobjecten buiten scope; 10 BAG-duplicaten en ~12 interne varianten geconsolideerd
+- **Structureel patroon:** RSGBPlus modelleert op genormaliseerd dataniveau; BO Ingeschreven Persoon absorbeert 12 detail-entiteiten (sterkste voorbeeld RSGB-normalisatie)
+- **Hiaten:** BRO volledig absent in GGM (structurele lacune); BRK-brondocumenten (Stuk, Stukdeel) en Publiekrechtelijke Beperking (gemeente is bronhouder WKPB) ontbreken
+- **0 BO-hiaten:** alle detail/component-entiteiten hebben dekkingsketen naar een BO
+- **Totaaloverzicht** [[Wiki/Analyses/ggm-vergelijkingen|ggm-vergelijkingen]] bijgewerkt
+- **Index** bijgewerkt
+
+## [2026-06-28] analyse | GGM-vergelijking Asiel en Integratie
+
+- **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-asiel-en-integratie|GGM-vergelijking Asiel en Integratie]]
+- **Scope:** GGM-beleidsdomein Inburgering (35 entiteiten) vs. onderwerpoverzicht asiel en integratie (43 begrippen, 17 BO's)
+- **Resultaat:** 15 BO's met GGM-match (88%), 2 entiteit-hiaten (Opvanglocatie, Bestuursovereenkomst — asielopvangfase), 0 BO-hiaten. Structurele dekking compleet.
+- **Bevinding:** GGM dekt Wi2021-inburgeringstraject uitstekend (35 entiteiten, alle exact match); asielopvangfase (Spreidingswet 2024) structureel niet in GGM
+- **Index:** analyse-pagina toegevoegd
+- **Totaaloverzicht:** [[Wiki/Analyses/ggm-vergelijkingen|GGM-vergelijkingen]] bijgewerkt
+
+## [2026-06-28] analyse | GGM-vergelijking Cultuur
+
+- **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-cultuur|GGM-vergelijking Cultuur]]
+- **Scope:** GGM-beleidsdomeinen Archeologie (17), Archief (18), Generieke Entiteiten Erfgoed (3), Monumenten (6), Musea (30) = 74 entiteiten vs. onderwerpoverzicht cultuur (49 begrippen, 8 BO's)
+- **Resultaat:** 7 BO's met GGM-match (88%), 1 entiteit-hiaat (Orgel — roerend erfgoed), 0 BO-hiaten. Structurele dekking compleet.
+- **Bevinding:** Musea-domein sterk Prinsenhof-gekleurd (22 van 30 entiteiten); erfgoed/archief/monumenten functioneel compleet
+- **Index:** beschermde-status verwijderd (geconsolideerd met Monument), Collectie toegevoegd onder Musea
+- **Totaaloverzicht:** [[Wiki/Analyses/ggm-vergelijkingen|GGM-vergelijkingen]] bijgewerkt
+
 ## [2026-06-28] analyse | GGM-vergelijking Financiën + totaaloverzicht
 
 - **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-financien|GGM-vergelijking Financiën]]

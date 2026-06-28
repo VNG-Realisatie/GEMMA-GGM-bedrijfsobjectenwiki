@@ -14,12 +14,12 @@ Onderwerpen zonder vergelijking staan met lege waarden als signaal.
 | Onderwerp | Vergelijking | GGM-entiteiten | BO's | Entiteit-hiaten | BO-hiaten | Structurele dekking | Functionele dekking |
 |---|---|---|---|---|---|---|---|
 | [[Wiki/Onderwerpoverzichten/arbeidszaken\|arbeidszaken]] | | | | | | | |
-| [[Wiki/Onderwerpoverzichten/asiel-en-integratie\|asiel-en-integratie]] | | | | | | | |
-| [[Wiki/Onderwerpoverzichten/basisregistraties\|basisregistraties]] | | | | | | | |
+| [[Wiki/Onderwerpoverzichten/asiel-en-integratie\|asiel-en-integratie]] | [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-asiel-en-integratie\|asiel-en-integratie]] | 35 | 17 | 2 | 0 | compleet | incompleet — asielopvangfase (Spreidingswet 2024) ontbreekt in GGM |
+| [[Wiki/Onderwerpoverzichten/basisregistraties\|basisregistraties]] | [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-basisregistraties\|basisregistraties]] | 91 | 30 | 6 | 0 | compleet | incompleet — BRO volledig absent; BRK-brondocumenten (Stuk, Stukdeel, Publiekrechtelijke Beperking) niet gemodelleerd |
 | [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte\|beheer-openbare-ruimte]] | | | | | | | |
 | [[Wiki/Onderwerpoverzichten/belastingen\|belastingen]] | | | | | | | |
 | [[Wiki/Onderwerpoverzichten/bestuur\|bestuur]] | | | | | | | |
-| [[Wiki/Onderwerpoverzichten/cultuur\|cultuur]] | | | | | | | |
+| [[Wiki/Onderwerpoverzichten/cultuur\|cultuur]] | [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-cultuur\|cultuur]] | 74 | 8 | 1 | 0 | compleet | compleet — erfgoed/archief/monumenten volledig; musea adequaat maar Prinsenhof-gekleurd |
 | [[Wiki/Onderwerpoverzichten/dienstverlening\|dienstverlening]] | | | | | | | |
 | [[Wiki/Onderwerpoverzichten/dierenwelzijn\|dierenwelzijn]] | | | | | | | |
 | [[Wiki/Onderwerpoverzichten/economie\|economie]] | | | | | | | |

@@ -157,7 +157,6 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie|interventie]] — Escalatie bij achterblijvende aflossingen
 
 ### Cultuur — Erfgoed (GGM beleidsdomein Erfgoed/Monumenten/Archeologie, taakveld 5)
-- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/beschermde-status|beschermde-status]] — Formele beschermingsstatus van monument of stadsgezicht (GGM exact, subtypes: rijksmonument, gemeentelijk monument, beschermd stadsgezicht)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|monument]] — Beschermd onroerend erfgoed (rijks-, provinciaal, gemeentelijk)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|archiefstuk]] — Gearchiveerde informatie, beheerd door gemeentearchief (cross-domein: erfgoed + informatiebeheer)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|archeologische-vindplaats]] — Locatie met (verwachte) archeologische waarde, geregistreerd op beleidskaart
@@ -176,6 +175,7 @@
 
 ### Cultuur — Musea (GGM beleidsdomein Musea, taakveld 5)
 - [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject|museumobject]] — Object met cultuurhistorische waarde in museale collectie
+- [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/collectie|collectie]] — Samenhangende verzameling cultuurgoederen, beheerd door gemeentelijk museum (GGM exact, Erfgoedwet art. 2.8-2.11)
 
 ### Wonen (GGM beleidsdomein Bouwen en Wonen, taakveld 8)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning|woning]] — Zelfstandige woonruimte voor permanente huisvesting; subtypes: sociale huur, middenhuur, betaalbare koop, studentenwoning (GGM Gebouw, sterk)
@@ -689,3 +689,6 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Analyses/vng-rubrieken-mapping|vng-rubrieken-mapping]] — Mapping van 26 VNG-rubrieken op GGM-taakvelden en beleidsdomeinen
 - [[Wiki/Analyses/ggm-vergelijkingen|ggm-vergelijkingen]] — Totaaloverzicht alle GGM-vergelijkingen per onderwerp: structurele en functionele dekking
 - [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-financien|ggm-vergelijking-financien]] — GGM-entiteiten vs. bronbegrippen Financiën: 24 entiteiten, 14 BO's, 4 entiteit-hiaten, 1 BO-hiaat (Grootboek)
+- [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-cultuur|ggm-vergelijking-cultuur]] — GGM-entiteiten vs. bronbegrippen Cultuur: 74 entiteiten (5 beleidsdomeinen), 8 BO's, 1 entiteit-hiaat (Orgel), 0 BO-hiaten
+- [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-asiel-en-integratie|ggm-vergelijking-asiel-en-integratie]] — GGM-entiteiten vs. bronbegrippen Asiel en Integratie: 35 entiteiten (Inburgering), 17 BO's, 2 entiteit-hiaten (asielopvang), 0 BO-hiaten
+- [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-basisregistraties|ggm-vergelijking-basisregistraties]] — GGM-entiteiten vs. bronbegrippen Basisregistraties: 91 entiteiten (BAG + RSGBPlus), 30 BO's, 6 entiteit-hiaten (BRK-brondocumenten + BRO), 0 BO-hiaten
