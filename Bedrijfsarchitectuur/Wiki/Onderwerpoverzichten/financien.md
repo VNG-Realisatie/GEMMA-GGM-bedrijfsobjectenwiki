@@ -2,10 +2,10 @@
 type: onderwerp
 naam: Financien
 status: afgerond
-verwerkingsdatum: 2026-06-23
-bronnen_count: 6
-begrippen_count: 20
-bo_count: 10
+verwerkingsdatum: 2026-06-28
+bronnen_count: 8
+begrippen_count: 29
+bo_count: 14
 ---
 
 # Domein: Financiën
@@ -14,28 +14,37 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 
 ## Begrippen
 
-|Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
+| Begrip | Begripstype | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
-|gemeentefonds|instrument|Grootste inkomstenbron, vrij besteedbaar| ❌ | nee |Instrument, geen object|—|nee|
-|algemene uitkering|instrument|Hoofdcomponent gemeentefonds| ❌ | nee |Instrument, geen object|—|nee|
-|specifieke uitkering|instrument|Geoormerkt geld van het rijk voor medebewindstaken| ❌ | nee |Instrument, geen object|—|nee|
-|begrotingscyclus|thema|Kadernota → begroting → tussenrapportages → jaarrekening| ❌ | nee |Proces, geen object|—|nee|
-|budgetrecht|instrument|Raadsbevoegdheid om geld beschikbaar te stellen| ❌ | nee |Instrument, geen object|—|nee|
-|financiële verordening|instrument|Art. 212 Gemeentewet, lokale spelregels financieel beleid| ❌ | nee |Instrument, geen object|—|nee|
-|kadernota|object|Voorjaarsnota met kaders voor de begroting| ❌ | ja |Procesobject, beperkte levenscyclus|Kadernota 2026|nee|
-|solvabiliteitsratio|object|Eigen vermogen / balanstotaal| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
-|netto-schuldquote|object|Netto schuld / baten| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
-|onbenutte belastingcapaciteit|object|Ruimte tot art. 12-tarief| ❌ | ja |Kengetal, afgeleid gegeven|—|nee|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]]|object|Overzicht verwachte ontvangsten en voorziene uitgaven| ✅ | ja |6/6 criteria, GGM exact|Programmabegroting 2026|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]]|object|Rekening waaraan boekingen worden toegeschreven| ✅ | ja |6/6 criteria, GGM exact|Afdeling, project|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]]|object|Schriftelijke rekening voor geleverde zaken of diensten| ✅ | ja |6/6 criteria, GGM exact|Inkoopfactuur, verkoopfactuur|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]]|object|Opdracht voor levering van goederen en/of diensten| ✅ | ja |6/6 criteria, GGM exact|Bestelling materiaal|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]]|object|Persoon die een bedrag verschuldigd is aan de gemeente| ✅ | ja |6/6 criteria, GGM exact|Huurder, belastingplichtige|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]]|object|Samenhangend geheel van activiteiten en taken (IV3)| ✅ | ja |6/6 criteria, GGM exact|Taakveld 3 Economie|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]]|object|Op korte of middellange termijn nagestreefde situatie| ✅ | ja |6/6 criteria, GGM exact|Begrotingsdoelstelling|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]]|object|Resultaat van een proces dat in het economisch verkeer waarde bezit| ✅ | ja |6/6 criteria, GGM exact|Paspoort, bouwvergunning|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]]|object|Bezittingen op de boekhoudkundige balans| ✅ | ja |6/6 criteria, GGM sterk|Grond, gebouw, inventaris|ja|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]]|object|Opdracht voor uitvoering van een activiteit| ✅ | ja |6/6 criteria, GGM exact|Onderhoudsopdracht|ja|
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | object | Overzicht verwachte ontvangsten en voorziene uitgaven | ✅ | ja | 6/6 criteria, GGM exact | Programmabegroting 2026 | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening\|Jaarrekening]] | object | Verantwoordingsdocument met baten/lasten, balans en rechtmatigheid | ✅ | ja | 6/6 criteria, GGM-hiaat | Jaarrekening 2025 | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/reserve\|Reserve]] | object | Eigen vermogen op de balans; algemene reserve en bestemmingsreserves | ✅ | ja | 6/6 criteria, GGM-hiaat | Algemene reserve, bestemmingsreserve riolering | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/financiele-voorziening\|Financiële Voorziening]] | object | Verplichting/risico op de balans (BBV art. 44); homoniem met Wmo-voorziening | ✅ | ja | 6/6 criteria, GGM-hiaat, homoniem | Voorziening wethouderspensioenen | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verbonden-partij\|Verbonden Partij]] | object | Organisatie met bestuurlijk en financieel belang van de gemeente | ✅ | ja | 6/6 criteria, GGM-hiaat | GGD, omgevingsdienst, BNG Bank | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | object | Rekening waaraan boekingen worden toegeschreven | ✅ | ja | 6/6 criteria, GGM exact | Afdeling, project | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] | object | Schriftelijke rekening voor geleverde zaken of diensten | ✅ | ja | 6/6 criteria, GGM exact | Inkoopfactuur, verkoopfactuur | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] | object | Opdracht voor levering van goederen en/of diensten | ✅ | ja | 6/6 criteria, GGM exact | Bestelling materiaal | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] | object | Persoon die een bedrag verschuldigd is aan de gemeente | ✅ | ja | 6/6 criteria, GGM exact | Huurder, belastingplichtige | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]] | object | Samenhangend geheel van activiteiten en taken (IV3) | ✅ | ja | 6/6 criteria, GGM exact | Taakveld 3 Economie | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] | object | Op korte of middellange termijn nagestreefde situatie | ✅ | ja | 6/6 criteria, GGM exact | Begrotingsdoelstelling | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | object | Resultaat van een proces dat in het economisch verkeer waarde bezit | ✅ | ja | 6/6 criteria, GGM exact | Paspoort, bouwvergunning | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | object | Bezittingen op de boekhoudkundige balans | ✅ | ja | 6/6 criteria, GGM sterk | Grond, gebouw, inventaris | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]] | object | Opdracht voor uitvoering van een activiteit | ✅ | ja | 6/6 criteria, GGM exact | Onderhoudsopdracht | ja |
+| gemeentefonds | governance-instrument | Grootste inkomstenbron, vrij besteedbaar | ❌ | nee | Instrument, geen object | — | nee |
+| algemene uitkering | governance-instrument | Hoofdcomponent gemeentefonds | ❌ | nee | Instrument, geen object | — | nee |
+| specifieke uitkering | governance-instrument | Geoormerkt geld van het rijk voor medebewindstaken | ❌ | nee | Instrument, geen object | — | nee |
+| budgetrecht | governance-instrument | Raadsbevoegdheid om geld beschikbaar te stellen | ❌ | nee | Instrument, geen object | — | nee |
+| financiële verordening | governance-instrument | Art. 212 Gemeentewet, lokale spelregels financieel beleid | ❌ | nee | Instrument, geen object | — | nee |
+| begrotingscyclus | thema | Kadernota → begroting → tussenrapportages → jaarrekening | ❌ | nee | Proces, geen object | — | nee |
+| kadernota | object | Voorjaarsnota met kaders voor de begroting | ❌ | ja | Procesobject, beperkte levenscyclus | Kadernota 2026 | nee |
+| programma | object | Samenhangend geheel van activiteiten in de begroting (BBV art. 8) | ❌ | ja | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | Programma Onderwijs | ja (ander domein) |
+| deelneming | object | Participatie in BV/NV met gemeentelijke aandelen | ❌ | ja | Subtype van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verbonden-partij\|Verbonden Partij]] | BNG Bank, Vitens | nee |
+| bouwgrond in exploitatie | object | Grond met vastgestelde grondexploitatiebegroting | ❌ | ja | Subtype van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | Vinex-locatie | nee |
+| kapitaalgoed | object | Duurzame bezittingen voor dienstlevering (wegen, riolering, gebouwen) | ❌ | ja | Subtype van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | Gemeentehuis, riolering | nee |
+| weerstandsvermogen | object | Relatie weerstandscapaciteit ↔ risico's | ❌ | ja | Kengetal/beoordeling, geen zelfstandig object | — | nee |
+| solvabiliteitsratio | object | Eigen vermogen / balanstotaal | ❌ | ja | Kengetal, afgeleid gegeven | — | nee |
+| netto-schuldquote | object | Netto schuld / baten | ❌ | ja | Kengetal, afgeleid gegeven | — | nee |
+| onbenutte belastingcapaciteit | object | Ruimte tot art. 12-tarief | ❌ | ja | Kengetal, afgeleid gegeven | — | nee |
 
 ## Verwerkte bronnen
 
@@ -43,11 +52,25 @@ Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel behe
 - [[Wiki/Bronsamenvattingen/Financien/raadgever-gemeentebegroting|Raadgever Gemeentebegroting en jaarrekening]] — VNG Raadgever: begrotingscyclus, budgetrecht, BBV
 - [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-verordening|Raadgever De financiële verordening]] — VNG Raadgever: art. 212, spelregels financieel beleid
 - [[Wiki/Bronsamenvattingen/Financien/raadgever-financiele-conditie|Raadgever Financiële conditie gemeente]] — VNG Raadgever: balans, kengetallen, financiële gezondheid
+- [[Wiki/Bronsamenvattingen/Financien/begrippenlijst-gemeentebegroting|Begrippenlijst gemeentebegroting]] — VNG: BBV-begrippenlijst met definities financiële termen
+- [[Wiki/Bronsamenvattingen/Financien/besluit-begroting-en-verantwoording|Besluit begroting en verantwoording (BBV)]] — Wettekst: voorschriften begrotings- en verantwoordingsdocumenten
 
 ## Niet-relevante bronnen
 
 - begroting-en-verantwoording.md — VNG portaalpagina, inhoud gedekt door raadgever-bronsamenvattingen
 - gemeentefonds-en-btw-compensatiefonds.md — VNG portaalpagina, inhoud gedekt door raadgever-inkomstenbronnen
+
+## Openstaande vragen
+
+- Het GGM modelleert Programma als generiek projectmanagement-concept (Griffie, Organisatie-indeling). Het BBV-programma is specifieker: structuuronderdeel van de begroting. Consolidatie nodig?
+
+## Terugmeldingen richting GGM
+
+Zie [[Wiki/Analyses/ggm-terugmeldingen]]:
+- **Reserve** — eigen vermogen (algemene reserve + bestemmingsreserves) ontbreekt in GGM Financien
+- **Financiële Voorziening** — balanspost verplichtingen/risico's (BBV art. 44) ontbreekt; homoniem met Wmo-voorziening
+- **Verbonden Partij** — verplicht rapportageobject (BBV art. 15) ontbreekt
+- **Jaarrekening** — verantwoordingsdocument ontbreekt; pendant van Begroting die wél is gemodelleerd
 
 ## Cross-domein
 

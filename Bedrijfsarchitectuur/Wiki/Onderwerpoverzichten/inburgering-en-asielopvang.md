@@ -2,10 +2,10 @@
 type: domein
 naam: Asiel en Integratie
 status: afgerond
-verwerkingsdatum: 2026-06-19
-bronnen_count: 6
+verwerkingsdatum: 2026-06-27
+bronnen_count: 8
 begrippen_count: 12
-bo_count: 15
+bo_count: 17
 ---
 
 # Domein: Asiel en Integratie
@@ -14,12 +14,12 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 
 ## Conclusie
 
-15 bedrijfsobjecten vastgesteld: 13 met GGM-grondslag (exact match, beleidsdomein Inburgering), 2 zonder GGM (asielopvangfase). Het GGM modelleert het Wi2021-inburgeringstraject zeer gedetailleerd (35 entiteiten); daarvan zijn 13 bedrijfsobjecten, 18 zijn geaggregeerd als attributen/details, en 4 zijn classificaties of abstracte entiteiten. De asielopvangfase valt structureel buiten het GGM — dit is een hiaatbevinding.
+17 bedrijfsobjecten vastgesteld: 15 met GGM-grondslag (exact match, beleidsdomein Inburgering), 2 zonder GGM (asielopvangfase). Het GGM modelleert het Wi2021-inburgeringstraject zeer gedetailleerd (35 entiteiten); daarvan zijn 15 bedrijfsobjecten, 16 zijn geaggregeerd als attributen/details, en 4 zijn classificaties of abstracte entiteiten. De asielopvangfase valt structureel buiten het GGM — dit is een hiaatbevinding.
 
 ## Twee fasen
 
 1. **Asielopvang** — de gemeente faciliteert opvanglocaties en kan bij duurzame gemeentelijke opvang ook exploiteren. **2 BO's, geen GGM-dekking.**
-2. **Inburgering** — na vergunningverlening begeleidt de gemeente de inburgeraar conform Wi2021. **13 BO's, volledige GGM-dekking.**
+2. **Inburgering** — na vergunningverlening begeleidt de gemeente de inburgeraar conform Wi2021. **15 BO's, volledige GGM-dekking.**
 
 ## Bedrijfsobjecten
 
@@ -40,6 +40,8 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/map\|MAP]] | MAP | exact |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pvt\|PVT]] | PVT | exact |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering\|Voorbereiding op Inburgering]] | Voorbereiding op Inburgering | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling\|Vrijstelling]] | Vrijstelling | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing]] | Ontheffing | exact |
 
 ### Asielopvang (geen GGM)
 
@@ -73,6 +75,7 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering|Inburgering]] — VNG onderwerpenpagina inburgering
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine|Opvang Oekraïense ontheemden]] — VNG onderwerpenpagina Oekraïense ontheemden
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel|Rubriek Asiel tot integratie]] — VNG rubriekpagina asiel tot integratie
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/regeling-inburgering-2021|Regeling inburgering 2021]] — Ministeriële uitvoeringsregeling Wi2021 (vrijstellingen, ontheffingen, examens, lening)
 
 ## Raakvlakken
 

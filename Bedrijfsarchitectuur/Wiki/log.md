@@ -1,5 +1,59 @@
 # Wiki Log
 
+## [2026-06-28] analyse | GGM-vergelijking Financiën + totaaloverzicht
+
+- **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-financien|GGM-vergelijking Financiën]]
+- **Scope:** GGM-beleidsdomein Financien (24 entiteiten) vs. onderwerpoverzicht financien (29 begrippen, 14 BO's)
+- **Resultaat:** 10 BO's met GGM-match (71%), 4 entiteit-hiaten (balans/verantwoording), 1 BO-hiaat (Grootboek — 5 orphan-entiteiten zonder parent-BO)
+- **Totaaloverzicht:** [[Wiki/Analyses/ggm-vergelijkingen|GGM-vergelijkingen]] aangemaakt met alle 33 onderwerpen, structurele en functionele dekkingskolommen
+- **Skill bijgewerkt:** `/ggm-vergelijking` — dekking-kolom in tabel 2, BO-hiaten met bronsuggesties in beoordeling, stap 5 totaaloverzicht bijwerken
+
+## [2026-06-28] ingest | BBV en begrippenlijst gemeentebegroting (2 bronnen)
+
+- **Bronnen:** [[Wiki/Bronsamenvattingen/Financien/besluit-begroting-en-verantwoording|Besluit begroting en verantwoording (BBV)]], [[Wiki/Bronsamenvattingen/Financien/begrippenlijst-gemeentebegroting|Begrippenlijst gemeentebegroting]]
+- **Nieuwe BO's:** 4 — [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/reserve|Reserve]] (GGM-hiaat #88), [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/financiele-voorziening|Financiële Voorziening]] (GGM-hiaat #89, homoniem met Wmo-Voorziening), [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verbonden-partij|Verbonden Partij]] (GGM-hiaat #90), [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening|Jaarrekening]] (GGM-hiaat #91)
+- **Nieuwe begrippen:** 9 — reserve, financiële voorziening, verbonden partij, jaarrekening, programma, deelneming, bouwgrond in exploitatie, kapitaalgoed, weerstandsvermogen
+- **Homoniem opgelost:** Voorziening (Wmo) ↔ Financiële Voorziening (BBV) — ondersteuning/hulp vs. balanspost verplichtingen/risico's
+- **GGM-terugmeldingen:** #88 Reserve, #89 Financiële Voorziening (hiaat + homoniem), #90 Verbonden Partij, #91 Jaarrekening
+- **Onderwerpoverzicht:** financien bijgewerkt (20→29 begrippen, 10→14 BO's), kolom "Type" → "Begripstype", instrument → governance-instrument
+- **Skills bijgewerkt:** assess-bo (begripstype), ggm-vergelijking (entiteitstype), bo-coverage, domain-status, coverage, ingest, onderwerpoverzicht-template
+
+## [2026-06-27] ingest | Wet SUWI en SGR 19.0 (2 bronnen)
+
+- **Bronnen:** [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en Gegevensregister SUWI 19.0]] (gebundelde bronsamenvatting van wettekst + SGR datamodel)
+- **Nieuwe BO's:** 4 — [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende|Werkzoekende]] (GGM exact, abstract, 25+ componenten), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/trajectplan|Trajectplan]] (GGM-hiaat #85), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/instrument|Instrument]] (GGM-hiaat #86, Dennis & Eva catalogus-item), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|Vacature (arbeidsmarkt)]] (GGM-hiaat, homoniem HR-Vacature #87)
+- **Nieuwe begrippen:** 6 — werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), Suwinet/GeVS, VUM
+- **Homoniem opgelost:** Vacature (HR) ↔ Vacature (arbeidsmarkt) — gemeente als werkgever vs. gemeente als arbeidsmarktbemiddelaar; cross-links aangebracht
+- **GGM-terugmeldingen:** #85 Trajectplan (hiaat), #86 Instrument (hiaat), #87 Vacature (homoniem + hiaat Werk-domein)
+- **Onderwerpoverzicht:** werk-en-inkomen bijgewerkt (19→25 begrippen, 4→8 BO's)
+
+## [2026-06-27] ingest | iStandaarden iWmo/iJw/iEb (3 bronnen)
+
+- **Bronnen:** [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/procesbeschrijving-ijw-3.1|Procesbeschrijving iJw 3.1]], [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/informatiemodel-gizo|GIZO conceptversie]], functionele uitwerking iWmo/iJw 3.1 (→ Niet-relevant)
+- **Nieuwe BO's:** 2 — [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]] (GGM exact, homoniem HR-Declaratie), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage|Eigen bijdrage]] (GGM exact)
+- **Nieuwe begrippen:** 8 — declaratieregel/prestatie, melding eigen bijdrage, VOT, VOW, regiebericht, uitvoeringsvariant, productafspraak
+- **Verrijkt:** Toewijzing, Levering, Beschikking (procesbeschrijving + GIZO als bronnen)
+- **Homoniem opgelost:** Declaratie (HR) ↔ Zorgdeclaratie (Sociaal Domein) — cross-links aangebracht
+- **Herbeoordeling:** declaratie was ❌ ("financieel-administratief"), nu ✅ op basis van GGM+GIZO
+- **Totaal domein:** 15 BO's, 40 begrippen, 12 bronnen
+
+## [2026-06-27] ingest | Regeling inburgering 2021
+
+- **Bron:** [[Wiki/Bronsamenvattingen/Asiel en Integratie/regeling-inburgering-2021|Regeling inburgering 2021]] (Rijksoverheid, BWBR0045574)
+- **Nieuwe BO's:** 2 — [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling|Vrijstelling]] (GGM exact), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing|Ontheffing]] (GGM exact)
+- **Nieuwe begrippen:** 5 — examenonderdeel, sociale lening, deskundigenverklaring, inburgeringsdiploma, verlengingsgrond
+- **Verrijkt:** Examen (examenprocedures), Inburgeringstermijn (verlengingsgronden), MAP (urennorm), Leerroute (Z-route)
+- **Homoniemen:** Vrijstelling (Leerplicht), Ontheffing (Werk) — andere concepten in andere GGM-domeinen
+- **Totaal domein:** 17 BO's, 43 begrippen, 8 bronnen
+
+## [2026-06-27] analyse | BO-dekking batch-beoordeling
+
+- **Scope:** Alle 954 GGM Objecttype-entiteiten beoordeeld
+- **Resultaat:** 192 BO's, 114 verwerkt (subtypes/componenten), 326 niet-BO, 195 BO-kandidaat (bron nodig), 127 ter discussie
+- **Top-5 domeinen met BO-kandidaten:** Werk (19), Inburgering (19), RSGBPlus (13), HR (11), Generiek Jeugd en Wmo (11)
+- **Bronnen-opportuniteiten:** per beleidsdomein suggesties voor brontype om kandidaten te beoordelen
+- **Output:** [[Wiki/Analyses/bo-dekking|BO-dekking]] (rapport + JSON)
+
 ## [2026-06-27] ingest | Basisregistraties — BRO verwerkt
 
 - **Bronnen:** 2 bronnen verwerkt:

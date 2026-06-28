@@ -2,10 +2,10 @@
 type: domein
 naam: maatschappelijke ondersteuning
 status: afgerond
-verwerkingsdatum: 2026-06-26
-bronnen_count: 10
-begrippen_count: 32
-bo_count: 13
+verwerkingsdatum: 2026-06-27
+bronnen_count: 12
+begrippen_count: 40
+bo_count: 15
 ---
 
 # Maatschappelijke Ondersteuning
@@ -27,7 +27,8 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid\|Dakloosheid]] | object | Registratie dakloosheidsstatus van een cliënt | ✅ | ja | 6/6 criteria, exact match | Dakloosheidsregistratie met briefadres | ja |
 | melding/aanvraag Wmo-Jeugd | object | Intake bij sociaal team; twee GGM-entiteiten | ❌ | ja | Gedekt door generiek [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of Melding]] | Wmo-melding, jeugdhulpaanvraag | ja |
 | beschikte voorziening | object | Voorziening waarover een beschikking is gedaan | ❌ | ja | Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO | — | ja |
-| declaratie | object | Opgave van te vergoeden kosten door leverancier | ❌ | ja | Financieel-administratief, niet op bestuurlijk niveau | Declaratie zorgaanbieder | ja |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]] | object | Maandelijkse opgave van zorgaanbieder aan gemeente van geleverde producten | ✅ | ja | 6/6 criteria, exact match; homoniem met HR-Declaratie | Declaratie ambulante behandeling | ja |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | object | Financiële bijdrage cliënt voor Wmo-voorzieningen, vastgesteld door CAK | ✅ | ja | 6/6 criteria, exact match; twee periodetypen (abonnementstarief, beschermd wonen) | Abonnementstarief Wmo | ja |
 | beperking | object | Stoornis/conditie die functioneren belemmert | ❌ | ja | Eigenschap van beoordeling, niet zelfstandig BO | ICF-beperking mobiliteit | ja |
 | leverancier (zorgaanbieder) | actor | Organisatie die zorg/ondersteuning levert | ❌ | ja | Actor, geen object; cross-cutting | Zorginstelling, thuiszorgorganisatie | ja |
 | huishouden | object | Persoon of groep die een huishouden voert | ❌ | ja | Cross-cutting sociaal domein, eenheid voor beoordeling | Eenoudergezin | ja |
@@ -48,6 +49,13 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 | familiegroepsplan | object | Plan opgesteld door ouders en sociaal netwerk | ❌ | ja | Subtype van Hulpverleningsplan, geen apart BO | — | nee |
 | verwijsindex risicojongeren | object | Landelijk signaleringssysteem voor risicojongeren | ❌ | ja | Landelijk systeem, gemeente meldt maar beheert niet | Match-signaal | nee |
 | dossier (jeugdhulp) | object | Geheel van vastgelegde gegevens over jeugdhulpverlening | ❌ | ja | Gedekt door [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | — | ja |
+| declaratieregel/prestatie | object | Administratieve regel met volume van één product/prestatie voor één cliënt | ❌ | ja | Component van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]], geen zelfstandig BO | Prestatie begeleiding januari | ja |
+| melding eigen bijdrage | object | Melding aan CAK met start- en stopdatum | ❌ | ja | Component van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]], geen zelfstandig BO | Melding abonnementstarief aan CAK | ja |
+| verzoek om toewijzing (VOT) | bericht | Verzoek van aanbieder aan gemeente om toewijzing | ❌ | ja | Berichttype in iWmo/iJw-protocol; leidt tot [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing\|Toewijzing]] | VOT na verwijzing huisarts | ja |
+| verzoek om wijziging (VOW) | bericht | Verzoek van aanbieder bij verandering cliëntsituatie | ❌ | ja | Berichttype in iWmo/iJw-protocol; leidt tot gewijzigde Toewijzing | VOW voor verlenging | ja |
+| regiebericht (start/stop) | bericht | Informatief bericht over start/stop feitelijke levering | ❌ | nee | Procesbericht, niet voorwaardelijk voor declaratie | Startbericht ambulante behandeling | nee |
+| uitvoeringsvariant | classificatie | Inspanningsgericht, outputgericht of taakgericht | ❌ | nee | Kenmerk van de contractafspraak, geen zelfstandig object | Outputgerichte toewijzing | nee |
+| productafspraak | object | Contractuele afspraak over producttarief en uitvoeringsvariant | ❌ | ja | Gedekt door [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] | Tarief ambulante begeleiding | nee |
 
 ## Verwerkte bronnen
 
@@ -61,10 +69,12 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet|Jeugdwet (BWBR0034925)]] — Wettekst: gemeentelijke verantwoordelijkheid jeugdhulp, kinderbescherming, gesloten jeugdhulp, pleegzorg, PGB
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015|Wmo 2015 (BWBR0035362)]] — Wettekst: wettelijke grondslag maatwerkvoorzieningen, cliënt, PGB, beschermd wonen, opvang
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/procesbeschrijving-ijw-3.1|Procesbeschrijving iJw 3.1]] — Ketenproces jeugdhulp: beoordelen, toeleiden, leveren, declareren; drie uitvoeringsvarianten
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/informatiemodel-gizo|GIZO conceptversie]] — Conceptueel informatiemodel iWmo/iJw/iEb van Zorginstituut Nederland, met GGM-aansluiting
 
 ## Niet-relevante bronnen
 
-8 bronnen verplaatst naar `Sources/Onderwerpen/Maatschappelijke Ondersteuning/Niet-relevant/`: rubriekpagina, abonnementstarief-wmo, financien-wmo, inkoop-wmo-en-jeugdwet, regionale-samenwerking, re-integratie-ex-gedetineerden, verward-onbegrepen-gedrag, mensenhandel.
+9 bronnen verplaatst naar `Sources/Onderwerpen/Maatschappelijke Ondersteuning/Niet-relevant/`: rubriekpagina, abonnementstarief-wmo, financien-wmo, inkoop-wmo-en-jeugdwet, regionale-samenwerking, re-integratie-ex-gedetineerden, verward-onbegrepen-gedrag, mensenhandel, functionele-uitwerking-iwmo-ijw-3.1 (release notes).
 
 ## Openstaande vragen
 

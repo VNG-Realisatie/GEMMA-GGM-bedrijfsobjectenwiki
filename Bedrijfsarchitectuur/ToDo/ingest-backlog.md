@@ -109,6 +109,12 @@ Status: 148 bronnen in 24 batches.
 
 > **Afgehandeld:** 2 portaalpagina's naar Niet-relevant (inhoud gedekt door 4 eerder verwerkte raadgever-bronsamenvattingen). Onderwerpoverzicht bijgewerkt. 10 BO's uit GGM-beleidsdomein Financien (taakveld 9), 20 begrippen. Geen nieuwe BO's.
 
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] begrippenlijst-gemeentebegroting (VNG, begrippenlijst met 30+ kernbegrippen gemeentebegroting, BBV-gerelateerd)
+- [x] besluit-begroting-en-verantwoording (Rijksoverheid, wetten.overheid.nl, BBV BWBR0014606 per 2025-04-17 — voorschriften begroting, jaarstukken, balans, meerjarenraming)
+
+> **Afgehandeld:** 2 bronnen verwerkt. 4 nieuwe BO's (Reserve, Financiële Voorziening, Verbonden Partij, Jaarrekening), alle GGM-hiaten. 9 nieuwe begrippen, 29 totaal, 14 BO's. 4 GGM-terugmeldingen (#88-91).
+
 ## ~~Informatiesamenleving (13)~~ ✓
 - [x] ai-en-algoritmen
 - [x] archieven
@@ -167,6 +173,9 @@ Status: 148 bronnen in 24 batches.
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] jeugdwet (Rijksoverheid, wetten.overheid.nl, volledige wettekst Jeugdwet BWBR0034925 per 2024-01-31) → 4 nieuwe BO's: Hulpverleningsplan, Kinderbeschermingsmaatregel, Machtiging Gesloten Jeugdhulp, Pleegcontract (alle GGM-hiaat)
 - [x] wmo-2015 (Rijksoverheid, wetten.overheid.nl, volledige wettekst Wmo 2015 BWBR0035362 per 2026-01-01) → 0 nieuwe BO's (wettelijke grondslag bestaande BO's)
+- [x] functionele-uitwerking-iwmo-ijw-3.1 (Ketenbureau i-Sociaal Domein, PDF, functionele uitwerking iWmo/iJw 3.1 berichtenstandaarden) → Niet-relevant (release notes, geen nieuwe BO's)
+- [x] procesbeschrijving-ijw-3.1 (Ketenbureau i-Sociaal Domein, PDF, procesbeschrijvingen iJw 3.1 berichtenverkeer) → verrijking bestaande BO's + 8 begrippen
+- [x] informatiemodel-gizo-concept (Zorginstituut Nederland, PDF concept 2025-11, conceptueel informatiemodel iWmo/iJw/iEb met GGM-aansluiting) → 2 nieuwe BO's: Zorgdeclaratie, Eigen bijdrage
 
 ## Milieu (4)
 - [ ] afval-en-circulaire-economie
@@ -325,9 +334,25 @@ basisregistratie BGT
 
 > **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (te dun). 5 bronbestanden (1 Divosa-publicatie) → 1 bronsamenvatting, 2 nieuwe BO's (Inkomensvoorziening, Draagkracht). Domein afgerond: 1 bronsamenvatting, 7 niet-relevant, 15 begrippen, 2 BO's.
 
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] wet-suwi-bwbr0013060 (Rijksoverheid, wetten.overheid.nl, Wet SUWI per 2026-01-01 — structuur en taken UWV, SVB, samenwerking gemeenten, re-integratie, toezicht) → 3 BO's: Werkzoekende (GGM exact), Trajectplan (GGM-hiaat), Instrument (GGM-hiaat)
+- [x] sgr-19-gegevensregister-suwi (BKWI, PDF, Gegevensregister SUWI 19.0 Deel 1 — conceptueel gegevensmodel en berichtenregister, 260 klassen, 930 attributen) → gebundeld met Wet SUWI
+
 ## ~~Inkoop (3)~~ ✓
 - [x] vng-model-inkoop-en-aanbestedingsbeleid (VNG, PDF, Model Inkoop- en Aanbestedingsbeleid 2025, modelbeleid met keuzeruimte voor gemeenten)
 - [x] inkoop-aanbestedingsbeleid-over-gemeenten (OVER-gemeenten Wormerland/Oostzaan, PDF, inkoop- en aanbestedingsbeleid gebaseerd op VNG-model)
 - [x] inkoop-aanbestedingsbeleid-west-betuwe (Gemeenten Culemborg/Tiel/West Betuwe, lokaleregelgeving.overheid.nl, gezamenlijk inkoopbeleid 2024-2027)
 
 > **Afgehandeld:** 3 bronnen verwerkt (VNG-modelbeleid + 2 gemeentelijke uitwerkingen) → 1 gebundelde bronsamenvatting. 8 nieuwe BO's: Aanbesteding, Contract, Leverancier, Gunning, Offerte, Inschrijving, Inkooppakket (alle GGM exact), Marktconsultatie (procesobject, GGM-hiaat). 17 begrippen. GGM Inkoop (20 entiteiten): 7 → BO, 8 → component/subtype, 5 → referentiedata. 4 terugmeldingen (#78-81: 2 duplicaten, 1 homoniem, 1 hiaat).
+
+## Asiel en Integratie (7)
+- [ ] asielopvang
+- [ ] Asielopvangwijzer alle informatie voor gemeenten
+- [ ] COA Dienstverleningsgids voor gemeenten_januari 2026_TG
+- [ ] handreiking-financieel-ontzorgen
+- [ ] inburgering
+- [ ] opvang-oekraiense-ontheemden
+- [ ] rubriek-asiel-tot-integratie
+
+### Aanvullende bronnen (niet in oorspronkelijke batch)
+- [x] regeling-inburgering-2021 (Rijksoverheid, wetten.overheid.nl, Regeling inburgering 2021 BWBR0045574 — ministeriële uitvoeringsregeling Wi2021) → 2 BO's: Vrijstelling (GGM exact), Ontheffing (GGM exact)

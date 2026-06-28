@@ -100,3 +100,5 @@ Een levering is de registratie van daadwerkelijk geleverde zorg of ondersteuning
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/procesbeschrijving-ijw-3.1]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/informatiemodel-gizo]]

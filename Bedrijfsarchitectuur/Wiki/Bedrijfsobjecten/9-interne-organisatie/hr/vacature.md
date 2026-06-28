@@ -28,7 +28,13 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Een arbeidsplaats binnen een bedrijf of organisatie die nog gevuld dient te worden door werkzoekenden."
-bo_toelichting: ''
+bo_toelichting: "In de context van dit BO: de gemeente als werkgever die eigen personeel zoekt via werving & selectie."
+bo_homoniemen:
+  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|Vacature (arbeidsmarkt)]]"
+    ggm_entiteit: ""
+    ggm_guid: ""
+    ggm_beleidsdomein: Werk
+    toelichting: "Vacature (arbeidsmarkt) is de gemeente als arbeidsmarktbemiddelaar die werkzoekenden matcht aan vacatures van werkgevers in de regio (VUM). Ander proces, andere relaties."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Arbeidsfunctie]]"

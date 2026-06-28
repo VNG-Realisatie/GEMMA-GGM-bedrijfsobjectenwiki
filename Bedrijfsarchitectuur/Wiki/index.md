@@ -5,10 +5,10 @@
 - [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie, raadsstukken, vergaderingen, stemmingen (afgerond, 7 BO's + Griffie-domein)
 - [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
-- [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid (afgerond, 10 BO's)
+- [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer, balans en financiële gezondheid (afgerond, 14 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR en BRO: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht (in behandeling, 26 BO's)
-- [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 15 BO's)
+- [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 17 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (13 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
@@ -22,14 +22,14 @@
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging (open — onvoldoende bronnen, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
-- [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 13 BO's)
+- [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, zorgdeclaratie, eigen bijdrage, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 15 BO's)
 - [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
 - [[sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
 - [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
 - [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (in behandeling, 11 BO's, 37 begrippen)
-- [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet: bijstand, loonkostensubsidies, re-integratie, beschut werk, financieringssystematiek (in behandeling, 4 BO's)
+- [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet en Wet SUWI: bijstand, werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), re-integratie, loonkostensubsidie, VUM-matching (in behandeling, 8 BO's)
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
@@ -144,6 +144,8 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering|voorbereiding-op-inburgering]] — Activiteiten voor asielstatushouders voor de formele inburgeringsplicht
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|opvanglocatie]] — Fysieke locatie voor opvang asielzoekers (procesobject, geen GGM)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|bestuursovereenkomst]] — Overeenkomst gemeente-COA per opvanglocatie (governance-object, geen GGM)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling|vrijstelling]] — Formeel besluit gehele/gedeeltelijke vrijstelling inburgeringsplicht (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing|ontheffing]] — Formeel besluit ontheffing inburgeringsplicht bij persoonlijke omstandigheden (GGM exact)
 
 ### Terug-en-invordering (GGM beleidsdomein, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering|vordering]] — Eis op een persoon die een bedrag moet (terug)betalen
@@ -330,9 +332,11 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering|levering]] — Daadwerkelijk geleverde zorg/ondersteuning (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning|pgb-toekenning]] — Toekenning persoonsgebonden budget (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/hulpverleningsplan|hulpverleningsplan]] — Verplicht plan voor jeugdhulpverlening of kinderbeschermingsmaatregel (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|zorgdeclaratie]] — Maandelijkse opgave zorgaanbieder aan gemeente van geleverde Wmo/Jw-producten (GGM exact, homoniem HR-Declaratie)
 
 ### Maatschappelijke Ondersteuning — Sociaal Domein Generiek (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|client]] — Inwoner die gebruik maakt van gemeentelijke ondersteuning sociaal domein (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage|eigen-bijdrage]] — Financiële bijdrage cliënt voor Wmo-voorzieningen, vastgesteld door CAK (GGM exact)
 
 ### Maatschappelijke Ondersteuning — Jeugdbescherming (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding|zorgmelding]] — Melding over veiligheid/ontwikkeling kind (GGM exact)
@@ -347,6 +351,10 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid|dakloosheid]] — Registratie dakloosheidsstatus (GGM exact)
 
 ### Werk en Inkomen (GGM beleidsdomein Werk + Model Inkomen, taakveld 6)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende|werkzoekende]] — Generiek werkprofiel met arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte (GGM exact, abstract, 25+ componenten)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/trajectplan|trajectplan]] — Overkoepelend plan dat re-integratieactiviteiten per werkzoekende organiseert (GGM-hiaat, SGR-klasse)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/instrument|instrument]] — Beschikbare dienst/tool voor toeleiding naar werk, catalogus-item Dennis & Eva (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|vacature (arbeidsmarkt)]] — Openstaande arbeidsplaats bij werkgever voor VUM-matching met werkzoekenden (GGM-hiaat, homoniem HR-Vacature)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|loonkostensubsidie]] — Tegemoetkoming aan werkgever voor verschil loonwaarde en WML (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/re-integratievoorziening|re-integratievoorziening]] — Voorziening gericht op vergroten arbeidskansen werkzoekende (GGM exact, 12 attributen)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening|inkomensvoorziening]] — Regeling die voorziet in inkomen conform landelijke wetgeving (GGM exact)
@@ -543,6 +551,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel|VNG — Rubriek Asiel tot integratie]] — VNG: rubriekspagina asiel en integratie
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|Asielopvangwijzer: alle informatie voor gemeenten]] — COA: portaalpagina asielopvang voor gemeenten
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|COA Dienstverleningsgids voor gemeenten (januari 2026)]] — COA: taakverdeling en dienstverlening (januari 2026)
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/regeling-inburgering-2021|Regeling inburgering 2021]] — Rijksoverheid: uitvoeringsregeling Wi2021 (vrijstellingen, ontheffingen, examens, lening)
 
 ### Beheer Openbare Ruimte
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/bomenbeleid-utrecht|Bomenbeleid Utrecht]] — Gemeente Utrecht: beleid beheer, behoud en ontwikkeling bomen (2009/2018)
@@ -641,10 +650,13 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|Wonen voor aandachtsgroepen]] — VNG: woonzorgvisie, aandachtsgroepen
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet|Jeugdwet (BWBR0034925)]] — Wettekst: gemeentelijke verantwoordelijkheid jeugdhulp, kinderbescherming, gesloten jeugdhulp, pleegzorg, PGB
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015|Wmo 2015 (BWBR0035362)]] — Wettekst: wettelijke grondslag maatwerkvoorzieningen, cliënt, PGB, beschermd wonen, opvang
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/procesbeschrijving-ijw-3.1|Procesbeschrijving iJw 3.1]] — Ketenproces jeugdhulp (beoordelen, toeleiden, leveren, declareren), drie uitvoeringsvarianten
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/informatiemodel-gizo|GIZO conceptversie]] — Conceptueel informatiemodel iWmo/iJw/iEb, GGM-aansluiting, Zorginstituut Nederland
 
 ### Werk en Inkomen
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand|Factsheet Bijzondere Bijstand]] — Divosa: bijzondere bijstand, beschermingsbewind, draagkracht (2024)
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw|Handreiking Explicitering budgetten Participatiewet en Wsw]] — Berenschot/Divosa/Cedris/VNG/SZW: financieringssystematiek Participatiewet (2025)
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en Gegevensregister SUWI 19.0]] — Rijksoverheid/BKWI: organisatiestructuur UWV-SVB-gemeenten, conceptueel gegevensmodel SUWI-keten, VUM, Dennis & Eva (2026)
 
 ### Schulden en Armoede
 - [[Wiki/Bronsamenvattingen/Schulden en Armoede/beleidsplan-schuldhulpverlening-den-haag-2024-2028|Beleidsplan Schuldhulpverlening Den Haag 2024-2028]] — Gemeente Den Haag: integrale schuldhulpverlening, vier pijlers, vroegsignalering, doelgroepen
@@ -675,3 +687,5 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] — Structureel patroon: GGM dekt data-objecten, niet processen of governance
 - [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] — Hiaten in het GGM: belastingendomein ontbreekt als conceptueel model
 - [[Wiki/Analyses/vng-rubrieken-mapping|vng-rubrieken-mapping]] — Mapping van 26 VNG-rubrieken op GGM-taakvelden en beleidsdomeinen
+- [[Wiki/Analyses/ggm-vergelijkingen|ggm-vergelijkingen]] — Totaaloverzicht alle GGM-vergelijkingen per onderwerp: structurele en functionele dekking
+- [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-financien|ggm-vergelijking-financien]] — GGM-entiteiten vs. bronbegrippen Financiën: 24 entiteiten, 14 BO's, 4 entiteit-hiaten, 1 BO-hiaat (Grootboek)

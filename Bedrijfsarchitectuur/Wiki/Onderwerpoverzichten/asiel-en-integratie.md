@@ -2,10 +2,10 @@
 type: onderwerp
 naam: asiel en integratie
 status: in-behandeling
-verwerkingsdatum: 2026-06-25
-bronnen_count: 7
-begrippen_count: 38
-bo_count: 15
+verwerkingsdatum: 2026-06-27
+bronnen_count: 8
+begrippen_count: 43
+bo_count: 17
 ---
 
 # Asiel en integratie
@@ -31,6 +31,8 @@ Gemeentelijke verantwoordelijkheden rondom asielopvang, huisvesting van statusho
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant\|Gezinsmigrant]] | doelgroep | Inburgeraar die niet via asiel maar via gezinshereniging inburgeringsplichtig is | ✅ | ja | 6/6, specialisatie van Inburgeraar | Nareiziger, partner | ja |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie\|Opvanglocatie]] | object | Locatie voor opvang asielzoekers of statushouders | ✅ | ja | 6/6, fysiek object met eigen registratie | AZC Ter Apel, noodopvanglocatie gemeente Z | ja |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst\|Bestuursovereenkomst]] | instrument | Overeenkomst gemeente-COA over opvanglocatie (Spreidingswet) | ✅ | ja | 6/6, juridisch instrument met eigen levenscyclus | Overeenkomst 5 jaar 300 plaatsen | ja |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling\|Vrijstelling]] | object | Formeel besluit gehele/gedeeltelijke vrijstelling inburgeringsplicht | ✅ | ja | 6/6, eigen levenscyclus (aanvraag → beschikking) | Vrijstelling o.b.v. hbo-diploma | ja |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing]] | object | Formeel besluit ontheffing inburgeringsplicht bij persoonlijke omstandigheden | ✅ | ja | 6/6, eigen levenscyclus (aanvraag → medisch onderzoek → beschikking) | Medische ontheffing spreekvaardigheid | ja |
 | financieel ontzorgen | object | Wettelijke taak: vaste lasten inhouden op bijstand (min. 6 maanden) | ❌ | nee | Proces vastgelegd in PIP en inkomensvoorziening, geen eigen levenscyclus | Inhouden huur + energie op uitkering | nee |
 | budgetbeheer | object | Beheer financiën via gemeentelijke beheerrekening | ❌ | ja | Uitvoeringswijze, valt onder Schuldhulptraject | Beheerrekening Kredietbank Rotterdam | nee |
 | inrichtingskrediet | object | Bijdrage woninginrichting (lening/gift) | ❌ | ja | Toepassing van Leenbijstand (GGM) | Leenbijstand €5.000, 36 termijnen | ja |
@@ -54,6 +56,11 @@ Gemeentelijke verantwoordelijkheden rondom asielopvang, huisvesting van statusho
 | ondersteuningsteam asiel | actor | Rijks ondersteuningsteam voor gemeenten | ❌ | nee | Externe actor, geen gemeentelijk object | ROT bij opvanglocatie-zoektocht | nee |
 | RP2 (Realisatie Plateau 2) | thema | Programma geautomatiseerde gegevensuitwisseling inburgering | ❌ | nee | Programma/project, geen data-object | Realisatie 2027, voorbereiding 2026 | nee |
 | financiële zelfredzaamheid | doel | Nagestreefde situatie: statushouder beheert eigen financiën | ❌ | nee | Doel/uitkomst, geen registratie-object | Nibud-scoreformulier stap 4 bereikt | nee |
+| examenonderdeel | object | Afgebakende component van inburgeringsexamen (lezen, luisteren, spreken, schrijven, KNM) | ❌ | ja | Component van Examen, geen zelfstandige levenscyclus | Examenonderdeel spreekvaardigheid A2, €50 | ja |
+| sociale lening | object | Financiering inburgeringsactiviteiten voor gezinsmigranten | ❌ | ja | Geadministreerd door Minister/DUO, niet gemeentelijk | Lening €10.000, draagkrachtafhankelijk | ja |
+| deskundigenverklaring | object | Medisch advies arts over ontheffing inburgeringsplicht | ❌ | ja | Processtuk bij Ontheffing, geen eigen BO | Advies arts conform protocol bijlage 1 | nee |
+| inburgeringsdiploma | object | Formeel eindbewijsstuk inburgering | ❌ | ja | Resultaat/uitkomst van Inburgeringstraject | Model conform bijlage 4 | ja |
+| verlengingsgrond | object | Wettelijk erkende reden voor verlenging inburgeringstermijn | ❌ | ja | Component van Inburgeringstermijn | Langdurige ziekte, bevalling, dakloosheid | ja |
 
 ## Verwerkte bronnen
 
@@ -64,6 +71,7 @@ Gemeentelijke verantwoordelijkheden rondom asielopvang, huisvesting van statusho
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel|VNG — Rubriek Asiel tot integratie]]
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer|Asielopvangwijzer: alle informatie voor gemeenten]]
 - [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids|COA Dienstverleningsgids voor gemeenten (januari 2026)]]
+- [[Wiki/Bronsamenvattingen/Asiel en Integratie/regeling-inburgering-2021|Regeling inburgering 2021]]
 
 ## Nog te verwerken bronnen
 

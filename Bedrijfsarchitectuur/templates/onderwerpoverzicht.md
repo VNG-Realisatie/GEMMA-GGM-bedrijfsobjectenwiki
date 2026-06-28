@@ -29,13 +29,14 @@ Het onderwerpoverzicht is de **centrale werkpagina** per onderwerp. Het bevat al
 
 ### Begripstypen
 
-De kolom "Type" in de begrippentabel heeft een van deze 7 waarden:
+De kolom "Begripstype" in de begrippentabel heeft een van deze waarden:
 
 | Begripstype | Omschrijving | ArchiMate-elementtype |
 |---|---|---|
 | **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object |
-| **instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product |
-| **actor** | Rol, organisatie, samenwerkingsverband | Business Actor / Role |
+| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product |
+| **actor** | Organisatie, afdeling, samenwerkingsverband | Business Actor |
+| **rol** | Functie of verantwoordelijkheid die een actor vervult | Business Role |
 | **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome |
@@ -49,7 +50,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
 - **Begrippentabel** — het hart van de pagina:
 
 ```markdown
-| Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
+| Begrip | Begripstype | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | object | Onroerende zaak voor WOZ-waardering | ✅ | ja | 6/6 criteria, exact match | Woning, kantoor | ja |
 | belastingaanslag | object | Individuele vaststelling belastingbedrag | ✅ | ja | 6/6 criteria, GGM-hiaat | OZB-aanslag 2025 | nee |
@@ -58,7 +59,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
 ```
 
   - **Begrip**: `[[BO-naam]]` naar BO-pagina als het een BO is, anders platte tekst
-  - **Type**: begripstype (zie tabel hierboven)
+  - **Begripstype**: begripstype uit `/assess-bo` (object, governance-instrument, actor, rol, doelgroep, thema, doel, waarde)
   - **Omschrijving**: identiek aan de BO-definitie als het een BO is
   - **BO?**: ✅ of ❌
   - **Data-object**: ja/nee — wordt dit begrip als zelfstandige entiteit vastgelegd in een informatiesysteem (eigen attributen)? Onafhankelijke classificatie naast BO?: een begrip kan BO=❌ maar Data-object=ja zijn (te granulair voor BO, wél geregistreerd), of BO=✅ maar Data-object=nee (governance-object). Data-objecten met GGM=nee zijn de sterkste kandidaten voor GGM-hiaten.

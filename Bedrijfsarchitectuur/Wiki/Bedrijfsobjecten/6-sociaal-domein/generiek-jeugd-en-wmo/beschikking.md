@@ -108,3 +108,5 @@ De GGM-definitie beschrijft het generieke juridische begrip ("In het bestuursrec
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/jeugdwet]]
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wmo-2015]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/procesbeschrijving-ijw-3.1]]
+- [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/informatiemodel-gizo]]

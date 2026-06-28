@@ -27,11 +27,16 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
-ggm_duplicaat_entiteiten:
-  - "EAID_5E542F35_E413_49c4_8FB7_335B6BE9667A"
+ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Een opgave van te vergoeden kosten."
 bo_toelichting: ''
+bo_homoniemen:
+  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]]"
+    ggm_entiteit: Declaratie
+    ggm_guid: EAID_5E542F35_E413_49c4_8FB7_335B6BE9667A
+    ggm_beleidsdomein: "Generiek Jeugd en Wmo"
+    toelichting: "Zorgdeclaratie betreft vergoeding van geleverde zorg door een aanbieder; HR-declaratie betreft onkostenvergoeding van een werknemer"
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"
@@ -59,7 +64,7 @@ Score: **6/6**
 
 Een declaratie is een opgave van kosten die een werknemer ter vergoeding indient bij de werkgever. Declaratiesoorten (reiskosten, verblijfkosten, studiekosten, etc.) worden als enumeratie vastgelegd via Declaratiesoort.
 
-NB: Het GGM heeft ook een entiteit "Declaratie" in beleidsdomein Generiek Jeugd en Wmo (taakveld 6). Dit BO betreft de HR-variant.
+**Homoniem:** de GGM-entiteit "Declaratie" in beleidsdomein Generiek Jeugd en Wmo is een ander concept — de [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]] van een zorgaanbieder aan de gemeente.
 
 ## GGM-bron
 
