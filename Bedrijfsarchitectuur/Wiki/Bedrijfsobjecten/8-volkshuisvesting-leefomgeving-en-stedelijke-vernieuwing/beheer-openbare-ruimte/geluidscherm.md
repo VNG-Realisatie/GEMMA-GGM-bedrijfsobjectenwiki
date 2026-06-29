@@ -45,7 +45,6 @@ bo_relaties:
     kardinaliteit: 1
     beschrijving: Geluidscherm is een specialisatie van Scheiding (GGM)
 ---
-
 ## BO-criteria toetsing
 
 | Criterium | Toepassing |

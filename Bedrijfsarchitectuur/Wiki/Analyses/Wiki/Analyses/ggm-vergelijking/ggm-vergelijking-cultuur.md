@@ -1,2 +1,0 @@
-# ggm-vergelijking-cultuur
-

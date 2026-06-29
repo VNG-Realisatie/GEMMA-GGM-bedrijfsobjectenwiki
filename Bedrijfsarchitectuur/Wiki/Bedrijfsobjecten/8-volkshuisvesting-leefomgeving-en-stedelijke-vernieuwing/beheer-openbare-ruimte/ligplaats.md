@@ -64,14 +64,14 @@ bedrijfsfuncties: [Havendienst, BAG-beheer, Vergunningverlening, Handhaving]
 
 ## BO-criteria toetsing
 
-| Criterium | Van toepassing? | Toelichting |
-|---|---|---|
-| Heeft betekenis binnen het domein | ✅ | Centraal begrip in havenbeheer, stadswatersbeleid en woonbotenbeleid |
-| Is herkenbaar voor domeinexperts | ✅ | Standaardbegrip in havenbeheer, BAG, vergunningverlening en handhaving |
-| Heeft een eigen bestaan binnen het domein | ✅ | Elke ligplaats heeft een locatie, een vergunninghouder en een type vaartuig |
-| Kan in meervoud bestaan | ✅ | 482 recreatieve + 37 commerciële ligplaatsvergunningen, 334 woonboten |
-| Heeft een eigen levenscyclus | ✅ | Aanwijzing → vergunningverlening → in gebruik → toezicht → eventueel opheffing |
-| Heeft relaties met andere concepten | ✅ | [[Waterobject]], [[Woonboot]], Nummeraanduiding |
+| Criterium                                 | Van toepassing? | Toelichting                                                                    |
+| ----------------------------------------- | --------------- | ------------------------------------------------------------------------------ |
+| Heeft betekenis binnen het domein         | ✅               | Centraal begrip in havenbeheer, stadswatersbeleid en woonbotenbeleid           |
+| Is herkenbaar voor domeinexperts          | ✅               | Standaardbegrip in havenbeheer, BAG, vergunningverlening en handhaving         |
+| Heeft een eigen bestaan binnen het domein | ✅               | Elke ligplaats heeft een locatie, een vergunninghouder en een type vaartuig    |
+| Kan in meervoud bestaan                   | ✅               | 482 recreatieve + 37 commerciële ligplaatsvergunningen, 334 woonboten          |
+| Heeft een eigen levenscyclus              | ✅               | Aanwijzing → vergunningverlening → in gebruik → toezicht → eventueel opheffing |
+| Heeft relaties met andere concepten       | ✅               | [[Waterobject]], [[Woonboot]], Nummeraanduiding                                |
 
 Score: 6/6.
 

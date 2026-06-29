@@ -131,7 +131,7 @@ Formats voor `index.md` en `log.md`: zie `templates/index-log.md`.
 Alle beoordelingslogica staat in de skills, niet in dit bestand:
 - **BO-beoordeling:** `/assess-bo` — domeinbepaling, begripstype, criteria, subtypes, data-object classificatie, hiaat, autonomieregels
 - **BO vastleggen:** `/write-bo` — grondslag, matchsterkte, frontmatter, relaties, pagina, terugmelding
-- **GGM-dekking:** `/coverage` — batch GGM→wiki dekkingssweep per beleidsdomein
+- **Entiteitendekking:** `/entiteitendekking` — uniforme GGM-analyse per taakveld/beleidsdomein (vervangt coverage, bo-coverage, ggm-vergelijking)
 
 ### Conventies
 
@@ -194,7 +194,7 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **ingest** | `/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
 | **assess-bo** | `/assess-bo {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
 | **write-bo** | `/write-bo {BO}` | BO vastleggen: GGM-match, frontmatter, pagina aanmaken |
-| **coverage** | `/coverage dekking` | GGM-dekkingsanalyse: centrale pagina per beleidsdomein, telt entiteiten/BO's, signaleert welke beleidsdomeinen bronnen hebben |
+| **entiteitendekking** | `/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten (vervangt coverage, bo-coverage, ggm-vergelijking) |
 | **domain-status** | `/domain-status {onderwerp}` | Read-only voortgangsrapportage |
 | **lint** | `/lint [onderwerp]` | Consistentiechecks op wiki tegen templates en skills |
 | **fetch** | `/fetch {URL}` | URL ophalen als bronbestand in `Sources/` |
@@ -202,10 +202,8 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 | **export-ggm** | `/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki |
 | **generate-ggm** | `/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen) |
 | **audit-duplicaten** | `/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's |
-| **bo-coverage** | `/bo-coverage` | Structurele BO-dekking: per GGM-entiteit bepalen of het een BO heeft of met reden geen BO is; signaleert waar bronnen gezocht moeten worden |
-| **ggm-vergelijking** | `/ggm-vergelijking {onderwerp}` | GGM-entiteiten en bronbegrippen naast elkaar leggen: matches, classificatie van niet-BO's, hiaten |
 
-**Model voorkeur:** `/coverage`, `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
+**Model voorkeur:** `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
 
 ## Tools
 
@@ -217,7 +215,7 @@ Python-scripts in `tools/` voor XMI-verwerking.
 | `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. |
 | `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed JSON |
 | `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's |
-| `bo_coverage_assess.py` | Classificeer alle GGM Objecttype-entiteiten als BO, niet-BO of te-beoordelen. Output: JSON + markdown in `Wiki/Analyses/` |
+| `entiteitendekking.py` | Uniforme GGM-analyse: match, classificeer, traceer relaties, genereer per-taakveld rapporten + totaaloverzicht |
 
 ### GGM-data gebruiken
 
