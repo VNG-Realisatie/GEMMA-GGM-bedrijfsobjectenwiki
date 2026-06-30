@@ -47,6 +47,31 @@ bo_relaties:
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: "Applicatie verwerkt persoonsgegevens conform verwerkingsregister"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling|Koppeling]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Applicatie is verbonden met andere systemen via koppelingen"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database|Database]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Applicatie gebruikt een of meer databases"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server|Server]]"
+    richting: naar-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Applicatie draait op een server (on-premises)"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie|Licentie]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Applicatie wordt gebruikt op basis van licenties"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla|Service Level Agreement]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..1"
+    beschrijving: "SLA beschrijft het onderhoudsniveau voor de applicatie"
 bedrijfsprocessen: [Applicatiebeheer, Leveranciersmanagement, ICT-projectmanagement]
 bedrijfsfuncties: [Informatievoorziening, ICT-beheer]
 ---
@@ -81,14 +106,10 @@ Entiteit: Applicatie | Matchsterkte: **exact** | Attributen: naam, categorie, be
 
 ## GGM-componenten
 
-GGM-entiteiten die onderdeel zijn van het applicatiebeheer. Gemodelleerd als aparte entiteiten in het GGM (voor CMDB-registratie) maar vormen geen zelfstandig bedrijfsobject.
+GGM-entiteiten die onderdeel zijn van het applicatiebeheer. Gemodelleerd als aparte entiteiten in het GGM maar vormen geen zelfstandig bedrijfsobject.
 
 - **Versie** — versie-aanduiding met versienummer, status, datumEindeSupport, licentie, aantal, kosten
-- **Koppeling** — verbinding tussen twee systemen (direct, beschrijving, toelichting)
 - **Package** — samengesteld bestand of directory; gekoppeld aan een project
-- **Database** — applicatiecomponent die een dataset bevat; sibling van Applicatie onder Linkbaar CMDB-item
-- **Server** — computer die in een netwerk een ondersteunende taak vervult
-- **Licentie** — gebruiksrecht en autorisatie om van een product of dienst gebruik te maken
 - **Log** — registratie van gegevens met tijd en omschrijving
 
 ## Relaties
@@ -98,6 +119,11 @@ GGM-entiteiten die onderdeel zijn van het applicatiebeheer. Gemodelleerd als apa
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] | naar-dit-BO | Applicatie wordt geleverd onder een contract (GIBIT, SaaS) |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | naar-dit-BO | Applicatie wordt geleverd en beheerd door een leverancier |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit\|Verwerkingsactiviteit]] | van-dit-BO | Applicatie verwerkt persoonsgegevens conform verwerkingsregister |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] | van-dit-BO | Applicatie is verbonden met andere systemen via koppelingen |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database\|Database]] | van-dit-BO | Applicatie gebruikt een of meer databases |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server\|Server]] | naar-dit-BO | Applicatie draait op een server (on-premises) |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | van-dit-BO | Applicatie wordt gebruikt op basis van licenties |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla\|Service Level Agreement]] | van-dit-BO | SLA beschrijft het onderhoudsniveau voor de applicatie |
 
 ## Bedrijfsprocessen
 

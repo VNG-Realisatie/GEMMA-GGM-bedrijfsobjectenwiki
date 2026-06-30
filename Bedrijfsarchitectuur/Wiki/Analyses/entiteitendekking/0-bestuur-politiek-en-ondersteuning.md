@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 0 Bestuur, Politiek en Ondersteuning"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "0 Bestuur, Politiek en Ondersteuning"
 beleidsdomeinen:
   - Griffie

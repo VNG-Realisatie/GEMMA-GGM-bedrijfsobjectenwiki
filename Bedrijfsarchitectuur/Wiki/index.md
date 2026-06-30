@@ -31,6 +31,7 @@
 - [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (in behandeling, 11 BO's, 37 begrippen)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet en Wet SUWI: bijstand, werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), re-integratie, loonkostensubsidie, VUM-matching (in behandeling, 8 BO's)
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
+- [[Wiki/Onderwerpoverzichten/informatiesystemen|informatiesystemen]] — IT-beheer, applicatielandschap, CMDB, GIBIT-voorwaarden, ITSM: koppeling, licentie, server, database, software, hardware, netwerkcomponent, storing, wijzigingsverzoek, SLA (afgerond, 12 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
@@ -426,6 +427,16 @@
 ### ICT (taakveld 9 Interne Organisatie)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie|applicatie]] — Softwaretoepassing ter ondersteuning eindgebruikers, ~250 per gemeente (GGM exact)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/dataproduct|dataproduct]] — Dashboard, rapportage of analyse als resultaat van datagedreven werken (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling|koppeling]] — Systematiek voor data-uitwisseling tussen systemen (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie|licentie]] — Gebruiksrecht op ICT-product of -dienst (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server|server]] — Computer die in een netwerk een ondersteunende taak vervult (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database|database]] — Applicatiecomponent die een gestructureerde dataset bevat (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/software|software]] — Computerprogrammatuur: OS, middleware, databasesoftware (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/hardware|hardware]] — Fysieke IT-componenten: werkstations, printers, thin clients (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/netwerkcomponent|netwerkcomponent]] — Switches, routers, firewalls voor netwerkcommunicatie (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict|storing (ICT)]] — Verlies van mogelijkheid om volgens specificatie te werken (GGM exact, homoniem BOR)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek|wijzigingsverzoek]] — Aanvraag voor wijziging aan het applicatielandschap (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla|service level agreement]] — Onderhoudsnormen voor ICT-prestatie (governance-object, GGM-hiaat)
 
 ## GGM (referentie — zie Sources/GGM/)
 
@@ -519,6 +530,10 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP: normenkader informatiebeveiliging, ISMS, overheidsmaatregelen
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] — strategisch informatiebeleid, applicatielandschap, datagedreven werken
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband, outsourcing, applicatiebeheer
+
+### Informatiesystemen
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]] — VNG Realisatie: standaard IT-inkoopvoorwaarden (46 artikelen), begripsbepalingen ICT-domein, AI-systemen, SLA
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]] — TechTarget CMDB-concept + VNG handreiking informatiebeheerplan, CMDB-structuur, CI's
 
 ### Economie
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
@@ -692,3 +707,4 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-cultuur|ggm-vergelijking-cultuur]] — GGM-entiteiten vs. bronbegrippen Cultuur: 74 entiteiten (5 beleidsdomeinen), 8 BO's, 1 entiteit-hiaat (Orgel), 0 BO-hiaten
 - [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-asiel-en-integratie|ggm-vergelijking-asiel-en-integratie]] — GGM-entiteiten vs. bronbegrippen Asiel en Integratie: 35 entiteiten (Inburgering), 17 BO's, 2 entiteit-hiaten (asielopvang), 0 BO-hiaten
 - [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-basisregistraties|ggm-vergelijking-basisregistraties]] — GGM-entiteiten vs. bronbegrippen Basisregistraties: 91 entiteiten (BAG + RSGBPlus), 30 BO's, 6 entiteit-hiaten (BRK-brondocumenten + BRO), 0 BO-hiaten
+- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|entiteitendekking 9 Interne Organisatie]] — 148 entiteiten, 44 BO-matches, 9 hiaten; ICT (10 BO's, meta-model en CMDB-hiërarchie), Inkoop (7), Financien (10), HR (11), Vastgoed (5)

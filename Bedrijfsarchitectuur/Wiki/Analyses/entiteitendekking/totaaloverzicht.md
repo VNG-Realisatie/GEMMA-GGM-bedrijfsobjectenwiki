@@ -1,12 +1,20 @@
 ---
 type: analyse
 titel: "Entiteitendekking — totaaloverzicht"
-datum: 2026-06-29
+datum: 2026-06-30
 ---
 
 # Entiteitendekking — totaaloverzicht
 
-916 GGM-entiteiten. Dekking: 779 gedekt (85%), 137 niet gedekt. 102 BO's zonder GGM-entiteit.
+| Maat | Waarde |
+|---|---|
+| GGM-entiteiten | 916 |
+| Entiteiten met BO | 206 |
+| Entiteiten ondersteunend aan BO | 582 |
+| Niet gedekt | 128 |
+| Niet gedekt (%) | 14% |
+| BO's zonder GGM-entiteit | 103 |
+| **BO's totaal** | **309** |
 
 | Taakveld | Beleidsdomein | GGM-entiteiten | Entiteiten met BO | Entiteiten ondersteunend aan BO | Niet gedekt | Dekking | BO zonder GGM-entiteit |
 |---|---|---|---|---|---|---|---|
@@ -45,16 +53,16 @@ datum: 2026-06-29
 |  | | | | | | | 3 |
 | **[[Wiki/Analyses/entiteitendekking/9-interne-organisatie\|9 Interne Organisatie]]** | Financien | 24 | 10 | 14 | 0 | 100% | |
 |  | HR | 31 | 11 | 20 | 0 | 100% | |
-|  | ICT | 35 | 1 | 17 | 17 | 51% | |
+|  | ICT | 35 | 10 | 16 | 9 | 74% | |
 |  | Inkoop | 20 | 7 | 13 | 0 | 100% | |
 |  | Organisatie-indeling | 2 | 1 | 1 | 0 | 100% | |
 |  | Subsidies | 9 | 0 | 9 | 0 | 100% | |
 |  | Vastgoed | 27 | 5 | 21 | 1 | 96% | |
-|  | | | | | | | 8 |
+|  | | | | | | | 9 |
 | **[[Wiki/Analyses/entiteitendekking/10-dienstverlening\|10 Dienstverlening]]** | 10 Dienstverlening | 16 | 3 | 12 | 1 | 94% | |
 |  | | | | | | | 9 |
 | **[[Wiki/Analyses/entiteitendekking/99-kern\|99 Kern]]** | 99 Kern | 10 | 0 | 10 | 0 | 100% | |
 |  | BAG | 13 | 10 | 2 | 1 | 92% | |
 |  | RGBZPlus | 37 | 10 | 23 | 4 | 89% | |
-|  | RSGBPlus | 95 | 14 | 66 | 15 | 84% | |
+|  | RSGBPlus | 95 | 14 | 67 | 14 | 85% | |
 |  | | | | | | | 6 |

@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 10 Dienstverlening"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "10 Dienstverlening"
 beleidsdomeinen:
   - 10 Dienstverlening

@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 5 Sport, Cultuur en Recreatie"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "5 Sport, Cultuur en Recreatie"
 beleidsdomeinen:
   - Erfgoed

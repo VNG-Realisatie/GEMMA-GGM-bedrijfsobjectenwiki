@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 3 Economie"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "3 Economie"
 beleidsdomeinen:
   - 3 Economie

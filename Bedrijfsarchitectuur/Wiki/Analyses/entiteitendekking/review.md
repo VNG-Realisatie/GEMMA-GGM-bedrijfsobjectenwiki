@@ -1,6 +1,6 @@
-# Entiteitendekking review — 2026-06-29
+# Entiteitendekking review — 2026-06-30
 
-Totaal review-items: 106.
+Totaal review-items: 105.
 
 ## Samenvatting
 
@@ -15,7 +15,7 @@ Totaal review-items: 106.
 | 6 Sociaal Domein | 285 | 49 | 38 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 0 |
 | 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 26 | 27 |
-| 9 Interne Organisatie | 148 | 35 | 14 |
+| 9 Interne Organisatie | 148 | 44 | 13 |
 | 10 Dienstverlening | 16 | 3 | 2 |
 | 99 Kern | 155 | 34 | 8 |
 
@@ -145,7 +145,6 @@ Synoniemen: Sportveld
 ### 9 Interne Organisatie — ICT
 
 - **Attribuutsoort** → detail (19 attrs). Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype 
-- **Database** → detail (7 attrs). Een applicatiecomponent die een dataset bevat.
 - **Datatype** → detail (11 attrs). Attribuutsoort – Stereotype «Attribuutsoort»: De UML-representatie van een attribuutsoort, uitgedrukt in een stereotype 
 - **Generalisatie** → detail (9 attrs). De typering van het hiërarchische verband tussen een meer generiek object van een objecttype en een meer specifiek objec
 - **Objecttype** → detail (13 attrs). De typering van een groep objecten (in de werkelijkheid) die binnen een domein relevant zijn en als gelijksoortig worden

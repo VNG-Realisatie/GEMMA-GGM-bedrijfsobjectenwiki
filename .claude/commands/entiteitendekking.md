@@ -35,6 +35,22 @@ Elk per-taakveld rapport heeft een `## Beoordeling` sectie bovenin met `<!-- REV
 1. Update `Wiki/index.md` met de nieuwe analyse-pagina's
 2. Voeg entry toe aan `Wiki/log.md`
 
+## Totaaloverzicht
+
+`totaaloverzicht.md` bevat een **totaalrij bovenin** de detailtabel met kolomtotalen:
+
+| Maat | Berekening |
+|---|---|
+| GGM-entiteiten | som kolom GGM-entiteiten |
+| Entiteiten met BO | som kolom Entiteiten met BO |
+| Entiteiten ondersteunend aan BO | som kolom Entiteiten ondersteunend aan BO |
+| Niet gedekt | som kolom Niet gedekt |
+| Niet gedekt (%) | Niet gedekt / GGM-entiteiten × 100 |
+| BO's zonder GGM-entiteit | som kolom BO zonder GGM-entiteit |
+| **BO's totaal** | Entiteiten met BO + BO's zonder GGM-entiteit |
+
+Na het draaien van het script: **verifieer** dat de totaalrij overeenkomt met de kolomsommen. Het script overschrijft `totaaloverzicht.md` bij elke run — handmatige aanpassingen aan de totaalrij moeten na het script worden aangebracht als het script dit nog niet automatisch doet.
+
 ## Rapportstructuur
 
 Per taakveld: secties per beleidsdomein, elk met drie tabellen:

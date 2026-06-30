@@ -115,6 +115,13 @@ Status: 148 bronnen in 24 batches.
 
 > **Afgehandeld:** 2 bronnen verwerkt. 4 nieuwe BO's (Reserve, Financiële Voorziening, Verbonden Partij, Jaarrekening), alle GGM-hiaten. 9 nieuwe begrippen, 29 totaal, 14 BO's. 4 GGM-terugmeldingen (#88-91).
 
+## ~~Informatiesystemen (3)~~ ✓
+- [x] configuration-management-database-cmdb
+- [x] handreiking-informatiebeheerplan
+- [x] gibit-2025-artikelen
+
+> **Afgehandeld:** 3 bronnen verwerkt (GIBIT 2025, CMDB TechTarget, VNG Handreiking Informatiebeheerplan). 2 bronsamenvattingen. 10 nieuwe BO's: Koppeling, Licentie, Server, Database, Software, Hardware, Netwerkcomponent, Storing (ICT), Wijzigingsverzoek, Service Level Agreement (9 GGM exact, 1 governance-object). Applicatie BO bijgewerkt (GGM-componenten → relaties). GGM ICT-domein (35 entiteiten): 11 → BO, 2 → abstract, 12 → meta-model, 10 → niche/referentie. Homoniem Storing (ICT/BOR) geambigueerd. Terugmelding: typefout Nertwerkcomponent.
+
 ## ~~Informatiesamenleving (13)~~ ✓
 - [x] ai-en-algoritmen
 - [x] archieven

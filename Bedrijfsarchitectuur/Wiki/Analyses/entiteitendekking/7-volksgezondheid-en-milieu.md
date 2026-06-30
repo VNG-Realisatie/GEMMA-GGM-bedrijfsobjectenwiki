@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 7 Volksgezondheid en Milieu"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "7 Volksgezondheid en Milieu"
 beleidsdomeinen:
   - Afval

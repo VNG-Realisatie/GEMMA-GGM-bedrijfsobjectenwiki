@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 6 Sociaal Domein"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "6 Sociaal Domein"
 beleidsdomeinen:
   - Dak- en thuislozen

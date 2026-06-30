@@ -1,5 +1,26 @@
 # Wiki Log
 
+## [2026-06-30] analyse | Entiteitendekking 9 Interne Organisatie
+
+- **Pagina:** [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|Entiteitendekking 9 Interne Organisatie]]
+- **Scope:** 7 beleidsdomeinen (Financien, HR, ICT, Inkoop, Organisatie-indeling, Subsidies, Vastgoed), 148 GGM-entiteiten
+- **Resultaat:** 44 BO-matches (30%), 94 ondersteunend, 10 niet gedekt, 9 BO-hiaten
+- **ICT-specifiek:** 35 entiteiten, 10 BO-matches. Meta-model (MIM) entiteiten correct als detail geclassificeerd. CMDB-hiërarchie abstracte constructen. Niche-entiteiten (Inventaris, Toegangsmiddel, Vervoersmiddel, Telefoniegegevens) onvoldoende uitgewerkt in GGM.
+- **Beoordeling:** verrijkt met structurele patronen, cross-domein observaties
+- **Index:** bijgewerkt
+
+## [2026-06-29] ingest | Informatiesystemen
+
+- **Bronnen:** 3 (GIBIT 2025, CMDB TechTarget, VNG Handreiking Informatiebeheerplan)
+- **Bronsamenvattingen:** 2 (GIBIT 2025, CMDB & Informatiebeheerplan gebundeld)
+- **Nieuwe BO's:** 10 — Koppeling, Licentie, Server, Database, Software, Hardware, Netwerkcomponent, Storing (ICT), Wijzigingsverzoek, Service Level Agreement
+- **Bestaande BO's bijgewerkt:** Applicatie (Koppeling, Database, Server, Licentie verplaatst van GGM-componenten naar relaties)
+- **GGM-dekking:** 9 GGM exact, 1 governance-object (SLA, GGM-hiaat)
+- **Homoniem:** Storing (ICT) vs. Storing (BOR) — geambigueerd met suffix
+- **GGM-terugmelding:** typefout "Nertwerkcomponent" → "Netwerkcomponent"
+- **Onderwerpoverzicht:** [[Wiki/Onderwerpoverzichten/informatiesystemen]] aangemaakt (21 begrippen, 12 BO's)
+- **Index:** bijgewerkt met 10 nieuwe BO's en 2 bronsamenvattingen
+
 ## [2026-06-28] analyse | GGM-vergelijking Basisregistraties
 
 - **Pagina:** [[Wiki/Analyses/ggm-vergelijking/ggm-vergelijking-basisregistraties|GGM-vergelijking Basisregistraties]]

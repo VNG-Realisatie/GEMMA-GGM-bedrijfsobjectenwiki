@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 9 Interne Organisatie"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "9 Interne Organisatie"
 beleidsdomeinen:
   - Financien
@@ -12,20 +12,33 @@ beleidsdomeinen:
   - Subsidies
   - Vastgoed
 totaal_entiteiten: 148
-totaal_bo: 43
-totaal_matches: 35
-totaal_hiaten: 8
+totaal_bo: 53
+totaal_matches: 44
+totaal_hiaten: 9
 ---
 
 # Entiteitendekking: 9 Interne Organisatie
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
+7 beleidsdomeinen, 148 GGM-entiteiten. Dekking: 138 van 148 (93%) — 44 met BO, 94 ondersteunend, 10 niet gedekt. 9 BO's zonder GGM-entiteit.
 
-7 beleidsdomeinen, 148 GGM-entiteiten. Dekking: 130 van 148 (88%) — 35 met BO, 95 ondersteunend, 18 niet gedekt. 8 BO's zonder GGM-entiteit.
+Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 87× detail, 2× rol.
 
-Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 96× detail, 2× rol.
+### Structurele patronen
+
+**ICT (35 entiteiten, 10 BO's):** Het ICT-domein kent twee structurele patronen onder de niet-BO entiteiten:
+1. **CMDB-hiërarchie** — CMDB-item en Linkbaar CMDB-item zijn abstracte GGM-constructen die de overervingsstructuur modelleren. De concrete subtypes (Applicatie, Server, Database, Hardware, Software, Netwerkcomponent, Licentie) zijn wél BO's.
+2. **Meta-model (MIM)** — Attribuutsoort, Datatype, Generalisatie, Objecttype, Relatiesoort zijn MIM-constructen die het informatiemodel zelf beschrijven, niet gemeentelijke objecten. Ze staan in het GGM omdat het GGM ook een gegevensmodel voor gegevensmodellen bevat.
+3. **Niche-entiteiten** — Inventaris, Toegangsmiddel, Vervoersmiddel, Telefoniegegevens hebben 0 attributen en geen relaties naar BO's. Ze zijn onvoldoende uitgewerkt in het GGM om als BO te beoordelen.
+
+**Homoniem:** Storing (ICT) vs. Storing (BOR) — geambigueerd met suffix.
+**Terugmelding:** typefout "Nertwerkcomponent" in GGM.
+**Governance-hiaat:** Service Level Agreement (SLA) is een BO zonder GGM-grondslag — structureel verwacht (GGM modelleert geen contracten).
+
+### Cross-domein
+
+Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT) en Dienstverlening (Zaaktype, Verwerkingsactiviteit). De CMDB-structuur is de ruggengraat die alle ICT-BO's verbindt.
 
 ## Financien
 
@@ -112,13 +125,22 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 96× detail, 2�
 
 ## ICT
 
-35 entiteiten, 1 Entiteiten met BO.
+35 entiteiten, 10 Entiteiten met BO.
 
 ### Entiteiten met BO
 
 | GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/9-interne-organisatie/ict\|Applicatie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Database]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database\|Database]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Hardware]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/hardware\|Hardware]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Koppeling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Licentie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Nertwerkcomponent]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/netwerkcomponent\|Netwerkcomponent]] ✅ | synoniem |  | BO hernoemd: Netwerkcomponent |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Server]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server\|Server]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Software]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/software\|Software]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Storing]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict\|Storing (ICT)]] ✅ | synoniem |  | BO hernoemd: Storing (ICT) |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Wijzigingsverzoek]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek\|Wijzigingsverzoek]] ✅ | — |  | Exact match |
 
 ### Entiteiten zonder BO
 
@@ -128,21 +150,16 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 96× detail, 2�
 | [[Wiki/GGM/9-interne-organisatie/ict\|Attribuutsoort]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|CMDB-item]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Classificatie]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Database]] | detail | via Server → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Datatype]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Dienst]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Domein/Taakveld]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Externe Bron]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Gegeven]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Generalisatie]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Hardware]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Inventaris]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Koppeling]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Licentie]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Linkbaar CMDB-item]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Linkbaar CMDB-item]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Log]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Melding]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Nertwerkcomponent]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Notitie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Objecttype]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Onderwerp]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
@@ -150,14 +167,10 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 96× detail, 2�
 | [[Wiki/GGM/9-interne-organisatie/ict\|Prijzenboek]] | detail | via Product → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Product]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Relatiesoort]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Server]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Software]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Storing]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Telefoniegegevens]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Toegangsmiddel]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Versie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Vervoersmiddel]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Wijzigingsverzoek]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 
 ## Inkoop
 
@@ -165,15 +178,15 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 96× detail, 2�
 
 ### Entiteiten met BO
 
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
-|---|---|---|---|---|
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅ | synoniem | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|Opleidingsinschrijving]] | BO hernoemd: Aanbieding |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exact match |
+| GGM-entiteit                                            | BO                                                                                  | Entiteitstype | Naamoverlap                                                          | Beoordeling              |                         |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------- | ------------------------ | ----------------------- |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | —             |                                                                      | Exact match              |                         |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]]     | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅         | —             |                                                                      | Exact match              |                         |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]]      | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅           | —             |                                                                      | Exact match              |                         |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | —             |                                                                      | Exact match              |                         |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅     | synoniem      | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving\|Opleidingsinschrijving]] | BO hernoemd: Aanbieding |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]]  | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅   | —             |                                                                      | Exact match              |                         |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]]      | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅           | —             |                                                                      | Exact match              |                         |
 
 ### Entiteiten zonder BO
 
@@ -281,4 +294,5 @@ BO's waarvoor geen overeenkomstige GGM-entiteit bestaat. Data-objecten worden al
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening\|Jaarrekening]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/marktconsultatie\|Marktconsultatie]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/reserve\|Reserve]] | nee | procesobject | **Alleen GEMMA-BO** |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla\|Service Level Agreement]] | nee | governance-object | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verbonden-partij\|Verbonden Partij]] | nee | procesobject | **Alleen GEMMA-BO** |

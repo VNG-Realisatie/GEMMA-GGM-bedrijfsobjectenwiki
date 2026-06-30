@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 4 Onderwijs"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "4 Onderwijs"
 beleidsdomeinen:
   - Leerplicht en Leerlingenvervoer

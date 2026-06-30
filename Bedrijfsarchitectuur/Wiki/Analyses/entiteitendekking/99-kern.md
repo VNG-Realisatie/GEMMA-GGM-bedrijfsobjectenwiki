@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 99 Kern"
-datum: 2026-06-29
+datum: 2026-06-30
 taakveld: "99 Kern"
 beleidsdomeinen:
   - 99 Kern
@@ -20,7 +20,7 @@ totaal_hiaten: 6
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-4 beleidsdomeinen, 155 GGM-entiteiten. Dekking: 135 van 155 (87%) — 34 met BO, 101 ondersteunend, 20 niet gedekt. 6 BO's zonder GGM-entiteit.
+4 beleidsdomeinen, 155 GGM-entiteiten. Dekking: 136 van 155 (88%) — 34 met BO, 102 ondersteunend, 19 niet gedekt. 6 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 9× abstract, 23× classificatie, 2× component, 85× detail, 2× proces.
 
@@ -162,6 +162,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 2× component, 85× detail
 | [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|VerblijfsrechtIngeschrevenNatuurlijkPersoon]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfstitel]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | koppelgegeven (IND) |
 | [[Wiki/GGM/99-kern/rsgbplus\|VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
 
 ### BRK — kadaster en rechten
@@ -263,7 +264,6 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 2× component, 85× detail
 | [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenland]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenlandSubject]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|Verblijfsobject]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfstitel]] | detail | ⚠️ geen BO bereikbaar | koppelgegeven (IND) |
 | [[Wiki/GGM/99-kern/rsgbplus\|Wijk]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/99-kern/rsgbplus\|Woonplaats]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/huwelijk\|Huwelijk]] | Detailgegeven |
 
