@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 9 Interne Organisatie"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "9 Interne Organisatie"
 beleidsdomeinen:
   - Financien
@@ -23,22 +23,17 @@ totaal_hiaten: 9
 
 7 beleidsdomeinen, 148 GGM-entiteiten. Dekking: 138 van 148 (93%) — 44 met BO, 94 ondersteunend, 10 niet gedekt. 9 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 87× detail, 2× rol.
+Niet-BO entiteiten: 2× actor, 13× classificatie, 7× component, 80× detail, 2× rol.
 
-### Structurele patronen
+**Structurele patronen.** Het merendeel van de niet-BO entiteiten (80 van 104) is *detail*: attributen, regels en subdocumenten die aan een bestaand BO hangen (facturen, begrotingen, formulieren) en geen zelfstandig bedrijfsobject vormen. Daarnaast 13 *classificatie*-entiteiten (referentietabellen/typeringen) en 7 *component*-entiteiten (onderdelen van een groter geheel, zoals Bankafschriftregel, Factuurregel, Bouwdeelelement en MJOP-Item — dit laatste is bij deze beoordeling van detail naar component verplaatst omdat het letterlijk "onderdeel van een MJOP" is). Opvallend binnen ICT is een cluster van vijf UML-metamodelbegrippen — Attribuutsoort, Datatype, Generalisatie, Objecttype en Relatiesoort — die niet over gemeentelijke bedrijfsvoering gaan maar over de typering van het gegevensmodel zelf (stereotypen voor objecten, attributen en relaties). Ze zijn daarom als classificatie behandeld in plaats van detail, ook al hebben ze meer attributen dan een gewone referentietabel; ze horen thuis in de beschrijving van het GGM-metamodel, niet in de bedrijfsobjectenlaag, en zijn terecht geen BO.
 
-**ICT (35 entiteiten, 10 BO's):** Het ICT-domein kent twee structurele patronen onder de niet-BO entiteiten:
-1. **CMDB-hiërarchie** — CMDB-item en Linkbaar CMDB-item zijn abstracte GGM-constructen die de overervingsstructuur modelleren. De concrete subtypes (Applicatie, Server, Database, Hardware, Software, Netwerkcomponent, Licentie) zijn wél BO's.
-2. **Meta-model (MIM)** — Attribuutsoort, Datatype, Generalisatie, Objecttype, Relatiesoort zijn MIM-constructen die het informatiemodel zelf beschrijven, niet gemeentelijke objecten. Ze staan in het GGM omdat het GGM ook een gegevensmodel voor gegevensmodellen bevat.
-3. **Niche-entiteiten** — Inventaris, Toegangsmiddel, Vervoersmiddel, Telefoniegegevens hebben 0 attributen en geen relaties naar BO's. Ze zijn onvoldoende uitgewerkt in het GGM om als BO te beoordelen.
+**Functionele dekking.** ICT is het enige beleidsdomein in dit taakveld met echte hiaten: 9 van de 35 entiteiten zijn niet aan een BO te herleiden (Aanvraag, CMDB-item, Datatype, Inventaris, Log, Melding, Telefoniegegevens, Toegangsmiddel, Vervoersmiddel). Dit zijn stuk voor stuk objecten uit asset- en facilitair beheer (inventarisregistratie, telefonie, toegangspassen, wagenpark) waarvoor het GGM geen passend bedrijfsobject modelleert — samen de 9 GGM-hiaten van dit taakveld.
 
-**Homoniem:** Storing (ICT) vs. Storing (BOR) — geambigueerd met suffix.
-**Terugmelding:** typefout "Nertwerkcomponent" in GGM.
-**Governance-hiaat:** Service Level Agreement (SLA) is een BO zonder GGM-grondslag — structureel verwacht (GGM modelleert geen contracten).
+Subsidies springt er structureel uit: 9 entiteiten, 0 BO's, maar toch 100% "dekking" — elke entiteit wordt via een relatie naar een BO buiten het domein getraceerd (Medewerker, Kostenplaats, Document, Organisatorische eenheid). Dat is een schijndekking: geen enkel bedrijfsobject vertegenwoordigt het subsidieproces zelf. Met name **Subsidie** (27 attributen), samen met Subsidieaanvraag en Subsidiebeschikking, vormt een herkenbaar aanvraag-beoordeling-toekenning-cluster dat qua gewicht en zelfstandigheid een gemist BO-kandidaat lijkt. Dit wordt hier als vermoedelijke GGM/BO-hiaat gemeld — het entiteitstype is niet buiten de taxonomie gewijzigd, maar nadere beoordeling (bijv. via `/assess-bo Subsidie`) wordt aanbevolen.
 
-### Cross-domein
+**Cross-domein.** Inkoop en Subsidies delen eenzelfde detailpatroon van formulieren (FormulierInhuur, FormulierVerlengingInhuur, StartformulierAanbesteden, Aanvraag Inkooporder) die als detailgegeven bij een bestaand BO horen (Aanbesteding, Inkooporder, Kostenplaats). SelectietabelAanbesteding wijkt hiervan af: met 5 attributen en de functie van een tabel met drempelbedragen en procedures past dit beter bij classificatie (referentietabel) dan bij detail, en is dienovereenkomstig aangepast.
 
-Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT) en Dienstverlening (Zaaktype, Verwerkingsactiviteit). De CMDB-structuur is de ruggengraat die alle ICT-BO's verbindt.
+**Naamconflicten/disambiguatie.** Geen nieuwe naamoverlap-issues in de "Entiteiten zonder BO"-tabellen van dit taakveld. Bestaande naamconflicten (Functie/Arbeidsfunctie, Inschrijving/Aanbieding, Storing/Storing (ICT), Project/Archeologisch onderzoek) betreffen alleen de reeds gematchte BO's en zijn daar al zichtbaar in de kolom Naamoverlap.
 
 ## Financien
 
@@ -147,26 +142,26 @@ Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT
 | GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
 |---|---|---|---|
 | [[Wiki/GGM/9-interne-organisatie/ict\|Aanvraag]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Attribuutsoort]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Attribuutsoort]] | classificatie | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Typering/metamodelconcept |
 | [[Wiki/GGM/9-interne-organisatie/ict\|CMDB-item]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Classificatie]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Datatype]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Datatype]] | classificatie | ⚠️ geen BO bereikbaar | Typering/metamodelconcept |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Dienst]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Domein/Taakveld]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Externe Bron]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Gegeven]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Generalisatie]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Generalisatie]] | classificatie | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Typering/metamodelconcept |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Inventaris]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Linkbaar CMDB-item]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Log]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Melding]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Notitie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Objecttype]] | detail | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Objecttype]] | classificatie | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Typering/metamodelconcept |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Onderwerp]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Package]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Prijzenboek]] | detail | via Product → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Product]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Relatiesoort]] | detail | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Relatiesoort]] | classificatie | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Typering/metamodelconcept |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Telefoniegegevens]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Toegangsmiddel]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Versie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | Detailgegeven (geassocieerd met BO) |
@@ -178,15 +173,15 @@ Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT
 
 ### Entiteiten met BO
 
-| GGM-entiteit                                            | BO                                                                                  | Entiteitstype | Naamoverlap                                                          | Beoordeling              |                         |
-| ------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------------------- | ------------------------ | ----------------------- |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | —             |                                                                      | Exact match              |                         |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]]     | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅         | —             |                                                                      | Exact match              |                         |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]]      | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅           | —             |                                                                      | Exact match              |                         |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | —             |                                                                      | Exact match              |                         |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅     | synoniem      | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving\|Opleidingsinschrijving]] | BO hernoemd: Aanbieding |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]]  | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅   | —             |                                                                      | Exact match              |                         |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]]      | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅           | —             |                                                                      | Exact match              |                         |
+| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+|---|---|---|---|---|
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅ | synoniem | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|Opleidingsinschrijving]] | BO hernoemd: Aanbieding |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exact match |
 
 ### Entiteiten zonder BO
 
@@ -202,7 +197,7 @@ Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Kandidaat]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Kwalificatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerteaanvraag]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | GGM-component van Aanbesteding |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|SelectietabelAanbesteding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|SelectietabelAanbesteding]] | classificatie | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | Typering/referentietabel |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|StartformulierAanbesteden]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Uitnodiging]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | Detailgegeven (geassocieerd met BO) |
 
@@ -272,7 +267,7 @@ Het ICT-domein heeft sterke relaties met Inkoop (Contract, Leverancier via GIBIT
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|KpBetrokkenBij]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|KpOnstaanUit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|LocatieaanduidingWozObject]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Detailgegeven |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|MJOP-Item]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] | Detailgegeven |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|MJOP-Item]] | component | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] | Component |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|NADAanvullingBRP]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Objectrelatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Offerte]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] | Detailgegeven (weinig attributen) |

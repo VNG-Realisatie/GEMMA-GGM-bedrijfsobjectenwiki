@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 4 Onderwijs"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "4 Onderwijs"
 beleidsdomeinen:
   - Leerplicht en Leerlingenvervoer
@@ -16,11 +16,13 @@ totaal_hiaten: 1
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
+2 beleidsdomeinen, 27 GGM-entiteiten, dekking 93% (25/27). De niet-BO entiteiten volgen het gebruikelijke patroon: 2× actor (Leerplichtambtenaar, Vervoerder — medewerkers-/leveranciersrollen, geen zelfstandig bedrijfsobject) en 15× detail. De detailentiteiten in Leerplicht en Leerlingenvervoer zijn grotendeels subtypen van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] (AanvraagVrijstelling, Verlofaanvraag) of granulaire gebeurtenissen rond een leerling (Beslissing, Doorgeleiding OM, HALT-verwijzing, Klacht Leerlingenvervoer, Ziekmelding Leerlingenvervoer) die terecht op detailniveau blijven. In Onderwijs zijn de details vooral classificaties en loopbaanstappen die als attribuut bij Leerling of School horen (Loopbaanstap, Onderwijsloopbaan, Onderwijssoort, Startkwalificatie).
 
-2 beleidsdomeinen, 27 GGM-entiteiten. Dekking: 25 van 27 (93%) — 10 met BO, 15 ondersteunend, 2 niet gedekt. 1 BO's zonder GGM-entiteit.
+De 2 niet-gedekte entiteiten (Leerjaar, Onderwijsniveau) zijn beide classificatie-achtige codelijsten zonder eigen attributen — ze horen logisch als waardelijst bij Leerling/School maar zijn in het GGM niet expliciet aan een BO-keten gekoppeld, waardoor ze als "⚠️ geen BO bereikbaar" naar voren komen. Dit is eerder een modelleringshiaat in de GGM-structuur (ontbrekende associatie) dan een inhoudelijk gemis. Functioneel is de dekking dus vrijwel compleet.
 
-Niet-BO entiteiten: 2× actor, 15× detail.
+Slechts 1 BO zonder GGM-entiteit: [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening\|Kinderopvangvoorziening]]. Dit is een reëel hiaat: kinderopvangvoorzieningen worden door gemeenten geregistreerd en getoetst (Landelijk Register Kinderopvang, Wet Kinderopvang), dus dit BO verdient een terugmelding aan het GGM-team ook al is het als procesobject geclassificeerd.
+
+Twee naamconflicten zijn zichtbaar via hernoeming. GGM-entiteit Vrijstelling is vastgelegd als [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling\|Leerplichtvrijstelling]] — een verduidelijking om verwarring met andere vrijstellingsbegrippen elders in de wiki te voorkomen. Belangrijker is GGM-entiteit Inschrijving, vastgelegd als [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving\|Opleidingsinschrijving]]: de Naamoverlap-kolom wijst naar [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding|Aanbieding]] in het inkoopdomein. "Inschrijving" is in het Nederlands ook de gangbare term voor een aanbestedingsbod (tender-inschrijving), dus dit is een echt homoniem tussen het onderwijsdomein en het inkoopdomein — de hernoeming naar Opleidingsinschrijving is nodig om beide begrippen uit elkaar te houden.
 
 ## Leerplicht en Leerlingenvervoer
 

@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 2 Verkeer, Vervoer en Waterstaat"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "2 Verkeer, Vervoer en Waterstaat"
 beleidsdomeinen:
   - Mobiliteit
@@ -16,11 +16,11 @@ totaal_hiaten: 16
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
+2 beleidsdomeinen, 20 GGM-entiteiten, volledige dekking (20/20, 100%) en geen "niet gedekt"-gevallen. De 7 entiteiten zonder eigen BO volgen een herkenbaar patroon: 3× classificatie (Productgroep, Productsoort, Straatsectie — administratieve typering/indeling van Parkeervergunning resp. Parkeervlak) en 4× detail (Strooidag, StrooirouteUitvoering, VLogInfo, Belprovider — uitvoerings- en sensordata die te operationeel/technisch zijn om als zelfstandig bedrijfsobject te gelden). Geen van deze entiteiten introduceert een functioneel hiaat; ze zijn allemaal terug te voeren op een bestaand BO.
 
-2 beleidsdomeinen, 20 GGM-entiteiten. Dekking: 20 van 20 (100%) — 13 met BO, 7 ondersteunend, 0 niet gedekt. 16 BO's zonder GGM-entiteit.
+Het opvallende patroon zit aan de andere kant: 16 BO's zonder GGM-entiteit tegenover slechts 13 matches — de grootste onbalans van alle taakvelden met 100% dekking. Vrijwel alle 16 zijn procesobjecten rond stedelijke mobiliteit en logistiek: OV- en fietsvoorzieningen (Halte, OV-lijn, OV-knooppunt, Hoofdfietsroute, P+R-locatie), laad- en overslaginfrastructuur (Laadpaal, Laad- en Losplaats, Overslagpunt, Stadsdistributiepunt, Mobiliteitshub, Logistieke Route, Bouwlogistiek Centrum) en twee governance-objecten voor mobiliteitstransitie (Voetgangersgebied, Zero-emissiezone). Dit wijst erop dat het GGM de klassieke verkeers- en parkeerprocessen (NDW/RDW-achtige gegevens: telling, stremming, vergunning, boete) goed dekt, maar de nieuwere beleidsthema's rond stadslogistiek, laadinfrastructuur en emissievrije zones nog niet heeft gemodelleerd. Dit zijn kandidaten om als hiaat aan het GGM-team terug te melden, al zijn het merendeel procesobjecten (geen data-objecten) waarvoor formele terugmelding minder dwingend is.
 
-Niet-BO entiteiten: 3× classificatie, 4× detail.
+Er zijn in dit taakveld geen naamconflicten of hernoemingen gesignaleerd (kolom Naamoverlap is overal leeg); alle matches zijn exact.
 
 ## Mobiliteit
 

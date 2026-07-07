@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 0 Bestuur, Politiek en Ondersteuning"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "0 Bestuur, Politiek en Ondersteuning"
 beleidsdomeinen:
   - Griffie
@@ -15,11 +15,15 @@ totaal_hiaten: 5
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
-
 1 beleidsdomeinen, 13 GGM-entiteiten. Dekking: 13 van 13 (100%) — 3 met BO, 10 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× actor, 1× component, 7× detail.
+
+Het beleidsdomein Griffie is compact en volledig rond drie BO's opgebouwd: [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]], [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]]. De twee actor-entiteiten (Collegelid, Raadslid) zijn personen/rollen, geen zelfstandige data-objecten — ze worden wel geregistreerd (bijvoorbeeld in het raadsinformatiesysteem), maar zijn functioneel vergelijkbaar met rolentiteiten in andere domeinen, alleen hier als generieke politieke actor benoemd in plaats van als functiespecifieke rol. Aanwezige Deelnemer is terecht een component: het beschrijft wie bij een Vergadering aanwezig was, dus een onderdeel van die vergadering zelf. De overige zeven detailentiteiten (Agendapunt, Categorie, Dossier, Indiener, Programma, Raadscommissie, Taakveld) zijn stuk voor stuk kenmerken die Raadsstuk, Stemming of Vergadering nader specificeren, zonder zelfstandige levenscyclus.
+
+Functioneel is dit beleidsdomein voor 100% gedekt door het GGM — er zijn geen entiteiten waarvoor geen enkel BO bereikbaar is. Het echte hiaat zit aan de andere kant: 5 BO's in de wiki hebben geen GGM-tegenhanger, en dat zijn stuk voor stuk objecten uit het bredere politiek-bestuurlijke domein die buiten de scope van Griffie vallen — [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing\|Verkiezing]], [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum\|Referendum]] en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau\|Stembureau]] (verkiezingsproces), [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie\|Partijsubsidie]] (politieke bekostiging) en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling\|Gemeenschappelijke Regeling]] (samenwerkingsvorm). Alle vijf zijn geregistreerd als proces- of governance-object, niet als ggm-hiaat: het GGM modelleert hier bewust alleen de raadsondersteuning (Griffie), niet de bredere bestuurlijke en electorale processen — een scopekeuze, geen datalek in het model.
+
+Naamconflicten of homoniemen komen in dit domein niet voor; de Naamoverlap-kolom is voor alle rijen leeg.
 
 ## Griffie
 

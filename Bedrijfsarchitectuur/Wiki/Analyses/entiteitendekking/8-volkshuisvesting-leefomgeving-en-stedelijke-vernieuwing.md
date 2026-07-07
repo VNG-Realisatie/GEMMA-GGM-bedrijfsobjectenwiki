@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 beleidsdomeinen:
   - Beheer Openbare Ruimte
@@ -17,11 +17,19 @@ totaal_hiaten: 3
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
-
 3 beleidsdomeinen, 119 GGM-entiteiten. Dekking: 90 van 119 (76%) — 26 met BO, 64 ondersteunend, 29 niet gedekt. 3 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 81× detail, 1× rol.
+Niet-BO entiteiten: 7× abstract, 2× actor, 1× classificatie, 23× component, 56× detail, 3× proces, 1× rol.
+
+**Structureel patroon in Beheer Openbare Ruimte.** Dit beleidsdomein bevat opvallend veel fysieke objecttypen die conceptueel zelfstandig zijn maar geen eigen BO hebben omdat ze subtype zijn van een generieker BO of verzamelbegrip. Brug, Viaduct, Flyover, Kademuur, Tunnelobject en Overbruggingsobject zijn stuk voor stuk kunstwerk-achtige constructies — hun definities noemen expliciet "Kunstwerk over..." of "Onderdeel van..." — en zijn daarom als component bij het bestaande BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] geclassificeerd in plaats van als generiek detailgegeven. Bak, Bord, Kast, Paal en Scheiding zijn losse objecten van straatmeubilair/weginrichting, subtype van de generieke verzamelbegrippen Meubilair en Weginrichtingsobject. Klimplant is op dezelfde manier een subtype van Vegetatieobject. Leidingelement en Pomp zijn letterlijk onderdelen van resp. Rioolleiding en Gemaal (beide bestaande BO's).
+
+Beheerobject, Vegetatieobject, Meubilair, Waterinrichtingsobject, Weginrichtingsobject en Installatie zijn zelf geen concrete objecten maar overkoepelende verzamel-/restcategorieën met subtypen (Beheerobject en Vegetatieobject noemen zichzelf expliciet "Verzamelobject"; Meubilair, Waterinrichtingsobject en Weginrichtingsobject zijn alle drie gedefinieerd als "een ruimtelijk object ter inrichting van..."). Deze zijn daarom als abstract geclassificeerd. Bouwwerk is eveneens abstract: het is expliciet gedefinieerd als restcategorie voor constructies die niet onder Pand of Kunstwerk vallen.
+
+MOOR-melding en Melding zijn qua aard geen passieve detailgegevens maar melding-/aanvraagprocessen — MOOR-melding is letterlijk gedefinieerd als "Meldingsproces rondom werkzaamheden aan kabels en leidingen" — en zijn daarom als proces geclassificeerd. In Omgevingswet geldt hetzelfde voor Verzoek: een aanvraagachtige handeling aan het bevoegd gezag, geen detailgegeven. Specificatie in Omgevingswet is letterlijk gedefinieerd als de opsomming van onderdelen van een geheel en is als component geclassificeerd.
+
+Rioolput en Sportterrein blijven gelabeld als detail, maar om verschillende redenen. Rioolput vertoont naamoverlap met de gelijknamige BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] (bereikt via het GGM-synoniem "Put") — vermoedelijk een tweede, niet-samengevoegde GGM-representatie van hetzelfde concept, geen echt detailgegeven. Sportterrein heeft, net als het wél als BO opgenomen [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]], een eigen fysieke identiteit (een terrein bestemd voor sportbeoefening) maar geen bereikbaar BO; dit is eerder een functioneel hiaat dan een detailgegeven van een ander object.
+
+**Functionele dekking.** Beheer Openbare Ruimte levert het grootste deel van de 29 niet-gedekte GGM-entiteiten in dit taakveld. Naast de hierboven besproken generieke verzamelobjecten en kunstwerk-subtypen ontbreken concrete beheerprocessen (Storing, Inspectie, Schouwronde, Onderhoud, Logboek, Taak) die nu alleen indirect via Melding → Medewerker worden bereikt — dit wijst eerder op een governance-/procesgat rond assetbeheer in het GGM dan op een BO-hiaat. Vegetatieobject/Meubilair/Waterinrichtingsobject/Weginrichtingsobject als overkoepelende typen zonder BO laten daarnaast zien dat het GGM voor beheerobjecten in de openbare ruimte eerder classificatiehiërarchieën dan zelfstandige bedrijfsobjecten modelleert; de bestaande BO's (Kunstwerk, Groenobject, Waterobject, Verhardingsobject, Verlichtingsobject) dekken de belangrijkste categorieën, maar losse objecttypen als straatmeubilair (Bak, Kast, Bord, Paal, Scheiding) en sportterreinen blijven zonder eigen tehuis.
 
 ## Beheer Openbare Ruimte
 
@@ -60,62 +68,62 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 81× detail, 1�
 | Actie | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
 | Afvalbak | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | Areaal | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] | Detailgegeven (geassocieerd met BO) |
-| Bak | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Bak | component | ⚠️ geen BO bereikbaar | Subtype van Meubilair, geen zelfstandig BO |
 | Bank | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Beheerobject | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven |
+| Beheerobject | abstract | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Verzamelobject (niveau 1), overkoepelend type met subtypen |
 | Bemalingsgebied | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Bord | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Bouwwerk | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Brug | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Bord | component | ⚠️ geen BO bereikbaar | Subtype van Weginrichtingsobject/Meubilair, geen zelfstandig BO |
+| Bouwwerk | abstract | ⚠️ geen BO bereikbaar | Restcategorie voor bouwwerken buiten Pand/Kunstwerk, overkoepelend type |
+| Brug | component | ⚠️ geen BO bereikbaar | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ("Kunstwerk over..."), geen zelfstandig BO |
 | CROW-Melding | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
 | Drainageput | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Detailgegeven (weinig attributen) |
 | Fase/Oplevering | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering\|Levering]] | Detailgegeven (weinig attributen) |
 | Fietsparkeervoorziening | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | Detailgegeven (weinig attributen) |
 | Filterput | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Detailgegeven (weinig attributen) |
-| Flyover | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Flyover | component | ⚠️ geen BO bereikbaar | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ("Kunstwerk in de vorm van een viaduct"), geen zelfstandig BO |
 | FunctioneelGebied | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | Infiltratieput | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Detailgegeven (weinig attributen) |
 | Inspectie | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
-| Installatie | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Installatie | abstract | ⚠️ geen BO bereikbaar | Generiek systeembegrip, overkoepelend type met veel subtypen |
 | KadastraleMutatie | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Detailgegeven (geassocieerd met BO) |
-| Kademuur | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Kast | detail | via VLogInfo → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | Detailgegeven |
+| Kademuur | component | ⚠️ geen BO bereikbaar | Kunstwerk-achtige constructie, subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] |
+| Kast | component | via VLogInfo → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | Subtype van Meubilair, geen zelfstandig BO |
 | Keermuur | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Klimplant | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | Detailgegeven |
+| Klimplant | component | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | Subtype van Vegetatieobject, geen zelfstandig BO |
 | Kwaliteitscatalogus Openbare Ruimte | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | Detailgegeven (weinig attributen) |
 | Kwaliteitskenmerken | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Leidingelement | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | Detailgegeven |
+| Leidingelement | component | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | Onderdeel van Rioolleiding ("object dat bij een leiding behoort") |
 | Logboek | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
-| MOOR-melding | detail | via Proces-verbaal-MOOR-melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Detailgegeven |
+| MOOR-melding | proces | via Proces-verbaal-MOOR-melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Meldingsproces, geen detailgegeven maar procesobject |
 | Mast | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Melding | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven |
+| Melding | proces | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Meldings-/aanvraagproces, geen detailgegeven |
 | MeldingOngeval | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
-| Meubilair | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Meubilair | abstract | ⚠️ geen BO bereikbaar | Verzamelobject voor straatmeubilair, overkoepelend type met subtypen (Bak, Kast, Bord, Paal, ...) |
 | Omgevingsvergunning | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | Subtype van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen\|Vergunningen en ontheffingen]] |
 | Onderhoud | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | Opbreking | detail | via MOOR-melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Detailgegeven (weinig attributen) |
-| Overbruggingsobject | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Paal | detail | via VLogInfo → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | Detailgegeven |
-| Pomp | detail | ⚠️ geen BO bereikbaar | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], te granulair |
+| Overbruggingsobject | component | ⚠️ geen BO bereikbaar | Onderdeel van een kunstwerk-achtige verbinding, subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] |
+| Paal | component | via VLogInfo → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | Subtype van Weginrichtingsobject/Meubilair, geen zelfstandig BO |
+| Pomp | component | ⚠️ geen BO bereikbaar | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], te granulair |
 | Proces-verbaal-MOOR-melding | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Detailgegeven (geassocieerd met BO) |
 | Putdeksel | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Detailgegeven (weinig attributen) |
-| Rioolput | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Detailgegeven |
-| Scheiding | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Rioolput | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | Naamoverlap met BO Rioolput (bereikt via synoniem "Put"); vermoedelijk dubbele GGM-representatie |
+| Scheiding | component | ⚠️ geen BO bereikbaar | Fysieke afscheiding, subtype van Weginrichtingsobject/Meubilair |
 | Schouwronde | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (geassocieerd met BO) |
 | Sensor | detail | beschrijft [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | Detailgegeven (geassocieerd met BO) |
 | SolitairePlant | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | Detailgegeven (weinig attributen) |
-| Sportterrein | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Sportterrein | detail | ⚠️ geen BO bereikbaar | Zelfstandig terreinobject zonder bereikbaar BO (vergelijkbaar met Speelterrein), functioneel hiaat |
 | Storing | detail | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (weinig attributen) |
 | Stuwgebied | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
 | Taak | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Tunnelobject | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Tunnelobject | component | ⚠️ geen BO bereikbaar | Onderdeel van een tunnel, subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] |
 | Uitlaatconstructie | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | Te granulair voor BO-niveau |
 | Uitvoerder Graafwerkzaamheden | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | Detailgegeven (weinig attributen) |
-| Vegetatieobject | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Vegetatieobject | abstract | ⚠️ geen BO bereikbaar | Verzamelobject (niveau 2) van alle vegetatieobjecten, overkoepelend type |
 | Verkeersdrempel | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| Viaduct | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Waterinrichtingsobject | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| Weginrichtingsobject | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
+| Viaduct | component | ⚠️ geen BO bereikbaar | Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ("Kunstwerk over..."), geen zelfstandig BO |
+| Waterinrichtingsobject | abstract | ⚠️ geen BO bereikbaar | Overkoepelend inrichtingsobject-type voor het water, analoog aan Meubilair |
+| Weginrichtingsobject | abstract | ⚠️ geen BO bereikbaar | Overkoepelend inrichtingsobject-type voor de weg, analoog aan Meubilair |
 | Grondbeheerder | rol | n.v.t. | Functie/verantwoordelijkheid |
 
 ## Bouwen en Wonen
@@ -179,10 +187,10 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 81× detail, 1�
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Projectactiviteit]] | detail | via Project → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Projectlocatie]] | detail | via Project → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Regeltekst]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | Component van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Specificatie]] | detail | via Verzoek → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Detailgegeven |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Specificatie]] | component | via Verzoek → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Component ("afzonderlijke onderdelen waaruit een geheel bestaat") |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Thema]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Uitvoerende instantie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Verzoek]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Detailgegeven |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Verzoek]] | proces | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Aanvraagachtige handeling aan bevoegd gezag, procesobject |
 
 ## BO's zonder GGM-entiteit
 

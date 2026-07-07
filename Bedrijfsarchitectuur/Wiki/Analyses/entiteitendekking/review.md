@@ -1,4 +1,4 @@
-# Entiteitendekking review — 2026-06-30
+# Entiteitendekking review — 2026-07-07
 
 Totaal review-items: 105.
 

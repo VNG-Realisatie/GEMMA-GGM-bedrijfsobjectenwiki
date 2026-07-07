@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 7 Volksgezondheid en Milieu"
-datum: 2026-06-30
+datum: 2026-07-07
 taakveld: "7 Volksgezondheid en Milieu"
 beleidsdomeinen:
   - Afval
@@ -15,11 +15,11 @@ totaal_hiaten: 31
 
 ## Beoordeling
 
-<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
+Dit taakveld heeft in het GGM maar één beleidsdomein: Afval, met 16 entiteiten en volledige dekking (16/16, 100%). De niet-BO entiteiten volgen het bekende patroon — 2× classificatie (Containertype, Melding: typering/referentietabel), 1× component (Prijsregel, onderdeel van Grondstofstroom) en 9× detail: vrijwel allemaal operationele gebeurtenissen en meetgegevens rond inzameling (Categorie, Ophaalmoment, Pas, Rit, Route, Storting, Vuilniswagen, Vulgraadmeting, Locatie), die terecht geen zelfstandig BO vormen maar attribuut- of gebeurtenisniveau blijven bij Container, Milieustraat of Grondstofstroom.
 
-1 beleidsdomeinen, 16 GGM-entiteiten. Dekking: 16 van 16 (100%) — 4 met BO, 12 ondersteunend, 0 niet gedekt. 31 BO's zonder GGM-entiteit.
+De echte bevinding zit in de omvang van het GGM-hiaat: 31 BO's zonder GGM-entiteit tegenover slechts 4 matches — verreweg de scherpste onbalans van alle taakvelden (elders blijft dit meestal onder de 10-15). De oorzaak is structureel: het GGM in dit taakveld dekt uitsluitend het afvalinzamelingsproces (containers, ophaalmomenten, grondstofstromen, milieustraat), terwijl de wiki BO's bevat uit vijf andere beleidsdomeinen die in het GGM volledig ontbreken: Milieu breder (Afvalstoffenverordening, Bodemenergiesysteem, Bodemkwaliteitskaart, Bodemverontreiniging, Grondstoffendepot, Grondverzet, Grondwatermeetpunt, Inzamelcontract, Luchtkwaliteitsmeetpunt, Materiaalpasspoort, Milieuzone, Ontheffing (milieuzone), Rookvrije zone, Saneringsplan, Sloopregeling, Upcyclecentrum, Verwerkingscontract, Vuurwerkvrije zone, Walstroompunt), Dierenwelzijn (Dierenweide, Hulpbehoevend dier, Kinderboerderij, Visrecht), Geluid (Geluidbron, Geluidgevoelig gebouw, Geluidzone, Stil gebied), Energie en Klimaat (Koelteplek, Opwekgebied, Warmtenet) en Openbare Gezondheid (Infectieziektemelding). Dit zijn overwegend procesobjecten en governance-objecten, dus formele terugmelding als data-hiaat is niet dwingend, maar het patroon is veelzeggend: het GGM heeft dit taakveld nauwelijks gemodelleerd buiten de kernafvalketen, terwijl de wiki op basis van gemeentelijke bronnen een veel breder palet aan volksgezondheid- en milieuonderwerpen beschrijft.
 
-Niet-BO entiteiten: 2× classificatie, 1× component, 9× detail.
+Twee naamconflicten zijn zichtbaar via hernoeming: GGM-entiteit Fractie is vastgelegd als [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] (preciezere, in de afvalsector gangbare term dan het generieke "Fractie"), en GGM-entiteit Prijsafspraak is vastgelegd als [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] (de juridisch-formele belastingterm). Beide hernoemingen verduidelijken eerder dan dat ze een homoniemprobleem oplossen; er zijn geen kruisverwijzingen naar BO's in andere domeinen gesignaleerd.
 
 ## Afval
 
