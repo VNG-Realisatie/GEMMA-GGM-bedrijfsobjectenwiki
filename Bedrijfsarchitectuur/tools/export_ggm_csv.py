@@ -78,10 +78,11 @@ def load_wiki_bo_pages() -> dict:
             by_name[entry['naam']] = entry
 
         # Register duplicate GUIDs so the export emits a row per GUID
+        # Supports both old format (plain GUID string) and new format (dict with 'guid' key)
         duplicates = fm.get('ggm_duplicaat_entiteiten', [])
         if duplicates:
             for dup in duplicates:
-                dup_guid = dup.get('guid', '')
+                dup_guid = dup if isinstance(dup, str) else dup.get('guid', '')
                 if dup_guid and dup_guid not in by_guid:
                     by_guid[dup_guid] = entry
 

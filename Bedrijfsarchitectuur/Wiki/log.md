@@ -1,5 +1,15 @@
 # Wiki Log
 
+## [2026-07-07] ingest | Informatiebeheer — Overheidsinformatiemodel
+
+- **Bron:** Nationaal Archief kennisbank (5 pagina's: overheidsinformatiemodel, informatiehuishouding, ruwe gegevensobject, gegevensobject, informatieobject, metagegevens)
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]]
+- **Nieuw BO:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]] — 6/6 criteria, GGM-hiaat; tweede fase in informatielevenscyclus (Document → Informatieobject → Archiefstuk)
+- **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]] — lifecycle-correctie (Document ≠ synoniem van Informatieobject), levenscyclustabel 3 fasen, relatie naar Informatieobject toegevoegd
+- **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]] — relatie naar Informatieobject als voorgaande fase toegevoegd
+- **GGM-hiaat:** Informatieobject ontbreekt in GGM; de overgang Document → gearchiveerd object wordt niet als eigen entiteit gemodelleerd; terugmelding opgenomen in BO-pagina
+- **Analyse:** gegevensobject geen nieuw BO; GGM-Metagegevens-package bevat modelleerpatronen (FormeleHistorie etc.), niet NA-metagegevens
+
 ## [2026-06-30] analyse | Entiteitendekking 9 Interne Organisatie
 
 - **Pagina:** [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|Entiteitendekking 9 Interne Organisatie]]

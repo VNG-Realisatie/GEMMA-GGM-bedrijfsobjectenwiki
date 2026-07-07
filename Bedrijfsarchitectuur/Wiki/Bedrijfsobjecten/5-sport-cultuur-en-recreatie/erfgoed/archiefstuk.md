@@ -35,6 +35,11 @@ bo_relaties:
     kardinaliteit: 
     beschrijving: Archiefstuk is een specialisatie van Erfgoed Object
   - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1"
+    beschrijving: Een informatieobject wordt een archiefstuk na overbrenging naar de archiefbewaarplaats
+  - type: associatie
     bedrijfsobject: "*(Archief)*"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
@@ -45,7 +50,7 @@ bo_relaties:
 
 Gearchiveerde informatie die door de gemeente of haar voorgangers is gecreëerd, ontvangen of gearchiveerd in het kader van wettelijke verplichtingen of zakelijke transacties. Het gemeentearchief beheert archiefstukken conform de Archiefwet.
 
-Archiefstuk bevindt zich op het raakvlak van twee domeinen: als **informatieobject** valt het onder informatiebeheer (lopende dossiers, bewaartermijnen, overbrenging naar e-depot), als **erfgoedobject** valt het onder cultuur (historisch archief, gemeentearchivaris, openbaarheid). Het GGM weerspiegelt dit via dubbele overerving: Document (abstract) én Erfgoed Object (abstract).
+Archiefstuk is de derde fase in de informatielevenscyclus: [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]] → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]] → **Archiefstuk**. Het is de toestand na overbrenging naar de archiefbewaarplaats. Als **erfgoedobject** valt het onder cultuur (historisch archief, gemeentearchivaris, openbaarheid). Het GGM weerspiegelt de dubbele oorsprong via overerving: Document (abstract) én Erfgoed Object (abstract).
 
 ## BO-criteria toetsing
 

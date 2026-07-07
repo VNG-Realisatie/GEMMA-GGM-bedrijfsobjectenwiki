@@ -9,7 +9,7 @@
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR en BRO: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht (in behandeling, 26 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 17 BO's)
-- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (13 BO's)
+- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (14 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, collecties, cultuurbeleid (in opbouw, 8 BO's)
@@ -397,13 +397,14 @@
 
 ### Dienstverlening (GGM beleidsdomein Model Dienstverlening, taakveld 10 + ZTC2/RGBZ)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|zaak]] — Afgebakende werkeenheid met aanleiding, doorlooptijd en resultaat (RGBZ-kern)
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|document]] — Informatiedrager ongeacht vorm; na overbrenging wordt het een archiefstuk (cross-domein: dienstverlening + informatiebeheer)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|document]] — Actieve fase: informatiedrager in gebruik bij taakuitvoering; bij archivering wordt het een informatieobject
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|informatieobject]] — Gearchiveerde fase: formeel beheerd archivaal object na selectie en waardering; bij overbrenging wordt het een archiefstuk (GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|aanvraag-of-melding]] — Verzoek of signaal aan de gemeente, startpunt dienstverlening
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen|vergunningen-en-ontheffingen]] — Domeinoverstijgend parent BO voor alle gemeentelijke vergunningen en ontheffingen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] — Door de gemeente aangeboden dienst of product
 - zaaktypecatalogus — Verzameling zaaktypen met configuratie per domein
-- informatieobject — Geheel van gegevens ongeacht vorm, breder dan "document"
+- *(informatieobject — nu eigen BO-pagina, zie boven)*
 - zaakdossier — Zaakkenmerken + informatieobjecten, basis voor archivering
 - resultaattype — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit|besluit]] — Formele beslissing op een individueel geval binnen een zaak (RGBZ-kern)
@@ -452,6 +453,9 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - `Sources/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein (taakveld 6): 35 entiteiten
 
 ## Bronsamenvattingen
+
+### Informatiebeheer
+- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]] — Nationaal Archief: conceptueel model voor ruwe gegevensobject, gegevensobject, informatieobject en metagegevens; bevestigt Document als business-object
 
 ### Onderwijs
 - [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] — Gemeente Utrecht: IHP Onderwijs, schoolgebouwen, gymzalen, MFA's, buurtscholen

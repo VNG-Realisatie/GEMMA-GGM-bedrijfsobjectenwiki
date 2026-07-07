@@ -26,7 +26,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
-bo_toelichting: ''
+bo_toelichting: "Document is de actieve fase: het informatieobject in gebruik bij taakuitvoering. Zodra een document de archiveringsfase ingaat (selectie, waardering, formele opname in het archiefsysteem), wordt het een Informatieobject. Na overbrenging naar de archiefbewaarplaats is het een Archiefstuk. Document, Informatieobject en Archiefstuk zijn daarmee drie fasen in één levenslijn — geen synoniemen."
 bo_subtypes:
   - naam: Enkelvoudig document
     omschrijving: Document dat als één geheel wordt behandeld en beheerd
@@ -48,10 +48,15 @@ bo_relaties:
     kardinaliteit: "0..1"
     beschrijving: Een aanvraag of melding heeft documenten als bijlagen
   - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: Na archivering (selectie, waardering) wordt een document een informatieobject
+  - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]]"
     richting: van-dit-BO
     kardinaliteit: ""
-    beschrijving: Na overbrenging naar de archiefbewaarplaats wordt een document een archiefstuk (Archiefwet)
+    beschrijving: Na overbrenging naar de archiefbewaarplaats wordt een informatieobject een archiefstuk (Archiefwet)
 bedrijfsprocessen:
   - Documentregistratie
   - Zaakafhandeling
@@ -63,9 +68,7 @@ bedrijfsfuncties:
 
 # Document
 
-Informatiedrager met eigen identiteit ongeacht vorm, ontvangen of opgemaakt bij de uitvoering van gemeentelijke taken. De GGM-entiteit heet "Document" (RGBZ 1.0-terminologie); in de ZGW API's en ZTC2 is dezelfde entiteit hernoemd naar "informatieobject" om uit te drukken dat het breder is dan het dagelijkse begrip "document": ook een XML-bericht, dataset, foto, geluidsopname, CAD-tekening of e-mail met bijlagen is een informatieobject.
-
-De definities zijn identiek. In de praktijk gebruikt de gemeente het woord "document" voor de dagelijkse informatiedragers, maar het RGBZ-concept omvat alles wat aan een zaak gerelateerd kan worden — ook informatie die niet in het RGBZ gespecificeerd is (conform de Baseline Informatiehuishouding).
+Informatiedrager met eigen identiteit ongeacht vorm, ontvangen of opgemaakt bij de uitvoering van gemeentelijke taken. Document is de **actieve fase** in de informatielevenscyclus: het object zolang het in gebruik is bij taakuitvoering (zaakgericht werken, dienstverlening). Zodra het de archiveringsfase ingaat, transformeert het naar een [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]]. Na overbrenging naar de archiefbewaarplaats wordt het een [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]].
 
 ## BO-criteria toetsing
 
@@ -87,18 +90,21 @@ De definities zijn identiek. In de praktijk gebruikt de gemeente het woord "docu
 **Matchsterkte:** exact
 **Herkomst:** KING (NEN 2082) → RGBZ 1.0 → GGM
 
-## Document / informatieobject en archiefstuk
+## Informatielevenscyclus
 
-Document (GGM) en informatieobject (ZGW API's) zijn dezelfde entiteit met dezelfde definitie. De naamwijziging maakt expliciet dat het concept breder is dan "document" in dagelijks spraakgebruik.
+Document, Informatieobject en Archiefstuk zijn drie fasen in één levenslijn — geen synoniemen.
 
-| Fase | Naam | Regime | Domein |
+| Fase | BO | Regime | Domein |
 |---|---|---|---|
-| **Lopend** | Document / informatieobject | Wob, zaakgericht werken | Dienstverlening |
-| **Overgebracht** | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | Archiefwet-openbaarheid | Erfgoed + informatiebeheer |
+| **Actief** | Document | Wob/Woo, zaakgericht werken | Dienstverlening |
+| **Gearchiveerd** | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject\|Informatieobject]] | Archiefwet, selectielijst | Informatiebeheer |
+| **Overgebracht** | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | Archiefwet-openbaarheid | Erfgoed |
 
-Het GGM modelleert de generalisatie Archiefstuk → Document (abstract), wat bevestigt dat een archiefstuk een specialisatie is van document/informatieobject.
+De transitie **Document → Informatieobject** vindt plaats bij archivering: selectie en waardering op grond van de selectielijst, formele opname in het archiefsysteem met volledige metagegevens. Het GGM modelleert dit niet als aparte entiteit — Informatieobject is een GGM-hiaat.
 
-Het scharnierpunt is de **overbrenging** naar de archiefbewaarplaats (na 20 jaar, Archiefwet 1995). Het **resultaattype** (ZTC2) bepaalt of het zaakdossier met zijn documenten/informatieobjecten wordt vernietigd of overgebracht.
+De transitie **Informatieobject → Archiefstuk** vindt plaats bij overbrenging naar de archiefbewaarplaats (na 20 jaar conform Archiefwet 1995). Het **resultaattype** (ZTC2) bepaalt of het zaakdossier vernietigd of overgebracht wordt.
+
+In het GGM erft Archiefstuk van Document (abstract), wat de doorlopende identiteit door de levenscyclus bevestigt.
 
 ## Subtypes
 
@@ -115,8 +121,17 @@ Het scharnierpunt is de **overbrenging** naar de archiefbewaarplaats (na 20 jaar
 | Is vastlegging van | *(Besluit)* | Besluit → Document [0..*] | Een besluit wordt vastgelegd als document |
 | Is van type | *(Documenttype)* | Document → Documenttype [1] | Classificatie |
 
+## Gegevensobject als ondersteunend begrip
+
+Het Nationaal Archief Overheidsinformatiemodel introduceert het **gegevensobject** als tussenlaag onder het informatieobject: een feit of aanwijzing met begrip en samenhang, maar nog zonder opzichzelfstaande archivale identiteit. Voorbeelden zijn klantgegevens of een boomregistratie (soort, locatie, gesteldheid). Gegevensobjecten worden gecombineerd tot een document zodra ze een taakgebonden identiteit krijgen (bijv. een vergunningaanvraag samengesteld uit persoonsgegevens + meetgegevens + locatiegegevens).
+
+Het gegevensobject is **geen zelfstandig bedrijfsobject**: het heeft onvoldoende herkenbaarheid in het gemeentelijk domein en mist een expliciete levenscyclus als eigenstandige entiteit. Het GGM kent dit concept niet als objecttype.
+
+Het NA-model legt ook de relatie met **metagegevens** vast: metagegevens zijn onlosmakelijk verbonden met zowel het gegevensobject als het document/informatieobject. In gemeentelijk verband zijn dit de registratiemetadata (documentidentificatie, datum, auteur, vertrouwelijkheidaanduiding) die de GGM-entiteit Document als attributen heeft.
+
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]]
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]]
 - [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
+- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel]]
