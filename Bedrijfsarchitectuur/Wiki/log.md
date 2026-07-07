@@ -1,5 +1,9 @@
 # Wiki Log
 
+## [2026-07-07] redactie | Entiteitendekking 6 Sociaal Domein — ingekort
+
+- **Actie:** de Beoordeling-sectie en tabelannotaties van [[Wiki/Analyses/entiteitendekking/6-sociaal-domein]] herschreven om alleen de huidige stand te beschrijven (classificatie, dekkingsroute en onderbouwing), zonder change-log-taal ("herbeoordeling 2026-07-07", "ronde 1/2", "route gecorrigeerd/toegevoegd", "hiaat opgeheven"). De onderliggende onderbouwing (GGM-Generalization-verificatie, brongrondslag, cross-links tussen Inkomen/Sociaal Domein Generiek) is behouden, alleen de historische framing is verwijderd. Geen inhoudelijke wijzigingen aan classificaties, routes of tellingen.
+
 ## [2026-07-07] ingest | Boek 1 BW Titel 17 (Levensonderhoud) en Wet studiefinanciering 2000 — Onderhoudsplicht/Studiefinanciering opgelost
 
 - **Aanleiding:** vervolg op de her-mining hieronder — voor Onderhoudsplicht/-verhouding en Studiefinanciering was geen bruikbare bron gevonden in `sgr-19-gegevensregister-suwi.md`; aanbeveling was gerichte nieuwe bronnen te zoeken.
