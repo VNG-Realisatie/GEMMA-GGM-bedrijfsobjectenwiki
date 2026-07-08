@@ -33,6 +33,10 @@ analyse_ggm_dekking: |
   - **Vulgraadmeting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Rit"
+    ggm_guid: "EAID_832DA9A0_0E64_4d41_8266_38418B095919"
+    reden: "Een inzamelrit is gekoppeld aan het legen van containers."
 bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]
 bedrijfsfuncties: [Afvalbeheer]
 bo_relaties:

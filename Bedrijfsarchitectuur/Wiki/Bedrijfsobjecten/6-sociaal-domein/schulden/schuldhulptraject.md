@@ -38,6 +38,22 @@ analyse_ggm_dekking: |
 bo_definitie: "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert."
 bo_toelichting: ''
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Begeleiding"
+    ggm_guid: "EAID_A1F16832_3F28_4441_8538_74BF04A48562"
+    reden: "Begeleiding is een activiteit binnen het schuldhulptraject, geen onderdeel van de schuldregeling zelf."
+  - ggm_entiteit: "Begeleidingssoort"
+    ggm_guid: "EAID_158BE97A_2031_437b_A5CC_637188EB9968"
+    reden: "Classificeert het soort begeleiding binnen het schuldhulptraject."
+  - ggm_entiteit: "Oplossing"
+    ggm_guid: "EAID_7E274EE0_FB77_43ef_ABCB_91ACF0ACD469"
+    reden: "Een oplossing is een fase/uitkomst binnen het schuldhulptraject, niet de regeling zelf."
+  - ggm_entiteit: "Oplossingssoort"
+    ggm_guid: "EAID_677992F0_3C05_43b6_82C7_4A7EA57EDFED"
+    reden: "Classificeert het soort oplossing binnen het schuldhulptraject."
+  - ggm_entiteit: "Stabilisatie"
+    ggm_guid: "EAID_B0384246_6784_4724_B538_CE18197061CD"
+    reden: "Stabilisatie is een fase van het schuldhulptraject."
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[schuld]]"

@@ -54,6 +54,10 @@ analyse_ggm_dekking: ""
 bo_definitie: {definitie op bedrijfsniveau — kort, bij voorkeur 1 zin ≤160 tekens. Langer mag alleen als letterlijk uit GGM of bron overgenomen.}
 bo_toelichting: {aanvulling, uitleg of voorbeelden bij de definitie — ook gebaseerd op bronnen. Leeg als de definitie volstaat.}
 bo_subtypes: []                     # DEPRECATED — subtypes staan in de body-sectie ## Subtypes. Leeg laten bij nieuwe BO's.
+bo_via_kandidaten: []
+#  - ggm_entiteit: {naam van de GGM-entiteit die "ter discussie" stond}
+#    ggm_guid: {EA GUID van die entiteit}
+#    reden: {waarom dit BO de juiste dekking is, t.o.v. de andere kandidaten}
 bo_synoniemen: []
 #  - naam: {alternatieve naam}
 #    context: {waar deze naam wordt gebruikt, bijv. "GGM", "beleidsdocumenten", "dagelijks gebruik"}

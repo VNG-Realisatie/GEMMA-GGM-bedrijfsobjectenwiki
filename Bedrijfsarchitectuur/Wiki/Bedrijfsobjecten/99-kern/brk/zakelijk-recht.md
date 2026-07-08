@@ -53,6 +53,16 @@ analyse_ggm_dekking: |
   - **SplitsingstekeningReferentie** (detail) — Detailgegeven
 bo_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "KadastraleOnroerendeZaakAantekening"
+    ggm_guid: "EAID_0BC18F79_3560_4e43_8154_7CCDC7D67A03"
+    reden: "Aantekening over een feit met gevolgen voor de uitoefening van rechten op de onroerende zaak."
+  - ggm_entiteit: "KoopsomKadastraleOnroerendeZaak"
+    ggm_guid: "EAID_B1CB6F3A_A1F5_43f2_B077_02AD7441B1E3"
+    reden: "De koopsom hangt samen met het verkregen zakelijk recht, niet met de WOZ-waardering of een zekerheidsrecht."
+  - ggm_entiteit: "LocatieKadastraleOnroerendeZaak"
+    ggm_guid: "EAID_1ECAEB3C_EBE2_4afb_8D34_6AFEEFDF3FCA"
+    reden: "Locatieaanduiding van de onroerende zaak waarop het zakelijk recht rust."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"

@@ -29,6 +29,10 @@ analyse_ggm_dekking: |
   - **Begrotingregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Begrotingregel"
+    ggm_guid: "EAID_87964E36_9FEE_4b8f_A053_C4EDAF000646"
+    reden: "Een begrotingregel is een item op de begroting — expliciet in de GGM-definitie."
 definitie: Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde periode zodat eventuele tekorten en overschotten vroegtijdig in kaart kunnen worden gebracht
 bedrijfsprocessen: [Begrotingscyclus, Jaarrekening]
 bedrijfsfuncties: [Planning en control, Financieel beheer]

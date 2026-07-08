@@ -40,6 +40,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
 bo_toelichting: ''
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Bouwdeel"
+    ggm_guid: "EAID_9A739672_6084_4c05_A13E_59DB13551E58"
+    reden: "Een bouwdeel is een zelfstandig deel van een vastgoedobject met eigen onderhoudshistorie, geen werkbon."
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Verhuurbare Eenheid]]"

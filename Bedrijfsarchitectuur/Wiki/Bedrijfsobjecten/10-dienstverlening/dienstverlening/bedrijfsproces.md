@@ -32,6 +32,13 @@ analyse_ggm_dekking: |
   - **Deelprocestype** (classificatie) — Typering/referentietabel
 bo_definitie: "Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of dienst."
 bo_toelichting: ""
+bo_via_kandidaten:
+  - ggm_entiteit: "Bedrijfsprocestype"
+    ggm_guid: "EAID_14E4AF23_21E9_412a_B78D_C208EE9F419D"
+    reden: "Soort Bedrijfsproces — expliciet in de GGM-definitie."
+  - ggm_entiteit: "Deelprocestype"
+    ggm_guid: "EAID_710A1D2B_3C7B_41cf_A947_727186C40A98"
+    reden: "Soort Deelproces, een specialisatie van Bedrijfsproces."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"

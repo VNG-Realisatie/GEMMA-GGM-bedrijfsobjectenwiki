@@ -29,6 +29,10 @@ analyse_ggm_dekking: |
   - **Pas** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Storting"
+    ggm_guid: "EAID_15910FE7_D323_45ff_AA7F_CE3C636CE953"
+    reden: "Het zich ontdoen van stoffen (storten) gebeurt bij de milieustraat."
 bedrijfsprocessen: [Afvalscheiding, Grofvuilinzameling, Bezoekersregistratie]
 bedrijfsfuncties: [Afvalbeheer]
 bo_relaties:

@@ -30,9 +30,9 @@ Niet-BO entiteiten: 5× detail.
 | [[Wiki/GGM/3-economie/3-economie\|Contact]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/3-economie/3-economie\|Hotel]] | [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/3-economie/3-economie\|Hotelbezoek]] | beschrijft [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] | detail |  | Meting/transactie, geen zelfstandig object |
-| [[Wiki/GGM/3-economie/3-economie\|Verkooppunt]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/3-economie/3-economie\|Verkooppunt]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/3-economie/3-economie\|Werkgelegenheid]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/3-economie/3-economie\|Winkelvloeroppervlak]] | via GebouwdObject → [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject\|Verblijfsobject]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/3-economie/3-economie\|Winkelvloeroppervlak]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | detail |  | Detailgegeven |
 
 ## BO's zonder GGM-entiteit
 

@@ -42,6 +42,16 @@ analyse_ggm_dekking: |
 bo_definitie: "Gereguleerd menselijk handelen of nalaten in de fysieke leefomgeving waarvoor regels gelden in het omgevingsplan."
 bo_toelichting: "Activiteiten worden hiërarchisch gestructureerd in het omgevingsplan met een tophaak-activiteit per gemeente. Elke activiteit heeft een eigen NEN3610-identificatie, naam en groep, en is gekoppeld aan juridische regels die bepalen of de activiteit vergunningplichtig, meldingsplichtig of vergunningvrij is."
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Gemachtigde"
+    ggm_guid: "EAID_02BDED5E_9106_4aed_94C2_513689353284"
+    reden: "Een gemachtigde treedt op namens een initiatiefnemer bij een Omgevingswet-activiteit in het algemeen, niet specifiek bij archeologisch onderzoek."
+  - ggm_entiteit: "Specificatie"
+    ggm_guid: "EAID_DF63FBD0_DCA2_45bd_81E8_EE5E72D38EDE"
+    reden: "Generieke specificatie van onderdelen, in Omgevingswet-context toegepast op de activiteit."
+  - ggm_entiteit: "Verzoek"
+    ggm_guid: "EAID_B18119D9_5BF8_498f_B9D3_ECCE7A770012"
+    reden: "Een verzoek aan het bevoegd gezag betreft doorgaans een activiteit onder de Omgevingswet in het algemeen."
 bo_synoniemen:
   - naam: Milieubelastende activiteit
     context: "Bal — activiteit met nadelige gevolgen voor het milieu"

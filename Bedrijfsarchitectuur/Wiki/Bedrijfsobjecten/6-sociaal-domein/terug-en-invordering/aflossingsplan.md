@@ -29,6 +29,10 @@ analyse_ggm_dekking: |
   - **Uitstel aflossing** (onderdeel) — Onderdeel van Aflossingsplan
 bo_definitie: "Een aflossingsplan bevat alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij per wanneer welk bedrag aflost."
 bo_toelichting: "Er kunnen bijzondere afspraken worden vastgelegd, bijvoorbeeld Dwangbevel. In zulke gevallen wordt de gehele schuld in één keer weer opeisbaar gesteld."
+bo_via_kandidaten:
+  - ggm_entiteit: "Aflossingsafspraak"
+    ggm_guid: "EAID_0F06241B_EBEF_4053_33E4_263C236F76FC"
+    reden: "Een aflossingsafspraak is onderdeel van het aflossingsplan — expliciet in de GGM-definitie."
 definitie: Alle afspraken tussen de gemeente en de debiteur over op welke vordering per wanneer welk bedrag wordt afgelost
 bedrijfsprocessen: [Invordering, Schuldbeheer]
 bedrijfsfuncties: [Inning en invordering]

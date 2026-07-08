@@ -31,6 +31,10 @@ analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Declaratie**.
 bo_definitie: "Maandelijkse opgave van een zorgaanbieder aan de gemeente van geleverde Wmo- of jeugdhulpproducten met de te vergoeden kosten."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Declaratieregel"
+    ggm_guid: "EAID_F73F6BFE_9CFE_4497_80E3_CADAA344CF69"
+    reden: "Een declaratieregel legt het volume per product/prestatie vast binnen een zorgdeclaratie."
 bo_synoniemen:
   - naam: Declaratie
     context: "iWmo/iJw-berichtenverkeer, GGM"

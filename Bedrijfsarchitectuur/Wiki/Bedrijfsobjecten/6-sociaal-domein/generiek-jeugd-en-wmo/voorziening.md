@@ -50,6 +50,10 @@ bo_subtypes:
     omschrijving: "Toegankelijk aanbod zonder beschikking (bijv. informatie, advies)"
     ggm_entiteit: Voorzieningsoort
     ggm_attribuut: productcategorie
+bo_via_kandidaten:
+  - ggm_entiteit: "Leveringsvorm"
+    ggm_guid: "EAID_F35DA519_FA0C_48ae_9EFC_C4EBEC4BF144"
+    reden: "De leveringsvorm (zin/pgb) is een kenmerk van hoe een voorziening geleverd wordt."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"

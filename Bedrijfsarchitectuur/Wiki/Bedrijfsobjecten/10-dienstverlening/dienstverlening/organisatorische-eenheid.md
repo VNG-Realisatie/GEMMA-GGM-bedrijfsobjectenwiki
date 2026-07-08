@@ -30,6 +30,10 @@ analyse_ggm_dekking: |
   - **Subsidieprogramma** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Functioneel afgebakend onderdeel binnen de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
 bo_toelichting: ""
+bo_via_kandidaten:
+  - ggm_entiteit: "VestigingVanZaakbehandelendeOrganisatie"
+    ggm_guid: "EAID_D8142B98_64CB_408e_9941_92423543F08A"
+    reden: "Betreft de zaakbehandelende organisatie-eenheid, geen klantcontact-moment."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|Medewerker]]"

@@ -44,6 +44,10 @@ analyse_ggm_dekking: |
   - **Uitvoerende instantie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een medewerker van de gemeentelijke organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een organisatorische eenheid."
 bo_toelichting: ""
+bo_via_kandidaten:
+  - ggm_entiteit: "FormulierInhuur"
+    ggm_guid: "EAID_B598FF22_CDD0_486f_B528_99421D0FA608"
+    reden: "Het inhuurformulier betreft de in te huren persoon/medewerker."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"

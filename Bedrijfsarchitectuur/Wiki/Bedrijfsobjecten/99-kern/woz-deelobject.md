@@ -29,6 +29,10 @@ analyse_ggm_dekking: |
   - **WOZ-Deelobjectcode** (classificatie) — Typering/referentietabel
 bo_definitie: "Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Winkelvloeroppervlak"
+    ggm_guid: "EAID_0EABA880_434F_41c3_A41D_0002222AAC2A"
+    reden: "Winkelvloeroppervlak is een waarderelevant deelelement voor de WOZ-waardebepaling."
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]"

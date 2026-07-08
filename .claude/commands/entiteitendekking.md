@@ -19,7 +19,18 @@ Het script genereert in `Wiki/Analyses/entiteitendekking/`:
 
 ### Stap 2: Review
 
-Lees `review.md`. Dit bevat entiteiten met `confidence=low` — classificatie onzeker. Per item: controleer het gesuggereerde entiteitstype en pas aan in de draft als nodig.
+Lees `review.md`. Dit bevat twee soorten items, niet met elkaar te verwarren:
+
+1. **`confidence=low`** — classificatie onzeker (`classify_entity` vond geen sterk signaal). Per item: controleer het gesuggereerde entiteitstype en pas aan in de draft als nodig.
+2. **`⚠️ ter discussie tussen [[BO1]] / [[BO2]]`** (in de per-taakveld tabel, kolom BO/Dekking) — een structurele ambiguïteit: `compute_dekking` vond meerdere even-goede kandidaat-BO's (zelfde aantal hops, zelfde beleidsdomein, geen naam-bevestiging voor één van beide) en kiest bewust niet stilzwijgend. Dit is geen classificatie-onzekerheid maar een echte inhoudelijke keuze die een mens moet maken.
+
+**Workflow voor `ter discussie`-items:**
+1. Lees de GGM-definitie van de entiteit (`Wiki/GGM/{taakveld}/...`) en vergelijk met de definitie van elke kandidaat-BO.
+2. Kies de BO waar de entiteit inhoudelijk het beste bij past — of concludeer dat geen van de kandidaten past (dan blijft het `ter discussie` staan, of de entiteit krijgt een eigen beoordeling in de Beoordeling-sectie).
+3. Registreer de keuze op de frontmatter van de **gekozen** BO-pagina onder `bo_via_kandidaten` (zie `templates/bedrijfsobject.md`) — dezelfde curatie-aanpak als `bo_subtypes`.
+4. Draai Stap 1 opnieuw: de entiteit wordt dan direct herkend (stap 0 in `compute_dekking`, vóór alle heuristiek) en verdwijnt uit de ambigue lijst, permanent (niet opnieuw berekend bij een volgende run).
+
+Behandel niet alle `ter discussie`-items in één keer als het er veel zijn — triage eerst (duidelijke gevallen apart van genuine twijfelgevallen), en forceer geen keuze als geen enkele kandidaat goed past.
 
 ### Stap 3: Beoordeling verrijken
 
@@ -72,7 +83,7 @@ Per taakveld: per beleidsdomein een scriptgegenereerde statistiekregel (totaal, 
 
 `GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling`
 
-De BO/Dekking-kolom toont óf de directe BO-link (`[[BO]] ✅`) óf de indirecte route (`beschrijft`/`via X →`/`typering`/`n.v.t.`/`⚠️ geen BO bereikbaar`/`generieke bouwsteen`) — een BO-match is structureel gewoon het simpelste geval van dekking, dus geen aparte tabel nodig. Alfabetisch gesorteerd op GGM-entiteitnaam. Naamoverlap toont `synoniem: X` en/of `homoniem: [[Y]]`, samengevoegd uit `bo_synoniemen`/`bo_homoniemen`.
+De BO/Dekking-kolom toont óf de directe BO-link (`[[BO]] ✅`) óf de indirecte route (`beschrijft`/`via X →`/`typering`/`n.v.t.`/`⚠️ geen BO bereikbaar`/`⚠️ ter discussie tussen [[BO1]] / [[BO2]]`/`generieke bouwsteen`) — een BO-match is structureel gewoon het simpelste geval van dekking, dus geen aparte tabel nodig. `⚠️ ter discussie` betekent: meerdere even-goede kandidaten gevonden, zie Stap 2. Alfabetisch gesorteerd op GGM-entiteitnaam. Naamoverlap toont `synoniem: X` en/of `homoniem: [[Y]]`, samengevoegd uit `bo_synoniemen`/`bo_homoniemen`.
 
 **GGM-hiaten**: BO's zonder GGM-entiteit, met data-object kolom (Terugmelding vs. Alleen BO) — aparte sectie onderaan, ongewijzigd.
 

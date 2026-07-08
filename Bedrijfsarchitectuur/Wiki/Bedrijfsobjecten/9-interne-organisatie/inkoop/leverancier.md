@@ -45,6 +45,10 @@ analyse_ggm_dekking: |
   - **Uitvoerder Graafwerkzaamheden** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Kandidaat"
+    ggm_guid: "EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E"
+    reden: "In de inkoopcontext (Gunning/Leverancier) is een kandidaat een potentiële leverancier; de GGM-definitie lijkt abusievelijk uit een HR-context gekopieerd."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Contract]]"

@@ -27,21 +27,21 @@ Niet-BO entiteiten: 2× classificatie, 9× detail, 1× onderdeel.
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Categorie]] | via Melding → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Categorie]] | via Fractie → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Container]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Containertype]] | typering [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Fractie]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] ✅ | hernoemd |  | Hernoemd naar Grondstofstroom |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Locatie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Generiek kern-concept (Vastgoedobject); cross-domein |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Melding]] | typering [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Melding]] | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Milieustraat]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Ophaalmoment]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Pas]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsafspraak]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] ✅ | hernoemd |  | Hernoemd naar Afvalstoffenheffing |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | onderdeel |  | Onderdeel (naamindicatie) |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Rit]] | via Ophaalmoment → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Rit]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Route]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Storting]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Vuilniswagen]] | via Containertype → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Storting]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Vuilniswagen]] | via Container → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Vulgraadmeting]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (geassocieerd met BO) |
 
 ## BO's zonder GGM-entiteit

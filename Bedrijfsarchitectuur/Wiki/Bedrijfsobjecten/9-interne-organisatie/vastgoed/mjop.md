@@ -36,6 +36,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Dynamisch planningsdocument per vastgoedobject dat het verwachte onderhoud over een periode van 15 jaar beschrijft, gevoed door inspecties."
 bo_toelichting: ''
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Prijzenboekitem"
+    ggm_guid: "EAID_697512E4_0C8E_4be8_8E95_9E2E4BD50F85"
+    reden: "Prijzenboekitems worden gebruikt om onderhoud in het MJOP te begroten."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedobject]]"

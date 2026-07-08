@@ -34,6 +34,10 @@ analyse_ggm_dekking: |
   - **Examenonderdeel** (detail) — Component van Examen, geen zelfstandige levenscyclus
 bo_definitie: Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering.
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Examenonderdeel"
+    ggm_guid: "EAID_D41DCE2D_4AD5_45b8_9527_EC416F4A4CC7"
+    reden: "Een examenonderdeel is een afgebakende component van een examen — expliciet in de GGM-definitie."
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|Inburgeringstraject]]'

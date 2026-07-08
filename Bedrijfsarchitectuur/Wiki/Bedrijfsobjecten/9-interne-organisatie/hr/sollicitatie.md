@@ -33,6 +33,10 @@ analyse_ggm_dekking: |
   - **Sollicitatiegesprek** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Verzoek om in een functie te worden aangesteld."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Sollicitatiegesprek"
+    ggm_guid: "EAID_1D4DA0E6_DA20_4ff7_A415_B937712C6F6D"
+    reden: "Een sollicitatiegesprek betreft een sollicitatie — expliciet in de GGM-definitie."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vacature]]"

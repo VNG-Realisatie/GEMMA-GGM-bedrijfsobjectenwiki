@@ -36,6 +36,13 @@ analyse_ggm_dekking: |
   - **Ziekmelding Leerlingenvervoer** (detail) — Te granulair; operationeel detail
 bo_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Loopbaanstap"
+    ggm_guid: "EAID_0E3DE26B_C535_4a03_98A4_8D36DC3D5297"
+    reden: "Betreft de onderwijsloopbaan van de leerling (de GGM-definitie lijkt overigens abusievelijk uit een HR-context gekopieerd)."
+  - ggm_entiteit: "Onderwijsloopbaan"
+    ggm_guid: "EAID_F47ACE79_C476_479f_A3A3_729E65AF3D32"
+    reden: "Loopbaan als leerling in het onderwijs — expliciet in de GGM-definitie."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"

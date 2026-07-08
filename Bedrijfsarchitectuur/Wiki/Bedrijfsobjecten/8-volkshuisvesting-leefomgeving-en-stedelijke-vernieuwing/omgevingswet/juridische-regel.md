@@ -49,6 +49,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Regel met juridische werkingskracht in een omgevingsdocument, die activiteiten, normen, gebiedsaanwijzingen of omgevingswaarden beschrijft."
 bo_toelichting: "Juridische regels zijn de bouwstenen van het omgevingsplan. Elke regel is gekoppeld aan een regeltekst (artikel/lid), een locatie en optioneel aan activiteiten, gebiedsaanwijzingen of normen. Er zijn drie subtypes met verschillende adressaten."
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Normwaarde"
+    ggm_guid: "EAID_58656D46_644B_4779_A473_739C5636BA0A"
+    reden: "Een normwaarde wordt uitgedrukt via een juridische regel, die normen/omgevingswaarden beschrijft (expliciet in de GGM-definitie van Juridische Regel)."
 bo_synoniemen: []
 bo_homoniemen: []
 bo_relaties:

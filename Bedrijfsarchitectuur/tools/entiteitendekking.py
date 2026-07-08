@@ -78,6 +78,7 @@ def load_bo_pages():
     by_name = {}
     all_bos = []
     specialisatie_by_guid = {}
+    via_kandidaat_by_guid = {}
 
     for f in BO_DIR.rglob("*.md"):
         if f.name == "index.md":
@@ -144,7 +145,20 @@ def load_bo_pages():
             if st_guid and st_guid != ggm_guid and st_guid not in specialisatie_by_guid:
                 specialisatie_by_guid[st_guid] = info
 
-    return by_guid, by_name, all_bos, specialisatie_by_guid
+        # bo_via_kandidaten: curatie-registry voor entiteiten waarvoor
+        # compute_dekking() een echte ambiguïteit vond (meerdere even-goede
+        # associatie-kandidaten, geen eenduidige winnaar) — een mens heeft
+        # hier bewust deze BO als winnaar aangewezen, zodat een volgende run
+        # niet opnieuw "ter discussie" hoeft te tonen. Zelfde vorm als
+        # bo_subtypes: lijst van dicts met ggm_guid + reden.
+        for vk in (fm.get('bo_via_kandidaten') or []):
+            if not isinstance(vk, dict):
+                continue
+            vk_guid = vk.get('ggm_guid')
+            if vk_guid and vk_guid not in via_kandidaat_by_guid:
+                via_kandidaat_by_guid[vk_guid] = info
+
+    return by_guid, by_name, all_bos, specialisatie_by_guid, via_kandidaat_by_guid
 
 
 def load_ggm_path_map():
@@ -204,62 +218,100 @@ class RelationGraph:
                     queue.append(child)
         return found
 
-    def bfs_to_bo(self, start_id, bo_ids, objecttypes, max_depth=3, prefer_bd=None):
-        """Level-order search to the nearest BO.
+    def gather_dekking_candidates(self, start_id, bo_ids, objecttypes, max_gen_depth=10,
+                                   max_assoc_hops=2):
+        """Collect candidate BO's reachable from start_id, in two tiers.
 
-        Explores generalization edges (both up via gen_parent and down via
-        gen_children) together with association edges, generalization checked
-        first at each node so a taxonomically related BO wins ties at the same
-        depth over an unrelated one reached only via associations. When
-        multiple BO's are found at the same (shallowest) depth, one in
-        `prefer_bd` (the source entity's own beleidsdomein) wins over a
-        cross-domein hit.
+        This is deliberately a *candidate-gathering* step, not a
+        winner-picking one — see `_score_candidates` for that. Three
+        channels, in priority order:
+
+        1. Generalization-up chain (`gen_parent`): a single, deterministic
+           path — every entity has at most one direct generalization parent
+           in this model, so climbing it is never a guess. Stops at the
+           first BO found.
+        2. Own direct children (`gen_children`, start entity only, depth 1):
+           the one legitimate use of downward generalization — finding a
+           concrete BO subtype of the start entity's own (abstract) type.
+           Branching (an abstract type can have multiple BO children) is
+           possible here and left to the scoring step; it must never be
+           tried again after any further hop (that produces the sibling-hop
+           bug this replaced, e.g. Leidingelement -> Beheerobject ->
+           Waterobject).
+        3. Associations, bounded to `max_assoc_hops`: only consulted when
+           channels 1+2 found nothing, since a real generalization relation
+           is always stronger evidence than an association chain. Stops at
+           the shallowest hop that yields any BO — never chains an
+           association off of an ancestor reached via another association
+           (that produced the Bak -> Beheerobject -> Melding -> Medewerker
+           bug), only off the start entity's own association neighborhood,
+           hop by hop.
+
+        Returns a list of dicts: {'bo_eid', 'hops', 'via_names', 'kind'}.
         """
+        candidates = []
+
+        cur = start_id
+        depth = 0
+        via_names = []
+        while cur in self.gen_parent and depth < max_gen_depth:
+            nxt = self.gen_parent[cur]
+            depth += 1
+            via_names.append(objecttypes.get(nxt, {}).get('name', '?'))
+            if nxt in bo_ids:
+                candidates.append({'bo_eid': nxt, 'hops': depth,
+                                    'via_names': list(via_names), 'kind': 'generalisatie'})
+                break
+            cur = nxt
+
+        for child in self.gen_children.get(start_id, []):
+            if child in bo_ids:
+                candidates.append({'bo_eid': child, 'hops': 1,
+                                    'via_names': [objecttypes.get(child, {}).get('name', '?')],
+                                    'kind': 'specialisatie-kind'})
+
+        if candidates:
+            return candidates
+
         visited = {start_id}
-        frontier = [(start_id, [])]
-        for _ in range(max_depth):
+        frontier = [start_id]
+        for hop in range(1, max_assoc_hops + 1):
             next_frontier = []
-            hits = []
-            for cur, path in frontier:
-                neighbors = []
-                if cur in self.gen_parent:
-                    neighbors.append(self.gen_parent[cur])
-                neighbors.extend(self.gen_children.get(cur, []))
-                neighbors.extend(self.assoc.get(cur, []))
-                for tgt in neighbors:
+            hop_hits = []
+            for cur in frontier:
+                for tgt in self.assoc.get(cur, []):
                     if tgt in visited:
                         continue
                     visited.add(tgt)
-                    name = objecttypes.get(tgt, {}).get('name', '?')
-                    new_path = path + [name]
                     if tgt in bo_ids:
-                        hits.append((tgt, new_path))
+                        hop_hits.append(tgt)
                     else:
-                        next_frontier.append((tgt, new_path))
-            if hits:
-                def _rank(h):
-                    tgt, _ = h
-                    same_bd = (prefer_bd is not None and
-                               objecttypes.get(tgt, {}).get('beleidsdomein') == prefer_bd)
-                    return 0 if same_bd else 1
-                hits.sort(key=_rank)
-                tgt, path = hits[0]
-                return path, tgt
+                        next_frontier.append(tgt)
+            if hop_hits:
+                for tgt in hop_hits:
+                    candidates.append({'bo_eid': tgt, 'hops': hop,
+                                        'via_names': [objecttypes.get(tgt, {}).get('name', '?')],
+                                        'kind': 'associatie'})
+                break
             frontier = next_frontier
             if not frontier:
                 break
-        return None
+        return candidates
 
 
 # ── Filtering ────────────────────────────────────────────────────────────────
 
-def find_excluded_ids(objecttypes, graph, bo_by_guid):
+def find_excluded_ids(objecttypes, graph, bo_by_guid, specialisatie_by_guid):
     geo_roots = {eid for eid, e in objecttypes.items()
                  if e['name'] in ('Geo-Object', 'GeoObject')}
     geo_desc = graph.descendants_of(geo_roots)
+    # Structureel criterium, geen domeinlabel: een geo-afstammeling blijft
+    # buiten de exclusie als hij al een eigen BO heeft of een geregistreerde
+    # specialisatie van een BO is (dezelfde curatie-registry als stap 1 in
+    # compute_dekking) — niet omdat zijn beleidsdomein toevallig "BAG" heet.
     protected = {eid for eid in geo_desc
-                 if objecttypes[eid].get('beleidsdomein') == 'BAG'
-                 or eid in bo_by_guid}
+                 if eid in bo_by_guid
+                 or eid in specialisatie_by_guid}
     geo_desc -= protected
     tekenwijze = {eid for eid, e in objecttypes.items()
                   if re.match(r'^Objecttype[A-Z]$', e['name'])}
@@ -311,9 +363,20 @@ DETAIL_PATTERNS = (
     'naamgebruik', 'postadres', 'rekeningnummer', 'briefadres',
     'aanduiding', 'filiatie', 'activiteit',
 )
-PROCESS_WORDS = ('onderzoek', 'aanmelding', 'verwerking', 'procedure', 'behandeling')
+PROCESS_WORDS = ('onderzoek', 'aanmelding', 'verwerking', 'procedure', 'behandeling',
+                 'aanvraag', 'melding', 'beschikking')
 ROLE_SUFFIXES = ('begeleider', 'medewerker', 'functionaris', 'beheerder',
-                 'ambtenaar', 'adviseur', 'gever', 'nemer')
+                 'ambtenaar', 'adviseur', 'gever', 'nemer',
+                 'houder', 'eigenaar', 'indiener', 'contactpersoon')
+# Namen die toevallig "regel"/"sluiting" als substring bevatten maar niet de
+# "onderdeel"-betekenis hebben (regel-als-voorschrift resp. toeval), dus
+# uitgesloten van de ONDERDEEL_NAAMWOORDEN-match hieronder.
+ONDERDEEL_UITZONDERINGEN = (
+    'maatregel', 'uitsluitingsgrond', 'regeling', 'regeltekst',
+    'regel voor iedereen', 'toepasbare regel', 'toepasbareregelbestand',
+    'uitvoeringsregel', 'deelnemer',
+)
+ONDERDEEL_NAAMWOORDEN = ('ontbinding', 'sluiting', 'regel', 'deel')
 
 
 def classify_entity(eid, entity, graph, bo_ids, objecttypes):
@@ -334,7 +397,8 @@ def classify_entity(eid, entity, graph, bo_ids, objecttypes):
     if _is_classification(name, attrs):
         return 'classificatie', 'Typering/referentietabel', 'high'
 
-    if any(w in nl for w in ('ontbinding', 'sluiting', 'regel', 'deel')):
+    if (any(w in nl for w in ONDERDEEL_NAAMWOORDEN)
+            and not any(x in nl for x in ONDERDEEL_UITZONDERINGEN)):
         return 'onderdeel', 'Onderdeel (naamindicatie)', 'medium'
 
     if any(nl.endswith(s) for s in ROLE_SUFFIXES):
@@ -351,7 +415,7 @@ def classify_entity(eid, entity, graph, bo_ids, objecttypes):
         return 'detail', 'Detailgegeven (geassocieerd met BO)', 'medium'
 
     if len(attrs) <= 4:
-        return 'detail', 'Detailgegeven (weinig attributen)', 'medium'
+        return 'detail', 'Detailgegeven (weinig attributen, geen structureel signaal)', 'low'
 
     return 'detail', 'Detailgegeven', 'low'
 
@@ -399,8 +463,40 @@ def _walk_aggregation_to_bo(eid, bo_ids, agg_whole, max_depth=3):
     return None
 
 
+def _score_candidates(candidates, objecttypes, prefer_bd, start_name):
+    """Rank dekking-kandidaten en wijs een winnaar aan, of signaleer ambiguïteit.
+
+    Retourneert ('winner', kandidaat) of ('ambigu', [kandidaten die gelijk
+    staan]). Minste hops wint eerst; bij gelijke hops wint hetzelfde
+    beleidsdomein als de startentiteit; bij een resterende gelijkstand wint
+    een kandidaat wiens naam een CamelCase-woord deelt met de startentiteit
+    (onafhankelijk bevestigend signaal, los van het graph-pad). Blijven er na
+    alle drie de criteria nog kandidaten gelijk staan, dan is dat een echte
+    ambiguïteit — geen stille eerste-de-beste-keuze meer.
+    """
+    min_hops = min(c['hops'] for c in candidates)
+    pool = [c for c in candidates if c['hops'] == min_hops]
+    if len(pool) == 1:
+        return 'winner', pool[0]
+
+    start_words = _camel_words(start_name)
+
+    def _rank(c):
+        bo_entity = objecttypes.get(c['bo_eid'], {})
+        same_bd = prefer_bd is not None and bo_entity.get('beleidsdomein') == prefer_bd
+        name_confirmed = bool(start_words & _camel_words(bo_entity.get('name', '')))
+        return (0 if same_bd else 1, 0 if name_confirmed else 1)
+
+    pool.sort(key=_rank)
+    best_rank = _rank(pool[0])
+    tied = [c for c in pool if _rank(c) == best_rank]
+    if len(tied) == 1:
+        return 'winner', tied[0]
+    return 'ambigu', tied
+
+
 def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes,
-                     specialisatie_by_guid):
+                     specialisatie_by_guid, via_kandidaat_by_guid):
     """Compute dekking: welk BO dekt deze entiteit structureel?
 
     Retourneert (dekking_str, target_bo_info_of_None, match_kind).
@@ -411,13 +507,14 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     - beschrijft [[BO]]          — direct pad naar BO
     - via X → [[BO]]             — via tussenentiteit naar BO
     - typering [[BO]]            — classificatie-entiteit bij BO
+    - ⚠️ ter discussie tussen [[BO]] / [[BO]] — meerdere gelijkwaardige kandidaten, curatie nodig
     - ⚠️ geen BO bereikbaar      — geen pad gevonden
     - referentietabel            — classificatie zonder specifiek BO
     - n.v.t.                     — abstract/proces/actor/rol
     - generieke bouwsteen        — gebruikt door meerdere BO's, geen eigenaar
 
     match_kind: 'n.v.t.' | 'specialisatie' | 'onderdeel' | 'generiek' |
-                'duplicaat' | 'graph' | 'naam' | 'classificatie-prefix' |
+                'duplicaat' | 'graph' | 'ambigu' | 'naam' | 'classificatie-prefix' |
                 'referentietabel' | 'geen-match'
     """
     if etype in ('abstract', 'proces', 'actor', 'rol', 'meetinstrument', 'cross-cutting'):
@@ -425,6 +522,15 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
 
     bo_ids = set(bo_by_guid.keys())
     verb = "typering" if etype == 'classificatie' else "beschrijft"
+
+    # 0. Gecureerde keuze uit een eerder gedetecteerde ambiguïteit
+    #    (bo_via_kandidaten) — een mens heeft deze BO al aangewezen als
+    #    winnaar tussen meerdere gelijkwaardige kandidaten; gaat vóór alles,
+    #    net als specialisatie_by_guid, zodat een volgende run niet opnieuw
+    #    "ter discussie" hoeft te tonen.
+    via_kandidaat_target = via_kandidaat_by_guid.get(eid)
+    if via_kandidaat_target:
+        return f"{verb} {bo_link(via_kandidaat_target)}", via_kandidaat_target, 'via-kandidaat'
 
     # 1. Geregistreerd subtype (bo_subtypes met ggm_attribuut: generalisatie)
     #    — curated door /write-bo, gaat vóór elke heuristiek: dit is precies
@@ -448,21 +554,35 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     if name in GENERIC_BUILDING_BLOCKS:
         return "generieke bouwsteen — gebruikt door meerdere BO's", None, 'generiek'
 
-    # 4. Unified search over generalisatie (omhoog + omlaag) en associaties,
-    #    generalisatie het eerst gecheckt per node, eigen beleidsdomein
-    #    geprefereerd bij gelijke diepte. Vóór de naam-duplicaat-stap (5):
-    #    een echte structurele relatie (bijv. Rioolput als generalisatie-kind
-    #    van Put) moet als 'graph' herkend worden, niet toevallig als
-    #    'duplicaat' omdat het kind dezelfde naam draagt als de BO waarin
-    #    het opgaat.
+    # 4. Twee-fasen kandidatenzoektocht: fase 1 verzamelt kandidaten via
+    #    generalisatie (omhoog, enkelvoudig) / eigen generalisatie-kinderen
+    #    (alleen vanaf deze entiteit) / begrensde associatie-hops (alleen als
+    #    de eerste twee niets vinden), fase 2 (_score_candidates) kiest een
+    #    winnaar of signaleert een echte ambiguïteit. Vóór de naam-duplicaat-
+    #    stap (5): een echte structurele relatie (bijv. Rioolput als
+    #    generalisatie-kind van Put) moet als 'graph' herkend worden, niet
+    #    toevallig als 'duplicaat' omdat het kind dezelfde naam draagt als de
+    #    BO waarin het opgaat.
     own_bd = objecttypes.get(eid, {}).get('beleidsdomein')
-    result = graph.bfs_to_bo(eid, bo_ids, objecttypes, prefer_bd=own_bd)
-    if result:
-        path, bo_eid = result
-        target = bo_by_guid[bo_eid]
-        if len(path) == 1:
+    candidates = graph.gather_dekking_candidates(eid, bo_ids, objecttypes)
+    if candidates:
+        # Dedupliceren op BO-pagina: twee GGM-GUID's die als ggm_duplicaat_entiteiten
+        # aan dezelfde BO-pagina hangen (bijv. Buurt in RSGBPlus én BAG) zijn geen
+        # echte ambiguïteit — hetzelfde doel twee keer bereikt, niet twee kandidaten.
+        by_path = {}
+        for c in candidates:
+            path = bo_by_guid[c['bo_eid']]['path']
+            if path not in by_path or c['hops'] < by_path[path]['hops']:
+                by_path[path] = c
+        candidates = list(by_path.values())
+        outcome, result = _score_candidates(candidates, objecttypes, own_bd, name)
+        if outcome == 'ambigu':
+            links = " / ".join(bo_link(bo_by_guid[c['bo_eid']]) for c in result)
+            return f"⚠️ ter discussie tussen {links}", None, 'ambigu'
+        target = bo_by_guid[result['bo_eid']]
+        if result['hops'] == 1:
             return f"{verb} {bo_link(target)}", target, 'graph'
-        return f"via {path[0]} → {bo_link(target)}", target, 'graph'
+        return f"via {result['via_names'][0]} → {bo_link(target)}", target, 'graph'
 
     # 5. Exacte naam-duplicaat van een bestaand BO (andere GUID) — zelfde
     #    concept dubbel gemodelleerd in het GGM (bijv. RSGB Wijk vs. BAG Wijk).
@@ -615,7 +735,8 @@ BEGRIP_TYPE_MAP = {
 
 
 def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
-                           bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid):
+                           bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid,
+                           via_kandidaat_by_guid):
     """Process one beleidsdomein: match, classify, compute dekking."""
     bo_matches = []
     geen_match = []
@@ -687,13 +808,16 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
 
             dekking, dekking_bo, match_kind = compute_dekking(
                 eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes,
-                specialisatie_by_guid)
+                specialisatie_by_guid, via_kandidaat_by_guid)
             if match_kind == 'specialisatie' and dekking_bo:
                 etype = 'specialisatie'
                 rationale = f"Specialisatie van {dekking_bo['naam']} — zie bo_subtypes"
             elif match_kind == 'onderdeel' and dekking_bo:
                 etype = 'onderdeel'
                 rationale = f"Onderdeel van {dekking_bo['naam']}"
+            elif match_kind == 'ambigu':
+                rationale = ("Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — "
+                             "kies er één en registreer via bo_via_kandidaten op die BO-pagina")
 
             geen_match.append({
                 'ggm_name': name, 'eid': eid,
@@ -703,7 +827,10 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                 'beoordeling': rationale, 'confidence': conf,
             })
 
-            if conf == 'low':
+            # Ambigue matches horen altijd bij review, los van de classify_entity-
+            # confidence — dit is een compute_dekking-bevinding (echte
+            # gelijkstand tussen kandidaten), niet een classificatie-twijfel.
+            if conf == 'low' or match_kind == 'ambigu':
                 review_items.append({
                     'entity': name, 'suggested': etype,
                     'attrs': len(e.get('attributes', [])),
@@ -803,7 +930,8 @@ def build_taakveld_structure(objecttypes, excluded_ids, bo_by_guid, tv_merge, bd
 # ── Process Taakveld ─────────────────────────────────────────────────────────
 
 def process_taakveld(tv_name, bd_entities, objecttypes, graph,
-                      bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid):
+                      bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid,
+                      via_kandidaat_by_guid):
     """Process all beleidsdomeinen within one taakveld."""
     results = {}
     rsgb_sub = None
@@ -812,7 +940,7 @@ def process_taakveld(tv_name, bd_entities, objecttypes, graph,
         eids = bd_entities[bd_name]
         bd_result = process_beleidsdomein(
             bd_name, eids, objecttypes, graph, bo_by_guid, bo_by_name, all_bos,
-            specialisatie_by_guid)
+            specialisatie_by_guid, via_kandidaat_by_guid)
 
         # RSGBPlus: add registratie subgroups
         if bd_name == 'RSGBPlus':
@@ -1122,10 +1250,10 @@ def run_full_analysis(taakveld_filter=None, verbose=True):
     if verbose:
         print("Loading data...")
     ggm_data, objecttypes = load_ggm()
-    bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid = load_bo_pages()
+    bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid, via_kandidaat_by_guid = load_bo_pages()
     ggm_path_map = load_ggm_path_map()
     graph = RelationGraph(ggm_data, objecttypes)
-    excluded_ids = find_excluded_ids(objecttypes, graph, bo_by_guid)
+    excluded_ids = find_excluded_ids(objecttypes, graph, bo_by_guid, specialisatie_by_guid)
 
     if verbose:
         print(f"  GGM: {len(objecttypes)} Objecttype, {len(bo_by_guid)} BO's, "
@@ -1144,7 +1272,7 @@ def run_full_analysis(taakveld_filter=None, verbose=True):
         bd_entities = tv_structure[tv_name]
         tv_result = process_taakveld(
             tv_name, bd_entities, objecttypes, graph,
-            bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid)
+            bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid, via_kandidaat_by_guid)
 
         all_tv_results[tv_name] = tv_result
         if verbose:

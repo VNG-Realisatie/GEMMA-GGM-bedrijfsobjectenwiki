@@ -55,6 +55,10 @@ bo_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
+bo_via_kandidaten:
+  - ggm_entiteit: "Inzet"
+    ggm_guid: "EAID_532191CA_13CC_4500_93C9_54AB2862F38D"
+    reden: "Inzet wijkt af van de 'contractuele uren' die het dienstverband vastlegt — expliciet gerelateerd."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"

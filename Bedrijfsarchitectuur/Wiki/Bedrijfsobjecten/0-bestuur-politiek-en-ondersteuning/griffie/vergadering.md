@@ -38,6 +38,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
 bo_toelichting: ''
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Agendapunt"
+    ggm_guid: "EAID_73FB5212_40ED_40dc_B837_36588840445A"
+    reden: "Een agendapunt is een onderwerp dat in de vergadering wordt behandeld — expliciet in de GGM-definitie."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Raadsstuk]]"

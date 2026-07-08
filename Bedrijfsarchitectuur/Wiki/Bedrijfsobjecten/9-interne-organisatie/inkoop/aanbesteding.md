@@ -38,6 +38,13 @@ analyse_ggm_dekking: |
   - **StartformulierAanbesteden** (detail) — Detailgegeven
 bo_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Kwalificatie"
+    ggm_guid: "EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494"
+    reden: "Kwalificatie voor een nationale of Europese aanbesteding — expliciet in de GGM-definitie."
+  - ggm_entiteit: "Offerteaanvraag"
+    ggm_guid: "EAID_1EF1AC66_9563_4cdd_AE78_0878D651907A"
+    reden: "Een offerteaanvraag is een aanbesteding bij inschrijving — expliciet in de GGM-definitie."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Gunning]]"

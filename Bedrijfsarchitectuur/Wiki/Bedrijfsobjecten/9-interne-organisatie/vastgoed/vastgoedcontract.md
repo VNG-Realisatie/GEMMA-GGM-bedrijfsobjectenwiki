@@ -36,6 +36,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Een contract is een afspraak tussen 2 of meer partijen."
 bo_toelichting: "Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor."
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Vastgoedcontractregel"
+    ggm_guid: "EAID_1C25D70B_AE22_4654_9190_2F55272D9BE6"
+    reden: "Een vastgoedcontractregel is onderdeel van een vastgoedcontract — expliciet in de GGM-definitie."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Vastgoedobject]]"

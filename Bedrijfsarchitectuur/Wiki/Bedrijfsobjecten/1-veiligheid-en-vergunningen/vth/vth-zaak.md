@@ -37,6 +37,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Een VTHzaak is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op vergunningverlening, toezicht en handhaving (VTH) van regels en voorschriften in de fysieke leefomgeving."
 bo_toelichting: ''
 bo_subtypes: []
+bo_via_kandidaten:
+  - ggm_entiteit: "Activiteit Omgevingswet"
+    ggm_guid: "EAID_9547BC67_7488_4d9a_B651_2B69A62D789F"
+    reden: "Gereguleerde activiteiten worden behandeld binnen een VTH-zaak (vergunningverlening, toezicht, handhaving)."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inspectie]]"

@@ -32,6 +32,16 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **InburgeringsAanbod** als directe tegenhanger.
 bo_definitie: "Het Inburgeringsaanbod is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP)."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Aandachtspunt"
+    ggm_guid: "EAID_F188F63C_0033_4164_9F73_413AE6943497"
+    reden: "Een aandachtspunt is input voor het samenstellen van het inburgeringsaanbod, geen onderdeel van de wettelijke plicht."
+  - ggm_entiteit: "Hoofddoel"
+    ggm_guid: "EAID_CEAAEBFB_9CB8_4c5e_98F7_11791C0A21D2"
+    reden: "Het hoofddoel is onderdeel van het vastgestelde inburgeringsaanbod/-traject."
+  - ggm_entiteit: "Ontwikkelwens"
+    ggm_guid: "EAID_AE33D54A_A105_4fac_B378_D5651B66F0F0"
+    reden: "Een ontwikkelwens geeft richting aan het inburgeringsaanbod."
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'

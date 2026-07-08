@@ -28,6 +28,10 @@ analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Prijsafspraak**.
 bo_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Prijsregel"
+    ggm_guid: "EAID_E79C6C20_3D05_49fb_96ED_105B5CD0ABA5"
+    reden: "Een prijsregel binnen een tariefstructuur hoort bij de afvalstoffenheffing, niet bij de fysieke grondstofstroom."
 bedrijfsprocessen: [Tariefvaststelling, Belastinginning, Kostenverdeling afvalbeheer]
 bedrijfsfuncties: [Afvalbeheer, Belastingheffing]
 bo_relaties:

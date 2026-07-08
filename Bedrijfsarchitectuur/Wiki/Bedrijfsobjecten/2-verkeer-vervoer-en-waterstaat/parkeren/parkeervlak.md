@@ -29,6 +29,10 @@ analyse_ggm_dekking: |
   - **Straatsectie** (classificatie) — Administratieve indeling, geen zelfstandig object
 bo_definitie: "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Straatsectie"
+    ggm_guid: "EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43"
+    reden: "Een straatsectie is het gedeelte van de straat waarop een parkeervlak is gesitueerd."
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:

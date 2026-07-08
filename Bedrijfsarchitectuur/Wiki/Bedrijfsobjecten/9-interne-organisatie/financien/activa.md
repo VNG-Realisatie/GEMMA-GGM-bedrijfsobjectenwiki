@@ -30,6 +30,10 @@ analyse_ggm_dekking: |
   - **Hoofdrekening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Bezittingen van een onderneming op een boekhoudkundige balans"
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Hoofdrekening"
+    ggm_guid: "EAID_0EEAF579_3F47_4551_B9F9_7367280EB3EB"
+    reden: "Een hoofdrekening (kostensoort) hoort bij de activa-zijde van de balans, niet bij kostenplaats/werkorder/inkooporder."
 definitie: Bezittingen van een onderneming op een boekhoudkundige balans
 bedrijfsprocessen: [Activabeheer, Jaarrekening]
 bedrijfsfuncties: [Financieel beheer]

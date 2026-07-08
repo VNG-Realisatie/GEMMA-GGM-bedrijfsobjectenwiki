@@ -34,6 +34,10 @@ analyse_ggm_dekking: |
   - **CPV-code** (detail) — EU-referentietabel, geen gemeentelijk object
 bo_definitie: "Standaard indeling om de werken, diensten en leveringen die de aanbestedende dienst helpt bij het structureren van haar uitgaven. Samenhangende leveringen, diensten en producten zijn hierin gegroepeerd."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "CPV-code"
+    ggm_guid: "EAID_6A4CF470_3B0E_4141_9DB6_C9E8A525CB49"
+    reden: "CPV-codes classificeren inkooppakketten, net als Inkooppakket zelf een structurerings-/classificatieschema is."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

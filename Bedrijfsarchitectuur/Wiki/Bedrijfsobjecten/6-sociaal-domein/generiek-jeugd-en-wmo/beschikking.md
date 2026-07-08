@@ -55,6 +55,10 @@ analyse_ggm_dekking: |
   - **Voorwaardetype** (classificatie) — Typering/referentietabel
 bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
 bo_toelichting: ''
+bo_via_kandidaten:
+  - ggm_entiteit: "Verzoek om Toewijzing"
+    ggm_guid: "EAID_9F392B0B_1654_4b4e_9261_F0A90DA1F7BD"
+    reden: "Een verzoek om toewijzing gaat vooraf aan en resulteert in een beschikking."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening|Voorziening]]"
