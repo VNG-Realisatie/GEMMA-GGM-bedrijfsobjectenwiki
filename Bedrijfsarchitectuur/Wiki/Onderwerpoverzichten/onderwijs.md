@@ -17,7 +17,7 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/school\|School]] | object | Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting | ✅ | ja | 6/6 criteria, exact match | Basisschool De Brug, CSG Vonk | ja |
-| [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling\|Leerling]] | object | Kind of jongere dat onderwijs volgt aan een school in de gemeente | ✅ | ja | 6/6 criteria, exact match | PO-leerling, VO-leerling | ja |
+| [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling\|Leerling]] | object | Kind of jongere dat onderwijs volgt aan een school in de gemeente | ✅ | ja | 6/6 criteria, exact match; rol-tegenhanger [[Wiki/Rollen/leerling\|Leerling (rol)]] | PO-leerling, VO-leerling | ja |
 | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving\|Opleidingsinschrijving]] | object | Deelname van iemand aan een opleiding bij een onderwijsinstelling | ✅ | ja | 6/6 criteria, exact match | Opleidingsinschrijving groep 1, overstap VO | ja |
 | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/uitschrijving\|Uitschrijving]] | object | Beëindiging van een inschrijving van een leerling bij een school | ✅ | ja | 6/6 criteria, exact match | Schoolverlater, verhuizing | ja |
 | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/ouder-of-verzorger\|Ouder Of Verzorger]] | actor | Persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind | ✅ | ja | 6/6 criteria, exact match | Ouder, voogd, pleegouder | ja |

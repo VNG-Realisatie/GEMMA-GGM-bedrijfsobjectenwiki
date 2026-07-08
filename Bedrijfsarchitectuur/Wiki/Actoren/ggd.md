@@ -11,7 +11,7 @@ element_tegenhangers: []
 
 # GGD (actor)
 
-De bron noemt de GGD zelf een ketenpartner, maar de gemeente is mede-eigenaar en opdrachtgever via de gemeenschappelijke regeling — een eigen, naamgebonden pagina is gerechtvaardigd naast de generieke BO Gemeenschappelijke regeling.
+De bron noemt de GGD zelf een ketenpartner, maar de gemeente is mede-eigenaar en opdrachtgever via de gemeenschappelijke regeling — een eigen, naamgebonden pagina is gerechtvaardigd naast de generieke BO [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling|Gemeenschappelijke Regeling]]. De GGD is één van de expliciete voorbeelden op die BO-pagina; deze actor-pagina beschrijft de GGD specifiek als handelende partij, de BO-pagina beschrijft het generieke juridische samenwerkingsconstruct (Wgr) waarvan de GGD een instantie is.
 
 ## Criteria-toetsing (Business Actor)
 

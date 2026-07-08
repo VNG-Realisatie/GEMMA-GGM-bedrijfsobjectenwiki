@@ -86,6 +86,10 @@ bo_relaties:
     beschrijving: Aanvraag leerlingenvervoer betreft leerling
 bedrijfsprocessen: [Leerplichthandhaving, Leerlingenvervoer, Onderwijshuisvesting]
 bedrijfsfuncties: [Onderwijsbeleid, Leerplicht]
+element_tegenhangers:
+  - element: "[[Wiki/Rollen/leerling|Leerling (rol)]]"
+    archimate_type: business-role
+    toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol (hoedanigheid van ingeschreven zijn bij een school)."
 ---
 
 ## BO-criteria toetsing
@@ -95,6 +99,8 @@ bedrijfsfuncties: [Onderwijsbeleid, Leerplicht]
 ## Beschrijving
 
 Een leerling is een kind of jongere dat onderwijs volgt aan een school in de gemeente. De gemeente houdt leerlingen bij voor leerplichthandhaving (verzuimregistratie, vrijstellingen), leerlingenvervoer en capaciteitsplanning van onderwijshuisvesting. In het GGM erft Leerling van IngeschrevenPersoon. Het attribuut kwetsbareJongere markeert leerlingen die extra aandacht nodig hebben in het kader van voortijdig schoolverlaten.
+
+De handelende/hoedanigheidskant van dit begrip is vastgelegd als rol [[Wiki/Rollen/leerling|Leerling (rol)]].
 
 ## GGM-bron
 

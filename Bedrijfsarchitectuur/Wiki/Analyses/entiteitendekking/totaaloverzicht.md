@@ -6,7 +6,7 @@ datum: 2026-07-09
 
 # Entiteitendekking — totaaloverzicht
 
-917 GGM-entiteiten (40 n.v.t.). Dekking: 715 gedekt van 877 relevante (82%), 162 niet gedekt. 183 BO's zonder GGM-entiteit.
+917 GGM-entiteiten (40 n.v.t.). Dekking: 715 gedekt van 877 relevante (82%), 162 niet gedekt. 182 BO's zonder GGM-entiteit.
 
 | Taakveld | Beleidsdomein | GGM-entiteiten | n.v.t. | Entiteiten met BO | Entiteiten ondersteunend aan BO | Niet gedekt | Dekking | BO zonder GGM-entiteit |
 |---|---|---|---|---|---|---|---|---|

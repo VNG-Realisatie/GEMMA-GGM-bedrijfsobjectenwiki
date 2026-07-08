@@ -63,7 +63,7 @@ Een Gemeenschappelijke Regeling (GR) is een juridische construct waarmee gemeent
 
 Voorbeelden van GR's:
 
-- **GGD** (Gezondheidsdienst) — gemeentelijke gezondheidstaken (RIVM, jeugdgezondheidszorg)
+- [[Wiki/Actoren/ggd|GGD]] (Gezondheidsdienst) — gemeentelijke gezondheidstaken (RIVM, jeugdgezondheidszorg); heeft een eigen actor-pagina naast dit BO omdat de gemeente er direct mede-eigenaar en opdrachtgever van is
 - **RUD** (Regionale Uitvoeringsdienst) — uitvoering rijksregelingen (werk, inkomensvoorziening)
 - **Regionale woningmarktregelingen** — huisvestingsbalans, woningbouwopgaven
 - **Jeugdzorg** — uitvoering Jeugdwet

@@ -494,6 +494,7 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/huurder|huurder]] — Partij die een zaak in gebruik heeft tegen tegenprestatie (GGM exact)
 - [[Wiki/Rollen/indiener|indiener]] — Doet een melding of aanvraag bij de gemeente (GGM duplicaat griffie/VTH)
 - [[Wiki/Rollen/initiatiefnemer|initiatiefnemer]] — Neemt initiatief tot ingrepen in de leefomgeving (Omgevingswet, GGM exact)
+- [[Wiki/Rollen/leerling|leerling]] — Hoedanigheid van ingeschreven zijn bij een school, met rechten/plichten in leerlingenvervoer, VVE en herschikking
 - [[Wiki/Rollen/leerplichtambtenaar|leerplichtambtenaar]] — Toezicht op de uitvoering van de Leerplichtwet (GGM exact)
 - [[Wiki/Rollen/opdrachtgever|opdrachtgever]] — Verstrekt een opdracht (tegenhanger: BO opdrachtgever)
 - [[Wiki/Rollen/opdrachtnemer|opdrachtnemer]] — Aanvaardt een opdracht (tegenhanger: BO opdrachtnemer)
@@ -555,7 +556,6 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/gebruiker-vastgoed|gebruiker-vastgoed]] — Bredere rol dan de al gedekte Huurder: omvat ook interne gemeentelijke afdelingen als gebruiker van eigen v...
 - [[Wiki/Rollen/boswachter|boswachter]] — Specifieke, wettelijk gekaderde toezichtsrol binnen het dierenwelzijnsdomein
 - [[Wiki/Rollen/dataleverancier|dataleverancier]] — Uitvoerende rol binnen het bronhouderschap: vaak een extern bureau, maar aangestuurd door en namens de geme...
-- [[Wiki/Rollen/loonwaardedeskundige|loonwaardedeskundige]] — Specifieke, gecertificeerde beoordelingsrol binnen het proces van loonkostensubsidie
 - [[Wiki/Rollen/pachter|pachter]] — Gebruiksrecht op landbouwgrond op basis van een pachtovereenkomst (GGM exact)
 
 ## GGM (referentie — zie Sources/GGM/)

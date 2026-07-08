@@ -1,5 +1,13 @@
 # Wiki Log
 
+## [2026-07-09] fix | Track 2-triage gecorrigeerd na review: Loonwaardedeskundige geschrapt, Leerling heroverwogen
+
+- **Aanleiding:** de gebruiker controleerde de zelfstandige track 2-triagebeslissingen (33 uitsluitingen + 7 inclusies zonder vooraf overleg) en vroeg om twee correcties.
+- **Loonwaardedeskundige** (rol) verwijderd: `Wiki/Rollen/loonwaardedeskundige.md` geschrapt, referentie uit `Wiki/index.md` verwijderd, backlog aangepast.
+- **Leerling** heroverwogen: bij nader inzien geen doelgroep-achtig grensgeval maar een operationele rol (hoedanigheid van ingeschreven zijn bij een school, met eigen rechten/plichten in leerlingenvervoer, VVE en herschikking, los van de generieke rol Indiener). Nieuwe pagina [[Wiki/Rollen/leerling]] — bleek bovendien een GGM-match te hebben via de al bestaande BO-pagina `Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling.md` (exact match, taakveld 4 Onderwijs): twee-pagina-patroon toegepast met `element_tegenhangers` over en weer, gedeelde `ggm_guid`. `Wiki/Onderwerpoverzichten/onderwijs.md` en `Wiki/index.md` bijgewerkt. Rapporten geregenereerd — geen wijziging in matchtelling (entiteit was al gedekt via de BO, rol is nu tegenhanger).
+- **Ook afgerond (zelfde sessie):** GGD-actorpagina en de generieke BO Gemeenschappelijke Regeling kruisverwezen (GGD is één van de expliciete voorbeelden op die BO-pagina).
+
+
 ## [2026-07-09] update | Onderwerpoverzichten bijgewerkt met actor/rol-verwijzingen
 
 - **Aanleiding:** de begrippentabellen van 12 onderwerpoverzichten bevatten al rijen voor termen die tijdens dit traject een actor/rol-pagina kregen (bv. raadslid, burgemeester, heffingsambtenaar, GGD) — aangemaakt vóórdat het onderscheid actor/rol bestond, met reden-teksten als "rol, geen ding" zonder verwijzing naar enige pagina.

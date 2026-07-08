@@ -91,7 +91,7 @@ Resultaat van de bronsamenvattingen-sweep (4 subagents, 34 onderwerpmappen, 218 
 - [x] Gebruiker (vastgoed)
 - [x] Boswachter
 - [x] Dataleverancier
-- [x] Loonwaardedeskundige
+- [x] Leerling *(heroverwogen na review — alsnog opgenomen, geen doelgroep maar operationele rol)*
 
 ## Fold-ins (geen eigen pagina — notitie op bestaande pagina)
 
@@ -102,6 +102,8 @@ Resultaat van de bronsamenvattingen-sweep (4 subagents, 34 onderwerpmappen, 218 
 
 | Kandidaat | Reden |
 |---|---|
+| Loonwaardedeskundige | Na review alsnog geschrapt (was eerst opgenomen) — te dun voor een eigen pagina |
+| Leerling | Heroverwogen en alsnog opgenomen — zie [[Wiki/Rollen/leerling]] (Business Role, geen doelgroep: operationele hoedanigheid met eigen rechten/plichten in leerlingenvervoer, VVE en herschikking) |
 | Sleutelpersoon | Bron zelf: "werkwijze/rol, geen registratie-object" |
 | Waarderingskamer | Externe toezichthouder, geen directe gemeentelijke handelingsrelatie |
 | Maatschappelijke partij | Te generiek/doelgroep-achtig, geen eigen identiteit |
@@ -117,7 +119,6 @@ Resultaat van de bronsamenvattingen-sweep (4 subagents, 34 onderwerpmappen, 218 
 | Aannemer | Relatie met gemeente grotendeels indirect (privaatrechtelijk met opdrachtgever) |
 | Saneringsplichtige | Vaak private partij (veroorzaker), gemeente toetst slechts |
 | Grondwatergebruiker | Te gemengd/onduidelijk gedefinieerd (kan gemeente zelf of derde zijn) |
-| Leerling | Doelgroep-patroon (grensgeval met de "doelgroep is geen actor/rol"-regel), geen eigen rol |
 | Forens / Bezoeker | Doelgroep, geen rol |
 | Solgu | Pure externe context (adviesorgaan, eenmalig genoemd) |
 | COA-regievoerder | Rol zit bij COA, niet bij de gemeente |
