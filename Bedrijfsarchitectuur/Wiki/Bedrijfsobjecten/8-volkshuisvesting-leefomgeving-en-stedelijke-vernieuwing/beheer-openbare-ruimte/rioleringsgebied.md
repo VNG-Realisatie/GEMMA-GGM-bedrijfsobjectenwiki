@@ -25,7 +25,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Rioleringsgebied** als directe tegenhanger.
+  Dit BO heeft de GGM-entiteit **Rioleringsgebied** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Bemalingsgebied** (specialisatie) — Specialisatie van Rioleringsgebied — zie bo_subtypes
 bo_definitie: "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren."
 bo_toelichting: ''
 bo_subtypes:

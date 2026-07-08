@@ -26,7 +26,6 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Speelterrein** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Bemalingsgebied** (detail) — Detailgegeven (weinig attributen)
   - **FunctioneelGebied** (detail) — Detailgegeven (weinig attributen)
   - **Stuwgebied** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen."

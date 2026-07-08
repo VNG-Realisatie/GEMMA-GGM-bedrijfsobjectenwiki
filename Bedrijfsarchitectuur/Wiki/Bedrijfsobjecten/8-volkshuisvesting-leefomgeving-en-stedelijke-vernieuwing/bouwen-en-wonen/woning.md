@@ -29,9 +29,9 @@ ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Gebouw**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Huurwoningen** (detail) — Detailgegeven (weinig attributen)
-  - **Koopwoningen** (detail) — Detailgegeven (weinig attributen)
-  - **Studentenwoningen** (detail) — Detailgegeven (weinig attributen)
+  - **Huurwoningen** (specialisatie) — Specialisatie van Woning — zie bo_subtypes
+  - **Koopwoningen** (specialisatie) — Specialisatie van Woning — zie bo_subtypes
+  - **Studentenwoningen** (specialisatie) — Specialisatie van Woning — zie bo_subtypes
 bo_definitie: "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
 bo_toelichting: ''
 bo_subtypes:

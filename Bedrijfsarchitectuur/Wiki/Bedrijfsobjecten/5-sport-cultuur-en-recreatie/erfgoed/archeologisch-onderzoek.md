@@ -40,6 +40,7 @@ analyse_ggm_dekking: |
   - **Magazijnplaatsing** (detail) — Detailgegeven (geassocieerd met BO)
   - **Projectactiviteit** (detail) — Detailgegeven
   - **Projectlocatie** (detail) — Detailgegeven
+  - **Put** (detail) — Detailgegeven (geassocieerd met BO)
   - **Specificatie** (detail) — Detailgegeven
   - **Stelling** (detail) — Detailgegeven (weinig attributen)
   - **Verzoek** (detail) — Detailgegeven

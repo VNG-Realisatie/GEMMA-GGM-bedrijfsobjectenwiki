@@ -40,13 +40,14 @@ analyse_ggm_dekking: |
   - **Beperkingscoresoort** (classificatie) — Typering/referentietabel
   - **Beschikkingsoort** (classificatie) — Typering/referentietabel
   - **Beschikte Voorziening** (detail) — Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO
-  - **Declaratieregel** (component) — Component
+  - **Besluit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Declaratieregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Diensttype** (detail) — Detailgegeven
   - **Leveringsvorm** (detail) — Detailgegeven (weinig attributen)
   - **Melding Eigen bijdrage** (detail) — Component van Eigen bijdrage, geen zelfstandig BO
-  - **Onderdeel beschikking** (component) — Component
+  - **Onderdeel beschikking** (onderdeel) — Onderdeel (naamindicatie)
   - **Recht** (detail) — Detailgegeven
-  - **Regeling** (component) — Component
+  - **Regeling** (onderdeel) — Onderdeel (naamindicatie)
   - **Team** (detail) — Detailgegeven (weinig attributen)
   - **Verstrekkingsvorm** (detail) — Detailgegeven (weinig attributen)
   - **Verzoek om Toewijzing** (detail) — Detailgegeven

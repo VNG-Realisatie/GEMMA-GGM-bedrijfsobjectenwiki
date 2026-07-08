@@ -37,7 +37,7 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Woonplaats** als directe tegenhanger. Daarnaast is **Woonplaats** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **GeboorteIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
-  - **OntbindingHuwelijk/geregistreerdPartnerschap** (component) — Component
+  - **OntbindingHuwelijk/geregistreerdPartnerschap** (onderdeel) — Onderdeel (naamindicatie)
   - **OverlijdenIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
   - **Postadres** (detail) — Detailgegeven
 bo_definitie: "Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."

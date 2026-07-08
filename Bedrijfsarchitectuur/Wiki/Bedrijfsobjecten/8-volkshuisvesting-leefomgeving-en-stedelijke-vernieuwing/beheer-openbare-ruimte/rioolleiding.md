@@ -35,7 +35,7 @@ bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in 
 bo_toelichting: ''
 bo_relaties:
   - type: associatie
-    bedrijfsobject: "[[Rioolput]]"
+    bedrijfsobject: "[[Put]]"
     richting: bidirectioneel
     kardinaliteit: "1..*"
     beschrijving: "Rioolleiding sluit aan op putten voor inspectie en onderhoud"
@@ -107,7 +107,7 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 | Gerelateerd BO | Relatie | Richting | Toelichting |
 |---|---|---|---|
-| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | sluit aan op | bidirectioneel | Verticale constructie voor inspectie en onderhoud |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | sluit aan op | bidirectioneel | Verticale constructie voor inspectie en onderhoud |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | wordt bemalen door | naar-dit-BO | Gemaal pompt water uit leiding |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk\|Kolk]] | ontvangt water van | naar-dit-BO | Hemelwater via straatkolk |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | behoort tot | naar-dit-BO | Administratief beheersgebied |

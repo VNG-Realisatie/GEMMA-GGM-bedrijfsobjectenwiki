@@ -106,10 +106,10 @@ Totaal review-items: 97.
 - **Beheerobject** → detail (43 attrs). Verzamelobject - niveau 1
 - **Bord** → detail (9 attrs). Paneel waarop (statische) informatie wordt afgebeeld, verwoord in tekst, pictogram of code.
 - **Bouwwerk** → detail (10 attrs). Met de aarde verbonden duurzaam bouwwerk, dat niet valt onder de definities van een pand of kunstwerk  (bron: definities
-- **Brug** → detail (17 attrs). Kunstwerk over een waterweg, watergang of waterloop, bestaande uit een brugdek gesteund door pijlers en/of landhoofden.
-- **Flyover** → detail (10 attrs). Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of m
+- **Brug** → specialisatie (17 attrs). Kunstwerk over een waterweg, watergang of waterloop, bestaande uit een brugdek gesteund door pijlers en/of landhoofden.
+- **Flyover** → specialisatie (10 attrs). Kunstwerk in de vorm van een viaduct dat deel uitmaakt van een verkeersbaan en waarmee een verkeersstroom over twee of m
 - **Installatie** → detail (10 attrs). Samenhangend systeem dat een bepaald doel dient.
-- **Kademuur** → detail (11 attrs). Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton. (bron: de
+- **Kademuur** → specialisatie (11 attrs). Verticale wand ter scheiding van land en water, opgebouwd uit een muur van gemetselde stenen of gestort beton. (bron: de
 - **Kast** → detail (17 attrs). Object met een permanent karakter dat dient om iets in te bergen en te beschermen.
 - **Klimplant** → detail (5 attrs). Plant met buigzame stengels die zich op diverse manieren aan muren, bomen of constructies hecht en zodoende omhoog klimt
 - **Leidingelement** → detail (6 attrs). Een object dat bij een leiding behoort.
@@ -120,11 +120,11 @@ Een ruimtelijk object ter in
 - **Overbruggingsobject** → detail (23 attrs). Onderdeel van een beweegbare of vaste verbinding tussen twee punten, die door water, een weg of anderszins gescheiden zi
 - **Paal** → detail (10 attrs). Langwerpig stuk hout, ijzer, steen enz., dat in de grond staat.
 - **Pomp** → detail (17 attrs). Een technische installatie die het (afval) water onder druk transporteert.
-- **Rioolput** → detail (12 attrs). Constructie toegang gevend tot het rioolstelsel
+- **Rioolput** → specialisatie (12 attrs). Constructie toegang gevend tot het rioolstelsel
 - **Scheiding** → detail (11 attrs). Kunstmatig, meestal lineair obstakel met een werende functie.
 - **Tunnelobject** → detail (14 attrs). Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie.
 - **Vegetatieobject** → detail (12 attrs). Verzamelobject van alle vegetatieobjecten - niveau 2
-- **Viaduct** → detail (11 attrs). Kunstwerk over een weg, spoorweg of terreinverdieping, bestaande uit een dek gesteund door pijlers en/of landhoofden.
+- **Viaduct** → specialisatie (11 attrs). Kunstwerk over een weg, spoorweg of terreinverdieping, bestaande uit een dek gesteund door pijlers en/of landhoofden.
 - **Waterinrichtingsobject** → detail (10 attrs). Een ruimtelijk object ter inrichting van het water.
 - **Weginrichtingsobject** → detail (12 attrs). Een ruimtelijk object dat dient voor de inrichting van de openbare weg.
 

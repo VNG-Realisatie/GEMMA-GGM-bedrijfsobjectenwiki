@@ -26,7 +26,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Factuur** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Factuurregel** (component) — Component
+  - **Factuurregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
 bo_toelichting: ''
 definitie: Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten

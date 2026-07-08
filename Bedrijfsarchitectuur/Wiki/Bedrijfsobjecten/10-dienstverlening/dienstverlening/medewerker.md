@@ -29,12 +29,14 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Medewerker** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Actie** (detail) — Detailgegeven (weinig attributen)
   - **CROW-Melding** (detail) — Detailgegeven (weinig attributen)
+  - **Inspectie** (detail) — Detailgegeven (weinig attributen)
   - **Kwaliteitscatalogus Openbare Ruimte** (detail) — Detailgegeven (weinig attributen)
   - **Melding** (detail) — Detailgegeven
   - **MeldingOngeval** (detail) — Detailgegeven (weinig attributen)
   - **Samensteller** (detail) — Detailgegeven (weinig attributen)
   - **Schouwronde** (detail) — Detailgegeven (geassocieerd met BO)
   - **Sector** (detail) — Detailgegeven (weinig attributen)
+  - **Storing** (detail) — Detailgegeven (weinig attributen)
   - **Subsidie** (detail) — Detailgegeven
   - **Subsidieaanvraag** (detail) — Detailgegeven
   - **Subsidiebeschikking** (detail) — Detailgegeven

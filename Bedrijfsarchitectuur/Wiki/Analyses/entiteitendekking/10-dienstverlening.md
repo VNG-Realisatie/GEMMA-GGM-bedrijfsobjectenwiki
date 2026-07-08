@@ -27,11 +27,11 @@ Niet-BO entiteiten: 1× classificatie, 12× detail.
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|AanvraagOfMelding]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] ✅ | synoniem |  | BO hernoemd: Aanvraag of melding |
+| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|AanvraagOfMelding]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] ✅ | hernoemd |  | Hernoemd naar Aanvraag of melding |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Aanvraagdata]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Afspraakstatus]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Artikel]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Balieafspraak]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Balieafspraak]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak\|Balieafspraak]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|ExterneBron]] | via Batch → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Formuliersoort]] | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Formuliersoortveld]] | via Aanvraagdata → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Detailgegeven |
@@ -39,7 +39,7 @@ Niet-BO entiteiten: 1× classificatie, 12× detail.
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Klantbeoordelingreden]] | via Klantbeoordeling → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|MOR-AanvraagOfMelding]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Onderwerp]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|ProductOfDienst]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] ✅ | synoniem |  | BO hernoemd: Product of dienst |
+| [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|ProductOfDienst]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst\|Product of dienst]] ✅ | hernoemd |  | Hernoemd naar Product of dienst |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Telefoononderwerp]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Telefoonstatus]] | via Telefoontje → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/10-dienstverlening/10-dienstverlening\|Telefoontje]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | detail |  | Detailgegeven |

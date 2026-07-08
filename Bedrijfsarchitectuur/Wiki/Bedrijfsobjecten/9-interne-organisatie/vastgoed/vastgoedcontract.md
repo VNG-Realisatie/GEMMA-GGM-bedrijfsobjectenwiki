@@ -32,7 +32,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Vastgoed Contract**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Pachter** (detail) — Detailgegeven (weinig attributen)
-  - **Vastgoedcontractregel** (component) — Component
+  - **Vastgoedcontractregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Een contract is een afspraak tussen 2 of meer partijen."
 bo_toelichting: "Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor."
 bo_subtypes: []

@@ -34,8 +34,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Client** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
   - **Aanvraagtype** (classificatie) — Typering/referentietabel
-  - **Afwijkende maatregel** (component) — Component
-  - **Bankrekening** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Afwijkende maatregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Betalingsblokkade** (detail) — Detailgegeven (weinig attributen)
   - **Boete** (detail) — Detailgegeven (weinig attributen)
   - **Dienst** (detail) — Detailgegeven (geassocieerd met BO)
@@ -47,8 +46,8 @@ analyse_ggm_dekking: |
   - **Leefgebied** (detail) — Detailgegeven (weinig attributen)
   - **Levenssituatie::Levenssituatie** (detail) — Detailgegeven (weinig attributen)
   - **Leveringsopdracht** (detail) — Detailgegeven (weinig attributen)
-  - **Maatregel** (component) — Component
-  - **Maatregel op uitkering** (component) — Component
+  - **Maatregel** (onderdeel) — Onderdeel (naamindicatie)
+  - **Maatregel op uitkering** (onderdeel) — Onderdeel (naamindicatie)
   - **Motorvoertuig** (detail) — Detailgegeven (weinig attributen)
   - **Normafwijking** (detail) — Detailgegeven (geassocieerd met BO)
   - **Onroerend goed** (detail) — Detailgegeven (weinig attributen)

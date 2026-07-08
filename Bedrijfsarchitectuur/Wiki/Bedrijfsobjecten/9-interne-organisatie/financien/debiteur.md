@@ -31,8 +31,11 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Debiteur** als directe tegenhanger. Daarnaast is **Debiteur** (beleidsdomein Terug- en invordering) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Hypotheek** (detail) — Detailgegeven (weinig attributen)
-  - **Krediethypotheek** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Leenbijstand** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Invorderingsbasis** (onderdeel) — Onderdeel van Debiteur
+  - **Krediethypotheek** (onderdeel) — Onderdeel van Debiteur
+  - **Krediethypotheekvordering** (onderdeel) — Onderdeel van Debiteur
+  - **Leenbijstand** (onderdeel) — Onderdeel van Debiteur
+  - **Leenbijstandvordering** (onderdeel) — Onderdeel van Debiteur
 bo_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
 bo_toelichting: ''
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente

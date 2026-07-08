@@ -26,7 +26,12 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Kunstwerk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Brug** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
+  - **Flyover** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
+  - **Kademuur** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
+  - **Keermuur** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
   - **Uitlaatconstructie** (detail) — Te granulair voor BO-niveau
+  - **Viaduct** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
 bo_definitie: "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf."
 bo_toelichting: ''
 bo_subtypes:

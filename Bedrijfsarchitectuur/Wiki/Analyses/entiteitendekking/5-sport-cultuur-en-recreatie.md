@@ -34,11 +34,11 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 58× detail, 1× rol.
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Archeologiebesluit]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Archief]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Archiefcategorie]] | via Archief → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Archiefstuk]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Archiefstuk]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Artefact]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Artefactsoort]] | via Artefact → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Auteur]] | via Historisch Persoon → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Beschermde Status]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] ✅ | synoniem |  | BO hernoemd: Monument |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Beschermde Status]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] ✅ | hernoemd |  | Hernoemd naar Monument |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Bezoeker]] | via Aanvraag → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Bouwactiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Bouwstijl]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | detail |  | Detailgegeven (geassocieerd met BO) |
@@ -59,15 +59,15 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 58× detail, 1× rol.
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|OorspronkelijkeFunctie]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument\|Monument]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Ordeningsschema]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Plank]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | synoniem |  | BO hernoemd: Archeologisch onderzoek |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Put]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | hernoemd |  | Hernoemd naar Archeologisch onderzoek (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Put]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Rechthebbende]] | via Archief → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Spoor]] | via Vulling → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Stelling]] | via Magazijnlocatie → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Uitgever]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vindplaats]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]] ✅ | synoniem |  | BO hernoemd: Archeologische vindplaats |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vindplaats]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]] ✅ | hernoemd |  | Hernoemd naar Archeologische vindplaats (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vlak]] | via Put → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vondst]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] ✅ | synoniem |  | BO hernoemd: Archeologische vondst |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vondst]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] ✅ | hernoemd |  | Hernoemd naar Archeologische vondst |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Vulling]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|boring]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|locatie]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Generiek kern-concept (Vastgoedobject); cross-domein |
@@ -78,23 +78,23 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 58× detail, 1× rol.
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] ✅ | synoniem |  | BO hernoemd: Risicobron |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] ✅ | hernoemd |  | Hernoemd naar Risicobron (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteitsoort]] | typering [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Balieverkoop]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Balieverkoop Entreekaart]] | via Balieverkoop → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Belanghebbende]] | n.v.t. | actor |  | actor — degene die beschikking ontvangt |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Bruikleen]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Operationeel contract, specifiek museaal; geen apart BO naast [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Collectie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/collectie\|Collectie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Collectie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/collectie\|Collectie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Doelgroep]] | via Museumrelatie → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Entreekaart]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Incident]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Lener]] | via Bruikleen → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Mailing]] | via Museumrelatie → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumobject]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumobject]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumrelatie]] | via Programma → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Omzetgroep]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Prijs]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | hernoemd |  | Hernoemd naar Product (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Productgroep]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | classificatie |  | Administratieve classificatie |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Productie-eenheid]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
@@ -102,9 +102,9 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 58× detail, 1× rol.
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Reservering]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Rondleiding]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Samensteller]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Standplaats]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats\|Standplaats (BAG)]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Standplaats]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Tentoonstelling]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Operationele activiteit van museum, geen gemeentelijk registratieobject |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Voorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Voorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] ✅ | hernoemd |  | Hernoemd naar Voorziening (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Winkelverkoopgroep]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Winkelvoorraaditem]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Zaal]] | via Tentoonstelling → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (weinig attributen) |
@@ -117,13 +117,13 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 58× detail, 1× rol.
 |---|---|---|---|---|
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Belijning]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Bezetting]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Binnenlocatie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Binnenlocatie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Onderhoudskosten]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportlocatie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportlocatie\|Sportlocatie]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportmateriaal]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportmateriaal\|Sportmateriaal]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportpark]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportvereniging]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportvereniging\|Sportvereniging]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Veld]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld\|Veld]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportlocatie]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportlocatie\|Sportlocatie]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportmateriaal]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportmateriaal\|Sportmateriaal]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportpark]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Sportvereniging]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportvereniging\|Sportvereniging]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/sport\|Veld]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld\|Veld]] ✅ | — |  | Exacte match |
 
 ## BO's zonder GGM-entiteit
 

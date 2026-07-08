@@ -22,7 +22,7 @@ Financiering via rioolheffing (€278,76/jaar in 2024). Vervangingsprojecten 202
 
 ## Kernbegrippen
 
-- **Rioolleiding** — buisinfrastructuur voor transport van afval- en/of hemelwater. ~395.000 meter in Twenterand. Typen: gemengd, gescheiden (vuilwater/hemelwater), drukriolering. Bestaand BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput|Rioolput]] is verticale component; de leiding is de horizontale component. GGM: Leiding (exact).
+- **Rioolleiding** — buisinfrastructuur voor transport van afval- en/of hemelwater. ~395.000 meter in Twenterand. Typen: gemengd, gescheiden (vuilwater/hemelwater), drukriolering. Bestaand BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|Put]] is verticale component; de leiding is de horizontale component. GGM: Leiding (exact).
 - **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]** — 36 rioolgemalen + 703 minigemalen in Twenterand. Bevestigt bestaand BO met subtype minigemaal.
 - **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk|Kolk]]** — 14.554 stuks jaarlijks gereinigd. Bevestigt bestaand BO.
 - **IBA (Individuele Behandelingsinstallatie Afvalwater)** — alternatief voor riolering in buitengebied. Perceeleigenaar is verantwoordelijk voor onderhoud. Eigen levenscyclus.

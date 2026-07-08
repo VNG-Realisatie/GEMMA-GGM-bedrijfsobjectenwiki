@@ -44,7 +44,7 @@ ggm_gemma_alternate_name: "ZakelijkRecht (RSGB Model)"
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **ZakelijkRecht**. Daarnaast is **Zakelijk Recht** (beleidsdomein Vastgoed) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  Dit BO is de hernoeming van GGM-entiteit **ZakelijkRecht**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **AardZakelijkRecht** (classificatie) — Typering/referentietabel
   - **Appartementsrechtsplitsing** (detail) — Detailgegeven (weinig attributen)
   - **KadastraleMutatie** (detail) — Detailgegeven (geassocieerd met BO)

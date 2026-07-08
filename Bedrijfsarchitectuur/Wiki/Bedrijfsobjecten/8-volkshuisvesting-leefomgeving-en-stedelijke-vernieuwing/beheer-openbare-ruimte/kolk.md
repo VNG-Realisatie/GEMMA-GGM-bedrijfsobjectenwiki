@@ -33,7 +33,7 @@ bo_definitie: "Een reservoir bestemd voor de opvang van hemelwater afkomstig van
 bo_toelichting: ''
 bo_relaties:
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput|Rioolput]]'
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put|Put]]'
   richting: van-dit-BO
   kardinaliteit: null
   beschrijving: Kolk is een specialisatie van Put in het GGM

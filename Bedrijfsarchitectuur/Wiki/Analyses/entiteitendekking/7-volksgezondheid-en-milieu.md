@@ -19,7 +19,7 @@ totaal_hiaten: 31
 
 1 beleidsdomeinen, 16 GGM-entiteiten. Dekking: 16 van 16 (100%) — 4 met BO, 12 ondersteunend, 0 niet gedekt. 31 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× classificatie, 1× component, 9× detail.
+Niet-BO entiteiten: 2× classificatie, 9× detail, 1× onderdeel.
 
 ## Afval
 
@@ -28,16 +28,16 @@ Niet-BO entiteiten: 2× classificatie, 1× component, 9× detail.
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Categorie]] | via Melding → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Container]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Container]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Containertype]] | typering [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Fractie]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] ✅ | synoniem |  | BO hernoemd: Grondstofstroom |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Fractie]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] ✅ | hernoemd |  | Hernoemd naar Grondstofstroom |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Locatie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Generiek kern-concept (Vastgoedobject); cross-domein |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Melding]] | typering [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Milieustraat]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Milieustraat]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Ophaalmoment]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Pas]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/milieustraat\|Milieustraat]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsafspraak]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] ✅ | synoniem |  | BO hernoemd: Afvalstoffenheffing |
-| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | component |  | Component |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsafspraak]] | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]] ✅ | hernoemd |  | Hernoemd naar Afvalstoffenheffing |
+| [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Prijsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Rit]] | via Ophaalmoment → [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/container\|Container]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Route]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/7-volksgezondheid-en-milieu/afval\|Storting]] | beschrijft [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstofstroom\|Grondstofstroom]] | detail |  | Detailgegeven (geassocieerd met BO) |

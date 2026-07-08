@@ -28,13 +28,13 @@ Niet-BO entiteiten: 3× classificatie, 4× detail.
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Stremming]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stremming\|Stremming]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Stremming]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/stremming\|Stremming]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Strooidag]] | via StrooirouteUitvoering → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute\|Strooiroute]] | detail |  | Te operationeel, onderdeel van gladheidsbestrijdingsproces |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Strooiroute]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute\|Strooiroute]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Strooiroute]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute\|Strooiroute]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|StrooirouteUitvoering]] | beschrijft [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/strooiroute\|Strooiroute]] | detail |  | Te operationeel, uitvoeringsniveau |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|VLogInfo]] | via Sensor → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | detail |  | Te technisch/operationeel voor bedrijfsniveau |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Verkeersbesluit]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit\|Verkeersbesluit]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Verkeerstelling]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Verkeersbesluit]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeersbesluit\|Verkeersbesluit]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/mobiliteit\|Verkeerstelling]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] ✅ | — |  | Exacte match |
 
 ## Parkeren
 
@@ -43,18 +43,18 @@ Niet-BO entiteiten: 3× classificatie, 4× detail.
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Belprovider]] | beschrijft [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]] | detail |  | Te technisch/operationeel, geen herkenbaar bedrijfsobject |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|MulderFeit]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit\|MulderFeit]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Naheffing]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing\|Naheffing]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeergarage]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage\|Parkeergarage]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerrecht]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerscan]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerscan\|Parkeerscan]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeervergunning]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeervlak]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak\|Parkeervlak]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerzone]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone\|Parkeerzone]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|MulderFeit]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/mulderfeit\|MulderFeit]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Naheffing]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/naheffing\|Naheffing]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeergarage]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage\|Parkeergarage]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerrecht]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerrecht\|Parkeerrecht]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerscan]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerscan\|Parkeerscan]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeervergunning]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeervlak]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak\|Parkeervlak]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Parkeerzone]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeerzone\|Parkeerzone]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Productgroep]] | typering [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] | classificatie |  | Administratieve classificatie |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Productsoort]] | typering [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] | classificatie |  | Administratieve classificatie |
 | [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Straatsectie]] | typering [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervlak\|Parkeervlak]] | classificatie |  | Administratieve indeling, geen zelfstandig object |
-| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Voertuig]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig\|Voertuig]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/2-verkeer-vervoer-en-waterstaat/parkeren\|Voertuig]] | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig\|Voertuig]] ✅ | — |  | Exacte match |
 
 ## BO's zonder GGM-entiteit
 

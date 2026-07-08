@@ -38,7 +38,7 @@ analyse_ggm_dekking: |
   - **Paal** (detail) — Detailgegeven
   - **Pomp** (detail) — Onderdeel van Gemaal, te granulair
   - **Putdeksel** (detail) — Detailgegeven (weinig attributen)
-  - **Terreindeel** (component) — Component
+  - **Terreindeel** (onderdeel) — Onderdeel (naamindicatie)
   - **Tunnelobject** (detail) — Detailgegeven
   - **Verkeersdrempel** (detail) — Detailgegeven (weinig attributen)
   - **Waterinrichtingsobject** (detail) — Detailgegeven

@@ -28,10 +28,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Ecoduct**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Brug** (detail) — Detailgegeven
-  - **Flyover** (detail) — Detailgegeven
   - **Overbruggingsobject** (detail) — Detailgegeven
-  - **Viaduct** (detail) — Detailgegeven
 bo_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage Toelichting: Opheffen van barriÃ¨res en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
 bo_toelichting: ''
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]

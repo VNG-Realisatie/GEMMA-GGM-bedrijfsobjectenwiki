@@ -31,6 +31,7 @@ analyse_ggm_dekking: |
   - **Historisch Persoon** (detail) — Detailgegeven (geassocieerd met BO)
   - **Incident** (detail) — Detailgegeven (geassocieerd met BO)
   - **Lener** (detail) — Detailgegeven (weinig attributen)
+  - **Standplaats** (detail) — Detailgegeven (geassocieerd met BO)
   - **Tentoonstelling** (detail) — Operationele activiteit van museum, geen gemeentelijk registratieobject
   - **Zaal** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."

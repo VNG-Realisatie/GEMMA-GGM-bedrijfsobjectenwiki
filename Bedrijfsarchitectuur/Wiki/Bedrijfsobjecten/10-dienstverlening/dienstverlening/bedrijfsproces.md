@@ -28,7 +28,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Bedrijfsproces** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Bedrijfsprocestype** (classificatie) — Typering/referentietabel
-  - **Deelproces** (component) — Component
+  - **Deelproces** (onderdeel) — Onderdeel (naamindicatie)
   - **Deelprocestype** (classificatie) — Typering/referentietabel
 bo_definitie: "Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of dienst."
 bo_toelichting: ""

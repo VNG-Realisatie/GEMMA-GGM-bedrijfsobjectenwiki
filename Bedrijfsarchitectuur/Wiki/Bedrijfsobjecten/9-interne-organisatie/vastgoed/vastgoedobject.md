@@ -36,6 +36,7 @@ analyse_ggm_dekking: |
   - **CultuurOnbebouwd** (detail) — Detailgegeven (weinig attributen)
   - **Locatieonroerendezaak** (classificatie) — Typering/referentietabel
   - **Objectrelatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Zakelijk Recht** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
 bo_toelichting: ''
 bo_subtypes: []

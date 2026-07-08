@@ -1,6 +1,6 @@
 ---
 type: bedrijfsobject
-naam: Rioolput
+naam: Put
 domein: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
@@ -28,16 +28,17 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Put**. Daarnaast is **Put** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Rioolput** (beleidsdomein Beheer Openbare Ruimte) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  Dit BO heeft de GGM-entiteit **Put** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aansluitput** (detail) — Detailgegeven (weinig attributen)
-  - **Drainageput** (detail) — Detailgegeven (weinig attributen)
-  - **Filterput** (detail) — Detailgegeven (weinig attributen)
-  - **Infiltratieput** (detail) — Detailgegeven (weinig attributen)
+  - **Drainageput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
+  - **Filterput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
+  - **Infiltratieput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
+  - **Rioolput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
 bo_homoniemen:
   - ggm_entiteit: "Put"
     ggm_guid: "EAID_17286CE1_21F2_454b_95A6_3E4C0C6E2453"
     ggm_beleidsdomein: "Archeologie"
-    toelichting: "Archeologische put (waterput of afvalput als grondspoor) — ander concept dan rioolput"
+    toelichting: "Archeologische put (waterput of afvalput als grondspoor) — ander concept dan dit BO. Bij een eigen BO-pagina: gebruik disambiguatienaam Archeologieput, niet Rioolput — die naam is al bezet door de generalisatie-kind-entiteit Rioolput van dit BO."
 
 bo_definitie: "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken"
 bo_toelichting: ''
@@ -56,6 +57,11 @@ bo_subtypes:
     omschrijving: Put met waterdoorlatende wanden voor infiltratie van hemelwater
     ggm_entiteit: Infiltratieput
     ggm_guid: EAID_D9ACE9BA_F13C_4EEB_8DD8_73A7E0043DB
+    ggm_attribuut: generalisatie
+  - naam: "Rioolput"
+    omschrijving: Constructie toegang gevend tot het rioolstelsel
+    ggm_entiteit: Rioolput
+    ggm_guid: EAID_095ECF95_3717_43EC_BC36_8E23E692DEF
     ggm_attribuut: generalisatie
 bo_relaties:
   - type: associatie
@@ -93,13 +99,13 @@ Score: 6/6.
 
 ## Beschrijving
 
-Een rioolput is een verticale constructie in het rioleringssysteem. Rioolputten vormen de toegangspunten tot het ondergrondse rioolstelsel. Ze worden gebruikt voor het aansluiten van leidingen, het veranderen van richting of niveau, en voor inspectie, reiniging en onderhoud van de riolering. Daarnaast zorgen rioolputten voor beluchting en ventilatie van het stelsel.
+Een put is een verticale constructie in het rioleringssysteem. Putten vormen de toegangspunten tot het ondergrondse rioolstelsel. Ze worden gebruikt voor het aansluiten van leidingen, het veranderen van richting of niveau, en voor inspectie, reiniging en onderhoud van de riolering. Daarnaast zorgen putten voor beluchting en ventilatie van het stelsel.
 
-Bij rioolvervanging worden ook rioolputten vervangen of gerenoveerd. De staat van rioolputten is een belangrijk criterium bij de beoordeling van het rioolstelsel.
+Bij rioolvervanging worden ook putten vervangen of gerenoveerd. De staat van putten is een belangrijk criterium bij de beoordeling van het rioolstelsel.
 
 ## Naamkeuze
 
-De GGM-entiteit heet "Put". Hernoemd naar "Rioolput" ter disambiguatie van de GGM-homoniem "Put" in beleidsdomein Archeologie (waterput of afvalput als grondspoor). Overwogen alternatieven: Put (ongewijzigd).
+De GGM-entiteit heet "Put" en dat is ook de BO-naam — geen disambiguatie nodig aan deze kant. Er bestaat een GGM-homoniem "Put" in beleidsdomein Archeologie (waterput of afvalput als grondspoor, ander concept); zie `bo_homoniemen`. Dit BO werd eerder "Rioolput" genoemd ter disambiguatie van dat homoniem, maar die naam bleek zelf al bezet door een generalisatie-kind-entiteit van Put (zie Specialisaties) — verwarrend, dus teruggedraaid. Bij een toekomstige BO-pagina voor de Archeologie-Put: gebruik "Archeologieput".
 
 ## Specialisaties
 
@@ -108,6 +114,7 @@ De GGM-entiteit heet "Put". Hernoemd naar "Rioolput" ter disambiguatie van de GG
 | Drainageput | Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer | [Drainageput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 | Filterput | Put met filterconstructie voor onttrekken van grondwater | [Filterput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 | Infiltratieput | Put met waterdoorlatende wanden voor infiltratie van hemelwater | [Infiltratieput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| Rioolput | Constructie toegang gevend tot het rioolstelsel | [Rioolput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 
 ## GGM-bron
 
@@ -137,6 +144,7 @@ De GGM-entiteit heet "Put". Hernoemd naar "Rioolput" ter disambiguatie van de GG
 - **Drainageput** — Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
 - **Filterput** — Put met filterconstructie voor onttrekken van grondwater
 - **Infiltratieput** — Put met waterdoorlatende wanden voor infiltratie van hemelwater
+- **Rioolput** — Constructie toegang gevend tot het rioolstelsel
 
 ## Bronnen
 

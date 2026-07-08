@@ -77,6 +77,7 @@ def load_bo_pages():
     by_guid = {}
     by_name = {}
     all_bos = []
+    specialisatie_by_guid = {}
 
     for f in BO_DIR.rglob("*.md"):
         if f.name == "index.md":
@@ -128,9 +129,22 @@ def load_bo_pages():
         for dup in (fm.get('ggm_duplicaat_entiteiten') or []):
             dup_guid = dup if isinstance(dup, str) else (dup or {}).get('guid')
             if dup_guid and dup_guid not in by_guid:
-                by_guid[dup_guid] = info
+                by_guid[dup_guid] = {**info, 'is_duplicate_guid': True}
 
-    return by_guid, by_name, all_bos
+        # bo_subtypes met ggm_attribuut: generalisatie zijn échte, aparte
+        # GGM-entiteiten (eigen GUID) die bewust geen eigen BO zijn geworden
+        # (redactionele keuze, geen BO-criteria-tekort — bijv. Brug bij
+        # Kunstwerk). De ggm_attribuut: <attribuutnaam>-variant heeft altijd
+        # ggm_guid == de eigen BO-guid (geen aparte entiteit) en heeft dus
+        # geen registratie nodig.
+        for st in (fm.get('bo_subtypes') or []):
+            if not isinstance(st, dict) or st.get('ggm_attribuut') != 'generalisatie':
+                continue
+            st_guid = st.get('ggm_guid')
+            if st_guid and st_guid != ggm_guid and st_guid not in specialisatie_by_guid:
+                specialisatie_by_guid[st_guid] = info
+
+    return by_guid, by_name, all_bos, specialisatie_by_guid
 
 
 def load_ggm_path_map():
@@ -152,6 +166,7 @@ class RelationGraph:
         self.gen_parent = {}
         self.gen_children = defaultdict(list)
         self.agg_parent = {}
+        self.agg_whole = {}
         self.assoc = defaultdict(list)
 
         for rel in ggm_data['relations'].values():
@@ -163,7 +178,15 @@ class RelationGraph:
                 self.gen_parent[src] = tgt
                 self.gen_children[tgt].append(src)
             elif uml == 'Aggregation':
+                # EA/XMI-richting voor Aggregation is source=geheel,
+                # target=deel (bijv. "Beschikking bevat Onderdeel
+                # beschikking" -> source_id=Beschikking, target_id=Onderdeel
+                # beschikking) — het omgekeerde van Generalization, waar
+                # source het specifieke/kind-type is. agg_whole is dus de
+                # deel->geheel-kant, nodig om van een deel omhoog naar zijn
+                # geheel te wandelen (zie _walk_aggregation_to_bo).
                 self.agg_parent[src] = tgt
+                self.agg_whole[tgt] = src
                 self.assoc[src].append(tgt)
                 self.assoc[tgt].append(src)
             elif uml == 'Association':
@@ -312,7 +335,7 @@ def classify_entity(eid, entity, graph, bo_ids, objecttypes):
         return 'classificatie', 'Typering/referentietabel', 'high'
 
     if any(w in nl for w in ('ontbinding', 'sluiting', 'regel', 'deel')):
-        return 'component', 'Component', 'medium'
+        return 'onderdeel', 'Onderdeel (naamindicatie)', 'medium'
 
     if any(nl.endswith(s) for s in ROLE_SUFFIXES):
         return 'rol', 'Functie/verantwoordelijkheid', 'medium'
@@ -361,12 +384,30 @@ def _camel_words(name):
     return {p.lower() for p in parts if p}
 
 
-def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes):
+def _walk_aggregation_to_bo(eid, bo_ids, agg_whole, max_depth=3):
+    """Loop de aggregatie-keten omhoog (deel->geheel, bijv. Onderdeel
+    beschikking -> Beschikking) tot een BO gevonden wordt. Net als gen_parent
+    is agg_whole per entiteit enkelvoudig, dus een simpele keten-wandeling
+    volstaat (geen volledige BFS nodig)."""
+    cur = eid
+    for _ in range(max_depth):
+        cur = agg_whole.get(cur)
+        if cur is None:
+            return None
+        if cur in bo_ids:
+            return cur
+    return None
+
+
+def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes,
+                     specialisatie_by_guid):
     """Compute dekking: welk BO dekt deze entiteit structureel?
 
     Retourneert (dekking_str, target_bo_info_of_None, match_kind).
 
     Dekkingswaarden (zelfde semantiek als ggm-vergelijking):
+    - specialisatie van [[BO]]   — geregistreerd bo_subtypes-kind (generalisatie), bewust geen eigen BO
+    - onderdeel van [[BO]]       — GGM-Aggregation-keten naar een BO (bestaat-uit)
     - beschrijft [[BO]]          — direct pad naar BO
     - via X → [[BO]]             — via tussenentiteit naar BO
     - typering [[BO]]            — classificatie-entiteit bij BO
@@ -375,8 +416,9 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     - n.v.t.                     — abstract/proces/actor/rol
     - generieke bouwsteen        — gebruikt door meerdere BO's, geen eigenaar
 
-    match_kind: 'n.v.t.' | 'generiek' | 'duplicaat' | 'graph' | 'naam' |
-                'classificatie-prefix' | 'referentietabel' | 'geen-match'
+    match_kind: 'n.v.t.' | 'specialisatie' | 'onderdeel' | 'generiek' |
+                'duplicaat' | 'graph' | 'naam' | 'classificatie-prefix' |
+                'referentietabel' | 'geen-match'
     """
     if etype in ('abstract', 'proces', 'actor', 'rol', 'meetinstrument', 'cross-cutting'):
         return 'n.v.t.', None, 'n.v.t.'
@@ -384,19 +426,35 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     bo_ids = set(bo_by_guid.keys())
     verb = "typering" if etype == 'classificatie' else "beschrijft"
 
-    # 1. Generieke bouwsteen: geen eigenaar-BO, gebruikt door tientallen BO's
+    # 1. Geregistreerd subtype (bo_subtypes met ggm_attribuut: generalisatie)
+    #    — curated door /write-bo, gaat vóór elke heuristiek: dit is precies
+    #    het Brug/Kunstwerk-scenario waarin de graph-search (stap 3) een
+    #    verkeerde sibling-BO zou vinden omdat de echte GGM-ouder
+    #    (Overbruggingsobject) zelf geen BO is.
+    specialisatie_target = specialisatie_by_guid.get(eid)
+    if specialisatie_target:
+        return f"specialisatie van {bo_link(specialisatie_target)}", specialisatie_target, 'specialisatie'
+
+    # 2. Aggregatie-keten (bestaat-uit, bijv. Diensttype -> Onderdeel
+    #    beschikking -> Beschikking) — een echte structurele Aggregation-edge
+    #    in het GGM is een sterker signaal dan de generieke associatie/naam-
+    #    heuristieken verderop.
+    agg_bo_eid = _walk_aggregation_to_bo(eid, bo_ids, graph.agg_whole)
+    if agg_bo_eid:
+        target = bo_by_guid[agg_bo_eid]
+        return f"onderdeel van {bo_link(target)}", target, 'onderdeel'
+
+    # 3. Generieke bouwsteen: geen eigenaar-BO, gebruikt door tientallen BO's
     if name in GENERIC_BUILDING_BLOCKS:
         return "generieke bouwsteen — gebruikt door meerdere BO's", None, 'generiek'
 
-    # 2. Exacte naam-duplicaat van een bestaand BO (andere GUID) — zelfde
-    #    concept dubbel gemodelleerd in het GGM (bijv. RSGB Wijk vs. BAG Wijk)
-    dup = bo_by_name.get(name.lower())
-    if dup and dup.get('ggm_guid') and dup['ggm_guid'] in bo_ids and dup['ggm_guid'] != eid:
-        return f"{verb} {bo_link(dup)}", dup, 'duplicaat'
-
-    # 3. Unified search over generalisatie (omhoog + omlaag) en associaties,
+    # 4. Unified search over generalisatie (omhoog + omlaag) en associaties,
     #    generalisatie het eerst gecheckt per node, eigen beleidsdomein
-    #    geprefereerd bij gelijke diepte.
+    #    geprefereerd bij gelijke diepte. Vóór de naam-duplicaat-stap (5):
+    #    een echte structurele relatie (bijv. Rioolput als generalisatie-kind
+    #    van Put) moet als 'graph' herkend worden, niet toevallig als
+    #    'duplicaat' omdat het kind dezelfde naam draagt als de BO waarin
+    #    het opgaat.
     own_bd = objecttypes.get(eid, {}).get('beleidsdomein')
     result = graph.bfs_to_bo(eid, bo_ids, objecttypes, prefer_bd=own_bd)
     if result:
@@ -406,7 +464,19 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
             return f"{verb} {bo_link(target)}", target, 'graph'
         return f"via {path[0]} → {bo_link(target)}", target, 'graph'
 
-    # 4. Naam-gebaseerd: CamelCase-woordgrens, of prefix/suffix-match voor
+    # 5. Exacte naam-duplicaat van een bestaand BO (andere GUID) — zelfde
+    #    concept dubbel gemodelleerd in het GGM (bijv. RSGB Wijk vs. BAG Wijk).
+    #    Uitgesloten: entiteiten die het doel-BO al expliciet als homoniem
+    #    (ander concept, zelfde naam) heeft geregistreerd in bo_homoniemen —
+    #    die zijn per definitie geen duplicaat.
+    dup = bo_by_name.get(name.lower())
+    if dup and dup.get('ggm_guid') and dup['ggm_guid'] in bo_ids and dup['ggm_guid'] != eid:
+        is_registered_homoniem = any(
+            h.get('ggm_guid') == eid for h in (dup.get('homoniemen') or []))
+        if not is_registered_homoniem:
+            return f"{verb} {bo_link(dup)}", dup, 'duplicaat'
+
+    # 6. Naam-gebaseerd: CamelCase-woordgrens, of prefix/suffix-match voor
     #    Nederlandse samenstellingen ("Bemiddelingsactiviteit" eindigt op
     #    "activiteit", "Heffingskorting" begint met "heffing"). Nooit een kale
     #    middenin-substring-match — die geeft valse hits (bijv. "wijk" in
@@ -430,7 +500,7 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     if best:
         return f"{verb} {bo_link(best)}", best, 'naam'
 
-    # 5. Strip classification prefix
+    # 7. Strip classification prefix
     if etype == 'classificatie':
         for pfx in CLASSIF_PREFIXES:
             if name.startswith(pfx):
@@ -545,7 +615,7 @@ BEGRIP_TYPE_MAP = {
 
 
 def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
-                           bo_by_guid, bo_by_name, all_bos):
+                           bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid):
     """Process one beleidsdomein: match, classify, compute dekking."""
     bo_matches = []
     geen_match = []
@@ -565,9 +635,22 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                 bo_info = None
 
         if bo_info:
-            etype = '—'
-            if bo_info['naam'].lower() != name.lower():
-                etype = 'synoniem'
+            # Hernoemd dekt zowel een letterlijke naamswijziging (zelfde GUID,
+            # andere BO-naam) als een dubbele GGM-modellering (andere GUID,
+            # via ggm_duplicaat_entiteiten geregistreerd) — dekking gaat uit
+            # van het GGM: in beide gevallen ís dit het BO, alleen anders
+            # benoemd/gemodelleerd. Geen synoniem (dat zou een tweede naam
+            # zijn die naast de eerste blijft bestaan).
+            if bo_info.get('is_duplicate_guid'):
+                etype = 'hernoemd'
+                beoordeling = (f"Hernoemd naar {bo_info['naam']} "
+                                f"(dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten)")
+            elif bo_info['naam'].lower() != name.lower():
+                etype = 'hernoemd'
+                beoordeling = f"Hernoemd naar {bo_info['naam']}"
+            else:
+                etype = '—'
+                beoordeling = 'Exacte match'
 
             naamoverlap_parts = []
             for s in (bo_info.get('synoniemen') or []):
@@ -584,7 +667,7 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                 'ggm_name': name, 'eid': eid,
                 'bo_naam': bo_info['naam'], 'bo_path': bo_info['path'],
                 'entiteitstype': etype, 'naamoverlap': naamoverlap,
-                'beoordeling': 'Exact match' if etype == '—' else f"BO hernoemd: {bo_info['naam']}",
+                'beoordeling': beoordeling,
             })
         else:
             etype, rationale, conf = classify_entity(eid, e, graph, bo_ids, objecttypes)
@@ -603,7 +686,14 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                     rationale = begrip['reden']
 
             dekking, dekking_bo, match_kind = compute_dekking(
-                eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes)
+                eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes,
+                specialisatie_by_guid)
+            if match_kind == 'specialisatie' and dekking_bo:
+                etype = 'specialisatie'
+                rationale = f"Specialisatie van {dekking_bo['naam']} — zie bo_subtypes"
+            elif match_kind == 'onderdeel' and dekking_bo:
+                etype = 'onderdeel'
+                rationale = f"Onderdeel van {dekking_bo['naam']}"
 
             geen_match.append({
                 'ggm_name': name, 'eid': eid,
@@ -713,7 +803,7 @@ def build_taakveld_structure(objecttypes, excluded_ids, bo_by_guid, tv_merge, bd
 # ── Process Taakveld ─────────────────────────────────────────────────────────
 
 def process_taakveld(tv_name, bd_entities, objecttypes, graph,
-                      bo_by_guid, bo_by_name, all_bos):
+                      bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid):
     """Process all beleidsdomeinen within one taakveld."""
     results = {}
     rsgb_sub = None
@@ -721,7 +811,8 @@ def process_taakveld(tv_name, bd_entities, objecttypes, graph,
     for bd_name in sorted(bd_entities.keys()):
         eids = bd_entities[bd_name]
         bd_result = process_beleidsdomein(
-            bd_name, eids, objecttypes, graph, bo_by_guid, bo_by_name, all_bos)
+            bd_name, eids, objecttypes, graph, bo_by_guid, bo_by_name, all_bos,
+            specialisatie_by_guid)
 
         # RSGBPlus: add registratie subgroups
         if bd_name == 'RSGBPlus':
@@ -1031,7 +1122,7 @@ def run_full_analysis(taakveld_filter=None, verbose=True):
     if verbose:
         print("Loading data...")
     ggm_data, objecttypes = load_ggm()
-    bo_by_guid, bo_by_name, all_bos = load_bo_pages()
+    bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid = load_bo_pages()
     ggm_path_map = load_ggm_path_map()
     graph = RelationGraph(ggm_data, objecttypes)
     excluded_ids = find_excluded_ids(objecttypes, graph, bo_by_guid)
@@ -1053,7 +1144,7 @@ def run_full_analysis(taakveld_filter=None, verbose=True):
         bd_entities = tv_structure[tv_name]
         tv_result = process_taakveld(
             tv_name, bd_entities, objecttypes, graph,
-            bo_by_guid, bo_by_name, all_bos)
+            bo_by_guid, bo_by_name, all_bos, specialisatie_by_guid)
 
         all_tv_results[tv_name] = tv_result
         if verbose:

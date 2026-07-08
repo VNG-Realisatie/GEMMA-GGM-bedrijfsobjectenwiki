@@ -26,7 +26,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Kostenplaats** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Batchregel** (component) — Component
+  - **Batchregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Betaalmoment** (detail) — Detailgegeven (weinig attributen)
   - **FormulierInhuur** (detail) — Detailgegeven (geassocieerd met BO)
   - **Mutatie** (detail) — Detailgegeven (geassocieerd met BO)

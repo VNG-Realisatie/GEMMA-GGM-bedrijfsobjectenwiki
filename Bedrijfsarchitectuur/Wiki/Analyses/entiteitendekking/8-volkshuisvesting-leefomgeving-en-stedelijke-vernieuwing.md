@@ -21,7 +21,7 @@ totaal_hiaten: 3
 
 3 beleidsdomeinen, 119 GGM-entiteiten. Dekking: 116 van 119 (97%) — 28 met BO, 88 ondersteunend, 3 niet gedekt. 3 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 79× detail, 1× rol.
+Niet-BO entiteiten: 2× actor, 1× classificatie, 66× detail, 8× onderdeel, 1× rol, 13× specialisatie.
 
 ## Beheer Openbare Ruimte
 
@@ -29,45 +29,45 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 79× detail, 1�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| Aansluitput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven (weinig attributen) |
+| Aansluitput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | detail |  | Detailgegeven (weinig attributen) |
 | Actie | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
 | Afvalbak | via Bak → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven (weinig attributen) |
 | Areaal | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | Bak | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | Bank | via Meubilair → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]] | detail |  | Detailgegeven (weinig attributen) |
 | Beheerobject | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
-| Bemalingsgebied | via FunctioneelGebied → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] | detail |  | Detailgegeven (weinig attributen) |
-| Bergingsbassin | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] ✅ | — |  | Exact match |
-| Boom | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] ✅ | — |  | Exact match |
+| Bemalingsgebied | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | specialisatie |  | Specialisatie van Rioleringsgebied — zie bo_subtypes |
+| Bergingsbassin | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] ✅ | — |  | Exacte match |
+| Boom | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] ✅ | — |  | Exacte match |
 | Bord | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | Bouwwerk | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] | detail |  | Detailgegeven |
-| Brug | via Overbruggingsobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] | detail |  | Detailgegeven |
+| Brug | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | specialisatie |  | Specialisatie van Kunstwerk — zie bo_subtypes |
 | CROW-Melding | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
-| Deelplan/Veld | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld\|Veld]] | component |  | Component |
-| Drainageput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven (weinig attributen) |
-| Ecoduct | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] ✅ | synoniem |  | BO hernoemd: Faunapassage |
+| Deelplan/Veld | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld\|Veld]] | onderdeel |  | Onderdeel (naamindicatie) |
+| Drainageput | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | specialisatie |  | Specialisatie van Put — zie bo_subtypes |
+| Ecoduct | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] ✅ | hernoemd |  | Hernoemd naar Faunapassage |
 | Fase/Oplevering | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering\|Levering]] | detail |  | Detailgegeven (weinig attributen) |
 | Fietsparkeervoorziening | via Meubilair → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]] | detail |  | Detailgegeven (weinig attributen) |
-| Filterput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven (weinig attributen) |
-| Flyover | via Overbruggingsobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] | detail |  | Detailgegeven |
+| Filterput | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | specialisatie |  | Specialisatie van Put — zie bo_subtypes |
+| Flyover | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | specialisatie |  | Specialisatie van Kunstwerk — zie bo_subtypes |
 | FunctioneelGebied | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] | detail |  | Detailgegeven (weinig attributen) |
-| Geluidsscherm | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] ✅ | synoniem |  | BO hernoemd: Geluidscherm |
-| Gemaal | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] ✅ | — |  | Exact match |
-| Groenobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] ✅ | — |  | Exact match |
+| Geluidsscherm | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] ✅ | hernoemd |  | Hernoemd naar Geluidscherm |
+| Gemaal | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] ✅ | — |  | Exacte match |
+| Groenobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] ✅ | — |  | Exacte match |
 | Grondbeheerder | n.v.t. | rol |  | Functie/verantwoordelijkheid |
-| Infiltratieput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven (weinig attributen) |
-| Inspectie | beschrijft [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] | detail |  | Detailgegeven (weinig attributen) |
+| Infiltratieput | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | specialisatie |  | Specialisatie van Put — zie bo_subtypes |
+| Inspectie | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
 | Installatie | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | KadastraleMutatie | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| Kademuur | via Scheiding → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] | detail |  | Detailgegeven |
+| Kademuur | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | specialisatie |  | Specialisatie van Kunstwerk — zie bo_subtypes |
 | Kast | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
-| Keermuur | via Scheiding → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] | detail |  | Detailgegeven (weinig attributen) |
+| Keermuur | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | specialisatie |  | Specialisatie van Kunstwerk — zie bo_subtypes |
 | Klimplant | via Vegetatieobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] | detail |  | Detailgegeven |
-| Kolk | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk\|Kolk]] ✅ | — |  | Exact match |
-| Kunstwerk | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ✅ | — |  | Exact match |
+| Kolk | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk\|Kolk]] ✅ | — |  | Exacte match |
+| Kunstwerk | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ✅ | — |  | Exacte match |
 | Kwaliteitscatalogus Openbare Ruimte | via CROW-Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
 | Kwaliteitskenmerken | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| Leiding | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] ✅ | synoniem |  | BO hernoemd: Rioolleiding |
+| Leiding | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] ✅ | hernoemd |  | Hernoemd naar Rioolleiding |
 | Leidingelement | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | Logboek | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven (weinig attributen) |
 | MOOR-melding | via Proces-verbaal-MOOR-melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven |
@@ -79,36 +79,36 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 79× detail, 1�
 | Onderhoud | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | Opbreking | via Uitvoerder Graafwerkzaamheden → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (weinig attributen) |
 | Overbruggingsobject | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] | detail |  | Detailgegeven |
-| Overstortconstructie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] ✅ | — |  | Exact match |
+| Overstortconstructie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie\|Overstortconstructie]] ✅ | — |  | Exacte match |
 | Paal | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | Pomp | via Installatie → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Onderdeel van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]], te granulair |
 | Proces-verbaal-MOOR-melding | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| Put | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] ✅ | synoniem |  | BO hernoemd: Rioolput |
+| Put | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] ✅ | — |  | Exacte match |
 | Putdeksel | via Weginrichtingsobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven (weinig attributen) |
-| Rioleringsgebied | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] ✅ | — |  | Exact match |
-| Rioolput | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolput\|Rioolput]] | detail |  | Detailgegeven |
+| Rioleringsgebied | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] ✅ | — |  | Exacte match |
+| Rioolput | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | specialisatie |  | Specialisatie van Put — zie bo_subtypes |
 | Scheiding | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] | detail |  | Detailgegeven |
 | Schouwronde | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | Sensor | beschrijft [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/verkeerstelling\|Verkeerstelling]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | SolitairePlant | via Vegetatieobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] | detail |  | Detailgegeven (weinig attributen) |
-| Speelterrein | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] ✅ | — |  | Exact match |
-| Speeltoestel | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]] ✅ | — |  | Exact match |
-| Sportterrein | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] ✅ | synoniem |  | BO hernoemd: Sportpark |
-| Storing | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict\|Storing (ICT)]] | detail |  | Detailgegeven (weinig attributen) |
+| Speelterrein | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] ✅ | — |  | Exacte match |
+| Speeltoestel | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel\|Speeltoestel]] ✅ | — |  | Exacte match |
+| Sportterrein | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] ✅ | hernoemd |  | Hernoemd naar Sportpark (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
+| Storing | via Melding → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen) |
 | Stuwgebied | via FunctioneelGebied → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] | detail |  | Detailgegeven (weinig attributen) |
 | Taak | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| Terreindeel | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | component |  | Component |
+| Terreindeel | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | onderdeel |  | Onderdeel (naamindicatie) |
 | Tunnelobject | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 | Uitlaatconstructie | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | detail |  | Te granulair voor BO-niveau |
 | Uitvoerder Graafwerkzaamheden | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (weinig attributen) |
 | Vegetatieobject | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] | detail |  | Detailgegeven |
-| Verhardingsobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] ✅ | — |  | Exact match |
+| Verhardingsobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] ✅ | — |  | Exacte match |
 | Verkeersdrempel | via Weginrichtingsobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven (weinig attributen) |
-| Verkeerslicht | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht\|Verkeerslicht]] ✅ | — |  | Exact match |
-| Verlichtingsobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject\|Verlichtingsobject]] ✅ | — |  | Exact match |
-| Viaduct | via Overbruggingsobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/faunapassage\|Faunapassage]] | detail |  | Detailgegeven |
+| Verkeerslicht | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht\|Verkeerslicht]] ✅ | — |  | Exacte match |
+| Verlichtingsobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject\|Verlichtingsobject]] ✅ | — |  | Exacte match |
+| Viaduct | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | specialisatie |  | Specialisatie van Kunstwerk — zie bo_subtypes |
 | Waterinrichtingsobject | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
-| Waterobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] ✅ | — |  | Exact match |
+| Waterobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] ✅ | — |  | Exacte match |
 | Weginrichtingsobject | via Beheerobject → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] | detail |  | Detailgegeven |
 
 ## Bouwen en Wonen
@@ -117,13 +117,13 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 79× detail, 1�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Gebouw]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] ✅ | synoniem |  | BO hernoemd: Woning |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Huurwoningen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Koopwoningen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Plan]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] ✅ | synoniem |  | BO hernoemd: Woningbouwplan |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Gebouw]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] ✅ | hernoemd |  | Hernoemd naar Woning |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Huurwoningen]] | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | specialisatie |  | Specialisatie van Woning — zie bo_subtypes |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Koopwoningen]] | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | specialisatie |  | Specialisatie van Woning — zie bo_subtypes |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Plan]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] ✅ | hernoemd |  | Hernoemd naar Woningbouwplan |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Projectleider]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Projectontwikkelaar]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Studentenwoningen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/bouwen-en-wonen\|Studentenwoningen]] | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] | specialisatie |  | Specialisatie van Woning — zie bo_subtypes |
 
 ## Omgevingswet
 
@@ -131,36 +131,36 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 8× component, 79× detail, 1�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] ✅ | — | synoniem: Milieubelastende activiteit; synoniem: Bouwactiviteit; homoniem: Activiteit (Musea) | Exact match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] ✅ | — | synoniem: Milieubelastende activiteit; synoniem: Bouwactiviteit; homoniem: Activiteit (Musea) | Exacte match |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Beperkingsgebied]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Bevoegd Gezag]] | n.v.t. | actor |  | Actor, in gemeentecontext = B&W |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Conclusie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gemachtigde]] | via Verzoek → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Idealisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Indieningsvereisten]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Initiatiefnemer]] | n.v.t. | actor |  | Actor, subtype Rechtspersoon in GGM |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Instructieregel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | component |  | Component |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Juridische Regel]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Maatregelen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | component |  | Component |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Instructieregel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Juridische Regel]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Maatregelen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Norm]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm\|Omgevingsnorm]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Normwaarde]] | via Norm → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm\|Omgevingsnorm]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm\|Omgevingsnorm]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingswaarde\|Omgevingswaarde]] |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingsdocument]] | via Regeltekst → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | classificatie |  | GGM-classificatie, geen zelfstandig gemeentelijk concept |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingsnorm]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm\|Omgevingsnorm]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingswaarde]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingswaarde\|Omgevingswaarde]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingswaarderegel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | component |  | Component |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | synoniem |  | BO hernoemd: Archeologisch onderzoek |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingsnorm]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingsnorm\|Omgevingsnorm]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingswaarde]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/omgevingswaarde\|Omgevingswaarde]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Omgevingswaarderegel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | hernoemd |  | Hernoemd naar Archeologisch onderzoek (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Projectactiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Projectlocatie]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Regel voor Iedereen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | component |  | Component |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Regel voor Iedereen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Regeltekst]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Specificatie]] | via Projectactiviteit → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Thema]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Toepasbare Regel]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] ✅ | — | synoniem: Regelbeheerobject | Exact match |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|ToepasbareRegelBestand]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | component |  | Component |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Toepasbare Regel]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] ✅ | — | synoniem: Regelbeheerobject | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|ToepasbareRegelBestand]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Uitvoerende instantie]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Uitvoeringsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | component |  | Component |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Uitvoeringsregel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Verzoek]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven |
 
 ## BO's zonder GGM-entiteit

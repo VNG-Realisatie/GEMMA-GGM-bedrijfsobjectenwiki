@@ -86,7 +86,7 @@ def render_field_text(entry, bo, objecttypes):
     others = sorted((g for g in via if g.get('match_kind') != 'duplicaat'),
                     key=lambda x: x['ggm_name'])
 
-    is_synoniem = bool(primary) and primary['entiteitstype'] == 'synoniem'
+    is_synoniem = bool(primary) and primary['entiteitstype'] == 'hernoemd'
     primary_name = primary['ggm_name'] if primary else bo.get('ggm_entiteit', '')
 
     sentences = []

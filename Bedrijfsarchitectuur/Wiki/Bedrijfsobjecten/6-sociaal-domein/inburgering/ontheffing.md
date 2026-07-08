@@ -29,7 +29,7 @@ ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Ontheffing** als directe tegenhanger. Daarnaast is **Ontheffing** (beleidsdomein Werk) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  Dit BO heeft de GGM-entiteit **Ontheffing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Ligplaatsontheffing** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: Formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van de inburgeringsplicht op grond van medische of bijzondere individuele omstandigheden.
 bo_toelichting: Ontheffing vereist een medische deskundigenverklaring door een arts conform protocol (bijlage 1 Regeling inburgering 2021). Kosten €225, terugbetaald bij toewijzing. Arts adviseert ontheffing wanneer voorbereiding binnen vijf jaar met lichte aanpassingen niet mogelijk is.

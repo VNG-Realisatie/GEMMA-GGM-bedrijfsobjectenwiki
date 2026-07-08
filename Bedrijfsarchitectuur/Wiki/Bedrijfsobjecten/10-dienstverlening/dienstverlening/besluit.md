@@ -26,7 +26,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Besluit** als directe tegenhanger. Daarnaast is **Besluit** (beleidsdomein Diensten) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  Dit BO heeft de GGM-entiteit **Besluit** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Besluittype** (detail) — Typering bij Besluit — waardelijst
 bo_definitie: "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."
 bo_toelichting: ""

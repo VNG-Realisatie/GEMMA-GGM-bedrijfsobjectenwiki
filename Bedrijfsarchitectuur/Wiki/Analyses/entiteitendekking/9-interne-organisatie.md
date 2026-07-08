@@ -25,7 +25,7 @@ totaal_hiaten: 9
 
 7 beleidsdomeinen, 148 GGM-entiteiten. Dekking: 144 van 148 (97%) — 47 met BO, 97 ondersteunend, 4 niet gedekt. 9 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2× rol.
+Niet-BO entiteiten: 2× actor, 7× classificatie, 84× detail, 6× onderdeel, 2× rol.
 
 ## Financien
 
@@ -33,30 +33,30 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/9-interne-organisatie/financien\|Activa]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Activa]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Activasoort]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Bankafschrift]] | via Bankafschriftregel → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Bankafschriftregel]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | component |  | Component |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Bankafschriftregel]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Bankrekening]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Batch]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Batchregel]] | via Mutatie → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | component |  | Component |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Begroting]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Begrotingregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | component |  | Component |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Debiteur]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Doelstelling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Factuur]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Factuurregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] | component |  | Component |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Batchregel]] | via Mutatie → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Begroting]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Begrotingregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Debiteur]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Doelstelling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Factuur]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Factuurregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/factuur\|Factuur]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Hoofdrekening]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Hoofdstuk]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Inkooporder]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Kostenplaats]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Inkooporder]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Kostenplaats]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Mutatie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Opdrachtgever]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Opdrachtnemer]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/financien\|Subrekening]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Taakveld]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/financien\|Werkorder]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Taakveld]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/financien\|Werkorder]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder\|Werkorder]] ✅ | — |  | Exacte match |
 
 ## HR
 
@@ -64,13 +64,13 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/9-interne-organisatie/hr\|Beoordeling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling\|Beoordeling]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Declaratie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie\|Declaratie]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]] | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Beoordeling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling\|Beoordeling]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Declaratie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie\|Declaratie]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]] | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Declaratiesoort]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie\|Declaratie]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Dienstverband]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Disciplinaire Maatregel]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel\|Disciplinaire Maatregel]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Formatieplaats]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats\|Formatieplaats]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Functie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]] ✅ | synoniem |  | BO hernoemd: Arbeidsfunctie |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Dienstverband]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Disciplinaire Maatregel]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel\|Disciplinaire Maatregel]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Formatieplaats]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats\|Formatieplaats]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Functie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]] ✅ | hernoemd |  | Hernoemd naar Arbeidsfunctie |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Functiehuis]] | via NormProfiel → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/hr\|GenotenOpleiding]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Geweldsincident]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] | detail |  | Detailgegeven (geassocieerd met BO) |
@@ -85,16 +85,16 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 | [[Wiki/GGM/9-interne-organisatie/hr\|Relatie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Rol]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Sollicitant]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Sollicitatie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Sollicitatie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Sollicitatiegesprek]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/sollicitatie\|Sollicitatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/hr\|SoortDisciplinaireMaatregel]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel\|Disciplinaire Maatregel]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Uren]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Vacature]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature\|Vacature]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|Vacature (arbeidsmarkt)]] | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Verlof]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof\|Verlof]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Vacature]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/vacature\|Vacature]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|Vacature (arbeidsmarkt)]] | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Verlof]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof\|Verlof]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Verlofsoort]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof\|Verlof]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Verzuim]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim\|Verzuim]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Verzuim]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim\|Verzuim]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/hr\|Verzuimsoort]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim\|Verzuim]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/9-interne-organisatie/hr\|Werknemer]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/hr\|Werknemer]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]] ✅ | — |  | Exacte match |
 
 ## ICT
 
@@ -103,40 +103,40 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/9-interne-organisatie/ict\|Aanvraag]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Applicatie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Applicatie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Attribuutsoort]] | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|CMDB-item]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Classificatie]] | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Database]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database\|Database]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Database]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database\|Database]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Datatype]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Dienst]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Domein/Taakveld]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Externe Bron]] | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Gegeven]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Generalisatie]] | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Hardware]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/hardware\|Hardware]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Hardware]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/hardware\|Hardware]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Inventaris]] | via CMDB-item → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Koppeling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Licentie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Koppeling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/koppeling\|Koppeling]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Licentie]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Linkbaar CMDB-item]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Log]] | via CMDB-item → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Melding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Nertwerkcomponent]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/netwerkcomponent\|Netwerkcomponent]] ✅ | synoniem |  | BO hernoemd: Netwerkcomponent |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Nertwerkcomponent]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/netwerkcomponent\|Netwerkcomponent]] ✅ | hernoemd |  | Hernoemd naar Netwerkcomponent |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Notitie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Objecttype]] | via Gegeven → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Onderwerp]] | via Dienst → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Package]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Prijzenboek]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | hernoemd |  | Hernoemd naar Product (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Relatiesoort]] | via Objecttype → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Server]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server\|Server]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Software]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/software\|Software]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Storing]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict\|Storing (ICT)]] ✅ | synoniem |  | BO hernoemd: Storing (ICT) |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Server]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/server\|Server]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Software]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/software\|Software]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Storing]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict\|Storing (ICT)]] ✅ | hernoemd |  | Hernoemd naar Storing (ICT) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Telefoniegegevens]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Toegangsmiddel]] | via CMDB-item → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Versie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/ict\|Vervoersmiddel]] | via CMDB-item → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/licentie\|Licentie]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/ict\|Wijzigingsverzoek]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek\|Wijzigingsverzoek]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/ict\|Wijzigingsverzoek]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek\|Wijzigingsverzoek]] ✅ | — |  | Exacte match |
 
 ## Inkoop
 
@@ -144,22 +144,22 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanbesteding Inhuur]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Aankondiging]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | detail |  | GGM-component van Aanbesteding |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Aanvraag Inkooporder]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|CPV-code]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] | detail |  | EU-referentietabel, geen gemeentelijk object |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Categorie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract\|Contract]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|FormulierInhuur]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|FormulierVerlengingInhuur]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅ | synoniem | homoniem: [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|Opleidingsinschrijving]] | BO hernoemd: Aanbieding |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Gunning]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inkooppakket]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/inkooppakket\|Inkooppakket]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Inschrijving]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbieding\|Aanbieding]] ✅ | hernoemd | homoniem: [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|Opleidingsinschrijving]] | Hernoemd naar Aanbieding |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Kandidaat]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/gunning\|Gunning]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Kwalificatie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Leverancier]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|Offerteaanvraag]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | detail |  | GGM-component van Aanbesteding |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|SelectietabelAanbesteding]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/inkoop\|StartformulierAanbesteden]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/aanbesteding\|Aanbesteding]] | detail |  | Detailgegeven |
@@ -172,7 +172,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/9-interne-organisatie/organisatie-indeling\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
-| [[Wiki/GGM/9-interne-organisatie/organisatie-indeling\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | synoniem |  | BO hernoemd: Archeologisch onderzoek |
+| [[Wiki/GGM/9-interne-organisatie/organisatie-indeling\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | hernoemd |  | Hernoemd naar Archeologisch onderzoek |
 
 ## Subsidies
 
@@ -199,30 +199,30 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 6× component, 84× detail, 2�
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Aanbesteding Vastgoed]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon\|Werkbon]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Adresaanduiding]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Bouwdeel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | GGM-component van Vastgoedobject |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Bouwdeelelement]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon\|Werkbon]] | component |  | Component |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Bouwdeelelement]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon\|Werkbon]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|CultuurOnbebouwd]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Eigenaar]] | n.v.t. | actor |  | Rol/generalisatie van Rechtspersoon |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Gebruiksdoel]] | via GebouwdObject → [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject\|Verblijfsobject]] | detail |  | attribuut |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Huurder]] | n.v.t. | actor |  | Rol/generalisatie van Rechtspersoon |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Inspectie]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Inspectie]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] ✅ | hernoemd |  | Hernoemd naar Inspectie (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|KpBetrokkenBij]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|KpOnstaanUit]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|LocatieaanduidingWozObject]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Locatieonroerendezaak]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|MJOP]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|MJOP]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|MJOP-Item]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|NADAanvullingBRP]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Objectrelatie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | hernoemd |  | Hernoemd naar Offerte (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Pachter]] | via Rechtspersoon → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Prijzenboekitem]] | via MJOP-Item → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] | detail |  | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] ✅ | synoniem |  | BO hernoemd: Vastgoedcontract |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoedcontractregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] | component |  | Component |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoedobject]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Verhuurbaar Eenheid]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/verhuurbare-eenheid\|Verhuurbare Eenheid]] ✅ | synoniem |  | BO hernoemd: Verhuurbare Eenheid |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] ✅ | hernoemd |  | Hernoemd naar Vastgoedcontract |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoedcontractregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] | onderdeel |  | Onderdeel (naamindicatie) |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoedobject]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Verhuurbaar Eenheid]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/verhuurbare-eenheid\|Verhuurbare Eenheid]] ✅ | hernoemd |  | Hernoemd naar Verhuurbare Eenheid |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|WOZ-Belang]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Werkbon]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon\|Werkbon]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Zakelijk Recht]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Werkbon]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/werkbon\|Werkbon]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Zakelijk Recht]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 
 ## BO's zonder GGM-entiteit
 

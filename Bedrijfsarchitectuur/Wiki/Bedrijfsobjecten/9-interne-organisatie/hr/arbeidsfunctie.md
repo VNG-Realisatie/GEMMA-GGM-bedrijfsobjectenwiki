@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Functie**. Daarnaast is **Functie** (beleidsdomein Omgevingswet) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  Dit BO is de hernoeming van GGM-entiteit **Functie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Functiehuis** (detail) — Detailgegeven (weinig attributen)
   - **NormProfiel** (detail) — Detailgegeven (geassocieerd met BO)
 bo_homoniemen:

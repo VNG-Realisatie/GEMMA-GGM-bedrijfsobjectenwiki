@@ -28,7 +28,7 @@ analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Fractie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Categorie** (detail) — Detailgegeven (weinig attributen)
   - **Melding** (classificatie) — Typering/referentietabel
-  - **Prijsregel** (component) — Component
+  - **Prijsregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Route** (detail) — Detailgegeven (geassocieerd met BO)
   - **Storting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."

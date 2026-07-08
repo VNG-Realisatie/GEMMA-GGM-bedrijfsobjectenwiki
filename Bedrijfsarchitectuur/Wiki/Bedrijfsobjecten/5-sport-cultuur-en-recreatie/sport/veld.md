@@ -26,7 +26,7 @@ ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Veld** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Deelplan/Veld** (component) — Component
+  - **Deelplan/Veld** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"
 bo_toelichting: ''
 bo_relaties:

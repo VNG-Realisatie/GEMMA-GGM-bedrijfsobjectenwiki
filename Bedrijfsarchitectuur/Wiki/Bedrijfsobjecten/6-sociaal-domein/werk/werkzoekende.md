@@ -41,6 +41,7 @@ analyse_ggm_dekking: |
   - **Doelgroepenregister** (detail) — UWV beheert; gemeente gebruikt als verdeelmaatstaf
   - **Flexibliteit** (detail) — Detailgegeven (geassocieerd met BO)
   - **Mobiliteit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Ontheffing** (detail) — Detailgegeven
   - **Opleiding** (detail) — Detailgegeven
   - **Opleidingsnaam** (detail) — Detailgegeven
   - **Opleidingsniveau** (detail) — Detailgegeven (geassocieerd met BO)
