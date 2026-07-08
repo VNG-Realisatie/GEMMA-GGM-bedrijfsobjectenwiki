@@ -19,13 +19,13 @@ totaal_hiaten: 2
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 81 GGM-entiteiten. Dekking: 66 van 81 (81%) — 16 met BO, 50 ondersteunend, 15 niet gedekt. 2 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 81 GGM-entiteiten (3 n.v.t.). Dekking: 63 van 78 (81%) — 16 met BO, 47 ondersteunend, 15 niet gedekt. 2 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 1× actor, 5× classificatie, 57× detail, 1× proces, 1× rol.
 
 ## Erfgoed
 
-42 GGM-entiteiten: 5 met BO, 31 ondersteunend aan BO, 6 niet gedekt. Dekking: 36 van 42 (86%).
+42 GGM-entiteiten (2 n.v.t.): 5 met BO, 29 ondersteunend aan BO, 6 niet gedekt. Dekking: 34 van 40 (85%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -74,7 +74,7 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 57× detail, 1× proces, 1× r
 
 ## Musea
 
-30 GGM-entiteiten: 5 met BO, 19 ondersteunend aan BO, 6 niet gedekt. Dekking: 24 van 30 (80%).
+30 GGM-entiteiten (1 n.v.t.): 5 met BO, 18 ondersteunend aan BO, 6 niet gedekt. Dekking: 23 van 29 (79%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -111,7 +111,7 @@ Niet-BO entiteiten: 1× actor, 5× classificatie, 57× detail, 1× proces, 1× r
 
 ## Sport
 
-9 GGM-entiteiten: 6 met BO, 0 ondersteunend aan BO, 3 niet gedekt. Dekking: 6 van 9 (67%).
+9 GGM-entiteiten (0 n.v.t.): 6 met BO, 0 ondersteunend aan BO, 3 niet gedekt. Dekking: 6 van 9 (67%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

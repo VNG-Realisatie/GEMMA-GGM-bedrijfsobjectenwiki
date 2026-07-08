@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-07-08] fix | n.v.t.-entiteiten telden stilzwijgend mee als "ondersteunend aan BO"
+
+- **Aanleiding:** vraag hoe de n.v.t.-dekking geteld wordt, legde bloot dat `n.v.t.` (abstract/proces/actor/rol — entiteiten die nooit kandidaat zijn voor een BO-match) in de statistiekregels meetelde als "ondersteunend aan BO", puur omdat de tekst geen `⚠️` bevat (`ondersteunend = sum(... if '⚠️' not in dekking)`). Dat vertekende het dekkingspercentage: bij `0-bestuur-politiek-en-ondersteuning.md` bleken 4 van de 9 "ondersteunend"-entiteiten eigenlijk n.v.t. te zijn (Aanwezige Deelnemer, Collegelid, Indiener, Raadslid).
+- **Fix:** nieuwe aparte telling `nvt` in `process_beleidsdomein()`, uitgesloten uit `ondersteunend`. Dekkingspercentage overal herberekend als `(met BO + ondersteunend) / (totaal − n.v.t.)` in plaats van `/ totaal` — in `_bd_stats_line`, de taakveld-Beoordeling, en `totaaloverzicht.md` (nieuwe kolom "n.v.t." toegevoegd aan de tabel, kopregel en hiaten-rij aangepast op de extra kolom).
+- **Resultaat na regeneratie:** totale dekking 82% (753/917, met n.v.t. impliciet meegeteld) → 81% (694/858 relevante) — vergelijkbaar getal, maar nu een eerlijke noemer die alleen daadwerkelijk BO-relevante entiteiten meet. Skill-doc (`.claude/commands/entiteitendekking.md`, sectie Totaaloverzicht/Rapportstructuur) bijgewerkt met de nieuwe kolom en berekeningswijze.
+
 ## [2026-07-08] triage | 44 van de 72 "ter discussie"-ambiguïteiten opgelost via bo_via_kandidaten
 
 - **Aanleiding:** vervolg op het dekking-herontwerp hieronder. De 72 entiteiten die na regeneratie als `⚠️ ter discussie` gemarkeerd stonden, zijn stuk voor stuk beoordeeld: GGM-definitie van de entiteit vergeleken met de `bo_definitie` van elke kandidaat-BO.

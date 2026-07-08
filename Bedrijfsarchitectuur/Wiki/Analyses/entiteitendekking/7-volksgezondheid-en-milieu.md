@@ -17,13 +17,13 @@ totaal_hiaten: 31
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 16 GGM-entiteiten. Dekking: 16 van 16 (100%) — 4 met BO, 12 ondersteunend, 0 niet gedekt. 31 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 16 GGM-entiteiten (0 n.v.t.). Dekking: 16 van 16 (100%) — 4 met BO, 12 ondersteunend, 0 niet gedekt. 31 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× classificatie, 9× detail, 1× onderdeel.
 
 ## Afval
 
-16 GGM-entiteiten: 4 met BO, 12 ondersteunend aan BO, 0 niet gedekt. Dekking: 16 van 16 (100%).
+16 GGM-entiteiten (0 n.v.t.): 4 met BO, 12 ondersteunend aan BO, 0 niet gedekt. Dekking: 16 van 16 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

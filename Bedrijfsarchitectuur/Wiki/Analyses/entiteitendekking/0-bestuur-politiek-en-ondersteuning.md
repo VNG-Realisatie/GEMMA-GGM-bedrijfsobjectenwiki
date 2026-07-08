@@ -17,13 +17,13 @@ totaal_hiaten: 5
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 13 GGM-entiteiten. Dekking: 13 van 13 (100%) — 4 met BO, 9 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 13 GGM-entiteiten (4 n.v.t.). Dekking: 9 van 9 (100%) — 4 met BO, 5 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× actor, 5× detail, 2× rol.
 
 ## Griffie
 
-13 GGM-entiteiten: 4 met BO, 9 ondersteunend aan BO, 0 niet gedekt. Dekking: 13 van 13 (100%).
+13 GGM-entiteiten (4 n.v.t.): 4 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 9 van 9 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

@@ -17,13 +17,13 @@ totaal_hiaten: 5
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 30 GGM-entiteiten. Dekking: 28 van 30 (93%) — 8 met BO, 20 ondersteunend, 2 niet gedekt. 5 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 30 GGM-entiteiten (8 n.v.t.). Dekking: 20 van 22 (91%) — 8 met BO, 12 ondersteunend, 2 niet gedekt. 5 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× classificatie, 11× detail, 1× onderdeel, 7× proces, 1× rol.
 
 ## 1 Veiligheid en Vergunningen
 
-30 GGM-entiteiten: 8 met BO, 20 ondersteunend aan BO, 2 niet gedekt. Dekking: 28 van 30 (93%).
+30 GGM-entiteiten (8 n.v.t.): 8 met BO, 12 ondersteunend aan BO, 2 niet gedekt. Dekking: 20 van 22 (91%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

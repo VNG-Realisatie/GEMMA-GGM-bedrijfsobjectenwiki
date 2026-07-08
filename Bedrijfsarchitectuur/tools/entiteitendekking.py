@@ -838,7 +838,12 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                 })
 
     match_count = len(bo_matches)
-    ondersteunend = sum(1 for g in geen_match if '⚠️' not in g.get('dekking', ''))
+    # n.v.t. (abstract/proces/actor/rol) staat buiten scope van BO-dekking —
+    # apart geteld zodat het dekkingspercentage alleen over daadwerkelijk
+    # BO-relevante entiteiten gaat, niet stilzwijgend als "ondersteunend" meetelt.
+    nvt = sum(1 for g in geen_match if g.get('dekking') == 'n.v.t.')
+    ondersteunend = sum(1 for g in geen_match
+                         if '⚠️' not in g.get('dekking', '') and g.get('dekking') != 'n.v.t.')
     niet_gedekt = sum(1 for g in geen_match if '⚠️' in g.get('dekking', ''))
 
     return {
@@ -847,6 +852,7 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
         'match_count': match_count,
         'ondersteunend': ondersteunend,
         'niet_gedekt': niet_gedekt,
+        'nvt': nvt,
         'bo_matches': bo_matches,
         'geen_match': geen_match,
         'review': review_items,
@@ -960,6 +966,7 @@ def process_taakveld(tv_name, bd_entities, objecttypes, graph,
     total_matches = sum(r['match_count'] for r in results.values())
     total_ondersteunend = sum(r['ondersteunend'] for r in results.values())
     total_niet_gedekt = sum(r['niet_gedekt'] for r in results.values())
+    total_nvt = sum(r['nvt'] for r in results.values())
     total_review = sum(len(r['review']) for r in results.values())
 
     return {
@@ -970,6 +977,7 @@ def process_taakveld(tv_name, bd_entities, objecttypes, graph,
         'total_matches': total_matches,
         'total_ondersteunend': total_ondersteunend,
         'total_niet_gedekt': total_niet_gedekt,
+        'total_nvt': total_nvt,
         'total_review': total_review,
     }
 
@@ -1010,10 +1018,12 @@ def generate_taakveld_md(tv_result, hiaten_by_tv, ggm_path_map):
     lines.append('')
     lines.append('<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->')
     lines.append('')
+    relevant = tv_result['total_entities'] - tv_result['total_nvt']
     gedekt = tv_result['total_matches'] + tv_result['total_ondersteunend']
-    pct = round(100 * gedekt / tv_result['total_entities']) if tv_result['total_entities'] else 0
-    lines.append(f"{len(bds)} beleidsdomeinen, {tv_result['total_entities']} GGM-entiteiten. "
-                 f"Dekking: {gedekt} van {tv_result['total_entities']} ({pct}%) — "
+    pct = round(100 * gedekt / relevant) if relevant else 0
+    lines.append(f"{len(bds)} beleidsdomeinen, {tv_result['total_entities']} GGM-entiteiten "
+                 f"({tv_result['total_nvt']} n.v.t.). "
+                 f"Dekking: {gedekt} van {relevant} ({pct}%) — "
                  f"{tv_result['total_matches']} met BO, "
                  f"{tv_result['total_ondersteunend']} ondersteunend, "
                  f"{tv_result['total_niet_gedekt']} niet gedekt. "
@@ -1067,14 +1077,18 @@ def generate_taakveld_md(tv_result, hiaten_by_tv, ggm_path_map):
 def _bd_stats_line(bd_r):
     """Scriptgegenereerde statistiekregel per beleidsdomein (nooit stale, want
     altijd vers berekend — de Beoordeling-proza hoeft deze aantallen dus niet
-    te herhalen)."""
+    te herhalen). n.v.t. (abstract/proces/actor/rol) telt niet mee in het
+    dekkingspercentage — dat gaat alleen over daadwerkelijk BO-relevante
+    entiteiten (total - nvt), niet over alles wat bewust buiten scope viel."""
     total = bd_r['entity_count']
+    nvt = bd_r['nvt']
+    relevant = total - nvt
     gedekt = bd_r['match_count'] + bd_r['ondersteunend']
-    pct = round(100 * gedekt / total) if total else 0
-    return (f"{total} GGM-entiteiten: {bd_r['match_count']} met BO, "
+    pct = round(100 * gedekt / relevant) if relevant else 0
+    return (f"{total} GGM-entiteiten ({nvt} n.v.t.): {bd_r['match_count']} met BO, "
             f"{bd_r['ondersteunend']} ondersteunend aan BO, "
             f"{bd_r['niet_gedekt']} niet gedekt. "
-            f"Dekking: {gedekt} van {total} ({pct}%).")
+            f"Dekking: {gedekt} van {relevant} ({pct}%).")
 
 
 def _write_entity_table(lines, bo_matches, geen_match, pm, bd_name):
@@ -1154,15 +1168,18 @@ def generate_totaaloverzicht(all_tv_results, hiaten_by_tv):
     lines.append('')
     total_ondersteunend = sum(r['total_ondersteunend'] for r in all_tv_results.values())
     total_niet_gedekt = sum(r['total_niet_gedekt'] for r in all_tv_results.values())
+    total_nvt = sum(r['total_nvt'] for r in all_tv_results.values())
+    total_relevant = total_ent - total_nvt
     total_gedekt = total_match + total_ondersteunend
-    pct_all = round(100 * total_gedekt / total_ent) if total_ent else 0
-    lines.append(f"{total_ent} GGM-entiteiten. Dekking: {total_gedekt} gedekt ({pct_all}%), "
+    pct_all = round(100 * total_gedekt / total_relevant) if total_relevant else 0
+    lines.append(f"{total_ent} GGM-entiteiten ({total_nvt} n.v.t.). "
+                 f"Dekking: {total_gedekt} gedekt van {total_relevant} relevante ({pct_all}%), "
                  f"{total_niet_gedekt} niet gedekt. {total_hiaten} BO's zonder GGM-entiteit.")
     lines.append('')
-    lines.append("| Taakveld | Beleidsdomein | GGM-entiteiten | Entiteiten met BO "
+    lines.append("| Taakveld | Beleidsdomein | GGM-entiteiten | n.v.t. | Entiteiten met BO "
                  "| Entiteiten ondersteunend aan BO | Niet gedekt | Dekking "
                  "| BO zonder GGM-entiteit |")
-    lines.append('|---|---|---|---|---|---|---|---|')
+    lines.append('|---|---|---|---|---|---|---|---|---|')
 
     for tv_name in sorted(all_tv_results.keys(), key=taakveld_sort_key):
         tv_r = all_tv_results[tv_name]
@@ -1177,10 +1194,11 @@ def generate_totaaloverzicht(all_tv_results, hiaten_by_tv):
             tv_col = f"**{rapport}**" if first_bd else ""
             first_bd = False
             total = bd_r['entity_count']
+            relevant = total - bd_r['nvt']
             gedekt = bd_r['match_count'] + bd_r['ondersteunend']
-            pct = f"{round(100 * gedekt / total)}%" if total else "—"
+            pct = f"{round(100 * gedekt / relevant)}%" if relevant else "—"
             lines.append(
-                f"| {tv_col} | {bd_name} | {total} | {bd_r['match_count']} "
+                f"| {tv_col} | {bd_name} | {total} | {bd_r['nvt']} | {bd_r['match_count']} "
                 f"| {bd_r['ondersteunend']} | {bd_r['niet_gedekt']} | {pct} "
                 f"| |"
             )
@@ -1188,7 +1206,7 @@ def generate_totaaloverzicht(all_tv_results, hiaten_by_tv):
         if tv_hiaten:
             tv_col = f"**{rapport}**" if not tv_r['beleidsdomeinen'] else ""
             lines.append(
-                f"| {tv_col} | | | | | | | {len(tv_hiaten)} |"
+                f"| {tv_col} | | | | | | | | {len(tv_hiaten)} |"
             )
 
     lines.append('')

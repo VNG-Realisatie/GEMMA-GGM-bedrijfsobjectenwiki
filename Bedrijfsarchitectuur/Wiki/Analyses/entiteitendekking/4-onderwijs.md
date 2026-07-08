@@ -18,13 +18,13 @@ totaal_hiaten: 1
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-2 beleidsdomeinen, 27 GGM-entiteiten. Dekking: 23 van 27 (85%) — 11 met BO, 12 ondersteunend, 4 niet gedekt. 1 BO's zonder GGM-entiteit.
+2 beleidsdomeinen, 27 GGM-entiteiten (2 n.v.t.). Dekking: 21 van 25 (84%) — 11 met BO, 10 ondersteunend, 4 niet gedekt. 1 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× actor, 14× detail.
 
 ## Leerplicht en Leerlingenvervoer
 
-15 GGM-entiteiten: 6 met BO, 7 ondersteunend aan BO, 2 niet gedekt. Dekking: 13 van 15 (87%).
+15 GGM-entiteiten (2 n.v.t.): 6 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 11 van 13 (85%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -46,7 +46,7 @@ Niet-BO entiteiten: 2× actor, 14× detail.
 
 ## Onderwijs
 
-12 GGM-entiteiten: 5 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 10 van 12 (83%).
+12 GGM-entiteiten (0 n.v.t.): 5 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 10 van 12 (83%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

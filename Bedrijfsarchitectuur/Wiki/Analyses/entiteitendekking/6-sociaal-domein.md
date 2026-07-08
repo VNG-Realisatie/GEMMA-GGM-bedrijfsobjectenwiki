@@ -26,13 +26,13 @@ totaal_hiaten: 10
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-10 beleidsdomeinen, 285 GGM-entiteiten. Dekking: 209 van 285 (73%) — 53 met BO, 156 ondersteunend, 76 niet gedekt. 10 BO's zonder GGM-entiteit.
+10 beleidsdomeinen, 285 GGM-entiteiten (12 n.v.t.). Dekking: 197 van 273 (72%) — 53 met BO, 144 ondersteunend, 76 niet gedekt. 10 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces, 3× rol.
 
 ## Dak- en thuislozen
 
-1 GGM-entiteiten: 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
+1 GGM-entiteiten (0 n.v.t.): 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -40,7 +40,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Gemeentebegrafenissen
 
-1 GGM-entiteiten: 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
+1 GGM-entiteiten (0 n.v.t.): 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Generiek Jeugd en Wmo
 
-27 GGM-entiteiten: 6 met BO, 20 ondersteunend aan BO, 1 niet gedekt. Dekking: 26 van 27 (96%).
+27 GGM-entiteiten (2 n.v.t.): 6 met BO, 18 ondersteunend aan BO, 1 niet gedekt. Dekking: 24 van 25 (96%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -82,7 +82,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Inburgering
 
-35 GGM-entiteiten: 15 met BO, 16 ondersteunend aan BO, 4 niet gedekt. Dekking: 31 van 35 (89%).
+35 GGM-entiteiten (1 n.v.t.): 15 met BO, 15 ondersteunend aan BO, 4 niet gedekt. Dekking: 30 van 34 (88%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -124,7 +124,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Inkomen
 
-88 GGM-entiteiten: 10 met BO, 49 ondersteunend aan BO, 29 niet gedekt. Dekking: 59 van 88 (67%).
+88 GGM-entiteiten (3 n.v.t.): 10 met BO, 46 ondersteunend aan BO, 29 niet gedekt. Dekking: 56 van 85 (66%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -219,7 +219,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Jeugdbescherming en reclassering
 
-4 GGM-entiteiten: 1 met BO, 3 ondersteunend aan BO, 0 niet gedekt. Dekking: 4 van 4 (100%).
+4 GGM-entiteiten (0 n.v.t.): 1 met BO, 3 ondersteunend aan BO, 0 niet gedekt. Dekking: 4 van 4 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -230,7 +230,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Schulden
 
-32 GGM-entiteiten: 10 met BO, 20 ondersteunend aan BO, 2 niet gedekt. Dekking: 30 van 32 (94%).
+32 GGM-entiteiten (2 n.v.t.): 10 met BO, 18 ondersteunend aan BO, 2 niet gedekt. Dekking: 28 van 30 (93%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -269,7 +269,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Sociaal Domein Generiek
 
-55 GGM-entiteiten: 4 met BO, 16 ondersteunend aan BO, 35 niet gedekt. Dekking: 20 van 55 (36%).
+55 GGM-entiteiten (2 n.v.t.): 4 met BO, 14 ondersteunend aan BO, 35 niet gedekt. Dekking: 18 van 53 (34%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -331,7 +331,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Sociale Teams
 
-9 GGM-entiteiten: 2 met BO, 7 ondersteunend aan BO, 0 niet gedekt. Dekking: 9 van 9 (100%).
+9 GGM-entiteiten (2 n.v.t.): 2 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 7 van 7 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -347,7 +347,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Werk
 
-33 GGM-entiteiten: 3 met BO, 25 ondersteunend aan BO, 5 niet gedekt. Dekking: 28 van 33 (85%).
+33 GGM-entiteiten (0 n.v.t.): 3 met BO, 25 ondersteunend aan BO, 5 niet gedekt. Dekking: 28 van 33 (85%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

@@ -68,18 +68,21 @@ Herberekent dezelfde analyse (los van wat er in de per-taakveld rapporten staat)
 | Maat | Berekening |
 |---|---|
 | GGM-entiteiten | som kolom GGM-entiteiten |
+| n.v.t. | som kolom n.v.t. (abstract/proces/actor/rol — buiten scope van BO-dekking) |
 | Entiteiten met BO | som kolom Entiteiten met BO |
 | Entiteiten ondersteunend aan BO | som kolom Entiteiten ondersteunend aan BO |
 | Niet gedekt | som kolom Niet gedekt |
-| Niet gedekt (%) | Niet gedekt / GGM-entiteiten × 100 |
+| Dekking (%) | (Entiteiten met BO + ondersteunend) / (GGM-entiteiten − n.v.t.) × 100 |
 | BO's zonder GGM-entiteit | som kolom BO zonder GGM-entiteit |
 | **BO's totaal** | Entiteiten met BO + BO's zonder GGM-entiteit |
+
+**n.v.t. telt niet mee in het dekkingspercentage.** Deze entiteiten (abstract/proces/actor/rol) zijn bewust nooit kandidaat voor een BO-match — ze meetellen als "gedekt" zou het percentage kunstmatig ophogen. De noemer is daarom overal `GGM-entiteiten − n.v.t.`, niet het ruwe totaal.
 
 Na het draaien van het script: **verifieer** dat de totaalrij overeenkomt met de kolomsommen. Het script overschrijft `totaaloverzicht.md` bij elke run — handmatige aanpassingen aan de totaalrij moeten na het script worden aangebracht als het script dit nog niet automatisch doet.
 
 ## Rapportstructuur
 
-Per taakveld: per beleidsdomein een scriptgegenereerde statistiekregel (totaal, met BO, ondersteunend, niet gedekt, dekkingspercentage) gevolgd door **één samengevoegde tabel**:
+Per taakveld: per beleidsdomein een scriptgegenereerde statistiekregel (totaal, n.v.t., met BO, ondersteunend, niet gedekt, dekkingspercentage over totaal−n.v.t.) gevolgd door **één samengevoegde tabel**:
 
 `GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling`
 

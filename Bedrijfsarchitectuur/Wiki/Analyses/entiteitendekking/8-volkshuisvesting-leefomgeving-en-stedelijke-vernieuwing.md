@@ -19,13 +19,13 @@ totaal_hiaten: 3
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 119 GGM-entiteiten. Dekking: 91 van 119 (76%) — 28 met BO, 63 ondersteunend, 28 niet gedekt. 3 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 119 GGM-entiteiten (8 n.v.t.). Dekking: 83 van 111 (75%) — 28 met BO, 55 ondersteunend, 28 niet gedekt. 3 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1× rol, 13× specialisatie.
 
 ## Beheer Openbare Ruimte
 
-81 GGM-entiteiten: 19 met BO, 35 ondersteunend aan BO, 27 niet gedekt. Dekking: 54 van 81 (67%).
+81 GGM-entiteiten (6 n.v.t.): 19 met BO, 29 ondersteunend aan BO, 27 niet gedekt. Dekking: 48 van 75 (64%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -113,7 +113,7 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5�
 
 ## Bouwen en Wonen
 
-7 GGM-entiteiten: 2 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 7 van 7 (100%).
+7 GGM-entiteiten (0 n.v.t.): 2 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 7 van 7 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -127,7 +127,7 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5�
 
 ## Omgevingswet
 
-31 GGM-entiteiten: 7 met BO, 23 ondersteunend aan BO, 1 niet gedekt. Dekking: 30 van 31 (97%).
+31 GGM-entiteiten (2 n.v.t.): 7 met BO, 21 ondersteunend aan BO, 1 niet gedekt. Dekking: 28 van 29 (97%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

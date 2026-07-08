@@ -23,13 +23,13 @@ totaal_hiaten: 9
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-7 beleidsdomeinen, 148 GGM-entiteiten. Dekking: 133 van 148 (90%) — 47 met BO, 86 ondersteunend, 15 niet gedekt. 9 BO's zonder GGM-entiteit.
+7 beleidsdomeinen, 148 GGM-entiteiten (9 n.v.t.). Dekking: 124 van 139 (89%) — 47 met BO, 77 ondersteunend, 15 niet gedekt. 9 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5× proces, 2× rol.
 
 ## Financien
 
-24 GGM-entiteiten: 10 met BO, 14 ondersteunend aan BO, 0 niet gedekt. Dekking: 24 van 24 (100%).
+24 GGM-entiteiten (2 n.v.t.): 10 met BO, 12 ondersteunend aan BO, 0 niet gedekt. Dekking: 22 van 22 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -60,7 +60,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## HR
 
-31 GGM-entiteiten: 11 met BO, 20 ondersteunend aan BO, 0 niet gedekt. Dekking: 31 van 31 (100%).
+31 GGM-entiteiten (0 n.v.t.): 11 met BO, 20 ondersteunend aan BO, 0 niet gedekt. Dekking: 31 van 31 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -98,7 +98,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## ICT
 
-35 GGM-entiteiten: 11 met BO, 13 ondersteunend aan BO, 11 niet gedekt. Dekking: 24 van 35 (69%).
+35 GGM-entiteiten (2 n.v.t.): 11 met BO, 11 ondersteunend aan BO, 11 niet gedekt. Dekking: 22 van 33 (67%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -140,7 +140,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## Inkoop
 
-20 GGM-entiteiten: 7 met BO, 13 ondersteunend aan BO, 0 niet gedekt. Dekking: 20 van 20 (100%).
+20 GGM-entiteiten (1 n.v.t.): 7 met BO, 12 ondersteunend aan BO, 0 niet gedekt. Dekking: 19 van 19 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -167,7 +167,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## Organisatie-indeling
 
-2 GGM-entiteiten: 1 met BO, 1 ondersteunend aan BO, 0 niet gedekt. Dekking: 2 van 2 (100%).
+2 GGM-entiteiten (0 n.v.t.): 1 met BO, 1 ondersteunend aan BO, 0 niet gedekt. Dekking: 2 van 2 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -176,7 +176,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## Subsidies
 
-9 GGM-entiteiten: 0 met BO, 6 ondersteunend aan BO, 3 niet gedekt. Dekking: 6 van 9 (67%).
+9 GGM-entiteiten (2 n.v.t.): 0 met BO, 4 ondersteunend aan BO, 3 niet gedekt. Dekking: 4 van 7 (57%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -192,7 +192,7 @@ Niet-BO entiteiten: 2× actor, 7× classificatie, 79× detail, 6× onderdeel, 5�
 
 ## Vastgoed
 
-27 GGM-entiteiten: 7 met BO, 19 ondersteunend aan BO, 1 niet gedekt. Dekking: 26 van 27 (96%).
+27 GGM-entiteiten (2 n.v.t.): 7 met BO, 17 ondersteunend aan BO, 1 niet gedekt. Dekking: 24 van 25 (96%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

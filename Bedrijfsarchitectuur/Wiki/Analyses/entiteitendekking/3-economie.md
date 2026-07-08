@@ -17,13 +17,13 @@ totaal_hiaten: 6
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 6 GGM-entiteiten. Dekking: 6 van 6 (100%) — 1 met BO, 5 ondersteunend, 0 niet gedekt. 6 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 6 GGM-entiteiten (0 n.v.t.). Dekking: 6 van 6 (100%) — 1 met BO, 5 ondersteunend, 0 niet gedekt. 6 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 5× detail.
 
 ## 3 Economie
 
-6 GGM-entiteiten: 1 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 6 van 6 (100%).
+6 GGM-entiteiten (0 n.v.t.): 1 met BO, 5 ondersteunend aan BO, 0 niet gedekt. Dekking: 6 van 6 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

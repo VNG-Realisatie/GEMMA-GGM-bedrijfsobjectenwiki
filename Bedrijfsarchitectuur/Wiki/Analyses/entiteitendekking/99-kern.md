@@ -20,13 +20,13 @@ totaal_hiaten: 6
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-4 beleidsdomeinen, 156 GGM-entiteiten. Dekking: 133 van 156 (85%) — 45 met BO, 88 ondersteunend, 23 niet gedekt. 6 BO's zonder GGM-entiteit.
+4 beleidsdomeinen, 156 GGM-entiteiten (11 n.v.t.). Dekking: 122 van 145 (84%) — 45 met BO, 77 ondersteunend, 23 niet gedekt. 6 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel, 2× proces.
 
 ## 99 Kern
 
-10 GGM-entiteiten: 0 met BO, 10 ondersteunend aan BO, 0 niet gedekt. Dekking: 10 van 10 (100%).
+10 GGM-entiteiten (0 n.v.t.): 0 met BO, 10 ondersteunend aan BO, 0 niet gedekt. Dekking: 10 van 10 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -43,7 +43,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 
 ## BAG
 
-13 GGM-entiteiten: 10 met BO, 1 ondersteunend aan BO, 2 niet gedekt. Dekking: 11 van 13 (85%).
+13 GGM-entiteiten (1 n.v.t.): 10 met BO, 0 ondersteunend aan BO, 2 niet gedekt. Dekking: 10 van 12 (83%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -63,7 +63,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 
 ## RGBZPlus
 
-37 GGM-entiteiten: 11 met BO, 23 ondersteunend aan BO, 3 niet gedekt. Dekking: 34 van 37 (92%).
+37 GGM-entiteiten (3 n.v.t.): 11 met BO, 20 ondersteunend aan BO, 3 niet gedekt. Dekking: 31 van 34 (91%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -107,7 +107,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 
 ## RSGBPlus
 
-96 GGM-entiteiten: 24 met BO, 54 ondersteunend aan BO, 18 niet gedekt. Dekking: 78 van 96 (81%).
+96 GGM-entiteiten (7 n.v.t.): 24 met BO, 47 ondersteunend aan BO, 18 niet gedekt. Dekking: 71 van 89 (80%).
 
 ### BRP — personen en burgerzaken
 

@@ -18,13 +18,13 @@ totaal_hiaten: 16
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-2 beleidsdomeinen, 20 GGM-entiteiten. Dekking: 20 van 20 (100%) — 13 met BO, 7 ondersteunend, 0 niet gedekt. 16 BO's zonder GGM-entiteit.
+2 beleidsdomeinen, 20 GGM-entiteiten (0 n.v.t.). Dekking: 20 van 20 (100%) — 13 met BO, 7 ondersteunend, 0 niet gedekt. 16 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 3× classificatie, 4× detail.
 
 ## Mobiliteit
 
-7 GGM-entiteiten: 4 met BO, 3 ondersteunend aan BO, 0 niet gedekt. Dekking: 7 van 7 (100%).
+7 GGM-entiteiten (0 n.v.t.): 4 met BO, 3 ondersteunend aan BO, 0 niet gedekt. Dekking: 7 van 7 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -38,7 +38,7 @@ Niet-BO entiteiten: 3× classificatie, 4× detail.
 
 ## Parkeren
 
-13 GGM-entiteiten: 9 met BO, 4 ondersteunend aan BO, 0 niet gedekt. Dekking: 13 van 13 (100%).
+13 GGM-entiteiten (0 n.v.t.): 9 met BO, 4 ondersteunend aan BO, 0 niet gedekt. Dekking: 13 van 13 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|

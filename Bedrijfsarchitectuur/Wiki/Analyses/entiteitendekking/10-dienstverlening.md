@@ -17,13 +17,13 @@ totaal_hiaten: 10
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 16 GGM-entiteiten. Dekking: 15 van 16 (94%) — 3 met BO, 12 ondersteunend, 1 niet gedekt. 10 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 16 GGM-entiteiten (2 n.v.t.). Dekking: 13 van 14 (93%) — 3 met BO, 10 ondersteunend, 1 niet gedekt. 10 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 1× classificatie, 10× detail, 2× proces.
 
 ## 10 Dienstverlening
 
-16 GGM-entiteiten: 3 met BO, 12 ondersteunend aan BO, 1 niet gedekt. Dekking: 15 van 16 (94%).
+16 GGM-entiteiten (2 n.v.t.): 3 met BO, 10 ondersteunend aan BO, 1 niet gedekt. Dekking: 13 van 14 (93%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
