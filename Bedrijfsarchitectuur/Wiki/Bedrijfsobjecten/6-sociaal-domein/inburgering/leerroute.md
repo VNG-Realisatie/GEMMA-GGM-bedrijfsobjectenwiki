@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Leerroute
 domein:
 - Asiel en Integratie

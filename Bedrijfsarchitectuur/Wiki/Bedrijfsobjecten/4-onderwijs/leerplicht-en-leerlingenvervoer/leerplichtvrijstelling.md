@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Leerplichtvrijstelling
 domein: [onderwijs]
 archimate_type: business-object

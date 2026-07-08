@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: OV-lijn
 domein:
 - mobiliteit

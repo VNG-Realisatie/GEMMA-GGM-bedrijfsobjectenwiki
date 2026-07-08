@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: SociaalTeamDossier
 domein:
 - maatschappelijke ondersteuning

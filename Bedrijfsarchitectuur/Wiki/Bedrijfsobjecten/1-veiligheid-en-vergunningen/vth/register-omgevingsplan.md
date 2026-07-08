@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Register (omgevingsplan)
 onderwerp: [Omgevingswet]
 archimate_type: business-object

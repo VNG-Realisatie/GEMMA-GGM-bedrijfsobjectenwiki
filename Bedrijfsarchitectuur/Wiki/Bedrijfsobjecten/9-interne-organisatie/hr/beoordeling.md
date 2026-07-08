@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Beoordeling
 domein: [Arbeidszaken]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Stremming
 domein: [mobiliteit]
 archimate_type: "business-object"

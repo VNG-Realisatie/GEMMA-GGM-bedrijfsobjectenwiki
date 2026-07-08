@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Laadpaal
 domein: [mobiliteit]
 archimate_type: "business-object"

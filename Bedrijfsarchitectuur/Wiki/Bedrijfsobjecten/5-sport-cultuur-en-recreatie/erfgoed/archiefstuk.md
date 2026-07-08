@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Archiefstuk
 domein: [Cultuur, Informatiebeheer]
 archimate_type: "business-object"

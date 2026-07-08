@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: WOZ-object
 domein:
 - Belastingen

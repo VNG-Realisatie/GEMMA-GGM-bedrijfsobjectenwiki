@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Zorgdeclaratie
 domein: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

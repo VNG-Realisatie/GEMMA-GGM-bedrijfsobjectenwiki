@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Hulpbehoevend dier
 domein: [Dierenwelzijn]
 archimate_type: "business-object"

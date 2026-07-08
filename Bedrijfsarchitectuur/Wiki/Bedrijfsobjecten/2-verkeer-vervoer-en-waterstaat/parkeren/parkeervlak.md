@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Parkeervlak
 domein: [mobiliteit]
 archimate_type: "business-object"

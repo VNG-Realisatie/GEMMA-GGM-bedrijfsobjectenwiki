@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Woningbouwplan
 domein: [Wonen]
 archimate_type: business-object

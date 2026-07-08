@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Debiteur
 domein: [Financien, Terug-en-invordering]
 archimate_type: "business-object"

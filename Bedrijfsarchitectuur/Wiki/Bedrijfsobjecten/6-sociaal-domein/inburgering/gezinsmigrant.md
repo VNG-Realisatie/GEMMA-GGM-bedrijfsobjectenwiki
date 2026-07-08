@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Gezinsmigrant
 domein:
 - Asiel en Integratie

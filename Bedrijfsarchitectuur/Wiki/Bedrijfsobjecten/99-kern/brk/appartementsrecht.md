@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Appartementsrecht
 onderwerp: [Basisregistraties, BRK]
 archimate_type: business-object

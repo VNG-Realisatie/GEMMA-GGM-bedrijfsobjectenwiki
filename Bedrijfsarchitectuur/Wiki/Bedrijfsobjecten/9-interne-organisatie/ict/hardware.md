@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Hardware
 onderwerp: [Informatiesystemen]
 archimate_type: business-object

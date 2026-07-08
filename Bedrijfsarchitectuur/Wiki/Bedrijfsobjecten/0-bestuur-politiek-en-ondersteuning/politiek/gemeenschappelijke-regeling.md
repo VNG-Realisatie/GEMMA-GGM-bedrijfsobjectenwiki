@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Gemeenschappelijke Regeling
 domein:
 - Bestuur

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Welstandsadvies
 domein: [Welstand, VTH]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Kadastraal Perceel
 onderwerp: [Basisregistraties, BRK]
 archimate_type: business-object

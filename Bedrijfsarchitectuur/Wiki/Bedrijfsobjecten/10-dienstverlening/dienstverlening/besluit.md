@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Besluit
 domein: [Dienstverlening]
 archimate_type: business-object

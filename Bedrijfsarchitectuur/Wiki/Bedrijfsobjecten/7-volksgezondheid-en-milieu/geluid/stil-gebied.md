@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Stil gebied
 domein: [geluid]
 archimate_type: "business-object"

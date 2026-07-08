@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Grondstofstroom
 domein: [Milieu]
 archimate_type: "business-object"

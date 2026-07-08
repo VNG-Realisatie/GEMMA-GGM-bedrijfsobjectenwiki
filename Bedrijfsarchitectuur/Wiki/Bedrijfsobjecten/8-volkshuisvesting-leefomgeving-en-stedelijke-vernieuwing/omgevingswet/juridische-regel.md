@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Juridische Regel
 onderwerp: [Omgevingswet]
 archimate_type: business-object

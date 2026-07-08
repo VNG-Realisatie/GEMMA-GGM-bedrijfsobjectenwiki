@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Marktconsultatie
 onderwerp: [inkoop]
 archimate_type: business-object

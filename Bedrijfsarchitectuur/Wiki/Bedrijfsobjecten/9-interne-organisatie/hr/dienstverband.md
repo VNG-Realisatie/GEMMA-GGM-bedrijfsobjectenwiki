@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Dienstverband
 domein: [Arbeidszaken]
 archimate_type: business-object

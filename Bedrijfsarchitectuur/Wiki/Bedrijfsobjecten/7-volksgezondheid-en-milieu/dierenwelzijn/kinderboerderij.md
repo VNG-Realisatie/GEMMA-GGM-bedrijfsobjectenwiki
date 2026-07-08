@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Kinderboerderij
 domein: [Dierenwelzijn]
 archimate_type: "business-object"

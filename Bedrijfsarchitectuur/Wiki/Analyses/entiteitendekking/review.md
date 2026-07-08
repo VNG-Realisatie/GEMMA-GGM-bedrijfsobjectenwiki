@@ -1,4 +1,4 @@
-# Entiteitendekking review — 2026-07-08
+# Entiteitendekking review — 2026-07-09
 
 Totaal review-items: 289.
 
@@ -6,20 +6,24 @@ Totaal review-items: 289.
 
 | Taakveld | GGM | Entiteiten met BO | Review |
 |---|---|---|---|
-| 0 Bestuur, Politiek en Ondersteuning | 13 | 4 | 0 |
-| 1 Veiligheid en Vergunningen | 30 | 8 | 8 |
+| 0 Bestuur, Politiek en Ondersteuning | 13 | 8 | 1 |
+| 1 Veiligheid en Vergunningen | 30 | 9 | 8 |
 | 2 Verkeer, Vervoer en Waterstaat | 20 | 13 | 0 |
 | 3 Economie | 6 | 1 | 2 |
-| 4 Onderwijs | 27 | 11 | 1 |
-| 5 Sport, Cultuur en Recreatie | 81 | 16 | 27 |
-| 6 Sociaal Domein | 285 | 53 | 120 |
+| 4 Onderwijs | 27 | 13 | 1 |
+| 5 Sport, Cultuur en Recreatie | 81 | 18 | 27 |
+| 6 Sociaal Domein | 285 | 56 | 119 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 3 |
-| 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 28 | 62 |
-| 9 Interne Organisatie | 148 | 47 | 32 |
+| 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 31 | 62 |
+| 9 Interne Organisatie | 148 | 51 | 32 |
 | 10 Dienstverlening | 16 | 3 | 6 |
 | 99 Kern | 156 | 45 | 28 |
 
 ## Items voor review
+
+### 0 Bestuur, Politiek en Ondersteuning — Griffie
+
+- **Raadscommissie** → detail (1 attrs). Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of 
 
 ### 1 Veiligheid en Vergunningen — 1 Veiligheid en Vergunningen
 
@@ -83,7 +87,6 @@ Totaal review-items: 289.
 - **Beperkingscore** → detail (3 attrs). Getalsmatige duiding van een beperking
 - **Leefgebied** → detail (1 attrs). Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
 - **Leveringsvorm** → detail (3 attrs). Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden gelev
-- **Team** → detail (2 attrs). Een groep personen die door middel van samenwerking een gezamenlijk doel nastreeft, waarbij de teamleden afhankelijk van
 - **Verzoek om Toewijzing** → detail (13 attrs). Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemod
 - **Zelfredzaamheidmatrix** → detail (4 attrs). Een geordend systeem waarbij aan elf domeinen van het dagelijks leven (zoals inkomen en dagbesteding; zie figuur) een wa
 
@@ -156,8 +159,8 @@ Totaal review-items: 289.
 
 ### 6 Sociaal Domein — Schulden
 
-- **AanleverendeOrganisatie** → detail (2 attrs). Organisatie de data aanlevert aan het CBS. Het kan hier gaan om de gemeente zelf, of een partij die namens de gemeente u
 - **Inkomen** → detail (6 attrs). Inkomen dat door een persoon wordt verworven uit verschillende mogelijke inkomstenbronnen: inkomen uit arbeid, inkomen u
+- **Leefsituatie** → detail (2 attrs). Leefsituatie is de combinatie van factoren zoals schulden, ondernemerschap, aanwezigheid van een partner, en inkomen, di
 - **Partner** → detail (4 attrs). Een partner is een persoon met wie iemand een romantische en vaak langdurige relatie heeft, gebaseerd op wederzijdse lie
 - **WSNP-verklaring** → detail (0 attrs). Een WSNP-verklaring is een officieel document dat bevestigt dat een persoon toegelaten is tot de Wet Schuldsanering Natu
 - **Woningbezit** → detail (3 attrs). Een koopwoning is een woning die eigendom is van een individu of een entiteit, die het heeft gekocht en waarvoor meestal

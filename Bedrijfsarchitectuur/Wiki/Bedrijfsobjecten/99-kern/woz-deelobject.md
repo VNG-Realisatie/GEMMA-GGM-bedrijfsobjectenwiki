@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: "WOZ-deelobject"
 domein: [Belastingen]
 archimate_type: "business-object"

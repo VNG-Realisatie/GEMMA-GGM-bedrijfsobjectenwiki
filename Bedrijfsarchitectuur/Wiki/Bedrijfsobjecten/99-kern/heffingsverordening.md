@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: "Heffingsverordening"
 domein: [Belastingen]
 archimate_type: "business-object"

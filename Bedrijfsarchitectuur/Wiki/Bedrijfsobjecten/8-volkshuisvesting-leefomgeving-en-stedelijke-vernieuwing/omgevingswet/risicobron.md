@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Risicobron
 domein: [gevaarlijke-stoffen]
 archimate_type: "business-object"

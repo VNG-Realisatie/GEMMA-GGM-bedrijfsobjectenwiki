@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Museumobject
 domein: [Cultuur]
 archimate_type: "business-object"

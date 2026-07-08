@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Database
 onderwerp: [Informatiesystemen]
 archimate_type: business-object

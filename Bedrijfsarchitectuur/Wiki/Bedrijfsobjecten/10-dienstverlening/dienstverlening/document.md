@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Document
 domein: [Dienstverlening, Informatiebeheer]
 archimate_type: business-object

@@ -1,13 +1,13 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 1 Veiligheid en Vergunningen"
-datum: 2026-07-08
+datum: 2026-07-09
 taakveld: "1 Veiligheid en Vergunningen"
 beleidsdomeinen:
   - 1 Veiligheid en Vergunningen
 totaal_entiteiten: 30
-totaal_bo: 13
-totaal_matches: 8
+totaal_bo: 14
+totaal_matches: 9
 totaal_hiaten: 5
 ---
 
@@ -17,13 +17,13 @@ totaal_hiaten: 5
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 30 GGM-entiteiten (8 n.v.t.). Dekking: 20 van 22 (91%) — 8 met BO, 12 ondersteunend, 2 niet gedekt. 5 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 30 GGM-entiteiten (7 n.v.t.). Dekking: 21 van 23 (91%) — 9 met BO, 12 ondersteunend, 2 niet gedekt. 5 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× classificatie, 11× detail, 1× onderdeel, 7× proces, 1× rol.
+Niet-BO entiteiten: 2× classificatie, 11× detail, 1× onderdeel, 7× proces.
 
 ## 1 Veiligheid en Vergunningen
 
-30 GGM-entiteiten (8 n.v.t.): 8 met BO, 12 ondersteunend aan BO, 2 niet gedekt. Dekking: 20 van 22 (91%).
+30 GGM-entiteiten (7 n.v.t.): 9 met BO, 12 ondersteunend aan BO, 2 niet gedekt. Dekking: 21 van 23 (91%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ Niet-BO entiteiten: 2× classificatie, 11× detail, 1× onderdeel, 7× proces, 1
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Grondslag]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Heffinggrondslag]] | [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Heffingsverordening]] | [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening\|Heffingsverordening]] ✅ | — |  | Exacte match |
-| [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Indiener]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Indiener]] | [[Wiki/Rollen/indiener\|Indiener]] ✅ | hernoemd |  | Hernoemd naar Indiener (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) (rol-pagina) |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Inspectie]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Kosten]] | beschrijft [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vth-zaak\|VTH-zaak]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Leges_Grondslag]] | beschrijft [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vth-zaak\|VTH-zaak]] | detail |  | Detailgegeven |

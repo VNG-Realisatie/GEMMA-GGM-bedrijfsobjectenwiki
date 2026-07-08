@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Infectieziektemelding
 onderwerp: [openbare gezondheid]
 archimate_type: business-object

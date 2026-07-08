@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Afvalstoffenverordening
 domein: [Milieu]
 archimate_type: "business-object"

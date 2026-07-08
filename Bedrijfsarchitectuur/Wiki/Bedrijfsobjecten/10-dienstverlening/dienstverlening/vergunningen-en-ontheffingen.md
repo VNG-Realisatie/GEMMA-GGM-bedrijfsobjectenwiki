@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vergunningen en ontheffingen
 domein: [dienstverlening]
 archimate_type: "business-object"

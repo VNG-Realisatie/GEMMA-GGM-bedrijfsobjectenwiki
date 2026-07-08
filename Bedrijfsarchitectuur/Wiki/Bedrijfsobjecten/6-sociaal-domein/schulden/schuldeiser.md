@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Schuldeiser
 onderwerp: [schulden en armoede]
 archimate_type: business-object
@@ -19,6 +19,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld."
 bo_toelichting: ''
 bo_subtypes: []
+element_tegenhangers:
+  - element: "[[Wiki/Actoren/schuldeiser|Schuldeiser (actor)]]"
+    archimate_type: business-actor
+    toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige actor."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[schuld]]"
@@ -36,6 +40,8 @@ bedrijfsfuncties: [financiële hulpverlening]
 ## Beschrijving
 
 Een schuldeiser is een bedrijf of persoon aan wie de inwoner geld verschuldigd is. De meest voorkomende schuldeisers zijn de Belastingdienst (meest voorkomend) en zorgverzekeraars (op twee). De gemeente onderhandelt namens de inwoner met schuldeisers over schuldregelingen.
+
+De handelende kant van dit begrip is vastgelegd als actor [[Wiki/Actoren/schuldeiser|Schuldeiser (actor)]].
 
 Via **collectief schuldregelen** (Haagse innovatie, landelijk opgeschaald) geven schuldeisers vooraf akkoord op betaalvoorstellen. Deelnemers zijn o.a. Belastingdienst, CAK, CJIB, DUO, banken en verzekeraars.
 

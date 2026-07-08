@@ -1,5 +1,47 @@
 # Wiki Log
 
+## [2026-07-09] audit | audit-actoren track 2: 79 actor-/rolpagina's uit bronsamenvattingen-sweep (governance-hiaten)
+
+- **Aanleiding:** track 2 van `/audit-actoren` — actoren/rollen die wél in bronnen genoemd worden maar niet in het GGM zitten. 4 subagents doorzochten in golf 1 alle 218 bronsamenvattingen (34 onderwerpmappen), gebalanceerd verdeeld in 4 clusters van ~55 bestanden. Resultaat: ~95 ruwe kandidaten, vastgelegd in `ToDo/audit-actoren-track2-kandidaten.md`.
+- **Triage (met gebruiker voor de 5 belangrijkste merge-vragen + 1 escalatie, de rest op basis van de criteria in [[Wiki/GEMMA/actoren-en-rollen]] en het gemeentelijk perspectief):**
+  - 6 merges/samenvoegingen opgelost: Gemeentearchivaris+Archivaris/Directeur-archivaris → één pagina "Archivaris"; Werkgever (onafhankelijk gevonden in Arbeidszaken én Werk en Inkomen) → één pagina; Aanbieder (AI/zorg-jeugdhulp/deelmobiliteit) → één generieke rol-pagina met 3 voorbeelden; Woningcorporatie → actor-pagina (externe partij, wel directe prestatieafspraken); WOZ-belanghebbende → fold-in op bestaande Belanghebbende-pagina; GGD → actor-pagina (mede-eigenaarschap via GR rechtvaardigt eigen pagina naast de generieke BO Gemeenschappelijke regeling, ondanks dat de bron zelf "ketenpartner" zegt).
+  - Buurtteam → fold-in op bestaande Organisatorische eenheid-pagina (specialisatie, geen apart begrip).
+  - 33 kandidaten uitgesloten met reden (te generiek/doelgroep-achtig, te dun bronmateriaal, civielrechtelijk/indirect, of pure externe/justitiële context) — volledige lijst met redenen in de backlog.
+- **Aangemaakt:** 23 actor-pagina's (`Wiki/Actoren/`) en 56 rol-pagina's (`Wiki/Rollen/`), platte structuur, elk met criteria-toetsing tegen de ArchiMate-vragenlijsten, `grondslag: governance-object` of `procesobject` (geen GGM-match — dit zijn per definitie governance-hiaten) en bronvermelding naar de bronsamenvatting(en) waarin het begrip is gesignaleerd.
+- **Index bijgewerkt:** `Wiki/index.md`-secties Actoren en Rollen aangevuld met alle 79 nieuwe pagina's plus één-zins-omschrijving.
+- **Niet gedaan:** GGM-matching voor deze pagina's — dat is hier niet van toepassing, want track 2 bestaat per definitie uit niet-GGM-geankerde begrippen. `entiteitendekking`/`export_ggm_csv` hoeven dus niet opnieuw te draaien voor dekkingseffect; wel geverifieerd dat beide scripts de nieuwe pagina's foutloos inlezen (aantal element-pagina's 101 → correct, geen crashes op de ontbrekende ggm_guid-velden).
+
+
+## [2026-07-09] fix+rapportage | Actoren/rollen tellen mee in de dekking: matchlogica, multi-GUID en regeneratie
+
+- **`tools/entiteitendekking.py`:** scant nu `Wiki/Actoren/` en `Wiki/Rollen/` naast `Wiki/Bedrijfsobjecten/`. GUID-index is geen last-write-wins meer: meerdere pagina's mogen dezelfde `ggm_guid` dragen (twee-pagina-patroon), de business-object-pagina is primair en tegenhangers worden geregistreerd. Bijvangst: drie al bestaande stille GUID-botsingen tussen BO's zichtbaar gemaakt (Aandachtsgebied↔Voorschriftengebied/Gebiedsaanwijzing, Risicobron↔Activiteit, Horecabedrijf↔Vestiging). Entiteitstype actor/rol is niet langer automatisch n.v.t.: eerst matchen; ongematcht → `⚠️ geen actor/rol-pagina` + review.md; alleen gecureerde buiten-scope-gevallen (nieuwe `NVT_ACTOR_ROL`-set in het script) krijgen nog n.v.t. Skill-doc bijgewerkt.
+- **`tools/export_ggm_csv.py`:** exporteert alle element-pagina's; bij een gedeelde GUID een rij per pagina; nieuwe kolom `archimate_type`. Export geverifieerd: 1378 rijen (1364 entiteiten + tegenhanger-pagina's), 23 actor/rol-rijen, geen overschreven rijen. **`tools/generate_ggm_enrich_bo.py`** scant ook de nieuwe mappen.
+- **Rapporten geregenereerd (12 taakvelden):** n.v.t. 59 → 40, gedekt 694 → 709 (absoluut +15), noemer 858 → 877, dekking blijft 81%. Raadslid/Collegelid/Aanwezige Deelnemer/Indiener e.a. matchen nu via de normale route i.p.v. handmatige n.v.t.-correcties. Niet gedekt 164 → 168: de nieuwe element-pagina's doen mee als padkandidaten en leggen 4 nieuwe echte ambiguïteiten bloot (o.a. Raadscommissie: Vergadering vs. Raadslid; Pachter: Eigenaar/Huurder/Vastgoedobject) — af te handelen via de bestaande `bo_via_kandidaten`-curatie.
+
+
+## [2026-07-09] audit | audit-actoren track 1: 18 actor/rol-pagina's + 6 BO-tegenhangers uit entiteitendekking-rapporten
+
+- **Aanleiding:** eerste run van de nieuwe skill `/audit-actoren` (track 1): grep over de 12 entiteitendekking-rapporten op rijen met entiteitstype actor/rol en dekking n.v.t. leverde 18 unieke GGM-entiteiten op die nog geen pagina hadden.
+- **Typeringsbesluiten (met gebruiker):** Raadslid/Collegelid = **rol** (lidmaatschap is een verantwoordelijkheid, de persoon is de actor); Ondernemer = **actor** (zelfstandig handelende partij, cf. Inwoner); Eigenaar/Huurder/Belanghebbende/Vervoerder = **rol** (hoedanigheden). Eindstand: 2 actoren (Bevoegd Gezag, Ondernemer), 16 rollen.
+- **Aangemaakt:** 2 pagina's in `Wiki/Actoren/`, 16 in `Wiki/Rollen/`, elk met `ggm_guid` (dekking) en criteria-toetsing tegen [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]. Voor de 6 kandidaten met substantiële GGM-attributen óók een BO-tegenhanger (twee-pagina-patroon, `element_tegenhangers` beide kanten op): raadslid, collegelid, aanwezige-deelnemer (griffie), contactpersoon (schulden), opdrachtgever, opdrachtnemer (financien).
+- **GGM-duplicaten geregistreerd:** Indiener (griffie + Model VTH), Contactpersoon (Schuldhulpverlening + Vroegsignalering).
+- **GGM-datakwaliteit gesignaleerd:** definitie van Grondbeheerder is gebrekkig ("Beheerder van grondgrondbeheer., oplossing voor duurzaam landbeheer en voedselproductie") — eigen definitie gebruikt, terugmelding type `definitie` aangewezen. Taalfouten in definities van Raadslid ("behoort de gemeenteraad"), Collegelid, Indiener ("meldiing"), Aanwezige Deelnemer ("eencollege-") opgeschoond in bo_definitie conform definitieregels.
+- **Vervolg:** entiteitendekking.py bijwerken (multi-map GUID-index, scan Actoren/Rollen, n.v.t.-regel), rapporten regenereren, daarna track 2 (bronsamenvattingen-sweep).
+
+
+## [2026-07-08] ontwerp | Actoren en rollen als volwaardige elementen: element-schema, Wiki/Actoren en Wiki/Rollen
+
+- **Aanleiding:** actoren/rollen werden inconsistent behandeld — soms als BO vastgelegd (2× `archimate_type: business-actor`, 4× "(actor)"-annotatie in index.md), bij entiteitendekking altijd n.v.t. Besloten (goedgekeurd plan): actoren en rollen krijgen eigen pagina's naast bedrijfsobjecten.
+- **Schema-wijzigingen:**
+  - Frontmatter `type: bedrijfsobject` → `type: element` op alle 314 BO-pagina's (gescript). `archimate_type` uitgebreid met `business-actor`/`business-role` en is nu de enige drager van het specifieke elementtype.
+  - Nieuwe platte mappen `Wiki/Actoren/` en `Wiki/Rollen/`. Twee-pagina-patroon: een begrip dat actor/rol én BO is krijgt twee pagina's met cross-links via nieuw frontmatter-veld `element_tegenhangers`; beide mogen dezelfde `ggm_guid` dragen.
+  - Skills hernoemd: `/assess-bo` → `/assess-element`, `/write-bo` → `/write-element`; `templates/bedrijfsobject.md` → `templates/element.md`. Alle verwijzingen bijgewerkt (ingest, audit-definities, bo-coverage, coverage, entiteitendekking, lint, onderwerpoverzicht-template, CLAUDE.md).
+  - Scripts bijgewerkt op de nieuwe type-waarde: `entiteitendekking.py`, `export_ggm_csv.py`, `generate_ggm_enrich_bo.py`. Dry-run bevestigt: alle 314 pagina's worden nog gevonden.
+- **Nieuwe naslagpagina:** [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] — ArchiMate-definities (Business Actor / Business Role) met elk 6 diagnostische vragen plus beslisvraag (wie handelt vs. in welke verantwoordelijkheid). Doelgroep is expliciet géén actor/rol maar een BO-classificatie; `assess-element` Stap 2-tabel hierop gecorrigeerd. Nieuwe Stap 2b (actor/rol-toets) in assess-element en Stap 11 (actor/rol-pagina's) in write-element.
+- **Bestaande mismatches gemigreerd (4):** medewerker, organisatorische-eenheid, schuldeiser en signaalpartner hebben nu elk een actor-pagina in `Wiki/Actoren/` naast hun BO-pagina (BO-frontmatter gecorrigeerd naar `business-object`, cross-links beide kanten op). Index uitgebreid met secties Actoren en Rollen.
+- **Vervolg:** nieuwe skill `audit-actoren` (retrofit-sweep over entiteitendekking-rapporten + bronsamenvattingen), daarna entiteitendekking.py-matching op actor/rol-pagina's en rapportregeneratie.
+
+
 ## [2026-07-08] fix | n.v.t.-entiteiten telden stilzwijgend mee als "ondersteunend aan BO"
 
 - **Aanleiding:** vraag hoe de n.v.t.-dekking geteld wordt, legde bloot dat `n.v.t.` (abstract/proces/actor/rol — entiteiten die nooit kandidaat zijn voor een BO-match) in de statistiekregels meetelde als "ondersteunend aan BO", puur omdat de tekst geen `⚠️` bevat (`ondersteunend = sum(... if '⚠️' not in dekking)`). Dat vertekende het dekkingspercentage: bij `0-bestuur-politiek-en-ondersteuning.md` bleken 4 van de 9 "ondersteunend"-entiteiten eigenlijk n.v.t. te zijn (Aanwezige Deelnemer, Collegelid, Indiener, Raadslid).

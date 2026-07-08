@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vordering
 domein: [Terug-en-invordering]
 archimate_type: "business-object"

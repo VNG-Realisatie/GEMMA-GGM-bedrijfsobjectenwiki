@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Maatschappelijke Activiteit
 onderwerp: [Basisregistraties, NHR]
 archimate_type: business-object

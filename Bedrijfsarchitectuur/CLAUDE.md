@@ -29,7 +29,7 @@ Na de initiële opbouw wordt het model onderhouden bij:
 
 ### LLM-rol
 
-De LLM fungeert als **eerste filter**. Autonomieregels staan in `/assess-bo` stap 11.
+De LLM fungeert als **eerste filter**. Autonomieregels staan in `/assess-element` stap 11.
 
 ## Directorystructuur
 
@@ -52,6 +52,8 @@ Bedrijfsarchitectuur/
 │   ├── log.md             # chronologisch logboek van alle acties
 │   ├── Onderwerpen/       # onderwerpoverzichten met begrippentabellen
 │   ├── Bedrijfsobjecten/  # BO-pagina's, georganiseerd per {taakveld}/{beleidsdomein}/
+│   ├── Actoren/           # Business Actor-pagina's (plat)
+│   ├── Rollen/            # Business Role-pagina's (plat)
 │   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {onderwerp}/
 │   └── Analyses/          # query-resultaten, vergelijkingen, syntheses
 └── tools/                 # Python-scripts voor XMI-verwerking
@@ -119,7 +121,9 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 
 | Paginatype | Template | Locatie |
 |---|---|---|
-| Bedrijfsobject | `templates/bedrijfsobject.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
+| Element (bedrijfsobject) | `templates/element.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
+| Element (actor) | `templates/element.md` | `Wiki/Actoren/` (plat) |
+| Element (rol) | `templates/element.md` | `Wiki/Rollen/` (plat) |
 | Onderwerpoverzicht | `templates/onderwerpoverzicht.md` | `Wiki/Onderwerpoverzichten/` |
 | Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | Analyse | `templates/analyse.md` | `Wiki/Analyses/` |
@@ -129,8 +133,8 @@ Formats voor `index.md` en `log.md`: zie `templates/index-log.md`.
 ### Beoordelingslogica
 
 Alle beoordelingslogica staat in de skills, niet in dit bestand:
-- **BO-beoordeling:** `/assess-bo` — domeinbepaling, begripstype, criteria, subtypes, data-object classificatie, hiaat, autonomieregels
-- **BO vastleggen:** `/write-bo` — grondslag, matchsterkte, frontmatter, relaties, pagina, terugmelding
+- **Elementbeoordeling:** `/assess-element` — domeinbepaling, begripstype, criteria (incl. actor/rol-criteria, zie `Wiki/GEMMA/actoren-en-rollen.md`), subtypes, data-object classificatie, hiaat, autonomieregels
+- **Element vastleggen:** `/write-element` — grondslag, matchsterkte, frontmatter, relaties, pagina, terugmelding
 - **Entiteitendekking:** `/entiteitendekking` — uniforme GGM-analyse per taakveld/beleidsdomein (vervangt coverage, bo-coverage, ggm-vergelijking)
 
 ### Conventies
@@ -149,7 +153,7 @@ Wanneer de gebruiker een bron of onderwerp aanwijst om te verwerken:
 2. Bespreek de kernpunten met de gebruiker voordat je schrijft
 3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
 4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/onderwerpoverzicht.md`)
-5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/bedrijfsobject.md`)
+5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/element.md`)
 6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
 7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd
 
@@ -191,9 +195,9 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 | Skill | Aanroep | Functie |
 |---|---|---|
-| **ingest** | `/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-bo en write-bo |
-| **assess-bo** | `/assess-bo {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
-| **write-bo** | `/write-bo {BO}` | BO vastleggen: GGM-match, frontmatter, pagina aanmaken |
+| **ingest** | `/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-element en write-element |
+| **assess-element** | `/assess-element {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat |
+| **write-element** | `/write-element {element}` | Element vastleggen: GGM-match, frontmatter, pagina aanmaken |
 | **entiteitendekking** | `/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten (vervangt coverage, bo-coverage, ggm-vergelijking) |
 | **domain-status** | `/domain-status {onderwerp}` | Read-only voortgangsrapportage |
 | **lint** | `/lint [onderwerp]` | Consistentiechecks op wiki tegen templates en skills |

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Upcyclecentrum
 domein: [Milieu]
 archimate_type: "business-object"

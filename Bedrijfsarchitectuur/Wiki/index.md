@@ -44,6 +44,9 @@
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|stembureau]] — Fysieke locatie voor stemming met registratie adres, capaciteit, toegankelijkheid
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling|gemeenschappelijke-regeling]] — Publiekrechtelijke samenwerkingsconstructie op basis van Wgr
 - [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|partijsubsidie]] — Door gemeente verstrekte subsidie aan decentrale politieke partij ter versterking partijorganisatie (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid|raadslid]] — Gegevens over een raadslid: naam, fractie, aanstelling/uittreding (GGM exact, rol-tegenhanger: [[Wiki/Rollen/raadslid|raadslid]])
+- [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/collegelid|collegelid]] — Gegevens over een collegelid: naam, fractie, portefeuille (GGM exact, rol-tegenhanger: [[Wiki/Rollen/collegelid|collegelid]])
+- [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer|aanwezige-deelnemer]] — Aanwezigheidsregistratie bij college- of raadsvergadering (GGM exact, rol-tegenhanger: [[Wiki/Rollen/aanwezige-deelnemer|aanwezige-deelnemer]])
 
 ### Basisregistraties — BAG (GGM taakveld 99 Kern, beleidsdomein BAG)
 - [[Wiki/Bedrijfsobjecten/99-kern/bag/pand|pand]] — Bouwkundig-constructief zelfstandige eenheid, geregistreerd in de BAG (GGM Pand, exact)
@@ -96,6 +99,8 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|debiteur]] — Persoon die een bedrag verschuldigd is aan de gemeente
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa|activa]] — Bezittingen op de boekhoudkundige balans
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] — Opdracht voor uitvoering van een activiteit
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtgever|opdrachtgever]] — Gegevens over een opdrachtgever: naam, nummer, clustercode (GGM exact, rol-tegenhanger: [[Wiki/Rollen/opdrachtgever|opdrachtgever]])
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtnemer|opdrachtnemer]] — Gegevens over een opdrachtnemer: naam, nummer, clustercode (GGM exact, rol-tegenhanger: [[Wiki/Rollen/opdrachtnemer|opdrachtnemer]])
 
 ### Vastgoed (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject|vastgoedobject]] — Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft
@@ -365,13 +370,14 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject|schuldhulptraject]] — Volledig begeleidingstraject van aanmelding tot uitstroom en nazorg (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuld|schuld]] — Financiële verplichting van een inwoner aan een schuldeiser (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldregeling|schuldregeling]] — Overeenkomst schuldenaar-schuldeisers voor aflossing/kwijtschelding (GGM exact)
-- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldeiser|schuldeiser]] — Bedrijf of persoon met recht op betaling (GGM exact, actor)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldeiser|schuldeiser]] — Bedrijf of persoon met recht op betaling (GGM exact, actor-tegenhanger: [[Wiki/Actoren/schuldeiser|schuldeiser]])
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/moratorium|moratorium]] — Tijdelijke blokkering inningsmogelijkheden via rechter (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject|wsnp-traject]] — Wettelijk schuldsaneringstraject onder bewindvoerder (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaal|vroegsignaal]] — Wettelijk verplichte melding betalingsachterstand door signaalpartner (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaalzaak|vroegsignaalzaak]] — Zaak voor behandeling van vroegsignalen (GGM exact)
-- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner|signaalpartner]] — Organisatie bevoegd tot melden betalingsachterstanden (GGM exact, actor)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner|signaalpartner]] — Organisatie bevoegd tot melden betalingsachterstanden (GGM exact, actor-tegenhanger: [[Wiki/Actoren/signaalpartner|signaalpartner]])
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpoging|contactpoging]] — Actie om inwoner te bereiken naar aanleiding van vroegsignaal (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpersoon|contactpersoon]] — Gegevens over een contactpersoon: naam, telefoon, e-mail, functietitel (GGM exact, rol-tegenhanger: [[Wiki/Rollen/contactpersoon|contactpersoon]])
 
 ### Openbare Gezondheid — Gemeentebegrafenissen (GGM taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis|gemeentebegrafenis]] — Uitvaart die de gemeente verzorgt als niemand anders in lijkbezorging voorziet (GGM exact)
@@ -411,8 +417,8 @@
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact|klantcontact]] — Contactmoment dat werkelijk heeft plaatsgevonden tussen burger/bedrijf en gemeente
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling|betaling]] — Overboeken of ontvangen van geld in het kader van een zaak
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces|bedrijfsproces]] — Reeks activiteiten die bijdraagt aan levering van een product of dienst
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|medewerker]] — Medewerker van de organisatie die zaken behandelt (actor)
-- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|organisatorische-eenheid]] — Functioneel afgebakend onderdeel verantwoordelijk voor zaakbehandeling (actor)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker|medewerker]] — Medewerker van de organisatie die zaken behandelt (actor-tegenhanger: [[Wiki/Actoren/medewerker|medewerker]])
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|organisatorische-eenheid]] — Functioneel afgebakend onderdeel verantwoordelijk voor zaakbehandeling (actor-tegenhanger: [[Wiki/Actoren/organisatorische-eenheid|organisatorische-eenheid]])
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|zaaktype]] — Definitie van een soort zaak met doorlooptijd, servicenorm en archiefcode
 
 ### Dienstverlening — Informatiesamenleving (procesobjecten, taakveld 10 — GGM-hiaten)
@@ -438,6 +444,117 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict|storing (ICT)]] — Verlies van mogelijkheid om volgens specificatie te werken (GGM exact, homoniem BOR)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek|wijzigingsverzoek]] — Aanvraag voor wijziging aan het applicatielandschap (GGM exact)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla|service level agreement]] — Onderhoudsnormen voor ICT-prestatie (governance-object, GGM-hiaat)
+
+## Actoren
+
+Business Actors (ArchiMate) — handelende personen, organisaties en organisatorische eenheden. Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor definities en criteria. Actoren met een gegevens-tegenhanger linken naar hun bedrijfsobject via `element_tegenhangers`.
+
+- [[Wiki/Actoren/bevoegd-gezag|bevoegd-gezag]] — Bestuursorgaan bevoegd tot beschikkingen en besluiten, in gemeentecontext B&W (GGM exact)
+- [[Wiki/Actoren/medewerker|medewerker]] — Persoon die zaken behandelt en klantcontacten voert (tegenhanger: BO medewerker)
+- [[Wiki/Actoren/ondernemer|ondernemer]] — Zelfstandig handelende partij die goederen of diensten levert (GGM exact)
+- [[Wiki/Actoren/organisatorische-eenheid|organisatorische-eenheid]] — Organisatieonderdeel verantwoordelijk voor zaakbehandeling (tegenhanger: BO organisatorische-eenheid)
+- [[Wiki/Actoren/schuldeiser|schuldeiser]] — Partij met recht op betaling, onderhandelingspartner bij schuldregelingen (tegenhanger: BO schuldeiser)
+- [[Wiki/Actoren/signaalpartner|signaalpartner]] — Organisatie die betalingsachterstanden meldt (Wgs art. 2.2.1) (tegenhanger: BO signaalpartner)
+- [[Wiki/Actoren/burgemeester|burgemeester]] — De burgemeester is naast de raad en het college een zelfstandig orgaan van het gemeentebestuur, met eigen w...
+- [[Wiki/Actoren/rekenkamer|rekenkamer]] — De rekenkamer onderzoekt zelfstandig het gemeentelijk bestuur en rapporteert rechtstreeks aan de raad, los ...
+- [[Wiki/Actoren/decentrale-politieke-partij|decentrale-politieke-partij]] — De bron noemt dit begrip zelf expliciet als actor die niet in het GGM voorkomt: de subsidieontvangende loka...
+- [[Wiki/Actoren/werkgeverscommissie|werkgeverscommissie]] — Waar de generieke raadscommissie al een GGM-entiteit is, is de werkgeverscommissie een specifiek, wettelijk...
+- [[Wiki/Actoren/commissie-welstand-en-monumenten|commissie-welstand-en-monumenten]] — Vaste, in de welstandsnota expliciet genoemde adviescommissie die centraal staat in het welstands- en VTH-p...
+- [[Wiki/Actoren/commissie-bing|commissie-bing]] — De bron noemt dit zelf een governance-mechanisme (geen BO), maar de commissie is wel een concrete, samenges...
+- [[Wiki/Actoren/sport-en-beweeguitvoeringsorganisatie|sport-en-beweeguitvoeringsorganisatie]] — Generiek patroon van een gemeentelijke sport-uitvoeringsorganisatie; in de bron concreet benoemd als SportU...
+- [[Wiki/Actoren/inwoner|inwoner]] — Basisactor die parallel aan de reeds gedekte actor Ondernemer in vrijwel elk beleidsdocument terugkeert, me...
+- [[Wiki/Actoren/gecertificeerde-instelling|gecertificeerde-instelling]] — Wettelijk verankerde uitvoeringsorganisatie waarvoor de gemeente opdrachtgever en toezichthouder is, maar d...
+- [[Wiki/Actoren/veilig-thuis|veilig-thuis]] — Vaste, wettelijk voorgeschreven organisatie waarmee de gemeente rechtstreeks samenwerkt en die zij (mede) f...
+- [[Wiki/Actoren/kwaliteitsborger|kwaliteitsborger]] — Bronnen noemen dit expliciet als externe actor; de gemeente ontvangt en verwerkt de start- en gereedmelding...
+- [[Wiki/Actoren/schoolbestuur|schoolbestuur]] — Organisatie met eigen identiteit waarmee de gemeente rechtstreeks herschikkingsgesprekken voert en bekostig...
+- [[Wiki/Actoren/samenwerkingsverband-onderwijs|samenwerkingsverband-onderwijs]] — Organisatorische entiteit waarmee de gemeente rechtstreeks overlegt over passend onderwijs en onderwijshuis...
+- [[Wiki/Actoren/huurdersorganisatie|huurdersorganisatie]] — Derde formele partij naast gemeente en woningcorporatie(s) bij de jaarlijkse prestatieafspraken over social...
+- [[Wiki/Actoren/woongroep|woongroep]] — Herkenbare aanvragende partij in het woonruimteverdelingsproces, los van de individuele bewoners
+- [[Wiki/Actoren/sociaal-ontwikkelbedrijf|sociaal-ontwikkelbedrijf]] — Uitvoeringsorganisatie waarmee de gemeente een structurele opdrachtrelatie heeft voor re-integratie en besc...
+- [[Wiki/Actoren/leverancier|leverancier]] — Extern, maar met een directe, contractueel vastgelegde relatie met de gemeente (GIBIT, VWO), vergelijkbaar ...
+- [[Wiki/Actoren/winkeliersvereniging|winkeliersvereniging]] — Externe brancheorganisatie, maar met een structurele samenwerkingsrelatie met de gemeente in tientallen win...
+- [[Wiki/Actoren/woningcorporatie|woningcorporatie]] — Belangrijkste partij voor sociale huur in de gemeente, met wettelijk verankerde prestatieafspraken en direc...
+- [[Wiki/Actoren/stadsbedrijven|stadsbedrijven]] — Generiek patroon van een gemeentelijke uitvoeringsorganisatie met een eigen, bedrijfsmatige taak — in de br...
+- [[Wiki/Actoren/ggd|ggd]] — De bron noemt de GGD zelf een ketenpartner, maar de gemeente is mede-eigenaar en opdrachtgever via de gemee...
+- [[Wiki/Actoren/ombudsman|ombudsman]] — Zelfstandig orgaan met een eigen wettelijke klachtbehandelingstaak, los van de ambtelijke organisatie waaro...
+- [[Wiki/Actoren/biz-organisatie|biz-organisatie]] — Extern opgericht, maar de gemeente heeft een directe subsidie- en uitvoeringsovereenkomst met deze organisatie
+
+## Rollen
+
+Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden vervuld. Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
+
+- [[Wiki/Rollen/aanwezige-deelnemer|aanwezige-deelnemer]] — Deelname aan college- of raadsvergadering (tegenhanger: BO aanwezige-deelnemer)
+- [[Wiki/Rollen/belanghebbende|belanghebbende]] — Awb-hoedanigheid: rechtstreeks belang bij een besluit (GGM exact)
+- [[Wiki/Rollen/clientbegeleider|clientbegeleider]] — Verantwoordelijk voor het ondersteuningsplan van een cliënt (GGM exact)
+- [[Wiki/Rollen/collegelid|collegelid]] — Lidmaatschap van het college van B&W (tegenhanger: BO collegelid)
+- [[Wiki/Rollen/contactpersoon|contactpersoon]] — Aanspreekpunt namens een organisatie (tegenhanger: BO contactpersoon)
+- [[Wiki/Rollen/eigenaar|eigenaar]] — Rechthebbende op een gebouw of stuk grond (GGM exact)
+- [[Wiki/Rollen/grondbeheerder|grondbeheerder]] — Verantwoordelijk voor het beheer van gronden (GGM-definitie gebrekkig)
+- [[Wiki/Rollen/huurder|huurder]] — Partij die een zaak in gebruik heeft tegen tegenprestatie (GGM exact)
+- [[Wiki/Rollen/indiener|indiener]] — Doet een melding of aanvraag bij de gemeente (GGM duplicaat griffie/VTH)
+- [[Wiki/Rollen/initiatiefnemer|initiatiefnemer]] — Neemt initiatief tot ingrepen in de leefomgeving (Omgevingswet, GGM exact)
+- [[Wiki/Rollen/leerplichtambtenaar|leerplichtambtenaar]] — Toezicht op de uitvoering van de Leerplichtwet (GGM exact)
+- [[Wiki/Rollen/opdrachtgever|opdrachtgever]] — Verstrekt een opdracht (tegenhanger: BO opdrachtgever)
+- [[Wiki/Rollen/opdrachtnemer|opdrachtnemer]] — Aanvaardt een opdracht (tegenhanger: BO opdrachtnemer)
+- [[Wiki/Rollen/raadslid|raadslid]] — Lidmaatschap van de gemeenteraad (tegenhanger: BO raadslid)
+- [[Wiki/Rollen/uitgever|uitgever]] — Brengt een werk op de markt of geeft het uit (GGM exact)
+- [[Wiki/Rollen/vervoerder|vervoerder]] — Verricht openbaar of besloten busvervoer, o.a. leerlingenvervoer (GGM exact)
+- [[Wiki/Rollen/griffier|griffier]] — Wettelijk verankerde ondersteuningsrol voor de raad, functioneel los van het college (dat door de secretari...
+- [[Wiki/Rollen/secretaris|secretaris]] — Spiegelrol van de griffier, maar dan voor het college; wettelijk vastgelegde ondersteuningsverantwoordelijk...
+- [[Wiki/Rollen/heffingsambtenaar|heffingsambtenaar]] — Kernrol in het belastingproces naast de invorderingsambtenaar; een wettelijk gemandateerde bevoegdheid, gee...
+- [[Wiki/Rollen/invorderingsambtenaar|invorderingsambtenaar]] — Tweede kernrol naast de heffingsambtenaar, met eigen wettelijke bevoegdheden in het invorderingsproces
+- [[Wiki/Rollen/belastingplichtige|belastingplichtige]] — Kernrol in vrijwel elke gemeentelijke belastingheffing; kan door een natuurlijk persoon of een organisatie ...
+- [[Wiki/Rollen/houder|houder]] — Zelfstandig juridisch begrip los van de reeds gedekte rol Eigenaar; relevant voor hondenbelasting en parkee...
+- [[Wiki/Rollen/vergunninghouder-parkeren|vergunninghouder-parkeren]] — Specifieke toepassing van belastingplicht binnen het parkeerbelastingenproces
+- [[Wiki/Rollen/parkeercontroleur|parkeercontroleur]] — Bron noemt dit zelf expliciet als handhavende rol binnen het parkeerbelastingenproces
+- [[Wiki/Rollen/archivaris|archivaris]] — Wettelijke rol met twee aanstellingscontexten in de bronnen — de eigen gemeentelijke dienst en de gemeensch...
+- [[Wiki/Rollen/zorgdrager-archief|zorgdrager-archief]] — Specifieke Archiefwet-rol die de bestuurlijke verantwoordelijkheid draagt, los van wie het archief feitelij...
+- [[Wiki/Rollen/archiefinspecteur|archiefinspecteur]] — Bron noemt dit expliciet een actor met een toezichthoudende rol, los van de archivaris die zelf beheert
+- [[Wiki/Rollen/archiefvormer|archiefvormer]] — Rol die de blijvende verantwoordelijkheid uitdrukt, los van waar de stukken fysiek berusten
+- [[Wiki/Rollen/functionaris-gegevensbescherming|functionaris-gegevensbescherming]] — Wettelijk verplichte rol (AVG) binnen elke gemeente, onafhankelijk van de organisatiestructuur
+- [[Wiki/Rollen/ciso|ciso]] — Coördinerende beveiligingsrol binnen het BIO2-normenkader, vergelijkbaar qua positie met de FG maar gericht...
+- [[Wiki/Rollen/ai-compliance-officer|ai-compliance-officer]] — Bron noemt dit zelf expliciet als actor/rol, geen bedrijfsobject; een nieuwe compliance-rol naast FG en CISO
+- [[Wiki/Rollen/gebruiksverantwoordelijke-ai|gebruiksverantwoordelijke-ai]] — De gemeente vervult deze rol zelf bij inzet van AI-systemen in haar processen
+- [[Wiki/Rollen/verwerker-avg|verwerker-avg]] — Vaak een externe partij, maar de gemeente sluit zelf de verwerkersovereenkomst en blijft verantwoordelijk
+- [[Wiki/Rollen/verwerkingsverantwoordelijke-avg|verwerkingsverantwoordelijke-avg]] — Kernrol van de AVG die bij de gemeente zelf ligt, tegenover de externe rol Verwerker
+- [[Wiki/Rollen/functioneel-beheerder|functioneel-beheerder]] — Herkenbare interne coördinatierol in het ICT-beheerproces
+- [[Wiki/Rollen/woo-contactpersoon|woo-contactpersoon]] — Specifieke, wettelijk verankerde rol binnen de Woo-uitvoering
+- [[Wiki/Rollen/bronhouder|bronhouder]] — Cross-cutting rol binnen het rollenmodel van de basisregistraties; de gemeente is zelf bronhouder voor meer...
+- [[Wiki/Rollen/afnemer-basisregistraties|afnemer-basisregistraties]] — Tegenhanger van de rol Bronhouder; de gemeente is zelf afnemer van bijvoorbeeld de BRK en het NHR
+- [[Wiki/Rollen/terugmelder|terugmelder]] — Wettelijke terugmeldplicht binnen het basisregistratiestelsel
+- [[Wiki/Rollen/rechthebbende|rechthebbende]] — Expliciet onderscheiden van Eigenaar in de BRK-catalogus; relevant voor onder meer OZB/WOZ
+- [[Wiki/Rollen/wettelijk-vertegenwoordiger|wettelijk-vertegenwoordiger]] — Specifieke juridische vertegenwoordigingsrol, te onderscheiden van de generieke rol Indiener; omvat ook de ...
+- [[Wiki/Rollen/behandelaar|behandelaar]] — Kernrol in het zaakgericht werken van de gemeente, expliciet als roltype benoemd in het RGBZ/ZTC2-informati...
+- [[Wiki/Rollen/erfpachter|erfpachter]] — Juridische rol binnen gemeentelijke grondovereenkomsten, gerelateerd aan maar te onderscheiden van Eigenaar...
+- [[Wiki/Rollen/verhuurder|verhuurder]] — Tegenhanger van de reeds gedekte rol Huurder, met eigen wettelijke vergunningplicht
+- [[Wiki/Rollen/woonbootbewoner|woonbootbewoner]] — Domeinspecifieke bewonersrol met een eigen vergunning- en handhavingskader
+- [[Wiki/Rollen/werkgever|werkgever]] — Onafhankelijk gevonden in zowel het arbeidszakendomein (rechtspositie, arbeidsvoorwaarden) als werk-en-inko...
+- [[Wiki/Rollen/schuldenaar|schuldenaar]] — Rol van de inwoner in het schuldhulpverleningsproces; te onderscheiden van de generieke actor Inwoner door ...
+- [[Wiki/Rollen/organisator|organisator]] — Domeinspecifieke rol, te onderscheiden van de generieke rollen Indiener en Initiatiefnemer doordat de bron ...
+- [[Wiki/Rollen/aanbieder|aanbieder]] — Generiek roltype dat in drie domeinen apart naar boven kwam: zorg-/jeugdhulpaanbieder (gecontracteerde zorg...
+- [[Wiki/Rollen/mantelzorger|mantelzorger]] — Bron noemt dit zelf expliciet als rol, geen zelfstandig data-object
+- [[Wiki/Rollen/pleegouder|pleegouder]] — Specifieke verzorgingsrol binnen de jeugdbescherming, contractueel afgebakend
+- [[Wiki/Rollen/verwijzer|verwijzer]] — Startpunt van de toegang tot jeugdhulp; rol die door verschillende partijen vervuld kan worden
+- [[Wiki/Rollen/exploitant|exploitant]] — Domeinspecifieke rol die in meerdere vergunningkaders terugkeert (terrassen, short stay, horeca)
+- [[Wiki/Rollen/beheerder|beheerder]] — Generieke beheerrol, te onderscheiden van de al gedekte, domeinspecifieke rol Grondbeheerder
+- [[Wiki/Rollen/gpk-houder|gpk-houder]] — Vergelijkbaar patroon als de al gedekte rollen Huurder/Eigenaar: een gemeentelijk toegekende status met eig...
+- [[Wiki/Rollen/overtreder|overtreder]] — Kernrol in het handhavingsproces, los van de identiteit van de betrokken persoon of organisatie
+- [[Wiki/Rollen/contracteigenaar|contracteigenaar]] — Bron noemt dit letterlijk als afzonderlijke rol naast contractmanager, -gebruiker en -beheerder in het inko...
+- [[Wiki/Rollen/contractmanager|contractmanager]] — Zie Contracteigenaar; vier samenhangende, apart benoemde contractbeheerrollen
+- [[Wiki/Rollen/contractgebruiker|contractgebruiker]] — Zie Contracteigenaar; vier samenhangende, apart benoemde contractbeheerrollen
+- [[Wiki/Rollen/contractbeheerder-inkoop|contractbeheerder-inkoop]] — Zie Contracteigenaar; vier samenhangende, apart benoemde contractbeheerrollen
+- [[Wiki/Rollen/referent|referent]] — Specifieke rol binnen het asiel-nareisproces, los van generieke referentie-/referentienummervelden elders i...
+- [[Wiki/Rollen/regisseur|regisseur]] — Bron noemt letterlijk 'partner, regisseur, facilitator, eigenaar/beheerder' als de vier rollen van de gemee...
+- [[Wiki/Rollen/facilitator|facilitator]] — Zie Regisseur; vier samenhangende gemeentelijke rollen in het voorzieningenbeleid
+- [[Wiki/Rollen/vaarwegbeheerder|vaarwegbeheerder]] — De gemeente is zelf vaarwegbeheerder van de meeste Utrechtse stadswateren
+- [[Wiki/Rollen/schuldhulpverlener|schuldhulpverlener]] — Herkenbare functionaris binnen de bredere dienstverlening rond werk en inkomen
+- [[Wiki/Rollen/casemanager|casemanager]] — Coördinerende rol naast de meer specialistische Schuldhulpverlener en Doorbraakfunctionaris
+- [[Wiki/Rollen/doorbraakfunctionaris|doorbraakfunctionaris]] — Specifieke, herkenbare gemeentelijke functie binnen de overheidsbrede dienstverlening
+- [[Wiki/Rollen/sociaal-raadslid|sociaal-raadslid]] — Geheel andere betekenis dan de al gedekte rol Raadslid — een laagdrempelige juridische adviesfunctie
+- [[Wiki/Rollen/gebruiker-vastgoed|gebruiker-vastgoed]] — Bredere rol dan de al gedekte Huurder: omvat ook interne gemeentelijke afdelingen als gebruiker van eigen v...
+- [[Wiki/Rollen/boswachter|boswachter]] — Specifieke, wettelijk gekaderde toezichtsrol binnen het dierenwelzijnsdomein
+- [[Wiki/Rollen/dataleverancier|dataleverancier]] — Uitvoerende rol binnen het bronhouderschap: vaak een extern bureau, maar aangestuurd door en namens de geme...
+- [[Wiki/Rollen/loonwaardedeskundige|loonwaardedeskundige]] — Specifieke, gecertificeerde beoordelingsrol binnen het proces van loonkostensubsidie
 
 ## GGM (referentie — zie Sources/GGM/)
 

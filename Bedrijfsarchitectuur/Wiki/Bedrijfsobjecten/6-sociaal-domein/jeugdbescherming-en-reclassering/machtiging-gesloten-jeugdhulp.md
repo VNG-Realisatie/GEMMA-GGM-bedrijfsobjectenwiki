@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Machtiging Gesloten Jeugdhulp
 onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

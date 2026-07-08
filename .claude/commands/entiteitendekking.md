@@ -27,7 +27,7 @@ Lees `review.md`. Dit bevat twee soorten items, niet met elkaar te verwarren:
 **Workflow voor `ter discussie`-items:**
 1. Lees de GGM-definitie van de entiteit (`Wiki/GGM/{taakveld}/...`) en vergelijk met de definitie van elke kandidaat-BO.
 2. Kies de BO waar de entiteit inhoudelijk het beste bij past — of concludeer dat geen van de kandidaten past (dan blijft het `ter discussie` staan, of de entiteit krijgt een eigen beoordeling in de Beoordeling-sectie).
-3. Registreer de keuze op de frontmatter van de **gekozen** BO-pagina onder `bo_via_kandidaten` (zie `templates/bedrijfsobject.md`) — dezelfde curatie-aanpak als `bo_subtypes`.
+3. Registreer de keuze op de frontmatter van de **gekozen** BO-pagina onder `bo_via_kandidaten` (zie `templates/element.md`) — dezelfde curatie-aanpak als `bo_subtypes`.
 4. Draai Stap 1 opnieuw: de entiteit wordt dan direct herkend (stap 0 in `compute_dekking`, vóór alle heuristiek) en verdwijnt uit de ambigue lijst, permanent (niet opnieuw berekend bij een volgende run).
 
 Behandel niet alle `ter discussie`-items in één keer als het er veel zijn — triage eerst (duidelijke gevallen apart van genuine twijfelgevallen), en forceer geen keuze als geen enkele kandidaat goed past.
@@ -68,7 +68,7 @@ Herberekent dezelfde analyse (los van wat er in de per-taakveld rapporten staat)
 | Maat | Berekening |
 |---|---|
 | GGM-entiteiten | som kolom GGM-entiteiten |
-| n.v.t. | som kolom n.v.t. (abstract/proces/actor/rol — buiten scope van BO-dekking) |
+| n.v.t. | som kolom n.v.t. (abstract/proces/meetinstrument/cross-cutting, plus gecureerde buiten-scope actoren/rollen — buiten scope van dekking) |
 | Entiteiten met BO | som kolom Entiteiten met BO |
 | Entiteiten ondersteunend aan BO | som kolom Entiteiten ondersteunend aan BO |
 | Niet gedekt | som kolom Niet gedekt |
@@ -76,7 +76,9 @@ Herberekent dezelfde analyse (los van wat er in de per-taakveld rapporten staat)
 | BO's zonder GGM-entiteit | som kolom BO zonder GGM-entiteit |
 | **BO's totaal** | Entiteiten met BO + BO's zonder GGM-entiteit |
 
-**n.v.t. telt niet mee in het dekkingspercentage.** Deze entiteiten (abstract/proces/actor/rol) zijn bewust nooit kandidaat voor een BO-match — ze meetellen als "gedekt" zou het percentage kunstmatig ophogen. De noemer is daarom overal `GGM-entiteiten − n.v.t.`, niet het ruwe totaal.
+**n.v.t. telt niet mee in het dekkingspercentage.** Abstract/proces/meetinstrument/cross-cutting-entiteiten zijn bewust nooit kandidaat voor een match — ze meetellen als "gedekt" zou het percentage kunstmatig ophogen. De noemer is daarom overal `GGM-entiteiten − n.v.t.`, niet het ruwe totaal.
+
+**Actoren en rollen zijn géén n.v.t. meer.** Sinds de invoering van element-pagina's (zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]) matchen actor/rol-entiteiten op pagina's in `Wiki/Actoren/` en `Wiki/Rollen/` via `ggm_guid`, net als BO's. Meerdere pagina's mogen dezelfde GUID dragen (twee-pagina-patroon BO + actor/rol); de business-object-pagina is dan primair in het rapport. Ongematchte actor/rol-entiteiten tonen `⚠️ geen actor-pagina`/`⚠️ geen rol-pagina`, tellen mee in de noemer (niet gedekt) en verschijnen in review.md. Alleen entiteiten die na menselijke beoordeling buiten scope vallen (extern, gemeentelijk perspectief) krijgen nog n.v.t. — registreer die in de `NVT_ACTOR_ROL`-set in `tools/entiteitendekking.py`, zodat de curatie her-runs overleeft. **Let op het noemer-effect:** doordat actor/rol niet langer automatisch n.v.t. is, groeit de noemer en kan het percentage dalen zonder inhoudelijke achteruitgang — vergelijk bij vóór/na-analyses absolute aantallen gedekte entiteiten.
 
 Na het draaien van het script: **verifieer** dat de totaalrij overeenkomt met de kolomsommen. Het script overschrijft `totaaloverzicht.md` bij elke run — handmatige aanpassingen aan de totaalrij moeten na het script worden aangebracht als het script dit nog niet automatisch doet.
 
@@ -96,7 +98,7 @@ RSGBPlus krijgt subsecties per registratie (BRP, BRK, NHR, WOZ, Overig), elk met
 
 | Skill | Relatie |
 |---|---|
-| `/assess-bo` | Levert BO-beoordelingen; entiteitendekking visualiseert het resultaat |
+| `/assess-element` | Levert BO-beoordelingen; entiteitendekking visualiseert het resultaat |
 | `/ingest` | Genereert de input (BO's, begrippen); entiteitendekking maakt de analyse achteraf |
 | `/domain-status` | Rapporteert voortgang per onderwerp; entiteitendekking rapporteert per beleidsdomein |
 | `/generate-ggm` | Ververst BO-frontmatter (`ggm_*`) na een nieuwe GGM-release; entiteitendekking berekent daarna de dekking op basis daarvan |

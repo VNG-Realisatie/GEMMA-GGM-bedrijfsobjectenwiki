@@ -17,20 +17,30 @@ Welk gemeentelijk onderwerp hoort dit begrip bij?
 
 Classificeer het begrip als een van deze begripstypen:
 
-| Begripstype | Omschrijving | ArchiMate-elementtype | BO-kandidaat? | GGM-match verwacht? |
+| Begripstype | Omschrijving | ArchiMate-elementtype | Element-kandidaat? | GGM-match verwacht? |
 |---|---|---|---|---|
-| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja | Ja |
-| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja | Nee (governance-hiaat GGM) |
-| **actor** | Organisatie, afdeling, samenwerkingsverband | Business Actor | Ja | Deels (RSGB) |
-| **rol** | Functie of verantwoordelijkheid die een actor vervult | Business Role | Ja | Deels (RSGB) |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) | Ja | Deels (RSGB) |
+| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja (BO) | Ja |
+| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja (BO) | Nee (governance-hiaat GGM) |
+| **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor | Ja (actor-pagina) | Deels (RSGB) |
+| **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role | Ja (rol-pagina) | Deels (RSGB) |
+| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) | Ja (BO) | Deels (RSGB) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
 
 **Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/entiteitendekking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
 
-**Stop-regel:** thema / doel / waarde = geen BO-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
+**Actor/rol-onderscheid:** volg de definities en diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]. Beslisvraag: gaat het begrip over *wie* iets doet (actor) of *in welke verantwoordelijkheid* iets wordt gedaan (rol)? Een doelgroep is géén actor of rol maar een classificatie waarmee actoren worden ingedeeld — behandel als gewoon BO.
+
+**Stop-regel:** thema / doel / waarde = geen element-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
+
+### Stap 2b: Actor/rol-toets (alleen bij begripstype actor of rol)
+
+Toets tegen de diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] (6 vragen per type). Meeste vragen (4+) met ja beantwoord = het begrip kwalificeert als actor resp. rol en krijgt een eigen pagina in `Wiki/Actoren/` of `Wiki/Rollen/` — **ongeacht of er gegevens over worden vastgelegd**.
+
+Toets daarnaast **onafhankelijk** de 6 BO-criteria (Stap 7): worden er ook gegevens over dit begrip vastgelegd en haalt het de criteria, dan komt er **óók** een aparte bedrijfsobject-pagina in `Wiki/Bedrijfsobjecten/` — twee pagina's dus, elk met eigen definitie vanuit het eigen perspectief, gekoppeld via `element_tegenhangers` in de frontmatter en een cross-link in de tekst (zie `templates/element.md`). Beide pagina's mogen dezelfde `ggm_guid` dragen.
+
+Het [[gemeentelijk perspectief]] blijft gelden: alleen actoren/rollen die de gemeente zelf ziet, inzet of waarmee zij direct handelt; louter externe context krijgt geen pagina.
 
 ### Stap 3: Abstractieniveau bepalen
 
@@ -46,20 +56,21 @@ Combinatieregels:
 | object + operationeel | Sterke BO-kandidaat, GGM-match verwacht |
 | object + beleidsmatig | Ongewone combinatie, nader bekijken |
 | governance-instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
-| actor/rol/doelgroep + operationeel | BO-kandidaat (actor-object), in GEMMA als Business Actor/Role |
+| actor/rol + operationeel | Actor-/rol-pagina (Stap 2b); daarnaast BO-pagina als de 6 BO-criteria ook slagen |
+| doelgroep + operationeel | BO-kandidaat (classificatie), geen actor/rol-pagina |
 
 ### Stap 3b: Duplicaat/homoniem-detectie (signaal)
 
-Voordat de structuuranalyse begint: check of het begrip een naam deelt met een bestaand BO of GGM-entiteit in een ander domein.
+Voordat de structuuranalyse begint: check of het begrip een naam deelt met een bestaand element of GGM-entiteit in een ander domein.
 
-1. **Check bestaande BO's** — zoek in `Wiki/Bedrijfsobjecten/` of er al een BO met dezelfde naam (of een synoniem) bestaat in een ander domein.
+1. **Check bestaande elementen** — zoek in `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/` en `Wiki/Rollen/` of er al een element met dezelfde naam (of een synoniem) bestaat in een ander domein. Let op: een actor/rol-pagina en een BO-pagina met dezelfde naam zijn géén duplicaat of homoniem — dat is het reguliere twee-pagina-patroon (Stap 2b).
 2. **Check GGM** — zoek in `Sources/GGM/` of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
 3. **Classificeer** het signaal:
    - **Duplicaat** (zelfde concept, ander domein) — dit begrip is al afgedekt door een bestaand BO. Verwijs ernaar in het onderwerpoverzicht, maak geen nieuw BO aan.
-   - **Homoniem** (andere naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-bo` een disambiguerende naam kiezen.
+   - **Homoniem** (andere naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-element` een disambiguerende naam kiezen.
    - **Geen conflict** — ga door met de normale flow.
 
-**Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-bo` stap 4b-4c.
+**Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-element` stap 4b-4c.
 
 ## FASE B — STRUCTUURANALYSE (vóór BO-criteria)
 
@@ -208,4 +219,4 @@ Update de begrippentabel in het onderwerpoverzicht:
 - **Data-object** kolom: ja of nee
 - **Reden** kolom: korte samenvatting
 
-Bij BO → trigger `/write-bo` voor GGM-matching en pagina-aanmaak.
+Bij BO → trigger `/write-element` voor GGM-matching en pagina-aanmaak.

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Dakloosheid
 domein: [maatschappelijke ondersteuning]
 archimate_type: "business-object"

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Algemeenbelangbesluit
 onderwerp: [Vastgoed]
 archimate_type: contract

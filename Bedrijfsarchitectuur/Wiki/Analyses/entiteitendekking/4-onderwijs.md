@@ -1,14 +1,14 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 4 Onderwijs"
-datum: 2026-07-08
+datum: 2026-07-09
 taakveld: "4 Onderwijs"
 beleidsdomeinen:
   - Leerplicht en Leerlingenvervoer
   - Onderwijs
 totaal_entiteiten: 27
-totaal_bo: 12
-totaal_matches: 11
+totaal_bo: 14
+totaal_matches: 13
 totaal_hiaten: 1
 ---
 
@@ -18,13 +18,13 @@ totaal_hiaten: 1
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-2 beleidsdomeinen, 27 GGM-entiteiten (2 n.v.t.). Dekking: 21 van 25 (84%) — 11 met BO, 10 ondersteunend, 4 niet gedekt. 1 BO's zonder GGM-entiteit.
+2 beleidsdomeinen, 27 GGM-entiteiten (0 n.v.t.). Dekking: 23 van 27 (85%) — 13 met BO, 10 ondersteunend, 4 niet gedekt. 1 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 14× detail.
+Niet-BO entiteiten: 14× detail.
 
 ## Leerplicht en Leerlingenvervoer
 
-15 GGM-entiteiten (2 n.v.t.): 6 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 11 van 13 (85%).
+15 GGM-entiteiten (0 n.v.t.): 8 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 13 van 15 (87%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -35,11 +35,11 @@ Niet-BO entiteiten: 2× actor, 14× detail.
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Beslissing]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/beschikking-leerlingenvervoer\|Beschikking Leerlingenvervoer]] / [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs\|Procesverbaal Onderwijs]] / [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling\|Leerplichtvrijstelling]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Doorgeleiding OM]] | beschrijft [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/ouder-of-verzorger\|Ouder Of Verzorger]] | detail |  | Te specifiek; justitie-subtype |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|HALT-verwijzing]] | ⚠️ geen BO bereikbaar | detail |  | Te specifiek; justitie-subtype |
-| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Klacht Leerlingenvervoer]] | beschrijft [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling\|Leerling]] | detail |  | Te granulair; subtype klacht |
-| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Leerplichtambtenaar]] | n.v.t. | actor |  | Medewerkerrol, geen zelfstandig BO |
+| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Klacht Leerlingenvervoer]] | beschrijft [[Wiki/Rollen/vervoerder\|Vervoerder]] | detail |  | Te granulair; subtype klacht |
+| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Leerplichtambtenaar]] | [[Wiki/Rollen/leerplichtambtenaar\|Leerplichtambtenaar]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Procesverbaal Onderwijs]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs\|Procesverbaal Onderwijs]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Verlofaanvraag]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Subtype AanvraagOfMelding; te granulair |
-| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vervoerder]] | n.v.t. | actor |  | Leveranciersrol; subtype Leverancier |
+| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vervoerder]] | [[Wiki/Rollen/vervoerder\|Vervoerder]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Verzuimmelding]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding\|Verzuimmelding]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vrijstelling]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling\|Leerplichtvrijstelling]] ✅ | hernoemd |  | Hernoemd naar Leerplichtvrijstelling |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Ziekmelding Leerlingenvervoer]] | beschrijft [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling\|Leerling]] | detail |  | Te granulair; operationeel detail |

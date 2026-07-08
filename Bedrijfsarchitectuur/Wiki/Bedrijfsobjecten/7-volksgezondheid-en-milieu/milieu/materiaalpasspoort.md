@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Materiaalpasspoort
 domein: [Milieu]
 archimate_type: "business-object"

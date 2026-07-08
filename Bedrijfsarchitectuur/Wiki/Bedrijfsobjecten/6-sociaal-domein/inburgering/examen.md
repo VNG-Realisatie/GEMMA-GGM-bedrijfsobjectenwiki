@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Examen
 domein:
 - Asiel en Integratie

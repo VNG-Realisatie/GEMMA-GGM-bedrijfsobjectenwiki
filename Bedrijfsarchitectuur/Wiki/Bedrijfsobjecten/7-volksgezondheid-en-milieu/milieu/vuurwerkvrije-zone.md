@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vuurwerkvrije zone
 domein: [milieu]
 archimate_type: business-object

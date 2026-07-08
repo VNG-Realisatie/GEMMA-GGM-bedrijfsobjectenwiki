@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Groenobject
 domein: [Beheer Openbare Ruimte]
 archimate_type: "business-object"

@@ -42,7 +42,7 @@ De kolom "Begripstype" in de begrippentabel heeft een van deze waarden:
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle |
 
-De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan in `/assess-bo`.
+De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan in `/assess-element`.
 
 ### Secties
 
@@ -59,7 +59,7 @@ De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan
 ```
 
   - **Begrip**: `[[BO-naam]]` naar BO-pagina als het een BO is, anders platte tekst
-  - **Begripstype**: begripstype uit `/assess-bo` (object, governance-instrument, actor, rol, doelgroep, thema, doel, waarde)
+  - **Begripstype**: begripstype uit `/assess-element` (object, governance-instrument, actor, rol, doelgroep, thema, doel, waarde)
   - **Omschrijving**: identiek aan de BO-definitie als het een BO is
   - **BO?**: ✅ of ❌
   - **Data-object**: ja/nee — wordt dit begrip als zelfstandige entiteit vastgelegd in een informatiesysteem (eigen attributen)? Onafhankelijke classificatie naast BO?: een begrip kan BO=❌ maar Data-object=ja zijn (te granulair voor BO, wél geregistreerd), of BO=✅ maar Data-object=nee (governance-object). Data-objecten met GGM=nee zijn de sterkste kandidaten voor GGM-hiaten.

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Disciplinaire Maatregel
 domein: [Arbeidszaken]
 archimate_type: business-object

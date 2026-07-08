@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vrijstelling
 onderwerp:
 - Asiel en Integratie

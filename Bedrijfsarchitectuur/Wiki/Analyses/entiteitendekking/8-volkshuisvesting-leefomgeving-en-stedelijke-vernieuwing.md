@@ -1,15 +1,15 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-datum: 2026-07-08
+datum: 2026-07-09
 taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 beleidsdomeinen:
   - Beheer Openbare Ruimte
   - Bouwen en Wonen
   - Omgevingswet
 totaal_entiteiten: 119
-totaal_bo: 31
-totaal_matches: 28
+totaal_bo: 34
+totaal_matches: 31
 totaal_hiaten: 3
 ---
 
@@ -19,13 +19,13 @@ totaal_hiaten: 3
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 119 GGM-entiteiten (8 n.v.t.). Dekking: 83 van 111 (75%) — 28 met BO, 55 ondersteunend, 28 niet gedekt. 3 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 119 GGM-entiteiten (5 n.v.t.). Dekking: 86 van 114 (75%) — 31 met BO, 55 ondersteunend, 28 niet gedekt. 3 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1× rol, 13× specialisatie.
+Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 13× specialisatie.
 
 ## Beheer Openbare Ruimte
 
-81 GGM-entiteiten (6 n.v.t.): 19 met BO, 29 ondersteunend aan BO, 27 niet gedekt. Dekking: 48 van 75 (64%).
+81 GGM-entiteiten (5 n.v.t.): 20 met BO, 29 ondersteunend aan BO, 27 niet gedekt. Dekking: 49 van 76 (64%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5�
 | Geluidsscherm | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/geluidscherm\|Geluidscherm]] ✅ | hernoemd |  | Hernoemd naar Geluidscherm |
 | Gemaal | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] ✅ | — |  | Exacte match |
 | Groenobject | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] ✅ | — |  | Exacte match |
-| Grondbeheerder | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| Grondbeheerder | [[Wiki/Rollen/grondbeheerder\|Grondbeheerder]] ✅ | — |  | Exacte match (rol-pagina) |
 | Infiltratieput | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | specialisatie |  | Specialisatie van Put — zie bo_subtypes |
 | Inspectie | beschrijft [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | Installatie | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
@@ -127,20 +127,20 @@ Niet-BO entiteiten: 2× actor, 1× classificatie, 65× detail, 4× onderdeel, 5�
 
 ## Omgevingswet
 
-31 GGM-entiteiten (2 n.v.t.): 7 met BO, 21 ondersteunend aan BO, 1 niet gedekt. Dekking: 28 van 29 (97%).
+31 GGM-entiteiten (0 n.v.t.): 9 met BO, 21 ondersteunend aan BO, 1 niet gedekt. Dekking: 30 van 31 (97%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] ✅ | — | synoniem: Milieubelastende activiteit; synoniem: Bouwactiviteit; homoniem: Activiteit (Musea) | Exacte match |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Beperkingsgebied]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Bevoegd Gezag]] | n.v.t. | actor |  | Actor, in gemeentecontext = B&W |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] ✅ | hernoemd |  | Hernoemd naar Risicobron |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Beperkingsgebied]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Bevoegd Gezag]] | [[Wiki/Actoren/bevoegd-gezag\|Bevoegd Gezag]] ✅ | — |  | Exacte match (actor-pagina) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Conclusie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] ✅ | hernoemd |  | Hernoemd naar Aandachtsgebied |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gemachtigde]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Idealisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Indieningsvereisten]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Initiatiefnemer]] | n.v.t. | actor |  | Actor, subtype Rechtspersoon in GGM |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Initiatiefnemer]] | [[Wiki/Rollen/initiatiefnemer\|Initiatiefnemer]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Instructieregel]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Juridische Regel]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Maatregelen]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |

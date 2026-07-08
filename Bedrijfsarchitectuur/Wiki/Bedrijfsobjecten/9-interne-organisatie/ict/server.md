@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Server
 onderwerp: [Informatiesystemen]
 archimate_type: business-object

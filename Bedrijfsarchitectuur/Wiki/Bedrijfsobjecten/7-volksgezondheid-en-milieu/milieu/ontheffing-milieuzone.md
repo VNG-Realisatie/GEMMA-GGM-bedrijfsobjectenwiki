@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Ontheffing (milieuzone)
 domein: [milieu]
 archimate_type: business-object

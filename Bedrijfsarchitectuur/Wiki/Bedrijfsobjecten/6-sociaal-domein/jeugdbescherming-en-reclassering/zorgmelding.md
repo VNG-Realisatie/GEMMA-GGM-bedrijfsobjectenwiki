@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Zorgmelding
 domein:
 - maatschappelijke ondersteuning

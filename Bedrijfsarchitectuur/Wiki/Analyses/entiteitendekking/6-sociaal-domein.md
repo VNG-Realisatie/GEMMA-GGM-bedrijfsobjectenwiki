@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 6 Sociaal Domein"
-datum: 2026-07-08
+datum: 2026-07-09
 taakveld: "6 Sociaal Domein"
 beleidsdomeinen:
   - Dak- en thuislozen
@@ -15,8 +15,8 @@ beleidsdomeinen:
   - Sociale Teams
   - Werk
 totaal_entiteiten: 285
-totaal_bo: 63
-totaal_matches: 53
+totaal_bo: 66
+totaal_matches: 56
 totaal_hiaten: 10
 ---
 
@@ -26,9 +26,9 @@ totaal_hiaten: 10
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-10 beleidsdomeinen, 285 GGM-entiteiten (12 n.v.t.). Dekking: 197 van 273 (72%) — 53 met BO, 144 ondersteunend, 76 niet gedekt. 10 BO's zonder GGM-entiteit.
+10 beleidsdomeinen, 285 GGM-entiteiten (9 n.v.t.). Dekking: 197 van 276 (71%) — 56 met BO, 141 ondersteunend, 79 niet gedekt. 10 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces, 3× rol.
+Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces.
 
 ## Dak- en thuislozen
 
@@ -72,7 +72,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Score]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Scoresoort]] | via Client → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Tarief]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Team]] | via Beschikking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Team]] | beschrijft [[Wiki/Rollen/clientbegeleider\|Clientbegeleider]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Toewijzing]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing\|Toewijzing]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verplichting Wmo Jeugd]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verzoek om Toewijzing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
@@ -230,27 +230,27 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Schulden
 
-32 GGM-entiteiten (2 n.v.t.): 10 met BO, 18 ondersteunend aan BO, 2 niet gedekt. Dekking: 28 van 30 (93%).
+32 GGM-entiteiten (0 n.v.t.): 12 met BO, 15 ondersteunend aan BO, 5 niet gedekt. Dekking: 27 van 32 (84%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/schulden\|AanleverendeOrganisatie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|AanleverendeOrganisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpersoon\|Contactpersoon]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Aanmelding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleiding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleidingssoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpersoon]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpersoon]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpersoon\|Contactpersoon]] ✅ | hernoemd |  | Hernoemd naar Contactpersoon (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpoging]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpoging\|Contactpoging]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Crisisinterventie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|InformatieEnAdvies]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Inkomen]] | via WSNP-traject → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Inkomen]] | ⚠️ ter discussie tussen [[Wiki/Actoren/ondernemer\|Ondernemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Intake]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Leefsituatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Leefsituatie]] | ⚠️ ter discussie tussen [[Wiki/Actoren/ondernemer\|Ondernemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Moratorium]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/moratorium\|Moratorium]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Nazorg]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Ondernemer]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Ondernemer]] | [[Wiki/Actoren/ondernemer\|Ondernemer]] ✅ | — |  | Exacte match (actor-pagina) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Onderdeel van Schuldhulptraject, 1:1 met traject |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossingssoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Partner]] | via WSNP-traject → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Partner]] | ⚠️ ter discussie tussen [[Wiki/Actoren/ondernemer\|Ondernemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|PlanVanAanpak]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuld]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuld\|Schuld]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldeiser]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldeiser\|Schuldeiser]] ✅ | — |  | Exacte match |
@@ -265,11 +265,11 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Vroegsignaalzaak]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaalzaak\|Vroegsignaalzaak]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|WSNP-traject]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|WSNP-verklaring]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Woningbezit]] | via WSNP-traject → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Woningbezit]] | ⚠️ ter discussie tussen [[Wiki/Actoren/ondernemer\|Ondernemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 
 ## Sociaal Domein Generiek
 
-55 GGM-entiteiten (2 n.v.t.): 4 met BO, 14 ondersteunend aan BO, 35 niet gedekt. Dekking: 18 van 53 (34%).
+55 GGM-entiteiten (1 n.v.t.): 5 met BO, 14 ondersteunend aan BO, 35 niet gedekt. Dekking: 19 van 54 (35%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -280,7 +280,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Beslag op inkomen]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Betaald werk]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Client]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] ✅ | — |  | Exacte match |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Clientbegeleider]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Clientbegeleider]] | [[Wiki/Rollen/clientbegeleider\|Clientbegeleider]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Dertiende maand - eindejaarsuitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Draagkracht]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht\|Draagkracht]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Draagkrachtregime]] | onderdeel van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht\|Draagkracht]] | onderdeel |  | Onderdeel van Draagkracht |
@@ -313,8 +313,8 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatiesoort]] | via Client → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Secundair inkomstencomponent]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stadspas]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stage]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Studiefinanciering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
@@ -355,7 +355,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsperiode]] | via Werkzoekende → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsverhouding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsvermogen]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsactiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsactiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsberoep]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingstraject]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/werk\|BeschikbaarVoorArbeid]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |

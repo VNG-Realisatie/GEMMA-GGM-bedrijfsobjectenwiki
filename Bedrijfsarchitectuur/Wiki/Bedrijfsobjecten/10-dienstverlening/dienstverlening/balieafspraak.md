@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Balieafspraak
 domein:
 - Dienstverlening

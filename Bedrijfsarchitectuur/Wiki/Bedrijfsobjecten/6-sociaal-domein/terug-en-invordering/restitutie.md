@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Restitutie
 domein: [Terug-en-invordering]
 archimate_type: "business-object"

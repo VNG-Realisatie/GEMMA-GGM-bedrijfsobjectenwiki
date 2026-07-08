@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Voorbereiding op Inburgering
 domein:
 - Asiel en Integratie

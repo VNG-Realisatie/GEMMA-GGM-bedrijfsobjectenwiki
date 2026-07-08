@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Maatschappelijke voorziening
 domein: [Sociaal Domein]
 archimate_type: business-object

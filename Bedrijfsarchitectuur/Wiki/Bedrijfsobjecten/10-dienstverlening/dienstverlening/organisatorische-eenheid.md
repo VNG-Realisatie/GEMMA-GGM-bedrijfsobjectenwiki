@@ -1,8 +1,8 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Organisatorische eenheid
 domein: [Dienstverlening]
-archimate_type: business-actor
+archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: OrganisatorischeEenheid
 ggm_guid: EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D
@@ -30,6 +30,10 @@ analyse_ggm_dekking: |
   - **Subsidieprogramma** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Functioneel afgebakend onderdeel binnen de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
 bo_toelichting: ""
+element_tegenhangers:
+  - element: "[[Wiki/Actoren/organisatorische-eenheid|Organisatorische eenheid (actor)]]"
+    archimate_type: business-actor
+    toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige actor."
 bo_via_kandidaten:
   - ggm_entiteit: "VestigingVanZaakbehandelendeOrganisatie"
     ggm_guid: "EAID_D8142B98_64CB_408e_9941_92423543F08A"
@@ -59,7 +63,9 @@ bedrijfsfuncties:
 
 # Organisatorische eenheid
 
-Actor in het zaakgericht werken: het functioneel afgebakende onderdeel van de gemeente dat verantwoordelijk is voor de behandeling van bepaalde zaaktypen. Voorbeelden: afdeling Vergunningen, team Burgerzaken, cluster Sociaal Domein. Organisatorische eenheden vormen een hiërarchie (is deel van) en bevatten medewerkers.
+De vastgelegde gegevens over het functioneel afgebakende onderdeel van de gemeente dat verantwoordelijk is voor de behandeling van bepaalde zaaktypen. Voorbeelden: afdeling Vergunningen, team Burgerzaken, cluster Sociaal Domein. Organisatorische eenheden vormen een hiërarchie (is deel van) en bevatten medewerkers.
+
+De handelende kant van dit begrip is vastgelegd als actor [[Wiki/Actoren/organisatorische-eenheid|Organisatorische eenheid (actor)]].
 
 ## BO-criteria toetsing
 

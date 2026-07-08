@@ -19,6 +19,18 @@ from datetime import date
 BASE_PATH = Path(__file__).resolve().parent.parent
 GGM_JSON = BASE_PATH / "Sources/GGM-repository/ggm_parsed.json"
 BO_DIR = BASE_PATH / "Wiki/Bedrijfsobjecten"
+ACTOR_DIR = BASE_PATH / "Wiki/Actoren"
+ROL_DIR = BASE_PATH / "Wiki/Rollen"
+ELEMENT_DIRS = (BO_DIR, ACTOR_DIR, ROL_DIR)
+
+# Persistente buiten-scope-registratie: GGM-entiteiten van entiteitstype
+# actor/rol die na menselijke beoordeling bewust géén pagina krijgen
+# (extern, louter context — zie CLAUDE.md "gemeentelijk perspectief").
+# Alleen namen in deze set krijgen nog automatisch n.v.t.; alle overige
+# ongematchte actor/rol-entiteiten verschijnen als "⚠️ geen actor/rol-pagina"
+# in het rapport én in review.md. Curatie gebeurt hier (overleeft her-runs,
+# in tegenstelling tot draft-correcties in de rapporten).
+NVT_ACTOR_ROL = set()
 ONDERWERP_DIR = BASE_PATH / "Wiki/Onderwerpoverzichten"
 GGM_WIKI_DIR = BASE_PATH / "Wiki/GGM"
 OUTPUT_DIR = BASE_PATH / "Wiki/Analyses/entiteitendekking"
@@ -80,12 +92,13 @@ def load_bo_pages():
     specialisatie_by_guid = {}
     via_kandidaat_by_guid = {}
 
-    for f in BO_DIR.rglob("*.md"):
+    element_files = [f for d in ELEMENT_DIRS if d.exists() for f in d.rglob("*.md")]
+    for f in element_files:
         if f.name == "index.md":
             continue
         content = f.read_text(encoding='utf-8')
         fm = extract_frontmatter(content)
-        if fm.get('type') != 'bedrijfsobject':
+        if fm.get('type') != 'element':
             continue
 
         naam = fm.get('naam', f.stem)
@@ -103,6 +116,8 @@ def load_bo_pages():
         parts = rel.split('/')
         bo_taakveld_slug = parts[2] if len(parts) > 3 else ''
 
+        archimate_type = fm.get('archimate_type', '') or ''
+
         info = {
             'naam': naam, 'path': rel, 'ggm_entiteit': ggm_ent,
             'ggm_guid': ggm_guid, 'ggm_beleidsdomein': ggm_bd,
@@ -110,13 +125,35 @@ def load_bo_pages():
             'synoniemen': synoniemen,
             'is_data_object': is_data_object,
             'taakveld_slug': bo_taakveld_slug,
+            'archimate_type': archimate_type,
         }
 
+        # Meerdere pagina's mogen dezelfde ggm_guid dragen (twee-pagina-
+        # patroon: BO + actor/rol delen de GGM-entiteit). De business-object-
+        # pagina is primair in de index; de overige pagina's worden op de
+        # primaire info als tegenhangers geregistreerd zodat niets
+        # stilzwijgend wordt overschreven (voorheen last-write-wins).
+        def _bo_first(prev, cand, track=False):
+            if prev is None or prev is cand:
+                return cand if prev is None else prev
+            if (cand['archimate_type'] == 'business-object'
+                    and prev.get('archimate_type') != 'business-object'):
+                winner, loser = cand, prev
+            else:
+                winner, loser = prev, cand
+            if track:
+                lst = winner.setdefault('tegenhangers', [])
+                for extra in loser.pop('tegenhangers', []) + [loser]:
+                    if extra is not winner and all(
+                            x['path'] != extra['path'] for x in lst):
+                        lst.append(extra)
+            return winner
+
         if ggm_guid:
-            by_guid[ggm_guid] = info
+            by_guid[ggm_guid] = _bo_first(by_guid.get(ggm_guid), info, track=True)
         if ggm_ent:
-            by_name[ggm_ent.lower()] = info
-        by_name[naam.lower()] = info
+            by_name[ggm_ent.lower()] = _bo_first(by_name.get(ggm_ent.lower()), info)
+        by_name[naam.lower()] = _bo_first(by_name.get(naam.lower()), info)
         all_bos.append(info)
 
         # ggm_duplicaat_entiteiten: andere GUID's die hetzelfde concept
@@ -517,8 +554,18 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
                 'duplicaat' | 'graph' | 'ambigu' | 'naam' | 'classificatie-prefix' |
                 'referentietabel' | 'geen-match'
     """
-    if etype in ('abstract', 'proces', 'actor', 'rol', 'meetinstrument', 'cross-cutting'):
+    if etype in ('abstract', 'proces', 'meetinstrument', 'cross-cutting'):
         return 'n.v.t.', None, 'n.v.t.'
+
+    if etype in ('actor', 'rol'):
+        # De directe GUID/naam-match is al geprobeerd (process_beleidsdomein);
+        # hier komen alleen actor/rol-entiteiten zónder pagina. n.v.t. geldt
+        # alleen nog bij expliciete curatie in NVT_ACTOR_ROL (buiten scope,
+        # extern); alle andere gevallen zijn kandidaten voor een pagina in
+        # Wiki/Actoren/ of Wiki/Rollen/ en verschijnen in review.md.
+        if name in NVT_ACTOR_ROL:
+            return 'n.v.t.', None, 'n.v.t.'
+        return f"⚠️ geen {etype}-pagina", None, 'geen-match'
 
     bo_ids = set(bo_by_guid.keys())
     verb = "typering" if etype == 'classificatie' else "beschrijft"
@@ -533,7 +580,7 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
         return f"{verb} {bo_link(via_kandidaat_target)}", via_kandidaat_target, 'via-kandidaat'
 
     # 1. Geregistreerd subtype (bo_subtypes met ggm_attribuut: generalisatie)
-    #    — curated door /write-bo, gaat vóór elke heuristiek: dit is precies
+    #    — curated door /write-element, gaat vóór elke heuristiek: dit is precies
     #    het Brug/Kunstwerk-scenario waarin de graph-search (stap 3) een
     #    verkeerde sibling-BO zou vinden omdat de echte GGM-ouder
     #    (Overbruggingsobject) zelf geen BO is.
@@ -772,6 +819,11 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
             else:
                 etype = '—'
                 beoordeling = 'Exacte match'
+            page_kind = {'business-actor': 'actor-pagina',
+                         'business-role': 'rol-pagina'}.get(
+                bo_info.get('archimate_type', ''))
+            if page_kind:
+                beoordeling += f' ({page_kind})'
 
             naamoverlap_parts = []
             for s in (bo_info.get('synoniemen') or []):
@@ -830,7 +882,8 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
             # Ambigue matches horen altijd bij review, los van de classify_entity-
             # confidence — dit is een compute_dekking-bevinding (echte
             # gelijkstand tussen kandidaten), niet een classificatie-twijfel.
-            if conf == 'low' or match_kind == 'ambigu':
+            if (conf == 'low' or match_kind == 'ambigu'
+                    or (etype in ('actor', 'rol') and '⚠️' in dekking)):
                 review_items.append({
                     'entity': name, 'suggested': etype,
                     'attrs': len(e.get('attributes', [])),

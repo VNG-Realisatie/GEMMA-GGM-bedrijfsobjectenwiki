@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Orgel
 domein: [Cultuur]
 archimate_type: "business-object"

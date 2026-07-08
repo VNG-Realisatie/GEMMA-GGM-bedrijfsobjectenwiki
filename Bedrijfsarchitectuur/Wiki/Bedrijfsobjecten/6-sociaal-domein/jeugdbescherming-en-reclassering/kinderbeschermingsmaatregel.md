@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Kinderbeschermingsmaatregel
 onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

@@ -20,6 +20,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent.parent
 EXPORTS = BASE / 'exports'
 WIKI_BO = BASE / 'Wiki' / 'Bedrijfsobjecten'
+WIKI_ELEMENT_DIRS = [WIKI_BO, BASE / 'Wiki' / 'Actoren', BASE / 'Wiki' / 'Rollen']
 
 
 def clean_nan(val: str) -> str:
@@ -45,7 +46,7 @@ def load_wiki_bo_pages() -> dict:
     """
     by_guid = {}
     by_name = {}
-    for md in WIKI_BO.rglob('*.md'):
+    for md in (f for d in WIKI_ELEMENT_DIRS if d.exists() for f in d.rglob('*.md')):
         if md.name == 'map.md':
             continue
         content = md.read_text(encoding='utf-8')
@@ -58,7 +59,7 @@ def load_wiki_bo_pages() -> dict:
             fm = yaml.safe_load(parts[1])
         except yaml.YAMLError:
             continue
-        if not fm or fm.get('type') != 'bedrijfsobject':
+        if not fm or fm.get('type') != 'element':
             continue
 
         subtypes = fm.get('bo_subtypes', [])
@@ -71,10 +72,23 @@ def load_wiki_bo_pages() -> dict:
             'ggm_guid': fm.get('ggm_guid', ''),
             'ggm_entiteit': fm.get('ggm_entiteit', ''),
             'grondslag': fm.get('grondslag', ''),
+            'archimate_type': fm.get('archimate_type', ''),
         }
+
+        # Meerdere pagina's mogen dezelfde GUID dragen (twee-pagina-patroon
+        # BO + actor/rol): by_guid is een lijst per GUID, business-object
+        # eerst, en de export schrijft een rij per pagina.
+        def _register(guid, e):
+            lst = by_guid.setdefault(guid, [])
+            if e['archimate_type'] == 'business-object':
+                lst.insert(0, e)
+            else:
+                lst.append(e)
+
         if entry['ggm_guid']:
-            by_guid[entry['ggm_guid']] = entry
-        if entry['naam']:
+            _register(entry['ggm_guid'], entry)
+        if entry['naam'] and (entry['naam'] not in by_name
+                or entry['archimate_type'] == 'business-object'):
             by_name[entry['naam']] = entry
 
         # Register duplicate GUIDs so the export emits a row per GUID
@@ -84,7 +98,7 @@ def load_wiki_bo_pages() -> dict:
             for dup in duplicates:
                 dup_guid = dup if isinstance(dup, str) else dup.get('guid', '')
                 if dup_guid and dup_guid not in by_guid:
-                    by_guid[dup_guid] = entry
+                    _register(dup_guid, entry)
 
     return by_guid, by_name
 
@@ -177,55 +191,64 @@ def export_objecten(data: dict, bo_by_guid: dict, bo_by_name: dict,
         nr += 1
         name = e.get('name', '')
 
-        # Wiki BO lookup
-        bo = bo_by_guid.get(eid) or bo_by_name.get(name)
-        wiki_naam = bo['naam'] if bo else ''
-        wiki_def = bo.get('bo_definitie', '') if bo else ''
-        wiki_subtypes = bo.get('bo_subtypes', '') if bo else ''
-        if wiki_def == 'gelijk aan GGM':
-            wiki_def = ''
+        # Wiki element lookup — bij een gedeelde GUID (twee-pagina-patroon
+        # BO + actor/rol) komt er een rij per pagina, business-object eerst.
+        pages = bo_by_guid.get(eid)
+        if not pages:
+            nb = bo_by_name.get(name)
+            pages = [nb] if nb else [None]
+        for page_i, bo in enumerate(pages):
+            if page_i > 0:
+                nr += 1
+            wiki_naam = bo['naam'] if bo else ''
+            wiki_def = bo.get('bo_definitie', '') if bo else ''
+            wiki_subtypes = bo.get('bo_subtypes', '') if bo else ''
+            wiki_archimate = bo.get('archimate_type', '') if bo else ''
+            if wiki_def == 'gelijk aan GGM':
+                wiki_def = ''
 
-        # GEMMA fields: wiki first, then XMI GEMMA tags
-        gemma_naam = wiki_naam or gemma_tag(e, 'gemma_naam')
-        gemma_def = wiki_def or clean_html(gemma_tag(e, 'gemma_definitie'))
-        gemma_toel = gemma_tag(e, 'gemma_toelichting')
-        gemma_syn = gemma_tag(e, 'gemma_synoniemen')
-        gemma_bron = gemma_tag(e, 'gemma_bron')
+            # GEMMA fields: wiki first, then XMI GEMMA tags
+            gemma_naam = wiki_naam or gemma_tag(e, 'gemma_naam')
+            gemma_def = wiki_def or clean_html(gemma_tag(e, 'gemma_definitie'))
+            gemma_toel = gemma_tag(e, 'gemma_toelichting')
+            gemma_syn = gemma_tag(e, 'gemma_synoniemen')
+            gemma_bron = gemma_tag(e, 'gemma_bron')
 
-        # GEMMA-managed fields (always from XMI)
-        gemma_guid = gemma_tag(e, 'gemma_guid')
-        gemma_type = gemma_tag(e, 'gemma_type')
-        gemma_url = gemma_tag(e, 'gemma_url')
-        gemma_alt = gemma_tag(e, 'gemma_alternate_name')
+            # GEMMA-managed fields (always from XMI)
+            gemma_guid = gemma_tag(e, 'gemma_guid')
+            gemma_type = gemma_tag(e, 'gemma_type')
+            gemma_url = gemma_tag(e, 'gemma_url')
+            gemma_alt = gemma_tag(e, 'gemma_alternate_name')
 
-        # domein-iv3
-        beleidsdomein = e.get('beleidsdomein', '')
-        taakveld = e.get('taakveld', '')
-        domein_iv3 = f"{taakveld} > {beleidsdomein}" if taakveld and beleidsdomein and taakveld != beleidsdomein else (beleidsdomein or taakveld)
+            # domein-iv3
+            beleidsdomein = e.get('beleidsdomein', '')
+            taakveld = e.get('taakveld', '')
+            domein_iv3 = f"{taakveld} > {beleidsdomein}" if taakveld and beleidsdomein and taakveld != beleidsdomein else (beleidsdomein or taakveld)
 
-        rows.append({
-            'nr': nr,
-            'GEMMA-naam': gemma_naam,
-            'GGM-naam': name,
-            'GEMMA-guid': gemma_guid,
-            'GGM-guid': eid,
-            'GEMMA-type': gemma_type,
-            'GGM-uml-type': e.get('uml_type', '').lower(),
-            'GEMMA-definitie': gemma_def,
-            'GGM-definitie': clean_html(e.get('documentation', '')),
-            'GEMMA-toelichting': gemma_toel,
-            'GGM-toelichting': entity_tag(e, 'Toelichting'),
-            'GEMMA-synoniemen': gemma_syn,
-            'GGM-synoniemen': entity_tag(e, 'Synoniemen'),
-            'GEMMA-bron': gemma_bron,
-            'GGM-bron': entity_tag(e, 'Herkomst'),
-            'GEMMA-url': gemma_url,
-            'GEMMA-alternate-name': gemma_alt,
-            'GEMMA-subtypes': wiki_subtypes,
-            'domein-iv3': domein_iv3,
-            'domein-dcat': '',
-            'Datum-tijd-export': timestamp,
-        })
+            rows.append({
+                'nr': nr,
+                'GEMMA-naam': gemma_naam,
+                'GGM-naam': name,
+                'GEMMA-guid': gemma_guid,
+                'GGM-guid': eid,
+                'GEMMA-type': gemma_type,
+                'GGM-uml-type': e.get('uml_type', '').lower(),
+                'archimate_type': wiki_archimate,
+                'GEMMA-definitie': gemma_def,
+                'GGM-definitie': clean_html(e.get('documentation', '')),
+                'GEMMA-toelichting': gemma_toel,
+                'GGM-toelichting': entity_tag(e, 'Toelichting'),
+                'GEMMA-synoniemen': gemma_syn,
+                'GGM-synoniemen': entity_tag(e, 'Synoniemen'),
+                'GEMMA-bron': gemma_bron,
+                'GGM-bron': entity_tag(e, 'Herkomst'),
+                'GEMMA-url': gemma_url,
+                'GEMMA-alternate-name': gemma_alt,
+                'GEMMA-subtypes': wiki_subtypes,
+                'domein-iv3': domein_iv3,
+                'domein-dcat': '',
+                'Datum-tijd-export': timestamp,
+            })
 
     path = EXPORTS / f'GGM_GEMMA_objecten_{date_str}.csv'
     _write_csv(path, rows)

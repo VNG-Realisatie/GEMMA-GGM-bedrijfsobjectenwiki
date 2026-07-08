@@ -1,8 +1,8 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Medewerker
 domein: [Dienstverlening]
-archimate_type: business-actor
+archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Medewerker
 ggm_guid: EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B
@@ -44,6 +44,10 @@ analyse_ggm_dekking: |
   - **Uitvoerende instantie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een medewerker van de gemeentelijke organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een organisatorische eenheid."
 bo_toelichting: ""
+element_tegenhangers:
+  - element: "[[Wiki/Actoren/medewerker|Medewerker (actor)]]"
+    archimate_type: business-actor
+    toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige actor."
 bo_via_kandidaten:
   - ggm_entiteit: "FormulierInhuur"
     ggm_guid: "EAID_B598FF22_CDD0_486f_B528_99421D0FA608"
@@ -78,7 +82,9 @@ bedrijfsfuncties:
 
 # Medewerker
 
-Actor in het zaakgericht werken: de persoon binnen de gemeentelijke organisatie die zaken behandelt, klantcontacten voert en verantwoordelijk is voor zaaktypen. In het RGBZ is Medewerker een specialisatie van Betrokkene — iemand die een rol speelt bij een zaak.
+De vastgelegde gegevens over de persoon binnen de gemeentelijke organisatie die zaken behandelt, klantcontacten voert en verantwoordelijk is voor zaaktypen. In het RGBZ is Medewerker een specialisatie van Betrokkene — iemand die een rol speelt bij een zaak.
+
+De handelende kant van dit begrip is vastgelegd als actor [[Wiki/Actoren/medewerker|Medewerker (actor)]].
 
 ## BO-criteria toetsing
 

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Arbeidsfunctie
 domein: [Arbeidszaken]
 archimate_type: business-object

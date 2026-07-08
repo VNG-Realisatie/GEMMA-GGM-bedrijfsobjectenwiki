@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Stuk
 onderwerp: [Basisregistraties, BRK]
 archimate_type: business-object

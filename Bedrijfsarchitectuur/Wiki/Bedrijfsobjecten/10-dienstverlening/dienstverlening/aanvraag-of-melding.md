@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Aanvraag of melding
 domein:
 - Dienstverlening

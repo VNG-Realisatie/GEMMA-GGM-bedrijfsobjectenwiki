@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Grondrechteneffectbeoordeling
 onderwerp: [Informatiesamenleving]
 archimate_type: business-object

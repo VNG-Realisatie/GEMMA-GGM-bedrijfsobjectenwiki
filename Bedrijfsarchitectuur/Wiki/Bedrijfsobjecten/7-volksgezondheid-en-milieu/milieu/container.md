@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Container
 domein: [Milieu]
 archimate_type: "business-object"

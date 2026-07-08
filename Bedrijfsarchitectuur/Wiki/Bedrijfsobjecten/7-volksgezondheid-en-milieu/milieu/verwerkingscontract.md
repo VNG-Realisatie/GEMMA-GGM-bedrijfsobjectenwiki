@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Verwerkingscontract
 domein: [Milieu]
 archimate_type: contract

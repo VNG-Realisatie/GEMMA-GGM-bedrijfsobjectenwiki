@@ -34,10 +34,10 @@ Lees `Wiki/Analyses/bo-dekking-data.json`. Voor elke entiteit met `status: "te-b
 3. Classificeer als:
    - `bo-kandidaat` — structureel BO-waardig, bron nodig voor definitieve beoordeling
    - `niet-bo` — duidelijk geen BO op basis van structuur. Geef het **entiteitstype** aan uit de `/entiteitendekking` classificatie: classificatie, detail, component, proces, actor, rol, meetinstrument, of cross-cutting. Dit maakt de niet-bo motivatie uniform met de dekkingsanalyse.
-   - `ter-discussie` — onduidelijk, inhoudelijke beoordeling via `/assess-bo` nodig
+   - `ter-discussie` — onduidelijk, inhoudelijke beoordeling via `/assess-element` nodig
 4. Motivatie: entiteitstype + 1-regel onderbouwing.
 
-**Anti-patronen (uit /assess-bo):** gebruik NOOIT "registreerbaar", "eigendom", "systeembeheer" als criterium. Alleen de 6 criteria.
+**Anti-patronen (uit /assess-element):** gebruik NOOIT "registreerbaar", "eigendom", "systeembeheer" als criterium. Alleen de 6 criteria.
 
 **Batch per beleidsdomein:** verwerk alle entiteiten van één beleidsdomein samen voor domeincontext.
 
@@ -55,6 +55,6 @@ Voeg entry toe aan `Wiki/log.md`.
 ### Relatie met andere skills
 
 - `/coverage` — complementair: coverage telt, bo-coverage beoordeelt
-- `/assess-bo` — onafhankelijk: assess-bo doet diepte-beoordeling met bronnen (begripstypen), bo-coverage doet structurele triage (entiteitstypen)
+- `/assess-element` — onafhankelijk: assess-element doet diepte-beoordeling met bronnen (begripstypen), bo-coverage doet structurele triage (entiteitstypen)
 - `/entiteitendekking` — complementair: bo-coverage doet brede sweep over alle entiteiten, entiteitendekking doet de taakveld-brede dekkingsanalyse. Beide gebruiken dezelfde entiteitstype-classificatie.
 - `/ingest` — bo-coverage output bepaalt waar bronnen gezocht moeten worden

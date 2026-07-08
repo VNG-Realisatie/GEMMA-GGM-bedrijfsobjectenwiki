@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Urgentverklaring
 domein: [Wonen]
 archimate_type: business-object

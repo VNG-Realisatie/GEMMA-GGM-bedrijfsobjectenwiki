@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Signaalpartner
 onderwerp: [schulden en armoede]
 archimate_type: business-object
@@ -19,6 +19,10 @@ analyse_ggm_dekking: |
 bo_definitie: "Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken."
 bo_toelichting: ''
 bo_subtypes: []
+element_tegenhangers:
+  - element: "[[Wiki/Actoren/signaalpartner|Signaalpartner (actor)]]"
+    archimate_type: business-actor
+    toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige actor."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[vroegsignaal]]"
@@ -36,6 +40,8 @@ bedrijfsfuncties: [financiële hulpverlening]
 ## Beschrijving
 
 Signaalpartners zijn dienstverleners met een maatschappelijk belang die wettelijk verplicht zijn betalingsachterstanden te melden bij de gemeente: zorgverzekeraars, energieleveranciers, drinkwaterbedrijven en woningverhuurders. Zij vormen het startpunt van het vroegsignaleringsproces.
+
+De handelende kant van dit begrip is vastgelegd als actor [[Wiki/Actoren/signaalpartner|Signaalpartner (actor)]].
 
 ## GGM-bron
 

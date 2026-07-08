@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Partijsubsidie
 onderwerp: [Bestuur]
 archimate_type: business-object

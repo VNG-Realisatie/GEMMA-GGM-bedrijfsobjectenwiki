@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Algoritmeregister
 onderwerp: [Informatiesamenleving]
 archimate_type: business-object

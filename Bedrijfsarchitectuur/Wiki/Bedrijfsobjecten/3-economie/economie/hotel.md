@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Hotel
 domein: [Economie]
 archimate_type: "business-object"

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Eigen bijdrage
 domein: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

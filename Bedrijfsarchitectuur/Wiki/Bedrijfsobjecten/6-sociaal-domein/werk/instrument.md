@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Instrument
 onderwerp: [werk en inkomen]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vastgoedcontract
 onderwerp: [Vastgoed]
 archimate_type: contract

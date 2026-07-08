@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Warmtenet
 domein: [Energie en Klimaat]
 archimate_type: "business-object"

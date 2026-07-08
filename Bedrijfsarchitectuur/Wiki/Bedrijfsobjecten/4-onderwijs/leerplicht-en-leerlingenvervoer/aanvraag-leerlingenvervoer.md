@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Aanvraag Leerlingenvervoer
 domein: [onderwijs]
 archimate_type: business-object

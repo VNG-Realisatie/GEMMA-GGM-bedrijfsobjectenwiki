@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Dataproduct
 onderwerp: [Informatiesamenleving]
 archimate_type: business-object

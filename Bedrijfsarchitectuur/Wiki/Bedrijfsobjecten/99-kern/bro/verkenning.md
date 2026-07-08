@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Verkenning
 onderwerp: [Basisregistraties]
 archimate_type: business-object

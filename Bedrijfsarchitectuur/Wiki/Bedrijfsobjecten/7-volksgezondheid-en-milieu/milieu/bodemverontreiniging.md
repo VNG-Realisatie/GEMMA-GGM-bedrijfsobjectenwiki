@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Bodemverontreiniging
 domein: [Milieu]
 archimate_type: "business-object"

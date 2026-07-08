@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Pand
 onderwerp: [Basisregistraties, BAG]
 archimate_type: business-object

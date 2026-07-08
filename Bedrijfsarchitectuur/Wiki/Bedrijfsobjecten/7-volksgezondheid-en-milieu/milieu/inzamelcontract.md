@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Inzamelcontract
 domein: [Milieu]
 archimate_type: contract

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Jaarrekening
 onderwerp: [Financien]
 archimate_type: "business-object"

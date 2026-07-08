@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Detacheringsovereenkomst
 domein: [Arbeidszaken]
 archimate_type: contract

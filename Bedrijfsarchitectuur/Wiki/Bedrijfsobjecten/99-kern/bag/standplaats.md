@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Standplaats (BAG)
 onderwerp: [Basisregistraties, BAG, Wonen]
 archimate_type: business-object

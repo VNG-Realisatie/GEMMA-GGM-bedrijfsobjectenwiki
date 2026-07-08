@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Marktstandplaats
 onderwerp: [Economie]
 archimate_type: "business-object"

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Warenmarkt
 domein: [Economie]
 archimate_type: "business-object"

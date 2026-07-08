@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Afvalstoffenheffing
 domein: [Milieu]
 archimate_type: "business-object"

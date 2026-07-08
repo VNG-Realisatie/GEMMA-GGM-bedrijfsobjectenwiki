@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vacature (arbeidsmarkt)
 onderwerp: [werk en inkomen]
 archimate_type: business-object

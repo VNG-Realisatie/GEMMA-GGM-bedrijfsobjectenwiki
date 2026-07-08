@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Contract
 onderwerp: [inkoop]
 archimate_type: business-object

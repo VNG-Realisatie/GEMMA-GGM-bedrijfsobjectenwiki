@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Toepasbare Regel
 onderwerp: [Omgevingswet]
 archimate_type: business-object

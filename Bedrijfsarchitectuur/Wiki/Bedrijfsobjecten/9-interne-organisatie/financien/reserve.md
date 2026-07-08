@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Reserve
 onderwerp: [Financien]
 archimate_type: "business-object"

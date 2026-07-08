@@ -157,7 +157,7 @@ def build_new_frontmatter(fields: dict, raw_blocks: dict, entity: dict | None,
             lines.append(f'{key}: ""')
 
     # Core fields (preserve order)
-    add_field('type', fields.get('type', 'bedrijfsobject'))
+    add_field('type', fields.get('type', 'element'))
     add_field('naam', fields.get('naam', ''))
 
     if 'domein' in fields:
@@ -316,12 +316,15 @@ def main():
     data = load_xmi_data(json_path)
     entity_lookup, ambiguous_names = build_entity_lookup(data)
     bo_dir = base / 'Wiki' / 'Bedrijfsobjecten'
+    element_dirs = [bo_dir, base / 'Wiki' / 'Actoren', base / 'Wiki' / 'Rollen']
 
     results = {'updated': 0, 'no_match': 0, 'skipped': 0}
 
-    for md in sorted(bo_dir.rglob('*.md')):
+    element_files = sorted(f for d in element_dirs if d.exists()
+                           for f in d.rglob('*.md'))
+    for md in element_files:
         result = enrich_file(md, entity_lookup, ambiguous_names, data, dry_run=dry_run)
-        rel_path = md.relative_to(bo_dir)
+        rel_path = md.relative_to(base / 'Wiki')
 
         if result.startswith('updated:'):
             results['updated'] += 1

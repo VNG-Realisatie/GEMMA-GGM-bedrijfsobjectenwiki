@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: DPIA
 onderwerp: [Informatiesamenleving]
 archimate_type: business-object

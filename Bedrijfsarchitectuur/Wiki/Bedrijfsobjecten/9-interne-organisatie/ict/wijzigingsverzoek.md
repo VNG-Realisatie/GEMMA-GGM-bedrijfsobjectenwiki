@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Wijzigingsverzoek
 onderwerp: [Informatiesystemen]
 archimate_type: business-object

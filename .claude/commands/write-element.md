@@ -1,8 +1,10 @@
-Leg vast als bedrijfsobject: $ARGUMENTS
+Leg vast als element (bedrijfsobject, actor of rol): $ARGUMENTS
 
-Input: BO-naam (reeds beoordeeld via `/assess-bo`), of "onderwerp X" voor alle BO's in een onderwerp.
+Input: elementnaam (reeds beoordeeld via `/assess-element`), of "onderwerp X" voor alle elementen in een onderwerp.
 
-Verwacht een begrip dat al is beoordeeld als BO. Doet zelf géén BO-criteria of domeinbepaling.
+Verwacht een begrip dat al is beoordeeld. Doet zelf géén criteria-toetsing of domeinbepaling.
+
+**Elementtype bepaalt de route:** bedrijfsobjecten (business-object/contract/product) volgen alle stappen hieronder. Actor- en rol-pagina's volgen Stap 11. Bij het twee-pagina-patroon (begrip is actor/rol én BO, zie `/assess-element` Stap 2b): maak beide pagina's en koppel ze via `element_tegenhangers`.
 
 ## Stap 1: Grondslag bepalen
 
@@ -172,7 +174,7 @@ BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfs
 
 ## Stap 8: BO-pagina aanmaken
 
-Vul het volledige frontmatter-schema in volgens `templates/bedrijfsobject.md`.
+Vul het volledige frontmatter-schema in volgens `templates/element.md`.
 
 Plaats in `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` — folderstructuur volgt de GGM-indeling (bijv. `7-volksgezondheid-en-milieu/milieu/`).
 
@@ -183,8 +185,8 @@ Body-secties volgens template:
 - **Specialisaties** (optioneel): tabel met children-BO's (aparte BO-pagina's)
 - **Subtypes** (optioneel): lijst met subtypes die geen apart BO zijn
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, matchsterkte
-- **Naamkeuze** (optioneel): wanneer stap 4c een homoniem-naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/bedrijfsobject.md` voor format.
-- **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/bedrijfsobject.md` voor format.
+- **Naamkeuze** (optioneel): wanneer stap 4c een homoniem-naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/element.md` voor format.
+- **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/element.md` voor format.
 - **BO-definitie**: alleen als eigen definitie afwijkt van GGM
 - **Relaties**: afgeleid van GGM-associaties of beleidsbronnen
 - **Bedrijfsprocessen** en **Bedrijfsfuncties**
@@ -196,7 +198,7 @@ Body-secties volgens template:
 Bij afwijkingen of hiaten: voeg een regel toe aan `Wiki/Analyses/ggm-terugmeldingen.md`.
 Typen: hiaat | definitie | structuur | scope. Status: open.
 
-Bij geen match en data-object=ja: signaleer als potentieel GGM-hiaat (conform `/assess-bo` stap 10).
+Bij geen match en data-object=ja: signaleer als potentieel GGM-hiaat (conform `/assess-element` stap 10).
 
 ## Stap 10: Grondslag zonder GGM
 
@@ -205,3 +207,31 @@ Bij BO zonder GGM-grondslag: vul de `ggm_*` en `ggm_gemma_*` velden met lege waa
 Voeg de juiste body-sectie toe:
 - Bij `procesobject`: **Procesbron** — uit welk proces, link naar bronsamenvatting
 - Bij `governance-object`: **Juridische bron** — welke wet/verordening, link naar bronsamenvatting
+
+## Stap 11: Actor- en rol-pagina's
+
+Voor begrippen die via `/assess-element` Stap 2b als actor of rol zijn beoordeeld (definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]).
+
+**Locatie en frontmatter:**
+- Actor: `Wiki/Actoren/{naam}.md` met `archimate_type: business-actor`
+- Rol: `Wiki/Rollen/{naam}.md` met `archimate_type: business-role`
+- Beide mappen zijn plat — geen taakveld-substructuur; het taakveld/onderwerp staat in de frontmatter.
+- Gebruik hetzelfde frontmatter-schema als `templates/element.md` (`type: element`). Niet alle velden worden gevuld: `grondslag` en de `bo_*`-velden gelden ook hier, maar GGM-velden blijven leeg zonder GGM-match.
+
+**GGM-match:** doorloop Stap 2-5 zoals bij een BO. Bij een match: vul `ggm_entiteit`/`ggm_guid` zoals gebruikelijk — de dekkingsanalyse matcht hierop. Zonder match: velden leeg laten; rollen zonder GGM-match zijn vaak governance-hiaten (Stap 9-terugmelding overwegen).
+
+**Twee-pagina-patroon:** haalt het begrip óók de 6 BO-criteria (er worden gegevens over vastgelegd), maak dan daarnaast de reguliere BO-pagina in `Wiki/Bedrijfsobjecten/`. Koppel beide pagina's:
+- frontmatter: `element_tegenhangers` op beide pagina's (zie `templates/element.md`)
+- body: een cross-link met één zin over de relatie (bijv. "De gegevens over deze actor worden vastgelegd als bedrijfsobject [[...]].")
+- beide pagina's mogen dezelfde `ggm_guid` dragen; elke pagina heeft een **eigen definitie** vanuit het eigen perspectief (wie handelt vs. welke gegevens worden vastgelegd).
+
+**Body-secties** (lichter dan een BO-pagina):
+- **Beschrijving**: de actor/rol op het niveau waarop de gemeente erover praat
+- **Criteria-toetsing**: uitkomst van de actor-/rol-vragen (Stap 2b)
+- **Rollen** (bij een actor, optioneel): welke rollen deze actor vervult, als wiki-links
+- **Vervuld door** (bij een rol, optioneel): welke actoren deze rol typisch vervullen, als wiki-links
+- **Relaties**: naar andere elementen
+- **Bronnen**: wiki-links naar bronsamenvattingen
+- **GGM-bron** (bij GGM-match): letterlijke GGM-definitie als blockquote, matchsterkte
+
+Nazorg is gelijk aan BO-pagina's: `Wiki/index.md`, `Wiki/log.md` en het onderwerpoverzicht bijwerken.

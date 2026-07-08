@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Product of dienst
 domein:
 - Dienstverlening

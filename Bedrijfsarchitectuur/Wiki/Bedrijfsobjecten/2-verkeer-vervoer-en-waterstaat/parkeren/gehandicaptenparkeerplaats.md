@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Gehandicaptenparkeerplaats
 domein: [mobiliteit]
 archimate_type: "business-object"

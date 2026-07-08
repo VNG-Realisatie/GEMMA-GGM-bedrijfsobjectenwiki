@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Kwijtschelding
 domein: [Terug-en-invordering, Belastingen]
 archimate_type: "business-object"

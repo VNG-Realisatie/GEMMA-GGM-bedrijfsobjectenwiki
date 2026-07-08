@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Werknemer
 domein: [Arbeidszaken]
 archimate_type: business-object

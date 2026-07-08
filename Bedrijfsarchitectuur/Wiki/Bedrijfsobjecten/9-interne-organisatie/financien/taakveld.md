@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Taakveld
 domein: [Financien]
 archimate_type: "business-object"

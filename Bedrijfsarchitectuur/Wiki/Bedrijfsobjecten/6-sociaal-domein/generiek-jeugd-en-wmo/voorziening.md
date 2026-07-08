@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Voorziening
 domein: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

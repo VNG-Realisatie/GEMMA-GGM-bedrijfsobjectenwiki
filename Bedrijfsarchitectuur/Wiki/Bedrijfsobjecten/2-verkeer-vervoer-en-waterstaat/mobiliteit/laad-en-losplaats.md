@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Laad- en Losplaats
 domein:
 - mobiliteit

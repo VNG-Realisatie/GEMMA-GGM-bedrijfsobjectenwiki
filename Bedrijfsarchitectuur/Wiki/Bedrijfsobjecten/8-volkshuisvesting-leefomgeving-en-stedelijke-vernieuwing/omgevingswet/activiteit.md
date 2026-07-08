@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Activiteit
 onderwerp: [Omgevingswet]
 archimate_type: business-object

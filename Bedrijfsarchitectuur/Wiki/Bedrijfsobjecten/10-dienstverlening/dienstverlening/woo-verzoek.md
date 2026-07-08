@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: woo-verzoek
 onderwerp: [informatiesamenleving, dienstverlening]
 archimate_type: business-object

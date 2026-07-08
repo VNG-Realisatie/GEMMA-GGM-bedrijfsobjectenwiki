@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: VTH-zaak
 onderwerp: [Omgevingswet]
 archimate_type: business-object

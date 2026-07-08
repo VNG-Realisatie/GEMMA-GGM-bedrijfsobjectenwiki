@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Luchtkwaliteitsmeetpunt
 domein: [milieu]
 archimate_type: business-object

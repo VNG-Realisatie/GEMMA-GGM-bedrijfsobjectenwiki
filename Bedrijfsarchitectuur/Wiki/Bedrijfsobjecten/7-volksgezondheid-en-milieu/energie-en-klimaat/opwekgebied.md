@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Opwekgebied
 domein: [Energie en Klimaat]
 archimate_type: "business-object"

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Opvanglocatie
 domein:
 - Asiel en Integratie

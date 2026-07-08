@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Collectie
 domein: [Cultuur]
 archimate_type: business-object

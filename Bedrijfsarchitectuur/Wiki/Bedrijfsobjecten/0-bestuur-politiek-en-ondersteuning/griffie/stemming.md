@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Stemming
 onderwerp: [bestuur]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Ouder Of Verzorger
 domein: [onderwijs]
 archimate_type: business-object

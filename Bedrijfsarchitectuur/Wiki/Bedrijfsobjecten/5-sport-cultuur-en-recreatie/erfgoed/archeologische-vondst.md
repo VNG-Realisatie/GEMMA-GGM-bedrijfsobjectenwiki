@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Archeologische vondst
 domein:
 - Cultuur

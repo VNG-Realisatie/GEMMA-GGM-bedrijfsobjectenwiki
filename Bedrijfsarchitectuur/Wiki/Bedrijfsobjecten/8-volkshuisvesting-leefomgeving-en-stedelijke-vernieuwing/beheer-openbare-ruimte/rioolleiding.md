@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Rioolleiding
 onderwerp: [Beheer Openbare Ruimte, Milieu]
 archimate_type: business-object

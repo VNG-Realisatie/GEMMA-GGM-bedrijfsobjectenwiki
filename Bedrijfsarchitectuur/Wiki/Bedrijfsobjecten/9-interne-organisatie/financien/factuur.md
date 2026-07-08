@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Factuur
 domein: [Financien]
 archimate_type: "business-object"

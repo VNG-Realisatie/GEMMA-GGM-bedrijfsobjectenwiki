@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 99 Kern"
-datum: 2026-07-08
+datum: 2026-07-09
 taakveld: "99 Kern"
 beleidsdomeinen:
   - 99 Kern
@@ -20,7 +20,7 @@ totaal_hiaten: 6
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-4 beleidsdomeinen, 156 GGM-entiteiten (11 n.v.t.). Dekking: 122 van 145 (84%) — 45 met BO, 77 ondersteunend, 23 niet gedekt. 6 BO's zonder GGM-entiteit.
+4 beleidsdomeinen, 156 GGM-entiteiten (11 n.v.t.). Dekking: 123 van 145 (85%) — 45 met BO, 78 ondersteunend, 22 niet gedekt. 6 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel, 2× proces.
 
@@ -63,7 +63,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 
 ## RGBZPlus
 
-37 GGM-entiteiten (3 n.v.t.): 11 met BO, 20 ondersteunend aan BO, 3 niet gedekt. Dekking: 31 van 34 (91%).
+37 GGM-entiteiten (3 n.v.t.): 11 met BO, 21 ondersteunend aan BO, 2 niet gedekt. Dekking: 32 van 34 (94%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -77,7 +77,7 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 | [[Wiki/GGM/99-kern/rgbzplus\|Betaling]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/99-kern/rgbzplus\|Betrokkene]] | n.v.t. | abstract |  | Abstract type |
 | [[Wiki/GGM/99-kern/rgbzplus\|Brondocumenten]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/99-kern/rgbzplus\|ContactpersoonRol]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/99-kern/rgbzplus\|ContactpersoonRol]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpersoon\|Contactpersoon]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Deelproces]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Deelprocestype]] | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rgbzplus\|Document]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] ✅ | — |  | Exacte match |
@@ -170,11 +170,11 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 |---|---|---|---|---|
 | [[Wiki/GGM/99-kern/rsgbplus\|Briefadres]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|Gebied]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/99-kern/rsgbplus\|MaatschappelijkeActiviteit]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] ✅ | hernoemd |  | Hernoemd naar Maatschappelijke Activiteit |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Vestiging]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Vestiging]] | [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] ✅ | hernoemd |  | Hernoemd naar Horecabedrijf |
 
 ### WOZ — waardering onroerende zaken
 

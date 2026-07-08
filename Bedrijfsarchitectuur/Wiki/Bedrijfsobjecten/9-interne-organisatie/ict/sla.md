@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Service Level Agreement
 onderwerp: [Informatiesystemen]
 archimate_type: contract

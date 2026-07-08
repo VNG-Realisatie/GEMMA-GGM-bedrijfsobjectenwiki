@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Gebruiksrecht
 onderwerp: [Basisregistraties]
 archimate_type: business-object

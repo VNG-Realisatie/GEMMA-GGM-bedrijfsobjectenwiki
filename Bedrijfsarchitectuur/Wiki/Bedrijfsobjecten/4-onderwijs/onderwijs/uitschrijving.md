@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Uitschrijving
 domein: [onderwijs]
 archimate_type: business-object

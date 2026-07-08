@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Sloopregeling
 domein: [milieu]
 archimate_type: business-object

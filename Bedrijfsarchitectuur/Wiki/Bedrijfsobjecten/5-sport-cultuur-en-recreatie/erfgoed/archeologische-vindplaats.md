@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Archeologische vindplaats
 domein:
 - Cultuur

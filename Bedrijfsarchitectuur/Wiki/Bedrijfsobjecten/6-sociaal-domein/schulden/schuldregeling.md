@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Schuldregeling
 onderwerp: [schulden en armoede]
 archimate_type: business-object

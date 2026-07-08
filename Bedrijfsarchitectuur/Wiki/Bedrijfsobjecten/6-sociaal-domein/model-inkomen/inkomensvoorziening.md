@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Inkomensvoorziening
 onderwerp: [werk en inkomen]
 archimate_type: business-object

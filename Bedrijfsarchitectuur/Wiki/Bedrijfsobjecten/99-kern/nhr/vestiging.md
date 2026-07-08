@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vestiging
 onderwerp: [Basisregistraties, NHR]
 archimate_type: business-object

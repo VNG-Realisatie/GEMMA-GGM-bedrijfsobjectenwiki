@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Omgevingsnorm
 onderwerp: [Omgevingswet]
 archimate_type: business-object

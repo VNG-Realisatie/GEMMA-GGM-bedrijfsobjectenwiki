@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Werkbon
 onderwerp: [Vastgoed]
 archimate_type: business-object

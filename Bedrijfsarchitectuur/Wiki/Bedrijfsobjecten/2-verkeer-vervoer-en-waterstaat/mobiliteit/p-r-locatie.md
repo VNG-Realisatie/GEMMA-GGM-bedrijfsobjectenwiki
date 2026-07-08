@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: P+R-locatie
 domein:
 - mobiliteit

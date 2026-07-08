@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Zwembad
 domein: [Sport en Bewegen]
 archimate_type: "business-object"

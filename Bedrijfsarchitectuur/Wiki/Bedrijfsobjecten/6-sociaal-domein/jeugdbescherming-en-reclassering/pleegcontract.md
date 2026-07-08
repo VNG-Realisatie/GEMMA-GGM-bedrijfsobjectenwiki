@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Pleegcontract
 onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: contract

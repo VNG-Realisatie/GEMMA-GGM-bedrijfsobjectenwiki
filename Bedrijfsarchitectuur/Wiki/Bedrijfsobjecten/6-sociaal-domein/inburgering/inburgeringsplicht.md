@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Inburgeringsplicht
 domein:
 - Asiel en Integratie

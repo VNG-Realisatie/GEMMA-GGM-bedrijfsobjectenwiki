@@ -1,15 +1,20 @@
-# Template: Bedrijfsobject
+# Template: Element
 
-Locatie: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/{naam}.md`
+Locatie:
+- Bedrijfsobjecten: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-object, contract of product)
+- Actoren: `Wiki/Actoren/{naam}.md` (`archimate_type`: business-actor) — platte map, geen substructuur
+- Rollen: `Wiki/Rollen/{naam}.md` (`archimate_type`: business-role) — platte map, geen substructuur
+
+Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid actor/rol en de criteria. Bij actor/rol-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
 
 ## Frontmatter
 
 ```yaml
 ---
-type: bedrijfsobject
+type: element
 naam: {naam}
 onderwerp: [{onderwerp(en)}]
-archimate_type: {business-object | contract | product}
+archimate_type: {business-object | contract | product | business-actor | business-role}
 grondslag: {ggm-entiteit | ggm-afgeleid | procesobject | governance-object}
 
 # GGM-velden — uit het XMI, beheerd door de GGM-community
@@ -67,6 +72,10 @@ bo_homoniemen: []
 #    ggm_guid: {EA GUID van het andere concept}
 #    ggm_beleidsdomein: {beleidsdomein van het andere concept}
 #    toelichting: {waarom het een ander concept is}
+element_tegenhangers: []            # cross-link wanneer hetzelfde begrip ook als ander elementtype is vastgelegd (actor/rol ↔ bedrijfsobject); beide pagina's mogen dezelfde ggm_guid dragen
+#  - element: {wiki-link naar de tegenhanger-pagina}
+#    archimate_type: {elementtype van de tegenhanger}
+#    toelichting: {bijv. "de gegevens over deze actor worden vastgelegd als bedrijfsobject"}
 bo_relaties:
   - type: {associatie | compositie | generalisatie}
     bedrijfsobject: [[gerelateerd-bedrijfsobject]]

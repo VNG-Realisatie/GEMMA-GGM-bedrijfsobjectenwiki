@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Inburgeringsaanbod
 domein:
 - Asiel en Integratie

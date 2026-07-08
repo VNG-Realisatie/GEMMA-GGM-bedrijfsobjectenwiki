@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Reisdocument
 onderwerp: [Basisregistraties, BRP]
 archimate_type: business-object

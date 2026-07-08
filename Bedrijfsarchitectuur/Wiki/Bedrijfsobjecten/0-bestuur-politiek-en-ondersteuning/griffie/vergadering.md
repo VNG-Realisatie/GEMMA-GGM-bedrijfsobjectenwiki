@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vergadering
 onderwerp: [bestuur]
 archimate_type: business-object

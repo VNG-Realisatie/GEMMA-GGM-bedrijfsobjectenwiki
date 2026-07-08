@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Inspectie
 onderwerp: [Omgevingswet, Vastgoed]
 archimate_type: business-object

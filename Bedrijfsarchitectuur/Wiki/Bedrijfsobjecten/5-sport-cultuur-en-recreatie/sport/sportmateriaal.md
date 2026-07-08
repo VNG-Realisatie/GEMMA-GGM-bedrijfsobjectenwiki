@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Sportmateriaal
 domein: [Sport en Bewegen]
 archimate_type: "business-object"

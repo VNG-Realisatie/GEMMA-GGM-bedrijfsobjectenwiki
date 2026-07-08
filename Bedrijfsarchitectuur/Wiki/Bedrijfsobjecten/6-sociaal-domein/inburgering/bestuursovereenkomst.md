@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Bestuursovereenkomst
 domein:
 - Asiel en Integratie

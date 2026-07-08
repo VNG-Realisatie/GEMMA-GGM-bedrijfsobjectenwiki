@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Niet-Natuurlijk Persoon
 onderwerp: [Basisregistraties, NHR]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Hulpverleningsplan
 onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object

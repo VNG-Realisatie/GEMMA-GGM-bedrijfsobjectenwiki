@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Asielstatushouder
 domein:
 - Asiel en Integratie

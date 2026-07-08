@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Kolk
 domein:
 - Beheer Openbare Ruimte

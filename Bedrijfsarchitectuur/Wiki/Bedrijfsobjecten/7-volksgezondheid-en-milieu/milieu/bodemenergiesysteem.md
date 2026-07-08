@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Bodemenergiesysteem
 domein: [Milieu]
 archimate_type: "business-object"

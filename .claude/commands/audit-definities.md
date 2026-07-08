@@ -2,7 +2,7 @@ Controleer en herstel definities van bestaande BO's: $ARGUMENTS
 
 Input: onderwerp (alle BO's in dat onderwerp), beleidsdomein, of leeg (= alle BO's).
 
-Controleert `bo_definitie` en `bo_toelichting` tegen de definitieregels uit `/write-bo` stap 5.
+Controleert `bo_definitie` en `bo_toelichting` tegen de definitieregels uit `/write-element` stap 5.
 
 ## Stap 1: BO's verzamelen
 
@@ -59,6 +59,6 @@ Toon samenvattende tellingen: totaal gecontroleerd, fouten, waarschuwingen, OK.
 
 ## Stap 4: Herstel
 
-Na rapportage: bied aan om de fouten te herstellen. Pas per BO `bo_definitie` en `bo_toelichting` opnieuw af volgens de regels in `/write-bo` stap 5 (paragraaf **Wiki-velden**). Lees de bronsamenvattingen en GGM-definitie, doorloop de drie scenario's, en schrijf het resultaat terug.
+Na rapportage: bied aan om de fouten te herstellen. Pas per BO `bo_definitie` en `bo_toelichting` opnieuw af volgens de regels in `/write-element` stap 5 (paragraaf **Wiki-velden**). Lees de bronsamenvattingen en GGM-definitie, doorloop de drie scenario's, en schrijf het resultaat terug.
 
 Voer herstel per BO uit en toon wat is gewijzigd.

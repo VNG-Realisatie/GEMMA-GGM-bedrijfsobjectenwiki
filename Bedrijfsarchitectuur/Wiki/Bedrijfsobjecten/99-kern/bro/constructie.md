@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Constructie
 onderwerp: [Basisregistraties]
 archimate_type: business-object

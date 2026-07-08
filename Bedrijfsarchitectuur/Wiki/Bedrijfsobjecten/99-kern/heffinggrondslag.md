@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: "Heffinggrondslag"
 domein: [Belastingen]
 archimate_type: "business-object"

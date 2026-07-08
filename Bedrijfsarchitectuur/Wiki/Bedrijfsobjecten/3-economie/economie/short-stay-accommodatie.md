@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Short Stay Accommodatie
 domein: [Economie]
 archimate_type: "business-object"

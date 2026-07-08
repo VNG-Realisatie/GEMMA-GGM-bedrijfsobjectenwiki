@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Vastgoedobject
 onderwerp: [Vastgoed]
 archimate_type: business-object

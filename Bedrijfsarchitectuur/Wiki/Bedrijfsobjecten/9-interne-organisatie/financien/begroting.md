@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Begroting
 domein: [Financien]
 archimate_type: "business-object"

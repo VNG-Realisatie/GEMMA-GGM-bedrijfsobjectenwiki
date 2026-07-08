@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Brede Intake
 domein:
 - Asiel en Integratie

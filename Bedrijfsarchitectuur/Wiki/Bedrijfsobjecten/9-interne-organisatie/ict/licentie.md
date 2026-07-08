@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Licentie
 onderwerp: [Informatiesystemen]
 archimate_type: business-object

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Aflossingsplan
 domein: [Terug-en-invordering]
 archimate_type: "business-object"

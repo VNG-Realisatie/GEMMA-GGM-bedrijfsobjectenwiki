@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Ligplaats
 onderwerp: [Beheer Openbare Ruimte, Wonen, Basisregistraties, BAG]
 archimate_type: business-object

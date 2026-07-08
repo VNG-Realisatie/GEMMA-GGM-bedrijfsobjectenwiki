@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: "Bed-and-breakfast"
 domein: [Economie]
 archimate_type: "business-object"

@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Evenementenlocatie
 domein: [evenementen]
 archimate_type: "business-object"

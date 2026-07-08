@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Ingeschreven Persoon
 onderwerp: [Basisregistraties, BRP]
 archimate_type: business-object

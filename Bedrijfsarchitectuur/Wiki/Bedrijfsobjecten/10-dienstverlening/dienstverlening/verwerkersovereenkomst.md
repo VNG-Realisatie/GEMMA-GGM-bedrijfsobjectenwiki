@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Verwerkersovereenkomst
 onderwerp: [Informatiesamenleving]
 archimate_type: contract

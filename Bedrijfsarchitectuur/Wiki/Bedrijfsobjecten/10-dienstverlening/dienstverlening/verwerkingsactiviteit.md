@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Verwerkingsactiviteit
 onderwerp: [Informatiesamenleving]
 archimate_type: business-object

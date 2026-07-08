@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Gemaal
 domein:
 - Beheer Openbare Ruimte

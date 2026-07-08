@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Dierenweide
 domein: [Dierenwelzijn]
 archimate_type: "business-object"

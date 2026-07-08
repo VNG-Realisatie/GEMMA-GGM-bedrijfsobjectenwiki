@@ -1,5 +1,5 @@
 ---
-type: bedrijfsobject
+type: element
 naam: Milieustraat
 domein: [Milieu]
 archimate_type: "business-object"
