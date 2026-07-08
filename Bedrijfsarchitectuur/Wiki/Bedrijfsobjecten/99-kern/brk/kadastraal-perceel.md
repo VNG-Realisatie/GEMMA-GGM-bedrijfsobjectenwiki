@@ -41,6 +41,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **KadastraalPerceel**.
 bo_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet)."
 bo_toelichting: ''
 bo_relaties:

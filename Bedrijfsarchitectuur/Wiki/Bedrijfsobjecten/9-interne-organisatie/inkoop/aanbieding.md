@@ -29,6 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Inschrijving**.
 bo_homoniemen:
   - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|Opleidingsinschrijving]]"
     ggm_entiteit: "Inschrijving"

@@ -29,6 +29,13 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Licentie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **CMDB-item** (detail) — Detailgegeven (weinig attributen)
+  - **Inventaris** (detail) — Detailgegeven (weinig attributen)
+  - **Log** (detail) — Detailgegeven (weinig attributen)
+  - **Toegangsmiddel** (detail) — Detailgegeven (weinig attributen)
+  - **Vervoersmiddel** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Gebruiksrecht op grond waarvan de gemeente bevoegd is een ICT-product of -dienst te gebruiken binnen overeengekomen voorwaarden."
 bo_toelichting: ''
 bo_relaties:

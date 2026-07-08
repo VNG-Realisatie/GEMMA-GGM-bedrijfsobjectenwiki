@@ -39,6 +39,9 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Tenaamstelling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aantekening** (detail) — procesnotitie
 bo_definitie: "Een TENAAMSTELLING vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."
 bo_toelichting: ''
 bo_relaties:

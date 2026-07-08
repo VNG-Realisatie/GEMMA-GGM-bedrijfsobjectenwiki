@@ -29,6 +29,19 @@ ggm_duplicaat_entiteiten:
   - "EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A"
   - "EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Product** als directe tegenhanger. Daarnaast is **Product** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Product** (beleidsdomein ICT) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Balieverkoop** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Balieverkoop Entreekaart** (detail) — Detailgegeven (weinig attributen)
+  - **Dienst** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Domein/Taakveld** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Entreekaart** (detail) — Detailgegeven (weinig attributen)
+  - **Omzetgroep** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Onderwerp** (detail) — Detailgegeven (weinig attributen)
+  - **Prijs** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Prijzenboek** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Productgroep** (classificatie) — Administratieve classificatie
+  - **Winkelvoorraaditem** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."
 bo_toelichting: ''
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit

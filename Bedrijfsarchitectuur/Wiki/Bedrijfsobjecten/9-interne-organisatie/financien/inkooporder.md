@@ -24,6 +24,9 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ede48ca8-4854-44b2-b549-0827bebf56ab"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Inkooporder** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Verplichting Wmo Jeugd** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een opdracht (gezien vanuit de klant) voor één of meer leveringen door de leverancier aan die klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen leveringsvoorwaarden en prijzen."
 bo_toelichting: ''
 definitie: Een opdracht voor één of meer leveringen door de leverancier aan de klant van een bepaalde hoeveelheid gespecificeerde goederen en/of diensten onder overeengekomen voorwaarden en prijzen

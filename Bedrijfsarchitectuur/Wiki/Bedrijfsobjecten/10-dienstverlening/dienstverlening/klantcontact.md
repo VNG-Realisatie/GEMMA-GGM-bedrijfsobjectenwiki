@@ -25,6 +25,12 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a9cb919f-a224-4ab5-982
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Klantcontact** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Telefoononderwerp** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Telefoonstatus** (detail) — Detailgegeven (weinig attributen)
+  - **Telefoontje** (detail) — Detailgegeven
+  - **VestigingVanZaakbehandelendeOrganisatie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Contactmoment dat werkelijk heeft plaatsgevonden tussen een burger of bedrijf en de gemeente, via balie, telefoon, e-mail of ander kanaal."
 bo_toelichting: ""
 bo_relaties:

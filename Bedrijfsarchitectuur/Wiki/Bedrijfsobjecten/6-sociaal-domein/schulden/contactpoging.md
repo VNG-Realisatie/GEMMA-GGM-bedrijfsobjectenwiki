@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Contactpoging** als directe tegenhanger.
 bo_definitie: "Een Contactpoging is de actie die de gemeente onderneemt om in contact te treden met de inwoner naar aanleiding van een vroegsignaal."
 bo_toelichting: ''
 bo_subtypes: []

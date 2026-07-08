@@ -94,6 +94,7 @@ def load_bo_pages():
         grondslag = fm.get('grondslag', '') or ''
 
         homoniemen = fm.get('bo_homoniemen', []) or []
+        synoniemen = fm.get('bo_synoniemen', []) or []
         is_data_object = grondslag in ('ggm-entiteit', 'ggm-afgeleid', 'procesobject')
 
         # Derive taakveld from path: Wiki/Bedrijfsobjecten/{taakveld}/{bd}/
@@ -104,6 +105,7 @@ def load_bo_pages():
             'naam': naam, 'path': rel, 'ggm_entiteit': ggm_ent,
             'ggm_guid': ggm_guid, 'ggm_beleidsdomein': ggm_bd,
             'grondslag': grondslag, 'homoniemen': homoniemen,
+            'synoniemen': synoniemen,
             'is_data_object': is_data_object,
             'taakveld_slug': bo_taakveld_slug,
         }
@@ -362,6 +364,8 @@ def _camel_words(name):
 def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes):
     """Compute dekking: welk BO dekt deze entiteit structureel?
 
+    Retourneert (dekking_str, target_bo_info_of_None, match_kind).
+
     Dekkingswaarden (zelfde semantiek als ggm-vergelijking):
     - beschrijft [[BO]]          — direct pad naar BO
     - via X → [[BO]]             — via tussenentiteit naar BO
@@ -370,22 +374,25 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     - referentietabel            — classificatie zonder specifiek BO
     - n.v.t.                     — abstract/proces/actor/rol
     - generieke bouwsteen        — gebruikt door meerdere BO's, geen eigenaar
+
+    match_kind: 'n.v.t.' | 'generiek' | 'duplicaat' | 'graph' | 'naam' |
+                'classificatie-prefix' | 'referentietabel' | 'geen-match'
     """
     if etype in ('abstract', 'proces', 'actor', 'rol', 'meetinstrument', 'cross-cutting'):
-        return 'n.v.t.'
+        return 'n.v.t.', None, 'n.v.t.'
 
     bo_ids = set(bo_by_guid.keys())
     verb = "typering" if etype == 'classificatie' else "beschrijft"
 
     # 1. Generieke bouwsteen: geen eigenaar-BO, gebruikt door tientallen BO's
     if name in GENERIC_BUILDING_BLOCKS:
-        return "generieke bouwsteen — gebruikt door meerdere BO's"
+        return "generieke bouwsteen — gebruikt door meerdere BO's", None, 'generiek'
 
     # 2. Exacte naam-duplicaat van een bestaand BO (andere GUID) — zelfde
     #    concept dubbel gemodelleerd in het GGM (bijv. RSGB Wijk vs. BAG Wijk)
     dup = bo_by_name.get(name.lower())
     if dup and dup.get('ggm_guid') and dup['ggm_guid'] in bo_ids and dup['ggm_guid'] != eid:
-        return f"{verb} {bo_link(dup)}"
+        return f"{verb} {bo_link(dup)}", dup, 'duplicaat'
 
     # 3. Unified search over generalisatie (omhoog + omlaag) en associaties,
     #    generalisatie het eerst gecheckt per node, eigen beleidsdomein
@@ -394,9 +401,10 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     result = graph.bfs_to_bo(eid, bo_ids, objecttypes, prefer_bd=own_bd)
     if result:
         path, bo_eid = result
+        target = bo_by_guid[bo_eid]
         if len(path) == 1:
-            return f"{verb} {bo_link(bo_by_guid[bo_eid])}"
-        return f"via {path[0]} → {bo_link(bo_by_guid[bo_eid])}"
+            return f"{verb} {bo_link(target)}", target, 'graph'
+        return f"via {path[0]} → {bo_link(target)}", target, 'graph'
 
     # 4. Naam-gebaseerd: CamelCase-woordgrens, of prefix/suffix-match voor
     #    Nederlandse samenstellingen ("Bemiddelingsactiviteit" eindigt op
@@ -420,7 +428,7 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
             if info.get('ggm_guid') and info['ggm_guid'] in bo_ids:
                 best, best_len = info, len(kc)
     if best:
-        return f"{verb} {bo_link(best)}"
+        return f"{verb} {bo_link(best)}", best, 'naam'
 
     # 5. Strip classification prefix
     if etype == 'classificatie':
@@ -429,10 +437,10 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
                 base = name[len(pfx):]
                 bo = bo_by_name.get(base.lower())
                 if bo and bo.get('ggm_guid') and bo['ggm_guid'] in bo_ids:
-                    return f"typering {bo_link(bo)}"
-        return 'referentietabel'
+                    return f"typering {bo_link(bo)}", bo, 'classificatie-prefix'
+        return 'referentietabel', None, 'referentietabel'
 
-    return '⚠️ geen BO bereikbaar'
+    return '⚠️ geen BO bereikbaar', None, 'geen-match'
 
 
 # ── RSGBPlus Registratie-groepering ──────────────────────────────────────────
@@ -561,11 +569,16 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
             if bo_info['naam'].lower() != name.lower():
                 etype = 'synoniem'
 
-            naamoverlap = ''
+            naamoverlap_parts = []
+            for s in (bo_info.get('synoniemen') or []):
+                syn_naam = s.get('naam', '')
+                if syn_naam:
+                    naamoverlap_parts.append(f"synoniem: {syn_naam}")
             for h in (bo_info.get('homoniemen') or []):
                 other = h.get('bedrijfsobject', '')
                 if other:
-                    naamoverlap = other
+                    naamoverlap_parts.append(f"homoniem: {other}")
+            naamoverlap = '; '.join(naamoverlap_parts)
 
             bo_matches.append({
                 'ggm_name': name, 'eid': eid,
@@ -589,11 +602,14 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
                 if begrip.get('reden'):
                     rationale = begrip['reden']
 
-            dekking = compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes)
+            dekking, dekking_bo, match_kind = compute_dekking(
+                eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes)
 
             geen_match.append({
                 'ggm_name': name, 'eid': eid,
                 'entiteitstype': etype, 'dekking': dekking,
+                'dekking_bo_path': dekking_bo['path'] if dekking_bo else None,
+                'match_kind': match_kind,
                 'beoordeling': rationale, 'confidence': conf,
             })
 
@@ -800,15 +816,14 @@ def generate_taakveld_md(tv_result, hiaten_by_tv, ggm_path_map):
         bd_r = bds[bd_name]
         lines.append(f'## {bd_name}')
         lines.append('')
-        lines.append(f'{bd_r["entity_count"]} entiteiten, '
-                     f'{bd_r["match_count"]} Entiteiten met BO.')
+        lines.append(_bd_stats_line(bd_r))
         lines.append('')
 
         # RSGBPlus: subsecties
         if 'rsgb_subgroups' in bd_r:
             _write_rsgb_sections(lines, bd_r, ggm_path_map, bd_name)
         else:
-            _write_bd_tables(lines, bd_r, ggm_path_map, bd_name)
+            _write_bd_table(lines, bd_r, ggm_path_map, bd_name)
 
     # BO's zonder GGM-entiteit
     if tv_hiaten:
@@ -830,28 +845,51 @@ def generate_taakveld_md(tv_result, hiaten_by_tv, ggm_path_map):
     return '\n'.join(lines)
 
 
-def _write_bd_tables(lines, bd_r, pm, bd_name):
-    """Write Entiteiten met BO + Geen BO-match tables for a beleidsdomein."""
-    if bd_r['bo_matches']:
-        lines.append('### Entiteiten met BO')
-        lines.append('')
-        lines.append('| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |')
-        lines.append('|---|---|---|---|---|')
-        for m in bd_r['bo_matches']:
-            gl = ggm_link(m['ggm_name'], bd_name, pm)
-            bl = f"[[{m['bo_path']}\\|{m['bo_naam']}]] ✅"
-            lines.append(f"| {gl} | {bl} | {m['entiteitstype']} | {m['naamoverlap']} | {m['beoordeling']} |")
-        lines.append('')
+def _bd_stats_line(bd_r):
+    """Scriptgegenereerde statistiekregel per beleidsdomein (nooit stale, want
+    altijd vers berekend — de Beoordeling-proza hoeft deze aantallen dus niet
+    te herhalen)."""
+    total = bd_r['entity_count']
+    gedekt = bd_r['match_count'] + bd_r['ondersteunend']
+    pct = round(100 * gedekt / total) if total else 0
+    return (f"{total} GGM-entiteiten: {bd_r['match_count']} met BO, "
+            f"{bd_r['ondersteunend']} ondersteunend aan BO, "
+            f"{bd_r['niet_gedekt']} niet gedekt. "
+            f"Dekking: {gedekt} van {total} ({pct}%).")
 
-    if bd_r['geen_match']:
-        lines.append('### Entiteiten zonder BO')
-        lines.append('')
-        lines.append('| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |')
-        lines.append('|---|---|---|---|')
-        for g in sorted(bd_r['geen_match'], key=lambda x: (x['entiteitstype'], x['ggm_name'])):
-            gl = ggm_link(g['ggm_name'], bd_name, pm)
-            lines.append(f"| {gl} | {g['entiteitstype']} | {g['dekking']} | {g['beoordeling']} |")
-        lines.append('')
+
+def _write_entity_table(lines, bo_matches, geen_match, pm, bd_name):
+    """Eén samengevoegde tabel: BO-matches en niet-gematchte entiteiten,
+    alfabetisch op GGM-entiteitnaam. De BO/Dekking-kolom toont óf de directe
+    BO-link (✅) óf de beschrijft/via/typering/n.v.t./⚠️-route."""
+    rows = []
+    for m in bo_matches:
+        rows.append({
+            'ggm_name': m['ggm_name'],
+            'bo_dekking': f"[[{m['bo_path']}\\|{m['bo_naam']}]] ✅",
+            'entiteitstype': m['entiteitstype'], 'naamoverlap': m['naamoverlap'],
+            'beoordeling': m['beoordeling'],
+        })
+    for g in geen_match:
+        rows.append({
+            'ggm_name': g['ggm_name'], 'bo_dekking': g['dekking'],
+            'entiteitstype': g['entiteitstype'], 'naamoverlap': '',
+            'beoordeling': g['beoordeling'],
+        })
+    if not rows:
+        return
+
+    lines.append('| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |')
+    lines.append('|---|---|---|---|---|')
+    for r in sorted(rows, key=lambda x: x['ggm_name']):
+        gl = ggm_link(r['ggm_name'], bd_name, pm)
+        lines.append(f"| {gl} | {r['bo_dekking']} | {r['entiteitstype']} "
+                     f"| {r['naamoverlap']} | {r['beoordeling']} |")
+    lines.append('')
+
+
+def _write_bd_table(lines, bd_r, pm, bd_name):
+    _write_entity_table(lines, bd_r['bo_matches'], bd_r['geen_match'], pm, bd_name)
 
 
 def _write_rsgb_sections(lines, bd_r, pm, bd_name):
@@ -875,25 +913,7 @@ def _write_rsgb_sections(lines, bd_r, pm, bd_name):
 
         lines.append(f"### {labels.get(grp, grp)}")
         lines.append('')
-
-        if data['bo_matches']:
-            lines.append('| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |')
-            lines.append('|---|---|---|---|---|')
-            for m in data['bo_matches']:
-                gl = ggm_link(m['ggm_name'], bd_name, pm)
-                bl = f"[[{m['bo_path']}\\|{m['bo_naam']}]] ✅"
-                lines.append(f"| {gl} | {bl} | {m['entiteitstype']} | {m['naamoverlap']} | {m['beoordeling']} |")
-            lines.append('')
-
-        if data['geen_match']:
-            lines.append('**Entiteiten zonder BO:**')
-            lines.append('')
-            lines.append('| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |')
-            lines.append('|---|---|---|---|')
-            for g in sorted(data['geen_match'], key=lambda x: (x['entiteitstype'], x['ggm_name'])):
-                gl = ggm_link(g['ggm_name'], bd_name, pm)
-                lines.append(f"| {gl} | {g['entiteitstype']} | {g['dekking']} | {g['beoordeling']} |")
-            lines.append('')
+        _write_entity_table(lines, data['bo_matches'], data['geen_match'], pm, bd_name)
 
 
 # ── Totaaloverzicht ──────────────────────────────────────────────────────────
@@ -999,6 +1019,56 @@ def generate_review(all_tv_results):
 
 # ── Main ─────────────────────────────────────────────────────────────────────
 
+def run_full_analysis(taakveld_filter=None, verbose=True):
+    """Laad GGM+BO-data en bereken de volledige entiteitendekking-analyse.
+
+    Herbruikt door zowel main() als tools/entiteitendekking_sync_bo.py, zodat
+    er maar één plek is die de matching/classificatie-pipeline uitvoert.
+
+    Retourneert (all_tv_results, hiaten_by_tv, ggm_path_map, bo_by_guid,
+    bo_by_name, all_bos).
+    """
+    if verbose:
+        print("Loading data...")
+    ggm_data, objecttypes = load_ggm()
+    bo_by_guid, bo_by_name, all_bos = load_bo_pages()
+    ggm_path_map = load_ggm_path_map()
+    graph = RelationGraph(ggm_data, objecttypes)
+    excluded_ids = find_excluded_ids(objecttypes, graph, bo_by_guid)
+
+    if verbose:
+        print(f"  GGM: {len(objecttypes)} Objecttype, {len(bo_by_guid)} BO's, "
+              f"{len(excluded_ids)} excluded")
+
+    tv_merge, bd_merge = build_hierarchy_merges(ggm_data)
+    tv_structure = build_taakveld_structure(objecttypes, excluded_ids, bo_by_guid, tv_merge, bd_merge)
+    hiaten_by_tv = find_hiaten(all_bos, bo_by_guid)
+
+    if taakveld_filter:
+        tv_structure = {tv: bds for tv, bds in tv_structure.items()
+                        if taakveld_filter in tv or taakveld_filter == slugify(tv)}
+
+    all_tv_results = {}
+    for tv_name in sorted(tv_structure.keys(), key=taakveld_sort_key):
+        bd_entities = tv_structure[tv_name]
+        tv_result = process_taakveld(
+            tv_name, bd_entities, objecttypes, graph,
+            bo_by_guid, bo_by_name, all_bos)
+
+        all_tv_results[tv_name] = tv_result
+        if verbose:
+            slug = tv_result['slug']
+            tv_hiaten = hiaten_by_tv.get(slug, [])
+            bd_summary = ', '.join(
+                f"{bd}({r['match_count']})" for bd, r in sorted(tv_result['beleidsdomeinen'].items()))
+            print(f"  {tv_name}: {tv_result['total_entities']} ent, "
+                  f"{tv_result['total_matches']} matches, "
+                  f"{len(tv_hiaten)} hiaten, {tv_result['total_review']} review "
+                  f"[{bd_summary}]")
+
+    return all_tv_results, hiaten_by_tv, ggm_path_map, bo_by_guid, bo_by_name, all_bos
+
+
 def main():
     parser = argparse.ArgumentParser(description='Entiteitendekking: GGM-analyse per taakveld')
     parser.add_argument('--taakveld', type=str, help='Filter op taakveld (nummer of naam)')
@@ -1009,47 +1079,12 @@ def main():
     if not args.taakveld and not args.all:
         parser.error('Specify --taakveld or --all')
 
-    print("Loading data...")
-    ggm_data, objecttypes = load_ggm()
-    bo_by_guid, bo_by_name, all_bos = load_bo_pages()
-    ggm_path_map = load_ggm_path_map()
-    graph = RelationGraph(ggm_data, objecttypes)
-    excluded_ids = find_excluded_ids(objecttypes, graph, bo_by_guid)
+    all_tv_results, hiaten_by_tv, ggm_path_map, bo_by_guid, bo_by_name, all_bos = \
+        run_full_analysis(taakveld_filter=args.taakveld)
 
-    print(f"  GGM: {len(objecttypes)} Objecttype, {len(bo_by_guid)} BO's, "
-          f"{len(excluded_ids)} excluded")
-
-    tv_merge, bd_merge = build_hierarchy_merges(ggm_data)
-    tv_structure = build_taakveld_structure(objecttypes, excluded_ids, bo_by_guid, tv_merge, bd_merge)
-    hiaten_by_tv = find_hiaten(all_bos, bo_by_guid)
-
-    # Filter if --taakveld
-    if args.taakveld:
-        filtered = {}
-        for tv in tv_structure:
-            if args.taakveld in tv or args.taakveld == slugify(tv):
-                filtered[tv] = tv_structure[tv]
-        tv_structure = filtered
-
-    all_tv_results = {}
-    for tv_name in sorted(tv_structure.keys(), key=taakveld_sort_key):
-        bd_entities = tv_structure[tv_name]
-        tv_result = process_taakveld(
-            tv_name, bd_entities, objecttypes, graph,
-            bo_by_guid, bo_by_name, all_bos)
-
-        all_tv_results[tv_name] = tv_result
-        slug = tv_result['slug']
-        tv_hiaten = hiaten_by_tv.get(slug, [])
-
-        bd_summary = ', '.join(
-            f"{bd}({r['match_count']})" for bd, r in sorted(tv_result['beleidsdomeinen'].items()))
-        print(f"  {tv_name}: {tv_result['total_entities']} ent, "
-              f"{tv_result['total_matches']} matches, "
-              f"{len(tv_hiaten)} hiaten, {tv_result['total_review']} review "
-              f"[{bd_summary}]")
-
-        if not args.dry_run:
+    if not args.dry_run:
+        for tv_name, tv_result in all_tv_results.items():
+            slug = tv_result['slug']
             md = generate_taakveld_md(tv_result, hiaten_by_tv, ggm_path_map)
             out = OUTPUT_DIR / f"{slug}.md"
             out.parent.mkdir(parents=True, exist_ok=True)

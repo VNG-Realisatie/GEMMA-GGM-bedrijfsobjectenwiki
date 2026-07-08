@@ -25,6 +25,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Zaaktype** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Statustype** (detail) — Attribuut/modelleringskeuze, geen zelfstandig BO
 bo_definitie: "Definitie van een soort zaak met kenmerken als doorlooptijd, servicenorm, archiefcode en verantwoordelijke organisatorische eenheid."
 bo_toelichting: "Zaaktypen worden centraal en door gemeenten gedefinieerd. Zaaktypecatalogi bundelen zaaktypen voor gebruik in zaaksystemen."
 bo_relaties:

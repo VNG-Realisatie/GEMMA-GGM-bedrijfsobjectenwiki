@@ -29,6 +29,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Declaratie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Declaratiesoort** (classificatie) — Typering/referentietabel
 bo_definitie: "Een opgave van te vergoeden kosten."
 bo_toelichting: ''
 bo_homoniemen:

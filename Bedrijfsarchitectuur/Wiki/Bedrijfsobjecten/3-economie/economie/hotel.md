@@ -24,6 +24,9 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4b2cc303-de99-49c4-968f-836a71825814"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Hotel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Hotelbezoek** (detail) — Meting/transactie, geen zelfstandig object
 bo_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
 bo_toelichting: ''
 bedrijfsprocessen: [hotelvergunningverlening, hotelbeleid, toeristenbelastingheffing]

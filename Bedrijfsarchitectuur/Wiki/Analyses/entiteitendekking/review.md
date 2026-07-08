@@ -1,23 +1,23 @@
-# Entiteitendekking review — 2026-07-07
+# Entiteitendekking review — 2026-07-08
 
-Totaal review-items: 105.
+Totaal review-items: 97.
 
 ## Samenvatting
 
 | Taakveld | GGM | Entiteiten met BO | Review |
 |---|---|---|---|
-| 0 Bestuur, Politiek en Ondersteuning | 13 | 3 | 0 |
-| 1 Veiligheid en Vergunningen | 30 | 7 | 8 |
+| 0 Bestuur, Politiek en Ondersteuning | 13 | 4 | 0 |
+| 1 Veiligheid en Vergunningen | 30 | 8 | 7 |
 | 2 Verkeer, Vervoer en Waterstaat | 20 | 13 | 0 |
 | 3 Economie | 6 | 1 | 1 |
-| 4 Onderwijs | 27 | 10 | 0 |
-| 5 Sport, Cultuur en Recreatie | 81 | 12 | 8 |
-| 6 Sociaal Domein | 285 | 49 | 38 |
+| 4 Onderwijs | 27 | 11 | 0 |
+| 5 Sport, Cultuur en Recreatie | 81 | 16 | 5 |
+| 6 Sociaal Domein | 285 | 53 | 38 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 0 |
-| 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 26 | 27 |
-| 9 Interne Organisatie | 148 | 44 | 13 |
+| 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 28 | 26 |
+| 9 Interne Organisatie | 148 | 47 | 13 |
 | 10 Dienstverlening | 16 | 3 | 2 |
-| 99 Kern | 155 | 34 | 8 |
+| 99 Kern | 156 | 45 | 5 |
 
 ## Items voor review
 
@@ -28,7 +28,6 @@ Totaal review-items: 105.
 - **MORAanvraagOfMelding** → detail (5 attrs). *MORAanvraagOfMelding* is een aanvraag of melding die een burger of organisatie doet bij de gemeente om een **situatie i
 - **VOMAanvraagOfMelding** → detail (11 attrs). VOM staat voor Vergunning, Ontheffing of Melding. Het betreft hier een melding of een aanvraag voor een vergunning of ee
 - **VTH-Melding** → detail (16 attrs). Melding met betrekking tot Vergunningen, Toezicht en Handhaving
-- **Vordering** → detail (13 attrs). Een *vordering* is een juridisch recht dat een schuldeiser heeft om van een andere partij (schuldenaar) een prestatie te
 - **WABOAanvraagOfMelding** → detail (5 attrs). Aanvraag of medling in het kader van de Wet algemene bepalingen omgevingsrecht (WABO)
 - **WoonfraudeAanvraagOfMelding** → detail (5 attrs). Melding of aanvraag van woonfraude
 
@@ -40,15 +39,9 @@ Totaal review-items: 105.
 
 - **Artefact** → detail (28 attrs). De benaming voor ieder verplaatsbaar object dat door de mens is vervaardigd, bewerkt en/of gebruikt. 
 - **Doos** → detail (6 attrs). Een afsluitbaar object waar iets in wordt opgeborgen of verpakt.
-- **Magazijnplaatsing** → detail (8 attrs). Het ergens neerzetten van een object in een magazijn.
-- **Project** → detail (11 attrs). Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden 
 - **Spoor** → detail (13 attrs). Een blijk van eerdere aanwezigheid.
 - **Vlak** → detail (7 attrs). Plat, oneindig oppervlak of variëteit zonder enige kromming. 
 - **Vulling** → detail (10 attrs). Dunne wegeringsplank gebruikt om de ruimte tussen de bovenste kimweger en de onderste balkweger op te vullen (Sopers, 19
-
-### 5 Sport, Cultuur en Recreatie — Musea
-
-- **Reservering** → detail (5 attrs). Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d.
 
 ### 6 Sociaal Domein — Generiek Jeugd en Wmo
 
@@ -129,8 +122,6 @@ Een ruimtelijk object ter in
 - **Pomp** → detail (17 attrs). Een technische installatie die het (afval) water onder druk transporteert.
 - **Rioolput** → detail (12 attrs). Constructie toegang gevend tot het rioolstelsel
 - **Scheiding** → detail (11 attrs). Kunstmatig, meestal lineair obstakel met een werende functie.
-- **Sportterrein** → detail (8 attrs). Terrein mogelijk met groenvoorziening, verharding en bebouwing bestemd voor sportbeoefening.
-Synoniemen: Sportveld
 - **Tunnelobject** → detail (14 attrs). Onderdeel van een kunstmatig aangelegde, kokervormige onderdoorgang dat essentieel is voor de constructie.
 - **Vegetatieobject** → detail (12 attrs). Verzamelobject van alle vegetatieobjecten - niveau 2
 - **Viaduct** → detail (11 attrs). Kunstwerk over een weg, spoorweg of terreinverdieping, bestaande uit een dek gesteund door pijlers en/of landhoofden.
@@ -183,8 +174,4 @@ ID: FORM_ID en VELD_NAAM
 
 - **KadastraleOnroerendeZaakAantekening** → detail (5 attrs). Aanduiding van het feit, genoemd in een Stuk, dat betrekking heeft op een onroerende zaak en dat gevolgen kan hebben voo
 - **Land** → detail (7 attrs). Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
-- **Ligplaats** → detail (6 attrs). Definitie
-Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan 
-- **OpenbareRuimte** → detail (16 attrs). Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één 
 - **Provincie** → detail (7 attrs). Een gedeelte van de wereld met een eigen bestuur, waarvan de soevereiniteit in ieder geval door Nederland is erkend.
-- **Woonplaats** → detail (9 attrs). Een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied 

@@ -27,6 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Formatieplaats** als directe tegenhanger.
 bo_definitie: "Uitgangspunt is het vastgestelde formatieplan, dus niet de werkelijke bezetting."
 bo_toelichting: "Het gaat hier om de toegestane formatie in fte van het ambtelijk apparaat van uw organisatie voor het begrotingsjaar."
 bo_relaties:

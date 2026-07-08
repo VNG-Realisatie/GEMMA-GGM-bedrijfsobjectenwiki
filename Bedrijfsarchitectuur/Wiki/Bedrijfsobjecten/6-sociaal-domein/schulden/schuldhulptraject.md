@@ -19,6 +19,22 @@ ggm_gemma_guid: "id-839017b2-0f95-42d0-ab2b-e873636340da"
 ggm_gemma_definitie: ""
 ggm_gemma_type: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Schuldhulptraject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aanmelding** (detail) — Procesfase van Schuldhulptraject
+  - **Begeleiding** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Begeleidingssoort** (classificatie) — Typering/referentietabel
+  - **Crisisinterventie** (detail) — Procesfase van Schuldhulptraject
+  - **InformatieEnAdvies** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Intake** (detail) — Procesfase van Schuldhulptraject
+  - **Nazorg** (detail) — Procesfase van Schuldhulptraject
+  - **Oplossing** (detail) — Onderdeel van Schuldhulptraject, 1:1 met traject
+  - **Oplossingssoort** (classificatie) — Typering/referentietabel
+  - **PlanVanAanpak** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Schuldhulporganisatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Stabilisatie** (detail) — Procesfase van Schuldhulptraject
+  - **Uitstroom** (detail) — Detailgegeven (geassocieerd met BO)
+  - **VoorlopigeVoorziening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert."
 bo_toelichting: ''
 bo_subtypes: []

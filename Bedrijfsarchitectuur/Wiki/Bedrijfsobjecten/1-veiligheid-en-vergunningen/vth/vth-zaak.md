@@ -27,6 +27,13 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **VTHzaak**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Activiteit Omgevingswet** (detail) — Detailgegeven
+  - **Kosten** (detail) — Detailgegeven
+  - **Leges_Grondslag** (detail) — Detailgegeven
+  - **Producttype** (classificatie) — Typering/referentietabel
+  - **SubProducttype** (classificatie) — Typering/referentietabel
 bo_definitie: "Een VTHzaak is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op vergunningverlening, toezicht en handhaving (VTH) van regels en voorschriften in de fysieke leefomgeving."
 bo_toelichting: ''
 bo_subtypes: []

@@ -24,6 +24,9 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Interventie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Interventieverzoek** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
 bo_toelichting: ''
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen

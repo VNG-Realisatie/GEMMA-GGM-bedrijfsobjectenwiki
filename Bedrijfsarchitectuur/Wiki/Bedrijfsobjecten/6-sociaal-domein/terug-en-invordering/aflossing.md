@@ -24,6 +24,10 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Aflossing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aflossingsafspraak** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Loonbeslagafspraak** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een aflossing is de betaling van een afgesproken of opgelegd bedrag op een vordering."
 bo_toelichting: "Een aflossing gebeurt in het kader van een aflossingsafspraak gemaakt bij een vordering of wordt eenzijdig opgelegd. De aflossing wordt geadministreerd als een vorderingscomponent onder die vordering. Afgesproken is minnelijk maar kan ook opgelegd worden, bijv. 5% verrekening of beslag op loon."
 definitie: De betaling van een afgesproken of opgelegd bedrag op een vordering

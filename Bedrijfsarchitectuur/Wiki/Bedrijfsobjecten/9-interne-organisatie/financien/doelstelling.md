@@ -28,6 +28,10 @@ ggm_gemma_alternate_name: "Doelstelling (Financien)"
 ggm_duplicaat_entiteiten:
   - "EAID_28C572B5_C147_4b99_B920_00062C843FDE"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Doelstelling** als directe tegenhanger. Daarnaast is **Doelstelling** (beleidsdomein Sociale Teams) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Doelstellingsoort** (classificatie) — Typering/referentietabel
+  - **Hoofdstuk** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een op korte of middellange termijn nagestreefde situatie"
 bo_toelichting: ''
 definitie: Een op korte of middellange termijn nagestreefde situatie

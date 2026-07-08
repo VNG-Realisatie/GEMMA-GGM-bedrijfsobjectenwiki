@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Reintegratievoorziening**.
 bo_definitie: "Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten."
 bo_toelichting: ''
 bo_relaties:

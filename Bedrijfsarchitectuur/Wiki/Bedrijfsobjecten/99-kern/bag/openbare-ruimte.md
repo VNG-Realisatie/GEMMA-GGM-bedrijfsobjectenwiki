@@ -34,6 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (IdentificatiecodeOpenbareRuimte, statusOpenbareRuimte, etc.); voegt IMGeo-identificatie toe; minder attributen (geen versie, wegsegment, straatcode, documentvelden); voegt inOnderzoek toe"
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **OpenbareRuimte**. Daarnaast is **OpenbareRuimte** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een openbare ruimte is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorziene buitenruimte die binnen één woonplaats is gelegen."
 bo_toelichting: ''
 bo_relaties:

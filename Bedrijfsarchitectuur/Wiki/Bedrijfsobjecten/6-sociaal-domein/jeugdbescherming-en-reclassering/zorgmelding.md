@@ -27,6 +27,12 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Zorgmelding** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Incident** (detail) — Detailgegeven
+  - **Informering** (detail) — Detailgegeven (weinig attributen)
+  - **Leefgebied** (detail) — Detailgegeven (weinig attributen)
+  - **Zorgelijke Situatie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere."
 bo_toelichting: ''
 bo_relaties:

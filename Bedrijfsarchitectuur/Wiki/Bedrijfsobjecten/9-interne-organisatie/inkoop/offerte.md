@@ -39,6 +39,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Niet op een diagram geplaatst"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Offerte** als directe tegenhanger. Daarnaast is **Offerte** (beleidsdomein Vastgoed) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Offerte** (beleidsdomein RGBZPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Aanbod, aanbieding of voorstel van goederen of diensten waarin opgave is gedaan van de prijs."
 bo_toelichting: ''
 bo_relaties:

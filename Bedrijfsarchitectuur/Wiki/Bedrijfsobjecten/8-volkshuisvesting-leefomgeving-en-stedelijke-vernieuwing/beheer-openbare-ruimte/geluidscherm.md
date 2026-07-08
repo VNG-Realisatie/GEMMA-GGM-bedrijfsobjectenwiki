@@ -24,6 +24,11 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Geluidsscherm**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Kademuur** (detail) — Detailgegeven
+  - **Keermuur** (detail) — Detailgegeven (weinig attributen)
+  - **Scheiding** (detail) — Detailgegeven
 bo_definitie: "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. (IMGeo)"
 bo_toelichting: ''
 bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]

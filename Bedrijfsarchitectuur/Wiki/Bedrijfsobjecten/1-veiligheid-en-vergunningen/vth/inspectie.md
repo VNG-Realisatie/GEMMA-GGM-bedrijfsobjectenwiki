@@ -34,6 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "alleen datum en bevindingen (minder attributen dan VTH-variant)"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Inspectie** als directe tegenhanger. Daarnaast is **Inspectie** (beleidsdomein Beheer Openbare Ruimte) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Inspectie** (beleidsdomein Vastgoed) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Het inwinnen, verwerken en interpreteren van informatie met het doel om de momentane toestand van de boezemkade vast te stellen."
 bo_toelichting: ''
 bo_subtypes: []

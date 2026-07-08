@@ -27,6 +27,9 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **PGB-Toekenning** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Budgetuitputting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Toekenning van een persoonsgebonden budget aan een cliënt voor inkoop van eigen zorg of ondersteuning."
 bo_toelichting: ''
 bo_relaties:

@@ -29,6 +29,12 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **SociaalTeamDossier** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Behandelsoort** (classificatie) — Typering/referentietabel
+  - **Bijzonderheid** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Bijzonderheidsoort** (classificatie) — Typering/referentietabel
+  - **SociaalteamDossiersoort** (classificatie) — Typering/referentietabel
 bo_definitie: "SociaalTeamDossier is een dossier-entiteit die de geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team voor een inwoner of gezin omvat."
 bo_toelichting: ''
 bo_relaties:

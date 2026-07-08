@@ -27,6 +27,13 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e2ea124f-56ce-4614-9e32
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Leerling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Klacht Leerlingenvervoer** (detail) — Te granulair; subtype klacht
+  - **Loopbaanstap** (detail) — Te granulair; onderdeel van onderwijsloopbaan
+  - **Onderwijsloopbaan** (detail) — Aggregatie zonder eigen attributen; gemeente beheert niet direct
+  - **Startkwalificatie** (detail) — Eigenschap van Leerling; relatie [0..1]
+  - **Ziekmelding Leerlingenvervoer** (detail) — Te granulair; operationeel detail
 bo_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
 bo_toelichting: ''
 bo_relaties:

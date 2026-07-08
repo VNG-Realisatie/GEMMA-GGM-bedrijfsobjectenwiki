@@ -51,6 +51,12 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f
 ggm_gemma_bron: BRWOZ
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **WOZ-object** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **LocatieaanduidingAdresWOZObject** (detail) — Detailgegeven
+  - **LocatieaanduidingWozObject** (detail) — Detailgegeven
+  - **SoortWOZObject** (classificatie) — Typering/referentietabel
+  - **WOZ-Belang** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."
 bo_toelichting: ''
 definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.

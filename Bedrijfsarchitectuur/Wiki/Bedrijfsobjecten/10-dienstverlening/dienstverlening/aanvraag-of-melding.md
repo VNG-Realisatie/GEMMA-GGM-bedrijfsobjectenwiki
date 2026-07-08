@@ -60,6 +60,28 @@ ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
 ggm_duplicaat_entiteiten:
   - "EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2"
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **AanvraagOfMelding**. Daarnaast is **AanvraagOfMelding** (beleidsdomein Leerplicht en Leerlingenvervoer) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **AOMStatus** (detail) — Detailgegeven (geassocieerd met BO)
+  - **AanvraagVrijstelling** (detail) — Subtype AanvraagOfMelding; te granulair
+  - **Aanvraagdata** (detail) — Detailgegeven (geassocieerd met BO)
+  - **BOA** (detail) — Detailgegeven (weinig attributen)
+  - **Combibon** (detail) — Detailgegeven (weinig attributen)
+  - **Fietsregistratie** (detail) — Detailgegeven (weinig attributen)
+  - **Formuliersoort** (classificatie) — Typering/referentietabel
+  - **Formuliersoortveld** (detail) — Detailgegeven
+  - **Indiener** (detail) — Detailgegeven (geassocieerd met BO)
+  - **MOR-AanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
+  - **MORAanvraagOfMelding** (detail) — Detailgegeven
+  - **Onderwerp** (detail) — Detailgegeven (geassocieerd met BO)
+  - **VOMAanvraagOfMelding** (detail) — Detailgegeven
+  - **VTH-Melding** (detail) — Detailgegeven
+  - **VTHAanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
+  - **Verlofaanvraag** (detail) — Subtype AanvraagOfMelding; te granulair
+  - **WABOAanvraagOfMelding** (detail) — Detailgegeven
+  - **Waarneming** (detail) — Detailgegeven (weinig attributen)
+  - **WoonfraudeAanvraagOfMelding** (detail) — Detailgegeven
+  - **WoonoverlastAanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"
 bo_toelichting: ''
 bedrijfsprocessen:

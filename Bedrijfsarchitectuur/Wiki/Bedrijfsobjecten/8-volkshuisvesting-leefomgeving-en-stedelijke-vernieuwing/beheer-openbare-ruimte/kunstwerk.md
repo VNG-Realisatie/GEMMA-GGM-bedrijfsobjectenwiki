@@ -24,6 +24,9 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Kunstwerk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Uitlaatconstructie** (detail) — Te granulair voor BO-niveau
 bo_definitie: "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf."
 bo_toelichting: ''
 bo_subtypes:

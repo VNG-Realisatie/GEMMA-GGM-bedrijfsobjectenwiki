@@ -27,6 +27,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b403d1ab-a0ee-4ca0-befa-01bbc54bf403"
 ggm_gemma_bron: "NHR"
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vestiging** als directe tegenhanger.
 bo_definitie: "Een gebouw of complex van gebouwen waar duurzame uitoefening van de activiteiten van een onderneming of rechtspersoon plaatsvindt."
 bo_toelichting: ''
 bedrijfsprocessen: [horecavergunningverlening, handhaving horeca, horecabeleid]

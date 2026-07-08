@@ -28,6 +28,16 @@ ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
 ggm_duplicaat_entiteiten:
   - "EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Activiteit** als directe tegenhanger. Daarnaast is **Activiteit** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Activiteitsoort** (classificatie) — Typering/referentietabel
+  - **Doelgroep** (detail) — Detailgegeven (weinig attributen)
+  - **Mailing** (detail) — Detailgegeven (weinig attributen)
+  - **Museumrelatie** (detail) — Detailgegeven (weinig attributen)
+  - **Programma** (detail) — Component van Begroting
+  - **Programmasoort** (classificatie) — Typering/referentietabel
+  - **Reservering** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Rondleiding** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
 bo_toelichting: ''
 bedrijfsprocessen: ""

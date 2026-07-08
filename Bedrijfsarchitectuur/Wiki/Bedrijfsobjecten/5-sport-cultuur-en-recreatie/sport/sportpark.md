@@ -30,6 +30,8 @@ ggm_duplicaat_entiteiten:
     beleidsdomein: Beheer Openbare Ruimte
     taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
     afwijkende_attributen: "Sportterrein (Model IMBOR) heeft eigen attributen (drainage, gebruiksvorm, sportcomplex, sportterreinTypeSport, veldnummer, verlicht) die Sportpark niet heeft; ter discussie of dit conceptueel dichter bij Veld ligt dan bij Sportpark — zie terugmelding #92"
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Sportpark** als directe tegenhanger. Daarnaast is **Sportterrein** (beleidsdomein Beheer Openbare Ruimte) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
 bo_toelichting: ''
 bo_relaties:

@@ -27,6 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e623ef14-c4de-498b-9504
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Verzuimmelding** als directe tegenhanger.
 bo_definitie: "Melding van een school aan de gemeente dat een leerling niet op school verschijnt."
 bo_toelichting: ''
 bo_relaties:

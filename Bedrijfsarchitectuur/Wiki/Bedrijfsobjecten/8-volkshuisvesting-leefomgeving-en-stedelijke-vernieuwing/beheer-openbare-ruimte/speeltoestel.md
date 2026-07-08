@@ -24,6 +24,11 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Speeltoestel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Bank** (detail) — Detailgegeven (weinig attributen)
+  - **Fietsparkeervoorziening** (detail) — Detailgegeven (weinig attributen)
+  - **Meubilair** (detail) — Detailgegeven
 bo_definitie: "Toestel en structuren, met inbegrip van componenten en constructieve onderdelen, waarmee of waarop kinderen binnen of buiten kunnen spelen, individueel of gezamenlijk, volgens hun eigen spelregels of beweegredenen, die te allen tijde kunnen worden gewijzigd."
 bo_toelichting: ''
 bo_subtypes:

@@ -209,13 +209,14 @@ Beschikbaar als `/command` (gedefinieerd in `.claude/commands/`). Skills die wik
 
 Python-scripts in `tools/` voor XMI-verwerking.
 
-| Tool | Functie |
-|---|---|
-| `parse_ggm_xmi.py` | Parse GGM XMI → JSON; schrijft naar `Sources/GGM-repository/ggm_parsed.json`. Alleen draaien bij nieuwe GGM-release. |
-| `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. |
-| `enrich_bo_frontmatter.py` | Verrijk BO-frontmatter met GGM-velden uit geparsed JSON |
-| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's |
-| `entiteitendekking.py` | Uniforme GGM-analyse: match, classificeer, traceer relaties, genereer per-taakveld rapporten + totaaloverzicht |
+| Tool | Functie | Skill |
+|---|---|---|
+| `parse_ggm_xmi.py` | Parse GGM XMI → JSON; schrijft naar `Sources/GGM-repository/ggm_parsed.json`. Alleen draaien bij nieuwe GGM-release. | `/generate-ggm` Stap 1 |
+| `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. | `/generate-ggm` Stap 2 |
+| `generate_ggm_enrich_bo.py` | Verrijk BO-frontmatter met `ggm_*`/`ggm_gemma_*`-velden uit geparsed JSON. Herschrijft alleen die velden; alle overige frontmatter (incl. `bo_*`, `ggm_duplicaat_entiteiten`, `analyse_ggm_dekking`) blijft ongewijzigd. | `/generate-ggm` Stap 3 |
+| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's | `/export-ggm` |
+| `entiteitendekking.py` | Uniforme GGM-analyse: match, classificeer, traceer relaties, genereer per-taakveld rapporten + totaaloverzicht | `/entiteitendekking` Stap 1 |
+| `entiteitendekking_sync_bo.py` | Schrijft `analyse_ggm_dekking` (reverse-index: welke GGM-entiteiten dekt dit BO) terug naar BO-pagina's, chirurgisch — raakt geen andere velden. `--dry-run` voor preview. | `/entiteitendekking` Stap 5 |
 
 ### GGM-data gebruiken
 

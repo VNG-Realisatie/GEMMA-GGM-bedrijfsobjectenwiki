@@ -27,6 +27,16 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Inkomensvoorziening** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Component** (detail) — Detailgegeven
+  - **ComponentSoort** (classificatie) — Typering/referentietabel
+  - **Huisvestingsoort** (classificatie) — Typering/referentietabel
+  - **Inkomensvoorzieningsoort** (detail) — Detailgegeven (geassocieerd met BO)
+  - **RedenBlokkering** (classificatie) — Typering/referentietabel
+  - **RedenInstroom** (classificatie) — Typering/referentietabel
+  - **RedenUitstroom** (classificatie) — Typering/referentietabel
+  - **UitkeringsRun** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
 bo_toelichting: ''
 bo_relaties:

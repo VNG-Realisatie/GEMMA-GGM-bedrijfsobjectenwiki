@@ -24,6 +24,13 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Fractie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Categorie** (detail) — Detailgegeven (weinig attributen)
+  - **Melding** (classificatie) — Typering/referentietabel
+  - **Prijsregel** (component) — Component
+  - **Route** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Storting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
 bo_toelichting: ''
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]

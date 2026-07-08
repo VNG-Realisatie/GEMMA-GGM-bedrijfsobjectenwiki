@@ -29,6 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Software** als directe tegenhanger.
 bo_definitie: "Computerprogrammatuur met bijbehorende data die bewerkingen en taken uitvoert."
 bo_toelichting: ''
 bo_relaties:

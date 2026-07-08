@@ -28,6 +28,11 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten:
   - "EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Debiteur** als directe tegenhanger. Daarnaast is **Debiteur** (beleidsdomein Terug- en invordering) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Hypotheek** (detail) — Detailgegeven (weinig attributen)
+  - **Krediethypotheek** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Leenbijstand** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
 bo_toelichting: ''
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente

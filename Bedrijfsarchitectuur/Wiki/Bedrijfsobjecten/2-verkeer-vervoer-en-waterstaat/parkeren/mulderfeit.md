@@ -24,6 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **MulderFeit** als directe tegenhanger.
 bo_definitie: "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet."
 bo_toelichting: ''
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]

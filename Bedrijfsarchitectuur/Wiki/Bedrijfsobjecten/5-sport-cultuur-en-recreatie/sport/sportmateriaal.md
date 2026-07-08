@@ -24,6 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-488958ee-08fd-4818-af8b-2d7ebb73c01f"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Sportmateriaal** als directe tegenhanger.
 bo_definitie: "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."
 bo_toelichting: ''
 bo_relaties:

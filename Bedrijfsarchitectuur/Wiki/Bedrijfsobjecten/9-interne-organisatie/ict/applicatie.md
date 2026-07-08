@@ -29,6 +29,21 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Applicatie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Attribuutsoort** (detail) — Detailgegeven
+  - **Batch** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Classificatie** (detail) — Detailgegeven (weinig attributen)
+  - **Externe Bron** (detail) — Detailgegeven (weinig attributen)
+  - **ExterneBron** (detail) — Detailgegeven (weinig attributen)
+  - **Gegeven** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Generalisatie** (detail) — Detailgegeven
+  - **Linkbaar CMDB-item** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Notitie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Objecttype** (detail) — Detailgegeven
+  - **Package** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Relatiesoort** (detail) — Detailgegeven
+  - **Versie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."
 bo_toelichting: ''
 bo_relaties:

@@ -30,6 +30,41 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Client** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Aanvraagtype** (classificatie) — Typering/referentietabel
+  - **Afwijkende maatregel** (component) — Component
+  - **Bankrekening** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Betalingsblokkade** (detail) — Detailgegeven (weinig attributen)
+  - **Boete** (detail) — Detailgegeven (weinig attributen)
+  - **Dienst** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Diensten::Aanvraag** (detail) — Detailgegeven (weinig attributen)
+  - **Doelgroep** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Huishouden** (detail) — Cross-cutting sociaal domein, eenheid voor beoordeling
+  - **Individuele plicht** (detail) — Detailgegeven (weinig attributen)
+  - **Inkomstenverhouding** (detail) — Detailgegeven (weinig attributen)
+  - **Leefgebied** (detail) — Detailgegeven (weinig attributen)
+  - **Levenssituatie::Levenssituatie** (detail) — Detailgegeven (weinig attributen)
+  - **Leveringsopdracht** (detail) — Detailgegeven (weinig attributen)
+  - **Maatregel** (component) — Component
+  - **Maatregel op uitkering** (component) — Component
+  - **Motorvoertuig** (detail) — Detailgegeven (weinig attributen)
+  - **Normafwijking** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Onroerend goed** (detail) — Detailgegeven (weinig attributen)
+  - **Primair inkomstencomponent** (detail) — Detailgegeven (weinig attributen)
+  - **Profiel** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Reden aanvraag** (classificatie) — Typering/referentietabel
+  - **Reden aanvraag Levensonderhoud** (classificatie) — Typering/referentietabel
+  - **Referteperiode** (detail) — Detailgegeven (weinig attributen)
+  - **Regelingsoort** (classificatie) — Typering/referentietabel
+  - **Relatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Relatiesoort** (classificatie) — Typering/referentietabel
+  - **Score** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Scoresoort** (classificatie) — Typering/referentietabel
+  - **Vermogenscomponent** (detail) — Detailgegeven
+  - **Waardepeiling** (detail) — Detailgegeven
+  - **Zelfredzaamheidmatrix** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."
 bo_toelichting: ''
 bo_relaties:

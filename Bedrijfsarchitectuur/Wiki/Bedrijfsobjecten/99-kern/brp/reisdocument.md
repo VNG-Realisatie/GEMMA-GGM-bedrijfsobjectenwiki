@@ -29,6 +29,10 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Reisdocument** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **AutoriteitAfgifteNederlandsReisdocument** (classificatie) — Typering/referentietabel
+  - **Reisdocumentsoort** (classificatie) — Typering/referentietabel
 bo_definitie: "Een document dat vereist is voor reizen naar het buitenland"
 bo_toelichting: ''
 bo_subtypes: []

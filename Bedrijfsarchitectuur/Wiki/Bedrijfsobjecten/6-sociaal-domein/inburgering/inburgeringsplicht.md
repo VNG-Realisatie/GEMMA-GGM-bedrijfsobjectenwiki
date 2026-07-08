@@ -28,6 +28,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Inburgeringsplicht** als directe tegenhanger.
 bo_definitie: De formele wettelijke verplichting van een inburgeraar om binnen de gestelde termijn te voldoen aan de eisen van de Wet inburgering 2021.
 bo_toelichting: ''
 bo_relaties:

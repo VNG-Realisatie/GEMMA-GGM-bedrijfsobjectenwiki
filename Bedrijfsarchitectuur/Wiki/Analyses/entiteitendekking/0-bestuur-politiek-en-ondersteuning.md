@@ -1,13 +1,13 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 0 Bestuur, Politiek en Ondersteuning"
-datum: 2026-07-07
+datum: 2026-07-08
 taakveld: "0 Bestuur, Politiek en Ondersteuning"
 beleidsdomeinen:
   - Griffie
 totaal_entiteiten: 13
-totaal_bo: 8
-totaal_matches: 3
+totaal_bo: 9
+totaal_matches: 4
 totaal_hiaten: 5
 ---
 
@@ -15,42 +15,31 @@ totaal_hiaten: 5
 
 ## Beoordeling
 
-1 beleidsdomeinen, 13 GGM-entiteiten. Dekking: 13 van 13 (100%) — 3 met BO, 10 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
+<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-Niet-BO entiteiten: 2× actor, 1× component, 7× detail.
+1 beleidsdomeinen, 13 GGM-entiteiten. Dekking: 13 van 13 (100%) — 4 met BO, 9 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
 
-Het beleidsdomein Griffie is compact en volledig rond drie BO's opgebouwd: [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]], [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]]. De twee actor-entiteiten (Collegelid, Raadslid) zijn personen/rollen, geen zelfstandige data-objecten — ze worden wel geregistreerd (bijvoorbeeld in het raadsinformatiesysteem), maar zijn functioneel vergelijkbaar met rolentiteiten in andere domeinen, alleen hier als generieke politieke actor benoemd in plaats van als functiespecifieke rol. Aanwezige Deelnemer is terecht een component: het beschrijft wie bij een Vergadering aanwezig was, dus een onderdeel van die vergadering zelf. De overige zeven detailentiteiten (Agendapunt, Categorie, Dossier, Indiener, Programma, Raadscommissie, Taakveld) zijn stuk voor stuk kenmerken die Raadsstuk, Stemming of Vergadering nader specificeren, zonder zelfstandige levenscyclus.
-
-Functioneel is dit beleidsdomein voor 100% gedekt door het GGM — er zijn geen entiteiten waarvoor geen enkel BO bereikbaar is. Het echte hiaat zit aan de andere kant: 5 BO's in de wiki hebben geen GGM-tegenhanger, en dat zijn stuk voor stuk objecten uit het bredere politiek-bestuurlijke domein die buiten de scope van Griffie vallen — [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing\|Verkiezing]], [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/referendum\|Referendum]] en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau\|Stembureau]] (verkiezingsproces), [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie\|Partijsubsidie]] (politieke bekostiging) en [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/gemeenschappelijke-regeling\|Gemeenschappelijke Regeling]] (samenwerkingsvorm). Alle vijf zijn geregistreerd als proces- of governance-object, niet als ggm-hiaat: het GGM modelleert hier bewust alleen de raadsondersteuning (Griffie), niet de bredere bestuurlijke en electorale processen — een scopekeuze, geen datalek in het model.
-
-Naamconflicten of homoniemen komen in dit domein niet voor; de Naamoverlap-kolom is voor alle rijen leeg.
+Niet-BO entiteiten: 2× actor, 1× component, 6× detail.
 
 ## Griffie
 
-13 entiteiten, 3 Entiteiten met BO.
+13 GGM-entiteiten: 4 met BO, 9 ondersteunend aan BO, 0 niet gedekt. Dekking: 13 van 13 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Aanwezige Deelnemer]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] | component |  | Component |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Agendapunt]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Categorie]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Collegelid]] | n.v.t. | actor |  | Actor/rol; zelfde patroon als raadslid |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Dossier]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Indiener]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadscommissie]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadslid]] | n.v.t. | actor |  | Actor/rol, geen ding; wél geregistreerd in raadsinformatiesysteem |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadsstuk]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Stemming]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Taakveld]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/taakveld\|Taakveld]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Vergadering]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Collegelid]] | actor | n.v.t. | Actor/rol; zelfde patroon als raadslid |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadslid]] | actor | n.v.t. | Actor/rol, geen ding; wél geregistreerd in raadsinformatiesysteem |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Aanwezige Deelnemer]] | component | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] | Component |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Agendapunt]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Categorie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Dossier]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Indiener]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Programma]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadscommissie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Taakveld]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | Detailgegeven (geassocieerd met BO) |
 
 ## BO's zonder GGM-entiteit
 

@@ -27,6 +27,16 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Werknemer** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **GenotenOpleiding** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Geweldsincident** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Individueel Keuzebudget** (detail) — Detailgegeven (geassocieerd met BO)
+  - **KeuzebudgetBesteding** (detail) — Detailgegeven (weinig attributen)
+  - **KeuzebudgetBestedingsoort** (classificatie) — Typering/referentietabel
+  - **Opleiding** (detail) — Detailgegeven (weinig attributen)
+  - **Relatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Rol** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."
 bo_toelichting: ''
 bo_relaties:

@@ -24,6 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Restitutie** als directe tegenhanger.
 bo_definitie: "Restitutie is terugbetaling van te veel ontvangen aflossing."
 bo_toelichting: "Restituties worden geadministreerd onder de vordering."
 definitie: Terugbetaling van te veel ontvangen aflossing

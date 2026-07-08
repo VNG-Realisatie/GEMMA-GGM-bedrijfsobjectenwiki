@@ -29,6 +29,8 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Verhuurbaar Eenheid**.
 bo_definitie: "Een Verhuurbare Eenheid (VHE) is een eenheid die individueel verhuurbaar is. Verhuurbaar komt voort uit 'exploitatie'."
 bo_toelichting: ''
 bo_subtypes: []

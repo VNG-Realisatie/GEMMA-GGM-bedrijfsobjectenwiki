@@ -27,6 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-b83efc57-9184-4405-8c23
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Uitschrijving** als directe tegenhanger.
 bo_definitie: "Beeindiging van een inschrijving van een leerling bij een school"
 bo_toelichting: ''
 bo_relaties:

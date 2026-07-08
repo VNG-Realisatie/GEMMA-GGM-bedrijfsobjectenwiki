@@ -31,6 +31,21 @@ ggm_duplicaat_entiteiten:
   - "EAID_E42A32F7_262F_4005_9EB9_4674B76E8825"
   - "EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D"
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Project**. Daarnaast is **Project** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Project** (beleidsdomein Omgevingswet) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Archeologiebesluit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Doos** (detail) — Detailgegeven
+  - **Gemachtigde** (detail) — Detailgegeven (weinig attributen)
+  - **Magazijnlocatie** (detail) — Detailgegeven
+  - **Magazijnplaatsing** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Projectactiviteit** (detail) — Detailgegeven
+  - **Projectlocatie** (detail) — Detailgegeven
+  - **Specificatie** (detail) — Detailgegeven
+  - **Stelling** (detail) — Detailgegeven (weinig attributen)
+  - **Verzoek** (detail) — Detailgegeven
+  - **Vlak** (detail) — Detailgegeven
+  - **boring** (detail) — Detailgegeven (geassocieerd met BO)
+  - **locatie** (detail) — Generiek kern-concept (Vastgoedobject); cross-domein
 bo_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
 bo_toelichting: ''
 bedrijfsprocessen:

@@ -27,6 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Vaartuig**.
 bo_definitie: "Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten."
 bo_toelichting: ''
 bo_subtypes:

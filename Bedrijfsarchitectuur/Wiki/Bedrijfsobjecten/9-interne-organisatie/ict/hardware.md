@@ -29,6 +29,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Hardware** als directe tegenhanger.
 bo_definitie: "Fysieke IT-componenten of onderdelen die in een computer of netwerk een rol spelen."
 bo_toelichting: ''
 bo_relaties:

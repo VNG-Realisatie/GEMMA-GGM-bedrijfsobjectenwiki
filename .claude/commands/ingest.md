@@ -19,4 +19,4 @@ Volg deze stappen exact:
    - Voeg verwerkte bronnen toe aan de bronnenlijst.
 9. **Update** `Wiki/index.md` en `Wiki/log.md`.
 10. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — vink verwerkte bronnen af (`[x]`). Als alle bronnen van een onderwerp-sectie zijn afgevinkt, markeer de sectie als afgerond (`~~Onderwerp~~  ✓`).
-11. **Optioneel: GGM-vergelijking** — als het onderwerp is afgerond (alle bronnen verwerkt), stel voor om `/ggm-vergelijking {onderwerp}` te draaien voor een vergelijking van GGM-entiteiten met de gevonden begrippen.
+11. **Optioneel: entiteitendekking verversen** — als het onderwerp is afgerond (alle bronnen verwerkt), stel voor om `/entiteitendekking {taakveld}` te draaien om de dekkingsanalyse te verversen met de nieuwe BO's.

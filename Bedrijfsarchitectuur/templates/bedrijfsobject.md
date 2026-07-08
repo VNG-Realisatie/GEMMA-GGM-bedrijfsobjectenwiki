@@ -44,6 +44,12 @@ ggm_duplicaat_entiteiten: []
 #    taakveld: {taakveld}
 #    afwijkende_attributen: {korte beschrijving van attribuutverschillen, leeg als identiek}
 
+# Analyse-veld — scriptberekende synthese uit de entiteitendekking-analyse,
+# GEEN XMI-data en GEEN handmatig proza. Eigenaarschap: tools/entiteitendekking_sync_bo.py
+# (Stap 5 van de /entiteitendekking skill). Wordt bij elke sync herschreven —
+# hier niets handmatigs aan toevoegen, dat gaat verloren bij de volgende run.
+analyse_ggm_dekking: ""
+
 # Wiki-velden — het uit bronnen afgeleide BO-model, beheerd door het GEMMA-team via deze wiki
 bo_definitie: {definitie op bedrijfsniveau — kort, bij voorkeur 1 zin ≤160 tekens. Langer mag alleen als letterlijk uit GGM of bron overgenomen.}
 bo_toelichting: {aanvulling, uitleg of voorbeelden bij de definitie — ook gebaseerd op bronnen. Leeg als de definitie volstaat.}
@@ -84,6 +90,12 @@ Elk veld bestaat in een GGM-, GGM-GEMMA- en GEMMA-variant:
 | synoniemen | `ggm_synoniemen` | `ggm_gemma_synoniemen` | `bo_synoniemen` |
 
 Bij een nieuwe GGM-release worden de `ggm_*` velden bijgewerkt uit het nieuwe XMI en de `ggm_gemma_*` velden uit de GEMMA-tags in dat XMI. De wiki `bo_*` velden worden alleen gewijzigd als het team besluit dat de nieuwe GGM-waarden een update rechtvaardigen.
+
+### `analyse_ggm_dekking`
+
+Vierde categorie naast `ggm_*`/`ggm_gemma_*`/`bo_*`: beantwoordt, per BO-pagina, de vraag *"welke GGM-entiteiten worden door dit BO gedekt?"* — het omgekeerde van wat `Wiki/Analyses/entiteitendekking/{taakveld}.md` toont (die gaan per GGM-entiteit uit en wijzen naar één BO). Bevat een introzin die de eigen `ggm_entiteit`/`ggm_guid`-tegenhanger benoemt, gevolgd door bullets voor elke indirect gedekte GGM-entiteit (detail/classificatie/component/duplicaat) met reden.
+
+**Volledig scriptgegenereerd** door `tools/entiteitendekking_sync_bo.py` (Stap 5 van de `/entiteitendekking` skill) — nooit met de hand bewerken, dat gaat verloren bij de volgende sync. BO's zonder GGM-betrokkenheid (`ggm_guid` leeg) krijgen dit veld niet.
 
 ### Status
 

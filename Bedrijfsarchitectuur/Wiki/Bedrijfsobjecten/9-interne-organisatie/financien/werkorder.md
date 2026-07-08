@@ -24,6 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5029f2d1-bad6-4813-8f59-d3f7981849e3"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Werkorder** als directe tegenhanger.
 bo_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
 bo_toelichting: ''
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces

@@ -34,6 +34,9 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (gemeenteGeometrie, datumBeginGeldigheidGemeente, etc.); minder attributen (geen Geconstateerd, versie, datumIngang, datumEinde)"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Gemeente** als directe tegenhanger. Daarnaast is **Gemeente** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **KadastraleGemeente** (classificatie) — Typering/referentietabel
 bo_definitie: "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."
 bo_toelichting: ''
 bo_relaties:

@@ -24,6 +24,25 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Waterobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Afvalbak** (detail) — Detailgegeven (weinig attributen)
+  - **Bak** (detail) — Detailgegeven
+  - **Beheerobject** (detail) — Detailgegeven
+  - **Bord** (detail) — Detailgegeven
+  - **Installatie** (detail) — Detailgegeven
+  - **Kast** (detail) — Detailgegeven
+  - **Leidingelement** (detail) — Detailgegeven
+  - **Logboek** (detail) — Detailgegeven (weinig attributen)
+  - **Mast** (detail) — Detailgegeven (weinig attributen)
+  - **Paal** (detail) — Detailgegeven
+  - **Pomp** (detail) — Onderdeel van Gemaal, te granulair
+  - **Putdeksel** (detail) — Detailgegeven (weinig attributen)
+  - **Terreindeel** (component) — Component
+  - **Tunnelobject** (detail) — Detailgegeven
+  - **Verkeersdrempel** (detail) — Detailgegeven (weinig attributen)
+  - **Waterinrichtingsobject** (detail) — Detailgegeven
+  - **Weginrichtingsobject** (detail) — Detailgegeven
 bo_definitie: "Kleinste functioneel onafhankelijk stukje water met gelijkblijvende, homogene eigenschappen en relaties dat er binnen het objecttype Water van NEN 3610 wordt onderscheiden en dat permanent met water bedekt is."
 bo_toelichting: ''
 bo_relaties:

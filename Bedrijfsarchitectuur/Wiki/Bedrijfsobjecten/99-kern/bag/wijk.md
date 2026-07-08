@@ -34,6 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (geometrieWijk, datumBeginGeldigheidWijk, etc.); voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde)"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Wijk** als directe tegenhanger. Daarnaast is **Wijk** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."
 bo_toelichting: ''
 bo_relaties:

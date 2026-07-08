@@ -27,6 +27,9 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f2c26bb2-4c76-4b03-8ceb
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **School** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Onderwijssoort** (detail) — Classificatie; attribuut van School
 bo_definitie: "Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting."
 bo_toelichting: ''
 bo_subtypes:

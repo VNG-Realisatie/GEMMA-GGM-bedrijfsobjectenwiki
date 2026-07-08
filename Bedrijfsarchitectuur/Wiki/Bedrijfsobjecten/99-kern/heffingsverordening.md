@@ -24,6 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Heffingsverordening** als directe tegenhanger.
 bo_definitie: "Een heffingsverordening is een door de gemeenteraad vastgestelde verordening die de heffing en invordering van gemeentelijke belastingen en rechten regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden."
 bo_toelichting: ''
 bo_relaties:

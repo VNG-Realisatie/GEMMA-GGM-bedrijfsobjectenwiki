@@ -24,6 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-59d3efaa-a05f-477a-a271-49bac323939f"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Sportvereniging** als directe tegenhanger.
 bo_definitie: "Organisatie waarin sport wordt beoefend en die als primaire gebruiker optreedt van gemeentelijke sportaccommodaties."
 bo_toelichting: ''
 bo_relaties:

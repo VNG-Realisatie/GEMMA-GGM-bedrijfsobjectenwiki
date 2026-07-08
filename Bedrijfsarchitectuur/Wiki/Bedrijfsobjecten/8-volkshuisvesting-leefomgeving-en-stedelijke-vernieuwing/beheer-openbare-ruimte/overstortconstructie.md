@@ -26,6 +26,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Overstortconstructie** als directe tegenhanger.
 bo_definitie: "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte."
 bo_toelichting: ''
 bo_relaties:

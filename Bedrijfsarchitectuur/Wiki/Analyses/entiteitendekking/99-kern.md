@@ -1,16 +1,16 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 99 Kern"
-datum: 2026-07-07
+datum: 2026-07-08
 taakveld: "99 Kern"
 beleidsdomeinen:
   - 99 Kern
   - BAG
   - RGBZPlus
   - RSGBPlus
-totaal_entiteiten: 155
-totaal_bo: 40
-totaal_matches: 34
+totaal_entiteiten: 156
+totaal_bo: 51
+totaal_matches: 45
 totaal_hiaten: 6
 ---
 
@@ -18,51 +18,42 @@ totaal_hiaten: 6
 
 ## Beoordeling
 
-4 beleidsdomeinen, 155 GGM-entiteiten. Dekking: 148 van 155 (95%) — 34 met BO, 114 ondersteunend, 7 niet gedekt. 6 BO's zonder GGM-entiteit.
+<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-Niet-BO entiteiten: 10× abstract, 25× classificatie, 2× component, 82× detail, 2× proces.
+4 beleidsdomeinen, 156 GGM-entiteiten. Dekking: 142 van 156 (91%) — 45 met BO, 97 ondersteunend, 14 niet gedekt. 6 BO's zonder GGM-entiteit.
 
-**Structurele patronen per beleidsdomein.** 99 Kern zelf bevat uitsluitend generieke geo/media-detailtypen (Locatie, Punt, Lijn, Gebied en hun groep-varianten, Foto, Video-opname, Periode) die losse attribuutgroepen zijn van meerdere BO's elders — geen daarvan bereikt zelfstandigheid; de Dekking-kolom noemt daarom nu expliciet "generieke bouwsteen" in plaats van één toevallig BO. BAG is het schoonste domein: 10 van de 13 entiteiten worden BO, de rest (AdresseerbaarObject, BinnenlandsAdres) is adresseringsdetail en Onderzoek is een procesindicator. RGBZPlus laat het klassieke RGBZ-patroon zien: naast 2 abstracte boventypen (Betrokkene, Object) vooral classificaties (Bedrijfsprocestype, Deelprocestype, Documenttype) en detailgegevens die een zaak/document/besluit verder specificeren (Status, Statustype, KenmerkenZaak, OpschortingZaak, VerlengingZaak); Deelproces is het enige component (onderdeel van Bedrijfsproces); FormeleHistorie/MaterieleHistorie/StrijdigheidOfNietigheid zijn generieke audit-/kwaliteitsmetadata die op elk attribuut van toepassing kunnen zijn. RSGBPlus is verreweg het grootste en meest gefragmenteerde domein (95 entiteiten, 14 BO's): het BRP-cluster splitst persoonsgegevens op in tientallen kleine detailentiteiten per levensgebeurtenis (Geboorte-, Overlijden-, Migratie-, Naamgebruik-, Nationaliteit- en Verblijfsvarianten van NatuurlijkPersoon/IngeschrevenPersoon), en het "Overig"-cluster bevat een reeks referentietabellen (Land, Provincie, AardZakelijkRecht, Valuta(soort), AcademischeTitel, Cultuurcode) naast dezelfde adres-/gebiedsbegrippen die BAG al als BO dekt.
-
-**Herbeoordeling 2026-07-07.** Bij nadere verificatie tegen de daadwerkelijke GGM-relaties (`Wiki/GGM/99-kern/*.md`) en `ggm_parsed.json` bleken 16 van de 19 oorspronkelijk niet-gedekte entiteiten geen echte hiaten maar route-fouten van het traceeralgoritme: het volgt de eerste bereikbare relatie in plaats van de inhoudelijk voor de hand liggende, en springt daardoor soms via een abstract tussenstation (Rechtspersoon, NatuurlijkPersoon, Betrokkene) naar een ver, inhoudelijk ongerelateerd BO in een ander taakveld, terwijl er een directe route binnen hetzelfde domein bestaat. Gecorrigeerd: Huishouden, Rechtspersoon, AdresBuitenland en Nationaliteit (nu via hun eigen GGM-specialisatie naar Ingeschreven Persoon / Niet-Natuurlijk Persoon i.p.v. Woonboot / Parkeervergunning / Gemeentebegrafenis); drie RGBZ rol-attributen AfwijkendBuitenlandsCorrespondentieadresRol, AfwijkendCorrespondentiePostadresRol en ContactpersoonRol (letterlijk gedefinieerd als "van BETROKKENE in zijn/haar ROL in de ZAAK", nu via Betrokkene naar Medewerker/Organisatorische eenheid i.p.v. Wijk); en acht RSGB/BAG-naamduplicaten Ligplaats, OpenbareRuimte, Verblijfsobject, Wijk, Woonplaats, Gemeente, Buurt en Standplaats (nu direct naar hun eigen BAG-tegenhanger-BO i.p.v. een willekeurig ander BO). Zie de Dekking-kolom per entiteit voor de precieze route.
-
-**Functionele dekking na herbeoordeling.** Van de oorspronkelijk 14 niet-gedekte RSGBPlus-entiteiten resteren nog 7 echte hiaten: BinnenlandsAdres (BAG), CorrespondentieadresBuitenland, Land, Provincie, Rekeningnummer, VerblijfBuitenland en VerblijfBuitenlandSubject. Acht andere BRP-persoonsdetails (MigratieIngeschrevenNatuurlijkPersoon, NaamgebruikNatuurlijkPersoon, NationaliteitIngeschrevenNatuurlijkPersoon, SamengesteldeNaamNatuurlijkPersoon, VerblijfsrechtIngeschrevenNatuurlijkPersoon, VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon, NaamAanschrijvingNatuurlijkPersoon, NaamNatuurlijkPersoon) zijn nu gekoppeld aan Ingeschreven Persoon op basis van het Logisch Ontwerp BRP 2025.Q1 (RvIG) — dit zijn echte gegevenscategorieën "van de ingeschrevene" (o.a. §2.1.4.9 Naamgebruik, categorie 10/60 Verblijfstitel, rubriek 35.95.13 Verstrekkingsbeperking), maar de GGM-XMI zelf bevat geen relatie voor deze entiteiten (in tegenstelling tot hun zustertak "...IngeschrevenPersoon" die wél correct routeert). Teruggemeld als #93 in [[Wiki/Analyses/ggm-terugmeldingen]] (type structuur). Land en Provincie blijven generieke referentietabellen (classificatie) zonder eigen BO, wat verwacht gedrag is voor codelijsten.
-
-**Cross-domein hergebruik.** 99 Kern, BAG, RGBZPlus en RSGBPlus zijn de vier generieke basisregistratie-domeinen van het GGM: hun BO's (Zaak, Document, Besluit, Pand, Woonplaats, Ingeschreven Persoon, Kadastraal Perceel, WOZ-object, etc.) worden in praktisch alle overige taakvelden hergebruikt als kernobject (zaakbehandeling, adressering, betrokkenen). Dat verklaart ook waarom de "Dekking"-kolom bij losse detailentiteiten voorheen soms naar een BO in een heel ander taakveld wees (bijv. Huishouden → Woonboot, inmiddels gecorrigeerd naar Ingeschreven Persoon): het traceeralgoritme volgt de eerste bereikbare relatie, niet per se de inhoudelijk meest voor de hand liggende. Voor generieke bouwstenen zoals Locatie (gebruikt door tientallen BO's) is dit inherent — de Dekking-kolom noemt daar nu expliciet "generieke bouwsteen" in plaats van te suggereren dat er één specifiek eigenaar-BO is.
-
-**Naamconflicten en disambiguatie.** Naast de reeds gemarkeerde "BO hernoemd"-synoniemen (Ingezetene, NietNatuurlijkPersoon, OrganisatorischeEenheid, MaatschappelijkeActiviteit, KadastraalPerceel, ZakelijkRecht) bevat RSGBPlus/Overig een aantal entiteiten die dezelfde naam dragen als een reeds gematchte BAG-BO maar in dit bestand als losstaande, ongekoppelde entiteit voorkomen: Ligplaats, OpenbareRuimte, Woonplaats, Verblijfsobject, Wijk, Gemeente, Buurt en Standplaats. Dit zijn geen gemiste BO-kandidaten maar dubbele modelposities van hetzelfde begrip — de BAG-variant is de daadwerkelijke BO. Deze acht zijn nu direct naar hun BAG-tegenhanger gekoppeld (Dekking-kolom), in plaats van via een omweg (Object, Locatie, Nummeraanduiding) aan een inhoudelijk ongerelateerd BO te hangen. Los daarvan bevat RSGBPlus ook een intern duplicaat: Land en LandOfgebied hebben vrijwel identieke definities en attribuutstructuur (landcode/landnaam/ISO-codes) en zijn zeer waarschijnlijk hetzelfde begrip dat tweemaal in het GGM is gemodelleerd.
+Niet-BO entiteiten: 9× abstract, 23× classificatie, 2× component, 75× detail, 2× proces.
 
 ## 99 Kern
 
-10 entiteiten, 0 Entiteiten met BO.
+10 GGM-entiteiten: 0 met BO, 10 ondersteunend aan BO, 0 niet gedekt. Dekking: 10 van 10 (100%).
 
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/99-kern\|Foto]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. Monument) | Detailgegeven, media-bijlage, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/99-kern\|Gebied]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Gebiedengroep]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Lijn]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Lijnengroep]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Locatie]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. Activiteit) | Generiek kern-concept (Vastgoedobject); cross-domein, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/99-kern\|Periode]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. Archiefstuk) | Detailgegeven, tijdvak-attribuutgroep, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/99-kern\|Punt]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Puntengroep]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. via Locatie → Activiteit) | Detailgegeven (weinig attributen), geometrisch primitief |
-| [[Wiki/GGM/99-kern/99-kern\|Video-opname]] | detail | generieke bouwsteen — gebruikt door meerdere BO's (bijv. Vergadering) | Detailgegeven, media-bijlage, geen zelfstandig object |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
+|---|---|---|---|---|
+| [[Wiki/GGM/99-kern/99-kern\|Foto]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/99-kern/99-kern\|Gebied]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Gebiedengroep]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Lijn]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Lijnengroep]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Locatie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Generiek kern-concept (Vastgoedobject); cross-domein |
+| [[Wiki/GGM/99-kern/99-kern\|Periode]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/99-kern/99-kern\|Punt]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Puntengroep]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/99-kern\|Video-opname]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
 
 ## BAG
 
-13 entiteiten, 10 Entiteiten met BO.
+13 GGM-entiteiten: 10 met BO, 2 ondersteunend aan BO, 1 niet gedekt. Dekking: 12 van 13 (92%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/bag\|AdresseerbaarObject]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/bag\|BinnenlandsAdres]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/bag\|Buurt]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/bag\|Gemeente]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/bag\|Ligplaats]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/bag\|Nummeraanduiding]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/bag\|Onderzoek]] | n.v.t. | proces |  | Proces of processtap |
 | [[Wiki/GGM/99-kern/bag\|OpenbareRuimte]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] ✅ | synoniem |  | BO hernoemd: Openbare Ruimte |
 | [[Wiki/GGM/99-kern/bag\|Pand]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/pand\|Pand]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/bag\|Standplaats]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats\|Standplaats (BAG)]] ✅ | synoniem |  | BO hernoemd: Standplaats (BAG) |
@@ -70,210 +61,174 @@ Niet-BO entiteiten: 10× abstract, 25× classificatie, 2× component, 82× detai
 | [[Wiki/GGM/99-kern/bag\|Wijk]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/bag\|Woonplaats]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] ✅ | — |  | Exact match |
 
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/bag\|AdresseerbaarObject]] | detail | via Object → [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/bag\|BinnenlandsAdres]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| [[Wiki/GGM/99-kern/bag\|Onderzoek]] | proces | n.v.t. | Proces of processtap |
-
 ## RGBZPlus
 
-37 entiteiten, 10 Entiteiten met BO.
+37 GGM-entiteiten: 11 met BO, 23 ondersteunend aan BO, 3 niet gedekt. Dekking: 34 van 37 (92%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rgbzplus\|AfwijkendBuitenlandsCorrespondentieadresRol]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rgbzplus\|AfwijkendCorrespondentiePostadresRol]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rgbzplus\|AnderZaakobjectZaak]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Bedrijfsproces]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Bedrijfsprocestype]] | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rgbzplus\|Besluit]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Besluittype]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | detail |  | Typering bij Besluit — waardelijst |
 | [[Wiki/GGM/99-kern/rgbzplus\|Betaling]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/betaling\|Betaling]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Betrokkene]] | n.v.t. | abstract |  | Abstract type |
+| [[Wiki/GGM/99-kern/rgbzplus\|Brondocumenten]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rgbzplus\|ContactpersoonRol]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/rgbzplus\|Deelproces]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | component |  | Component |
+| [[Wiki/GGM/99-kern/rgbzplus\|Deelprocestype]] | via Bedrijfsprocestype → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rgbzplus\|Document]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Documenttype]] | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rgbzplus\|EnkelvoudigDocument]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rgbzplus\|FormeleHistorie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Heffing]] | [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Identificatiekenmerk]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/99-kern/rgbzplus\|InOnderzoek]] | n.v.t. | proces |  | Proces of processtap |
+| [[Wiki/GGM/99-kern/rgbzplus\|KenmerkenZaak]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Klantcontact]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|MaterieleHistorie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rgbzplus\|Medewerker]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|Object]] | n.v.t. | abstract |  | Boventype AdresseerbaarObject, Onbestemd Adres, Nummeraanduiding |
+| [[Wiki/GGM/99-kern/rgbzplus\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rgbzplus\|OpschortingZaak]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rgbzplus\|OrganisatorischeEenheid]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] ✅ | synoniem |  | BO hernoemd: Organisatorische eenheid |
+| [[Wiki/GGM/99-kern/rgbzplus\|SamengesteldDocument]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/rgbzplus\|Status]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Voortgangsindicatie op Zaak, geen zelfstandig BO |
+| [[Wiki/GGM/99-kern/rgbzplus\|Statustype]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | detail |  | Attribuut/modelleringskeuze, geen zelfstandig BO |
+| [[Wiki/GGM/99-kern/rgbzplus\|StrijdigheidOfNietigheid]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/rgbzplus\|VerlengingZaak]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/rgbzplus\|VestigingVanZaakbehandelendeOrganisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klantcontact\|Klantcontact]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/99-kern/rgbzplus\|ZAAK - Origineel]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | detail |  | Duplicaat van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] |
 | [[Wiki/GGM/99-kern/rgbzplus\|Zaak]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/rgbzplus\|Zaaktype]] | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] ✅ | — |  | Exact match |
 
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rgbzplus\|Betrokkene]] | abstract | n.v.t. | Abstract type |
-| [[Wiki/GGM/99-kern/rgbzplus\|Object]] | abstract | n.v.t. | Boventype AdresseerbaarObject, Onbestemd Adres, Nummeraanduiding |
-| [[Wiki/GGM/99-kern/rgbzplus\|Bedrijfsprocestype]] | classificatie | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rgbzplus\|Deelprocestype]] | classificatie | via Bedrijfsprocestype → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rgbzplus\|Documenttype]] | classificatie | typering [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rgbzplus\|Deelproces]] | component | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/bedrijfsproces\|Bedrijfsproces]] | Component |
-| [[Wiki/GGM/99-kern/rgbzplus\|AfwijkendBuitenlandsCorrespondentieadresRol]] | detail | via Betrokkene → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | GGM-definitie: "adres... waarop BETROKKENE in zijn/haar ROL in de ZAAK bereikbaar is" — route gecorrigeerd, was zinloos gekoppeld aan Wijk |
-| [[Wiki/GGM/99-kern/rgbzplus\|AfwijkendCorrespondentiePostadresRol]] | detail | via Betrokkene → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | GGM-definitie: "postadres... in verband met zijn/haar ROL in de ZAAK" — route gecorrigeerd, was zinloos gekoppeld aan Wijk |
-| [[Wiki/GGM/99-kern/rgbzplus\|AnderZaakobjectZaak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rgbzplus\|Besluittype]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | Typering bij Besluit — waardelijst |
-| [[Wiki/GGM/99-kern/rgbzplus\|Brondocumenten]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Procesmetadata (brondocumentverwijzing bij mutatie van een relatie), geen zelfstandig object |
-| [[Wiki/GGM/99-kern/rgbzplus\|ContactpersoonRol]] | detail | via Betrokkene → [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | GGM-definitie: "vanuit het belang van BETROKKENE in haar ROL bij een ZAAK" — route ingevuld, was onbereikbaar |
-| [[Wiki/GGM/99-kern/rgbzplus\|EnkelvoudigDocument]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Concrete verschijningsvorm van Document (enkelvoudig bestand, tegenover SamengesteldDocument), geen zelfstandig object |
-| [[Wiki/GGM/99-kern/rgbzplus\|FormeleHistorie]] | detail | generieke bouwsteen — audit-/versioningsmetadata, in principe van toepassing op elk attribuut in het model | Detailgegeven, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/rgbzplus\|Identificatiekenmerk]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rgbzplus\|KenmerkenZaak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rgbzplus\|MaterieleHistorie]] | detail | generieke bouwsteen — audit-/versioningsmetadata, in principe van toepassing op elk attribuut in het model | Detailgegeven, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/rgbzplus\|Offerte]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rgbzplus\|OpschortingZaak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rgbzplus\|SamengesteldDocument]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rgbzplus\|Status]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Voortgangsindicatie op Zaak, geen zelfstandig BO |
-| [[Wiki/GGM/99-kern/rgbzplus\|Statustype]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | Attribuut/modelleringskeuze, geen zelfstandig BO |
-| [[Wiki/GGM/99-kern/rgbzplus\|StrijdigheidOfNietigheid]] | detail | generieke bouwsteen — kwaliteitsindicator, in principe van toepassing op elk attribuut in het model | Detailgegeven, geen zelfstandig object |
-| [[Wiki/GGM/99-kern/rgbzplus\|VerlengingZaak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rgbzplus\|VestigingVanZaakbehandelendeOrganisatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rgbzplus\|ZAAK - Origineel]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] | Duplicaat van [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] |
-| [[Wiki/GGM/99-kern/rgbzplus\|InOnderzoek]] | proces | n.v.t. | Proces of processtap |
-
 ## RSGBPlus
 
-95 entiteiten, 14 Entiteiten met BO.
+96 GGM-entiteiten: 24 met BO, 62 ondersteunend aan BO, 10 niet gedekt. Dekking: 86 van 96 (90%).
 
 ### BRP — personen en burgerzaken
 
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rsgbplus\|AdresBuitenland]] | via Rechtspersoon → [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|AutoriteitAfgifteNederlandsReisdocument]] | typering [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|GeboorteIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|GeboorteIngeschrevenPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Huishouden]] | via Object → [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Cross-cutting sociaal domein, eenheid voor beoordeling |
+| [[Wiki/GGM/99-kern/rsgbplus\|IngeschrevenPersoon]] | n.v.t. | abstract |  | Boventype Leerling, Ouder Of Verzorger, Client |
 | [[Wiki/GGM/99-kern/rsgbplus\|Ingezetene]] | [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] ✅ | synoniem |  | BO hernoemd: Ingeschreven Persoon |
+| [[Wiki/GGM/99-kern/rsgbplus\|MigratieIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|NaamgebruikNatuurlijkPersoon]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Nationaliteit]] | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] | detail |  | eigenschap van persoon |
+| [[Wiki/GGM/99-kern/rsgbplus\|NationaliteitIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|NatuurlijkPersoon]] | n.v.t. | abstract |  | Boventype Bezoeker, Historisch Persoon, Vreemdeling |
+| [[Wiki/GGM/99-kern/rsgbplus\|NederlandseNationaliteitIngeschrevenPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|NietNatuurlijkPersoon]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] ✅ | synoniem |  | BO hernoemd: Niet-Natuurlijk Persoon |
+| [[Wiki/GGM/99-kern/rsgbplus\|OntbindingHuwelijk/geregistreerdPartnerschap]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | component |  | Component |
+| [[Wiki/GGM/99-kern/rsgbplus\|OverlijdenIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|OverlijdenIngeschrevenPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Partij]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|Rechtspersoon]] | n.v.t. | abstract |  | Boventype Indiener, Rechthebbende, Uitgever |
+| [[Wiki/GGM/99-kern/rsgbplus\|RedenVerkrijgingNationaliteit]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|RedenVerliesNationaliteit]] | referentietabel | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rsgbplus\|Reisdocument]] | [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Reisdocumentsoort]] | typering [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|SamengesteldeNaamNatuurlijkPersoon]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap]] | [[Wiki/Bedrijfsobjecten/99-kern/brp/huwelijk\|Huwelijk]] ✅ | synoniem |  | BO hernoemd: Huwelijk |
-
-**Entiteiten zonder BO:**
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rsgbplus\|IngeschrevenPersoon]] | abstract | n.v.t. | Boventype Leerling, Ouder Of Verzorger, Client |
-| [[Wiki/GGM/99-kern/rsgbplus\|NatuurlijkPersoon]] | abstract | n.v.t. | Boventype Bezoeker, Historisch Persoon, Vreemdeling |
-| [[Wiki/GGM/99-kern/rsgbplus\|AutoriteitAfgifteNederlandsReisdocument]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Partij]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|RedenVerkrijgingNationaliteit]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|RedenVerliesNationaliteit]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Reisdocumentsoort]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|OntbindingHuwelijk/geregistreerdPartnerschap]] | component | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | Component |
-| [[Wiki/GGM/99-kern/rsgbplus\|AdresBuitenland]] | detail | via Rechtspersoon → NietNatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | Detailgegeven — route gecorrigeerd, was via Rechtspersoon naar een verre cross-domein omweg (Parkeervergunning) |
-| [[Wiki/GGM/99-kern/rsgbplus\|GeboorteIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|GeboorteIngeschrevenPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Huishouden]] | detail | via IngeschrevenPersoon → [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Cross-cutting sociaal domein, eenheid voor beoordeling — route gecorrigeerd naar de directe GGM-relatie "Huishouden [0..1]──IngeschrevenPersoon [1..*] (heeft)", was via een verre cross-domein omweg naar Woonboot |
-| [[Wiki/GGM/99-kern/rsgbplus\|MigratieIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 (immigratie/emigratie-gebeurtenissen van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|NaamgebruikNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 §2.1.4.9 "Wijziging in het naamgebruik" (groep 61, wijze van aanschrijving van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Nationaliteit]] | detail | via NatuurlijkPersoon → IngeschrevenPersoon → [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | eigenschap van persoon — route gecorrigeerd naar de dichtstbijzijnde BO in hetzelfde domein, was via een verre cross-domein omweg naar Gemeentebegrafenis |
-| [[Wiki/GGM/99-kern/rsgbplus\|NationaliteitIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 (nationaliteitsgegevens van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|NederlandseNationaliteitIngeschrevenPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|OverlijdenIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|OverlijdenIngeschrevenPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Rechtspersoon]] | abstract | via NietNatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | Verzamelobject, GGM-ouder van NatuurlijkPersoon en NietNatuurlijkPersoon — route gecorrigeerd naar de eigen specialisatie met BO, was via een verre cross-domein omweg naar Parkeervergunning |
-| [[Wiki/GGM/99-kern/rsgbplus\|SamengesteldeNaamNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 (naamsgegevens van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfsrechtIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen directe relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 categorie 10/60 "Verblijfstitel" (verblijfsrechtelijke status van de ingeschrevene); vergelijkbaar met de wél gemodelleerde relatie Ingezetene──Verblijfstitel; 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfstitel]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | koppelgegeven (IND) |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 rubriek 35.95.13 "Verstrekkingsbeperking" (geheimhouding van gegevens van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfadresIngeschrevenPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfsrechtIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfstitel]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | koppelgegeven (IND) |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | detail |  | Detailgegeven |
 
 ### BRK — kadaster en rechten
 
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rsgbplus\|Aantekening]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/tenaamstelling\|Tenaamstelling]] | detail |  | procesnotitie |
+| [[Wiki/GGM/99-kern/rsgbplus\|AardFiliatie]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|AkrKadastraleGemeentecode]] | referentietabel | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rsgbplus\|Appartementsrecht]] | [[Wiki/Bedrijfsobjecten/99-kern/brk/appartementsrecht\|Appartementsrecht]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Appartementsrechtsplitsing]] | via KpBetrokkenBij → [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rsgbplus\|KadastraalPerceel]] | [[Wiki/Bedrijfsobjecten/99-kern/brk/kadastraal-perceel\|Kadastraal Perceel]] ✅ | synoniem |  | BO hernoemd: Kadastraal Perceel |
+| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleGemeente]] | typering [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleOnroerendeZaak]] | n.v.t. | abstract |  | Boventype Appartementsrecht, KadastraalPerceel |
+| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleOnroerendeZaakAantekening]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/brk/appartementsrecht\|Appartementsrecht]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|KoopsomKadastraleOnroerendeZaak]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/brk/appartementsrecht\|Appartementsrecht]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|LocatieKadastraleOnroerendeZaak]] | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/brk/appartementsrecht\|Appartementsrecht]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SplitsingstekeningReferentie]] | via Appartementsrechtsplitsing → [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|Tenaamstelling]] | [[Wiki/Bedrijfsobjecten/99-kern/brk/tenaamstelling\|Tenaamstelling]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/rsgbplus\|ZakelijkRecht]] | [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] ✅ | synoniem |  | BO hernoemd: Zakelijk Recht |
 | [[Wiki/GGM/99-kern/rsgbplus\|Zekerheidsrecht]] | [[Wiki/Bedrijfsobjecten/99-kern/brk/zekerheidsrecht\|Zekerheidsrecht]] ✅ | — |  | Exact match |
 
-**Entiteiten zonder BO:**
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleOnroerendeZaak]] | abstract | n.v.t. | Boventype Appartementsrecht, KadastraalPerceel |
-| [[Wiki/GGM/99-kern/rsgbplus\|AardFiliatie]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|AkrKadastraleGemeentecode]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleGemeente]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Aantekening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brk/tenaamstelling\|Tenaamstelling]] | procesnotitie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Appartementsrechtsplitsing]] | detail | via KpBetrokkenBij → [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rsgbplus\|KadastraleOnroerendeZaakAantekening]] | detail | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Registeraantekening op een kadastraal object (vgl. Aantekening bij Tenaamstelling) |
-| [[Wiki/GGM/99-kern/rsgbplus\|KoopsomKadastraleOnroerendeZaak]] | detail | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|LocatieKadastraleOnroerendeZaak]] | detail | via KadastraleOnroerendeZaak → [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|SplitsingstekeningReferentie]] | detail | via Appartementsrechtsplitsing → [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Detailgegeven |
-
 ### NHR — handelsregister
 
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rsgbplus\|Briefadres]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Gebied]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/99-kern/rsgbplus\|MaatschappelijkeActiviteit]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] ✅ | synoniem |  | BO hernoemd: Maatschappelijke Activiteit |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|Vestiging]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] ✅ | — |  | Exact match |
-
-**Entiteiten zonder BO:**
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rsgbplus\|Briefadres]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Gebied]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | Detailgegeven |
 
 ### WOZ — waardering onroerende zaken
 
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rsgbplus\|LocatieaanduidingAdresWOZObject]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|OverigGebouwdObject]] | via AdresseerbaarObjectAanduiding → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/99-kern/rsgbplus\|OverigeAdresseerbaarObjectAanduiding]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SoortWOZObject]] | typering [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|WOZ-Deelobjectcode]] | typering [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/99-kern/rsgbplus\|WOZ-Waarde]] | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/rsgbplus\|WOZ-deelobject]] | [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/99-kern/rsgbplus\|WOZ-object]] | [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] ✅ | — |  | Exact match |
 
-**Entiteiten zonder BO:**
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rsgbplus\|SoortWOZObject]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|WOZ-Deelobjectcode]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|LocatieaanduidingAdresWOZObject]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|OverigGebouwdObject]] | detail | via OverigeAdresseerbaarObjectAanduiding → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/99-kern/rsgbplus\|OverigeAdresseerbaarObjectAanduiding]] | detail | via Nummeraanduiding → [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | Detailgegeven |
-
 ### Overig — generiek en RSGB-uitbreidingen
 
-**Entiteiten zonder BO:**
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/99-kern/rsgbplus\|BenoemdObject]] | abstract | n.v.t. | Boventype BenoemdTerrein, GebouwdObject |
-| [[Wiki/GGM/99-kern/rsgbplus\|BenoemdTerrein]] | abstract | n.v.t. | Boventype Ligplaats, Standplaats |
-| [[Wiki/GGM/99-kern/rsgbplus\|GebouwdObject]] | abstract | n.v.t. | Boventype Verblijfsobject, OverigGebouwdObject |
-| [[Wiki/GGM/99-kern/rsgbplus\|Nummeraanduiding]] | abstract | n.v.t. | Boventype OverigeAdresseerbaarObjectAanduiding |
-| [[Wiki/GGM/99-kern/rsgbplus\|AanduidingVerblijfsrecht]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|AardAantekening]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|AardZakelijkRecht]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|AcademischeTitel]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|CultuurcodeBebouwd]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|CultuurcodeOnbebouwd]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|LandOfgebied]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|SoortGrootte]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Valuta]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Valutasoort]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/99-kern/rsgbplus\|Adresaanduiding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|AdresseerbaarObjectAanduiding]] | detail | via Nummeraanduiding → [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Buurt]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Openbare Ruimte |
-| [[Wiki/GGM/99-kern/rsgbplus\|CorrespondentieadresBuitenland]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Gemeente]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Asielstatushouder |
-| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenMaatschappelijkeActiviteit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Land]] | classificatie | ⚠️ geen BO bereikbaar | Typering/referentietabel (codelijst landen); vrijwel identieke definitie als LandOfgebied in ditzelfde bestand |
-| [[Wiki/GGM/99-kern/rsgbplus\|Ligplaats]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | Duplicaat van BAG-entiteit, reeds gedekt als Ligplaats — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Woonboot |
-| [[Wiki/GGM/99-kern/rsgbplus\|NaamAanschrijvingNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 (wijze van aanschrijving van de ingeschrevene bij huwelijk/partnerschap); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|NaamNatuurlijkPersoon]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Detailgegeven — GGM bevat geen relatie (isolated in XMI), onderbouwd vanuit LO BRP 2025.Q1 (naamsgegevens van de ingeschrevene); 🔍 teruggemeld als ontbrekende GGM-relatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Onbestemd Adres]] | detail | via Object → [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|OpenbareRuimte]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Monument |
-| [[Wiki/GGM/99-kern/rsgbplus\|Postadres]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Provincie]] | classificatie | ⚠️ geen BO bereikbaar | Typering/referentietabel (codelijst provincies) |
-| [[Wiki/GGM/99-kern/rsgbplus\|Rekeningnummer]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Standplaats]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats\|Standplaats (BAG)]] | Duplicaat van BAG-entiteit (BenoemdTerrein-hiërarchie plaatst Standplaats naast Ligplaats) — route gecorrigeerd, was via een omweg naar Woonboot |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenland]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenlandSubject]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfsobject]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject\|Verblijfsobject]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Binnenlocatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Wijk]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Binnenlocatie |
-| [[Wiki/GGM/99-kern/rsgbplus\|Woonplaats]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | Duplicaat van BAG-entiteit — route gecorrigeerd naar de eigen duplicaat-BO, was via een omweg naar Huwelijk |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
+|---|---|---|---|---|
+| [[Wiki/GGM/99-kern/rsgbplus\|AanduidingVerblijfsrecht]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|AardAantekening]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|AardZakelijkRecht]] | typering [[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht\|Zakelijk Recht]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|AcademischeTitel]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|Adresaanduiding]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|AdresseerbaarObjectAanduiding]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|BenoemdObject]] | n.v.t. | abstract |  | Boventype BenoemdTerrein, GebouwdObject |
+| [[Wiki/GGM/99-kern/rsgbplus\|BenoemdTerrein]] | n.v.t. | abstract |  | Boventype Ligplaats, Standplaats |
+| [[Wiki/GGM/99-kern/rsgbplus\|Buurt]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|CorrespondentieadresBuitenland]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|CultuurcodeBebouwd]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|CultuurcodeOnbebouwd]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|GebouwdObject]] | n.v.t. | abstract |  | Boventype Verblijfsobject, OverigGebouwdObject |
+| [[Wiki/GGM/99-kern/rsgbplus\|Gemeente]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/gemeente\|Gemeente]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenMaatschappelijkeActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Land]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|LandOfgebied]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|Ligplaats]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|NaamAanschrijvingNatuurlijkPersoon]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|NaamNatuurlijkPersoon]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Nummeraanduiding]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Onbestemd Adres]] | via Object → [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|OpenbareRuimte]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] ✅ | synoniem |  | BO hernoemd: Openbare Ruimte |
+| [[Wiki/GGM/99-kern/rsgbplus\|Pand]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/pand\|Pand]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Postadres]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Provincie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Rekeningnummer]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SoortGrootte]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|Standplaats]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats\|Standplaats (BAG)]] ✅ | synoniem |  | BO hernoemd: Standplaats (BAG) |
+| [[Wiki/GGM/99-kern/rsgbplus\|Valuta]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|Valutasoort]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenland]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|VerblijfBuitenlandSubject]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Verblijfsobject]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/verblijfsobject\|Verblijfsobject]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Wijk]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/99-kern/rsgbplus\|Woonplaats]] | [[Wiki/Bedrijfsobjecten/99-kern/bag/woonplaats\|Woonplaats]] ✅ | — |  | Exact match |
 
 ## BO's zonder GGM-entiteit
 

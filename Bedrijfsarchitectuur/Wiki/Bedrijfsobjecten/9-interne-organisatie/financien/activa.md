@@ -24,6 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e83e86ad-4769-41ce-91c7-675e93441074"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Activa** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Activasoort** (classificatie) — Typering/referentietabel
+  - **Hoofdrekening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Bezittingen van een onderneming op een boekhoudkundige balans"
 bo_toelichting: ''
 definitie: Bezittingen van een onderneming op een boekhoudkundige balans

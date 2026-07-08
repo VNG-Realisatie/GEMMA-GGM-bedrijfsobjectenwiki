@@ -24,6 +24,8 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **OpenbareActiviteit**.
 bo_definitie: "Activiteit in het publieke domein"
 bo_toelichting: ''
 bedrijfsprocessen: ""

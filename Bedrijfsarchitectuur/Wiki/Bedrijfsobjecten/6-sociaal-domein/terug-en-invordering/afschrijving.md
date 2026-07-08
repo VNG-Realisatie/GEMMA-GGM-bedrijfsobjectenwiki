@@ -24,6 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Afschrijving** als directe tegenhanger.
 bo_definitie: "De vordering blijkt oninbaar. Er is (nog) geen aflossingsmogelijkheid en er is geen perspectief tot invordering. Afscheid nemen van de vordering gebeurt via het afschrijven van de vordering."
 bo_toelichting: "De reden van afschrijving wordt opgegeven."
 definitie: Het afschrijven van een oninbare vordering waarvoor geen perspectief op invordering bestaat

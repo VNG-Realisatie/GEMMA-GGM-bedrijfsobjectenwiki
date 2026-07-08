@@ -35,6 +35,10 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Activiteit** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Bemiddelingsactiviteit** (detail) — Detailgegeven
+  - **SBIActiviteit** (detail) — Detailgegeven
 bo_definitie: "Gereguleerd menselijk handelen of nalaten in de fysieke leefomgeving waarvoor regels gelden in het omgevingsplan."
 bo_toelichting: "Activiteiten worden hiërarchisch gestructureerd in het omgevingsplan met een tophaak-activiteit per gemeente. Elke activiteit heeft een eigen NEN3610-identificatie, naam en groep, en is gekoppeld aan juridische regels die bepalen of de activiteit vergunningplichtig, meldingsplichtig of vergunningvrij is."
 bo_subtypes: []

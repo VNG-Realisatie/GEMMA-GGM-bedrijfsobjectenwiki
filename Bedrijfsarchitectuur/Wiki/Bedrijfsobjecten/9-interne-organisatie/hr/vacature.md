@@ -27,6 +27,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vacature** als directe tegenhanger.
 bo_definitie: "Een arbeidsplaats binnen een bedrijf of organisatie die nog gevuld dient te worden door werkzoekenden."
 bo_toelichting: "In de context van dit BO: de gemeente als werkgever die eigen personeel zoekt via werving & selectie."
 bo_homoniemen:

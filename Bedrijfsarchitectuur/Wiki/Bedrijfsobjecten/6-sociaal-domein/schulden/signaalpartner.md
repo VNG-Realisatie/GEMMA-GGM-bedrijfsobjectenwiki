@@ -14,6 +14,8 @@ ggm_diagram: [Vroegsignalering, Vroegsignalering Details, Vroegsignalering Klein
 ggm_definitie: "Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken."
 ggm_herkomst: GGM
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Signaalpartner** als directe tegenhanger.
 bo_definitie: "Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wet gemeentelijke schuldhulpverlening (Wgs) bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente met het doel vroegtijdige hulpverlening bij schulden mogelijk te maken."
 bo_toelichting: ''
 bo_subtypes: []

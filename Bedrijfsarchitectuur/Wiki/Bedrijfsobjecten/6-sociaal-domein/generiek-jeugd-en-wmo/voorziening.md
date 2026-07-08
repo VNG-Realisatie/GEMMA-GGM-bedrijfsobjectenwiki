@@ -30,6 +30,11 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten:
   - "EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Voorziening** als directe tegenhanger. Daarnaast is **Voorziening** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Tarief** (detail) — Attribuut van Heffinggrondslag
+  - **Voorliggende voorziening** (detail) — Detailgegeven (weinig attributen)
+  - **Voorzieningsoort** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
 bo_toelichting: ''
 bo_subtypes:

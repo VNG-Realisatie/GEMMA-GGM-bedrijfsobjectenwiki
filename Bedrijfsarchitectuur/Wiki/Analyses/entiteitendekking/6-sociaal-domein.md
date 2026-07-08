@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 6 Sociaal Domein"
-datum: 2026-07-07
+datum: 2026-07-08
 taakveld: "6 Sociaal Domein"
 beleidsdomeinen:
   - Dak- en thuislozen
@@ -15,8 +15,8 @@ beleidsdomeinen:
   - Sociale Teams
   - Werk
 totaal_entiteiten: 285
-totaal_bo: 59
-totaal_matches: 49
+totaal_bo: 63
+totaal_matches: 53
 totaal_hiaten: 10
 ---
 
@@ -24,469 +24,366 @@ totaal_hiaten: 10
 
 ## Beoordeling
 
-10 beleidsdomeinen, 285 GGM-entiteiten. Dekking: 246 van 285 (86%) — 49 met BO, 197 ondersteunend, 39 niet gedekt. 10 BO's zonder GGM-entiteit.
+<!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-Niet-BO entiteiten: 24× classificatie, 16× component, 189× detail, 3× abstract, 2× proces, 2× rol.
+10 beleidsdomeinen, 285 GGM-entiteiten. Dekking: 233 van 285 (82%) — 53 met BO, 180 ondersteunend, 52 niet gedekt. 10 BO's zonder GGM-entiteit.
 
-**Generiek Jeugd en Wmo.** De niet-BO entiteiten volgen grotendeels het AOM-patroon (AanvraagOfMelding) dat ook in andere taakvelden voorkomt: `AOMMeldingWmoJeugd` en `AOM_AanvraagWmoJeugd` zijn concrete subtypen van het abstracte `AanvraagOfMelding` en beschrijven de [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]-BO, net als de vergelijkbare AOM-entiteiten in Veiligheid en Vergunningen. `Verzoek om Toewijzing` is een inkomend verzoekbericht via het H10-portal dat leidt tot een Beschikking — geen zelfstandig BO. Voor het overige overheerst detailgegeven rond Beschikking en Voorziening (Beperking, Score, Tarief, Team e.d.), met enkele classificaties (Beperkingscoresoort, Beschikkingsoort, Scoresoort) en één component (Declaratieregel).
-
-**Inburgering.** Vrijwel alle niet-BO entiteiten zijn detailgegevens die een van de 15 BO's beschrijven (Asielstatushouder, Leerroute, Inburgeringstermijn e.d.), zonder classificatie- of componentpatroon van betekenis. Twee entiteiten verdienen aandacht vanwege naamhomoniemen: `Werk` (11 attrs, werkgegeven binnen het inburgeringstraject) is een andere entiteit dan de gelijknamige BO `Werkzoekende` en het beleidsdomein "Werk"; `Taalvaardigheid` (14 attrs) is een toetsgegeven van Asielstatushouder. Ook `Ontheffing` (Inburgering, wél BO) heeft een naamgenoot in het beleidsdomein Werk (zie hieronder) — de Naamoverlap-kolom bij Inburgering verwijst daar al naar.
-
-**Inkomen.** Dit is het beleidsdomein met de meeste "niet gedekt"-gevallen. Structureel patroon: veel entiteiten zijn subtypen van de abstracte classificatie `Reden aanvraag` / `Reden aanvraag Levensonderhoud` (Gestopt betaald werk, Gestopt of verkocht eigen bedrijf, Gestopte detentie, Gestopte of verlaagde alimentatie, Gestopte uitkering, Vertrek uit asielzoekerscentrum). Hoewel de bovenliggende `Reden aanvraag` terecht als classificatie is getypeerd, blijven deze concrete subtypen zelf op `detail` staan: ze dragen elk 5-14 inhoudelijke bewijsattributen (contractgegevens, KvK-nummer, verkoopbedrag, COA-weekgeld) en zijn dus geen eenvoudige codetabel maar situationele bewijsregistraties. Twee entiteiten staan wél als `classificatie`: `Diensttype` en `Leveringscomponenttype` typeren respectievelijk Dienst en Leveringscomponent (naampatroon -type, functie als normtabel); `Periodiek dienst Bijz. bijstand` is door het GGM zelf als redundant met deze twee gemarkeerd en krijgt hetzelfde type. `Component` is een `component`: het is letterlijk een bouwsteen ("is opgebouwd uit") van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening|Inkomensvoorziening]].
-
-`Component` (12 attrs: *"een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkering…"*) is inhoudelijk hetzelfde begrip als `Inkomstencomponent` in Sociaal Domein Generiek (9 attrs: *"een persoon kan vanuit diverse bronnen inkomsten krijgen: alimentatie, loon, uitkering of vermogen…"*) en als `Inkomen` in Schulden (6 attrs, component van Leefsituatie in een WSNP-traject). Alle drie beschrijven "de afzonderlijke bronnen waaruit iemands inkomen bestaat" — niet drie verschillende begrippen die toevallig dezelfde naam delen, maar hetzelfde onderliggende concept dat het GGM drie keer los modelleert voor drie uitvoeringscontexten: generiek cliëntprofiel (Sociaal Domein Generiek), berekening van één toegekende Inkomensvoorziening (hier), en de Leefsituatie-berekening binnen een WSNP-traject (Schulden). `Component` blijft via Inkomensvoorziening gedekt en is cross-gelinkt naar Inkomstencomponent als het gedeelde bovenliggende begrip (zie tabel). Consolidatie tot één generiek "Inkomstenbron"-begrip is een kandidaat voor een toekomstige `/assess-bo`-afweging, zodra er een bron voor bestaat (zie "Ontbrekende bronnen") — vooralsnog blijft het bij drie los gedekte, maar wel gekoppelde, entiteiten.
-
-Ook de `Reden aanvraag Levensonderhoud`-subtypes zelf staan niet los: `Gestopt betaald werk`, `Gestopt of verkocht eigen bedrijf`, `Gestopte of verlaagde alimentatie`, `Gestopte uitkering` en `Gestopte studiefinanciering` zijn inhoudelijk de **beëindiging** van precies de inkomstenbronnen die Sociaal Domein Generiek als `Primair inkomstencomponent`-subtypes modelleert (Betaald werk, Eigen bedrijf, Alimentatie, Uitkering, Studiefinanciering) — twee kanten van dezelfde medaille: een lopend profielonderdeel versus de gebeurtenis die het stopzetten ervan markeert en een aanvraag triggert. Beide kanten zijn cross-gelinkt in de tabel.
-
-Functionele dekking: de "niet gedekt"-rijen laten zien dat het GGM veel meer situationele nuance rond inkomensbeëindiging en -wijziging vastlegt (Boete, Verbroken relatie, Wachten DigiD, Opname instelling) dan er BO's voor bestaan — dit hangt samen met [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening|Inkomensvoorziening]] en de terug-/invorderingsketen maar wordt niet apart gemodelleerd als BO. Voor Boete bestaat een (zwakke) bron: Wet SUWI art. 83d-83h regelt de bestuurlijke boete, maar dan in UWV-context, niet gemeente/Participatiewet-specifiek — zie "Ontbrekende bronnen".
-
-**Schulden.** Bijna alle niet-BO entiteiten zijn detailgegevens of procesfasen (Aanmelding, Crisisinterventie, Intake, Nazorg, Stabilisatie, Uitstroom) van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject|Schuldhulptraject]]. `Inkomen` (6 attrs, met attributen inkomstenbron/inkomenscategorie) is een component van Leefsituatie binnen WSNP-traject — nadrukkelijk niet te verwarren met het gelijknamige beleidsdomein Inkomen of de `Inkomstencomponent`-structuur in Sociaal Domein Generiek; zie de Inkomen-paragraaf hierboven voor de onderbouwing dat dit drie keer hetzelfde concept is, niet drie toevallige naamgenoten.
-
-**Sociaal Domein Generiek.** Dit beleidsdomein heeft, naast Inkomen, de meeste "niet gedekt"-gevallen. Kernpatroon: `Inkomstencomponent` en `Vermogenscomponent` zijn abstracte overkoepelende typen met eigen subtype-hiërarchie (Inkomstencomponent → Primair/Secundair inkomstencomponent; Vermogenscomponent → Bankrekening/Hypotheek/Motorvoertuig/Onroerend goed), elk gedekt via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]].
-
-De vier `Vermogenscomponent`-subtypen (Bankrekening, Hypotheek, Motorvoertuig, Onroerend goed) routeren consistent via Vermogenscomponent → Client: het zijn de bestanddelen waaruit het vermogen van een cliënt bestaat, geen registraties van het fysieke object als zodanig. Motorvoertuig en Onroerend goed bestaan als object ook elders in GEMMA (de Voertuig-BO in taakveld 2, [[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]] in taakveld 99), maar die beantwoorden een andere bedrijfsvraag — kentekenregistratie/parkeren resp. OZB-heffing — en zijn dus geen geschikte dekkingsroute voor de vermogensvraag. De SGR 19.0-deelmodellen RDW en Kadaster bevestigen wel expliciet dat voertuig- en onroerendezaakgegevens in de rijksketen specifiek voor de vermogenstoets Participatiewet worden ontsloten.
-
-De `Inkomstencomponent`-tak kent twee takken: `Primair inkomstencomponent` (Alimentatie, Betaald werk, Eigen bedrijf, Pensioen, Stage, Uitkering, Studiefinanciering, Ander inkomen, Hobby) en `Secundair inkomstencomponent` (Dertiende maand - eindejaarsuitkering, Heffingskorting, Inkomstenvermindering, Vergoeding, Vakantiegeld) — elk subtype routeert via zijn overkoepelend type naar Client. `Studiefinanciering` is hierbij een bijzonder geval: DUO/de Minister kent dit toe, niet de gemeente (Wet studiefinanciering 2000); de gemeente registreert het alleen als inkomstenfeit, zelfde patroon als Uitkering/Pensioen. `Heffingskorting` heeft daarnaast ook een dekkingsroute via [[Wiki/Bedrijfsobjecten/99-kern/heffing|Heffing]] (dubbele GGM-herkomst, geen probleem).
-
-`Onderhoudsplicht`/`Onderhoudsverhouding` blijven `detail` (geen component of BO): een civielrechtelijke verhouding tussen private partijen (Boek 1 BW Titel 17: wie tot levensonderhoud gehouden is, draagkracht/behoeftigheid, LBIO-invordering), niet door de gemeente uitgevoerd. Ze routeren wel via Profiel → Client, conform de GGM-documentatie die stelt dat de onderhoudsplichtverhouding "in het profiel van de klant is opgenomen". Nadrukkelijk niet hetzelfde als `Alimentatie`: Onderhoudsplicht/-verhouding registreert de situatie waarin de onderhoudsplichtige **via verhaal aan de gemeente** betaalt; betaalt hij **rechtstreeks aan de onderhoudsgerechtigde (de cliënt)**, dan heet dat Alimentatie en loopt het via de Inkomstencomponent-tak.
-
-De overige review-items (Incident, Sociale Groep, Vrijlating inkomsten, Waardepeiling) blijven `detail`: inhoudelijke registraties (gebeurtenis, groep, kortingsregel, taxatie) zonder eigen BO-worthy levenscyclus.
-
-Functionele dekking: Stadspas en Loonbeslag/Beslag op inkomen blijven "niet gedekt" zonder route — deze leggen de inkomens-/vermogenspositie van een cliënt vast zonder dat hier een BO tegenover staat, en er ontbreekt een bron (zie "Ontbrekende bronnen"). De overige inkomsten- en vermogenscomponenten blijven impliciet onderdeel van het profiel van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]].
-
-**Sociale Teams.** Klein en overzichtelijk: vier classificaties (typeringen van Behandeling/Bijzonderheid/Doelstelling/SociaalTeamDossier), twee detailgegevens en twee procesentiteiten (Behandeling, Caseaanmelding) — geen review-items.
-
-**Werk.** Grotendeels detailgegevens die Werkzoekende beschrijven. Eén herclassificatie: `Werkzaamheden anders dan in arbeidsverhouding` is `abstract` (overkoepelend type met subtype `Werkzaamheden als mantelzorger`, die zelf `detail` blijft vanwege de inhoudelijke mantelzorgattributen). Naamhomoniem: `Ontheffing` (Werk, detail, vrijstellingsgegeven van Werkzoekende) is een andere entiteit dan de BO `Ontheffing` bij Inburgering — beide bestaan naast elkaar in het GGM onder dezelfde naam maar met andere betekenis en andere relatie.
-
-**Cross-domein observaties.** Taakveld 6 kent opvallend veel naamoverlap tussen beleidsdomeinen, wat te verklaren is doordat Inburgering, Werk en Inkomen deels dezelfde levensdomeinen (werk, inkomen) vanuit een ander perspectief modelleren: "Werk" bestaat als entiteit bij Inburgering (werkgegeven van een inburgeraar) én als beleidsdomein/BO-cluster Werk (Werkzoekende, Re-integratievoorziening); "Ontheffing" bestaat als BO bij Inburgering én als detailgegeven bij Werk. Deze twee zijn echte homoniemen: functioneel verschillend, geen duplicaten om te consolideren, wel vragen ze bij toekomstige BO-vorming om expliciete disambiguatie in paginanamen en Naamoverlap-kolommen.
-
-"Inkomen" ligt anders. Het bestaat als beleidsdomein (Inkomensvoorziening e.a.), als entiteit `Component` binnen ditzelfde beleidsdomein, als entiteit bij Schulden (`Inkomen`, component van Leefsituatie) én als `Inkomstencomponent`-structuur bij Sociaal Domein Generiek. Dit is, anders dan Werk/Ontheffing, géén functioneel-verschillend homoniem maar **drie keer hetzelfde concept** ("de afzonderlijke bronnen waaruit iemands inkomen bestaat" — loon, uitkering, winst uit onderneming, alimentatie, vermogen) los gemodelleerd voor drie uitvoeringscontexten (cliëntprofiel, uitkeringsberekening, WSNP-leefsituatie). Zie de Beoordeling-paragrafen van Inkomen en Sociaal Domein Generiek voor de onderbouwing met citaten; de betrokken tabelrijen zijn expliciet cross-gelinkt naar `Inkomstencomponent` als het gedeelde bovenliggende begrip. Consolidatie tot één BO is hier, in tegenstelling tot Werk/Ontheffing, wel een reële toekomstige optie — maar vereist eerst een bron voor het onderliggende "Inkomstenbron"-concept (zie "Ontbrekende bronnen").
-
-**Ontbrekende bronnen.** Voor een deel van de "niet gedekt"-rijen in Inkomen en Sociaal Domein Generiek ontbreekt daadwerkelijk brongrondslag:
-
-- **Stadspas** — geen enkel brondocument; alleen terloopse vermeldingen in ongerelateerde bronnen.
-- **Loonbeslag / Beslag op inkomen** — de term komt nergens in `Sources/` voor; "beslagvrije voet" wordt slechts terloops genoemd in schulden-gerelateerde bronnen, niet inhoudelijk uitgewerkt.
-- **"Reden aanvraag"-beëindigingsgebeurtenissen** (Gestopt betaald werk, Gestopte uitkering e.d.) — geen bron behandelt aanvraag- of beëindigingsredenen voor inkomensvoorzieningen.
-- **Vermogen/Inkomstencomponent als zelfstandig onderwerp** — geen bronsamenvatting of onderwerpoverzicht voor "vermogenstoets" of "inkomstenbronnen" als zodanig (alleen losse vermeldingen binnen bijstand- en belastingbronnen).
-- **Normafwijking** — geen bron.
-- **Boete** (Participatiewet-context) — Wet SUWI art. 83d-83h regelt de bestuurlijke boete uitvoerig, maar in UWV-context, niet gemeente-specifiek; bruikbaar als vertrekpunt, niet als volledige grondslag.
-
-Aanbeveling: deze onderwerpen vragen een nieuwe, gerichte bron — bijvoorbeeld een verordening bijzondere bijstand/minimabeleid (Stadspas, Reden-aanvraag-redenen) of beleidsregels terug- en invordering (Loonbeslag/Beslag op inkomen). Dat gerichte bronnen dit type hiaat daadwerkelijk oplossen, is al aangetoond bij Onderhoudsplicht/Onderhoudsverhouding (Boek 1 BW Titel 17) en Studiefinanciering (Wet studiefinanciering 2000) — zie de Sociaal Domein Generiek-paragraaf hierboven; het generieke SGR 19.0-gegevensregister (SUWI) leverde voor deze twee juist niets op, omdat de begrippen daar hooguit als kale rolnaam resp. dossiernaam voorkomen.
+Niet-BO entiteiten: 21× classificatie, 8× component, 199× detail, 2× proces, 2× rol.
 
 ## Dak- en thuislozen
 
-1 entiteiten, 1 Entiteiten met BO.
+1 GGM-entiteiten: 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/6-sociaal-domein/dak-en-thuislozen\|Dakloosheid]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/dak-en-thuislozen/dakloosheid\|Dakloosheid]] ✅ | — |  | Exact match |
 
 ## Gemeentebegrafenissen
 
-1 entiteiten, 1 Entiteiten met BO.
+1 GGM-entiteiten: 1 met BO, 0 ondersteunend aan BO, 0 niet gedekt. Dekking: 1 van 1 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/6-sociaal-domein/gemeentebegrafenissen\|Gemeentebegrafenis]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] ✅ | — |  | Exact match |
 
 ## Generiek Jeugd en Wmo
 
-27 entiteiten, 6 Entiteiten met BO.
+27 GGM-entiteiten: 6 met BO, 21 ondersteunend aan BO, 0 niet gedekt. Dekking: 27 van 27 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOMMeldingWmoJeugd]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOM_AanvraagWmoJeugd]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperking]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Eigenschap van beoordeling, niet zelfstandig BO |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscategorie]] | via Beperking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscore]] | via Beperking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscoresoort]] | via Beperkingscore → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikking]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Declaratie]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]] ✅ | synoniem | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie|Declaratie (HR)]] | BO hernoemd: Zorgdeclaratie |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikkingsoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikte Voorziening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Budgetuitputting]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning\|PGB-Toekenning]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Declaratie]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]] ✅ | synoniem | synoniem: Declaratie; homoniem: [[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie|Declaratie (HR)]] | BO hernoemd: Zorgdeclaratie |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Declaratieregel]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Leefgebied]] | via Score → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Levering]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/levering\|Levering]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Leveringsvorm]] | via Beschikte Voorziening → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Melding Eigen bijdrage]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]], geen zelfstandig BO |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|PGB-Toekenning]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning\|PGB-Toekenning]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Score]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Scoresoort]] | via Score → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Tarief]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Team]] | via Clientbegeleider → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Toewijzing]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/toewijzing\|Toewijzing]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verplichting Wmo Jeugd]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verzoek om Toewijzing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Voorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscoresoort]] | classificatie | via Beperkingscore → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikkingsoort]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Scoresoort]] | classificatie | via Score → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Declaratieregel]] | component | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Component |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOMMeldingWmoJeugd]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | AOM-patroon (subtype van AanvraagOfMelding), analoog aan AOM-varianten in andere domeinen |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOM_AanvraagWmoJeugd]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | AOM-patroon (subtype van AanvraagOfMelding), analoog aan AOM-varianten in andere domeinen |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperking]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Eigenschap van beoordeling, niet zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscategorie]] | detail | via Beperking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscore]] | detail | via Beperking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikte Voorziening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Budgetuitputting]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/pgb-toekenning\|PGB-Toekenning]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Leefgebied]] | detail | via Score → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Leveringsvorm]] | detail | via Beschikte Voorziening → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Melding Eigen bijdrage]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Component van [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]], geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Score]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Tarief]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]] |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Team]] | detail | via Clientbegeleider → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verplichting Wmo Jeugd]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder\|Inkooporder]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Verzoek om Toewijzing]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | Inkomend verzoekbericht (H10-portal) dat leidt tot Beschikking, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Voorzieningsoort]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Zelfredzaamheidmatrix]] | detail | via Leefgebied → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Voorzieningsoort]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Zelfredzaamheidmatrix]] | via Leefgebied → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
 
 ## Inburgering
 
-35 entiteiten, 15 Entiteiten met BO.
+35 GGM-entiteiten: 15 met BO, 20 ondersteunend aan BO, 0 niet gedekt. Dekking: 35 van 35 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Aandachtspunt]] | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Aanvraag verlenging Inburgeringstermijn]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn\|Inburgeringstermijn]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Asielstatushouder]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|B1-route]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute\|Leerroute]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Brede Intake]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake\|Brede Intake]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Diplomawaardering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Educatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Examen]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen\|Examen]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Examenonderdeel]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen\|Examen]] | detail |  | Component van Examen, geen zelfstandige levenscyclus |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Gezinsmigrant en Overige migrant]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant\|Gezinsmigrant]] ✅ | synoniem |  | BO hernoemd: Gezinsmigrant |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Hoofddoel]] | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|ICT-Vaardigheid]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgeraar]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|InburgeringsAanbod]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgeringsplicht]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht\|Inburgeringsplicht]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgeringstermijn]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn\|Inburgeringstermijn]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgeringstraject]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject\|Inburgeringstraject]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Introductiemodule]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering\|Voorbereiding op Inburgering]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Leerroute]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute\|Leerroute]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|MAP]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/map\|MAP]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Ontheffing]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing]] ✅ | — | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/ontheffing|Ontheffing (Werk)]] | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Ontheffing]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/ontheffing|Ontheffing (Werk)]] | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Ontwikkelwens]] | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|PIP]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip\|PIP]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|PVT]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pvt\|PVT]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Subdoel Aandachtspunt]] | via Aandachtspunt → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Subdoel Ontwikkelwens]] | via Ontwikkelwens → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Taalvaardigheid]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Training]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Verblijfplaats AZC]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Verlengingsgrond]] | via Aanvraag verlenging Inburgeringstermijn → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn\|Inburgeringstermijn]] | detail |  | Component van Inburgeringstermijn |
 | [[Wiki/GGM/6-sociaal-domein/inburgering\|Voorbereiding op Inburgering]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering\|Voorbereiding op Inburgering]] ✅ | — |  | Exact match |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Vrijstelling]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling\|Vrijstelling]] ✅ | — | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|Vrijstelling (Leerplicht)]] | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Aandachtspunt]] | detail | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Aanvraag verlenging Inburgeringstermijn]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn\|Inburgeringstermijn]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|B1-route]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute\|Leerroute]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Diplomawaardering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Educatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Examenonderdeel]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen\|Examen]] | Component van Examen, geen zelfstandige levenscyclus |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Hoofddoel]] | detail | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|ICT-Vaardigheid]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Inburgeraar]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Introductiemodule]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering\|Voorbereiding op Inburgering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Ontwikkelwens]] | detail | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Subdoel Aandachtspunt]] | detail | via Aandachtspunt → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Subdoel Ontwikkelwens]] | detail | via Ontwikkelwens → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsaanbod\|Inburgeringsaanbod]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Taalvaardigheid]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Toetsgegeven, geassocieerd met Asielstatushouder |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Training]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Verblijfplaats AZC]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Detailgegeven |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Verlengingsgrond]] | detail | via Aanvraag verlenging Inburgeringstermijn → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn\|Inburgeringstermijn]] | Component van Inburgeringstermijn |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Vreemdeling]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Werk]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Werkgegeven binnen inburgeringstraject; naamhomoniem met beleidsdomein/BO Werkzoekende (taakveld Werk) |
-| [[Wiki/GGM/6-sociaal-domein/inburgering\|Z-route]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute\|Leerroute]] | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Vreemdeling]] | via Inburgeraar → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Vrijstelling]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling\|Vrijstelling]] ✅ | — | homoniem: [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|Vrijstelling (Leerplicht)]] | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Werk]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inburgering\|Z-route]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute\|Leerroute]] | detail |  | Detailgegeven (geassocieerd met BO) |
 
 ## Inkomen
 
-88 entiteiten, 8 Entiteiten met BO.
+88 GGM-entiteiten: 10 met BO, 59 ondersteunend aan BO, 19 niet gedekt. Dekking: 69 van 88 (78%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aanvraag]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aanvraagtype]] | via Aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Aflossing]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aflossingsafspraak]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Aflossingsplan]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Afschrijving]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/afschrijving\|Afschrijving]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Afwijkende maatregel]] | via Maatregel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Andere reden afwijkende startdatum]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Andere reden verzoek]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Beschikking]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Besluit]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Betaalcomponent]] | via Rechtmaand → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Betalingsblokkade]] | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Boete]] | via Maatregel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Boetevordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Component]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|ComponentSoort]] | via Component → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Conservatoir beslag]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Correctie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Debiteur]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Dienst]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensten::Aanvraag]] | via Reden aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensten::Aanvraag levensonderhoud]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensttype]] | via Onderdeel beschikking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt betaald werk]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt of verkocht eigen bedrijf]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte bijstanduitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte detentie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte of verlaagde alimentatie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte studiefinanciering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte uitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Huisvestingsoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Incassokostenvordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Individuele plicht]] | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Ingang bijstandsuitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Inkomensvoorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Inkomensvoorzieningsoort]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Interventie]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie\|Interventie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Interventieverzoek]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie\|Interventie]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Invorderingsbasis]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Krediethypotheek]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Krediethypotheekvordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Kwijtschelding]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/kwijtschelding-bo\|Kwijtschelding]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leenbijstand]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leenbijstandvordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Levenssituatie::Levenssituatie]] | via Reden aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringscomponent]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringscomponenttype]] | via Leveringscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringsopdracht]] | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringsspecificatie]] | via Leveringscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Loonbeslagafspraak]] | via Aflossingsafspraak → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Maatregel]] | via Normafwijking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Maatregel op uitkering]] | via Maatregel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Normafwijking]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Onderdeel beschikking]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Opname instelling]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Overleden partner]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Periodiek dienst Bijz. bijstand]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Recht]] | via Besluit → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Rechtmaand]] | via Terugvorderingsverzoek → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden aanvraag]] | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden aanvraag Levensonderhoud]] | via Reden aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden afwijkende startdatum]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenBlokkering]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenInstroom]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenUitstroom]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Referteperiode]] | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Regeling]] | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Regelingsoort]] | via Regeling → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Rentevordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Restitutie]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/restitutie\|Restitutie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Terugvorderingsverzoek]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|UitkeringsRun]] | via Component → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Uitsluitingsgrond]] | ⚠️ geen BO bereikbaar | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Uitstel aflossing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verbroken relatie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vermindering terugvordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verrekening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verstrekkingsvorm]] | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vertrek uit asielzoekerscentrum]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verwijtbare vordering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorliggende voorziening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorwaarde]] | via Recht → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorwaardetype]] | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/inkomen\|Vordering]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aanvraagtype]] | classificatie | via Aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|ComponentSoort]] | classificatie | via Component → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Huisvestingsoort]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden aanvraag]] | classificatie | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden aanvraag Levensonderhoud]] | classificatie | referentietabel | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Reden afwijkende startdatum]] | classificatie | typering [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenBlokkering]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenInstroom]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|RedenUitstroom]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Regelingsoort]] | classificatie | via Regeling → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorwaardetype]] | classificatie | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Afwijkende maatregel]] | component | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Maatregel]] | component | via Normafwijking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Maatregel op uitkering]] | component | ⚠️ geen BO bereikbaar | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Onderdeel beschikking]] | component | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Regeling]] | component | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Uitsluitingsgrond]] | component | ⚠️ geen BO bereikbaar | Component |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aanvraag]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Aflossingsafspraak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Andere reden afwijkende startdatum]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Andere reden verzoek]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Beschikking]] | detail | via Besluit → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Cross-domein parent, al gedekt door domeinspecifieke BO's |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Besluit]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Betaalcomponent]] | detail | via Rechtmaand → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Betalingsblokkade]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Boete]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Boetevordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Component]] | component | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Component van Inkomensvoorziening, geen zelfstandig BO — zelfde concept als [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstencomponent]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Conservatoir beslag]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Correctie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Debiteur]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Dienst]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensten::Aanvraag]] | detail | via Reden aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensten::Aanvraag levensonderhoud]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Diensttype]] | classificatie | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel (typeert Dienst) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt betaald werk]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met inhoudelijke bewijsattributen (contract, salaris), geen classificatiecode — beëindiging van [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Betaald werk]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt of verkocht eigen bedrijf]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met inhoudelijke gegevens (KvK-nummer, verkoopbedrag), geen classificatiecode — beëindiging van [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Eigen bedrijf]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte bijstanduitkering]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte detentie]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met inhoudelijke gegevens (duur en einddatum detentie), geen classificatiecode |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte of verlaagde alimentatie]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met inhoudelijke gegevens (einddatum, LBIO), geen classificatiecode — beëindiging/verlaging van [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Alimentatie]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte studiefinanciering]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype — beëindiging van [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Studiefinanciering]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte uitkering]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met 12 inhoudelijke attributen, geen classificatiecode — beëindiging van [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Uitkering]] (Sociaal Domein Generiek) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Incassokostenvordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Individuele plicht]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Ingang bijstandsuitkering]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Inkomensvoorzieningsoort]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Interventieverzoek]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/interventie\|Interventie]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Invorderingsbasis]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Krediethypotheek]] | detail | via Debiteur → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Krediethypotheekvordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leenbijstand]] | detail | via Debiteur → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leenbijstandvordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Levenssituatie::Levenssituatie]] | detail | via Reden aanvraag → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringscomponent]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringscomponenttype]] | classificatie | via Leveringscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Typering/referentietabel (normtabel per kostensoort) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringsopdracht]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Leveringsspecificatie]] | detail | via Leveringscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Loonbeslagafspraak]] | detail | via Aflossingsafspraak → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossing\|Aflossing]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Normafwijking]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Opname instelling]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Overleden partner]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Periodiek dienst Bijz. bijstand]] | classificatie | ⚠️ geen BO bereikbaar | Typering/referentietabel; door GGM zelf aangemerkt als redundant met Diensttype/Leveringscomponenttype |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Recht]] | detail | via Besluit → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Vaststelling van aanspraak, geassocieerd met Besluit |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Rechtmaand]] | detail | via Terugvorderingsverzoek → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Referteperiode]] | detail | via Dienst → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Rentevordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Terugvorderingsverzoek]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Verzoekbericht dat een Vordering-traject start, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|UitkeringsRun]] | detail | via Component → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Uitstel aflossing]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/aflossingsplan\|Aflossingsplan]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verbroken relatie]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vermindering terugvordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verrekening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verstrekkingsvorm]] | detail | via Diensttype → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vertrek uit asielzoekerscentrum]] | detail | ⚠️ geen BO bereikbaar | Reden-aanvraagsubtype met inhoudelijke gegevens (COA-weekgeld), geen classificatiecode |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Verwijtbare vordering]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorliggende voorziening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Voorwaarde]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vorderingscomponent]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Wachten DigiD]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/inkomen\|Wachten beslissing instantie]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Vorderingscomponent]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Wachten DigiD]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/inkomen\|Wachten beslissing instantie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 
 ## Jeugdbescherming en reclassering
 
-4 entiteiten, 1 Entiteiten met BO.
+4 GGM-entiteiten: 1 met BO, 3 ondersteunend aan BO, 0 niet gedekt. Dekking: 4 van 4 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Informering]] | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Leefgebied]] | via Zorgelijke Situatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Zorgelijke Situatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Zorgmelding]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Informering]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Leefgebied]] | detail | via Zorgelijke Situatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/jeugdbescherming-en-reclassering\|Zorgelijke Situatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | Detailgegeven (geassocieerd met BO) |
 
 ## Schulden
 
-32 entiteiten, 10 Entiteiten met BO.
+32 GGM-entiteiten: 10 met BO, 19 ondersteunend aan BO, 3 niet gedekt. Dekking: 29 van 32 (91%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/schulden\|AanleverendeOrganisatie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Aanmelding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleiding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleidingssoort]] | via Begeleiding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpersoon]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpoging]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpoging\|Contactpoging]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Crisisinterventie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|InformatieEnAdvies]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Inkomen]] | via Leefsituatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Intake]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Leefsituatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Moratorium]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/moratorium\|Moratorium]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Nazorg]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Ondernemer]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Onderdeel van Schuldhulptraject, 1:1 met traject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossingssoort]] | via Oplossing → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Partner]] | via Leefsituatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|PlanVanAanpak]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuld]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuld\|Schuld]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldeiser]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldeiser\|Schuldeiser]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldhulporganisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldhulptraject]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldregeling]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldregeling\|Schuldregeling]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Signaalpartner]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/signaalpartner\|Signaalpartner]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Stabilisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Procesfase van Schuldhulptraject |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Uitstroom]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|VoorlopigeVoorziening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Vroegsignaal]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaal\|Vroegsignaal]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|Vroegsignaalzaak]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/vroegsignaalzaak\|Vroegsignaalzaak]] ✅ | — |  | Exact match |
 | [[Wiki/GGM/6-sociaal-domein/schulden\|WSNP-traject]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleidingssoort]] | classificatie | via Begeleiding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossingssoort]] | classificatie | via Oplossing → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|AanleverendeOrganisatie]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Aanmelding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Begeleiding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Contactpersoon]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Crisisinterventie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|InformatieEnAdvies]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Inkomen]] | component | via Leefsituatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | Component van Leefsituatie (inkomstenbron); niet te verwarren met beleidsdomein Inkomen — zelfde concept als [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstencomponent]] (Sociaal Domein Generiek) en `Component` (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Intake]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Leefsituatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Nazorg]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Oplossing]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Onderdeel van Schuldhulptraject, 1:1 met traject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Partner]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|PlanVanAanpak]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Schuldhulporganisatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Stabilisatie]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Procesfase van Schuldhulptraject |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Uitstroom]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|VoorlopigeVoorziening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject\|Schuldhulptraject]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|WSNP-verklaring]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Woningbezit]] | detail | via Leefsituatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/schulden\|Ondernemer]] | rol | n.v.t. | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|WSNP-verklaring]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/schulden\|Woningbezit]] | via Leefsituatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/wsnp-traject\|WSNP-traject]] | detail |  | Detailgegeven (weinig attributen) |
 
 ## Sociaal Domein Generiek
 
-55 entiteiten, 3 Entiteiten met BO.
+55 GGM-entiteiten: 4 met BO, 24 ondersteunend aan BO, 27 niet gedekt. Dekking: 28 van 55 (51%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|AanvraagStadspas]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Alimentatie]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Ander inkomen]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Bankrekening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Beslag op inkomen]] | via Kostencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Betaald werk]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Client]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Clientbegeleider]] | n.v.t. | rol |  | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Dertiende maand - eindejaarsuitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Draagkracht]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht\|Draagkracht]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Draagkrachtregime]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht\|Draagkracht]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Eigen bedrijf]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Eigen bijdrage]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatiesoort]] | classificatie | via Relatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Verlaging door maatregel]] | component | ⚠️ geen BO bereikbaar | Component |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|AanvraagStadspas]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Alimentatie]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) — lopende tegenhanger van [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte of verlaagde alimentatie]] (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Ander inkomen]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Bankrekening]] | component | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (vermogensbestanddeel), subtype van Vermogenscomponent |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Beslag op inkomen]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Betaald werk]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) — lopende tegenhanger van [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt betaald werk]] (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Dertiende maand - eindejaarsuitkering]] | component | via Secundair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Secundair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Draagkrachtregime]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht\|Draagkracht]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Eigen bedrijf]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) — lopende tegenhanger van [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopt of verkocht eigen bedrijf]] (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Gerechtelijke uitspraak]] | detail | via Gezagsverhouding → [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Gezagsverhouding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | juridische status |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Heffingskorting]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] | Detailgegeven (weinig attributen) — GGM modelleert dit óók als Generalization-subtype van Secundair inkomstencomponent; dekking via Heffing |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Hobby]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Huishouden]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Cross-cutting sociaal domein, eenheid voor beoordeling |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Hypotheek]] | component | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (vermogensbestanddeel), subtype van Vermogenscomponent |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Incident]] | detail | via Zorgelijke Situatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | Gebeurtenisregistratie, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstencomponent]] | abstract | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Abstract: overkoepelend type met subtypen Primair/Secundair inkomstencomponent, consistent met Vermogenscomponent (dezelfde soort abstracte structuur) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstenverhouding]] | detail | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstenvermindering]] | component | via Secundair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Secundair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Kostencomponent]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Leverancier]] | detail | via Rechtspersoon → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Loonbeslag]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Maaltijdvergoeding]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Motorvoertuig]] | component | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (vermogensbestanddeel), subtype van Vermogenscomponent (niet via de Voertuig-BO in taakveld 2, die beantwoordt de kentekenregistratie-vraag, niet de vermogensvraag) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onderhoudsplicht]] | detail | via Onderhoudsverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Wettelijke verplichting (Boek 1 BW Titel 17: wie tot levensonderhoud gehouden is), geassocieerd met Onderhoudsverhouding. Nadrukkelijk niet hetzelfde als [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Alimentatie]]: Onderhoudsplicht/-verhouding wordt vastgelegd als de onderhoudsplichtige ná verhaal aan de gemeente betaalt; betaalt hij rechtstreeks aan de onderhoudsgerechtigde, dan heet dat Alimentatie (inkomstencomponent) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onderhoudsverhouding]] | detail | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | GGM-documentatie stelt expliciet dat "de onderhoudsplichtverhouding in het profiel van de klant is opgenomen" — zelfde route als Inkomstenverhouding/Inkomstencomponent/Vermogenscomponent. Bron: Boek 1 BW Titel 17 (levensonderhoud, LBIO-invordering) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onkostenvergoeding]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onroerend goed]] | component | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (vermogensbestanddeel), subtype van Vermogenscomponent (niet via WOZ-object, dat beantwoordt de OZB-belastingvraag, niet de vermogensvraag) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Pensioen]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Primair inkomstencomponent]] | detail | via Inkomstenverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Profiel]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Reiskosten naar het werk]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Reiskostenvergoeding]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatie]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Secundair inkomstencomponent]] | detail | via Inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Overkoepelend type voor Dertiende maand/Heffingskorting/Inkomstenvermindering/Vergoeding/Vakantiegeld (GGM-Generalization geverifieerd); heeft, anders dan Primair inkomstencomponent, geen eigen aggregatierelatie (Primair routeert via Inkomstenverhouding) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Groepsregistratie met weinig attributen, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | detail | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stadspas]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stage]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Studiefinanciering]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) — DUO kent toe, niet de gemeente; gemeente registreert dit alleen als inkomstenfeit, zelfde patroon als Uitkering/Pensioen (bron: Wet studiefinanciering 2000). Lopende tegenhanger van [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte studiefinanciering]] (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Te betalen alimentatie]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Uitkering]] | component | via Primair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Primair inkomstencomponent (GGM-Generalization geverifieerd) — lopende tegenhanger van [[Wiki/GGM/6-sociaal-domein/inkomen\|Gestopte uitkering]] (Inkomen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vakantiegeld]] | component | via Secundair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Secundair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vergoeding]] | component | via Secundair inkomstencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Component (inkomstenbron), subtype van Secundair inkomstencomponent (GGM-Generalization geverifieerd) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vergoeding in natura]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Verlaging door boete]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vermogenscomponent]] | abstract | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Abstract: overkoepelend type met subtypen Bankrekening/Hypotheek/Motorvoertuig/Onroerend goed |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vrijlating inkomsten]] | detail | ⚠️ geen BO bereikbaar | Kortingsregel op inkomsten, geen zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Waardepeiling]] | detail | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Taxatie-/waarderingsregistratie, geassocieerd met Vermogenscomponent |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Clientbegeleider]] | rol | n.v.t. | Functie/verantwoordelijkheid |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Gerechtelijke uitspraak]] | via Gezagsverhouding → [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Gezagsverhouding]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | juridische status |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Heffingskorting]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/heffing\|Heffing]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Hobby]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Huishouden]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Cross-cutting sociaal domein, eenheid voor beoordeling |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Hypotheek]] | via Krediethypotheek → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|Debiteur]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Incident]] | via Zorgelijke Situatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstencomponent]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstenverhouding]] | via Profiel → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Inkomstenvermindering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Kostencomponent]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Leverancier]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Loonbeslag]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Maaltijdvergoeding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Motorvoertuig]] | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onderhoudsplicht]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onderhoudsverhouding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onkostenvergoeding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Onroerend goed]] | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Pensioen]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Primair inkomstencomponent]] | via Inkomstenverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Profiel]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Reiskosten naar het werk]] | via Kostencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Reiskostenvergoeding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatiesoort]] | via Relatie → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Secundair inkomstencomponent]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | via NatuurlijkPersoon → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stadspas]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stage]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Studiefinanciering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Te betalen alimentatie]] | via Kostencomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Uitkering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vakantiegeld]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vergoeding]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vergoeding in natura]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Verlaging door boete]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Verlaging door maatregel]] | ⚠️ geen BO bereikbaar | component |  | Component |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vermogenscomponent]] | via Bankrekening → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Vrijlating inkomsten]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Waardepeiling]] | via Vermogenscomponent → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven |
 
 ## Sociale Teams
 
-9 entiteiten, 1 Entiteiten met BO.
+9 GGM-entiteiten: 2 met BO, 7 ondersteunend aan BO, 0 niet gedekt. Dekking: 9 van 9 (100%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Behandeling]] | n.v.t. | proces |  | Proces of processtap |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Behandelsoort]] | via Behandeling → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Bijzonderheid]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Bijzonderheidsoort]] | via Bijzonderheid → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Caseaanmelding]] | n.v.t. | proces |  | Proces of processtap |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Doelstelling]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Doelstellingsoort]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/sociale-teams\|SociaalTeamDossier]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Behandelsoort]] | classificatie | via Behandeling → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Bijzonderheidsoort]] | classificatie | via Bijzonderheid → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Doelstellingsoort]] | classificatie | via Doelstelling → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|SociaalteamDossiersoort]] | classificatie | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Typering/referentietabel |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Bijzonderheid]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Doelstelling]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Behandeling]] | proces | n.v.t. | Proces of processtap |
-| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|Caseaanmelding]] | proces | n.v.t. | Proces of processtap |
+| [[Wiki/GGM/6-sociaal-domein/sociale-teams\|SociaalteamDossiersoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier\|SociaalTeamDossier]] | classificatie |  | Typering/referentietabel |
 
 ## Werk
 
-33 entiteiten, 3 Entiteiten met BO.
+33 GGM-entiteiten: 3 met BO, 27 ondersteunend aan BO, 3 niet gedekt. Dekking: 30 van 33 (91%).
 
-### Entiteiten met BO
-
-| GGM-entiteit | BO | Entiteitstype | Naamoverlap | Beoordeling |
+| GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
+| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsmarktkwalificaties]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsperiode]] | via Arbeidsverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsverhouding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsvermogen]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsactiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsberoep]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingstraject]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|BeschikbaarVoorArbeid]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|BeschikbaarVoorBemiddeling]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|DoelReintegratievoorziening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Doelgroep]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Doelgroepenregister]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | UWV beheert; gemeente gebruikt als verdeelmaatstaf |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Flexibliteit]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Loonkostensubsidie]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie\|Loonkostensubsidie]] ✅ | — |  | Exact match |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Mobiliteit]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Ontheffing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Opleiding]] | via Opleidingsniveau → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Opleidingsnaam]] | via Opleiding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|OpleidingsnaamGecodeerd]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|OpleidingsnaamOngecodeerd]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Opleidingsniveau]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Reintegratievoorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/re-integratievoorziening\|Re-integratievoorziening]] ✅ | synoniem |  | BO hernoemd: Re-integratievoorziening |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Rijbewijs /Certificaat]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Taalbeheersing]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|TaalbeheersingNederlands]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Vaardigheidsvaststelling]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Voorkeur]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|VrijstellingArbeidsplicht]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Werkervaring]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Werkzaamheden als mantelzorger]] | via Werkzaamheden anders dan in arbeidsverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/werk\|Werkzaamheden anders dan in arbeidsverhouding]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/werk\|Werkzoekende]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] ✅ | — |  | Exact match |
-
-### Entiteiten zonder BO
-
-| GGM-entiteit | Entiteitstype | Dekking | Beoordeling |
-|---|---|---|---|
-| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsmarktkwalificaties]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsperiode]] | detail | via Arbeidsverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Periodegegeven, geassocieerd met Werkzoekende |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsverhouding]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Arbeidsvermogen]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsactiviteit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | Detailgegeven |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingsberoep]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Bemiddelingstraject]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|BeschikbaarVoorArbeid]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Indicatorgegeven, geassocieerd met Werkzoekende |
-| [[Wiki/GGM/6-sociaal-domein/werk\|BeschikbaarVoorBemiddeling]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|DoelReintegratievoorziening]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Doelgroep]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Doelgroepenregister]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | UWV beheert; gemeente gebruikt als verdeelmaatstaf |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Flexibliteit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Mobiliteit]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Ontheffing]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Vrijstellingsgegeven van Werkzoekende; naamhomoniem met BO [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/ontheffing\|Ontheffing (Inburgering)]] |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Opleiding]] | detail | via Opleidingsniveau → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Opleidingsgegeven, geassocieerd met Werkzoekende |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Opleidingsnaam]] | detail | via Opleiding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven |
-| [[Wiki/GGM/6-sociaal-domein/werk\|OpleidingsnaamGecodeerd]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | Detailgegeven |
-| [[Wiki/GGM/6-sociaal-domein/werk\|OpleidingsnaamOngecodeerd]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | Detailgegeven |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Opleidingsniveau]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Rijbewijs /Certificaat]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Taalbeheersing]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|TaalbeheersingNederlands]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Vaardigheidsvaststelling]] | detail | ⚠️ geen BO bereikbaar | Detailgegeven (weinig attributen) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Voorkeur]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Wensgegeven, geassocieerd met Werkzoekende |
-| [[Wiki/GGM/6-sociaal-domein/werk\|VrijstellingArbeidsplicht]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Werkervaring]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Werkzaamheden als mantelzorger]] | detail | via Werkzaamheden anders dan in arbeidsverhouding → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Subtype van Werkzaamheden anders dan in arbeidsverhouding, met inhoudelijke mantelzorggegevens |
-| [[Wiki/GGM/6-sociaal-domein/werk\|Werkzaamheden anders dan in arbeidsverhouding]] | abstract | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Abstract: overkoepelend type met subtype Werkzaamheden als mantelzorger |
-| [[Wiki/GGM/6-sociaal-domein/werk\|ZelfredzaamheidScore]] | detail | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/werk\|ZelfredzaamheidScore]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende\|Werkzoekende]] | detail |  | Detailgegeven (geassocieerd met BO) |
 
 ## BO's zonder GGM-entiteit
 

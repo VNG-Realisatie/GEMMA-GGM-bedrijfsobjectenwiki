@@ -27,6 +27,32 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Werkzoekende** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Arbeidsmarktkwalificaties** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Arbeidsperiode** (detail) — Detailgegeven
+  - **Arbeidsverhouding** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Arbeidsvermogen** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Bemiddelingsberoep** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Bemiddelingstraject** (detail) — Detailgegeven (geassocieerd met BO)
+  - **BeschikbaarVoorArbeid** (detail) — Detailgegeven
+  - **BeschikbaarVoorBemiddeling** (detail) — Detailgegeven (geassocieerd met BO)
+  - **DoelReintegratievoorziening** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Doelgroepenregister** (detail) — UWV beheert; gemeente gebruikt als verdeelmaatstaf
+  - **Flexibliteit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Mobiliteit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Opleiding** (detail) — Detailgegeven
+  - **Opleidingsnaam** (detail) — Detailgegeven
+  - **Opleidingsniveau** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Rijbewijs /Certificaat** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Taalbeheersing** (detail) — Detailgegeven (geassocieerd met BO)
+  - **TaalbeheersingNederlands** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Voorkeur** (detail) — Detailgegeven
+  - **VrijstellingArbeidsplicht** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Werkervaring** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Werkzaamheden als mantelzorger** (detail) — Detailgegeven
+  - **Werkzaamheden anders dan in arbeidsverhouding** (detail) — Detailgegeven
+  - **ZelfredzaamheidScore** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."
 bo_toelichting: "Centraal object in het domein Werk en Inkomen. Specialisatie van [[Client]]. Het werkprofiel omvat arbeidsmarktkwalificaties, taalbeheersing, opleiding, werkervaring, mobiliteit, beschikbaarheid en bemiddelingstrajecten."
 bo_relaties:

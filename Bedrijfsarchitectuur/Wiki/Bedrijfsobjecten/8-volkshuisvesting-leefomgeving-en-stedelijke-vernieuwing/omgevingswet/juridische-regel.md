@@ -37,6 +37,15 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Juridische Regel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Idealisatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Instructieregel** (component) — Component
+  - **Omgevingsdocument** (classificatie) — GGM-classificatie, geen zelfstandig gemeentelijk concept
+  - **Omgevingswaarderegel** (component) — Component
+  - **Regel voor Iedereen** (component) — Component
+  - **Regeltekst** (detail) — Component van Juridische Regel
+  - **Thema** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Regel met juridische werkingskracht in een omgevingsdocument, die activiteiten, normen, gebiedsaanwijzingen of omgevingswaarden beschrijft."
 bo_toelichting: "Juridische regels zijn de bouwstenen van het omgevingsplan. Elke regel is gekoppeld aan een regeltekst (artikel/lid), een locatie en optioneel aan activiteiten, gebiedsaanwijzingen of normen. Er zijn drie subtypes met verschillende adressaten."
 bo_subtypes: []

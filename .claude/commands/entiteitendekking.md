@@ -30,10 +30,25 @@ Elk per-taakveld rapport heeft een `## Beoordeling` sectie bovenin met `<!-- REV
 - Cross-domein observaties
 - Naamconflicten en disambiguatie
 
+**Herhaal geen tellingen, percentages of per-entiteit-detail.** Die staan al in de scriptgegenereerde statistiekregel per beleidsdomein (zie Rapportstructuur) en, per BO, in `analyse_ggm_dekking` (Stap 5) — beide blijven altijd vers na een her-run, in tegenstelling tot deze proza-sectie. Focus uitsluitend op interpretatie: waarom ontbreken bepaalde typen, wat betekent dit inhoudelijk.
+
 ### Stap 4: Afronden
 
 1. Update `Wiki/index.md` met de nieuwe analyse-pagina's
 2. Voeg entry toe aan `Wiki/log.md`
+
+### Stap 5: BO-frontmatter synchroniseren
+
+```bash
+python3 tools/entiteitendekking_sync_bo.py --dry-run   # preview per BO
+python3 tools/entiteitendekking_sync_bo.py              # echt schrijven
+```
+
+Herberekent dezelfde analyse (los van wat er in de per-taakveld rapporten staat) en schrijft `analyse_ggm_dekking` — de omgekeerde index "welke GGM-entiteiten dekt dit BO" — terug naar elke BO-pagina met GGM-betrokkenheid. Chirurgische patch: raakt alleen dat ene veld, nooit `bo_*`/`ggm_*`/body.
+
+**Losse stap, niet gebundeld in Stap 1.** Zo laat `git diff` altijd zien of een run alleen `Wiki/Analyses/` raakte of ook BO-pagina's in `Wiki/Bedrijfsobjecten/`.
+
+**Bekende inconsistentie:** dit script herberekent altijd vanuit de brondata (GGM + BO-pagina's), nooit vanuit het gegenereerde rapport-bestand. Een handmatige correctie die bij Stap 2 in de draft-markdown wordt doorgevoerd, wordt dus **niet** meegenomen door Stap 5 — alleen wijzigingen in de scriptlogica zelf (`classify_entity`/`compute_dekking` in `entiteitendekking.py`) of in BO-frontmatter zelf werken door.
 
 ## Totaaloverzicht
 
@@ -53,15 +68,15 @@ Na het draaien van het script: **verifieer** dat de totaalrij overeenkomt met de
 
 ## Rapportstructuur
 
-Per taakveld: secties per beleidsdomein, elk met drie tabellen:
+Per taakveld: per beleidsdomein een scriptgegenereerde statistiekregel (totaal, met BO, ondersteunend, niet gedekt, dekkingspercentage) gevolgd door **één samengevoegde tabel**:
 
-**BO-matches**: GGM-entiteit → BO, met entiteitstype en naamoverlap (homoniemen/synoniemen uit BO-frontmatter)
+`GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling`
 
-**Geen BO-match**: entiteitstype + Relatie tot BO (subtype van/compositie van/associatie →/typering van/via X →)
+De BO/Dekking-kolom toont óf de directe BO-link (`[[BO]] ✅`) óf de indirecte route (`beschrijft`/`via X →`/`typering`/`n.v.t.`/`⚠️ geen BO bereikbaar`/`generieke bouwsteen`) — een BO-match is structureel gewoon het simpelste geval van dekking, dus geen aparte tabel nodig. Alfabetisch gesorteerd op GGM-entiteitnaam. Naamoverlap toont `synoniem: X` en/of `homoniem: [[Y]]`, samengevoegd uit `bo_synoniemen`/`bo_homoniemen`.
 
-**GGM-hiaten**: BO's zonder GGM-entiteit, met data-object kolom (Terugmelding vs. Alleen BO)
+**GGM-hiaten**: BO's zonder GGM-entiteit, met data-object kolom (Terugmelding vs. Alleen BO) — aparte sectie onderaan, ongewijzigd.
 
-RSGBPlus krijgt subsecties per registratie (BRP, BRK, NHR, WOZ, Overig).
+RSGBPlus krijgt subsecties per registratie (BRP, BRK, NHR, WOZ, Overig), elk met dezelfde samengevoegde tabel.
 
 ## Relatie met andere skills
 
@@ -70,3 +85,4 @@ RSGBPlus krijgt subsecties per registratie (BRP, BRK, NHR, WOZ, Overig).
 | `/assess-bo` | Levert BO-beoordelingen; entiteitendekking visualiseert het resultaat |
 | `/ingest` | Genereert de input (BO's, begrippen); entiteitendekking maakt de analyse achteraf |
 | `/domain-status` | Rapporteert voortgang per onderwerp; entiteitendekking rapporteert per beleidsdomein |
+| `/generate-ggm` | Ververst BO-frontmatter (`ggm_*`) na een nieuwe GGM-release; entiteitendekking berekent daarna de dekking op basis daarvan |

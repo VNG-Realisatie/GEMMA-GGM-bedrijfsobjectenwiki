@@ -8,12 +8,17 @@ Reads the parsed XMI JSON and updates Wiki/Bedrijfsobjecten/ pages with:
   ggm_gemma_alternate_name
 - Updated ggm_diagram with actual diagram names from XMI
 
-Preserves existing frontmatter field order and body content.
+Rewrites only the fields it explicitly owns (ggm_*/ggm_gemma_*/bo_definitie/
+bo_relaties); every other frontmatter field (bo_toelichting, bo_subtypes,
+bo_synoniemen, bo_homoniemen, ggm_duplicaat_entiteiten, analyse_ggm_dekking,
+...) is passed through byte-for-byte, in its original relative order and body
+content unchanged. Stap 3 van de /generate-ggm skill.
 """
 
 import json
 import sys
 import re
+import yaml
 from pathlib import Path
 
 
@@ -22,69 +27,106 @@ def load_xmi_data(json_path: str) -> dict:
         return json.load(f)
 
 
-def build_entity_lookup(data: dict) -> dict:
+def build_entity_lookup(data: dict) -> tuple[dict, set]:
+    """Build a name → entity lookup, and flag ambiguous (homoniem) names.
+
+    Multiple GGM-entiteiten can share the same name in different
+    beleidsdomeinen (bijv. "Inschrijving" in Onderwijs vs. Inkoop). A plain
+    name → entity dict silently keeps whichever entity is encountered last,
+    which can point a BO at the wrong domain's entity. ambiguous_names lets
+    callers refuse to guess in that case.
+    """
     lookup = {}
+    seen_guids_per_name: dict[str, set] = {}
     for eid, entity in data['entities'].items():
-        lookup[entity['name']] = entity
-    return lookup
+        name = entity['name']
+        lookup[name] = entity
+        seen_guids_per_name.setdefault(name, set()).add(eid)
+    ambiguous_names = {name for name, guids in seen_guids_per_name.items()
+                       if len(guids) > 1}
+    return lookup, ambiguous_names
 
 
-def parse_frontmatter(content: str) -> tuple[dict, str, str]:
-    """Parse YAML frontmatter manually to preserve formatting.
+def split_top_level_blocks(fm_raw: str) -> dict[str, str]:
+    """Split raw frontmatter text into {key: raw_text_block} per top-level key.
 
-    Returns (fields_dict, frontmatter_raw, body).
+    Preserves the exact original text (including all indented sub-lines) for
+    every key, without interpreting its structure. Used to pass through any
+    field this script doesn't explicitly rewrite, byte-for-byte.
+    """
+    blocks: dict[str, list[str]] = {}
+    current_key = None
+    for line in fm_raw.split('\n'):
+        m = re.match(r'^(\w[\w_]*)\s*:', line)
+        if m and not line.startswith((' ', '\t')):
+            current_key = m.group(1)
+            blocks[current_key] = [line]
+        elif current_key is not None:
+            blocks[current_key].append(line)
+    return {k: '\n'.join(v) for k, v in blocks.items()}
+
+
+def parse_frontmatter(content: str) -> tuple[dict, dict, str, str]:
+    """Parse YAML frontmatter.
+
+    Returns (fields, raw_blocks, frontmatter_raw, body).
+    - fields: correctly-typed dict via yaml.safe_load — used for GGM-matching
+      logic (naam, ggm_entiteit, grondslag, bo_relaties).
+    - raw_blocks: {key: raw_text} per top-level key, exact original text —
+      used to passthrough any field this script doesn't explicitly rewrite,
+      without needing to understand its internal (possibly nested) structure.
+      Previously, any multi-line block field other than bo_relaties/relaties
+      (bo_subtypes, bo_synoniemen, bo_homoniemen, ggm_duplicaat_entiteiten,
+      bo_toelichting, ...) was silently dropped at parse time. raw_blocks
+      fixes that generically, for any current or future field.
     """
     if not content.startswith('---'):
-        return {}, '', content
+        return {}, {}, '', content
 
     parts = content.split('---', 2)
     if len(parts) < 3:
-        return {}, '', content
+        return {}, {}, '', content
 
     fm_raw = parts[1]
     body = parts[2]
 
-    # Simple YAML parse for flat fields + bo_relaties block
-    fields = {}
-    current_key = None
-    current_list = None
+    try:
+        fields = yaml.safe_load(fm_raw) or {}
+    except yaml.YAMLError:
+        fields = {}
+    if 'relaties' in fields and 'bo_relaties' not in fields:
+        fields['bo_relaties'] = fields.pop('relaties')
 
-    for line in fm_raw.split('\n'):
-        if not line.strip():
-            continue
+    raw_blocks = split_top_level_blocks(fm_raw)
 
-        # Top-level key
-        match = re.match(r'^(\w[\w_]*)\s*:\s*(.*)', line)
-        if match:
-            key = match.group(1)
-            value = match.group(2).strip()
-            current_key = key
-
-            if key in ('bo_relaties', 'relaties'):
-                current_list = []
-                fields['bo_relaties'] = current_list
-            elif value.startswith('[') and value.endswith(']'):
-                items = [v.strip().strip('"').strip("'")
-                         for v in value[1:-1].split(',') if v.strip()]
-                fields[key] = items
-            elif value.startswith('"') and value.endswith('"'):
-                fields[key] = value[1:-1]
-            elif value.startswith("'") and value.endswith("'"):
-                fields[key] = value[1:-1]
-            else:
-                fields[key] = value
-        elif line.startswith('  - type:') and current_key in ('bo_relaties', 'relaties'):
-            current_list.append({'type': line.split(':', 1)[1].strip()})
-        elif line.startswith('    ') and current_list and current_list:
-            m = re.match(r'\s+(\w+)\s*:\s*(.*)', line)
-            if m and current_list:
-                current_list[-1][m.group(1)] = m.group(2).strip().strip('"')
-
-    return fields, fm_raw, body
+    return fields, raw_blocks, fm_raw, body
 
 
-def build_new_frontmatter(fields: dict, entity: dict | None, data: dict) -> str:
-    """Build new YAML frontmatter string with enriched fields."""
+# Keys this script explicitly understands and rewrites — everything else in
+# raw_blocks is passed through verbatim by build_new_frontmatter().
+EXPLICIT_CORE_KEYS = {
+    'type', 'naam', 'domein', 'archimate_type', 'grondslag',
+    'ggm_entiteit', 'ggm_guid', 'ggm_uml_type', 'ggm_beleidsdomein', 'ggm_taakveld',
+    'ggm_diagram', 'ggm_diagram_ids', 'ggm_definitie', 'ggm_toelichting',
+    'ggm_synoniemen', 'ggm_herkomst', 'ggm_gemma_naam', 'ggm_gemma_guid',
+    'ggm_gemma_definitie', 'ggm_gemma_toelichting', 'ggm_gemma_synoniemen',
+    'ggm_gemma_type', 'ggm_gemma_url', 'ggm_gemma_bron', 'ggm_gemma_alternate_name',
+    'bo_definitie',
+}
+
+
+def build_new_frontmatter(fields: dict, raw_blocks: dict, entity: dict | None,
+                          data: dict) -> str:
+    """Build new YAML frontmatter string with enriched fields.
+
+    Fields this script owns (EXPLICIT_CORE_KEYS, plus bo_relaties) are
+    rewritten from `fields`. Every other top-level key found in `raw_blocks`
+    (bo_toelichting, bo_subtypes, bo_synoniemen, bo_homoniemen,
+    ggm_duplicaat_entiteiten, analyse_ggm_dekking, bedrijfsprocessen,
+    bedrijfsfuncties, status, ...) is passed through byte-for-byte, in its
+    original relative order — this script never needs to understand or
+    maintain a list of every field shape that exists elsewhere in the wiki.
+    """
     lines = []
 
     def add_field(key, value):
@@ -196,42 +238,55 @@ def build_new_frontmatter(fields: dict, entity: dict | None, data: dict) -> str:
     bo_def = fields.get('bo_definitie', fields.get('gemma_definitie', ''))
     add_quoted_field('bo_definitie', bo_def)
 
-    # Remaining fields
-    for key in ('definitie', 'gerelateerde_begrippen', 'bedrijfsprocessen',
-                'bedrijfsfuncties', 'status'):
-        if key in fields:
-            add_field(key, fields[key])
-
-    # Relaties block
-    if 'bo_relaties' in fields and fields['bo_relaties']:
-        lines.append('bo_relaties:')
-        for rel in fields['bo_relaties']:
-            lines.append(f'  - type: {rel.get("type", "")}')
-            for rkey in ('bedrijfsobject', 'richting', 'kardinaliteit', 'beschrijving'):
-                if rkey in rel:
-                    val = rel[rkey]
-                    if any(c in str(val) for c in ':{}[]&*?|->!%@`#,'):
-                        lines.append(f'    {rkey}: "{val}"')
-                    else:
-                        lines.append(f'    {rkey}: {val}')
+    # Every other field, in original order: explicit bo_relaties rebuild
+    # where it occurs, verbatim passthrough for everything else.
+    for key in raw_blocks:
+        if key in EXPLICIT_CORE_KEYS:
+            continue
+        if key in ('bo_relaties', 'relaties'):
+            if fields.get('bo_relaties'):
+                lines.append('bo_relaties:')
+                for rel in fields['bo_relaties']:
+                    lines.append(f'  - type: {rel.get("type", "")}')
+                    for rkey in ('bedrijfsobject', 'richting', 'kardinaliteit', 'beschrijving'):
+                        if rkey in rel:
+                            val = rel[rkey]
+                            if any(c in str(val) for c in ':{}[]&*?|->!%@`#,'):
+                                lines.append(f'    {rkey}: "{val}"')
+                            else:
+                                lines.append(f'    {rkey}: {val}')
+            continue
+        lines.append(raw_blocks[key])
 
     return '\n'.join(lines)
 
 
-def enrich_file(md_path: Path, entity_lookup: dict, data: dict,
+def enrich_file(md_path: Path, entity_lookup: dict, ambiguous_names: set, data: dict,
                 dry_run: bool = False) -> str:
     content = md_path.read_text(encoding='utf-8')
-    fields, fm_raw, body = parse_frontmatter(content)
+    fields, raw_blocks, fm_raw, body = parse_frontmatter(content)
 
     if not fields:
         return 'skip:no-frontmatter'
 
     naam = fields.get('naam', '')
     ggm_entiteit = fields.get('ggm_entiteit', '')
+    ggm_guid = fields.get('ggm_guid', '') or ''
     grondslag = fields.get('grondslag', '')
 
     match_name = ggm_entiteit if ggm_entiteit else naam
-    entity = entity_lookup.get(match_name)
+
+    # Prefer re-matching by the BO's own existing GUID: multiple GGM-entities
+    # can share a name across beleidsdomeinen (homoniem, bijv. "Inschrijving"
+    # in Onderwijs vs. Inkoop) — a name-only lookup could silently repoint an
+    # already-correct BO at the wrong domain's entity.
+    entity = data['entities'].get(ggm_guid) if ggm_guid else None
+
+    if not entity and match_name in ambiguous_names:
+        return 'skip:ambiguous-name'
+
+    if not entity:
+        entity = entity_lookup.get(match_name)
 
     if not entity and grondslag == 'ggm-entiteit':
         # Try case-insensitive
@@ -240,7 +295,7 @@ def enrich_file(md_path: Path, entity_lookup: dict, data: dict,
                 entity = e
                 break
 
-    new_fm = build_new_frontmatter(fields, entity, data)
+    new_fm = build_new_frontmatter(fields, raw_blocks, entity, data)
     new_content = f'---\n{new_fm}\n---{body}'
 
     if dry_run:
@@ -259,13 +314,13 @@ def main():
         else str(default_json)
 
     data = load_xmi_data(json_path)
-    entity_lookup = build_entity_lookup(data)
+    entity_lookup, ambiguous_names = build_entity_lookup(data)
     bo_dir = base / 'Wiki' / 'Bedrijfsobjecten'
 
     results = {'updated': 0, 'no_match': 0, 'skipped': 0}
 
     for md in sorted(bo_dir.rglob('*.md')):
-        result = enrich_file(md, entity_lookup, data, dry_run=dry_run)
+        result = enrich_file(md, entity_lookup, ambiguous_names, data, dry_run=dry_run)
         rel_path = md.relative_to(bo_dir)
 
         if result.startswith('updated:'):

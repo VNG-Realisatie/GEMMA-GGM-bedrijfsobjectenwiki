@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Dakloosheid** als directe tegenhanger.
 bo_definitie: "Registratie van de dakloosheidsstatus van een cliënt, inclusief toestemming voor briefadres en nachtopvang."
 bo_toelichting: ''
 bo_relaties:

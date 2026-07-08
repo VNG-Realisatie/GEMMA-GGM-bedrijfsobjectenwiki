@@ -24,6 +24,8 @@ ggm_gemma_type: business-object
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-65fad3a5-bce6-4c9f-814e-23e42d0f91fd"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Collectie** als directe tegenhanger.
 bo_definitie: "Samenhangende verzameling cultuurgoederen of museumobjecten, beheerd door een gemeentelijk museum of erfgoedinstelling op grond van vastgestelde criteria."
 bo_toelichting: ""
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Collectieplan]

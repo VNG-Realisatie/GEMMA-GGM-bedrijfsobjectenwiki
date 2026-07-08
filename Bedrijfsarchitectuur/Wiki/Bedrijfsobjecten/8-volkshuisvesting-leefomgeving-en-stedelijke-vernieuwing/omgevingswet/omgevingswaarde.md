@@ -31,6 +31,8 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Omgevingswaarde** als directe tegenhanger.
 bo_definitie: "Norm in het omgevingsplan die de gewenste staat of kwaliteit van de fysieke leefomgeving als beleidsdoel vastlegt."
 bo_toelichting: "Omgevingswaarden zijn zelfbindend voor het bestuursorgaan dat ze vaststelt — ze scheppen verplichtingen voor het bevoegd gezag, niet voor burgers. Structureel identiek aan Omgevingsnorm maar met een ander juridisch karakter: beleidsdoel vs. regulering."
 bo_subtypes: []

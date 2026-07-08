@@ -43,6 +43,14 @@ ggm_gemma_alternate_name: "ZakelijkRecht (RSGB Model)"
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **ZakelijkRecht**. Daarnaast is **Zakelijk Recht** (beleidsdomein Vastgoed) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **AardZakelijkRecht** (classificatie) — Typering/referentietabel
+  - **Appartementsrechtsplitsing** (detail) — Detailgegeven (weinig attributen)
+  - **KadastraleMutatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **KpBetrokkenBij** (detail) — Detailgegeven (geassocieerd met BO)
+  - **KpOnstaanUit** (detail) — Detailgegeven (geassocieerd met BO)
+  - **SplitsingstekeningReferentie** (detail) — Detailgegeven
 bo_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
 bo_toelichting: ''
 bo_relaties:

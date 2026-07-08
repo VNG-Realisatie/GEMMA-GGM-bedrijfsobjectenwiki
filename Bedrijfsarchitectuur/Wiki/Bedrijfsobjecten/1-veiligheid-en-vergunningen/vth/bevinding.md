@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Bevinding** als directe tegenhanger.
 bo_definitie: "Een bevinding is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie."
 bo_toelichting: ''
 bo_subtypes: []

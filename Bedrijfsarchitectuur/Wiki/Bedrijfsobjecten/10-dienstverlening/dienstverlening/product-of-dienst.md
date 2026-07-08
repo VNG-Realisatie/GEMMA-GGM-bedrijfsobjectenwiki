@@ -33,6 +33,10 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **ProductOfDienst**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Klantbeoordeling** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Klantbeoordelingreden** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Bron: QP_CALENDAR. CFM_SERVICES"
 bo_toelichting: ''
 bedrijfsprocessen:

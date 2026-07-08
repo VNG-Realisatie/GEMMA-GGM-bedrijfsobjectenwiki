@@ -34,6 +34,14 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte geldigheidsvelden (datumBeginGeldigheidNummeraanduiding, etc.); minder attributen (geen versie, geometrie, documentvelden); voegt inOnderzoek toe"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Nummeraanduiding** als directe tegenhanger. Daarnaast is **Nummeraanduiding** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Adresaanduiding** (detail) — Detailgegeven
+  - **Briefadres** (detail) — Detailgegeven
+  - **Huishouden** (detail) — Cross-cutting sociaal domein, eenheid voor beoordeling
+  - **NADAanvullingBRP** (detail) — Detailgegeven (weinig attributen)
+  - **Onbestemd Adres** (detail) — Detailgegeven
+  - **OverigeAdresseerbaarObjectAanduiding** (detail) — Detailgegeven
 bo_definitie: "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."
 bo_toelichting: ''
 bo_relaties:

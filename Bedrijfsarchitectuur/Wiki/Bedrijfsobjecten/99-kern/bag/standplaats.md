@@ -34,6 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (standplaatsidentificatie, standplaatsstatus, indicatieGeconstateerdeStandplaats); minder attributen, geen geometrie/versie/documentvelden"
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Standplaats**. Daarnaast is **Standplaats** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Standplaats** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte."
 bo_toelichting: ''
 bo_relaties:

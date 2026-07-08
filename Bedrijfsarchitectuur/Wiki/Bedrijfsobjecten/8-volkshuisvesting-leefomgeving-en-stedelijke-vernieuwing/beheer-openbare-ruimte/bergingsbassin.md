@@ -24,6 +24,9 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Bergingsbassin** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Bouwwerk** (detail) — Detailgegeven
 bo_definitie: "Gesloten reservoir achter een overstortconstructie voor tijdelijke opvang en bezinking van overstortwater."
 bo_toelichting: ''
 bo_relaties:

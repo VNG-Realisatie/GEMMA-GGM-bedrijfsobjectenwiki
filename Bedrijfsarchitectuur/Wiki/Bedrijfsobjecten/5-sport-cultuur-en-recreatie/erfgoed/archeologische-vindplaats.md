@@ -31,6 +31,11 @@ ggm_gemma_alternate_name: ''
 ggm_duplicaat_entiteiten:
   - "EAID_84DED9A9_2D33_4a77_94F2_29657024590F"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vindplaats** als directe tegenhanger. Daarnaast is **Vindplaats** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Depot** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Kast** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Plank** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een plek waar men iets gevonden heeft."
 bo_toelichting: ''
 bedrijfsprocessen:

@@ -25,6 +25,16 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-10eaa33f-03bf-42b4-931
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Document** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Brondocumenten** (detail) — Detailgegeven
+  - **Documenttype** (classificatie) — Typering/referentietabel
+  - **EnkelvoudigDocument** (detail) — Detailgegeven
+  - **Identificatiekenmerk** (detail) — Detailgegeven (geassocieerd met BO)
+  - **MOOR-melding** (detail) — Detailgegeven
+  - **Proces-verbaal-MOOR-melding** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Rapportagemoment** (detail) — Detailgegeven (geassocieerd met BO)
+  - **SamengesteldDocument** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
 bo_toelichting: "Document is de actieve fase: het informatieobject in gebruik bij taakuitvoering. Zodra een document de archiveringsfase ingaat (selectie, waardering, formele opname in het archiefsysteem), wordt het een Informatieobject. Na overbrenging naar de archiefbewaarplaats is het een Archiefstuk. Document, Informatieobject en Archiefstuk zijn daarmee drie fasen in één levenslijn — geen synoniemen."
 bo_subtypes:

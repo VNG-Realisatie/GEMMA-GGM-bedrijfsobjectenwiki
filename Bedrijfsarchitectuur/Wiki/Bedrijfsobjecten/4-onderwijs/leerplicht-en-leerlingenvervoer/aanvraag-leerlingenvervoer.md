@@ -27,6 +27,8 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Aanvraag Leerlingenvervoer** als directe tegenhanger.
 bo_definitie: "Verzoek van ouders aan de gemeente om een vervoersvoorziening voor hun kind."
 bo_toelichting: ''
 bo_relaties:

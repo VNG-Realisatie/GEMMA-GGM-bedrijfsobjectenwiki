@@ -31,6 +31,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Stemming** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Agendapunt** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering"
 bo_toelichting: ''
 bo_subtypes: []

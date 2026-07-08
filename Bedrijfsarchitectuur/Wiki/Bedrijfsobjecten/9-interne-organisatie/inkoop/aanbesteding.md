@@ -29,6 +29,13 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Aanbesteding** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aankondiging** (detail) — GGM-component van Aanbesteding
+  - **Kwalificatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Offerteaanvraag** (detail) — GGM-component van Aanbesteding
+  - **SelectietabelAanbesteding** (detail) — Detailgegeven
+  - **StartformulierAanbesteden** (detail) — Detailgegeven
 bo_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
 bo_toelichting: ''
 bo_relaties:

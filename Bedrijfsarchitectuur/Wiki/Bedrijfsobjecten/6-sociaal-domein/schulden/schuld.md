@@ -14,6 +14,8 @@ ggm_diagram: [Schuldhulp Client]
 ggm_definitie: "Een schuld is een financiële verplichting waarbij een persoon nu of in de toekomst een bedrag moet betalen aan een derde. In het kader van schuldhulpverlening wordt over een schuld gesproken als de persoon niet aan deze verplichting kan voldoen."
 ggm_herkomst: GGM
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Schuld** als directe tegenhanger.
 bo_definitie: "Financiële verplichting van een inwoner aan een schuldeiser, waaraan de inwoner niet kan voldoen."
 bo_toelichting: ''
 bo_subtypes: []

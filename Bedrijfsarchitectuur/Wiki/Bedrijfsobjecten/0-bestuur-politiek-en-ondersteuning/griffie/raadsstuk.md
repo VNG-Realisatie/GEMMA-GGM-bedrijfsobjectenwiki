@@ -33,6 +33,12 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Raadsstuk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Categorie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Dossier** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Indiener** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Programma** (detail) — Component van Begroting
 bo_definitie: "Stuk dat door de gemeenteraad wordt behandeld"
 bo_toelichting: ''
 bo_subtypes: []

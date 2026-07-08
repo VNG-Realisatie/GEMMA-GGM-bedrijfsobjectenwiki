@@ -27,6 +27,12 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5933d4f-02b6-4851-a31
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Plan**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Omgevingsvergunning** (detail) — Subtype van Vergunningen en ontheffingen
+  - **Programma** (detail) — Component van Begroting
+  - **Projectleider** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Projectontwikkelaar** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Project waarin woningen worden gerealiseerd"
 bo_toelichting: ''
 bo_subtypes:

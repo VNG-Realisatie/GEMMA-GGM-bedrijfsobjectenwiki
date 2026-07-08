@@ -33,6 +33,9 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Gebiedsaanwijzing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Beperkingsgebied** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Aanwijzing van een specifiek gebied in het omgevingsplan met een type, naam en locatie die aangeeft hoe het gebied beschouwd wordt vanuit de bijbehorende regels."
 bo_toelichting: "Gebiedsaanwijzingen komen in twee vormen: Functies (wat mag in dit gebied, bijv. wonen, bedrijvigheid) en Beperkingsgebieden (welke beperkingen gelden, bijv. bij een gasleiding). Elk heeft een type uit een waardelijst, een groep en een koppeling aan locatie(s)."
 bo_subtypes: []

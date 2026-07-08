@@ -27,6 +27,11 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-69e60d64-7165-488f-a39
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Gebouw**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Huurwoningen** (detail) — Detailgegeven (weinig attributen)
+  - **Koopwoningen** (detail) — Detailgegeven (weinig attributen)
+  - **Studentenwoningen** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
 bo_toelichting: ''
 bo_subtypes:

@@ -1,5 +1,11 @@
 # Wiki Log
 
+## [2026-07-08] opruiming | ggm-vergelijking skill en analyses verwijderd
+
+- **Aanleiding:** `/entiteitendekking` vervangt `/ggm-vergelijking` volledig (uniforme analyse per taakveld/beleidsdomein sinds eerdere migratie) — de oude skill en bijbehorende per-onderwerp analyses waren dode gewichten.
+- **Verwijderd:** skill `.claude/commands/ggm-vergelijking.md`, script `tools/ggm_vergelijking_prep.py`, map `Wiki/Analyses/ggm-vergelijking/` (32 onderwerpanalyses) en `Wiki/Analyses/ggm-vergelijkingen.md` (totaaloverzicht).
+- **Referenties opgeschoond:** dode links in `Wiki/index.md` verwijderd; kruisverwijzingen naar `/ggm-vergelijking` in `bo-coverage.md`, `domain-status.md`, `assess-bo.md`, `coverage.md` en `ingest.md` omgezet naar `/entiteitendekking`. Historische "vervangt ..."-notities in `CLAUDE.md` en `entiteitendekking.py`/`.md` ongewijzigd gelaten (lineage, geen dode link).
+
 ## [2026-07-07] herbeoordeling | Entiteitendekking 99 Kern (BAG/RGBZPlus/RSGBPlus) — 12 hiaten opgeheven
 
 - **Aanleiding:** gebruiker vroeg dezelfde herbeoordeling als bij Beheer Openbare Ruimte voor het 99-Kern-taakveld (BAG, RGBZPlus, RSGBPlus), met specifieke aandacht voor RSGB.

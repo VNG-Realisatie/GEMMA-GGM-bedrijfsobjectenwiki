@@ -27,6 +27,9 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Ouder Of Verzorger** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Doorgeleiding OM** (detail) — Te specifiek; justitie-subtype
 bo_definitie: "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."
 bo_toelichting: ''
 bo_relaties:

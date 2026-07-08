@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Toewijzing** als directe tegenhanger.
 bo_definitie: "Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd."
 bo_toelichting: ''
 bo_relaties:

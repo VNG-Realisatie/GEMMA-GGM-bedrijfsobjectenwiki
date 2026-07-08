@@ -27,6 +27,8 @@ ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Loonkostensubsidie** als directe tegenhanger.
 bo_definitie: "Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde."
 bo_toelichting: ''
 bo_relaties:

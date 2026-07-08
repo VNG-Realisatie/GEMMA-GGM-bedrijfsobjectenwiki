@@ -28,7 +28,7 @@ Classificeer het begrip als een van deze begripstypen:
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
 
-**Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/ggm-vergelijking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
+**Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/entiteitendekking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
 
 **Stop-regel:** thema / doel / waarde = geen BO-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
 

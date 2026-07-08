@@ -34,6 +34,15 @@ ggm_duplicaat_entiteiten:
     taakveld: "9 Interne Organisatie"
     afwijkende_attributen: "Beperktere diagram-set (Sociaal Domein, Verplichtingen, Relaties Sociaal Domein tot Kern)"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Leverancier** als directe tegenhanger. Daarnaast is **Leverancier** (beleidsdomein Sociaal Domein Generiek) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aanvraag Inkooporder** (detail) — Detailgegeven
+  - **Categorie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **FormulierVerlengingInhuur** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Opbreking** (detail) — Detailgegeven (weinig attributen)
+  - **Productie-eenheid** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Uitnodiging** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Uitvoerder Graafwerkzaamheden** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
 bo_toelichting: ''
 bo_relaties:

@@ -34,6 +34,8 @@ ggm_duplicaat_entiteiten:
     taakveld: "99 Kern"
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (pandidentificatie, pandstatus, etc.) en voegt LOD1/2/3-geometrie, IMGeo-identificatie en inwinningGeometrie toe; mist versie/datumIngang/datumEinde"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Pand** als directe tegenhanger. Daarnaast is **Pand** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een pand is een kleinste bij de totstandkoming functioneel en bouwkundig-constructief zelfstandige eenheid die direct en duurzaam met de aarde is verbonden en betreedbaar en afsluitbaar is."
 bo_toelichting: ''
 bo_relaties:

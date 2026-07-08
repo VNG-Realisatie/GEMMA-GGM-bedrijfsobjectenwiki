@@ -27,6 +27,9 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Disciplinaire Maatregel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **SoortDisciplinaireMaatregel** (classificatie) — Typering/referentietabel
 bo_definitie: "Een besluit dat wordt opgelegd wanneer een persoon zijn verplichtingen niet of niet op de juiste wijze nakomt, of zich op andere wijze misdraagt."
 bo_toelichting: ''
 bo_subtypes:

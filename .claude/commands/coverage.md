@@ -18,4 +18,4 @@ Na het draaien van het script:
 1. Voeg entry toe aan `Wiki/log.md`.
 2. Verifieer output in `Wiki/Analyses/ggm-dekking.md`.
 
-Coverage telt en signaleert; het beoordeelt niet zelf of een entiteit een BO moet worden. Voor beoordeling: verwijs door naar `/assess-bo`. Voor een diepte-vergelijking per onderwerp (met entiteitstype-classificatie): verwijs naar `/ggm-vergelijking`.
+Coverage telt en signaleert; het beoordeelt niet zelf of een entiteit een BO moet worden. Voor beoordeling: verwijs door naar `/assess-bo`. Voor de taakveld-brede dekkingsanalyse (met entiteitstype-classificatie): verwijs naar `/entiteitendekking`.

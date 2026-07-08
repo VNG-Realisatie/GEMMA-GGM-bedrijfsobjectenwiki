@@ -14,6 +14,8 @@ ggm_diagram: [Vroegsignalering, Vroegsignalering Details, Vroegsignalering Klein
 ggm_definitie: "Een Vroegsignaal is een bericht dat door een signaalpartner aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner."
 ggm_herkomst: GGM
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vroegsignaal** als directe tegenhanger.
 bo_definitie: "Een Vroegsignaal is een bericht dat door een signaalpartner aan de gemeente wordt verstrekt, met als doel de gemeente te informeren over een mogelijk beginnende schuldsituatie van een inwoner."
 bo_toelichting: ''
 bo_subtypes: []

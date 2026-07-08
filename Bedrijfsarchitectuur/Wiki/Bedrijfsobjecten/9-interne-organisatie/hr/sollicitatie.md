@@ -27,6 +27,10 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Sollicitatie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Sollicitant** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Sollicitatiegesprek** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Verzoek om in een functie te worden aangesteld."
 bo_toelichting: ''
 bo_relaties:

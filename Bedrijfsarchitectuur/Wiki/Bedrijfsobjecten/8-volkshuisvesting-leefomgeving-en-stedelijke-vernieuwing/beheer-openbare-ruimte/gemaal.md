@@ -26,6 +26,8 @@ ggm_gemma_type: ''
 ggm_gemma_url: ''
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Gemaal** als directe tegenhanger.
 bo_definitie: Constructie voor het verpompen van afvalwater, hemelwater of oppervlaktewater binnen het gemeentelijk rioleringssysteem.
 bo_toelichting: ''
 bo_relaties:

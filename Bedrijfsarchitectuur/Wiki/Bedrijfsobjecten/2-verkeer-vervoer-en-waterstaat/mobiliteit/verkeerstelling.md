@@ -24,6 +24,10 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cb656c23-5e43-4f7d-9c06-ff5351911fdb"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Verkeerstelling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Sensor** (detail) — Detailgegeven (geassocieerd met BO)
+  - **VLogInfo** (detail) — Te technisch/operationeel voor bedrijfsniveau
 bo_definitie: "Een onderzoek om inzicht te krijgen in het verkeer, in de hoeveelheid verkeer, de verdeling en de gereden snelheid."
 bo_toelichting: ''
 bedrijfsprocessen: [Verkeersmanagement, Monitoring en evaluatie]

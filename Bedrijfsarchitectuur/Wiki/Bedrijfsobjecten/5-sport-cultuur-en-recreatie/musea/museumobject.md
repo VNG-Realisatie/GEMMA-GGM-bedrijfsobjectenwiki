@@ -24,6 +24,15 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Museumobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Auteur** (detail) — Detailgegeven (weinig attributen)
+  - **Bruikleen** (detail) — Operationeel contract, specifiek museaal; geen apart BO naast Museumobject
+  - **Historisch Persoon** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Incident** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Lener** (detail) — Detailgegeven (weinig attributen)
+  - **Tentoonstelling** (detail) — Operationele activiteit van museum, geen gemeentelijk registratieobject
+  - **Zaal** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
 bo_toelichting: ''
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]

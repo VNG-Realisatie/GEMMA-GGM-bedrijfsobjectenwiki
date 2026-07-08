@@ -32,6 +32,13 @@ ggm_gemma_type: business-object
 ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Beschermde Status**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Ambacht** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Bouwactiviteit** (detail) — Detailgegeven
+  - **Bouwstijl** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Bouwtype** (classificatie) — Typering/referentietabel
+  - **OorspronkelijkeFunctie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Onroerende zaak met formeel vastgestelde cultuurhistorische waarde, beschermd op grond van een aanwijzingsbesluit door Rijk, provincie of gemeente en ingeschreven in het betreffende erfgoedregister."
 bo_toelichting: "De GGM-entiteit heet 'Beschermde Status' en modelleert de registratie van de bescherming, niet het fysieke object zelf. Attributen als rijksmonumentcode, gemeentelijkMonumentCode en datumInschrijvingRegister bevestigen dit. De wiki gebruikt 'Monument' als BO-naam omdat dit herkenbaarder is voor domeinexperts."
 bo_subtypes:

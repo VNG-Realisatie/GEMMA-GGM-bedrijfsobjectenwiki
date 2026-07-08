@@ -24,6 +24,13 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a9b50546-d72d-4e60-8da5-184a27a626c5"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Container** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Containertype** (classificatie) — Typering/referentietabel
+  - **Ophaalmoment** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Rit** (detail) — Detailgegeven (weinig attributen)
+  - **Vuilniswagen** (detail) — Detailgegeven (weinig attributen)
+  - **Vulgraadmeting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
 bo_toelichting: ''
 bedrijfsprocessen: [Afvalinzameling, Containerbeheer, Het Nieuwe Inzamelen]

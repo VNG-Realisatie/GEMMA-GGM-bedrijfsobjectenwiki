@@ -29,6 +29,17 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Ingezetene**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **GeboorteIngeschrevenPersoon** (detail) — Detailgegeven
+  - **MigratieIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
+  - **NationaliteitIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
+  - **NederlandseNationaliteitIngeschrevenPersoon** (detail) — Detailgegeven
+  - **OverlijdenIngeschrevenPersoon** (detail) — Detailgegeven
+  - **VerblijfadresIngeschrevenPersoon** (detail) — Detailgegeven
+  - **VerblijfsrechtIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
+  - **Verblijfstitel** (detail) — koppelgegeven (IND)
+  - **VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
 bo_definitie: "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."
 bo_toelichting: ''
 bo_subtypes: []

@@ -24,6 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Kwijtschelding** als directe tegenhanger.
 bo_definitie: "Het kwijtschelden van het restant van de vordering."
 bo_toelichting: "Dit kan om diverse redenen gebeuren, waaronder redenen uit het beleid. Als een debiteur 36 maanden lang houdt aan de betaalafspraken, komt de debiteur in aanmerking voor kwijtschelding. Hieronder vallen ook afspraken om tijdelijk niet af te lossen. Als de debiteur ineens de helft of meer aflost op de vordering. Het bedrag in de kwijtschelding heeft die hoogte dat de totale restant van de vordering op nul komt."
 definitie: Het kwijtschelden van het restant van de vordering

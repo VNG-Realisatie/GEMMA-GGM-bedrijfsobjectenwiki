@@ -28,6 +28,26 @@ ggm_gemma_alternate_name: ""
 ggm_duplicaat_entiteiten:
   - "EAID_341942C1_0F72_4e13_ADD1_235805BB81C0"
 
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vordering** als directe tegenhanger. Daarnaast is **Vordering** (beleidsdomein 1 Veiligheid en Vergunningen) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Betaalcomponent** (detail) — Detailgegeven (weinig attributen)
+  - **Boetevordering** (detail) — Detailgegeven (weinig attributen)
+  - **Conservatoir beslag** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Correctie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Incassokostenvordering** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Krediethypotheekvordering** (detail) — Detailgegeven (weinig attributen)
+  - **Leenbijstandvordering** (detail) — Detailgegeven (weinig attributen)
+  - **Leveringscomponent** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Leveringscomponenttype** (detail) — Detailgegeven
+  - **Leveringsspecificatie** (detail) — Detailgegeven (weinig attributen)
+  - **Rechtmaand** (detail) — Detailgegeven (weinig attributen)
+  - **Rentevordering** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Terugvorderingsverzoek** (detail) — Detailgegeven
+  - **Vermindering terugvordering** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Verrekening** (detail) — Detailgegeven (weinig attributen)
+  - **Verwijtbare vordering** (detail) — Detailgegeven (weinig attributen)
+  - **Vorderingregel** (component) — Component
+  - **Vorderingscomponent** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag (terug) moet betalen aan de gemeente in het kader van de bijstand of een bijstandsgerelateerde uitkering."
 bo_toelichting: "De oorzaak van een vordering is velerlei, zie daarvoor de categorie-indeling. Vorderingen kunnen uit meerdere componenten bestaan. Vorderingen kunnen ook onderling in relatie staan, bijvoorbeeld: een opgelegde boete wegens het schenden van de inlichtingenplicht heeft een relatie met een verwijtbare vordering."
 definitie: Een eis op een persoon die een zeker bedrag (terug) moet betalen aan de gemeente

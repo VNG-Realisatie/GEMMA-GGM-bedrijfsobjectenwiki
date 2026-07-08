@@ -27,6 +27,12 @@ ggm_gemma_alternate_name: ""
 
 ggm_duplicaat_entiteiten: []
 
+analyse_ggm_dekking: |
+  Dit BO is de hernoeming van GGM-entiteit **Put**. Daarnaast is **Put** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Rioolput** (beleidsdomein Beheer Openbare Ruimte) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aansluitput** (detail) — Detailgegeven (weinig attributen)
+  - **Drainageput** (detail) — Detailgegeven (weinig attributen)
+  - **Filterput** (detail) — Detailgegeven (weinig attributen)
+  - **Infiltratieput** (detail) — Detailgegeven (weinig attributen)
 bo_homoniemen:
   - ggm_entiteit: "Put"
     ggm_guid: "EAID_17286CE1_21F2_454b_95A6_3E4C0C6E2453"

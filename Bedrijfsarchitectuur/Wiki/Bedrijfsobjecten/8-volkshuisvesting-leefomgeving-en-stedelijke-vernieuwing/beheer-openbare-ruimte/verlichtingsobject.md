@@ -24,6 +24,8 @@ ggm_gemma_type: ""
 ggm_gemma_url: ""
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Verlichtingsobject** als directe tegenhanger.
 bo_definitie: "Paal of mast waaraan openbare verlichting is bevestigd."
 bo_toelichting: ''
 bo_subtypes:
