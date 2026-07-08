@@ -6,15 +6,19 @@ datum: 2026-07-07
 
 # Entiteitendekking — totaaloverzicht
 
-916 GGM-entiteiten. Dekking: 808 gedekt (88%), 108 niet gedekt. 104 BO's zonder GGM-entiteit. 310 BO's totaal.
+916 GGM-entiteiten. Dekking: 827 gedekt (90%), 89 niet gedekt. 104 BO's zonder GGM-entiteit. 310 BO's totaal.
 
 *Bijgewerkt 2026-07-07 (ronde 1): herbeoordeling Sociaal Domein Generiek — Bankrekening/Hypotheek/Motorvoertuig/Onroerend goed consistent gerouteerd via Vermogenscomponent → Profiel → Client, waarmee 2 hiaten zijn opgeheven.*
 
 *Bijgewerkt 2026-07-07 (ronde 2): ingest van Boek 1 BW Titel 17 en Wet studiefinanciering 2000 legde een bredere routeringsinconsistentie in de hele Inkomstencomponent-tak bloot (Primair + Secundair inkomstencomponent en subtypen, plus Onderhoudsplicht/-verhouding) — 17 hiaten opgeheven. Zie [[Wiki/Analyses/entiteitendekking/6-sociaal-domein]] voor details.*
 
+*Bijgewerkt 2026-07-07 (ronde 3): herbeoordeling Beheer Openbare Ruimte — 8 kunstwerk-achtige subtypen (Brug, Flyover, Kademuur, Keermuur, Tunnelobject, Viaduct, Overbruggingsobject, Scheiding) alsnog gekoppeld aan de bestaande BO Kunstwerk via de GGM-hiërarchie, 3 verkeerd gekoppelde entiteiten (Klimplant, SolitairePlant, Omgevingsvergunning) gecorrigeerd, en Sportterrein herkend als vermoedelijke tweede GGM-representatie van de bestaande BO Sportpark (taakveld 5) in plaats van een echt hiaat — 7 hiaten opgeheven. Zie [[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing]] voor details.*
+
+*Bijgewerkt 2026-07-07 (ronde 4): herbeoordeling 99 Kern (BAG/RGBZPlus/RSGBPlus) — 8 route-fouten via abstracte tussenstations gecorrigeerd (Huishouden, Rechtspersoon, AdresBuitenland, Nationaliteit, plus 3 RGBZ rol-attributen die ten onrechte aan Wijk hingen), 8 RSGB/BAG-naamduplicaten direct aan hun eigen BAG-BO gekoppeld in plaats van een willekeurig ander BO, 8 BRP-persoonsdetails gekoppeld aan Ingeschreven Persoon op basis van het Logisch Ontwerp BRP 2025.Q1 (GGM zelf mist de relatie, teruggemeld als #93), en 13 generieke bouwstenen (99-Kern geo/media-typen, RGBZ historie-/kwaliteitsindicatoren) van een misleidend specifiek naar een neutraal "generieke bouwsteen"-label gezet — 12 hiaten opgeheven. Zie [[Wiki/Analyses/entiteitendekking/99-kern]] voor details.*
+
 | Taakveld | Beleidsdomein | GGM-entiteiten | Entiteiten met BO | Entiteiten ondersteunend aan BO | Niet gedekt | Dekking | BO zonder GGM-entiteit |
 |---|---|---|---|---|---|---|---|
-| **Totaal** | | 916 | 206 | 602 | 108 (12%) | 88% | 104 (BO's totaal: 310) |
+| **Totaal** | | 916 | 206 | 621 | 89 (10%) | 90% | 104 (BO's totaal: 310) |
 | **[[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning\|0 Bestuur, Politiek en Ondersteuning]]** | Griffie | 13 | 3 | 10 | 0 | 100% | |
 |  | | | | | | | 5 |
 | **[[Wiki/Analyses/entiteitendekking/1-veiligheid-en-vergunningen\|1 Veiligheid en Vergunningen]]** | 1 Veiligheid en Vergunningen | 30 | 7 | 22 | 1 | 97% | |
@@ -44,7 +48,7 @@ datum: 2026-07-07
 |  | | | | | | | 10 |
 | **[[Wiki/Analyses/entiteitendekking/7-volksgezondheid-en-milieu\|7 Volksgezondheid en Milieu]]** | Afval | 16 | 4 | 12 | 0 | 100% | |
 |  | | | | | | | 31 |
-| **[[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing\|8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing]]** | Beheer Openbare Ruimte | 81 | 18 | 34 | 29 | 64% | |
+| **[[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing\|8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing]]** | Beheer Openbare Ruimte | 81 | 18 | 41 | 22 | 73% | |
 |  | Bouwen en Wonen | 7 | 2 | 5 | 0 | 100% | |
 |  | Omgevingswet | 31 | 6 | 25 | 0 | 100% | |
 |  | | | | | | | 3 |
@@ -60,6 +64,6 @@ datum: 2026-07-07
 |  | | | | | | | 10 |
 | **[[Wiki/Analyses/entiteitendekking/99-kern\|99 Kern]]** | 99 Kern | 10 | 0 | 10 | 0 | 100% | |
 |  | BAG | 13 | 10 | 2 | 1 | 92% | |
-|  | RGBZPlus | 37 | 10 | 23 | 4 | 89% | |
-|  | RSGBPlus | 95 | 14 | 67 | 14 | 85% | |
+|  | RGBZPlus | 37 | 10 | 27 | 0 | 100% | |
+|  | RSGBPlus | 95 | 14 | 75 | 6 | 94% | |
 |  | | | | | | | 6 |

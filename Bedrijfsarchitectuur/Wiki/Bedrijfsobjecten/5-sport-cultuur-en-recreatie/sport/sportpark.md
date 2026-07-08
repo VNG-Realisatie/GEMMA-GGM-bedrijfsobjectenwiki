@@ -24,6 +24,12 @@ ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ca9df4ee-92e1-4c24-ace3-467d146a320e"
 ggm_gemma_bron: ""
 ggm_gemma_alternate_name: ""
+ggm_duplicaat_entiteiten:
+  - entiteit: Sportterrein
+    guid: EAID_A5A43927_9633_4584_865B_78AE4486E5B
+    beleidsdomein: Beheer Openbare Ruimte
+    taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
+    afwijkende_attributen: "Sportterrein (Model IMBOR) heeft eigen attributen (drainage, gebruiksvorm, sportcomplex, sportterreinTypeSport, veldnummer, verlicht) die Sportpark niet heeft; ter discussie of dit conceptueel dichter bij Veld ligt dan bij Sportpark — zie terugmelding #92"
 bo_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
 bo_toelichting: ''
 bo_relaties:
@@ -62,6 +68,19 @@ Een sportpark is een geheel van terreinen, gebouwen en voorzieningen voor versch
 - **Beleidsdomein:** Sport
 - **Attributen:** *(geen)*
 - **Matchsterkte:** exact
+
+## GGM-duplicaten
+
+De GGM-entiteit "Sportterrein" (taakveld 8, beleidsdomein Beheer Openbare Ruimte, Model IMBOR) representeert vermoedelijk hetzelfde concept als Sportpark:
+
+| Beleidsdomein | GUID | Status |
+|---|---|---|
+| **Sport** (taakveld 5) | `EAID_FE1A2EF2_44FA_46fa_A583_7BAB858E17FD` | **primair** — gekozen omdat de definitie ("geheel van terreinen, gebouwen en voorzieningen") het beleidsniveau dekt waarop de gemeente sportparken bespreekt, en omdat Sportpark zelf "Sportterrein" als GGM-synoniem noemt |
+| Beheer Openbare Ruimte (taakveld 8) | `EAID_A5A43927_9633_4584_865B_78AE4486E5B` | duplicaat — heeft eigen IMBOR-attributen (drainage, gebruiksvorm, sportcomplex, sportterreinTypeSport, veldnummer, verlicht) die Sportpark niet heeft |
+
+De attributen `veldnummer` en `sportcomplex` op Sportterrein wijzen mogelijk eerder op het individuele-veld-niveau dan op het complex-niveau — Sportterrein zou dan conceptueel dichter bij [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/veld\|Veld]] liggen (dat als compositie-onderdeel van Sportpark is gemodelleerd). GGM's eigen synoniemtags zijn hier inconsistent: Sportpark → synoniem "Sportterrein", maar Sportterrein zelf → synoniem "Sportveld". Dit is **ter discussie**; niet gegokt maar teruggemeld.
+
+Teruggemeld als #92 in [[Wiki/Analyses/ggm-terugmeldingen]].
 
 ## Relaties
 

@@ -115,6 +115,19 @@ def load_bo_pages():
         by_name[naam.lower()] = info
         all_bos.append(info)
 
+        # ggm_duplicaat_entiteiten: andere GUID's die hetzelfde concept
+        # representeren (bijv. dezelfde entiteit dubbel gemodelleerd in het
+        # GGM, of — zoals Sportterrein/Sportpark — twee verschillend genoemde
+        # entiteiten die als duplicaat zijn vastgesteld). Elke GUID hierin
+        # wijst naar dezelfde BO-info, zodat compute_dekking() deze net als
+        # de primaire GUID herkent. Twee bestaande notatievormen in de wiki:
+        # een platte lijst GUID-strings, of een lijst dicts met een
+        # 'guid'-sleutel (het templateformaat).
+        for dup in (fm.get('ggm_duplicaat_entiteiten') or []):
+            dup_guid = dup if isinstance(dup, str) else (dup or {}).get('guid')
+            if dup_guid and dup_guid not in by_guid:
+                by_guid[dup_guid] = info
+
     return by_guid, by_name, all_bos
 
 
@@ -166,22 +179,50 @@ class RelationGraph:
                     queue.append(child)
         return found
 
-    def bfs_to_bo(self, start_id, bo_ids, objecttypes, max_depth=3):
+    def bfs_to_bo(self, start_id, bo_ids, objecttypes, max_depth=3, prefer_bd=None):
+        """Level-order search to the nearest BO.
+
+        Explores generalization edges (both up via gen_parent and down via
+        gen_children) together with association edges, generalization checked
+        first at each node so a taxonomically related BO wins ties at the same
+        depth over an unrelated one reached only via associations. When
+        multiple BO's are found at the same (shallowest) depth, one in
+        `prefer_bd` (the source entity's own beleidsdomein) wins over a
+        cross-domein hit.
+        """
         visited = {start_id}
-        queue = [(start_id, [])]
-        while queue:
-            cur, path = queue.pop(0)
-            if len(path) >= max_depth:
-                continue
-            for tgt in self.assoc.get(cur, []):
-                if tgt in visited:
-                    continue
-                visited.add(tgt)
-                name = objecttypes.get(tgt, {}).get('name', '?')
-                new_path = path + [name]
-                if tgt in bo_ids:
-                    return new_path, tgt
-                queue.append((tgt, new_path))
+        frontier = [(start_id, [])]
+        for _ in range(max_depth):
+            next_frontier = []
+            hits = []
+            for cur, path in frontier:
+                neighbors = []
+                if cur in self.gen_parent:
+                    neighbors.append(self.gen_parent[cur])
+                neighbors.extend(self.gen_children.get(cur, []))
+                neighbors.extend(self.assoc.get(cur, []))
+                for tgt in neighbors:
+                    if tgt in visited:
+                        continue
+                    visited.add(tgt)
+                    name = objecttypes.get(tgt, {}).get('name', '?')
+                    new_path = path + [name]
+                    if tgt in bo_ids:
+                        hits.append((tgt, new_path))
+                    else:
+                        next_frontier.append((tgt, new_path))
+            if hits:
+                def _rank(h):
+                    tgt, _ = h
+                    same_bd = (prefer_bd is not None and
+                               objecttypes.get(tgt, {}).get('beleidsdomein') == prefer_bd)
+                    return 0 if same_bd else 1
+                hits.sort(key=_rank)
+                tgt, path = hits[0]
+                return path, tgt
+            frontier = next_frontier
+            if not frontier:
+                break
         return None
 
 
@@ -210,6 +251,14 @@ def find_excluded_ids(objecttypes, graph, bo_by_guid):
 
 
 def deduplicate(entity_ids, objecttypes, bo_by_guid):
+    """Pick one entity per duplicate name, deterministically.
+
+    entity_ids is a set, so plain iteration order depends on Python's string
+    hash randomization (PYTHONHASHSEED) and can differ between runs. Break
+    ties by preferring an existing BO match, then the entity with the most
+    attributes (the more fully-specified, likely-canonical definition), then
+    the GUID itself as a final deterministic tiebreak.
+    """
     by_name = defaultdict(list)
     for eid in entity_ids:
         by_name[objecttypes[eid]['name'].lower()].append(eid)
@@ -219,7 +268,10 @@ def deduplicate(entity_ids, objecttypes, bo_by_guid):
             keep.add(eids[0])
         else:
             matched = [e for e in eids if e in bo_by_guid]
-            keep.add(matched[0] if matched else eids[0])
+            candidates = matched if matched else eids
+            best = sorted(candidates,
+                          key=lambda e: (-len(objecttypes[e].get('attributes', [])), e))[0]
+            keep.add(best)
     return keep
 
 
@@ -294,6 +346,19 @@ def _is_classification(name, attrs):
 
 # ── Relatie tot BO ───────────────────────────────────────────────────────────
 
+GENERIC_BUILDING_BLOCKS = {
+    'Locatie', 'Punt', 'Lijn', 'Gebied', 'Puntengroep', 'Lijnengroep', 'Gebiedengroep',
+    'Foto', 'Video-opname', 'Periode',
+    'FormeleHistorie', 'MaterieleHistorie', 'StrijdigheidOfNietigheid',
+}
+
+
+def _camel_words(name):
+    """Split CamelCase/PascalCase and hyphen/space-separated names into lowercase words."""
+    parts = re.findall(r'[A-Z]?[a-z0-9]+|[A-Z]+(?=[A-Z]|$|[^a-z])', name)
+    return {p.lower() for p in parts if p}
+
+
 def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes):
     """Compute dekking: welk BO dekt deze entiteit structureel?
 
@@ -304,6 +369,7 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     - ⚠️ geen BO bereikbaar      — geen pad gevonden
     - referentietabel            — classificatie zonder specifiek BO
     - n.v.t.                     — abstract/proces/actor/rol
+    - generieke bouwsteen        — gebruikt door meerdere BO's, geen eigenaar
     """
     if etype in ('abstract', 'proces', 'actor', 'rol', 'meetinstrument', 'cross-cutting'):
         return 'n.v.t.'
@@ -311,44 +377,46 @@ def compute_dekking(eid, etype, name, graph, bo_by_guid, bo_by_name, objecttypes
     bo_ids = set(bo_by_guid.keys())
     verb = "typering" if etype == 'classificatie' else "beschrijft"
 
-    # 1. Generalization parent → trace to BO
-    if eid in graph.gen_parent:
-        pid = graph.gen_parent[eid]
-        pname = objecttypes.get(pid, {}).get('name', '?')
-        if pid in bo_ids:
-            return f"{verb} {bo_link(bo_by_guid[pid])}"
-        if pid in graph.gen_parent:
-            gpid = graph.gen_parent[pid]
-            if gpid in bo_ids:
-                return f"via {pname} → {bo_link(bo_by_guid[gpid])}"
-        for tgt in graph.assoc.get(pid, []):
-            if tgt in bo_ids:
-                return f"via {pname} → {bo_link(bo_by_guid[tgt])}"
+    # 1. Generieke bouwsteen: geen eigenaar-BO, gebruikt door tientallen BO's
+    if name in GENERIC_BUILDING_BLOCKS:
+        return "generieke bouwsteen — gebruikt door meerdere BO's"
 
-    # 2. Aggregation parent → trace to BO
-    if eid in graph.agg_parent:
-        wid = graph.agg_parent[eid]
-        if wid in bo_ids:
-            return f"{verb} {bo_link(bo_by_guid[wid])}"
-        wname = objecttypes.get(wid, {}).get('name', '?')
-        for tgt in graph.assoc.get(wid, []):
-            if tgt in bo_ids:
-                return f"via {wname} → {bo_link(bo_by_guid[tgt])}"
+    # 2. Exacte naam-duplicaat van een bestaand BO (andere GUID) — zelfde
+    #    concept dubbel gemodelleerd in het GGM (bijv. RSGB Wijk vs. BAG Wijk)
+    dup = bo_by_name.get(name.lower())
+    if dup and dup.get('ggm_guid') and dup['ggm_guid'] in bo_ids and dup['ggm_guid'] != eid:
+        return f"{verb} {bo_link(dup)}"
 
-    # 3. BFS via all relations
-    result = graph.bfs_to_bo(eid, bo_ids, objecttypes)
+    # 3. Unified search over generalisatie (omhoog + omlaag) en associaties,
+    #    generalisatie het eerst gecheckt per node, eigen beleidsdomein
+    #    geprefereerd bij gelijke diepte.
+    own_bd = objecttypes.get(eid, {}).get('beleidsdomein')
+    result = graph.bfs_to_bo(eid, bo_ids, objecttypes, prefer_bd=own_bd)
     if result:
         path, bo_eid = result
         if len(path) == 1:
             return f"{verb} {bo_link(bo_by_guid[bo_eid])}"
         return f"via {path[0]} → {bo_link(bo_by_guid[bo_eid])}"
 
-    # 4. Name-based
+    # 4. Naam-gebaseerd: CamelCase-woordgrens, of prefix/suffix-match voor
+    #    Nederlandse samenstellingen ("Bemiddelingsactiviteit" eindigt op
+    #    "activiteit", "Heffingskorting" begint met "heffing"). Nooit een kale
+    #    middenin-substring-match — die geeft valse hits (bijv. "wijk" in
+    #    "Afwijkend...", "leiding" in "Opleidingsnaam...").
+    name_words = _camel_words(name)
     nl = name.lower().replace('-', '').replace(' ', '')
     best, best_len = None, 0
     for key, info in bo_by_name.items():
-        kc = key.replace('-', '').replace(' ', '')
-        if len(kc) >= 3 and kc in nl and len(kc) > best_len:
+        key_words = set(re.split(r'[-\s]+', key.lower())) - {''}
+        kc = key.replace('-', '').replace(' ', '').lower()
+        if len(kc) < 3:
+            continue
+        whole_word = bool(key_words) and key_words <= name_words
+        # Nederlands meervoud ("Brondocumenten" = "Brondocument" + "en")
+        boundary = len(kc) >= 5 and (
+            nl.startswith(kc) or nl.endswith(kc) or
+            nl.endswith(kc + 'en') or nl.endswith(kc + 's'))
+        if (whole_word or boundary) and len(kc) > best_len:
             if info.get('ggm_guid') and info['ggm_guid'] in bo_ids:
                 best, best_len = info, len(kc)
     if best:
@@ -508,9 +576,12 @@ def process_beleidsdomein(bd_name, entity_ids, objecttypes, graph,
         else:
             etype, rationale, conf = classify_entity(eid, e, graph, bo_ids, objecttypes)
 
-            # Override with begrippentabel if available (handmatig geclassificeerd)
+            # Override with begrippentabel if available (handmatig geclassificeerd).
+            # Nooit een XMI-abstract entiteit downgraden naar een concreet type: een
+            # begrip met dezelfde naam elders in de wiki (ander domein, andere GUID)
+            # mag de eigen GGM-structuur van deze entiteit niet overschrijven.
             begrip = begrip_index.get(name.lower())
-            if begrip and begrip.get('type'):
+            if begrip and begrip.get('type') and not e.get('is_abstract'):
                 mapped = BEGRIP_TYPE_MAP.get(begrip['type'].lower(), '')
                 if mapped:
                     etype = mapped
