@@ -24,7 +24,7 @@ Gemeentelijk beleid voor de kwaliteit van de gebouwde omgeving. De welstandstoet
 | welstandsnota | instrument | Beleidsdocument met het welstandskader | ❌ | nee | Eén document per gemeente, geen meervoud | De schoonheid van Utrecht | nee |
 | exces | constatering | Ernstige ontsiering van een bouwwerk | ❌ | nee | Bevinding/handhavingszaak in VTH, geen zelfstandig object | Verwaarlozing, contrasterende kleuren | nee |
 | beeldkwaliteitplan | instrument | Kwaliteitskader voor architectuur en openbare ruimte in een gebied | ❌ | nee | Beleidsinstrument, beperkte eigenstandigheid | — | nee |
-| Commissie Welstand en Monumenten | actor | Onafhankelijk adviesorgaan voor welstand en monumenten | ❌ | nee | Organisatieonderdeel, geen BO | — | nee |
+| [[Wiki/Actoren/commissie-welstand-en-monumenten|Commissie Welstand en Monumenten]] | actor | Onafhankelijk adviesorgaan voor welstand en monumenten | ❌ | nee | Organisatieonderdeel; vastgelegd als actor-pagina | — | nee |
 | beeldbepalend gebouw | classificatie | Gebouw dat opvalt of het beeld van de omgeving bepaalt | ❌ | nee | Aanduiding/attribuut van een gebouw | Domtoren, stadskantoor | nee |
 
 ## Verwerkte bronnen

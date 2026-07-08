@@ -26,7 +26,7 @@ totaal_hiaten: 10
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-10 beleidsdomeinen, 285 GGM-entiteiten (9 n.v.t.). Dekking: 197 van 276 (71%) — 56 met BO, 141 ondersteunend, 79 niet gedekt. 10 BO's zonder GGM-entiteit.
+10 beleidsdomeinen, 285 GGM-entiteiten (9 n.v.t.). Dekking: 199 van 276 (72%) — 56 met BO, 143 ondersteunend, 77 niet gedekt. 10 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces.
 
@@ -269,7 +269,7 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 
 ## Sociaal Domein Generiek
 
-55 GGM-entiteiten (1 n.v.t.): 5 met BO, 14 ondersteunend aan BO, 35 niet gedekt. Dekking: 19 van 54 (35%).
+55 GGM-entiteiten (1 n.v.t.): 5 met BO, 16 ondersteunend aan BO, 33 niet gedekt. Dekking: 21 van 54 (39%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -313,8 +313,8 @@ Niet-BO entiteiten: 21× classificatie, 183× detail, 16× onderdeel, 9× proces
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Relatiesoort]] | via Client → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Secundair inkomstencomponent]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
-| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis\|Gemeentebegrafenis]] / [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/jeugdbescherming-en-reclassering/zorgmelding\|Zorgmelding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Groep]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven |
+| [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Sociale Relatie]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stadspas]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Stage]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | [[Wiki/GGM/6-sociaal-domein/sociaal-domein-generiek\|Studiefinanciering]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |

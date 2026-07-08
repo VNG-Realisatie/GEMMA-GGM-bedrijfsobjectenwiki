@@ -12,8 +12,8 @@ beleidsdomeinen:
   - Subsidies
   - Vastgoed
 totaal_entiteiten: 148
-totaal_bo: 60
-totaal_matches: 51
+totaal_bo: 61
+totaal_matches: 52
 totaal_hiaten: 9
 ---
 
@@ -23,9 +23,9 @@ totaal_hiaten: 9
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-7 beleidsdomeinen, 148 GGM-entiteiten (5 n.v.t.). Dekking: 127 van 143 (89%) — 51 met BO, 76 ondersteunend, 16 niet gedekt. 9 BO's zonder GGM-entiteit.
+7 beleidsdomeinen, 148 GGM-entiteiten (5 n.v.t.). Dekking: 129 van 143 (90%) — 52 met BO, 77 ondersteunend, 14 niet gedekt. 9 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 7× classificatie, 79× detail, 6× onderdeel, 5× proces.
+Niet-BO entiteiten: 7× classificatie, 78× detail, 6× onderdeel, 5× proces.
 
 ## Financien
 
@@ -176,7 +176,7 @@ Niet-BO entiteiten: 7× classificatie, 79× detail, 6× onderdeel, 5× proces.
 
 ## Subsidies
 
-9 GGM-entiteiten (2 n.v.t.): 0 met BO, 4 ondersteunend aan BO, 3 niet gedekt. Dekking: 4 van 7 (57%).
+9 GGM-entiteiten (2 n.v.t.): 0 met BO, 5 ondersteunend aan BO, 2 niet gedekt. Dekking: 5 van 7 (71%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -188,11 +188,11 @@ Niet-BO entiteiten: 7× classificatie, 79× detail, 6× onderdeel, 5× proces.
 | [[Wiki/GGM/9-interne-organisatie/subsidies\|Subsidiebeschikking]] | n.v.t. | proces |  | Proces of processtap |
 | [[Wiki/GGM/9-interne-organisatie/subsidies\|Subsidiecomponent]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/subsidies\|Subsidieprogramma]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/9-interne-organisatie/subsidies\|Taak]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] / [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak\|Zaak]] / [[Wiki/Rollen/indiener\|Indiener]] / [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning\|Parkeervergunning]] / [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] / [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] / [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] / [[Wiki/Bedrijfsobjecten/99-kern/brk/tenaamstelling\|Tenaamstelling]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/9-interne-organisatie/subsidies\|Taak]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 
 ## Vastgoed
 
-27 GGM-entiteiten (0 n.v.t.): 9 met BO, 16 ondersteunend aan BO, 2 niet gedekt. Dekking: 25 van 27 (93%).
+27 GGM-entiteiten (0 n.v.t.): 10 met BO, 16 ondersteunend aan BO, 1 niet gedekt. Dekking: 26 van 27 (96%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -214,7 +214,7 @@ Niet-BO entiteiten: 7× classificatie, 79× detail, 6× onderdeel, 5× proces.
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|NADAanvullingBRP]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Objectrelatie]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Offerte]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/offerte\|Offerte]] ✅ | hernoemd |  | Hernoemd naar Offerte (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
-| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Pachter]] | ⚠️ ter discussie tussen [[Wiki/Rollen/eigenaar\|Eigenaar]] / [[Wiki/Rollen/huurder\|Huurder]] / [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/9-interne-organisatie/vastgoed\|Pachter]] | [[Wiki/Rollen/pachter\|Pachter]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Prijzenboekitem]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/mjop\|MJOP]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoed Contract]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] ✅ | hernoemd |  | Hernoemd naar Vastgoedcontract |
 | [[Wiki/GGM/9-interne-organisatie/vastgoed\|Vastgoedcontractregel]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedcontract\|Vastgoedcontract]] | onderdeel |  | Onderdeel (naamindicatie) |

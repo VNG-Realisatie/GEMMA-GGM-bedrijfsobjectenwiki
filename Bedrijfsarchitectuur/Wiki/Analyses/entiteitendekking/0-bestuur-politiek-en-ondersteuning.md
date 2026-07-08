@@ -6,8 +6,8 @@ taakveld: "0 Bestuur, Politiek en Ondersteuning"
 beleidsdomeinen:
   - Griffie
 totaal_entiteiten: 13
-totaal_bo: 13
-totaal_matches: 8
+totaal_bo: 14
+totaal_matches: 9
 totaal_hiaten: 5
 ---
 
@@ -17,13 +17,13 @@ totaal_hiaten: 5
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-1 beleidsdomeinen, 13 GGM-entiteiten (0 n.v.t.). Dekking: 12 van 13 (92%) — 8 met BO, 4 ondersteunend, 1 niet gedekt. 5 BO's zonder GGM-entiteit.
+1 beleidsdomeinen, 13 GGM-entiteiten (0 n.v.t.). Dekking: 13 van 13 (100%) — 9 met BO, 4 ondersteunend, 0 niet gedekt. 5 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 5× detail.
+Niet-BO entiteiten: 4× detail.
 
 ## Griffie
 
-13 GGM-entiteiten (0 n.v.t.): 8 met BO, 4 ondersteunend aan BO, 1 niet gedekt. Dekking: 12 van 13 (92%).
+13 GGM-entiteiten (0 n.v.t.): 9 met BO, 4 ondersteunend aan BO, 0 niet gedekt. Dekking: 13 van 13 (100%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -34,7 +34,7 @@ Niet-BO entiteiten: 5× detail.
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Dossier]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Indiener]] | [[Wiki/Rollen/indiener\|Indiener]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
-| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadscommissie]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] / [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid\|Raadslid]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadscommissie]] | [[Wiki/Actoren/raadscommissie\|Raadscommissie]] ✅ | — |  | Exacte match (actor-pagina) |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadslid]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid\|Raadslid]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Raadsstuk]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadsstuk\|Raadsstuk]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/0-bestuur-politiek-en-ondersteuning/griffie\|Stemming]] | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/stemming\|Stemming]] ✅ | — |  | Exacte match |

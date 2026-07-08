@@ -36,7 +36,7 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht\|Klacht]] | object | Uiting van ontevredenheid over gedraging bestuursorgaan (titel 9.1 Awb) | ✅ | ja | 6/6 criteria, wettelijk verplicht, GGM-hiaat | Klacht over behandeling aan balie, trage afhandeling | nee |
 | actieve openbaarmaking | thema | Verplichte publicatie van 17 informatiecategorieën (art. 3.3 Woo) | ❌ | nee | Proces, geen zelfstandig ding | — | nee |
 | informatiecategorie | instrument | Classificatie van verplicht openbaar te maken documenttypen | ❌ | nee | Enumeratie/classificatie | Vergaderstukken, beschikkingen, convenanten | nee |
-| Woo-contactpersoon | actor | Verplichte rol voor vragen over beschikbaarheid informatie (art. 4.7) | ❌ | nee | Rol, geen object | — | nee |
+| [[Wiki/Rollen/woo-contactpersoon|Woo-contactpersoon]] | rol | Verplichte rol voor vragen over beschikbaarheid informatie (art. 4.7) | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | — | nee |
 | uitzonderingsgrond | instrument | Belang dat zich verzet tegen openbaarmaking (art. 5.1-5.2 Woo) | ❌ | nee | Juridisch kader, geen zelfstandig object | Privacy, staatsveiligheid, bedrijfsgeheimen | nee |
 | convenant | instrument | Schriftelijke afspraak over publiekrechtelijke bevoegdheden | ❌ | nee | Instrument, overlap met governance-objecten | Woonvisie-convenant, bestuursakkoord | nee |
 | geheimhouding | instrument | Formele verplichting tot geheimhouding (art. 87-89 Gemw) | ❌ | nee | Governance, geen zelfstandig object | Geheimhouding raadsstukken | nee |
@@ -46,14 +46,14 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/grondrechteneffectbeoordeling\|Grondrechteneffectbeoordeling]] | beoordeling | Verplichte beoordeling door overheden bij inzet hoog-risico AI (art. 27 AI-verordening) | ✅ | ja | 6/6 criteria, wettelijk verplicht, 6 verplichte elementen, eigen levenscyclus, GGM-hiaat | Beoordeling bij inzet AI voor uitkeringsbeslissingen | nee |
 | ernstig incident | object | Incident door AI-systeem met ernstige gevolgen: overlijden, grondrechtenschending, milieuschade (art. 3 lid 49) | potentieel | potentieel | Meldplicht, verwant aan datalek; rijkere bron nodig | — | nee |
 | AI-geletterdheid | governance | Organisatorische verplichting kennis/vaardigheden AI voor werknemers | ❌ | nee | Governance, geen zelfstandig object | — | nee |
-| gebruiksverantwoordelijke | actor | Organisatie die AI-systeem onder eigen verantwoordelijkheid gebruikt | ❌ | nee | Rol, geen object | Gemeente als gebruiker van AI-systeem | nee |
-| aanbieder | actor | Organisatie die AI-systeem ontwikkelt of op de markt brengt | ❌ | nee | Rol, geen object | Gemeente die zelf AI ontwikkelt | nee |
-| AI compliance officer | actor | Rol in de gemeente voor naleving AI-verordening | ❌ | nee | Rol, geen object | AICO als nieuwe of aanvullende functie | nee |
+| [[Wiki/Rollen/gebruiksverantwoordelijke-ai|Gebruiksverantwoordelijke]] | rol | Organisatie die AI-systeem onder eigen verantwoordelijkheid gebruikt | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | Gemeente als gebruiker van AI-systeem | nee |
+| [[Wiki/Rollen/aanbieder|Aanbieder]] | rol | Organisatie die AI-systeem ontwikkelt of op de markt brengt | ❌ | nee | Rol (generiek roltype, ook in zorg/jeugdhulp en deelmobiliteit); vastgelegd als rol-pagina | Gemeente die zelf AI ontwikkelt | nee |
+| [[Wiki/Rollen/ai-compliance-officer|AI compliance officer]] | rol | Rol in de gemeente voor naleving AI-verordening | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | AICO als nieuwe of aanvullende functie | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/dpia\|DPIA]] | beoordeling | Gegevensbeschermingseffectbeoordeling bij hoog-risicoverwerkingen (art. 35 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht, 4 verplichte elementen, eigen levenscyclus, GGM-hiaat | DPIA cameratoezicht, DPIA Wmo-matching | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit\|Verwerkingsactiviteit]] | object | Individuele verwerking persoonsgegevens met 7 verplichte attributen (art. 30 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht register, GGM-hiaat | BRP-verwerking inburgering, cameratoezicht | nee |
 | verwerkingsregister | container | Register van alle verwerkingsactiviteiten (art. 30 AVG) | ❌ | nee | Container/verzameling, geen zelfstandig object | — | nee |
 | voorafgaande raadpleging | processtap | Verplicht overleg met AP bij restrisico's na DPIA (art. 36 AVG) | ❌ | nee | Processtap, geen zelfstandig object | — | nee |
-| functionaris gegevensbescherming | actor | Verplichte adviesrol bij DPIA en toezicht verwerkingsregister | ❌ | nee | Rol, geen object | — | nee |
+| [[Wiki/Rollen/functionaris-gegevensbescherming|Functionaris gegevensbescherming]] | rol | Verplichte adviesrol bij DPIA en toezicht verwerkingsregister | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | — | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek\|Datalek]] | object | Inbreuk in verband met persoonsgegevens (art. 4 lid 12 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht, registratieplicht alle incidenten, meldplicht AP 72u, GGM-hiaat | E-mail verkeerd adres, USB-stick kwijt, laptopdieftal | nee |
 | beveiligingsincident | object | Inbreuk op beveiliging, breder dan datalek | ❌ | nee | Breder begrip, geen eigen gemeentelijke verplichting | Storing, DDoS-aanval | nee |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkersovereenkomst\|Verwerkersovereenkomst]] | instrument | Overeenkomst met externe verwerker van persoonsgegevens (art. 28 AVG) | ✅ | ja | 6/6 criteria, wettelijk verplicht, 8 verplichte bepalingen, GGM-hiaat | VWO met SaaS-leverancier, VWO met salarisverwerker | nee |
@@ -64,7 +64,7 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | risicoregister | instrument | Register met tijdelijk geaccepteerde informatiebeveiligingsrisico's | ❌ | nee | Intern beheerinstrument | — | nee |
 | informatiebeveiligingsbeleid | instrument | Door bestuur vastgesteld beleid voor informatiebeveiliging (BIO2 5.01.01) | ❌ | nee | Governance-document | — | nee |
 | In Control Verklaring (ICV) | instrument | Jaarlijkse verklaring over informatiebeveiliging in P&C-cyclus (BIO2 5.36.01) | ❌ | nee | Verantwoordingsinstrument | — | nee |
-| CISO | actor | Chief Information Security Officer, coördineert informatiebeveiliging | ❌ | nee | Rol, geen object | — | nee |
+| [[Wiki/Rollen/ciso|CISO]] | rol | Chief Information Security Officer, coördineert informatiebeveiliging | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | — | nee |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | object | Softwaretoepassing die de gemeente inzet ter ondersteuning van eindgebruikers | ✅ | ja | 6/6 criteria, ~250 per gemeente, eigen levenscyclus, GGM exact (ICT-domein) | Zaaksysteem, BAG-applicatie, financieel pakket | ja |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/dataproduct\|Dataproduct]] | object | Concreet resultaat van datagedreven werken: dashboard, rapportage, analyse | ✅ | ja | 6/6 criteria, eigen eigenaar en levenscyclus, GGM-hiaat | Armoede-dashboard, wijkmonitor, begrotingsrapportage | nee |
 

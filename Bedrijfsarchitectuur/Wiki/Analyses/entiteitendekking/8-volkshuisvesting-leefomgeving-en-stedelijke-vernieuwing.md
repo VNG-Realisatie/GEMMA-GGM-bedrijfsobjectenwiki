@@ -19,13 +19,13 @@ totaal_hiaten: 3
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 119 GGM-entiteiten (5 n.v.t.). Dekking: 86 van 114 (75%) — 31 met BO, 55 ondersteunend, 28 niet gedekt. 3 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 119 GGM-entiteiten (5 n.v.t.). Dekking: 87 van 114 (76%) — 31 met BO, 56 ondersteunend, 27 niet gedekt. 3 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 13× specialisatie.
 
 ## Beheer Openbare Ruimte
 
-81 GGM-entiteiten (5 n.v.t.): 20 met BO, 29 ondersteunend aan BO, 27 niet gedekt. Dekking: 49 van 76 (64%).
+81 GGM-entiteiten (5 n.v.t.): 20 met BO, 30 ondersteunend aan BO, 26 niet gedekt. Dekking: 50 van 76 (66%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -96,7 +96,7 @@ Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1
 | Sportterrein | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportpark\|Sportpark]] ✅ | hernoemd |  | Hernoemd naar Sportpark (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | Storing | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict\|Storing (ICT)]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | Stuwgebied | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| Taak | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| Taak | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | Terreindeel | ⚠️ geen BO bereikbaar | onderdeel |  | Onderdeel (naamindicatie) |
 | Tunnelobject | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | Uitlaatconstructie | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] | detail |  | Te granulair voor BO-niveau |

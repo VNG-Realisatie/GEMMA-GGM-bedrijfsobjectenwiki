@@ -39,8 +39,8 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 | ziekmelding leerlingenvervoer | object | Ziekmelding van leerling met recht op vervoer | ❌ | ja | Te granulair; operationeel detail | — | ja |
 | doorgeleiding OM | object | Overdracht van leerplichtzaak aan Openbaar Ministerie | ❌ | ja | Te specifiek; justitie-subtype | — | ja |
 | HALT-verwijzing | object | Verwijzing van jongere naar Halt-bureau | ❌ | ja | Te specifiek; justitie-subtype | — | ja |
-| leerplichtambtenaar | actor | Ambtenaar die toezicht houdt op de leerplichtwet | ❌ | ja | Medewerkerrol, geen zelfstandig BO | — | ja |
-| vervoerder | actor | Partij die leerlingenvervoer uitvoert | ❌ | ja | Leveranciersrol; subtype Leverancier | Taxibedrijf | ja |
+| [[Wiki/Rollen/leerplichtambtenaar|Leerplichtambtenaar]] | rol | Ambtenaar die toezicht houdt op de leerplichtwet | ❌ | ja | Rol, geen entiteit; vastgelegd als rol-pagina | — | ja |
+| [[Wiki/Rollen/vervoerder|Vervoerder]] | rol | Partij die leerlingenvervoer uitvoert | ❌ | ja | Rol; vastgelegd als rol-pagina | Taxibedrijf | ja |
 | samenwerkingsverband | actor | Regionaal verband van scholen voor passend onderwijs | ❌ | nee | Ketenpartner; niet gemeentelijk beheerd | SWV Utrecht PO | nee |
 | kindcentrum | object | Integrale voorziening onderwijs + kinderopvang 0-12 jaar | ❌ | nee | Subtype van School; vastgelegd als specialisatie | Utrechts Kindcentrum | nee |
 | multifunctionele accommodatie (MFA) | object | Gebouw waar meerdere maatschappelijke organisaties voorzieningen aanbieden | ❌ | nee | Subtype van School; in gemeentelijk eigendom, 4 stuks in UVP | School + welzijn + sport | nee |

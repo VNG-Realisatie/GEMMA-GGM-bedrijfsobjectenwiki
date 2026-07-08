@@ -26,11 +26,11 @@ Er is een stelselbreed rollenmodel. De relevante rollen voor de gemeente:
 
 | Rol | Gemeentelijke context | Basisregistraties |
 |---|---|---|
-| Bronhouder | Verantwoordelijk voor aanlevering en kwaliteit | BAG, BRP, BRO, WOZ |
-| Afnemer | Verplicht gebruiker van authentieke gegevens (gebruiksplicht) | BRK, NHR, alle overige |
-| Terugmelder | Plicht bij gerede twijfel over authentiek gegeven | Alle — melding bij bronhouder |
-| Dataleverancier | Partij die namens bronhouder aanlevert | BRO (leveranciers), BAG (softwareleveranciers) |
-| Belanghebbende | Rechthebbende/gebruiker van het object | WOZ (eigenaar, gebruiker) |
+| [[Wiki/Rollen/bronhouder\|Bronhouder]] | Verantwoordelijk voor aanlevering en kwaliteit | BAG, BRP, BRO, WOZ |
+| [[Wiki/Rollen/afnemer-basisregistraties\|Afnemer]] | Verplicht gebruiker van authentieke gegevens (gebruiksplicht) | BRK, NHR, alle overige |
+| [[Wiki/Rollen/terugmelder\|Terugmelder]] | Plicht bij gerede twijfel over authentiek gegeven | Alle — melding bij bronhouder |
+| [[Wiki/Rollen/dataleverancier\|Dataleverancier]] | Partij die namens bronhouder aanlevert | BRO (leveranciers), BAG (softwareleveranciers) |
+| [[Wiki/Rollen/belanghebbende\|Belanghebbende]] | Rechthebbende/gebruiker van het object | WOZ (eigenaar, gebruiker) |
 
 Per registratie zijn er ook niet-gemeentelijke rollen:
 
@@ -126,8 +126,8 @@ Gemeente is **bronhouder**. Beheerder LV: Kadaster. Heffingsambtenaar stelt waar
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]] | object | WOZ | Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld | ✅ | exact match | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]] | object | WOZ | Vastgestelde waarde per waardepeildatum | ✅ | eigen levenscyclus (jaarlijks) | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | object | WOZ | Afzonderlijk element voor onderbouwing waarde | ✅ | compositie van WOZ-object | ja |
-| belanghebbende | actor | WOZ | Eigenaar of gebruiker van WOZ-object | ❌ | actor — degene die beschikking ontvangt | nee |
-| heffingsambtenaar | actor | WOZ | Gemeentelijk ambtenaar die WOZ-waarde vaststelt | ❌ | actor — namens college | nee |
+| [[Wiki/Rollen/belanghebbende\|Belanghebbende]] | rol | WOZ | Eigenaar of gebruiker van WOZ-object (WOZ-specifieke voorkeursvolgorde) | ❌ | rol — degene die beschikking ontvangt; vastgelegd als rol-pagina | nee |
+| [[Wiki/Rollen/heffingsambtenaar\|Heffingsambtenaar]] | rol | WOZ | Gemeentelijk ambtenaar die WOZ-waarde vaststelt | ❌ | rol — namens college; vastgelegd als rol-pagina | nee |
 | taxateur | actor | WOZ | Uitvoerder van waardebepaling (intern of extern) | ❌ | actor — dataleverancier-equivalent | nee |
 
 ### BRO — Basisregistratie Ondergrond

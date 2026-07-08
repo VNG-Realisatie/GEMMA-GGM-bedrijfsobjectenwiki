@@ -8,8 +8,8 @@ beleidsdomeinen:
   - Musea
   - Sport
 totaal_entiteiten: 81
-totaal_bo: 20
-totaal_matches: 18
+totaal_bo: 21
+totaal_matches: 19
 totaal_hiaten: 2
 ---
 
@@ -19,13 +19,13 @@ totaal_hiaten: 2
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 81 GGM-entiteiten (1 n.v.t.). Dekking: 65 van 80 (81%) — 18 met BO, 47 ondersteunend, 15 niet gedekt. 2 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 81 GGM-entiteiten (1 n.v.t.). Dekking: 65 van 80 (81%) — 19 met BO, 46 ondersteunend, 15 niet gedekt. 2 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 5× classificatie, 57× detail, 1× proces.
+Niet-BO entiteiten: 5× classificatie, 56× detail, 1× proces.
 
 ## Erfgoed
 
-42 GGM-entiteiten (1 n.v.t.): 6 met BO, 29 ondersteunend aan BO, 6 niet gedekt. Dekking: 35 van 41 (85%).
+42 GGM-entiteiten (1 n.v.t.): 7 met BO, 28 ondersteunend aan BO, 6 niet gedekt. Dekking: 35 van 41 (85%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
@@ -61,7 +61,7 @@ Niet-BO entiteiten: 5× classificatie, 57× detail, 1× proces.
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Plank]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats\|Archeologische vindplaats]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Project]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] ✅ | hernoemd |  | Hernoemd naar Archeologisch onderzoek (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Put]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek\|Archeologisch onderzoek]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Rechthebbende]] | via Archiefstuk → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk\|Archiefstuk]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Rechthebbende]] | [[Wiki/Rollen/rechthebbende\|Rechthebbende]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Spoor]] | via Vondst → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst\|Archeologische vondst]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Stelling]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/erfgoed\|Uitgever]] | [[Wiki/Rollen/uitgever\|Uitgever]] ✅ | — |  | Exacte match (rol-pagina) |

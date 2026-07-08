@@ -33,7 +33,7 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | toeristische verhuurregistratie | instrument | Registratieplicht voor vakantieverhuur, max 60 nachten | ❌ | ja | Registratie, past bij VTH-domein | Airbnb-registratie | nee |
 | leefbaarheidstoets | instrument | Beoordeling fysiek en algemeen bij vergunningaanvragen | ❌ | nee | Processtap, geen zelfstandig object | Toets bij omzettingsaanvraag | nee |
 | prestatieafspraken | instrument | Afspraken gemeente-corporaties-huurdersorganisaties | ❌ | ja | Governance-instrument, niet beoordeeld als BO | Jaarlijkse prestatieafspraken | nee |
-| woningcorporatie | actor | Organisatie die sociale huurwoningen bouwt en beheert | ❌ | ja | Actor, geen business object | Mitros, Portaal, Bo-Ex, Woonin | nee |
+| [[Wiki/Actoren/woningcorporatie|Woningcorporatie]] | actor | Organisatie die sociale huurwoningen bouwt en beheert | ❌ | ja | Actor — wettelijk verankerde prestatieafspraken; vastgelegd als actor-pagina | Mitros, Portaal, Bo-Ex, Woonin | nee |
 | woningzoekende | doelgroep | Persoon ingeschreven bij WoningNet voor sociale huur | ❌ | ja | Rol van persoon, geen zelfstandig object | Actief woningzoekende op DĀK | nee |
 | woonruimteverdeling | thema | Systeem van toewijzing sociale huurwoningen | ❌ | nee | Proces, geen object | Aanbodmodel, loting, bemiddeling | nee |
 | opkoopbescherming | instrument | Regime dat verhuur na aankoop verbiedt in aangewezen wijken | ❌ | nee | Beleidsregime, geen zelfstandig bestaan of eigen levenscyclus | Verbod verhuur 4 jaar, prijsgrens €611.000 | nee |

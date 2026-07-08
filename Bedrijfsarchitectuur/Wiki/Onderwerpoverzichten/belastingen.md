@@ -51,7 +51,7 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-object\|WOZ-object]]|object|Onroerende zaak waarvan de WOZ-waarde wordt vastgesteld| ✅ | ja |6/6 criteria, exact GGM-match|Woning Dorpsstraat 1, kantoor|ja|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|WOZ-waarde]]|object|Vastgestelde marktwaarde van een WOZ-object per waardepeildatum| ✅ | ja |6/6 criteria, exact GGM-match|WOZ-waarde 2025: €350.000|ja|
 |[[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]]|object|Afzonderlijk element van een WOZ-object voor onderbouwing van de waarde| ✅ | ja |6/6 criteria, exact GGM-match; eigen ID, code, status, levenscyclus|Woning-deel, garage, grond|ja: WOZ-deelobject|
-|belastingplichtige|actor|Persoon die belasting moet betalen| ❌ | nee |Rol van een persoon, geen zelfstandig concept|Eigenaar woning, hondenbezitter|nee|
+|[[Wiki/Rollen/belastingplichtige\|Belastingplichtige]]|rol|Persoon die belasting moet betalen| ❌ | nee |Rol, geen entiteit; vastgelegd als rol-pagina|Eigenaar woning, hondenbezitter|nee|
 |heffingsmaatstaf|object|Maatstaf waarmee de belastingschuld wordt bepaald| ❌ | ja |Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]]|WOZ-waarde, oppervlakte, aantal honden|nee|
 |tarief|object|Bedrag of percentage per eenheid heffingsmaatstaf| ❌ | ja |Attribuut van [[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag\|Heffinggrondslag]]|0,1% van WOZ-waarde|nee|
 |woz-beschikking|object|Formele bekendmaking WOZ-waarde aan belanghebbende| ❌ | ja |Onderdeel WOZ-proces, geen zelfstandig bestaan los van WOZ-object|WOZ-beschikking 2025|nee|
@@ -69,9 +69,9 @@ Gemeentelijke belastingen, heffingen en retributies — de fiscale kant van de g
 |kruissubsidiering|thema|Overschot ene activiteit dekt tekort andere binnen heffing| ❌ | nee |Beleidsmatig principe|Binnen legesverordening|nee|
 |onbenutte belastingcapaciteit|thema|Verschil tussen feitelijke en maximale OZB-opbrengst| ❌ | nee |Kengetal, geen object|—|nee|
 |algemene middelen|thema|Niet-gelabelde gemeentelijke opbrengsten| ❌ | nee |Financieel begrip, geen object|—|nee|
-|heffingsambtenaar|actor|Legt belastingaanslagen op| ❌ | nee |Rol, geen zelfstandig concept|—|nee|
-|invorderingsambtenaar|actor|Int belastingaanslagen| ❌ | nee |Rol, geen zelfstandig concept|—|nee|
-|waarderingskamer|actor|Toezichthouder op WOZ-uitvoering| ❌ | nee |Externe organisatie, buiten gemeentelijk perspectief|—|nee|
+|[[Wiki/Rollen/heffingsambtenaar\|Heffingsambtenaar]]|rol|Legt belastingaanslagen op| ❌ | nee |Rol, geen entiteit; vastgelegd als rol-pagina|—|nee|
+|[[Wiki/Rollen/invorderingsambtenaar\|Invorderingsambtenaar]]|rol|Int belastingaanslagen| ❌ | nee |Rol, geen entiteit; vastgelegd als rol-pagina|—|nee|
+|waarderingskamer|actor|Toezichthouder op WOZ-uitvoering| ❌ | nee |Externe organisatie, buiten gemeentelijk perspectief; bewust géén pagina (zie audit-actoren track2-backlog)|—|nee|
 
 ### GGM Parkeren (gerelateerde BO-kandidaten)
 

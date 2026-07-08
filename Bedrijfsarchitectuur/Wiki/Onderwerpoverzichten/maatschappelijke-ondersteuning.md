@@ -30,15 +30,15 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]] | object | Maandelijkse opgave van zorgaanbieder aan gemeente van geleverde producten | ✅ | ja | 6/6 criteria, exact match; homoniem met HR-Declaratie | Declaratie ambulante behandeling | ja |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | object | Financiële bijdrage cliënt voor Wmo-voorzieningen, vastgesteld door CAK | ✅ | ja | 6/6 criteria, exact match; twee periodetypen (abonnementstarief, beschermd wonen) | Abonnementstarief Wmo | ja |
 | beperking | object | Stoornis/conditie die functioneren belemmert | ❌ | ja | Eigenschap van beoordeling, niet zelfstandig BO | ICF-beperking mobiliteit | ja |
-| leverancier (zorgaanbieder) | actor | Organisatie die zorg/ondersteuning levert | ❌ | ja | Actor, geen object; cross-cutting | Zorginstelling, thuiszorgorganisatie | ja |
+| [[Wiki/Rollen/aanbieder|Aanbieder]] (zorgaanbieder) | rol | Organisatie die zorg/ondersteuning levert | ❌ | ja | Rol (generiek roltype, ook in AI en deelmobiliteit); vastgelegd als rol-pagina; cross-cutting | Zorginstelling, thuiszorgorganisatie | ja |
 | huishouden | object | Persoon of groep die een huishouden voert | ❌ | ja | Cross-cutting sociaal domein, eenheid voor beoordeling | Eenoudergezin | ja |
-| buurtteam | actor | Lokaal team voor generalistische basishulp | ❌ | nee | Organisatievorm (actor), geen data-object | Buurtteam Jeugd en Gezin Overvecht | ja (Team) |
-| mantelzorger | actor | Persoon die zorgt voor naaste met ziekte/beperking | ❌ | nee | Rol, geen data-object | — | nee |
+| buurtteam | actor | Lokaal team voor generalistische basishulp | ❌ | nee | Specialisatie van [[Wiki/Actoren/organisatorische-eenheid|Organisatorische eenheid]], geen apart begrip (zie audit-actoren track2) | Buurtteam Jeugd en Gezin Overvecht | ja (Team) |
+| [[Wiki/Rollen/mantelzorger|Mantelzorger]] | rol | Persoon die zorgt voor naaste met ziekte/beperking | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | — | nee |
 | beschermd wonen | thema | Woonvorm met intensieve begeleiding | ❌ | nee | Type voorziening (Voorzieningsoort), geen apart BO | — | nee |
 | pleegzorg | thema | Opvang in pleeggezin als jeugdhulpvorm | ❌ | nee | Type voorziening (Voorzieningsoort), geen apart BO | Netwerkpleegzorg, bestandspleegzorg | nee |
 | collectief werken | thema | Groepsgerichte hulp als norm | ❌ | nee | Werkwijze/methodiek, geen object | BuKoJou jongerengroep | nee |
 | pedagogische basis | thema | Netwerk van voorzieningen en relaties rond kinderen | ❌ | nee | Beleidsconcept, geen object | School, sport, welzijn, buurt | nee |
-| Veilig Thuis | actor | Regionaal advies/meldpunt huiselijk geweld | ❌ | nee | Externe organisatie, niet gemeentelijk geregistreerd | — | nee |
+| [[Wiki/Actoren/veilig-thuis|Veilig Thuis]] | actor | Regionaal advies/meldpunt huiselijk geweld | ❌ | nee | Actor — wettelijk verankerde organisatie waarmee de gemeente rechtstreeks samenwerkt; vastgelegd als actor-pagina | — | nee |
 | woonzorgvisie | instrument | Gemeentelijk beleidsplan wonen+zorg | ❌ | nee | Governance-instrument, geen data-object | — | nee |
 | aandachtsgroep | doelgroep | Groep met specifieke woonbehoeften | ❌ | nee | Doelgroep, geen object | Ouderen, GGZ-cliënten | nee |
 | respijtzorg | object | Tijdelijke overname mantelzorg | ❌ | nee | Type voorziening, geen apart BO | Logeeropvang | nee |

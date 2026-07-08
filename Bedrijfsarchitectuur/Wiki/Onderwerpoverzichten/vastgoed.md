@@ -32,8 +32,8 @@ Gemeentelijk vastgoed omvat het beheer, de verhuur en het onderhoud van gebouwen
 | energielabel | object | Classificatie energieprestatie gebouw | ❌ | ja | Enumeratie, attribuut van Vastgoedobject | Label A-G | ja (enum) |
 | bouwdeel | object | Aanwijsbaar deel van een gebouw | ❌ | ja | GGM-component van Vastgoedobject | Dak, gevel, installatie | ja |
 | gebouwbeheersysteem | thema | Informatiesysteem voor vastgoedregistratie | ❌ | nee | Systeem, geen bedrijfsobject | Planon | nee |
-| eigenaar | actor | Persoon die eigenaar is van vastgoed | ❌ | ja | Rol/generalisatie van Rechtspersoon | — | ja |
-| huurder | actor | Partij die een zaak in gebruik heeft | ❌ | ja | Rol/generalisatie van Rechtspersoon | — | ja |
+| [[Wiki/Rollen/eigenaar|Eigenaar]] | rol | Persoon die eigenaar is van vastgoed | ❌ | ja | Rol/generalisatie van Rechtspersoon; vastgelegd als rol-pagina | — | ja |
+| [[Wiki/Rollen/huurder|Huurder]] | rol | Partij die een zaak in gebruik heeft | ❌ | ja | Rol/generalisatie van Rechtspersoon; vastgelegd als rol-pagina | — | ja |
 
 ## Verwerkte bronnen
 

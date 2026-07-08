@@ -1,29 +1,25 @@
 # Entiteitendekking review — 2026-07-09
 
-Totaal review-items: 289.
+Totaal review-items: 286.
 
 ## Samenvatting
 
 | Taakveld | GGM | Entiteiten met BO | Review |
 |---|---|---|---|
-| 0 Bestuur, Politiek en Ondersteuning | 13 | 8 | 1 |
+| 0 Bestuur, Politiek en Ondersteuning | 13 | 9 | 0 |
 | 1 Veiligheid en Vergunningen | 30 | 9 | 8 |
 | 2 Verkeer, Vervoer en Waterstaat | 20 | 13 | 0 |
 | 3 Economie | 6 | 1 | 2 |
 | 4 Onderwijs | 27 | 13 | 1 |
-| 5 Sport, Cultuur en Recreatie | 81 | 18 | 27 |
+| 5 Sport, Cultuur en Recreatie | 81 | 19 | 26 |
 | 6 Sociaal Domein | 285 | 56 | 119 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 3 |
 | 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 31 | 62 |
-| 9 Interne Organisatie | 148 | 51 | 32 |
+| 9 Interne Organisatie | 148 | 52 | 31 |
 | 10 Dienstverlening | 16 | 3 | 6 |
 | 99 Kern | 156 | 45 | 28 |
 
 ## Items voor review
-
-### 0 Bestuur, Politiek en Ondersteuning — Griffie
-
-- **Raadscommissie** → detail (1 attrs). Een raadscommissie binnen de Nederlandse gemeenteraad is een groep raadsleden die zich buigt over specifieke thema's of 
 
 ### 1 Veiligheid en Vergunningen — 1 Veiligheid en Vergunningen
 
@@ -56,7 +52,6 @@ Totaal review-items: 289.
 - **Index** → detail (2 attrs). 
 - **Kaart** → detail (3 attrs). De geografische weergave van een gedeelte van het aardoppervlak
 - **Objectclassificatie** → detail (2 attrs). Systematische identificatie en ordening van objecten in categorieën overeenkomstig logisch gestructureerde conventies, m
-- **Rechthebbende** → detail (0 attrs). Een rechthebbende is iemand die rechten heeft op een goed.
 - **Spoor** → detail (13 attrs). Een blijk van eerdere aanwezigheid.
 - **Stelling** → detail (2 attrs). Een systeem om goederen op te slaan die worden vervoerd en opgeslagen op pallets, in bundels of per stuk.(Wikipedia)
 - **Vlak** → detail (7 attrs). Plat, oneindig oppervlak of variëteit zonder enige kromming. 
@@ -351,7 +346,6 @@ De typering van het structurele verband tussen een object van een objecttype en 
 - **CultuurOnbebouwd** → detail (1 attrs). Een aanduiding voor de soort cultuur van het onbebouwde gedeelte van de onroerende zaak.
 - **MJOP-Item** → detail (9 attrs). Onderdeel van een MJOP
 - **NADAanvullingBRP** → detail (1 attrs). 
-- **Pachter** → detail (0 attrs). Een persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond.
 - **Prijzenboekitem** → detail (4 attrs). Onderdeel van een prijzenboek
 
 ### 10 Dienstverlening — 10 Dienstverlening

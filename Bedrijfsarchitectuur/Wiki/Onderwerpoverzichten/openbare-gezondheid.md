@@ -16,7 +16,7 @@ Het domein openbare gezondheid omvat het gemeentelijk gezondheidsbeleid, de opdr
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|Voorbeelden|GGM|
 |---|---|---|---|---|---|---|---|
-|GGD|actor|Regionale gezondheidsdienst, gemeente is opdrachtgever| ❌ | nee |Ketenpartner, geen gemeentelijk object|GGD regio Utrecht|nee|
+|[[Wiki/Actoren/ggd\|GGD]]|actor|Regionale gezondheidsdienst, gemeente is opdrachtgever| ❌ | nee |Ketenpartner, maar mede-eigenaar via GR; vastgelegd als actor-pagina|GGD regio Utrecht|nee|
 |preventieakkoord|instrument|Lokale afspraken over gezondheidspreventie (roken, overgewicht, alcohol)| ❌ | nee |Governance-instrument|Lokaal preventieakkoord Utrecht|nee|
 |GALA|instrument|Gezond en Actief Leven Akkoord, landelijk samenwerkingskader| ❌ | nee |Landelijk akkoord, geen gemeentelijk object|—|nee|
 |IZA|instrument|Integraal ZorgAkkoord, samenwerking zorgpartijen en gemeenten| ❌ | nee |Landelijk akkoord, geen gemeentelijk object|—|nee|

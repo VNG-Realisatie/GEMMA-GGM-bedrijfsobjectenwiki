@@ -478,6 +478,7 @@ Business Actors (ArchiMate) — handelende personen, organisaties en organisator
 - [[Wiki/Actoren/ggd|ggd]] — De bron noemt de GGD zelf een ketenpartner, maar de gemeente is mede-eigenaar en opdrachtgever via de gemee...
 - [[Wiki/Actoren/ombudsman|ombudsman]] — Zelfstandig orgaan met een eigen wettelijke klachtbehandelingstaak, los van de ambtelijke organisatie waaro...
 - [[Wiki/Actoren/biz-organisatie|biz-organisatie]] — Extern opgericht, maar de gemeente heeft een directe subsidie- en uitvoeringsovereenkomst met deze organisatie
+- [[Wiki/Actoren/raadscommissie|raadscommissie]] — Groep raadsleden die raadsbesluitvorming per thema voorbereidt en adviseert (GGM exact)
 
 ## Rollen
 
@@ -555,6 +556,7 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/boswachter|boswachter]] — Specifieke, wettelijk gekaderde toezichtsrol binnen het dierenwelzijnsdomein
 - [[Wiki/Rollen/dataleverancier|dataleverancier]] — Uitvoerende rol binnen het bronhouderschap: vaak een extern bureau, maar aangestuurd door en namens de geme...
 - [[Wiki/Rollen/loonwaardedeskundige|loonwaardedeskundige]] — Specifieke, gecertificeerde beoordelingsrol binnen het proces van loonkostensubsidie
+- [[Wiki/Rollen/pachter|pachter]] — Gebruiksrecht op landbouwgrond op basis van een pachtovereenkomst (GGM exact)
 
 ## GGM (referentie — zie Sources/GGM/)
 

@@ -476,6 +476,11 @@ GENERIC_BUILDING_BLOCKS = {
     'Locatie', 'Punt', 'Lijn', 'Gebied', 'Puntengroep', 'Lijnengroep', 'Gebiedengroep',
     'Foto', 'Video-opname', 'Periode',
     'FormeleHistorie', 'MaterieleHistorie', 'StrijdigheidOfNietigheid',
+    # Extreem generieke termen die na toevoeging van actor/rol-pagina's als
+    # kandidaat opdoken bij 5-10 onderling ongerelateerde BO's (Gemeentebegrafenis,
+    # Aanwezige Deelnemer, Zorgmelding, Medewerker, Kostenplaats, ...) — geen
+    # eigenaar-BO, net als de bouwstenen hierboven.
+    'Sociale Groep', 'Sociale Relatie', 'Taak',
 }
 
 
