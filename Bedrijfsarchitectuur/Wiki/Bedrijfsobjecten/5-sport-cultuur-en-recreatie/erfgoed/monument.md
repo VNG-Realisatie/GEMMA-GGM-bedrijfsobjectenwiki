@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Monument
-domein:
+onderwerp:
 - Cultuur
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -19,19 +19,19 @@ ggm_diagram_ids:
 ggm_definitie: Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de historische,
   volkskundige, artistieke, wetenschappelijke, industrieel-archeologische of andere sociaal-culturele waarde. Vormen van monument / erfgoed met de status rijks- provinciaal- of gemeentelijke monument /
   erfgoed zijn beschermd op grond van een besluit van respectievelijk het Ministerie OCW, de provincie of de gemeente,
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: BeschermdeStatus
-ggm_gemma_guid: 4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
+ggm_gemma_guid: "4ebf7f05-0ff1-4d2e-aa62-879be7565dd7"
 ggm_gemma_definitie: Status van de bescherming van een monument. Een monument / erfgoed is een overblijfsel van kunst, cultuur, architectuur of nijverheid dat van algemeen belang wordt geacht vanwege de
   historische, volkskundige, artistieke, wetenschappelijke, industrieel-arc
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4ebf7f05-0ff1-4d2e-aa62-879be7565dd7"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Beschermde Status**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Ambacht** (detail) — Detailgegeven (geassocieerd met BO)
@@ -91,19 +91,19 @@ bedrijfsfuncties:
 - Vergunningverlening
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Een monument betreft een of meer panden
 - type: associatie
-  bedrijfsobject: '*(KadastraleOnroerendeZaak — Kadaster)*'
+  bedrijfsobject: "*(KadastraleOnroerendeZaak — Kadaster)*"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Een monument betreft een of meer kadastrale objecten
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte|Openbare Ruimte]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte|Openbare Ruimte]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Een beschermd gezicht betreft een of meer openbare ruimten
 ---
 

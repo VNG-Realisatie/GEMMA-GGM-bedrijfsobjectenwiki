@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Product of dienst
-domein:
+onderwerp:
 - Dienstverlening
 archimate_type: product
 grondslag: ggm-entiteit
@@ -20,25 +20,25 @@ ggm_diagram_ids:
 - EAID_282A4979_0BBC_4448_B71C_0CE64829083B
 - EAID_5901286A_E9EF_4360_9CE6_32B6FDE1C970
 - EAID_AE8DC6AF_062B_4111_BAB4_D58F21FDDDF1
-ggm_definitie: 'Bron: QP_CALENDAR.CFM_SERVICES'
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_definitie: "Bron: QP_CALENDAR.CFM_SERVICES"
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: ProductOfDienst
-ggm_gemma_guid: 724f019e-158f-4404-8b57-3e1eae109fec
-ggm_gemma_definitie: 'Bron: QP_CALENDAR.CFM_SERVICES'
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_guid: "724f019e-158f-4404-8b57-3e1eae109fec"
+ggm_gemma_definitie: "Bron: QP_CALENDAR.CFM_SERVICES"
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-724f019e-158f-4404-8b57-3e1eae109fec"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **ProductOfDienst**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Klantbeoordeling** (detail) — Detailgegeven (geassocieerd met BO)
   - **Klantbeoordelingreden** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Bron: QP_CALENDAR. CFM_SERVICES"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen:
 - Productcatalogusbeheer
 - Dienstverlening
@@ -47,14 +47,14 @@ bedrijfsfuncties:
 - Productmanagement
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: balieafspraak betreft dit product of dienst
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: aanvraag betreft (indirect via klantcontact)
 ---
 

@@ -1,32 +1,32 @@
 ---
 type: element
 naam: P+R-locatie
-domein:
+onderwerp:
 - mobiliteit
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ''
+ggm_entiteit:
 ggm_beleidsdomein: Mobiliteit
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ''
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
-bo_definitie: Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets.
-bo_toelichting: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+bo_definitie: "Parkeer-en-reisvoorziening aan de rand van de stad of in de regio voor overstap van auto naar openbaar vervoer of fiets."
+bo_toelichting:
 bedrijfsprocessen:
 - Parkeerbeleid
 - Mobiliteitsmanagement
@@ -36,24 +36,24 @@ bedrijfsfuncties:
 - Parkeerbeleid
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: P+R-locatie bij OV-knooppunt
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: P+R-locatie kan onderdeel zijn van een mobiliteitshub
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: P+R-locatie kan een parkeergarage bevatten
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Fietsroute verbindt met P+R-locatie
 ---
 

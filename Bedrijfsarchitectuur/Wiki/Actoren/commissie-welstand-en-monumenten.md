@@ -5,8 +5,8 @@ onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Adviesorgaan dat bouwplannen beoordeelt op welstand en monumentale waarden, ten behoeve van het college."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

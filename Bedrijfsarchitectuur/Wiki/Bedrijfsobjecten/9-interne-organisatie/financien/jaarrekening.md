@@ -4,26 +4,26 @@ naam: Jaarrekening
 onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "procesobject"
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Verantwoordingsdocument met het overzicht van gerealiseerde baten en lasten, de balans en de rechtmatigheidsverantwoording over een begrotingsjaar."
 bo_toelichting: "Onderdeel van de jaarstukken (BBV art. 24). Pendant van de Begroting: de begroting raamt, de jaarrekening verantwoordt."

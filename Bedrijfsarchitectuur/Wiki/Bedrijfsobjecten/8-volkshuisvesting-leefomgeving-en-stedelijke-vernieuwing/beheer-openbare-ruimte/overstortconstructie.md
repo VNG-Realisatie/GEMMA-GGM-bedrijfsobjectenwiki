@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Overstortconstructie
-domein:
+onderwerp:
 - Beheer Openbare Ruimte
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -9,47 +9,47 @@ ggm_entiteit: Overstortconstructie
 ggm_guid: EAID_845EC5C5_7B96_4999_9659_5617436D269
 ggm_uml_type: Class
 ggm_beleidsdomein: Beheer Openbare Ruimte
-ggm_taakveld: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram:
 - Hoofdobjecten IMBOR en Geo-object
 ggm_diagram_ids: []
-ggm_definitie: Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie: "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Overstortconstructie** als directe tegenhanger.
 bo_definitie: "Een constructie voorzien van een overstortdrempel met een ontworpen drempelbreedte en -hoogte."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]"
   richting: van-dit-BO
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Overstortconstructie is een specialisatie van Kunstwerk in het GGM
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin|Bergingsbassin]]"
   richting: bidirectioneel
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Achter de belangrijkste overstorten staan bergbezinkbassins
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
   richting: bidirectioneel
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Overstortconstructie loost verdund afvalwater op oppervlaktewater
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
   richting: bidirectioneel
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
 bedrijfsprocessen:
 - Rioolbeheer

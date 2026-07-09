@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Eigen bijdrage
-domein: [Maatschappelijke Ondersteuning]
+onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,19 +13,19 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: ["Diagram Inkomsten"]
 ggm_diagram_ids: []
 ggm_definitie: "Eigen bijdrage bijvoorbeeld voor CAK of kinderopvang"
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Eigen bijdrage** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -34,7 +34,7 @@ analyse_ggm_dekking: |
   - **Reiskosten naar het werk** (detail) — Detailgegeven (weinig attributen)
   - **Te betalen alimentatie** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Financiële bijdrage die een cliënt verschuldigd is voor Wmo-voorzieningen, vastgesteld door het CAK op basis van gemeentelijke gegevens."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"

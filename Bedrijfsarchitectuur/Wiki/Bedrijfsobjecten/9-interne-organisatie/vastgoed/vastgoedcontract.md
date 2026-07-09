@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Vastgoed Domeinmodel, Vastgoed verankering RSGB IMBAG]
 ggm_diagram_ids: [EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291, EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45]
 ggm_definitie: "Een contract is een afspraak tussen 2 of meer partijen. Sluit u een contract, dan moet u een bepaalde prestatie leveren of u heeft recht op een prestatie. Een ander woord voor een contract is een overeenkomst. Daarnaast komt de term overeenkomst van opdracht ook voor."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 

@@ -5,8 +5,8 @@ onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Zelfstandig orgaan van het gemeentebestuur, bij Koninklijk Besluit benoemd, met eigen bevoegdheden op het gebied van openbare orde en veiligheid."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

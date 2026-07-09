@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Faunapassage
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Ecoduct"
@@ -14,30 +14,30 @@ ggm_diagram_ids: [EAPK_C3BA35EC_ABFA_4a7d_BEE9_07FF7563442D]
 ggm_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo
 Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage
 Toelichting: Opheffen van barriÃ¨res en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Ecoduct**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Overbruggingsobject** (detail) — Detailgegeven
 bo_definitie: "Wildwissel in de vorm van een viaduct voor passages van dieren over een weg of spoorweg. IMGeo Synoniemen: Natuurbrug, Faunabrug, Ecobrug, Ecopassage, Natuurpassage Toelichting: Opheffen van barriÃ¨res en de migratie van fauna mogelijk maken tussen of binnen leefgebieden en populaties."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Groene Web-programma, Monitoring faunapassages, Groenbeheer]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ecologie]
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Overbruggingsobject (GGM)
+    bedrijfsobject: "Overbruggingsobject (GGM)"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Ecoduct is een specialisatie van Overbruggingsobject in het GGM
   - type: associatie
     bedrijfsobject: "[[Groenobject]]"

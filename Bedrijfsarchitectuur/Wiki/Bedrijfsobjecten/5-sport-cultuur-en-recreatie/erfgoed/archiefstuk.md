@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Archiefstuk
-domein: [Cultuur, Informatiebeheer]
+onderwerp: [Cultuur, Informatiebeheer]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Archiefstuk"
@@ -12,18 +12,18 @@ ggm_taakveld: "Erfgoed"
 ggm_diagram: [Archief Model, Archief Aanvragen, Archief Model Indeling, Generieke entiteiten Erfgoed]
 ggm_diagram_ids: [EAID_59241C4B_FD65_484b_88E5_83189334A510, EAID_8D468696_4B9D_40b4_92F0_3BED39502098, EAID_691E6481_68AC_4754_88F0_60D2877D1549, EAID_B7192738_00E7_4b65_902A_B8292E79261B]
 ggm_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Archiefbescheiden"
-ggm_herkomst: ""
+ggm_herkomst:
 ggm_gemma_naam: "Archiefstuk"
 ggm_gemma_guid: "7b7d7585-b081-4bcc-a39e-cf6b3803799a"
 ggm_gemma_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transa"
-ggm_gemma_toelichting: ""
+ggm_gemma_toelichting:
 ggm_gemma_synoniemen: "Archiefbescheiden"
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7b7d7585-b081-4bcc-a39e-cf6b3803799a"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Archiefstuk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
@@ -39,14 +39,14 @@ analyse_ggm_dekking: |
   - **Ordeningsschema** (detail) — Detailgegeven (geassocieerd met BO)
   - **Rechthebbende** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]
 bedrijfsfuncties: [Informatiebeheer, Erfgoedbeheer]
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Archiefstuk is een specialisatie van Erfgoed Object
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]]"

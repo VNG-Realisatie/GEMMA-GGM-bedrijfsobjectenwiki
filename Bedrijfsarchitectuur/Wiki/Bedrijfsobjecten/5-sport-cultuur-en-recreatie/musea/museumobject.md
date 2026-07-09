@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Museumobject
-domein: [Cultuur]
+onderwerp: [Cultuur]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Museumobject"
@@ -12,18 +12,18 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Generieke entiteiten Erfgoed, Prinsenhof Collectie]
 ggm_diagram_ids: [EAID_B7192738_00E7_4b65_902A_B8292E79261B, EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611]
 ggm_definitie: "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roerend of cultuurlandschappelijk erfgoed. Denk hierbij bijvoorbeeld aan een gebouwd of archeologisch rijksmonument, een schilderij of een beschermd stads- of dorpsgezicht."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Museumobject"
 ggm_gemma_guid: "e963434a-50be-4619-b041-58689adc00de"
 ggm_gemma_definitie: "Beschrijving van een fenomeen in de werkelijkheid met een zekere cultuurhistorische waarde die deel uitmaakt van de culthuurhistorisch object index. Een museum object kan gedifiniëerd worden als een object met betrekking tot gebouwd, archeologisch, roeren"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e963434a-50be-4619-b041-58689adc00de"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Museumobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Auteur** (detail) — Detailgegeven (weinig attributen)
@@ -35,14 +35,14 @@ analyse_ggm_dekking: |
   - **Tentoonstelling** (detail) — Operationele activiteit van museum, geen gemeentelijk registratieobject
   - **Zaal** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Object met cultuurhistorische waarde dat deel uitmaakt van een museale collectie, beheerd door de gemeente of een gemeentelijk museum."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Bruikleen]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Erfgoed Object — abstract)*"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Museumobject is een specialisatie van Erfgoed Object
   - type: associatie
     bedrijfsobject: "*(Collectie)*"

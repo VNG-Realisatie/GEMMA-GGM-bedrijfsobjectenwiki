@@ -1,11 +1,11 @@
 ---
 type: element
 naam: WOZ-object
-domein:
+onderwerp:
 - Belastingen
 archimate_type: business-object
 grondslag: ggm-entiteit
-ggm_entiteit: WOZ-object
+ggm_entiteit: "WOZ-object"
 ggm_guid: EAID_CB7BA76D_0793_4d5a_9596_533C5BC56BBF
 ggm_uml_type: Class
 ggm_beleidsdomein: RSGBPlus
@@ -40,17 +40,17 @@ ggm_definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet
 ggm_toelichting: Dit objecttype komt voort uit de objectafbakeningsvoorschriften van artikel 16 van de Wet WOZ. De unieke identificatie van het WOZ-object is het WOZ-objectnummer. De WOZ-object-aanduiding,
   een secundaire identificatie, wordt samengesteld uit de adresgegevens van één van de, aan het WOZ-object via het WOZdeelobject, gerelateerde gebouwde objecten en/of benoemde terreinen dan wel van een
   nabij gelegen gebouwd object of benoemd terrein, in beide gevallen (eventueel) aangevuld met de locatie-omschrijving.
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: WOZObject
-ggm_gemma_guid: 3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f
+ggm_gemma_guid: "3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f"
 ggm_gemma_definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3f1aeea3-a5a8-4df6-af1e-51d5ef4ad32f"
 ggm_gemma_bron: BRWOZ
-ggm_gemma_alternate_name: ''
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **WOZ-object** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **LocatieaanduidingAdresWOZObject** (detail) — Detailgegeven
@@ -58,7 +58,7 @@ analyse_ggm_dekking: |
   - **SoortWOZObject** (classificatie) — Typering/referentietabel
   - **WOZ-Belang** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld."
-bo_toelichting: ''
+bo_toelichting:
 definitie: De onroerende zaak waarvan op grond van de Wet WOZ de waarde moet worden bepaald en vastgesteld.
 bedrijfsprocessen:
 - WOZ-taxatie
@@ -70,19 +70,19 @@ bedrijfsfuncties:
 status: concept
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|WOZ-waarde]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo|WOZ-waarde]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Een WOZ-object heeft per waardepeildatum een WOZ-waarde
 - type: compositie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject|WOZ-deelobject]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject|WOZ-deelobject]]"
   richting: van-dit-BO
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Een WOZ-object bestaat uit een of meer deelobjecten
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|Debiteur]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur|Debiteur]]"
   richting: bidirectioneel
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Via WOZ-Belang gekoppeld aan eigenaar en/of gebruiker
 ---
 

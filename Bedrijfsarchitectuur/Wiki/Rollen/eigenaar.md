@@ -10,7 +10,7 @@ ggm_beleidsdomein: Vastgoed
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van rechthebbende op een gebouw of stuk grond."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

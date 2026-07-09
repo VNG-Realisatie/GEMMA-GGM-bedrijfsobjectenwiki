@@ -14,18 +14,18 @@ ggm_diagram: ["Objecten bij Vergunningaanvraag", "Ruimte Adressen, gebouwen en t
 ggm_diagram_ids: ["EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E", "EAID_7561B00D_273B_425a_B2FE_1C3AE499ED2E", "EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45", "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3", "EAID_9B0FEF1A_4146_409e_8B71_B12D4B4AB8A8", "EAID_00CCCF33_A542_47e6_AFA6_2F9F4E2670D8"]
 ggm_definitie: "Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte."
 ggm_toelichting: "Een terrein of een deel daarvan dat moet kunnen worden gebruikt om langere tijd een object neer te zetten. Dit object moet geschikt zijn om in te wonen, om een bedrijf in te hebben of om voor plezier in te verblijven. Het moet verplaatsbaar zijn en mag dus niet helemaal vastgemaakt worden aan de grond. Bijvoorbeeld een woonwagen of strandtent. De gemeente mag zeggen of er voor de BAG ergens een standplaats komt."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Standplaats
@@ -37,7 +37,7 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Standplaats**. Daarnaast is **Standplaats** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een standplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen terrein of gedeelte daarvan dat bestemd is voor het permanent plaatsen van een niet direct en niet duurzaam met de aarde verbonden en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte ruimte."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Nummeraanduiding]]"

@@ -10,7 +10,7 @@ ggm_beleidsdomein: Erfgoed
 ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van degene die iets op de markt brengt of uitgeeft."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

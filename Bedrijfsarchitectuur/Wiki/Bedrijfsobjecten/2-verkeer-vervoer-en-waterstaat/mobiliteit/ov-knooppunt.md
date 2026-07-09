@@ -1,32 +1,32 @@
 ---
 type: element
 naam: OV-knooppunt
-domein:
+onderwerp:
 - mobiliteit
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ''
+ggm_entiteit:
 ggm_beleidsdomein: Mobiliteit
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ''
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
-bo_definitie: Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen.
-bo_toelichting: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+bo_definitie: "Multimodaal overstappunt op een kruising van openbaar-vervoerverbindingen waar reizigers overstappen tussen lijnen, modaliteiten en/of vervoerwijzen."
+bo_toelichting:
 bedrijfsprocessen:
 - OV-beleid
 - Verkeersmanagement
@@ -36,29 +36,29 @@ bedrijfsfuncties:
 - Verkeersmanagement
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|OV-lijn]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-lijn|OV-lijn]]"
   richting: van-dit-BO
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Knooppunt is kruising van OV-lijnen
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]]"
   richting: van-dit-BO
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Knooppunt bevat een of meer haltes
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: P+R-locatie bij OV-knooppunt
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/mobiliteitshub|Mobiliteitshub]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Mobiliteitshub bij OV-knooppunt
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute|Hoofdfietsroute]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Fietsroute verbindt met knooppunt
 ---
 

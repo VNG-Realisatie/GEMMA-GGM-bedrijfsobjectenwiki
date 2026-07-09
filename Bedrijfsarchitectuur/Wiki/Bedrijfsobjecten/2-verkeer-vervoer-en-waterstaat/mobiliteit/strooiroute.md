@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Strooiroute
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Strooiroute"
@@ -12,24 +12,24 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Gladheid]
 ggm_diagram_ids: [EAID_E5BA04D7_A221_4f36_97AB_6E2D7A11C5BB]
 ggm_definitie: "Traject waarop het strooien plaatsvindt"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Strooiroute"
 ggm_gemma_guid: "8d6c2c57-1e18-4257-a894-5f5d751279ea"
 ggm_gemma_definitie: "Traject waarop het strooien plaatsvindt"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8d6c2c57-1e18-4257-a894-5f5d751279ea"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Strooiroute** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Strooidag** (detail) — Te operationeel, onderdeel van gladheidsbestrijdingsproces
   - **StrooirouteUitvoering** (detail) — Te operationeel, uitvoeringsniveau
 bo_definitie: "Traject waarop het strooien plaatsvindt"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Gladheidsbestrijding, Winterdienst]
 bedrijfsfuncties: [Beheer openbare ruimte]
 ---

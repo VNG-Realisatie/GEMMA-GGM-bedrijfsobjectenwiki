@@ -1,7 +1,7 @@
 ---
 type: element
 naam: "WOZ-deelobject"
-domein: [Belastingen]
+onderwerp: [Belastingen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "WOZ-deelobject"
@@ -12,23 +12,23 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [WOZ-DEELOBJECT, BENOEMD OBJECT, Detaillering WOZ-objecttypen op hoofdlijnen, Detaillering WOZ-objecttypen met attributen]
 ggm_diagram_ids: [EAID_8312FF96_BCFE_4913_B7AB_27E9F690F89D, EAID_DE2BA1A2_AB9D_40ed_B9C1_E7F2F9A0BC49, EAID_3F813481_9A40_4b1b_9B24_1FD069230A45, EAID_5E76FEEA_58F8_41fd_9FF1_B44274C80FA5]
 ggm_definitie: "Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "Gegevenswoordenboek WOZ"
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **WOZ-deelobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **WOZ-Deelobjectcode** (classificatie) — Typering/referentietabel
 bo_definitie: "Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Winkelvloeroppervlak"
     ggm_guid: "EAID_0EABA880_434F_41c3_A41D_0002222AAC2A"

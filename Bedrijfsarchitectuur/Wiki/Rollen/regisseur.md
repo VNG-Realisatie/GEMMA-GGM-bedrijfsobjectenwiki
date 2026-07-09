@@ -5,8 +5,8 @@ onderwerp: [Sociaal Domein]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Een van vier expliciet benoemde gemeentelijke rollen bij maatschappelijk vastgoed en voorzieningen."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

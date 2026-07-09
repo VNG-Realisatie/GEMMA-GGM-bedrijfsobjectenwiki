@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Uitschrijving
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,24 +13,24 @@ ggm_taakveld: "4 Onderwijs"
 ggm_diagram: ["Onderwijs: Leerlingen"]
 ggm_diagram_ids: [EAID_33E38059_C973_43ff_97EC_B629923074FF]
 ggm_definitie: "Beeindiging van een inschrijving van een leerling bij een school"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Uitschrijving
-ggm_gemma_guid: b83efc57-9184-4405-8c23-fbcabe7577b4
+ggm_gemma_guid: "b83efc57-9184-4405-8c23-fbcabe7577b4"
 ggm_gemma_definitie: "Beeindiging van een inschrijving van een leerling bij een school"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-b83efc57-9184-4405-8c23-fbcabe7577b4
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b83efc57-9184-4405-8c23-fbcabe7577b4"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Uitschrijving** als directe tegenhanger.
 bo_definitie: "Beeindiging van een inschrijving van een leerling bij een school"
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"

@@ -13,7 +13,7 @@ ggm_definitie: "Partij die een opdracht aanvaardt."
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Partij die een opdracht aanvaardt."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/opdrachtnemer|Opdrachtnemer (rol)]]"
     archimate_type: business-role

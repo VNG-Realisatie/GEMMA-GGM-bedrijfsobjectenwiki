@@ -10,7 +10,7 @@ ggm_beleidsdomein: Schuldhulpverlening
 ggm_taakveld: "6 Sociaal Domein"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Individu dat goederen of diensten levert aan anderen om winst te maken."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

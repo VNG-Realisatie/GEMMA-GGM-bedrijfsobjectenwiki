@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Begroting
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Begroting"
@@ -12,23 +12,23 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Financien Begroting en Budgetverantwoordelijkheid]
 ggm_diagram_ids: [EAID_42C2960F_FED7_467e_AAB1_5195BED59A39]
 ggm_definitie: "Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen. "
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Begroting"
 ggm_gemma_guid: "87fdbae1-7e9e-46a4-8043-3d77bd5903ac"
 ggm_gemma_definitie: "Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-87fdbae1-7e9e-46a4-8043-3d77bd5903ac"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Begroting** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Begrotingregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Een overzicht van de verwachte ontvangsten en voorziene uitgaven voor een bepaalde (meestal toekomstige) periode zodat hier een afstemming tussen plaats kan vinden om eventuele tekorten en overschotten vroegtijdig in kaart te kunnen brengen."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Begrotingregel"
     ggm_guid: "EAID_87964E36_9FEE_4b8f_A053_C4EDAF000646"

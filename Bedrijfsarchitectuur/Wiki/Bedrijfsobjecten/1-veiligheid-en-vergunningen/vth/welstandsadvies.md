@@ -1,34 +1,34 @@
 ---
 type: element
 naam: Welstandsadvies
-domein: [Welstand, VTH]
+onderwerp: [Welstand, VTH]
 archimate_type: business-object
 grondslag: procesobject
 
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 bo_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

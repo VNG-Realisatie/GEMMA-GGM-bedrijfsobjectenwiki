@@ -10,7 +10,7 @@ ggm_beleidsdomein: Musea
 ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De wettelijke hoedanigheid (Awb) van degene wiens belang rechtstreeks bij een besluit is betrokken."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

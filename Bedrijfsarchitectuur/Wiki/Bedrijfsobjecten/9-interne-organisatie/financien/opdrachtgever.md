@@ -13,7 +13,7 @@ ggm_definitie: "Persoon die een opdracht verstrekt."
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Persoon die een opdracht verstrekt."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/opdrachtgever|Opdrachtgever (rol)]]"
     archimate_type: business-role

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Evenement
-domein: [evenementen]
+onderwerp: [evenementen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "OpenbareActiviteit"
@@ -12,24 +12,24 @@ ggm_taakveld: "1 Veiligheid en Vergunningen"
 ggm_diagram: []
 ggm_diagram_ids: [EAPK_0A4C6DE8_608E_4626_A40E_0C432A5B0F9C]
 ggm_definitie: "Activiteit in het publieke domein"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "OpenbareActiviteit"
 ggm_gemma_guid: "9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
 ggm_gemma_definitie: "Activiteit in het publieke domein"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-9ffbd7f6-a815-4edd-9252-5ed7e873c6a0"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **OpenbareActiviteit**.
 bo_definitie: "Activiteit in het publieke domein"
-bo_toelichting: ''
-bedrijfsprocessen: ""
-bedrijfsfuncties: ""
+bo_toelichting:
+bedrijfsprocessen: []
+bedrijfsfuncties: []
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Evenementenlocatie]]"
@@ -39,7 +39,7 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Evenementenvergunning]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Evenement vereist een evenementenvergunning
 ---
 

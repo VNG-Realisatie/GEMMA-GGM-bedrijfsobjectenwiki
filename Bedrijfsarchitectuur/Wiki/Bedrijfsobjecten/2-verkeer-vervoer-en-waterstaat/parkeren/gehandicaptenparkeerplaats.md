@@ -1,31 +1,31 @@
 ---
 type: element
 naam: Gehandicaptenparkeerplaats
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "procesobject"
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
 ggm_beleidsdomein: "Parkeren"
 ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Parkeerplaats gereserveerd voor houders van een gehandicaptenparkeerkaart, met specifieke inrichting en beheerregime."
-bo_toelichting: ''
+bo_toelichting:
 gemma_toelichting: "Twee typen: algemene gehandicaptenparkeerplaatsen (voor alle GPK-houders) en individuele (op kenteken, bij specifiek adres). De gemeente heeft een aparte Beleidsregel aanleg gehandicaptenparkeerplaatsen."
 bo_subtypes:
   - naam: "Algemene gehandicaptenparkeerplaats"
@@ -42,7 +42,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "naar-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Gehandicaptenparkeerplaats is een specialisatie van Parkeervlak
   - type: associatie
     bedrijfsobject: "[[Gehandicaptenparkeerkaart]]"

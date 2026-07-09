@@ -13,19 +13,19 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: ["Schuldhulpproces", "Vroegsignalering", "Vroegsignalering Details", "Vroegsignalering Klein", "Vastgoed verankering RSGB IMBAG", "BAG"]
 ggm_diagram_ids: ["EAID_BBE1A03C_2D40_48cb_91AE_EF630304F490", "EAID_07334A5A_E2F0_41ce_8510_B41BAF6876BD", "EAID_6D5829BF_AF12_4464_9EAD_E336DEFDF442", "EAID_AFFABC16_BCDB_44c6_8E2F_C3D8C49884A5", "EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45", "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3"]
 ggm_definitie: "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "Door KING toegevoegd objecttype, ontleend aan het GFO BG (maakt geen deel uit van enige basisregistratie)."
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Gemeente
@@ -38,7 +38,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Gemeente** als directe tegenhanger. Daarnaast is **Gemeente** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **KadastraleGemeente** (classificatie) — Typering/referentietabel
 bo_definitie: "Een gedeelte van het grondgebied van Nederland, ingesteld op basis van artikel 123 van de Grondwet."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woonplaats]]"

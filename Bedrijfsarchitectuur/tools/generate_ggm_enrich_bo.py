@@ -105,7 +105,7 @@ def parse_frontmatter(content: str) -> tuple[dict, dict, str, str]:
 # Keys this script explicitly understands and rewrites — everything else in
 # raw_blocks is passed through verbatim by build_new_frontmatter().
 EXPLICIT_CORE_KEYS = {
-    'type', 'naam', 'domein', 'archimate_type', 'grondslag',
+    'type', 'naam', 'domein', 'onderwerp', 'archimate_type', 'grondslag',
     'ggm_entiteit', 'ggm_guid', 'ggm_uml_type', 'ggm_beleidsdomein', 'ggm_taakveld',
     'ggm_diagram', 'ggm_diagram_ids', 'ggm_definitie', 'ggm_toelichting',
     'ggm_synoniemen', 'ggm_herkomst', 'ggm_gemma_naam', 'ggm_gemma_guid',
@@ -139,7 +139,7 @@ def build_new_frontmatter(fields: dict, raw_blocks: dict, entity: dict | None,
             if '\n' in value or '"' in value:
                 lines.append(f"{key}: '{value}'")
             elif value == '' or value is None:
-                lines.append(f'{key}: ""')
+                lines.append(f'{key}:')
             else:
                 needs_quote = any(c in value for c in ':{}[]&*?|->!%@`#,')
                 if needs_quote or value.startswith('"'):
@@ -154,14 +154,15 @@ def build_new_frontmatter(fields: dict, raw_blocks: dict, entity: dict | None,
             escaped = value.replace('"', '\\"')
             lines.append(f'{key}: "{escaped}"')
         else:
-            lines.append(f'{key}: ""')
+            lines.append(f'{key}:')
 
     # Core fields (preserve order)
     add_field('type', fields.get('type', 'element'))
     add_field('naam', fields.get('naam', ''))
 
-    if 'domein' in fields:
-        add_field('domein', fields['domein'])
+    onderwerp = fields.get('onderwerp', fields.get('domein'))
+    if onderwerp is not None:
+        add_field('onderwerp', onderwerp)
 
     add_field('archimate_type', fields.get('archimate_type', 'business-object'))
     add_field('grondslag', fields.get('grondslag', ''))
@@ -249,12 +250,17 @@ def build_new_frontmatter(fields: dict, raw_blocks: dict, entity: dict | None,
                 for rel in fields['bo_relaties']:
                     lines.append(f'  - type: {rel.get("type", "")}')
                     for rkey in ('bedrijfsobject', 'richting', 'kardinaliteit', 'beschrijving'):
-                        if rkey in rel:
-                            val = rel[rkey]
-                            if any(c in str(val) for c in ':{}[]&*?|->!%@`#,'):
-                                lines.append(f'    {rkey}: "{val}"')
-                            else:
-                                lines.append(f'    {rkey}: {val}')
+                        if rkey not in rel:
+                            continue
+                        val = rel[rkey]
+                        if val in (None, ''):
+                            lines.append(f'    {rkey}:')
+                        elif rkey in ('bedrijfsobject', 'kardinaliteit'):
+                            lines.append(f'    {rkey}: "{val}"')
+                        elif any(c in str(val) for c in ':{}[]&*?|->!%@`#,'):
+                            lines.append(f'    {rkey}: "{val}"')
+                        else:
+                            lines.append(f'    {rkey}: {val}')
             continue
         lines.append(raw_blocks[key])
 

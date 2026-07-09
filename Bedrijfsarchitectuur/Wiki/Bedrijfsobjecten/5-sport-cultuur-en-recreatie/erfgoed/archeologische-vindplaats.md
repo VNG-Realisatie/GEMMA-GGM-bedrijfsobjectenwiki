@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Archeologische vindplaats
-domein:
+onderwerp:
 - Cultuur
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -15,18 +15,18 @@ ggm_diagram:
 ggm_diagram_ids:
 - EAID_59241C4B_FD65_484b_88E5_83189334A510
 ggm_definitie: Een plek waar men iets gevonden heeft.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - "EAID_84DED9A9_2D33_4a77_94F2_29657024590F"
@@ -37,7 +37,7 @@ analyse_ggm_dekking: |
   - **Kast** (detail) — Detailgegeven (geassocieerd met BO)
   - **Plank** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een plek waar men iets gevonden heeft."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen:
 - Archeologisch advies
 - Selectiebesluit
@@ -47,14 +47,14 @@ bedrijfsfuncties:
 - Ruimtelijke ordening
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|Archeologisch onderzoek]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologisch-onderzoek|Archeologisch onderzoek]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: Een vindplaats hoort bij een archeologisch onderzoek
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|Monument]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/monument|Monument]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: Een vindplaats kan beschermde status krijgen als monument
 ---
 

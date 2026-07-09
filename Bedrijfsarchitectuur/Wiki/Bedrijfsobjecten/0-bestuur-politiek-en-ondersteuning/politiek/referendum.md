@@ -1,44 +1,44 @@
 ---
 type: element
 naam: Referendum
-domein:
+onderwerp:
 - Bestuur
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: '~'
+ggm_entiteit:
 ggm_beleidsdomein: Politiek (niet expliciet gemodelleerd)
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: '~'
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Volksstemming waarbij kiezers rechtstreeks over een gemeentelijk beleidsonderwerp kunnen stemmen."
-bo_toelichting: ''
-bedrijfsprocessen: ''
-bedrijfsfuncties: ''
+bo_toelichting:
+bedrijfsprocessen: []
+bedrijfsfuncties: []
 bo_relaties:
 - type: compositie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/stembureau|Stembureau]]"
   richting: van-dit-BO
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Referendum wordt afgestemd via dezelfde stembureaus als verkiezingen
 - type: associatie
-  bedrijfsobject: Onderwerp
+  bedrijfsobject: "Onderwerp"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Referendum behandelt een specifiek beleidsonderwerp
 ---
 

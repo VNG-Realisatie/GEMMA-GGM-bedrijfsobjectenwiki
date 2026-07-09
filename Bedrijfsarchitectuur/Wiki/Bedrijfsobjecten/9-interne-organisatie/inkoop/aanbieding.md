@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Diagram Inkoop Geen Inhuur]
 ggm_diagram_ids: [EAID_6683520C_EE21_4038_A418_D4C957172DF2]
 ggm_definitie: "Inschrijving op een nationale of Europese aanbesteding"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -39,7 +39,7 @@ bo_homoniemen:
     toelichting: "Deelname aan een opleiding bij een onderwijsinstelling — ander concept dan aanbieding op een aanbesteding"
 
 bo_definitie: "Inschrijving op een nationale of Europese aanbesteding"
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanbesteding]]"

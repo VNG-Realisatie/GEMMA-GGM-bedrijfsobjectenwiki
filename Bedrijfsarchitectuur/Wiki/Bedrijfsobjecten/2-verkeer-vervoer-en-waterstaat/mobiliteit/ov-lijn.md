@@ -1,32 +1,32 @@
 ---
 type: element
 naam: OV-lijn
-domein:
+onderwerp:
 - mobiliteit
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ''
+ggm_entiteit:
 ggm_beleidsdomein: Mobiliteit
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ''
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
-bo_definitie: Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers.
-bo_toelichting: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+bo_definitie: "Tram- of buslijn met een vaste route, dienstregeling en frequentie voor het vervoeren van reizigers."
+bo_toelichting:
 bedrijfsprocessen:
 - OV-beleid
 - Concessiebeheer
@@ -34,14 +34,14 @@ bedrijfsfuncties:
 - Openbaar vervoer
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]]"
   richting: van-dit-BO
-  kardinaliteit: 1..*
+  kardinaliteit: "1..*"
   beschrijving: Lijn passeert een of meer knooppunten
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/halte|Halte]]"
   richting: van-dit-BO
-  kardinaliteit: 2..*
+  kardinaliteit: "2..*"
   beschrijving: Lijn heeft meerdere haltes
 ---
 

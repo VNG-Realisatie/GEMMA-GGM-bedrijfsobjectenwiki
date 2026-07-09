@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Organisatorische eenheid
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: OrganisatorischeEenheid
@@ -12,24 +12,24 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Referentiemodel Gemeentelijke Basisgegevens Zaken in schema, Betrokkene]
 ggm_diagram_ids: [EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147, EAID_0516C81B_D5F6_4b7a_AD98_82FD3B218A6B]
 ggm_definitie: "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GFO Zaken"
 ggm_gemma_naam: OrganisatorischeEenheid
 ggm_gemma_guid: "02f66265-00ae-418d-8d0e-dcbaf36652bb"
 ggm_gemma_definitie: "Het deel van een functioneel afgebakend onderdeel binnen de organisatie dat haar activiteiten uitvoert binnen een VESTIGING VAN ZAAKBEHANDELENDE ORGANISATIE en die verantwoordelijk is voor de behandeling van zaken."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-02f66265-00ae-418d-8d0e-dcbaf36652bb"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **OrganisatorischeEenheid**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Subsidieprogramma** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Functioneel afgebakend onderdeel binnen de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Actoren/organisatorische-eenheid|Organisatorische eenheid (actor)]]"
     archimate_type: business-actor

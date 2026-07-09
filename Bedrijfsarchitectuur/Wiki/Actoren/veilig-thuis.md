@@ -5,8 +5,8 @@ onderwerp: [Sociaal Domein]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Regionaal advies- en meldpunt voor huiselijk geweld en kindermishandeling, wettelijk verankerd in de Wmo 2015."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

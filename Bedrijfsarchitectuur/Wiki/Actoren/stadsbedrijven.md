@@ -5,8 +5,8 @@ onderwerp: [Milieu]
 archimate_type: business-actor
 grondslag: procesobject
 bo_definitie: "Gemeentelijke uitvoeringsorganisatie die bedrijfsmatig taken uitvoert, zoals de commerciële inzameling van bedrijfsafval."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

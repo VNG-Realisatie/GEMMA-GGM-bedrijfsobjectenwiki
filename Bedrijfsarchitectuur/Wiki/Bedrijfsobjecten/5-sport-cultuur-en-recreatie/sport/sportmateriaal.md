@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sportmateriaal
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Sportmateriaal"
@@ -12,22 +12,22 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F]
 ggm_definitie: "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Sportmateriaal"
 ggm_gemma_guid: "488958ee-08fd-4818-af8b-2d7ebb73c01f"
 ggm_gemma_definitie: "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-488958ee-08fd-4818-af8b-2d7ebb73c01f"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Sportmateriaal** als directe tegenhanger.
 bo_definitie: "Materieel om sport mee te beoefenen of ter odnersteuning van de sportuitvoering."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Binnenlocatie]]"

@@ -13,19 +13,19 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: ["Verkamering en Woonoverlast", "KVK", "Diagram Gebied Vestiging en Adres", "Diagram Monumenten", "Vroegsignalering", "Huishouden en Huwelijk"]
 ggm_diagram_ids: ["EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF", "EAID_FC491653_1FBF_412a_A939_A705D501AE48", "EAID_50085E67_46AC_4f54_B204_436786266EE2", "EAID_7429E175_1CBE_4336_BF92_6C5029395E69", "EAID_07334A5A_E2F0_41ce_8510_B41BAF6876BD", "EAID_CABB9F3F_A6ED_479a_A175_6F61BE2BE8F8"]
 ggm_definitie: "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Nummeraanduiding
@@ -43,7 +43,7 @@ analyse_ggm_dekking: |
   - **Onbestemd Adres** (detail) — Detailgegeven
   - **OverigeAdresseerbaarObjectAanduiding** (detail) — Detailgegeven
 bo_definitie: "Een nummeraanduiding is een door het bevoegde gemeentelijke orgaan als zodanig toegekende aanduiding van een verblijfsobject, een standplaats of een ligplaats."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Openbare Ruimte]]"

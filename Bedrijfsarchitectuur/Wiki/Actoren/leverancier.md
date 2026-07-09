@@ -5,8 +5,8 @@ onderwerp: [Informatiesamenleving]
 archimate_type: business-actor
 grondslag: procesobject
 bo_definitie: "Externe partij die goederen of diensten levert aan de gemeente op basis van een contract."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

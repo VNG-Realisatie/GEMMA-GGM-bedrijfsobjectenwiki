@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Verwerking van persoonsgegevens met eigen doel en grondslag, verplicht geregistreerd in het verwerkingsregister conform AVG art. 30."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/dpia|DPIA]]"

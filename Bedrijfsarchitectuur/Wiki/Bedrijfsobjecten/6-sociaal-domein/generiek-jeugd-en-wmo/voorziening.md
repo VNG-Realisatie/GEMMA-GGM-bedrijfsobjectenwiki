@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Voorziening
-domein: [Maatschappelijke Ondersteuning]
+onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,19 +13,19 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: ["Sociaal Domein Beschikking en Voorziening: Domain Objects"]
 ggm_diagram_ids: [EAID_5AE29494_3572_4924_B2B8_3206E55D71BB]
 ggm_definitie: "Middel om services/maatregelen in te vullen."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - "EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC"
@@ -36,7 +36,7 @@ analyse_ggm_dekking: |
   - **Voorliggende voorziening** (detail) — Detailgegeven (weinig attributen)
   - **Voorzieningsoort** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Maatwerkvoorziening Wmo
     omschrijving: "Op de persoon afgestemde voorziening na individuele beoordeling (Wmo 2015)"

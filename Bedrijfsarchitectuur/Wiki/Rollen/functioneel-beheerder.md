@@ -5,8 +5,8 @@ onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Interne rol die de brug vormt tussen de business (proceseigenaar) en de ICT-organisatie bij het beheer van applicaties."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

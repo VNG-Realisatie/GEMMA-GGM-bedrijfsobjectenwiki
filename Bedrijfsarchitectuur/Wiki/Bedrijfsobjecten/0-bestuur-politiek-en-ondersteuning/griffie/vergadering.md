@@ -20,11 +20,11 @@ ggm_synoniemen:
 ggm_herkomst: GGM
 
 ggm_gemma_naam: Vergadering
-ggm_gemma_guid: ea768404-3043-48bc-b0dc-143abc8806d6
+ggm_gemma_guid: "ea768404-3043-48bc-b0dc-143abc8806d6"
 ggm_gemma_definitie: "Een bijeenkomst van meerdere mensen (meestal van eenzelfde organisatie) die met elkaar spreken en/of afspraken maken over de gemeenschappelijke toekomst."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ea768404-3043-48bc-b0dc-143abc8806d6"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -36,7 +36,7 @@ analyse_ggm_dekking: |
   - **Aanwezige Deelnemer** (onderdeel) — Onderdeel (naamindicatie)
   - **Raadscommissie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_via_kandidaten:
   - ggm_entiteit: "Agendapunt"

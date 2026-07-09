@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Vastgoed Domeinmodel]
 ggm_diagram_ids: [EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291]
 ggm_definitie: "Meerjaren Onderhoudsplanning"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -34,7 +34,7 @@ analyse_ggm_dekking: |
   - **MJOP-Item** (detail) — Detailgegeven
   - **Prijzenboekitem** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Dynamisch planningsdocument per vastgoedobject dat het verwachte onderhoud over een periode van 15 jaar beschrijft, gevoed door inspecties."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_via_kandidaten:
   - ggm_entiteit: "Prijzenboekitem"

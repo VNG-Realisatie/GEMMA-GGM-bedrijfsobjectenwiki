@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Gemaal
-domein:
+onderwerp:
 - Beheer Openbare Ruimte
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -9,42 +9,42 @@ ggm_entiteit: Gemaal
 ggm_guid: EAID_5D70E69A_2A35_4088_886E_32C0B07275C
 ggm_uml_type: Class
 ggm_beleidsdomein: Beheer Openbare Ruimte
-ggm_taakveld: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
+ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram:
 - Hoofdobjecten IMBOR en Geo-object
 ggm_diagram_ids: []
 ggm_definitie: Een constructie ten behoeve van het verplaatsen van water
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Gemaal** als directe tegenhanger.
-bo_definitie: Constructie voor het verpompen van afvalwater, hemelwater of oppervlaktewater binnen het gemeentelijk rioleringssysteem.
-bo_toelichting: ''
+bo_definitie: "Constructie voor het verpompen van afvalwater, hemelwater of oppervlaktewater binnen het gemeentelijk rioleringssysteem."
+bo_toelichting:
 bo_relaties:
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk|Kunstwerk]]"
   richting: van-dit-BO
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Gemaal is een specialisatie van Kunstwerk in het GGM
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/overstortconstructie|Overstortconstructie]]"
   richting: bidirectioneel
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Gemaal en overstortconstructie zijn onderdelen van hetzelfde rioolstelsel
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject|Waterobject]]"
   richting: bidirectioneel
-  kardinaliteit: null
+  kardinaliteit:
   beschrijving: Gemaal verpompt water van of naar waterobjecten
 bedrijfsprocessen:
 - Rioolbeheer

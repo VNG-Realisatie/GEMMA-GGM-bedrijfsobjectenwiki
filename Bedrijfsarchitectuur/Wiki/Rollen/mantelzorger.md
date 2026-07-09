@@ -5,8 +5,8 @@ onderwerp: [Sociaal Domein]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Persoon die onbetaald langdurig zorgt voor een naaste, met ondersteuningsregelingen (Wmo) en parkeervrijstellingen."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

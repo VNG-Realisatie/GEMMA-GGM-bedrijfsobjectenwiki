@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Detacheringsovereenkomst
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: contract
 grondslag: procesobject
 
@@ -28,7 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Overeenkomst tussen een uitlenende en inlenende organisatie voor het tijdelijk ter beschikking stellen van een werknemer."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"

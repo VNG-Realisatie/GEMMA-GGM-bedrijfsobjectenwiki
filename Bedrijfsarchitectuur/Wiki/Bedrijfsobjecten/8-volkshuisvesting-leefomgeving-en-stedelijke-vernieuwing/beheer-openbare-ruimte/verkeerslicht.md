@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Verkeerslicht
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Verkeerslicht"
@@ -12,25 +12,25 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: "Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Verkeerslicht** als directe tegenhanger.
 bo_definitie: "Lichten die aangeven dat je moet stoppen, dat je mag doorrijden, of die je waarschuwen voor gevaar."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Beheerobject (GGM)
+    bedrijfsobject: "Beheerobject (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Verkeerslicht is een beheerobject in de openbare ruimte

@@ -13,26 +13,26 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: ["HUWELIJK/GEREGISTREERD PARTNERSCHAP", "Huishouden en Huwelijk"]
 ggm_diagram_ids: []
 ggm_definitie: "Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GGM"
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **SluitingOfAangaanHuwelijkOfGeregistreerdPartnerschap**.
 bo_definitie: "Gegevens over het gesloten huwelijk of het aangegane geregistreerd partnerschap."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

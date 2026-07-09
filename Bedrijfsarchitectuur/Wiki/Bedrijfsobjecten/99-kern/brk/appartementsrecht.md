@@ -22,18 +22,18 @@ ggm_diagram_ids:
   - EAID_2BA6CA76_17FC_4afc_82AD_9DF0DC891587
 ggm_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden gebruikt (art. 5:106 lid 4 BW)."
 ggm_toelichting: "Een aandeel in een recht op een gebouw en daarmee onlosmakelijk verbonden het uitsluitend gebruiksrecht van een bepaald privé-gedeelte in dat gebouw. Dat kan ook een garage of een parkeerplaats zijn. Een splitsing in appartementsrechten komt tot stand door inschrijving van een notariële akte van splitsing bij het kadaster. Elke splitsing kent een Vereniging van Eigenaren (VVE)."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Appartementsrecht
-ggm_gemma_guid: b84fbae7-cecd-4c24-96cb-427a00d862c6
+ggm_gemma_guid: "b84fbae7-cecd-4c24-96cb-427a00d862c6"
 ggm_gemma_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden gebruikt (art. 5:106 lid 4 BW)."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b84fbae7-cecd-4c24-96cb-427a00d862c6"
 ggm_gemma_bron: "BRK"
-ggm_gemma_alternate_name: ""
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -43,12 +43,12 @@ analyse_ggm_dekking: |
   - **KoopsomKadastraleOnroerendeZaak** (detail) — Detailgegeven
   - **LocatieKadastraleOnroerendeZaak** (detail) — Detailgegeven
 bo_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een aandeel is in de goederen die in de splitsing zijn betrokken, dat de bevoegdheid omvat tot het uitsluitend gebruik van bepaalde gedeelten van het gebouw die blijkens hun inrichting bestemd zijn of worden om als afzonderlijk geheel te worden gebruikt (art. 5:106 lid 4 BW)."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Appartementsrecht]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Specialisatie van KadastraleOnroerendeZaak (abstract)"
   - type: associatie
     bedrijfsobject: "[[Zakelijk Recht]]"

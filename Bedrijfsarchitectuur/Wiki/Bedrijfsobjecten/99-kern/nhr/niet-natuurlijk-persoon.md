@@ -60,12 +60,12 @@ analyse_ggm_dekking: |
   - **Gezagsverhouding** (detail) — juridische status
   - **Onderwijsinstituut** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Ingeschreven Persoon]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Complement: NNP is de organisatiekant, Ingeschreven Persoon de persoonskant van Rechtspersoon"
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"

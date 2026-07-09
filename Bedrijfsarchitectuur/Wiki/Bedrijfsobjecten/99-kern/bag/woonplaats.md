@@ -14,18 +14,18 @@ ggm_diagram: ["Vastgoed verankering RSGB IMBAG", "BAG", "ONDERZOEK", "Buurten en
 ggm_diagram_ids: ["EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45", "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3", "EAID_9B0FEF1A_4146_409e_8B71_B12D4B4AB8A8", "EAID_5D49277A_03E6_4e94_A3EE_79627327FA9E", "EAID_29EB3097_1D02_4f00_8E7D_74A901E0FFCB", "EAID_00CCCF33_A542_47e6_AFA6_2F9F4E2670D8"]
 ggm_definitie: "Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."
 ggm_toelichting: "Een stuk grond binnen de gemeente dat als woonplaats is aangewezen en waaraan de gemeente ook een naam heeft gegeven."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Woonplaats
@@ -41,7 +41,7 @@ analyse_ggm_dekking: |
   - **OverlijdenIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
   - **Postadres** (detail) — Detailgegeven
 bo_definitie: "Een woonplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen en van een naam voorzien gedeelte van het grondgebied van de gemeente."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Openbare Ruimte]]"

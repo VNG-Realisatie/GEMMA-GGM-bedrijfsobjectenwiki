@@ -1,7 +1,7 @@
 ---
 type: element
 naam: "Heffing"
-domein: [Belastingen]
+onderwerp: [Belastingen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Heffing"
@@ -12,23 +12,23 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Diagram Vergunningen en Meldingen, Verkamering en Woonoverlast, Entiteiten Dienstverlening]
 ggm_diagram_ids: [EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267, EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF, EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78]
 ggm_definitie: "Een door de overheid opgelegde verplichting tot betaling"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Heffing"
 ggm_gemma_guid: "ff9366e3-dd65-48ce-9051-9d6b01b2c6db"
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Heffing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Heffingskorting** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Individuele vaststelling van het belastingbedrag door de heffingsambtenaar, resulterend in een betalingsverplichting."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffinggrondslag|Heffinggrondslag]]"

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sportpark
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Sportpark"
@@ -12,18 +12,18 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid, Diagram Sportbeleid Locaties]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F, EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76]
 ggm_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Sportterrein"
-ggm_herkomst: ""
+ggm_herkomst:
 ggm_gemma_naam: "Sportpark"
 ggm_gemma_guid: "ca9df4ee-92e1-4c24-ace3-467d146a320e"
 ggm_gemma_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
-ggm_gemma_toelichting: ""
+ggm_gemma_toelichting:
 ggm_gemma_synoniemen: "Sportterrein"
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ca9df4ee-92e1-4c24-ace3-467d146a320e"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten:
   - entiteit: Sportterrein
     guid: EAID_A5A43927_9633_4584_865B_78AE4486E5B
@@ -33,12 +33,12 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Sportpark** als directe tegenhanger. Daarnaast is **Sportterrein** (beleidsdomein Beheer Openbare Ruimte) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Geheel van terreinen, gebouwen en voorzieningen voor verschillende takken van sport."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"
     richting: "naar-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Sportpark is een specialisatie van Sportlocatie"
   - type: compositie
     bedrijfsobject: "[[Veld]]"

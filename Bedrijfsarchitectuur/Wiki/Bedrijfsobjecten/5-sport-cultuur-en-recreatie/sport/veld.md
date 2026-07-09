@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Veld
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Veld"
@@ -12,23 +12,23 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid, Diagram Sportbeleid Locaties]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F, EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76]
 ggm_definitie: "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Veld"
 ggm_gemma_guid: "0f53081c-01f9-4c0a-b049-77d310a0ea33"
 ggm_gemma_definitie: "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0f53081c-01f9-4c0a-b049-77d310a0ea33"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Veld** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Deelplan/Veld** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Een stuk land dat speciaal voor het bedrijven van een veldsport gereedgemaakt is"
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Sportpark]]"

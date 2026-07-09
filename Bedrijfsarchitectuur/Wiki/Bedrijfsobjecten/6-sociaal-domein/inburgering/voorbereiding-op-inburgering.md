@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Voorbereiding op Inburgering
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -20,27 +20,27 @@ ggm_toelichting: "•\tDeze voorbereiding vindt doorgaans plaats tijdens het ver
   \ een betere startpositie te geven bij de brede intake en het leertraject. •\tActiviteiten kunnen zijn: introductielessen Nederlandse taal, kennismaking met rechten en plichten, uitleg over wonen, zorg,\
   \ werk en onderwijs. •\tDe activiteiten worden gecoördineerd door het COA in samenwerking met lokale partners, en vormen geen wettelijk verplicht onderdeel van de inburgeringsplicht. •\tGemeenten kunnen\
   \ bij de overdracht gebruikmaken van informatie over gevolgde voorbereidingsactiviteiten bij het opstellen van het PIP."
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Voorbereiding op Inburgering** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Introductiemodule** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Voorbereiding op inburgering omvat de activiteiten die worden aangeboden aan asielstatushouders vóór de start van de formele inburgeringsplicht, gericht op oriëntatie op de Nederlandse samenleving, taal en het inburgeringsstelsel."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Asielstatushouder neemt deel aan voorbereiding op inburgering
 ---
 

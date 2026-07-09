@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Bedrijfsproces
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Bedrijfsproces
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Bedrijfsprocessen]
 ggm_diagram_ids: [EAID_63323A39_82A4_4607_8A45_E4CBD1D800B0]
 ggm_definitie: "Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of dienst."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GGM"
 ggm_gemma_naam: Bedrijfsproces
 ggm_gemma_guid: "7e054df1-48a3-46c3-91a5-5ce10e326f9b"
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7e054df1-48a3-46c3-91a5-5ce10e326f9b"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Bedrijfsproces** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -31,7 +31,7 @@ analyse_ggm_dekking: |
   - **Deelproces** (onderdeel) — Onderdeel (naamindicatie)
   - **Deelprocestype** (classificatie) — Typering/referentietabel
 bo_definitie: "Reeks opeenvolgend uit te voeren activiteiten die bijdraagt aan een specifiek resultaat, zoals de levering van een product of dienst."
-bo_toelichting: ""
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Bedrijfsprocestype"
     ggm_guid: "EAID_14E4AF23_21E9_412a_B78D_C208EE9F419D"

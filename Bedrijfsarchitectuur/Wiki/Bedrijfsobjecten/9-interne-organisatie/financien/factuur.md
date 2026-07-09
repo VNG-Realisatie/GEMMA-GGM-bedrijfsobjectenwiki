@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Factuur
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Factuur"
@@ -12,23 +12,23 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Financien Verwerken Mutaties, Financien Verplichtingen en Facturen]
 ggm_diagram_ids: [EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA, EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711]
 ggm_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Factuur"
 ggm_gemma_guid: "e3c92496-53d2-473e-9643-9774cdda2891"
 ggm_gemma_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e3c92496-53d2-473e-9643-9774cdda2891"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Factuur** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Factuurregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Schriftelijke rekening of nota voor de geleverde zaken of verrichte diensten
 bedrijfsprocessen: [Facturering, Crediteuren- en debiteurenadministratie]
 bedrijfsfuncties: [Financieel beheer]

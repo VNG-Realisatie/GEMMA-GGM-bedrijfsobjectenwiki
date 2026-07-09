@@ -10,7 +10,7 @@ ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van deelname aan een college- of raadsvergadering, met aanvang en einde van de aanwezigheid."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer|Aanwezige Deelnemer (bedrijfsobject)]]"
     archimate_type: business-object

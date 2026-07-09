@@ -14,25 +14,25 @@ ggm_diagram:
 - Inburgering
 ggm_diagram_ids:
 - EAID_96927C60_9F7B_4e67_806A_02EE0191983D
-ggm_definitie: Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie: "Een Ontheffing is een formeel besluit van de gemeente of van DUO waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van onderdelen van de inburgeringsplicht, op grond van persoonlijke omstandigheden zoals medische beperkingen, psychische problematiek of aantoonbare inspanning."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Ontheffing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Ligplaatsontheffing** (detail) — Detailgegeven (weinig attributen)
-bo_definitie: Formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van de inburgeringsplicht op grond van medische of bijzondere individuele omstandigheden.
-bo_toelichting: Ontheffing vereist een medische deskundigenverklaring door een arts conform protocol (bijlage 1 Regeling inburgering 2021). Kosten €225, terugbetaald bij toewijzing. Arts adviseert ontheffing wanneer voorbereiding binnen vijf jaar met lichte aanpassingen niet mogelijk is.
+bo_definitie: "Formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van de inburgeringsplicht op grond van medische of bijzondere individuele omstandigheden."
+bo_toelichting: "Ontheffing vereist een medische deskundigenverklaring door een arts conform protocol (bijlage 1 Regeling inburgering 2021). Kosten €225, terugbetaald bij toewijzing. Arts adviseert ontheffing wanneer voorbereiding binnen vijf jaar met lichte aanpassingen niet mogelijk is."
 bo_synoniemen: []
 bo_homoniemen:
 - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/ontheffing|Ontheffing (Werk)]]"
@@ -42,14 +42,14 @@ bo_homoniemen:
   toelichting: Ontheffing van arbeidsverplichtingen (Participatiewet) is een ander concept dan ontheffing van de inburgeringsplicht (Wi2021)
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Inburgeringsplicht kan leiden tot ontheffing(en)
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|Examen]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|Examen]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Ontheffing kan gelden voor specifieke examenonderdelen
 bedrijfsprocessen:
 - Beoordeling ontheffingsaanvraag inburgering

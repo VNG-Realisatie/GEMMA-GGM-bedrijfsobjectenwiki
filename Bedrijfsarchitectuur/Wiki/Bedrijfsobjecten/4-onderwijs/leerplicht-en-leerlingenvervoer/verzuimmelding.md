@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Verzuimmelding
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,19 +18,19 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Verzuimmelding
-ggm_gemma_guid: e623ef14-c4de-498b-9504-5bb6fa4ce0de
+ggm_gemma_guid: "e623ef14-c4de-498b-9504-5bb6fa4ce0de"
 ggm_gemma_definitie: "Een melding dat een leerling niet op school verschijnt. De school moet actie ondernemen naar de leerling (en zijn ouders). Een school moet het verzuim melden bij de gemeente."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e623ef14-c4de-498b-9504-5bb6fa4ce0de"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Verzuimmelding** als directe tegenhanger.
 bo_definitie: "Melding van een school aan de gemeente dat een leerling niet op school verschijnt."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

@@ -5,8 +5,8 @@ onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Door de gemeente aangewezen persoon met de bevoegdheid naheffingsaanslagen parkeerbelasting op te leggen."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

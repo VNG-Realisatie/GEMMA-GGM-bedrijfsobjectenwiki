@@ -1,29 +1,29 @@
 ---
 type: element
 naam: Informatieobject
-domein: [Informatiebeheer]
+onderwerp: [Informatiebeheer]
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Een opzichzelfstaand geheel van gegevensobjecten met een eigen identiteit dat de archiveringsfase is ingegaan: geselecteerd, gewaardeerd en formeel opgenomen in het archiefsysteem met volledige metagegevens."
 bo_toelichting: "Informatieobject is de tweede fase in de informatielevenscyclus: het document nadat het de archivering heeft doorlopen. De transitie Document → Informatieobject vindt plaats bij selectie en waardering op grond van de selectielijst en formele opname in het archiefsysteem. Na overbrenging naar de archiefbewaarplaats wordt het een Archiefstuk. Het GGM kent geen aparte entiteit voor deze fase — de archiveringstransitie is een GGM-hiaat."

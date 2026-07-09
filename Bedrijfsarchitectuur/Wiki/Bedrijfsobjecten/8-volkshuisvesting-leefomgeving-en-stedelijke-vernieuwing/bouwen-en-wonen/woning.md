@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Woning
-domein: [Wonen]
+onderwerp: [Wonen]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,11 +18,11 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Gebouw
-ggm_gemma_guid: 69e60d64-7165-488f-a392-0e75eb4e99fb
+ggm_gemma_guid: "69e60d64-7165-488f-a392-0e75eb4e99fb"
 ggm_gemma_definitie: "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-69e60d64-7165-488f-a392-0e75eb4e99fb"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -33,7 +33,7 @@ analyse_ggm_dekking: |
   - **Koopwoningen** (specialisatie) — Specialisatie van Woning — zie bo_subtypes
   - **Studentenwoningen** (specialisatie) — Specialisatie van Woning — zie bo_subtypes
 bo_definitie: "Een complex van ruimten uitsluitend bedoeld voor de huisvesting van een afzonderlijk huishouden"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Sociale huurwoning"
     omschrijving: "Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling"

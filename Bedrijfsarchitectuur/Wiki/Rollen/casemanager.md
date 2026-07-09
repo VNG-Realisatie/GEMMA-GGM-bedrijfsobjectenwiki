@@ -5,8 +5,8 @@ onderwerp: [Werk en Inkomen]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Coördinerende hulpverleningsfunctie die het geheel van ondersteuning rond een cliënt overziet."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

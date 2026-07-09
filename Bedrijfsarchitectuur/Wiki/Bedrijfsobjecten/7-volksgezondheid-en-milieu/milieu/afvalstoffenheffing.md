@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Afvalstoffenheffing
-domein: [Milieu]
+onderwerp: [Milieu]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Prijsafspraak"
@@ -12,22 +12,22 @@ ggm_taakveld: "7 Volksgezondheid en Milieu"
 ggm_diagram: [Diagram Afval Ophalen]
 ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38]
 ggm_definitie: "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten. "
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Prijsafspraak"
 ggm_gemma_guid: "343e027e-16c9-43d7-8b90-891aaf9c4b70"
 ggm_gemma_definitie: "Overeenkomst tussen concurrenten met betrekking tot de prijs van goederen of diensten."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-343e027e-16c9-43d7-8b90-891aaf9c4b70"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Prijsafspraak**.
 bo_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Prijsregel"
     ggm_guid: "EAID_E79C6C20_3D05_49fb_96ED_105B5CD0ABA5"

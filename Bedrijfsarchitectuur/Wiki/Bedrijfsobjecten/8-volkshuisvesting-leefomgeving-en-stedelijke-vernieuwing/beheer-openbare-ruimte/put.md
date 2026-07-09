@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Put
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Put"
@@ -12,18 +12,18 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: []
 ggm_definitie: "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -41,7 +41,7 @@ bo_homoniemen:
     toelichting: "Archeologische put (waterput of afvalput als grondspoor) — ander concept dan dit BO. Bij een eigen BO-pagina: gebruik disambiguatienaam Archeologieput, niet Rioolput — die naam is al bezet door de generalisatie-kind-entiteit Rioolput van dit BO."
 
 bo_definitie: "Verticale waterdichte constructie, toegepast om leidingen aan te sluiten, van richting of niveau te veranderen, om toegang te verschaffen aan personeel en/of apparatuur voor inspectie en onderhoud, en om beluchting en ventilatie mogelijk te maken"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Drainageput"
     omschrijving: Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
@@ -67,17 +67,17 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Putten en gemalen zijn onderdelen van hetzelfde rioolstelsel
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Putten liggen in een rioleringsgebied
   - type: associatie
     bedrijfsobject: "[[Kolk]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Kolken zijn verbonden met putten voor hemelwaterafvoer
 bedrijfsprocessen: [Rioolbeheer, Rioolinspectie, Rioolvervanging]
 bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]

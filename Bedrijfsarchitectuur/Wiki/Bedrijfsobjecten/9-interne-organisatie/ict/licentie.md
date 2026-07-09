@@ -37,7 +37,7 @@ analyse_ggm_dekking: |
   - **Toegangsmiddel** (detail) — Detailgegeven (weinig attributen)
   - **Vervoersmiddel** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Gebruiksrecht op grond waarvan de gemeente bevoegd is een ICT-product of -dienst te gebruiken binnen overeengekomen voorwaarden."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie|Applicatie]]"

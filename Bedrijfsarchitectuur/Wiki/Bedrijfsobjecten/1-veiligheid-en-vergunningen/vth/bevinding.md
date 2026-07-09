@@ -14,23 +14,23 @@ ggm_diagram: [Diagram Vergunningen en Meldingen, Verkamering en Woonoverlast]
 ggm_diagram_ids: [EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267, EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF]
 ggm_definitie: "Een bevinding is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie."
 ggm_toelichting: "In algemene en bestuurlijke contexten verwijst bevinding naar wat er naar voren komt uit onderzoek, inspectie of waarneming, bijvoorbeeld tijdens een controle, audit of beoordeling van een situatie."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Bevinding** als directe tegenhanger.
 bo_definitie: "Een bevinding is de uitkomst van een waarneming of onderzoek die aangeeft wat is geconstateerd bij beoordeling of inspectie."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

@@ -32,7 +32,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Storing**.
 bo_definitie: "Verlies van de mogelijkheid van een ICT-component om volgens specificatie te werken of het vereiste resultaat te leveren."
-bo_toelichting: ''
+bo_toelichting:
 bo_homoniemen:
   - bedrijfsobject: ""
     ggm_entiteit: Storing

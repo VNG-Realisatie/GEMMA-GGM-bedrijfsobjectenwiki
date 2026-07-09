@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Maatschappelijke voorziening
-domein: [Sociaal Domein]
+onderwerp: [Sociaal Domein]
 archimate_type: business-object
 grondslag: ggm-afgeleid
 
@@ -31,7 +31,7 @@ ggm_gemma_alternate_name:
 
 # GEMMA-velden
 bo_definitie: "Plek die ruimte biedt aan activiteiten met primair een maatschappelijk doel op het gebied van zorg, welzijn, cultuur, sport of onderwijs."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Buurtcentrum"
     omschrijving: Welzijnsvoorziening met minimaal drie activiteitenruimten voor ontmoeting en bewonersactiviteiten

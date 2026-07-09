@@ -13,19 +13,19 @@ ggm_taakveld: Inkomen
 ggm_diagram: [Diagram Basismodel Inkomen, In- en uitstroom inkomensvoorziening]
 ggm_diagram_ids: [EAID_9CEE3C86_9B9F_472f_A104_61FFC01DAC5A, EAID_390FED22_863F_46c6_8DAF_DBFEABC77AA8]
 ggm_definitie: "Een regeling die zorg draag voor een inkomen confom de landelijke wetgeving"
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: id-07784236-3aa6-45e5-8253-7d088c4020b0
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid: "id-07784236-3aa6-45e5-8253-7d088c4020b0"
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Inkomensvoorziening** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -38,7 +38,7 @@ analyse_ggm_dekking: |
   - **RedenUitstroom** (classificatie) — Typering/referentietabel
   - **UitkeringsRun** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Client]]"

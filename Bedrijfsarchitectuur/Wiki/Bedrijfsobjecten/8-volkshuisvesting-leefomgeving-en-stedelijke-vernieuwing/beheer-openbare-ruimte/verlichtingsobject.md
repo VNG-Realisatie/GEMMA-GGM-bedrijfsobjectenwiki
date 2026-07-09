@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Verlichtingsobject
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Verlichtingsobject"
@@ -12,22 +12,22 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: [EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3]
 ggm_definitie: "Paal of mast waaraan openbare verlichting is bevestigd."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Verlichtingsobject** als directe tegenhanger.
 bo_definitie: "Paal of mast waaraan openbare verlichting is bevestigd."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Lichtmast"
     omschrijving: "Vrijstaande paal met armatuur voor straatverlichting, veruit het meeste type (56.000 stuks)"
@@ -41,7 +41,7 @@ bo_subtypes:
     ggm_attribuut: type
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Beheerobject (GGM)
+    bedrijfsobject: "Beheerobject (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Verlichtingsobject is een specialisatie van Beheerobject

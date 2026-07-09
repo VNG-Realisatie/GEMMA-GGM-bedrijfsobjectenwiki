@@ -5,8 +5,8 @@ onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Bestuursorgaan dat authentieke gegevens uit een basisregistratie gebruikt, met een wettelijke gebruiksplicht."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

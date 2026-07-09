@@ -13,19 +13,19 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: ["Diagram Gebied Vestiging en Adres", "Diagram Sportbeleid Locaties", "Schouwrondes en Arealen", "Vastgoed verankering RSGB IMBAG", "BAG", "Buurten en Wijken"]
 ggm_diagram_ids: ["EAID_50085E67_46AC_4f54_B204_436786266EE2", "EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76", "EAID_8BE01DD9_B915_4291_B190_AB69D0252391", "EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45", "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3", "EAID_5D49277A_03E6_4e94_A3EE_79627327FA9E"]
 ggm_definitie: "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Wijk
@@ -37,7 +37,7 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Wijk** als directe tegenhanger. Daarnaast is **Wijk** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een aaneengesloten gedeelte van het grondgebied van een gemeente, waarvan de grenzen zo veel mogelijk zijn gebaseerd op sociaal-geografische kenmerken."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woonplaats]]"

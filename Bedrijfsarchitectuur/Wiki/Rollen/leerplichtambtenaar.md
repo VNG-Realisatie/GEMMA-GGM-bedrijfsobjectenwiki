@@ -10,7 +10,7 @@ ggm_beleidsdomein: Leerplicht en Leerlingenvervoer
 ggm_taakveld: "4 Onderwijs"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De ambtelijke verantwoordelijkheid voor het toezicht op de uitvoering van de Leerplichtwet."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Horecabedrijf
-domein: [Economie]
+onderwerp: [Economie]
 archimate_type: "business-object"
 grondslag: ggm-afgeleid
 
@@ -29,14 +29,14 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft geen directe GGM-entiteit; het is een specialisatie van GGM-entiteit **Vestiging**, vastgelegd als generalisatie-relatie naar [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging|Vestiging]].
 bo_definitie: "Een onderneming die zich richt op het verstrekken van eten, drinken en/of logies."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [horecavergunningverlening, handhaving horeca, horecabeleid]
 bedrijfsfuncties: [vergunningverlening, handhaving, economisch beleid]
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging|Vestiging]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Horecabedrijf is een specialisatie van Vestiging
   - type: associatie
     bedrijfsobject: "[[Hotel]]"

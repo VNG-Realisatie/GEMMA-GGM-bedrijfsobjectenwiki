@@ -1,7 +1,7 @@
 ---
 type: element
 naam: PVT
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -17,26 +17,26 @@ ggm_diagram_ids:
 ggm_definitie: <font color="#0e0e0e">Het </font><font color="#0e0e0e"><b>Participatieverklaringstraject (PVT)</b></font><font color="#0e0e0e"> is een verplicht onderdeel van het inburgeringstraject waarin
   de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring.</font>
 ggm_toelichting: Het PVT is geregeld in artikel 7.6 van de Wet inburgering 2021 en maakt onderdeel uit van het wettelijk verplichte inburgeringspakket.
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: PVT
-ggm_gemma_guid: b48d2c3e-646e-4858-b98a-b776f949cd8f
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-b48d2c3e-646e-4858-b98a-b776f949cd8f
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_guid: "b48d2c3e-646e-4858-b98a-b776f949cd8f"
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b48d2c3e-646e-4858-b98a-b776f949cd8f"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **PVT** als directe tegenhanger.
 bo_definitie: "Het Participatieverklaringstraject (PVT) is een verplicht onderdeel van het inburgeringstraject waarin de inburgeringsplichtige kennismaakt met de basiswaarden van de Nederlandse samenleving, en deze onderschrijft door het ondertekenen van de participatieverklaring."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Is onderdeel van de leerroute
 ---
 

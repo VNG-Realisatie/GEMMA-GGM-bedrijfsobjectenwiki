@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Product
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Product"
@@ -12,17 +12,17 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Financien Begroting en Budgetverantwoordelijkheid]
 ggm_diagram_ids: [EAID_42C2960F_FED7_467e_AAB1_5195BED59A39]
 ggm_definitie: "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Product"
 ggm_gemma_guid: "d7ab242e-b050-4af7-a400-d87ce1eceb43"
 ggm_gemma_definitie: "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-d7ab242e-b050-4af7-a400-d87ce1eceb43"
-ggm_gemma_bron: ""
+ggm_gemma_bron:
 ggm_gemma_alternate_name: "Product (Financien)"
 
 ggm_duplicaat_entiteiten:
@@ -43,7 +43,7 @@ analyse_ggm_dekking: |
   - **Productgroep** (classificatie) — Administratieve classificatie
   - **Winkelvoorraaditem** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Het resultaat van een proces dat in het economisch verkeer een waarde bezit."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Het resultaat van een proces dat in het economisch verkeer een waarde bezit
 bedrijfsprocessen: [Dienstverlening, Producten- en dienstencatalogus beheer]
 bedrijfsfuncties: [Dienstverlening, Financieel beheer]

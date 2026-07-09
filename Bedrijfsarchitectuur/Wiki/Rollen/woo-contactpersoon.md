@@ -5,8 +5,8 @@ onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Wettelijk verplicht aanspreekpunt voor vragen over de beschikbaarheid van publieke informatie (art. 4.7 Woo)."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Gezinsmigrant en Overige migrant
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -20,20 +20,20 @@ ggm_definitie: 'Object Inburgeraar is gespecialiseerd in Asielstatushouder en Ge
 
   Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant zoals bijvoorbeeld: object Aanvraag
   Sociale Lening. Hetzelfde geldt ook voor object Asielstatushouder, deze heeft overigens wel kenmerken.'
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Gezinsmigrant en Overige migrant
-ggm_gemma_guid: ''
+ggm_gemma_guid:
 ggm_gemma_definitie: 'Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant.
 
   Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en'
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191-e7eb1b1bca07"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Gezinsmigrant en Overige migrant** als directe tegenhanger. De gemeentelijke praktijkscope is beperkt tot het subtype Gezinsmigrant.
 bo_definitie: "Inburgeraar die niet via de asielketen maar via gezinshereniging of een andere migratiereden inburgeringsplichtig is."
@@ -51,19 +51,19 @@ bo_subtypes:
     ggm_attribuut: ""
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Doorloopt een brede intake
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Krijgt een persoonlijk plan inburgering en participatie
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Heeft een inburgeringsplicht
 ---
 

@@ -24,18 +24,18 @@ ggm_diagram_ids:
   - EAID_FF8B8883_467A_422e_A894_C513307057AF
 ggm_definitie: "Een TENAAMSTELLING vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."
 ggm_toelichting: "Een tenaamstelling heeft betrekking op de eigendom van die Persoon van één Kadastraal object of op een beperkt recht van die Persoon op één Kadastraal object."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Tenaamstelling
-ggm_gemma_guid: 429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e
+ggm_gemma_guid: "429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e"
 ggm_gemma_definitie: "Een TENAAMSTELLING vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-429cbd2f-a86d-49d9-9c8a-0de67a7e7d3e"
 ggm_gemma_bron: "BRK"
-ggm_gemma_alternate_name: ""
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -43,7 +43,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Tenaamstelling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aantekening** (detail) — procesnotitie
 bo_definitie: "Een TENAAMSTELLING vormt de relatie tussen een Recht en een Persoon en geeft aan welk recht, met uitzondering van hypotheek en beslag, door een Persoon wordt uitgeoefend op een Kadastraal object."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Zakelijk Recht]]"

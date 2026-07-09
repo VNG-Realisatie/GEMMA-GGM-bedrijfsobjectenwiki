@@ -5,27 +5,27 @@ onderwerp: [werk en inkomen]
 archimate_type: business-object
 grondslag: procesobject
 
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 bo_definitie: "Een beschikbare dienst of tool voor toeleiding naar werk of participatie, geregistreerd in een instrumentengids."
 bo_toelichting: "Gemeenten vullen instrumentengidsen (Dennis & Eva) met lokale en regionale instrumenten. Dennis ondersteunt werkgeversdienstverlening, Eva ondersteunt begeleiding van werkzoekenden. Het onderscheid met Re-integratievoorziening: instrument = catalogus-item (wat is beschikbaar), re-integratievoorziening = toekenning (ingezet voor specifieke persoon)."

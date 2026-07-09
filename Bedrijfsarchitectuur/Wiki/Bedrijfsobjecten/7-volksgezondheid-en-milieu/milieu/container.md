@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Container
-domein: [Milieu]
+onderwerp: [Milieu]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Container"
@@ -12,18 +12,18 @@ ggm_taakveld: "7 Volksgezondheid en Milieu"
 ggm_diagram: [Diagram Afval Ophalen]
 ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38]
 ggm_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Container"
 ggm_gemma_guid: "a9b50546-d72d-4e60-8da5-184a27a626c5"
 ggm_gemma_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a9b50546-d72d-4e60-8da5-184a27a626c5"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Container** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Containertype** (classificatie) — Typering/referentietabel
@@ -32,7 +32,7 @@ analyse_ggm_dekking: |
   - **Vuilniswagen** (detail) — Detailgegeven (weinig attributen)
   - **Vulgraadmeting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Rit"
     ggm_guid: "EAID_832DA9A0_0E64_4d41_8266_38418B095919"
@@ -43,7 +43,7 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Grondstofstroom]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1
+    kardinaliteit: "1"
     beschrijving: geschikt voor één fractie
   - type: associatie
     bedrijfsobject: "[[Milieustraat]]"

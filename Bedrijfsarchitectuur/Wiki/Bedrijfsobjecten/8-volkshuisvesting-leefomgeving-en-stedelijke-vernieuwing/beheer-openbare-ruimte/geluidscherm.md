@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Geluidscherm
-domein: [geluid]
+onderwerp: [geluid]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Geluidsscherm"
@@ -12,23 +12,23 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: [EAPK_C3BA35EC_ABFA_4a7d_BEE9_07FF7563442D]
 ggm_definitie: "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. (IMGeo)"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Geluidsscherm**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Scheiding** (detail) — Detailgegeven
 bo_definitie: "Een scheiding bedoeld om geluidshinder in de buitenlucht te verminderen. (IMGeo)"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [beheer openbare ruimte, maatregelenonderzoek, actieplan geluid]
 bedrijfsfuncties: [beheer openbare ruimte, milieubeheer]
 bo_relaties:
@@ -43,9 +43,9 @@ bo_relaties:
     kardinaliteit: "*..*"
     beschrijving: Beschermt geluidgevoelige gebouwen
   - type: generalisatie
-    bedrijfsobject: Scheiding
+    bedrijfsobject: "Scheiding"
     richting: "naar-dit-BO"
-    kardinaliteit: 1
+    kardinaliteit: "1"
     beschrijving: Geluidscherm is een specialisatie van Scheiding (GGM)
 ---
 ## BO-criteria toetsing

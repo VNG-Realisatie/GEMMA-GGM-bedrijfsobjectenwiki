@@ -32,7 +32,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Server** als directe tegenhanger.
 bo_definitie: "Computer die in een netwerk een ondersteunende taak vervult."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/database|Database]]"

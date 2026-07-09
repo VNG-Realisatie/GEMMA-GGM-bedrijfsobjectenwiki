@@ -5,8 +5,8 @@ onderwerp: [Wonen]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Formele rechtspersoon van bewoners die gezamenlijk gedeelde of geclusterde woonruimte betrekken, met eigen aanvraagstatus in de huisvestingsverordening."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

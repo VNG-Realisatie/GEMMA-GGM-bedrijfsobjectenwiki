@@ -14,10 +14,10 @@ ggm_diagram: [Schuldhulp Hoofdlijnen, Schuldhulp Client, Schuldhulp Schuldhulpor
 ggm_definitie: "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert."
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
+ggm_gemma_naam:
 ggm_gemma_guid: "id-839017b2-0f95-42d0-ab2b-e873636340da"
-ggm_gemma_definitie: ""
-ggm_gemma_type: ""
+ggm_gemma_definitie:
+ggm_gemma_type:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Schuldhulptraject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -36,7 +36,7 @@ analyse_ggm_dekking: |
   - **Uitstroom** (detail) — Detailgegeven (geassocieerd met BO)
   - **VoorlopigeVoorziening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Samenstel van achtereenvolgens uit te voeren en onderling samenhangende deelhandelingen of van opeenvolgende stadia in een proces, voorgesteld als een route die via opeenvolgende bestemmingen naar de eindbestemming voert."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_via_kandidaten:
   - ggm_entiteit: "Begeleiding"

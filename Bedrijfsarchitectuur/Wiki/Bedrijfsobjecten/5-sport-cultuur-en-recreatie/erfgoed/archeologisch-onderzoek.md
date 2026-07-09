@@ -1,30 +1,30 @@
 ---
 type: element
 naam: Archeologisch onderzoek
-domein:
+onderwerp:
 - Cultuur
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Project
 ggm_guid: EAID_7087D528_7024_4569_876A_C4605A00546D
 ggm_uml_type: Class
-ggm_beleidsdomein: Organisatie-indeling
+ggm_beleidsdomein: "Organisatie-indeling"
 ggm_taakveld: 9 Interne Organisatie
 ggm_diagram: []
 ggm_diagram_ids:
 - EAPK_2883DC11_62ED_42cd_A0D6_855258F32079
-ggm_definitie: Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_definitie: "Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Project
-ggm_gemma_guid: 132ee7cb-0cfc-47d1-a50c-dd7e3a656651
-ggm_gemma_definitie: Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat.
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651
-ggm_gemma_bron: ''
+ggm_gemma_guid: "132ee7cb-0cfc-47d1-a50c-dd7e3a656651"
+ggm_gemma_definitie: "Geheel van activiteiten uitgevoerd in een tijdelijk samenwerkingsverband gericht op het binnen bepaalde randvoorwaarden (bv. tijd, geld) bereiken van een vooraf gedefinieerd resultaat."
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-132ee7cb-0cfc-47d1-a50c-dd7e3a656651"
+ggm_gemma_bron:
 ggm_gemma_alternate_name: Project (Organisatie)
 
 ggm_duplicaat_entiteiten:
@@ -47,8 +47,8 @@ analyse_ggm_dekking: |
   - **Vlak** (detail) — Detailgegeven
   - **boring** (detail) — Detailgegeven (geassocieerd met BO)
   - **locatie** (detail) — Generiek kern-concept (Vastgoedobject); cross-domein
-bo_definitie: Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten.
-bo_toelichting: ''
+bo_definitie: "Archeologisch onderzoeksproject dat door of in opdracht van de gemeente als bevoegd gezag wordt uitgevoerd, met bijbehorende besluiten, documentatie en vondsten."
+bo_toelichting:
 bedrijfsprocessen:
 - Archeologisch onderzoek
 - Vergunningverlening
@@ -58,14 +58,14 @@ bedrijfsfuncties:
 - Vergunningverlening
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|Archeologische vindplaats]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vindplaats|Archeologische vindplaats]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: Een onderzoek vindt plaats op een vindplaats
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|Archeologische vondst]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archeologische-vondst|Archeologische vondst]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Een onderzoek levert vondsten op
 ---
 

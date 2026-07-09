@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Verplichte beoordeling door overheden van de gevolgen voor de grondrechten bij inzet van een hoog-risico AI-systeem."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"

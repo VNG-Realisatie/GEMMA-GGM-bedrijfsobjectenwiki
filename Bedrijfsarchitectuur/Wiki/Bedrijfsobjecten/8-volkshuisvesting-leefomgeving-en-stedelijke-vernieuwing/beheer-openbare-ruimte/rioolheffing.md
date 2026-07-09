@@ -1,41 +1,41 @@
 ---
 type: element
 naam: Rioolheffing
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "procesobject"
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
 ggm_beleidsdomein: "Beheer Openbare Ruimte"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Gemeentelijke belasting voor de dekking van kosten van water- en rioleringsbeheer, geheven bij perceeleigenaren en grootverbruikers."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Afvalstoffenheffing]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Vergelijkbare gemeentelijke heffing voor een ander domein
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied|Rioleringsgebied]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Rioolheffing financiert het beheer van rioleringsgebieden
 bedrijfsprocessen: [Tariefvaststelling rioolheffing, Heffing en inning, Kostentoerekening]
 bedrijfsfuncties: [Beheer openbare ruimte, Belastingheffing]

@@ -13,19 +13,19 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Burgerzaken, "(Zaak)objecten", "Huishouden en Huwelijk"]
 ggm_diagram_ids: []
 ggm_definitie: "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GGM"
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -41,7 +41,7 @@ analyse_ggm_dekking: |
   - **Verblijfstitel** (detail) — koppelgegeven (IND)
   - **VerstrekkingsbeperkingPartieelIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
 bo_definitie: "Een individueel menselijk wezen, ingeschreven in het Nederlands Bevolkingsregister."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

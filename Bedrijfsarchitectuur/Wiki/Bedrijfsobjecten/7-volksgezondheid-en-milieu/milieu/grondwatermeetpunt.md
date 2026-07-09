@@ -1,31 +1,31 @@
 ---
 type: element
 naam: Grondwatermeetpunt
-domein: [Milieu]
+onderwerp: [Milieu]
 archimate_type: "business-object"
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_beleidsdomein:
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Fysiek meetpunt in een monitoringsnetwerk voor het meten van grondwaterkwaliteit en -stand."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [gebiedsgericht grondwaterbeheer, milieumonitoring, bodemsanering]
 bedrijfsfuncties: [milieubeheer]
 bo_relaties:

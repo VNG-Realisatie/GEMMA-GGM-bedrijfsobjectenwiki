@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Zorgmelding
-domein:
+onderwerp:
 - maatschappelijke ondersteuning
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -14,19 +14,19 @@ ggm_diagram:
 - Zorgmelding
 ggm_diagram_ids:
 - EAID_96845001_991F_4bd6_9249_FBE26A26AC4C
-ggm_definitie: Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie: "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Zorgmelding** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Incident** (detail) — Detailgegeven
@@ -34,22 +34,22 @@ analyse_ggm_dekking: |
   - **Leefgebied** (detail) — Detailgegeven (weinig attributen)
   - **Zorgelijke Situatie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een Zorgmelding is een officiële melding bij een gemeente of jeugdhulporganisatie waarin zorgen worden geuit over de veiligheid, gezondheid, of ontwikkeling van een kind of jongere."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: NatuurlijkPersoon
+  bedrijfsobject: "NatuurlijkPersoon"
   richting: van-dit-BO
-  kardinaliteit: '1'
+  kardinaliteit: "1"
   beschrijving: betreft een persoon
 - type: associatie
-  bedrijfsobject: Medewerker
+  bedrijfsobject: "Medewerker"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: betrokken professional
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding|Aanvraag of melding]]"
   richting: naar-dit-BO
-  kardinaliteit: ''
+  kardinaliteit:
   beschrijving: specialisatie van AanvraagOfMelding (abstract)
 bedrijfsprocessen:
 - melding kindermishandeling beoordelen

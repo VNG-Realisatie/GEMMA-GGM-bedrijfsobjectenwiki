@@ -13,25 +13,25 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: [Diagram Inkomsten]
 ggm_diagram_ids: [EAID_7683FAC9_3F9C_4e21_8D02_5B9FDEBC7D1F]
 ggm_definitie: "Het gedeelte uit je inkomen of vermogen dat je zelf zou kunnen bijdragen in de kosten (?) voor de bijzondere bijstand(?).De draagkracht is de uitkomst van een ingewikkelde berekening maar wordt voor een jaar vastgesteld en gebruikt."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Draagkracht** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Draagkrachtregime** (onderdeel) — Onderdeel van Draagkracht
 bo_definitie: "Het gedeelte uit je inkomen of vermogen dat je zelf zou kunnen bijdragen in de kosten (?) voor de bijzondere bijstand(?). De draagkracht is de uitkomst van een ingewikkelde berekening maar wordt voor een jaar vastgesteld en gebruikt."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Inkomensvoorziening]]"

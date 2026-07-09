@@ -4,28 +4,28 @@ naam: Marktstandplaats
 onderwerp: [Economie]
 archimate_type: "business-object"
 grondslag: "procesobject"
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Marktstandplaats"
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Aangewezen locatie in de openbare ruimte waar goederen of diensten te koop worden aangeboden met verplaatsbare fysieke middelen, gereguleerd via de APV."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [standplaatsvergunningverlening, branchering ambulante handel, monitoring detailhandel]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
 bo_relaties:

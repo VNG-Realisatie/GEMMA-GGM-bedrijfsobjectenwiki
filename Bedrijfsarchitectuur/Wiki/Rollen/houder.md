@@ -5,8 +5,8 @@ onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Degene met feitelijke macht over een zaak (bv. een hond of motorvoertuig), uitdrukkelijk onderscheiden van de eigenaar."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

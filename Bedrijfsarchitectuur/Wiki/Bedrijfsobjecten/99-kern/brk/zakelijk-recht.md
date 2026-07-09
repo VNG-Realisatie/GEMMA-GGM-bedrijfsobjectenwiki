@@ -28,15 +28,15 @@ ggm_diagram_ids:
   - EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291
 ggm_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
 ggm_toelichting: "Zie de catalogus van de BRK. Rechten worden beschouwd vanuit één onroerende zaak. Recht vormt de relatie tussen één onroerende zaak en één of meer tenaamgestelde personen."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: ZakelijkRecht
-ggm_gemma_guid: 671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f
+ggm_gemma_guid: "671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f"
 ggm_gemma_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-671ec5bd-e8ac-44d7-8a01-cc9b439c6c5f"
 ggm_gemma_bron: "BRK"
 ggm_gemma_alternate_name: "ZakelijkRecht (RSGB Model)"
@@ -52,7 +52,7 @@ analyse_ggm_dekking: |
   - **KpOnstaanUit** (detail) — Detailgegeven (geassocieerd met BO)
   - **SplitsingstekeningReferentie** (detail) — Detailgegeven
 bo_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "KadastraleOnroerendeZaakAantekening"
     ggm_guid: "EAID_0BC18F79_3560_4e43_8154_7CCDC7D67A03"

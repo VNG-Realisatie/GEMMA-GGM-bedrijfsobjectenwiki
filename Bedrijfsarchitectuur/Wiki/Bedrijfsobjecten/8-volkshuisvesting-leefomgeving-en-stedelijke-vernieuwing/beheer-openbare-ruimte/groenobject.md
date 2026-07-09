@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Groenobject
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Groenobject"
@@ -12,29 +12,29 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: [EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3]
 ggm_definitie: "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Groenobject"
 ggm_gemma_guid: "360b8000-41ce-453f-bed8-b0cc7fa21164"
 ggm_gemma_definitie: "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-360b8000-41ce-453f-bed8-b0cc7fa21164"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Groenobject** als directe tegenhanger.
 bo_definitie: "Kleinste functioneel onafhankelijk stukje van een terrein dat er binnen het objecttype Terrein van NEN 3610 wordt onderscheiden, met aaneengesloten vegetatie."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Groenbeheer, Groencompensatie, Toetsing omgevingsvergunning, Meerjarengroenprogramma]
 bedrijfsfuncties: [Groenbeheer, Openbare ruimte, Ruimtelijke ordening]
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Beheerobject (GGM)
+    bedrijfsobject: "Beheerobject (GGM)"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Groenobject is een specialisatie van Beheerobject
   - type: associatie
     bedrijfsobject: "[[Boom]]"

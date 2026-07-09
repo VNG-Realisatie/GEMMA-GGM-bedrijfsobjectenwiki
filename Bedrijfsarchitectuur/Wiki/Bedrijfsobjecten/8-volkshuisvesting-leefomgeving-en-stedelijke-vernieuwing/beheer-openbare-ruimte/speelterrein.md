@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Speelterrein
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Speelterrein"
@@ -12,24 +12,24 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: "Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen."
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Speelplek, Speelgelegenheid"
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Speelterrein** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **FunctioneelGebied** (detail) — Detailgegeven (weinig attributen)
   - **Stuwgebied** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Geheel van begroeiing verharding opstallen en speelwerktuigen bedoeld als speelplaats voor kinderen."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Buurtplek
     omschrijving: "Speelterrein van ≥3.000 m² voor de hele buurt, ingericht voor alle leeftijden met ontmoetingsfunctie"
@@ -53,7 +53,7 @@ bo_subtypes:
     ggm_attribuut: type
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: FunctioneelGebied (GGM)
+    bedrijfsobject: "FunctioneelGebied (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Speelterrein is een specialisatie van FunctioneelGebied in het GGM

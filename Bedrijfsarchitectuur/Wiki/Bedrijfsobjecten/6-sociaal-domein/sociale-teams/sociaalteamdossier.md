@@ -1,7 +1,7 @@
 ---
 type: element
 naam: SociaalTeamDossier
-domein:
+onderwerp:
 - maatschappelijke ondersteuning
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -18,17 +18,17 @@ ggm_definitie: SociaalTeamDossier is een dossier-entiteit die de geïntegreerde 
   of gezin omvat.
 ggm_toelichting: In het Model Sociale Teams van het gemeentelijke gegevenslandschap representeert SociaalTeamDossier de centrale registratie van alle relevante informatie rondom een casus die door een sociaal
   team wordt behandeld.
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **SociaalTeamDossier** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Behandelsoort** (classificatie) — Typering/referentietabel
@@ -36,32 +36,32 @@ analyse_ggm_dekking: |
   - **Bijzonderheidsoort** (classificatie) — Typering/referentietabel
   - **SociaalteamDossiersoort** (classificatie) — Typering/referentietabel
 bo_definitie: "SociaalTeamDossier is een dossier-entiteit die de geïntegreerde registratie van gegevens over ondersteuning, gesprekken, interventies en casusontwikkeling van een sociaal team voor een inwoner of gezin omvat."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"
   richting: naar-dit-BO
-  kardinaliteit: '1'
+  kardinaliteit: "1"
   beschrijving: behoort bij een cliënt
 - type: associatie
-  bedrijfsobject: Clientbegeleider
+  bedrijfsobject: "Clientbegeleider"
   richting: naar-dit-BO
-  kardinaliteit: '1'
+  kardinaliteit: "1"
   beschrijving: wordt beheerd door een cliëntbegeleider
 - type: associatie
-  bedrijfsobject: Behandeling
+  bedrijfsobject: "Behandeling"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: bevat behandeling(en)
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|Doelstelling]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|Doelstelling]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: heeft doelstelling(en)
 - type: associatie
-  bedrijfsobject: SociaalteamDossiersoort
+  bedrijfsobject: "SociaalteamDossiersoort"
   richting: van-dit-BO
-  kardinaliteit: '1'
+  kardinaliteit: "1"
   beschrijving: is van een bepaald dossiersoort
 bedrijfsprocessen:
 - casusregistratie sociaal team

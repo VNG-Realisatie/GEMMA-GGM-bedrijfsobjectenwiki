@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Beoordeling
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Beoordeling** als directe tegenhanger.
 bo_definitie: "Beoordeling is het oordeel van de professional over het functioneren van een leerling"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Planningsgesprek
     omschrijving: "Gesprek aan het begin van de cyclus waarin doelstellingen en verwachtingen worden vastgelegd"

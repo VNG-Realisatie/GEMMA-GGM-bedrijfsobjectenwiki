@@ -41,7 +41,7 @@ analyse_ggm_dekking: |
   - **OverigGebouwdObject** (detail) — Detailgegeven (weinig attributen)
   - **VerblijfadresIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
 bo_definitie: "Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Reserveligplaats"
     omschrijving: "Tijdelijke ligplaats voor noodgevallen zoals kade-onderhoud of verplaatsing."

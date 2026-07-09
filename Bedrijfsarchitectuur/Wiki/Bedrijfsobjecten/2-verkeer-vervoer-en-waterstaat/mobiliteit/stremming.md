@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Stremming
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Stremming"
@@ -12,22 +12,22 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Verkeer en Vervoer: Stremmingen]
 ggm_diagram_ids: [EAID_72A4FC74_EE1B_4bc1_B5BB_540FCE4D04B1]
 ggm_definitie: "Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Stremming"
 ggm_gemma_guid: "563fd27c-7299-4311-8f40-60a95b9da4b5"
 ggm_gemma_definitie: "Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-563fd27c-7299-4311-8f40-60a95b9da4b5"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Stremming** als directe tegenhanger.
 bo_definitie: "Situatie waarbij de doorstroming van het (vaar)wegverkeer plaatselijk is geblokkeerd als gevolg van een incident"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Verkeersmanagement, Incidentmanagement]
 bedrijfsfuncties: [Verkeersmanagement]
 ---

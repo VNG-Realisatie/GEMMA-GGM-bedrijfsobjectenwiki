@@ -1,41 +1,41 @@
 ---
 type: element
 naam: Buitenzwemplek
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "procesobject"
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
 ggm_beleidsdomein: "Beheer Openbare Ruimte"
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Locatie in open water waar buiten gezwommen wordt, met onderscheid tussen officieel aangewezen en niet-officiële zwemplekken."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Waterobject]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Zwemplek is een locatie in een waterobject
   - type: associatie
     bedrijfsobject: "[[Zwembad]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Beide voorzien in zwembehoefte maar verschillend type — Zwembad is gebouw, Buitenzwemplek is open water
 bedrijfsprocessen: [Zwemwaterkwaliteitsmonitoring, Oeverinrichting, Locatiebeheer, Aanwijzing officieel zwemwater]
 bedrijfsfuncties: [Beheer openbare ruimte, Waterbeheer, Recreatiebeheer]

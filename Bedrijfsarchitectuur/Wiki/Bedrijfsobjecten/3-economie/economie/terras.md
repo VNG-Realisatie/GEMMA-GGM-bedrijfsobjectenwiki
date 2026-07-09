@@ -1,38 +1,38 @@
 ---
 type: element
 naam: Terras
-domein: [Economie]
+onderwerp: [Economie]
 archimate_type: "business-object"
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_beleidsdomein:
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Tijdelijk gebruik van openbare ruimte door een horecabedrijf voor het plaatsen van tafels en stoelen, gereguleerd via de beleidsregel terrassen."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [terrasvergunningverlening, handhaving terrassen]
 bedrijfsfuncties: [vergunningverlening, handhaving, beheer openbare ruimte]
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1
+    kardinaliteit: "1"
     beschrijving: Een terras hoort bij een horecabedrijf
 ---
 

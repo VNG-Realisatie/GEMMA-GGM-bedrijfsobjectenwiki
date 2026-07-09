@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Declaratie
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -33,7 +33,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Declaratie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Declaratiesoort** (classificatie) — Typering/referentietabel
 bo_definitie: "Een opgave van te vergoeden kosten."
-bo_toelichting: ''
+bo_toelichting:
 bo_homoniemen:
   - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie|Zorgdeclaratie]]"
     ggm_entiteit: Declaratie

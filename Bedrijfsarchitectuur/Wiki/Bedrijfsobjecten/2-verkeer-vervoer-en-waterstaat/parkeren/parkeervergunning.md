@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Parkeervergunning
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Parkeervergunning"
@@ -12,41 +12,41 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Officiele toestemming dat je op een bepaalde plek mag parkeren"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Parkeervergunning"
 ggm_gemma_guid: "1486de79-ad71-4dce-8473-f23f1e9c436c"
 ggm_gemma_definitie: "Officiele toestemming dat je op een bepaalde plek mag parkeren"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-1486de79-ad71-4dce-8473-f23f1e9c436c"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Parkeervergunning** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Productgroep** (classificatie) — Administratieve classificatie
   - **Productsoort** (classificatie) — Administratieve classificatie
 bo_definitie: "Officiele toestemming dat je op een bepaalde plek mag parkeren"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vergunningen en ontheffingen]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Parkeervergunning is een specialisatie van Vergunningen en ontheffingen
   - type: associatie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Parkeervergunning geldt binnen een parkeerzone
   - type: associatie
     bedrijfsobject: "[[Parkeerrecht]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Parkeervergunning verleent een parkeerrecht
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"

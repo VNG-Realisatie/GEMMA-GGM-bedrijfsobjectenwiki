@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Vastgoed Leveranciers, Diagram Inkoop Geen Inhuur]
 ggm_diagram_ids: [EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9, EAID_6683520C_EE21_4038_A418_D4C957172DF2]
 ggm_definitie: "Kan een (enkel of meervoudige) onderhandse aanbesteding, of een nationale of Europese aanbesteding"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -37,7 +37,7 @@ analyse_ggm_dekking: |
   - **SelectietabelAanbesteding** (detail) — Detailgegeven
   - **StartformulierAanbesteden** (detail) — Detailgegeven
 bo_definitie: "Procedure waarmee de gemeente een opdracht voor werken, leveringen of diensten in de markt zet en gunt aan een ondernemer."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Kwalificatie"
     ggm_guid: "EAID_AB2AED85_D2B0_45cf_9B1F_C6005E894494"

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Beschikking
-domein: [Maatschappelijke Ondersteuning]
+onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,19 +13,19 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: ["Sociaal Domein Beschikking en Voorziening: Domain Objects", Beperkingen, AanvraagOfMelding]
 ggm_diagram_ids: [EAID_5AE29494_3572_4924_B2B8_3206E55D71BB, EAID_9B278A50_862A_4085_B362_C41392101916, EAID_5F3782EB_C416_461c_A9FA_40991A7F0165]
 ggm_definitie: "In het bestuursrecht: Een beslissing van een overheidsorgaan in een concreet geval, bijvoorbeeld het verlenen van een bouwvergunning. In het civiele recht: een rechterlijke uitspraak in een procedure die begint met een verzoekschrift."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - "EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2"
@@ -54,7 +54,7 @@ analyse_ggm_dekking: |
   - **Voorwaarde** (detail) — Detailgegeven (weinig attributen)
   - **Voorwaardetype** (classificatie) — Typering/referentietabel
 bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Verzoek om Toewijzing"
     ggm_guid: "EAID_9F392B0B_1654_4b4e_9261_F0A90DA1F7BD"

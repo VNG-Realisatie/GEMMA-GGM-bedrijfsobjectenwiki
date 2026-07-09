@@ -1,7 +1,7 @@
 ---
 type: element
 naam: School
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,25 +13,25 @@ ggm_taakveld: "4 Onderwijs"
 ggm_diagram: [Diagram Beslissingen Leerplicht, "Onderwijs: Leerlingen", "Onderwijs: Relaties met Kern", Diagram Sportbeleid]
 ggm_diagram_ids: [EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308, EAID_33E38059_C973_43ff_97EC_B629923074FF, EAID_D33047E8_3A39_4171_A7EC_93B137023ED8, EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F]
 ggm_definitie: "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: School
-ggm_gemma_guid: f2c26bb2-4c76-4b03-8ceb-6397b5a12ae8
+ggm_gemma_guid: "f2c26bb2-4c76-4b03-8ceb-6397b5a12ae8"
 ggm_gemma_definitie: "Gebouw in gebruik voor basis, middelbaar of hoger onderwijs."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f2c26bb2-4c76-4b03-8ceb-6397b5a12ae8
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-f2c26bb2-4c76-4b03-8ceb-6397b5a12ae8"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **School** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Onderwijssoort** (detail) — Classificatie; attribuut van School
 bo_definitie: "Instelling voor funderend onderwijs waarvoor de gemeente verantwoordelijk is voor de huisvesting."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: PO-school
     omschrijving: "School voor primair onderwijs"

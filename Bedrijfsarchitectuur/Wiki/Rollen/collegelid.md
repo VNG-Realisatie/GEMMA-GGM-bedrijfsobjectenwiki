@@ -10,7 +10,7 @@ ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Het lidmaatschap van het college van burgemeester en wethouders: de verantwoordelijkheid van dagelijks bestuur en portefeuillebeheer, vervuld door een benoemde persoon."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/collegelid|Collegelid (bedrijfsobject)]]"
     archimate_type: business-object

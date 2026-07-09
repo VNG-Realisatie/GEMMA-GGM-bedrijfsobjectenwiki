@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Werknemer
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -38,7 +38,7 @@ analyse_ggm_dekking: |
   - **Relatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Rol** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Dienstverband]]"

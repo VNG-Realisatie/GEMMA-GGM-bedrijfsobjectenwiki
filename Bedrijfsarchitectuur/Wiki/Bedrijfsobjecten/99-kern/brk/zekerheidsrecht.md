@@ -19,26 +19,26 @@ ggm_diagram_ids:
   - EAID_FF8B8883_467A_422e_A894_C513307057AF
   - EAID_AE0CCD75_E232_45fb_82A3_BF38667D26EC
 ggm_definitie: "Een zekerheidsrecht is een beperkt recht (hypotheek) of een beperking (beslag)."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Zekerheidsrecht
-ggm_gemma_guid: 0f33d06b-3e1f-4693-87af-2a5a9b739219
+ggm_gemma_guid: "0f33d06b-3e1f-4693-87af-2a5a9b739219"
 ggm_gemma_definitie: "Een zekerheidsrecht is een beperkt recht (hypotheek) of een beperking (beslag)."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0f33d06b-3e1f-4693-87af-2a5a9b739219"
 ggm_gemma_bron: "BRK"
-ggm_gemma_alternate_name: ""
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Zekerheidsrecht** als directe tegenhanger.
 bo_definitie: "Een hypotheek of beslag op een onroerende zaak, geregistreerd in de BRK."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Kadastraal Perceel]]"

@@ -26,30 +26,30 @@ ggm_diagram_ids:
   - EAID_C9CE09B7_32EF_40eb_9C82_7FD6EDEA1D9E
 ggm_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet)."
 ggm_toelichting: "Een KADASTRAAL PERCEEL behoort tezamen met het APPARTEMENTSRECHT tot de generalisatie KADASTRALE ONROERENDE ZAAK. Percelen worden cartografisch gerepresenteerd door een tweedimensionale vlakbegrenzing."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: KadastraalPerceel
-ggm_gemma_guid: 0fd3695d-aa71-4f35-a8bf-7886c70e0ed8
+ggm_gemma_guid: "0fd3695d-aa71-4f35-a8bf-7886c70e0ed8"
 ggm_gemma_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet)."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0fd3695d-aa71-4f35-a8bf-7886c70e0ed8"
 ggm_gemma_bron: "BRK."
-ggm_gemma_alternate_name: ""
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **KadastraalPerceel**.
 bo_definitie: "Een KADASTRALE ONROERENDE ZAAK dat een kadastraal geïdentificeerd en met kadastrale grenzen begrensd deel van het Nederlands grondgebied betreft (art. 1 lid 1 Kadasterwet)."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Kadastraal Perceel]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Specialisatie van KadastraleOnroerendeZaak (abstract)"
   - type: associatie
     bedrijfsobject: "[[Zakelijk Recht]]"

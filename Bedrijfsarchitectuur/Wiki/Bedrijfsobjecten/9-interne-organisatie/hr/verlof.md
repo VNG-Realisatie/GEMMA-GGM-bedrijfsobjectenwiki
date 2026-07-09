@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Verlof
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -31,7 +31,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Verlof** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Verlofsoort** (classificatie) — Typering/referentietabel
 bo_definitie: "Een periode waarin iemand toestemming heeft om iets te doen, in het bijzonder om afwezig te zijn."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werknemer]]"

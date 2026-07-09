@@ -5,8 +5,8 @@ onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Functionaris die de coördinatie van informatiebeveiliging verzorgt en het bestuur adviseert (BIO2)."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

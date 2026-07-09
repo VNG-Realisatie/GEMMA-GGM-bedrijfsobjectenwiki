@@ -5,8 +5,8 @@ onderwerp: [Openbare Gezondheid]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Regionale gezondheidsdienst, georganiseerd als gemeenschappelijke regeling, die namens deelnemende gemeenten publieke-gezondheidstaken uitvoert."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

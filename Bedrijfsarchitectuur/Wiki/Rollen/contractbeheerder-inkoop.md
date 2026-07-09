@@ -5,8 +5,8 @@ onderwerp: [Inkoop]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Contractbeheerrol: administratief verantwoordelijk voor de vastlegging en bewaking van het contract."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

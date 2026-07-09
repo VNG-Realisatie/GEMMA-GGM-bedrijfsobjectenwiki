@@ -5,8 +5,8 @@ onderwerp: [Beheer Openbare Ruimte]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Verantwoordelijkheid voor het beheer van een vaarweg; kan door gemeente, Rijkswaterstaat of waterschap vervuld worden."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

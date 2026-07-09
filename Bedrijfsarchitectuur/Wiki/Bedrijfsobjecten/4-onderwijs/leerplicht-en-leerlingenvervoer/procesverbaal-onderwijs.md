@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Procesverbaal Onderwijs
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,19 +18,19 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: ProcesverbaalOnderwijs
-ggm_gemma_guid: aa2cb2d9-8482-473c-a5bf-c042cb39352a
+ggm_gemma_guid: "aa2cb2d9-8482-473c-a5bf-c042cb39352a"
 ggm_gemma_definitie: "Een officieel document dat een overtreding van de leerplichtwet vastlegt."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-aa2cb2d9-8482-473c-a5bf-c042cb39352a"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Procesverbaal Onderwijs** als directe tegenhanger.
 bo_definitie: "Een officieel document dat een overtreding van de leerplichtwet vastlegt."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

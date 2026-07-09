@@ -10,7 +10,7 @@ ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Het lidmaatschap van de gemeenteraad: de verantwoordelijkheid van volksvertegenwoordiging, kaderstelling en controle, vervuld door een gekozen persoon."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid|Raadslid (bedrijfsobject)]]"
     archimate_type: business-object

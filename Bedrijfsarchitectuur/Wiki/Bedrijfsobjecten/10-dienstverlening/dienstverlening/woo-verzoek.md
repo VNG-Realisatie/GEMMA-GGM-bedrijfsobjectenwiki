@@ -29,22 +29,22 @@ ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
-bo_definitie: Verzoek van eenieder aan een bestuursorgaan om openbaarmaking van publieke informatie op grond van de Wet open overheid.
-bo_toelichting: ''
+bo_definitie: "Verzoek van eenieder aan een bestuursorgaan om openbaarmaking van publieke informatie op grond van de Wet open overheid."
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: [[aanvraag-of-melding]]
+    bedrijfsobject: "[[aanvraag-of-melding]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Woo-verzoek is een specialisatie van Aanvraag of Melding
   - type: associatie
-    bedrijfsobject: [[zaak]]
+    bedrijfsobject: "[[zaak]]"
     richting: naar-dit-BO
     kardinaliteit: "1..1"
     beschrijving: Woo-verzoek wordt behandeld als zaak
   - type: associatie
-    bedrijfsobject: [[document]]
+    bedrijfsobject: "[[document]]"
     richting: van-dit-BO
     kardinaliteit: "0..*"
     beschrijving: Woo-verzoek leidt tot verstrekking van documenten

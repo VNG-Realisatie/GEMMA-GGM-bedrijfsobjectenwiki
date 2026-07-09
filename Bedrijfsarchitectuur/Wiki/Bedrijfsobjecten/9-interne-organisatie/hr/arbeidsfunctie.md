@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Arbeidsfunctie
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -40,7 +40,7 @@ bo_homoniemen:
     toelichting: "Ruimtelijke gebiedsfunctie (centrumgebied, bedrijventerrein) — ander concept dan arbeidsfunctie"
 
 bo_definitie: "Een samenhangende verzameling van rollen. Een functie kan worden gedefinieerd als het samenstel van feitelijk opgedragen taken en werkzaamheden."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Dienstverband]]"

@@ -4,26 +4,26 @@ naam: Partijsubsidie
 onderwerp: [Bestuur]
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: "~"
-ggm_guid: ""
-ggm_uml_type: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
 ggm_beleidsdomein: "Politiek (niet in GGM)"
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: "~"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Door de gemeente verstrekte financiële bijdrage aan een decentrale politieke partij met ten minste één raadszetel, bestemd voor partijorganisatie."
 bo_toelichting: "Nadrukkelijk iets anders dan fractieondersteuning (art. 33 Gemeentewet): gescheiden geldstromen met verschillende aanvragers (partijen vs. fracties), doelen (partijorganisatie vs. raadswerk) en juridische grondslagen."
 bedrijfsprocessen:

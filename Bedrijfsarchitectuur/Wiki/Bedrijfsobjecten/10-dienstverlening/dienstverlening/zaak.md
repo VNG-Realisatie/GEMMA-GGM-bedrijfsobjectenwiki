@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Zaak
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Zaak
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Catalogus RGBZ]
 ggm_diagram_ids: [EAID_A7DD83EA_D15D_46a9_9F35_4005FE06648A]
 ggm_definitie: "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GFO Zaken"
 ggm_gemma_naam: Zaak
 ggm_gemma_guid: "7d5124d4-f23d-432d-ad5a-dc7c1b0fac44"
 ggm_gemma_definitie: "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-7d5124d4-f23d-432d-ad5a-dc7c1b0fac44"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Zaak** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -35,7 +35,7 @@ analyse_ggm_dekking: |
   - **VerlengingZaak** (detail) — Detailgegeven (weinig attributen)
   - **ZAAK - Origineel** (detail) — Duplicaat van Zaak
 bo_definitie: "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]]"

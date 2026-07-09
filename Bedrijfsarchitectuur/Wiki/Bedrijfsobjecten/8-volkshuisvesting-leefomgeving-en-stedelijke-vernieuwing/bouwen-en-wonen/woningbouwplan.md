@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Woningbouwplan
-domein: [Wonen]
+onderwerp: [Wonen]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,11 +18,11 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Plan
-ggm_gemma_guid: e5933d4f-02b6-4851-a31e-8bc5b7cbaab6
+ggm_gemma_guid: "e5933d4f-02b6-4851-a31e-8bc5b7cbaab6"
 ggm_gemma_definitie: "Project waarin woningen worden gerealiseerd"
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5933d4f-02b6-4851-a31e-8bc5b7cbaab6"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -34,7 +34,7 @@ analyse_ggm_dekking: |
   - **Projectleider** (detail) — Detailgegeven (geassocieerd met BO)
   - **Projectontwikkelaar** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Project waarin woningen worden gerealiseerd"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
 bo_relaties:
   - type: associatie

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Brede Intake
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -18,37 +18,37 @@ ggm_definitie: De Brede Intake in het sociaal domein is een gestructureerd proce
   beeld te komen van wat nodig is om passende ondersteuning te bieden. Hierbij wordt niet alleen gekeken naar specifieke hulpvragen, zoals schulden of werkloosheid, maar ook naar onderliggende factoren,
   zoals gezondheidsproblemen, woonsituatie, en sociaal netwerk. Het doel is om vanuit een holistisch perspectief samenhangende oplossingen te vinden en de inwoner te ondersteunen bij het versterken van
   zelfredzaamheid en participatie.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Brede Intake
-ggm_gemma_guid: 2d7f4231-96e8-4424-a656-c52473ea36dc
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656-c52473ea36dc
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_guid: "2d7f4231-96e8-4424-a656-c52473ea36dc"
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-2d7f4231-96e8-4424-a656-c52473ea36dc"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Brede Intake** als directe tegenhanger.
-bo_definitie: Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt.
-bo_toelichting: ''
+bo_definitie: "Gestructureerd gesprek waarin de gemeente samen met de inburgeraar diens leefsituatie, vaardigheden en ondersteuningsbehoefte in kaart brengt."
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|Asielstatushouder]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Asielstatushouder doorloopt een brede intake
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|Gezinsmigrant]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|Gezinsmigrant]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Gezinsmigrant doorloopt een brede intake
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Resulteert in een PIP
 ---
 

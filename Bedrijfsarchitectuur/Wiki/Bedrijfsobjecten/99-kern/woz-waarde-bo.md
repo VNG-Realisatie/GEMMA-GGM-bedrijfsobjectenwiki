@@ -1,11 +1,11 @@
 ---
 type: element
 naam: WOZ-waarde
-domein:
+onderwerp:
 - Belastingen
 archimate_type: business-object
 grondslag: ggm-entiteit
-ggm_entiteit: WOZ-Waarde
+ggm_entiteit: "WOZ-Waarde"
 ggm_guid: EAID_7C387F42_EC1A_4a78_B09B_533AAB03C0C2
 ggm_uml_type: Class
 ggm_beleidsdomein: RSGBPlus
@@ -22,23 +22,23 @@ ggm_diagram_ids:
 - EAID_5E76FEEA_58F8_41fd_9FF1_B44274C80FA5
 - EAID_4785522F_7798_4d8d_A437_48602B8ACA21
 - EAID_EB7771AD_FBE8_40e5_9CD7_2C8EED4A6C33
-ggm_definitie: De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **WOZ-Waarde** als directe tegenhanger.
 bo_definitie: "De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum."
-bo_toelichting: ''
+bo_toelichting:
 definitie: De op grond van de Wet WOZ vastgestelde waarde van het WOZ-object naar de genoemde waardepeildatum.
 bedrijfsprocessen:
 - WOZ-taxatie
@@ -51,9 +51,9 @@ bedrijfsfuncties:
 status: concept
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/woz-object|WOZ-object]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Elke WOZ-waarde hoort bij precies één WOZ-object
 ---
 

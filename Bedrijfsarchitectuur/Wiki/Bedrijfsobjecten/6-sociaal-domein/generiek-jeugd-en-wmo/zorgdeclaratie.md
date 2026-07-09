@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Zorgdeclaratie
-domein: [Maatschappelijke Ondersteuning]
+onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,24 +13,24 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: ["Sociaal Domein Beschikking en Voorziening: Domain Objects"]
 ggm_diagram_ids: [EAID_5AE29494_3572_4924_B2B8_3206E55D71BB]
 ggm_definitie: "Een opgave van te vergoeden kosten."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Declaratie**.
 bo_definitie: "Maandelijkse opgave van een zorgaanbieder aan de gemeente van geleverde Wmo- of jeugdhulpproducten met de te vergoeden kosten."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Declaratieregel"
     ggm_guid: "EAID_F73F6BFE_9CFE_4497_80E3_CADAA344CF69"

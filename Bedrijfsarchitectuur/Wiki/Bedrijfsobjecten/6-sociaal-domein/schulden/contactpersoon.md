@@ -18,7 +18,7 @@ ggm_duplicaat_entiteiten:
     taakveld: "6 Sociaal Domein"
     afwijkende_attributen: ""
 bo_definitie: "Contactpersoon van een organisatie."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/contactpersoon|Contactpersoon (rol)]]"
     archimate_type: business-role

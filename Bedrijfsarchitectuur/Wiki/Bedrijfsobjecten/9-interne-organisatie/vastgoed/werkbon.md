@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Vastgoed Domeinmodel, Vastgoed Leveranciers]
 ggm_diagram_ids: [EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291, EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9]
 ggm_definitie: "Document waarin een hoeveelheid werk is beschreven."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -34,7 +34,7 @@ analyse_ggm_dekking: |
   - **Aanbesteding Vastgoed** (detail) — Detailgegeven (geassocieerd met BO)
   - **Bouwdeelelement** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Opdracht voor uitvoering van een onderhoudstaak aan een vastgoedobject, met omschrijving van het werk, de locatie en de uitvoerder."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

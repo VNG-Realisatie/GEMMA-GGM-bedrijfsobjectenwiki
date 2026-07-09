@@ -5,8 +5,8 @@ onderwerp: [Vastgoed]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Verantwoordelijk voor het dagelijks onderhoud en de wensen ten aanzien van een vastgoedobject, tegenover de rol Eigenaar."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

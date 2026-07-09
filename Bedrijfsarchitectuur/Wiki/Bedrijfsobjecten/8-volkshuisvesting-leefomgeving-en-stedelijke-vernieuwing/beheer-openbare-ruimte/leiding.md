@@ -13,19 +13,19 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: ["EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3"]
 ggm_definitie: "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Leiding
 ggm_gemma_guid: "b2bdb817-4007-4c1b-ad24-43929884e0eb"
 ggm_gemma_definitie: "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -37,7 +37,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|Rioolleiding]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Rioolleiding is een specialisatie van Leiding"
 bedrijfsprocessen: []
 bedrijfsfuncties: [beheer openbare ruimte]

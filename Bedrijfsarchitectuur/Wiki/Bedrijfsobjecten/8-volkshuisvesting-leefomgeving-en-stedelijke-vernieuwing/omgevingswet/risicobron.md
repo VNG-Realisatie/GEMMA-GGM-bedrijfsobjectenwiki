@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Risicobron
-domein: [gevaarlijke-stoffen]
+onderwerp: [gevaarlijke-stoffen]
 archimate_type: "business-object"
 grondslag: ggm-afgeleid
 
@@ -32,14 +32,14 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft geen directe GGM-entiteit; het is een specialisatie van GGM-entiteit **Activiteit**, vastgelegd als generalisatie-relatie naar [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]].
 bo_definitie: "Een bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd."
-bo_toelichting: ''
-bedrijfsprocessen: ""
-bedrijfsfuncties: ""
+bo_toelichting:
+bedrijfsprocessen: []
+bedrijfsfuncties: []
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Risicobron is een specialisatie van Activiteit (een activiteit met externe veiligheidsrisico's)"
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Gebiedsaanwijzing]]"

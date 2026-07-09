@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Beschikking Leerlingenvervoer
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,12 +18,12 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: BeschikkingLeerlingenvervoer
-ggm_gemma_guid: 3f048a6b-523c-4e8e-a581-0fcc089f1ec6
+ggm_gemma_guid: "3f048a6b-523c-4e8e-a581-0fcc089f1ec6"
 ggm_gemma_definitie: "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3f048a6b-523c-4e8e-a581-0fcc089f1ec6"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
@@ -32,7 +32,7 @@ analyse_ggm_dekking: |
   - **Beslissing** (detail) — Detailgegeven (geassocieerd met BO)
   - **HALT-verwijzing** (detail) — Te specifiek; justitie-subtype
 bo_definitie: "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Aanvraag Leerlingenvervoer]]"

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Debiteur
-domein: [Financien, Terug-en-invordering]
+onderwerp: [Financien, Terug-en-invordering]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Debiteur"
@@ -12,18 +12,18 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: []
 ggm_diagram_ids: [EAPK_4F010A09_D9D0_4bcf_A233_8430F8EFE54A]
 ggm_definitie: "Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan"
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Schuldenaar"
-ggm_herkomst: ""
+ggm_herkomst:
 ggm_gemma_naam: "Debiteur"
 ggm_gemma_guid: "e21e51ee-3a32-444b-80c7-b6694ff37253"
 ggm_gemma_definitie: "Iemand aan wie een dienst of product geleverd is waardoor recht op een vergoeding is ontstaan"
-ggm_gemma_toelichting: ""
+ggm_gemma_toelichting:
 ggm_gemma_synoniemen: "Schuldenaar"
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e21e51ee-3a32-444b-80c7-b6694ff37253"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - "EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E"
@@ -37,7 +37,7 @@ analyse_ggm_dekking: |
   - **Leenbijstand** (onderdeel) — Onderdeel van Debiteur
   - **Leenbijstandvordering** (onderdeel) — Onderdeel van Debiteur
 bo_definitie: "Persoon of organisatie die een bedrag verschuldigd is aan de gemeente voor geleverde diensten of producten."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Persoon die een bedrag verschuldigd is aan de gemeente
 bedrijfsprocessen: [Facturering, Debiteurenadministratie, Invordering]
 bedrijfsfuncties: [Financieel beheer, Inning en invordering]

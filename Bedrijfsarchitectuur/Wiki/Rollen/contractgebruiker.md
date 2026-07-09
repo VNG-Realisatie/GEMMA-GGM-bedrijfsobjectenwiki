@@ -5,8 +5,8 @@ onderwerp: [Inkoop]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Contractbeheerrol: de interne afdeling of medewerker die daadwerkelijk gebruikmaakt van het gecontracteerde product/dienst."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

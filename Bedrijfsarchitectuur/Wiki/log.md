@@ -1,5 +1,24 @@
 # Wiki Log
 
+## [2026-07-09] fix | Frontmatter-stijl wiki-breed genormaliseerd (vervolg op enum-fix, plus een echte bug)
+
+- **Aanleiding:** gebruiker wees erop dat de enum-quote-fix (zie entry hieronder) de frontmatter niet consistenter maakte — vergelijking van `handhavingsbesluit.md` en `stembureau.md` liet zien dat vrijwel elk veld een eigen quote-stijl had (`""`, `''`, blanco, letterlijke `'~'`), naast een veldnaam-inconsistentie (`domein` vs `onderwerp`, 206 vs 216 bestanden).
+- **Audit vond ook een echte correctheidsbug, geen stijlkwestie:** `bedrijfsobject: [[naam]]` zonder quotes in `bo_relaties` parseert in YAML als een **geneste lijst** (`[['naam']]`) i.p.v. de bedoelde string — elke tool die dit veld leest krijgt kapotte data. Trof 4 relaties in `woo-verzoek.md` en `klacht.md`. `templates/element.md` gaf zelf het ongequote voorbeeld — ook gecorrigeerd.
+- **Canonieke stijl vastgesteld (met gebruiker):** lege waarde → blanco (niet `""`/`''`/`~`); niet-lege tekstwaarden → dubbele quotes (niet enkele); `domein:` → `onderwerp:` (conform template).
+- **Script:** `tools/migrate_frontmatter_style.py` (nieuw, herbruikbaar/idempotent) — normaliseert lege scalars, quote-stijl (GGM-velden, `bo_toelichting`, geforceerd bij `bo_definitie` en `bo_relaties.bedrijfsobject`/`kardinaliteit`), lege lijsten (`bedrijfsprocessen`/`bedrijfsfuncties` → `[]`), en de veldnaam-rename.
+- **Bug tijdens eerste versie ontdekt en gerepareerd vóór toepassing:** een naïeve regel-voor-regel aanpak corrumpeerde 19 bestanden met multi-line frontmatter-waarden (een al bestaand content-artefact: sommige `ggm_definitie`-velden bevatten multi-line quoted of HTML-houdende plain scalars). Script herschreven met lookahead-detectie die zulke velden ongemoeid laat, plus een verplichte post-write YAML-parse-en-semantische-vergelijking (oud vs. nieuw, met normalisatie voor het opzettelijke type-verschil `1` → `"1"`) die een bestand terugdraait i.p.v. wegschrijft als er ook maar iets niet klopt.
+- **Resultaat:** 411 van 422 bestanden gewijzigd, 0 aborts, 0 ongeldige YAML, 0 non-string `bedrijfsobject`-waarden (was 4). 3 bestanden met een pre-existing multi-line `ggm_definitie`/`ggm_toelichting`-artefact bewust ongemoeid gelaten (`boom.md`, `faunapassage.md`, `voorbereiding-op-inburgering.md`) — dat is een apart, ouder content-issue (mogelijk een dubbele "Toelichting:"-tekst in de XMI-import), niet in scope van deze stijl-opschoning.
+- **Bronscripts bijgewerkt** zodat de oude stijl niet terugkomt bij de volgende regeneratie: `tools/generate_ggm_enrich_bo.py` schrijft nu blanco i.p.v. `""` voor lege velden, en `onderwerp` i.p.v. `domein` (leest beide, schrijft alleen `onderwerp`); `bo_relaties.bedrijfsobject`/`kardinaliteit` altijd dubbel gequote.
+- **`templates/element.md`** kreeg een nieuwe sectie "Frontmatter-stijl" die de conventie expliciet vastlegt (was nooit gedocumenteerd — vandaar de drift). **`lint.md`** uitgebreid met een check hierop.
+- **Verificatie:** `entiteitendekking.py --all` opnieuw gedraaid — identieke rapporten, geen regressie. Script is idempotent (herhaalde dry-run: 0 wijzigingen).
+
+## [2026-07-09] fix | Gequote enum-waarden genormaliseerd (lint-nawerk)
+
+- **Aanleiding:** één van de twee resterende "bewust niet (nog) gedaan"-items uit de lint-audit van [2026-07-09] — 78 (inmiddels 143, door nieuwe actor/rol-pagina's) element-pagina's hadden `grondslag`, `archimate_type` en/of `ggm_uml_type` als gequote string i.p.v. bare YAML-waarde, in strijd met `templates/element.md`.
+- **Fix:** script over `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/`, `Wiki/Rollen/` — `grondslag:`/`archimate_type:` unquoted, lege `ggm_uml_type: ""`/`''` genormaliseerd naar blanco. 143 bestanden gewijzigd (259 regels).
+- **Verificatie:** alle 422 frontmatters parsen nog als geldige YAML; `entiteitendekking.py --all` opnieuw gedraaid — identieke rapporten, geen regressie.
+- **Nog open:** bronnenketen-achterstand (42+19 nog niet geïngeste bronnen, zie `ToDo/ingest-backlog.md`) — dat is een inhoudelijke ingest-klus, geen lint-fix, bewust niet meegenomen.
+
 ## [2026-07-09] fix | Resterende 5 generalisatie/specialisatie-gevallen afgehandeld + ambiguïteitsbug gevonden
 
 - **Aanleiding:** vervolg op de vorige log-entry; de gebruiker koos per geval hoe de resterende 5 kandidaten opgelost moesten worden, en breidde CLAUDE.md-regel 11 uit: generalisatiekeuzes altijd per geval voorleggen, ook na een eerder "geldt overal"-antwoord.

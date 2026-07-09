@@ -5,8 +5,8 @@ onderwerp: [onderwijs]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Regionale organisatie van schoolbesturen, wettelijk verplicht onder de Wet passend onderwijs, die de verdeling van extra ondersteuning coördineert."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

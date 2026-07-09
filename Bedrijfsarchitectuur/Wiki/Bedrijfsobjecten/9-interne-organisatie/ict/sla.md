@@ -30,7 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 bo_definitie: "Nadere overeenkomst met concrete afspraken over het onderhoudsniveau van een ICT-prestatie, inclusief service levels en maatregelen bij niet-naleving."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract|Contract]]"

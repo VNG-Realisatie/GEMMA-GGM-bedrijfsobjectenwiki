@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Dienstverband
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -33,7 +33,7 @@ analyse_ggm_dekking: |
   - **OrganisatorischeEenheidHR** (detail) — Detailgegeven (geassocieerd met BO)
   - **Uren** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De rechtsbetrekking tussen werkgever en werknemer zoals vastgelegd in een arbeidsovereenkomst."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Arbeidsovereenkomst voor onbepaalde tijd
     omschrijving: "Vast contract zonder einddatum"

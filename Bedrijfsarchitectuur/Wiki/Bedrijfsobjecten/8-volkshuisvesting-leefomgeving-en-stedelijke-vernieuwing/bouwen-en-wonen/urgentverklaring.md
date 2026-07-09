@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Urgentverklaring
-domein: [Wonen]
+onderwerp: [Wonen]
 archimate_type: business-object
 grondslag: governance-object
 
@@ -28,7 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Een beschikking waarmee een woningzoekende voorrang krijgt bij de toewijzing van een sociale huurwoning op grond van urgente omstandigheden."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Medische urgentie
     omschrijving: "Urgentie op medische gronden"

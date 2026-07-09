@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Asielstatushouder
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -17,18 +17,18 @@ ggm_diagram_ids:
 - EAID_96927C60_9F7B_4e67_806A_02EE0191983D
 - EAID_D7287848_8118_4aab_8823_D555A599063C
 ggm_definitie: De Inburgeringsplichtige die rechtmatig verblijf heeft
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Asielstatushouder
-ggm_gemma_guid: 3991c605-2abb-4185-b7ce-1adf5966e3c7
+ggm_gemma_guid: "3991c605-2abb-4185-b7ce-1adf5966e3c7"
 ggm_gemma_definitie: De Inburgeringsplichtige die rechtmatig verblijf heeft
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-3991c605-2abb-4185-b7ce-1adf5966e3c7
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-3991c605-2abb-4185-b7ce-1adf5966e3c7"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Asielstatushouder** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aandachtspunt** (detail) — Detailgegeven (weinig attributen)
@@ -45,28 +45,28 @@ analyse_ggm_dekking: |
   - **Verblijfplaats AZC** (detail) — Detailgegeven
   - **Vreemdeling** (detail) — Detailgegeven (weinig attributen)
   - **Werk** (detail) — Detailgegeven
-bo_definitie: Inburgeringsplichtige met verblijfsvergunning asiel die door de gemeente wordt gekoppeld aan een inburgeringstraject.
-bo_toelichting: ''
+bo_definitie: "Inburgeringsplichtige met verblijfsvergunning asiel die door de gemeente wordt gekoppeld aan een inburgeringstraject."
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Doorloopt een brede intake na koppeling aan de gemeente
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|PIP]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Krijgt een persoonlijk plan inburgering en participatie
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering|Voorbereiding op Inburgering]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/voorbereiding-op-inburgering|Voorbereiding op Inburgering]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Neemt deel aan voorbereiding op inburgering
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Heeft een inburgeringsplicht
 ---
 

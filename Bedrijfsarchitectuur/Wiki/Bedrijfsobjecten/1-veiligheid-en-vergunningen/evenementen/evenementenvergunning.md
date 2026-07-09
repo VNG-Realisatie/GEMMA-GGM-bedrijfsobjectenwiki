@@ -1,48 +1,48 @@
 ---
 type: element
 naam: Evenementenvergunning
-domein: [evenementen]
+onderwerp: [evenementen]
 archimate_type: "business-object"
 grondslag: procesobject
-ggm_entiteit: ""
-ggm_beleidsdomein: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_beleidsdomein:
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Toestemming van de gemeente aan een organisator om een evenement te organiseren op een specifieke locatie en datum."
-bo_toelichting: ''
-bedrijfsprocessen: ""
-bedrijfsfuncties: ""
+bo_toelichting:
+bedrijfsprocessen: []
+bedrijfsfuncties: []
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vergunningen en ontheffingen]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Evenementenvergunning is een specialisatie van Vergunningen en ontheffingen
   - type: associatie
     bedrijfsobject: "[[Evenement]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Vergunning wordt verleend voor een specifiek evenement
   - type: associatie
     bedrijfsobject: "[[Evenementenlocatie]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Vergunning is gebonden aan een specifieke locatie
 ---
 

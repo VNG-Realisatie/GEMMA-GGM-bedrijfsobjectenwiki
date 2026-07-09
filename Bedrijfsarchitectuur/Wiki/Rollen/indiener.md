@@ -15,7 +15,7 @@ ggm_duplicaat_entiteiten:
     taakveld: "1 Veiligheid en Vergunningen"
     afwijkende_attributen: ""
 bo_definitie: "De hoedanigheid van degene die een melding of aanvraag doet bij de gemeente."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

@@ -5,8 +5,8 @@ onderwerp: [Werk en Inkomen]
 archimate_type: business-role
 grondslag: procesobject
 bo_definitie: "Juridisch-sociaal adviesloket voor inwoners, niet te verwarren met het raadslid van de gemeenteraad."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

@@ -5,8 +5,8 @@ onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Door het college aangewezen ambtenaar die belastingaanslagen int, dwangmaatregelen treft en uitstel/kwijtschelding verleent."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

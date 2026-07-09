@@ -18,11 +18,11 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Gemeentebegrafenis
-ggm_gemma_guid: a0f96391-4935-4c7a-be2b-2fa1b00da57f
+ggm_gemma_guid: "a0f96391-4935-4c7a-be2b-2fa1b00da57f"
 ggm_gemma_definitie: "Teraardebestelling onder verantwoordelijjkheid van de gemeente."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a0f96391-4935-4c7a-be2b-2fa1b00da57f"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -34,7 +34,7 @@ analyse_ggm_dekking: |
   - **Sociale Groep** (detail) — Detailgegeven
   - **Sociale Relatie** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Uitvaart die de gemeente verzorgt wanneer niemand anders in de lijkbezorging voorziet, op grond van artikel 21 van de Wet op de lijkbezorging."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[NatuurlijkPersoon]]"

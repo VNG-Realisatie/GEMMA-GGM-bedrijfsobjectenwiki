@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Organisatorische eenheid
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-actor
 grondslag: ggm-entiteit
 ggm_entiteit: OrganisatorischeEenheid
@@ -9,7 +9,7 @@ ggm_guid: EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D
 ggm_beleidsdomein: RGBZPlus
 ggm_taakveld: "99 Kern"
 bo_definitie: "Het functioneel afgebakende onderdeel van de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|Organisatorische eenheid (bedrijfsobject)]]"
     archimate_type: business-object

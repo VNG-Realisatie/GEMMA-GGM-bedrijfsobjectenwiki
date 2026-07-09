@@ -13,19 +13,19 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: ["Diagram Gebied Vestiging en Adres", "Diagram Sportbeleid Locaties", "Ruimte Adressen, gebouwen en terreinen", "Vastgoed verankering RSGB IMBAG", "BAG", "ONDERZOEK"]
 ggm_diagram_ids: ["EAID_50085E67_46AC_4f54_B204_436786266EE2", "EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76", "EAID_7561B00D_273B_425a_B2FE_1C3AE499ED2E", "EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45", "EAID_53E16E43_EDF1_4b47_B0DD_C77D8FEFCCA3", "EAID_9B0FEF1A_4146_409e_8B71_B12D4B4AB8A8"]
 ggm_definitie: "Een verblijfsobject is een kleinste binnen één of meer panden gelegen en voor woon-, bedrijfsmatige, of recreatieve doeleinden geschikte eenheid van gebruik die ontsloten wordt via een eigen afsluitbare toegang vanaf de openbare weg, een erf of een gedeelde verkeersruimte, onderwerp kan zijn van goederenrechtelijke rechtshandelingen en in functioneel opzicht zelfstandig is."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Verblijfsobject
@@ -39,7 +39,7 @@ analyse_ggm_dekking: |
   - **Gebruiksdoel** (detail) — attribuut
   - **Winkelvloeroppervlak** (detail) — Detailgegeven
 bo_definitie: "Kleinste binnen een of meer panden gelegen eenheid van gebruik, ontsloten via een eigen afsluitbare toegang, met een of meer gebruiksdoelen, geregistreerd in de BAG."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Pand]]"

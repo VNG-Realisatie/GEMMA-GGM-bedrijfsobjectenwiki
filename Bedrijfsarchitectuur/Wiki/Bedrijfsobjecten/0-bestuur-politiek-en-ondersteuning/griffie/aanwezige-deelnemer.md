@@ -13,7 +13,7 @@ ggm_definitie: "iemand die meedoet aan eencollege- of raadsvergadering"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Iemand die deelneemt aan een college- of raadsvergadering."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/aanwezige-deelnemer|Aanwezige Deelnemer (rol)]]"
     archimate_type: business-role

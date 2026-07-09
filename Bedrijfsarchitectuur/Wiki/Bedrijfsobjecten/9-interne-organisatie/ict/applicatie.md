@@ -18,11 +18,11 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Applicatie
-ggm_gemma_guid: f5c91145-fba4-47cb-aaf9-bb9c64e19a21
+ggm_gemma_guid: "f5c91145-fba4-47cb-aaf9-bb9c64e19a21"
 ggm_gemma_definitie: "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-f5c91145-fba4-47cb-aaf9-bb9c64e19a21"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -45,7 +45,7 @@ analyse_ggm_dekking: |
   - **Relatiesoort** (detail) — Detailgegeven
   - **Versie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een applicatiecomponent die gericht is op het ondersteunen van eindgebruikers."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/contract|Contract]]"

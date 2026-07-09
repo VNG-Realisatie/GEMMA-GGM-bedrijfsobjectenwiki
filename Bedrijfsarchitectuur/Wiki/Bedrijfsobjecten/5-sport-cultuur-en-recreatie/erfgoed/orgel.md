@@ -1,31 +1,31 @@
 ---
 type: element
 naam: Orgel
-domein: [Cultuur]
+onderwerp: [Cultuur]
 archimate_type: "business-object"
 grondslag: procesobject
-ggm_entiteit: ""
+ggm_entiteit:
 ggm_beleidsdomein: "Monumenten"
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_taakveld: ""
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 bo_definitie: "Rijks- of gemeentelijk monumentaal muziekinstrument in een kerkgebouw, met eigen beschermingsstatus en eigen levenscyclus onafhankelijk van het gebouw."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Monumentenaanwijzing, Erfgoedtoezicht, Herbestemming kerkgebouw]
 bedrijfsfuncties: [Erfgoedbeheer]
 bo_relaties:

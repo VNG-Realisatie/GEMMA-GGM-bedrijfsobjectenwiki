@@ -5,8 +5,8 @@ onderwerp: [Wonen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Partij die grond in erfpacht heeft van de gemeente, met een meerwaarde-verrekening bij overdracht."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

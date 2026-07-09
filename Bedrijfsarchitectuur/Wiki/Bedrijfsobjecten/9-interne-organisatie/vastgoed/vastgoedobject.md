@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Onderwijs: Leerlingen, POC Vastgoed, Vastgoed Domeinmodel, Vastgoed Leveranciers, Vastgoed verankering RSGB IMBAG]
 ggm_diagram_ids: [EAID_33E38059_C973_43ff_97EC_B629923074FF, EAID_8B8444CB_1E64_454b_82F9_48A7C9011CE0, EAID_00D4246F_6ED7_4690_A180_ACCCD6AB1291, EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9, EAID_FDB58817_3F2A_4d73_A7DB_7906F9B9EB45]
 ggm_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
@@ -38,7 +38,7 @@ analyse_ggm_dekking: |
   - **Objectrelatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Zakelijk Recht** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_via_kandidaten:
   - ggm_entiteit: "Bouwdeel"

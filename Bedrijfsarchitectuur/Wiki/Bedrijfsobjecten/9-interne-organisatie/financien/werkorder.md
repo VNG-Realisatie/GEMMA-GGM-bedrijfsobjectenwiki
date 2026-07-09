@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Werkorder
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Werkorder"
@@ -12,22 +12,22 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Financien Verwerken Mutaties]
 ggm_diagram_ids: [EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA]
 ggm_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Werkorder"
 ggm_gemma_guid: "5029f2d1-bad6-4813-8f59-d3f7981849e3"
 ggm_gemma_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5029f2d1-bad6-4813-8f59-d3f7981849e3"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Werkorder** als directe tegenhanger.
 bo_definitie: "Opdracht voor de uitvoering van een activiteit of een stap in een proces."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Opdracht voor de uitvoering van een activiteit of een stap in een proces
 bedrijfsprocessen: [Operationeel beheer, Onderhoud]
 bedrijfsfuncties: [Beheer openbare ruimte, Facilitair beheer]

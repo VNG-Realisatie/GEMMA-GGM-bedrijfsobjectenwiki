@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Zaaktype
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Zaaktype
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Bedrijfsprocessen, Entiteiten Dienstverlening, Referentiemodel Gemeentelijke Basisgegevens Zaken in schema]
 ggm_diagram_ids: [EAID_63323A39_82A4_4607_8A45_E4CBD1D800B0, EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78, EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147]
 ggm_definitie: "Generieke aanduiding van de aard van een zaak."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GFO Zaken"
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Zaaktype** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

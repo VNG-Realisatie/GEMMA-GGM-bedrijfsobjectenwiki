@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Client
-domein:
+onderwerp:
 - maatschappelijke ondersteuning
 - sociaal domein
 archimate_type: business-object
@@ -18,18 +18,18 @@ ggm_diagram_ids:
 - EAID_FD6966FF_E4FC_437d_983E_71B33445A62C
 - EAID_5AE29494_3572_4924_B2B8_3206E55D71BB
 ggm_definitie: Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente.
-ggm_toelichting: ''
-ggm_synoniemen: ''
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Client** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
@@ -65,22 +65,22 @@ analyse_ggm_dekking: |
   - **Waardepeiling** (detail) — Detailgegeven
   - **Zelfredzaamheidmatrix** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: heeft beschikking(en)
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|SociaalTeamDossier]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociale-teams/sociaalteamdossier|SociaalTeamDossier]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: heeft dossier(s)
 - type: generalisatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon|Ingeschreven Persoon]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon|Ingeschreven Persoon]]"
   richting: naar-dit-BO
-  kardinaliteit: ''
+  kardinaliteit:
   beschrijving: specialisatie van IngeschrevenPersoon
 bedrijfsprocessen:
 - intake sociaal domein

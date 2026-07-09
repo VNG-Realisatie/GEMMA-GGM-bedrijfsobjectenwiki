@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Parkeerscan
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Parkeerscan"
@@ -12,44 +12,44 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Waarneming van een parkeeractie door een scanauto"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Parkeerscan"
 ggm_gemma_guid: "078d57f3-e8a0-485e-a175-c1b3de49eee0"
 ggm_gemma_definitie: "Waarneming van een parkeeractie door een scanauto"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-078d57f3-e8a0-485e-a175-c1b3de49eee0"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Parkeerscan** als directe tegenhanger.
 bo_definitie: "Waarneming van een parkeeractie door een scanauto"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeervlak]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Parkeerscan registreert een voertuig op een parkeervlak
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Parkeerscan betreft een voertuig
   - type: associatie
     bedrijfsobject: "[[Parkeerrecht]]"
     richting: "van-dit-BO"
-    kardinaliteit: 0..1
+    kardinaliteit: "0..1"
     beschrijving: Parkeerscan wordt getoetst aan een parkeerrecht
   - type: associatie
     bedrijfsobject: "[[Naheffing]]"
     richting: "van-dit-BO"
-    kardinaliteit: 0..1
+    kardinaliteit: "0..1"
     beschrijving: Parkeerscan kan leiden tot een naheffing
 ---
 

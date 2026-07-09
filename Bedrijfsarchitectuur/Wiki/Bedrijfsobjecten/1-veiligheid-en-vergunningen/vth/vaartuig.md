@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Vaartuig
-domein: [Wonen]
+onderwerp: [Wonen]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,12 +18,12 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Vaartuig
-ggm_gemma_guid: 3d86eebe-43ff-498e-9f8c-7c77a35f8730
+ggm_gemma_guid: "3d86eebe-43ff-498e-9f8c-7c77a35f8730"
 ggm_gemma_definitie: "Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA2/0.9/id-3d86eebe-43ff-498e-9f8c-7c77a35f8730"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sportlocatie
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Sportlocatie"
@@ -12,32 +12,32 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid, Diagram Sportbeleid Locaties]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F, EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76]
 ggm_definitie: "Locatie waar de betreffende sport plaatsvindt"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Sportlocatie"
 ggm_gemma_guid: "a7a350a2-a9aa-4437-b67b-016fec0d048d"
 ggm_gemma_definitie: "Locatie waar de betreffende sport plaatsvindt"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-a7a350a2-a9aa-4437-b67b-016fec0d048d"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Sportlocatie** als directe tegenhanger.
 bo_definitie: "Locatie waar sportbeoefening plaatsvindt, als overkoepelend begrip voor binnen- en buitensportaccommodaties."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportpark]]"
     richting: "van-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Sportpark is een specialisatie van Sportlocatie"
   - type: generalisatie
     bedrijfsobject: "[[Binnenlocatie]]"
     richting: "van-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Binnenlocatie is een specialisatie van Sportlocatie"
   - type: associatie
     bedrijfsobject: "[[Sportvereniging]]"

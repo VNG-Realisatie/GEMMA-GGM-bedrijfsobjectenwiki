@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Aanvraag of melding
-domein:
+onderwerp:
 - Dienstverlening
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -42,19 +42,19 @@ ggm_diagram_ids:
 ggm_definitie: 'Komt overeen met een VJV
 
   Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID'
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: AanvraagOfMelding
-ggm_gemma_guid: f14fa1cf-f2c7-4bd6-862d-28ff1616a882
+ggm_gemma_guid: "f14fa1cf-f2c7-4bd6-862d-28ff1616a882"
 ggm_gemma_definitie: 'Komt overeen met een VJV
 
   Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID'
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882
-ggm_gemma_bron: ''
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-f14fa1cf-f2c7-4bd6-862d-28ff1616a882"
+ggm_gemma_bron:
 ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
 
 ggm_duplicaat_entiteiten:
@@ -83,7 +83,7 @@ analyse_ggm_dekking: |
   - **WoonfraudeAanvraagOfMelding** (detail) — Detailgegeven
   - **WoonoverlastAanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen:
 - Zaakafhandeling
 - Klantcontactregistratie
@@ -95,22 +95,22 @@ bo_relaties:
 - type: associatie
   bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: kan leiden tot een zaak
 - type: associatie
   bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]]"
   richting: van-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: heeft documenten
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|Product of dienst]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|Product of dienst]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: betreft (via klantcontact)
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|Balieafspraak]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: kan ontstaan uit klantcontact na balieafspraak
 ---
 

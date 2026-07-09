@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Afschrijving
-domein: [Terug-en-invordering]
+onderwerp: [Terug-en-invordering]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Afschrijving"
@@ -12,18 +12,18 @@ ggm_taakveld: "Inkomen"
 ggm_diagram: [Diagram Terug- en invordering]
 ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
 ggm_definitie: "De vordering blijkt oninbaar. Er is (nog) geen aflossingsmogelijkheid. Er wordt ook niet geacht dat er perspectief is tot invordering. Er wordt afscheid genomen van de vordering.Afscheid nemen van de vordering gebeurt via het afschrijven van de vordering. De reden daarvan wordt opgegeven."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Afschrijving** als directe tegenhanger.
 bo_definitie: "De vordering blijkt oninbaar. Er is (nog) geen aflossingsmogelijkheid en er is geen perspectief tot invordering. Afscheid nemen van de vordering gebeurt via het afschrijven van de vordering."

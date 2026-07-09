@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Leerling
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,19 +13,19 @@ ggm_taakveld: "4 Onderwijs"
 ggm_diagram: [Diagram Beslissingen Leerplicht, "Onderwijs: Leerlingen", "Onderwijs: Relaties met Kern"]
 ggm_diagram_ids: [EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308, EAID_33E38059_C973_43ff_97EC_B629923074FF, EAID_D33047E8_3A39_4171_A7EC_93B137023ED8]
 ggm_definitie: "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Leerling
-ggm_gemma_guid: e2ea124f-56ce-4614-9e32-0f13371a5ede
+ggm_gemma_guid: "e2ea124f-56ce-4614-9e32-0f13371a5ede"
 ggm_gemma_definitie: "Mens die een opleiding volgt, heeft gevolgd of gaat volgen of opgaat of is opgegaan voor een toets. (Bron: KOI)"
-ggm_gemma_toelichting: ""
+ggm_gemma_toelichting:
 ggm_gemma_synoniemen: "Onderwijsvolger"
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e2ea124f-56ce-4614-9e32-0f13371a5ede
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e2ea124f-56ce-4614-9e32-0f13371a5ede"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Leerling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -35,7 +35,7 @@ analyse_ggm_dekking: |
   - **Startkwalificatie** (detail) — Eigenschap van Leerling; relatie [0..1]
   - **Ziekmelding Leerlingenvervoer** (detail) — Te granulair; operationeel detail
 bo_definitie: "Kind of jongere dat onderwijs volgt aan een school in de gemeente."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Loopbaanstap"
     ggm_guid: "EAID_0E3DE26B_C535_4a03_98A4_8D36DC3D5297"

@@ -1,37 +1,37 @@
 ---
 type: element
 naam: Bestuursovereenkomst
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: governance-object
-ggm_entiteit: ''
-ggm_beleidsdomein: ''
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_entiteit:
+ggm_beleidsdomein:
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ''
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
-bo_definitie: Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie.
-bo_toelichting: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+bo_definitie: "Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en verantwoordelijkheden bij een specifieke opvanglocatie."
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|Opvanglocatie]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/opvanglocatie|Opvanglocatie]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Regelt de afspraken voor een opvanglocatie
 ---
 

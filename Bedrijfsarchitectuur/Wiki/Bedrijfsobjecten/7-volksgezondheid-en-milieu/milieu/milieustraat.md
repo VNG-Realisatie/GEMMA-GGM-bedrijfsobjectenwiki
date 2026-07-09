@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Milieustraat
-domein: [Milieu]
+onderwerp: [Milieu]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Milieustraat"
@@ -12,23 +12,23 @@ ggm_taakveld: "7 Volksgezondheid en Milieu"
 ggm_diagram: [Diagram Afval Milieustraat]
 ggm_diagram_ids: [EAID_A00B8121_71AC_466f_B391_E16881240477]
 ggm_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Milieustraat"
 ggm_gemma_guid: "0310645e-6873-4cb3-93ec-734f0ac3323e"
 ggm_gemma_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-0310645e-6873-4cb3-93ec-734f0ac3323e"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Milieustraat** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Pas** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Storting"
     ggm_guid: "EAID_15910FE7_D323_45ff_AA7F_CE3C636CE953"
@@ -44,7 +44,7 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Upcyclecentrum]]"
     richting: "van-dit-BO"
-    kardinaliteit: 0..1
+    kardinaliteit: "0..1"
     beschrijving: nabijgelegen upcyclecentrum
 ---
 

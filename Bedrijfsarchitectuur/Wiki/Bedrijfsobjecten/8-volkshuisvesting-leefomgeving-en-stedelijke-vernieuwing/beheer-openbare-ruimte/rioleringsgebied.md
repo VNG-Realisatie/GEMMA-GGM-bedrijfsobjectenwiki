@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Rioleringsgebied
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Rioleringsgebied"
@@ -12,23 +12,23 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: []
 ggm_definitie: "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Rioleringsgebied** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Bemalingsgebied** (specialisatie) — Specialisatie van Rioleringsgebied — zie bo_subtypes
 bo_definitie: "Het gebied waarbinnen één of meerdere inliggende rioolstelsel(s) het afvalwater naar één gemaal of overnamepunt transporteert/teren."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Bemalingsgebied"
     omschrijving: Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd
@@ -39,12 +39,12 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|Gemaal]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Een rioleringsgebied wordt bediend door een gemaal
   - type: associatie
     bedrijfsobject: "[[Overstortconstructie]]"
     richting: bidirectioneel
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Overstortconstructies functioneren binnen een rioleringsgebied
 bedrijfsprocessen: [Rioolbeheer, Gebiedsplanning, Rioolvervangingsplanning]
 bedrijfsfuncties: [Beheer openbare ruimte, Rioleringsbeheer]

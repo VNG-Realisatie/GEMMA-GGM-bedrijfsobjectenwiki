@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Bergingsbassin
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Bergingsbassin"
@@ -12,26 +12,26 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: []
 ggm_definitie: "Een gesloten reservoir waarin het afvalwater tijdelijk wordt opgevangen Synoniemen: Retentiebassin, bufferbassin"
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Retentiebassin, bufferbassin"
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Bergingsbassin** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Bouwwerk** (detail) — Detailgegeven
 bo_definitie: "Gesloten reservoir achter een overstortconstructie voor tijdelijke opvang en bezinking van overstortwater."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Bouwwerk (GGM)
+    bedrijfsobject: "Bouwwerk (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Bergingsbassin is een specialisatie van Bouwwerk in het GGM

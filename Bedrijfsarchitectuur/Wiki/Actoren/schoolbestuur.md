@@ -5,8 +5,8 @@ onderwerp: [onderwijs]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Rechtspersoon verantwoordelijk voor het bestuur van een of meer scholen, waaronder onderwijskwaliteit en (mede) huisvesting."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

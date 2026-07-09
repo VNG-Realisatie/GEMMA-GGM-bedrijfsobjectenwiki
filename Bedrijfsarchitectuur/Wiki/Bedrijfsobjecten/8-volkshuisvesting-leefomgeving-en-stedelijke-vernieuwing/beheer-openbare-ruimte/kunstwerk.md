@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Kunstwerk
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Kunstwerk"
@@ -12,18 +12,18 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
 ggm_diagram_ids: [EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3]
 ggm_definitie: "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Kunstwerk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Brug** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
@@ -33,7 +33,7 @@ analyse_ggm_dekking: |
   - **Uitlaatconstructie** (detail) — Te granulair voor BO-niveau
   - **Viaduct** (specialisatie) — Specialisatie van Kunstwerk — zie bo_subtypes
 bo_definitie: "Civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen en niet bedoeld voor permanent menselijk verblijf."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: "Brug"
     omschrijving: "Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden"
@@ -64,7 +64,7 @@ bo_subtypes:
     omschrijving: Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Beheerobject (GGM)
+    bedrijfsobject: "Beheerobject (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Kunstwerk is een specialisatie van Beheerobject

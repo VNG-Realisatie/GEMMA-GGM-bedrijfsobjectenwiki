@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Document
-domein: [Dienstverlening, Informatiebeheer]
+onderwerp: [Dienstverlening, Informatiebeheer]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Document
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Catalogus RGBZ]
 ggm_diagram_ids: [EAID_A7DD83EA_D15D_46a9_9F35_4005FE06648A]
 ggm_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "KING (NEN 2082)"
 ggm_gemma_naam: Document
 ggm_gemma_guid: "10eaa33f-03bf-42b4-9310-56add2cb5a7b"
 ggm_gemma_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-10eaa33f-03bf-42b4-9310-56add2cb5a7b"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Document** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -60,12 +60,12 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Na archivering (selectie, waardering) wordt een document een informatieobject
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: Na overbrenging naar de archiefbewaarplaats wordt een informatieobject een archiefstuk (Archiefwet)
 bedrijfsprocessen:
   - Documentregistratie

@@ -1,34 +1,34 @@
 ---
 type: element
 naam: Vergunningen en ontheffingen
-domein: [dienstverlening]
+onderwerp: [dienstverlening]
 archimate_type: "business-object"
 grondslag: procesobject
 
-ggm_entiteit: ""
-ggm_guid: ""
-ggm_uml_type: ""
-ggm_beleidsdomein: ""
-ggm_taakveld: ""
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ""
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 bo_definitie: "Formeel besluit van de gemeente waarmee een inwoner of ondernemer toestemming krijgt voor een specifieke activiteit of een uitzondering op een verbod."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Standplaatsvergunning
     omschrijving: "APV-vergunning voor het innemen van een standplaats in de openbare ruimte"
@@ -59,17 +59,17 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Evenementenvergunning]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Evenementenvergunning is een specialisatie"
   - type: generalisatie
     bedrijfsobject: "[[Parkeervergunning]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Parkeervergunning is een specialisatie"
   - type: generalisatie
     bedrijfsobject: "[[Ontheffing (milieuzone)]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Ontheffing milieuzone is een specialisatie"
   - type: associatie
     bedrijfsobject: "[[Aanvraag of melding]]"

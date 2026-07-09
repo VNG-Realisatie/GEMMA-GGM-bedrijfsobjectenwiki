@@ -1,7 +1,7 @@
 ---
 type: element
 naam: MulderFeit
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "MulderFeit"
@@ -12,29 +12,29 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **MulderFeit** als directe tegenhanger.
 bo_definitie: "Een administratieve overtreding met betrekking tot parkeren, zoals bepaald onder de Wet administratiefrechtelijke handhaving verkeersvoorschriften (WAHV), ook wel bekend als de Mulderwet."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Voertuig]]"
     richting: "van-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: MulderFeit betreft een voertuig
 ---
 

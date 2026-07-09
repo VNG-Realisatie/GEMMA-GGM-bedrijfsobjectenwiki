@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Hotel
-domein: [Economie]
+onderwerp: [Economie]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Hotel"
@@ -12,30 +12,30 @@ ggm_taakveld: "3 Economie"
 ggm_diagram: [Diagram Economie]
 ggm_diagram_ids: [EAID_21D78104_E6EA_4d5c_9DBE_AB71F7DC99E7]
 ggm_definitie: "Gebouw waar je tegen betaling kunt logeren."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Hotel"
 ggm_gemma_guid: "4b2cc303-de99-49c4-968f-836a71825814"
 ggm_gemma_definitie: "Gebouw waar je tegen betaling kunt logeren."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-4b2cc303-de99-49c4-968f-836a71825814"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Hotel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Hotelbezoek** (detail) — Meting/transactie, geen zelfstandig object
 bo_definitie: "Verblijfsaccommodatie waar gasten tegen betaling kunnen overnachten, gereguleerd via de beleidsregel hotels met typeringen naar concept, doelgroep en omvang."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [hotelvergunningverlening, hotelbeleid, toeristenbelastingheffing]
 bedrijfsfuncties: [vergunningverlening, economisch beleid]
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Vestiging]]"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: "Hotel is een specialisatie van Vestiging (RSGB/GGM-overerving)"
   - type: associatie
     bedrijfsobject: "[[Hotelbezoek]]"
@@ -45,7 +45,7 @@ bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Horecabedrijf]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1
+    kardinaliteit: "1"
     beschrijving: Een hotel is een type horecabedrijf
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Leerplichtvrijstelling
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,12 +18,12 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: Vrijstelling
-ggm_gemma_guid: e09e0c4d-1c6f-474b-8abc-7fd36f6fd699
+ggm_gemma_guid: "e09e0c4d-1c6f-474b-8abc-7fd36f6fd699"
 ggm_gemma_definitie: "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e09e0c4d-1c6f-474b-8abc-7fd36f6fd699"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
@@ -38,7 +38,7 @@ bo_homoniemen:
     toelichting: "Vrijstelling van de inburgeringsplicht — ander concept dan leerplichtvrijstelling"
 
 bo_definitie: "Een formeel besluit waarbij een leerling wordt ontheven van de leerplicht."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

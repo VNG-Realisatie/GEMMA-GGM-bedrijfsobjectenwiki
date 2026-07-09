@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Binnenlocatie
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Binnenlocatie"
@@ -12,23 +12,23 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid, Diagram Sportbeleid Locaties]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F, EAID_BA23F316_FE48_49a8_A26D_9B1D14713F76]
 ggm_definitie: "Locatie binnen een gebouw"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Binnenlocatie"
 ggm_gemma_guid: "cda4149f-f0a0-44d9-b893-25bcce04d20d"
 ggm_gemma_definitie: "Locatie binnen een gebouw"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-cda4149f-f0a0-44d9-b893-25bcce04d20d"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Binnenlocatie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Belijning** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Binnensportaccommodatie zoals een sporthal of gymzaal, met eigen capaciteitsberekening en bezettingsgraad."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: sporthal
     omschrijving: "Grote binnensportaccommodatie voor meerdere sporten en verenigingen"
@@ -44,7 +44,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Sportlocatie]]"
     richting: "naar-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Binnenlocatie is een specialisatie van Sportlocatie"
   - type: associatie
     bedrijfsobject: "[[Sportmateriaal]]"

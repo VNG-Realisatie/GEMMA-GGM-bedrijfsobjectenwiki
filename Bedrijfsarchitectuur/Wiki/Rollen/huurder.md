@@ -10,7 +10,7 @@ ggm_beleidsdomein: Vastgoed
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van de partij die een zaak in gebruik heeft gekregen tegen een tegenprestatie."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

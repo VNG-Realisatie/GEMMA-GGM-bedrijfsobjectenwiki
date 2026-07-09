@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Ouder Of Verzorger
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,25 +13,25 @@ ggm_taakveld: "4 Onderwijs"
 ggm_diagram: [Diagram Beslissingen Leerplicht, "Onderwijs: Relaties met Kern"]
 ggm_diagram_ids: [EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308, EAID_D33047E8_3A39_4171_A7EC_93B137023ED8]
 ggm_definitie: "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: OuderOfVerzorger
-ggm_gemma_guid: 91982611-d658-4c52-8869-0bbf87b487d3
+ggm_gemma_guid: "91982611-d658-4c52-8869-0bbf87b487d3"
 ggm_gemma_definitie: "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869-0bbf87b487d3
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-91982611-d658-4c52-8869-0bbf87b487d3"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Ouder Of Verzorger** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Doorgeleiding OM** (detail) — Te specifiek; justitie-subtype
 bo_definitie: "Een persoon die wettelijk verantwoordelijk is voor de zorg en opvoeding van een kind."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

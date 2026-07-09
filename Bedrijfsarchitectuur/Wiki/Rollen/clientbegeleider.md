@@ -10,7 +10,7 @@ ggm_beleidsdomein: Sociaal Domein Generiek
 ggm_taakveld: "6 Sociaal Domein"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De verantwoordelijkheid voor het opstellen en uitvoeren van het ondersteuningsplan, in samenwerking met de cliënt en diens omgeving."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

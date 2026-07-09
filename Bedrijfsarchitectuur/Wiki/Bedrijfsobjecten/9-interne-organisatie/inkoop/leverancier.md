@@ -13,19 +13,19 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Model Parkeren, Diagram Beslissingen Leerplicht, Prinsenhof Verkoop, Prinsenhof Events en Relaties, Schouwrondes Beheersobjecten, Meldingen Graafwerkzaamheden, Basismodel CMDB-Items, Vastgoed Relaties met Kern, Vastgoed Leveranciers, Financien Verplichtingen en Facturen, Diagram Verlengen Inhuur, Diagram Inkoop Inhuur, Diagram Inkoop Geen Inhuur]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2, EAID_26A453D9_47AF_487e_854B_3B4BC6D6A308, EAID_3913ADF8_4B30_48c0_A0AE_59BAAC281EF2, EAID_22110445_1906_4602_8004_6BA4D6C063D0, EAID_F9907E9B_BD04_439e_A0A9_C6E7BA7F6623, EAID_1D1CC6D9_472B_4f91_8096_0260E27F641C, EAID_4F14E8D8_5502_4880_9E83_D912BE451EB1, EAID_EFF3FBED_B92D_4172_B142_567C2B6ACF01, EAID_06E44472_8C2A_40eb_9965_DCF91A1322C9, EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711, EAID_21AD192F_EEF1_493b_9BFD_D37EF6C93236, EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB, EAID_6683520C_EE21_4038_A418_D4C957172DF2]
 ggm_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - entiteit: Leverancier
@@ -44,7 +44,7 @@ analyse_ggm_dekking: |
   - **Uitnodiging** (detail) — Detailgegeven (geassocieerd met BO)
   - **Uitvoerder Graafwerkzaamheden** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Kandidaat"
     ggm_guid: "EAID_75B4E818_5ECD_45c5_98F9_66F57FC6117E"

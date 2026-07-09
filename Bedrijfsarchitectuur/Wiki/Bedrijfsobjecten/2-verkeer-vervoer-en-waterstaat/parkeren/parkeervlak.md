@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Parkeervlak
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Parkeervlak"
@@ -12,23 +12,23 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Parkeervlak"
 ggm_gemma_guid: "30d7e3ac-081c-4ef6-a09e-90437b5a4349"
 ggm_gemma_definitie: "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-30d7e3ac-081c-4ef6-a09e-90437b5a4349"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Parkeervlak** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Straatsectie** (classificatie) — Administratieve indeling, geen zelfstandig object
 bo_definitie: "Parkeergelegenheid bestemd voor het parkeren van een of meerdere voertuigen direct langs de doorgaande weg gelegen."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Straatsectie"
     ggm_guid: "EAID_339ACCD5_1D13_4a48_83DE_05A0A4A54C43"
@@ -39,12 +39,12 @@ bo_relaties:
   - type: compositie
     bedrijfsobject: "[[Parkeerzone]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Parkeervlak is onderdeel van een parkeerzone
   - type: associatie
     bedrijfsobject: "[[Laadpaal]]"
     richting: "van-dit-BO"
-    kardinaliteit: 0..1
+    kardinaliteit: "0..1"
     beschrijving: Parkeervlak kan een laadpaal bevatten
 ---
 

@@ -10,7 +10,7 @@ ggm_beleidsdomein: Omgevingswet
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

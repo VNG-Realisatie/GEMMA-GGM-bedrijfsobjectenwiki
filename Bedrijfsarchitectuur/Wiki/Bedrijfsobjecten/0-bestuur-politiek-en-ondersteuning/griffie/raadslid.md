@@ -13,7 +13,7 @@ ggm_definitie: "Iemand die behoort de gemeenteraad"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Iemand die behoort tot de gemeenteraad."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/raadslid|Raadslid (rol)]]"
     archimate_type: business-role

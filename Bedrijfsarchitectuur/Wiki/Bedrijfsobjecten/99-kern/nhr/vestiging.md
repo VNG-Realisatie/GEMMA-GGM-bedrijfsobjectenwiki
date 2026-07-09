@@ -65,7 +65,7 @@ analyse_ggm_dekking: |
   - **Verkooppunt** (detail) — Detailgegeven (weinig attributen)
   - **Werkgelegenheid** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"
@@ -85,7 +85,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf|Horecabedrijf]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Horecabedrijf is een specialisatie van Vestiging"
 bedrijfsprocessen:
   - Vergunningverlening

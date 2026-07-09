@@ -87,7 +87,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|Risicobron]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Risicobron is een specialisatie van Activiteit (een activiteit met externe veiligheidsrisico's)"
 bedrijfsprocessen:
   - "Omgevingsplanvorming"

@@ -5,8 +5,8 @@ onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Persoon (doorgaans een ouder) die krachtens gezag namens een minderjarige of onder curatele gestelde optreedt."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

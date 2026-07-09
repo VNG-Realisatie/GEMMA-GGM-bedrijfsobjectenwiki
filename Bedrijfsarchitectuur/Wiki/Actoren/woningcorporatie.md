@@ -5,8 +5,8 @@ onderwerp: [Wonen]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Toegelaten instelling volkshuisvesting die sociale huurwoningen beheert en prestatieafspraken maakt met de gemeente."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

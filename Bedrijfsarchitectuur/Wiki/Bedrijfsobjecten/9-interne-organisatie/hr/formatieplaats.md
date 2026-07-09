@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Formatieplaats
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 

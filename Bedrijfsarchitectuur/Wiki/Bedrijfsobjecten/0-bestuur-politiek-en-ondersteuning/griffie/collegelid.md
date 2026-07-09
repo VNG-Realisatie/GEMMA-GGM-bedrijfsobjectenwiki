@@ -13,7 +13,7 @@ ggm_definitie: "Iemand die behoort het college van burgemeester en wethouders"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
 bo_definitie: "Iemand die behoort tot het college van burgemeester en wethouders."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Rollen/collegelid|Collegelid (rol)]]"
     archimate_type: business-role

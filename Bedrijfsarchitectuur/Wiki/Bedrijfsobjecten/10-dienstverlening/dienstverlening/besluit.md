@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Besluit
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Besluit
@@ -12,24 +12,24 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Diagram Aanvragen, Zaken en Besluiten, Referentiemodel Gemeentelijke Basisgegevens Zaken in schema]
 ggm_diagram_ids: [EAID_A2BA1F0D_8428_42fc_80D6_7184F243D268, EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147]
 ggm_definitie: "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GFO Zaken"
 ggm_gemma_naam: Besluit
 ggm_gemma_guid: "10d36920-683f-4cb4-84bf-b00ac045674f"
 ggm_gemma_definitie: "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-10d36920-683f-4cb4-84bf-b00ac045674f"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Besluit** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Besluittype** (detail) — Typering bij Besluit — waardelijst
 bo_definitie: "Een na overweging of beraadslaging vastgestelde beslissing voor een individueel of concreet geval."
-bo_toelichting: ""
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"

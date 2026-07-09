@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Parkeerzone
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Parkeerzone"
@@ -12,22 +12,22 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Een afgebakend gebied binnen een gemeente  waar specifieke parkeerregels en -voorwaarden van toepassing zijn."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Perkeerzone"
 ggm_gemma_guid: "e5293eea-47b8-4091-8ac3-b28139a17c9f"
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e5293eea-47b8-4091-8ac3-b28139a17c9f"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Parkeerzone** als directe tegenhanger.
 bo_definitie: "Een afgebakend gebied binnen een gemeente waar specifieke parkeerregels en -voorwaarden van toepassing zijn."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:
@@ -39,7 +39,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Parkeergarage]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Parkeergarage is specialisatie van Parkeerzone
   - type: associatie
     bedrijfsobject: "[[Parkeervergunning]]"

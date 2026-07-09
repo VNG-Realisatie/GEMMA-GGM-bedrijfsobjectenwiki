@@ -1,37 +1,37 @@
 ---
 type: element
 naam: Opvanglocatie
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: procesobject
-ggm_entiteit: ''
-ggm_beleidsdomein: ''
-ggm_guid: ''
-ggm_uml_type: ''
-ggm_taakveld: ''
+ggm_entiteit:
+ggm_beleidsdomein:
+ggm_guid:
+ggm_uml_type:
+ggm_taakveld:
 ggm_diagram: []
 ggm_diagram_ids: []
-ggm_definitie: ''
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
-bo_definitie: Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd.
-bo_toelichting: ''
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+bo_definitie: "Fysieke locatie voor opvang van asielzoekers of ontheemden, in diverse vormen en schaalgroottes, door gemeente gefaciliteerd of geexploiteerd."
+bo_toelichting:
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|Bestuursovereenkomst]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/bestuursovereenkomst|Bestuursovereenkomst]]"
   richting: van-dit-BO
-  kardinaliteit: 0..1
+  kardinaliteit: "0..1"
   beschrijving: Wordt geregeld door een bestuursovereenkomst met het COA
 ---
 

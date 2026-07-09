@@ -10,7 +10,7 @@ ggm_beleidsdomein: Omgevingswet
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van degene die het initiatief neemt tot ingrepen in de leefomgeving en daartoe een verzoek bij het bevoegd gezag indient."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

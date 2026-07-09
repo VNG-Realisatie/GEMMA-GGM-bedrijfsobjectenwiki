@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Speeltoestel
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Speeltoestel"
@@ -12,25 +12,25 @@ ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_diagram: []
 ggm_diagram_ids: []
 ggm_definitie: "Toestel en structuren, met inbegrip van componenten en constructieve onderdelen, waarmee of waarop kinderen binnen of buiten kunnen spelen, individueel of gezamenlijk, volgens hun eigen spelregels of beweegredenen, die te allen tijde kunnen worden gewijzigd."
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Speelvoorziening"
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Speeltoestel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Bank** (detail) — Detailgegeven (weinig attributen)
   - **Fietsparkeervoorziening** (detail) — Detailgegeven (weinig attributen)
   - **Meubilair** (detail) — Detailgegeven
 bo_definitie: "Toestel en structuren, met inbegrip van componenten en constructieve onderdelen, waarmee of waarop kinderen binnen of buiten kunnen spelen, individueel of gezamenlijk, volgens hun eigen spelregels of beweegredenen, die te allen tijde kunnen worden gewijzigd."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
   - naam: Vast speeltoestel
     omschrijving: "Permanent geplaatst speeltoestel op een speelterrein (schommel, glijbaan, klimrek)"
@@ -49,7 +49,7 @@ bo_subtypes:
     ggm_attribuut: toestelgroep
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Meubilair (GGM)
+    bedrijfsobject: "Meubilair (GGM)"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Speeltoestel is een specialisatie van Meubilair in het GGM

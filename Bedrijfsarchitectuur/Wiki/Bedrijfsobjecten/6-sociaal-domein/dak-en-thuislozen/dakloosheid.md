@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Dakloosheid
-domein: [maatschappelijke ondersteuning]
+onderwerp: [maatschappelijke ondersteuning]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 
@@ -13,24 +13,24 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: [Diagram Dakloosheid]
 ggm_diagram_ids: [EAID_7699CCFC_3358_48d0_A60C_F5D044D58F87]
 ggm_definitie: "Informatie met betrekking tot dakloosheid"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Dakloosheid** als directe tegenhanger.
 bo_definitie: "Registratie van de dakloosheidsstatus van een cliënt, inclusief toestemming voor briefadres en nachtopvang."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client|Client]]"

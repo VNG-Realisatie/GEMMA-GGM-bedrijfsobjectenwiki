@@ -10,7 +10,7 @@ ggm_beleidsdomein: Financien
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van de partij die een opdracht aanvaardt."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtnemer|Opdrachtnemer (bedrijfsobject)]]"
     archimate_type: business-object

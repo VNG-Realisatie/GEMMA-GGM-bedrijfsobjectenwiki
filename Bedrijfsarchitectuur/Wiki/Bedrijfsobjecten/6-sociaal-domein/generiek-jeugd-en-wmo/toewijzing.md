@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Toewijzing
-domein: [Maatschappelijke Ondersteuning]
+onderwerp: [Maatschappelijke Ondersteuning]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,24 +13,24 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: ["Sociaal Domein Beschikking en Voorziening: Domain Objects"]
 ggm_diagram_ids: [EAID_5AE29494_3572_4924_B2B8_3206E55D71BB]
 ggm_definitie: "Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Toewijzing** als directe tegenhanger.
 bo_definitie: "Toewijzing die door gemeente aan zorgaanbieder wordt gestuurd."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking|Beschikking]]"

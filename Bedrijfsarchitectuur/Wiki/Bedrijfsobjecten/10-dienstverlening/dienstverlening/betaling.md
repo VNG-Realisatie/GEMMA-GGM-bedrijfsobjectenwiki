@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Betaling
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Betaling
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Entiteiten Dienstverlening, Financien Verwerken Mutaties]
 ggm_diagram_ids: [EAID_48B6C3F9_CCF1_4794_8252_FC6543409B78, EAID_B758018F_CB22_420e_B4E4_E17EB5F71EDA]
 ggm_definitie: "Het onderhandigen of overboeken van geld in ruil voor goed of dienst."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GGM"
 ggm_gemma_naam: Betaling
 ggm_gemma_guid: "8cec89b8-6174-42ac-937f-9500bfb8901b"
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8cec89b8-6174-42ac-937f-9500bfb8901b"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Betaling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -31,7 +31,7 @@ analyse_ggm_dekking: |
   - **Bankafschriftregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Bankrekening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Het overboeken of ontvangen van geld in het kader van een zaak — leges, heffingen of andere betalingen gerelateerd aan gemeentelijke dienstverlening."
-bo_toelichting: ""
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaak|Zaak]]"

@@ -5,8 +5,8 @@ onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Specifieke raadscommissie die de werkgeverstaak van de raad ten aanzien van de griffier uitoefent."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

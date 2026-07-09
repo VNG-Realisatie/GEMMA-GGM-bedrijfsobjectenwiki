@@ -5,8 +5,8 @@ onderwerp: [Wonen]
 archimate_type: business-actor
 grondslag: governance-object
 bo_definitie: "Vereniging van huurders die als formele partij optreedt bij prestatieafspraken tussen gemeente en woningcorporaties."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

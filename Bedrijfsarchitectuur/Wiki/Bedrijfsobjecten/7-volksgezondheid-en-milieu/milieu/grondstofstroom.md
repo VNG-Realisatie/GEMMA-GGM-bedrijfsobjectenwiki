@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Grondstofstroom
-domein: [Milieu]
+onderwerp: [Milieu]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Fractie"
@@ -12,18 +12,18 @@ ggm_taakveld: "7 Volksgezondheid en Milieu"
 ggm_diagram: [Diagram Afval Ophalen, Diagram Afval Milieustraat, Diagram Afval Meldingen]
 ggm_diagram_ids: [EAID_D98AA96C_2EB0_4b46_9E9C_09D55E02FE38, EAID_A00B8121_71AC_466f_B391_E16881240477, EAID_157F610A_619E_4d1a_BB45_5C1F55178944]
 ggm_definitie: "Onderdeel, deeltje"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Fractie"
 ggm_gemma_guid: "5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
 ggm_gemma_definitie: "Onderdeel, deeltje"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5b29c1f2-feeb-4e72-9b70-7a0a8bb374cc"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Fractie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Categorie** (detail) — Detailgegeven (weinig attributen)
@@ -32,7 +32,7 @@ analyse_ggm_dekking: |
   - **Route** (detail) — Detailgegeven (geassocieerd met BO)
   - **Storting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Afzonderlijke afval- of grondstofstroom met eigen inzamel- en verwerkingsstrategie."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Afvalinzameling, Afvalverwerking, Grondstofscheiding, Kwaliteitsmonitoring]
 bedrijfsfuncties: [Afvalbeheer]
 bo_relaties:

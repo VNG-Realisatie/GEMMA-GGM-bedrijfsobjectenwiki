@@ -5,8 +5,8 @@ onderwerp: [Bestuur, Informatiebeheer]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Door college of GR-bestuur aangewezen functionaris die overgebrachte archiefbescheiden beheert (art. 32 Archiefwet)."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

@@ -15,7 +15,7 @@ ggm_duplicaat_entiteiten:
     taakveld: "6 Sociaal Domein"
     afwijkende_attributen: ""
 bo_definitie: "De hoedanigheid van aanspreekpunt namens een organisatie in het contact met de gemeente."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/contactpersoon|Contactpersoon (bedrijfsobject)]]"
     archimate_type: business-object

@@ -17,7 +17,7 @@ ggm_herkomst: GGM
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Schuldeiser** als directe tegenhanger.
 bo_definitie: "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar. In de meeste gevallen is de prestatie het betalen van geld."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 element_tegenhangers:
   - element: "[[Wiki/Actoren/schuldeiser|Schuldeiser (actor)]]"

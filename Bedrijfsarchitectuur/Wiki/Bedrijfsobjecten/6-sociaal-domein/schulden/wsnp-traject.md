@@ -5,7 +5,7 @@ onderwerp: [schulden en armoede]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
-ggm_entiteit: WSNP-traject
+ggm_entiteit: "WSNP-traject"
 ggm_guid: EAID_513A944D_0FEC_4f78_B290_63274D22C58C
 ggm_uml_type: Class
 ggm_beleidsdomein: Schuldhulpverlening
@@ -21,7 +21,7 @@ analyse_ggm_dekking: |
   - **Partner** (detail) — Detailgegeven (weinig attributen)
   - **Woningbezit** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

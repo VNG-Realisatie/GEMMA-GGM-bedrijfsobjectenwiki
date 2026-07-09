@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sloopregeling
-domein: [milieu]
+onderwerp: [milieu]
 archimate_type: business-object
 grondslag: procesobject
 
@@ -28,7 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijgen voor het vervangen van een voertuig dat door milieuzone-aanscherping niet meer is toegelaten."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
 bo_relaties:
   - type: associatie

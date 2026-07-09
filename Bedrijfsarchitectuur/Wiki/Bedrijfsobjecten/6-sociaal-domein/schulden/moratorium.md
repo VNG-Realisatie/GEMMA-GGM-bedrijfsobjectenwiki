@@ -17,7 +17,7 @@ ggm_herkomst: GGM
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Moratorium** als directe tegenhanger.
 bo_definitie: "Verzoek aan de rechter om schuldeisers tijdelijk te blokkeren tijdens een lopende aanvraag voor een minnelijke schuldregeling."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

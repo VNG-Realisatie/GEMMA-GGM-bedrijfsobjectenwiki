@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Luchtkwaliteitsmeetpunt
-domein: [milieu]
+onderwerp: [milieu]
 archimate_type: business-object
 grondslag: procesobject
 
@@ -28,7 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 bo_definitie: "Fysieke locatie in het gemeentelijk meetnet waar luchtverontreinigende stoffen worden gemeten."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes:
 bo_relaties: []
 bedrijfsprocessen: [luchtkwaliteitsmonitoring, beleidsverantwoording]

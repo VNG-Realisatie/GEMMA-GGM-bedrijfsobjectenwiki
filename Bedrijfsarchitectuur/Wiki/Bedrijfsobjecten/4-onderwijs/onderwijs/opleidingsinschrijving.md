@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Opleidingsinschrijving
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -13,18 +13,18 @@ ggm_taakveld: "4 Onderwijs"
 ggm_diagram: ["Onderwijs: Leerlingen"]
 ggm_diagram_ids: [EAID_33E38059_C973_43ff_97EC_B629923074FF]
 ggm_definitie: "Deelname van iemand aan een opleiding bij een onderwijsinstelling."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
 ggm_gemma_naam: Inschrijving
-ggm_gemma_guid: 5e8930d4-8f06-4075-bf2b-31f45ee86dbc
+ggm_gemma_guid: "5e8930d4-8f06-4075-bf2b-31f45ee86dbc"
 ggm_gemma_definitie: "Deelname van iemand aan een opleiding bij een onderwijsinstelling."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-5e8930d4-8f06-4075-bf2b-31f45ee86dbc
-ggm_gemma_bron: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-5e8930d4-8f06-4075-bf2b-31f45ee86dbc"
+ggm_gemma_bron:
 ggm_gemma_alternate_name: "Inschrijving (Onderwijs)"
 
 ggm_duplicaat_entiteiten: []
@@ -39,7 +39,7 @@ bo_homoniemen:
     toelichting: "Deelname aan een aanbesteding — ander concept dan opleidingsinschrijving"
 
 bo_definitie: "Deelname van iemand aan een opleiding bij een onderwijsinstelling."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"

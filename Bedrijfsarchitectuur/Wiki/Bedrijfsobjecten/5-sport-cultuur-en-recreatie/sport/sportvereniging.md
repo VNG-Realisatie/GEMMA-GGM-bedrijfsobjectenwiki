@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sportvereniging
-domein: [Sport en Bewegen]
+onderwerp: [Sport en Bewegen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Sportvereniging"
@@ -12,22 +12,22 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Diagram Sportbeleid]
 ggm_diagram_ids: [EAID_25BCAA7D_6255_4f3a_8408_DF91881FE29F]
 ggm_definitie: "Organisatievorm waarin sport bedreven kan worden"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Sportvereniging"
 ggm_gemma_guid: "59d3efaa-a05f-477a-a271-49bac323939f"
 ggm_gemma_definitie: "Organisatievorm waarin sport bedreven kan worden"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-59d3efaa-a05f-477a-a271-49bac323939f"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Sportvereniging** als directe tegenhanger.
 bo_definitie: "Organisatie waarin sport wordt beoefend en die als primaire gebruiker optreedt van gemeentelijke sportaccommodaties."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Sportlocatie]]"

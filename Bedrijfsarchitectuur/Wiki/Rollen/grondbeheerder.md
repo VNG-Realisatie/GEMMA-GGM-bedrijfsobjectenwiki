@@ -10,7 +10,7 @@ ggm_beleidsdomein: Grondbeheer
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De verantwoordelijkheid voor het beheer van gronden."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

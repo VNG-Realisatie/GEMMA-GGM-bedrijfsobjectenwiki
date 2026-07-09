@@ -26,6 +26,7 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Frontmatter enum-validatie** — ongeldige waarden voor grondslag, archimate_type, ggm_uml_type. Geldige waarden (zie `templates/element.md`): grondslag ∈ {ggm-entiteit, ggm-afgeleid, procesobject, governance-object}; archimate_type ∈ {business-object, contract, product, business-actor, business-role}; ggm_uml_type ∈ {Class, Enumeration}. Element-pagina's hebben `type: element`; business-actor hoort in `Wiki/Actoren/`, business-role in `Wiki/Rollen/`, de overige in `Wiki/Bedrijfsobjecten/`.
 - **`bo_relaties`-structuur** — BO-pagina's met `bo_relaties`-items die `type`, `richting` of `kardinaliteit` missen, of waarvan `bedrijfsobject:` geen wiki-link bevat.
 - **`bo_definitie` geldig** — BO-pagina's zonder `bo_definitie`, met lege waarde, of met de placeholder `"gelijk aan GGM"`. Dit veld moet altijd een zelfstandige definitie op bedrijfsniveau bevatten (één zin). "Gelijk aan GGM" is geen definitie — herformuleer vanuit gemeentelijk perspectief.
+- **Frontmatter-stijl** — zie `templates/element.md` sectie "Frontmatter-stijl". Signaleer: lege waarden als `""`/`''`/`~`/`'~'` i.p.v. blanco; enkele quotes waar dubbele horen; ongequote `bedrijfsobject: [[...]]` in `bo_relaties` (parseert als geneste lijst, niet als string — altijd fixen, dit is een correctheidsbug); veldnaam `domein:` i.p.v. `onderwerp:`. Fix met `python3 tools/migrate_frontmatter_style.py`.
 
 ### Subtypes en Specialisaties
 

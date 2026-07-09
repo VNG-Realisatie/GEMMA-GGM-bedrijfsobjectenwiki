@@ -5,8 +5,8 @@ onderwerp: [mobiliteit]
 archimate_type: business-actor
 grondslag: procesobject
 bo_definitie: "Persoon die in de gemeente woont en als zodanig betrokken is bij gemeentelijke dienstverlening en beleid."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

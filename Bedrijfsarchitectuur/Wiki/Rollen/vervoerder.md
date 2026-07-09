@@ -10,7 +10,7 @@ ggm_beleidsdomein: Leerplicht en Leerlingenvervoer
 ggm_taakveld: "4 Onderwijs"
 ggm_duplicaat_entiteiten: []
 bo_definitie: "De hoedanigheid van degene die openbaar vervoer of besloten busvervoer verricht (niet als bestuurder)."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers: []
 ---
 

@@ -13,26 +13,26 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Sociaal Domein Beschikking en Voorziening: Domain Objects, Financien Verplichtingen en Facturen, Diagram Verlengen Inhuur, Diagram Inkoop Inhuur, Diagram Inkoop Geen Inhuur]
 ggm_diagram_ids: [EAID_5AE29494_3572_4924_B2B8_3206E55D71BB, EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711, EAID_21AD192F_EEF1_493b_9BFD_D37EF6C93236, EAID_1172FBF0_04B4_46c7_9FB5_F34730E060FB, EAID_6683520C_EE21_4038_A418_D4C957172DF2]
 ggm_definitie: "Bindende overeenkomst"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Contract** als directe tegenhanger.
 bo_definitie: "Bindende overeenkomst"
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leverancier]]"

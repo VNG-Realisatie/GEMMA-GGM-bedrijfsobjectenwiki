@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Collectie
-domein: [Cultuur]
+onderwerp: [Cultuur]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Collectie
@@ -12,22 +12,22 @@ ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_diagram: [Prinsenhof Collectie]
 ggm_diagram_ids: [EAID_B2D890F1_6B7C_45df_9A70_8C40CE1B3611]
 ggm_definitie: "Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Collectie
-ggm_gemma_guid: 65fad3a5-bce6-4c9f-814e-23e42d0f91fd
+ggm_gemma_guid: "65fad3a5-bce6-4c9f-814e-23e42d0f91fd"
 ggm_gemma_definitie: "Een verzameling van verworven voorwerpen die is samengesteld op grond van vastgestelde criteria."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-65fad3a5-bce6-4c9f-814e-23e42d0f91fd"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Collectie** als directe tegenhanger.
 bo_definitie: "Samenhangende verzameling cultuurgoederen of museumobjecten, beheerd door een gemeentelijk museum of erfgoedinstelling op grond van vastgestelde criteria."
-bo_toelichting: ""
+bo_toelichting:
 bedrijfsprocessen: [Collectiebeheer, Verwerving en afstoting, Collectieplan]
 bedrijfsfuncties: [Erfgoedbeheer, Collectiebeheer]
 bo_relaties:

@@ -14,24 +14,24 @@ ggm_diagram:
 - Inburgering
 ggm_diagram_ids:
 - EAID_96927C60_9F7B_4e67_806A_02EE0191983D
-ggm_definitie: Een Vrijstelling is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
-ggm_gemma_naam: ''
-ggm_gemma_guid: ''
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: ''
-ggm_gemma_url: ''
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_definitie: "Een Vrijstelling is een formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt ontheven van specifieke onderdelen van de inburgeringsplicht, omdat deze reeds op andere wijze zijn behaald of niet van toepassing zijn, zoals bedoeld in artikel 7.2 van de Wet inburgering 2021."
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vrijstelling** als directe tegenhanger.
-bo_definitie: Formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van de inburgeringsplicht op grond van behaalde diploma's of certificaten.
-bo_toelichting: Zes categorieën bewijsstukken geven recht op vrijstelling (Nederlandstalige opleidingen, buitenlandse equivalenten, Internationaal/Europees onderwijs). Gedeeltelijke vrijstelling is mogelijk per examenonderdeel op niveau B1 of A2. Aanvraag bij de Minister, beschikking binnen 8 weken, kosten €90.
+bo_definitie: "Formeel besluit waarbij een inburgeringsplichtige geheel of gedeeltelijk wordt vrijgesteld van de inburgeringsplicht op grond van behaalde diploma's of certificaten."
+bo_toelichting: "Zes categorieën bewijsstukken geven recht op vrijstelling (Nederlandstalige opleidingen, buitenlandse equivalenten, Internationaal/Europees onderwijs). Gedeeltelijke vrijstelling is mogelijk per examenonderdeel op niveau B1 of A2. Aanvraag bij de Minister, beschikking binnen 8 weken, kosten €90."
 bo_synoniemen: []
 bo_homoniemen:
 - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|Vrijstelling (Leerplicht)]]"
@@ -41,14 +41,14 @@ bo_homoniemen:
   toelichting: Vrijstelling van de leerplicht is een ander concept dan vrijstelling van de inburgeringsplicht
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringsplicht|Inburgeringsplicht]]"
   richting: naar-dit-BO
-  kardinaliteit: 0..*
+  kardinaliteit: "0..*"
   beschrijving: Inburgeringsplicht kan leiden tot vrijstelling(en)
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|Examen]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/examen|Examen]]"
   richting: van-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Vrijstelling geldt voor specifiek examenonderdeel
 bedrijfsprocessen:
 - Beoordeling vrijstellingsaanvraag inburgering

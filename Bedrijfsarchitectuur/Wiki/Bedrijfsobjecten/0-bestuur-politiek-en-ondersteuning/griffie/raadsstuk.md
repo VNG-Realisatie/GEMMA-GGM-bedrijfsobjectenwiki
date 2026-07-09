@@ -22,11 +22,11 @@ ggm_synoniemen:
 ggm_herkomst: GGM
 
 ggm_gemma_naam: Raadsstuk
-ggm_gemma_guid: 378dab8d-1135-40b8-9ed5-3591a89c75c2
+ggm_gemma_guid: "378dab8d-1135-40b8-9ed5-3591a89c75c2"
 ggm_gemma_definitie: "Stuk dat door de gemeenteraad wordt behandeld"
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-378dab8d-1135-40b8-9ed5-3591a89c75c2"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -40,7 +40,7 @@ analyse_ggm_dekking: |
   - **Indiener** (detail) — Detailgegeven (geassocieerd met BO)
   - **Programma** (detail) — Component van Begroting
 bo_definitie: "Stuk dat door de gemeenteraad wordt behandeld"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

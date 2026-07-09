@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Interventie
-domein: [Terug-en-invordering]
+onderwerp: [Terug-en-invordering]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Interventie"
@@ -12,23 +12,23 @@ ggm_taakveld: "Inkomen"
 ggm_diagram: [Diagram Terug- en invordering]
 ggm_diagram_ids: [EAID_CE436DEE_AB15_4f23_B191_FA8A63FB488D]
 ggm_definitie: "De daadwerkelijke interventie, die wordt ondernomen naar aanleiding van een interventieverzoek."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Interventie** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Interventieverzoek** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Actie die de gemeente onderneemt om betaling op een openstaande vordering te bewerkstelligen."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Daadwerkelijke interventie die wordt ondernomen naar aanleiding van een interventieverzoek bij het achterwege blijven van aflossingen
 bedrijfsprocessen: [Invordering, Handhaving]
 bedrijfsfuncties: [Inning en invordering]

@@ -5,8 +5,8 @@ onderwerp: [Arbeidszaken, Werk en Inkomen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "De gemeente in haar hoedanigheid als werkgever tegenover medewerkers, met eigen arbeidsvoorwaardelijke verantwoordelijkheden."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

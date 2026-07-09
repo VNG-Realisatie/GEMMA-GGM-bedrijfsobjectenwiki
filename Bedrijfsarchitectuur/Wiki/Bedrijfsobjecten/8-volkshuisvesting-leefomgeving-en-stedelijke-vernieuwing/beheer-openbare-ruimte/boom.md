@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Boom
-domein: [Beheer Openbare Ruimte]
+onderwerp: [Beheer Openbare Ruimte]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Boom"
@@ -13,32 +13,32 @@ ggm_diagram: [Diagram IMBOR vs IMGeo]
 ggm_diagram_ids: [EAID_B832F543_BBE3_421e_B76D_561E53237684]
 ggm_definitie: "Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt.
 Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Boom** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Klimplant** (detail) — Detailgegeven
   - **SolitairePlant** (detail) — Detailgegeven (weinig attributen)
   - **Vegetatieobject** (detail) — Detailgegeven
 bo_definitie: "Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt. Toelichting: Een houtachtig gewas (loofboom of conifeer) met een wortelgestel en een enkele, stevige, houtige stam, die zich boven de grond vertakt."
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Bomenbeheer, Kapvergunningverlening, Boomveiligheid-inspectie (VTA), Verplanting, Herplant]
 bedrijfsfuncties: [Groenbeheer, Vergunningverlening, Openbare ruimte]
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: Vegetatieobject (GGM)
+    bedrijfsobject: "Vegetatieobject (GGM)"
     richting: "van-dit-BO"
-    kardinaliteit: 
+    kardinaliteit:
     beschrijving: Boom is een specialisatie van Vegetatieobject
 ---
 

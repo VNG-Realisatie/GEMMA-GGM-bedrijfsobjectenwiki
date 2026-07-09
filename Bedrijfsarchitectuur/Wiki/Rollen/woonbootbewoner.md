@@ -5,8 +5,8 @@ onderwerp: [Wonen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Bewoner van een woonboot, met specifieke rechten en plichten rond het gebruik van de ligplaats en oever."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

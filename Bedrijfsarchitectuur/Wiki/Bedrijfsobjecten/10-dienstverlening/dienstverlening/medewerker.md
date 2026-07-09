@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Medewerker
-domein: [Dienstverlening]
+onderwerp: [Dienstverlening]
 archimate_type: business-object
 grondslag: ggm-entiteit
 ggm_entiteit: Medewerker
@@ -12,18 +12,18 @@ ggm_taakveld: "99 Kern"
 ggm_diagram: [Referentiemodel Gemeentelijke Basisgegevens Zaken in schema, Betrokkene, Afspraken en Klantcontacten]
 ggm_diagram_ids: [EAID_8AC9A512_0538_48f7_B25E_5BC65B17A147, EAID_0516C81B_D5F6_4b7a_AD98_82FD3B218A6B, EAID_282A4979_0BBC_4448_B71C_0CE64829083B]
 ggm_definitie: "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: "GFO Zaken"
 ggm_gemma_naam: Medewerker
 ggm_gemma_guid: "6cc6afe6-e4c6-4e2b-a359-f278b23700db"
 ggm_gemma_definitie: "Een medewerker van de organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een ORGANISATORISCHE EENHEID."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-6cc6afe6-e4c6-4e2b-a359-f278b23700db"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Medewerker** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -43,7 +43,7 @@ analyse_ggm_dekking: |
   - **Taak** (detail) — Detailgegeven (weinig attributen)
   - **Uitvoerende instantie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een medewerker van de gemeentelijke organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een organisatorische eenheid."
-bo_toelichting: ""
+bo_toelichting:
 element_tegenhangers:
   - element: "[[Wiki/Actoren/medewerker|Medewerker (actor)]]"
     archimate_type: business-actor

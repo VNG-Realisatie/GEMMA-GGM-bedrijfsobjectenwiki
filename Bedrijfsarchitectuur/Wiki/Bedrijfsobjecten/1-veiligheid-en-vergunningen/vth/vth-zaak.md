@@ -14,18 +14,18 @@ ggm_diagram: [Diagram Vergunningen en Meldingen, Verkamering en Woonoverlast]
 ggm_diagram_ids: [EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267, EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF]
 ggm_definitie: "Een VTHzaak is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op vergunningverlening, toezicht en handhaving (VTH) van regels en voorschriften in de fysieke leefomgeving."
 ggm_toelichting: "VTH staat voor Vergunningverlening, Toezicht en Handhaving, de samenhangende taken waarmee gemeenten (en bevoegde overheden) controleren of activiteiten voldoen aan wettelijke eisen, vergunningen verlenen en handhavend optreden."
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **VTHzaak**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -35,7 +35,7 @@ analyse_ggm_dekking: |
   - **Producttype** (classificatie) — Typering/referentietabel
   - **SubProducttype** (classificatie) — Typering/referentietabel
 bo_definitie: "Een VTHzaak is een zaak of dossier binnen de gemeentelijke administratie die betrekking heeft op vergunningverlening, toezicht en handhaving (VTH) van regels en voorschriften in de fysieke leefomgeving."
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_via_kandidaten:
   - ggm_entiteit: "Activiteit Omgevingswet"
@@ -50,7 +50,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Zaak]]"
     richting: van-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "VTH-zaak is een specialisatie van Zaak"
 bedrijfsprocessen: [vergunningverlening, toezicht, handhaving, vooroverleg]
 bedrijfsfuncties: [vergunningverlening, toezicht en handhaving]

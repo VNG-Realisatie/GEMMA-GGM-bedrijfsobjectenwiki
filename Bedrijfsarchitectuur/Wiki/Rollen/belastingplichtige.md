@@ -5,8 +5,8 @@ onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Natuurlijk persoon of organisatie die wettelijk verplicht is een gemeentelijke belasting of heffing te betalen."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

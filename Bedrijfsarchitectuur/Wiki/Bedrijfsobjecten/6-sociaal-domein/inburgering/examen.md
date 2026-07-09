@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Examen
-domein:
+onderwerp:
 - Asiel en Integratie
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -17,37 +17,37 @@ ggm_diagram_ids:
 ggm_definitie: Een Examen in de context van onderwijs is een formele toetsingsactiviteit waarmee de kennis, vaardigheden en competenties van een leerling of student worden beoordeeld ten opzichte van vooraf
   vastgestelde leerdoelen of eindtermen. Het examen kan schriftelijk, mondeling, digitaal of praktijkgericht zijn en vormt doorgaans een afsluiting van een cursus, module of opleiding. Het behalen van een
   examen kan leiden tot het verkrijgen van een diploma, certificaat of overgangsbewijs en is bedoeld om de voortgang en geschiktheid voor verdere studie of beroep te waarborgen.
-ggm_toelichting: ''
-ggm_synoniemen: ''
-ggm_herkomst: ''
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: Examen
-ggm_gemma_guid: ccce5500-2140-4928-9716-0132a31e9686
-ggm_gemma_definitie: ''
-ggm_gemma_toelichting: ''
-ggm_gemma_synoniemen: ''
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686
-ggm_gemma_bron: ''
-ggm_gemma_alternate_name: ''
+ggm_gemma_guid: "ccce5500-2140-4928-9716-0132a31e9686"
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ccce5500-2140-4928-9716-0132a31e9686"
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Examen** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Examenonderdeel** (detail) — Component van Examen, geen zelfstandige levenscyclus
-bo_definitie: Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering.
-bo_toelichting: ''
+bo_definitie: "Formele toets waarmee een inburgeraar aantoont te voldoen aan de eisen van de Wet inburgering."
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Examenonderdeel"
     ggm_guid: "EAID_D41DCE2D_4AD5_45b8_9527_EC416F4A4CC7"
     reden: "Een examenonderdeel is een afgebakende component van een examen — expliciet in de GGM-definitie."
 bo_relaties:
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|Inburgeringstraject]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|Inburgeringstraject]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Inburgeringstraject wordt afgesloten met examens
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]'
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/leerroute|Leerroute]]"
   richting: naar-dit-BO
-  kardinaliteit: 1
+  kardinaliteit: "1"
   beschrijving: Leerroute wordt afgerond met examens
 ---
 

@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Aanvraag Leerlingenvervoer
-domein: [onderwijs]
+onderwerp: [onderwijs]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -18,19 +18,19 @@ ggm_synoniemen:
 ggm_herkomst:
 
 ggm_gemma_naam: AanvraagLeerlingenvervoer
-ggm_gemma_guid: 41c1c340-9952-4bd9-8f45-fec2c0a1ddd7
+ggm_gemma_guid: "41c1c340-9952-4bd9-8f45-fec2c0a1ddd7"
 ggm_gemma_definitie: "Een aanvraag voor een leerling die recht heeft op vervoer van en naar onderwijs."
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
-ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7
+ggm_gemma_type: "business-object"
+ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-41c1c340-9952-4bd9-8f45-fec2c0a1ddd7"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Aanvraag Leerlingenvervoer** als directe tegenhanger.
 bo_definitie: "Verzoek van ouders aan de gemeente om een vervoersvoorziening voor hun kind."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

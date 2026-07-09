@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Sollicitatie
-domein: [Arbeidszaken]
+onderwerp: [Arbeidszaken]
 archimate_type: business-object
 grondslag: ggm-entiteit
 
@@ -32,7 +32,7 @@ analyse_ggm_dekking: |
   - **Sollicitant** (detail) — Detailgegeven (geassocieerd met BO)
   - **Sollicitatiegesprek** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Verzoek om in een functie te worden aangesteld."
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Sollicitatiegesprek"
     ggm_guid: "EAID_1D4DA0E6_DA20_4ff7_A415_B937712C6F6D"

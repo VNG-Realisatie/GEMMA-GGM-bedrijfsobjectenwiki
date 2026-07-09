@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Activa
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Activa"
@@ -12,24 +12,24 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_diagram: [Financien Verplichtingen en Facturen]
 ggm_diagram_ids: [EAID_0723EB5C_4A2C_44d4_B15B_37AC71B5D711]
 ggm_definitie: "Bezittingen van een onderneming op een boekhoudkundige balans"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Activa"
 ggm_gemma_guid: "e83e86ad-4769-41ce-91c7-675e93441074"
 ggm_gemma_definitie: "Bezittingen van een onderneming op een boekhoudkundige balans"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-e83e86ad-4769-41ce-91c7-675e93441074"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Activa** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Activasoort** (classificatie) — Typering/referentietabel
   - **Hoofdrekening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Bezittingen van een onderneming op een boekhoudkundige balans"
-bo_toelichting: ''
+bo_toelichting:
 bo_via_kandidaten:
   - ggm_entiteit: "Hoofdrekening"
     ggm_guid: "EAID_0EEAF579_3F47_4551_B9F9_7367280EB3EB"

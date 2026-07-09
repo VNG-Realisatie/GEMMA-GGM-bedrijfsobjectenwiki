@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Taakveld
-domein: [Financien]
+onderwerp: [Financien]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Taakveld"
@@ -13,17 +13,17 @@ ggm_diagram: [Financien Begroting en Budgetverantwoordelijkheid]
 ggm_diagram_ids: [EAID_42C2960F_FED7_467e_AAB1_5195BED59A39]
 ggm_definitie: "Een samenhangend geheel van activiteiten en taken en hangt onder een programma."
 ggm_toelichting: "Een taakveld kan verbonden zijn aan een strategische opgave. Dat betekent dat het budget voor de activiteiten die nodig zijn om de opgave uit te voeren daar te vinden zijn."
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
   - "EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18"
@@ -31,7 +31,7 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Taakveld** als directe tegenhanger. Daarnaast is **Taakveld** (beleidsdomein Griffie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een samenhangend geheel van activiteiten en taken en hangt onder een programma."
-bo_toelichting: ''
+bo_toelichting:
 definitie: Een samenhangend geheel van activiteiten en taken dat onder een programma hangt
 bedrijfsprocessen: [Begrotingscyclus, IV3-verantwoording]
 bedrijfsfuncties: [Planning en control, Financieel beheer]

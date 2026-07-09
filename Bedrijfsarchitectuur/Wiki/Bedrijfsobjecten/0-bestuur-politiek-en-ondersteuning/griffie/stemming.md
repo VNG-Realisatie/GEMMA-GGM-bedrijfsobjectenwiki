@@ -20,11 +20,11 @@ ggm_synoniemen:
 ggm_herkomst: GGM
 
 ggm_gemma_naam: Stemming
-ggm_gemma_guid: 857327b0-3ab3-4578-869d-7b390aa1e3d3
+ggm_gemma_guid: "857327b0-3ab3-4578-869d-7b390aa1e3d3"
 ggm_gemma_definitie: "Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering"
 ggm_gemma_toelichting:
 ggm_gemma_synoniemen:
-ggm_gemma_type: business-object
+ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-857327b0-3ab3-4578-869d-7b390aa1e3d3"
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
@@ -35,7 +35,7 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Stemming** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Agendapunt** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Stem (openbaring van iemands mening (voor of tegen)), uitbrengen bij verkiezingen of bij een vergadering"
-bo_toelichting: ''
+bo_toelichting:
 bo_subtypes: []
 bo_relaties:
   - type: associatie

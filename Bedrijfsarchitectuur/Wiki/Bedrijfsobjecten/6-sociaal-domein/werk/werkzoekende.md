@@ -13,19 +13,19 @@ ggm_taakveld: "6 Sociaal Domein"
 ggm_diagram: [Detaildiagram Werk, Diagram Client en Werkzoekende]
 ggm_diagram_ids: [EAID_F93A23D7_BF68_46e0_A6D4_96508ACED81E, EAID_793F0822_F942_4948_A3EA_24C60FCAB576]
 ggm_definitie: "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."
-ggm_toelichting: ""
-ggm_synoniemen: ""
+ggm_toelichting:
+ggm_synoniemen:
 ggm_herkomst: GGM
 
-ggm_gemma_naam: ""
-ggm_gemma_guid: ""
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: ""
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Werkzoekende** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
@@ -60,7 +60,7 @@ bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Client]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "specialisatie van Client"
   - type: associatie
     bedrijfsobject: "[[Re-integratievoorziening]]"

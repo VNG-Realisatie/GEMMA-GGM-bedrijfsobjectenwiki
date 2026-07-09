@@ -17,7 +17,7 @@ ggm_diagram_ids:
   - EAID_B9209AD2_0648_4482_BB24_135F27C2FECC
   - EAID_30B09C29_F649_4248_97FC_35A5F9331BBF
 ggm_definitie: "Vanwege de leesbaarheid wordt gewerkt met de term Toepasbare regel ipv regelbeheersobject. Een regelbeheerobject heeft een koppeling met een samenhangende set met regels om een afleiding te kunnen doen."
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen:
 ggm_herkomst:
 

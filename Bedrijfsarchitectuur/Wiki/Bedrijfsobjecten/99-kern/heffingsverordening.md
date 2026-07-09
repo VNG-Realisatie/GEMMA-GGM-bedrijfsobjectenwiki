@@ -1,7 +1,7 @@
 ---
 type: element
 naam: "Heffingsverordening"
-domein: [Belastingen]
+onderwerp: [Belastingen]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Heffingsverordening"
@@ -12,27 +12,27 @@ ggm_taakveld: "1 Veiligheid en Vergunningen"
 ggm_diagram: [Diagram Vergunningen en Meldingen, Verkamering en Woonoverlast]
 ggm_diagram_ids: [EAID_BB52C835_0B2D_4164_AC9D_9D6EDBD7E267, EAID_B039478A_DAF7_458f_A7C7_E4744EC08DBF]
 ggm_definitie: "Een heffingsverordening is een door de gemeenteraad vastgestelde verordening die de heffing en invordering van gemeentelijke belastingen en rechten regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden."
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 ggm_gemma_naam: "Heffingsverordening"
 ggm_gemma_guid: "f94b299a-c9eb-4bdb-82e7-5752360494cd"
-ggm_gemma_definitie: ""
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
 ggm_gemma_type: "business-object"
-ggm_gemma_url: ""
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Heffingsverordening** als directe tegenhanger.
 bo_definitie: "Een heffingsverordening is een door de gemeenteraad vastgestelde verordening die de heffing en invordering van gemeentelijke belastingen en rechten regelt, zoals afvalstoffenheffing, precariobelasting of marktgelden."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "*(Document)*"
     richting: "van-dit-BO"
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Een heffingsverordening is een specialisatie van Document in het GGM"
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/heffing|Heffing]]"

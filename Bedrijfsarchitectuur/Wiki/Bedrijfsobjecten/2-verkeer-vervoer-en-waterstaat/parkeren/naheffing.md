@@ -1,7 +1,7 @@
 ---
 type: element
 naam: Naheffing
-domein: [mobiliteit]
+onderwerp: [mobiliteit]
 archimate_type: "business-object"
 grondslag: "ggm-entiteit"
 ggm_entiteit: "Naheffing"
@@ -12,29 +12,29 @@ ggm_taakveld: "2 Verkeer, Vervoer en Waterstaat"
 ggm_diagram: [Model Parkeren]
 ggm_diagram_ids: [EAID_84B6B75B_2B58_455d_B019_C9B1E71717C2]
 ggm_definitie: "Het achteraf vorderen van te weinig betaalde belasting "
-ggm_toelichting: ""
+ggm_toelichting:
 ggm_synoniemen: "Navordering"
-ggm_herkomst: ""
+ggm_herkomst:
 ggm_gemma_naam: "Naheffing"
 ggm_gemma_guid: "d10d2101-2e16-4f56-bcce-43783fd256be"
 ggm_gemma_definitie: "Het achteraf vorderen van te weinig betaalde belasting"
-ggm_gemma_toelichting: ""
+ggm_gemma_toelichting:
 ggm_gemma_synoniemen: "Navordering"
 ggm_gemma_type: "business-object"
 ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-d10d2101-2e16-4f56-bcce-43783fd256be"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Naheffing** als directe tegenhanger.
 bo_definitie: "Het achteraf vorderen van te weinig betaalde belasting"
-bo_toelichting: ''
+bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]
 bedrijfsfuncties: [Parkeerbeleid]
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Parkeerscan]]"
     richting: "naar-dit-BO"
-    kardinaliteit: 1..1
+    kardinaliteit: "1..1"
     beschrijving: Naheffing volgt uit een parkeerscan
 ---
 

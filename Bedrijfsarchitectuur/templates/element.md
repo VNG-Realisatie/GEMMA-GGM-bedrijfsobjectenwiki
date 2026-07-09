@@ -7,6 +7,14 @@ Locatie:
 
 Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid actor/rol en de criteria. Bij actor/rol-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
 
+### Frontmatter-stijl
+
+- **Lege waarde:** niets na de colon (`ggm_guid:`), nooit `""`, `''`, `~` of `'~'`.
+- **Niet-lege tekstwaarde:** dubbele quotes wanneer nodig of gebruikelijk — altijd bij `bo_definitie` en bij `bo_relaties.bedrijfsobject`/`kardinaliteit`; bij overige velden alleen als de waarde YAML-speciale tekens bevat. Enkele quotes niet gebruiken.
+- **Lege lijst:** `[]` (bijv. `bedrijfsprocessen: []`), niet `""`/`''`.
+- **`bo_relaties.bedrijfsobject`:** altijd gequote wiki-link, bijv. `"[[Wiki/.../vestiging|Vestiging]]"` — ongequote `[[...]]` breekt de YAML-parse (wordt een geneste lijst i.p.v. een string).
+- Normalisatie hiervan wiki-breed: `tools/migrate_frontmatter_style.py`.
+
 ## Frontmatter
 
 ```yaml
@@ -78,7 +86,7 @@ element_tegenhangers: []            # cross-link wanneer hetzelfde begrip ook al
 #    toelichting: {bijv. "de gegevens over deze actor worden vastgelegd als bedrijfsobject"}
 bo_relaties:
   - type: {associatie | compositie | generalisatie}
-    bedrijfsobject: [[gerelateerd-bedrijfsobject]]
+    bedrijfsobject: "[[gerelateerd-bedrijfsobject]]"
     richting: {van-dit-BO | naar-dit-BO | bidirectioneel}
     kardinaliteit: {bijv. "1..*"}
     beschrijving: {korte omschrijving van de relatie}

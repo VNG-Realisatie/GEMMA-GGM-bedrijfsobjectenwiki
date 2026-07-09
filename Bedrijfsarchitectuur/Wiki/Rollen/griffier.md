@@ -5,8 +5,8 @@ onderwerp: [Bestuur]
 archimate_type: business-role
 grondslag: governance-object
 bo_definitie: "Ambtenaar aangesteld door de raad die de raad, raadscommissies en individuele raadsleden ondersteunt (Gemeentewet)."
-ggm_entiteit: ""
-ggm_guid: ""
+ggm_entiteit:
+ggm_guid:
 element_tegenhangers: []
 ---
 

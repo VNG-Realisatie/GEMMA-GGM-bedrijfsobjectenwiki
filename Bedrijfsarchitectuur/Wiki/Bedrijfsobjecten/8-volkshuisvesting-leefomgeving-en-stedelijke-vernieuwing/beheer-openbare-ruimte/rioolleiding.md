@@ -33,12 +33,12 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft geen directe GGM-entiteit; het is een specialisatie van GGM-entiteit **Leiding**, vastgelegd als generalisatie-relatie naar [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|Leiding]].
 bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
-bo_toelichting: ''
+bo_toelichting:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|Leiding]]"
     richting: naar-dit-BO
-    kardinaliteit: ""
+    kardinaliteit:
     beschrijving: "Rioolleiding is een specialisatie van Leiding"
   - type: associatie
     bedrijfsobject: "[[Put]]"
