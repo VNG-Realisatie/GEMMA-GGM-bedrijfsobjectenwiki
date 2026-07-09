@@ -4,6 +4,7 @@ naam: Functionaris gegevensbescherming
 onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Verplichte adviesrol die toeziet op naleving van de AVG en adviseert bij DPIA's en datalekken."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

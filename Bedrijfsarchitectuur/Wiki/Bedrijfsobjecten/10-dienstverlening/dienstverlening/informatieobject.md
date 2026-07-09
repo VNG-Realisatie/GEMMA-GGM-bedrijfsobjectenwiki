@@ -3,7 +3,7 @@ type: element
 naam: Informatieobject
 domein: [Informatiebeheer]
 archimate_type: business-object
-grondslag: ggm-hiaat
+grondslag: procesobject
 ggm_entiteit: ""
 ggm_guid: ""
 ggm_uml_type: ""

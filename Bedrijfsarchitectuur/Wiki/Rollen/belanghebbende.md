@@ -18,7 +18,7 @@ element_tegenhangers: []
 
 Belanghebbende is de hoedanigheid uit de Algemene wet bestuursrecht: degene wiens belang rechtstreeks bij een besluit is betrokken en die daarmee rechten heeft in de procedure (zienswijze, bezwaar, beroep).
 
-Bij een WOZ-beschikking geldt een wettelijke voorkeursvolgorde voor wie als **WOZ-belanghebbende** de beschikking ontvangt (eigenaar vóór gebruiker) — geen apart begrip, wel een domeinspecifieke toepassing van deze rol. Bron: [[Wiki/Bronsamenvattingen/Belastingen/beleidsregels-gemeentelijke-belastingen-dfm]].
+Bij een WOZ-beschikking geldt een wettelijke voorkeursvolgorde voor wie als **WOZ-belanghebbende** de beschikking ontvangt (eigenaar vóór gebruiker) — geen apart begrip, wel een domeinspecifieke toepassing van deze rol. Bron: [[Wiki/Bronsamenvattingen/Belastingen/beleidsregels-gemeentelijke-belastingen-dfm|Beleidsregels gemeentelijke belastingen DFM]].
 
 ## Criteria-toetsing (Business Role)
 

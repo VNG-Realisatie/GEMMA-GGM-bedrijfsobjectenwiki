@@ -4,6 +4,7 @@ naam: Rekenkamer
 onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Onafhankelijk orgaan van de gemeente dat de doelmatigheid, doeltreffendheid en rechtmatigheid van het gemeentelijk beleid onderzoekt."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -4,6 +4,7 @@ naam: Gebruiksverantwoordelijke (AI)
 onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Organisatie die een AI-systeem onder eigen verantwoordelijkheid gebruikt (EU AI-verordening)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

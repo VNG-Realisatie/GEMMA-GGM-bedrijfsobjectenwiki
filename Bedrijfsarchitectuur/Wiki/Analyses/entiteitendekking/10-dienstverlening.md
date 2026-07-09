@@ -54,7 +54,7 @@ BO's waarvoor geen overeenkomstige GGM-entiteit bestaat. Data-objecten worden al
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/dpia\|DPIA]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek\|Datalek]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/grondrechteneffectbeoordeling\|Grondrechteneffectbeoordeling]] | nee | procesobject | **Alleen GEMMA-BO** |
-| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject\|Informatieobject]] | nee | ggm-hiaat | **Alleen GEMMA-BO** |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject\|Informatieobject]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen\|Vergunningen en ontheffingen]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkersovereenkomst\|Verwerkersovereenkomst]] | nee | governance-object | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkingsactiviteit\|Verwerkingsactiviteit]] | nee | procesobject | **Alleen GEMMA-BO** |

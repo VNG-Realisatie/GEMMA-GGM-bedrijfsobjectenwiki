@@ -94,10 +94,19 @@ Elke gebiedsaanwijzing heeft een type (uit een waardelijst), een groep, een naam
 
 ## Subtypes
 
-Herkende specialisaties van Gebiedsaanwijzing. Gevonden in GGM. Geen apart BO.
+Herkende specialisaties van Gebiedsaanwijzing. Geen apart BO.
 
-- **Functie** — samenhangende verzameling rollen die een gebied vervult; attributen: naam, groep
-- **Beperkingsgebied** — gebied waar vanwege aanwezig werk of object beperkingen gelden; attributen: naam, groep
+- **Functie** — samenhangende verzameling rollen die een gebied vervult; attributen: naam, groep (gevonden in GGM)
+- **Beperkingsgebied** — gebied waar vanwege aanwezig werk of object beperkingen gelden; attributen: naam, groep (gevonden in GGM)
+  - **Aandachtsgebied** — ruimtelijk gebied rond een risicobron (gevaarlijke stoffen) dat zichtbaar maakt waar mensen binnenshuis, zonder aanvullende maatregelen, onvoldoende beschermd zijn tegen een incident. Geldt vanaf het begin van de activiteit, hoeft niet eerst in het omgevingsplan aangewezen te worden. Drie typen:
+    - **Brandaandachtsgebied** — gebied waarbinnen mensen slachtoffer kunnen worden van warmtestraling
+    - **Explosieaandachtsgebied** — gebied waarbinnen mensen slachtoffer kunnen worden van overdruk
+    - **Gifwolkaandachtsgebied** — gebied waarbinnen mensen slachtoffer kunnen worden van giftige stoffen
+  - **Voorschriftengebied** — in het omgevingsplan aangewezen (deel van een) aandachtsgebied waarbinnen aanvullende bouweisen gelden voor nieuwbouw (art. 4.90-4.96 Bbl: brandwerendheid, vluchtroutes, scherfwerking glas). Twee typen:
+    - **Brandvoorschriftengebied** — aanvullende bouweisen tegen brandgevaar
+    - **Explosievoorschriftengebied** — aanvullende bouweisen tegen explosiegevaar
+
+Aandachtsgebied en Voorschriftengebied zijn specifiek voor het domein gevaarlijke stoffen/omgevingsveiligheid (Risicobron, zie [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|Risicobron]]) en hadden voorheen elk een eigen BO-pagina; samengevoegd omdat het GGM ze niet als aparte entiteiten modelleert (beide vallen onder het generieke Beperkingsgebied-subtype).
 
 ## GGM-bron
 
@@ -113,11 +122,10 @@ Herkende specialisaties van Gebiedsaanwijzing. Gevonden in GGM. Geen apart BO.
 | Relatie | BO | Richting | Beschrijving | Bron |
 |---|---|---|---|---|
 | generalisatie | Functie | ↓ | Subtype: samenhangende verzameling rollen | GGM |
-| generalisatie | Beperkingsgebied | ↓ | Subtype: beperkingen bij werk/object | GGM |
+| generalisatie | Beperkingsgebied | ↓ | Subtype: beperkingen bij werk/object (incl. Aandachtsgebied, Voorschriftengebied — zie Subtypes) | GGM |
 | associatie | [[Juridische Regel]] | ← | Instructieregel/RegelVoorIedereen beschrijft gebiedsaanwijzing | GGM |
 | associatie | [[Activiteit]] | ↔ | Gekoppeld via juridische regels en locaties | GGM |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] | ← | Aandachtsgebied (gevaarlijke stoffen) is een Beperkingsgebied (partieel) | cross-domein |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/voorschriftengebied\|Voorschriftengebied]] | ← | Voorschriftengebied is een Beperkingsgebied (partieel) | cross-domein |
+| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | ← | Aandachtsgebied/voorschriftengebied-subtypes horen bij een risicobron | cross-domein |
 | associatie | BOR FunctioneelGebied | ↔ | BOR FunctioneelGebied ([[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]], Sportterrein, [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]]) ≈ Functie-subtype in omgevingsplan; conceptuele overlap, technisch ander model (IMBOR vs IMOW) | cross-domein |
 | associatie | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron\|Geluidbron]] | ← | Geluidzones rond geluidbronnen zijn Beperkingsgebieden | cross-domein |
 
@@ -128,3 +136,4 @@ Herkende specialisaties van Gebiedsaanwijzing. Gevonden in GGM. Geen apart BO.
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Omgevingswet/imow-informatiemodel-omgevingswet]]
+- [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid]]

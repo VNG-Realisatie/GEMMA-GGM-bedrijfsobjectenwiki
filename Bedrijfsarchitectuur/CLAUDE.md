@@ -242,6 +242,12 @@ Elke factische claim moet traceerbaar zijn naar zijn bron:
 
 Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar originele bronnen.
 
+## Principes
+- Don't assume. Don't hide confusion. Surface tradeoffs.
+- Minimum code that solves the problem. Nothing speculative.
+- Touch only what you must. Clean up only your own mess.
+- Define success criteria. Loop until verified.
+
 ## Regels
 
 1. **Wijzig nooit bestanden in `Sources/`** — deze zijn immutabel. (Bronnen zijn read-only.)

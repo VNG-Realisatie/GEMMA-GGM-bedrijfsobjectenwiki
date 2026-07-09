@@ -4,6 +4,7 @@ naam: Organisator (evenementen)
 onderwerp: [Evenementen]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij die een evenement aanmeldt, een vergunning aanvraagt en verantwoordelijk is voor de uitvoering ervan."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

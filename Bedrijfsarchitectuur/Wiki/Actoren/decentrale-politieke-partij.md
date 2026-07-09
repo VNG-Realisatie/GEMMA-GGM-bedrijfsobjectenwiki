@@ -4,6 +4,7 @@ naam: Decentrale politieke partij
 onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Vereniging of orgaan zonder rechtspersoonlijkheid die op lokaal niveau aan verkiezingen deelneemt en subsidie kan ontvangen."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

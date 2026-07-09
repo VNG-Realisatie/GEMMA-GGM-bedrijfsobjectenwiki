@@ -4,6 +4,7 @@ naam: Behandelaar
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Rol die beschrijft wat iemand doet bij de behandeling van een zaak (RGBZ/ZTC2-roltype)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

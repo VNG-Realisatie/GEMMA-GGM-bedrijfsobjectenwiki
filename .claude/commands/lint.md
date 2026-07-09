@@ -64,7 +64,7 @@ Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, 
 - **Homoniemen-compleetheid** — BO's met **gevulde** `bo_homoniemen` in frontmatter (niet `[]`): elk item moet `bedrijfsobject`, `ggm_entiteit`, `ggm_guid`, `ggm_beleidsdomein` en `toelichting` bevatten.
 - **Homoniemen-symmetrie** — als BO-A in `bo_homoniemen` naar BO-B verwijst, moet BO-B ook in `bo_homoniemen` naar BO-A verwijzen. Signaleer eenzijdige verwijzingen.
 - **Homoniemen ↔ GGM-duplicaten consistentie** — bo_homoniemen in frontmatter moeten ook in de `## GGM-duplicaten` body-sectie vermeld worden als homoniem-waarschuwing.
-- **Naamkeuze-consistentie** — BO's waarvan `naam` ≠ `ggm_entiteit` (en `ggm_entiteit` niet leeg): moeten een `## Naamkeuze` sectie in de body hebben die de naamsafwijking documenteert. **Uitzondering:** als het verschil alleen hoofdlettergebruik of triviale formatting betreft.
+- **Naamkeuze-consistentie** — BO's waarvan `naam` ≠ `ggm_entiteit` door homoniem-disambiguatie (zie `templates/element.md`) missen een `## Naamkeuze`-sectie. Niet van toepassing bij generalisatie/specialisatie (matchsterkte `sterk`/`partieel`) — dat hoort bij `## GGM-bron`, niet bij Naamkeuze.
 - **Duplicaat-bestandsnamen** — twee of meer BO-bestanden met dezelfde bestandsnaam in verschillende domeinfolders. Dit is een potentieel homoniem dat nog niet gedocumenteerd is.
 
 ### Inhoudelijke consistentie

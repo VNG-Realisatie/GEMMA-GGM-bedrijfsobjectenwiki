@@ -50,7 +50,7 @@ Niet-BO entiteiten: 2× classificatie, 11× detail, 1× onderdeel, 7× proces.
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|VTH-Melding]] | n.v.t. | proces |  | Proces of processtap |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|VTHAanvraagOfMelding]] | n.v.t. | proces |  | Proces of processtap |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|VTHzaak]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vth-zaak\|VTH-zaak]] ✅ | hernoemd |  | Hernoemd naar VTH-zaak |
-| [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Vaartuig]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot\|Woonboot]] ✅ | hernoemd |  | Hernoemd naar Woonboot |
+| [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Vaartuig]] | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig\|Vaartuig]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Vordering]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] ✅ | hernoemd |  | Hernoemd naar Vordering (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|Vorderingregel]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/terug-en-invordering/vordering\|Vordering]] | onderdeel |  | Onderdeel (naamindicatie) |
 | [[Wiki/GGM/1-veiligheid-en-vergunningen/1-veiligheid-en-vergunningen\|WABOAanvraagOfMelding]] | n.v.t. | proces |  | Proces of processtap |

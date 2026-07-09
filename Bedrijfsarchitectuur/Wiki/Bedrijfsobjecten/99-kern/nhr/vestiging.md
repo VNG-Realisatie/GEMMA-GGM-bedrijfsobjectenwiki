@@ -82,6 +82,11 @@ bo_relaties:
     richting: van-dit-BO
     kardinaliteit: "1"
     beschrijving: "Heeft als locatie-adres een BAG-adres"
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf|Horecabedrijf]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: "Horecabedrijf is een specialisatie van Vestiging"
 bedrijfsprocessen:
   - Vergunningverlening
   - Belastingheffing

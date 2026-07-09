@@ -13,7 +13,7 @@ Aanvulling op het woonbotenbeleid uit 2007. De gemeente wijst drie zones aan waa
 
 ### Definitie historisch schip
 
-Een [[Woonboot]] of bedrijfsvaartuig is historisch als het minimaal 50 jaar oud is en de originele romp is ontworpen om te varen. De opbouw moet nog duidelijk oorspronkelijke kenmerken bezitten. Een "schark" — schip met originele romp en (deels) vervangen houten opbouw — wordt ook als historisch aangemerkt. Er zijn circa 60 historische woonboten en scharken in Utrecht (dalend aantal).
+Een [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|Woonboot]] of bedrijfsvaartuig is historisch als het minimaal 50 jaar oud is en de originele romp is ontworpen om te varen. De opbouw moet nog duidelijk oorspronkelijke kenmerken bezitten. Een "schark" — schip met originele romp en (deels) vervangen houten opbouw — wordt ook als historisch aangemerkt. Er zijn circa 60 historische woonboten en scharken in Utrecht (dalend aantal).
 
 ### Vervangingsregeling
 
@@ -40,14 +40,14 @@ Ontleend aan de Amsterdamse Nota welstand op het water:
 
 ## Kernbegrippen
 
-- **Historisch schip** — woonboot of bedrijfsvaartuig ≥50 jaar oud met originele romp en kenmerken; classificatie van [[Woonboot]]
+- **Historisch schip** — woonboot of bedrijfsvaartuig ≥50 jaar oud met originele romp en kenmerken; classificatie van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|Woonboot]]
 - **Schark** — historisch schip met originele romp en (deels) vervangen houten opbouw; subtype van historisch schip
 - **Zone historische boten** — aangewezen stadsdeel met beschermingsregime voor historische vaartuigen
 - **Vervangingsregeling** — regels voor wat een historisch schip mag vervangen (type, lengte, lengtemarge)
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Introduceert "historisch schip" als classificatie van [[Woonboot]], niet als zelfstandig objecttype. De drie zones zijn een ruimtelijk beleidsinstrument (classificatie van gebieden), geen zelfstandig registreerbaar object. De vervangingsregeling is een beleidsregel die op de ligplaatsvergunning wordt toegepast.
+Introduceert "historisch schip" als classificatie van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|Woonboot]], niet als zelfstandig objecttype. De drie zones zijn een ruimtelijk beleidsinstrument (classificatie van gebieden), geen zelfstandig registreerbaar object. De vervangingsregeling is een beleidsregel die op de ligplaatsvergunning wordt toegepast.
 
 ## Citaten
 

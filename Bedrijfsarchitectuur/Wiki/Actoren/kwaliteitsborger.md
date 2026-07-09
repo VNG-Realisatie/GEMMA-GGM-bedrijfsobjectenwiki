@@ -4,6 +4,7 @@ naam: Kwaliteitsborger
 onderwerp: [Omgevingswet]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Onafhankelijke, onder de Wet kwaliteitsborging voor het bouwen toegelaten partij die de bouwtechnische kwaliteit van een bouwwerk toetst."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -41,7 +41,7 @@ bo_relaties:
   kardinaliteit: 1
   beschrijving: Asielstatushouder doorloopt een brede intake
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|Gezinsmigrant]]'
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|Gezinsmigrant]]'
   richting: naar-dit-BO
   kardinaliteit: 1
   beschrijving: Gezinsmigrant doorloopt een brede intake
@@ -80,7 +80,7 @@ De GGM-definitie beschrijft een generiek sociaal-domein intakeproces ("hulpverle
 
 ## Relaties
 
-- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — inburgeraar doorloopt een brede intake [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|gezinsmigrant]] — inburgeraar doorloopt een brede intake [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — resulteert in een PIP [1]
 
 ## Bronnen

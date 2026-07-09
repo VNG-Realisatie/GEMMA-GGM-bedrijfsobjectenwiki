@@ -4,6 +4,7 @@ naam: Overtreder
 onderwerp: [Omgevingswet]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij tegen wie een handhavingsbesluit of sanctie wordt genomen in het VTH-proces."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

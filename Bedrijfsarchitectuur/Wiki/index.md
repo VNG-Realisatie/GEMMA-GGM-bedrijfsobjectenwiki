@@ -136,7 +136,7 @@
 
 ### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
-- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — Inburgeringsplichtige op grond van gezinshereniging of andere migratiereden
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|gezinsmigrant]] — Inburgeringsplichtige op grond van gezinshereniging of andere migratiereden
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|brede-intake]] — Gestructureerd intakeproces voor integraal beeld inburgeraar
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip|pip]] — Persoonlijk Plan Inburgering en Participatie
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject|inburgeringstraject]] — Persoonlijk begeleidingstraject voor taal, samenleving en participatie
@@ -210,7 +210,8 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/buitenzwemplek|buitenzwemplek]] — Locatie in open water voor buitenzwemmen (3 officieel + niet-officieel, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|ligplaats]] — Aangewezen plek in het water voor permanent afmeren (BAG-object, GGM Ligplaats, exact)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing|rioolheffing]] — Gemeentelijke belasting voor water- en rioleringsbeheer (GGM-hiaat)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|rioolleiding]] — Buisinfrastructuur voor transport afval-/hemelwater (GGM Leiding, exact, 13 attributen)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|leiding]] — GGM-containerbegrip voor alle leidingtypen (exact match); specialisatie: rioolleiding
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|rioolleiding]] — Buisinfrastructuur voor transport afval-/hemelwater (specialisatie van leiding, 13 attributen)
 
 ### Energie en Klimaat (procesobjecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/warmtenet|warmtenet]] — Infrastructuur voor levering van warmte aan gebouwen (stadsverwarming Eneco, lokale netten)
@@ -242,9 +243,8 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel|toepasbare-regel]] — Vertaling van juridische regels naar vragenbomen voor het Omgevingsloket (GGM Toepasbare Regel, exact)
 
 ### Gevaarlijke stoffen / Omgevingsveiligheid (GGM taakveld 8 Omgevingswet, partieel)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (GGM Activiteit, partieel)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied|aandachtsgebied]] — Ruimtelijk gebied rond risicobron voor veiligheidsafweging (GGM Gebiedsaanwijzing, partieel)
-- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/voorschriftengebied|voorschriftengebied]] — Aangewezen gebied met aanvullende bouweisen (GGM Gebiedsaanwijzing, partieel)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|risicobron]] — Bedrijf, buisleiding of transportroute met gevaarlijke stoffen (specialisatie van Activiteit)
+- Aandachtsgebied en voorschriftengebied — nu subtypes binnen [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|gebiedsaanwijzing]] (voorheen eigen BO-pagina's, samengevoegd — GGM modelleert ze niet apart)
 
 ### Geluid (GGM taakveld 7/8, procesobjecten + 1 ggm-entiteit)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/geluid/geluidbron|geluidbron]] — Bron die geluid veroorzaakt, ingedeeld naar bronsoort (procesobject, GGM-hiaat)

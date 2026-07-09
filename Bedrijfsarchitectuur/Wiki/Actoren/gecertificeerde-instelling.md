@@ -4,6 +4,7 @@ naam: Gecertificeerde instelling
 onderwerp: [Sociaal Domein]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Rechtspersoon met een certificaat die zelfstandig kinderbeschermingsmaatregelen en jeugdreclassering uitvoert."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

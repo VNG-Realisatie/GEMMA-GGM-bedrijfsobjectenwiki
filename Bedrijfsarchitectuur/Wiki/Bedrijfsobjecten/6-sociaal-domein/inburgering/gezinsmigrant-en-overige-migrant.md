@@ -1,6 +1,6 @@
 ---
 type: element
-naam: Gezinsmigrant
+naam: Gezinsmigrant en Overige migrant
 domein:
 - Asiel en Integratie
 archimate_type: business-object
@@ -35,9 +35,20 @@ ggm_gemma_url: https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-9191
 ggm_gemma_bron: ''
 ggm_gemma_alternate_name: ''
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Gezinsmigrant en Overige migrant**.
-bo_definitie: Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel.
-bo_toelichting: ''
+  Dit BO heeft de GGM-entiteit **Gezinsmigrant en Overige migrant** als directe tegenhanger. De gemeentelijke praktijkscope is beperkt tot het subtype Gezinsmigrant.
+bo_definitie: "Inburgeraar die niet via de asielketen maar via gezinshereniging of een andere migratiereden inburgeringsplichtig is."
+bo_toelichting: "GGM bundelt twee migrantcategorieën (Gezinsmigrant en Overige migrant) in één lege specialisatie van Inburgeraar, uitsluitend bedoeld om relaties te leggen (bijv. Aanvraag Sociale Lening). De gemeentelijke bronnen beschrijven uitsluitend gezinsmigranten; over 'overige migrant' bevatten de bronnen geen informatie."
+bo_subtypes:
+  - naam: "Gezinsmigrant"
+    omschrijving: "Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging; de enige praktijkscope van dit BO binnen de gemeente."
+    ggm_entiteit: "Gezinsmigrant en Overige migrant"
+    ggm_guid: EAID_526489DC_4D57_4e6d_8338_5F7C898162F6
+    ggm_attribuut: ""
+  - naam: "Overige migrant"
+    omschrijving: "Andere migratiereden dan gezinshereniging of asiel; door de GGM-entiteit voorzien maar niet beschreven in de gemeentelijke bronnen."
+    ggm_entiteit: "Gezinsmigrant en Overige migrant"
+    ggm_guid: EAID_526489DC_4D57_4e6d_8338_5F7C898162F6
+    ggm_attribuut: ""
 bo_relaties:
 - type: associatie
   bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]'
@@ -56,9 +67,9 @@ bo_relaties:
   beschrijving: Heeft een inburgeringsplicht
 ---
 
-# Gezinsmigrant
+# Gezinsmigrant en Overige migrant
 
-Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere migratiereden, niet zijnde asiel.
+Inburgeraar die niet via de asielketen maar via gezinshereniging of een andere migratiereden inburgeringsplichtig is. De gemeentelijke praktijk (en dus dit BO) beperkt zich tot de subtype Gezinsmigrant; over "overige migrant" is in de bronnen niets gevonden.
 
 ## BO-criteria toetsing
 
@@ -69,6 +80,15 @@ Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere
 - ✅ Heeft een eigen levenscyclus
 - ✅ Heeft relaties met andere concepten
 
+**Score: 6/6**, maar in de gemeentelijke praktijk is dit BO uitsluitend gevuld via de subtype Gezinsmigrant.
+
+## Subtypes
+
+Herkende specialisaties van Gezinsmigrant en Overige migrant. Geen apart BO — de GGM-entiteit zelf bundelt beide al in één lege specialisatie.
+
+- **Gezinsmigrant** — inburgeringsplichtige die verblijf heeft op grond van gezinshereniging; de enige praktijkscope van dit BO binnen de gemeente.
+- **Overige migrant** — andere migratiereden dan gezinshereniging of asiel; door de GGM-entiteit voorzien maar niet beschreven in de gemeentelijke bronnen.
+
 ## GGM-bron
 
 > Object Inburgeraar is gespecialiseerd in Asielstatushouder en Gezinsmigrant en Overige Migrant. Gezinsmigrant en Overige Migrant heeft geen kenmerken en is bedoeld om relaties te leggen met objecten die alleen van toepassing zijn voor Gezinsmigrant en Overige Migrant.
@@ -77,11 +97,11 @@ Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging of andere
 - **Beleidsdomein:** Inburgering (taakveld 6 — Sociaal Domein)
 - **Attributen:** *(geen)*
 - **Overerving:** Inburgeraar (abstract) → Gezinsmigrant en Overige migrant
-- **Matchsterkte:** exact
+- **Matchsterkte:** exact — dit BO is de GGM-entiteit zelf; de gemeentelijke praktijkscope is beperkt tot de subtype Gezinsmigrant
 
 ## BO-definitie
 
-De GGM-definitie is een technische UML-toelichting over de overervingsstructuur ("Object Inburgeraar is gespecialiseerd in..."), geen inhoudelijke definitie van het concept Gezinsmigrant. De BO-definitie beschrijft wat een gezinsmigrant is vanuit de Wet inburgering.
+De GGM-definitie is een technische UML-toelichting over de overervingsstructuur ("Object Inburgeraar is gespecialiseerd in..."), geen inhoudelijke definitie. De BO-definitie beschrijft wat een gezinsmigrant is vanuit de Wet inburgering.
 
 ## Relaties
 

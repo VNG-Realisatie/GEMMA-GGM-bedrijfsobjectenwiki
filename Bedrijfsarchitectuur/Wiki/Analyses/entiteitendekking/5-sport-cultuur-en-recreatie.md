@@ -8,8 +8,8 @@ beleidsdomeinen:
   - Musea
   - Sport
 totaal_entiteiten: 81
-totaal_bo: 21
-totaal_matches: 19
+totaal_bo: 20
+totaal_matches: 18
 totaal_hiaten: 2
 ---
 
@@ -19,9 +19,9 @@ totaal_hiaten: 2
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 81 GGM-entiteiten (1 n.v.t.). Dekking: 65 van 80 (81%) — 19 met BO, 46 ondersteunend, 15 niet gedekt. 2 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 81 GGM-entiteiten (1 n.v.t.). Dekking: 66 van 80 (82%) — 18 met BO, 48 ondersteunend, 14 niet gedekt. 2 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 5× classificatie, 56× detail, 1× proces.
+Niet-BO entiteiten: 5× classificatie, 57× detail, 1× proces.
 
 ## Erfgoed
 
@@ -74,12 +74,12 @@ Niet-BO entiteiten: 5× classificatie, 56× detail, 1× proces.
 
 ## Musea
 
-30 GGM-entiteiten (0 n.v.t.): 6 met BO, 18 ondersteunend aan BO, 6 niet gedekt. Dekking: 24 van 30 (80%).
+30 GGM-entiteiten (0 n.v.t.): 5 met BO, 20 ondersteunend aan BO, 5 niet gedekt. Dekking: 25 van 30 (83%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] ✅ | hernoemd |  | Hernoemd naar Risicobron (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteitsoort]] | typering [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteit]] | via Voorziening → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Activiteitsoort]] | typering [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Balieverkoop]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Balieverkoop Entreekaart]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Belanghebbende]] | [[Wiki/Rollen/belanghebbende\|Belanghebbende]] ✅ | — |  | Exacte match (rol-pagina) |
@@ -91,23 +91,23 @@ Niet-BO entiteiten: 5× classificatie, 56× detail, 1× proces.
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Lener]] | via Museumobject → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Mailing]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumobject]] | [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] ✅ | — |  | Exacte match |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumrelatie]] | via Activiteit → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Museumrelatie]] | via Kostenplaats → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Omzetgroep]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Prijs]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Product]] | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] ✅ | hernoemd |  | Hernoemd naar Product (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Productgroep]] | typering [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | classificatie |  | Administratieve classificatie |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Productie-eenheid]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Programmasoort]] | via Activiteit → [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | classificatie |  | Typering/referentietabel |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Reservering]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Rondleiding]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Programma]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | detail |  | Component van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Programmasoort]] | via Kostenplaats → [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Reservering]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Rondleiding]] | via Museumobject → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Samensteller]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Standplaats]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Tentoonstelling]] | beschrijft [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] | detail |  | Operationele activiteit van museum, geen gemeentelijk registratieobject |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Voorziening]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] ✅ | hernoemd |  | Hernoemd naar Voorziening (dubbel gemodelleerd in GGM, zie ggm_duplicaat_entiteiten) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Winkelverkoopgroep]] | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Winkelvoorraaditem]] | beschrijft [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Zaal]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| [[Wiki/GGM/5-sport-cultuur-en-recreatie/musea\|Zaal]] | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/musea/museumobject\|Museumobject]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 
 ## Sport
 

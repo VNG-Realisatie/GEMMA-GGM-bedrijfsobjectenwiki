@@ -40,15 +40,6 @@ Gemeentelijk vastgoed omvat het beheer, de verhuur en het onderhoud van gebouwen
 - [[Wiki/Bronsamenvattingen/Vastgoed/vastgoedstrategie-amsterdam|Vastgoedstrategie Amsterdam]] — strategisch beleidsdocument Gemeente Amsterdam over ~1.000 panden, huurprijssystematiek, verduurzaming
 - [[Wiki/Bronsamenvattingen/Vastgoed/beleidsplan-vastgoed-hulst|Beleidsplan Vastgoed Hulst]] — operationeel beleidsplan Gemeente Hulst over ~50 gebouwen, inspecties, MJOP, onderhoud
 
-## GGM-dekking
-
-Beleidsdomein **Vastgoed** (taakveld 9, 27 entiteiten):
-- 6 entiteiten → BO (Vastgoedobject, Verhuurbare Eenheid, Vastgoedcontract, MJOP, Werkbon, Inspectie)
-- 6 entiteiten → GGM-component (Bouwdeel, Bouwdeelelement, Vastgoedcontractregel, MJOP-Item, Prijzenboekitem, Objectrelatie)
-- 3 entiteiten → actor/rol (Eigenaar, Huurder, Pachter)
-- 6 entiteiten → enumeratie/classificatie (Energielabel, Monumenttypering, NEN2767 Conditiescore, Objectrelatierol, TypeAdresseerbaarObject, Zakelijkrecht)
-- 6 entiteiten → verankering/overig (KpBetrokkenBij, KpOnstaanUit, Locatieonroerendezaak, NADAanvullingBRP, Adresaanduiding, LocatieaanduidingWozObject, WOZ-Belang, CultuurOnbebouwd, Gebruiksdoel, Zakelijk Recht, Aanbesteding Vastgoed, Offerte)
-
 ## Openstaande vragen
 
 - De GGM-entiteiten rond WOZ (WOZ-Belang, LocatieaanduidingWozObject) overlappen met het Belastingen-domein — afstemming nodig

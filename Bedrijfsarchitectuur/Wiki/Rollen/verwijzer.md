@@ -4,6 +4,7 @@ naam: Verwijzer
 onderwerp: [Sociaal Domein]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij (huisarts, rechter, gecertificeerde instelling) die een wettelijke verwijzing naar jeugdhulp afgeeft."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

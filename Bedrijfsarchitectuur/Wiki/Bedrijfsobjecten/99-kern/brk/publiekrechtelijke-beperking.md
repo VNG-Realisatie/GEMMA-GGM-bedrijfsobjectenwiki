@@ -3,7 +3,7 @@ type: element
 naam: Publiekrechtelijke Beperking
 onderwerp: [Basisregistraties, BRK]
 archimate_type: business-object
-grondslag: ggm-entiteit
+grondslag: procesobject
 
 ggm_entiteit: ""
 ggm_guid: ""

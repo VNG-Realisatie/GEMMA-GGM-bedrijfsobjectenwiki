@@ -8,9 +8,9 @@ beleidsdomeinen:
   - Bouwen en Wonen
   - Omgevingswet
 totaal_entiteiten: 119
-totaal_bo: 34
+totaal_bo: 36
 totaal_matches: 31
-totaal_hiaten: 3
+totaal_hiaten: 5
 ---
 
 # Entiteitendekking: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
@@ -19,7 +19,7 @@ totaal_hiaten: 3
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-3 beleidsdomeinen, 119 GGM-entiteiten (5 n.v.t.). Dekking: 87 van 114 (76%) — 31 met BO, 56 ondersteunend, 27 niet gedekt. 3 BO's zonder GGM-entiteit.
+3 beleidsdomeinen, 119 GGM-entiteiten (5 n.v.t.). Dekking: 87 van 114 (76%) — 31 met BO, 56 ondersteunend, 27 niet gedekt. 5 BO's zonder GGM-entiteit.
 
 Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 13× specialisatie.
 
@@ -35,7 +35,7 @@ Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1
 | Areaal | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/99-kern/bag/buurt\|Buurt]] / [[Wiki/Bedrijfsobjecten/99-kern/bag/wijk\|Wijk]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | Bak | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven |
 | Bank | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| Beheerobject | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject\|Verlichtingsobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
+| Beheerobject | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/waterobject\|Waterobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verlichtingsobject\|Verlichtingsobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/groenobject\|Groenobject]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] / [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verhardingsobject\|Verhardingsobject]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | Bemalingsgebied | specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioleringsgebied\|Rioleringsgebied]] | specialisatie |  | Specialisatie van Rioleringsgebied — zie bo_subtypes |
 | Bergingsbassin | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/bergingsbassin\|Bergingsbassin]] ✅ | — |  | Exacte match |
 | Boom | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]] ✅ | — |  | Exacte match |
@@ -67,8 +67,8 @@ Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1
 | Kunstwerk | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]] ✅ | — |  | Exacte match |
 | Kwaliteitscatalogus Openbare Ruimte | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | Kwaliteitskenmerken | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| Leiding | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] ✅ | hernoemd |  | Hernoemd naar Rioolleiding |
-| Leidingelement | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | detail |  | Detailgegeven |
+| Leiding | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]] ✅ | — |  | Exacte match |
+| Leidingelement | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]] | detail |  | Detailgegeven |
 | Logboek | ⚠️ ter discussie tussen [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] / [[Wiki/Bedrijfsobjecten/9-interne-organisatie/inkoop/leverancier\|Leverancier]] | detail |  | Meerdere gelijkwaardige BO-kandidaten, geen eenduidige winnaar — kies er één en registreer via bo_via_kandidaten op die BO-pagina |
 | MOOR-melding | n.v.t. | proces |  | Proces of processtap |
 | Mast | ⚠️ geen BO bereikbaar | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
@@ -131,12 +131,12 @@ Niet-BO entiteiten: 1× classificatie, 65× detail, 4× onderdeel, 5× proces, 1
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] ✅ | hernoemd |  | Hernoemd naar Risicobron |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Beperkingsgebied]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Activiteit]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] ✅ | — | synoniem: Milieubelastende activiteit; synoniem: Bouwactiviteit; homoniem: Activiteit (Musea) | Exacte match |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Beperkingsgebied]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Bevoegd Gezag]] | [[Wiki/Actoren/bevoegd-gezag\|Bevoegd Gezag]] ✅ | — |  | Exacte match (actor-pagina) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Conclusie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/aandachtsgebied\|Aandachtsgebied]] ✅ | hernoemd |  | Hernoemd naar Aandachtsgebied |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Functie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gebiedsaanwijzing]] | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Gemachtigde]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Idealisatie]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/juridische-regel\|Juridische Regel]] | detail |  | Detailgegeven (geassocieerd met BO) |
 | [[Wiki/GGM/8-volkshuisvesting-leefomgeving/omgevingswet\|Indieningsvereisten]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/toepasbare-regel\|Toepasbare Regel]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
@@ -171,4 +171,6 @@ BO's waarvoor geen overeenkomstige GGM-entiteit bestaat. Data-objecten worden al
 |---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/buitenzwemplek\|Buitenzwemplek]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing\|Rioolheffing]] | nee | procesobject | **Alleen GEMMA-BO** |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]] | ja | ggm-afgeleid | **Terugmelding** |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | ja | ggm-afgeleid | **Terugmelding** |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/urgentverklaring\|Urgentverklaring]] | nee | governance-object | **Alleen GEMMA-BO** |

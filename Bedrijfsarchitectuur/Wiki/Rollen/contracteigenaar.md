@@ -4,6 +4,7 @@ naam: Contracteigenaar
 onderwerp: [Inkoop]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Een van vier contractbeheerrollen: eindverantwoordelijk voor een contract."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

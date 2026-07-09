@@ -55,10 +55,10 @@ bo_relaties:
     kardinaliteit:
     beschrijving: "Ligplaats bevindt zich in een waterobject/vaarweg"
   - type: associatie
-    bedrijfsobject: "[[Woonboot]]"
+    bedrijfsobject: "[[Vaartuig]]"
     richting: naar-dit-BO
     kardinaliteit: "0..1"
-    beschrijving: "Een ligplaats kan bezet zijn door een woonboot"
+    beschrijving: "Een ligplaats kan bezet zijn door een vaartuig (in de praktijk: woonboot)"
   - type: generalisatie
     bedrijfsobject: "[[AdresseerbaarObject]]"
     richting: van-dit-BO
@@ -77,7 +77,7 @@ bedrijfsfuncties: [Havendienst, BAG-beheer, Vergunningverlening, Handhaving]
 | Heeft een eigen bestaan binnen het domein | ✅               | Elke ligplaats heeft een locatie, een vergunninghouder en een type vaartuig    |
 | Kan in meervoud bestaan                   | ✅               | 482 recreatieve + 37 commerciële ligplaatsvergunningen, 334 woonboten          |
 | Heeft een eigen levenscyclus              | ✅               | Aanwijzing → vergunningverlening → in gebruik → toezicht → eventueel opheffing |
-| Heeft relaties met andere concepten       | ✅               | [[Waterobject]], [[Woonboot]], Nummeraanduiding                                |
+| Heeft relaties met andere concepten       | ✅               | [[Waterobject]], [[Vaartuig]], Nummeraanduiding                                |
 
 Score: 6/6.
 
@@ -128,7 +128,7 @@ Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
 | associatie | [[Waterobject]] | bidirectioneel | Beleidsnota Stadswater |
-| associatie | [[Woonboot]] | naar-dit-BO | Woonbotenbeleid 2007 |
+| associatie | [[Vaartuig]] | naar-dit-BO | Woonbotenbeleid 2007 |
 | generalisatie | AdresseerbaarObject | van-dit-BO | GGM BAG |
 
 ## Bedrijfsprocessen

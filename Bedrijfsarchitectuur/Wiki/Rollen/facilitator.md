@@ -4,6 +4,7 @@ naam: Facilitator (maatschappelijk vastgoed)
 onderwerp: [Sociaal Domein]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Een van vier gemeentelijke rollen bij maatschappelijk vastgoed: het mogelijk maken van initiatieven van derden."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

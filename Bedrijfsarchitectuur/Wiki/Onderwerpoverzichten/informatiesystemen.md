@@ -39,10 +39,6 @@ IT-infrastructuur, applicatiebeheer en IT-dienstverlening vanuit gemeentelijk pe
 - [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025 — Gemeentelijke Inkoop bij IT Toolbox]]
 - [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
 
-## GGM-dekking
-
-Het GGM ICT-beleidsdomein bevat 35 objecttypen. Na deze ingest zijn 11 beoordeeld als BO (9 GGM exact + 2 eerder via Informatiesamenleving). De overige entiteiten zijn deels abstract (CMDB-item, Linkbaar CMDB-item), deels meta-model (Objecttype, Attribuutsoort, Relatiesoort, Generalisatie, Datatype), en deels niche (Inventaris, Toegangsmiddel, Vervoersmiddel, Telefoniegegevens, Prijzenboek).
-
 ## Terugmeldingen richting GGM
 
 - Typefout "Nertwerkcomponent" → moet zijn "Netwerkcomponent" — zie [[Wiki/Analyses/ggm-terugmeldingen]]

@@ -4,6 +4,7 @@ naam: Verhuurder
 onderwerp: [Wonen]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij onderworpen aan de vergunningvoorwaarden voor goed verhuurderschap (huisvestingsverordening)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

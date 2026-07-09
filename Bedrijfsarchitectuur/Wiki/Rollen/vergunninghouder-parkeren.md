@@ -4,6 +4,7 @@ naam: Vergunninghouder (parkeren)
 onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Belastingplichtige aan wie een parkeervergunning is verleend voor het parkeren op een aangewezen locatie."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

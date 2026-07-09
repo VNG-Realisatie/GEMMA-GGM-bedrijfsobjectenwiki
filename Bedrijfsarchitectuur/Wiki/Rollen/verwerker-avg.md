@@ -4,6 +4,7 @@ naam: Verwerker (AVG)
 onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij die persoonsgegevens verwerkt namens de gemeente, vastgelegd in een verwerkersovereenkomst (AVG)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

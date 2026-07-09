@@ -4,6 +4,7 @@ naam: Terugmelder
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Bestuursorgaan of belanghebbende dat gerede twijfel meldt over de juistheid van een authentiek gegeven."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -39,7 +39,7 @@ bo_relaties:
   kardinaliteit: 1
   beschrijving: Asielstatushouder heeft een inburgeringsplicht
 - type: associatie
-  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|Gezinsmigrant]]'
+  bedrijfsobject: '[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|Gezinsmigrant]]'
   richting: naar-dit-BO
   kardinaliteit: 1
   beschrijving: Gezinsmigrant heeft een inburgeringsplicht
@@ -80,7 +80,7 @@ De GGM-definitie beschrijft technische implementatiedetails ("Bevat de uitkomst 
 
 ## Relaties
 
-- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant|gezinsmigrant]] — inburgeraar heeft een inburgeringsplicht [1]
+- ← [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] / [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|gezinsmigrant]] — inburgeraar heeft een inburgeringsplicht [1]
 - → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstermijn|inburgeringstermijn]] — heeft een inburgeringstermijn [1]
 
 ## Bronnen

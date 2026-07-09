@@ -5,7 +5,7 @@ status: in-behandeling
 verwerkingsdatum: 2026-06-26
 bronnen_count: 11
 begrippen_count: 72
-bo_count: 35
+bo_count: 36
 ---
 
 Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
@@ -87,7 +87,8 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]]|object|Aangewezen plek in het water voor permanent afmeren van drijvend object| ✅ | ja |6/6 criteria, GGM: Ligplaats (BAG, exact)|482 recreatief + 334 woonboten|ja|
 |[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolheffing\|Rioolheffing]]|object|Gemeentelijke belasting voor water- en rioleringsbeheer| ✅ | ja |6/6 criteria, GGM-hiaat, vergelijkbaar met [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenheffing\|Afvalstoffenheffing]]|€254/jaar eigenarenheffing|nee|
 |sluis|subtype|Waterbouwkundig kunstwerk voor niveauverschillen in vaarwegen| ✅ subtype | ja |Subtype van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]], GGM-hiaat|Weerdsluis, Muntsluis|nee|
-|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]]|object|Buisinfrastructuur voor transport van afval- en/of hemelwater| ✅ | ja |6/6 criteria, GGM exact (Leiding, 13 attributen), 395 km in Twenterand|Vuilwaterriool, hemelwaterriool, gemengd riool|ja|
+|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]]|object|GGM-containerbegrip voor alle typen leidingen; gemeentelijke praktijkscope beperkt tot riolering| ✅ | ja |6/6 criteria, GGM exact|Rioolleiding|ja|
+|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding\|Rioolleiding]]|object|Buisinfrastructuur voor transport van afval- en/of hemelwater| ✅ | ja |6/6 criteria, specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]] (13 attributen), 395 km in Twenterand|Vuilwaterriool, hemelwaterriool, gemengd riool|ja (via Leiding)|
 |IBA|object|Individuele Behandelingsinstallatie Afvalwater in buitengebied| ❌ | ja |Perceeleigenaar verantwoordelijk, niet gemeentelijk beheerobject|IBA Buitengebied Twenterand|nee|
 |drukriolering|classificatie|Riooltype waarbij afvalwater onder druk wordt getransporteerd via minigemalen| ❌ | nee |Type riolering, eigenschap van rioolleiding/stelsel|Drukriolering buitengebied|nee|
 |GWR|instrument|Gemeentelijk Water- en Rioleringsplan, verplicht beleidsplan per gemeente| ❌ | nee |Governance-document, één per gemeente per planperiode|GWR Twenterand 2024-2028|nee|

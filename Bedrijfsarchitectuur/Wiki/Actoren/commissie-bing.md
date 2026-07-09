@@ -4,6 +4,7 @@ naam: Commissie BInG
 onderwerp: [Beheer Openbare Ruimte]
 archimate_type: business-actor
 grondslag: procesobject
+bo_definitie: "Vaste interne toetsingscommissie die projecten in de openbare ruimte vooraf beoordeelt op inrichting, groen, wegbeheer en veiligheid."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

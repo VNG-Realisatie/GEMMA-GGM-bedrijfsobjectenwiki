@@ -3,56 +3,54 @@ type: element
 naam: Risicobron
 domein: [gevaarlijke-stoffen]
 archimate_type: "business-object"
-grondslag: "ggm-entiteit"
-ggm_entiteit: "Activiteit"
-ggm_guid: EAID_8BE600D0_EBF4_475b_8801_F387A5D39009
-ggm_uml_type: Class
-ggm_beleidsdomein: "Omgevingswet"
-ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram: [Omgevingswet Toepasbare Regels, Omgevingswet Verzoek Activiteit op Locatie, Omgevingswet Juridische Regels (CIMOW)]
-ggm_diagram_ids: [EAID_B9209AD2_0648_4482_BB24_135F27C2FECC, EAID_30B09C29_F649_4248_97FC_35A5F9331BBF, EAID_0AC65EDC_5C77_4fd6_8548_98FCF09F72D0]
-ggm_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd. "
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
-ggm_gemma_naam: "Activiteit"
-ggm_gemma_guid: "8deec5da-a06a-4159-9b20-e9f9ff24674e"
-ggm_gemma_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: "business-object"
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-8deec5da-a06a-4159-9b20-e9f9ff24674e"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: "Activiteit (Omgevingswet)"
+grondslag: ggm-afgeleid
 
-ggm_duplicaat_entiteiten:
-  - "EAID_A1C60F39_3074_4d1c_A37D_5F431F54DF92"
+# GGM-velden — geen directe entiteit; afgeleid via generalisatie van GGM-entiteit Activiteit
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
+ggm_diagram: []
+ggm_diagram_ids: []
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
+
+ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Activiteit** als directe tegenhanger. Daarnaast is **Activiteit** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Activiteitsoort** (classificatie) — Typering/referentietabel
-  - **Doelgroep** (detail) — Detailgegeven (weinig attributen)
-  - **Mailing** (detail) — Detailgegeven (weinig attributen)
-  - **Museumrelatie** (detail) — Detailgegeven (weinig attributen)
-  - **Programma** (detail) — Component van Begroting
-  - **Programmasoort** (classificatie) — Typering/referentietabel
-  - **Reservering** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Rondleiding** (detail) — Detailgegeven (geassocieerd met BO)
-bo_definitie: "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
+  Dit BO heeft geen directe GGM-entiteit; het is een specialisatie van GGM-entiteit **Activiteit**, vastgelegd als generalisatie-relatie naar [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]].
+bo_definitie: "Een bedrijf, buisleiding of transportroute waar gevaarlijke stoffen worden verwerkt, opgeslagen of vervoerd."
 bo_toelichting: ''
 bedrijfsprocessen: ""
 bedrijfsfuncties: ""
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]]"
+    richting: naar-dit-BO
+    kardinaliteit: ""
+    beschrijving: "Risicobron is een specialisatie van Activiteit (een activiteit met externe veiligheidsrisico's)"
   - type: associatie
-    bedrijfsobject: "[[Aandachtsgebied]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Gebiedsaanwijzing]]"
     richting: "van-dit-BO"
     kardinaliteit: "1..*"
-    beschrijving: "Een risicobron heeft een of meer aandachtsgebieden (brand, explosie, gifwolk)"
+    beschrijving: "Een risicobron heeft een of meer aandachtsgebieden (subtype van Gebiedsaanwijzing/Beperkingsgebied: brand, explosie, gifwolk)"
   - type: associatie
-    bedrijfsobject: "[[Voorschriftengebied]]"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Gebiedsaanwijzing]]"
     richting: "van-dit-BO"
     kardinaliteit: "0..*"
-    beschrijving: Rond een risicobron kan een voorschriftengebied worden aangewezen
+    beschrijving: "Rond een risicobron kan een voorschriftengebied worden aangewezen (subtype van Gebiedsaanwijzing/Beperkingsgebied)"
 ---
 
 ## BO-criteria toetsing
@@ -83,19 +81,16 @@ In Utrecht zijn de belangrijkste risicobronnen:
 | Risicovolle buisleiding | Buisleiding voor transport van gevaarlijke stoffen | — |
 | Risicovolle transportroute | Weg, spoor of vaarweg waarover gevaarlijke stoffen worden vervoerd | — |
 
-## GGM-bron
+## Generalisatie
 
-> "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd."
-> — GGM, Activiteit (EAID_8BE600D0), beleidsdomein Omgevingswet
-
-**Matchsterkte: partieel.** Activiteit is een generiek Omgevingswet-concept dat alle activiteiten in de leefomgeving omvat. Een risicobron is een specifiek type activiteit — namelijk een activiteit met externe veiligheidsrisico's. De GGM-entiteit is breder; het BO is een specialisatie. Het GGM kent geen apart objecttype voor risicobronnen.
+Risicobron heeft geen eigen GGM-entiteit. Het is een specialisatie van GGM-entiteit **Activiteit** (Omgevingswet) — zie [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit|Activiteit]] voor de GGM-bron en matchsterkte. Activiteit is een generiek Omgevingswet-concept dat alle activiteiten in de leefomgeving omvat; een risicobron is een specifiek type activiteit — namelijk een activiteit met externe veiligheidsrisico's. Het GGM kent geen apart objecttype voor risicobronnen.
 
 ## Relaties
 
 | Gerelateerd BO | Type | Richting | Kardinaliteit | Beschrijving | Bron |
 |---|---|---|---|---|---|
-| [[Aandachtsgebied]] | associatie | → | 1..* | Een risicobron heeft aandachtsgebieden voor brand, explosie en/of gifwolk | Beleidsnota §2.4 |
-| [[Voorschriftengebied]] | associatie | → | 0..* | Rond een risicobron kan een voorschriftengebied worden aangewezen | Beleidsnota §2.4.4 |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] (subtype Aandachtsgebied) | associatie | → | 1..* | Een risicobron heeft aandachtsgebieden voor brand, explosie en/of gifwolk | Beleidsnota §2.4 |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing\|Gebiedsaanwijzing]] (subtype Voorschriftengebied) | associatie | → | 0..* | Rond een risicobron kan een voorschriftengebied worden aangewezen | Beleidsnota §2.4.4 |
 
 ## Bedrijfsprocessen
 

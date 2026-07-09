@@ -4,6 +4,7 @@ naam: GPK-houder
 onderwerp: [mobiliteit]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Houder van een gemeentelijk afgegeven gehandicaptenparkeerkaart met specifieke parkeerrechten."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

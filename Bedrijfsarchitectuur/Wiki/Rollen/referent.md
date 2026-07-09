@@ -4,6 +4,7 @@ naam: Referent
 onderwerp: [Asiel en Integratie]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Persoon in Nederland bij wie een gezinslid via nareis herenigt; de gemeente toetst de huisvesting."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

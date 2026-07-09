@@ -4,6 +4,7 @@ naam: Heffingsambtenaar
 onderwerp: [Belastingen]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Door het college aangewezen ambtenaar die belastingaanslagen oplegt en beslist op bezwaar (AWR)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

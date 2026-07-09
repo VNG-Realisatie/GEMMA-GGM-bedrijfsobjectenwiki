@@ -24,8 +24,8 @@ Per risicobrontype formuleert de gemeente beleidskeuzes op vier thema's:
 ## Kernbegrippen
 
 - **[[Risicobron]]** — bedrijf, buisleiding of transportroute waar met gevaarlijke stoffen wordt gewerkt of die worden vervoerd; de beleidsnota hanteert dit als overkoepelend concept voor alle drie typen.
-- **[[Aandachtsgebied]]** — ruimtelijk gebied rond een risicobron waarbinnen mensen slachtoffer kunnen worden van een incident met gevaarlijke stoffen; drie typen: brandaandachtsgebied, explosieaandachtsgebied, gifwolkaandachtsgebied.
-- **[[Voorschriftengebied]]** — (deel van) een aandachtsgebied dat in het omgevingsplan wordt aangewezen en waarbinnen aanvullende bouweisen gelden voor nieuwbouw.
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Aandachtsgebied]]** — ruimtelijk gebied rond een risicobron waarbinnen mensen slachtoffer kunnen worden van een incident met gevaarlijke stoffen; drie typen: brandaandachtsgebied, explosieaandachtsgebied, gifwolkaandachtsgebied. Subtype van Gebiedsaanwijzing.
+- **[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Voorschriftengebied]]** — (deel van) een aandachtsgebied dat in het omgevingsplan wordt aangewezen en waarbinnen aanvullende bouweisen gelden voor nieuwbouw. Subtype van Gebiedsaanwijzing.
 - **Plaatsgebonden risico** — kans op overlijden op een bepaalde afstand van de risicobron; norm uitgedrukt als isorisico-contour (bijv. PR 10⁻⁶).
 - **Groepsrisico** — kans op overlijden van 10 of meer personen als gevolg van een incident; getoetst aan de oriëntatiewaarde.
 - **Oriëntatiewaarde** — referentiewaarde voor het groepsrisico; de gemeente kiest per risicobrontype of overschrijding wordt toegestaan.
@@ -35,7 +35,7 @@ Per risicobrontype formuleert de gemeente beleidskeuzes op vier thema's:
 
 ## Relevantie voor bedrijfsarchitectuur
 
-De nota levert drie BO-kandidaten op: [[Risicobron]], [[Aandachtsgebied]] en [[Voorschriftengebied]]. Alle drie hebben een partiële GGM-match: Risicobron relateert aan Activiteit (Omgevingswet), Aandachtsgebied en Voorschriftengebied relateren aan Gebiedsaanwijzing. Er is geen specifiek GGM-beleidsdomein voor omgevingsveiligheid — de entiteiten vallen onder het generieke Omgevingswet-package.
+De nota levert één BO op ([[Risicobron]], specialisatie van GGM-entiteit Activiteit) en twee subtypes die zijn samengevoegd onder de generieke BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/gebiedsaanwijzing|Gebiedsaanwijzing]] (Aandachtsgebied, Voorschriftengebied) — het GGM modelleert deze niet als aparte entiteiten. Er is geen specifiek GGM-beleidsdomein voor omgevingsveiligheid — de entiteiten vallen onder het generieke Omgevingswet-package.
 
 De overige begrippen (plaatsgebonden risico, groepsrisico, oriëntatiewaarde) zijn normen/meetwaarden. De gebouwenclassificaties (kwetsbaar, beperkt kwetsbaar, zeer kwetsbaar) zijn eigenschappen van gebouwen, geen zelfstandige objecten.
 

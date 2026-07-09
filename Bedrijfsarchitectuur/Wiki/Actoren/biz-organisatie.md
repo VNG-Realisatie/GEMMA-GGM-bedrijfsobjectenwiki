@@ -4,6 +4,7 @@ naam: BIZ-organisatie
 onderwerp: [Economie]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Door ondernemers opgerichte uitvoeringsorganisatie die de BIZ-bijdrage ontvangt en activiteiten uitvoert in een bedrijveninvesteringszone."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -11,7 +11,7 @@ Totaal review-items: 286.
 | 2 Verkeer, Vervoer en Waterstaat | 20 | 13 | 0 |
 | 3 Economie | 6 | 1 | 2 |
 | 4 Onderwijs | 27 | 13 | 1 |
-| 5 Sport, Cultuur en Recreatie | 81 | 19 | 26 |
+| 5 Sport, Cultuur en Recreatie | 81 | 18 | 26 |
 | 6 Sociaal Domein | 285 | 56 | 119 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 3 |
 | 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 31 | 62 |
@@ -65,7 +65,7 @@ Totaal review-items: 286.
 - **Lener** → detail (1 attrs). Iemand die iets te leen krijgt, met name iemand die boeken, digitale bestanden of apparatuur leent bij een museum, bibli
 - **Mailing** → detail (3 attrs). Per post verstuurde inhoud
 - **Museumrelatie** → detail (1 attrs). Betrekking waarin het museum en personen tot elkaar staan
-- **Reservering** → detail (5 attrs). Het vooraf bespreken van een plaats in een openbare gelegenheid, vervoermiddel, restaurant e.d.
+- **Rondleiding** → detail (4 attrs). Bezichtiging met toelichting
 - **Samensteller** → detail (1 attrs). Iemand die stukken informatie samenbrengt in tentoonstelingen, presentaties en naslagwerken.
 - **Winkelverkoopgroep** → detail (0 attrs). Groepering van winkelverkopen
 - **Zaal** → detail (4 attrs). Grote ruimte in een gebouw

@@ -35,7 +35,7 @@ Drie reserveligplaatsen: twee in de Kruisvaart (Da Costakade) en één in het Me
 
 ## Kernbegrippen
 
-- **[[Woonboot]]** — drijvend object bestemd voor bewoning; omvat woonarken (betonnen bakken) en varende schepen
+- **[[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|Woonboot]]** — drijvend object bestemd voor bewoning; omvat woonarken (betonnen bakken) en varende schepen
 - **[[Ligplaats]]** — aangewezen plaats in het water voor permanent afmeren, vergunningplichtig
 - **Havenatlas** — kaartwerk dat juridisch deel uitmaakt van de Havenverordening, met per locatie het aantal, de situering en maatvoering van woonboten
 - **Ligplaatsvergunning** — vergunning voor het innemen van een ligplaats, getoetst aan de Havenatlas
@@ -47,7 +47,7 @@ Drie reserveligplaatsen: twee in de Kruisvaart (Da Costakade) en één in het Me
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Definieert de objecten [[Woonboot]] en [[Ligplaats]] met hun maatvoering, vergunningenregime en onderlinge relaties. De Havenatlas is het centrale registratie-instrument. Het vergunningenstelsel (ligplaatsvergunning) koppelt aan de Havenverordening. Oevergebruik wordt gereguleerd via privaatrechtelijke overeenkomsten, niet via een apart objecttype.
+Definieert de objecten [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|Woonboot]] en [[Ligplaats]] met hun maatvoering, vergunningenregime en onderlinge relaties. De Havenatlas is het centrale registratie-instrument. Het vergunningenstelsel (ligplaatsvergunning) koppelt aan de Havenverordening. Oevergebruik wordt gereguleerd via privaatrechtelijke overeenkomsten, niet via een apart objecttype.
 
 ## Citaten
 

@@ -3,37 +3,43 @@ type: element
 naam: Rioolleiding
 onderwerp: [Beheer Openbare Ruimte, Milieu]
 archimate_type: business-object
-grondslag: ggm-entiteit
+grondslag: ggm-afgeleid
 
-ggm_entiteit: Leiding
-ggm_guid: "EAID_4223240C_8786_4D44_889E_9F54BA39A83"
-ggm_uml_type: Class
-ggm_beleidsdomein: Beheer Openbare Ruimte
-ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-ggm_diagram: [Hoofdobjecten IMBOR en Geo-object]
-ggm_diagram_ids: ["EAID_E3EBD7A0_35C4_4bf4_BD01_6D97AD0B8BF3"]
-ggm_definitie: "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie"
-ggm_toelichting: ""
-ggm_synoniemen: ""
-ggm_herkomst: ""
+# GGM-velden — geen directe entiteit; afgeleid via generalisatie van GGM-entiteit Leiding
+ggm_entiteit:
+ggm_guid:
+ggm_uml_type:
+ggm_beleidsdomein:
+ggm_taakveld:
+ggm_diagram: []
+ggm_diagram_ids: []
+ggm_definitie:
+ggm_toelichting:
+ggm_synoniemen:
+ggm_herkomst:
 
-ggm_gemma_naam: Leiding
-ggm_gemma_guid: "b2bdb817-4007-4c1b-ad24-43929884e0eb"
-ggm_gemma_definitie: "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie"
-ggm_gemma_toelichting: ""
-ggm_gemma_synoniemen: ""
-ggm_gemma_type: business-object
-ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-b2bdb817-4007-4c1b-ad24-43929884e0eb"
-ggm_gemma_bron: ""
-ggm_gemma_alternate_name: ""
+ggm_gemma_naam:
+ggm_gemma_guid:
+ggm_gemma_definitie:
+ggm_gemma_toelichting:
+ggm_gemma_synoniemen:
+ggm_gemma_type:
+ggm_gemma_url:
+ggm_gemma_bron:
+ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Leiding**.
+  Dit BO heeft geen directe GGM-entiteit; het is een specialisatie van GGM-entiteit **Leiding**, vastgelegd als generalisatie-relatie naar [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|Leiding]].
 bo_definitie: "Buisinfrastructuur voor transport van afval- en/of hemelwater in het gemeentelijk rioleringssysteem."
 bo_toelichting: ''
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|Leiding]]"
+    richting: naar-dit-BO
+    kardinaliteit: ""
+    beschrijving: "Rioolleiding is een specialisatie van Leiding"
   - type: associatie
     bedrijfsobject: "[[Put]]"
     richting: bidirectioneel
@@ -89,15 +95,9 @@ Herkende specialisaties van Rioolleiding. Geen apart BO.
 - **Gemengd riool** — leiding voor gecombineerd afval- en hemelwater
 - **Persleiding** — leiding met kunstmatig drukverschil, aangedreven door gemaal (~150 km in Utrecht)
 
-## GGM-bron
+## Generalisatie
 
-> "Een geheel van geleiders welke voorzien zijn van één ommanteling en bestemd is voor transport van materie."
-
-- **Entiteit:** Leiding
-- **Beleidsdomein:** Beheer Openbare Ruimte (Model IMBOR)
-- **Taakveld:** 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing
-- **Attributen:** afwijkendeDieptelegging, breedte, diameter, diepte, eisVoorzorgsmaatregel, geoNauwkeurigheidXY, hoogte, jaarOnderhoudUitgevoerd, lengte, leverancier, materiaal, themaIMKL, verhoogdRisico
-- **Matchsterkte:** exact — GGM Leiding is breder (alle leidingen) maar de gemeentelijke toepassing is primair riolering
+Rioolleiding heeft geen eigen GGM-entiteit. Het is een specialisatie van GGM-entiteit **Leiding** (Beheer Openbare Ruimte, Model IMBOR) — zie [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding|Leiding]] voor de GGM-bron en matchsterkte. GGM Leiding is breder (alle leidingtypen: riool, gas, water, elektriciteit); de gemeentelijke praktijk is uitsluitend riolering — andere leidingtypen liggen bij nutsbedrijven.
 
 ## BO-definitie
 
@@ -107,6 +107,7 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 | Gerelateerd BO | Relatie | Richting | Toelichting |
 |---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/leiding\|Leiding]] | generalisatie | naar-dit-BO | Rioolleiding is een specialisatie van Leiding |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/put\|Put]] | sluit aan op | bidirectioneel | Verticale constructie voor inspectie en onderhoud |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal\|Gemaal]] | wordt bemalen door | naar-dit-BO | Gemaal pompt water uit leiding |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kolk\|Kolk]] | ontvangt water van | naar-dit-BO | Hemelwater via straatkolk |

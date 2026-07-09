@@ -4,6 +4,7 @@ naam: Aanbieder
 onderwerp: [Sociaal Domein, Informatiesamenleving, mobiliteit]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Verantwoordelijkheid voor het leveren van een gecontracteerde dienst of systeem namens de gemeente, o.a. in zorg, AI en deelmobiliteit."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

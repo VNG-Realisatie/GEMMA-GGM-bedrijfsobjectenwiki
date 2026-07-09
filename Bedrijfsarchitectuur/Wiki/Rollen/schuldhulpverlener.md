@@ -4,6 +4,7 @@ naam: Schuldhulpverlener
 onderwerp: [Werk en Inkomen]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Specialistische hulpverleningsfunctie bij vervolggesprekken in het gemeentelijk dienstverleningsproces."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

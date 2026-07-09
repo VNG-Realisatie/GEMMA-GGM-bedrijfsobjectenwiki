@@ -4,6 +4,7 @@ naam: Secretaris
 onderwerp: [Bestuur]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Ambtenaar die het college van burgemeester en wethouders ondersteunt (art. 100-106 Gemeentewet)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

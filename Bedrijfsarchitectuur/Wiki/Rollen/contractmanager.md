@@ -4,6 +4,7 @@ naam: Contractmanager
 onderwerp: [Inkoop]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Contractbeheerrol verantwoordelijk voor de operationele aansturing van een contract."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

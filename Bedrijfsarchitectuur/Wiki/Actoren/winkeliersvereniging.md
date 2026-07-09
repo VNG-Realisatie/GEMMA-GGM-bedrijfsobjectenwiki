@@ -4,6 +4,7 @@ naam: Winkeliersvereniging
 onderwerp: [Economie]
 archimate_type: business-actor
 grondslag: procesobject
+bo_definitie: "Organisatie van ondernemers in een winkelgebied, samenwerkingspartner van de gemeente bij winkelstraatmanagement en veilig ondernemen."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

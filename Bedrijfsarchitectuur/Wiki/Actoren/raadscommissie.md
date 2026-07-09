@@ -4,6 +4,7 @@ naam: Raadscommissie
 onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: ggm-entiteit
+bo_definitie: "Groep raadsleden die zich buigt over specifieke thema's om de besluitvorming in de raad voor te bereiden en te adviseren."
 ggm_entiteit: Raadscommissie
 ggm_guid: EAID_CB27D699_F82B_45ad_823A_B2B51BCAECBA
 ggm_beleidsdomein: Griffie

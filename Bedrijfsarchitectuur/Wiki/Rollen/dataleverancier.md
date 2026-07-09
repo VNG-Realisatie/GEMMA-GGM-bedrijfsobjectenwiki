@@ -4,6 +4,7 @@ naam: Dataleverancier
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij die namens de bronhouder gegevens aanlevert aan een basisregistratie, vaak in opdracht aangestuurd."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

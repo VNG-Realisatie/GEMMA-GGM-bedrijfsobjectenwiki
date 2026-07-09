@@ -4,6 +4,7 @@ naam: Doorbraakfunctionaris
 onderwerp: [Werk en Inkomen]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Functionaris die vastgelopen multi-probleemdossiers doorbreekt door org-overstijgend te interveniëren."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

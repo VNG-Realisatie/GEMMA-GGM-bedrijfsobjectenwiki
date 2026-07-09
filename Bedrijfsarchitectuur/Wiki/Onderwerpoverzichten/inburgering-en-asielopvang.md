@@ -28,7 +28,7 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 | BO | GGM-entiteit | Matchsterkte |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder\|Asielstatushouder]] | Asielstatushouder | exact |
-| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant\|Gezinsmigrant]] | Gezinsmigrant en Overige migrant | exact |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant\|Gezinsmigrant]] | Gezinsmigrant en Overige migrant | exact |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake\|Brede Intake]] | Brede Intake | exact |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/pip\|PIP]] | PIP | exact |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/inburgeringstraject\|Inburgeringstraject]] | Inburgeringstraject | exact |

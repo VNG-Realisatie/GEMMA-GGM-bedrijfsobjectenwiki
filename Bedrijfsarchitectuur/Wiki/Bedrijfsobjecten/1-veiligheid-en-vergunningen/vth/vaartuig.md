@@ -1,6 +1,6 @@
 ---
 type: element
-naam: Woonboot
+naam: Vaartuig
 domein: [Wonen]
 archimate_type: business-object
 grondslag: ggm-entiteit
@@ -28,17 +28,22 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Vaartuig**.
-bo_definitie: "Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten."
-bo_toelichting: ''
+  Dit BO is de exacte match met GGM-entiteit **Vaartuig**. De gemeentelijke praktijkscope (Havenverordening) is beperkt tot het subtype Woonboot.
+bo_definitie: "Een zee- of binnenvaartuig; de gemeente registreert in de praktijk uitsluitend vaartuigen die als woonboot in gebruik zijn."
+bo_toelichting: "Het GGM-begrip Vaartuig is breder (omvat ook bagger-werktuigen, kranen, bokken, elevators, glijboten en ponten), maar de gemeentelijke bronnen beschrijven uitsluitend het toezicht op woonboten via de Havenverordening. Zie subtype Woonboot hieronder."
 bo_subtypes:
+  - naam: "Woonboot"
+    omschrijving: "Vaartuig bestemd voor permanente bewoning; de enige praktijkscope van dit BO binnen de gemeente Utrecht."
+    ggm_entiteit: Vaartuig
+    ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
+    ggm_attribuut: type
   - naam: "Woonark"
-    omschrijving: "Betonnen bak met opbouw in het water, niet varend."
+    omschrijving: "Betonnen bak met opbouw in het water, niet varend (type woonboot)."
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
     ggm_attribuut: type
   - naam: "Varend schip"
-    omschrijving: "Schip met originele romp, ontworpen om te varen. Bij vervanging door een ark geldt max 18 meter."
+    omschrijving: "Schip met originele romp, ontworpen om te varen (type woonboot). Bij vervanging door een ark geldt max 18 meter."
     ggm_entiteit: Vaartuig
     ggm_guid: EAID_D12123D3_D62D_4978_B7D4_8405F00A0D6A
     ggm_attribuut: type
@@ -57,7 +62,7 @@ bo_relaties:
     bedrijfsobject: "[[Ligplaats]]"
     richting: van-dit-BO
     kardinaliteit: "1..1"
-    beschrijving: "Een woonboot neemt een ligplaats in"
+    beschrijving: "Een vaartuig (in de praktijk: woonboot) neemt een ligplaats in"
 bedrijfsprocessen: [ligplaatsvergunning verlenen, maatvoering toetsen, handhaving woonboten, vervanging woonboot beoordelen]
 bedrijfsfuncties: [Havendienst, Vergunningverlening, Handhaving]
 ---
@@ -77,23 +82,24 @@ bedrijfsfuncties: [Havendienst, Vergunningverlening, Handhaving]
 
 ## Beschrijving
 
-Een woonboot is een drijvend object bestemd voor permanente bewoning. De gemeente reguleert woonboten via de Havenverordening en Havenatlas. Voor het innemen van een [[Ligplaats]] of voor vergroting is een ligplaatsvergunning vereist.
+Vaartuig is het GGM-containerbegrip voor alle zee- en binnenvaartuigen (incl. bagger-werktuigen, kranen, bokken, elevators). De gemeentelijke bronnen beschrijven uitsluitend het toezicht op **woonboten**: vaartuigen bestemd voor permanente bewoning, gereguleerd via de Havenverordening en Havenatlas. Voor het innemen van een [[Ligplaats]] of voor vergroting is een ligplaatsvergunning vereist.
 
-De maatvoering is gebonden aan regels:
+De maatvoering van woonboten is gebonden aan regels:
 - **Hoogte**: maximaal 4 meter (was 3,50 m), mits minimaal 5 meter tussenruimte aan één zijde
 - **Lengte**: bij vervanging maximaal 18 meter (uitzondering: varende schepen mogen door varende schepen met gelijke of kortere lengte)
 - **Breedte**: bepaald door een rooilijn in het water (5–8 m uit oeverlijn), vastgelegd in de Havenatlas
 
 Er zijn circa 334 woonboten in de gemeente Utrecht. Het bestand is al 15+ jaar stabiel.
 
-## Specialisaties
+## Subtypes
 
-| Subtype | Omschrijving | GGM-entiteit |
-|---|---|---|
-| Woonark | Betonnen bak met opbouw in het water, niet varend | Vaartuig |
-| Varend schip | Schip ontworpen om te varen; bij vervanging door ark geldt max 18 m | Vaartuig |
-| Historisch schip | Woonboot of bedrijfsvaartuig ≥50 jaar oud, met beschermingsregime in drie zones | Vaartuig |
-| Schark | Historisch schip met originele romp en vervangen houten opbouw | Vaartuig |
+Herkende specialisaties van Vaartuig. Geen van deze heeft een eigen BO-pagina — de gemeentelijke praktijk (en dus dit BO) beperkt zich tot woonboten.
+
+- **Woonboot** — Vaartuig bestemd voor permanente bewoning; de enige praktijkscope van dit BO.
+  - **Woonark** — Betonnen bak met opbouw in het water, niet varend.
+  - **Varend schip** — Schip met originele romp, ontworpen om te varen. Bij vervanging door een ark geldt max 18 meter.
+  - **Historisch schip** — Woonboot of bedrijfsvaartuig ≥50 jaar oud, met beschermingsregime in aangewezen zones.
+  - **Schark** — Historisch schip met originele romp en (deels) vervangen eenlaags houten opbouw.
 
 Historische schepen worden beschermd in drie aangewezen zones: Keulsekade (Merwedekanaal), Vechtdijk (Vecht) en Oosterkade (Vaartsche Rijn). Bij vervanging in deze zones geldt dat historische boten altijd door historische boten worden vervangen.
 
@@ -102,7 +108,7 @@ Historische schepen worden beschermd in drie aangewezen zones: Keulsekade (Merwe
 > "Een zee- of binnenvaartuig, tot de vaart gebruikt of bestemd, daaronder begrepen drijvende werktuigen, zoals baggerwerktuigen, kranen, bokken, elevators, alsmede woonschepen, glijboten en ponten."
 — GGM-entiteit: Vaartuig, beleidsdomein VTH, taakveld 1 Veiligheid en Vergunningen
 
-**Matchsterkte: sterk.** Vaartuig is de generalisatie; de definitie noemt "woonschepen" expliciet. Het GGM kent geen apart objecttype voor woonboten — Vaartuig is het brede containerbegrip. De GGM-attributen (naamVaartuig, registratienummer, kleur, lengte, breedte, hoogte) sluiten goed aan op de maatvoeringskenmerken uit het woonbotenbeleid.
+**Matchsterkte: exact.** Dit BO is de GGM-entiteit Vaartuig zelf; de gemeentelijke praktijkscope is echter beperkt tot het subtype Woonboot (zie Subtypes). Het GGM kent geen apart objecttype voor woonboten specifiek — de definitie noemt "woonschepen" wel expliciet als voorbeeld. De GGM-attributen (naamVaartuig, registratienummer, kleur, lengte, breedte, hoogte) sluiten goed aan op de maatvoeringskenmerken uit het woonbotenbeleid.
 
 ## Relaties
 
@@ -122,14 +128,6 @@ Historische schepen worden beschermd in drie aangewezen zones: Keulsekade (Merwe
 - Havendienst
 - Vergunningverlening
 - Handhaving
-
-
-## Subtypes
-
-- **Woonark** — Betonnen bak met opbouw in het water, niet varend.
-- **Varend schip** — Schip met originele romp, ontworpen om te varen. Bij vervanging door een ark geldt max 18 meter.
-- **Historisch schip** — Woonboot of bedrijfsvaartuig ≥50 jaar oud, met beschermingsregime in aangewezen zones.
-- **Schark** — Historisch schip met originele romp en (deels) vervangen eenlaags houten opbouw.
 
 ## Bronnen
 

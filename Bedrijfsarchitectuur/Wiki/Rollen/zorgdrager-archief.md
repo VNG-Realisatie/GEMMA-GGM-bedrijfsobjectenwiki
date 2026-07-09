@@ -4,6 +4,7 @@ naam: Zorgdrager (archief)
 onderwerp: [Bestuur]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Het orgaan (bij de gemeente: het college van B&W) dat bestuurlijk verantwoordelijk is voor archiefbescheiden."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -4,6 +4,7 @@ naam: Rechthebbende
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Houder van een zakelijk recht (eigendom, erfpacht, opstal, vruchtgebruik) op een onroerende zaak, breder dan Eigenaar."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

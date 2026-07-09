@@ -4,6 +4,7 @@ naam: Pleegouder
 onderwerp: [Sociaal Domein]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Persoon die de verzorging en opvoeding van een pleegkind op zich neemt, contractueel vastgelegd in een pleegcontract."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

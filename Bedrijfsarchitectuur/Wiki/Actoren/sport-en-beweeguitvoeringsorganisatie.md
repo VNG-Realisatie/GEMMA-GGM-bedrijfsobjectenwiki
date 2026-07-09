@@ -4,6 +4,7 @@ naam: Sport- en beweeguitvoeringsorganisatie
 onderwerp: [Sport en Bewegen]
 archimate_type: business-actor
 grondslag: procesobject
+bo_definitie: "Centraal, door de gemeente gefinancierd loket dat sport- en beweegaanbieders prioriteert en ondersteunt namens de gemeente."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

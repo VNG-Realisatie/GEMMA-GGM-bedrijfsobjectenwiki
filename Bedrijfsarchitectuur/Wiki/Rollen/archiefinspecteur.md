@@ -4,6 +4,7 @@ naam: Archiefinspecteur
 onderwerp: [Informatiebeheer]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Functionaris die toezicht houdt op de archiefvorming bij gemeenten en gemeenschappelijke regelingen."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

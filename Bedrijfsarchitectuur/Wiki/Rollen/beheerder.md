@@ -4,6 +4,7 @@ naam: Beheerder
 onderwerp: [mobiliteit]
 archimate_type: business-role
 grondslag: procesobject
+bo_definitie: "Dagelijks verantwoordelijke voor een voorziening zoals een fietsenstalling of short-stay-accommodatie."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

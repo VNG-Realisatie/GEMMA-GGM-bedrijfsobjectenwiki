@@ -4,6 +4,7 @@ naam: Verwerkingsverantwoordelijke (AVG)
 onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "De gemeente zelf, als houder van het verwerkingsregister en verantwoordelijke voor de DPIA-plicht (AVG)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

@@ -4,6 +4,7 @@ naam: AI compliance officer
 onderwerp: [Informatiesamenleving]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Functionaris verantwoordelijk voor de naleving van de EU AI-verordening binnen de gemeente."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

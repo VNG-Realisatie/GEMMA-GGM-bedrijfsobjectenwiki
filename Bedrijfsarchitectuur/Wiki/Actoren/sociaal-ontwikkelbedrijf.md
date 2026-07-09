@@ -4,6 +4,7 @@ naam: Sociaal ontwikkelbedrijf
 onderwerp: [Werk en Inkomen]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Organisatie, opvolger van de SW-bedrijven, die werkplekken en begeleiding biedt aan mensen met afstand tot de arbeidsmarkt."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

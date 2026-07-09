@@ -84,6 +84,11 @@ bo_relaties:
     richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: "Activiteit en gebiedsaanwijzing zijn gekoppeld via juridische regels"
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron|Risicobron]]"
+    richting: van-dit-BO
+    kardinaliteit: ""
+    beschrijving: "Risicobron is een specialisatie van Activiteit (een activiteit met externe veiligheidsrisico's)"
 bedrijfsprocessen:
   - "Omgevingsplanvorming"
   - "Vergunningverlening"
@@ -114,6 +119,12 @@ Per activiteit bepalen juridische regels (type RegelVoorIedereen) of de activite
 
 Voorbeelden: bouwen van een woning, exploiteren van een horecagelegenheid, lozen van afvalwater, kappen van een boom, aanleggen van een uitrit.
 
+## Specialisaties
+
+| Specialisatie | Omschrijving | Eigen pagina |
+|---|---|---|
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | Activiteit met externe veiligheidsrisico's (bedrijf, buisleiding of transportroute met gevaarlijke stoffen) | Ja — voldoet zelfstandig aan de 6 BO-criteria, eigen relaties naar Aandachtsgebied/Voorschriftengebied |
+
 ## GGM-bron
 
 > "Ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de (fysieke) leefomgeving wordt of kan worden bewerkstelligd." (GGM, Omgevingswet)
@@ -136,7 +147,7 @@ De GGM-entiteit "Activiteit" komt ook voor in beleidsdomein Musea (EAID_A1C60F39
 | associatie | [[Toepasbare Regel]] | ← | Toepasbare regel betreft activiteit | GGM |
 | associatie | [[Gebiedsaanwijzing]] | ↔ | Gekoppeld via juridische regels en locaties | GGM |
 | associatie | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | ← | GGM Verzoek betreft activiteit; bouwmelding/sloopmelding/gebruiksmelding zijn verzoeken over specifieke activiteiten | GGM (Verzoek) |
-| associatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | ← | Risicobron is een milieubelastende activiteit (partieel) | cross-domein |
+| generalisatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | ← | Risicobron is een specialisatie van Activiteit (activiteit met extern veiligheidsrisico) | cross-domein |
 | associatie | BOR Beheerobjecten | ← | BOR-objecten ([[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/boom\|Boom]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/kunstwerk\|Kunstwerk]], etc.) zijn onderwerp van activiteiten (kappen, slopen, bouwen) | cross-domein |
 
 ## Bedrijfsprocessen

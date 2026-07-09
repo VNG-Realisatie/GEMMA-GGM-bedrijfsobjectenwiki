@@ -98,6 +98,8 @@ Twee onafhankelijke bronnen analyseren:
 
 Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 
+**Leg elk geval individueel voor aan de gebruiker.** Dit geldt met name voor de keuze of de BO-naam de GGM-entiteitnaam wordt (specifieke term wordt Subtype of Specialisatie) of ongewijzigd blijft. Een "geldt dit overal"-antwoord op één casus is geen vrijbrief om dezelfde aanpak zonder overleg door te trekken naar vergelijkbare gevallen elders — leg elk geval apart voor, ook nadat een eerder, vergelijkbaar geval al is beslist.
+
 ### Stap 5: Attributen-check
 
 Zoek in de GGM-bronpagina's of het concept als **attribuut of classificatie** voorkomt in andere entiteiten.

@@ -4,6 +4,7 @@ naam: Bronhouder
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Verantwoordelijkheid voor het aanleveren en de kwaliteit van gegevens aan een basisregistratie (BAG, BRP, BRO, WOZ e.a.)."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

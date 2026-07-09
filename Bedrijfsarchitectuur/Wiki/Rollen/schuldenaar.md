@@ -4,6 +4,7 @@ naam: Schuldenaar
 onderwerp: [Schulden en Armoede]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij met problematische schulden, wederpartij van de reeds gedekte actor Schuldeiser."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

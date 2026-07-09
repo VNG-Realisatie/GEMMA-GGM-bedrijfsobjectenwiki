@@ -4,6 +4,7 @@ naam: Archiefvormer
 onderwerp: [Informatiebeheer]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Partij die verantwoordelijk blijft voor (uitgeplaatste) archiefbescheiden, ook na fysieke overdracht aan een archiefdienst."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

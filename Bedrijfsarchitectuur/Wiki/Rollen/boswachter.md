@@ -4,6 +4,7 @@ naam: Boswachter
 onderwerp: [Dierenwelzijn]
 archimate_type: business-role
 grondslag: governance-object
+bo_definitie: "Gemeentelijke functionaris met jachtbevoegdheid binnen provinciale kaders, relevant voor dierenwelzijnsbeleid."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

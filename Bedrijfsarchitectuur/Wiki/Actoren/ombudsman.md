@@ -4,6 +4,7 @@ naam: Ombudsman
 onderwerp: [Bestuur]
 archimate_type: business-actor
 grondslag: governance-object
+bo_definitie: "Orgaan of functionaris die onafhankelijk klachten over het gemeentebestuur onderzoekt en beoordeelt."
 ggm_entiteit: ""
 ggm_guid: ""
 element_tegenhangers: []

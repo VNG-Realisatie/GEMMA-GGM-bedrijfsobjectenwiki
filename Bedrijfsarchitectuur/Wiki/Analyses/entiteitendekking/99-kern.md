@@ -170,11 +170,11 @@ Niet-BO entiteiten: 9× abstract, 23× classificatie, 75× detail, 2× onderdeel
 |---|---|---|---|---|
 | [[Wiki/GGM/99-kern/rsgbplus\|Briefadres]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/bag/nummeraanduiding\|Nummeraanduiding]] | detail |  | Detailgegeven |
 | [[Wiki/GGM/99-kern/rsgbplus\|Gebied]] | generieke bouwsteen — gebruikt door meerdere BO's | detail |  | Detailgegeven (geassocieerd met BO) |
-| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
+| [[Wiki/GGM/99-kern/rsgbplus\|HandelsnamenVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
 | [[Wiki/GGM/99-kern/rsgbplus\|MaatschappelijkeActiviteit]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit\|Maatschappelijke Activiteit]] ✅ | hernoemd |  | Hernoemd naar Maatschappelijke Activiteit |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/risicobron\|Risicobron]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | detail |  | Detailgegeven |
-| [[Wiki/GGM/99-kern/rsgbplus\|Vestiging]] | [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] ✅ | hernoemd |  | Hernoemd naar Horecabedrijf |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteit]] | beschrijft [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/omgevingswet/activiteit\|Activiteit]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|SBIActiviteitVestiging]] | beschrijft [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | detail |  | Detailgegeven |
+| [[Wiki/GGM/99-kern/rsgbplus\|Vestiging]] | [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] ✅ | — |  | Exacte match |
 
 ### WOZ — waardering onroerende zaken
 
@@ -238,7 +238,7 @@ BO's waarvoor geen overeenkomstige GGM-entiteit bestaat. Data-objecten worden al
 |---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/99-kern/bro/constructie\|Constructie]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/99-kern/bro/gebruiksrecht\|Gebruiksrecht]] | nee | procesobject | **Alleen GEMMA-BO** |
-| [[Wiki/Bedrijfsobjecten/99-kern/brk/publiekrechtelijke-beperking\|Publiekrechtelijke Beperking]] | ja | ggm-entiteit | **Terugmelding** |
-| [[Wiki/Bedrijfsobjecten/99-kern/brk/stuk\|Stuk]] | ja | ggm-entiteit | **Terugmelding** |
-| [[Wiki/Bedrijfsobjecten/99-kern/brk/stukdeel\|Stukdeel]] | ja | ggm-entiteit | **Terugmelding** |
+| [[Wiki/Bedrijfsobjecten/99-kern/brk/publiekrechtelijke-beperking\|Publiekrechtelijke Beperking]] | nee | procesobject | **Alleen GEMMA-BO** |
+| [[Wiki/Bedrijfsobjecten/99-kern/brk/stuk\|Stuk]] | nee | procesobject | **Alleen GEMMA-BO** |
+| [[Wiki/Bedrijfsobjecten/99-kern/brk/stukdeel\|Stukdeel]] | nee | procesobject | **Alleen GEMMA-BO** |
 | [[Wiki/Bedrijfsobjecten/99-kern/bro/verkenning\|Verkenning]] | nee | procesobject | **Alleen GEMMA-BO** |

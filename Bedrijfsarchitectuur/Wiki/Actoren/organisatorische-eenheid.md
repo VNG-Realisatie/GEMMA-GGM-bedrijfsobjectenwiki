@@ -25,7 +25,7 @@ bedrijfsfuncties:
 
 Het handelende organisatieonderdeel in het zaakgericht werken: verantwoordelijk voor de behandeling van bepaalde zaaktypen. Voorbeelden: afdeling Vergunningen, team Burgerzaken, cluster Sociaal Domein. Organisatorische eenheden vormen een hiërarchie en bevatten [[Wiki/Actoren/medewerker|medewerkers]].
 
-Een **buurtteam** (multidisciplinair wijkteam voor sociale hulpverlening, met eigen normering per werkgebied) is een specialisatie van deze actor, geen apart begrip — bron: [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen]].
+Een **buurtteam** (multidisciplinair wijkteam voor sociale hulpverlening, met eigen normering per werkgebied) is een specialisatie van deze actor, geen apart begrip — bron: [[Wiki/Bronsamenvattingen/Sociaal Domein/leefbare-stad-en-maatschappelijke-voorzieningen|Leefbare stad en maatschappelijke voorzieningen]].
 
 De gegevens over deze actor worden vastgelegd als bedrijfsobject [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid|Organisatorische eenheid]].
 
