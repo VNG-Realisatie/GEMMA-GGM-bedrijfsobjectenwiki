@@ -73,7 +73,7 @@ Het kunnen vinden en technisch verkrijgen van gegevens betekent niet dat ze zond
 * '''Herleidbaarheid:''' bij gebruik, transformatie of combinatie van gegevens moet aantoonbaar blijven uit welke bron en versie de gegevens afkomstig zijn en welke bewerkingen zijn uitgevoerd. 
 
 ==== Conclusie ====
-De GEMMA kent als architectuurprincipe het ´[[Toelichting data bij de bron|informeren bij de bron]]’. De data-afnemer bepaalt binnen de context van het gebruik of beschikbare gegevens voldoende geschikt en betrouwbaar zijn om als bron te dienen. 
+De GEMMA kent als architectuurprincipe het ´[[Architectuurprincipes|informeren bij de bron (GAP12)]]’. De data-afnemer bepaalt binnen de context van het gebruik of beschikbare gegevens voldoende geschikt en betrouwbaar zijn om als bron te dienen. 
 
 Data bij de bron is geen uitsluitend technisch principe en betekent niet dat gegevens altijd rechtstreeks uit één bronsysteem moeten worden opgevraagd. Het vraagt om een federatieve manier van werken, waarbij gegevens onder duidelijke verantwoordelijkheid worden beheerd en via gemeenschappelijke afspraken beschikbaar worden gesteld. 
 
