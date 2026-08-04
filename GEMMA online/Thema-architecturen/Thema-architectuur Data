@@ -3,7 +3,7 @@
 |Redactiestatus=Actueel
 |Wikibeheerder=Beheerder Gegevensarchitectuur
 }}
-[[category:Thema-architecturen‎]]
+[[category:Thema-architecturen]]
 __NOTOC__
 == Aanleiding ==
 De rol van data is van cruciaal belang in de moderne samenleving. Data wordt verzameld, opgeslagen, geanalyseerd en gebruikt om inzichten te verkrijgen en verbeteringen te kunnen realiseren. Data neemt zowel toe in omvang als in complexiteit. Van gemeenten wordt verwacht dat ze effectief gebruik maken van betrouwbare data. Ze moeten daarbij op een verantwoorde manier te werk gaan en rekening houden met privacy, beveiliging en ethische aspecten om het vertrouwen van de samenleving te behouden. Data vormt daarmee een belangrijk onderdeel van de gemeentelijke architectuur.
@@ -18,9 +18,11 @@ Deze thema-architectuur wordt stapsgewijs uitgebreid met onderwerpen die generie
 
 Hieronder staan bij 'Producten' binnen de GEMMA uitgewerkte data-gerelateerde onderwerpen:
 
-*Het onderwerp '[[Datagedreven werken]]' is opgenomen als apart onderdeel binnen deze thema-architectuur omdat het een belangrijke ontwikkeling is binnen gemeenten om beter in te kunnen spelen op complexe opgaven en vraagt om een architectuur die samenhang, datakwaliteit en privacy borgt.
-*De architectuur voor de Generieke Digitale Infrastructuur, de  [https://www.noraonline.nl/wiki/GDI-Architectuur_(GA) GDI-Architectuur,] bevat een aparte [https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling domeinarchitectuur Gegevensuitwisseling]. Zij beschrijft de gewenste inrichting van gegevensuitwisseling tussen overheidsorganisaties in de vorm van een visie, principes en voorgestelde veranderinitiatieven. De inhoud daarvan is in lijn met de visie van de GEMMA op gegevensuitwisseling en is ook bruikbaar voor gemeenten.
-*Voor '[[Gegevensmanagement]]' geldt dat een groot deel van de GEMMA-informatie ondertussen is opgenomen binnen de NORA. Binnenkort zal de GEMMA-informatie daarop worden aangepast.
+*'''[[Toelichting data bij de bron|Data bij de bron]]''' — ''Waar wordt data beheerd?'' Registratie en eigenaarschap. Dit principe beschrijft dat gegevens worden beheerd en geraadpleegd bij de organisatie die daarvoor verantwoordelijk is, zodat er geen onnodige kopieën ontstaan.
+*'''[[Datagedreven werken]]''' — ''Hoe nemen we betere besluiten?'' Gebruik van data. Dit onderwerp is opgenomen als apart onderdeel binnen deze thema-architectuur omdat het een belangrijke ontwikkeling is binnen gemeenten om beter in te kunnen spelen op complexe opgaven en vraagt om een architectuur die samenhang, datakwaliteit en privacy borgt.
+*'''[[Gegevensmanagement]]''' — ''Hoe beheren we gegevens?'' Governance en kwaliteit. Een groot deel van de GEMMA-informatie hierover is ondertussen opgenomen binnen de NORA. Binnenkort zal de GEMMA-informatie daarop worden aangepast.
+* De architectuur voor de Generieke Digitale Infrastructuur, de [https://www.noraonline.nl/wiki/GDI-Architectuur_(GA) GDI-Architectuur], bevat een aparte [https://www.noraonline.nl/wiki/Domeinarchitectuur_Gegevensuitwisseling domeinarchitectuur Gegevensuitwisseling]. Zij beschrijft de gewenste inrichting van gegevensuitwisseling tussen overheidsorganisaties in de vorm van een visie, principes en voorgestelde veranderinitiatieven. De inhoud daarvan is in lijn met de visie van de GEMMA op gegevensuitwisseling en is ook bruikbaar voor gemeenten.
+*'''[[Federatief werken|Federatief Datastelsel (FDS)]]''' — ''Hoe werken organisaties samen zonder centrale opslag?'' Landelijke samenwerking en afspraken. Het FDS is het afsprakenstelsel voor het veilig en verantwoord delen en gebruiken van data door overheidsorganisaties, waarmee het principe 'data bij de bron' over organisatiegrenzen heen invulling krijgt. Zie '[[Federatief werken]]'.
 *Het [https://www.noraonline.nl/wiki/NORA_Vijflaagsmodel NORA Vijflaagsmodel] kent een aparte laag 'Informatie'. De pagina '[https://www.noraonline.nl/wiki/Informatielaag Informatielaag]'  bevat, naast informatie over verschillende aspecten van data, verwijzingen naar alle pagina's die raken aan het onderwerp 'informatie'.
 
 Het blok 'Meer informatie' bevat verwijzingen naar bronnen met (ook) voor gemeenten bruikbare data-gerelateerde informatie.{{Uitlichten|Binnen de GEMMA worden de termen 'data' en 'gegevens' als synoniem gezien. Onder een 'gegeven' wordt, in overeenstemming met de NORA, 'een vastgelegde waarneming of bewering over een eigenschap van een object' verstaan.}}
@@ -43,6 +45,7 @@ Diverse toelichtingen:
 * [[Data-uitwisseling]]
 * [[Verschillende type modellen|Soorten data-gerelateerde modellen]]
 * [[Toelichting data bij de bron]]
+* [[Federatief werken]]
 
 Praktijkvoorbeeld:
 * [[Praktijkvoorbeeld Datagedreven sturen bij gemeente Breda]]
