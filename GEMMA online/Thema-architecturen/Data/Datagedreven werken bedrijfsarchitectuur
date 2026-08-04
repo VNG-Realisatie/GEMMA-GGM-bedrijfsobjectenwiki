@@ -1,0 +1,34 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Gegevensarchitectuur
+}}
+[[category:Data]]
+__NOTOC__
+
+Een goede bedrijfsarchitectuur is nodig om als organisatie effectief datagedreven te kunnen werken. Het helpt om als gemeente op een gestructureerde, veilige en efficiënte manier data te gebruiken om betere beslissingen te kunnen nemen. 
+
+== Bedrijfsfuncties ==
+Een bedrijfsfunctie is een logische eenheid waarin activiteiten zijn gegroepeerd waarvoor vergelijkbare bedrijfsmiddelen, kennis of competenties nodig zijn. Iedere functie kent bepaalde taken en verantwoordelijkheden. Om als gemeente datagedreven te kunnen werken, in het goed inrichten van bepaalde bedrijfsfuncties cruciaal. Bijvoorbeeld:
+
+* [[GEMMA/id-31dbd6e5-fae0-46b8-9ccf-d26a8fa91bc1|Uitvoering]]: bij het leveren van producten en diensten moet rekening worden gehouden met het verzamelen van data die geschikt is voor data-analyse.
+* [[GEMMA/id-6f9c9d87-b7cf-4ddb-b8d6-dd94699df24a|Gegevensmanagement]]: data moet worden beheerd, opgeschoond en beveiligd om te zorgen dat er betrouwbare data beschikbaar is. 
+* [[GEMMA/id-b9940c7b-b8ff-4ff3-bb17-f0215ffaf189|Compliance management]]:  er moet worden bewaakt of processen waarin data wordt verwerkt worden uitgevoerd in lijn met wet- en regelgeving.
+* Omdat data-analyse op vele plaatsen binnen de gemeente kan plaatsvinden kent de GEMMA een generieke applicatieservice [[GEMMA/id-8280288e-da88-11e1-7023-0050568a1905|Beheren van managementinformatie]]. Daarmee worden functies ondersteund zoals het maken en tonen van rapportages en trendanalyses.
+
+== Bedrijfsobjecten ==
+Bedrijfsobjecten zijn concepten met een bepaalde betekenis waarmee gemeenten te maken hebben, zoals 'paspoort' of 'uitkering'. Effectief datagedreven vereist dat bedrijfsobjecten goed gedefinieerd en gestandaardiseerd zijn en gegevens daarover in verschillende systemen consistent worden gebruikt. Om bijvoorbeeld de effectiviteit van subsidies te kunnen analyseren moeten aan subsidie gerelateerde bedrijfsobjecten eenduidig en gestandaardiseerd zijn om data uit verschillende systemen goed te kunnen interpreteren.
+
+De [[Bedrijfsobjecten|GEMMA-bedrijfsobjecten]], in lijn met de indeling van het Gemeentelijk Gegevensmodel, is een bruikbaar startpunt om als gemeente te komen tot een eenduidige beschrijving van objecten waarover data is te verzamelen en analyseren.
+
+== Bedrijfsprocessen ==
+Er moet overzicht van en inzicht in processen zijn om te bepalen waar datagedreven werken (het meeste) meerwaarde kan bieden. De [[GEMMA Procesarchitectuur|GEMMA procesarchitectuur]] bevat hiervoor onder andere een '[[Processenlandschap en Processenlijst voor gemeenten door gemeente Hilversum|processenlandschap]]' met de belangrijkste gemeentelijke processen.  Levert data-analyse nieuwe inzichten op dan kunnen processen op verschillende manieren worden verbeterd. Bijvoorbeeld door:
+
+* Binnen een proces gebruik te gaan maken van geautomatiseerde dataverwerking (bijvoorbeeld om eenvoudige aanvragen automatisch goed te keuren).
+* Processen te gaan sturen op basis van realtime data in dashboards (bijvoorbeeld capaciteitsplanning).
+* Gebruik te maken van voorspellende analyses op basis van data (bijvoorbeeld fraudedetectie).
+
+{{Uitlichten|Door de VNG is een handreiking gemaakt met daarin onder andere een bedrijfsproces om een gemeentelijke datastrategie te ontwikkelen. De pagina [[Datagedreven werken opstellen datastrategie]] toont dit proces en de daarin onderscheiden processtappen.}}
+
+[[category:Data]]
+__NOTOC__

@@ -1,0 +1,57 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Privacy en Informatiebeveiliging,
+}}
+[[Categorie:Thema-architecturen]][[Categorie:Privacy en Informatiebeveiliging]]
+__NOTOC__
+Privacy verwijst naar het recht en de mogelijkheid van individuen om controle te hebben over hun persoonlijke informatie en de mate waarin ze ervoor kunnen kiezen om die informatie te delen met anderen. Informatiebeveiliging verwijst naar het proces van beschermen van informatie tegen ongeoorloofde toegang, ongeautoriseerde openbaarmaking, wijziging, vernietiging of verstoring. Privacybescherming is gerelateerd aan Informatiebeveiliging omdat (persoonlijke) informatie zodanig beveiligd moet kunnen worden dat geen ongeoorloofde toegang mogelijk is.Gemeenten moeten privacy en informatiebeveiliging borgen om te voldoen aan wet en regelgeving en het vertrouwen van burgers en bedrijven te behouden. Toenemende digitalisering, het verweven raken van publieke en particuliere netwerken en het vaker delen van informatie leidt tot meer beveiligingsdreigingen en een toename van risico's. Er zijn nieuwe maatregelen en een aangepaste inrichting van de informatievoorziening nodig om privacy en beveiliging te kunnen blijven borgen.
+
+==Doel==
+Deze thema-architectuur heeft als doel om gemeenten en leveranciers te ondersteunen bij het borgen van privacy en informatiebeveiliging. Zowel binnen de bedrijfs-, informatie- als technische architectuur moet rekening worden gehouden met privacy en informatiebeveiligingsaspecten. Daarbij kan het gaan om uiteenlopende onderwerpen zoals beleid, processen, procedures, applicaties, data en technologie. De gemeentelijke informatievoorziening speelt daarbij een belangrijk rol. Door functies als authenticatie, autorisatie en logging van verwerking op een hedendaagse manier in samenhang in te richten wordt het beter mogelijk om privacy en informatiebeveiliging te kunnen borgen.  
+
+==Architectuur==
+Op het gebied van privacy en informatiebeveiliging bestaan al een groot aantal lijsten met aanbevolen maatregelen ('controls') en themagerichte handreikingen. De Baseline Informatiebeveiliging Overheid (BIO) biedt een uniform normenkader voor de beveiliging van de informatiehuishouding van alle overheidsorganisaties. De Informatiebeveiligingsdienst (IBD) heeft speciaal voor gemeenten een groot aantal handreikingen ontwikkeld.  
+
+De GEMMA vult dit aan door met een architectuurbril naar de (belangrijke!) aspecten privacy en informatiebeveiliging te kijken. De GEMMA kent daarbij geen aparte beveiligingsarchitectuur maar ziet privacy en informatiebeveiliging als aspecten die integraal onderdeel uitmaken van gemeentelijke architectuur. GEMMA-architectuurproducten waar dit tot uiting komt zijn bijvoorbeeld de [[Architectuurprincipes|GEMMA principes]] (met een richtinggevend principe als '{{ToonLinkNaarElementGEMMA
+|id=8b4947f8-8dc8-4498-98db-8c6be240442a <!--Beheers risico's voortdurend-->
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}') en de [[Informatie-architectuur|GEMMA Informatie-architectuur]] (die bij iedere [[Overzicht alle referentiecomponenten|referentiecomponent]] de eisen beschrijft qua beschikbaarheid, integriteit en vertrouwelijkheid met de benodigde BIO-controls en -maatregelen).
+
+Deze thema-architectuur is te zien als een aanvulling daarop en beschrijft onderwerpen die GEMMA-breed van belang zijn. Het per proces of informatiesysteem nemen van maatregelen is en blijft nodig maar is niet meer voldoende. Er zijn ook fundamentele veranderingen nodig binnen de gemeentelijke informatievoorziening. Bijvoorbeeld om informatiebeveiliging meer vanuit 'zero trust principes' in te gaan richten en voor autorisatie meer gebruik te gaan maken van beheersbare sets van regels ("policies").   
+
+Privacy en informatiebeveiliging kennen heel veel verschillende aspecten. Een groot aantal daarvan zijn niet gemeentespecifiek en vaak elders al goed beschreven. In plaats van die informatie te dupliceren wordt vanuit de GEMMA op een voor gemeenten bruikbare manier verwezen naar elders aanwezige bruikbare informatie. Bijvoorbeeld naar bepaalde onderdelen van de NORA of naar speciaal voor gemeenten gemaakte handreikingen van de IBD.
+
+{{Landingspagina
+|titel1 = Producten
+|inhoud1 = 
+GEMMA producten: <!-- * [[BBN-classificatie referentiecomponenten]] -->
+* [[Basisbeveiligingsniveau van referentiecomponenten]]
+* [[Betrouwbaarheidscriteria van referentiecomponenten]]
+* {{Sjabloon:ToonLinkNaarElementGEMMA | id=90483141-8b35-491d-87e8-6ec1590fc89b|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|toonals=Referentiecomponenten t.b.v. BIO-maatregelen}} 
+
+Externe producten:
+* [[NORA producten privacy en informatiebeveiliging]]
+* [[IBD producten privacy en informatiebeveiliging]]
+
+|titel2 = Meer informatie
+|inhoud2 = 
+Gemeentelijke projecten:
+* [[Project Logging en verwerkingsactiviteiten|Logging en verwerkingsactiviteiten]]
+* [[De BIO en de Omgevingswet]]
+* [[Omnichannel MijnZaken Informatiebeveiliging en privacy]]
+
+* [[Practice_logging_van_verwerking | Practice Logging van verwerking door gemeente Nijmegen]]
+
+Digitale overheid:
+* [https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/nieuwe-technologieen-data-en-ethiek/privacy/ Privacy] en [https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/cybersecurity/ Cybersecurity]
+
+Diversen:
+* [https://www.bio-overheid.nl/ Baseline Informatie Overheid (BIO)]
+* [https://cip-overheid.nl/ Centrum Informatiebeveiliging en Privacybescherming (CIP)] 
+* [https://www.forumstandaardisatie.nl/open-standaarden/verplicht?f%5B0%5D=field_standard_domain%3A4 Verplichte standaarden categorie 'Veilig Internet' (Forum)] 
+* [https://autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/het-belang-van-privacy Het belang van privacy (Autoriteit Persoonsgegevens)]
+* [https://nicpet.pleio.nl/page/view/e1c7c39a-08a2-4e15-b190-9625b33684f1/kennisbank Kennisbank Privacy Enhancing Technologies (Nicpet)] 
+
+|hoogte = 500px
+}}

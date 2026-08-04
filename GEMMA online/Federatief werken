@@ -1,4 +1,13 @@
-Wanneer gegevens over organisatiegrenzen heen worden gebruikt, kan aan het principe ´data bij de bron’ invulling worden gegeven door federatief te werken. In een federatief gegevenslandschap blijven gegevens onder verantwoordelijkheid van de organisatie die deze gegevens beheert en beschikbaar stelt. Organisaties delen en gebruiken gegevens op basis van gemeenschappelijke afspraken en standaarden, zonder dat alle gegevens daarvoor in één centrale voorziening hoeven te worden samengebracht. 
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Common Ground
+}}
+[[Category:Data]]
+[[Category:Toelichtingen]]
+__NOTOC__
+
+Wanneer gegevens over organisatiegrenzen heen worden gebruikt, kan aan het principe ´[[Toelichting data bij de bron|data bij de bron]]’ invulling worden gegeven door federatief te werken. In een federatief gegevenslandschap blijven gegevens onder verantwoordelijkheid van de organisatie die deze gegevens beheert en beschikbaar stelt. Organisaties delen en gebruiken gegevens op basis van gemeenschappelijke afspraken en standaarden, zonder dat alle gegevens daarvoor in één centrale voorziening hoeven te worden samengebracht. 
 
 Het [https://realisatieibds.nl/groups/view/0056c9ef-5c2e-44f9-a998-e735f1e9ccaa/federatief-datastelsel Federatief Datastelsel (FDS)] is een afsprakenstelsel voor het veilig en verantwoord delen en gebruiken van data door overheidsorganisaties en organisaties met een publieke taak. Het bevat gemeenschappelijke afspraken over de wijze waarop data-aanbieders gegevens beschikbaar stellen en data-afnemers daarvan gebruik kunnen maken. 
 
@@ -7,38 +16,23 @@ De afspraken kunnen onder andere betrekking hebben op:
 * de betekenis en structuur van gegevens; 
 * de beschrijving en vindbaarheid van gegevens; 
 * de voorwaarden voor toegang en gebruik; 
-* identificatie, authenticatie en autorisatie; 
-* beveiliging en bescherming van persoonsgegevens; 
+* [[Autorisatie en authenticatie|identificatie, authenticatie en autorisatie]];
+* [[Thema-architectuur Privacy en Informatiebeveiliging|beveiliging en bescherming van persoonsgegevens]];
 * kwaliteit, actualiteit en beschikbaarheid; 
 * technische ontsluiting; 
 * terugmelding van mogelijke onjuistheden; 
-* logging, transparantie en verantwoording. 
+* [[Logging van verwerking van gegevens|logging]], transparantie en verantwoording.
 
 Een federatief datastelsel is daarmee niet één centrale technische voorziening. Het is een samenwerkingsverband van organisaties, afspraken, standaarden en voorzieningen waarmee gegevens op een uniforme, veilige en verantwoorde manier kunnen worden gevonden, gedeeld en gebruikt. 
 
-Binnen een federatief stelsel kunnen verschillende technische patronen worden toegepast. Gegevens kunnen bijvoorbeeld rechtstreeks bij een bron worden opgevraagd, via een intermediaire voorziening worden ontsloten, met behulp van gebeurtenissen beschikbaar worden gesteld of onder voorwaarden tijdelijk worden gekopieerd. Het FDS schrijft niet voor dat iedere afnemer altijd rechtstreeks verbinding maakt met het operationele bronsysteem. 
+Binnen een federatief stelsel kunnen verschillende technische patronen worden toegepast. Gegevens kunnen bijvoorbeeld rechtstreeks bij een bron worden opgevraagd, via een intermediaire voorziening worden ontsloten, met behulp van [[Thema-architectuur Eventorientatie|gebeurtenissen]] beschikbaar worden gesteld of onder voorwaarden tijdelijk worden gekopieerd. Het FDS schrijft niet voor dat iedere afnemer altijd rechtstreeks verbinding maakt met het operationele bronsysteem. 
 
 Wel moet duidelijk blijven waar gegevens vandaan komen, wie verantwoordelijk is voor het beschikbaar stellen ervan, welke bewerkingen hebben plaatsgevonden en welke voorwaarden op het gebruik van toepassing zijn. 
 
 ==== Vindbaarheid en metadata ====
 Gegevens kunnen alleen verantwoord bij de bron worden gebruikt wanneer potentiële afnemers weten welke gegevens beschikbaar zijn, wat deze gegevens betekenen en onder welke voorwaarden zij kunnen worden gebruikt. Vindbaarheid is daarom een noodzakelijke voorwaarde voor federatief datadelen. 
 
-Data-aanbieders beschrijven hun gegevens, gegevensdiensten en dataproducten met metadata. Deze metadata maakt het voor mensen en systemen mogelijk om een gegevensaanbod te vinden, te begrijpen en te beoordelen. 
-
-Metadata kan onder andere informatie bevatten over: 
-
-* de inhoud en betekenis van de gegevens; 
-* de data-aanbieder en de verantwoordelijke organisatie; 
-* de herkomst en wijze van totstandkoming; 
-* de populatie, reikwijdte en dekking; 
-* de actualiteit en bijwerkingsfrequentie; 
-* de kwaliteit en bekende beperkingen; 
-* de classificatie en gevoeligheid; 
-* de juridische en beleidsmatige gebruiksvoorwaarden; 
-* de beschikbare historie; 
-* de technische vorm en wijze van levering; 
-* de voorwaarden en procedure voor toegang; 
-* de wijze waarop mogelijke fouten kunnen worden teruggemeld. 
+Data-aanbieders beschrijven hun gegevens, gegevensdiensten en dataproducten met metadata. Deze metadata maakt het voor mensen en systemen mogelijk om een gegevensaanbod te vinden, te begrijpen en te beoordelen.
 
 Metadata wordt zoveel mogelijk volgens gemeenschappelijke standaarden, actueel en machineleesbaar beschikbaar gesteld. Daarmee kan een federatief netwerk van catalogi ontstaan waarin organisaties hun eigen gegevensaanbod beheren, terwijl dit aanbod over organisatie- en domeingrenzen heen kan worden gevonden. 
 
@@ -69,7 +63,7 @@ Bij het combineren, selecteren, aggregeren of transformeren van gegevens kan bov
 
 Afnemers moeten vermoedelijke fouten of onjuistheden kunnen terugmelden. In de afspraken tussen aanbieder en afnemer wordt vastgelegd hoe een terugmelding wordt gedaan, wie deze behandelt en hoe over de afhandeling wordt gecommuniceerd. 
 
-Het gebruik van gegevens uit een gezaghebbende of leidende bron ontslaat een afnemer niet van de verantwoordelijkheid om signalen van mogelijke onjuistheid serieus te nemen. Correctie van oorspronkelijke gegevens vindt waar mogelijk plaats onder verantwoordelijkheid van de daarvoor aangewezen organisatie, zodat een verbetering ten goede kan komen aan alle afnemers. 
+Het gebruik van gegevens uit een [[Toelichting data bij de bron|gezaghebbende of leidende bron]] ontslaat een afnemer niet van de verantwoordelijkheid om signalen van mogelijke onjuistheid serieus te nemen. Correctie van oorspronkelijke gegevens vindt waar mogelijk plaats onder verantwoordelijkheid van de daarvoor aangewezen organisatie, zodat een verbetering ten goede kan komen aan alle afnemers. 
 
 ==== Toepassing binnen de gemeente en over organisatiegrenzen heen ====
 De gemeenschappelijke afspraken van het FDS zijn primair gericht op het delen en gebruiken van gegevens over organisatiegrenzen heen. De achterliggende principes zijn echter ook bruikbaar binnen een gemeente. Een gemeente die gegevens extern wil aanbieden, moet haar gegevenshuishouding intern zodanig hebben ingericht dat duidelijk is welke gegevens beschikbaar zijn, wie daarvoor verantwoordelijk is en onder welke voorwaarden deze kunnen worden gebruikt. 
@@ -134,14 +128,14 @@ Technische toegang, organisatorische toestemming en juridische bevoegdheid zijn 
 
 * '''Vindbaarheid:''' afnemers moeten kunnen vaststellen welke gegevens beschikbaar zijn en via welke voorzieningen zij kunnen worden afgenomen. 
 
-* '''Interoperabiliteit:''' verschillen in betekenis, structuur, identificatie en technische ontsluiting kunnen het combineren en hergebruiken van gegevens belemmeren. 
+* '''Interoperabiliteit:''' verschillen in betekenis, structuur, identificatie en technische ontsluiting kunnen het combineren en hergebruiken van gegevens belemmeren.
 
 * '''Afhankelijkheid:''' gebruik van externe bronnen maakt gemeentelijke processen afhankelijk van de beschikbaarheid, continuïteit en wijzigingsplanning van andere partijen. 
 
 * '''Herleidbaarheid:''' bij gebruik, transformatie of combinatie van gegevens moet aantoonbaar blijven uit welke bron en versie de gegevens afkomstig zijn en welke bewerkingen zijn uitgevoerd. 
 
 ==== Conclusie ====
-De GEMMA kent als architectuurprincipe het ´informeren bij de bron’. De data-afnemer bepaalt binnen de context van het gebruik of beschikbare gegevens voldoende geschikt en betrouwbaar zijn om als bron te dienen. 
+De GEMMA kent als architectuurprincipe het ´[[Toelichting data bij de bron|informeren bij de bron]]’. De data-afnemer bepaalt binnen de context van het gebruik of beschikbare gegevens voldoende geschikt en betrouwbaar zijn om als bron te dienen. 
 
 Data bij de bron is geen uitsluitend technisch principe en betekent niet dat gegevens altijd rechtstreeks uit één bronsysteem moeten worden opgevraagd. Het vraagt om een federatieve manier van werken, waarbij gegevens onder duidelijke verantwoordelijkheid worden beheerd en via gemeenschappelijke afspraken beschikbaar worden gesteld. 
 

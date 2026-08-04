@@ -1,0 +1,38 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Gegevensarchitectuur
+}}
+[[category:Data]]
+__NOTOC__
+Voor een gemeente is het van groot belang dat zij beschikt over alle gegevens die zij nodig heeft om optimaal te kunnen functioneren. Gegevens vormen de bouwstenen waaruit informatie voor de sturing, beheersing en uitvoering van de gemeente wordt geproduceerd. Gegevens zijn hiermee één van de belangrijkste bedrijfsmiddelen van de gemeente. De kwaliteit, actualiteit en compleetheid van gegevens is van groot belang voor een gemeente. Het is daarom van belang om processen en producten in te richten waarmee de uitwisseling, kwaliteit, beveiliging en transparantie over de verwerking van gegevens wordt vormgegeven. Dit geheel noemen we 'gegevensmanagement'.
+
+Een goede inrichting van het gegevensmanagement is te zien als fundament van de gemeentelijke informatievoorziening. Het is nodig om gegevens kwalitatief en kwantitatief beheersbaar te houden. Belangrijke aspecten hiervan zijn de uitwisseling en kwaliteitsbewaking van de gegevens, maar ook informatiebeveiliging en de transparantie van gegevensverwerking. Gegevens moeten op een flexibele, veilige en transparante wijze beschikbaar worden gesteld, conform een vooraf bepaald kwaliteitsniveau. Daarnaast moet opslag en gebruik van gegevens aan bestaande wet- en regelgeving voldoen en moeten er verantwoord worden omgegaan met de kosten van het gegevensmanagement. Als aan deze voorwaarden wordt voldaan, kan de gemeente beschikken over alle gegevens die zij nodig heeft, van de juiste kwaliteit, tegen de verantwoorde kosten, en binnen wet- en regelgeving.
+
+In samenwerking met gemeenten is door VNG Realisatie een aantal katernen en handreikingen ontwikkeld voor het inrichten van gemeentelijk gegevensmanagement. Een groot deel hiervan is onderdeel geworden van de [https://www.noraonline.nl/wiki/Gegevensmanagement NORA thema-architectuur Gegevensmanagement]. Hier is onder andere informatie te vinden over het organiseren van gegevensmanagement en het managen van metadata, semantiek, gegevenswoordenboeken, gegevensmodellering en gegevenskwaliteit. 
+
+{{Landingspagina
+|titel1 = Producten
+|inhoud1 = 
+Voor bestuurders
+* [[Katern_GEMMA_Strategisch_Gegevensmanagement|Strategisch gegevensmanagement]]
+Voor informatiemanagers, adviseurs en architecten
+* [[Katern_GEMMA_Tactisch_Gegevensmanagement|Tactisch gegevensmanagement]]
+* [[Dataclassificatie|Handreiking dataclassificatie]]
+* [[GM_Gegevensfunctiehuis|Gegevensfunctiehuis]]
+* [[GMK_Gegevenskwaliteit|Gegevenskwaliteit tooling]]
+* [[GM Scorecard|Scorecard gegevensmanagement tooling]]
+* [[GM Ethiek|Gebruik van algoritmische toepassing en ethiek]]
+<!--Bestanden
+* {{Bestand met info|CDO v1 2020312.pdf|CDO: de rol van de Chief Data Officer}}
+* {{Bestand met info|GM - Datagedreven werken en gegevensmanagement.pdf|Gegevensmanagement en datagedreven werken}}
+* {{Bestand met info|Gegevensmanagement en Common Ground.pdf|Samenhang gegevensmanagement en Common Ground}}
+-->* [[CDO - de rol van de Chief Data Officer]]
+* [[Gegevensmanagement en datagedreven werken]]
+* [[Samenhang gegevensmanagement en Common Ground]]
+|titel2 = Meer informatie
+|inhoud2 = 
+Op NORA
+* [https://www.noraonline.nl/wiki/Gegevensmanagement Thema Gegevensmanagement]
+|hoogte=500px
+}}

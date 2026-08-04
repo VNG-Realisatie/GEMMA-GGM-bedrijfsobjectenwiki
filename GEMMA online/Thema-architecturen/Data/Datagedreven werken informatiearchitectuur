@@ -1,0 +1,41 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Gegevensarchitectuur
+}}
+[[category:Data]]
+__NOTOC__
+
+Een goede informatiearchitectuur is essentieel voor een organisatie die datagedreven wil werken. Het zorgt ervoor dat data gestructureerd, toegankelijk en betrouwbaar is, zodat medewerkers en systemen de juiste inzichten krijgen en betere beslissingen kunnen nemen. Een aantal redenen waarom een goede informatiearchitectuur nodig is:
+
+*Data moet eenduidig zijn gedefinieerd en gestandaardiseerd om bruikbaar te zijn voor analyse.
+*Data moet uit verschillende bronnen beschikbaar komen en zijn te integreren.
+* Nieuwe databronnen en nieuwe technologie moeten eenvoudig zijn toe te voegen.
+*Authenticatie- en autorisatiemechanismen moeten zorgen dat de toegang tot data op een veilige en gecontroleerde manier plaatsvindt.
+
+==Referentiecomponenten==
+De [[Informatie-architectuur|GEMMA Informatie-architectuur]] beschrijft via [[Overzicht alle referentiecomponenten|referentiecomponenten]] de functionele bouwstenen waarmee gemeenten hun informatievoorziening kunnen opbouwen. Referentiecomponenten ondersteunen bedrijfsfuncties en het uitvoeren van bedrijfsprocessen en maken daarbij intensief gebruik van data. Om te bepalen of en hoe data-analyse kan helpen een bepaalde functie of proces te optimaliseren, moet worden onderzocht van welke referentiecomponenten en data er gebruik wordt gemaakt. [[Referentiecomponenten en bedrijfsfuncties]], en een aantal [[Domeinarchitecturen|domein-specifieke uitwerkingen]], laten zien door welke referentiecomponenten GEMMA-bedrijfsfuncties worden ondersteund. 
+
+Enkele generieke referentiecomponenten die een belangrijke ondersteunende rol spelen bij datagedreven werken:
+
+*[[GEMMA/id-2eebab83-14b7-4e91-ac89-a2a702dcb81d|Managementinformatiecomponent]] voor het ontwikkelen, publiceren en uitvoeren van managementanalyses en rapportages.
+* [[GEMMA/id-3e79874f-3a37-49bd-86ef-d48d0f2ed4a1|Datawarehousecomponent]] om actuele en historische gegevens gestructureerd op te slaan voor analyses en rapportages.
+* [[GEMMA/id-06321658-50d1-4153-b007-6630ffabcd80|Gegevensmagazijncomponent]] voor opslag en ontsluiting van basis- en aangehaakte gegevens.
+
+Voor het kunnen uitvoeren van data-analyse zal vaak data worden verstrekt vanuit taakspecifieke applicaties (bijvoorbeeld een [[GEMMA/id-2a53ea44-7822-4a0b-a80e-355ae715d477|Melding Openbare Ruimte-]] of  [[GEMMA/id-2a53ea44-7822-4a0b-a80e-355ae715d477|Subsidie-component]]). 
+
+==Data-objecten==
+Binnen de GEMMA-bedrijfsarchitectuur zijn bedrijfsobjecten beschreven. Het Gemeentelijk Gegevensmodel beschrijft via data-objecten hoe gegevens over bedrijfsobjecten worden beheerd en gestructureerd en hoe ze met elkaar samenhangen. [[GEMMA en het Gemeentelijk Gegevensmodel]] beschrijft de relatie tussen GEMMA en het GGM meer in detail. 
+
+De in het GGM beschreven structuur, definities en samenhang van gemeentelijke gegevens helpt bij het gestandaardiseerd vastleggen, uitwisselen en analyseren van data. Door het GGM te gebruiken kunnen gemeenten op een vergelijkbare manier voorzieningen zoals een datawarehouse inrichten en vergelijkbare analyses doen. 
+
+==Standaarden ==
+Om goed datagedreven te kunnen weken is het gebruik van verschillende soorten standaarden nodig. Ze zorgen ervoor dat data betrouwbaar, uitwisselbaar en herbruikbaar is, waardoor betere analyses en beleidsbeslissingen mogelijk worden. Gebruik van de [[GEMMA standaardenlijst|GEMMA-standaarden]] bevordert:
+
+*Eenduidige begrippen en semantiek, waardoor data betrouwbaarder en meer vergelijkbaar wordt.
+*Makkelijker delen en integreren van data uit verschillende bronnen, waardoor meer analyses mogelijk worden.
+*Efficiëntie en kostenbesparing, omdat leveranciers minder maatwerk hoeven te leveren.
+*Meer eenduidigheid in structuur en formattering van data, zodat data eenvoudiger is te verwerken.
+
+[[category:Data]]
+__NOTOC__

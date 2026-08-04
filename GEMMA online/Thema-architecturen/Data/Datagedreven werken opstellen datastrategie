@@ -1,0 +1,24 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Gegevensarchitectuur
+}}
+[[category:Data]]
+__NOTOC__
+
+Onder een datastrategie verstaan we een (lange termijn) plan dat de visie, doelstellingen, principes en richtlijnen van de gemeente beschrijft met betrekking tot het beheer, gebruik en exploitatie van data. Om de visie en strategie rondom datagedreven werken te kunnen realiseren zijn passende gemeentelijke architectuurkeuzes nodig. Bijvoorbeeld om te zorgen dat duidelijk is welke data beschikbaar is en om data in samenhang, betrouwbaar en efficiënt te kunnen gebruiken.
+
+De VNG-handreiking [https://vng.nl/sites/default/files/2024-10/handreiking-datastrategie.pdf Datastrategie - Handvatten voor het opstellen van een gemeentelijke datastrategie] (toegelicht in een [https://vng.nl/nieuws/aan-de-slag-met-datagedreven-werken nieuwsbericht]) beschrijft een proces om als gemeente in 8 stappen te komen tot een gedragen datastrategie. Onderstaande afbeelding toont dit proces, de 8 onderscheiden processtappen en een korte toelichting. Een uitgebreide beschrijving van het proces en ieder van de processtappen is te vinden in de handreiking.
+
+{{ToonViewGEMMA
+  |viewid=e9954889-a0d9-4bd0-805b-ca04bfb66c93
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |label=Proces om te komen tot een gemeentelijke datastrategie
+  <!-- |nolinks=true -->
+}}<!--Opstellen datastrategie (ArchiMateView)--> 
+
+{{ToonTabelVanViewGEMMA
+  |viewid=e9954889-a0d9-4bd0-805b-ca04bfb66c93
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |filter=BusinessProcesses
+}}<!--Opstellen datastrategie (ArchiMateView)-->

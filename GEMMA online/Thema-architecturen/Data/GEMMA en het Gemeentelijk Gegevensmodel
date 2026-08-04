@@ -1,0 +1,106 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=Beheerder Gegevensarchitectuur
+}}
+[[category:Data]]
+
+VNG Realisatie werkt voor het GEMMA-model van bedrijfsobjecten samen met de gebruikersgroep van het Gemeentelijk GegevensModel (GGM) waarin verschillende gemeenten en andere overheden zijn vertegenwoordigd. De gebruikersgroep verzorgt het beheer en de doorontwikkeling van het GGM. 
+
+Het GGM is een logisch gegevensmodel dat alle beleidsdomeinen omvat die onder de verantwoordelijkheid van de gemeente vallen. De beleidsdomeinen zijn afgeleid van de IV3-taakvelden. Het GGM maakt het mogelijk om alle gegevens binnen gemeenten op een eenduidige manier te beschrijven. Het GGM is als open source model beschikbaar gemaakt en kan worden gebruikt door een veelheid aan gemeenten en andere overheden. Het wordt onder andere gebruikt als datamodel voor het inrichten van datawarehouses. Het GGM wordt beheerd en doorontwikkeld door een gebruikersgroep waarin meerdere gemeenten en andere overheden zijn vertegenwoordigd. Meer informatie over het Gemeentelijk Gegevensmodel is te vinden op [https://kennisnetwerkdata.pleio.nl/groups/view/1e7df5c5-e537-46cd-9d09-de2ef29beef8/gemeentelijk-gegevensmodel-ggm Pleio] en  de [https://gemeente-delft.github.io/Gemeentelijk-Gegevensmodel/ Gemeentelijk Gegevensmodel] site. 
+
+[[Bestand:Relatie Bedrijfsobjecten en GGM.png|rechts|kaderloos|600x600px]]Het GGM beschrijft, in Archimate-termen, dataobjecten: 'samenhangende sets gegevens die geautomatiseerd kunnen worden verwerkt'. De GEMMA beschrijft binnen haar bedrijfsarchitectuur bedrijfsobjecten: 'concepten die binnen een bepaald domein worden gebruikt en betekenis hebben'. GEMMA's bedrijfsobjecten geven een meer conceptuele weergave van informatie (bedrijfsniveau), terwijl GGM's dataobjecten informatie vertalen naar een technischer niveau (applicatieniveau).  Dataobjecten zijn te zien als de technische tegenhangers van bedrijfsobjecten. Om een consistente relatie tussen beide te borgen, leidt de GEMMA bedrijfsobjecten af van de GGM-dataobjecten. Nevenstaande afbeelding visualiseert de relatie tussen beide.
+
+Bedrijfsobjecten zijn te relateren aan andere binnen de GEMMA benoemde elementen in de bedrijfsarchitectuur, zoals:
+*Bedrijfsfuncties ('activiteiten die zijn gegroepeerd omdat daarvoor vergelijkbare bedrijfsmiddelen, kennis of competenties nodig zijn') om inzichtelijk te maken welke bedrijfsobjecten van belang zijn voor bedrijfsfuncties en andersom welke bedrijfsobjecten binnen welke bedrijfsfuncties worden gebruikt.
+*Bedrijfsprocessen ('reeksen opeenvolgend uit te voeren activiteiten die bijdragen aan een specifiek resultaat, zoals de levering van een product of dienst') om duidelijk te maken welke bedrijfsobjecten een rol spelen binnen bedrijfsprocessen en andersom welke bedrijfsobjecten binnen welke bedrijfsprocessen worden gebruikt.
+De GEMMA bedrijfsobjecten zijn ook bruikbaar voor andere doelen. Bijvoorbeeld om per type bedrijfsobject aan te geven welk Basis Beveiligings Niveau (BBN) er van toepassing is, om met behulp daarvan gericht passende beveiligingsmaatregelen te kunnen nemen.
+
+==Afspraken VNG Realisatie en GGM-gebruikersgroep==
+Samenwerkingsafspraken tussen VNG Realisatie (beheer van de GEMMA)  en de GGM-gebruikersgroep:  
+*GGM gebruikersgroep beheert de logische datamodellen (conform MIM)
+*VNG Realisatie neemt deel aan de expertgroep GGM en doet daar ook suggesties voor verbeteringen.
+*VNG  beheert het GEMMA bedrijfsobjectenmodel
+*Mogelijke en nog te besluiten VNG Realisatie activiteiten:
+**VNG Realisatie maakt een ontologie die wordt gerelateerd aan de bedrijfsobjectmodellen
+<!-- ** VNG  maakt beheert mogelijk in de toekomst het GEMMA dataobjectenmodel -->
+*GGM gebruikersgroep en VNG Realisatie beheren gezamenlijk een koppelvlak voor inlezen van het GGM in de GEMMA: 
+**Een CSV-koppeling (gereed).
+**Een UML(MIM) - AMEFF koppeling (te besluiten).
+
+==Uitgangspunten en afspraken CSV-koppeling ==
+De GGM-GEMMA koppeling kent de volgende uitgangspunten:
+*GGM levert de objecten en relaties aan in CSV-formaat conform de onderling afgestemde specificatie
+**De GGM UML-attributen zijn geen onderdeel van de uitwisseling
+*VNG levert de GEMMA bedrijfsobjecten terug in CSV-formaat met daarin de vastgelegde definities
+* VNG biedt het GGM ArchiMate-model aan aan de GGM-community in AMEFF formaat.
+
+==Te downloaden bestanden ==
+Bestanden worden beschikbaar gesteld via de GitHub repositories van respectievelijk GGM en GEMMA:
+*De GGM CSV bestanden zijn te vinden in de [https://github.com/Gemeente-Delft/Gemeentelijk-Gegevensmodel GGM GitHub repository].
+*De GEMMA bestanden zijn te vinden in de [https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository GEMMA-GGM Archi-repository]
+**De CSV-bestanden met bedrijfsobjecten staan in de folder [https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/tree/master/exports CSV export].
+**Het GEMMA-GGM ArchiMate-model in AMEFF formaat staat in de folder [https://github.com/VNG-Realisatie/GEMMA-GGM-Archi-repository/tree/master/exports AMEFF export].
+*Het GEMMA-GGM ArchiMate-model is ook op [https://vng-realisatie.github.io/GEMMA-GGM-Archi-repository/?view=id-a6ee6077d3094afa91fc6ea92a9a2a40 github door te bladeren]
+
+==Statistieken==
+{{#vardefine: gemma_aantal
+      |{{#ask: [[Categorie:BusinessObjects]]
+        [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]][[-refers to element.occurs in view::+]]
+        <!-- [[Business Object::Ja]] -->
+        |format=count}} 
+   }}<!--
+-->{{#vardefine: gemma_aantal_documented
+    |{{#ask: [[Categorie:BusinessObjects]]
+         [[Documentation::+]]
+         [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]][[-refers to element.occurs in view::+]]
+        |format=count
+     }}
+   }}<!--
+-->{{#vardefine: gemma_aantal_beleidsdomeinen
+    |{{#ask: [[Categorie:Groupings]]
+          [[GEMMA type::Beleidsdomein]]
+          [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+        |format=count
+     }}
+   }}<!--
+-->{{#vardefine: gemma_aantal_BOM
+    |{{#ask: [[Categorie:ArchiMateViews]] 
+        [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]] [[Bron::GGM]]
+        |format=count
+     }}
+   }}
+Een overzicht van de aantallen GEMMA bedrijfsobjecten overgenomen van de GGM dataobjecten:
+*GEMMA heeft (gebaseerd op GGM)  '''{{#var: gemma_aantal}}''' bedrijfsobjecten, waarvan met definitie: '''{{#var: gemma_aantal_documented}}'''<!--, [[Overzicht lege definities GGM|zonder]]: '''{{#expr: {{#var:ggm_aantal}} - {{#var:ggm_aantal_documented}} }}'''-->
+<!--* In GGM zitten '''{{#vardefineecho: ggm_hulpaantal|{{#ask: [[Categorie:BusinessObjects]] [[Business Object::Nee]] [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]|format=count}} }}''' objecttypes (conform MIM), die geen [[Overzicht GGM-hulpobjecten|geen bedrijfsobjecten]] zijn. Dit zijn begrippen die bv gaan over de typologie van andere begrippen, of een soort eigenschappen zijn die onderdeel zijnx van een bedrijfsobject. Deze worden uiteindelijk niet meegenomen in het Model van begrippen. Uiteindelijk houden we dan '''{{#vardefineecho: ggm_totaal|{{#expr: {{#var: ggm_aantal}} - {{#var: ggm_hulpaantal}} }} }}''' bedrijfsobjecten over.-->
+*De GEMMA bedrijfsobjecten zijn ingedeeld in '''{{#var: gemma_aantal_beleidsdomeinen}}''' beleidsdomeinen en worden weergegeven op '''{{#var: gemma_aantal_BOM}}''' bedrijfsobjectmodellen 
+**Indeling conform [https://docs.datacommunities.nl/data-overheid-nl-documentatie/dcat/dcat-ap-donl DCAT-DONL], het Nederlands profiel op [https://www.forumstandaardisatie.nl/open-standaarden/dcat DCAT] (Data Catalog Vocabulary). Door met DCAT datasets te beschrijven in data catalogi, wordt de vindbaarheid vergroot en wordt het eenvoudiger voor applicaties om metadata van meerdere catalogi te gebruiken. DCAT beschrijft dus waar data gevonden kan worden. Doordat DCAT is gebaseerd op het veel gebruikte standaardformaat voor gegevensuitwisseling (RDF) onderschrijft deze relatie de toegevoegde waarde van de standaard aan interoperabiliteit.
+<!-- ** indeling conform de [[Overzicht begrippen conform GEMMA-domeinen|GEMMA-Domeinarchitectuur-indeling]] -->
+*Voorstel is om het beheer van begrippen in een gemeentelijke ontologie conform [https://www.w3.org/2004/02/skos/ SKOS] in GEMMA onder te gaan brengen en:
+**Verder conform [https://www.noraonline.nl/wiki/MIM_(Metamodel_voor_informatiemodellen) MIM] te gebruiken voor een [https://www.noraonline.nl/wiki/Model_van_begrippen Model van Begrippen], met de belangrijkste begrippen en hun onderlinge relaties.
+**Daar waar mogelijk gebruik maken van reeds bestaande definities en deze direct bij de bron te bevragen (op termijn via Linked Data).
+*Uiteraard bestaan er nog tal van andere informatiemodellen die interessant zijn om eventueel mee te nemen. Hiervan is met GGM overeengekomen dat zij de samenwerking met die andere domeinen op zich nemen en eventueel integreren in het GGM. Voorbeelden hiervan zijn:
+**[[Begrippen Totaal 3D]] (SOR-begrippen): '''{{#vardefineecho: t3d_aantal|{{#ask: [[Categorie:BusinessObjects]] [[Occurs in model.Object ID::fca200d1-0578-4e06b-1720-6912937eb00]]|format=count}}}}'''
+**[https://vngr-gbi.gitlab.io/ontologie-inkomen/ Ontologie van het inkomensdomein]: '''{{#vardefineecho: gemma_inkomen|170}}'''
+<!--
+* [[Overlap tussen de begrippenmodellen|Overlap tussen de modellen]]
+* Mogelijke [[Overzicht synoniemen in bedrijfsobjecten|synoniemen]]
+-->
+<!--* Hier zijn de drill downs:
+** [{{fullurl:Speciaal:GegevensBekijken/Begrippen|_single=}} Begrippen] (in ontwikkeling)
+** [{{fullurl:Speciaal:GegevensBekijken/BusinessObjects|_single=}} BusinessObjects] (in ontwikkeling)
+** [{{fullurl:Speciaal:GegevensBekijken/Objecttypes|_single=}} Objecttypes] (in ontwikkeling)
+-->
+*Verder kennen we nog het [[GEMMA Begrippenkader]] met  '''{{#vardefineecho: gemma_aantal|{{#ask:[[Categorie:Begrippenkader]] <!--[[-Has subobject::GEMMA Begrippenkader]][[Glossary-Type::Concept]]-->|format=count}} }}''' begrippen. 
+
+==Aandachtspunten en vervolgstappen==
+===Dubbele begrippen===
+GGM ken een aantal objecttypen met dezelfde naam, die een rol spelen in verschillende contexten. Bijvoorbeeld 'Aanbesteding' binnen Inkoop en binnen 'Vastgoed'. Dezelfde term wordt gebruikt in een andere context met mogelijk een andere betekenis. Zulke begrippen worden op GEMMA Online weergeven met daarachter tussen haakjes het betreffende IV3-domein. 
+===Overzetten van Bedrijfsobjecten naar het GEMMA-model ===
+De GEMMA-bedrijfsobjecten worden gemarkeerd in het GEMMA-GGM ArchiMate-model en worden daarvandaan overgezet naar het GEMMA ArchiMate-model. In de toekomst worden mogelijk nog relaties aangebracht tussen Bedrijfsobjecten en andere GEMMA-elementen. Bijvoorbeeld relaties tussen bedrijfsobjecten en bedrijfsfuncties:
+*Benadert met schrijfrechten (bronhouder)
+*Benadert met leesrechten (gebruiker)
+
+Afgeleid daarvan zijn relaties met:
+*Referentiecomponenten
+*Bedrijfsfuncties en/of Bedrijfsprocessen.

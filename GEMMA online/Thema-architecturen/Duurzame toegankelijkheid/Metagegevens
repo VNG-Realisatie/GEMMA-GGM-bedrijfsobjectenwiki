@@ -1,0 +1,379 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Gearchiveerd
+|Wikibeheerder=Adrie Spruit
+}}
+[[Category:Duurzame toegankelijkheid]]
+'''Status: concept'''<ref>De inhoud op deze pagina is op 6 juli 2017 vastgesteld door de VNG Adviescommissie Archieven met als afspraak dat op korte termijn nog enkele wijzigingen worden doorgevoerd. Deze wijzigingen betreffen 1) inhoudelijke details en 2) het duidelijker scheiden van de samenvatting en de inhoud die een verdieping is van die samenvatting. De wijzigingen zullen niet de strekking veranderen van de boodschappen en inhoudelijke hoofdlijnen op deze pagina.</ref>
+
+== Inleiding ==
+
+Deze pagina over metagegevens is primair bedoeld voor degenen die op het niveau van beleid, inrichting of uitvoering invulling willen geven aan het duurzaam toegankelijk zijn van van digitale informatie die de overheid bewaart en ontsluit. Dat bewaren en ontsluiten van informatie is wat we bij de overheid benoemen als het aandachtsgebied informatie- en archiefbeheer of kortweg informatiebeheer, met als belangrijk doel in de nieuwe digitale wereld de genoemde duurzame toegankelijkheid van informatie.<br />
+(zie voor hoe het aandachtsgebied informatie- en archiefbeheer of kortweg informatiebeheer is afgebakend de gemmaonlinepagina's [[De kanteling van archief- naar informatiebeheer]] en [[Conceptueel en functioneel model informatiebeheer]]).
+
+De inhoud op deze pagina is uitgewerkt in het kader van zowel de Baseline Informatiehuishouding Gemeenten als het GEMMA-thema [[Thema-architectuur Duurzame toegankelijkheid|thema-architectuur Duurzame toegankelijkheid]].<br />
+De doelgroep bestaat uit onder andere beleidsmedewerkers, proces- en informatiearchitecten, projectleiders, leidinggevenden en uitvoerend specialisten die zich bezighouden met duurzame toegankelijkheid en informatie- en archiefbeheer. Deze doelgroep vindt hier een introductie van het thema 'metagegevens' met daarin:
+* wat we onder metagegevens verstaan;
+* waarom metagegevens belangrijk zijn;
+* welke soorten metagegevens je kunt onderscheiden naar hun doel (zoals de contextduiding van informatie of het organiseren van het beheer van informatie);
+* een overzicht van de meest relevante metagegevensstandaarden;
+* aandachtspunten voor het werken met metagegevens, voor het ontwikkelen van beleid daarvoor en voor het inrichten van processen en systemen voor het werken met metagegevens;
+* hoe een implementatieproject voor een metagegevensstandaard er uit kan zien.
+
+De nadruk ligt hier op metagegevens en metagegevensstandaarden zoals die zijn ontwikkeld door en voor wat wel wordt genoemd het archiefveld. Het TMLO, het Toepassingsprofiel Metadatering Lokale Overheden, krijgt daarom ruime aandacht. Maar dat TMLO is bewust wel in een breder kader geplaatst. Want er zijn meer metagegevensstandaarden, ook in de gemeentelijke wereld, zoals bijvoorbeeld voor geografische informatie. 
+
+== Samenvatting ==
+
+Metagegevens zijn gegevens die context, inhoud, structuur en vorm van informatie en het beheer ervan door de tijd heen beschrijven, zo zegt de NEN-ISO-norm 15489.
+
+Metagegevens waren altijd al belangrijk. Zonder metagegevens over de inhoud van een archiefdoos en waar die doos staat in een archiefruimte of in een archiefbewaarplaats, is die inhoud niet te vinden, en dus ook niet te raadplegen en te gebruiken. In de digitale wereld zijn metagegevens nog belangrijker. Want digitale informatie is vluchtig en daardoor kwetsbaar. Een vergeten stapel papier op een bureau blijft in het zicht en ook doorzoekbaar als dat nodig is, en een papieren document kun je gewoon - zonder hulpmiddelen die verder gaan dan misschien een leesbril - lezen. In de nieuwe digitale wereld werken dat soort dingen anders. Even niet opletten bij het opslaan van een digitaal document en zonder - wel of niet automatisch - toegevoegde metagegevens kan het al lastig worden om het terug te vinden. Wil je zo'n document - of bestand - lezen, dan moet je computer een programma opstarten. Welk programma dat is, volgt uit het opslagformaat, dat ook als metagegeven is vastgelegd, als het goed is. Is dat verdwenen, dan weet de computer niet welke software het moet opstarten om het bestand te openen. Dit is geldt sterker naarmate het gaat om meer specifieke informatie. Een zaaksysteem moet allerlei soorten zaakinformatie kunnen herkennen. Is iets de naam van een bedrijf of van een burger? En bij welke zaak hoort een document? Wat betekent een getal? Op een harde schijf zijn het allemaal slechts reeksen nullen en enen. Wat is de conclusie van dit alles? Dat digitale informatie zonder metagegevens niet toegankelijk is, niet leesbaar en niet bruikbaar. Daarom heeft de Nederlandse overheid het realiseren van duurzame toegankelijkheid van álle overheidsinformatie benoemd als een belangrijke doelstelling. Het voldoen daaraan is essentieel voor het digitale geheugen van de overheid en voor het functioneren van de overheid in de nieuwe digitale informatiesamenleving.
+
+Behalve voor het kunnen vinden, lezen en interpreteren van digitale informatie zijn metagegevens ook nodig om informatie te beheren, te beveiligen, openbaar te maken (wat niet, wat wel en wanneer) en uit te wisselen. Uitgesplitst naar waar metagegevens voor nodig zijn, zijn er dan ook heel veel verschillende soorten metagegevens.<br />
+Enkele voorbeelden:<br />
+* de creatiedatum en auteur van een document (bron);
+* de zaak, aangeduid met een zaaknummer c.q. zaak-ID, waar een document bij hoort (context);
+* of informatie in het kader van de Archiefwet blijvend te bewaren is of te vernietigen na afloop van een bewaartermijn (beheer);
+* de toegangsrechten tot informatie (wie mag wat?);
+* of informatie openbaar of niet openbaar is.
+
+Dit alles maakt duidelijk dat metagegevens niet alleen belangrijk zijn voor de gebruikers van informatie, maar ook essentieel voor de informatiespecialisten die de digitale informatievoorziening van overheidsorganisaties organiseren.
+
+Als er zoveel verschillende soorten metagegevens zijn, dan is er ook een taal nodig om ze te beschrijven, op te slaan en uit te wisselen. En zoals dat gaat bij taal: als iedereen een andere taal spreekt, dan weet je zeker dat je elkaar niet verstaat en begrijpt. Daarom zijn er gestandaardiseerde talen ontwikkeld om metagegevens te beschrijven. Dat noemen we metagegevensstandaarden. Het TMLO, het Toepassingsprofiel Metadatering Lokale Overheden, is zo'n standaard, ontwikkeld vanuit het archiefveld voor alle decentrale bestuurslagen waaronder de gemeenten. Zonder dergelijke standaarden is samenwerken lastig tot onmogelijk en werkt ook de digitale dienstverlening naar burgers en bedrijven gebrekkig. Als die bij een aanvraag eerst informatie nodig hebben, dan moeten zij die met behulp van een programma wel kunnen vinden en zo'n programma moet dan in technische zin de taal verstaan waarin de metagegevens over de te vinden informatie is vastgelegd.
+
+Zoals gezegd zijn metagegevens belangrijk voor álle overheidsinformatie, dus ook voor álle soorten overheidsinformatie, ongeacht hun vorm, inhoud, (sectorale) afkomst en status (wel of niet archief). Bij sommige soorten informatie, zoals bijvoorbeeld geo-informatie, horen specifieke metagegevensstandaarden. Er is dus meer op dit terrein dan het vanuit de archiefwereld ontwikkelde TMLO. Daarom adviseert KING gemeenten om niet alleen met het TMLO aan de slag te gaan, maar dit tegelijkertijd te plaatsen in de bredere context van andere metagegevensstandaarden, die men vaak zelfs al in huis heeft, maar dan binnen een ander aandachtsgebied zoals de genoemde wereld van geo-informatie.
+
+'''Handelingsperspectief voor gemeenten'''
+
+Het voorgaande heeft consequenties voor wat voor een gemeente een goede aanpak is. Zo'n aanpak kan er op hoofdlijnen als volgt uitzien:
+# ga als organisatie aan de slag met het thema metagegevens;
+# kies als gemeente of andere decentrale overheidsorganisatie - voor zover dat nog niet is gebeurd - voor invoering van het TMLO;
+# stel vast dat het belang van metagegevens veel verder gaat dan alleen het bewaren en beheren van informatie in het kader van de Archiefwet en dat er ook andere metagegevensstandaarden zijn dan alleen het TMLO. Denk daarbij ook aan aandachtsgebieden zoals gegevensmanagement, veelal gericht op het organiseren van gestructureerde gegevens in databases, en de wereld van geo-informatie;
+# ga als organisatie nadenken over een brede aanpak van het thema metagegevens binnen het streven naar duurzame toegankelijkheid van álle digitale informatie van de organisatie, en betrek bij die brede aanpak ook collega's van andere - deels al genoemde - aandachtsgebieden;
+# leg het resultaat vast in een beleidsnotitie voor de gehele organisatie, neem daarin een vervolg op in de vorm van een programmatische organisatiebrede aanpak en regel daarvoor de besluitvorming en het benodigde commitment in de top van de organisatie.
+
+Zie voor een projectaanpak voor de invoering van één metagegevensstandaard, zoals het TMLO, [[Metagegevens#Implementatie_van_een_metagegevensstandaard_en_meer_specifiek_het_TMLO]] en wat hieronder nog wordt gezegd over implementatie.
+
+'''Overzicht'''
+
+Voor verdere verdieping bevat deze Gemmaonlinepagina een uitgebreid overzicht van:
+* primair voor het archiefveld ontwikkelde normen van het NEN, het Nederlandse normalisatie-instituut;
+* binnen de overheid ontwikkelde richtlijnen;
+* metagegevensstandaarden.
+
+'''Het toevoegen metagegevens'''
+
+De belangrijkste regel voor het toevoegen van metagegevens is: doe het direct, wel of niet geautomatiseerd, bij de creatie van informatie of als deze ontvangen wordt, zojuist ontvangen is of op een andere manier beschikbaar is gekomen. Uitstellen maakt het alleen maar lastiger, nog even los van het feit dat je digitale informatie zonder metagegevens heel snel kwijt bent. Op het moment van creëren of ontvangen is duidelijk wat de bron en de context van informatie is. Door uitstellen wordt dat snel onduidelijker en wordt het lastiger om dat alsnog te achterhalen.<br />
+Als je metagegevens direct toevoegt, dan betekent dat nog niet de set aan metagegevens daarmee al compleet is of compleet kan zijn. Zo is van een document dat binnenkomt wellicht niet direct duidelijk of het bij een zaak hoort en zo ja, bij welke zaak. Die duidelijkheid kan het resultaat van een volgende stap, een volgende handeling zijn. Daarnaast is de set aan metagegevens nooit compleet in de zin van definitief. Het vastleggen van de gebruiks- en de beheergeschiedenis van een informatieobject bijvoorbeeld betekent dat er in de loop van de tijd metagegevens bijkomen, simpelweg omdat die geschiedenis zich in de loop van de tijd ontwikkelt.
+
+'''Implementatie'''
+
+Bij implementatie van een landelijk gestandaardiseerd toepassingsprofiel in een organisatie zal men over het algemeen kiezen of moeten kiezen voor het ontwikkelen van een eigen, van die standaard afgeleid, organisatiespecifiek profiel. Landelijke standaarden specificeren veelal wat mogelijk is met daarbinnen de nodige vrijheidsgraden. Binnen die vrijheidsgraden moet een organisatie vervolgens haar eigen keuzes maken. In de praktijk is dat in ieder geval zo bij de huidige 1.1-versie van het TMLO.
+
+De invoering van een metagegevensstandaard zoals het TMLO zal men als project moeten benaderen. Bovendien is zo'n project bij voorkeur ingebed in een breder programma voor het duurzaam toegankelijk maken en houden van álle digitale informatie van de organisatie. Binnen zo'n project zal men een aantal fasen moeten onderscheiden. Zie daarvoor [[Metagegevens#Implementatie_van_een_metagegevensstandaard_en_meer_specifiek_het_TMLO]].
+
+
+De hierna volgende hoofdstukken zijn een verdieping van de samenvatting, die hiermee eindigt.
+
+
+== Wat zijn metagegevens? En hoe is dat aandachtsgebied begrensd? ==
+
+Metagegevens zijn gegevens die context, inhoud, structuur en vorm van informatie en het beheer ervan door de tijd heen beschrijven. Dat zegt de laatste Nederlandstalige versie van de ISO-norm 15489 oftewel de NEN-ISO 15489-1 (nl) Informatie en documentatie - Informatie- en archiefmanagement - Deel 1: Algemeen.
+:Terzijde: op dit moment is die laatste Nederlandse versie,  de NEN-ISO 15489-1:2001 nl ingetrokken en niet meer verkrijgbaar, omdat er een nieuwe versie is van de ISO-15489, de [https://www.iso.org/standard/62542.html ISO 15489-1:2016 Information and documentation -- Records management], en deze nog niet naar het Nederlands is vertaald.
+
+Duidelijk is in ieder geval dat metagegevens gegevens zijn (of informatie) over informatie (of gegevens). De keuzes (twee keer) in de voorgaande zin voor óf het woord 'informatie' óf het woord 'gegevens' is in deze niet bepalend. Waar het om gaat is dat metagegevens van inhoud (content) in de vorm van informatie of gegevens inhoud maken die men kan lezen, in een context kan plaatsen en begrijpen. Dat maakt dat digitale informatie - fysiek niet meer dan een rijtje nullen en enen - betekenis krijgt, dat men de informatie kan gebruiken en ermee kan werken. Daarnaast zijn metagegevens nodig om digitale informatie te beheren (zodanig bewaren dat ze niet verloren gaan en leesbaar oftewel toegankelijk blijven), te beveiligen, uit te wisselen, openbaar te maken etc.
+
+Hierbij maakt het niet uit wat de aard of de vorm van informatie is. Het bovenstaande geldt voor álle digitale informatie, in deze context is dat álle digitale overheidsinformatie, van documenten met tekst tot gestructureerde gegevens in databases en bijvoorbeeld geografische informatie. Hoe er gewerkt wordt met metagegevens, kan per soort informatie verschillen, maar in alle gevallen zijn ze nodig en als het goed is aanwezig.
+
+Metagegevens vormen een belangrijk aandachtsgebied voor wie invulling wil geven aan goed informatie- en archiefbeheer oftewel aan het (inhoudelijk ongewijzigd) bewaren, beheren en ontsluiten van informatie. Maar dat betekent niet dat het gebruik ervan daartoe beperkt blijft. Ook bij het inhoudelijk bewerken en verwerken van informatie zijn metagegevens belangrijk. En bij het uitwisselen van informatie zit vaak een belangrijk deel van de uitdaging in het metagegevensdeel van wat wordt uitgewisseld. Neem een gewoon tekstdocument in Word- of PDF-formaat. Alleen dat uitwisselen is niet zo moeilijk. Maar in een professionele werkomgeving horen daar heel veel metagegevens bij. Die uitwisselen en dan zodanig dat het informatiesysteem van een organisatie waarmee wordt samengewerkt, die metagegevens na ontvangst ook kan verwerken, dat is een grotere uitdaging dan het kunnen lezen van een Word- of PDF-bestand. Het systeem waarnaar wordt uitgewisseld moet de definities van alle oorspronkelijke metagegevens kennen of er moet eerst een conversie plaatsvinden naar de definities die dat andere systeem wel kent. Het is problematiek die heeft geleid tot het ontwikkelen van zogenoemde metagegevensstandaarden. Zie in dit verband ook de paragraaf 'Waarom zijn standaarden voor metagegevens belangrijk?' en het overzicht dat daarna volgt met daarin verschillende van die standaarden.
+
+In de praktijk hebben metagegevens betrekking op concrete en begrensde eenheden van informatie, aangeduid met termen als informatieobject, archiefbescheiden, archiefstuk, archiefobject en gegevensobject. Dergelijke eenheden kunnen geclusterd zijn tot eenheden op een hoger abstractieniveau zoals een dossier of een (omvangrijker) deel van een archief. Ook daarop kunnen metagegevens dan betrekking hebben. Om metagegevens niet nodeloos dubbel en meer dan dat op te slaan, worden veel metagegevens in de praktijk op het niveau van een dossier, zoals een zaakdossier, opgeslagen.
+
+Over het algemeen hebben metagegevens de vorm van gestructureerde informatie. Vandaar ook de naam meta<u>gegevens</u> hoewel je in de literatuur ook de term meta-informatie kunt tegenkomen. Maar omgekeerd is het natuurlijk niet zo dat gestructureerde gegevens metagegevens zijn. Als we de definitie van metagegevens volgen en vaststellen dat metagegevens gegevens óver informatie (of gegevens) zijn, oftewel gegevens óver content, dan gaat het over de functie van wat we hier benoemen als metagegeven. Zo kan de naam van de auteur van een document (een ander woord hiervoor is informatieobject) als metagegeven aan dat document zijn toegevoegd. Maar in een persoonsdatabase kan diezelfde naam (met bijvoorbeeld een geboortedatum) een zelfstandig informatieobject oftewel content zijn (waar dan overigens weer andere metagegevens bij horen zoals bijvoorbeeld een verwijzing naar een onderliggend brondocument). Dezelfde informatie of hetzelfde gegeven kan dus in de ene situatie een metagegeven zijn en dat in een ander verband niet zijn. De essentie zit dan ook in het woord 'óver' in de definitie. 
+
+Voorbeelden van metagegevens zijn:
+* het opslagformaat van (digitale) informatie (om dit met de juiste software te kunnen lezen);
+* de creatiedatum en auteur van een document of de creatiedatum van persoonsgegevens (bron);
+* bij persoonsgegevens in de registers van de 'burgerlijke stand' een verwijzing naar het onderliggende brondocument (bron);
+* de zaak waar een document bij hoort (context);
+* of informatie in het kader van de Archiefwet blijvend te bewaren is of te vernietigen na afloop van een bewaartermijn (beheer);
+* de toegangsrechten die regelen wie informatie mogen raadplegen, muteren, beheren etc.;
+* of informatie openbaar is of op enig moment openbaar moet worden.
+
+== Waarom zijn metagegevens belangrijk? ==
+
+Metagegevens zijn belangrijk omdat je van informatie zonder metagegevens niet weet waar die informatie bij hoort, wat het voorstelt, wat de context ervan is en de oorsprong, wat de beheergeschiedenis is, of je het moet of mag bewaren en voor hoe lang, hoe je het moet beheren en beveiligen, hoe je het kunt vinden, hoe je het kunt lezen (met welke software bij welke bestandsformaten), wie het mogen lezen, wie het mogen veranderen, of je het openbaar mag of moet maken en wat je moet weten als je het wilt uitwisselen. Anders gezegd: zonder metagegevens kun je weinig tot niets met digitale informatie. Daarom ook zijn metagegevens essentieel als een organisatie haar digitale overheidsinformatie duurzaam toegankelijk wil maken en houden en als zij haar digitale archief op orde wil hebben en houden. Als een overheidsorganisatie haar digitale geheugen op orde wil hebben, en dat is een wettelijke plicht, dan zijn goede metagegevens daarvoor essentieel. Daarom ook wordt het gebruik van metagegevens voorgeschreven in formele regelgeving. Zo verwijst de voor alle overheden geldende Archiefwet naar de [http://wetten.overheid.nl/BWBR0027041 Archiefregeling], die hierover in artikel 17 Context en authenticiteit het volgende zegt:<br />
+
+:De zorgdrager zorgt ervoor dat van elk van de archiefbescheiden te allen tijde kan worden vastgesteld:
+:* de inhoud, structuur en verschijningsvorm bij het ontvangen of opmaken ervan door het overheidsorgaan, een en ander voor zover deze aspecten kenbaar moesten zijn voor de uitvoering van het betreffende werkproces;
+:* wanneer, door wie en uit hoofde van welke taak of werkproces het door het overheidsorgaan werd ontvangen of opgemaakt;
+:* de samenhang met andere door het overheidsorgaan ontvangen en opgemaakte archiefbescheiden;
+:* de met betrekking tot de archiefbescheiden uitgevoerde beheeractiviteiten; en
+:* de besturingsprogrammatuur of toepassingsprogrammatuur waarmee de archiefbescheiden worden bewaard of beheerd.
+
+Vervolgens zegt artikel 19 'Metagegevensschema en metagegevens' van diezelfde Archiefregeling:<br />
+# De zorgdrager legt een metagegevensschema als bedoeld in [[Metagegevens#NEN-ISO_23081|NEN-ISO 23081:2006]] vast.
+# De zorgdrager koppelt aan archiefbescheiden metagegevens aan de hand waarvan te allen tijde de aspecten, bedoeld in artikel 17, kunnen worden herleid.
+
+
+De [[Metagegevens#Richtlijn_Metagegevens_Overheidsinformatie|Richtlijn Metagegevens Overheidsinformatie]] voegt daar nog het volgende aan toe:
+:Het vastleggen van metagegevens dient de volgende doelen:
+:# het vergroten van de duurzame toegankelijkheid en betrouwbaarheid van overheidsinformatie;
+:# het bevorderen van een juiste interpretatie van overheidsinformatie;
+:# het mogelijk maken van gegevensuitwisseling tussen organisaties en/of systemen (interoperabiliteit);
+:# het transparant en openbaar maken van overheidsinformatie;
+:# het adequaat beveiligen van overheidsinformatie wanneer en waar het moet;
+:# het beheren en weer representeren van (digitale) overheidsinformatie.
+
+De hier genoemde doelen 1 en 2 zijn verbonden met onder andere het kunnen vinden, lezen en begrijpen van informatie. Daarvoor is het nodig metagegevens vast te leggen over de context van informatie en de semantiek (betekenis) van informatie.<br />
+Doel 3 is gericht op het kunnen uitwisselen van informatie binnen een organisatie en tussen organisaties.
+
+De doelen 4 en 5 zijn verbonden met twee belangrijke actuele thema's:
+* passieve en actieve openbaarheid (de Wet openbaarheid van bestuur (de Wob), de Wet Hergebruik overheidsinformatie (Who)  en de kabinetsvisie Open overheid, zie zo nodig ook de Gemmaonline-pagina [[Openbaarheid_van_overheidsinformatie|Openbaarheid_van_overheidsinformatie]]; 
+* gegevensbescherming (denk aan bestaande privacywetgeving zoals de Wet bescherming persoonsgegevens (Wbp) en de Algemene verordening gegevensbescherming (AVG)).
+
+Doel 6 tenslotte vergt het vastleggen van het opslagformaat van informatie en van de beheerhistorie van informatie, dit laatste onder andere om zicht te houden op de authenticiteit van informatie.<br />
+
+'''NEN-ISO 15489'''
+
+Ook de al genoemde NEN-ISO 15489-1:2001 nl is in dit verband belangrijk. In hoofdstuk 7.2 van deze norm met als hoofdstuktitel 'Kenmerken van een archiefstuk' wordt uitgebreid gespecificeerd wat de kenmerken zijn van een archiefstuk dat aan alle <u>kwaliteitsvereisten</u>  voldoet. Dat wordt daar uitgelegd met de volgende tekst:
+
+:Een archiefstuk behoort op correcte wijze te weerspiegelen wat gecommuniceerd of besloten werd, of welke actie ondernomen werd. Het behoort de behoeften van een bedrijfsproces, waar het aan is gerelateerd, te kunnen ondersteunen en moet voor verantwoordingsdoeleinden gebruikt kunnen worden.
+
+:Behalve de inhoud behoort het archiefstuk ook metagegevens, noodzakelijk om een transactie te documenteren, te bevatten, of anders moeten deze er blijvend aan zijn gekoppeld, of ermee verbonden, en wel zodanig dat:
+:* de structuur van een archiefstuk, dat wil zeggen zijn formaat en de relaties tussen de elementen van het archiefstuk, intact behoort te blijven;
+:* de context waarin het archiefstuk is opgemaakt, ontvangen en gebruikt, duidelijk behoort te zijn in het archiefstuk (inclusief het bedrijfsproces waarvan de transactie onderdeel is, de datum en het tijdstip van de transactie en de deelnemers in de transactie);
+:* de relaties tussen documenten, apart bewaard, maar tezamen een dossier vormend, aanwezig behoren te zijn.
+
+Vervolgens wordt dit uitgewerkt voor de aspecten:
+* Authenticiteit
+* Betrouwbaarheid
+* Integriteit
+* Bruikbaarheid
+
+'''De essentie'''
+
+Ook los van alle wet- en regelgeving en richtlijnen moet het voor een overheidsorganisatie duidelijk zijn dat zij haar digitale geheugen op orde moet hebben. Ook de politieke afbreukrisico's zijn enorm voor als het mis gaat.<br />
+Het einddoel zal altijd moeten zijn dat informatie vindbaar, toegankelijk en bruikbaar is voor wie er over moet kunnen beschikken. Dat noemen we de duurzame toegankelijkheid van overheidsinformatie. Daarvoor moet informatie zijn voorzien van goede metagegevens. Informatie bewaren die daar niet aan voldoet, is zinloos. omdat die informatie in essentie onbruikbaar is. De consequentie van het bewaren van informatie, kort, lang of blijvend, moet dan ook altijd zijn dat men de metagegevens toevoegt die voor duurzame toegankelijkheid nodig zijn.
+
+'''Discussie is er ook'''
+
+Het voorgaande neemt niet weg dat het belang van metagegevens de laatste jaren ook wel ter discussie wordt gesteld. De rode draad in wat daarbij naar voren wordt gebracht bestaat over het algemeen uit twee elementen:
+* het aan alle relevante informatieobjecten toevoegen van complete sets van metagegevens volgens daarvoor geldende standaarden is complex en in de praktijk van veel situaties niet haalbaar met de beschikbare middelen en menskracht;
+* leveranciers van moderne zoek-, vind- en analysetechnologieën stellen steeds vaker dat het uitgebreid toevoegen van metagegevens ook niet nodig is. Zelflerende technologieën zouden dat mogelijk maken. Programmatuur met die technieken zou heel veel zelf kunnen vaststellen zoals de context van informatie, tot welke zaak informatie behoort en of informatie wel of niet in aanmerking komt voor openbaarmaking.
+Vooralsnog echter is de lijn dat metagegevens belangrijk en nodig zijn en daarmee ook de hier genoemde standaarden voor het werken met metagegevens. De genoemde technologische oplossingen hebben nog hun beperkingen en zijn in nog maar weinig omgevingen operationeel en daarmee beschikbaar. Bovendien gaat het bij metagegevens over veel meer dan het kunnen zoeken en vinden van informatie. Metagegevens zijn ook nodig voor het goed kunnen bewaren, beheren en representeren (in een leesbare vorm aanbieden) van informatie. Dat maakt weer dat metagegevens ook belangrijk zijn bij het samenwerken met andere organisaties en het in dat kader uitwisselen van informatie. Voorlopig blijft ook in dat soort situaties het gebruik van metagegevensstandaarden en het maken van afspraken daarover nodig. Datzelfde kan gesteld worden voor het overbrengen van archief en het aanleveren van archief aan e-depotvoorzieningen.
+
+== Soorten metagegevens ==
+
+Metagegevens kan men indelen naar wat ze van een informatieobject beschrijven. Een algemene en breed gedeelde indeling naar categorieën is er niet. De Open Archival Information System-standaard oftewel het OAIS, vastgelegd in de [http://www.iso.org/iso/catalogue_detail.htm?csnumber=57284 ISO-norm 14721:2012], bevat in ieder geval een indeling die bovendien behoorlijk is uitgewerkt. Die indeling is te vinden in het hoofdstuk over het informatiemodel van een informatieobject en wel als onderdeel van de indeling van een informatieobject. Het OAIS deelt een informatieobject als volgt in, waarbij wij in Nederland gewoon zijn alles na het hierna eerstgenoemde 'content information' te benoemen als metagegevens over die 'content information':
+* content information;
+* descriptive information oftewel beschrijvende metagegevens voor onder andere het zoeken en kunnen vinden van informatieobjecten;
+* representation information over onder andere het formaat (de structuur) van een informatieobject en de semantiek (betekenis) van de content elementen binnen een informatieobject en nodig om een informatieobject te kunnen lezen;
+* preservation description information waaronder:
+** reference information voor het - met een unieke ID - identificeren van de content information;
+** context information over de context van de content information oftewel de 'omgeving' van de content information en de betekenis van de content information in die omgeving. Ook de relaties van een informatieobject met andere informatieobjecten vallen hieronder;
+** provenance information die de bron van de content information en de geschiedenis van de content information, waaronder de in de loop der tijd aangebrachte wijzigingen en de beheergeschiedenis. Dit is inclusief informatie over de authenticiteit van de content information;
+** fixity information over de 'technische' betrouwbaarheid of gegevensintegriteit van de content information. Onder andere zogenoemde checksums en validatiesleutels vallen hieronder;
+** access right information oftewel toegangsrechten, onder andere bedoeld om invulling te geven aan privacy en gegevensbescherming.
+
+In deze opsomming zien we onder andere metagegevens over de betekenis en context van informatie (context information), metagegevens voor het zoeken van informatie (descriptive information), metagegevens voor het kunnen lezen van (digitale) informatie (representation information) en metagegevens voor het beheren en ontsluiten van informatie (zoals bijvoorbeeld fixity information en access right information).
+
+Het OAIS zelf zegt over deze opsomming dat deze niet uitputtend is. Uitbreiding van de genoemde categorieën, want dat zijn het eigenlijk, is daarom mogelijk. Een uitbreiding die steeds belangrijker wordt is die naar de metagegevens die nodig zijn om invulling te geven aan passieve en actieve openbaarheid van informatie.
+
+== Waarom zijn standaarden voor metagegevens belangrijk? ==
+
+Ook metagegevens moeten gelezen en geïnterpreteerd worden. Daarvoor is een gezamenlijke taal nodig waarbij zowel gebruikers als systemen weten hoe een en ander te lezen,  te interpreteren en ook te gebruiken. Bewust wordt hier ook gesproken over systemen. Want veel handelingen vergen wat je stuurparameters zou kunnen noemen en bij automatisering van die handelingen moeten die als metagegevens beschikbaar zijn bij de informatie waarop een geautomatiseerde handeling betrekking heeft. Zonder metagegevens over wat wel en niet openbaar is en wat wel en niet onder privacywetgeving valt, is het lastig om informatie geautomatiseerd openbaar te maken of juist af te schermen.
+
+Dit geldt niet alleen voor de gebruikers en systemen binnen een organisatie, maar waar wordt samengewerkt in ketens ook voor de gebruikers en systemen in zo'n keten. Dat maakt het werken met gestandaardiseerde metagegevens extra belangrijk. Bij het openbaar maken van informatie is ook eenduidigheid voor de burger nodig. Als die de betekenis van overheidsinformatie deels uit metagegevens moet halen, en dat is hoe metagegevens werken, dan is het handig dat die burger niet allerlei verschillende 'metagegevenstalen' tegenkomt, niet bij het lezen van informatie en niet bij het zoeken en vinden van informatie waar metagegevens ook een belangrijke rol bij spelen.
+
+Ook is het gestandaardiseerd zijn van metagegevens belangrijk als het beheer van informatie overgaat naar een andere organisatie, zoals het geval is bij het overbrengen van archief van een gemeente naar een archiefdienst. Zo'n archiefdienst kan het beheer van aan haar toevertrouwde informatie nauwelijks tot niet uitvoeren als elke aanleverende partij de bijbehorende metagegevens anders heeft georganiseerd. Een archiefdienst zal daarom eisen stellen aan de metagegevens bij informatie die gemeenten in zo'n situatie overbrengen, en die eisen zullen neerkomen op een standaard die men voorschrijft. In de praktijk kan dat neerkomen op een strenge selectie: wat niet voldoet aan de voorgeschreven standaard, wordt geweigerd.
+
+Een en ander betekent dat wat betreft metagegevensstandaarden twee dingen belangrijk zijn:
+* elke overheidsorganisatie werkt of gaat zo spoedig mogelijk werken met een metagegevensstandaard om haar informatie te voorzien van alle metagegevens die zo'n standaard voorschrijft;
+* overheidsorganisaties werken maximaal samen om het aantal metagegevensstandaarden te beperken en om wat er aan dergelijke standaarden is, onderling af te stemmen. Bij dit laatste is het goed te beseffen dat ketens soms dwars door bestuurslagen heen lopen. Ook dan wil je niet dat het uitwisselen van informatie tussen organisaties leidt tot het niet kunnen lezen en gebruiken van de bijbehorende metagegevens.
+
+== Overzicht metagegevensstandaarden ==
+
+Sinds 2014 hebben decentrale overheden, waaronder de gemeenten, een eigen standaard voor het toevoegen van metagegevens aan te bewaren informatie. Dat is het TMLO oftewel het Toepassingsprofiel Metadatering Lokale Overheden.  Maar er is meer. Zo is het OWMS oftewel de Overheid.nl Web Metadata Standaard de standaard voor in principe de gehele overheid voor het publiceren van informatie op internet. Ook wordt er in de gemeentelijke bestuurslaag sinds 2016 gewerkt met de metagegevensstandaard 'Popolo' voor het ontsluiten en hergebruiken van raadsinformatie, dit in het kader van het traject 'Open raadsinformatie'. Verder heeft het Rijk een metagegevensstandaard. Daar kunnen gemeenten in ketens ook mee te maken krijgen.
+
+Veel van de bij de overheid in gebruik zijnde metagegevensstandaarden zijn met elkaar verbonden. De stamboom in figuur 1 laat zien hoe verschillende metagegevensstandaarden  in in ieder geval het archiefveld zijn afgeleid van een gemeenschappelijke 'voorouder'. De stamboom toont een voor Nederland relevante selectie.<br />
+
+
+[[Bestand:Stamboom_metainformatiestandaarden 2017m07d12.png|800px|thumb|none|]]
+
+<br />
+''Figuur 1: metagegevensstandaarden in een 'stamboom''' 
+
+
+Hierna volgt meer informatie over de in figuur 1 genoemde standaarden, met als opmerking vooraf dat de belangrijkste metagegevensstandaard voor gemeenten het TMLO is. Wel kunnen gemeenten met name in ketens en bij het openbaar maken van informatie ook andere standaarden tegenkomen. Daarnaast zijn de wereldwijde en overheidsbrede standaarden voor iedereen relevant.
+
+Het voorgaande gaat over metagegevens in de context van archief- en informatiebeheer waaronder dossier- en archiefvorming. De in de stamboomplaat genoemde standaarden zijn vooral in die wereld ontstaan. Daarnaast zijn er - gezien vanuit het perspectief van de archiefwereld - metagegevensstandaarden (of gegevensstandaarden die je als zodanig kunt gebruiken) die op het niveau van een thema zijn ontstaan. Twee voorbeelden daarvan zijn:
+* het [https://vng-realisatie.github.io/RGBZ/ Informatiemodel Zaken (RGBZ)] voor zaakgericht werken;
+* standaarden voor geografische informatie zoals de Nederlandse metadataprofielen op basis van de geografische ISO-normen 19115 en 19119.
+
+Hieronder begint een overzicht van de hiervoor genoemde standaarden met daarin per standaard meer details. Daarnaast is hieronder ook de metagegevensstandaard opgenomen die het Nationaal Archief hanteert voor haar e-depot, een systeem waarop inmiddels een aantal organisaties is aangesloten.
+<br />
+
+=== Dublin Core ===
+
+{| class="wikitable"
+| Beschrijving || De Dublin Core is een set algemene standaarden voor het beschrijven en toepassen van metagegevens.
+|-
+| Werkingsgebied || Wereldwijd en de basis voor verschillende andere metagegevensstandaarden.
+|-
+| Status || Vastgesteld en beschikbaar.<br />
+De Dublin Core is voor een deel ook al vastgelegd in een ISO-standaard, de ISO 15836, waarvan nu een deel beschikbaar is, de [https://www.iso.org/standard/71339.html ISO 15836-1:2017  Information and documentation -- The Dublin Core metadata element set -- Part 1: Core elements]. Aan een tweede deel, de [https://www.iso.org/standard/71341.html ISO/NP 15836-2  Information and documentation -- The Dublin Core metadata element set -- Part 2: DCMI Properties and classes] wordt gewerkt.
+|-
+| Beheerorganisatie || [http://dublincore.org Het Dublin Core Metadata Initiative (DCMI)]
+|-
+| Ontstaan || De Dublin Core is in 1995 ontstaan tijdens een werkconferentie in het hoofdkantoor van de OCLC, een wereldwijd samenwerkingsverband van bibliotheken, in Dublin (Ohio) in de Verenigde Staten. 
+|-
+| Inhoud || Onder andere: de Dublin Core Metadata Element Set, versie 1.1. Deze set bestaat uit 15 elementen.<br />
+Onderstaande opsomming van de elementen geeft een indruk. Als meer nodig is dan een indruk, raadpleeg dan de [http://dublincore.org/documents/2012/06/14/dcmi-terms/?v=elements#type originele informatie op de website van het DCMI].
+
+Alle onderstaande elementen zijn optioneel en kunnen bij een toepassing dus gebruikt of weggelaten worden en bij gebruik ook meervoudig worden gebruikt. Ook de volgorde van de elementen is - in het gebruik ervan - niet voorgeschreven.<br />
+#Title (titel)
+#Creator (maker/auteur)
+#Subject (onderwerp)
+#Description (beschrijving)
+#Publisher (wie het informatieobject beschikbaar stelt, de uitgever)
+#Contributor (wie bijdraagt/bijdroeg aan de inhoud)
+#Date (creatiedatum en/of andere momenten of perioden in de levenscyclus van de inhoud/het informatieobject)
+#Type (classificatie van de inhoud)
+#Format (bestandsformaat en/of fysiek medium)
+#Identifier (een unieke identificatie/referentie die dus niet naar andere informatieobjecten kan verwijzen)
+#Source (bron)
+#Language (taal)
+#Relation (verwijzing naar een gerelateerd informatieobject)
+#Coverage (geografische omgeving, periode of ander aandachtsgebied waar de inhoud betrekking op heeft) 
+#Rights (rechten zoals eigendomsrechten; ook toegangsrechten?) 
+|-
+| Meer informatie (verwijzingen en of documenten) ||<br />
+* [http://dublincore.org Het Dublin Core Metadata Initiative (DCMI)]
+* [http://dublincore.org/about-us Over het DMCI]
+* [https://www.iso.org/standard/71339.html ISO 15836-1:2017  Information and documentation -- The Dublin Core metadata element set -- Part 1: Core elements]
+|}
+<br />
+
+=== De NEN-ISO 23081-normen: deel 1, 2 en 3 ===
+
+{| class="wikitable"
+| Beschrijving || De '23081' bestaat uit een set van drie normen, ontwikkeld als wereldwijde ISO-standaarden. De delen 1 en 2 zijn vertaald naar een Nederlandse versie en uitgebracht door het NEN, het Nederlandse normalisatie-instituut; deel 3 is niet vertaal maar is wel overgenomen door het NEN en is door het NEN uitgebracht in een eigen Engelstalige versie.<br />
+Deel 1 biedt een algemeen kader voor het aanmaken, beheren en gebruiken van metagegevens ten behoeve van informatie- en archiefmanagement.<br />
+De delen 2 en 3 bevatten meer uitleg en bieden een praktische leidraad voor implementatiekwesties en het beoordelen van reeksen metagegevens ten behoeve van informatie- en
+archiefmanagement aan de hand van de principes die in deel  1 zijn beschreven.
+|-
+| Werkingsgebied || De norm stelt dat het niet verplicht is om een bepaalde reeks metagegevens toe te passen omdat bij toepassing de details zullen verschillen naar gelang de eisen van de organisatie of de situatie. De norm benoemt en behandelt wel de belangrijkste categorieën metagegevens.  
+|-
+| Status || Vastgesteld en beschikbaar
+|-
+| Beheerorganisatie || [http://www.nen.nl Het Nederlands Normalisatie-instituut] te Delft.
+|-
+| Ontstaan en/of samenhang met andere normen of standaarden || De [http://www.iso.org International Organization for Standardization (ISO)]. 
+|-
+| Inhoud || Voor de twee delen:<br />
+* Metagegevens voor archiefbescheiden - Deel 1: Principes.
+* Beheren van metagegevens voor archiefbescheiden - Deel 2: Conceptuele en implementatieaspecten.
+* Beheren van metagegevens voor archiefbescheiden - Deel 3: Zelf-beoordelingsmethode. 
+|-
+| Meer informatie (verwijzingen en of documenten) || Drie delen:<br />
+* [https://www.nen.nl/nen-iso-23081-1-2017-nl-269387 NEN-ISO 23081-1:2017 nl - Informatie en documentatie - Processen voor informatie- en archiefbeheer - Metagegevens voor archiefbescheiden - Deel 1: Principes];
+* [https://www.nen.nl/nen-iso-23081-2-2021-nl-296581 NEN-ISO 23081-2:2009 nl - Informatie en documentatie - Beheren van metagegevens voor archiefbescheiden - Deel 2: Conceptuele en implementatieaspecten];
+* [https://www.nen.nl/npr-iso-tr-23081-3-2011-en-163226 NPR-ISO/TR 23081-3:2011 en - Informatie en documentatie - Beheren van metagegevens voor archiefbescheiden - Deel 3: Zelf-beoordelingsmethode].
+|}
+<br />
+
+=== Richtlijn Metagegevens Overheidsinformatie, versie 2.5 ===
+
+{| class="wikitable"
+| Beschrijving || De Richtlijn is de uitwerking van de NEN-ISO 23081 voor gebruik binnen de Nederlandse overheid en vormt het kader voor alle systemen waarin of waarmee informatie wordt beheerd. 
+|-
+| Werkingsgebied || Overheidsinformatie in Nederland.<br />
+De Richtlijn als zodanig wordt niet rechtstreeks toegepast, maar is het uitgangspunt voor vertalingen naar toepassingsprofielen per bestuurslaag of organisatie. Dergelijke profielen moeten zijn toegesneden op de informatiebehoefte van de desbetreffende bestuurslaag of organisatie en van de samenleving, zo stelt de richtlijn. 
+|-
+| Status || Vastgesteld en beschikbaar
+|-
+| Beheerorganisatie || Het Nationaal Archief.
+|-
+| Ontstaan en/of samenhang met andere normen of standaarden|| Is gebaseerd op de NEN-ISO-23081-norm en afgestemd met de Overheid.nl Web Metadata Standaard (OWMS).
+|-
+| Inhoud || Twee delen:<br />
+* Richtlijn Metagegevens Overheidsinformatie: Toelichting, versie 2.5, 15 juli 2009;
+* Richtlijn Metagegevens Overheidsinformatie: Beschrijving van entiteiten en elementen, versie 2.5, 15 juli 2009.
+|-
+| Meer informatie (verwijzingen en of documenten) || Voor de twee delen:<br />
+* [[media:Richtlijn metagegevens overheid toelichting.pdf|Richtlijn Metagegevens Overheidsinformatie: Toelichting]];
+* [[media:Richtlijn metagegevens overheidsinformatie entiteiten.pdf|Richtlijn Metagegevens Overheidsinformatie: beschrijving van entiteiten en elementen]].
+|}
+<br />
+
+=== Overheid.nl Web Metadata Standaard (OWMS), versie 4.0 ===
+
+{| class="wikitable"
+| Beschrijving || Het OWMS specificeert metagegevens voor informatie die de overheid op internet publiceert. Het doel van de standaard is dat overheidsinformatie op internet goed vindbaar en interpreteerbaar is.<br />
+De specificatie van het OWMS beschrijft 'informatieobjecten' zoals artikelen, kamerstukken, bekendmakingen en formulieren.
+|-
+| Werkingsgebied || Nederlandse overheidsinformatie op internet.<br />
+Als bij de bouw of doorontwikkeling van een website met overheidsinformatie metagegevens worden gebruikt, dan is het toepassen van de standaard verplicht.<br />
+In de praktijk wordt het OWMS vooral toegepast in centrale voorzieningen die informatie verzamelen uit decentrale bronnen. Voor zo'n voorziening wordt dan een toepassingsprofiel gemaakt, ook wel een Informatie Publicatie Model (IPM) genoemd.
+|-
+| Status || Vastgesteld.<br />
+Staat op de [https://www.forumstandaardisatie.nl/lijst-open-standaarden Pas-toe-of-leg-uit-lijst Open standaarden] van het Forum Standaardisatie. 
+|-
+| Beheerorganisatie || Het [http://koop.overheid.nl Kennis- en exploitatiecentrum Officiële Overheidspublicaties (KOOP)].
+|-
+| Ontstaan en/of samenhang met andere normen of standaarden|| Het OWMS is gespecificeerd als Dublin Core Application Profile (DCAP) volgens de principes van het Dublin Core Metadata Initiative (DCMI).<br />
+IPM's zijn toepassingsprofielen van het OWMS en dus afgeleid van het OWMS.
+
+Metagegevensstandaarden uit de archiefwereld voor gearchiveerde overheidsinformatie en daarnaast een metagegevensstandaard zoals het OWMS voor overheidsinformatie op internet suggereert dat er een duidelijk onderscheid is tussen gearchiveerde overheidsinformatie en overheidsinformatie op internet. Met het streven van de overheid naar actieve openbaarmaking van alle overheidsinformatie volgens het principe 'openbaar tenzij', is dit niet vol te houden. Want veel van wat digitaal gearchiveerd wordt, komt ook in aanmerking voor actieve openbaarmaking en dat gebeurt dan door ontsluiting en publicatie ervan op internet. Twee 'plannen' zijn in dit verband relevant:<br />
+* een herijking van open standaarden door het Forum Standaardisatie waarin het OWMS wordt meegenomen;
+* het voornemen van de VNG en KING (per begin 2017) om drie metagegevensstandaarden, zijnde het TMLO, het OWMS en Popolo, de nieuwe metagegevensstandaard voor open raadsinformatie, met elkaar te gaan vergelijken middels een mapping (er is sprake van overlap naast verschillen).
+|-
+| Inhoud || In het OWMS bestaat een beschrijving van een 'informatieobject' uit een verzameling eigenschappen met hun waarden. Een voorbeeld van een eigenschap is 'Taal', een voorbeeld van een daaraan toe te kennen waarde is 'Nederlands'.<br />
+Om bij het toepassen van het OWMS aan het OWMS te voldoen moet de beschrijving van een informatieobject tenminste een aantal vaste eigenschappen bevatten, waaronder 'Identificatie', 'Titel', 'Informatietype', 'Taal', 'Datum laatste wijziging' en 'Maker' of 'Eindverantwoordelijke'. Deze minimale set eigenschappen heet de 'OWMS kern'. In de 4.0-versie van het OWMS 4.0 bestaat die minimale set uit negen elementen. Een OWMS-toepassingsprofiel oftewel IPM is dus alleen OWMS-conform als het deze negen elementen bevat. In de 3.5-versie van het OWMS waren dat acht elementen. In versie 4.0 is ten opzichte van versie 3.5 het element 'overheid:authority' verplaatst van de mantel naar de OWMS-kern.<br />
+De OWMS-standaard laat uitbreiding toe met eigenschappen en waarden voor specifieke toepassingen.
+|-
+| Meer informatie (verwijzingen en of documenten) || [http://koop.overheid.nl/producten/owms-overheidnl-web-metadata-standaard Inleiding OWMS]:<br />
+[http://standaarden.overheid.nl/owms/terms Specificaties OWMS]
+|}
+<br />
+
+=== Toepassingsprofiel Metagegevens Rijksoverheid ===
+
+{| class="wikitable"
+| Beschrijving || Bevat afspraken over welke metagegevens minimaal nodig zijn en over de manier waarop die metagegevens binnen de Rijksoverheid worden vastgelegd. De afspraken zijn een uitgangspunt voor het interdepartementaal uitwisselen van informatie. Is bedoeld als basis voor toepassingsprofielen per ministerie.
+|-
+| Werkingsgebied || Overheidsinformatie van het Rijk.
+|-
+| Status || Vastgesteld (per 15 december 2009) door de Interdepartementale Commissie Chief Information Officers (ICCIO).
+|-
+| Beheerorganisatie || Directoraat-Generaal Organisatie en Bedrijfsvoering Rijk (OBR) van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (BZK).
+|-
+| Ontstaan en/of samenhang met andere normen of standaarden|| Het toepassingsprofiel is gebaseerd op de Richtlijn Metagegevens Overheidsinformatie.
+|-
+| Inhoud || Zie 'Meer informatie' hieronder.
+|-
+| Meer informatie (verwijzingen en of documenten) || [[media:Toepassingsprofiel metagegevens rijksoverheid.pdf|Toepassingsprofiel metagegevens rijksoverheid]].
+|}
+<br />
+
+=== Toepassingsprofiel Metadatering Lokale Overheden (TMLO) versie 1.1 ===
+
+{| class="wikitable"
+| Beschrijving || Het TMLO is een generiek en gestandaardiseerd toepassingsprofiel met specificaties van de minimaal verplichte metagegevens in het genoemde werkingsgebied. Naast de specificaties gaat het ook in op het toepassen ervan binnen het aandachtsgebied informatie- en archiefbeheer. Dat is inclusief de stappen die organisaties moeten zetten om van het generieke toepassingsprofiel TMLO een eigen organisatiespecifiek toepassingsprofiel te maken. Dat laatste hangt samen met het generieke karakter van de standaard. Dat maakt aanvullende specifieke keuzes nodig om tot implementatie te komen.
+|-
+| Werkingsgebied || Overheidsinformatie bij de decentrale overheden in Nederland, zijnde provincies, waterschappen, gemeenten en uitvoeringsorganisaties.<br />
+|-
+| Status || Vastgesteld.<br />
+De (verdere) doorontwikkeling van het TMLO loopt nog (per begin 2017).<br />
+Staat (nog?) niet op de Pas-toe-of-leg-uit-lijst Open standaarden van het Forum Standaardisatie.
+|-
+| Projectinformatie doorontwikkeling TMLO || Het TMLO versie 1.1 is een semantisch model: het beschrijft welke metagegevens decentrale overheden minimaal moeten vastleggen als zij informatie duurzaam toegankelijk willen bewaren. Het TMLO is echter geen uitwisselingsstandaard. Ook laat het ruimte voor interpretatie en een eigen invulling. Anders gezegd: versie 1.1 kent nog veel vrijheidsgraden. Dat vraagt om nadere detaillering en bijbehorende keuzes bij implementaties van het TMLO, vast te leggen in een afgeleid toepassingsprofiel. Dat vergt extra inzet en maakt die implementaties relatief lastig, zo is het beeld bij verschillende organisaties. Ook de acceptatie door softwareleveranciers lijkt daardoor nog wat achter te blijven. Daarom is in 2016 besloten tot het doorontwikkelen van het TMLO tot een informatiemodel. In september 2016 is daarmee gestart in een werkgroep met het Nationaal Archief als opdrachtgever. Dit traject moet leiden tot - onder andere - afspraken over informatiekundige relaties tussen informatieobjecten, waaronder ook dossiers (een hoger aggregatieniveau) en de daarbij behorende metagegevenselementen (metadata-elementen). Zie ook [https://archief2020.nl/nieuws/tmlo-basis-klaar-nu-de-technische-doorontwikkeling TMLO: basis is klaar, nu de technische doorontwikkeling],  [http://www.breednetwerk.nl/group/tmlo/forum/topics/start-werkgroep-informatiemodel-tmlo Start werkgroep Informatiemodel TMLO] en [http://www.breednetwerk.nl/group/tmlo/forum/topics/informatie-en-uitnodiging-voor-doorontwikkeling-tmlo Informatie en uitnodiging voor doorontwikkeling TMLO].
+
+De genoemde werkgroep zal ook kijken naar mogelijkheden van integratie met of meer rekening houden met het Toepassingsprofiel Metagegevens Rijksoverheid.
+
+Inmiddels is (per februari 2017) een 0.8-versie van het TMLO-informatiemodel oftewel het Informatiemodel Metadatering Lokale Overheden (IMLO), beschikbaar (zie [http://www.breednetwerk.nl/group/tmlo/forum/topics/concept-informatiemodel-tmlo-versie-0-8 Concept informatiemodel TMLO (versie 0.8) op het BREED-netwerk]). Als dit informatiemodel eenmaal is vastgesteld, dan zal dat ook worden opgenomen op deze Gemmaonlinepagina.<br />
+Naast het traject voor een informatiemodel TMLO zal ook begonnen worden met het ontwikkelen van een berichtenmodel c.q. berichtenstandaard op basis van het TMLO. Een aandachtspunt daarbij is de positionering van deze geplande TMLO-berichtenstandaard ten opzichte van de GEMMA berichtenstandaard [https://vng-realisatie.github.io/Zaak-en-Documentservices/ Zaak-_en_Documentservices].<br />
+Duidelijk is in ieder geval dat uiteindelijk alles in lijn zal zijn met de nieuwe versie van het Informatiemodel Zaken. Het nieuwe Informatiemodel Zaken, zijnde versie 2.0 (goedgekeurd maar nog niet in gebruik), is al in lijn gebracht het TMLO.De geplande nieuwe versie van de GEMMA Zaak-_en_Documentservices zal eveneens in lijn zijn met het RGBZ.<br />
+Tijdige afstemming van de ontwikkeling van een TMLO-berichtenstandaard en van en nieuwe versie van de GEMMA Zaak- en Documentservices is inmiddels gepland.
+
+Voor wie geïnteresseerd is in de verschillen zoals eerder geconstateerd tussen het RGBZ en het TMLO, en die inmiddels weggewerkt zijn in versie 2.0 van het Informatiemodel Zaken c.q. RGBZ, is het resultaat van een mapping van deze twee 

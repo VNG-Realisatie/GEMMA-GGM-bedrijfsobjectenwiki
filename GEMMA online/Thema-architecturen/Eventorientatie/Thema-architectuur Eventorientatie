@@ -1,0 +1,58 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+|Wikibeheerder=GEMMA Beheer
+}}[[Categorie:Thema-architecturen]][[Categorie:Landingspagina]][[Category:Eventorientatie]]
+__NOTOC__
+== Aanleiding ==
+De hoeveelheid data die elke dag wordt geproduceerd, groeit exponentieel. Of die data nu bestaat uit updates van sensoren, klikken op een website of wijzigingen binnen elders beheerde brongegevens, van applicaties wordt verwacht dat ze deze stroom van informatie tijdig verwerken. Om dat mogelijk te maken moet informatie over relevante plaatsgevonden gebeurtenissen tijdig geautomatiseerd worden verstrekt aan partijen die daar belang bij hebben.    
+
+Gemeenten werken steeds meer in gedistribueerde omgevingen, waar gegevens op verschillende plaatsen worden vastgelegd. De afgelopen jaren is veel energie gestoken in het toegankelijk maken van gegevens in bronregistraties via Application Programming Interfaces (API's). Om tijdig en adequaat diensten te kunnen leveren, volstaat opvragen van brongegevens vaak niet. Bij veel bedrijfsprocessen moeten afnemers op de hoogte worden gesteld als brongegevens wijzigen, zodat zij er snel en adequaat op kunnen reageren.
+
+{{Quotes|"Veel organisaties zijn afhankelijk van de gegevens van anderen, hebben hun handen vol aan het verkrijgen hiervan en kunnen daar in veel gevallen niet snel genoeg over beschikken. Hoe meer up-to-date de IT van de overheid, hoe groter de mogelijkheden om als overheid proactief en responsief op te treden. En hoe effectiever gegevensuitwisseling, hoe beter professionals in de uitvoering gefundeerde besluiten kunnen nemen." - Staat van de Uitvoering 2024}}
+===Doel===
+De thema-architectuur ‘Eventoriëntatie" heeft als doel om gemeenten en leveranciers te ondersteunen bij het ontwerpen, realiseren en gebruiken van (meer) event-georiënteerde oplossingen. Werken met events vereist specifieke afspraken, standaarden en voorzieningen. Maar het vereist zeker ook een andere mindset om dan vraagstukken proces- of gegevensgericht te benaderen. Waar we het als consument al heel normaal vinden dat we via de smartphone snel op de hoogte worden gebracht als een besteld artikel is verzonden, is elkaar informeren over belangrijke gebeurtenissen binnen de overheid nog geen vanzelfsprekendheid.    
+
+Bij 'gebeurtenissen' kan het om allerlei soorten gebeurtenissen gaan. Bijvoorbeeld om 'discrete gebeurtenissen', die op een specifiek moment in de tijd plaatsvinden (bijvoorbeeld een sensor die een meting heeft verricht of een boete die is opgelegd). 'Statusveranderingen' waarbij de toestand van een object wijzigt (bijvoorbeeld de huwelijkse staat van een persoon), of '[https://www.rijksoverheid.nl/onderwerpen/levensgebeurtenissen/overzicht-levensgebeurtenissen levensgebeurtenissen]' die van belang zijn voor meerdere overheidsorganisaties (bijvoorbeeld met pensioen gaan of verhuizen).   
+
+Eventoriëntatie is voor verschillende doelen bruikbaar. Deze thema-architectuur besteedt extra aandacht aan 'notificeren': het geautomatiseerd verstrekken van informatie over plaatsgevonden gebeurtenissen aan applicaties die daar belang bij hebben. Binnen de Nederlandse overheid komt steeds meer behoefte aan notificeren. Onder andere om proactieve dienstverlening te bieden en om verantwoord gebruik te maken van elders beheerde brongegevens.
+
+=== Architectuur===
+Event-driven architectuur (EDA) is een architectuurbenaderijng waarbij los gekoppelde componenten via 'events' informatie over plaatsgevonden gebeurtenissen met elkaar uitwisselen. Events fungeren daarbij vaak als trigger voor afnemers om in actie te komen. In business-termen spreken we over 'aanbieders' en 'afnemers' van events. Bij geautomatiseerde uitwisseling tussen applicaties gebruiken we de internationaal gangbare termen ‘producers’ voor applicaties die events publiceren, ‘consumers’ voor applicaties die events ontvangen en ‘intermediairs’ die verantwoordelijk zijn voor het distribueren van events naar consumers.  
+
+EDA is geschikt om een robuuste en schaalbare architectuur te realiseren met dynamische en responsieve systemen. Het ''detecteren en reageren op gebeurtenissen'' staat daarbij centraal. Iets dat fundamenteel anders is dan bij gegevens- of proces-gerichte benaderingen. EDA  vraagt om anders ontwerpen, realiseren en gebruiken van oplossingen.   
+
+Het programma [https://www.digitaleoverheid.nl/interbestuurlijke-datastrategie/ Interbestuurlijke Datastrategie] probeert om beter gebruik te maken van beschikbare overheidsgegevens. Een van de verbeterpunten is om te zorgen dat als belangrijke gegevens wijzigen, dit via notificaties overal bekend wordt waar het van belang is. Om notificatieprocessen effectief en efficiënt te laten verlopen, is standaardisatie op verschillende vlakken nodig. Het [https://www.logius.nl/domeinen/gegevensuitwisseling/nl-gov-profile-cloudevents/wat-nl-gov-profile-cloudevents NL GOV profile for CloudEvents] draagt hieraan bij door te standaardiseren hoe informatie over plaatsgevonden gebeurtenissen wordt uitgewisseld.     
+
+{{Landingspagina
+|titel1 = Producten
+|inhoud1 =
+Eventoriëntatie:
+* [[Eventoriëntatie introductie]]
+* [[Rollen en begrippen]]
+* [[Uitdagingen en maatregelen]]
+* [[Event-driven architectuur introductie]]
+* [[De CloudEvents standaard]]
+
+Notificeren:
+* [[Notificeren introductie]]
+* [[Publish-subscribe patroon]]
+* [[Definiëren van gebeurtenistypes]]
+* [[Randvoorwaarden voor notificeren]]
+* [[Informatiearme en informatierijke notificaties]]
+* [[NL GOV Profile for CloudEvents introductie]]
+* [[ZGW Notificaties API-standaard]]
+
+|titel2 = Meer informatie
+|inhoud2 = 
+CloudEvents en NL GOV profile for CloudEvents:
+* [https://cloudevents.io/ Introductie CloudEvents]
+* [https://github.com/cloudevents/spec CloudEvents specificaties]
+* [https://www.logius.nl/domeinen/gegevensuitwisseling/nl-gov-profile-cloudevents Introductie NL GOV Profile for CloudEvents]
+* [https://gitdocumentatie.logius.nl/publicatie/notificatieservices/cloudevents-nl/1.1/ NL GOV Profile for CloudEvents specificatie]
+
+Overheidsontwikkelingen:
+* [https://github.com/VNG-Realisatie/notificatieservices BZK/VNG project Notificatieservice (2021/2022)]
+* [https://github.com/MinBZK/gdi-gegevensuitwisseling GDI Domeinarchitectuur Gegevensuitwisseling]
+|hoogte = 500px
+}}
