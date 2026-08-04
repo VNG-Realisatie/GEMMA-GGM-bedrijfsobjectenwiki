@@ -1,0 +1,152 @@
+Wanneer gegevens over organisatiegrenzen heen worden gebruikt, kan aan het principe ´data bij de bron’ invulling worden gegeven door federatief te werken. In een federatief gegevenslandschap blijven gegevens onder verantwoordelijkheid van de organisatie die deze gegevens beheert en beschikbaar stelt. Organisaties delen en gebruiken gegevens op basis van gemeenschappelijke afspraken en standaarden, zonder dat alle gegevens daarvoor in één centrale voorziening hoeven te worden samengebracht. 
+
+Het [https://realisatieibds.nl/groups/view/0056c9ef-5c2e-44f9-a998-e735f1e9ccaa/federatief-datastelsel Federatief Datastelsel (FDS)] is een afsprakenstelsel voor het veilig en verantwoord delen en gebruiken van data door overheidsorganisaties en organisaties met een publieke taak. Het bevat gemeenschappelijke afspraken over de wijze waarop data-aanbieders gegevens beschikbaar stellen en data-afnemers daarvan gebruik kunnen maken. 
+
+De afspraken kunnen onder andere betrekking hebben op: 
+
+* de betekenis en structuur van gegevens; 
+* de beschrijving en vindbaarheid van gegevens; 
+* de voorwaarden voor toegang en gebruik; 
+* identificatie, authenticatie en autorisatie; 
+* beveiliging en bescherming van persoonsgegevens; 
+* kwaliteit, actualiteit en beschikbaarheid; 
+* technische ontsluiting; 
+* terugmelding van mogelijke onjuistheden; 
+* logging, transparantie en verantwoording. 
+
+Een federatief datastelsel is daarmee niet één centrale technische voorziening. Het is een samenwerkingsverband van organisaties, afspraken, standaarden en voorzieningen waarmee gegevens op een uniforme, veilige en verantwoorde manier kunnen worden gevonden, gedeeld en gebruikt. 
+
+Binnen een federatief stelsel kunnen verschillende technische patronen worden toegepast. Gegevens kunnen bijvoorbeeld rechtstreeks bij een bron worden opgevraagd, via een intermediaire voorziening worden ontsloten, met behulp van gebeurtenissen beschikbaar worden gesteld of onder voorwaarden tijdelijk worden gekopieerd. Het FDS schrijft niet voor dat iedere afnemer altijd rechtstreeks verbinding maakt met het operationele bronsysteem. 
+
+Wel moet duidelijk blijven waar gegevens vandaan komen, wie verantwoordelijk is voor het beschikbaar stellen ervan, welke bewerkingen hebben plaatsgevonden en welke voorwaarden op het gebruik van toepassing zijn. 
+
+==== Vindbaarheid en metadata ====
+Gegevens kunnen alleen verantwoord bij de bron worden gebruikt wanneer potentiële afnemers weten welke gegevens beschikbaar zijn, wat deze gegevens betekenen en onder welke voorwaarden zij kunnen worden gebruikt. Vindbaarheid is daarom een noodzakelijke voorwaarde voor federatief datadelen. 
+
+Data-aanbieders beschrijven hun gegevens, gegevensdiensten en dataproducten met metadata. Deze metadata maakt het voor mensen en systemen mogelijk om een gegevensaanbod te vinden, te begrijpen en te beoordelen. 
+
+Metadata kan onder andere informatie bevatten over: 
+
+* de inhoud en betekenis van de gegevens; 
+* de data-aanbieder en de verantwoordelijke organisatie; 
+* de herkomst en wijze van totstandkoming; 
+* de populatie, reikwijdte en dekking; 
+* de actualiteit en bijwerkingsfrequentie; 
+* de kwaliteit en bekende beperkingen; 
+* de classificatie en gevoeligheid; 
+* de juridische en beleidsmatige gebruiksvoorwaarden; 
+* de beschikbare historie; 
+* de technische vorm en wijze van levering; 
+* de voorwaarden en procedure voor toegang; 
+* de wijze waarop mogelijke fouten kunnen worden teruggemeld. 
+
+Metadata wordt zoveel mogelijk volgens gemeenschappelijke standaarden, actueel en machineleesbaar beschikbaar gesteld. Daarmee kan een federatief netwerk van catalogi ontstaan waarin organisaties hun eigen gegevensaanbod beheren, terwijl dit aanbod over organisatie- en domeingrenzen heen kan worden gevonden. 
+
+Een catalogus bevat in beginsel beschrijvingen van het gegevensaanbod en hoeft de gegevens zelf niet te bevatten. De gegevens blijven beschikbaar via de door de aanbieder aangewezen gegevensdienst of voorziening. 
+
+Het kunnen vinden van gegevens betekent niet automatisch dat een afnemer deze gegevens ook mag gebruiken. Voor het verkrijgen van toegang kunnen een wettelijke grondslag, doelbinding, autorisatie, overeenkomst of andere voorwaarden gelden. In metadata moet daarom onderscheid worden gemaakt tussen de vindbaarheid, toegankelijkheid en toegestane bruikbaarheid van gegevens. 
+
+===== Datakwaliteit en geschiktheid voor gebruik =====
+Het beschikbaar zijn van gegevens bij een bron betekent niet automatisch dat deze gegevens voor iedere toepassing geschikt zijn. De benodigde kwaliteit is afhankelijk van het doel, de context en de mogelijke gevolgen van het gebruik. 
+
+De data-aanbieder maakt inzichtelijk welke kwaliteitskenmerken, kwaliteitsniveaus en bekende beperkingen van toepassing zijn op de aangeboden gegevens. De data-afnemer beoordeelt vervolgens of de gegevens, gelet op het beoogde gebruik, voldoende geschikt zijn. 
+
+Bij deze beoordeling kunnen onder andere de volgende kwaliteitsaspecten relevant zijn: 
+
+* juistheid; 
+* volledigheid; 
+* actualiteit; 
+* consistentie; 
+* nauwkeurigheid; 
+* geldigheid; 
+* tijdigheid; 
+* herleidbaarheid; 
+* dekking en representativiteit. 
+
+Er moet onderscheid worden gemaakt tussen de inhoudelijke kwaliteit van de gegevens en de kwaliteit van de dienstverlening waarmee de gegevens beschikbaar worden gesteld. Gegevens kunnen inhoudelijk juist zijn, maar niet tijdig of onvoldoende beschikbaar worden gesteld. Omgekeerd kan een technisch goed functionerende gegevensdienst gegevens leveren die voor een specifieke toepassing onvoldoende actueel, volledig of nauwkeurig zijn. 
+
+Bij het combineren, selecteren, aggregeren of transformeren van gegevens kan bovendien nieuwe onzekerheid ontstaan. De partij die een afgeleid gegevensproduct samenstelt, maakt daarom inzichtelijk welke bronnen en bewerkingen zijn gebruikt en welke gevolgen deze hebben voor de betekenis en kwaliteit van het resultaat. 
+
+Afnemers moeten vermoedelijke fouten of onjuistheden kunnen terugmelden. In de afspraken tussen aanbieder en afnemer wordt vastgelegd hoe een terugmelding wordt gedaan, wie deze behandelt en hoe over de afhandeling wordt gecommuniceerd. 
+
+Het gebruik van gegevens uit een gezaghebbende of leidende bron ontslaat een afnemer niet van de verantwoordelijkheid om signalen van mogelijke onjuistheid serieus te nemen. Correctie van oorspronkelijke gegevens vindt waar mogelijk plaats onder verantwoordelijkheid van de daarvoor aangewezen organisatie, zodat een verbetering ten goede kan komen aan alle afnemers. 
+
+==== Toepassing binnen de gemeente en over organisatiegrenzen heen ====
+De gemeenschappelijke afspraken van het FDS zijn primair gericht op het delen en gebruiken van gegevens over organisatiegrenzen heen. De achterliggende principes zijn echter ook bruikbaar binnen een gemeente. Een gemeente die gegevens extern wil aanbieden, moet haar gegevenshuishouding intern zodanig hebben ingericht dat duidelijk is welke gegevens beschikbaar zijn, wie daarvoor verantwoordelijk is en onder welke voorwaarden deze kunnen worden gebruikt. 
+
+Het interne gemeentelijke gegevenslandschap en het overheidsbrede federatieve datastelsel moeten daarom op elkaar aansluiten, maar vallen niet volledig samen. Voor intern gebruik kan een gemeente aanvullende architectuurafspraken en voorzieningen hanteren. Zodra gegevens aan een andere organisatie beschikbaar worden gesteld, zijn ook de interbestuurlijke afspraken, standaarden en verantwoordelijkheden van belang. 
+
+===== Gebruik binnen de gemeente =====
+Binnen een gemeente kunnen meerdere organisatieonderdelen en applicaties gebruikmaken van dezelfde gegevens. Een gemeentelijke registratie kan voor het ene proces de leidende bron zijn, terwijl zij voor een ander proces gegevens uit een externe bron gebruikt. 
+
+Ook binnen de gemeentelijke organisatie moet duidelijk zijn: 
+
+* welk organisatieonderdeel verantwoordelijk is voor een gegeven; 
+* welke registratie als leidend wordt beschouwd; 
+* voor welke doelen gegevens mogen worden gebruikt; 
+* welke kwaliteit en actualiteit mag worden verwacht; 
+* hoe gegevens beschikbaar worden gesteld; 
+* hoe fouten worden teruggemeld en gecorrigeerd. 
+
+Een gemeente kan ervoor kiezen gegevens via een gemeentelijke gegevensdienst, integratievoorziening, gegevensknooppunt of gegevensplatform beschikbaar te stellen. Een dergelijke voorziening wordt niet automatisch de inhoudelijke bron. De voorziening kan gegevens ontsluiten, combineren, transformeren of tijdelijk opslaan, terwijl de verantwoordelijkheid voor de oorspronkelijke gegevens bij de bronregistratie blijft. 
+
+Binnen één gemeente kunnen soms aanvullende organisatorische en technische afspraken worden gemaakt, omdat sprake is van één bestuurlijke verantwoordelijkheid. Dit neemt niet weg dat doelbinding, autorisatie, gegevensminimalisatie, logging en transparantie ook bij intern gebruik moeten worden geborgd. 
+
+===== Gegevensuitwisseling tussen overheidsorganisaties =====
+Bij gegevensuitwisseling tussen overheidsorganisaties zijn verantwoordelijkheden over organisatiegrenzen verdeeld. De aanbiedende en afnemende organisatie hebben ieder een eigen verantwoordelijkheid voor de rechtmatigheid, beveiliging en kwaliteit van hun handelen. 
+
+Daarom zijn bij interbestuurlijke gegevensuitwisseling explicietere afspraken nodig over onder andere: 
+
+* de juridische grondslag en het doel van de uitwisseling; 
+* de betekenis en structuur van gegevens; 
+* de rollen en verantwoordelijkheden van partijen; 
+* de voorwaarden waaronder gegevens beschikbaar worden gesteld; 
+* identificatie en autorisatie van afnemers; 
+* beveiliging, logging en toezicht; 
+* beschikbaarheid en serviceniveaus; 
+* kwaliteit en actualiteit; 
+* wijzigingsbeheer en versiebeheer; 
+* terugmelding en foutafhandeling; 
+* beëindiging van het gebruik. 
+
+Bij uitwisseling tussen overheden kan een afnemer minder directe invloed hebben op de inrichting en beschikbaarheid van een bron. Gemeenschappelijke standaarden en stelselafspraken zijn daarom belangrijker. Zij voorkomen dat iedere aanbieder en afnemer afzonderlijke technische en organisatorische afspraken moet maken. 
+
+Het verschil tussen intern en interbestuurlijk gebruik is daarmee vooral een verschil in governance, verantwoordelijkheidsverdeling en benodigde expliciete afspraken. De architectuurbeginselen blijven hetzelfde: gebruik gegevens uit een geschikte bron, maak de herkomst zichtbaar, voorkom onnodige kopieën en borg dat het gebruik rechtmatig, veilig en verantwoord plaatsvindt. 
+
+==== Verantwoord gebruik van gegevens ====
+Het kunnen vinden en technisch verkrijgen van gegevens betekent niet dat deze gegevens zonder meer voor ieder doel mogen of behoren te worden gebruikt. Federatief datadelen vraagt om een verantwoorde afweging van juridische, maatschappelijke, ethische en organisatorische aspecten. 
+
+De data-aanbieder maakt duidelijk onder welke voorwaarden gegevens beschikbaar worden gesteld. De data-afnemer is verantwoordelijk voor een rechtmatig en verantwoord gebruik binnen de eigen taak en context. Daarbij wordt onder andere rekening gehouden met: 
+
+* de wettelijke taak en grondslag; 
+* het doel waarvoor gegevens worden gebruikt; 
+* proportionaliteit en gegevensminimalisatie; 
+* bescherming van persoonsgegevens en vertrouwelijke gegevens; 
+* mogelijke gevolgen voor burgers, bedrijven en organisaties; 
+* transparantie en uitlegbaarheid; 
+* beveiliging, logging en verantwoording; 
+* bewaartermijnen en vernietiging; 
+* voorwaarden voor verder gebruik of verstrekking. 
+
+Technische toegang, organisatorische toestemming en juridische bevoegdheid zijn afzonderlijke voorwaarden. Een technisch toegankelijke gegevensdienst vormt op zichzelf geen grondslag voor het gebruik van de geleverde gegevens. 
+
+==== Aanvulling op de niet-functionele uitdagingen ====
+
+* '''Vindbaarheid:''' afnemers moeten kunnen vaststellen welke gegevens beschikbaar zijn en via welke voorzieningen zij kunnen worden afgenomen. 
+
+* '''Interoperabiliteit:''' verschillen in betekenis, structuur, identificatie en technische ontsluiting kunnen het combineren en hergebruiken van gegevens belemmeren. 
+
+* '''Afhankelijkheid:''' gebruik van externe bronnen maakt gemeentelijke processen afhankelijk van de beschikbaarheid, continuïteit en wijzigingsplanning van andere partijen. 
+
+* '''Herleidbaarheid:''' bij gebruik, transformatie of combinatie van gegevens moet aantoonbaar blijven uit welke bron en versie de gegevens afkomstig zijn en welke bewerkingen zijn uitgevoerd. 
+
+==== Conclusie ====
+De GEMMA kent als architectuurprincipe het ´informeren bij de bron’. De data-afnemer bepaalt binnen de context van het gebruik of beschikbare gegevens voldoende geschikt en betrouwbaar zijn om als bron te dienen. 
+
+Data bij de bron is geen uitsluitend technisch principe en betekent niet dat gegevens altijd rechtstreeks uit één bronsysteem moeten worden opgevraagd. Het vraagt om een federatieve manier van werken, waarbij gegevens onder duidelijke verantwoordelijkheid worden beheerd en via gemeenschappelijke afspraken beschikbaar worden gesteld. 
+
+Voor een bruikbaar federatief gegevenslandschap moeten gegevens vindbaar, begrijpelijk, toegankelijk en herleidbaar zijn. Daarvoor zijn actuele en gestandaardiseerde metadata, transparantie over datakwaliteit en duidelijke afspraken over verantwoordelijkheden en gebruiksvoorwaarden noodzakelijk. 
+
+De manier waarop het principe wordt toegepast kan per context verschillen. Binnen een gemeente kunnen andere organisatorische en technische keuzes passend zijn dan bij gegevensuitwisseling tussen overheidsorganisaties. Ook kunnen verwijzingen, rechtstreekse bevraging, events, afgeleide gegevensproducten of gecontroleerde kopieën naast elkaar worden gebruikt. 
+
+De keuze voor een oplossing moet steeds worden gebaseerd op de informatiebehoefte, wettelijke vereisten, datakwaliteit en niet-functionele eisen zoals beschikbaarheid, performance, beveiliging, privacy en duurzame toegankelijkheid. Daarbij moet de herkomst van gegevens zichtbaar blijven en moeten onnodige duplicatie en het ontstaan van niet-beheerde gegevenskopieën worden voorkomen.
