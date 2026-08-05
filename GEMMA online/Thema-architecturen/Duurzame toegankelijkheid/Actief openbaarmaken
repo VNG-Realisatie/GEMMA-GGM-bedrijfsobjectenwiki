@@ -1,0 +1,93 @@
+{{Publicatie
+|Paginastatus=in ontwikkeling
+|Redactiestatus=Actueel
+|Wikibeheerder=GEMMA Beheer
+}}[[Categorie:Duurzame toegankelijkheid]]
+
+== Doel ==
+Deze thema-architectuur beschrijft en illustreert wat gemeenten moeten doen om invulling te geven aan de eisen uit de [https://wetten.overheid.nl/jci1.3:c:BWBR0045754&z=2022-08-01&g=2022-08-01 Wet open overheid (Woo)] die te maken hebben met het actief openbaarmaken van gemeentelijke informatie.
+
+Deze uitwerking heeft het karakter van een referentiearchitectuur. Dit betekent dat gemeenten zelf kunnen bepalen op welke manier ze hieraan (verder) invulling geven. Keuzes zijn bijvoorbeeld te maken als het gaat om het verdelen van verantwoordelijkheden, inrichten van processen en het verwerven van passende IT-ondersteuningsmiddelen.
+
+Een aantal elementen uit deze thema-architectuur (bedrijfsfuncties, applicatieservices en referentiecomponenten) wordt opgenomen in de [[Wat is de basisarchitectuur|GEMMA-basisarchitectuur]].
+
+== Aanleiding en scope ==
+Het actief openbaarmaken van bepaalde categorieën overheidsinformatie is een verplichting die voortkomt uit de Woo.
+
+Er zijn ook andere wetten die iets zeggen over het (actief) openbaarmaken van overheidsinformatie zoals de [https://wetten.overheid.nl/BWBR0004287/2022-05-01 Bekendmakingswet], de [https://www.rijksoverheid.nl/onderwerpen/omgevingswet Omgevingswet] en de [https://wetten.overheid.nl/BWBR0043961/2021-07-01 Wet elektronische publicaties], maar daar gaat deze thema-architectuur nog niet (primair) over. Deze thema-architectuur gaat óók niet of openbaarmakingen op verzoek – bijvoorbeeld naar aanleiding van een ontvangen [https://www.rijksoverheid.nl/onderwerpen/wet-open-overheid-woo/vraag-en-antwoord/hoe-dien-ik-een-woo-verzoek-in Woo-verzoek].
+
+Eind 2021 is de wettekst van de Woo [https://wetten.overheid.nl/jci1.3:c:BWBR0045754&hoofdstuk=3&artikel=3.3b&z=2022-08-01&g=2022-08-01 zodanig aangepast (artikel 3.3.b)] dat openbaarmaking door gemeenten en andere bestuursorganen “elektronisch op een algemeen toegankelijke wijze door middel van een door Onze Minister in stand gehouden digitale infrastructuur” plaatsvindt.
+
+De werking van de 'digitale infrastructuur' die naar aanleiding hiervan ontwikkeld werd, betekent dat gemeenten verplicht openbaar te maken documenten '''zelf''' op een openbaar toegankelijke website moeten publiceren om ze vindbaar te maken via de door [https://www.koopoverheid.nl/ KOOP] (Kennis- en exploitatiecentrum Officiële Overheidspublicaties) ontwikkelde [https://organisaties.overheid.nl/woo Woo-index].
+
+== Strategie en motivatie ==
+Door ondersteuning van de de Wet open overheid als beleidskader geeft deze thema-architectuur invulling aan een aantal GEMMA-kernwaarden en kwaliteitsdoelen. Deze zijn hieronder beschreven.
+
+== Bedrijfsarchitectuur ==
+
+=== Bedrijfsfuncties ===
+De bedrijfsarchitectuur beschrijft wat de gemeentelijke organisatie moet kunnen en doen om informatie actief openbaar te maken. Om duidelijk te maken wat er ten opzichte van de bestaande GEMMA-basisarchitectuur verandert, is rechts de relatie tussen de nieuwe bedrijfsfunctie 'Actieve openbaarmaking van informatie' en de bestaande bedrijfsfuncties 'Informering' en 'Klant en keteninteractie' geïllustreerd.
+
+Om de functie 'Actieve openbaarmaking van informatie' uit te kunnen voeren, is een aantal subfuncties nodig. Deze zijn zichtbaar in onderstaande illustratie, en worden in de tabel daaronder beschreven.
+
+{| class="wikitable"
+!Functie
+!Beschrijving
+|-
+|Actieve openbaarmaking van informatie
+|Actief openbaarmaken van gemeentelijke informatie die niet (primair) voor het doel van openbaarmaking is gecreëerd.
+|-
+|Registereren en beheren van metadata
+|Het registeren en beheren van metagegevens bij informatie.
+|-
+|Oninterpreteerbaar maken van niet-openbare informatie
+|Het onintepreteerbaar maken van niet-openbare informatie. Wordt ook wel 'lakken' genoemd.
+|-
+|Waarmerking
+|Het toevoegen van een waarmerk aan een document of bericht om de echtheid te bekrachtigen.
+|-
+|Vindbaar maken
+|Het vindbaar maken van specifieke informatie binnen een verzameling.
+|-
+|Informatieobjecten publicatie
+|Het actief aan het publiek beschikbaar stellen van informatieobjecten.
+|-
+|Voor iedereen digitaal toegankelijk presenteren
+|Het zodanig presenteren van informatie zodat die ook door mensen met een beperking te interpreteren is.
+|}
+
+==== Processen ====
+Om aan bedrijfsfuncties invulling te geven moeten activiteiten worden uitgevoerd. Deze zijn geïllustreerd als processtappen.
+
+Om te bepalen wat er precies met , is het nuttig een aantal ‘mijlpalen’ te benoemen in het proces dat openbaar gepubliceerde informatie doorloopt. We onderscheiden er vier.
+
+Deze ‘mijlpalen’ hebben de vorm van ‘events’ of ‘gebeurtenissen’. Ze beschrijven een status die als gevolg van bepaalde handelingen werd bereikt.
+
+De eerste twee ‘mijlpalen’ spelen weliswaar een belangrijke rol bij het actief openbaarmaken van informatie, maar worden niet als gevolg van de verplichting of wens tot openbaarmaking bereikt. Dat is anders voor de laatste drie; die komen alleen voor gepubliceerde informatie voor.
+
+== Informatie- en applicatie-architectuur ==
+
+=== Applicatieservices en (referentie)componenten ===
+Het probleem van de informatiecategorieën
+
+== Aansluiten op de Woo-index ==
+Deze Woo-index bestaat uit twee onderdelen:
+# '''De verwijsindex.''' Dit is een overzicht van URL-verwijzingen naar de webpagina’s waarop bestuursorganen zelf hun documenten publiceren. Omdat documentverzamelingen van bestuursorganen vaak over meerdere websites zijn verspreid (denk aan leveranciers van raadsinformatiesystemen die een eigen raadsinformatieportaal meeleveren waarop raadsstukken kunnen worden ingezien), kunnen zij meerdere URL-verwijzingen aanleveren. Voor het registreren van URL-verwijzingen wordt het Register van Overheidsorganisaties (ROO) gebruikt. Om gebruikers te helpen vinden wat ze zoeken kan de index worden gefilterd op bestuursorgaan en informatiecategorie.
+# '''De zoekfunctie.''' De zoekfunctie maakt documenten in de (in de Woo-index) geregistreerde decentrale verzamelingen centraal doorzoekbaar. De hiervoor benodigde zoekindex wordt opgebouwd met behulp van twee componenten. De ‘harvester’ en de ‘extractor’. De harvester bezoekt periodiek de door bestuursorganen in de Woo-index geregistreerde url-verwijzingen. Via op de website gepubliceerde [https://nl.wikipedia.org/wiki/Robots_Exclusion_Protocol robots.txt]- en in [https://www.sitemaps.org/nl/protocol.html sitemaps.xml-bestanden] vindt de harvester verwijzingen naar te indexeren documenten. Naast deze verwijzingen kunnen in sitemaps-bestanden ter ondersteuning van de vindbaarheid [https://standaarden.overheid.nl/diwoo/metadata documentmetadata] (titels, tags, handelingen) worden opgenomen. Deze metadata worden samen met door de extractor ingelezen documentinhoud opgenomen in een index die door gebruikers ‘full text’-doorzocht kan worden.
+== Discussiepunten en vraagstukken ==
+
+=== Er moet een publicatieplatform komen - wat kies ik? ===
+
+* Bestaand CMS (website)
+* DMS of e-depot aan internet
+* Domeinspecifiek aanbod
+* Nieuw platform
+
+=== Hoe komen die documenten op het platform? ===
+Voorkeursscenario domeinspecifieke standaarden. Voor generieke documenten uitbreiden Documenten API.
+
+=== Een publicatiekopie - dat wilden we toch niet meer? ===
+Visie Common Ground. Maar is vaak geen kopie, want 'gelakt'.
+
+=== Documenten publiceren - dat wilden we toch niet meer? ===
+Relatie met bovenstaande vraag. Maar is op dit moment niet realistisch.

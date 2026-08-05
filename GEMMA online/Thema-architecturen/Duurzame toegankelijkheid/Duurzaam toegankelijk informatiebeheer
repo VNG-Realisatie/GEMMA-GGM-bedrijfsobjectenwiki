@@ -1,0 +1,430 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+}}
+[[Category:Common Ground]]
+
+
+__TOC__
+== Aanleiding ==
+
+De toenemende digitalisering van overheden en informatiestromen binnen en tussen organisaties brengt nieuwe uitdagingen, vragen en eisen met zich mee op het gebied van informatiebeheer. (Her)gebruik van informatie kan helpen bij het efficiënter of effectiever maken van dienstverlening en bedrijfsvoering, maar daarvoor is wel eenvoudige vindbaarheid en toegankelijkheid nodig. Overheidsinformatie speelt daarnaast een cruciale rol bij verantwoording. Maar daarvoor moeten wel de authenticiteit en integriteit van die informatie gewaarborgd zijn. En de (potentiële) cultuurhistorische waarde van overheidsinformatie vraagt om aandacht voor de duurzame beschikbaarheid daarvan.
+
+Bij het opslaan, verwerken en beheren van overheidsinformatie moet rekening gehouden worden met eisen ten aanzien van informatiebeveiliging, de privacy van burgers, ondernemers en medewerkers en de toegankelijkheid van informatie voor mensen met een beperking. Hoewel de verschillende gebruiksvormen, toepassingsgebieden en doelgroepen van overheidsinformatie eigen aandachtspunten kennen, bestaat daartussen grote verwevenheid. Denk bijvoorbeeld aan het openbaar maken van overheidsinformatie. Hiervoor moet niet alleen een publicatievorm en -kanaal bepaald worden, maar is ook inzicht nodig in eventuele beperkingen ten aanzien van openbaarheid, bijvoorbeeld ingegeven door aanwezige persoonsgegevens of bedrijfsgevoelige informatie.
+
+Gezien het grote belang van betrouwbare, duurzame en toegankelijke overheidsinformatie, is het niet verwonderlijk dat de wetgever de eisen daaraan verregaand heeft geformaliseerd. Dit geldt onder meer voor de thema’s duurzame toegankelijkheid (Archiefwet), persoonsgegevens en privacy (AVG), intellectueel eigendom (Auteurswet), informatiebeveiliging (BIO), toegankelijkheid (Tijdelijk besluit digitale toegankelijkheid overheid), en hergebruik (Wet hergebruik overheidsinformatie en de ontwerpwet Wet open overheid).
+
+Als gevolg van de informatiekundige visie Common Ground zijn nieuwe inzichten ontstaan over de inrichting van gemeentelijke informatie- en applicatielandschappen. Deze zijn verder uitgewerkt in de architectuur van het GEMMA Gegevenslandschap. De uitgangspunten en principes van zo’n gegevenslandschap beïnvloeden de manier waarop gemeenten omgaan met de duurzame toegankelijkheid van informatieobjecten die zij beheren.
+
+Deze handreiking beschrijft een aantal (architectuur)uitgangspunten die bijdragen aan inrichting van gemeentelijke applicatielandschappen zodanig dat de daarbinnen opgeslagen informatie voldoet aan een wettelijke eisen en belangrijke normen, en aan te sluiten bij uitgangspunten en principes van Common Ground en het GEMMA Gegevenslandschap. Het resultaat is een hedendaagse architectuur voor duurzaam toegankelijk informatiebeheer.
+
+Een definitie van het begrip ‘duurzame toegankelijkheid’ is in de begrippenlijst opgenomen.
+
+== Architectuur duurzame toegankelijkheid: ontwikkelingen ==
+
+In dit hoofdstuk worden een aantal ontwikkelingen besproken die van invloed zijn op duurzame toegankelijkheid van informatieobjecten binnen het GEMMA Gegevenslandschap.
+
+De principes en uitgangspunten van het GEMMA Gegevenslandschap brengen een aantal specifieke aandachtspunten voor duurzaam toegankelijk informatiebeheer met zich mee. Verder wordt aandacht besteed aan het toenemend belang van duurzame toegankelijkheid voor hergebruik van overheidsinformatie en archiveren by design.
+
+=== GEMMA Gegevenslandschap ===
+
+In het GEMMA Gegevenslandschap zijn de verantwoordelijkheden voor opslag van gegevens en het afhandelen van processen waarbinnen die gegevens gebruikt worden gescheiden. Hierdoor ontstaat een landschap van met elkaar verbonden dienstenaanbieders en dienstenafnemers. Dienstenaanbieders stellen middels gestandaardiseerde interfaces in bronregisters opgeslagen gegevens beschikbaar voor gebruik door dienstenafnemers. Uitwisseling van gegevens tussen aanbieders en afnemers verloopt over een eveneens gestandaardiseerde integratiefaciliteit. Afnemers slaan opgevraagde gegevens niet op voor later gebruik, maar bevragen (of muteren) telkens opnieuw de bron. Registers fungeren voor de daarin opgeslagen gegevens dus als ‘single source of truth.’
+
+De veranderingen die het gegevenslandschap op het gebied van informatiebeheer met zich meebrengt worden hieronder besproken aan de hand van een voorbeeld waarin een proces zaakgericht wordt behandeld. De uitgangspunten van het gegevenslandschap en de bijbehorende implicaties gelden echter evengoed waar niet zaakgericht wordt gewerkt.
+
+==== Afhandelapplicaties, diensten en registers ====
+
+Figuur 1 toont (vereenvoudigd) een aantal componenten die in een gegevenslandschap betrokken zijn bij verlenen van een vergunning. We zien in de bovenste lagen een informatiesysteem voor vergunningverlening dat door een medewerker wordt gebruikt om het proces wat bij de vergunningverlening hoort uit te voren. Dit informatiesysteem heeft middels diensten toegang tot in registers opgeslagen gegevens die nodig zijn voor het uitvoeren van het vergunningverleningsproces.<ref>In Figuur 1 zijn vijf (systeem)diensten getekend. Meerdere samenhangende operaties op het niveau van systeemdiensten kunnen binnen proces- gemaksdiensten worden gecombineerd. Op deze manier hoeven voor veelvoorkomende acties als het ophalen van zaakinformatie geen vijf individuele diensten te worden aangesproken.</ref> Een deel van deze registers (zaken, informatieobjecten, vergunningen) wordt beheerd binnen de organisatie die de vergunningaanvraag behandelt. Voor het beheer van de twee basisregistraties (Adressen en Gebouwen en Personen) in het voorbeeld zijn ketenpartners verantwoordelijk.
+
+[[Bestand:Applicatiecomponenten voor zaakgericht werken.png|800px|thumbnail|center|Figuur 1: Vereenvoudigde weergave van de applicatiecomponenten voor zaakgericht werken]]
+<!-- [[File:media/image1.png|589x300px]] -->
+
+Figuur 1 toont niet alleen de applicatiecomponenten die betrokken zijn bij het verlenen van een vergunning, maar ook de gegevens die binnen deze componenten zijn opgeslagen. Hierdoor wordt duidelijk dat informatie over de vergunningverlening in een gegevenslandschap niet langer binnen één component, dus gecentraliseerd, is opgeslagen. In plaats daarvan ontstaat een ‘virtueel’ informatieobject waarbinnen in verschillende registers opgeslagen gegevens en informatieobjecten samen het vergunningsdossier vormen.
+
+==== ‘Virtuele’ dossiers ====
+
+Gebaseerd op het voorbeeld van vergunningverlening illustreert Figuur 2 duidelijker hoe informatieobjecten in een gegevenslandschap kunnen bestaan uit over meerdere registers verspreid opgeslagen gegevens.
+
+Omdat het proces van vergunningverlening zaakgericht wordt afgehandeld, vormen de in het zakenregister vastgelegde zaakgegevens het startpunt – de ‘sleutel’ - voor het bijeenbrengen van gegevens die bij het vergunningsdossier horen. Vanuit de zaak wordt verwezen naar in verschillende registers opgeslagen gegevens, in dit geval:
+
+* de persoonsgegevens van de aanvrager in de Basisregistratie Personen (BRP);
+* het object waarop de vergunning betrekking heeft in de Basisregistratie Adressen en Gebouwen (BAG);
+* de gegevens die de verleende vergunning beschrijven in het besluitenregister, en
+* het PDF-bestand waarin het besluit is gepubliceerd en de bijbehorende metagegevens die dit bestand beschrijven in het informatieobjectenregister.
+
+[[Bestand:Zaakgegevens verspreid over verschillende registers opgeslagen.png|800px|thumbnail|center|Figuur 2: Zaakgegevens verspreid over verschillende registers opgeslagen]]
+<!-- [[File:media/image3.png|589x229px]] -->
+
+Figuur 1 toont onder andere het vijflagenmodel van het GEMMA Gegevenslandschap.<ref>Zie voor een diepgaandere beschrijving van de individuele Gegevenslandschap-lagen de [https://www.gemmaonline.nl/images/gemmaonline/5/56/GEMMA_Gegevenslandschap_-_Beschrijving_informatiearchitectuur.pdf Beschrijving van de informatiearchitectuur van het GEMMA Gegevenslandschap] op GEMMA Online.</ref> De Vergunningverleningscomponent bestrijkt hierbinnen zowel de processen- als de interactielaag. Binnen op de markt verkrijgbare softwarepakketten zijn procesinrichting (de manier waarop processen doorlopen worden) en gebruikersinterfaces (de ‘’schermen’ die gebruikers tijdens het doorlopen van het proces zien) sterk met elkaar verweven. Het is hierdoor op middellange termijn niet realistisch om deze twee lagen te scheiden. Het verregaand standaardiseren van procesgegevens is daarom op dit moment niet haalbaar. Dit heeft gevolgen voor de opslag van deze gegevens. Omdat deze vaak leverancier- of organisatiespecifiek zijn, worden procesdefinitiegegevens - die het ontwerp van processen beschrijven - niet in een gestandaardiseerd register opgeslagen, maar in de informatiesystemen voor procesondersteuning (in dit voorbeeld de Vergunningverleningscomponent). Hetzelfde geldt voor de daaraan gerelateerde (log)gegevens die het verloop van het proces in specifieke gevallen documenteren.
+
+==== Informatieobjecten gerelateerd aan verschillende dossiers ====
+
+Tot nu toe is steeds gekeken naar informatieobjecten binnen één geïsoleerd dossier. In de praktijk kan één informatieobject echter van waarde zijn binnen meerdere dossiers of contexten. In het voorbeeld van vergunningverlening is het bijvoorbeeld mogelijk dat een burger bezwaar maakt tegen het in de vergunningszaak genomen besluit. Door ontvangst van dit bezwaar initieert de bezwaar makende burger een nieuwe zaak (de ‘bezwaarzaak’), die uiteindelijk resulteert in een (eigen) besluit. Bij de behandeling van de bezwaarzaak is een aantal van de in Figuur 2 geïllustreerde onderdelen van het vergunningsdossier van belang. In dit voorbeeld gaan we ervan uit dat dit belang geldt voor het besluit tot verlenen van de vergunning met het bijbehorende informatieobject en het BAG-object waarop de betwiste vergunning betrekking heeft. Behalve onderdeel van het vergunningsverleningsdossier, maken deze onderdelen nu dus ook deel uit van het bezwaardossier.
+
+[[Bestand:Meerdere informatieobjecten bestaan uit verschillende samenstellingen van (deels) dezelfde gegevens.png|800px|thumbnail|center|Figuur 3: Meerdere informatieobjecten bestaan uit verschillende samenstellingen van (deels) dezelfde gegevens]]
+<!-- [[File:media/image5.png|589x346px]] -->
+
+Figuur 3 illustreert de hierboven beschreven situatie door middel van elementen in drie kleuren:
+
+* in roze zijn de elementen geïllustreerd die naar aanleiding van de vergunningszaak zijn ontstaan of ontvangen. Eveneens rozegekleurd zijn de relaties die naar aanleiding van deze zaak tussen verschillende objecten zijn gelegd.
+* in paars zijn de elementen geïllustreerd die naar aanleiding van de bezwaarzaak zijn ontstaan of ontvangen. Eveneens paarsgekleurd zijn de relaties die naar aanleiding van deze zaak tussen verschillende objecten zijn gelegd.
+* in oranje zijn elementen geïllustreerd die weliswaar een relatie hebben met de bezwaar of vergunningszaak hebben, maar ook zelfstandig, dus buiten het bestaan van deze zaken, bestaansrecht hebben.
+
+Het gegeven dat één set gegevens binnen meerdere contexten van belang kan zijn, heeft gevolgen voor de manier waarop deze gegevens worden beheerd. Dit wordt bijvoorbeeld duidelijk bij de vernietiging van dossiers. In het hypothetische geval dat het vergunningsdossier een bewaartermijn heeft van één jaar, terwijl het bezwaardossier twee jaar bewaard moet worden, moeten de rozegekleurde gegevens in Figuur 3 die aan de bezwaarzaak zijn gerelateerd, immers niet na één, maar pas na twee jaar worden vernietigd. Na het vernietigen van het dossier van de van de vergunningszaak ontstaat daardoor de in Figuur 4 getoonde situatie.
+
+[[Bestand:Situatie na vernietiging van het vergunningsdossier.png|800px|thumbnail|center|Figuur 4: Situatie na vernietiging van het vergunningsdossier]]
+<!-- [[File:media/image7.png|589x346px]] -->
+
+Vernietigd zijn:
+
+* de procesverloopgegevens bij de vergunningszaak;
+* de zaakgegevens van de vergunningszaak;
+* de relatie tussen de zaakgegevens van de vergunningszaak en het BAG-object waarop de vergunning betrekking had;
+* de relatie tussen de zaakgegevens van de vergunningszaak en de BRP-gegevens van de vergunningsaanvrager, en
+* de relatie tussen de zaakgegevens van de vergunningszaak en het zaakbesluit met het bijbehorende informatieobject.
+
+Niet vernietigd zijn:
+
+* de procesdefinitiegegevens voor het vergunningverleningsproces. Deze hebben ook buiten de specifieke vergunningszaak bestaansrecht – er zijn meerdere zaken die op basis van deze procesdefinitiegegevens zijn behandeld.
+* het BAG-object waarop de vergunning betrekking had – dit object bestaat ook buiten de context van de vergunningszaak
+* de BRP-gegevens van de vergunningsaanvrager en het zaakbesluit met het bijbehorende informatieobject zijn verwijderd. Deze persoon bestaat ook buiten de context van de vergunningszaak.
+* het besluit bij de vergunningverleningszaak. Dit is van belang binnen het dossier van de bezwaarzaak waarvan de vernietigingstermijn nog niet is verlopen.
+* het informatieobject bij het besluit in vergunningverleningszaak en de relatie daartussen. Ook deze zijn van belang binnen het dossier van de bezwaarzaak waarvan de vernietigingstermijn nog niet is verlopen.
+
+=== Hergebruik en ‘archiveren by design’ ===
+
+Naast de veranderende uitgangspunten voor opslag en gebruik van gegevens die het gegevenslandschap met zich meebrengt, is er een aantal andere aandachtspunten waarmee in het kader van duurzaam toegankelijke overheidsinformatie rekening gehouden moet worden. De beweging van een levenscyclusmodel naar een situatie van voortdurend hergebruik (‘records continuum’), is hiervan een voorbeeld. Een andere is het ontstaan van het begrip ‘archiveren by design’ en de daarbij horende uitgangspunten.
+
+==== Levenscyclus versus voortdurend hergebruik ====
+
+De hedendaagse informatiebeheerpraktijk werkt goeddeels volgens patronen uit de tijd dat archiefstukken een fysieke vorm kenden. Onderdeel hiervan is het idee dat informatieobjecten een levenscyclus doorlopen waarbinnen duidelijk verschillende fases zijn te onderscheiden:
+
+* In de dynamische fase worden gecreëerd en bewerkt. Denk hierbij aan de periode van vergunningaanvraag tot aan de verlening daarvan uit het eerdere voorbeeld.
+* Tijdens de semi-statische fase spelen informatieobjecten een beperkte (hergebruiks)rol in bij uitvoering activiteiten, zoals het controleren of aan de voorwaarden van de verleende vergunning wordt voldaan.
+* In de statische fase zijn informatieobjecten slechts nog zeer incidenteel van belang voor het uitvoeren van activiteiten. In deze fase worden te vernietigen informatieobjecten vernietigd, en kunnen over te brengen informatieobjecten worden overgedragen aan een archiefinstelling.
+
+De hierboven beschreven levenscyclus is in GEMMA terug te zien. Binnen deze architectuur bestaat een duidelijk onderscheid tussen informatiesystemen die zijn gericht op het ondersteunen van dienstverlening- en bedrijfsvoeringprocessen, en systemen die specifiek zijn gericht op duurzame toegankelijkheid. Dit verschil is geïllustreerd in Figuur 5 hieronder.
+
+[[Bestand:Beheer en opslag van informatieobjecten volgens levenscyclus.png|800px|thumbnail|center|Figuur 5: Beheer en opslag van informatieobjecten volgens levenscyclus]]
+<!-- [[File:media/image9.png|589x94px]] -->
+
+De eerste groep systemen (oranje in Figuur 5), waarbinnen we bijvoorbeeld taak- en zaaksystemen vinden, ondersteunt domeinspecifieke standaarden voor gegevensuitwisselingen en het vastleggen van metagegevens. Zolang ze binnen deze systemen zijn opgeslagen, zijn informatieobjecten voor medewerkers eenvoudig beschikbaar voor (her)gebruik. Tegelijkertijd is binnen deze systemen vaak geen of beperkte functionaliteit beschikbaar voor het duurzaam toegankelijk bewaren en beheren van informatieobjecten.
+
+Informatieobjecten die zijn opgeslagen in systemen uit de tweede categorie, zoals e-depots, zijn voor medewerkers veelal minder eenvoudig – in ieder geval niet vanuit taakapplicaties - beschikbaar voor (her)gebruik. Bovendien kan dit type systeem over het algemeen slechts beperkt overweg met domein- en vormspecifieke metastandaarden. In plaats daarvan worden standaarden ondersteund die specifiek zijn gericht op duurzaam toegankelijk opslaan en beheren van informatieobjecten, zoals TMLO en PDF/A. Bovendien bieden deze systemen functionaliteit voor informatiebeheeractiviteiten als conversie, vernietigen en overbrengen.
+
+Overbrenging is in deze context interessant, omdat dit concept een duidelijke levenscyclus van informatie binnen een organisatie veronderstelt. De gedachte achter overbrenging is dat informatieobjecten op een gegeven moment geen waarde meer vertegenwoordigen voor de gemeente, waarna archieforganisaties, die beter zijn toegerust om de duurzame toegankelijkheid van informatieobjecten over een (zeer) lange periode te waarborgen, de verantwoordelijkheid voor het beheer van dat object overnemen.
+
+In de praktijk blijkt wet- en regelgeving ten aanzien van overbrenging niet altijd aan te sluiten bij de werkpraktijk. Sommige informatieobjecten, zoals die in de basisregistraties, worden continu bewerkt en (her)gebruikt, zodat moeilijk is vast te stellen op welk moment ze overgebracht zouden moeten worden. Maar ook buiten de basisregistraties komt het veelvuldig voor dat informatieobjecten ook na overbrengen naar een archiefbeheerinstelling relevant blijven voor de archiefvormende organisatie.<ref>[https://kiacommunity.nl/documents/35112 Rapport ‘Mijn depot, jouw depot’ van het Nationaal Archief] op de website van het Kennisnetwerk Informatie en Archief.</ref>
+
+Overbrengen betekent meestal nog een fysieke overdracht van informatieobjecten van een informatiesysteem van de gemeente naar een systeem van een archieforganisatie. Wil de gemeente later een overgebracht informatieobject (her)gebruiken, dan is het nodig die objecten ‘terug te lenen’ van de archieforganisatie. Dit is binnen de huidige situatie niet gemakkelijk en vereist grote investeringen. De in de concept-Archiefwet 2021 voorgestelde verkorting van de termijn voor overbrenging van twintig naar tien jaar zal het aantal gevallen waarin overgebrachte informatieobjecten nog (her)gebruikwaarde voor de gemeente vertegenwoordigen waarschijnlijk sterk toenemen, waardoor het aantal verzoeken voor ‘teruglenen’ zal stijgen.<ref>[https://vng.nl/files/vng/20170825rapport_impact-verkorting-overbrengingstermijn.pdf Rapport ‘Impact verkorting overbrengingstermijn’] op de VNG-website.</ref>
+
+==== Archiveren by design ====
+
+De in Figuur 5 geschetste tweedeling tussen systemen voor uitvoeren van primaire processen en systemen voor informatiebeheer is het gevolg van het feit dat deze scheiding in veel gevallen ook op organisatieniveau bestaat : informatiebeheerders werken binnen andere structureren voor andere afdelingen dan medewerkers die zich bezighouden met dienstverlening aan burgers en ondernemers. Bij het uitvoeren van primaire processen is aandacht voor duurzame toegankelijkheid (mede) daarvoor dan ook geen vanzelfsprekendheid.
+
+Bovenstaande leidt ertoe dat als het erop aankomt vaak geen sprake is van de door de Archiefwet geëiste goede, geordende en toegankelijke staat van (collecties) informatieobjecten. Denk hierbij aan situaties als het verzamelen van informatie om aan een Wobverzoek te voldoen, het voorbereiden van migratie van het ene naar het andere informatiesysteem, of overbrenging naar een archiefinstelling. Deze constatering was een belangrijke aanleiding voor het ontstaan van ‘archiveren by design’.
+
+[[Bestand:Beheer en opslag van documenten in een situatie van voortdurend (her)gebruik.png|800px|thumbnail|center|Figuur 6: Beheer en opslag van documenten in een situatie van voortdurend (her)gebruik]]
+<!-- [[File:media/image11.png|589x94px]] -->
+
+Net als bij andere by design-visies, zoals ‘privacy by design’ en ‘security by design’, betekent ‘archiveren by design’ dat al bij ontwerp en inrichting van informatiesystemen en processen rekening gehouden wordt met de specifieke aandachtspunten die het aandachtgebied, in dit geval de duurzame toegankelijkheid van informatieobjecten, vereist.<ref>[https://www.nationaalarchief.nl/archiveren/kennisbank/archiveren-by-design ‘Archiveren by design’] op de website van het Nationaal Archief.</ref> Hierdoor wordt het onder andere eenvoudiger om de duurzame toegankelijkheid van informatieobjecten te automatiseren. Archiveren by design’ sluit bovendien goed aan bij een situatie van (potentieel) voortdurend hergebruik: een informatieobject dat vanaf het moment van creatie of ontvangst duurzaam toegankelijk is, is vanaf dat moment ook beschikbaar en toegankelijk voor hergebruik.
+
+== Architectuur duurzame toegankelijkheid: uitgangspunten ==
+
+Op basis van de in hoofdstuk 3 beschreven ontwikkelingen rondom duurzame toegankelijkheid worden in dit hoofdstuk twee uitgangspunten beschreven die samen bijdragen aan de duurzame toegankelijkheid van overheidsinformatie:
+
+# metadateren by design met ‘minimale metadataset voor duurzame toegankelijkheid’ van informatieobjecten;
+# informatiebeheer ondersteund door ‘generieke componenten voor duurzame toegankelijkheid.’
+
+Deze uitgangspunten maken het mogelijk informatieobjecten duurzaam toegankelijk bij de bron te bewaren en beheren.
+
+In hoofdstuk 2 is beschreven hoe in een gegevenslandschap de opslag van gegevens is losgekoppeld van de procesafhandeling. Behalve dat informatieobjecten hiermee verspreid over meerdere registers kunnen zijn opgeslagen, betekent dit ook dat niet langer één component (of informatiesysteem) verantwoordelijk is voor het waarborgen van duurzame toegankelijkheid van daarbinnen opgeslagen informatieobjecten. In plaats daarvan is die verantwoordelijkheid verdeeld over de keten van procesapplicatie, dienst en bronregister.
+
+In het vorige hoofdstuk werd eveneens duidelijk dat het -vonder meer omwille van hergebruik - belangrijk kan zijn dat informatieobjecten zo snel mogelijk na ontvangst of ontstaan duurzaam toegankelijk gemaakt worden, ongeacht waar – in welk informatiesysteem of register - in het gegevenslandschap ze zijn opgeslagen. Om dat mogelijk te maken zijn twee onderdelen nodig:
+
+# informatie over informatieobjecten die inzicht geeft in welke handelingen nodig zijn om de duurzame toegankelijkheid daarvan te waarborgen, en
+# functionaliteit die het mogelijk maakt deze handelingen uit te voeren.
+
+In een gegevenslandschap lossen we het eerste op door aan ieder informatieobject metagegevens voor duurzame toegankelijkheid toe te voegen. Deze metagegevens zijn gestandaardiseerd volgens een ‘minimale metadataset voor duurzame toegankelijkheid’. De functionaliteit die nodig is voor het duurzaam toegankelijk bewaren en beheren - denk aan functionaliteit die selectie, preserveren of openbaar publiceren mogelijk maakt – wordt zoveel mogelijk geleverd door generieke diensten en verbonden informatiesystemen. In paragrafen 3.1 en 3.2 wordt beschreven hoe dit in de praktijk werkt.
+
+Het volgen van de hierboven beschreven uitgangspunten heeft tot gevolg dat de duurzame toegankelijkheid van informatieobjecten zowel in een willekeurig bronregister als in een specifiek voor informatie- of archiefbeheer ingericht informatiesysteem als een e-depot kan worden gewaarborgd. Dit betekent dat duurzaam toegankelijk bewaren en beheren bij de bron een realistisch alternatief wordt voor het overbrengen naar zo’n gespecialiseerd systeem. In welke gevallen dit loont is onder meer afhankelijk van de hergebruikwaarde en complexiteit van informatieobjecten. Een uitgebreider duiding bij dit onderwerp is te vinden in paragraaf 3.3.
+
+=== Metadateren by design met ‘minimale metadataset voor duurzame toegankelijkheid’ ===
+
+Metagegevens zijn nodig zijn om de duurzame toegankelijkheid van informatieobjecten te waarborgen. In het GEMMA Gegevenslandschap leggen we gestandaardiseerde metagegevens voor duurzame toegankelijkheid vast bij ieder informatieobject. Deze metagegevens maken het samen met diensten voor duurzame toegankelijkheid mogelijk om informatieobjecten duurzaam te bewaren en beheren, ongeacht waar in het applicatielandschap die zijn opgeslagen.
+
+Een deel van de metagegevens is direct gerelateerd aan het proces waarbinnen het te metadateren informatieobject is ontvangen of verwerkt – denk aan metagegevens die bijdragen aan de interpreteerbaarheid of aan een koppeling met een regel van de (procesgerichte) selectielijst. Het is belangrijk deze metagegevens zoveel mogelijk al tijdens het uitvoeren van het proces vast te leggen. Het verdient bovendien aanbeveling vastlegging zoveel mogelijk te automatiseren.
+
+Om het geautomatiseerd vastleggen van metagegevens mogelijk te maken, is het nodig daarmee rekening te houden bij ontwerp en inrichting van processen, applicaties en registers en bij ontwikkeling en implementatie van standaarden. Dit kan op verschillende manieren. Selectielijstregels kunnen worden gekoppeld aan zaak- en resultaattypen om op basis daarvan vernietigingstermijnen te bepalen. Procesinformatie kan worden toegevoegd op basis van onder andere zaaktype, statusverloop, resultaat en vastgelegde handelingen van medewerkers. En gegevens over gerelateerde objecten (bijvoorbeeld de locatie van een pand) kunnen als metadata ten behoeve van vindbaarheid worden vastgelegd.
+
+Het is mogelijk onderscheid te maken tussen verschillende categorieën metagegevens. Sommige metagegevens zijn voor alle informatieobjecten relevant, en dus generiek toepasbaar. Daartegenover staan specifieke metagegevens, die slechts van belang zijn voor een beperkte set informatieobjecten van een bepaalde vorm of binnen een bepaald domein. Bovendien kunnen metagegevens die noodzakelijk zijn om te voldoen aan normen of wet- en regelgeving en dus verplicht moeten worden vastgelegd, worden onderscheiden van metagegevens waarvoor zo’n verplichting niet geldt. De verschillende categorieën metagegevens zijn beschreven in Tabel 1.
+
+{| class="wikitable"
+|-
+!
+! Generiek
+! Domein/vormspecifiek
+|-
+| '''Verplicht'''
+| Metagegevens die worden vastgelegd om te kunnen voldoen aan wet- en regelgeving of belangrijke normen die relevant zijn voor álle informatieobjecten, behalve waar die wet- en regelgeving of norm een domein- en/of vormspecifieke invulling vereist (zoals bij metagegevens voor vindbaarheid).
+| Metagegevens die worden vastgelegd om te kunnen voldoen aan wet- en regelgeving of belangrijke normen die relevant zijn voor álle informatieobjecten, maar waar domein- en/of vorm bepalen welke metagegevens precies nodig zijn (bijvoorbeeld metagegevens voor vindbaarheid), of metagegevens die vastgelegd worden om te kunnen voldoen aan (domein)specifieke wet- en regelgeving of normen.
+|-
+| '''Optioneel'''
+| Metagegevens die worden vastgelegd om andere redenen dan het kunnen voldoen aan wet- en regelgeving of belangrijke normen, maar relevant voor álle informatieobjecten.
+| Metagegevens die worden vastgelegd om andere redenen dan het kunnen voldoen aan wet- en regelgeving of belangrijke normen, en slechts relevant voor informatieobjecten binnen een specifiek domein of van een specifieke vorm.
+|}
+
+Tabel 1: Verplichte en optionele en generieke en specifieke metagegevens
+
+Onder ‘verplicht’ worden in deze context niet alleen rechtstreekse verwijzingen naar metagegevens (zoals in de Archiefregeling) verstaan, maar ook daarvan ‘afgeleide’ metagegevens die nodig zijn om aan wetten of normen te kunnen voldoen. Daarbij beperkt dit document zich tot wetten en normen (en dus metadata) die gelden is voor álle informatieobjecten, ongeacht vorm of domein. Waar verwezen wordt naar een ‘minimale set metagegevens voor duurzame toegankelijkheid’, worden daarmee dus generieke, verplichte metagegevens (in de tabel lichtblauw gearceerd) bedoeld die minimaal nodig zijn om te voldoen aan wetten en normen die raken aan de duurzame toegankelijkheid van informatieobjecten.
+
+Welke metagegevens precies onderdeel zouden moeten zijn van een ‘minimale set metagegevens voor duurzame toegankelijkheid’ valt buiten scope van dit document. Duidelijk is wel dat er behoefte is aan rijksbrede, uniforme standaarden voor metagegevens en bijbehorende koppelvlakken voor gegevensuitwisseling.<ref>[https://www.informatiehuishouding.nl/actueel/nieuws/2019/12/19/verhouding-tussen-de-archiefwet-en-de-wob Verhouding tussen de Archiefwet en de Wob: cohesie of conflict?] op informatiehuishouding.nl.</ref> Een eerste stap in deze richting is de ontwikkeling van ‘Metadata Duurzaam Toegankelijke Overheidsinformatie’ (MDTO), waaraan onder regie van het Nationaal Archief wordt gewerkt.<ref>[https://www.nationaalarchief.nl/archiveren/nieuws/van-tmlo-en-tp-rijk-naar-mdto Informatie over MDTO] op de website van het Nationaal Archief.</ref> Naast een informatiemodel ook een gestandaardiseerd XML-schema onderdeel van deze overheidsbrede standaard die het TMLO (Toepassingsprofiel Metagegevens Lokale Overheden) gaat opvolgen.
+
+==== Metagegevens: ‘by design’ in doelformaat in plaats van conversie ====
+
+In hoofdstuk 2 zijn de verschillen beschreven tussen informatiesystemen die zijn ingericht om voor ondersteuning van primaire processen en systemen die specifiek zijn gericht op duurzaam toegankelijk beheer van informatieobjecten. Migratie van het ene naar het andere type systeem leidt in de praktijk vaak tot uitdagingen. Metagegevens die onderdeel zijn van verschillende conventies moeten op elkaar aansluitend worden gemaakt. Zelfs als dit goed mogelijk is – er bestaat bijvoorbeeld een mapping tussen RGBZ en TMLO) - vereist zo’n migratieproces meestal veel (foutgevoelig) handwerk en ligt verlies van (context)informatie op de loer.<ref>[https://kiacommunity.nl/documents/35112 Rapport ‘Mijn depot, jouw depot’ van het Nationaal Archief] op de website van het Kennisnetwerk Informatie en Archief, Rapport [https://westbrabantsarchief.nl/images/Belangrijke_documenten/E-depot_trajectPre-ingest_def.pdf Pre-ingest - Exporteren van (meta)data en mappen met TMLO] op de website van het West-Brabants Archief.</ref>
+
+[[Bestand:Conversie van metagegevens.png|400px|thumbnail|left|Figuur 7: Conversie van metagegevens]]
+<!-- [[File:media/image13.png|294x343px]] -->
+In Figuur 7 is schematisch geïllustreerd hoe de hierboven beschreven praktijk werkt bij het migreren van een informatieobject van een taakspecifiek informatiesysteem voor procesondersteuning (het bronsysteem) naar een informatiesysteem dat specifiek is ingericht om de duurzame toegankelijkheid van opgeslagen informatieobjecten te waarborgen (het doelsysteem). Omdat het bronsysteem alleen een domein- of vormspecifieke metastandaard ondersteunt, moeten metagegevens bij het te migreren informatieobject vóór opname in het doelsysteem worden geconverteerd. De hiervoor benodigde functionaliteit wordt veelal geleverd door het doelsysteem.
+
+In het GEMMA Gegevenslandschap is gekozen voor een andere manier van metadateren. Zoals gemeenten in een gegevenslandschap gegevens van andere organisaties niet meer transformeren om aan te sluiten bij hun eigen sectorale informatiemodel (zoals bijvoorbeeld RSGB), zo worden ook metagegevens tijdens de levenscyclus van een informatieobject niet meer geconverteerd. Dit betekent dat informatie over bijvoorbeeld bewaartermijnen niet in de eerste instantie vastgelegd wordt als domeinspecifieke RGBZ-metagegevens, om op een later moment geconverteerd te worden, maar dat bij eerste vastlegging direct TMLO of MDTO-conventies gevolgd worden. Het gebruik van dezelfde metastandaard voor duurzame toegankelijkheid in het hele gegevenslandschap stelt generieke diensten voor informatiebeheer (paragraaf 3.2) in staat de duurzame toegankelijkheid van informatieobjecten over het volledige gegevenslandschap te waarborgen.
+
+[[Bestand:Metagegevens ‘by design’ in het doelformaat vastgelegd.png|400px|thumbnail|right|Figuur 8: Metagegevens ‘by design’ in het doelformaat vastgelegd]]
+<!-- [[File:media/image16.png|333x313px]] -->
+Figuur 8 illustreert hoe dit werkt. Tijdens het uitvoeren van een proces dat wordt ondersteund door het taakspecifieke informatiesysteem ontstaat een informatieobject. Dit informatieobject wordt beschreven met behulp van metagegevens die specifiek zijn voor het domein waar het uitgevoerde proces bij hoort - denk aan uitgebreide locatiegegevens binnen het fysiek domein. Deze metagegevens worden vastgelegd door het aanroepen van een specifieke dienst die is gespecificeerd om een afgebakende set gegevens, horend bij een specifiek domein of met een specifiek doel in een bronregister te kunnen opslaan, lezen, bijwerken en verwijderen. Tegelijkertijd wordt een aantal metagegevens voor duurzame toegankelijkheid vastgelegd. Hiertoe wordt een andere dienst aangeroepen – de DuTo API. Deze dienst is gespecificeerd om metagegevens voor duurzame toegankelijkheid te kunnen opslaan, lezen, bijwerken en verwijderen. Omdat deze gegevens ongeacht domein- of zelfs organisatiegrenzen volgens dezelfde conventie worden vastgelegd, kan deze dienst de metagegevens voor duurzame toegankelijkheid benaderen van informatieobjecten in ieder bronregister dat de dienst ondersteunt. Dit maakt beheer van informatieobjecten die op meerdere plaatsen in het applicatielandschap in registers zijn opgeslagen vanuit één centrale plaats in applicatielandschap mogelijk. Deze rol wordt in Figuur 8 ingevuld door het ‘informatiesysteem voor duurzame toegankelijkheid’.
+
+=== Generieke componenten voor duurzame toegankelijkheid ===
+
+In tegenstelling tot de bestaande situatie (Figuur 7) waar een ‘siloapplicatie’ verantwoordelijk is voor het duurzaam toegankelijk bewaren en beheren daarbinnen opgeslagen informatieobjecten , is deze verantwoordelijkheid in het GEMMA Gegevenslandschap verdeeld over de keten van taakapplicatie, dienst(en), en bronregister. Deze componenten zijn dus samen verantwoordelijk voor het waarborgen van de duurzame toegankelijkheid van de in bronregisters opslagen informatieobjecten. Dit betekent niet dat íeder component deze functionaliteit zelfstandig hoeft te ondersteunen. Waar mogelijk wordt gebruik gemaakt van generieke componenten die aan meerdere bronregisters functionaliteit leveren voor bijvoorbeeld vernietigen of conversie in het kader van preservering.
+
+[[Bestand:Componenten die betrokken zijn bij het vastleggen van bewaartermijn en selectie met behulp van generieke componenten.png|800px|thumbnail|center|Figuur 9: Componenten die betrokken zijn bij het vastleggen van bewaartermijn en selectie met behulp van generieke componenten]]
+<!-- [[File:media/image18.png|695x430px]] -->
+
+==== Een voorbeeld: selectie ====
+
+Figuur 9 illustreert hoe de hierboven beschreven inrichting selectie conform de Selectielijst gemeenten en intergemeentelijke organen mogelijk maakt. Naast een aantal specifieke componenten (drie bronregisters en een taakspecifiek informatiesysteem) zijn drie generieke componenten te zien. Deze werken samen om over meerdere processen en domeinen functionaliteit voor selectie en vernietigen te leveren:
+
+# de Selectielijst API, die op aanvraag alle in de selectielijst opgenomen bewaartermijnen en bijbehorende gegevens kan leveren;
+# de DuTo API die de (zoals (in paragraaf 3.1 besproken) ‘minimale metadataset voor duurzame toegankelijkheid’ ondersteunt, en op basis daarvan informatieobjecten in de bronregisters die deze dienst ondersteunen kan muteren, en
+# het ‘Informatiesysteem voor duurzame toegankelijkheid’, waarbinnen informatiebeheerprocessen zijn vastgelegd. Deze component biedt verder een gebruikersinterface die medewerkers in staat stelt deze processen uit te voeren en te controleren.
+
+De eerste stap (Figuur 10) is het vastleggen van de juiste bewaartermijn bij ieder informatieobject. Dankzij het procesgerichte karakter van de selectielijst kan deze termijn worden afgeleid van het proces waarbinnen het informatieobject ontstaat of ontvangen wordt en het resultaat daarvan. De Selectielijst API levert op basis van een in het procesontwerp vastgelegde koppeling met de selectielijst de juiste bewaartermijn.<ref>Deze API is als onderdeel van de API-standaarden voor Zaakgericht werken reeds ontwikkeld. Omdat deze API niet officieel in beheer is genomen, maakt die echter geen onderdeel uit van de vastgestelde set standaarden voor Zaakgericht Werken. De [https://redocly.github.io/redoc/?url=https://raw.githubusercontent.com/VNG-Realisatie/VNG-referentielijsten/master/src/openapi.yaml&nocors bijbehorende documentatie] is te vinden op GitHub.</ref> De bewaartermijnen worden middels de DuTo API als metagegevens vastgelegd bij informatieobjecten in de bronregisters.
+
+Op basis van de in de eerste stap vastgelegde metagegevens kunnen informatieobjecten waarvan de bewaartermijn is verlopen worden vernietigd. Daarvoor moeten allereerst de bewaartermijnen van in bronregisters opgeslagen informatieobjecten worden opgevraagd (Figuur 11). Vanuit een informatiesysteem dat het duurzaam toegankelijk bewaren en beheren van informatieobjecten ondersteunt (het ‘Informatiesysteem voor duurzame toegankelijkheid’) worden via de DuTo API de verschillende bronregisters bevraagd over informatieobjecten die voor vernietiging in aanmerking komen. De bronregisters leveren hierop een overzicht van te vernietigen informatieobjecten. Dit overzicht wordt vervolgens gecontroleerd. Naar aanleiding van deze controle kunnen medewerkers eventueel met behulp van het ‘Informatiesysteem voor duurzame toegankelijkheid’ en de DuTo API de bewaartermijn van informatieobjecten aanpassen.
+
+Nadat is vastgesteld welke informatieobjecten daadwerkelijk vernietigd moeten worden, wordt vanuit het ‘Informatiesysteem voor duurzame toegankelijkheid’ opdracht gegeven tot vernietiging (Figuur 12). Via de DuTo API worden vervolgens de te vernietigen informatieobjecten in hun bronregisters vernietigd (in Figuur 12 gaat het om de objecten in het taakspecifieke informatiesysteem en registers 1 en 3). De bronregisters bevestigen de vernietiging middels de DuTo API aan de medeweker die het Informatiesysteem voor duurzame toegankelijkheid bedient.
+
+[[Bestand:Vastleggen van archiefnominaties en bewaartermijn.png|800px|thumbnail|center|Figuur 10: Vastleggen van archiefnominaties en bewaartermijn bij in meerdere bronregisters en informatiesystemen opgeslagen informatieobjecten]]
+<!-- [[File:media/image21.png|567x385px]] -->
+
+[[Bestand:Ophalen van bewaartermijnen.png|800px|thumbnail|center|Figuur 11: Ophalen van bewaartermijnen van in meerdere bronregisters en informatiesystemen opgeslagen informatieobjecten]]
+<!-- [[File:media/image23.png|568x385px]] -->
+
+[[Bestand:Het vernietigen van informatieobjecten.png|800px|thumbnail|center|Figuur 12: Het vernietigen van in meerdere bronregisters en informatiesystemen opgeslagen informatieobjecten]]
+<!-- [[File:media/image25.png|571x385px]] -->
+
+=== Duurzaam toegankelijk bewaren en beheren bij de bron ===
+
+De combinatie van metadateren van informatieobjecten volgens de in paragraaf 3.1 beschreven minimale metadataset en beheer middels de in paragraaf 3.2 besproken diensten voor duurzame toegankelijkheid maakt het mogelijk de duurzame toegankelijkheid van informatieobjecten in bronregisters te waarborgen. Hierdoor verdwijnt een belangrijk argument voor het overbrengen van informatieobjecten naar een specifiek op duurzame toegankelijkheid gericht informatiesysteem, zoals een e-depot. Eventueel is het zelfs mogelijk van overbrengen een juridische, in plaats van ‘fysieke’ handeling te maken, waarbij het informatieobject na overbrengen in het ‘originele’ bronregister duurzaam toegankelijk bewaard en beheerd wordt, terwijl het tegelijkertijd (eenvoudiger) toegankelijk blijft voor gebruik door ‘de business’.
+
+==== Wat betekent duurzaam toegankelijk bewaren en beheren bij de bron? ====
+
+Duurzaam toegankelijk bewaren en beheren bij de bron (hierna ‘bewaren bij de bron’) betekent dat informatieobjecten duurzaam toegankelijk worden bewaard en beheerd in de bronregisters waarin ze ontstaan of eerst opgeslagen zijn. Van bewaren bij de bron kan alleen sprake zijn als informatiesystemen, diensten en registers die zijn betrokken bij het bewaren en beheren van een informatieobject voldoen aan de in 3.1 en 3.2 beschreven eisen. Figuur 13 laat op basis van het vergunningverleningsvoorbeeld uit 2.1 vereenvoudigd en op componentniveau zien welke componenten nodig zijn voor bewaren bij de bron.
+
+[[Bestand:Componenten betrokken bij duurzaam toegankelijk bewaren en beheren bij de bron.png|800px|thumbnail|center|Figuur 13: Componenten betrokken bij duurzaam toegankelijk bewaren en beheren bij de bron]]
+<!-- [[File:media/image27.png|725x375px]] -->
+
+In dit document worden primair de technische voorwaarden voor bewaren bij de bron beschreven. Bewaren bij de bron kent echter ook op juridisch vlak consequenties. Het is immers verplicht het beheer van informatieobjecten na een zekere termijn (zie 4.6 ‘overbrengen’) over te dragen aan een archieforganisatie. Aan deze verplichting kan evenwel ook in een ‘bewaren bij de bron’-scenario worden voldaan. Door relevante DuTo APIs toegankelijk te maken aan de archiefinstelling, kunnen medewerkers van deze organisatie vanaf het moment van overbrenging het beheer van bij de gemeente opslagen informatieobjecten overnemen. Uit de Archiefwetvoorkomende veranderingen ten aanzien van openbaarheid kunnen in de metagegevens bij het informatieobject vastgelegd.
+
+==== Duurzaam toegankelijk bewaren en beheren bij de bron: voordelen ====
+
+Het kopiëren van gegevens uit bronregisters om die vervolgens als (onderdeel van) een informatieobject op te slaan in een gespecialiseerd archiefsysteem is moeilijk te rijmen met het gegevenslandschap-principe ‘Gegevens kennen één bron’. In het geval van bewaren bij de bron is van duplicatie geen sprake. De voordelen hiervan zijn vooral manifest waar in ketens wordt samengewerkt, of (langdurig) hergebruik aan de orde is.
+
+In hoofdstuk 2 is beschreven dat gemeenten omwille van hergebruik in sommige gevallen langer (eenvoudig) toegang willen hebben informatieobjecten dan de termijn voor overbrenging toestaat. Bovendien werd duidelijk dat bij overbrengen van het ene naar het andere informatiesysteem vaak veel inspanning vereist. Dit is deels te ondervangen door betere (striktere) standaarden, maar eenvoudiger en minder risicovol is natuurlijk het aantal momenten dat van migratie überhaupt sprake is te beperken. Bewaren bij de bron is de ultieme manier om daaraan invulling te geven.
+
+Bewaren bij de bron sluit bovendien aan bij de toenemende samenwerking in ketens en netwerken tussen overheidsorganisaties. Waar ‘virtuele informatieobjecten’ ontstaan die bestaan uit een samenstelling van gegevens die bij verschillende organisaties zijn opgeslagen, is het eenvoudiger (en beter bij de Archiefwet aansluitend) om iedere partij verantwoordelijk te laten zijn voor de duurzame toegankelijkheid van de gegevens waarvoor de organisatie als bronhouder optreedt. Het alternatief is immers dat twee of meer partijen ieder een kopie van het ‘hele’ informatieobject opslaan. Hierdoor ontstaan vrijwel zeker authenticiteitsvraagstukken. Want wie heeft in zo’n geval het ‘authentieke informatieobject in beheer?
+
+==== Duurzaam toegankelijk bewaren en beheren bij de bron: uitdagingen ====
+
+Bewaren bij de bron kent dus zwaarwegende voordelen. Vanuit technisch oogpunt levert bewaren bij de bron echter ook een aantal uitdagingen op. Zo is het duurzaam waarborgen van toegankelijkheid van (over meerdere bronnen) opgeslagen gegevens potentieel problematisch, en moet, waar relevant, gewaarborgd worden dat duurzaam naar de juiste (historische) versie van een informatieobject verwezen kan worden.
+
+Het duurzaam beschikbaar houden van overheidsdocumentatie vanuit de bron vereist dat de relaties tussen registers duurzaam in stand worden gehouden. De (gestandaardiseerde, API-gebaseerde) diensten die wordt gebruikt voor opslag en muteren van informatieobjecten zijn door de tijd heen waarschijnlijk echter niet stabiel. Hier botst het veranderingsgerichte belang van snelle innovatie en kortcyclische doortonwikkeling om dienstverlening en bedrijfsvoering te verbeteren met de op bestendigheid gerichte belangen van duurzame toegankelijkheid. Het gevolg is te zien in Figuur 14, waar is geïllustreerd hoe bestaande zaakinformatie niet langer toegankelijk is na ingebruikname van een nieuwe API-versie om die te benaderen.
+
+[[Bestand:Opgeslagen gegevens worden ontoegankelijk na implementatie van een nieuwe API-versie.png|800px|thumbnail|center|Figuur 14: Opgeslagen gegevens worden ontoegankelijk na implementatie van een nieuwe API-versie]]
+<!-- [[File:media/image30.png|583x369px]] -->
+
+Bewaren bij de bron vereist ten tweede dat bronregisters het mogelijk maken dat verwezen kan worden naar vorm en inhoud van informatieobjecten op een specifiek moment. In het geval van een verhuizingsdossier maken daarvan bijvoorbeeld de BRP-gegevens van de verhuizende burger onderdeel uit die horen bij het moment van indienen van de verhuizing. In gevallen waarin niet aan (een van) de bovenstaande voorwaarden kan worden voldaan, is het noodzakelijk dat (delen van) informatieobjecten worden opgeslagen in een register dat deze waarborgen wel kan bieden, ook als dat leidt tot duplicatie van gegevens.
+
+==== Alternatief voor bewaren bij de bron ====
+
+In 3.3.3 en 3.3.3 worden een aantal voordelen, aandachtspunten en uitdagingen bij bewaren bij de bron besproken. Deze betekenen dat bewaren bij de bron niet in alle gevallen de beste oplossing zal zijn om de duurzame toegankelijkheid van informatieobjecten te waarborgen. Over algemeen zal gelden dat bewaren bij de bron de grootste voordelen oplevert waar de hergebruikwaarde groot is, en bij het beheer meerdere organisaties betrokken zijn. Voor informatieobjecten die (zeer) langdurig moeten worden bewaard, of in gevallen waar niet aan de eisen ten aanzien van toegankelijkheid of historie kan worden voldaan, is het noodzakelijk gegevens die horen bij één dossier in een ‘pakketje’ te verpakken en te verplaatsen of te dupliceren naar het informatieobjectenregister. De duurzame toegankelijkheid van het ‘pakketje’ dossiergegevens dat hierdoor ontstaat kan volgens de in 3.1 en 3.2 beschreven mechanismes worden gewaarborgd. Deze situatie is geïllustreerd in Figuur 15. Figuur 16 laat zien dat ook een situatie hybride situatie denkbaar is. Deze kan bijvoorbeeld ontstaan als een deel van de betrokken registers en informatiesystemen niet, en een ander deel wel kunnen voldoen aan de eisen voor bewaren bij de bron.
+
+[[Bestand:Componenten betrokken bij duurzaam toegankelijk bewaren en beheren in informatieobjectenregister.png|800px|thumbnail|center|Figuur 15: Componenten betrokken bij duurzaam toegankelijk bewaren en beheren in informatieobjectenregister]]
+<!-- [[File:media/image35.png|665x398px]] -->
+
+[[Bestand:Hybride situatie.png|800px|thumbnail|center|Figuur 16: Hybride situatie: gegevens uit het informatiesysteem voor procesondersteuning en de basisregistraties zijn verplaatst cq. gedupliceerd in het informatieobjectenregister, terwijl zaak- en besluitgegevens in de bron blijven opgeslagen]]
+<!-- [[File:media/image32.png|718x320px]] -->
+
+== Eisen aan het gegevenslandschap voor <br>duurzaam toegankelijk informatiebeheer ==
+
+Gebaseerd op de uitgangspunten uit hoofdstuk 3 worden in dit hoofdstuk de eisen ten aanzien van duurzaam toegankelijk informatiebeheer voor verschillende componenten binnen het gegevenslandschap beschreven.
+
+De eisen zijn per component opgenomen in Tabel 2 en gelden van links naar rechts als cumulatief. Dat wil zeggen dat voor bijvoorbeeld het werken met generieke componenten ook aan de eisen ten aanzien van metadatering moet zijn voldaan. Bij het beschrijven van de eisen worden vijf gegevenslandschapcomponenten onderscheiden:
+
+'''1. Taakspecifiek informatiesysteem voor procesondersteuning'''
+
+Taakspecifieke informatiesystemen ondersteunen bij het uitvoeren van specifieke processen. Van deze categorie informatiesysteem kunnen er in het applicatielandschap meerdere naast elkaar bestaan.
+
+'''2. Informatiesysteem voor duurzaam toegankelijk informatiebeheer'''
+
+Dit informatiesysteem maakt het mogelijk informatieobjecten duurzaam toegankelijk te beheren.
+
+'''3. Dienst voor duurzame toegankelijkheid (DuTo API)'''
+
+Deze dienst kan geleverd worden door meerdere bronregisters, maar iedere implementatie van deze dienst kent dezelfde vorm.
+
+'''4. Dienst voor specifieke aanvullende functionaliteit'''
+
+Deze diensten kunnen in de toekomst gespecificeerd worden, om specifieke beheeractiviteiten uit te voeren voor informatieobjecten op basis van metagegevens uit de ‘minimale metadataset voor duurzame toegankelijkheid’, bijvoorbeeld het ter preservering ophalen, converteren en weer opslaan van een informatieobject.
+
+'''5. Bronregister'''
+
+Bronregisters zijn gespecialiseerd in het opslaan van gegevens of informatieobjecten horend bij een specifiek domein of van een specifieke vorm. In een applicatielandschap bestaan dus meerdere registers naast elkaar.
+
+
+{| class="wikitable"
+|-
+! Component
+! Eisen t.a.v. metadatering
+! Eisen t.a.v. werken met generieke componenten
+! Eisen t.a.v. bewaren bij de bron
+|-
+| '''Taakspecifiek informatiesysteem voor procesondersteuning'''
+|
+* (zoveel mogelijk) geautomatiseerd vastleggen van metagegevens die horen tot de ‘minimale metadataset voor duurzame toegankelijkheid’ aan de hand van proces-, organisatie- en gebruikersinformatie, en
+* de DuTo API als afnemer ondersteunen, zodat
+** metagegevens kunnen worden vastgelegd in bronregisters
+|
+|
+* als in het taakspecifiek informatiesysteem voor procesondersteuning informatieobjecten zijn opgeslagen die volgend uit wettelijke verplichtingen duurzaam toegankelijk moeten kunnen bewaard en beheerd, gelden voor deze informatiesystemen dezelfde eisen als hieronder voor bronregisters zijn beschreven.
+
+|-
+| '''Informatiesysteem voor duurzaam toegankelijk informatiebeheer'''
+|
+|
+* de DuTo API als afnemer ondersteunen, zodat:
+** metagegevens kunnen worden opgevraagd bij bronregisters, en
+** metagegevens in bronregisters bijgewerkt kunnen werken
+* eventuele diensten voor specifieke activiteiten ten behoeve van duurzame toegankelijkheid (zie hieronder) als afnemer ondersteunen zodat specifieke activiteiten kunnen worden uitgevoerd.
+* wanneer ondersteuning wordt geboden voor het uitvoeren van specifieke activiteiten in het kader van duurzaam toegankelijk informatiebeheer (vernietigen, preservering) wordt daarbij voldaan eisen die voortkomen uit relevante wetten en normen.
+|
+|-
+| '''DuTo API'''
+|
+* creëren, opvragen, bijwerken en verwijderen (CRUD) van alle metagegevens die horen tot de ‘minimale metadataset voor duurzame toegankelijkheid’.
+|
+|
+|-
+| '''Dienst voor specifieke aanvullende functionaliteit'''
+|
+|
+* de DuTo API als afnemer ondersteunen, zodat:
+** metagegevens kunnen worden opgevraagd bij bronregisters, en
+** metagegevens in bronregisters bijgewerkt kunnen werken
+* eventuele relevante aanvullende (systeem)diensten als afnemer ondersteunen.
+|
+|-
+| '''Bronregister'''
+|
+* opslaan bij een informatieobject van alle metagegevens die horen tot de ‘minimale metadataset voor duurzame toegankelijkheid’, en
+* de DuTo API als aanbieder te implementeren, zodat
+** metagegevens voor duurzame toegankelijkheid toegankelijk zijn voor afnemers.
+|
+|
+* eerdere versies van (tenminste) de DuTo API worden langdurig ondersteund, zodanig dat ook volgens de conventies van eerdere versies vastgelegde gegevens kunnen worden opgevraagd en gemuteerd, óf deze gegevens worden bij nieuwe versies geconverteerd om toegankelijkheid duurzaam te waarborgen.
+* in registers worden formele en zo nodig materiële historie bijgehouden, zodanig dat het mogelijk is om naar vorm en inhoud van gegevens te verwijzen die golden op een bepaald moment uitzagen.
+|}
+
+Tabel 2: eisen ten aanzien van duurzaam toegankelijk informatiebeheer voor verschillende gegevenslandschapcomponenten.
+
+== Begrippen ==
+
+In dit hoofdstuk worden een aantal in dit document beschreven begrippen toegelicht.
+
+=== Bewaartermijn ===
+
+De periode dat een informatieobject volgens de geldende selectielijst moet worden bewaard.
+
+=== Duurzame toegankelijkheid (van informatieobjecten) ===
+
+Een duurzaam toegankelijk informatieobject is beschikbaar, betrouwbaar, (her)bruikbaar, interpreteerbaar, leesbaar, openbaar (indien toegestaan), vindbaar. Bovendien is selectie mogelijk volgens de geldende selectielijst.
+
+==== Beschikbaarheid (van informatieobjecten) ====
+
+Beschikbaarheid wordt bepaald door de mate waarin gebruikers informatie snel en eenvoudig toegang kan krijgen tot informatie, bij voorkeur op elk tijdstip, vanaf elke plaats en zonder kosten. Artikel 20 van de Archiefregeling eist dat “elk van de archiefbescheiden binnen een redelijke termijn leesbaar of waarneembaar te maken is.”<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0027041&hoofdstuk=3&paragraaf=1&artikel=20&z=2014-01-01&g=2014-01-01 Artikel 20 Archiefregeling].</ref>
+
+===== Betrouwbaarheid (van informatieobjecten) =====
+
+Betrouwbaarheid wordt bepaald door de mate waarin gebruikers waarin gebruikers vast kunnen stellen dat de inhoud van een informatieobject volledig en correct is. Bijvoorbeeld dat een informatieobject daadwerkelijk afkomstig is van de bronorganisatie, dat het daadwerkelijk is opgeslagen op het op het vastgelegde moment, en dat het informatieobject ook op het moment van raadplegen de inhoud toont die hoort bij het moment van opslaan. Artikelen 17 en 24 van de Archiefregeling bepalen onder meer dat uitgevoerde beheeractiviteiten moeten worden vastgelegd, net als metagegevens over de oorspronkelijke en huidige technische aard van informatieobject. Ditzelfde geldt voor informatie over een eventueel aanwezige digitale handtekening.
+
+==== (Her)bruikbaarheid (van informatieobjecten) ====
+
+De mate van (her)bruikbaarheid wordt bepaald door een combinatie van beschikbaarheid, betrouwbaarheid, interpreteerbaarheid, leesbaarheid, en vindbaarheid. Aanvullend wordt hergebruik geholpen door informatieobjecten zoveel mogelijk zodanig beschikbaar te stellen dat manipulatie mogelijk is. Andersom staat het converteren van gecodeerd gedrag of functionaliteit binnen bijvoorbeeld websites, 3D-modellen en algoritmes naar ‘platte’ tekst hergebruik in de weg.
+
+==== Interpreteerbaarheid (van informatieobjecten) ====
+
+Interpreteerbaarheid wordt bepaald door de mate waarin gebruikers kunnen bepalen wat de betekenis van een informatieobject is. Hiervoor kan het nodig zijn te weten wanneer een informatieobject is ontstaan, wie daarvoor verantwoordelijk was, en waarop het object betrekking heeft (gehad). Deze aanvullende informatie wordt vastgelegd in de vorm van metagegevens. Welke metagegevens precies nodig zijn, is afhankelijk van de vorm van het informatieobject, en het domein waaruit het afkomstig is.
+
+In artikel 17 van de Archiefregeling is vastgelegd dat metagegevens in ieder geval inzicht moeten geven in inhoud, structuur en verschijningsvorm van het informatieobject, wanneer, door wie en uit hoofde van welke taak of werkproces het werd ontvangen of opgemaakt, en op welke manier het informatieobject samenhangt met de samenhang met andere informatieobjecten.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0027041&hoofdstuk=3&paragraaf=1&artikel=17&z=2014-01-01&g=2014-01-01 Artikel 17 Archiefregeling].</ref>
+
+Om geautomatiseerde interpretatie van overheidsinformatie te faciliteren, wordt in de Wet hergebruik van overheidsinformatie (Who) een voorkeur uitgesproken voor het beschikbaar stellen “in een open en machinaal leesbaar formaat, samen met de metagegevens, waarbij het formaat en de metagegevens voor zover mogelijk voldoen aan formele open standaarden.”<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0036795&hoofdstuk=III&artikel=8&z=2016-10-01&g=2016-10-01 Artikel 8 Wet hergebruik van overheidsinformatie].</ref>
+
+==== Leesbaarheid (van informatieobjecten) ====
+
+Leesbaarheid wordt bepaald door de mate waarin gebruikers informatie zichtbaar kunnen maken, op zo’n manier dat die informatie geïnterpreteerd kan worden – maar het waarborgen van interpreteerbaarheid zelf is een separaat criterium, zie hieronder. Dit is bij voorkeur mogelijk vanaf de eigen werkplek, zonder dat een gebruiker daarvoor speciale applicaties hoeft te installeren. Omdat de applicaties die gebruikers ter beschikking staan door de tijd heen veranderen (zie ook de door de Digital Preservation Coalition bijgehouden lijst met ‘bedreigde’ bestandsformaten<ref>[https://www.dpconline.org/our-work/bit-list Lijst met ‘bedreigde’ bestandsformaten] op de website van de Digital Preservation Coalition.</ref>) kunnen maatregelen nodig zijn om de leesbaarheid van informatieobjecten duurzaam te waarborgen.
+
+Om leesbaarheid van informatieobjecten duurzaam te garanderen, bepalen artikelen 58 en 25 van de Archiefregeling dat “indien een gerede kans bestaat dat […] archiefbescheiden als gevolg van wijziging van besturingsprogrammatuur, toepassingsapparatuur of apparatuur niet binnen een redelijke termijn leesbaar of waarneembaar te maken zijn, […] zorgt de zorgdrager ervoor dat conversie of migratie van die digitale archiefbescheiden plaatsvindt, dan wel dat die digitale archiefbescheiden door toepassing van emulatie kunnen worden gebruikt of geraadpleegd overeenkomstig de wijze ten tijde van het ontvangen of opmaken ervan door het overheidsorgaan.”<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0027041&hoofdstuk=8&artikel=58&z=2014-01-01&g=2014-01-01 Artikel 58 Archiefregeling], [https://wetten.overheid.nl/jci1.3:c:BWBR0027041&hoofdstuk=3&paragraaf=2&artikel=25&z=2014-01-01&g=2014-01-01 artikel 25 Archiefregeling].</ref>
+
+==== Openbaarheid (van informatieobjecten) ====
+
+De Archiefwet stelt dat archiefbescheiden die in een archiefbewaarplaats berusten behoudens een aantal uitzonderingen openbaar zijn.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0007376&hoofdstuk=II&artikel=14&z=2018-07-28&g=2018-07-28 Artikel 14 Archiefwet 1995].</ref> Andere wetten, zoals de Woo en de Who, beschrijven meer gedetailleerd waaraan openbaar te maken informatieobjecten moeten voldoen, terwijl bijvoorbeeld de AVG en de Auteurswet openbaarheid van (overheids)informatie in specifieke gevallen juist beperken. Het bepalen of informatieobjecten (gedeeltelijk) openbaar gemaakt mag worden, vereist daardoor in sommige gevallen een analyse van uit verschillende wetten en normen voorkomende verplichtingen en verboden.
+
+==== Vindbaarheid (van informatieobjecten) ====
+
+Vindbaarheid wordt bepaald door de mate waarin gebruikers voor hen relevante informatie kunnen vinden. Informatie is bij voorkeur toegankelijk vanuit één plaats, en kan gebruikmakend van gebruikelijke, herkenbare zoekfuncties worden gevonden. Artikel 20 van de Archiefregeling bepaalt ten aanzien van vindbaarheid dat: “de zorgdrager zorgt ervoor dat het archiveringssysteem de toegankelijke staat van archiefbescheiden waarborgt, zodanig dat elk van de archiefbescheiden binnen een redelijke termijn kan worden gevonden:
+
+* Aan de hand van de daaraan gekoppelde metagegevens; of
+* door middel van een andere ontsluitingsmethode.”<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0027041&hoofdstuk=3&paragraaf=1&artikel=20&z=2014-01-01&g=2014-01-01 Artikel 20 Archiefregeling].</ref>
+
+=== GEMMA Gegevenslandschap (toepassingsgebied) ===
+
+Het toepassingsgebied van deze handreiking is in eerste instantie beperkt tot de reikwijdte van de architectuur van het GEMMA Gegevenslandschap. Die is organisatorisch in de eerste plaats gericht op gemeenten en gemeentelijke samenwerkingsverbanden, en functioneel (primair) gericht op transactionele dienstverlening door deze organisaties.<ref>[https://www.gemmaonline.nl/images/gemmaonline/5/56/GEMMA_Gegevenslandschap_-_Beschrijving_informatiearchitectuur.pdf Beschrijving Informatiearchitectuur GEMMA Gegevenslandschap] op GEMMA Online.</ref>
+
+=== Informatieobject ===
+
+Het begrip ‘informatieobject’ wordt onder meer in architectuurdocumentatie (NORA, GEMMA) gebruikt om een verzameling gegevens aan te duiden die we als één geheel beheren. In de uit de NEN 2082 overgenomen NORA-definitie wordt een informatieobject beschreven als “een op zichzelf staand geheel van gegevens met een eigen identiteit. Bijvoorbeeld een document, databasegegeven, emailbericht (met bijlagen), (zaak)dossier, internetsite (of een deel ervan), foto/afbeelding, geluidopname, wiki, blog enz.”<ref>[https://www.noraonline.nl/wiki/Informatie-object Definitie ‘informatieobject’] op NORA Online.</ref> Het begrip informatieobject kan dus gebruikt worden om een samenhangende verzameling gestructureerde gegevens (bijvoorbeeld de gegevens over een zaak) te beschrijven, maar ook om een in PDF-formaat opgeslagen set ongestructureerde gegevens (zoals een adviesrapport) aan te duiden.
+
+=== Metagegevens of metadata ===
+
+Metagegevens zijn “gegevens die context, inhoud, structuur en vorm van informatie en het beheer ervan door de tijd heen beschrijven.”<ref>[https://www.noraonline.nl/wiki/Metagegevens_(Begrip) Definitie ‘metagegevens’] op NORA Online.</ref> Metagegevens zijn dus gegevens over informatie. In de praktijk worden metagegevens gestructureerd, volgens vooraf gedefinieerde schema’s opgeslagen samen met concrete afgebakende eenheden van informatie (de ‘informatieobjecten’) waarover zij informatie bevatten.
+
+=== Overbrenging ===
+
+Overheidsinstanties zijn verplicht hun archieven na verloop van tijd over te dragen aan een archieforganisatie (of archiefbewaarplaats). De standaardtermijn voor overbrenging is twintig jaar.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0007376&hoofdstuk=IX&artikel=45&z=2018-07-28&g=2018-07-28 Artikel 45 Archiefwet 1995].</ref> In de concept-Archiefwet 2021 wordt die termijn verkort naar tien jaar.<ref>[https://www.internetconsultatie.nl/archiefwet/document/5164 Concepttekst Archiefwet 2021].</ref>
+
+=== Waardering en selectie ===
+
+Waardering en selectie omvatten de activiteiten die bepalen of, en hoe lang een informatieobject moet worden bewaard. De archiefwet onderscheidt twee mogelijkheden: informatieobjecten moeten ofwel blijvend bewaard worden, ofwel (na een zekere termijn) vernietigd worden.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0007376&hoofdstuk=II&artikel=3&z=2018-07-28&g=2018-07-28 Artikel 3 Archiefwet 1995].</ref> De bewaartermijn voor informatieobjecten wordt bepaald op basis van een selectielijst. Overheidsorganisaties die zorgdragen voor archiefbescheiden, zijn verplicht zo’n selectielijst op te stellen en te hanteren.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0007376&hoofdstuk=II&artikel=5&z=2018-07-28&g=2018-07-28 Artikel 5 Archiefwet 1995].</ref> Voor gemeenten bestaat een gezamenlijke selectielijst: de Selectielijst gemeenten en intergemeentelijke organen.<ref>[https://vng.nl/onderwerpenindex/dienstverlening-en-informatiebeleid/archieven/nieuws/selectielijst-gemeenten-en-intergemeentelijke-organen-2017 Selectielijst gemeenten en intergemeentelijke organen 2017].</ref>
+
+In het geval van blijvend bewaren wordt het informatieobject na enige tijd overgebracht naar een archiefbewaarplaats. De in artikel 12 van de Archiefwet 1995 bepaalde algemene termijn hiervoor is 20 jaar, maar er zijn voorstellen deze termijn terug te brengen tot 10 jaar.<ref>[https://vng.nl/onderwerpenindex/dienstverlening-en-informatiebeleid/archieven/nieuws/verkorting-overbrengingstermijn-archieven Artikel over verkorting overbrengingstermijn] op VNG-website.</ref>
+
+Te vernietigen informatieobjecten worden vernietigd op het door selectielijst bepaalde moment. Bovendien gelden een aantal aanvullende eisen. Belangrijk is dat vernietiging onherroepelijk moet zijn. Het moet dus onmogelijk zijn om vernietigde informatieobjecten te herstellen.<ref>NPR-ISO/TR 15489-2:2001 (niet online toegankelijk).</ref> Bij vernietiging moet daarnaast een verklaring worden opgesteld. Zo’n verklaring omvat ten minste:
+
+* een specificatie van de bescheiden die zijn vernietigd;
+* op grond waarvan is vernietigd (categorie uit selectielijst of handeling);
+* op welke wijze is vernietigd.<ref>[https://wetten.overheid.nl/jci1.3:c:BWBR0007748&hoofdstuk=II&artikel=8&z=2013-01-01&g=2013-01-01 Artikel 8 Archiefbesluit 1995].</ref>
+
+----
+
+<references />

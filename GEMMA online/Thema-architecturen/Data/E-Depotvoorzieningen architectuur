@@ -1,0 +1,102 @@
+{{Publicatie
+|Paginastatus=publiceren
+|Redactiestatus=Actueel
+}}
+[[Categorie:Duurzame toegankelijkheid]]
+__TOC__
+
+=== Positionering in de GEMMA ===
+In dit hoofdstuk wordt de e-Depotvoorziening gepositioneerd binnen de GEMMA architectuur. De GEMMA architectuur gaat uit van drie architectuurlagen, namelijk de bedrijfsarchitectuur, de informatiearchitectuur en de technische architectuur, waarvan de laatste niet is uitgewerkt. Een verschil tussen de GEMMA en de beschrijving van de functionele eisen voor de e-Depotcomponent is het expliciete onderscheid in bedrijfsfuncties en applicatiefuncties. Bij het beschrijven van het de e-Depotvoorziening met behulp van GEMMA concepten zal worden aangegeven hoe dit op elkaar is aangesloten.
+
+In de [[Bedrijfsarchitectuur]] wordt de bedrijfsfunctie {{ToonLinkNaarElementGEMMA|id=aa83e0ca-8ee0-4517-9dbd-2d52bc80abbd|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Informatie- en archiefbeheer (BusinessFunction)--> onderkent. Informatie- en archiefbeheer is een een ondersteunende functie voor de uitvoerende processen en daarmee goed te vergelijken met de informatiebeheer functie in dit rapport. In de onderstaande figuur is de Informatie- en archiefbeheer functie met kleur gemarkeerd.
+
+{{ToonViewGEMMA|viewid=0a0a0012-a46e-457c-8074-c25678a555b0|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|label=Positie informatie- en archiefbeheer in GEMMA bedrijfsfunctiemodel}}
+
+In de [[Referentiecomponenten en applicatieservices]] wordt de applicatiefunctionaliteit voor de ondersteuning van de gemeentelijke processen uitgewerkt. Van boven naar beneden worden respectievelijk de domein specifieke functionaliteit, de generieke functionaliteit en als laatste de gedeelde generieke functionaliteit getoond. Oftewel de applicatiefunctionaliteit wordt van boven naar beneden steeds generieker en daarmee bruikbaar voor de ondersteuning van alle gemeentelijke processen.
+
+Hieronder wordt de GEMMA 2 informatiearchitectuurplaat getoond met daarop in het geel weergegeven de relevante applicatiefuncties. Hier is ook de hierboven genoemde indeling terug te vinden.
+
+{{ToonViewGEMMA|viewid=0a7538a6-cfcb-450e-9973-2bce5e656325|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|label=Positie e-Depot functionaliteit in GEMMA informatiearchitectuur‎}}
+
+De applicatiefunctie 'duurzaam opslaan en ontsluiten  van informatieobjecten' is geplaatst in de laag gedeelde generieke functionaliteit en is nadrukkelijk bedoeld om eenmalig in het gemeentelijk applicatielandschap aan te bieden. De applicatiefunctie 'archiveren van informatieobjecten' is geplaatst in de laag generieke functionaliteit en kan eventueel worden aangeboden vanuit meerdere applicaties. Naast archiefsysteem kan bijvoorbeeld ook het vergunningensysteem de applicatiefunctie 'archiveren' ondersteunen en dus informatieobjecten in het archief opslaan.
+
+==== Applicatiefuncties en referentiecomponenten ====
+Iedere (hoofd)applicatiefunctie wordt uitgewerkt in subfuncties en heeft minimaal één referentiecomponent die de beschreven functionaliteit aanbiedt. Met [[Definitie_referentiecomponent|referentiecomponenten]] is door KING in kaart gebracht wat de bouwblokken van de gemeentelijke informatiearchitectuur zijn. Deze bouwblokken, de referentiecomponenten, zijn modulair, zelfstandig inzetbaar en vervangbare delen van softwaresystemen. Referentiecomponenten groeperen logisch bij elkaar horende functionaliteit en bieden deze functionaliteit aan via goed gedefinieerde interfaces.
+
+Hieronder de modelmatige weergave van de applicatiefunctie {{ToonLinkNaarElementGEMMA|id=36bb333a-70f3-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Duurzaam opslaan en ontsluiten informatieobjecten (ApplicationFunction)--> uitgewerkt in deelapplicatiefuncties en de referentiecomponent die de functie aanbied.
+
+
+{{ToonViewGEMMA|viewid=0cb76607-6018-495f-a646-204ce453a190|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|label=Contextdiagram van applicatiefunctie Duurzaam opslaan en ontsluiten informatieobjecten}} <!--Duurzaam opslaan en ontsluiten informatieobjecten (ApplicationFunction)-->
+
+
+Op gelijke wijze zijn alle applicatiefuncties in de GEMMA informatiearchitectuur uitgewerkt. Alle uitwerkingen van de relevante applicatiefuncties voor de e-Depotvoorziening zijn te benaderen met onderstaande links:
+* {{ToonLinkNaarElementGEMMA|id=30381010-b55b-11e5-11ba-005056a85f9c|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Online beschikbaarstellen informatieobjecten (ApplicationFunction)-->
+* {{ToonLinkNaarElementGEMMA|id=2d0f6cb7-16c9-11e3-284c-08002700d457|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Archiveren van informatieobjecten (ApplicationFunction)-->
+* {{ToonLinkNaarElementGEMMA|id=36bb333a-70f3-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Duurzaam opslaan en ontsluiten informatieobjecten (ApplicationFunction)-->
+Relevante appplicatiefunctionaliteit voor het werken met en registreren van documenten:
+* {{ToonLinkNaarElementGEMMA|id=857ffaf7-da88-11e1-7023-0050568a1905|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Beheren van documenten (ApplicationFunction)-->
+* {{ToonLinkNaarElementGEMMA|id=5108d100-70d7-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Registreren en delen van documenten (ApplicationFunction)-->
+
+==== Mapping GEMMA applicatiefuncties op functionele eisen voor een e-Depotvoorziening ====
+De GEMMA applicatiefuncties zijn gebaseerd op een andere indeling dan de OAIS indeling zoals gekozen voor de functionele eisen e-Depotvoorziening. In de onderstaande tabel worden deze naast elkaar gezet en worden de verschillen kort toegelicht.
+
+{| border="1"
+!GEMMA applicatiefunctie
+!Functionele eisen e-Depot
+!Toelichting
+|-
+|{{ToonLinkNaarElementGEMMA|id=2d0f6cb7-16c9-11e3-284c-08002700d457|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Archiveren van informatieobjecten (ApplicationFunction)-->
+|3. Ontsluiten van informatieobjecten
+4. Algemeen beheer"
+|De splitsing tussen functionaliteit voor de gemeente en generieke gedeelde functionaliteit is anders dan die in het OAIS. De GEMMA applicatiefunctie {{ToonLinkNaarElementGEMMA|id=2d0f6cb7-16c9-11e3-284c-08002700d457|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Archiveren van informatieobjecten (ApplicationFunction)--> bevat de functionaliteit voor het ondersteunen van de gemeente(medewerker) bij het werken met informatieobject en het beheer en de inrichting van de archiefregistratie.
+|-
+|{{ToonLinkNaarElementGEMMA|id=36bb333a-70f3-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Duurzaam opslaan en ontsluiten informatieobjecten (ApplicationFunction)-->
+|1. In bewaring nemen van informatieobjecten
+2. Duurzaam bewaren en beheren van informatieobjecten
+|De GEMMA applicatiefunctie is gericht opslaan en delen van informatieobjecten en kan gemapt worden op de functionele eisen voor het in bewaring nemen en het duurzaam bewaren van informatieobjecten.
+|-
+|{{ToonLinkNaarElementGEMMA|id=857ffaf7-da88-11e1-7023-0050568a1905|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Beheren van documenten (ApplicationFunction)--> en
+{{ToonLinkNaarElementGEMMA|id=5108d100-70d7-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Registreren en delen van documenten (ApplicationFunction)-->
+|Geen onderdeel opdracht
+|De GEMMA maakt expliciet onderscheid voor het werken met documenten (als speciaal type informatieobject)
+|-
+|{{ToonLinkNaarElementGEMMA|id=30381010-b55b-11e5-11ba-005056a85f9c|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Online beschikbaarstellen informatieobjecten (ApplicationFunction)-->
+|3. Ontsluiten van informatieobjecten
+|De GEMMA maakt onderscheid tussen het ontsluiten van de informatieobjecten aan de gemeente en het ontsluiten richting burgers en bedrijven.
+|}
+
+====Referentiecomponenten en varianten e-Depotvoorziening====
+De varianten 1 tot en met 3 zijn met referentiecomponenten goed te beschrijven, waarmee de link naar de GEMMA architectuur heel expliciet gelegd wordt. In de onderstaande figuur zijn de varianten met referentiecomponenten uitgewerkt.
+{{ToonViewGEMMA|viewid=a0a7f622-9630-43a8-80c0-38c5d4c427da|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|Bijschrift=e-Depot varianten uitgewerkt met referentiecomponenten}}
+
+De referentiecomponenten worden gebruikt als bouwblokken voor het samenstellen van een e-Depotvoorziening. Per variant hieronder een kort toelichting.
+
+'''Variant 1: archiefbewaarplaats'''<br>Voor variant 1 worden drie referentiecomponenten gecombineerd tot een e-Depotvoorziening waar een gemeente gebruik van kan maken. De e-Depotcomponent bevat de functionaliteit voor het duurzaam opslaan en ontsluiten van informatieobjecten. Met de functionaliteit van de archiefbeheercomponent worden de werkzaamheden van de archiefbeheerders ondersteund en met de  archiefportaalcomponent worden de informatieobjecten actief beschikbaar gesteld aan het publiek.
+
+In deze variant wordt de gemeente geacht voor de lopende zaak-fase en voor de afgehandelde zaak-fase te beschikken over aanvullende systemen voor document- en archiefbeheer.
+
+'''Variant 2: archiefruimte'''<br>Voor variant 2 wordt de e-Depotvoorziening ook ingezet voor het archiefbeheer in de lopende zaak-fase. Functioneel is de e-Depotvoorziening gelijk aan de die variant 1, maar uiteraard is het niet langer noodzakelijk om bij overgang naar de statische zaak-fase nog over te brengen.
+
+In deze variant beheerd de gemeente de informatieobjecten zowel in de afgehandelde zaak-fase als in de statische zaak-fase in één voorziening. Voor documentbeheer moet de gemeente nog over een extra systeem beschikken.
+
+'''Variant 3: brede opslagfunctie'''<br>De e-Depotvoorziening wordt gebruikt voor de opslag van alle informatieobjecten, zowel met als zonder archiefstatus. De e-Depotvoorziening bevat nu naast de archieffunctionaliteit tevens de functionaliteit voor het het documentbeheer.
+
+====Referentiecomponenten en (koppelvlak)standaarden====
+In koppelvlakstandaarden worden de referentiecomponenten gebruikt om de systeemgrenzen waartussen gegevens worden uitgewisseld vast te leggen. Referentiecomponenten die gegevens/berichten met elkaar moeten kunnen uitwisselen, moeten allebei dezelfde koppelvlakstandaard ondersteunen. In de GEMMA wordt voorgeschreven welke standaarden voor een referentiecomponent verplicht danwel aanbevolen is.
+
+Zie de bijvoorbeeld de referentiecomponent {{ToonLinkNaarElementGEMMA|id=215355e8-af2a-4274-bd42-b57c214166fe|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Archiefregistratiecomponent (ApplicationComponent)--> welke standaarden aan deze component als verplichte- of relevante standaard worden meegegeven.
+
+Aangezien van variant 1 tot variant 3 het aantal te ondersteunen referentiecomponenten toeneemt, zal ook het aantal te ondersteunen standaarden toenemen.
+
+Hieronder de belangrijkste standaarden. Zie de softwarecatalogus inkoopondersteuning voor een compleet overzicht.
+*variant 1 en 2
+:* {{ToonLinkNaarElementGEMMA|id=274a0801-14fe-11e5-1099-005056a83192|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|toonals=}}<!--TMLO (Constraint)-->
+:* {{ToonLinkNaarElementGEMMA|id=bbfbd1d1-8db0-11e3-67ab-0050568a6153|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--PDF/A (Constraint)-->
+:* {{ToonLinkNaarElementGEMMA|id=bbd0f141-8db0-11e3-67ab-0050568a6153|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--ODF (Constraint)-->
+*variant 3 vereist extra standaarden om vanuit de procesondersteunende applicaties informatieobjecten in de e-Depotvoorziening te kunnen opslaan.
+:* {{ToonLinkNaarElementGEMMA|id=be7c3b21-8db0-11e3-67ab-0050568a6153|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--Zaak- en documentservices (Constraint)-->
+:* met als onderliggende standaarden {{ToonLinkNaarElementGEMMA|id=bdc74301-8db0-11e3-67ab-0050568a6153|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}<!--StUF ZKN (Constraint)--> en {{ToonLinkNaarElementGEMMA|id=b7345eb1-8db0-11e3-67ab-0050568a6153|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|toonals=}}<!--CMIS (Constraint)-->
+
+Via de links van de hieronder getoonde referentiecomponenten kunnen per referentiecomponent de verplichte en aanbevolen standaarden worden bekeken.
+
+{{ToonTabelVanViewGEMMA|viewid=a0a7f622-9630-43a8-80c0-38c5d4c427da|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|filter=ApplicationComponents}}
