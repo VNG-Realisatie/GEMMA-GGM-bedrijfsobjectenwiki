@@ -3,6 +3,7 @@
 |Redactiestatus=Actueel
 |Wikibeheerder=Ivo Hendriks
 }}
+[[Categorie:Thema-architecturen]]
 {{DISPLAYTITLE: Duurzame toegankelijkheid en transparantie}}
 __NOTOC__
 
@@ -23,26 +24,37 @@ Het [https://www.rijksoverheid.nl/onderwerpen/digitale-overheid/open-overheid Ac
 |inhoud1 = Een deel van de informatie hieronder wordt op termijn vervangen door [https://www.noraonline.nl/wiki/Duurzame_Toegankelijkheid uitwerkingen op NORA-niveau].
 
 <!-- * [https://www.gemmaonline.nl/images/gemmaonline/6/6b/20200730_-_GEMMA_Gegevenslandschap_-_Architectuur_duurzaam_toegankelijk_informatiebeheer_v0_31.pdf Conceptarchitectuur voor duurzaam toegankelijk informatiebeheer in het Gegevenslandschap] -->
+Informatiebeheer, basis en kaders:
 * [[Duurzaam toegankelijk informatiebeheer | (Conceptarchitectuur) Duurzaam toegankelijk informatiebeheer]]
 * [[Uitwerking Informatie- en archiefbeheer]]
 * [[De kanteling van archief- naar informatiebeheer]]
 * [[Conceptueel en functioneel model informatiebeheer]]
+
+Archiveren en openbaarheid:
 * [[Vullen en archiveren van een zaakdossier]]
 * [[Openbaarheid van overheidsinformatie]]
+
+E-Depot:
 * [[E-Depotvoorzieningen]]
 * [[E-Depotvoorzieningen architectuur]]
+
+Metagegevens:
 * [[Samenvatting metagegevens]]
 * [[Verdieping metagegevens]]
+
+Doorontwikkeling:
 * [[Concept vernieuwing architectuur duurzame toegankelijkheid]]
 |titel2  = Meer informatie
 |inhoud2 = Er zijn diverse overheidsorganisaties die al aan de slag zijn met duurzame toegankelijkheid en transparantie. U kunt van hun ervaringen leren. En ook van de vraagstukken en lopende discussies die daar spelen.
 
+Handreikingen:
 * [[Handreiking Selectielijst]]
+
+Achtergrond en verdieping:
 * [https://www.noraonline.nl/wiki/Duurzame_Toegankelijkheid NORA-thema Duurzame toegankelijkheid]
-* [https://irma.denhaag.nl/ Haagse Informatiebeheer Referentie Model Architectuur (IRMA)]
 * [https://www.informatiehuishouding.nl/projecten/metadata-rijksoverheid Project Metadata Rijksoverheid]
-|hoogte = 450px
+
+Praktijkvoorbeelden:
+* [https://irma.denhaag.nl/ Haagse Informatiebeheer Referentie Model Architectuur (IRMA)]
+|hoogte = 700px
 }}
-
-
-[[Categorie:Thema-architecturen]]
