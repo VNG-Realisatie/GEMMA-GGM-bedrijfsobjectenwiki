@@ -1,0 +1,21 @@
+<noinclude>[[Categorie:Kennismodel GEMMA 2.0]][[Category:GEMMA opmaakTemplates]][[Categorie:Kennismodel nieuws]]</noinclude><includeonly>{{#ifeq: {{#show:{{FULLPAGENAME}}|?Link nieuwsbericht}}||
+
+<table align="right"><tr><td>''{{#show:{{FULLPAGENAME}}|?Publicatiedatum}}''</td></tr></table>
+
+
+{{#ifeq: {{#show:{{FULLPAGENAME}}|?Korte samenvatting}}|||<br />'''{{#show:{{FULLPAGENAME}}|?Korte samenvatting}}'''
+<br /><br />
+}}
+{{#show:{{FULLPAGENAME}}|?Omschrijving}}
+
+
+{{#if:{{#show:{{FULLPAGENAME}}|?Webadres}}|''Zie ook:'' {{#show:{{FULLPAGENAME}}|?Webadres}}}}
+{{#if:{{#show:{{FULLPAGENAME}}|?Interne pagina}}|''Zie ook op GEMMA Online:'' <br /><ul>{{#arraymap: {{#show:{{FULLPAGENAME}}|?Interne pagina}}|,|xqx|<li>xqx</li>|\n}}</ul>}}
+|
+{{#vardefine: link|{{#show:{{FULLPAGENAME}}|?Link nieuwsbericht|link=none }}}}
+* Link naar nieuwsbericht: [{{#var: link}} {{FULLPAGENAME}}]
+* Publicatiedatum: {{#show:{{FULLPAGENAME}}|?Publicatiedatum}}
+* Publicatiedatum beëindiging: {{#show:{{FULLPAGENAME}}|?Publicatiedatum beeindiging}}
+
+}}
+</includeonly>

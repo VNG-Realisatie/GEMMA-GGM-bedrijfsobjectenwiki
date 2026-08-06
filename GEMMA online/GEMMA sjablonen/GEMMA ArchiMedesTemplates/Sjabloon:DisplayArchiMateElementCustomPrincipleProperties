@@ -1,0 +1,31 @@
+<noinclude>[[Categorie:GEMMA ArchiMedesTemplates]]
+
+Wordt aangeroepen van het [[:sjabloon:DisplayArchiMateElementCustom]] <br>
+In ArchiMedes tonen van implicaties bij een principe.
+
+'''Behouden als voorbeeld.''' <br>
+Implicaties zijn in het GEMMA ArchiMate-model nu opgenomen als één property, niet meer als gerelateerde elementen.
+
+De onderstaande tabelregel is uitgecommentarieerd
+</noinclude><includeonly><!--
+<tr>
+<th style="vertical-align: top;">Implicaties</th>
+<td></td>
+<td>{{#ask: [[has target element::{{{page|}}}]] 
+[[has source element.GEMMA type::Implicatie]]
+[[Elementtype::AssociationRelationship]]
+[[Occurs in model::{{{model|}}}]]
+ |?Has source element=Implicatie
+ |?Has source element.Documentation=Toelichting
+ |format=ul
+ |limit=20
+ |offset=0
+ |link=all
+ |sort=
+ |order=asc
+ |headers=hide
+ |mainlabel=-
+ |searchlabel=... meer resultaten
+ |prefix=none
+}}</td>
+</tr>--></includeonly>

@@ -1,0 +1,89 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Wordt gebruikt door pagina [[OverzichtReferentiecomponentenPerDomein]]
+
+<pre>
+OverzichtReferentiecomponentenPerDomein&domein=Fysieke+leefomgeving
+</pre>
+
+</noinclude><includeonly><!--
+*Domein: {{{domein}}}
+*Domeintitel: {{{domeintitel}}}
+* query: {{#ask: [[Category:ArchiMateViews]]
+[[Domein::Niet domeingebonden]]
+[[Detailniveau::Samenhang]]
+[[Architectuurlaag::Bedrijfsarchitectuur]]
+[[Titel view SWC::+]]
+[[Occurs in model.Semantictitle::GEMMA]]
+ |format=count
+}} - 
+{{#ask: [[Category:ArchiMateViews]]
+[[Domein::Niet domeingebonden]]
+[[Detailniveau::Samenhang]]
+[[Architectuurlaag::Bedrijfsarchitectuur]]
+[[Titel view SWC::+]]
+ |?Domein
+ |?Detailniveau
+ |?Architectuurlaag
+ |?Titel view SWC
+ |format=broadtable
+ |limit=20
+ |offset=0
+ |link=all
+ |sort=
+ |order=asc
+ |headers=show
+ |searchlabel=... meer resultaten
+ |class=sortable wikitable smwtable
+ |sep=, 
+}}-->
+{{#vardefine: view| {{#ask:
+[[Category:ArchiMateViews]]
+[[Domein::{{{domeintitel}}}]]
+[[Detailniveau::Samenhang]]
+[[Architectuurlaag::Bedrijfsarchitectuur]]
+[[Titel view SWC::+]]
+[[Occurs in model.Semantictitle::GEMMA]]
+|link=none
+|format=plainlist}} }}
+{{#ifeq: {{#var:view}}||
+Dit domein bevat niet de juiste view. Een dergelijke domeinview '''moet''' de volgende eigenschappen bevatten:
+* Detailniveau=Samenhang
+* Categorie=ArchiMateViews
+* Domein={{{domeintitel}}}
+* Architectuurlaag=Bedrijfsarchitectuur
+* Titel view SWC moet gevuld zijn
+|De view: [[{{#var:view}}]] bevat de volgende referentiecomponenten:
+<table class="sortable wikitable">
+<tr>
+<th>Referentiecomponent</th>
+<th>Beschrijving</th>
+<th>Applicatieservices</th>{{#vardefine:referentiecomponenten| {{#ask: [[-Refers to element.Occurs in view::{{#var:view}}]] [[Categorie:Referentiecomponenten]]|link=none|limit=500}}   }}
+{{#arraymap: {{#var:referentiecomponenten}}|,|qsq|
+<tr>
+<td>[[qsq]]</td>
+<td>{{#show: qsq |?Documentation_nl}}
+<br/>
+'''Toelichting:'''
+
+{{#show: qsq |?Toelichting_nl}}
+</td>
+<td><ul>{{#arraymap: {{#ask: [[Occurs in model.Semantictitle::GEMMA]]
+[[-Has target element.Has source element:: qsq]] 
+[[-Has target element.Elementtype::RealizationRelationship]]
+|format=plainlist|link=none|headers=hide|limit=1000}}|,|rtr|
+<li>[[rtr]] </li><ul>{{#arraymap: {{#ask: [[Occurs in model.Semantictitle::GEMMA]] [[Categorie:ApplicationServices]]
+[[-Has target element.Has source element::rtr]] 
+[[-Has target element.Elementtype::RealizationRelationship]]|format=plainlist|headers=hide|link=none}}|,|yty|
+<li>[[yty]]</li>
+|\n}}
+</ul>
+|\n}}
+</ul>
+</td>
+</tr>
+|\n}}
+</table>
+}}
+	
+</includeonly>

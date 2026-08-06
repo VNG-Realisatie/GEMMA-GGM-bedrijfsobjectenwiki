@@ -1,0 +1,118 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toont van een element de eigenschappen en relaties.
+
+=== Toon een referentiecomponent ===
+Toon een overzicht van de eigenschappen en relaties van een referentiecomponent
+<PRE>
+{{ToonTabelVanElementID
+|id=f2dfbd0b-9d36-405c-bdbe-827f3296de29
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}</PRE>
+{{ToonTabelVanElementID
+|id=f2dfbd0b-9d36-405c-bdbe-827f3296de29
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}
+
+=== Toon een standaard (niet voor bedoeld) ===
+En nu van een standaard
+<pre>
+{{ToonTabelVanElementID
+|id=3a597286-4edc-47ed-b19a-14d7497db340
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}<!--Zaken API-standaard --></pre>
+{{ToonTabelVanElementID
+|id=3a597286-4edc-47ed-b19a-14d7497db340
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}<!--Procesondersteunende component (abstract component) (ApplicationComponent)-->
+
+=== Voorbeeld van een aanroep met een 'verkeerd id' ingevuld ===
+<pre>{{ToonTabelVanElementID|id=verkeerdid}}</pre>
+{{ToonTabelVanElementID|id=verkeerdid}}
+
+</noinclude><includeonly><!--
+-->{{#vardefine: model|{{#ask: [[Object ID_nl::{{{modelid}}}]]|link=none }} }}<!--
+-->{{#vardefine: pagename
+    |{{#ask: [[Object ID::{{{id}}}]] 
+      {{#if: {{{modelid| }}}|[[Occurs in model.Object ID::{{{modelid}}}]] }} 
+      |link=none
+     }} 
+   }}<!--
+-->{{#if:{{#var:pagename}}|
+      <br /><B><big>[[{{#var:pagename}}]]</big></B>
+      <table class="TabelVanApplicatieComponent">
+        <tr>
+         <td>'''Beschrijving'''</td>
+         <td>{{#show: {{#var:pagename}}|?Documentation_nl}}</td>
+        </tr>
+        <tr>
+         <td>'''Toelichting'''</td>
+         <td>{{#show: {{#var:pagename}}|?Toelichting_nl}}</td>
+        </tr>
+        <tr>
+         <td>'''Services'''</td>
+         <td>
+            <!-- Alle ApplicationServices gerealiseerd door de referentiecomponent -->
+            <ul>{{#arraymap:
+                  {{#ask:
+                    [[Has source element::{{#var:pagename}}]]
+                    [[Elementtype::RealizationRelationship]]
+                    |?Has target element
+                    |format=plainlist|headers=hide|mainlabel=-|link=none
+                  }} |,|__applicationservice__
+                  |{{#ifeq: {{#show: __applicationservice__|?Elementtype|link=none}} | ApplicationService
+                    |<li>[[__applicationservice__]]: <!--
+                    -->{{#vardefine: aantal_sub_applicationservice
+                        |{{#ask: 
+                          [[Has source element::__applicationservice__]]
+                          [[Elementtype::AggregationRelationship]]
+                          |format=count
+                         }} 
+                       }}<!--
+                    -->{{#vardefine: applicationservice_GUID|{{#show: __applicationservice__|?Object ID_nl}} }}<!--
+                    -->{{#show: __applicationservice__|?Documentation_nl}}<!-- 
+                       Alle sub-applicatieservices
+                    --><ul>{{#arraymap:
+                            {{#ask: 
+                              [[Has source element::__applicationservice__]]
+                              [[Elementtype::AggregationRelationship]]
+                              |?Has target element
+                              |format=plainlist|headers=hide|mainlabel=-|link=none
+                            }}|,|__sub_applicationservice__
+                            |<li>
+                                [[__sub_applicationservice__]]: {{#show: __sub_applicationservice__|?Documentation_nl}}
+                             </li>|<nowiki> </nowiki>
+                           }}
+                        </ul>
+                     </li>
+                   }}|<nowiki> </nowiki> 
+                }}
+                <!--
+                BEGIN NIEUW STUK. vind helemaal niks???
+                -->{{#ifexpr: {{#var:aantal_sub_applicationservice}} = 0
+                      |{{#vardefine: ID
+                        |{{#ask:
+                            [[Object ID_nl::{{#var:applicationservice_GUID}}]] 
+                            [[Occurs in model.Semantictitle::GEMMA]]
+                            |link=none|headers=hide
+                         }} 
+                       }}
+                      <ul>
+                      {{#arraymap: 
+                        {{#ask: 
+                          [[Has source element::{{#var:ID}}]]
+                          [[Elementtype::AggregationRelationship]]
+                          |?Has target element
+                          |format=plainlist|headers=hide|mainlabel=-|link=none
+                        }}|,|qzq
+                        |<li>[[qzq]] ('''GEMMA kernmodel''') ({{#show: qzq|?Documentation_nl}})</li>|<nowiki> </nowiki> }}</ul> 
+                   }}
+                <!-- 
+                EINDE NIEUW STUK 
+                -->
+        </ul></td>
+        </tr>
+      </table>
+
+      |<font color="red">'''LET OP: {{{id|}}} NIET GEVONDEN'''. Ga naar [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element]] om te zoeken naar het juiste Id</font>
+   }}</includeonly>

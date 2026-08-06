@@ -1,0 +1,12 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit sjabloon is onderdeel van archivering GEMMA online. 
+Gebruik dit sjabloon om aan te geven dat de inhoud van deze pagina verouderd kan zijn en er niet meer actief aan wordt gewerkt.  
+<pre>{{Banner mogelijk verouderd}}</pre>
+Dit geeft de volgende banner op de pagina weer.
+{{Banner mogelijk verouderd}}
+</noinclude><includeonly>
+<div class="ArchiefBanner" style="overflow: auto;">__NOEDITSECTION__<div class="archief_header"><h2>Let op: deze pagina is mogelijk verouderd</h2></div>
+Zie de [{{fullurl:{{FULLPAGENAME}}|action=history}} geschiedenis] van deze pagina voor laatste wijzigingen. Ontdek welke [[Overzichten redactiestatus|statussen van content]] er zijn en wat deze inhouden.<br>
+</div>
+</includeonly>

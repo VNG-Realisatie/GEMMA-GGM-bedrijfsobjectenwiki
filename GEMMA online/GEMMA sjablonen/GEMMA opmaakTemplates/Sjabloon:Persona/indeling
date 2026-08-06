@@ -1,0 +1,23 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit sjabloon bevat alle voor alle persona's geldende algemene teksten. 
+Include dit sjabloon in een persona pagina en geef de voor die persona specifieke teksten.
+<pre>
+{{Persona|
+<tekst van de quotes of het citaat>|
+<tekst van behoefte}}
+</pre>
+</noinclude><includeonly>
+__NOTOC__
+{{Quotes
+|{{{1|}}}
+}}
+===Algemeen===
+De volgende pagina's helpen mij om GEMMA beter te begrijpen:
+* [[Wat is GEMMA]]
+* [[Architectuurvisie]]
+* [[Strategie en motivatie]]
+
+===Behoeften===
+{{{2|}}}
+</includeonly>

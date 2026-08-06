@@ -1,0 +1,11 @@
+<noinclude>
+[[Categorie:GEMMA SmartCoreTemplates]]
+[[Categorie:GEMMA ArchiMedesEpilogues]]
+
+Wordt aangeroepen door alle #elementen (Begrippen, ArchiMate elementen, ..)
+
+</noinclude><includeonly><!--
+-->{{#ifeq: {{{Label_nl| }}}|||{{#set: Voorkeurslabel={{{Label_nl| }}} }} }}<!--
+-->{{#ifeq: {{{Documentation_nl| }}}|||{{#set: Definitie={{{Documentation_nl| }}} }} }}<!--
+-->{{#ifeq: {{{Documentation| }}}|||{{#set: Definitie={{{Documentation| }}} }} }}<!--
+--><!--BEGIN SLUITENDE DIV VOOR CIRRUSSEARCH UITSLUITING--></div><!--EINDE SLUITENDE DIV--></includeonly>

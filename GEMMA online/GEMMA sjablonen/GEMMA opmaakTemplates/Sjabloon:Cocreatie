@@ -1,0 +1,25 @@
+__NOTOC__<noinclude>
+[[Categorie:Kennismodel GEMMA 2.0]]
+[[Categorie:Beheer archivering]]
+[[Category:GEMMA opmaakTemplates]]</noinclude><includeonly><!-- 
+BEGIN META SCHERM
+-->{{#ifeq: {{SITENAME}}|GEMMA wiki|{{#ifeq:{{PAGENAME}}|Gemeentelijke Model Architectuur (GEMMA)||<!--{{#vardefine:nOfDaysEdited|{{getNrOfDaySinceLastEdit|pagename={{{PAGENAME|}}} }}}}-->{{#ifeq:{{{Cocreatiepublicatie|}}}{{{GEMMAOnlinebeheerder|}}}|||<div class="StatusBanner"><div class="hcolours smartbooks-exclude mw-collapsible mw-collapsed"><div id="toctitle"><b>METAGEGEVENS</b></div><div class="mw-collapsible-content"><ul><li> '''Paginastatus''': {{#ifeq:{{{Cocreatiepublicatie|}}}||''geen''|{{{Cocreatiepublicatie|}}}}}</li>
+<li> '''Redactiestatus''': {{#ifeq:{{{Redactiestatus|}}}||''geen''|{{{Redactiestatus|}}}}}</li><li>'''Beheerder van deze pagina''': <br/>{{#ifeq:{{{GEMMAOnlinebeheerder|}}}||''geen''|{{#arraymap:{{{GEMMAOnlinebeheerder|}}}|,|xqx|xqx: {{#vardefine: personen|{{#ask: [[Gebruiker:+]] [[Rol::xqx]]|?Naam|headers=hide|format=ul}}}}{{#ifeq: {{#var: personen}}||<br/>''geen personen toegekend''|{{#var: personen}} }} }} }}</li><li><b>Datum laatste wijziging:</b> {{#time: d-M-Y|{{REVISIONTIMESTAMP}}}}</li><li><b>Aantal dagen laatste wijziging: </b>{{getNrOfDaySinceLastEdit}} dagen</li></ul></div></div></div>}} }} }}<!--
+EINDE META SCHERM
+--><!--
+SET COCREATIE VARIABELEN
+-->{{#ifeq: {{{Cocreatiepublicatie|}}}{{{Nietpubliceren|}}}||
+
+{{#ifeq: {{SITENAME}}|GEMMA wiki|<div class="GemmaButtonIcon smartbooks-exclude ">[[bestand:red.png|10px|Wordt NIET gepubliceerd op GEMMA Online en, indien van toepassing, verwijderd|link=Speciaal:GegevensBewerken/Cocreatie/{{PAGENAME}}]]</div>}}
+{{#ifeq: {{SITENAME}}|GEMMA wiki|<div class="GEMMAOrphansHeader smartbooks-exclude ArchiefBanner">'''LET OP''': deze pagina wordt niet gepubliceerd op GEMMA online. Pas de [[Speciaal:FormEdit/Cocreatie/{{PAGENAME}}|publicatievariabelen]] aan om wel te publiceren. Als de pagina eerder was gepubliceerd, wordt deze verwijderd van de publicatieomgeving</div>}}
+|{{#arraymap: {{{Cocreatiepublicatie|}}}|,|xqx|{{#set: Cocreatiepublicatie=xqx}}{{#ifeq: xqx|Werkgroep|[[Categorie:Werkgroep]]}} <!--{{#set: Aantal dagen sinds laatste wijziging={{#var:nOfDaysEdited}} }}-->{{#ifeq: xqx|Cocreatie|[[Categorie:Cocreatie]]{{#ifeq: {{SITENAME}}|GEMMA wiki|<div class="GemmaButtonIcon smartbooks-exclude">[[bestand:green.png|10px|Wordt gepubliceerd op GEMMA Online|link=Speciaal:GegevensBewerken/Cocreatie/{{PAGENAME}}]]</div>}} }}{{#ifeq: xqx|On hold|[[Categorie:On hold]]{{#ifeq: {{SITENAME}}|GEMMA wiki|<div class="GemmaButtonIcon smartbooks-exclude">[[bestand:orange.png|10px|Wordt niet gepubliceerd op GEMMA Online om dat deze pagina 'On Hold' staat|link=Speciaal:GegevensBewerken/Cocreatie/{{PAGENAME}}]]</div>}} }}|}} }} {{#ifeq:{{{Nietpubliceren|}}}|Ja|[[Categorie:Niet publiceren]]{{#ifeq: {{SITENAME}}|GEMMA wiki|<div class="GemmaButtonIcon smartbooks-exclude">[[bestand:red.png|10px|Wordt NIET gepubliceerd op GEMMA Online|link=Speciaal:GegevensBewerken/Cocreatie/{{PAGENAME}}]]</div> }}{{#set:Nietpubliceren={{{Nietpubliceren|}}} }} }}{{#ifeq:{{{Redactiestatus|}}}||{{#ifeq: {{NAMESPACE}}||[[Categorie:Actueel]]{{#set:Redactiestatus=Actueel}} }}|[[Categorie:{{{Redactiestatus|}}}]]{{#set: Redactiestatus={{{Redactiestatus|}}} }} }}<!--
+EINDE SET COCREATIE VARIABELEN
+
+BEHEERDER REGISTREREN
+-->{{#arraymap:{{{GEMMAOnlinebeheerder|}}}|,|cqc|{{#set:GEMMAOnlinebeheerder=cqc}}|<nowiki></nowiki>}}<!--
+DENK MEE PAGINA (1x) REGISTREREN
+-->{{#ifeq: {{{DenkMeePagina|}}}|||{{#set:DenkMeePagina={{{DenkMeePagina|}}} }} }}{{#ifeq: {{{DenkMeeCategorie|}}}|||{{#set:DenkMeeCategorie={{{DenkMeeCategorie|}}} }} }}<!--
+DENK MEE PAGINA WEERGEVEN OP PAGINA
+-->{{#ifeq: {{{DenkMeePagina|}}}|||<div id="subtabtitledoc" class="smartbooks-exclude" style="margin-top:-3em;">[[{{{DenkMeePagina}}}|Denk mee]]</div>}}{{#ifeq: {{{Redactiestatus|}}}|Gearchiveerd|<div class="ArchiefBanner" style="overflow: auto;">__NOEDITSECTION__<div class="archief_header"><h2>Let op: deze pagina is mogelijk verouderd</h2></div>
+Deze pagina is al enige tijd inhoudelijk niet bijgewerkt. De informatie kan daardoor niet meer actueel zijn. Zie de [{{fullurl:{{FULLPAGENAME}}|action=history}} geschiedenis] van deze pagina voor laatste wijzigingen. Mogelijk is nieuwere informatie beschikbaar op bijvoorbeeld [https://www.noraonline.nl/wiki/Nederlandse_Overheid_Referentie_Architectuur_(NORA) NORA Online]<br>
+</div>}}<!--<div class="laatstbewerkt">Laatst bewerkt: {{#time: j F Y, H:i:s|{{REVISIONTIMESTAMP}}}} {{#ifeq: {{NAMESPACE}}|||(Naamruimte: {{NAMESPACE}}) }}--><br/></div></includeonly>

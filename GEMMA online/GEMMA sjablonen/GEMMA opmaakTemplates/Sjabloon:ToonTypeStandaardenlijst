@@ -1,0 +1,92 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Toon de GEMMA standaarden in een tabel die kan worden doorzocht, gefilterd en gesorteerd.
+
+Er kan een korte lijst getoond worden door te filteren op een in de GEMMA gedefinieerde groepering
+Parameter:
+* type: groep van standaarden 
+<!-- , geldige waarden API-standaarden, StUF-standaarden, Informatiemodellen -->
+** leeg is de default, dan worden alle standaarden getoond
+
+Gebruik één van onderstaande groepen:
+{{#ask: [[Categorie:Groupings]] 
+  [[Occurs in model.Semantictitle::GEMMA]]
+  [[-Has target element.Has source element.Semantictitle::GEMMA standaarden indeling]] 
+  |format=ul
+}}
+
+Voorbeeld
+<pre>{{ToonTypeStandaardenlijst
+  |type = Informatiemodellen
+}} </pre>
+</noinclude><!--
+
+
+--><includeonly>
+Scroll naar beneden voor een toelichting op de lijst.
+
+{{#ask: [[Categorie:Standaarden]]
+  [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+  <!-- [[Occurs in model.Semantictitle::GEMMA]] -->
+  {{#ifeq:{{{type| }}} ||| [[-Has target element.Has source element.Semantictitle::{{{type| }}}]] }}
+  |?=Standaard
+  |?Documentation#-=Definitie
+  |?Beheerder#-=Beheerder
+  |?GEMMA status#-=GEMMA status
+  |format=datatables
+  |limit=20
+  |offset=0
+  |link=all
+  |sort=Semanticsearch
+  |order=asc
+  |headers=show
+  |searchlabel=... meer resultaten
+  |sep=,&#32;
+  |prefix=none
+  |datatables-dom=tri <!-- https://datatables.net/reference/option/dom -->
+  |datatables-fixedHeader=true
+  |datatables-info=false
+  |datatables-lengthchange=1
+  |datatables-ordering=1
+  |datatables-paging=1
+  |datatables-searching=true
+  |datatables-pagingtype=full_numbers
+  |datatables-pagelength=200
+  |datatables-lengthmenu=200
+  |datatables-scroller.displaybuffer=200
+  |datatables-responsive=1
+  |datatables-searchpanes=1
+  |datatables-searchpanes.collapse=1
+  |datatables-searchPanes.initCollapsed=true
+  |datatables-searchpanes.columns=2,3
+  |datatables-searchpanes.threshold=0.6
+  |datatables-searchpanes.mincount=1
+}}
+
+De kolom '''GEMMA status''' in deze tabel geeft aan of de standaard ook wordt doorgegeven aan de Softwarecatalogus. Deze status wordt bepaald door VNG Realisatie:
+* <code>In ontwikkeling</code>: relevantie of volwassenheid van de standaard voor gemeenten nog niet vastgesteld
+* <code>In gebruik</code>: de standaard is relevant. 
+** Klik op de standaard om te zien voor welke referentiecomponenten de standaard voorgeschreven is. 
+** Deze informatie wordt gebruikt in de [http://www.softwarecatalogus.nl Softwarecatalogus] 
+* <code>Einde ondersteuning</code>: de standaard heeft in de GEMMA standaardenlijst gestaan, maar is opgevolgd door een andere standaard (bv. TMLO)
+
+Zie de [[toelichting GEMMA standaardenlijst]] voor meer informatie over de samenstelling van de lijst. Het overzicht standaarden is ook beschikbaar als {{#ask: [[Categorie:Standaarden]]
+[[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+ |mainlabel=-
+ |?Label#-=Standaard
+ |?Documentation#-=Definitie
+ |?Beheerder#-
+ |?GEMMA status#-
+ |?Object ID#-
+ |format=csv
+ |limit=250
+ |offset=0
+ |link=all
+ |sort=
+ |order=asc
+ |headers=show
+ |searchlabel=download in csv-formaat
+ |class=sortable wikitable smwtable
+ |prefix=none
+}}.
+</includeonly>

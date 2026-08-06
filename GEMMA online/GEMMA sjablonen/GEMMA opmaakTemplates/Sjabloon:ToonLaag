@@ -1,0 +1,11 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit sjabloon wordt gebruikt op de pagina [[GEMMA implicaties]].
+
+Sjabloon wordt aangeroepen voor het opmaken van een eigenschap in een tabel</noinclude><includeonly>* {{#switch: {{{1|}}}
+|1 = Grondslagen
+|2 = Organisatie
+|3 = Informatie
+|4 = Applicatie
+|5 = Netwerk
+| default = {{{1|}}} is geen geldig nummer}}</includeonly>

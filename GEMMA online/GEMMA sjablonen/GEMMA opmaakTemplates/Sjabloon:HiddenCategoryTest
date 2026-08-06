@@ -1,0 +1,37 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Gebruik dit sjabloon in een categorie-pagina. Het maakt de categorie 'hidden' op publicatie.
+
+Zie verder [https://redactie.gemmaonline.nl/wiki/Beheren_categorie%C3%ABn Beheren categorieën]
+<!-- Externe koppeling van gemaakt aangezien deze ook op productie komt en dan een rode link geeft -->
+
+Aanroep:
+<pre>
+{{HiddenCategory
+  | groep=<pages, collecties of archimedes>
+}}
+</pre>
+
+Alle op publicatie niet zichtbare categorieën:
+: <categorytree mode="all" depth="5" showcount="on" >VerborgenOpPublicatie</categorytree>
+
+</noinclude><includeonly>
+__HIDDENCAT__
+{{#ifeq: {{{groep| }}} | pages 
+  | [[Category:VerborgenOpPublicatie]]<!--
+  -->{{Letop|uitleg = Deze categorie is 'hidden' op publicatie}}
+  |{{#ifeq: {{{groep| }}} | collecties 
+      |[[Category:GEMMA collecties]]<!--
+      -->{{Letop|uitleg = De collecties categorieën zijn 'hidden' op publicatie
+Alle voor GEMMA aangepaste categorieën zijn opgenomen in de [[:Categorie:GEMMA collecties]]
+}}
+      |{{#ifeq: {{{groep| }}} | archimedes 
+          | [[Categorie:GEMMA ArchiMedes‎]]<!--
+          -->{{Letop|uitleg = De ArchiMedes categorieën worden op GEMMA online niet getoond (deze pagina bevat het magic word __HIDDENCAT__).
+
+Alle voor GEMMA aangepaste ArchiMedes sjablonen en categorieën zijn opgenomen in de [[:Categorie:GEMMA ArchiMedes‎]]}}
+          | '''Fout''': parameter groep={{{groep| }}}. Geldige waarden: pages, collecties of archimedes bevatten.
+       }}
+   }}
+}}
+</includeonly>

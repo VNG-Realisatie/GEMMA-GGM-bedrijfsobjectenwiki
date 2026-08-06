@@ -1,0 +1,237 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Tonen van een ArchiMate element in GEMMA opmaak
+* projectarchitectuur banner
+* toon alleen eigenschappen met informatie voor gebruiker
+* contextview bovenaan
+* aparte blokken voor elementeigenschappen, -relaties en -views
+
+Dit sjabloon wordt gebruikt in plaats van het standaard SmartConnectArchiMate™ [[Sjabloon:DisplayArchiMateElement]].
+
+</noinclude><includeonly><!--
+-->__NOCACHE____NOTOC____NOEDITSECTION__<!--
+
+Keus wel of geen breadcrumbs
+-->{{#displayArchiMateBreadcrumbs:page={{FULLPAGENAME}}|model={{{Occurs in model| }}}|elementtype={{{Elementtype| }}} }}<!--
+
+Zetten van categorieen
+
+-->
+[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]
+[[Category:ArchiMateElements]]
+[[Category:{{#getArchiMateLayer:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }}]]
+[[Category:{{#getArchiMateAspect:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }}]]<!--
+-->{{#if:{{{Occurs in model| }}}|[[Category:ArchiMateModel {{{Occurs in model| }}}]]}}<!--
+-->{{#vardefine: modelid|{{#show: {{{Occurs in model| }}}|?Object ID}} }}<!--
+
+Projectarchitectuur banner
+
+  Als het object onderdeel is van een projectmodel, dan banner tonen
+-->{{#ifeq: {{#ask: [[-Occurs in model::{{PAGENAME}}]]|mainlabel=-|headers=hide|?Type model}}
+      |Projectmodel
+      | {{#vardefine: object|{{#ask: [[Object ID::{{{Object ID| }}}]] [[Occurs in model.Semantictitle::GEMMA]]|link=none}} }}<!--
+      -->
+      <div class="GEMMAOrphansHeader">
+        [[file:notice.png|40px|right|link=]] Let op. Dit element is onderdeel van de projectarchitectuur [[{{{Occurs in model| }}}]] {{#ifeq: {{#var:object}} ||en bestaat niet in de GEMMA|en is een kopie van het GEMMA object [[{{#var:object}}]]}} <br /><br />
+      </div>
+   }}<!--
+
+Start blok
+
+--><div class="scam-row">
+    <!-- <div class="scam-inline-block-66 scam-display-left scam-display-inline-block scam-block-heading" style="width:auto;"> -->
+    <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
+
+Toon context-view
+    
+  -->{{CreateDisplayBox|auto|2px|{{int:scam-tx-context-diagram}}|
+      <center>{{#displayArchiMateDiagram:page={{FULLPAGENAME}}|elementtype={{{Elementtype| }}}}}</center>
+      }}<!--
+
+Toon eigenschappen van het element
+
+        {{CreateDisplayBox
+          |width
+          |margin
+          |title text
+          |content text
+          |optional text for second column
+          |optional link to an image to display in the top right corner of the body
+        }}-->
+        <!-- |{{int:scam-am-element}} {{#ifeq: {{{GEMMA type| }}}|Geen|{{{Elementtype| }}}|{{{GEMMA type| }}} }} -->
+      {{CreateDisplayBox|auto|2px|Eigenschappen
+        <!-- |<table class="TabelVanApplicatieComponent"> -->
+        |<table>
+          <tr>
+            <!-- <td>'''{{int:scam-pr-label}}'''</td> -->
+            <!-- <td style="width:25%;">'''Naam'''</td> -->
+            <td>'''Naam'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{{Label| }}}</td>
+          </tr>
+          <tr>
+            <!-- <td>'''{{int:scam-pr-documentation}}'''</td> -->
+            <td>'''Definitie'''</td>  
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{{Documentation| }}}</td>
+          </tr>
+          {{#if:{{{Toelichting| }}}
+          |<tr>
+            <td>'''Toelichting'''</td>  
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{{Toelichting| }}}</td>
+          </tr>
+          }}
+          {{#if:{{{GEMMA type| }}}
+          |<tr>
+            <td>'''GEMMA type'''</td>  
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{{GEMMA type| }}}</td>
+          </tr>
+          }}
+          <tr>
+            <td>'''{{int:scam-pr-elementtype}}'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>[[DisplayArchiMateGlossary#{{{Elementtype| }}}|{{{Elementtype| }}} ]]</td>
+          </tr>
+          <!-- {{#if:{{{GEMMA status| }}}
+          |<tr>
+            <td>'''GEMMA status'''</td>  
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{{GEMMA status| }}}</td>
+          </tr>
+          }} -->
+          <!-- Custom properties Set en Tonen -->
+          {{#arraymap:{{{CustomProperties| }}}|,|__property__
+            |{{#set:{{ucfirst:__property__ }}={{{ {{ucfirst:__property__}}| }}} }}<!--
+          -->{{#if:{{{ {{ucfirst:__property__}}| }}}
+              |<tr {{#switch: __property__
+                      |Object ID 
+                      |Object ID_nl 
+                      |Object ID nl 
+                      |Original ID 
+                      |Uml-type
+                      |Gemma-guid
+                      |Datum-tijd-export
+                      |Ggm-guid
+                      |Business Object
+                      |Ggm-naam
+                      |Ggm-definition
+                      |Lc_name
+                      |Toelichting
+                      |BIV score BBN
+                      |Beschikbaarheid
+                      |Integriteit
+                      |Vertrouwelijkheid
+                      |GEMMA type
+                      |GEMMA status
+                      |Type URI
+                      |Semanticsearch=style="display:none;" | #default=TEST 
+                  }}>
+              <!-- |<tr> -->
+                <td>'''{{ucfirst:__property__}}'''</td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>{{{ {{ucfirst:__property__}}| }}}</td>
+              </tr>
+             }}
+             | <nowiki /> 
+          }}
+        </table>
+        ||{{#displayArchiMateIcon:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }} 
+      }}<!--
+
+Toon relaties
+
+  -->{{CreateDisplayBox|auto|2px|{{int:scam-am-relationships-short}}
+        |<table>
+            <tr>
+              <td>'''Uitgaand'''</td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                <ul>
+                  {{#arraymap:
+                    {{#ask:[[Category:ArchiMateRelationships]][[Has source element::{{FULLPAGENAME}}]]
+                      |format=plainlist|headers=hide|link=none|limit=500
+                    }}|,|__relation__
+                    |<li>
+                    <!-- {{FormatRelationshipName|Id|Source|Target|Relationship type}} -->
+                        {{FormatRelationshipNameCustom
+                          |Id=__relation__
+                          |Source=[[{{FULLPAGENAME}}]]
+                          |Target=[[{{ #show:__relation__|?Has target element# }}]]
+                          |Relationship type={{ #show:__relation__|?Elementtype# }} 
+                        }}
+                    </li>| <nowiki />
+                  }}
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <td>'''Inkomend'''</td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                <ul>
+                  {{#arraymap:
+                    {{#ask:[[Category:ArchiMateRelationships]][[Has target element::{{FULLPAGENAME}}]]
+                      |format=plainlist|headers=hide|link=none|limit=500
+                    }}
+                    |,|__relation__
+                    |<li>
+                        {{FormatRelationshipNameCustom
+                          |Id=__relation__
+                          |Source=[[{{#show:__relation__|?Has source element#}}]]
+                          |Target=[[{{FULLPAGENAME}}]]
+                          |Relationship type={{ #show:__relation__|?Elementtype# }} 
+                        }}
+                    </li>| <nowiki />
+                  }}
+                </ul>
+              </td>
+            </tr>
+          </table>
+        }}<!--
+
+Toon views
+
+   -->{{CreateDisplayBox|auto|2px|{{int:scam-am-views}}
+         |<table>
+            <tr>
+              <td>'''Komt voor op'''</td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td> ''ArchiMate views:''
+                {{#ask:
+                  [[Category:ArchiMateViews]]
+                  [[-Occurs in view.Refers to element::{{FULLPAGENAME}}]]
+                  |sort=Semantictitle|format=ul|headers=hide|link=all|limit=500
+                }}
+              </td>
+            </tr>
+          </table>
+      }}
+    </div> 
+  </div><!--
+
+Toon analyse - wat doet dit?
+
+-->{{#if:{{#vardefineecho:analyses
+          |{{#listArchiMateAnalyses:elementtype={{{Elementtype| }}}
+              |archimateversion={{{ArchiMateVersion| }}}
+              |element={{FULLPAGENAME}}
+           }}
+         }}
+      | <div class="scam-inline-block-33 scam-display-right scam-display-inline-block scam-block-heading">
+          {{CreateDisplayBox|auto|2px|{{int:scam-tx-list-of-analyses-box-title}}|
+          <ul>
+            {{#arraymap:{{#var:analyses}}|,|__item__|
+            <li>
+              <span class="plainlinks">
+                [{{fullurl:DisplayArchiMateAnalysis|analysis={{urlencode:__item__}}&element={{FULLPAGENAME}}&archimateversion={{{ArchiMateVersion| }}} }} {{int:scam-an-__item__}}]
+              </span>
+            </li>
+            |}}
+          </ul>
+          }}
+        </div>
+    }}<!--
+
+--></includeonly>

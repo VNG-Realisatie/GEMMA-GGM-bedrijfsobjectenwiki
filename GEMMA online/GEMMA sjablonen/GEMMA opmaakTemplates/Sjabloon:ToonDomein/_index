@@ -1,0 +1,14 @@
+[[Category:GEMMA opmaakTemplates]]
+Set van templates voor het tonen van de views en tabellen op de domeinarchitectuur pagina's
+
+Dit '''{{FULLPAGENAME}}''' is de root van de subpages:
+{{Special:PrefixIndex/{{FULLPAGENAME}}/}}
+
+Gebruik de onderstaande sjablonen voor het tonen van een applicatieservices-view en -tabel:
+{{Special:PrefixIndex/sjabloon:ToonDomein/Applicatieservices}}
+
+En idem voor bedrijfsfuncties:
+{{Special:PrefixIndex/sjabloon:ToonDomein/Bedrijfsfuncties}}
+
+Het [[:sjabloon:ToonDomein/Referentiecomponent]] toont een referentiecomponent met beschrijving en voorgeschreven standaarden in zowel een applicatieservices- of bedrijfsfunctiestabel
+<br><br>

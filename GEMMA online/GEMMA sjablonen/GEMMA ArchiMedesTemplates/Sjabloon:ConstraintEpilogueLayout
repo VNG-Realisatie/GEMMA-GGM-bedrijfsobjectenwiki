@@ -1,0 +1,24 @@
+<!--TS:20201202212752--><noinclude>[[Categorie:GEMMA ArchiMedesTemplates]]</noinclude><!--
+--><includeonly><!--
+-->{{#ifeq: {{{SWC type| }}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{GEMMA type| }}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{SWC type| }}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{GEMMA type| }}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{SWC subtype| }}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle| }}}]]}}<!--
+-->{{#ifeq: {{{GEMMA subtype| }}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle| }}}]]}}<!--
+-->{{#vardefine: stURL| {{{Standaard URL| }}} }}<!--
+-->{{#vardefine: lenSub|{{#expr:  {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+-->{{#vardefine: startSub|{{#expr:  {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+-->{{#vardefine: newURL| {{#sub:  {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+-->{{#set: Standaard URL={{#var: newURL}} }}<!--
+-->{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL| }}} }}<!--
+-->{{#vardefine: lenSub|{{#expr:  {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+-->{{#vardefine: startSub|{{#expr:  {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+-->{{#vardefine: newURL| {{#sub:  {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+-->{{#set: Standaard Compliancy Instrument URL={{#var: newURL}} }}<!--
+-->{{#set:lc_URL_nl={{lc:{{{URL_nl| }}} }} }}<!--
+-->{{#set: GEMMA status::{{{Status| }}} }}<!--
+
+In het model heeft een standaardversie een GEMMA status. Waar komt de Status hier vandaan?
+-->{{#ifeq: {{{GEMMA type| }}}|Standaardversie|{{#set: GEMMA status={{{Status| }}} }} }}
+</includeonly>

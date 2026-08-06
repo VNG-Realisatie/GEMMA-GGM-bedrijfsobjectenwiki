@@ -1,0 +1,165 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toon een view aangewezen met de naam of GUID uit een ArchiMate-model.
+
+Dit sjabloon vervangt het [[:sjabloon:ToonView]] dat meekomt met de SWCAPI-extensie. Wijzigingen in dit sjabloon
+* geen gebruik van de ArchiMedes displaybox aan (niet mooi op een pagina)
+* extra parameter voor instellen maxwidth
+* bijschrift zonder link naar ArchiMedes-pagina
+
+{| class="wikitable" style="margin:auto"
+|-
+! parameters !! Toelichting
+|-
+| '''viewnaam'''=<string> of '''viewid'''=<GUID> of '''viewpage'''=<string> || welke view tonen
+|-
+| '''model'''=<string> of '''modelid'''=<GUID> || uit welk model
+|-
+| '''maxwidth'''=<integer> || Optioneel - the maximum width in pixels of the diagram
+|-
+| '''nolinks'''=true   ||  Optioneel - disable any links in the diagram
+|- 
+| '''documentatie'''=false ||  Optioneel - toon documentatie van de view als caption (overruled label)
+|- 
+| '''label'''=<string> ||  Optioneel - display caption (overruled by documentatie)
+<!--
+|- 
+| customproperty=<string> ||  The name of the customproperty to use as default color scheme
+|-
+| nopanel=true   ||Display diagram only. Hides the legend panel to avoid users changing the color scheme
+-->
+|}
+
+=== Voorbeelden === 
+
+'''Opzoeken view op naam'''
+<PRE>
+{{ToonViewGEMMA
+  |viewnaam=Architectuurprincipes
+  |model=GEMMA
+}}
+</PRE>
+'''Opzoeken view met ID's'''</br>
+Deze aanpak heeft de voorkeur. Als je de eerste methode kiest en de namen wijzigen, werk de toepassing van het sjabloon niet goed meer.
+<PRE>
+{{ToonViewGEMMA
+  |viewid=b352183a-90cc-44fc-81c0-c322ed7fe1e7
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}
+</PRE>
+
+'''Gebruik pagename'''
+<PRE>
+{{ToonViewGEMMA
+  |viewpage=GEMMA/id-8c2cf498-380a-4fc1-b8ce-becf802d6371
+}}
+</PRE>
+
+'''Voorbeeld aanroep met daaronder het resultaat'''
+
+<PRE>
+{{ToonViewGEMMA
+  |viewid=c512705a-8cd9-46ac-922d-35966bc6961e
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |documentatie=true
+}}
+</PRE>
+{{ToonViewGEMMA
+  |viewid=c512705a-8cd9-46ac-922d-35966bc6961e
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |documentatie=true
+}}
+
+'''Voorbeeld tonen kleine view rechts van tekst'''
+<PRE>
+<div style="float:right;padding-left:20px;padding-bottom:20px;">
+  {{ToonViewGEMMA
+    |viewid=2492f6d6-f59a-4705-8392-429ba6e95798
+    |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+    |maxwidth=25em
+    |nolinks=true
+    |label=Aanvragen van een product
+  }}
+</div>
+</PRE>
+The float property is used for positioning and formatting content e.g. let an image float right to the text in a container.
+
+<div style="float:right;padding-left:20px;padding-bottom:20px;">
+{{ToonViewGEMMA
+|viewid=2492f6d6-f59a-4705-8392-429ba6e95798
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|nolinks=true
+|maxwidth=25em
+|label=Aanvragen van een product
+}}
+</div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac...
+
+<div>
+Ga naar [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element|Zoek element]] voor een zoekformulier met als resultaat ingevulde sjablonen voor alle views en elementen.
+</div>
+</noinclude><includeonly>
+{{#if: {{{viewpage| }}} |{{#vardefine: viewpagename |  {{{viewpage| }}} }}
+  | <!-- OPZOEKEN VIEW OP NAAM
+    -->{{#if: {{{model| }}}
+        |{{#vardefine: model|{{#ask: [[Semantictitle::{{{model}}}]] [[Elementtype::ArchiMateModel]]|link=none }} }}<!--
+        -->{{#vardefine: viewpagename
+              |{{#ask: [[Semantictitle::{{{viewnaam}}}]] [[Elementtype::ArchiMateView]] {{#if: {{{model| }}}|[[Occurs in model::{{#var:model|}}]] }}
+                  |link=none
+              }}
+          }}
+      }}<!-- 
+
+    OPZOEKEN VIEW MET ID'S
+    -->{{#if: {{{modelid| }}}
+          |{{#vardefine: model|{{#ask: [[Object ID::{{{modelid}}}]]|link=none }} }}<!--
+        -->{{#vardefine: viewaantal
+              |{{#ask: [[Object ID::{{{viewid}}}]] [[Elementtype::ArchiMateView]] 
+                      {{#if: {{{modelid| }}}|[[Occurs in model.Object ID::{{{modelid| }}}]] }}
+                      |format=count |link=none
+                }}
+          }}<!--
+        -->{{#vardefine: viewpagename
+              |{{#ask: [[Object ID::{{{viewid}}}]]
+                      [[Elementtype::ArchiMateView]]
+                      [[-Occurs in view::+]]
+                      {{#if: {{{modelid| }}}|[[Occurs in model.Object ID::{{{modelid| }}}]] }} 
+                |link=none}} 
+            }}
+        }}
+}}<!--
+
+Rechtstreeks aanroepen van de ArchiMedes php extensie (met #) 
+{{#DisplayArchiMateDiagram:page={{#var: viewpagename}}
+    |maxwidth={{{maxwidth| }}}
+    |nolinks={{{nolinks| }}}
+}}
+
+{{DisplayArchiMateDiagram
+|page=<string>           - The exact name or displaytitle of the page corresponding with the ArchiMateView to display (mandatory)
+|customproperty=<string> - The name of the customproperty to use as default color scheme (optional)
+|maxwidth=<integer>      - The maximum width in pixels of the diagram (optional)
+|nolinks=true            - Disable any links in the diagram (optional)
+|nopanel=true            - Display diagram only. Hides the legend panel to avoid users changing the color scheme (optional)
+}}
+
+-->{{#ifexist:{{#var: viewpagename}}
+      <!-- |<center><noglossary>{{#displayArchiMateViewDiagram:view={{#var: viewpagename}}  }}</noglossary></center>-->
+      |<center>{{#DisplayArchiMateDiagram:page={{#var: viewpagename}}
+          |maxwidth={{{maxwidth| }}}
+          |nolinks={{{nolinks| }}}
+        }}</center>
+        <!-- <center><noglossary>{{DisplayArchiMateDiagram
+          |page={{#var: viewpagename}}
+          |maxwidth={{{maxwidth| }}}
+          |nolinks={{{nolinks|false}}}
+          |customproperty={{{customproperty|}}}
+          |nopanel={{{nopanel| true}}}
+        }}</noglossary></center>--><!--
+      --><center><small>''{{#ifeq: {{{documentatie|false}}} | true
+          |  {{#show: {{#var: viewpagename}} | ?Documentation }} 
+          | {{#if: {{{label| }}} | {{{label| }}} }}
+          }} [{{#DisplayArchiMateViewURL:|view={{#var: viewpagename}} }} (open view in nieuw venster)]''</small></center>
+      |{{{modelid| }}}<font color="red">Opgegeven view ''{{{viewnaam| }}}{{{viewid| }}} ({{#var: viewaantal}} view(s) gevonden: {{#var: viewpagename}})'' bestaat niet. Ga naar [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element|Zoek element]] om te zoeken naar views met daarbij als resultaat ingevulde sjablonen voor gevonden views. {{#ifexist: {{#var: viewpagename}}|Of ga naar de view om te refreshen: [[{{#var: viewpagename}}]] }}</font>
+   }}<!--
+--></includeonly>

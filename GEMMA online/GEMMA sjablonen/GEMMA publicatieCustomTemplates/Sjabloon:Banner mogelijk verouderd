@@ -1,0 +1,17 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+[[Category:GEMMA publicatieCustomTemplates]]
+Dit sjabloon is onderdeel van archivering GEMMA online.
+Gebruik dit sjabloon om aan te geven dat de inhoud van deze pagina verouderd kan zijn en er niet meer actief aan wordt gewerkt.
+<pre>{{Banner mogelijk verouderd}}</pre>
+Dit geeft de volgende banner op de pagina weer.
+{{Banner mogelijk verouderd}}
+</noinclude><includeonly>
+__NOEDITSECTION__
+<div class="ArchiefBanner" style="overflow: auto;">
+<div class="archief_header">
+<font size="+1">'''Let op: deze pagina is mogelijk verouderd'''</font>
+</div>
+Deze pagina is al enige tijd inhoudelijk niet bijgewerkt. De informatie kan daardoor niet meer actueel zijn. Zie de [{{fullurl:{{FULLPAGENAME}}|action=history}} geschiedenis] voor de laatste wijzigingen. Mogelijk is nieuwere informatie beschikbaar op andere pagina’s bijvoorbeeld [https://www.noraonline.nl/wiki/Nederlandse_Overheid_Referentie_Architectuur_(NORA) NORA Online].
+</div>
+</includeonly>

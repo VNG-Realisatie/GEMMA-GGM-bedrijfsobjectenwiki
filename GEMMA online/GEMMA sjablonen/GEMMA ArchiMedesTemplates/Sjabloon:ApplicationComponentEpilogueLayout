@@ -1,0 +1,12 @@
+<!--TS:20240429081500--><noinclude>[[Categorie:GEMMA ArchiMedesTemplates]]
+* [[Template:ApplicationComponentEpilogue]] dit is geen generieke functie
+** functioneel gelijk [[Template:ApplicationComponentEpilogueCustom]] aangemaakt. 
+** Maakt voor SWC type=Landelijke voorziening (zou '''verwijderd kunnen worden'''), maar 
+** GEMMA type=Buitengemeentelijke voorziening
+</noinclude><!--
+--><includeonly><!--
+-->{{#ifeq: {{{SWC type| }}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{SWC type| }}}|Landelijke voorziening|[[Categorie:Landelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{GEMMA type| }}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+-->{{#ifeq: {{{GEMMA type| }}}|Buitengemeentelijke voorziening|[[Categorie:Buitengemeentelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+--></includeonly>

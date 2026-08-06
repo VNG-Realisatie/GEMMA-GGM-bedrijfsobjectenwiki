@@ -1,0 +1,53 @@
+<noinclude>[[Categorie:GEMMA ArchiMedesTemplates]]</noinclude><includeonly>
+         <table> 
+            <tr>
+              <!-- <td style="width:25%;">'''Uitgaand'''</td> -->
+              <td>'''Uitgaand'''</td> 
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                <ul>
+                  {{#arraymap:
+                    {{#ask:[[Category:ArchiMateRelationships]][[Has source element::{{FULLPAGENAME}}]]
+                      |format=plainlist|headers=hide|link=none|limit=500
+                    }}|,|__relation__
+                    |<li>
+                    <!-- {{FormatRelationshipName|Id|Source|Target|Relationship type}} -->
+                        {{FormatRelationshipNameCustom
+                          |Id=__relation__
+                          |Label={{ #show:__relation__|?Label# }} 
+                          |Source=[[{{FULLPAGENAME}}]]
+                          |Target=[[{{ #show:__relation__|?Has target element# }}]]
+                          |Relationship type={{ #show:__relation__|?Elementtype# }} 
+                        }}
+                    </li>| <nowiki />
+                  }}
+                </ul>
+              </td>
+            </tr>
+            <tr>  {{#ifexpr: {{#ask:[[Category:ArchiMateRelationships]][[Has target element::{{FULLPAGENAME}}]][[Elementtype!:AssociationRelationship]]
+                      |format=count}} > 0|
+              <td>'''Inkomend'''</td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                <ul>
+                  {{#arraymap:
+                    {{#ask:[[Category:ArchiMateRelationships]][[Has target element::{{FULLPAGENAME}}]][[Elementtype!:AssociationRelationship]]
+                      |format=plainlist|headers=hide|link=none|limit=500
+                    }}
+                    |,|__relation__
+                    |<li>
+                        {{FormatRelationshipNameCustom
+                          |Id=__relation__
+                          |Label={{ #show:__relation__|?Label }} 
+                          |Source=[[{{#show:__relation__|?Has source element#}}]]
+                          |Target=[[{{FULLPAGENAME}}]]
+                          |Relationship type={{ #show:__relation__|?Elementtype# }} 
+                        }}
+                    </li>| <nowiki />
+                  }}
+                </ul>
+              </td>
+            }}</tr>
+    </td>
+</tr>
+</table></includeonly>

@@ -1,0 +1,29 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Opmaken van relatie
+
+Dit sjabloon wordt gebruikt in plaats van het standaard SmartConnectArchiMate™ [[Sjabloon:FormatRelationshipName]].
+
+<pre>
+{{FormatRelationshipName
+  |Id
+  |Label
+  |Source
+  |Target
+  |Relationship type
+}}
+</pre>
+
+</noinclude><includeonly><!--
+-->{{{Source|({{int:scam-tx-no-source}})}}}&nbsp;<!--
+-->{{#if:{{{Label| }}}
+      |'''{{ lc:{{{Label| }}} }}'''
+      |{{#if:{{{Relationship type| }}}
+          |'''{{int:scam-am-txt-{{ lc:{{{Relationship type| }}} }} }}'''
+          |=>}} 
+   }}&nbsp;<!--
+-->{{{Target|({{int:scam-tx-no-target}})}}}<!--
+   {{#if:{{{Relationship type| }}}
+      |&nbsp;([[{{{Id| }}}|{{{Relationship type| }}}]])
+   }}
+--></includeonly>

@@ -1,0 +1,21 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit sjabloon is om een stuk op een pagina onder de aandacht te brengen, zoals het gebruik van een praktijkervaring of interview. 
+<pre>{{Uitleg|uitleg = <uitleg>}}</pre>
+
+Voorbeeld:
+{{Uitleg|uitleg = Zo ziet een tekst in dit sjabloon eruit}}
+
+</noinclude><!-- 
+--><includeonly>
+<blockquote style="
+ color: #1a237e;
+ line-height:1.6rem;
+ background-color:#e8eaf6;
+ border: 0px solid;
+ border-color: #1a237e;
+ border-radius:0.25rem;
+ padding:0.9375rem 0.8125rem;
+ ">
+{{{uitleg}}}</blockquote>
+</includeonly>

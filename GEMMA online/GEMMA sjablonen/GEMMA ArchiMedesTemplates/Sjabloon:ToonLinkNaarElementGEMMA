@@ -1,0 +1,40 @@
+<!--TS:20200327212752--><noinclude>
+[[Category:GEMMA ArchiMedesTemplates]]
+Dit sjabloon vervangt het [[:sjabloon:ToonLinkNaarElement]] uit de SWCAPI extensie.
+
+Meer generieke doorontwikkeling in [[:sjabloon:ToonElement]] 
+
+==Voorbeelden ==
+Toont de link naar een element. Combinaties van parameters zijn mogelijk.
+
+* Eenvoudige link naar een ArchiMedes pagina met deze naam.
+<PRE>
+{{ToonLinkNaarElementGEMMA
+  |id=96f66a08-8e0b-4602-944b-73ca3ba659f2
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 
+}}
+</PRE>
+:Voorbeeld: {{ToonLinkNaarElementGEMMA|id=96f66a08-8e0b-4602-944b-73ca3ba659f2|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418 }}
+
+* Link naar een ArchiMedes pagina, waarvan de link een andere tekst moet krijgen
+<PRE>
+{{ToonLinkNaarElementGEMMA
+  |id=96f66a08-8e0b-4602-944b-73ca3ba659f2
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |toonals=Mijn gemeente
+}}
+</PRE>
+:Voorbeeld: {{ToonLinkNaarElementGEMMA|id=96f66a08-8e0b-4602-944b-73ca3ba659f2|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418|toonals=Mijn gemeente}}
+
+* Foutmelding:
+<PRE>
+{{ToonLinkNaarElementGEMMA|id=verkeerid}}
+</PRE>
+: Voorbeeld: {{ToonLinkNaarElementGEMMA|id=verkeerdid}}
+</noinclude><includeonly><!--
+KIJK EERST NAAR DE VIEWS
+-->{{#vardefine: pagename|{{#ask: [[Object ID::{{{id}}}]] {{#if: {{{modelid|}}}|[[Occurs in model.Object ID::{{{modelid}}}]] }}[[-Occurs in view::+]]|link=none}} }}<!--
+INDIEN GEEN VIEW
+-->{{#if:{{#var:pagename}}||{{#vardefine: pagename|{{#ask: [[Object ID::{{{id}}}]] {{#if: {{{modelid|}}}|[[Occurs in model.Object ID::{{{modelid}}}]] }}|link=none}} }} }}<!--
+EINDE CHECK
+-->{{#if:{{#var:pagename}}|[[{{#var:pagename}}{{#if:{{{toonals|}}}|{{!}}{{{toonals|}}}}}]]|<font color="red">'''LET OP: {{{id|}}} NIET GEVONDEN'''. Kijk op [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element|Zoek element]] om te zoeken naar het juiste Id</font>}}</includeonly>

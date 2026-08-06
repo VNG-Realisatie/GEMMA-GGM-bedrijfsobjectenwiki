@@ -1,0 +1,58 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Selecteren en opmaken van een regel in de principelijst
+
+Dit is een template sjabloon, aangeroepen vanuit de pagina [[:Architectuurprincipes]]
+</noinclude><includeonly>
+<tr>
+<td>[[{{{Principe}}}]]<br/>{{{ID}}}<br/><br/>Bron: {{{Heeft bron}}}
+</td>
+<td>'''Stelling'''<br>
+{{{Stelling}}}
+
+'''Rationale'''<br>
+{{{Rationale}}}
+
+{{#if: {{{GEMMA-toelichting| }}} 
+| '''GEMMA toelichting'''<br>
+{{{GEMMA-toelichting}}}<br><br>
+}}<!-- 
+
+Principes die hierop voortbouwen 
+-->{{#ask: [[Elementtype::AssociationRelationship]] 
+        [[Has source element::{{{Principe| }}}]] 
+ |?Has target element
+ |?Documentation
+ |format=ul
+ |limit=50
+ |sort=-Has target element.Semantictitle
+ |order=asc
+ |headers=hide
+ |mainlabel=-
+<!-- |intro='''Gerelateerd''' -->
+ |intro='''Gerelateerde principes'''
+ }}<!-- 
+
+Draagt bij aan kwaliteitsdoelen 
+
+-->{{#ask: [[Elementtype::RealizationRelationship ]] 
+        [[Has source element::{{{Principe| }}}]] 
+        [[Has target element.GEMMA type::Kwaliteitsdoel]] 
+        [[Occurs in model.Object ID::2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+<!-- [[Has source element::GEMMA/id-278ddba7-c25f-4a49-b6f2-63b604dcf67c]]  -->
+ |?Has target element
+ |?Has target element.ID
+ |format=ul
+ |limit=50
+ |sort=-Has target element.ID
+ |order=asc
+ |headers=hide
+ |mainlabel=-
+ |intro=<br>'''Draagt bij aan kwaliteitsdoelen'''
+ }}
+</td>
+<td>'''Implicaties'''<br>
+{{{Implicaties}}}
+</td>
+</tr>
+</includeonly>

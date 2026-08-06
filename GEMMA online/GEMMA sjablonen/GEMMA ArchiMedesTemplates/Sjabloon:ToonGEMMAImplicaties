@@ -1,0 +1,47 @@
+<noinclude>
+[[Category:GEMMA ArchiMedesTemplates‎]]
+Wordt gebruikt in tabel op pagina [[GEMMA implicaties]]
+</noinclude><includeonly>
+<!--
+<tr>
+<th>ID</th>
+<th>GEMMA Implicatie</th>
+<th>Hoort bij</th>
+<th>Laag binnen NORA-vijflaagsmodel</th>
+</tr>
+-->
+<tr>
+<td>{{{1| }}}</td>
+<td>[[{{{2| }}}]]<br>{{{3| }}}</td>
+<td>{{#vardefine:previousType|startWaarde}}<!--
+-->{{#arraymap:
+  {{#ask: [[Occurs in model.Object ID::2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+          [[-Has target element.Has source element::{{{2| }}}]]
+    |?GEMMA type=
+    |mainlabel=-
+    |format=plainlist
+    |sort=GEMMA type
+    |order=asc
+  }} |,|__GEMMA_type__
+  |{{#ifeq: __GEMMA_type__| {{#var:previousType}} |<!-- skip --> 
+    | __GEMMA_type__ 
+    <ul>
+      {{#ask: [[Occurs in model.Object ID::2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+              [[-Has target element.Has source element::{{{2| }}}]]
+              [[GEMMA type::__GEMMA_type__]]
+          |?
+          |?ID
+          |format=template
+          |template=ToonGEMMAImplicatiesHoortBij
+          |sort=ID
+          |order=asc
+      }}
+    </ul>
+   }}
+  {{#vardefine:previousType|__GEMMA_type__}}
+  |<nowiki/>
+}}
+</td>
+<td>{{{4| }}}</td>
+</tr>
+</includeonly>

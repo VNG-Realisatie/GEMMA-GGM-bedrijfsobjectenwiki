@@ -1,0 +1,45 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit is maatwerk voor het project Omgevingswet.
+
+Wordt gebruikt in combinatie met BoekExport
+
+Nog verder uit te zoeken
+
+</noinclude><includeonly><!-- BEPAAL OF JE NIET OP EEN GEGENEREERDE TOTAAL PAGINA ZIT -->{{#vardefine: suffix| {{#sub:{{PAGENAME}}|{{#expr: {{#len:{{PAGENAME}} }} - 8}} | 8 }} }}{{#ifeq:{{#var:suffix}}|compleet||<br/>
+{{#vardefine: CurrReport| {{#ask: [[BoekExportPaginanaam::{{PAGENAME}}]]|link=none |mainlabel=-|?Paginanaam|headers=hide|limit=100}} 
+}}{{#vardefine: HoofdstukNr| {{#ask:
+ [[-Has subobject::{{#var:CurrReport}}]] [[BoekExportPaginanaam::{{PAGENAME}}]]
+|mainlabel=-
+|headers=hide
+|?BoekExportHoofdstuknr
+}} 
+}}{{#vardefine: VorigHoofdstukNr | {{#expr: {{#var: HoofdstukNr}} - 1 }} }}{{#vardefine: VolgendHoofdstukNr | {{#expr: {{#var: HoofdstukNr}} + 1 }} }}{{#vardefine: VorigHoofdstuk|{{#ask:
+ [[-Has subobject::{{#var:CurrReport}}]] [[BoekExportHoofdstuknr::{{#var: VorigHoofdstukNr }}]]
+|mainlabel=-
+|headers=hide
+|link=none
+|?BoekExportPaginanaam
+}} }}{{#vardefine: TitelVorigHoofdstuk|{{#ask:
+ [[-Has subobject::{{#var:CurrReport}}]] [[BoekExportHoofdstuknr::{{#var: VorigHoofdstukNr }}]]
+|mainlabel=-
+|headers=hide
+|?BoekExportHoofdstuktitel
+}} }}{{#vardefine: VolgendHoofdstuk| {{#ask:
+ [[-Has subobject::{{#var:CurrReport}}]] [[BoekExportHoofdstuknr::{{#var: VolgendHoofdstukNr }}]]
+|mainlabel=-
+|headers=hide
+|link=none
+|?BoekExportPaginanaam
+}} }}{{#vardefine: TitelVolgendHoofdstuk|{{#ask:
+ [[-Has subobject::{{#var:CurrReport}}]] [[BoekExportHoofdstuknr::{{#var: VolgendHoofdstukNr }}]]
+|mainlabel=-
+|headers=hide
+|?BoekExportHoofdstuktitel
+}} }}{{#ifeq: {{#var: VorigHoofdstuk}}|||<div style="float:left">[[{{#var: VorigHoofdstuk}}|&#8592; {{#var: TitelVorigHoofdstuk}}]]</div>}}{{#ifeq: {{#var:VolgendHoofdstuk}}|||<div style="float:right;"> [[{{#var:VolgendHoofdstuk}}|{{#var:TitelVolgendHoofdstuk}} &#8594;]] </div>}}
+}}</includeonly>
+<!--
+ |?BoekExportHoofdstuknr
+ |?BoekExportHoofdstuktitel
+ |?BoekExportPaginanaam
+-->

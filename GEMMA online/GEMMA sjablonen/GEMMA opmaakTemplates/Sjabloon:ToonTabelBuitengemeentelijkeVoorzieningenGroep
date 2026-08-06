@@ -1,0 +1,35 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Haal met een query de buitengemeentelijke groepen op en toon van de groep de buitengemeentelijke voorzieningen
+
+Parameters
+* '''1''' - pagina van de groep
+* '''2''' - level in de hierarchie van de groep
+</noinclude><includeonly><!--
+-->{{#if: {{{1| }}}
+|<tr>
+    {{#ifexpr: (4 - {{{2}}}) > 0 | <td></td> }}{{#ifexpr: (3 - {{{2}}}) > 0 | <td></td> }}{{#ifexpr: (2 - {{{2}}}) > 0 | <td></td> }}
+    <td colspan="{{{2}}}">📂 [[{{{1}}}]]</td>
+    <td colspan="2">{{#show: {{{1}}} |?Documentation}}</td>
+ </tr>
+ {{#arraymap:
+   {{#ask: [[Elementtype::ApplicationComponent]]
+           [[-Has target element.Elementtype::AggregationRelationship]]
+           [[-Has target element.Has source element::{{{1}}}]]
+     |format=plainlist|link=none|headers=hide
+   }}
+   |,|__BG_Voorziening__|
+     <tr>
+       {{#ifexpr: (5 - {{{2}}}) > 0 | <td></td> }}{{#ifexpr: (4 - {{{2}}}) > 0 | <td></td> }}{{#ifexpr: (3 - {{{2}}}) > 0 | <td></td> }}
+       <td colspan="{{#expr:{{{2}}}-1}}"> [[__BG_Voorziening__]]</td>
+       <td>{{#show: __BG_Voorziening__ |?Documentation_nl}}</td>
+       <td>{{#ask: 
+               [[-Has target element.Has source element.-Has target element.Has source element::__BG_Voorziening__]]
+               [[Categorie:Standaarden]]
+               |format=ul
+           }}
+       </td>
+     </tr>
+   |\n
+ }}
+}}</includeonly>

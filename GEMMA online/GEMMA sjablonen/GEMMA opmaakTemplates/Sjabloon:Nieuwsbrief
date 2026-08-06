@@ -1,0 +1,18 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Dit sjabloon is om een overzicht te maken van bijvoorbeeld de nieuwsbrieven op [[GEMMA_nieuwsbrief]]. Het bestaat uit een brede kolom die voorzien is van een lichtblauwe achtergrond in de header en donkerblauwe tekst. De styling van het sjabloon staat in [[MediaWiki:Common.css]] onder .newstable
+In de kolom is ruimte voor een stukje tekst en een opsomming over onderwerp. 
+Gebruik daartoe de volgende code:
+<pre>{{Nieuwsbrief
+|jaar = <jaartal>
+| inhoud = <inhoud of opsomming van een lijst
+}}</pre>
+</noinclude>
+<includeonly>
+{| class="newstable"
+! {{{jaar|202x}}}
+|-
+| 
+{{{inhoud|}}}
+|}
+</includeonly>

@@ -1,0 +1,30 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toont de link naar een element. Combinaties van parameters zijn mogelijk.
+
+* Eenvoudige link naar een ArchiMedes pagina met deze naam.
+: <pre>{{ToonLinkNaarElement|model=GEMMA|naam=Sturing|elementtype=BusinessFunction}}</pre>
+: Resultaat: {{ToonLinkNaarElement|model=GEMMA|naam=Sturing|elementtype=BusinessFunction}}
+
+* Link naar een ArchiMedes pagina, waarvan de link een andere tekst moet krijgen
+: <pre>{{ToonLinkNaarElement|naam=BA01 Bedrijfsfunctiemodel|model=GEMMA|elementtype=ArchiMateView|toonals=bedrijfsfunctiemodel}}</pre>
+: Resultaat: {{ToonLinkNaarElement|model=GEMMA|naam=BA01 Bedrijfsfunctiemodel|toonals=bedrijfsfunctiemodel|elementtype=ArchiMateView}}
+
+</noinclude><includeonly><!--
+-->{{#if: {{{model| }}}
+    |{{#vardefine: model|{{#ask: [[Semantictitle::{{{model| }}}]] [[Elementtype::ArchiMateModel]]|link=none }} }} 
+   }}<!--
+-->{{#vardefine: pagename 
+    |{{#ask: [[Semantictitle::{{{naam}}}]] 
+            {{#if: {{{model| }}}|[[Occurs in model::{{#var:model}}]] }} 
+            {{#if: {{{elementtype| }}}|[[Elementtype::{{{elementtype| }}}]] }}
+            |link=none
+     }} 
+   }}<!--
+* model: {{#var:model}}
+* pagename: {{#var:pagename}}
+
+-->{{#if:{{#var:pagename}}
+      |[[{{#var:pagename}}{{#if: {{{toonals| }}}|{{!}}{{{toonals| }}}}}]]
+      |<font color="red">'''LET OP: {{{naam| }}} NIET GEVONDEN'''</font>
+   }}</includeonly>

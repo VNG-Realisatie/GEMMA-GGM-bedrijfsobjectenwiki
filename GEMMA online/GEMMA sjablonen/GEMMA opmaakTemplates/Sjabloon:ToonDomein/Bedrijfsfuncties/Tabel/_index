@@ -1,0 +1,80 @@
+<!-- 
+Geef met de variabelen de parameter een testwaarde of defaultwaarde 
+
+-->{{#vardefine: domein| {{#if:{{{domein| }}}| {{{domein}}}| Sociaal domein }} }}<!--  
+-->{{#vardefine: toonRefComp| {{#if:{{{toonRefComp| }}}| {{{toonRefComp}}}| ja }} }}<!--
+-->{{#vardefine: domeinpage |  
+      {{#ask: [[Label::{{#var:domein}}]]
+              [[Elementtype::Grouping]]
+              [[GEMMA subtype::Domein]]
+              [[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]
+        |format=plainlist|link=none|headers=hide|sort=Semantictitle
+      }}
+}}
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Maak een hierarchische tabel van de bedrijfsfuncties van een domein
+
+Parameters:
+* '''domein''': domein waarvan bedrijfsfuncties getoond worden
+** geldige waarden: Niet domeingebonden, Bestuur, Fysieke leefomgeving, Ondersteuning, Openbare orde en veiligheid, Publieksdiensten, Sociaal domein
+* '''toonRefComp''': Toon de referentiecomponenten en standaarden die de bedrijfsfunctie ondersteunen
+** geldige waarden: ja, nee
+
+== Testresult ==
+Testwaarden parameters
+* domein: {{#var:domein}}
+* toonRefComp: {{#var:toonRefComp}}
+
+Gevonden domein
+* domeinpage: [[{{#var:domeinpage}}]] 
+
+</noinclude>
+<table class="wikitable">
+  <tr>
+    <!-- Klant- en keteninteractie heeft hierarchie met 4 levels -->
+    <th colspan="4">Bedrijfsfuncties</th>
+    <th>Beschrijving</th>
+    <!-- {{#ifeq: {{#var:toonRefComp}} | ja | <th style="width:25%;">Standaarden</th>}} -->
+  </tr>
+      {{#arraymap:
+        {{#ask: [[Elementtype::BusinessFunction]]
+                [[-Has target element.Elementtype::AggregationRelationship]]
+                [[-Has target element.Has source element::{{#var:domeinpage}} ]]
+          |format=plainlist|link=none|headers=hide|limit=500
+        }}
+        |,|__Level1_Bedrijfsfunctie__|
+        {{ToonDomein/Bedrijfsfuncties/Tabel/Rows  | pagina=__Level1_Bedrijfsfunctie__ | level=4 | toonRefComp={{#var:toonRefComp}} }}
+        {{#arraymap:
+          {{#ask: [[Elementtype::BusinessFunction]]
+                  [[-Has target element.Elementtype::AggregationRelationship]]
+                  [[-Has target element.Has source element::__Level1_Bedrijfsfunctie__]]
+            |format=plainlist|link=none|headers=hide|limit=500
+          }}
+          |,|__Level2_Bedrijfsfunctie__|
+          {{ToonDomein/Bedrijfsfuncties/Tabel/Rows | pagina=__Level2_Bedrijfsfunctie__ | level=3 | toonRefComp={{#var:toonRefComp}} }}
+          {{#arraymap:
+            {{#ask: [[Elementtype::BusinessFunction]]
+                    [[-Has target element.Elementtype::AggregationRelationship]]
+                    [[-Has target element.Has source element::__Level2_Bedrijfsfunctie__]]
+              |format=plainlist|link=none|headers=hide|limit=500
+            }}
+            |,|__Level3_Bedrijfsfunctie__|
+            {{ToonDomein/Bedrijfsfuncties/Tabel/Rows | pagina=__Level3_Bedrijfsfunctie__ | level=2 | toonRefComp={{#var:toonRefComp}} }}
+            {{#arraymap:
+              {{#ask: [[Elementtype::BusinessFunction]]
+                      [[-Has target element.Elementtype::AggregationRelationship]]
+                      [[-Has target element.Has source element::__Level3_Bedrijfsfunctie__]]
+                |format=plainlist|link=none|headers=hide|limit=500
+              }}
+              |,|__Level4_Bedrijfsfunctie__|
+              {{ToonDomein/Bedrijfsfuncties/Tabel/Rows | pagina=__Level4_Bedrijfsfunctie__ | level=1 | toonRefComp={{#var:toonRefComp}} }}
+              |\n
+            }}
+            |\n
+          }}
+          |\n
+        }}
+        |\n
+      }}
+</table>

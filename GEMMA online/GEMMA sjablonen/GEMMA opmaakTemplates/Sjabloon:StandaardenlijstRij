@@ -1,0 +1,55 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Selecteren en opmaken van een regel in de standaardenlijst
+
+Dit is een template sjabloon, aangeroepen vanuit de #ask in [[:Sjabloon:Standaardenlijst]]
+</noinclude><includeonly><!-- 
+
+in plaats van #userparam gebruik page global #var
+{{#vardefine:type|{{{#userparam| }}} }}
+--><!--
+
+DEBUG
+* userparam={{{#userparam| }}}
+* type={{#var:type}}
+* versie={{#var:versie}}
+DEBUG 
+-->
+<tr>
+<td>[[{{{1| }}}]]</td>
+<td>{{{2| }}}<!--
+  -->{{#if:{{#show: {{{1| }}}|?Toelichting}}
+        |<br><br>''Toelichting''<br>{{#show: {{{1| }}}|?Toelichting}}
+     }}</td>
+<td>{{{3| }}}</td>
+{{#ifeq:{{#var:versie}}|ja
+  |<td><!-- wel of niet tonen kolom versie (status) -->
+        {{#ask:
+          [[Categorie:Standaardenversies]]
+          [[-Has source element.Has target element::{{{1| }}}]]
+          |?Versieaanduiding#=
+          |?Status#=
+          |mainlabel=-
+          |sort=Versieaanduiding
+          |order=desc
+          |format=ul
+          |link=none
+        }}
+  </td>
+}} <!-- toon kolom indeling alleen als type geen waarde heeft-->
+{{#ifeq:{{#var:type}}| <!--leeg--> 
+  |<td>{{#ask:
+        [[Categorie:Groupings]]
+        [[-Has source element.Has target element::{{{1| }}}]]
+        |mainlabel=-
+        |?Semantictitle
+        |sort
+        |order=asc
+        |format=ul
+        |link=none
+        |headers=hide
+      }}
+  </td>
+}}
+</tr>
+</includeonly>

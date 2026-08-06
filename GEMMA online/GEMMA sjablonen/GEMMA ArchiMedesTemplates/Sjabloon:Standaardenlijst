@@ -1,0 +1,75 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+
+Toon een tabel met standaarden
+
+Parameters
+* '''modelid''': GUID van het model
+* '''type''': filter op type standaard (default=<leeg>)
+** relevante waarden: API-standaarden, StUF-standaarden, Informatiemodellen
+** kolom wordt weggelaten indien een waarde is gegeven
+* '''versie''': 'ja/nee', tonen kolom versies (default=nee)
+* '''limit''': '10', limiteert de lijst tot 10 regels (default=20)
+
+=== Alle standaarden=== 
+<pre>
+{{Standaardenlijst
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|versie=nee
+|limit=10
+}}
+</pre>
+{{Standaardenlijst
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|versie=nee
+|limit=10
+}}
+
+=== Alle informatiemodellen=== 
+<pre>
+{{Standaardenlijst
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|type=Informatiemodellen
+|versie=ja
+|limit=10
+}}
+</pre>
+{{Standaardenlijst
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|type=Informatiemodellen
+|versie=ja
+|limit=10
+}}
+
+</noinclude><includeonly><!--
+
+#var worden gebruikt in sjabloon:StandaardenlijstRij
+-->{{#vardefine:limit|{{{limit|20}}} }}<!--
+-->{{#vardefine:versie|{{{versie|nee}}} }}<!--
+-->{{#vardefine:type|{{{type| }}} }}<!--
+-->
+<table class="sortable wikitable">
+<tr>
+  <th>Standaard</th>
+  <th>Definitie</th>
+  <th>Beheerder</th>
+  {{#ifeq:{{#var:versie}}| ja | <th>Versie (status)</th>}}
+  {{#ifeq:{{#var:type}}| <!--leeg--> |<th>Onderdeel van groep</th>}}
+</tr>
+{{#ask: [[Categorie:Standaarden]]
+        [[Occurs in model.Object ID::{{{modelid| }}}]]
+        {{#ifeq:{{#var:type}} {{#var:type}}|<!--leeg-->
+            |
+            | [[-Has target element.Has source element.Semantictitle::{{#var:type}}]] 
+        }}
+  |?Documentation
+  |?Beheerder
+  |limit={{#expr:{{#var:limit}} }}
+  |sort=Semanticsearch
+  |mainlabel=Standaard
+  |format=template
+  |template=StandaardenlijstRij
+  |class=datatable
+  |link=none
+}}
+</table>

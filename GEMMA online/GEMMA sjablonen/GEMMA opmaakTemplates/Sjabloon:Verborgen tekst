@@ -1,0 +1,10 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Met dit sjabloon kun je tekst wel tonen op de redactie omgeving, maar verborgen houden voor publicatie
+<pre>
+{{Verborgen tekst|<tekst die je alleen op redactie wilt tonen>}}
+</pre>
+</noinclude><!--
+--><includeonly><!--
+-->{{#ifeq: {{SITENAME}}|GEMMA wiki|{{{1|}}} }}<!--
+--></includeonly>

@@ -1,0 +1,258 @@
+<noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toon een tabel met de elementen en/of relaties uit een view. Default wordt in de tabel de naam, het elementtype en de beschrijving getoond.
+
+Het selecteren van een view kan met viewnaam of de view GUID
+
+De parameters zijn:
+* Aanwijzen view met pagenaam:
+** '''viewpage''': wiki paginanaam van de view
+* Zoeken view op naam:
+** '''viewnaam''': Naam van de view
+** '''model''': naam van het model
+* Zoek view met id's:
+** '''viewid''': GUID van de view
+** '''modelid''': GUID van het model
+* Optionele parameters:
+** '''filter''': comma separated list van '''categorieën van concepten'''
+*** Als er 1 categorie is, wordt de kolom Elementtypen weggelaten
+*** '''Let op''': Namen van categorieën lijken op elementtype, maar zijn in meervoud!
+<!-- ** '''toelichting''': Ja/Nee. Indien 'Ja' dan wordt de toelichting van een Element in de tabel opgenomen. -->
+** '''type''': Element/Relatie. Default is Element.
+** '''attributen''': 1 of meerdere attributen die in de tabel getoond moeten worden.
+** '''relaties''': 1 of meerdere relaties waarvan het gerelateerde element getoond wordt.
+** '''sort''': 1 of meerdere attributen waarop de tabel gesorteerd wordt.
+*** Use the + symbol after the sort property to allow sorting on a non-existing property without excluding results
+
+Ga naar [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element|Zoek element]] om views te zoeken en de vooringevulde sjablonen.
+
+'''Let op'''. De aanpak met id's heeft de voorkeur. Op naam betekent dat als de namen wijzigen, het sjabloon de view niet meer vindt.
+
+Zie ook pagina [[GEMMA ArchiMedes test]] voor meer voorbeelden
+
+===Voorbeeld basis tabel ===
+
+<pre>{{ToonTabelVanViewGEMMA
+  |viewid=601feab7-cdc2-4b9e-95ee-6d4862fc7b35
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}
+of
+{{ToonTabelVanViewGEMMA
+  |viewpage=GEMMA/id-601feab7-cdc2-4b9e-95ee-6d4862fc7b35
+}}
+</pre>{{ToonTabelVanViewGEMMA
+  |viewid=601feab7-cdc2-4b9e-95ee-6d4862fc7b35
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+}}
+
+===Voorbeeld met meerdere attributen ===
+
+<pre>{{ToonTabelVanViewGEMMA
+  |viewid=63aa8230-d562-4950-a147-8dfb99cd0259
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |filter=ApplicationComponents
+  |attributen=GEMMA type, BIV score BBN 
+}}
+</pre>{{ToonTabelVanViewGEMMA
+  |viewid=63aa8230-d562-4950-a147-8dfb99cd0259
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |filter=ApplicationComponents
+  |attributen= GEMMA type, BIV score BBN
+}}
+
+===Voorbeeld met gerelateerde elementen in kolom ===
+
+<!-- bedrijfsobjectmodel Griffie -->
+<pre>{{ToonTabelVanViewGEMMA
+  |viewid=601feab7-cdc2-4b9e-95ee-6d4862fc7b35
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |filter=BusinessObjects
+  |attributen=GGM-uml-type,Object ID
+  |relaties=-AggregationRelationship#Grouping#Domein-iv3
+}}
+</pre>
+{{ToonTabelVanViewGEMMA
+  |viewid=601feab7-cdc2-4b9e-95ee-6d4862fc7b35
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |filter=BusinessObjects
+  |attributen=GGM-uml-type,Object ID
+  |relaties=-AggregationRelationship#Grouping#Domein-iv3
+}}
+
+===Voorbeeld tabel met relaties===
+<pre>{{ToonTabelVanViewGEMMA
+  |viewid=63aa8230-d562-4950-a147-8dfb99cd0259
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |type=Relatie
+}}
+</pre>
+
+{{ToonTabelVanViewGEMMA
+  |viewid=63aa8230-d562-4950-a147-8dfb99cd0259
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |type=Relatie
+}}
+
+===Voorbeeld tabel en sortering===
+Onderstaande tabel geeft een overzicht van de technologieservices uit de bovenstaande view
+<pre>{{ToonTabelVanViewGEMMA
+|viewid=f75d4810-8c08-492d-b970-da26011b5554
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|sort=Elementtype, Semanticsearch
+}}
+</pre>
+
+{{ToonTabelVanViewGEMMA
+|viewid=f75d4810-8c08-492d-b970-da26011b5554
+|modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+|sort=Elementtype, Semanticsearch
+|default=
+}}
+
+===Voorbeeld view niet gevonden ===
+<pre>{{ToonTabelVanViewGEMMA
+  |viewid=fake_viewid
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |type=Relatie
+}}
+</pre>
+
+{{ToonTabelVanViewGEMMA
+  |viewid=fake_viewid
+  |modelid=2b2b88ba-8efe-46d3-8b40-47af290bc418
+  |type=Relatie
+}}
+</noinclude><includeonly><!--
+-->{{#if: {{{viewpage| }}} |{{#vardefine: viewpagename |  {{{viewpage| }}} }}
+    |<!-- METHODE 1 op naam
+  -->{{#if: {{{model| }}}
+        |{{#vardefine: model
+            |{{#ask: [[Semantictitle::{{{model| }}}]]
+                [[Elementtype::ArchiMateModel]]|link=none 
+            }} 
+          }}<!--
+      -->{{#vardefine: viewpagename
+              |{{#ask: [[Semantictitle::{{{viewnaam}}}]] 
+                      [[Elementtype::ArchiMateView]] 
+                      [[-Occurs in view::+]]
+                      {{#if: {{{model| }}}|[[Occurs in model::{{#var:model|}}]] }} 
+                  |link=none
+              }} 
+          }}<!--
+      -->{{#vardefine: aantalviews
+            |{{#ask: [[Semantictitle::{{{viewnaam}}}]] 
+                    [[Elementtype::ArchiMateView]]
+                    {{#if: {{{model| }}}|[[Occurs in model::{{#var:model|}}]] }}
+                  |format=count
+            }}
+          }}
+    }}<!--
+
+  METHODE 2 met id
+  -->{{#if: {{{modelid| }}}
+        |{{#vardefine: model
+            |{{#ask: [[Object ID::{{{modelid}}}]]|link=none }}
+          }}<!--
+      -->{{#vardefine: viewpagename
+              |{{#ask: [[Object ID::{{{viewid}}}]]
+                      [[Elementtype::ArchiMateView]]
+                      [[-Occurs in view::+]]
+                      {{#if: {{{modelid| }}}|[[Occurs in model.Object ID::{{{modelid| }}}]] }} 
+                  |link=none
+              }}
+          }}<!--
+      -->{{#vardefine: aantalviews
+            |{{#ask: [[Object ID::{{{viewid}}}]]
+                    [[Elementtype::ArchiMateView]]
+                    {{#if: {{{model| }}}|[[Occurs in model::{{#var:model|}}]] }} 
+                  |format=count
+            }}
+          }}
+    }}
+}}<!--
+
+Variabele voor doorgeven parameters aan [[Sjabloon:ToonTabelBijViewRij]]
+
+Userparameter lezen met #explode
+The #explode parser function was merged from the StringFunctions extension as of version 1.2.0.
+The #explode function splits the given string into pieces and then returns one of the pieces. 
+The syntax is:
+{{#explode:string|delimiter|position|limit}}
+
+userparam= filter=<ArchiMate-Categorie>|toelichting=ja/nee|aType=<type>|attributen=<attributen>|relaties=<relaties>
+arraymap op pipe
+- switch en vardefine?
+explode op pipe met volgnummer
+
+-->{{#arraydefine:filterArray| {{{filter| }}} }}<!--
+-->{{#vardefine:filterCount|{{#arraysize:filterArray }} }}<!--
+-->{{#switch:  {{{type| }}}
+      | Element = {{#vardefine:aType|Element }} {{#vardefine:cat|ArchiMateElements}} 
+      | Relatie = {{#vardefine:aType|Relatie }} {{#vardefine:cat|ArchiMateRelationships}} 
+      | {{#vardefine:aType|Element }} {{#vardefine:cat|ArchiMateElements}} 
+   }}<!--
+-->{{#vardefine:userparam|{{#var:aType}}__sep1__{{#var:filterCount}}__sep2__{{{attributen| }}}__sep3__{{{relaties| }}} }}<!-- 
+-->{{#vardefine:sortparam|{{#if:{{{sort| }}}| {{{sort}}} | Semantictitle}}  }}<!-- 
+
+Debug:
+* filter={{{filter| }}}
+* print={{#arrayprint:filterArray}}
+* filterCount={{#var:filterCount}}
+* userparam={{#var:userparam}}
+* viewpagename={{#var:viewpagename}} 
+
+-->{{#ifexist:{{#var: viewpagename}}
+    |<table class="table sortable">
+      <tr> <!-- headerrij -->
+        {{#ifeq:{{#var:aType}}|Relatie|<th>Van</th>}}
+        <th>{{#var:aType}}</th>
+        {{#ifeq:{{#var:aType}}|Relatie| <th>Naar</th>}}
+        <th>Beschrijving</th>
+        <!-- Toon kolom ElementType als het filter 0 of meer dan één categorie bevat. Laat kolom weg bij één categorie -->
+        {{#ifexpr: {{#var:filterCount}} = 1
+         | <!-- bij 1 weglaten kolom -->
+         |<th>Elementtype</th>
+        }}
+        {{#ifeq: {{{attributen| }}}| <!-- leeg -->
+         |
+         |{{#arraymap: {{{attributen| }}}|,|__attribuut__|<th>__attribuut__</th>|<nowiki> </nowiki> }}
+        }}
+        {{#ifeq: {{{relaties| }}}| <!-- leeg -->
+         |
+         |{{#arraymap: {{{relaties| }}}|,|__relatie__|<th>{{#explode:__relatie__|#|2}}</th>|<nowiki> </nowiki> }}
+        }}
+      </tr> <!-- detailrijen-->
+      {{#ask: [[Categorie:{{#var:cat}}]]
+              {{#ifeq:{{#var:aType}}|Element|[[-Refers to element.Occurs in view::{{#var:viewpagename}}]] }}
+              {{#ifeq:{{#var:aType}}|Relatie|[[-Refers to relationship.Occurs in view::{{#var:viewpagename}}]] }}
+              {{#ifeq: {{{filter| }}} | <!-- leeg --> 
+                |
+                |[[Category:{{#arraymap: {{{filter| }}}|,|__ArchiMateCategorie__| __ArchiMateCategorie__ | {{!}}{{!}} }} ]]
+              }}
+         |mainlabel=Element
+         |?Documentation_nl=Beschrijving
+         |sort={{#var:sortparam}}
+         |format=template
+         |template=ToonTabelVanViewRij
+         |userparam={{#var:userparam}}
+         |limit=500
+         |link=none
+         |searchlabel=more results ...
+      }}
+    </table>
+    {{#ifeq:{{{label| }}}|  <!-- leeg -->
+      |
+      |<small>''{{{label| }}} (uit model: [[{{#var: model}}]])''</small>
+    }}
+    |
+<font color="red">
+Aantal gevonden views: {{#var: aantalviews}}<br>
+{{#ifexist: {{#var: viewpagename}}
+    |Ga naar de view om te refreshen: [[{{#var: viewpagename}}]] 
+    |De view(id): <code>''{{{viewnaam| }}}{{{viewid| }}}''</code>  bestaat niet in model(id) <code>''{{{model| }}}{{{modelid| }}}''</code>
+
+Ga naar [[Speciaal:ZoekopdrachtUitvoeren/Zoek_element|Zoek element]] om vooringevulde sjabloonaanroepen te vinden van views. 
+}}
+</font>
+}} <!--
+--><includeonly>

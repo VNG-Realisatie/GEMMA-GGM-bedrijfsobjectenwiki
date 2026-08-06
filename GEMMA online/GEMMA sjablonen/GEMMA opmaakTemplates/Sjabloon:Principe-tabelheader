@@ -1,0 +1,14 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+
+Header voor de principelijst
+
+Dit template wordt aangeroepen vanuit de pagina [[:Architectuurprincipes]]
+
+</noinclude><includeonly>
+<table class=wikitable>
+<tr>
+<th>Principe</th>
+<th>Beschrijving</th>
+<th  style="width: 45%;">Implicaties</th>
+</tr></includeonly>

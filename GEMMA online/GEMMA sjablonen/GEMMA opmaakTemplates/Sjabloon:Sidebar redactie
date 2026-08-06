@@ -1,0 +1,22 @@
+<noinclude>
+[[Category:GEMMA opmaakTemplates]]
+Toon de beheermenu opties.  Dit sjabloon wordt geinclude vanuit [[mediawiki:Sidebar]]. 
+</noinclude>
+<includeonly>
+* Beheer
+** Beheer | Handleidingen
+** Werken met gegevens- en berichtstandaarden | Werken met gegevens- en berichtstandaarden
+** Beheer import informatiemodellen | Importeren informatiemodellen
+** Speciaal:RecentChanges | Recente wijzigingen
+** Overzichten_redactiestatus | Archief
+** helppage | Help WikiXL platform
+<!-- ** [[:Categorie:GEMMA Beheer]] | Hulpje -->
+
+* Beheeracties
+<!--** http://redactie.gemmaonline.nl/index.php/Speciaal:GegevensBewerken/Document | Upload document-->
+** http://redactie.gemmaonline.nl/index.php/Speciaal:Upload | Upload bestand
+** Speciaal:SmartConnectArchiMate | Importeren ArchiMate
+** http://{{SERVERNAME}}/index.php?title=Speciaal:PageConverter/{{FULLPAGENAMEE}} | PDF of ePub genereren
+** Plaatsen van een nieuwsbericht | Plaatsen van een nieuwsbericht
+<!-- ** Speciaal:SmartSupport | XL&Knowledge support -->
+</includeonly>

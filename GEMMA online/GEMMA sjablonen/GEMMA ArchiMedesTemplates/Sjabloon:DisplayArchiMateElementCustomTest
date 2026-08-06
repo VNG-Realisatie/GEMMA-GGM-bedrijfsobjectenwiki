@@ -1,0 +1,34 @@
+[[Categorie:GEMMA ArchiMedesTemplates]]<!--
+Testpagina voor Tonen relaties 
+
+{{CreateDisplayBox
+  |width
+  |margin
+  |title text
+  |content text
+  |optional text for second column
+  |optional link to an image to display in the top right corner of the body
+}}
+
+-->{{CreateDisplayBox|auto|2px
+    |<!-- titel -->Relaties
+    |<!-- content 
+    -->{{#vardefine: lijst1 |eerste,tweede,derde,vierde}}<!--
+    -->{{#vardefine: lijst2 |eerste 2,tweede 2,derde 2,vierde 2 }}
+      <!-- ''buiten ul :'' -->
+      {{#arraymap: {{#var: lijst1}}  |,|__relatie1__|<!--
+    --><br>''kop 1:''
+    <ul>
+      <li>__relatie1__ </li>
+      <ul>
+        {{#arraymap: {{#var: lijst2}}  |,|__relatie2__| 
+        <li>__relatie2__</li>
+          <!-- |<br> -->
+          |<nowiki />
+        }}
+      </ul>
+      <!-- |<br> -->
+      |<nowiki />
+    </ul>
+      }}
+  }}
