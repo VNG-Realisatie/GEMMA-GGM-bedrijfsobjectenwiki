@@ -1,0 +1,54 @@
+<!--
+
+page: buiten de sjabloonnamespace altijd de pagina zelf; in de sjabloonnamespace een object uit een
+projectmodel, zodat deze pagina los te previewen is. ArchiMedes geeft page nooit mee.
+
+-->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
+      |{{#ifeq:{{NAMESPACENUMBER}}|10
+          |Thema-architectuurActiefopenbaarmaken/id-b9993080-caaf-4c47-860e-94c840244801
+          |{{FULLPAGENAME}} }} }} }}<!--
+-->{{#vardefine: model |{{#if:{{{model| }}}|{{{model}}}
+      |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
+
+Type van het model waar dit object in zit. Alleen bij Projectmodel volgt er een banner.
+
+-->{{#vardefine: typemodel |{{#if:{{{typemodel| }}}|{{{typemodel}}}
+      |{{#show:{{#var:model}}|?Type model}} }} }}<!--
+
+--><noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toont een waarschuwingsbanner wanneer een object niet uit de GEMMA zelf komt maar uit een
+projectarchitectuur. De banner meldt of er een gelijknamig object in de GEMMA bestaat, en linkt daarnaar.
+
+Geldig voor alle objecttypen. Levert een <code>&lt;div&gt;</code>, geen tabel en geen
+[[:Sjabloon:CreateDisplayBox]]. Hoort bovenaan de pagina, vóór de boxen. Zie
+[[:Sjabloon:DisplayArchiMateCustom]].
+
+Bij een object uit een kernmodel levert dit sjabloon niets op; dat is het normale geval.
+
+=== Parameters ===
+Alle parameters zijn optioneel.
+* '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
+* '''model''' - paginanaam van het model waar het object in zit.
+* '''typemodel''' - <code>Projectmodel</code> of <code>Kernmodel</code>. Wordt anders bij het model opgehaald.
+* '''objectid''' - Object ID, gebruikt om het gelijknamige GEMMA-object te vinden. Wordt alleen opgehaald als er daadwerkelijk een banner komt.
+
+=== Testwaarden ===
+* page: [[{{#var:page}}]]
+* model: [[{{#var:model}}]]
+* typemodel: {{#var:typemodel}}
+
+=== Preview ===
+</noinclude><!--
+
+-->{{#ifeq: {{#var:typemodel}} |Projectmodel
+    |<!-- Alleen nu het GEMMA-tweelingobject opzoeken; dat scheelt een query op alle andere pagina's
+      -->{{#vardefine: objectid |{{#if:{{{objectid| }}}|{{{objectid}}}
+            |{{#show:{{#var:page}}|?Object ID}} }} }}<!--
+      -->{{#vardefine: tweeling |{{#ask: [[Object ID::{{#var:objectid}}]]
+                                         [[Occurs in model.Semantictitle::GEMMA]]
+                                   |link=none }} }}<!--
+      --><div class="GEMMAOrphansHeader">
+        [[file:notice.png|40px|right|link=]] Let op. Dit element is onderdeel van de projectarchitectuur [[{{#var:model}}]] {{#ifeq: {{#var:tweeling}} ||en bestaat niet in de GEMMA|en is een kopie van het GEMMA object [[{{#var:tweeling}}]]}} <br /><br />
+      </div>
+   }}

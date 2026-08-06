@@ -1,0 +1,101 @@
+<!--
+
+page: buiten de sjabloonnamespace altijd de pagina zelf; in de sjabloonnamespace een vast testobject,
+zodat deze pagina los te previewen is. ArchiMedes geeft page nooit mee.
+
+-->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
+      |{{#ifeq:{{NAMESPACENUMBER}}|10
+          |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
+          |{{FULLPAGENAME}} }} }} }}<!--
+-->{{#vardefine: model |{{#if:{{{model| }}}|{{{model}}}
+      |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
+
+Welke eigenschappen verbinden een relatie met dit object. Voor een Relationship-object geeft de
+orchestrator hier Has source relationship / Has target relationship mee.
+
+-->{{#vardefine: bronprop |{{#if:{{{bronprop| }}}|{{{bronprop}}}|Has source element}} }}<!--
+-->{{#vardefine: doelprop |{{#if:{{{doelprop| }}}|{{{doelprop}}}|Has target element}} }}<!--
+-->{{#vardefine: limiet |{{#if:{{{limiet| }}}|{{{limiet}}}|500}} }}<!--
+-->{{#vardefine: hooktoepassen |{{#if:{{{hook| }}}
+      |{{ifexist-page|Sjabloon:{{{hook| }}}|ja|}} }} }}<!--
+-->{{#vardefine: hookalltoepassen |{{#if:{{{hookall| }}}
+      |{{ifexist-page|Sjabloon:{{{hookall| }}}|ja|}} }} }}<!--
+
+--><noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toont de relaties van een ArchiMate-object als tabel: een rij '''Uitgaand''' en een rij '''Inkomend''',
+elk met een eigen lijst. Levert alleen de <code>&lt;table&gt;</code>; de omhullende
+[[:Sjabloon:CreateDisplayBox]] hoort in het aanroepende
+<code>DisplayArchiMate&lt;type&gt;Custom</code>-sjabloon. Zie [[:Sjabloon:DisplayArchiMateCustom]].
+
+Geldig voor Element en Relationship. Niet voor View (die heeft zelf geen relaties) en niet voor
+Viewconnection (die krijgt <code>Refers to relationship</code> rechtstreeks als parameter).
+
+Beide rijen komen uit dezelfde regels code, met een lus over de twee richtingen. Daardoor kunnen de twee
+lijsten niet meer uit elkaar gaan lopen in opmaak — wat eerder wel gebeurde.
+
+Gebruikt [[:Sjabloon:FormatRelationshipNameCustom]] voor de tekst van een relatie.
+
+=== Parameters ===
+Alle parameters zijn optioneel.
+* '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
+* '''bronprop''' / '''doelprop''' - eigenschappen die een relatie met dit object verbinden. Standaard <code>Has source element</code> en <code>Has target element</code>.
+*: Een Relationship-orchestrator geeft hier <code>Has source relationship</code> en <code>Has target relationship</code> mee.
+* '''filter''' - extra querycondities voor beide richtingen, bv. <code><nowiki>[[Elementtype!:AssociationRelationship]]</nowiki></code>
+* '''filterinkomend''' - extra querycondities voor alleen de inkomende lijst
+* '''limiet''' - maximum aantal relaties per richting. Standaard 500.
+* '''hook''' - sjabloonnaam die extra tabelrijen levert
+* '''hookall''' - sjabloonnaam die de hele tabel vervangt
+
+De queries gebruiken <code>searchlabel=</code>. Zonder dat plakt SMW boven de limiet een
+"... meer resultaten"-link zonder komma aan de lijst, waarna de lus dat als een relatienaam behandelt en
+er een SMW-foutmelding in de tabel verschijnt.
+
+=== Testwaarden ===
+* page: [[{{#var:page}}]]
+* bronprop: {{#var:bronprop}} / doelprop: {{#var:doelprop}} / limiet: {{#var:limiet}}
+* hookall toepassen: {{#if:{{#var:hookalltoepassen}}|ja|nee}} / hook toepassen: {{#if:{{#var:hooktoepassen}}|ja|nee}}
+
+=== Preview ===
+</noinclude><!--
+
+-->{{#ifeq: {{#var:hookalltoepassen}} |ja
+    |{{ {{{hookall| }}} |page={{#var:page}}|model={{#var:model}} }}
+    |<table>{{#arraymap:uitgaand,inkomend|,|__richting__
+        |<!-- per richting: waarop zoeken, wat tonen, hoe de rij heet
+          -->{{#vardefine: zoekprop|{{#ifeq:__richting__|inkomend|{{#var:doelprop}}|{{#var:bronprop}}}} }}<!--
+          -->{{#vardefine: toonprop|{{#ifeq:__richting__|inkomend|{{#var:bronprop}}|{{#var:doelprop}}}} }}<!--
+          -->{{#vardefine: rijlabel|{{#ifeq:__richting__|inkomend|Inkomend|Uitgaand}} }}<!--
+          -->{{#vardefine: rijfilter|{{{filter| }}}{{#ifeq:__richting__|inkomend|{{{filterinkomend| }}}}} }}
+            <tr>
+              <td>'''{{#var:rijlabel}}'''</td>
+              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td>
+                <ul>
+                  {{#arraymap:
+                    {{#ask:[[Categorie:ArchiMateRelationships]]
+                           [[{{#var:zoekprop}}::{{#var:page}}]]
+                           {{#var:rijfilter}}
+                      |format=plainlist|headers=hide|link=none|limit={{#var:limiet}}|searchlabel=
+                    }}|,|__relation__
+                    |<li>
+                        {{FormatRelationshipNameCustom
+                          |Id=__relation__
+                          |Label={{ #show:__relation__|?Label# }}
+                          |Source={{#ifeq:{{#var:rijlabel}}|Inkomend|[[{{ #show:__relation__|?{{#var:toonprop}}# }}]]|[[{{#var:page}}]]}}
+                          |Target={{#ifeq:{{#var:rijlabel}}|Inkomend|[[{{#var:page}}]]|[[{{ #show:__relation__|?{{#var:toonprop}}# }}]]}}
+                          |Relationship type={{ #show:__relation__|?Elementtype# }}
+                        }}
+                    </li>| <nowiki />
+                  }}
+                </ul>
+              </td>
+            </tr>
+        | <nowiki />
+      }}
+          <!-- Aanvullende rijen uit een uitbreidingssjabloon -->
+          {{#ifeq: {{#var:hooktoepassen}} |ja
+             |{{ {{{hook| }}} |page={{#var:page}}|model={{#var:model}} }}
+           }}
+        </table>
+   }}

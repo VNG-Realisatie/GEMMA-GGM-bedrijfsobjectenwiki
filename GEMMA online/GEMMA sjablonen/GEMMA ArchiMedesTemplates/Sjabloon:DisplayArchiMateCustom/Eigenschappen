@@ -1,0 +1,145 @@
+<!--
+
+page: buiten de sjabloonnamespace altijd de pagina zelf; in de sjabloonnamespace een vast testobject,
+zodat deze pagina los te previewen is. ArchiMedes geeft page nooit mee.
+
+-->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
+      |{{#ifeq:{{NAMESPACENUMBER}}|10
+          |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
+          |{{FULLPAGENAME}} }} }} }}<!--
+
+Elke waarde: parameter van ArchiMedes indien meegegeven, anders uit SMW. De SMW-tak kost niets zolang
+de parameter er is, want #if expandeert alleen de gekozen tak.
+
+-->{{#vardefine: elementtype |{{#if:{{{elementtype| }}}|{{{elementtype}}}
+      |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--
+-->{{#vardefine: model |{{#if:{{{model| }}}|{{{model}}}
+      |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
+-->{{#vardefine: label |{{#if:{{{label| }}}|{{{label}}}
+      |{{#show:{{#var:page}}|?Label}} }} }}<!--
+-->{{#vardefine: documentation |{{#if:{{{documentation| }}}|{{{documentation}}}
+      |{{#show:{{#var:page}}|?Documentation}} }} }}<!--
+-->{{#vardefine: toelichting |{{#if:{{{toelichting| }}}|{{{toelichting}}}
+      |{{#show:{{#var:page}}|?Toelichting}} }} }}<!--
+-->{{#vardefine: gemmatype |{{#if:{{{gemmatype| }}}|{{{gemmatype}}}
+      |{{#show:{{#var:page}}|?GEMMA type|link=none}} }} }}<!--
+-->{{#vardefine: eigenschappen |{{#if:{{{eigenschappen| }}}|{{{eigenschappen}}}
+      |{{#show:{{#var:page}}|?CustomProperties|link=none}} }} }}<!--
+
+Bestaan de uitbreidingssjablonen? Eenmalig bepalen: ifexist-page kost ongeveer 5 ms per aanroep.
+
+-->{{#vardefine: hookalltoepassen |{{#if:{{{hookall| }}}
+      |{{ifexist-page|Sjabloon:{{{hookall| }}}|ja|}} }} }}<!--
+-->{{#vardefine: hooktoepassen |{{#if:{{{hook| }}}
+      |{{ifexist-page|Sjabloon:{{{hook| }}}|ja|}} }} }}<!--
+
+--><noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+Toont de eigenschappen van een ArchiMate-object als tabel. Levert alleen de <code>&lt;table&gt;</code>;
+de omhullende [[:Sjabloon:CreateDisplayBox]] hoort in het aanroepende
+<code>DisplayArchiMate&lt;type&gt;Custom</code>-sjabloon, zodat elk objecttype zijn eigen boxtitel en
+indeling kan kiezen. Zie [[:Sjabloon:DisplayArchiMateCustom]] voor het geheel.
+
+Geldig voor alle objecttypen: Element, Relationship, View en Viewconnection.
+
+Dit blok '''toont''' alleen. Het zetten van eigenschappen en categorieën hoort in een Epilogue-sjabloon,
+niet hier.
+
+=== Parameters ===
+Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW gehaald.
+* '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
+* '''elementtype''', '''model''', '''label''', '''documentation''', '''toelichting''', '''gemmatype'''
+* '''eigenschappen''' - komma-gescheiden lijst met namen van de te tonen eigenschappen. Geef deze door vanuit <code>CustomProperties</code> om de volgorde uit het model te behouden; anders levert SMW ze alfabetisch.
+* '''hook''' - sjabloonnaam die extra tabelrijen levert, bv. <code>DisplayArchiMateElementCustomPrincipleProperties</code>
+* '''hookall''' - sjabloonnaam die de hele tabel vervangt, bv. <code>DisplayArchiMateElementCustomPrinciplePropertiesAll</code>
+
+De verberg-lijst in de broncode hieronder is de '''enige''' plek waar staat welke technische
+eigenschappen niet aan gemeenten getoond worden. Rijen worden verborgen met <code>display:none</code> en
+niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
+
+=== Testwaarden ===
+* page: [[{{#var:page}}]]
+* elementtype: {{#var:elementtype}}
+* eigenschappen: {{#var:eigenschappen}}
+* hookall toepassen: {{#if:{{#var:hookalltoepassen}}|ja|nee}} / hook toepassen: {{#if:{{#var:hooktoepassen}}|ja|nee}}
+
+=== Preview ===
+</noinclude><!--
+
+Vervangt een uitbreidingssjabloon de hele tabel?
+
+-->{{#ifeq: {{#var:hookalltoepassen}} |ja
+    |{{ {{{hookall| }}} |page={{#var:page}}|model={{#var:model}} }}
+    |<table>
+          <tr>
+            <td>'''{{int:scam-pr-elementtype}}'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>[[DisplayArchiMateGlossary#{{#var:elementtype}}|{{#var:elementtype}} ]]</td>
+          </tr>
+          <tr>
+            <td>'''{{int:scam-pr-label}}'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{#var:label}}</td>
+          </tr>
+          <tr>
+            <td>'''Definitie'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{#var:documentation}}</td>
+          </tr>
+          {{#if:{{#var:toelichting}}
+          |<tr>
+            <td>'''Toelichting'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{#var:toelichting}}</td>
+          </tr>
+          }}
+          {{#if:{{#var:gemmatype}}
+          |<tr>
+            <td>'''GEMMA type'''</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>{{#var:gemmatype}}</td>
+          </tr>
+          }}
+          <!-- Overige eigenschappen. De #switch bepaalt wat verborgen wordt; #default is leeg,
+               dus onbekende eigenschappen zijn zichtbaar. -->
+          {{#arraymap:{{#var:eigenschappen}}|,|__property__
+            |{{#vardefine: waarde|{{#show:{{#var:page}}|?__property__}} }}<!--
+          -->{{#if:{{#var:waarde}}
+              |<tr {{#switch: {{ucfirst:__property__}}
+                      |Object ID
+                      |Object ID_nl
+                      |Object ID nl
+                      |Original ID
+                      |Gemma-guid
+                      |Ggm-datum-tijd-export
+                      |Ggm-guid
+                      |Let op
+                      |GEMMA URL
+                      |Business Object
+                      |Ggm-naam
+                      |Ggm-definition
+                      |Lc_name
+                      |Toelichting
+                      |BIV score BBN
+                      |Beschikbaarheid
+                      |Integriteit
+                      |Vertrouwelijkheid
+                      |GEMMA type
+                      |GEMMA status
+                      |Type URI
+                      |Semanticsearch=style="display:none;" | #default=
+                  }}>
+                <td>'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
+                <td>&nbsp;&nbsp;&nbsp;</td>
+                <td>
+{{#var:waarde}}</td>
+              </tr>
+             }}
+             | <nowiki />
+          }}
+          <!-- Aanvullende rijen uit een uitbreidingssjabloon -->
+          {{#ifeq: {{#var:hooktoepassen}} |ja
+             |{{ {{{hook| }}} |page={{#var:page}}|model={{#var:model}} }}
+           }}
+        </table>
+   }}

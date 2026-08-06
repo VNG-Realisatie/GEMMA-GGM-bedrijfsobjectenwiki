@@ -1,34 +1,94 @@
-[[Categorie:GEMMA ArchiMedesTemplates]]<!--
-Testpagina voor Tonen relaties 
+<!--
 
-{{CreateDisplayBox
-  |width
-  |margin
-  |title text
-  |content text
-  |optional text for second column
-  |optional link to an image to display in the top right corner of the body
+page: buiten de sjabloonnamespace altijd de pagina zelf; in de sjabloonnamespace een vast testobject.
+Hierdoor is deze pagina los te previewen, terwijl ArchiMedes (die page nooit meegeeft) in de mainspace
+altijd de pagina zelf krijgt.
+
+-->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
+      |{{#ifeq:{{NAMESPACENUMBER}}|10
+          |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
+          |{{FULLPAGENAME}} }} }} }}<!--
+-->{{#vardefine: elementtype |{{#if:{{{Elementtype| }}}|{{{Elementtype}}}
+      |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--
+-->{{#vardefine: model |{{#if:{{{Occurs in model| }}}|{{{Occurs in model}}}
+      |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
+
+--><noinclude>
+[[Categorie:GEMMA ArchiMedesTemplates]]
+'''Proefopstelling.''' Dit is de herschreven versie van [[:Sjabloon:DisplayArchiMateElementCustom]],
+opgebouwd uit de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]]. ArchiMedes gebruikt dit
+sjabloon niet: "Test" is geen ArchiMate-elementtype, dus de naamconventie pakt het niet op. Daardoor kan
+het naast de productieversie bestaan en vergeleken worden.
+
+Wat er anders is dan in de productieversie:
+* De weergaveblokken staan in losse, afzonderlijk te previewen sjablonen.
+* Beide relatielijsten komen uit één stuk code, waardoor ze niet meer uit elkaar kunnen lopen.
+* De relatiequery gebruikt <code>searchlabel=</code>; zonder dat kon boven de limiet een corrupte
+  laatste regel met een SMW-foutmelding ontstaan.
+* Weggelaten: het analyseblok, dat op deze wiki nooit iets toonde, en een ongebruikte variabele.
+* <code>#set</code> en de categorieën staan hier '''niet''' meer in.
+
+{{Letop
+|uitleg = '''Voorwaarde voor ingebruikname.''' Omdat dit sjabloon geen eigenschappen meer vastlegt, mag
+het pas de plaats van [[:Sjabloon:DisplayArchiMateElementCustom]] innemen nádat het vastleggen is
+verhuisd naar [[:Sjabloon:SmartCoreEpilogue]]. Gebeurt dat niet, dan verdwijnen bij de eerstvolgende
+herberekening alle custom properties van alle ArchiMate-objecten. Zie [[Vragen aan Toine]].
 }}
 
--->{{CreateDisplayBox|auto|2px
-    |<!-- titel -->Relaties
-    |<!-- content 
-    -->{{#vardefine: lijst1 |eerste,tweede,derde,vierde}}<!--
-    -->{{#vardefine: lijst2 |eerste 2,tweede 2,derde 2,vierde 2 }}
-      <!-- ''buiten ul :'' -->
-      {{#arraymap: {{#var: lijst1}}  |,|__relatie1__|<!--
-    --><br>''kop 1:''
-    <ul>
-      <li>__relatie1__ </li>
-      <ul>
-        {{#arraymap: {{#var: lijst2}}  |,|__relatie2__| 
-        <li>__relatie2__</li>
-          <!-- |<br> -->
-          |<nowiki />
-        }}
-      </ul>
-      <!-- |<br> -->
-      |<nowiki />
-    </ul>
-      }}
-  }}
+=== Testwaarden ===
+* page: [[{{#var:page}}]]
+* elementtype: {{#var:elementtype}}
+* model: [[{{#var:model}}]]
+
+=== Preview ===
+</noinclude><!--
+-->__NOCACHE____NOTOC____NOEDITSECTION__<!--
+-->{{#displayArchiMateBreadcrumbs:page={{#var:page}}|model={{#var:model}}|elementtype={{#var:elementtype}} }}<!--
+
+Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMMA zelf
+
+-->{{DisplayArchiMateCustom/Projectbanner
+     |page={{#var:page}}
+     |model={{#var:model}} }}<!--
+
+--><div class="scam-row">
+    <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
+
+  Contextdiagram
+  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-context-diagram}}
+       |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center>
+     }}<!--
+
+  Eigenschappen. De lijst CustomProperties komt van ArchiMedes zodat de volgorde uit het model behouden
+  blijft; de waarden komen uit SMW.
+  -->{{CreateDisplayBox|1=auto|2=2px|3=Eigenschappen
+       |4={{DisplayArchiMateCustom/Eigenschappen
+            |page={{#var:page}}
+            |elementtype={{#var:elementtype}}
+            |model={{#var:model}}
+            |label={{{Label| }}}
+            |documentation={{{Documentation| }}}
+            |toelichting={{{Toelichting| }}}
+            |gemmatype={{{GEMMA type| }}}
+            |eigenschappen={{{CustomProperties| }}}
+            |hook=DisplayArchiMateElementCustom{{#var:elementtype}}Properties
+            |hookall=DisplayArchiMateElementCustom{{#var:elementtype}}PropertiesAll
+          }}
+     }}<!--
+
+  Relaties
+  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-relationships-short}}
+       |4={{DisplayArchiMateCustom/Relaties
+            |page={{#var:page}}
+            |model={{#var:model}}
+            |hook=DisplayArchiMateElementCustom{{#var:elementtype}}Relations
+            |hookall=DisplayArchiMateElementCustom{{#var:elementtype}}RelationsAll
+          }}
+     }}<!--
+
+  Views
+  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-views}}
+       |4={{DisplayArchiMateCustom/Views |page={{#var:page}} }}
+     }}
+    </div>
+  </div>
