@@ -1,0 +1,30 @@
+<!--TS:20180322163400--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+-->
+
+This template can be used to display an ArchiMateView with the corresponding dynamic view panel.
+
+Usage of this template:
+<pre>{{DisplayArchiMateDynamicView
+|page=<string>           - The exact name or displaytitle of the page corresponding with the ArchiMateView to display (mandatory)
+|customproperty=<string> - The name of the customproperty to use as default color scheme (optional)
+|maxwidth=<integer>      - The maximum width in pixels of the diagram (optional)
+|nolinks=true            - Disable any links in the diagram (optional)
+|panel=hidden            - Hide the legend panel to avoid users changing the color scheme (optional)
+|frame=hidden            - Hide both legend panel and the displaybox frame, show only the diagram (optional)
+}}</pre>
+
+Example:
+<pre>{{DisplayArchiMateDynamicView|page=Id-12345-67890|customproperty=Supplier|nolinks=true}}</pre>
+
+</noinclude><includeonly><!--
+-->{{#if:{{{frame|}}}<!--
+     frame gezet: alleen diagram, paneel verborgen (archimate-hidden)
+     -->|{{#displayArchiMateDiagram:page={{{page|}}}|maxwidth={{{maxwidth|}}}|nolinks={{{nolinks|}}}}}<div class="archimate-hidden">{{#displayArchiMatePanel:page={{{page|}}}|customproperty={{{customproperty|}}}}}</div><!--
+     standaard: diagram links (breedte hangt af van panel=hidden), paneel rechts (verborgen zodra panel gezet is)
+     -->|<div class="{{#if:{{{panel|}}}|scam-inline-block-99|scam-inline-block-80}} scam-display-left scam-display-block scam-block-content">{{CreateDisplayBox|auto|2px|[[{{{page|}}}]]|<center>{{#displayArchiMateDiagram:page={{{page|}}}|maxwidth={{{maxwidth|}}}|nolinks={{{nolinks|}}}}}</center>}}</div>
+<div class="scam-inline-block-19 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel {{#if:{{{panel|}}}|archimate-hidden}}">{{CreateDisplayBox|auto|2px|{{int:scam-tx-dynamic-view-panel}}|{{#displayArchiMatePanel:page={{{page|}}}|customproperty={{{customproperty|}}}}}}}</div>
+   }}<!--
+--></includeonly>

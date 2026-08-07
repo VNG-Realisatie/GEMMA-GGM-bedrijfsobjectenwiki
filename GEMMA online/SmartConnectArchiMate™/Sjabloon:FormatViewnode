@@ -1,0 +1,7 @@
+<!--TS:20171029201500--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--></noinclude><includeonly><!--
+--><li>[[{{{1|}}}]]<br> {{int:scam-tx-position}}: ({{{2|}}},{{{3|}}}); {{int:scam-tx-size}}: ({{{4|}}},{{{5|}}}); {{#if:{{{6|}}}|<br>{{int:scam-am-element}}: [[{{{6|}}}]]}}{{#if:{{{7|}}}|{{int:scam-am-view}}: [[{{{7|}}}]]}}</li><!--
+--></includeonly>

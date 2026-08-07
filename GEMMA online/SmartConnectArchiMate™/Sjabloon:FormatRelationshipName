@@ -1,0 +1,11 @@
+<!--TS:20190823134500--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+-->This template can be used to return a formatted relationship name, which is useful because relationships usually have no meaningful name. Usage is
+
+<pre>
+{{FormatRelationshipName|Id|Source|Target|Relationship type}}
+</pre>
+
+</noinclude><includeonly>{{{2|({{int:scam-tx-no-source}})}}} {{#if:{{{4|}}}|{{int:scam-am-txt-{{lc:{{{4|}}}}}}}|=>}} {{{3|({{int:scam-tx-no-target}})}}}{{#if:{{{4|}}}|&nbsp;([[{{{1|}}}|{{{4|}}}]])}}</includeonly>

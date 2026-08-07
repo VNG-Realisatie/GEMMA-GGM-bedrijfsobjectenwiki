@@ -1,1 +1,8 @@
-<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><includeonly>{{#ifexist:Sjabloon:ApplicationFunctionEpilogueCustom|{{ApplicationFunctionEpilogueCustom}}|{{#ifeq: {{{SWC type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}{{#ifeq: {{{GEMMA type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}{{#ifeq: {{{Applicatiefunctiecategorie|}}}|||[[Categorie:{{{Applicatiefunctiecategorie|}}}|{{{Semantictitle}}}]]}}}}</includeonly>
+<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><!--
+--><includeonly><!--
+-->{{#ifexist:Sjabloon:ApplicationFunctionEpilogueCustom|{{ApplicationFunctionEpilogueCustom}}|<!--
+  -->{{#ifeq: {{{SWC type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{Applicatiefunctiecategorie|}}}|||[[Categorie:{{{Applicatiefunctiecategorie|}}}|{{{Semantictitle}}}]]}}<!--
+-->}}<!--
+--></includeonly>

@@ -1,0 +1,30 @@
+<!--TS:20240516075500--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2018 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+-->
+
+This template can be used to display an ArchiMateView with the corresponding dynamic view panel.
+
+Usage of this template:
+<pre>{{DisplayArchiMateDiagram
+|page=<string>           - The exact name or displaytitle of the page corresponding with the ArchiMateView to display (mandatory)
+|customproperty=<string> - The name of the customproperty to use as default color scheme (optional)
+|maxwidth=<integer>      - The maximum width in pixels of the diagram (optional)
+|nolinks=true            - Disable any links in the diagram (optional)
+|nopanel=true            - Display diagram only. Hides the legend panel to avoid users changing the color scheme (optional)
+|highlight=<string>   - Highlight certain elements. you can define them by a list of comma seperated element ID's
+}}</pre>
+
+Example:
+<pre>{{DisplayArchiMateDiagram|page=Id-12345-67890|customproperty=Supplier|nolinks=true|highlight=Id-10305-21830}}</pre>
+
+</noinclude><includeonly><div class="scam-row"><!--
+
+-->{{#if:{{{nopanel|}}}<!--
+     nopanel=true: alleen het diagram, paneel bestaat wel maar verborgen (archimate-hidden)
+     -->|{{#displayArchiMateDiagram:page={{{page|}}}|maxwidth={{{maxwidth|}}}|nolinks={{{nolinks|}}}|highlight={{{highlight|}}}}}<div class="archimate-hidden">{{#displayArchiMatePanel:page={{{page|}}}|customproperty={{{customproperty|}}}}}</div><!--
+     standaard: diagram links, dynamische-eigenschappenpaneel rechts
+     -->|<div class="scam-inline-block-80 scam-display-left scam-display-block scam-block-content">{{CreateDisplayBox|auto|2px|[[{{{page|}}}]]|<center>{{#displayArchiMateDiagram:page={{{page|}}}|maxwidth={{{maxwidth|}}}|nolinks={{{nolinks|}}}|highlight={{{highlight|}}}}}</center>}}</div>
+<div class="scam-inline-block-19 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel">{{CreateDisplayBox|auto|2px|{{int:scam-tx-dynamic-view-panel}}|{{#displayArchiMatePanel:page={{{page|}}}|customproperty={{{customproperty|}}}}}}}</div>
+   }}</div></includeonly>

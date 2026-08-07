@@ -1,0 +1,94 @@
+<!--TS:20240724081000--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--></noinclude><includeonly><!--
+-->__NOCACHE____NOTOC____NOEDITSECTION__<!--
+-->{{#displayArchiMateBreadcrumbs:page={{FULLPAGENAME}}|model={{{Occurs in model|}}}|elementtype={{{Elementtype|}}}}}<!--
+
+--><div class="scam-row"><!--
+--><div class="scam-inline-block-66 scam-display-left scam-display-inline-block scam-block-heading"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-element}} {{{Semantictitle|{{FULLPAGENAME}}}}}|<table><!--
+
+--><tr><th>'''{{int:scam-pr-elementtype}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>[[DisplayArchiMateGlossary#{{{Elementtype|}}}|{{{Elementtype|}}} ]]</td></tr><!--
+--><tr><th>'''{{int:scam-pr-element-id}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{FULLPAGENAME}}</td></tr><!--
+--><tr><th>'''{{int:scam-am-model}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>[[{{{Occurs in model|}}}]]</td></tr><!--
+
+Label: eerst de taalneutrale parameter, anders de contenttaal-variant (Label_nl e.d.)
+-->{{#if:{{{Label|}}}
+     |<tr><th>'''{{int:scam-pr-label}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Label|}}}</td></tr>
+     |{{#if:{{{Label_{{CONTENTLANGUAGE}}|}}}
+        |<tr><td>'''{{int:scam-pr-label}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Label_{{CONTENTLANGUAGE}}|}}}</td></tr>
+       }}
+   }}<!--
+
+Documentation: zelfde patroon als Label
+-->{{#if:{{{Documentation|}}}
+     |<tr><th>'''{{int:scam-pr-documentation}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Documentation|}}}</td></tr>
+     |{{#if:{{{Documentation_{{CONTENTLANGUAGE}}|}}}
+        |<tr><td>'''{{int:scam-pr-documentation}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Documentation_{{CONTENTLANGUAGE}}|}}}</td></tr>
+       }}
+   }}<!--
+
+Eén rij per naam in CustomProperties. {{{{{ucfirst:xqx}}|}}} leest de gelijknamige parameter dynamisch
+op (parameter-indirectie); {{#set:...}} legt de waarde meteen als SMW-eigenschap vast (tonen en
+vastleggen zitten hier dus in hetzelfde blok, i.t.t. de GEMMA-aanpak). Per eigenschap wordt ook een
+losse <Property>Languages-lijst afgehandeld, met een <Property>_<taalcode>-waarde per taal in die lijst.
+Ontbreekt de taalneutrale waarde, dan valt de rij terug op de contenttaal-variant.
+-->{{#arraymap:{{{CustomProperties|}}}|,|xqx
+     |{{#set:{{ucfirst:xqx}}={{{{{ucfirst:xqx}}|}}}}}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}Languages|}}}
+            |{{#arraymap:{{{{{ucfirst:xqx}}Languages|}}}|,|yqy
+                 |{{#set:{{ucfirst:xqx}}Languages=yqy}}{{#set:{{ucfirst:xqx}}_yqy={{{{{ucfirst:xqx}}_yqy|}}}}}
+               |}}
+          }}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}|}}}
+            |<tr><th>'''{{ucfirst:xqx}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}|}}}</td></tr>
+            |{{#if:{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}
+                 |<tr><th>'''{{ucfirst:xqx}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}</td></tr>
+               }}
+          }}
+    |}}<!--
+
+Views waarin dit element voorkomt, en de relaties waarbij dit element bron of doel is
+--><tr><th>'''{{int:scam-am-views}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td><!--
+     -->{{#ask:[[Category:ArchiMateViews]][[-Occurs in view.Refers to element::{{FULLPAGENAME}}]]|format=ul|headers=hide|link=all|limit=500}}</td></tr><!--
+
+--><tr><th>'''{{int:scam-am-relationships-short}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td><ul><!--
+     -->{{#arraymap:{{#ask:[[Category:ArchiMateRelationships]][[Has source element::{{FULLPAGENAME}}]]|format=plainlist|headers=hide|link=none|limit=500}}|,|xqx
+          |<li>{{FormatRelationshipName|xqx|[[{{FULLPAGENAME}}]]|[[{{#show:xqx|?Has target element#}}]]|{{#show:xqx|?Elementtype#}}}}</li>
+        |}}<!--
+     -->{{#arraymap:{{#ask:[[Category:ArchiMateRelationships]][[Has target element::{{FULLPAGENAME}}]]|format=plainlist|headers=hide|link=none|limit=500}}|,|xqx
+          |<li>{{FormatRelationshipName|xqx|[[{{#show:xqx|?Has source element#}}]]|[[{{FULLPAGENAME}}]]|{{#show:xqx|?Elementtype#}}}}</li>
+        |}}</ul></td></tr><!--
+
+--></table><!--
+   -->||{{#displayArchiMateIcon:elementtype={{{Elementtype|}}}|archimateversion={{{ArchiMateVersion|}}}}}}}<!--
+--></div><!--
+
+Analyses-paneel: alleen als er voor dit elementtype/deze ArchiMate-versie analyses geregistreerd zijn
+-->{{#if:{{#vardefineecho:analyses|{{#listArchiMateAnalyses:elementtype={{{Elementtype|}}}|archimateversion={{{ArchiMateVersion|}}}|element={{FULLPAGENAME}}}}}}
+     |<div class="scam-inline-block-33 scam-display-right scam-display-inline-block scam-block-heading"><!--
+        -->{{CreateDisplayBox|auto|2px|{{int:scam-tx-list-of-analyses-box-title}}|<ul><!--
+             -->{{#arraymap:{{#var:analyses}}|,|xqx
+                  |<li><span class="plainlinks">[{{fullurl:DisplayArchiMateAnalysis|analysis={{urlencode:xqx}}&element={{FULLPAGENAMEE}}&archimateversion={{{ArchiMateVersion|}}}}} {{int:scam-an-xqx}}]</span></li>
+                |}}</ul>}}</div>
+   }}<!--
+
+--></div><!--
+
+--><div class="scam-row"><!--
+--><div class="scam-inline-block-66 scam-display-left scam-display-inline-block scam-block-content"><!--
+Contextdiagram: het element met alle direct verbonden elementen eromheen
+-->{{CreateDisplayBox|auto|2px|{{int:scam-tx-context-diagram}}|<center>{{#displayArchiMateDiagram:page={{FULLPAGENAME}}|elementtype={{{Elementtype|}}}}}</center>}}</div><!--
+--></div><!--
+
+Categorieën: ArchiMate-versie, generieke ArchiMateElements, laag en aspect (via closed-source
+#getArchiMateLayer/#getArchiMateAspect), en het model waarin dit element voorkomt
+-->[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]<!--
+-->[[Category:ArchiMateElements]]<!--
+-->[[Category:{{#getArchiMateLayer:elementtype={{{Elementtype|}}}|archimateversion={{{ArchiMateVersion|}}}}}]]<!--
+-->[[Category:{{#getArchiMateAspect:elementtype={{{Elementtype|}}}|archimateversion={{{ArchiMateVersion|}}}}}]]<!--
+-->{{#if:{{{Occurs in model|}}}|[[Category:ArchiMateModel {{{Occurs in model|}}}]]}}<!--
+
+--></includeonly>

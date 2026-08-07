@@ -1,0 +1,72 @@
+<!--TS:20240724081000--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--></noinclude><includeonly><!--
+-->__NOTOC____NOEDITSECTION__<!--
+-->{{#if:{{{Occurs in model|}}}|[[Category:ArchiMateModel {{{Occurs in model|}}}]]}}<!--
+-->{{#displayArchiMateBreadcrumbs:page={{FULLPAGENAME}}|model={{{Occurs in model|}}}|elementtype={{{Elementtype|}}}}}<!--
+
+--><div class="scam-row"><!--
+--><div class="scam-inline-block-66 scam-display-block scam-block-content"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-viewpoint}} {{{Semantictitle|{{FULLPAGENAME}}}}}|<table><!--
+
+--><tr><td>'''{{int:scam-pr-viewpoint-id}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{FULLPAGENAME}}</td></tr><!--
+--><tr><td>'''{{int:scam-am-model}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>[[{{{Occurs in model|}}}]]</td></tr><!--
+
+Alle views die dit viewpoint gebruiken
+--><tr><td>'''{{int:scam-am-views}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td><!--
+     -->{{#ask:[[Category:ArchiMateViews]][[Refers to viewpoint::{{PAGENAME}}]]|format=ul|limit=500|headers=hide|sort=Semantictitle|searchlabel=|default=''({{int:scam-tx-nothing-found}})''}}</td></tr><!--
+
+-->{{#if:{{{Label|}}}
+     |<tr><td>'''{{int:scam-pr-label}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Label|}}}</td></tr>
+     |{{#if:{{{Label_{{CONTENTLANGUAGE}}|}}}
+        |<tr><td>'''{{int:scam-pr-label}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Label_{{CONTENTLANGUAGE}}|}}}</td></tr>
+       }}
+   }}<!--
+-->{{#if:{{{Documentation|}}}
+     |<tr><td>'''{{int:scam-pr-documentation}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Documentation|}}}</td></tr>
+     |{{#if:{{{Documentation_{{CONTENTLANGUAGE}}|}}}
+        |<tr><td>'''{{int:scam-pr-documentation}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Documentation_{{CONTENTLANGUAGE}}|}}}</td></tr>
+       }}
+   }}<!--
+
+Viewpoint-definitie: doel, inhoud, toegestane element-/relatietypen
+--><tr><td>'''{{int:scam-am-viewpoint-purpose}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{ViewpointPurpose|}}}</td></tr><!--
+--><tr><td>'''{{int:scam-am-viewpoint-content}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{ViewpointContent|}}}</td></tr><!--
+--><tr><td>'''{{int:scam-am-viewpoint-allowed-elementtypes}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td><ul>{{#arraymap:{{{AllowedElementtypes|}}}|,|xqx|<li>xqx</li>|}}</ul></td></tr><!--
+--><tr><td>'''{{int:scam-am-viewpoint-allowed-relationshipstypes}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td><ul>{{#arraymap:{{{AllowedRelationshiptypes|}}}|,|xqx|<li>xqx</li>|}}</ul></td></tr><!--
+
+Zelfde CustomProperties-lus als Sjabloon:DisplayArchiMateElement
+-->{{#arraymap:{{{CustomProperties|}}}|,|xqx
+     |{{#set:{{ucfirst:xqx}}={{{{{ucfirst:xqx}}|}}}}}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}Languages|}}}
+            |{{#arraymap:{{{{{ucfirst:xqx}}Languages|}}}|,|yqy
+                 |{{#set:{{ucfirst:xqx}}Languages=yqy}}{{#set:{{ucfirst:xqx}}_yqy={{{{{ucfirst:xqx}}_yqy|}}}}}
+               |}}
+          }}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}|}}}
+            |<tr><td>'''{{ucfirst:xqx}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}|}}}</td></tr>
+            |{{#if:{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}
+                 |<tr><td>'''{{ucfirst:xqx}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}</td></tr>
+               }}
+          }}
+    |}}<!--
+
+Concerns en modeling notes: tot 10 stuks (xqx=00..09), elk optioneel met tot 10 stakeholders (yqy=00..09)
+--><tr><td>'''{{int:scam-am-viewpoint-concerns}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td><ul><!--
+     -->{{#arraymap:00,01,02,03,04,05,06,07,08,09|,|xqx
+          |{{#if:{{{Concernxqx_Label|}}}{{{Concernxqx_Documentation|}}}{{{Concernxqx_Stakeholderyqy_Label|}}}
+             |<li>{{{Concernxqx_Label|}}}<br>{{{Concernxqx_Documentation|}}}<br>{{int:scam-am-viewpoint-stakeholders}}: {{#arraymap:00,01,02,03,04,05,06,07,08,09|,|yqy|{{{Concernxqx_Stakeholderyqy_Label|}}}|,&nbsp;}}</li>
+            }}
+        |}}</ul></td></tr><!--
+
+--><tr><td>'''{{int:scam-am-viewpoint-modeling-notes}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td><ul><!--
+     -->{{#arraymap:00,01,02,03,04,05,06,07,08,09|,|xqx
+          |{{#if:{{{ModelingNotexqx_Documentation|}}}|<li>{{{ModelingNotexqx_Documentation|}}}</li>}}
+        |}}</ul></td></tr><!--
+
+--></table>}}</div><!--
+--></div><!--
+
+--></includeonly>

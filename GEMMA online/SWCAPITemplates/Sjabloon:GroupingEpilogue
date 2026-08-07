@@ -1,2 +1,9 @@
-<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><includeonly>{{#ifexist:Sjabloon:GroupingEpilogueCustom|{{GroupingEpilogueCustom}}|{{#ifeq: {{{SWC type|}}}|Groep|{{#switch: {{{SWC subtype|}}}
-|Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]]}} }}{{#ifeq: {{{GEMMA type|}}}|Groep|{{#switch: {{{GEMMA subtype|}}}|Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}}}</includeonly>
+<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><!--
+--><includeonly><!--
+-->{{#ifexist:Sjabloon:GroupingEpilogueCustom|{{GroupingEpilogueCustom}}|<!--
+  -->{{#ifeq: {{{SWC type|}}}|Groep|{{#switch: {{{SWC subtype|}}}
+      |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
+  -->{{#ifeq: {{{GEMMA type|}}}|Groep|{{#switch: {{{GEMMA subtype|}}}
+      |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
+-->}}<!--
+--></includeonly>

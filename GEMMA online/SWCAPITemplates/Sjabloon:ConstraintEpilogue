@@ -1,1 +1,28 @@
-<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><includeonly>{{#ifexist:Sjabloon:ConstraintEpilogueCustom|{{ConstraintEpilogueCustom}}|{{#ifeq: {{{SWC type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}{{#ifeq: {{{GEMMA type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}{{#ifeq: {{{SWC type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}{{#ifeq: {{{GEMMA type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}{{#ifeq: {{{SWC subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}{{#ifeq: {{{GEMMA subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}{{#vardefine: stURL| {{{Standaard URL|}}} }}{{#vardefine: lenSub|{{#expr:  {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}{{#vardefine: startSub|{{#expr:  {{#pos: {{#var: stURL}}|(}} + 1 }} }}{{#vardefine: newURL| {{#sub:  {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}{{#set: Standaard URL={{#var: newURL}} }}{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL|}}} }}{{#vardefine: lenSub|{{#expr:  {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }} {{#vardefine: startSub|{{#expr:  {{#pos: {{#var: stURL}}|(}} + 1 }} }}{{#vardefine: newURL| {{#sub:  {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}{{#set: Standaard Compliancy Instrument URL={{#var: newURL}} }}{{#set:lc_URL_nl={{lc:{{{URL_nl|}}}}}}}{{#set: GEMMA status::{{{Status|}}} }}}}</includeonly>
+<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><!--
+--><includeonly><!--
+-->{{#ifexist:Sjabloon:ConstraintEpilogueCustom|{{ConstraintEpilogueCustom}}|<!--
+  -->{{#ifeq: {{{SWC type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
+
+  Standaard URL: substring tussen haakjes eruit halen
+  -->{{#vardefine: stURL| {{{Standaard URL|}}} }}<!--
+  -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+  -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+  -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+  -->{{#set: Standaard URL={{#var: newURL}} }}<!--
+
+  Standaard Compliancy Instrument URL: zelfde bewerking
+  -->{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL|}}} }}<!--
+  -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+  -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+  -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+  -->{{#set: Standaard Compliancy Instrument URL={{#var: newURL}} }}<!--
+
+  -->{{#set:lc_URL_nl={{lc:{{{URL_nl|}}}}}}}<!--
+  -->{{#set: GEMMA status::{{{Status|}}} }}<!--
+-->}}<!--
+--></includeonly>

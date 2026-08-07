@@ -1,0 +1,39 @@
+<!--TS:20240724081000--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2019 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--></noinclude><includeonly><!--
+-->__NOINDEX__<!--
+-->{{#if:{{{Occurs in model|}}}|[[Category:ArchiMateModel {{{Occurs in model|}}}]]}}<!--
+
+CustomProperties eerst als SMW-eigenschap zetten (geen tabelrij hier, dat gebeurt hier niet)
+-->{{#arraymap:{{{CustomProperties|}}}|,|xqx
+     |{{#if:{{{{{ucfirst:xqx}}Languages|}}}
+        |{{#arraymap:{{{{{ucfirst:xqx}}Languages|}}}|,|yqy
+             |{{#set:{{ucfirst:xqx}}_yqy={{{{{ucfirst:xqx}}_yqy|}}}}}
+           |}}
+        |{{#set:{{ucfirst:xqx}}={{{{{ucfirst:xqx}}|}}}}}
+       }}
+   |}}<!--
+-->{{#vardefine:max|1000}}
+<div class="scam-row">
+<div class="scam-inline-block-66 scam-display-block scam-block-heading">{{CreateDisplayBox|auto|2px|{{int:scam-am-organization}} {{{Semantictitle|}}}|<table><!--
+
+--><tr><th>'''{{int:scam-pr-element-id}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{FULLPAGENAME}}</td></tr><!--
+--><tr><th>'''{{int:scam-am-model}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>[[{{{Occurs in model|}}}]]</td></tr><!--
+
+Boomstructuur van organisatie-items: elke regel wordt met padleft ingesprongen op basis van ItemLevel
+--><tr><th>'''{{int:scam-am-organization-short}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td><!--
+     -->{{#arraymap: {{#ask:[[Category:ArchiMateOrganizationitems]][[Occurs in organization::{{FULLPAGENAME}}]]|sort=ItemSortkey|{{#ifeq:{{#sub:{{CURRENTVERSION}}|0|4}}|1.27|format=list|format=plainlist}}|link=none|limit={{#var:max}}|searchlabel=}}|,|xqx
+          |{{padleft:|{{#show:xqx|?ItemLevel}}|*}} {{#show:xqx|?Semantictitle}}
+        |\n}}
+
+
+{{#ifexpr:{{#vardefineecho:total|{{#ask:[[Category:ArchiMateOrganizationitems]][[Occurs in organization::{{FULLPAGENAME}}]]|sort=ItemSortkey|format=count}}}} > {{#var:max}}
+     |''{{int:scam-tx-treeviewlimit1}} {{#var:max}} {{int:scam-tx-treeviewlimit2}} {{#expr:{{#var:total}} - {{#var:max}}}} {{int:scam-tx-treeviewlimit3}}''
+   }}<!--
+
+--></td></tr><!--
+--></table>}}</div>
+</div>
+</includeonly>

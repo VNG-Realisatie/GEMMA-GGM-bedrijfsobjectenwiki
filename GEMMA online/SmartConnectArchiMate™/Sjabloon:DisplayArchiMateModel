@@ -1,0 +1,106 @@
+<!--TS:20240724081000--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--></noinclude><includeonly><!--
+-->{{#if:{{{Occurs in model|}}}|[[Category:ArchiMateModel {{{Occurs in model|}}}]]}}<!--
+
+Modelmetadata (importbestand-metadata, vrij van naam per model) als losse SMW-eigenschap
+-->{{#arraymap:{{{MetadataProperties|}}}|,|xqx|{{#set:Metadata-xqx={{{Metadata-xqx|}}}}}|}}<!--
+
+-->{{#displayArchiMateBreadcrumbs:page={{FULLPAGENAME}}|elementtype={{{Elementtype|}}}}}<!--
+
+--><div class="scam-row"><div class="scam-inline-block-99 scam-display-block scam-block-heading"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-model}} {{{Semantictitle|{{FULLPAGENAME}}}}}|<table><!--
+
+--><tr><th>'''{{int:scam-pr-importdatetime}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{#time: d-m-Y H:i:s|{{{ImportDateTime|-}}}}}</td></tr><!--
+--><tr><th>'''{{int:scam-pr-archimateversion}}'''</th><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{ArchiMateVersion|-}}}</td></tr><!--
+-->{{#arraymap:{{{MetadataProperties|}}}|,|xqx
+     |{{#ifeq:xqx|description||<tr><td>'''{{ucfirst:xqx}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{Metadata-xqx|-}}}</td></tr>}}
+   |}}<!--
+
+Zelfde CustomProperties-lus als Sjabloon:DisplayArchiMateElement
+-->{{#arraymap:{{{CustomProperties|}}}|,|xqx
+     |{{#set:{{ucfirst:xqx}}={{{{{ucfirst:xqx}}|}}}}}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}Languages|}}}
+            |{{#arraymap:{{{{{ucfirst:xqx}}Languages|}}}|,|yqy
+                 |{{#set:{{ucfirst:xqx}}Languages=yqy}}{{#set:{{ucfirst:xqx}}_yqy={{{{{ucfirst:xqx}}_yqy|}}}}}
+               |}}
+          }}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}|}}}
+            |<tr><td>'''{{ucfirst:xqx}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}|}}}</td></tr>
+            |{{#if:{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}
+                 |<tr><td>'''{{ucfirst:xqx}}'''</td><td>&nbsp;&nbsp;:&nbsp;</td><td>{{{{{ucfirst:xqx}}_{{CONTENTLANGUAGE}}|}}}</td></tr>
+               }}
+          }}
+    |}}</table><!--
+
+CreateDisplayBox tweede kolom (naast de tabel): beschrijving en documentatie van het model, elk met
+NL-fallback
+-->|<center><!--
+-->{{#if:{{{Metadata-description|}}}
+     |{{{Metadata-description|}}}<br><br>
+     |{{#if:{{{Metadata-description_{{CONTENTLANGUAGE}}|}}}|{{{Metadata-description_{{CONTENTLANGUAGE}}|}}}<br><br>}}
+   }}<!--
+-->{{#if:{{{Documentation|}}}
+     |{{{Documentation|}}}
+     |{{#if:{{{Documentation_{{CONTENTLANGUAGE}}|}}}|{{{Documentation_{{CONTENTLANGUAGE}}|}}}|''({{int:scam-tx-no-documentation}})''}}
+   }}<!--
+--></center>}}</div></div><!--
+
+--><div class="scam-row"><!--
+
+Elementen per architectuurlaag, met aantallen per model
+--><div class="scam-inline-block-33 scam-display-block scam-block-heading"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-elements}}|<!--
+     -->{{#arraymap:{{#listArchiMateLayers:archimateversion={{{ArchiMateVersion|}}}}}|,|xqx
+          |'''{{int:scam-am-{{lc:xqx}}}}'''<br><ul><!--
+               -->{{#arraymap:{{#listArchiMateElements:layer=xqx|archimateversion={{{ArchiMateVersion|}}}}}|,|yqy
+                    |<li>[{{fullurl:DisplayArchiMateElements|elementtype=yqy&model={{FULLPAGENAMEE}}}} {{PAGENAME:{{#show:yqy|?Elementtypecategorie#}}}}] ({{#ask:[[{{#show:yqy|?Elementtypecategorie#}}]][[Occurs in model::{{FULLPAGENAME}}]]|format=count}})</li>
+                  |}}</ul><br>
+        |}}
+   }}</div><!--
+
+Relaties per relatiecategorie, met aantallen, plus (indien aanwezig) organisaties, viewpoints en
+eigenschapdefinities van dit model
+--><div class="scam-inline-block-33 scam-display-block scam-block-content"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-relationships}}|<!--
+     -->{{#arraymap:{{#listArchiMateRelationshipTypes:archimateversion={{{ArchiMateVersion|}}}}}|,|xqx
+          |'''{{int:scam-am-{{lc:xqx}}}}'''<br><ul><!--
+               -->{{#arraymap:{{#listArchiMateRelationships:reltype=xqx|archimateversion={{{ArchiMateVersion|}}}}}|,|yqy
+                    |<li>[{{fullurl:DisplayArchiMateRelationships|elementtype=yqy&model={{FULLPAGENAMEE}}}} {{PAGENAME:{{#show:yqy|?Elementtypecategorie#}}}}] ({{#ask:[[{{#show:yqy|?Elementtypecategorie#}}]][[Occurs in model::{{FULLPAGENAME}}]]|format=count}})</li>
+                  |}}</ul><br>
+        |}}
+   }}<!--
+
+-->{{#if:{{#ask:[[Category:ArchiMateOrganizations]][[Occurs in model::{{FULLPAGENAME}}]]|limit=1}}
+     |{{CreateDisplayBox|auto|2px|{{int:scam-am-organizations}}|'''{{int:scam-tx-all-organizations}}'''<br><ul><!--
+          -->{{#arraymap:{{#ask:[[Category:ArchiMateOrganizations]][[Occurs in model::{{FULLPAGENAME}}]]|{{#ifeq:{{#sub:{{CURRENTVERSION}}|0|4}}|1.27|format=list|format=plainlist}}|limit=50|searchlabel=|link=none}}|,|xqx
+               |<li>[[xqx|{{#if:{{#show:xqx|?Semantictitle#}}|{{#show:xqx|?Semantictitle#}}|{{int:scam-tx-unnamed-organization}}}}]]</li>
+             |}}</ul><br>}}
+   }}<!--
+
+-->{{#if:{{#ask:[[Category:ArchiMateViewpoints]][[Occurs in model::{{FULLPAGENAME}}]]|limit=1}}
+     |{{CreateDisplayBox|auto|2px|{{int:scam-am-viewpoints}}|'''{{int:scam-tx-all-viewpoints}}'''<br><ul><!--
+          -->{{#arraymap:{{#ask:[[Category:ArchiMateViewpoints]][[Occurs in model::{{FULLPAGENAME}}]]|{{#ifeq:{{#sub:{{CURRENTVERSION}}|0|4}}|1.27|format=list|format=plainlist}}|limit=50|searchlabel=|link=none}}|,|xqx
+               |<li>[[xqx|{{#if:{{#show:xqx|?Semantictitle#}}|{{#show:xqx|?Semantictitle#}}|{{int:scam-tx-unnamed-viewpoint}}}}]]</li>
+             |}}</ul><br>}}
+   }}<!--
+
+-->{{#if:{{#ask:[[Category:ArchiMatePropertyDefs]][[Occurs in model::{{FULLPAGENAME}}]]|limit=1}}
+     |{{CreateDisplayBox|auto|2px|{{int:scam-am-propertydefs}}|'''{{int:scam-tx-all-propertydefs}}'''<br><ul><!--
+          -->{{#arraymap:{{#ask:[[Category:ArchiMatePropertyDefs]][[Occurs in model::{{FULLPAGENAME}}]]|{{#ifeq:{{#sub:{{CURRENTVERSION}}|0|4}}|1.27|format=list|format=plainlist}}|limit=50|searchlabel=|link=none}}|,|xqx
+               |<li>[[xqx|{{#if:{{#show:xqx|?Semantictitle#}}|{{#show:xqx|?Semantictitle#}}|{{int:scam-tx-unnamed-propertydef}}}}]]</li>
+             |}}</ul><br>}}
+   }}<!--
+--></div><!--
+
+Views van dit model, met "meer resultaten"-link boven de 50
+--><div class="scam-inline-block-33 scam-display-block scam-block-content"><!--
+-->{{CreateDisplayBox|auto|2px|{{int:scam-am-views}}|'''{{int:scam-tx-all-views}}'''<br>{{#ask:[[Category:ArchiMateViews]][[Occurs in model::{{FULLPAGENAME}}]]|format=ul|limit=50|sort=Semantictitle|searchlabel=}}}}<!--
+-->{{#ifexpr:{{#vardefineecho:total|{{#ask:[[Category:ArchiMateViews]][[Occurs in model::{{FULLPAGENAME}}]]|format=count}}}} > 50
+     |''{{int:scam-tx-more-objects1}} {{#expr:{{#var:total}} - 50}} {{int:scam-tx-more-objects2}} <span class="plainlinks">[{{fullurl:DisplayArchiMateViews|elementtype=ArchiMateView&model={{FULLPAGENAMEE}}}} {{int:scam-tx-here}}]</span> {{int:scam-tx-more-objects4}}''
+   }}<!--
+--></div></div><!--
+
+--></includeonly>

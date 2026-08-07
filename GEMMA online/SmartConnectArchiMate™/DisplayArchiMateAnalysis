@@ -1,0 +1,18 @@
+<!--TS:20180430072300-->__NOCACHE__[[Category:SmartConnectArchiMate™]]<!--
+This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
+license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
+overwritten by module upgrades.
+--><!--
+
+--><div class="scam-row"><!--
+
+Resultaat en configuratiepaneel van de analyse (URL-parameters worden door de closed-source
+#performArchiMateAnalysis/#displayAnalysisPanel functies zelf gelezen, niet als sjabloonparameter)
+--><div class="scam-inline-block-66 scam-display-left scam-display-inline-block scam-block-heading">{{CreateDisplayBox|auto|2px|{{int:scam-an-result-box-title}}|{{#performArchiMateAnalysis:}}}}</div><!--
+
+--><div class="scam-inline-block-33 scam-display-right scam-display-inline-block scam-block-heading">{{CreateDisplayBox|auto|2px|{{int:scam-an-panel-box-title}}|{{#displayAnalysisPanel:}}}}</div><!--
+
+Toelichting op de analyse, alleen als die beschikbaar is
+-->{{#if:{{#vardefineecho:analysisdoc|{{#displayAnalysisDocumentation:}}}}|<div class="scam-inline-block-99 scam-display-left scam-display-inline-block scam-block-heading">{{CreateDisplayBox|auto|2px|{{int:scam-an-documentation-box-title}}|{{#var:analysisdoc}}}}</div>}}<!--
+
+--></div>

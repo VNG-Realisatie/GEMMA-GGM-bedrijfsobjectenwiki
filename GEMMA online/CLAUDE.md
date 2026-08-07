@@ -10,7 +10,7 @@ Alles wat voor `GEMMA online/` gemaakt of aangepast wordt, gebeurt eerst in de l
 
 Content wordt georganiseerd in mappen die de categoriehiërarchie (`Categorie:`-namespace op redactie.gemmaonline.nl) volgen, bijv. `GEMMA online/Thema-architecturen/Data/`. Eén hoofdmap per pagina — de map van de meest specifieke/topische categorie; geen duplicatie naar andere categoriemappen, geen frontmatter met de overige categorieën erbij. Een categoriemap wordt pas aangemaakt zodra er daadwerkelijk een pagina in geplaatst wordt — niet vooraf de volledige categorieboom namaken. Bij twijfel over de juiste hoofdcategorie van een (nog niet gepubliceerde) pagina: navragen bij de gebruiker, niet gokken. De mapnaam is de exacte categorienaam (bv. `GEMMA ArchiMedesTemplates`, `SWCAPITemplates`); zusters in de categorieboom worden zustermappen, niet in elkaar genest, tenzij de ene categorie ook echt een subcategorie van de andere is.
 
-Huidige mappen (peildatum 2026-08-06):
+Huidige mappen (peildatum 2026-08-07):
 ```
 GEMMA online/
 ├── GEMMA sjablonen/
@@ -19,6 +19,7 @@ GEMMA online/
 │   ├── GEMMA opmaakTemplates/
 │   ├── GEMMA publicatieCustomTemplates/
 │   └── GEMMA SmartCoreTemplates/
+├── SmartConnectArchiMate™/
 ├── SWCAPITemplates/
 ├── Standaarden paginas/
 ├── Thema-architecturen/
