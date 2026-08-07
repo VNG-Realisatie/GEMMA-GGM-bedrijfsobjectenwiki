@@ -25,6 +25,8 @@ de parameter er is, want #if expandeert alleen de gekozen tak.
       |{{#show:{{#var:page}}|?GEMMA type|link=none}} }} }}<!--
 -->{{#vardefine: eigenschappen |{{#if:{{{eigenschappen| }}}|{{{eigenschappen}}}
       |{{#show:{{#var:page}}|?CustomProperties|link=none}} }} }}<!--
+-->{{#vardefine: toonelementtype |{{#ifeq:{{{toonelementtype| }}}|false|nee|ja}} }}<!--
+-->{{#vardefine: toondefinitie |{{#ifeq:{{{toondefinitie| }}}|false|nee|ja}} }}<!--
 
 Bestaan de uitbreidingssjablonen? Eenmalig bepalen: ifexist-page kost ongeveer 5 ms per aanroep.
 
@@ -49,6 +51,7 @@ niet hier.
 Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW gehaald.
 * '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
 * '''elementtype''', '''model''', '''label''', '''documentation''', '''toelichting''', '''gemmatype'''
+* '''toonelementtype''', '''toondefinitie''' - standaard tonen; bij <code>false</code> wordt de Elementtype- resp. Definitie-rij overgeslagen (bv. voor View, waar deze rijen weinig toevoegen).
 * '''eigenschappen''' - komma-gescheiden lijst met namen van de te tonen eigenschappen. Geef deze door vanuit <code>CustomProperties</code> om de volgorde uit het model te behouden; anders levert SMW ze alfabetisch.
 * '''hook''' - sjabloonnaam die extra tabelrijen levert, bv. <code>DisplayArchiMateElementCustomPrincipleProperties</code>
 * '''hookall''' - sjabloonnaam die de hele tabel vervangt, bv. <code>DisplayArchiMateElementCustomPrinciplePropertiesAll</code>
@@ -62,6 +65,7 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
 * elementtype: {{#var:elementtype}}
 * eigenschappen: {{#var:eigenschappen}}
 * hookall toepassen: {{#if:{{#var:hookalltoepassen}}|ja|nee}} / hook toepassen: {{#if:{{#var:hooktoepassen}}|ja|nee}}
+* toonelementtype: {{#var:toonelementtype}} / toondefinitie: {{#var:toondefinitie}}
 
 === Preview ===
 </noinclude><!--
@@ -71,21 +75,25 @@ Vervangt een uitbreidingssjabloon de hele tabel?
 -->{{#ifeq: {{#var:hookalltoepassen}} |ja
     |{{ {{{hookall| }}} |page={{#var:page}}|model={{#var:model}} }}
     |<table>
-          <tr>
+          {{#ifeq:{{#var:toonelementtype}}|ja
+          |<tr>
             <td>'''{{int:scam-pr-elementtype}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>[[DisplayArchiMateGlossary#{{#var:elementtype}}|{{#var:elementtype}} ]]</td>
           </tr>
+          }}
           <tr>
             <td>'''{{int:scam-pr-label}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:label}}</td>
           </tr>
-          <tr>
+          {{#ifeq:{{#var:toondefinitie}}|ja
+          |<tr>
             <td>'''Definitie'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:documentation}}</td>
           </tr>
+          }}
           {{#if:{{#var:toelichting}}
           |<tr>
             <td>'''Toelichting'''</td>
@@ -126,6 +134,7 @@ Vervangt een uitbreidingssjabloon de hele tabel?
                       |Vertrouwelijkheid
                       |GEMMA type
                       |GEMMA status
+                      |Specialization
                       |Type URI
                       |Semanticsearch=style="display:none;" | #default=
                   }}>

@@ -2,10 +2,95 @@
 [[Categorie:GEMMA SmartCoreTemplates]]
 [[Categorie:GEMMA ArchiMedesEpilogues]]
 
-Wordt aangeroepen door alle #elementen (Begrippen, ArchiMate elementen, ..)
+Wordt aangeroepen door alle #elementen (Begrippen, ArchiMate elementen, ..). Legt alle `#set`-eigenschappen en categorieën voor elementen vast: de generieke velden (Voorkeurslabel, Definitie), de generieke ArchiMate-categorieën (verplaatst uit [[:Sjabloon:DisplayArchiMateElementCustom]]), de losse `CustomProperties` als SMW-eigenschap, en de elementtype-specifieke categorielogica die voorheen verspreid stond over de sjablonen in SWCAPITemplates.
 
-</noinclude><includeonly><!--
+=== Aantekeningen (lokale consolidatie, nog niet gepubliceerd) ===
+
+* '''Specialization.''' De generieke `CustomProperties`-lus hieronder zet zonder filter élke naam die ArchiMedes meegeeft als losse SMW-eigenschap. Voor ApplicationComponent-objecten staat `Specialization` met dezelfde waarde als `GEMMA type` in die lijst (bv. beide `Referentiecomponent`), wat een schijnbaar overbodig duplicaat in Speciaal:Bekijken oplevert. De waarde komt uit het Archi-brondocument via closed-source ArchiMedes; dit sjabloon kan het hoogstens signaleren of onderdrukken, niet verklaren.
+* '''SWC type / GEMMA type dubbeling.''' Alle vijf overgenomen elementtype-blokken testen elke categorieregel twee keer: één keer op `{{{SWC type}}}`, één keer op `{{{GEMMA type}}}` — kennelijk de oude en de nieuwe parameternaam naast elkaar. Nergens vastgelegd of `SWC type` nog daadwerkelijk door ArchiMedes wordt meegegeven; zo niet, dan is de helft van elke regel dode code.
+* '''Custom-uitbreidingspunt krijgt geen parameters.''' Elk `{{#ifexist:Sjabloon:<Type>EpilogueCustom|{{<Type>EpilogueCustom}}|...}}` roept de Custom-versie aan zónder de ontvangen parameters door te geven — bestaand gedrag, hier ongewijzigd overgenomen. Een eventuele Custom-epilogue ziet dus geen enkel objectgegeven.
+
+</noinclude><includeonly><!--BEGIN DIV VOOR CIRRUSSEARCH UITSLUITING BLIJFT OPEN, WORDT DOOR SmartCorePrologue GEOPEND--><!--
+
+Generieke velden
+
 -->{{#ifeq: {{{Label_nl| }}}|||{{#set: Voorkeurslabel={{{Label_nl| }}} }} }}<!--
 -->{{#ifeq: {{{Documentation_nl| }}}|||{{#set: Definitie={{{Documentation_nl| }}} }} }}<!--
 -->{{#ifeq: {{{Documentation| }}}|||{{#set: Definitie={{{Documentation| }}} }} }}<!--
+
+Generieke ArchiMate-categorieën (verplaatst uit Sjabloon:DisplayArchiMateElementCustom)
+
+-->[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]<!--
+-->[[Category:ArchiMateElements]]<!--
+-->[[Category:{{#getArchiMateLayer:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }}]]<!--
+-->[[Category:{{#getArchiMateAspect:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }}]]<!--
+-->{{#if:{{{Occurs in model| }}}|[[Category:ArchiMateModel {{{Occurs in model| }}}]]}}<!--
+
+Elke naam in CustomProperties als losse SMW-eigenschap. Zie aantekening over Specialization hierboven.
+
+-->{{#arraymap:{{{CustomProperties| }}}|,|__property__
+     |{{#set:{{ucfirst:__property__ }}={{{ {{ucfirst:__property__}}| }}} }}
+   }}<!--
+
+Elementtype-specifiek: overgenomen uit SWCAPITemplates, elk blok alleen actief voor zijn eigen
+Elementtype. Inhoud per blok ongewijzigd t.o.v. de losse sjablonen.
+
+ApplicationComponent — was Sjabloon:ApplicationComponentEpilogue
+-->{{#ifeq: {{{Elementtype| }}}|ApplicationComponent|<!--
+  -->{{#ifexist:Sjabloon:ApplicationComponentEpilogueCustom|{{ApplicationComponentEpilogueCustom}}|<!--
+    -->{{#ifeq: {{{SWC type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{SWC type|}}}|Landelijke voorziening|[[Categorie:Landelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Buitengemeentelijke voorziening|[[Categorie:Buitengemeentelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+  -->}}<!--
+-->}}<!--
+
+ApplicationFunction — was Sjabloon:ApplicationFunctionEpilogue
+-->{{#ifeq: {{{Elementtype| }}}|ApplicationFunction|<!--
+  -->{{#ifexist:Sjabloon:ApplicationFunctionEpilogueCustom|{{ApplicationFunctionEpilogueCustom}}|<!--
+    -->{{#ifeq: {{{SWC type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{Applicatiefunctiecategorie|}}}|||[[Categorie:{{{Applicatiefunctiecategorie|}}}|{{{Semantictitle}}}]]}}<!--
+  -->}}<!--
+-->}}<!--
+
+BusinessProcess — was Sjabloon:BusinessProcessEpilogue
+-->{{#ifeq: {{{Elementtype| }}}|BusinessProcess|<!--
+  -->{{#ifexist:Sjabloon:BusinessProcessEpilogueCustom|{{BusinessProcessEpilogueCustom}}|[[Categorie:Bedrijfsprocessen]]}}<!--
+-->}}<!--
+
+Constraint — was Sjabloon:ConstraintEpilogue
+-->{{#ifeq: {{{Elementtype| }}}|Constraint|<!--
+  -->{{#ifexist:Sjabloon:ConstraintEpilogueCustom|{{ConstraintEpilogueCustom}}|<!--
+    -->{{#ifeq: {{{SWC type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{SWC type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+    -->{{#ifeq: {{{SWC subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
+    -->{{#ifeq: {{{GEMMA subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
+    -->{{#vardefine: stURL| {{{Standaard URL|}}} }}<!--
+    -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+    -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+    -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+    -->{{#set: Standaard URL={{#var: newURL}} }}<!--
+    -->{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL|}}} }}<!--
+    -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
+    -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
+    -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
+    -->{{#set: Standaard Compliancy Instrument URL={{#var: newURL}} }}<!--
+    -->{{#set:lc_URL_nl={{lc:{{{URL_nl|}}}}}}}<!--
+    -->{{#set: GEMMA status::{{{Status|}}} }}<!--
+  -->}}<!--
+-->}}<!--
+
+Grouping — was Sjabloon:GroupingEpilogue
+-->{{#ifeq: {{{Elementtype| }}}|Grouping|<!--
+  -->{{#ifexist:Sjabloon:GroupingEpilogueCustom|{{GroupingEpilogueCustom}}|<!--
+    -->{{#ifeq: {{{SWC type|}}}|Groep|{{#switch: {{{SWC subtype|}}}
+        |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
+    -->{{#ifeq: {{{GEMMA type|}}}|Groep|{{#switch: {{{GEMMA subtype|}}}
+        |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
+  -->}}<!--
+-->}}<!--
+
 --><!--BEGIN SLUITENDE DIV VOOR CIRRUSSEARCH UITSLUITING--></div><!--EINDE SLUITENDE DIV--></includeonly>
