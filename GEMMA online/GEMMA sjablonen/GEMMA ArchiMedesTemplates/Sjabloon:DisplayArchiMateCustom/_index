@@ -11,8 +11,7 @@ De subpagina's:
 
 Een <code>DisplayArchiMate&lt;type&gt;</code>-sjabloon doet van oudsher twee dingen tegelijk: het toont
 een object, én het legt dat object vast — eigenschappen zetten met <code>#set</code> en categorieën
-toekennen. Dat laatste is geen weergavefunctionaliteit; zie de openstaande punten op
-[[Vragen aan Toine]], waar ook staat waarom het riskant is: een wijziging in een display-sjabloon kan
+toekennen. Dat laatste is geen weergavefunctionaliteit; dat is riskant: een wijziging in een display-sjabloon kan
 een volledige refresh van alle modellen veroorzaken, of ertoe leiden dat alle custom properties
 verdwijnen.
 
@@ -52,9 +51,7 @@ ontvangt als de daarin genoemde eigenschappen zelf.
 |uitleg = '''Valstrik.''' Het standaard <code>&lt;Elementtype&gt;Epilogue</code> roept zijn eigen
 uitbreidingspunt aan met <code><nowiki>{{#ifexist:Sjabloon:XEpilogueCustom|{{XEpilogueCustom}}|...}}</nowiki></code>
 — dus '''zonder parameters door te geven'''. Een <code>&lt;Elementtype&gt;EpilogueCustom</code> ziet
-daardoor niets van het object. Zo zijn de <code>…EpilogueLayout</code>-sjablonen ontstaan die wél
-parameters lezen maar nooit worden aangeroepen; [[:Sjabloon:ApplicationComponentEpilogueLayout]] heeft
-nul inkomende links. Wil je vastleggen uitbreiden, doe dat dan in
+daardoor niets van het object. Wil je vastleggen uitbreiden, doe dat dan in
 [[:Sjabloon:SmartCoreEpilogue]] of rechtstreeks in <code>&lt;Elementtype&gt;Epilogue</code>.
 }}
 

@@ -1,9 +1,0 @@
-<!--TS:20240429081500--><noinclude>[[Categorie:SWCAPITemplates]]</noinclude><!--
---><includeonly><!--
--->{{#ifexist:Sjabloon:ApplicationComponentEpilogueCustom|{{ApplicationComponentEpilogueCustom}}|<!--
-  -->{{#ifeq: {{{SWC type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{SWC type|}}}|Landelijke voorziening|[[Categorie:Landelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Buitengemeentelijke voorziening|[[Categorie:Buitengemeentelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
--->}}<!--
---></includeonly>
