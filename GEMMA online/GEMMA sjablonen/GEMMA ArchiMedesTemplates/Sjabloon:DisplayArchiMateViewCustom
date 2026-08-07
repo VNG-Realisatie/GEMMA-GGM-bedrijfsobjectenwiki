@@ -13,14 +13,14 @@
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
-Toont een ArchiMate-view in GEMMA-opmaak: de projectbanner (alleen zichtbaar als de view uit een projectarchitectuur komt in plaats van uit de GEMMA zelf), de view zelf, en de eigenschappen van de view. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]].
+Toont een ArchiMate-view in GEMMA-opmaak: de projectbanner (alleen zichtbaar als de view uit een projectarchitectuur komt in plaats van uit de GEMMA zelf), de view met het dynamische-eigenschappenpaneel ernaast, en de eigenschappen van de view. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]].
 
 Geen relaties- of views-blok: een view heeft zelf geen relaties en komt niet op andere views voor.
 
 In de eigenschappentabel worden de rijen Elementtype en Definitie overgeslagen (`toonelementtype=false`,
 `toondefinitie=false` bij [[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]]) — die voegen bij een view
-weinig toe. De documentatie van de view (indien aanwezig) staat in plaats daarvan als bijschrift onder de
-view zelf.
+weinig toe. Onder de view staat in plaats daarvan de documentatie (indien aanwezig) als bijschrift, samen
+met een link om de view in een nieuw venster te openen — zelfde stijl als [[:Sjabloon:ToonViewGEMMA]].
 
 === Testwaarden ===
 * page: [[{{#var:page}}]]
@@ -41,12 +41,18 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
 --><div class="scam-row">
     <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
 
-  De view, met de documentatie als bijschrift eronder (zelfde stijl als Sjabloon:ToonViewGEMMA)
-  -->{{CreateDisplayBox|1=auto|2=2px|3=View
-       |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center>{{#if:{{#var:documentation}}
-            |<center><small>''{{#var:documentation}}''</small></center>
-          }}
-     }}<!--
+  De view, met het dynamische-eigenschappenpaneel ernaast (zelfde opzet als het standaard
+  Sjabloon:DisplayArchiMateView). Onder de view: documentatie (indien aanwezig) en een link om de view in
+  een nieuw venster te openen, zelfde stijl als Sjabloon:ToonViewGEMMA.
+  --><div class="scam-inline-block-66 scam-display-left scam-display-block scam-block-content"><!--
+       -->{{CreateDisplayBox|1=auto|2=2px|3=View
+            |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center><!--
+                 --><center><small>{{#if:{{#var:documentation}}|''{{#var:documentation}}'' }} [{{#displayArchiMateViewURL:view={{#var:page}} }} (open view in nieuw venster)]</small></center>
+          }}</div>
+     <div class="scam-inline-block-33 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel"><!--
+       -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-dynamic-view-panel}}
+            |4={{#displayArchiMatePanel:page={{#var:page}}|elementtype={{#var:elementtype}} }}
+          }}</div><!--
 
   Eigenschappen. De lijst CustomProperties komt van ArchiMedes zodat de volgorde uit het model behouden blijft; de waarden komen uit SMW.
   -->{{CreateDisplayBox|1=auto|2=2px|3=Eigenschappen
