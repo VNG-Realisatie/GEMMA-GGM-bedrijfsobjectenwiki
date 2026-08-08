@@ -13,7 +13,6 @@ Refers to relationship mee.
 
 -->{{#vardefine: refprop |{{#if:{{{refprop| }}}|{{{refprop}}}|Refers to element}} }}<!--
 -->{{#vardefine: rijlabel |{{#if:{{{rijlabel| }}}|{{{rijlabel}}}|Komt voor op view}} }}<!--
--->{{#vardefine: limiet |{{#if:{{{limiet| }}}|{{{limiet}}}|500}} }}<!--
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
@@ -29,11 +28,10 @@ Alle parameters zijn optioneel.
 * '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
 * '''refprop''' - eigenschap waarmee een view naar dit object verwijst. Standaard <code>Refers to element</code>; een Relationship-orchestrator geeft <code>Refers to relationship</code> mee.
 * '''rijlabel''' - tekst in de eerste kolom. Standaard "Komt voor op view".
-* '''limiet''' - maximum aantal views. Standaard 500.
 
 === Testwaarden ===
 * page: [[{{#var:page}}]]
-* refprop: {{#var:refprop}} / limiet: {{#var:limiet}}
+* refprop: {{#var:refprop}} 
 
 === Preview ===
 </noinclude><!--
@@ -45,7 +43,7 @@ Alle parameters zijn optioneel.
                 {{#ask:
                   [[Categorie:ArchiMateViews]]
                   [[-Occurs in view.{{#var:refprop}}::{{#var:page}}]]
-                  |sort=Semantictitle|format=ul|headers=hide|link=all|limit={{#var:limiet}}
+                  |sort=Semantictitle|format=ul|headers=hide|link=all|limit=500
                 }}
               </td>
             </tr>

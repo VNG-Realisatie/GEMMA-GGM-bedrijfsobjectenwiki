@@ -114,7 +114,7 @@ hoort in de Epilogue, die dezelfde parameters rechtstreeks van ArchiMedes krijgt
 # Maak <code>Sjabloon:DisplayArchiMate&lt;Type&gt;Custom</code> aan. ArchiMedes pakt hem daarna vanzelf op in plaats van het standaardsjabloon; er hoeft niets geregistreerd te worden.
 # Begin met de magic words en de kruimelpaden: <code><nowiki>__NOCACHE____NOTOC____NOEDITSECTION__</nowiki></code> en <code><nowiki>{{#displayArchiMateBreadcrumbs:...}}</nowiki></code>.
 # Roep de blokken aan, elk in een eigen [[:Sjabloon:CreateDisplayBox]], en geef per type de juiste eigenschappen mee:
-#* Relationship: <code>bronprop=Has source relationship</code>, <code>doelprop=Has target relationship</code> bij [[:Sjabloon:DisplayArchiMateCustom/Relaties|/Relaties]], en <code>refprop=Refers to relationship</code> bij [[:Sjabloon:DisplayArchiMateCustom/Views|/Views]].
+#* Relationship: geen aparte parameters nodig bij [[:Sjabloon:DisplayArchiMateCustom/Relaties|/Relaties]] (dat blok herkent zelf of <code>page</code> een relatie is), wel <code>refprop=Refers to relationship</code> bij [[:Sjabloon:DisplayArchiMateCustom/Views|/Views]].
 #* View: geen /Relaties (een view heeft zelf geen relaties) en geen /Views.
 #* Viewconnection: geen /Relaties en geen /Views; <code>Refers to relationship</code> en <code>Occurs in view</code> komen rechtstreeks als parameter binnen.
 # Geef bij [[:Sjabloon:CreateDisplayBox]] de inhoud altijd als <code>4=</code> mee. Bij een positionele aanroep verdwijnt inhoud met een <code>=</code>-teken erin stilzwijgend, en krijg je een lege box zonder foutmelding.

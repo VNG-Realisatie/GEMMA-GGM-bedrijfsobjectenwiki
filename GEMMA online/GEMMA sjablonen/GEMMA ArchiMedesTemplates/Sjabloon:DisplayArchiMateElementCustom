@@ -71,8 +71,6 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
   -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-relationships-short}}
        |4={{DisplayArchiMateCustom/Relaties
             |page={{#var:page}}
-            |model={{#var:model}}
-            |elementtype={{#var:elementtype}}
           }}
      }}<!--
 

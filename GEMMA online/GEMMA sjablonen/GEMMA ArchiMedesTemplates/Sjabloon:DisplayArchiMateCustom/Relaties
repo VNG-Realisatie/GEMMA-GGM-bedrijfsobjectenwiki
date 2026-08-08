@@ -7,16 +7,18 @@ zodat deze pagina los te previewen is. ArchiMedes geeft page nooit mee.
       |{{#ifeq:{{NAMESPACENUMBER}}|10
           |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
           |{{FULLPAGENAME}} }} }} }}<!--
--->{{#vardefine: model |{{#if:{{{model| }}}|{{{model}}}
-      |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
--->{{#vardefine: elementtype |{{#if:{{{elementtype| }}}|{{{elementtype}}}
-      |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--
+-->{{#vardefine: elementtype |{{#show:{{#var:page}}|?Elementtype|link=none}} }}<!--
 
-Welke eigenschappen verbinden een relatie met dit object. Voor een Relationship-object geeft de
-orchestrator hier Has source relationship / Has target relationship mee.
+Welke eigenschappen verbinden een relatie met dit object. Een relatie wijst naar een element óf naar een
+andere relatie (bv. een AssociationRelationship tussen twee relaties, zie
+[[:Sjabloon:SmartConnectArchiMate™/Sjabloon:DisplayArchiMateRelationship]]). Elementtype geeft dat verschil
+niet aan — dat is het specifieke relatietype (AssociationRelationship, CompositionRelationship, ...), nooit
+een generiek "dit is een relatie". Categorie:ArchiMateRelationships staat wel altijd op elke relatiepagina,
+ongeacht type, dus daarop wordt getest.
 
--->{{#vardefine: bronprop |{{#if:{{{bronprop| }}}|{{{bronprop}}}|Has source element}} }}<!--
--->{{#vardefine: doelprop |{{#if:{{{doelprop| }}}|{{{doelprop}}}|Has target element}} }}<!--
+-->{{#vardefine: isrelatie |{{#ask:[[{{#var:page}}]][[Categorie:ArchiMateRelationships]]|format=count}} }}<!--
+-->{{#vardefine: bronprop |{{#ifeq:{{#var:isrelatie}}|0|Has source element|Has source relationship}} }}<!--
+-->{{#vardefine: doelprop |{{#ifeq:{{#var:isrelatie}}|0|Has target element|Has target relationship}} }}<!--
 -->{{#vardefine: limiet |{{#if:{{{limiet| }}}|{{{limiet}}}|500}} }}<!--
 
 --><noinclude>
@@ -38,18 +40,19 @@ Gebruikt [[:Sjabloon:FormatRelationshipNameCustom]] voor de tekst van een relati
 === Parameters ===
 Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW gehaald.
 * '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
-* '''elementtype''' - gebruikt voor de ingebouwde Principle-uitzondering hieronder.
-* '''bronprop''' / '''doelprop''' - eigenschappen die een relatie met dit object verbinden. Standaard <code>Has source element</code> en <code>Has target element</code>.
-*: Een Relationship-orchestrator geeft hier <code>Has source relationship</code> en <code>Has target relationship</code> mee.
-* '''filter''' - extra querycondities voor beide richtingen, bv. <code><nowiki>[[Elementtype!:AssociationRelationship]]</nowiki></code>
-* '''filterinkomend''' - extra querycondities voor alleen de inkomende lijst
 * '''limiet''' - maximum aantal relaties per richting. Standaard 500.
 
-Dit blok heeft geen elementtype-specifieke uitbreidingspunten meer (geen <code>hook</code>/<code>hookall</code>).
-Uitzonderingen komen als <code>#ifeq</code> op <code>elementtype</code> direct in dit sjabloon, zodat er
-nooit twee bijna-gelijke tabellen naast elkaar hoeven te bestaan. Eén actieve uitzondering: bij
-<code>elementtype=Principle</code> telt een AssociationRelationship niet mee voor de Inkomend-lijst —
-overgenomen van het voormalige [[:Sjabloon:DisplayArchiMateElementCustomPrincipleRelationsAll]].
+<code>elementtype</code>, <code>bronprop</code> en <code>doelprop</code> zijn geen parameters meer: ArchiMedes
+geeft dit blok toch nooit parameters mee (zie [[:Sjabloon:DisplayArchiMateCustom]]), dus een aanroepend
+sjabloon zou de waarde alleen maar hebben doorgegeven vanuit dezelfde SMW-afleiding die hierboven al
+gebeurt.
+
+Dit blok heeft geen generieke uitbreidingspunten (geen <code>hook</code>/<code>hookall</code>, geen
+<code>filter</code>-parameter). Uitzonderingen komen als <code>#ifeq</code> op <code>elementtype</code>
+direct in dit sjabloon, zodat er nooit twee bijna-gelijke tabellen naast elkaar hoeven te bestaan. Eén
+actieve uitzondering: bij <code>elementtype=Principle</code> telt een AssociationRelationship niet mee voor
+de Inkomend-lijst — overgenomen van het voormalige
+[[:Sjabloon:DisplayArchiMateElementCustomPrincipleRelationsAll]].
 
 De queries gebruiken <code>searchlabel=</code>. Zonder dat plakt SMW boven de limiet een
 "... meer resultaten"-link zonder komma aan de lijst, waarna de lus dat als een relatienaam behandelt en
@@ -58,24 +61,25 @@ er een SMW-foutmelding in de tabel verschijnt.
 === Testwaarden ===
 * page: [[{{#var:page}}]]
 * elementtype: {{#var:elementtype}}
-* bronprop: {{#var:bronprop}} / doelprop: {{#var:doelprop}} / limiet: {{#var:limiet}}
+* isrelatie: {{#var:isrelatie}} / bronprop: {{#var:bronprop}} / doelprop: {{#var:doelprop}} / limiet: {{#var:limiet}}
 
 === Preview ===
 </noinclude><!--
 
 --><table>{{#arraymap:uitgaand,inkomend|,|__richting__
-        |<!-- per richting: waarop zoeken, wat tonen, hoe de rij heet
-          -->{{#vardefine: zoekprop|{{#ifeq:__richting__|inkomend|{{#var:doelprop}}|{{#var:bronprop}}}} }}<!--
-          -->{{#vardefine: toonprop|{{#ifeq:__richting__|inkomend|{{#var:bronprop}}|{{#var:doelprop}}}} }}<!--
-          -->{{#vardefine: rijlabel|{{#ifeq:__richting__|inkomend|Inkomend|Uitgaand}} }}<!--
-          Ingebouwde uitzondering: voor Principle telt een AssociationRelationship niet mee als Inkomend.
-          -->{{#vardefine: rijfilter|{{{filter| }}}{{#ifeq:__richting__|inkomend|{{{filterinkomend| }}}{{#ifeq:{{#var:elementtype}}|Principle|[[Elementtype!:AssociationRelationship]]}} }} }}<!--
-          -->{{#vardefine: relatielijst|{{#ask:[[Categorie:ArchiMateRelationships]]
-                           [[{{#var:zoekprop}}::{{#var:page}}]]
-                           {{#var:rijfilter}}
-                      |format=plainlist|headers=hide|link=none|limit={{#var:limiet}}|searchlabel=
-                    }} }}<!--
-          -->{{#if:{{#var:relatielijst}}
+    |<!-- per richting: waarop zoeken, wat tonen, hoe de rij heet
+      -->{{#vardefine: zoekprop|{{#ifeq:__richting__|inkomend|{{#var:doelprop}}|{{#var:bronprop}} }} }}<!--
+      -->{{#vardefine: toonprop|{{#ifeq:__richting__|inkomend|{{#var:bronprop}}|{{#var:doelprop}} }} }}<!--
+      -->{{#vardefine: rijlabel|{{#ifeq:__richting__|inkomend|Inkomend|Uitgaand}} }}<!--
+      Ingebouwde uitzondering: voor Principle telt een AssociationRelationship niet mee als Inkomend.
+      -->{{#vardefine: rijfilter|{{#ifeq:__richting__|inkomend
+        |{{#ifeq:{{#var:elementtype}}|Principle|[[Elementtype!:AssociationRelationship]]}} }} }}<!--
+      -->{{#vardefine: relatielijst|{{#ask:[[Categorie:ArchiMateRelationships]]
+                        [[{{#var:zoekprop}}::{{#var:page}}]]
+                        {{#var:rijfilter}}
+                  |format=plainlist|headers=hide|link=none|limit={{#var:limiet}}|searchlabel=
+                }} }}<!--
+      -->{{#if:{{#var:relatielijst}}
           |<tr>
               <td style="width:12em;">'''{{#var:rijlabel}}'''</td>
               <td>&nbsp;&nbsp;&nbsp;</td>
@@ -98,4 +102,4 @@ er een SMW-foutmelding in de tabel verschijnt.
           }}
         | <nowiki />
       }}
-        </table>
+    </table>
