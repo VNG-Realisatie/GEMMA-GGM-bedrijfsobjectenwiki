@@ -6,7 +6,8 @@ altijd de pagina zelf krijgt.
 
 -->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
       |{{#ifeq:{{NAMESPACENUMBER}}|10
-          |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
+          <!-- |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5 -->
+          |GEMMA/id-278ddba7-c25f-4a49-b6f2-63b604dcf67c <!-- principe -->
           |{{FULLPAGENAME}} }} }} }}<!--
 -->{{#vardefine: elementtype |{{#if:{{{Elementtype| }}}|{{{Elementtype}}}
       |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--

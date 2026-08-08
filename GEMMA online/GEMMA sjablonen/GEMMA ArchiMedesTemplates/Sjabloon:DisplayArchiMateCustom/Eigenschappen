@@ -5,7 +5,8 @@ zodat deze pagina los te previewen is. ArchiMedes geeft page nooit mee.
 
 -->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
       |{{#ifeq:{{NAMESPACENUMBER}}|10
-          |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
+          <!-- |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5 -->
+          |GEMMA/id-278ddba7-c25f-4a49-b6f2-63b604dcf67c <!-- principe -->
           |{{FULLPAGENAME}} }} }} }}<!--
 
 Elke waarde: parameter van ArchiMedes indien meegegeven, anders uit SMW. De SMW-tak kost niets zolang
@@ -102,9 +103,11 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
           </tr>
           }}
           <!-- Overige eigenschappen. De #switch bepaalt wat verborgen wordt; #default is leeg,
-               dus onbekende eigenschappen zijn zichtbaar. -->
+               dus onbekende eigenschappen zijn zichtbaar. 
+               - Heeft bron, eigenschap van principes. Wordt niet getoond, omdat de NORA link de bron al duidelijk maakt
+               -->
           {{#arraymap:{{#var:eigenschappen}}|,|__property__
-            |{{#vardefine: waarde|{{#show:{{#var:page}}|?__property__}} }}<!--
+            |{{#vardefine: waarde|{{#show:{{#var:page}}|?__property__|link=none}} }}<!--
           -->{{#if:{{#var:waarde}}
               |<tr {{#switch: {{ucfirst:__property__}}
                       |Object ID
@@ -129,12 +132,12 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
                       |GEMMA status
                       |Specialization
                       |Type URI
+                      |Heeft bron 
                       |Semanticsearch=style="display:none;" | #default=
                   }}>
                 <td style="width:12em;">'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
                 <td>&nbsp;&nbsp;&nbsp;</td>
-                <td>
-{{#var:waarde}}</td>
+                <td>{{#var:waarde}}</td>
               </tr>
              }}
              | <nowiki />
