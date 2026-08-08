@@ -28,13 +28,6 @@ de parameter er is, want #if expandeert alleen de gekozen tak.
 -->{{#vardefine: toonelementtype |{{#ifeq:{{{toonelementtype| }}}|false|nee|ja}} }}<!--
 -->{{#vardefine: toondefinitie |{{#ifeq:{{{toondefinitie| }}}|false|nee|ja}} }}<!--
 
-Bestaan de uitbreidingssjablonen? Eenmalig bepalen: ifexist-page kost ongeveer 5 ms per aanroep.
-
--->{{#vardefine: hookalltoepassen |{{#if:{{{hookall| }}}
-      |{{ifexist-page|Sjabloon:{{{hookall| }}}|ja|}} }} }}<!--
--->{{#vardefine: hooktoepassen |{{#if:{{{hook| }}}
-      |{{ifexist-page|Sjabloon:{{{hook| }}}|ja|}} }} }}<!--
-
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
 Toont de eigenschappen van een ArchiMate-object als tabel. Levert alleen de <code>&lt;table&gt;</code>;
@@ -53,8 +46,14 @@ Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW ge
 * '''elementtype''', '''model''', '''label''', '''documentation''', '''toelichting''', '''gemmatype'''
 * '''toonelementtype''', '''toondefinitie''' - standaard tonen; bij <code>false</code> wordt de Elementtype- resp. Definitie-rij overgeslagen (bv. voor View, waar deze rijen weinig toevoegen).
 * '''eigenschappen''' - komma-gescheiden lijst met namen van de te tonen eigenschappen. Geef deze door vanuit <code>CustomProperties</code> om de volgorde uit het model te behouden; anders levert SMW ze alfabetisch.
-* '''hook''' - sjabloonnaam die extra tabelrijen levert, bv. <code>DisplayArchiMateElementCustomPrincipleProperties</code>
-* '''hookall''' - sjabloonnaam die de hele tabel vervangt, bv. <code>DisplayArchiMateElementCustomPrinciplePropertiesAll</code>
+
+Dit blok heeft geen elementtype-specifieke uitbreidingspunten meer. Zulke uitzonderingen komen als
+<code>#ifeq</code> op <code>elementtype</code> direct in dit sjabloon, zodat er nooit twee bijna-gelijke
+tabellen naast elkaar hoeven te bestaan. Er is nu geen actieve uitzondering nodig: het voormalige
+<code>Sjabloon:DisplayArchiMateElementCustomPrincipleProperties</code> voegde voor Principle een
+relatie-gebaseerde rij "Implicaties" toe, maar stond al uitgecommentarieerd — Implicaties komt sinds een
+eerdere aanpassing van het GEMMA ArchiMate-model binnen als gewone <code>CustomProperty</code> en verschijnt
+dus al via de generieke eigenschappenlus hieronder.
 
 De verberg-lijst in de broncode hieronder is de '''enige''' plek waar staat welke technische
 eigenschappen niet aan gemeenten getoond worden. Rijen worden verborgen met <code>display:none</code> en
@@ -64,46 +63,40 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
 * page: [[{{#var:page}}]]
 * elementtype: {{#var:elementtype}}
 * eigenschappen: {{#var:eigenschappen}}
-* hookall toepassen: {{#if:{{#var:hookalltoepassen}}|ja|nee}} / hook toepassen: {{#if:{{#var:hooktoepassen}}|ja|nee}}
 * toonelementtype: {{#var:toonelementtype}} / toondefinitie: {{#var:toondefinitie}}
 
 === Preview ===
 </noinclude><!--
-
-Vervangt een uitbreidingssjabloon de hele tabel?
-
--->{{#ifeq: {{#var:hookalltoepassen}} |ja
-    |{{ {{{hookall| }}} |page={{#var:page}}|model={{#var:model}} }}
-    |<table>
+--><table>
           {{#ifeq:{{#var:toonelementtype}}|ja
           |<tr>
-            <td>'''{{int:scam-pr-elementtype}}'''</td>
+            <td style="width:12em;">'''{{int:scam-pr-elementtype}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>[[DisplayArchiMateGlossary#{{#var:elementtype}}|{{#var:elementtype}} ]]</td>
           </tr>
           }}
           <tr>
-            <td>'''{{int:scam-pr-label}}'''</td>
+            <td style="width:12em;">'''{{int:scam-pr-label}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:label}}</td>
           </tr>
           {{#ifeq:{{#var:toondefinitie}}|ja
           |<tr>
-            <td>'''Definitie'''</td>
+            <td style="width:12em;">'''Definitie'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:documentation}}</td>
           </tr>
           }}
           {{#if:{{#var:toelichting}}
           |<tr>
-            <td>'''Toelichting'''</td>
+            <td style="width:12em;">'''Toelichting'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:toelichting}}</td>
           </tr>
           }}
           {{#if:{{#var:gemmatype}}
           |<tr>
-            <td>'''GEMMA type'''</td>
+            <td style="width:12em;">'''GEMMA type'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#var:gemmatype}}</td>
           </tr>
@@ -119,13 +112,13 @@ Vervangt een uitbreidingssjabloon de hele tabel?
                       |Object ID nl
                       |Original ID
                       |Gemma-guid
-                      |Ggm-datum-tijd-export
-                      |Ggm-guid
                       |Let op
                       |GEMMA URL
                       |Business Object
-                      |Ggm-naam
-                      |Ggm-definition
+                      |GGM-datum-tijd-export
+                      |GGM-guid
+                      |GGM-naam
+                      |GGM-definition
                       |Lc_name
                       |Toelichting
                       |BIV score BBN
@@ -138,7 +131,7 @@ Vervangt een uitbreidingssjabloon de hele tabel?
                       |Type URI
                       |Semanticsearch=style="display:none;" | #default=
                   }}>
-                <td>'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
+                <td style="width:12em;">'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
                 <td>&nbsp;&nbsp;&nbsp;</td>
                 <td>
 {{#var:waarde}}</td>
@@ -146,9 +139,4 @@ Vervangt een uitbreidingssjabloon de hele tabel?
              }}
              | <nowiki />
           }}
-          <!-- Aanvullende rijen uit een uitbreidingssjabloon -->
-          {{#ifeq: {{#var:hooktoepassen}} |ja
-             |{{ {{{hook| }}} |page={{#var:page}}|model={{#var:model}} }}
-           }}
         </table>
-   }}

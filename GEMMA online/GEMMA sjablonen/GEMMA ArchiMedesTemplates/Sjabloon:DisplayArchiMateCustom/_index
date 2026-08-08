@@ -21,7 +21,7 @@ Daarom de volgende taakverdeling:
 ! Verantwoordelijkheid !! Waar !! Databron
 |-
 | '''Vastleggen''' — <code>#set</code> van eigenschappen, categorieën toekennen
-| [[:Sjabloon:SmartCoreEpilogue]] en <code>&lt;Elementtype&gt;Epilogue</code>
+| [[:Sjabloon:SmartCoreEpilogue]], per Elementtype een eigen blok
 | de parameters van ArchiMedes
 |-
 | '''Tonen''' — eigenschappen, relaties, views, banner
@@ -48,11 +48,14 @@ Alle vier krijgen dezelfde parameterset. Dat is gemeten, niet aangenomen: een ti
 ontvangt als de daarin genoemde eigenschappen zelf.
 
 {{Letop
-|uitleg = '''Valstrik.''' Het standaard <code>&lt;Elementtype&gt;Epilogue</code> roept zijn eigen
-uitbreidingspunt aan met <code><nowiki>{{#ifexist:Sjabloon:XEpilogueCustom|{{XEpilogueCustom}}|...}}</nowiki></code>
-— dus '''zonder parameters door te geven'''. Een <code>&lt;Elementtype&gt;EpilogueCustom</code> ziet
-daardoor niets van het object. Wil je vastleggen uitbreiden, doe dat dan in
-[[:Sjabloon:SmartCoreEpilogue]] of rechtstreeks in <code>&lt;Elementtype&gt;Epilogue</code>.
+|uitleg = '''Historisch, inmiddels opgelost.''' Er bestonden losse <code>&lt;Elementtype&gt;Epilogue</code>-sjablonen
+(bv. <code>ApplicationComponentEpilogue</code>, ondergebracht in SWCAPITemplates) die elk hun eigen
+uitbreidingspunt aanriepen met <code><nowiki>{{#ifexist:Sjabloon:XEpilogueCustom|{{XEpilogueCustom}}|...}}</nowiki></code>
+— zonder parameters door te geven. Een <code>XEpilogueCustom</code> zag daardoor niets van het object.
+Deze losse Epilogue-sjablonen zijn inmiddels verwijderd; hun categorielogica staat nu rechtstreeks in
+[[:Sjabloon:SmartCoreEpilogue]], per Elementtype in een eigen blok. Wil je vastleggen uitbreiden voor een
+nieuw Elementtype, voeg daar dan een blok toe — gebruik geen los <code>&lt;Elementtype&gt;Epilogue</code>-
+of <code>...Custom</code>-sjabloon meer.
 }}
 
 Zie ook [[Aanpassingen SmartConnectArchimate]] en de testpagina [[GEMMA ArchiMedes test]].
@@ -110,13 +113,12 @@ hoort in de Epilogue, die dezelfde parameters rechtstreeks van ArchiMedes krijgt
 
 # Maak <code>Sjabloon:DisplayArchiMate&lt;Type&gt;Custom</code> aan. ArchiMedes pakt hem daarna vanzelf op in plaats van het standaardsjabloon; er hoeft niets geregistreerd te worden.
 # Begin met de magic words en de kruimelpaden: <code><nowiki>__NOCACHE____NOTOC____NOEDITSECTION__</nowiki></code> en <code><nowiki>{{#displayArchiMateBreadcrumbs:...}}</nowiki></code>.
-# Zet de categorieën. Let op dat <code>ArchiMateVersion</code> niet voor elk type wordt meegegeven — gebruik een SMW-fallback in plaats van een vaste waarde, anders komt een View in de verkeerde ArchiMate-categorie terecht.
 # Roep de blokken aan, elk in een eigen [[:Sjabloon:CreateDisplayBox]], en geef per type de juiste eigenschappen mee:
 #* Relationship: <code>bronprop=Has source relationship</code>, <code>doelprop=Has target relationship</code> bij [[:Sjabloon:DisplayArchiMateCustom/Relaties|/Relaties]], en <code>refprop=Refers to relationship</code> bij [[:Sjabloon:DisplayArchiMateCustom/Views|/Views]].
 #* View: geen /Relaties (een view heeft zelf geen relaties) en geen /Views.
 #* Viewconnection: geen /Relaties en geen /Views; <code>Refers to relationship</code> en <code>Occurs in view</code> komen rechtstreeks als parameter binnen.
 # Geef bij [[:Sjabloon:CreateDisplayBox]] de inhoud altijd als <code>4=</code> mee. Bij een positionele aanroep verdwijnt inhoud met een <code>=</code>-teken erin stilzwijgend, en krijg je een lege box zonder foutmelding.
-# Zet géén eigenschappen en géén categorieën in het display-sjabloon. Dat hoort in de Epilogue.
+# Zet géén eigenschappen en géén categorieën in het display-sjabloon. Dat hoort in [[:Sjabloon:SmartCoreEpilogue]] — voeg daar een blok toe voor het nieuwe Elementtype. Let op dat <code>ArchiMateVersion</code> daar niet voor elk type wordt meegegeven (zie tabel hierboven): een vaste fallbackwaarde in plaats van een SMW-fallback zet een View in de verkeerde ArchiMate-categorie.
 
 Werkend voorbeeld: [[:Sjabloon:DisplayArchiMateElementCustomTest]].
 

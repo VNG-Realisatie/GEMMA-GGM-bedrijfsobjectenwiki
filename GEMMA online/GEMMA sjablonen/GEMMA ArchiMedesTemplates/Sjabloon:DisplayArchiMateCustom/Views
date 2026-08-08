@@ -39,7 +39,7 @@ Alle parameters zijn optioneel.
 </noinclude><!--
 --><table>
             <tr>
-               <td>'''{{#var:rijlabel}}'''</td>
+               <td style="width:12em;">'''{{#var:rijlabel}}'''</td>
               <td>&nbsp;&nbsp;&nbsp;</td>
               <td>
                 {{#ask:

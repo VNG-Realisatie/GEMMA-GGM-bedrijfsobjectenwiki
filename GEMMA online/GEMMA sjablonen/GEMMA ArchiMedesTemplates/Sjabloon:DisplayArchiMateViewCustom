@@ -44,12 +44,12 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
   De view, met het dynamische-eigenschappenpaneel ernaast (zelfde opzet als het standaard
   Sjabloon:DisplayArchiMateView). Onder de view: documentatie (indien aanwezig) en een link om de view in
   een nieuw venster te openen, zelfde stijl als Sjabloon:ToonViewGEMMA.
-  --><div class="scam-inline-block-66 scam-display-left scam-display-block scam-block-content"><!--
+  --><div class="scam-inline-block-80 scam-display-left scam-display-block scam-block-content"><!--
        -->{{CreateDisplayBox|1=auto|2=2px|3=View
             |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center><!--
                  --><center><small>{{#if:{{#var:documentation}}|''{{#var:documentation}}'' }} [{{#displayArchiMateViewURL:view={{#var:page}} }} (open view in nieuw venster)]</small></center>
           }}</div>
-     <div class="scam-inline-block-33 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel"><!--
+     <div class="scam-inline-block-19 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel"><!--
        -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-dynamic-view-panel}}
             |4={{#displayArchiMatePanel:page={{#var:page}}|elementtype={{#var:elementtype}} }}
           }}</div><!--
@@ -67,8 +67,6 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
             |eigenschappen={{{CustomProperties| }}}
             |toonelementtype=false
             |toondefinitie=false
-            |hook=DisplayArchiMateViewCustom{{#var:elementtype}}Properties
-            |hookall=DisplayArchiMateViewCustom{{#var:elementtype}}PropertiesAll
           }}
      }}
     </div>
