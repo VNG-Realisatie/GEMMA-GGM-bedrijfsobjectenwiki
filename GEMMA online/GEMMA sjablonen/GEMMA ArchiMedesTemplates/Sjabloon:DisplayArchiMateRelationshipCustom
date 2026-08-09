@@ -1,8 +1,8 @@
 <!--
+Dit sjabloon en de werking ervan kunnen direct worden gepreviewd en getest. Hiervoor wordt de variabele `page` gebruikt.
 
-page: buiten de sjabloonnamespace altijd de pagina zelf; in de sjabloonnamespace een vast testobject.
-Hierdoor is deze pagina los te previewen, terwijl ArchiMedes (die page nooit meegeeft) in de mainspace
-altijd de pagina zelf krijgt.
+* Buiten de sjabloonnamespace verwijst `page` naar de pagina zelf, waarop ArchiMedes het sjabloon aanroept.
+* Binnen de sjabloonnamespace verwijst `page` naar een vast testobject.
 
 -->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
       |{{#ifeq:{{NAMESPACENUMBER}}|10
@@ -13,9 +13,7 @@ altijd de pagina zelf krijgt.
 -->{{#vardefine: model |{{#if:{{{Occurs in model| }}}|{{{Occurs in model}}}
       |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
 
-Bron en doel van de relatie zelf -- niet te verwarren met het blok /Relaties verderop, dat andere relaties
-toont die naar déze relatie wijzen. Een relatie wijst naar een element óf naar een andere relatie, nooit
-beide tegelijk.
+Bron en doel van de relatie zelf -- niet te verwarren met het blok /Relaties verderop, dat andere relaties toont die naar déze relatie wijzen. Een relatie wijst naar een element óf naar een andere relatie, nooit beide tegelijk.
 
 -->{{#vardefine: bron |{{#if:{{{Has source element| }}}|{{{Has source element}}}
       |{{#if:{{{Has source relationship| }}}|{{{Has source relationship}}}
@@ -24,51 +22,17 @@ beide tegelijk.
       |{{#if:{{{Has target relationship| }}}|{{{Has target relationship}}}
          |{{#show:{{#var:page}}|?Has target element|link=none}}{{#show:{{#var:page}}|?Has target relationship|link=none}} }} }} }}<!--
 
-Paginatitel: relaties heten in ArchiMedes naar hun pagina-id (GUID), niet naar een leesbare naam zoals
-elementen. DISPLAYTITLE toont daarom de door FormatRelationshipNameCustom opgebouwde naam in plaats van
-de kale pagina-id.
-
--->{{#ifeq:{{NAMESPACENUMBER}}|10
-          | <!-- niets -->
-          |{{DISPLAYTITLE:{{FormatRelationshipNameCustom
-               |Label={{{Label| }}}
-               |Source={{#show:{{#var:bron}}|?Semantictitle}}
-               |Target={{#show:{{#var:doel}}|?Semantictitle}}
-               |Relationship type={{#var:elementtype}}
-               }} 
-          }} 
-   }}<!--
-
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
-Toont een ArchiMate-relatie in GEMMA-opmaak: de projectarchitectuur-banner, het contextdiagram, en de
-blokken Bron en doel, Eigenschappen, Relaties en Views. Gebruikt de herbruikbare blokken van
-[[:Sjabloon:DisplayArchiMateCustom]].
-
-Dit sjabloon '''toont''' alleen. Het vastleggen van eigenschappen en categorieën — <code>#set</code> en de
-generieke en elementtype-specifieke categorieën — gebeurt in [[:Sjabloon:SmartCoreEpilogue]], niet hier.
-Zie [[:Sjabloon:DisplayArchiMateCustom]] voor de achtergrond van die scheiding.
+Toont een ArchiMate-relatie in GEMMA-opmaak: projectarchitectuur-banner, contextdiagram, en de blokken Bron en doel, Eigenschappen, Relaties en Views. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]]. Toont alleen — vastleggen gebeurt in [[:Sjabloon:SmartCoreEpilogue]].
 
 === Waarom een los blok Bron en doel ===
-[[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]] is generiek voor alle objecttypen (Element, Relationship,
-View, Viewconnection) en kent <code>Has source element</code>/<code>Has target element</code>/
-<code>Has source relationship</code>/<code>Has target relationship</code>/<code>RelationshipModifier</code>
-niet — dat zijn ArchiMedes-parameters die alleen Relationship krijgt (zie de tabel in
-[[:Sjabloon:DisplayArchiMateCustom]]). Die velden staan daarom hier rechtstreeks, net als in het
-onderliggende standaardsjabloon [[Sjabloon:DisplayArchiMateRelationship]].
-Eigenschappen zelf wordt ongewijzigd hergebruikt.
+[[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]] is generiek voor alle objecttypen en kent <code>Has source/target element</code>, <code>Has source/target relationship</code> en <code>RelationshipModifier</code> niet — alleen Relationship krijgt die (zie de tabel in [[:Sjabloon:DisplayArchiMateCustom]]). Vandaar dit losse blok, net als in het standaardsjabloon [[Sjabloon:DisplayArchiMateRelationship]]. Eigenschappen zelf wordt ongewijzigd hergebruikt.
 
 === Bron en doel hier versus /Relaties verderop ===
-Dit blok toont de bron en het doel van dezé relatie: waar de relatie zelf naartoe wijst. Het blok
-[[:Sjabloon:DisplayArchiMateCustom/Relaties]] toont iets anders: andere relaties die naar déze relatie
-wijzen (mogelijk in ArchiMate — een relatie kan zelf bron of doel van een andere relatie zijn, bv. een
-Association tussen twee relaties). Dat blok herkent zelf dat <code>page</code> een relatie is via
-Categorie:ArchiMateRelationships; er hoeft niets aan meegegeven te worden.
+Dit blok toont bron en doel van dezé relatie — waar de relatie zelf naartoe wijst. [[:Sjabloon:DisplayArchiMateCustom/Relaties]] toont iets anders: andere relaties die naar déze relatie wijzen (een relatie kan zelf bron of doel van een andere relatie zijn). Dat blok herkent zelf dat <code>page</code> een relatie is; er hoeft niets meegegeven te worden.
 
-[[:Sjabloon:DisplayArchiMateCustom/Views]] krijgt wel <code>refprop=Refers to relationship</code> mee: een
-view verwijst naar een relatie via een andere eigenschap dan naar een element, en dat is niet uit
-<code>page</code> af te leiden zonder dezelfde soort categorie-omweg als in /Relaties — voor een enkele
-aanroep hier is de expliciete parameter eenvoudiger.
+[[:Sjabloon:DisplayArchiMateCustom/Views]] krijgt wel <code>refprop=Refers to relationship</code> mee: dat is niet uit <code>page</code> af te leiden zonder dezelfde omweg als in /Relaties.
 
 === Testwaarden ===
 * page: [[{{#var:page}}]]
@@ -90,8 +54,13 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
 --><div class="scam-row">
     <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
 
-  Contextdiagram, bron en doel gemarkeerd
-  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-context-diagram}}
+  Contextdiagram, bron en doel gemarkeerd. Boxtitel bevat de leesbare relatienaam: relaties heten in ArchiMedes naar hun pagina-id (of een "Id-xxx"-fallback), niet naar een leesbare naam zoals elementen. Een eigen DISPLAYTITLE hier botst onvermijdelijk met de titelweergave die #element al op Semantictitle zet en levert een niet te onderdrukken conflictwaarschuwing op; daarom hier als boxtitel getoond in plaats van als paginatitel.
+  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-context-diagram}} — {{FormatRelationshipNameCustom
+            |Label={{{Label| }}}
+            |Source={{#show:{{#var:bron}}|?Semantictitle}}
+            |Target={{#show:{{#var:doel}}|?Semantictitle}}
+            |Relationship type={{#var:elementtype}}
+          }}
        |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}}|source={{#var:bron}}|target={{#var:doel}} }}</center>
      }}<!--
 
@@ -120,8 +89,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
           </table>
      }}<!--
 
-  Eigenschappen. De lijst CustomProperties komt van ArchiMedes zodat de volgorde uit het model behouden
-  blijft; de waarden komen uit SMW.
+  Eigenschappen. De lijst CustomProperties komt van ArchiMedes zodat de volgorde uit het model behouden blijft; de waarden komen uit SMW.
   -->{{CreateDisplayBox|1=auto|2=2px|3=Eigenschappen
        |4={{DisplayArchiMateCustom/Eigenschappen
             |page={{#var:page}}
@@ -135,8 +103,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
           }}
      }}<!--
 
-  Relaties: andere relaties die naar déze relatie wijzen, niet de bron/doel van deze relatie zelf (zie
-  hierboven).
+  Relaties: andere relaties die naar déze relatie wijzen, niet de bron/doel van deze relatie zelf (zie hierboven).
   -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-relationships-short}}
        |4={{DisplayArchiMateCustom/Relaties
             |page={{#var:page}}

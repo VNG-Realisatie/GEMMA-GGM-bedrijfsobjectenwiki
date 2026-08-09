@@ -1,5 +1,9 @@
 <!--
-   page: standaard de pagina zelf; in de sjabloonnamespace een vast testobject, zodat deze pagina los te previewen is. 
+Dit sjabloon en de werking ervan kunnen direct worden gepreviewd en getest. Hiervoor wordt de variabele `page` gebruikt.
+
+* Buiten de sjabloonnamespace verwijst `page` naar de pagina zelf, waarop ArchiMedes het sjabloon aanroept.
+* Binnen de sjabloonnamespace verwijst `page` naar een vast testobject.
+
 -->{{#vardefine: page |{{#if:{{{page| }}}|{{{page}}}
       |{{#ifeq:{{NAMESPACENUMBER}}|10
           |GEMMA/id-61131a7a-acaa-4d5d-b245-c2745366d8b5
@@ -13,14 +17,11 @@
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
-Toont een ArchiMate-view in GEMMA-opmaak: de projectbanner (alleen zichtbaar als de view uit een projectarchitectuur komt in plaats van uit de GEMMA zelf), de view met het dynamische-eigenschappenpaneel ernaast, en de eigenschappen van de view. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]].
+Toont een ArchiMate-view in GEMMA-opmaak: projectbanner (alleen bij een view uit een projectarchitectuur), de view met het dynamische-eigenschappenpaneel ernaast, en de eigenschappen. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]]. Toont alleen — vastleggen gebeurt in [[:Sjabloon:SmartCoreEpilogue]].
 
 Geen relaties- of views-blok: een view heeft zelf geen relaties en komt niet op andere views voor.
 
-In de eigenschappentabel worden de rijen Elementtype en Definitie overgeslagen (`toonelementtype=false`,
-`toondefinitie=false` bij [[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]]) — die voegen bij een view
-weinig toe. Onder de view staat in plaats daarvan de documentatie (indien aanwezig) als bijschrift, samen
-met een link om de view in een nieuw venster te openen — zelfde stijl als [[:Sjabloon:ToonViewGEMMA]].
+Eigenschappentabel: Elementtype en Definitie worden overgeslagen (<code>toonelementtype=false</code>, <code>toondefinitie=false</code> bij [[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]]) — voegen bij een view weinig toe. Onder de view staat in plaats daarvan de documentatie (indien aanwezig) als bijschrift, met een link om de view in een nieuw venster te openen — zelfde stijl als [[:Sjabloon:ToonViewGEMMA]].
 
 === Testwaarden ===
 * page: [[{{#var:page}}]]
@@ -41,9 +42,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
 --><div class="scam-row">
     <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
 
-  De view, met het dynamische-eigenschappenpaneel ernaast (zelfde opzet als het standaard
-  Sjabloon:DisplayArchiMateView). Onder de view: documentatie (indien aanwezig) en een link om de view in
-  een nieuw venster te openen, zelfde stijl als Sjabloon:ToonViewGEMMA.
+  De view, met het dynamische-eigenschappenpaneel ernaast (zelfde opzet als het standaard Sjabloon:DisplayArchiMateView). Onder de view: documentatie (indien aanwezig) en een link om de view in een nieuw venster te openen, zelfde stijl als Sjabloon:ToonViewGEMMA.
   --><div class="scam-inline-block-80 scam-display-left scam-display-block scam-block-content"><!--
        -->{{CreateDisplayBox|1=auto|2=2px|3=View
             |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center><!--
