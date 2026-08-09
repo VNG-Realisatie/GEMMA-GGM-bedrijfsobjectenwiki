@@ -12,8 +12,6 @@ Dit sjabloon en de werking ervan kunnen direct worden gepreviewd en getest. Hier
       |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--
 -->{{#vardefine: model |{{#if:{{{Occurs in model| }}}|{{{Occurs in model}}}
       |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
--->{{#vardefine: documentation |{{#if:{{{Documentation| }}}|{{{Documentation}}}
-      |{{#show:{{#var:page}}|?Documentation}} }} }}<!--
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
@@ -46,7 +44,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
   --><div class="scam-inline-block-80 scam-display-left scam-display-block scam-block-content"><!--
        -->{{CreateDisplayBox|1=auto|2=2px|3=View
             |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}} }}</center><!--
-                 --><center><small>{{#if:{{#var:documentation}}|''{{#var:documentation}}'' }} [{{#displayArchiMateViewURL:view={{#var:page}} }} (open view in nieuw venster)]</small></center>
+                 --><center><small>{{#if:{{#show:{{#var:page}}|?Documentation}}|''{{#show:{{#var:page}}|?Documentation}}'' }} [{{#displayArchiMateViewURL:view={{#var:page}} }} (open view in nieuw venster)]</small></center>
           }}</div>
      <div class="scam-inline-block-19 scam-display-right scam-display-block scam-block-content scam-dynamic-view-panel"><!--
        -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-dynamic-view-panel}}
@@ -59,10 +57,6 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
             |page={{#var:page}}
             |elementtype={{#var:elementtype}}
             |model={{#var:model}}
-            |label={{{Label| }}}
-            |documentation={{#var:documentation}}
-            |toelichting={{{Toelichting| }}}
-            |gemmatype={{{GEMMA type| }}}
             |eigenschappen={{{CustomProperties| }}}
             |toonelementtype=false
             |toondefinitie=false

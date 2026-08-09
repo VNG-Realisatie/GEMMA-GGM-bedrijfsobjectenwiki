@@ -16,14 +16,6 @@ de parameter er is, want #if expandeert alleen de gekozen tak.
       |{{#show:{{#var:page}}|?Elementtype|link=none}} }} }}<!--
 -->{{#vardefine: model |{{#if:{{{model| }}}|{{{model}}}
       |{{#show:{{#var:page}}|?Occurs in model|link=none}} }} }}<!--
--->{{#vardefine: label |{{#if:{{{label| }}}|{{{label}}}
-      |{{#show:{{#var:page}}|?Label}} }} }}<!--
--->{{#vardefine: documentation |{{#if:{{{documentation| }}}|{{{documentation}}}
-      |{{#show:{{#var:page}}|?Documentation}} }} }}<!--
--->{{#vardefine: toelichting |{{#if:{{{toelichting| }}}|{{{toelichting}}}
-      |{{#show:{{#var:page}}|?Toelichting}} }} }}<!--
--->{{#vardefine: gemmatype |{{#if:{{{gemmatype| }}}|{{{gemmatype}}}
-      |{{#show:{{#var:page}}|?GEMMA type|link=none}} }} }}<!--
 -->{{#vardefine: eigenschappen |{{#if:{{{eigenschappen| }}}|{{{eigenschappen}}}
       |{{#show:{{#var:page}}|?CustomProperties|link=none}} }} }}<!--
 -->{{#vardefine: toonelementtype |{{#ifeq:{{{toonelementtype| }}}|false|nee|ja}} }}<!--
@@ -44,9 +36,11 @@ niet hier.
 === Parameters ===
 Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW gehaald.
 * '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
-* '''elementtype''', '''model''', '''label''', '''documentation''', '''toelichting''', '''gemmatype'''
+* '''elementtype''', '''model'''
 * '''toonelementtype''', '''toondefinitie''' - standaard tonen; bij <code>false</code> wordt de Elementtype- resp. Definitie-rij overgeslagen (bv. voor View, waar deze rijen weinig toevoegen).
 * '''eigenschappen''' - komma-gescheiden lijst met namen van de te tonen eigenschappen. Geef deze door vanuit <code>CustomProperties</code> om de volgorde uit het model te behouden; anders levert SMW ze alfabetisch.
+
+'''Label''', '''Documentation''', '''Toelichting''' en '''GEMMA type''' zijn geen parameters: dit blok leest ze rechtstreeks uit SMW, elke keer dat ze getoond worden. Een aanroepend sjabloon zou de ArchiMedes-parameter toch alleen maar hebben doorgegeven zonder er zelf iets mee te doen; nu haalt alleen dit blok de waarde op, in plaats van 'm via parameters te laten doorreizen. Kost een parse actualiteit — zie [[:Sjabloon:DisplayArchiMateCustom]], "Verse gegevens".
 
 Dit blok heeft geen elementtype-specifieke uitbreidingspunten meer. Zulke uitzonderingen komen als
 <code>#ifeq</code> op <code>elementtype</code> direct in dit sjabloon, zodat er nooit twee bijna-gelijke
@@ -79,27 +73,27 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
           <tr>
             <td style="width:12em;">'''{{int:scam-pr-label}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
-            <td>{{#var:label}}</td>
+            <td>{{#show:{{#var:page}}|?Label}}</td>
           </tr>
           {{#ifeq:{{#var:toondefinitie}}|ja
           |<tr>
             <td style="width:12em;">'''Definitie'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
-            <td>{{#var:documentation}}</td>
+            <td>{{#show:{{#var:page}}|?Documentation}}</td>
           </tr>
           }}
-          {{#if:{{#var:toelichting}}
+          {{#if:{{#show:{{#var:page}}|?Toelichting}}
           |<tr>
             <td style="width:12em;">'''Toelichting'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
-            <td>{{#var:toelichting}}</td>
+            <td>{{#show:{{#var:page}}|?Toelichting}}</td>
           </tr>
           }}
-          {{#if:{{#var:gemmatype}}
+          {{#if:{{#show:{{#var:page}}|?GEMMA type|link=none}}
           |<tr>
             <td style="width:12em;">'''GEMMA type'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
-            <td>{{#var:gemmatype}}</td>
+            <td>{{#show:{{#var:page}}|?GEMMA type|link=none}}</td>
           </tr>
           }}
           <!-- Overige eigenschappen. De #switch bepaalt wat verborgen wordt; #default is leeg,

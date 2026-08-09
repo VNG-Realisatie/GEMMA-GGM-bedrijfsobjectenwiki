@@ -109,6 +109,16 @@ aanroepende sjabloon zetten, maar dat is beheerd kopiëren-plakken en geen herge
 De oplossing is dus niet om de lus te verplaatsen, maar de '''verantwoordelijkheid''': het vastleggen
 hoort in de Epilogue, die dezelfde parameters rechtstreeks van ArchiMedes krijgt.
 
+== Sommige eigenschappen komen altijd uit SMW, nooit uit de parameter ==
+
+<code>Label</code>, <code>Documentation</code>, <code>Toelichting</code> en <code>GEMMA type</code> worden in [[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]] niet als parameter aangenomen, ook al geeft ArchiMedes ze wel mee — het blok leest ze altijd zelf met <code>#show</code>. <code>Documentation</code> in het onderschrift van [[:Sjabloon:DisplayArchiMateViewCustom]] werkt hetzelfde.
+
+Reden: eerder had elke laag die de waarde nodig had zijn eigen <code>#vardefine</code> met dezelfde <code>{{{Parameter| }}}</code>-dan-<code>#show</code>-fallback — de waarde reisde zo onafhankelijk dubbel dezelfde weg af (bv. <code>DisplayArchiMateViewCustom</code> én <code>/Eigenschappen</code> losten <code>Documentation</code> allebei zelf op). Nu haalt alleen de plek die de waarde toont hem zelf op, in plaats van 'm eerst te resolven en dan als parameter door te geven.
+
+{{Letop
+|uitleg = '''Stale-risico, bewust geaccepteerd.''' <code>#set</code> en <code>#show</code> zien elkaar niet binnen dezelfde parse (zie "Verse gegevens" hieronder). Voor deze vier velden geldt dat daardoor niet alleen bij preview zonder ArchiMedes, maar bij '''elke render in productie''': na een wijziging aan het object tonen ze één parse lang nog de oude waarde. Andere velden — <code>page</code>, <code>elementtype</code>, <code>model</code>, <code>eigenschappen</code>/<code>CustomProperties</code>, en de Relationship-specifieke <code>bron</code>/<code>doel</code>/<code>RelationshipModifier</code> — geven nog wel voorrang aan de ArchiMedes-parameter en blijven dus wél meteen actueel.
+}}
+
 == Ik wil een nieuw DisplayArchiMate&lt;type&gt;Custom maken ==
 
 # Maak <code>Sjabloon:DisplayArchiMate&lt;Type&gt;Custom</code> aan. ArchiMedes pakt hem daarna vanzelf op in plaats van het standaardsjabloon; er hoeft niets geregistreerd te worden.
@@ -135,7 +145,7 @@ uit SMW gehaald. Dat kost in productie niets, want <code>#if</code> expandeert a
 Drie dingen die een preview '''niet''' laat zien:
 
 * '''De volgorde van de eigenschappen.''' SMW levert ze alfabetisch, ArchiMedes in modelvolgorde. Geeft het aanroepende sjabloon <code>eigenschappen=</code> door vanuit <code>CustomProperties</code>, dan blijft de modelvolgorde wél behouden; alleen bij een kale preview op alleen <code>page</code> zie je de alfabetische volgorde.
-* '''Verse gegevens.''' Een <code>#set</code> is binnen dezelfde parse niet met <code>#show</code> te lezen, dus de SMW-kant loopt één parse achter. Bij een net geïmporteerd object zie je de vorige waarden.
+* '''Verse gegevens.''' Een <code>#set</code> is binnen dezelfde parse niet met <code>#show</code> te lezen, dus de SMW-kant loopt één parse achter. Bij een net geïmporteerd object zie je de vorige waarden. Voor <code>Label</code>, <code>Documentation</code>, <code>Toelichting</code> en <code>GEMMA type</code> geldt dit altijd, ook in productie — zie "Sommige eigenschappen komen altijd uit SMW, nooit uit de parameter" hieronder.
 * '''Of het vastleggen goed gaat.''' Dat is per definitie onzichtbaar in een weergave; controleer dat met [[Speciaal:Bladeren]] op het object.
 
 == Bewust weggelaten ==

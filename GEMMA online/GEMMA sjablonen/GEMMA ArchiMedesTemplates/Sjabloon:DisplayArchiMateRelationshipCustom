@@ -95,10 +95,6 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
             |page={{#var:page}}
             |elementtype={{#var:elementtype}}
             |model={{#var:model}}
-            |label={{{Label| }}}
-            |documentation={{{Documentation| }}}
-            |toelichting={{{Toelichting| }}}
-            |gemmatype={{{GEMMA type| }}}
             |eigenschappen={{{CustomProperties| }}}
           }}
      }}<!--
