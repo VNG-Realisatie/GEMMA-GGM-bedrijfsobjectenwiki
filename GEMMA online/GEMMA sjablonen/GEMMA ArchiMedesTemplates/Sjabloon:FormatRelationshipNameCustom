@@ -10,7 +10,9 @@ Variabelen hier heten frnc<naam> (FormatRelationshipNameCustom), niet gewoon pag
           |{{FULLPAGENAME}} }} }} }}<!--
 -->{{#vardefine: frncbron |{{#show:{{#var:frncpage}}|?Has source element|link=none}}{{#show:{{#var:frncpage}}|?Has source relationship|link=none}} }}<!--
 -->{{#vardefine: frncdoel |{{#show:{{#var:frncpage}}|?Has target element|link=none}}{{#show:{{#var:frncpage}}|?Has target relationship|link=none}} }}<!--
--->{{#vardefine: frncpijltekst |{{int:scam-am-txt-{{lc:{{#show:{{#var:frncpage}}|?Elementtype|link=none}} }} }} }}<!--
+-->{{#vardefine: frnclabel |{{#show:{{#var:frncpage}}|?Label|link=none}} }}<!--
+-->{{#vardefine: frncpijltekst |{{#if:{{#var:frnclabel}}|{{#var:frnclabel}}
+      |{{int:scam-am-txt-{{lc:{{#show:{{#var:frncpage}}|?Elementtype|link=none}} }} }} }} }}<!--
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
@@ -29,8 +31,11 @@ Dit sjabloon wordt gebruikt in plaats van het standaard SmartConnectArchiMate™
 
 Bron, doel en relatietype zijn geen parameters: dit sjabloon leest ze altijd rechtstreeks met <code>#show</code> van <code>page</code>, zonder <code>{{{Parameter| }}}</code>-fallback.
 
+=== Pijltekst: label of type ===
+Heeft de relatie een eigen <code>Label</code>, dan wordt dat als pijltekst getoond. Anders valt het sjabloon terug op de generieke typetekst via <code>{{int:scam-am-txt-...}}</code>, zoals voorheen.
+
 === Richting ===
-Is <code>{{FULLPAGENAME}}</code> — de pagina waarop dit sjabloon getoond wordt — de bron van de relatie, dan is de relatie uitgaand: alleen het doel wordt getoond, achter de pijl. Is <code>{{FULLPAGENAME}}</code> het doel, dan is de relatie inkomend: alleen de bron wordt getoond, voor de pijl. Is <code>{{FULLPAGENAME}}</code> geen van beide — bijvoorbeeld op de pagina van de relatie zelf, zoals in [[:Sjabloon:DisplayArchiMateRelationshipCustom]] — dan worden bron én doel getoond.
+Bron en doel worden altijd allebei getoond, met de pijl altijd van bron naar doel (<code>─▶</code>) — ongeacht of <code>{{FULLPAGENAME}}</code> de bron, het doel of geen van beide is.
 
 === Testwaarden ===
 * page: [[{{#var:frncpage}}]]
@@ -38,11 +43,5 @@ Is <code>{{FULLPAGENAME}}</code> — de pagina waarop dit sjabloon getoond wordt
 
 === Preview ===
 </noinclude><includeonly><!--
--->{{#ifeq:{{#var:frncbron}}|{{FULLPAGENAME}}
-   |--{{#var:frncpijltekst}}--&gt;&nbsp;[[{{#var:frncdoel}}]]
-   |{{#ifeq:{{#var:frncdoel}}|{{FULLPAGENAME}}
-      |[[{{#var:frncbron}}]]&nbsp;&lt;--{{#var:frncpijltekst}}--
-      |[[{{#var:frncbron}}]]&nbsp;--{{#var:frncpijltekst}}--&gt;&nbsp;[[{{#var:frncdoel}}]]
-      }}
-   }}<!--
+-->[[{{#var:frncbron}}]]&nbsp;─&nbsp;{{#var:frncpijltekst}}&nbsp;─▶&nbsp;[[{{#var:frncdoel}}]]<!--
 --></includeonly>

@@ -2,14 +2,15 @@
 [[Categorie:GEMMA SmartCoreTemplates]]
 [[Categorie:GEMMA ArchiMedesEpilogues]]
 
-Wordt aangeroepen door alle #elementen (Begrippen, ArchiMate elementen, ..). Legt alle `#set`-eigenschappen en categorieën voor elementen vast: de generieke velden (Voorkeurslabel, Definitie), de generieke ArchiMate-categorieën (verplaatst uit [[:Sjabloon:DisplayArchiMateElementCustom]]), de losse `CustomProperties` als SMW-eigenschap, en de elementtype-specifieke categorielogica die voorheen verspreid stond over de sjablonen in SWCAPITemplates.
+Wordt aangeroepen door alle #elementen (Begrippen, ArchiMate-elementen, ...). Legt alle `#set`-eigenschappen en categorieën vast: generieke velden (Voorkeurslabel, Definitie), generieke ArchiMate-categorieën (verplaatst uit [[:Sjabloon:DisplayArchiMateElementCustom]]), `CustomProperties` als SMW-eigenschap, en de elementtype-specifieke categorielogica die voorheen verspreid stond over SWCAPITemplates.
 
 === Aantekeningen ===
 
-* '''Specialization.''' De generieke `CustomProperties`-lus hieronder zet zonder filter élke naam die ArchiMedes meegeeft als losse SMW-eigenschap. Voor ApplicationComponent-objecten staat `Specialization` met dezelfde waarde als `GEMMA type` in die lijst (bv. beide `Referentiecomponent`), wat een schijnbaar overbodig duplicaat in Speciaal:Bekijken oplevert. De waarde komt uit het Archi-brondocument via closed-source ArchiMedes; dit sjabloon kan het hoogstens signaleren of onderdrukken, niet verklaren.
-* '''SWC type / GEMMA type dubbeling.''' Alle vijf overgenomen elementtype-blokken testen elke categorieregel twee keer: één keer op `{{{SWC type}}}`, één keer op `{{{GEMMA type}}}` — kennelijk de oude en de nieuwe parameternaam naast elkaar. Nergens vastgelegd of `SWC type` nog daadwerkelijk door ArchiMedes wordt meegegeven; zo niet, dan is de helft van elke regel dode code.
-* '''`[[Category:]]`-lege categorieën (View e.d.).''' `#getArchiMateLayer`/`#getArchiMateAspect` en de vaste categorie `ArchiMateElements` zijn element-specifiek en leverden voor niet-Element-objecten (bv. View) een lege categorienaam op, die dan als letterlijke tekst `[[Category:]]` op de pagina verscheen. Nu afgeschermd met een leeg-check per categorie.
-* '''ArchiMateVersion mogelijk niet meegegeven aan View.''' `[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]` valt terug op 2.1 als de parameter ontbreekt. Volgens de parametertabel in [[:Sjabloon:DisplayArchiMateCustom/_index]] geeft ArchiMedes `ArchiMateVersion` niet mee aan View-objecten — dan zou elke ArchiMate 3.1-view alsnog in categorie `ArchiMate2.1` terechtkomen. Niet gecontroleerd of dat in de praktijk ook zo is (de rauwe paginabron van een view bevat wél `ArchiMateVersion=3.1`, maar dat zegt niets over wat er als sjabloonparameter binnenkomt); hier niet aangepast omdat een betrouwbare fallback (SMW-`#show`) vereist dat `ArchiMateVersion` ook daadwerkelijk ergens als eigenschap wordt vastgelegd, wat nu niet gebeurt.
+* '''Specialization.''' De `CustomProperties`-lus zet elke ArchiMedes-naam ongefilterd als SMW-eigenschap. Bij ApplicationComponent duplicaat: `Specialization` = `GEMMA type` (bv. beide `Referentiecomponent`), zichtbaar in Speciaal:Bekijken. Waarde komt uit Archi via closed-source ArchiMedes — dit sjabloon kan het signaleren, niet verklaren.
+* '''SWC type / GEMMA type.''' Alle vijf elementtype-blokken testen elke categorieregel dubbel: op `{{{SWC type}}}` én `{{{GEMMA type}}}` — oude en nieuwe parameternaam naast elkaar. Onbekend of `SWC type` nog wordt meegegeven; zo niet, is de helft dode code.
+* '''Lege `[[Category:]]`.''' `#getArchiMateLayer`/`#getArchiMateAspect` en `ArchiMateElements` zijn element-specifiek en gaven bij niet-Element-objecten (View) een lege categorienaam — zichtbaar als letterlijke tekst `[[Category:]]`. Nu afgeschermd met een leeg-check per categorie.
+* '''ArchiMateVersion bij View.''' `[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]` valt terug op 2.1. Volgens [[:Sjabloon:DisplayArchiMateCustom/_index]] geeft ArchiMedes deze parameter niet mee aan View — een 3.1-view kan dan alsnog in `ArchiMate2.1` belanden. Niet in de praktijk gecontroleerd; niet aangepast, want een betrouwbare fallback vereist `ArchiMateVersion` als SMW-eigenschap, wat nu niet gebeurt.
+* '''`Category:ArchiMateRelationships` ontbrak — de "verdwijnende relaties"-bug.''' Vendor-sjabloon [[:Sjabloon:SmartConnectArchiMate™/Sjabloon:DisplayArchiMateRelationship]] zet deze categorie zelf via `#getArchiMateRelationshipType`. Zodra [[:Sjabloon:DisplayArchiMateRelationshipCustom]] dat overneemt — automatisch zodra een Custom-variant bestaat — wordt die regel nooit bereikt. Er bestond geen los `RelationshipEpilogue` dat dit compenseerde. Gevolg: relatiepagina's verliezen bij herparsen hun categorie, waardoor [[:Sjabloon:DisplayArchiMateCustom/Relaties]] en [[:Sjabloon:ToonElementRelaties]] — die erop filteren — leeglopen, ook al staat bron/doel gewoon in SMW. Hersteld door dezelfde laag/aspect-aanpak te spiegelen met `#getArchiMateRelationshipType`.
 
 </noinclude><includeonly><!--BEGIN DIV VOOR CIRRUSSEARCH UITSLUITING BLIJFT OPEN, WORDT DOOR SmartCorePrologue GEOPEND--><!--
 
@@ -48,13 +49,17 @@ Generieke ArchiMate-categorieën (verplaatst uit Sjabloon:DisplayArchiMateElemen
 ArchiMateElements zijn alleen zinvol voor objecten die zelf een ArchiMate-element zijn — #getArchiMateLayer
 en #getArchiMateAspect geven voor een View, Relationship, Model e.d. niets terug. Daarom eerst opslaan in
 een variabele en alleen een categorie zetten als die niet leeg is; anders levert een lege naam letterlijk
-zichtbare tekst "[[Category:]]" op in plaats van een (onzichtbare) categorietoekenning.
+zichtbare tekst "[[Category:]]" op in plaats van een (onzichtbare) categorietoekenning. Relatietype werkt
+spiegelbeeldig: #getArchiMateRelationshipType geeft alleen voor Relationship-elementtypen iets terug, voor
+Element/View/Model niets — zie aantekening over Category:ArchiMateRelationships hierboven.
 
 -->[[Category:ArchiMate{{{ArchiMateVersion|2.1}}}]]<!--
 -->{{#vardefine: laag|{{#getArchiMateLayer:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }} }}<!--
 -->{{#if:{{#var:laag}}|[[Category:ArchiMateElements]][[Category:{{#var:laag}}]]}}<!--
 -->{{#vardefine: aspect|{{#getArchiMateAspect:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }} }}<!--
 -->{{#if:{{#var:aspect}}|[[Category:{{#var:aspect}}]]}}<!--
+-->{{#vardefine: relatietype|{{#getArchiMateRelationshipType:elementtype={{{Elementtype| }}}|archimateversion={{{ArchiMateVersion| }}} }} }}<!--
+-->{{#if:{{#var:relatietype}}|[[Category:ArchiMateRelationships]][[Category:{{#var:relatietype}}]]}}<!--
 -->{{#if:{{{Occurs in model| }}}|[[Category:ArchiMateModel {{{Occurs in model| }}}]]}}<!--
 
 Elementtype-specifieke categorieën: overgenomen uit SWCAPITemplates, 
