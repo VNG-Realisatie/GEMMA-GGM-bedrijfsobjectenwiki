@@ -124,8 +124,9 @@ Onderstaande tabel geeft een overzicht van de technologieservices uit de bovenst
   |type=Relatie
 }}
 </noinclude><includeonly><!--
--->{{#if: {{{viewpage| }}} |{{#vardefine: viewpagename |  {{{viewpage| }}} }}
-    |<!-- METHODE 1 op naam
+-->{{#if: {{{viewpage| }}} 
+      | {{#vardefine: viewpagename |  {{{viewpage| }}} }}
+      |<!-- METHODE 1 op naam
   -->{{#if: {{{model| }}}
         |{{#vardefine: model
             |{{#ask: [[Semantictitle::{{{model| }}}]]
@@ -213,15 +214,38 @@ kolomkoppen, maar de rijgegevens ondersteunen dat momenteel niet.
       | Relatie = {{#vardefine:aType|Relatie }} {{#vardefine:cat|ArchiMateRelationships}} 
       | {{#vardefine:aType|Element }} {{#vardefine:cat|ArchiMateElements}} 
    }}<!--
--->{{#vardefine:userparam|{{#var:aType}}__sep1__{{#var:filterCount}}__sep2__{{{attributen| }}}__sep3__{{{relaties| }}} }}<!-- 
--->{{#vardefine:sortparam|{{#if:{{{sort| }}}| {{{sort}}} | Semantictitle}}  }}<!-- 
+-->{{#vardefine:userparam|{{#var:aType}}__sep1__{{#var:filterCount}}__sep2__{{{attributen| }}}__sep3__{{{relaties| }}} }}<!--
+-->{{#vardefine:sortparam|{{#if:{{{sort| }}}| {{{sort}}} | Semantictitle}}  }}<!--
+
+Kolombreedte Beschrijving: gewichtsverdeling i.p.v. vaste breedte, zodat de kolom meekrimpt naarmate er
+meer andere kolommen bijkomen. Elke overige kolom (de naamkolom zelf, Van/Naar bij Relatie, Elementtype,
+elke attributen-/relaties-kolom) telt voor gewicht 1; Beschrijving telt voor gewicht 2. Bij de standaard
+3 kolommen (naam, Beschrijving, Elementtype) geeft dat 2 / (1+1+2) = 50%. table-layout:fixed (CSS, zie
+Gebruiker:MarkBacker/common.css) gebruikt alleen deze ene th-breedte; de overige kolommen verdelen de
+resterende ruimte vanzelf gelijk.
+
+Alleen voor Element: bij Relatie is Documentation_nl van een relatie meestal leeg of kort (relaties
+worden zelden apart gedocumenteerd), dus daar geen extra gewicht — de style="width:...%" op de
+Beschrijving-th wordt bij Relatie helemaal weggelaten, zodat table-layout:fixed 'm gewoon gelijk verdeelt
+met Van/Relatie/Naar/Elementtype, net als elke kolom zonder expliciete breedte.
+
+-->{{#arraydefine:attributenArray|{{{attributen| }}} }}<!--
+-->{{#vardefine:attributenCount|{{#ifeq: {{{attributen| }}}| |0|{{#arraysize:attributenArray}} }} }}<!--
+-->{{#arraydefine:relatiesArray|{{{relaties| }}} }}<!--
+-->{{#vardefine:relatiesCount|{{#ifeq: {{{relaties| }}}| |0|{{#arraysize:relatiesArray}} }} }}<!--
+-->{{#vardefine:elementtypeWeight|{{#ifexpr: {{#var:filterCount}} = 1 |0|1}} }}<!--
+-->{{#vardefine:vannaarWeight|{{#ifeq:{{#var:aType}}|Relatie|2|0}} }}<!--
+-->{{#vardefine:beschrijvingpct
+      |{{#expr: 200 / ( 1 + {{#var:vannaarWeight}} + {{#var:elementtypeWeight}} + {{#var:attributenCount}} + {{#var:relatiesCount}} + 2 ) round 1 }}
+   }}<!--
 
 Debug:
 * filter={{{filter| }}}
 * print={{#arrayprint:filterArray}}
 * filterCount={{#var:filterCount}}
 * userparam={{#var:userparam}}
-* viewpagename={{#var:viewpagename}} 
+* viewpagename={{#var:viewpagename}}
+* attributenCount={{#var:attributenCount}} / relatiesCount={{#var:relatiesCount}} / elementtypeWeight={{#var:elementtypeWeight}} / vannaarWeight={{#var:vannaarWeight}} / beschrijvingpct={{#var:beschrijvingpct}}
 
 -->{{#ifexist:{{#var: viewpagename}}
     |<table class="table sortable">
@@ -229,7 +253,7 @@ Debug:
         {{#ifeq:{{#var:aType}}|Relatie|<th>Van</th>}}
         <th>{{#var:aType}}</th>
         {{#ifeq:{{#var:aType}}|Relatie| <th>Naar</th>}}
-        <th>Beschrijving</th>
+        <th {{#ifeq:{{#var:aType}}|Element|style="width:{{#var:beschrijvingpct}}%;"}}>Beschrijving</th>
         <!-- Toon kolom ElementType als het filter 0 of meer dan één categorie bevat. Laat kolom weg bij één categorie -->
         {{#ifexpr: {{#var:filterCount}} = 1
          | <!-- bij 1 weglaten kolom -->

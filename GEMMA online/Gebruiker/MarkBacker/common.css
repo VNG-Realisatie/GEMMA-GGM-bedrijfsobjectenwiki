@@ -58,3 +58,14 @@ div.archimate-displaybox-body > table {
 .scam-inline-block-99.scam-display-inline-block {
   display: block;
 }
+
+/* Test: Sjabloon:ToonTabelVanViewGEMMA zet zelf altijd een lege alinea (<p><br />&nbsp;...</p>) vóór de
+   <table> — al aanwezig zonder enige omhullende code, bevestigd door het sjabloon los aan te roepen.
+   Oorzaak zit in hoe MediaWiki lege regels rond de HTML-comments in dat sjabloon afhandelt vóór de
+   comments zelf verwijderd worden; geen sjabloonwijziging (afgesproken scope). Puur cosmetisch opgelost
+   door de tabel zelf omhoog te trekken i.p.v. de lege alinea te verwijderen — iets minder ingrijpend dan
+   'm helemaal weg-CSS'en. Alleen op de sortable-tabellen, niet op Eigenschappen e.d. (die hebben deze
+   lege alinea niet). Bij bevestigde werking: overzetten naar MediaWiki:Common.css. */
+.archimate-displaybox-body table.sortable {
+  margin-top: -1.5em;
+}
