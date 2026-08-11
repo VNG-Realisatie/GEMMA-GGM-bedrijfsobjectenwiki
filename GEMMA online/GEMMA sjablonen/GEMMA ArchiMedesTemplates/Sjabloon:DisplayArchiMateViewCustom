@@ -17,7 +17,7 @@ Dit sjabloon en de werking ervan kunnen direct worden gepreviewd en getest. Hier
 [[Categorie:GEMMA ArchiMedesTemplates]]
 Toont een ArchiMate-view in GEMMA-opmaak: projectbanner (alleen bij een view uit een projectarchitectuur), de view met het dynamische-eigenschappenpaneel ernaast, en de eigenschappen. Gebruikt de herbruikbare blokken van [[:Sjabloon:DisplayArchiMateCustom]]. Toont alleen — vastleggen gebeurt in [[:Sjabloon:SmartCoreEpilogue]].
 
-Geen relaties- of views-blok: een view heeft zelf geen relaties en komt niet op andere views voor.
+Geen [[:Sjabloon:DisplayArchiMateCustom/Relaties|/Relaties]]- of [[:Sjabloon:DisplayArchiMateCustom/Views|/Views]]-blok: een view heeft zelf geen relaties (als ArchiMate-object) en komt niet op andere views voor. Onder Eigenschappen staan wel twee eigen blokken, Elementen en Relaties, met de elementen en relaties die ''in'' de view voorkomen — via [[:Sjabloon:ToonTabelVanViewGEMMA]] met alle parameters default. Het Relaties-blok wordt overgeslagen als de view geen relaties bevat.
 
 Eigenschappentabel: Elementtype en Definitie worden overgeslagen (<code>toonelementtype=false</code>, <code>toondefinitie=false</code> bij [[:Sjabloon:DisplayArchiMateCustom/Eigenschappen]]) — voegen bij een view weinig toe. Onder de view staat in plaats daarvan de documentatie (indien aanwezig) als bijschrift, met een link om de view in een nieuw venster te openen — zelfde stijl als [[:Sjabloon:ToonViewGEMMA]].
 
@@ -61,6 +61,25 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
             |toonelementtype=false
             |toondefinitie=false
           }}
-     }}
+     }}<!--
+
+  Elementen uit de view: Sjabloon:ToonTabelVanViewGEMMA met alle parameters default, alleen viewpage meegegeven.
+  -->{{CreateDisplayBox|1=auto|2=2px|3=Elementen
+          |4={{ToonTabelVanViewGEMMA|viewpage={{#var:page}} }}
+        }}<!--
+
+  Relaties uit de view. Blok alleen tonen als de view daadwerkelijk relaties bevat.
+  -->{{#vardefine: relatiecount
+            |{{#ask: [[Categorie:ArchiMateRelationships]]
+                     [[-Refers to relationship.Occurs in view::{{#var:page}}]]
+                   |format=count
+              }}
+         }}<!--
+      -->{{#ifexpr: {{#var:relatiecount}} > 0
+           |{{CreateDisplayBox|1=auto|2=2px|3=Relaties
+                |4={{ToonTabelVanViewGEMMA|viewpage={{#var:page}}|type=Relatie }}
+              }}
+           |
+         }}
     </div>
   </div>

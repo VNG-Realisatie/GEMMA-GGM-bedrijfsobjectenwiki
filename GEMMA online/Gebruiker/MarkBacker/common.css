@@ -14,3 +14,47 @@
 .archimate-displaybox-body table:has(td[style*="width:10em"]) td ul {
   margin-top: 0 !important;
 }
+
+/* Test: responsief maken van de ToonTabelVanViewGEMMA-tabellen (Elementen/Relaties-blokken in
+   Sjabloon:DisplayArchiMateViewCustom). Zelfde grondoorzaak als hierboven: table { width:100%; } uit
+   MediaWiki:Common.css laat een losstaande tabel zijn omringende auto-width box meetrekken naar de eigen
+   (per view variabele) content, waardoor blokken van view naar view smaller of breder worden dan de rest
+   van de kolom. table-layout:fixed doorbreekt die koppeling: de browser verdeelt kolombreedte dan naar
+   beschikbare ruimte i.p.v. naar celcontent, en lange tekst (Beschrijving) wrapt in plaats van de tabel te
+   verbreden. Kan geen vaste em-breedtes per kolom krijgen zoals de labeltabellen hierboven, want het aantal
+   en de labels van de kolommen zijn afhankelijk van filter/attributen/relaties-parameters. Scope via de
+   eigen 'sortable' class van Sjabloon:ToonTabelVanViewGEMMA — geen sjabloonwijziging nodig. Bij bevestigde
+   werking: overzetten naar MediaWiki:Common.css. */
+.archimate-displaybox-body table.sortable {
+  table-layout: fixed;
+}
+.archimate-displaybox-body table.sortable td,
+.archimate-displaybox-body table.sortable th {
+  overflow-wrap: break-word;
+}
+
+/* Test: elke box-tabel (Eigenschappen, Relaties, Views, en nu ook de ToonTabelVanViewGEMMA-tabellen)
+   staat vast op 90% breedte i.p.v. de volle boxbreedte. Komt niet uit MediaWiki:Common.css — daar staat
+   wel exact deze override geprobeerd, maar die zit door een niet-afgesloten /* commentaar (regel "tabel
+   breedte van sjablonen DisplayArchiMateElement aanpassen") samen met de hele .btnnieuwsbrief-regel
+   uitgeschakeld; nooit actief geweest. Bron van de 90% is daardoor onbekend (waarschijnlijk CSS die de
+   SmartConnectArchiMate™-module zelf meelevert via load.php, niet als wiki-pagina te lezen). Zelfde
+   selector als de dode Common.css-poging, hier wél actief. Bij bevestigde werking: overzetten naar
+   MediaWiki:Common.css (en meteen de kapotte comment daar repareren). */
+div.archimate-displaybox-body > table {
+  width: 100% !important;
+}
+
+/* Test: .scam-inline-block-99.scam-display-inline-block (vendor-CSS uit SmartConnectArchiMate™) is
+   display:inline-block en shrink-to-fit't daardoor op de breedte van zijn breedste kind i.p.v. de rij te
+   vullen — de eigenlijke oorzaak van "smaller of breder dan een blok". Generieke buitenste wrapper van
+   alle DisplayArchiMate<Type>Custom-pagina's (Element, Relationship, View, Viewconnection), niet alleen
+   View. display:block laat 'm de volle breedte van scam-row vullen. Andere -NN varianten
+   (scam-inline-block-80/-19/...) blijven ongemoeid: die zorgen voor de naast-elkaar-layout (bv. View +
+   dynamisch paneel) en moeten inline-block/float blijven; deze regel raakt alleen de exacte
+   class-combinatie "-99" + "scam-display-inline-block". Bevestigd: box-breedte klopte al (1283px, gelijk
+   aan .scam-inline-block-99 zelf) — het addertje zat 'm in de losstaande 90%-tabelregel hierboven, niet
+   in deze regel. Bij bevestigde werking: overzetten naar MediaWiki:Common.css. */
+.scam-inline-block-99.scam-display-inline-block {
+  display: block;
+}
