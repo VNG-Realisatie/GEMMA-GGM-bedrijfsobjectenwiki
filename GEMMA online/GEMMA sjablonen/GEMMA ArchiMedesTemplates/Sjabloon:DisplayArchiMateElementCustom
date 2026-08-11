@@ -62,7 +62,7 @@ Elementtype-specifieke uitzonderingen staan niet hier, maar als <code>#ifeq</cod
      }}<!--
 
   Views
-  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-views}}
+  -->{{CreateDisplayBox|1=auto|2=2px|3=Views
        |4={{DisplayArchiMateCustom/Views |page={{#var:page}} }}
      }}
     </div>

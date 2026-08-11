@@ -55,12 +55,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
     <div class="scam-inline-block-99 scam-display-inline-block scam-block-heading"><!--
 
   Contextdiagram, bron en doel gemarkeerd. Boxtitel bevat de leesbare relatienaam: relaties heten in ArchiMedes naar hun pagina-id (of een "Id-xxx"-fallback), niet naar een leesbare naam zoals elementen. Een eigen DISPLAYTITLE hier botst onvermijdelijk met de titelweergave die #element al op Semantictitle zet en levert een niet te onderdrukken conflictwaarschuwing op; daarom hier als boxtitel getoond in plaats van als paginatitel.
-  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-tx-context-diagram}} — {{FormatRelationshipNameCustom
-            |Label={{{Label| }}}
-            |Source={{#show:{{#var:bron}}|?Semantictitle}}
-            |Target={{#show:{{#var:doel}}|?Semantictitle}}
-            |Relationship type={{#var:elementtype}}
-          }}
+  -->{{CreateDisplayBox|1=auto|2=2px|3={{FormatRelationshipNameCustom|page={{#var:page}} }}
        |4=<center>{{#displayArchiMateDiagram:page={{#var:page}}|elementtype={{#var:elementtype}}|source={{#var:bron}}|target={{#var:doel}} }}</center>
      }}<!--
 
@@ -68,12 +63,12 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
   -->{{CreateDisplayBox|1=auto|2=2px|3=Bron en doel
        |4=<table>
             <tr>
-              <td style="width:12em;">'''{{ucfirst:{{int:scam-tx-relation-from}}}}'''</td>
+              <td style="width:10em;">'''{{ucfirst:{{int:scam-tx-relation-from}}}}'''</td>
               <td>&nbsp;&nbsp;&nbsp;</td>
               <td>[[{{#var:bron}}]] ({{#show:{{#var:bron}}|?Elementtype#}})</td>
             </tr>
             <tr>
-              <td style="width:12em;">'''{{ucfirst:{{int:scam-tx-relation-to}}}}'''</td>
+              <td style="width:10em;">'''{{ucfirst:{{int:scam-tx-relation-to}}}}'''</td>
               <td>&nbsp;&nbsp;&nbsp;</td>
               <td>[[{{#var:doel}}]] ({{#show:{{#var:doel}}|?Elementtype#}})</td>
             </tr>
@@ -81,7 +76,7 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
                   |{{#show:{{#var:page}}|?RelationshipModifier|link=none}} }} }}<!--
          -->{{#if:{{#var:modifier}}
             |<tr>
-              <td style="width:12em;">'''{{int:scam-am-relationshipmodifier}}'''</td>
+              <td style="width:10em;">'''{{int:scam-am-relationshipmodifier}}'''</td>
               <td>&nbsp;&nbsp;&nbsp;</td>
               <td>{{#var:modifier}}</td>
             </tr>
@@ -99,15 +94,18 @@ Banner als dit object uit een projectarchitectuur komt in plaats van uit de GEMM
           }}
      }}<!--
 
-  Relaties: andere relaties die naar déze relatie wijzen, niet de bron/doel van deze relatie zelf (zie hierboven).
-  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-relationships-short}}
-       |4={{DisplayArchiMateCustom/Relaties
+  Relaties: andere relaties die naar déze relatie wijzen, niet de bron/doel van deze relatie zelf (zie hierboven). Blok alleen tonen als er ook echt relaties zijn: /Relaties levert bij niets gevonden een lege tabel op, die als tekst niet leeg is maar geen <tr> bevat.
+  -->{{#vardefine: relaties |{{DisplayArchiMateCustom/Relaties
             |page={{#var:page}}
+          }} }}<!--
+  -->{{#if:{{#pos:{{#var:relaties}}|<tr>}}
+       |{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-relationships-short}}
+            |4={{#var:relaties}}
           }}
-     }}<!--
+       }}<!--
 
   Views
-  -->{{CreateDisplayBox|1=auto|2=2px|3={{int:scam-am-views}}
+  -->{{CreateDisplayBox|1=auto|2=2px|3=Views
        |4={{DisplayArchiMateCustom/Views
             |page={{#var:page}}
             |refprop=Refers to relationship

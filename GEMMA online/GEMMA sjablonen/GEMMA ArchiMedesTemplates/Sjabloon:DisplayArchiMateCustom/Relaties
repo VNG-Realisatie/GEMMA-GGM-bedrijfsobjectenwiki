@@ -19,7 +19,6 @@ ongeacht type, dus daarop wordt getest.
 -->{{#vardefine: isrelatie |{{#ask:[[{{#var:page}}]][[Categorie:ArchiMateRelationships]]|format=count}} }}<!--
 -->{{#vardefine: bronprop |{{#ifeq:{{#var:isrelatie}}|0|Has source element|Has source relationship}} }}<!--
 -->{{#vardefine: doelprop |{{#ifeq:{{#var:isrelatie}}|0|Has target element|Has target relationship}} }}<!--
--->{{#vardefine: limiet |{{#if:{{{limiet| }}}|{{{limiet}}}|500}} }}<!--
 
 --><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
@@ -35,33 +34,18 @@ Viewconnection (die krijgt <code>Refers to relationship</code> rechtstreeks als 
 Beide rijen komen uit dezelfde regels code, met een lus over de twee richtingen. Daardoor kunnen de twee
 lijsten niet meer uit elkaar gaan lopen in opmaak — wat eerder wel gebeurde.
 
-Gebruikt [[:Sjabloon:FormatRelationshipNameCustom]] voor de tekst van een relatie.
+Gebruikt [[:Sjabloon:FormatRelationshipNameCustom]] voor de tekst van een relatie; dat sjabloon bepaalt zelf, via <code>{{FULLPAGENAME}}</code>, of het uitgaand of inkomend is en toont dan alleen de andere kant.
 
 === Parameters ===
 Alle parameters zijn optioneel; ontbreekt er een, dan wordt de waarde uit SMW gehaald.
 * '''page''' - volledige paginanaam van het object. Standaard de pagina zelf.
-* '''limiet''' - maximum aantal relaties per richting. Standaard 500.
 
-<code>elementtype</code>, <code>bronprop</code> en <code>doelprop</code> zijn geen parameters meer: ArchiMedes
-geeft dit blok toch nooit parameters mee (zie [[:Sjabloon:DisplayArchiMateCustom]]), dus een aanroepend
-sjabloon zou de waarde alleen maar hebben doorgegeven vanuit dezelfde SMW-afleiding die hierboven al
-gebeurt.
-
-Dit blok heeft geen generieke uitbreidingspunten (geen <code>hook</code>/<code>hookall</code>, geen
-<code>filter</code>-parameter). Uitzonderingen komen als <code>#ifeq</code> op <code>elementtype</code>
-direct in dit sjabloon, zodat er nooit twee bijna-gelijke tabellen naast elkaar hoeven te bestaan. Eén
-actieve uitzondering: bij <code>elementtype=Principle</code> telt een AssociationRelationship niet mee voor
-de Inkomend-lijst — overgenomen van het voormalige
-[[:Sjabloon:DisplayArchiMateElementCustomPrincipleRelationsAll]].
-
-De queries gebruiken <code>searchlabel=</code>. Zonder dat plakt SMW boven de limiet een
-"... meer resultaten"-link zonder komma aan de lijst, waarna de lus dat als een relatienaam behandelt en
-er een SMW-foutmelding in de tabel verschijnt.
+De queries gebruiken <code>searchlabel=</code>. Zonder dat plakt SMW boven de limiet een "... meer resultaten"-link zonder komma aan de lijst, waarna de lus dat als een relatienaam behandelt en er een SMW-foutmelding in de tabel verschijnt.
 
 === Testwaarden ===
 * page: [[{{#var:page}}]]
 * elementtype: {{#var:elementtype}}
-* isrelatie: {{#var:isrelatie}} / bronprop: {{#var:bronprop}} / doelprop: {{#var:doelprop}} / limiet: {{#var:limiet}}
+* isrelatie: {{#var:isrelatie}} / bronprop: {{#var:bronprop}} / doelprop: {{#var:doelprop}} 
 
 === Preview ===
 </noinclude><!--
@@ -69,31 +53,21 @@ er een SMW-foutmelding in de tabel verschijnt.
 --><table>{{#arraymap:uitgaand,inkomend|,|__richting__
     |<!-- per richting: waarop zoeken, wat tonen, hoe de rij heet
       -->{{#vardefine: zoekprop|{{#ifeq:__richting__|inkomend|{{#var:doelprop}}|{{#var:bronprop}} }} }}<!--
-      -->{{#vardefine: toonprop|{{#ifeq:__richting__|inkomend|{{#var:bronprop}}|{{#var:doelprop}} }} }}<!--
       -->{{#vardefine: rijlabel|{{#ifeq:__richting__|inkomend|Inkomend|Uitgaand}} }}<!--
-      Ingebouwde uitzondering: voor Principle telt een AssociationRelationship niet mee als Inkomend.
-      -->{{#vardefine: rijfilter|{{#ifeq:__richting__|inkomend
-        |{{#ifeq:{{#var:elementtype}}|Principle|[[Elementtype!:AssociationRelationship]]}} }} }}<!--
-      -->{{#vardefine: relatielijst|{{#ask:[[Categorie:ArchiMateRelationships]]
-                        [[{{#var:zoekprop}}::{{#var:page}}]]
-                        {{#var:rijfilter}}
-                  |format=plainlist|headers=hide|link=none|limit={{#var:limiet}}|searchlabel=
-                }} }}<!--
+      -->{{#vardefine: relatielijst
+            |{{#ask:[[Categorie:ArchiMateRelationships]]
+                    [[{{#var:zoekprop}}::{{#var:page}}]]
+                |format=plainlist|headers=hide|link=none|limit=500|searchlabel=
+              }}
+          }}<!--
       -->{{#if:{{#var:relatielijst}}
           |<tr>
-              <td style="width:12em;">'''{{#var:rijlabel}}'''</td>
-              <td>&nbsp;&nbsp;&nbsp;</td>
+              <td style="width:10em; padding-right:1em;">'''{{#var:rijlabel}}'''</td>
               <td>
                 <ul>
                   {{#arraymap:{{#var:relatielijst}}|,|__relation__
                     |<li>
-                        {{FormatRelationshipNameCustom
-                          |Id=__relation__
-                          |Label={{ #show:__relation__|?Label# }}
-                          |Source={{#ifeq:{{#var:rijlabel}}|Inkomend|[[{{ #show:__relation__|?{{#var:toonprop}}# }}]]|[[{{#var:page}}]]}}
-                          |Target={{#ifeq:{{#var:rijlabel}}|Inkomend|[[{{#var:page}}]]|[[{{ #show:__relation__|?{{#var:toonprop}}# }}]]}}
-                          |Relationship type={{ #show:__relation__|?Elementtype# }}
-                        }}
+                        {{FormatRelationshipNameCustom|page=__relation__}}
                     </li>| <nowiki />
                   }}
                 </ul>

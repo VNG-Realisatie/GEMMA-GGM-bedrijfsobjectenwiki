@@ -65,33 +65,33 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
 --><table>
           {{#ifeq:{{#var:toonelementtype}}|ja
           |<tr>
-            <td style="width:12em;">'''{{int:scam-pr-elementtype}}'''</td>
+            <td style="width:10em;">'''{{int:scam-pr-elementtype}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>[[DisplayArchiMateGlossary#{{#var:elementtype}}|{{#var:elementtype}} ]]</td>
           </tr>
           }}
           <tr>
-            <td style="width:12em;">'''{{int:scam-pr-label}}'''</td>
+            <td style="width:10em;">'''{{int:scam-pr-label}}'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#show:{{#var:page}}|?Label}}</td>
           </tr>
           {{#ifeq:{{#var:toondefinitie}}|ja
           |<tr>
-            <td style="width:12em;">'''Definitie'''</td>
+            <td style="width:10em;">'''Definitie'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#show:{{#var:page}}|?Documentation}}</td>
           </tr>
           }}
           {{#if:{{#show:{{#var:page}}|?Toelichting}}
           |<tr>
-            <td style="width:12em;">'''Toelichting'''</td>
+            <td style="width:10em;">'''Toelichting'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#show:{{#var:page}}|?Toelichting}}</td>
           </tr>
           }}
           {{#if:{{#show:{{#var:page}}|?GEMMA type|link=none}}
           |<tr>
-            <td style="width:12em;">'''GEMMA type'''</td>
+            <td style="width:10em;">'''GEMMA type'''</td>
             <td>&nbsp;&nbsp;&nbsp;</td>
             <td>{{#show:{{#var:page}}|?GEMMA type|link=none}}</td>
           </tr>
@@ -129,7 +129,7 @@ niet weggelaten, zodat ze in de paginabron nog vindbaar zijn.
                       |Heeft bron 
                       |Semanticsearch=style="display:none;" | #default=
                   }}>
-                <td style="width:12em;">'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
+                <td style="width:10em;">'''{{#replace:{{ucfirst:__property__}}| (belangrijkste reden)|}}'''</td>
                 <td>&nbsp;&nbsp;&nbsp;</td>
                 <td>{{#var:waarde}}</td>
               </tr>

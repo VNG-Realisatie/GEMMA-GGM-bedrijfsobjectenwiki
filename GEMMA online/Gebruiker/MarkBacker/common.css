@@ -1,0 +1,16 @@
+/* Test: uitlijning ArchiMate-displayboxen (Bron en doel / Eigenschappen / Relaties / Views). Scope via :has() op de inline width:10em van de labelkolom, uniek voor deze vier GEMMA ArchiMedesTemplates-tabellen, zodat andere tabellen op de wiki niet worden geraakt en er geen sjabloon hoeft te worden aangepast. Oorzaak: de globale regel `table { width:100%; }` in MediaWiki:Common.css laat elke losstaande blocktabel zijn labelkolom evenredig meestrekken naar de eigen (per blok verschillende) boxbreedte, waardoor de waardekolom van blok tot blok naar rechts opschuift. table-layout:fixed maakt de opgegeven kolombreedtes weer exact i.p.v. een minimum. Bij bevestigde werking: overzetten naar MediaWiki:Common.css. */
+.archimate-displaybox-body table:has(td[style*="width:10em"]) {
+  table-layout: fixed;
+}
+/* :not(:last-child) omdat Relaties/Views geen spacer-kolom meer hebben: daar is nth-child(2) de waardekolom zelf, die niet naar 2em geknepen mag worden. Alleen Bron en doel/Eigenschappen hebben nog de losse spacer-td als kolom 2 van 3. */
+.archimate-displaybox-body table:has(td[style*="width:10em"]) td:nth-child(2):not(:last-child) {
+  width: 2em;
+}
+
+/* Relaties/Views: bulletlijst in de waardekolom staat door twee dingen lager dan het label: td's centreren default verticaal (vertical-align:middle) op de rijhoogte, en de globale regel .mw-content-ltr ul { margin:0.5em 0 ... !important; } duwt de eerste bullet nog eens omlaag binnen die cel. */
+.archimate-displaybox-body table:has(td[style*="width:10em"]) td {
+  vertical-align: top;
+}
+.archimate-displaybox-body table:has(td[style*="width:10em"]) td ul {
+  margin-top: 0 !important;
+}

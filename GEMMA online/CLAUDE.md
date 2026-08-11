@@ -58,6 +58,10 @@ Bij het ophalen van onderliggende/gelinkte pagina's van een landingspagina (them
 
 `Categorie:` = `Category:` (NS 14). `Sjabloon:` = `Template:` (NS 10). Beide vormen resolven naar dezelfde pagina — geen fout als je het tegenkomt, wel iets om op te letten bij het zoeken naar alle verwijzingen naar een pagina.
 
+## 7a. Eigen CSS/JS-pagina's (Gebruiker:.../common.css e.d.) niet via de API te bewerken
+
+`create-page`/`update-page` op de eigen `Gebruiker:MarkBacker/common.css` faalt met `mycustomcssprotected: You do not have permission to edit this CSS page`, ook al heeft het account (zie 8) sysop/bureaucrat/interface-admin-rechten. Vermoedelijk vereist het recht `editmyusercss` een 2FA-geverifieerde sessie die de API-token niet heeft. Workaround: de gebruiker plakt de inhoud zelf in de browser-editor; lokaal wél gewoon eerst wegschrijven zoals altijd (regel 1).
+
 ## 8. Authenticatie-context
 
 Het account (`MarkBacker`) draait met volle rechten (`sysop`/`bureaucrat`/`interface-admin`): aanmaken, bewerken, verplaatsen, uploaden — niet read-only. De bescherming tegen ongewenst schrijven zit alleen in regel 1 hierboven, niet in de accountrechten zelf. `delete-page` vereist bovendien de rechtengroep Beheerders of redacteur, die dit account niet heeft; een aangemaakte pagina die weg moet, kan alleen inert gemaakt worden (lege `<includeonly>`), niet daadwerkelijk verwijderd.

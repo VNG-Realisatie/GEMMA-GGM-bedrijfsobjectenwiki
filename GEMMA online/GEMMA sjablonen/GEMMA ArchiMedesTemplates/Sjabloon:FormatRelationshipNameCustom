@@ -1,29 +1,48 @@
-<noinclude>
+<!--
+
+page: buiten de sjabloonnamespace altijd de relatiepagina die getoond moet worden; in de sjabloonnamespace een vast testobject, zodat deze pagina los te previewen is.
+
+Variabelen hier heten frnc<naam> (FormatRelationshipNameCustom), niet gewoon page/bron/doel: Extension:Variables is paginabreed, niet per sjabloon. Een aanroepend sjabloon als Sjabloon:DisplayArchiMateCustom/Relaties gebruikt zelf ook een variabele page over twee lussen (Uitgaand/Inkomend) heen; met dezelfde naam hier zou elke aanroep binnen die lus de page van de aanroeper overschrijven, waardoor de tweede lus (Inkomend) niets meer vindt.
+
+-->{{#vardefine: frncpage |{{#if:{{{page| }}}|{{{page}}}
+      |{{#ifeq:{{NAMESPACENUMBER}}|10
+          |GEMMA/id-00105942-4270-4301-ba7a-9ed983fc9a9b
+          |{{FULLPAGENAME}} }} }} }}<!--
+-->{{#vardefine: frncbron |{{#show:{{#var:frncpage}}|?Has source element|link=none}}{{#show:{{#var:frncpage}}|?Has source relationship|link=none}} }}<!--
+-->{{#vardefine: frncdoel |{{#show:{{#var:frncpage}}|?Has target element|link=none}}{{#show:{{#var:frncpage}}|?Has target relationship|link=none}} }}<!--
+-->{{#vardefine: frncpijltekst |{{int:scam-am-txt-{{lc:{{#show:{{#var:frncpage}}|?Elementtype|link=none}} }} }} }}<!--
+
+--><noinclude>
 [[Categorie:GEMMA ArchiMedesTemplates]]
-Opmaken van relatie
+Opmaken van relatie als pijl.
 
 Dit sjabloon wordt gebruikt in plaats van het standaard SmartConnectArchiMate™ [[Sjabloon:FormatRelationshipName]].
 
 <pre>
-{{FormatRelationshipName
-  |Id
-  |Label
-  |Source
-  |Target
-  |Relationship type
+{{FormatRelationshipNameCustom
+  |page
 }}
 </pre>
 
+=== Parameters ===
+* '''page''' - paginanaam van de relatie. Standaard de pagina zelf.
+
+Bron, doel en relatietype zijn geen parameters: dit sjabloon leest ze altijd rechtstreeks met <code>#show</code> van <code>page</code>, zonder <code>{{{Parameter| }}}</code>-fallback.
+
+=== Richting ===
+Is <code>{{FULLPAGENAME}}</code> — de pagina waarop dit sjabloon getoond wordt — de bron van de relatie, dan is de relatie uitgaand: alleen het doel wordt getoond, achter de pijl. Is <code>{{FULLPAGENAME}}</code> het doel, dan is de relatie inkomend: alleen de bron wordt getoond, voor de pijl. Is <code>{{FULLPAGENAME}}</code> geen van beide — bijvoorbeeld op de pagina van de relatie zelf, zoals in [[:Sjabloon:DisplayArchiMateRelationshipCustom]] — dan worden bron én doel getoond.
+
+=== Testwaarden ===
+* page: [[{{#var:frncpage}}]]
+* bron: [[{{#var:frncbron}}]] / doel: [[{{#var:frncdoel}}]]
+
+=== Preview ===
 </noinclude><includeonly><!--
--->{{{Source|({{int:scam-tx-no-source}})}}}&nbsp;<!--
--->{{#if:{{{Label| }}}
-      |'''{{ lc:{{{Label| }}} }}'''
-      |{{#if:{{{Relationship type| }}}
-          |'''{{int:scam-am-txt-{{ lc:{{{Relationship type| }}} }} }}'''
-          |=>}} 
-   }}&nbsp;<!--
--->{{{Target|({{int:scam-tx-no-target}})}}}<!--
-   {{#if:{{{Relationship type| }}}
-      |&nbsp;([[{{{Id| }}}|{{{Relationship type| }}}]])
-   }}
+-->{{#ifeq:{{#var:frncbron}}|{{FULLPAGENAME}}
+   |--{{#var:frncpijltekst}}--&gt;&nbsp;[[{{#var:frncdoel}}]]
+   |{{#ifeq:{{#var:frncdoel}}|{{FULLPAGENAME}}
+      |[[{{#var:frncbron}}]]&nbsp;&lt;--{{#var:frncpijltekst}}--
+      |[[{{#var:frncbron}}]]&nbsp;--{{#var:frncpijltekst}}--&gt;&nbsp;[[{{#var:frncdoel}}]]
+      }}
+   }}<!--
 --></includeonly>

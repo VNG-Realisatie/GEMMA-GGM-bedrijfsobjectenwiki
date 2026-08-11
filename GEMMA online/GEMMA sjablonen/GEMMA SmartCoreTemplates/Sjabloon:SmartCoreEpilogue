@@ -23,9 +23,24 @@ Generieke velden
 
 Elke naam in CustomProperties als losse SMW-eigenschap. Zie aantekening over Specialization hierboven.
 
--->{{#arraymap:{{{CustomProperties| }}}|,|__property__
+Korte variant zonder taalafhandeling. Taal blijkbaar nodig voor ArchiMedes. zonder worden de relaties van een element niet getoond.
+{{#arraymap:{{{CustomProperties| }}}|,|__property__
      |{{#set:{{ucfirst:__property__ }}={{{ {{ucfirst:__property__}}| }}} }}
-   }}<!--
+   }}
+
+Eén rij per naam in CustomProperties. {{{{{ucfirst:xqx}}| }}} leest de gelijknamige parameter dynamisch
+op (parameter-indirectie); {{#set:...}} legt de waarde meteen als SMW-eigenschap vast (tonen en
+vastleggen zitten hier dus in hetzelfde blok, i.t.t. de GEMMA-aanpak). Per eigenschap wordt ook een
+losse <Property>Languages-lijst afgehandeld, met een <Property>_<taalcode>-waarde per taal in die lijst.
+Ontbreekt de taalneutrale waarde, dan valt de rij terug op de contenttaal-variant.
+-->{{#arraymap:{{{CustomProperties| }}}|,|xqx
+     |{{#set:{{ucfirst:xqx}}={{{ {{ucfirst:xqx}}| }}}}}<!--
+       -->{{#if:{{{{{ucfirst:xqx}}Languages| }}}
+            |{{#arraymap:{{{ {{ucfirst:xqx}}Languages| }}}|,|yqy
+                 |{{#set:{{ucfirst:xqx}}Languages=yqy}}{{#set:{{ucfirst:xqx}}_yqy={{{{{ucfirst:xqx}}_yqy| }}} }}
+               | }}
+          }}
+    | }}<!--
 
 CATEGORIES
 
@@ -47,46 +62,46 @@ elk blok alleen actief voor zijn eigen Elementtype.
 
 ApplicationComponent — was Sjabloon:ApplicationComponentEpilogue
 -->{{#ifeq: {{{Elementtype| }}}|ApplicationComponent|<!--
-  -->{{#ifeq: {{{SWC type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{SWC type|}}}|Landelijke voorziening|[[Categorie:Landelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Buitengemeentelijke voorziening|[[Categorie:Buitengemeentelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC type| }}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type| }}}|Referentiecomponent|[[Categorie:Referentiecomponenten|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC type| }}}|Landelijke voorziening|[[Categorie:Landelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type| }}}|Buitengemeentelijke voorziening|[[Categorie:Buitengemeentelijke voorzieningen|{{{Semantictitle}}}]]}}<!--
 -->}}<!--
 
 ApplicationFunction — was Sjabloon:ApplicationFunctionEpilogue
 -->{{#ifeq: {{{Elementtype| }}}|ApplicationFunction|<!--
-  -->{{#ifeq: {{{SWC type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{Applicatiefunctiecategorie|}}}|||[[Categorie:{{{Applicatiefunctiecategorie|}}}|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC type| }}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type| }}}|Groep|[[Categorie:GroupingApplicationFunctions|{{{Semantictitle}}}]]|[[Categorie:CoreApplicationFunctions|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{Applicatiefunctiecategorie| }}}|||[[Categorie:{{{Applicatiefunctiecategorie| }}}|{{{Semantictitle}}}]]}}<!--
 -->}}<!--
 
 Constraint — was Sjabloon:ConstraintEpilogue
 -->{{#ifeq: {{{Elementtype| }}}|Constraint|<!--
-  -->{{#ifeq: {{{SWC type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{SWC type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
-  -->{{#ifeq: {{{SWC subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
-  -->{{#ifeq: {{{GEMMA subtype|}}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle|}}}]]}}<!--
-  -->{{#vardefine: stURL| {{{Standaard URL|}}} }}<!--
+  -->{{#ifeq: {{{SWC type| }}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type| }}}|Standaardversie|[[Categorie:Standaardenversies|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC type| }}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA type| }}}|Standaard|[[Categorie:Standaarden|{{{Semantictitle}}}]]}}<!--
+  -->{{#ifeq: {{{SWC subtype| }}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle| }}}]]}}<!--
+  -->{{#ifeq: {{{GEMMA subtype| }}}|Gradaties|[[Categorie:Standaardclassificaties|{{{Semantictitle| }}}]]}}<!--
+  -->{{#vardefine: stURL| {{{Standaard URL| }}} }}<!--
   -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
   -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
   -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
   -->{{#set: Standaard URL={{#var: newURL}} }}<!--
-  -->{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL|}}} }}<!--
+  -->{{#vardefine: stURL| {{{Standaard Compliancy Instrument URL| }}} }}<!--
   -->{{#vardefine: lenSub|{{#expr: {{#pos: {{#var: stURL}}|)}} - {{#pos: {{#var: stURL}}|(}} -1 }} }}<!--
   -->{{#vardefine: startSub|{{#expr: {{#pos: {{#var: stURL}}|(}} + 1 }} }}<!--
   -->{{#vardefine: newURL| {{#sub: {{#var: stURL}}|{{#var: startSub}}| {{#var: lenSub }} }} }}<!--
   -->{{#set: Standaard Compliancy Instrument URL={{#var: newURL}} }}<!--
-  -->{{#set:lc_URL={{lc:{{{URL|}}} }} }}<!--
-  -->{{#set: GEMMA status::{{{Status|}}} }}<!--
+  -->{{#set:lc_URL={{lc:{{{URL| }}} }} }}<!--
+  -->{{#set: GEMMA status::{{{Status| }}} }}<!--
 -->}}<!--
 
 Grouping — was Sjabloon:GroupingEpilogue
 -->{{#ifeq: {{{Elementtype| }}}|Grouping|<!--
-  -->{{#ifeq: {{{SWC type|}}}|Groep|{{#switch: {{{SWC subtype|}}}
+  -->{{#ifeq: {{{SWC type| }}}|Groep|{{#switch: {{{SWC subtype| }}}
       |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
-  -->{{#ifeq: {{{GEMMA type|}}}|Groep|{{#switch: {{{GEMMA subtype|}}}
+  -->{{#ifeq: {{{GEMMA type| }}}|Groep|{{#switch: {{{GEMMA subtype| }}}
       |Gradaties=[[Categorie:Standaardclassificaties|{{{Semantictitle}}}]] }} }}<!--
 -->}}<!--
 
