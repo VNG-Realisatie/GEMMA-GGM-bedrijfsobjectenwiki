@@ -1,5 +1,0 @@
-<noinclude>[[Categorie:GEMMA opmaakTemplates]]
-Toon de link naar een motivatie-element met ID=<id> in het GEMMA ArchiMate-model 
-</noinclude><!--
---><includeonly>[[{{#ask: [[ID::{{{1| }}}]][[Occurs in model::GEMMA/id-2b2b88ba-8efe-46d3-8b40-47af290bc418]]|link=none}}|{{{1| }}}]]<!--
---></includeonly>

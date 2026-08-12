@@ -1,5 +1,0 @@
-<!--TS:20171029204800--><noinclude>[[Category:SmartConnectArchiMate™]]<!--
-This page is part of WikiXL SmartConnectArchiMate™. © 2016-2017 XL&Knowledge. Usage without proper
-license is strictly prohibited. Contact us at support@xl-knowledge.com. Any changes to this page will be
-overwritten by module upgrades.
---></noinclude><includeonly><li>[[{{{1|}}}]]<br>{{#if:{{{4|}}}|{{int:scam-am-relationship}}: {{FormatRelationshipName|{{{4|}}}|{{#show:{{{2|}}}|?Refers to element}}|{{#show:{{{3|}}}|?Refers to element}}|{{#show:{{{4|}}}|?Elementtype#}}}}}}</li></includeonly>

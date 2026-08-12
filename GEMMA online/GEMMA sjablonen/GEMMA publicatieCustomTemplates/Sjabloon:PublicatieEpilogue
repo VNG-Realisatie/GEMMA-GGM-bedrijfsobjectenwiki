@@ -1,8 +1,0 @@
-<noinclude>
-[[Category:GEMMA publicatieCustomTemplates]]
-[[Category:GEMMA opmaakTemplates]]
-Dit sjabloon wordt aangeroepen vanuit [[sjabloon:Publicatie]].
-
-Op pagina's met de status="Gearchiveerd" wordt de deze banner getoont:
-{{Banner mogelijk verouderd}}
-</noinclude><includeonly>{{#if:{{#pos:{{#show:{{FULLPAGENAME}}|?Redactiestatus}}|{{int:smartpublishprocess-editorial-status-archived}}|}}|{{Banner mogelijk verouderd}}|}}</includeonly>
