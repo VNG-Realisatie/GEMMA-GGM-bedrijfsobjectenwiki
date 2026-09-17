@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "voorbeelden/kandidaten/toezichthouder.md",
+                "file": "overdracht.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "toezichthouder"
+              "title": "overdracht"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -185,6 +187,19 @@
   },
   "active": "322cb7454ea47dea",
   "lastOpenFiles": [
+    "AGENTS.md",
+    "adapters.md",
+    "voorbeelden/README.md",
+    "prompts/onderwerp.md",
+    "prompts/export.md",
+    "prompts/bron-intake.md",
+    "prompts/beoordeling.md",
+    "prompts/README.md",
+    "README.md",
+    "prompts/kandidaat.md",
+    "typen/business-function.md",
+    "typen/business-object.md",
+    "voorbeelden/kandidaten/toezichthouder.md",
     "voorbeelden/kandidaten/omgevingsvergunning.md",
     "voorbeelden/voortgang.md",
     "ontwerp/dubbeling.md"

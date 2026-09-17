@@ -1,2 +1,0 @@
-We maken gebruik van cookies om er zeker van te zijn dat je onze website zo goed mogelijk beleeft. Door op 'Instellingen' te klikken, kun je meer lezen over onze cookies en je voorkeuren aanpassen. Door op 'Accepteer' te klikken, ga je akkoord met het gebruik van alle cookies. Je kunt je instellingen later altijd aanpassen. Meer over cookies lees je in onze [privacy- en cookieverklaring](https://www.divosa.nl/privacy-en-cookieverklaring).
-InstellingenAccepteer
