@@ -43,12 +43,12 @@ bo_subtypes:
     omschrijving: "Inburgeringsplichtige die verblijf heeft op grond van gezinshereniging; de enige praktijkscope van dit BO binnen de gemeente."
     ggm_entiteit: "Gezinsmigrant en Overige migrant"
     ggm_guid: EAID_526489DC_4D57_4e6d_8338_5F7C898162F6
-    ggm_attribuut: ""
+    ggm_attribuut:
   - naam: "Overige migrant"
     omschrijving: "Andere migratiereden dan gezinshereniging of asiel; door de GGM-entiteit voorzien maar niet beschreven in de gemeentelijke bronnen."
     ggm_entiteit: "Gezinsmigrant en Overige migrant"
     ggm_guid: EAID_526489DC_4D57_4e6d_8338_5F7C898162F6
-    ggm_attribuut: ""
+    ggm_attribuut:
 bo_relaties:
 - type: associatie
   bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/brede-intake|Brede Intake]]"

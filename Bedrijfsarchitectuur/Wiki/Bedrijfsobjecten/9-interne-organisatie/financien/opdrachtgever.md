@@ -41,4 +41,4 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/opdrachtge
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie]] — kandidaat gesignaleerd via /audit-actoren track 1

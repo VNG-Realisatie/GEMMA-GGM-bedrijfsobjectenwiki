@@ -28,7 +28,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC"
+  - entiteit: Voorziening
+    guid: EAID_8D3666E3_F2DA_4cba_BF67_EFED9AAD97CC
+    beleidsdomein: Musea
+    taakveld: "5 Sport, Cultuur en Recreatie"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Voorziening** als directe tegenhanger. Daarnaast is **Voorziening** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

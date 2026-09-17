@@ -26,7 +26,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name: "Doelstelling (Financien)"
 
 ggm_duplicaat_entiteiten:
-  - "EAID_28C572B5_C147_4b99_B920_00062C843FDE"
+  - entiteit: Doelstelling
+    guid: EAID_28C572B5_C147_4b99_B920_00062C843FDE
+    beleidsdomein: Sociale Teams
+    taakveld: "6 Sociaal Domein"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Doelstelling** als directe tegenhanger. Daarnaast is **Doelstelling** (beleidsdomein Sociale Teams) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

@@ -34,4 +34,4 @@ Dit is een sleutelconcept voor gemeentelijk bestuur. Een [[Wiki/Bedrijfsobjecten
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/gemeentelijke-samenwerking]]
+- [[Sources/Onderwerpen/Bestuur/gemeentelijke-samenwerking]]

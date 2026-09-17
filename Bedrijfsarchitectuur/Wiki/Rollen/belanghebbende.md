@@ -41,4 +41,4 @@ Bij een WOZ-beschikking geldt een wettelijke voorkeursvolgorde voor wie als **WO
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/5-sport-cultuur-en-recreatie|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/5-sport-cultuur-en-recreatie]] — kandidaat gesignaleerd via /audit-actoren track 1

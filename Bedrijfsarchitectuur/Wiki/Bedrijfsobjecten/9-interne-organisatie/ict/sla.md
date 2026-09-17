@@ -100,4 +100,4 @@ Geen GGM-match: het GGM modelleert data-objecten maar geen contractuele instrume
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]

@@ -46,4 +46,4 @@ Dit is een beleidspropositie die de governance-context schetst voor gemeentelijk
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Cultuur/propositie-cultuur-samen-cultuur-borgen]]
+- [[Sources/Onderwerpen/Cultuur/propositie-cultuur-samen-cultuur-borgen]]

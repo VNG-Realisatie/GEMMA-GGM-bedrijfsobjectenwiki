@@ -40,5 +40,5 @@ Het plan wordt opgebouwd via vijf fases: inventariseren, centraliseren, ontdubbe
 De CMDB-bron geeft het theoretisch kader voor de GGM ICT-entiteiten CMDB-item, Linkbaar CMDB-item, Server, Hardware, Software, Database en Netwerkcomponent. De VNG-handreiking bevestigt dat gemeenten applicatielandschappen, registers en koppelingen als concrete beheerobjecten beschouwen. Samen ondersteunen ze de BO-beoordeling van ICT-infrastructuurcomponenten.
 
 ## Bronnen
-- [[Sources/informatiesystemen/configuration-management-database-cmdb]]
-- [[Sources/informatiesystemen/handreiking-informatiebeheerplan]]
+- [[Sources/Onderwerpen/informatiesystemen/configuration-management-database-cmdb]]
+- [[Sources/Onderwerpen/informatiesystemen/handreiking-informatiebeheerplan]]

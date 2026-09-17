@@ -120,6 +120,6 @@ De GGM-definitie beschrijft technische implementatiedetails in plaats van het co
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]
 - [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]

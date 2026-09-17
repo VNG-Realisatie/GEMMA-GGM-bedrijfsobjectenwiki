@@ -39,4 +39,4 @@ De leerplichtambtenaar draagt de wettelijke verantwoordelijkheid voor het toezic
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/4-onderwijs|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/4-onderwijs]] — kandidaat gesignaleerd via /audit-actoren track 1

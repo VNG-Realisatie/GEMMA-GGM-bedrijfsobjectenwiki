@@ -79,9 +79,9 @@ bo_subtypes:
   ggm_attribuut: type
 - naam: luidklok
   omschrijving: Klok in kerktoren, deels met eigen monumentstatus
-  ggm_entiteit: ''
-  ggm_guid: ''
-  ggm_attribuut: ''
+  ggm_entiteit:
+  ggm_guid:
+  ggm_attribuut:
 bedrijfsprocessen:
 - Monumentenaanwijzing
 - Monumentenvergunning
@@ -185,7 +185,7 @@ De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzami
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
 - [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
 - [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]

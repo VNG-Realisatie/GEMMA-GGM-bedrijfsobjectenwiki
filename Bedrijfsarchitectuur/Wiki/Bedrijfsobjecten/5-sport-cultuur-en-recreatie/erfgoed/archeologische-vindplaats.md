@@ -29,7 +29,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_84DED9A9_2D33_4a77_94F2_29657024590F"
+  - entiteit: Vindplaats
+    guid: EAID_84DED9A9_2D33_4a77_94F2_29657024590F
+    beleidsdomein: Archeologie
+    taakveld: Erfgoed
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vindplaats** als directe tegenhanger. Daarnaast is **Vindplaats** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

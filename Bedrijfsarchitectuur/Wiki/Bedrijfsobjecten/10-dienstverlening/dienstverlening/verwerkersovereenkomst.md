@@ -119,9 +119,9 @@ Zie [[Wiki/Bronsamenvattingen/Informatiesamenleving/avg-verwerkingsregister-dpia
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]]
-- [[Wiki/Bronsamenvattingen/Informatiesamenleving/avg-verwerkingsregister-dpia|AVG art. 30, 35, 36]]
-- [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd|Factsheet Datalekken IBD]]
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet]]
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/avg-verwerkingsregister-dpia]]
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/factsheet-datalekken-ibd]]
 
 ## Terugmelding GGM
 

@@ -32,4 +32,4 @@ Deze bron betreft VNG-advocacy en relatievorm met rijksoverheid, niet gemeenteli
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/vng-inzet-kabinet]]
+- [[Sources/Onderwerpen/Bestuur/vng-inzet-kabinet]]

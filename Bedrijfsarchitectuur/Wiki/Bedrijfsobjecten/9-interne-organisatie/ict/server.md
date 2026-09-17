@@ -99,5 +99,5 @@ Entiteit: Server | Matchsterkte: **exact** | Attributen: serverID, organisatie, 
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]

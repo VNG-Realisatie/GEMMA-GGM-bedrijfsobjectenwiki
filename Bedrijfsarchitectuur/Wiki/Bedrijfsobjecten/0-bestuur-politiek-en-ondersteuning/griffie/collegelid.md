@@ -41,4 +41,4 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/collegelid
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1

@@ -92,5 +92,5 @@ Entiteit: Wijzigingsverzoek | Matchsterkte: **exact** | Attributen: *(geen in GG
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]

@@ -28,7 +28,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2"
+  - entiteit: Beschikking
+    guid: EAID_16ABCFF8_4817_6A73_59BA_281C3303F8D2
+    beleidsdomein: Diensten
+    taakveld: Inkomen
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Beschikking** als directe tegenhanger. Daarnaast is **Beschikking** (beleidsdomein Diensten) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

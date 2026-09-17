@@ -32,29 +32,29 @@ bo_toelichting:
 bo_subtypes:
   - naam: Standplaatsvergunning
     omschrijving: "APV-vergunning voor het innemen van een standplaats in de openbare ruimte"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Horecavergunning
     omschrijving: "Exploitatievergunning voor een horecabedrijf"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Ligplaatsvergunning
     omschrijving: "Vergunning voor het innemen van een ligplaats"
     ggm_entiteit: "Ligplaatsontheffing"
     ggm_guid: EAID_872A0342_EA75_418e_9455_E51875BFD771
-    ggm_attribuut: ""
+    ggm_attribuut:
   - naam: Exploitatievergunning (vaarverkeer)
     omschrijving: "Vergunning voor commercieel gebruik van vaartuig"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Omgevingsvergunning
     omschrijving: "Vergunning als bedoeld in afdeling 5.1 van de Omgevingswet"
     ggm_entiteit: "Omgevingsvergunning"
     ggm_guid: EAID_053B594A_5E45_4413_9339_D2D026ECCE20
-    ggm_attribuut: ""
+    ggm_attribuut:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Evenementenvergunning]]"

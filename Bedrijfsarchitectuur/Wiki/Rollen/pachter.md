@@ -37,4 +37,4 @@ Persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|Entiteitendekking-rapport]] — eerder "ter discussie" tussen Eigenaar/Huurder/Vastgoedobject; opgelost met een eigen pagina
+- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie]] — eerder "ter discussie" tussen Eigenaar/Huurder/Vastgoedobject; opgelost met een eigen pagina

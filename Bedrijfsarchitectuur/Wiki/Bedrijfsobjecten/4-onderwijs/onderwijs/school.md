@@ -35,34 +35,34 @@ bo_toelichting:
 bo_subtypes:
   - naam: PO-school
     omschrijving: "School voor primair onderwijs"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: VO-school
     omschrijving: "School voor voortgezet onderwijs"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: SO/SBO/VSO-school
     omschrijving: "School voor speciaal (basis/voortgezet) onderwijs"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Buurtschool
     omschrijving: "Multifunctionele school met maatschappelijke partners in de wijk"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Kindcentrum
     omschrijving: "Integrale voorziening onderwijs en kinderopvang 0-12 jaar"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: Multifunctionele accommodatie
     omschrijving: "Gebouw waar meerdere (overwegend maatschappelijke) organisaties voorzieningen aanbieden"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Leerling]]"

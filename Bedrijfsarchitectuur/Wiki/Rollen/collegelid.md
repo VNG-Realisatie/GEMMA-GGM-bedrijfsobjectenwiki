@@ -44,4 +44,4 @@ De gegevens over deze rol worden vastgelegd als bedrijfsobject [[Wiki/Bedrijfsob
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1

@@ -256,7 +256,7 @@ Waar van toepassing staat de aangeroepen **Tool** (Python-script uit `tools/` �
 | **write-element**<br>`/write-element {element}` | Element vastleggen: GGM-match, frontmatter, pagina aanmaken<br>Tool: `parse_ggm_xmi.py` (optioneel, bij nieuwe GGM-release) | beoordeeld element + `ggm_parsed.json` | `Wiki/Bedrijfsobjecten/` (template: `element.md`)<br>of `Wiki/Actoren/` (template: `element.md`)<br>of `Wiki/Rollen/` (template: `element.md`)<br>Bij afwijking/hiaat: regel toegevoegd aan `Wiki/Analyses/ggm-terugmeldingen.md` (template: `ggm-terugmelding.md`) |
 | **entiteitendekking**<br>`/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten<br>Tool: `entiteitendekking.py`, `entiteitendekking_sync_bo.py` | `Wiki/GGM/` + `Wiki/Bedrijfsobjecten/` | `Wiki/Analyses/entiteitendekking/` (eigen rapportformat, geen template)<br>teruggeschreven `analyse_ggm_dekking` in BO-frontmatter |
 | **domain-status**<br>`/domain-status {onderwerp}` | Read-only voortgangsrapportage | `Wiki/` voor onderwerp | chat |
-| **lint**<br>`/lint [onderwerp]` | Consistentiechecks op wiki tegen templates en skills<br>Tool: `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
+| **lint**<br>`/lint [onderwerp]` | Twee stappen: deterministisch script (exacte telling), dan modelbeoordeling van wat overblijft<br>Tool: `lint_checks.py` (stap 1, altijd), `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
 | **audit-duplicaten**<br>`/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's | `Wiki/Bedrijfsobjecten/` | chat, voorstellen (geen automatische fix) |
 | **audit-actoren**<br>`/audit-actoren` | Controleer Business Actors op consistentie en volledigheid | `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/` | werkvoorraadlijst (chat) — vervolg via assess-element/write-element |
 | **audit-definities**<br>`/audit-definities` | Controleer BO-definities op afwijkingen van GGM | `Wiki/Bedrijfsobjecten/` + `Wiki/GGM/` | chat, optioneel direct herschreven `bo_definitie`/`bo_toelichting` |
@@ -282,7 +282,8 @@ Python-scripts in `tools/`, projectlokaal naast de skills die ze aanroepen.
 | `entiteitendekking.py` | Uniforme GGM-analyse: match, classificeer, traceer relaties, genereer per-taakveld rapporten + totaaloverzicht | `/entiteitendekking` Stap 1 |
 | `entiteitendekking_sync_bo.py` | Schrijft `analyse_ggm_dekking` (reverse-index: welke GGM-entiteiten dekt dit BO) terug naar BO-pagina's, chirurgisch — raakt geen andere velden. `--dry-run` voor preview. | `/entiteitendekking` Stap 5 |
 | `convert_pdf.py` | Converteert PDF naar markdown | `/convert_pdf` |
-| `migrate_frontmatter_style.py` | Fixt frontmatter-stijlfouten (quotes, lege waarden, veldnamen) | `/lint` (fix-suggestie) |
+| `migrate_frontmatter_style.py` | Fixt frontmatter-stijlfouten (quotes, lege waarden, veldnamen, incl. geneste velden onder `bo_subtypes`/`bo_homoniemen`) | `/lint` (fix-suggestie) |
+| `lint_checks.py` | Deterministische consistentiechecks (frontmatter-compleetheid, enum-validatie, Bronnen-secties, dode Sources-links, wees-BO's, wiki-link-aliassen, subtypes/duplicaten/homoniemen-schema) — geen model nodig, exacte telling | `/lint` Stap 1 (altijd eerst) |
 
 ### GGM-data gebruiken
 

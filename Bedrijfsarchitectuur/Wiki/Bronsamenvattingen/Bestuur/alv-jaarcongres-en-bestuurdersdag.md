@@ -29,4 +29,4 @@ Deze bron beschrijft VNG-governance op het niveau van de koepelorganisatie, niet
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/alv-jaarcongres-en-bestuurdersdag]]
+- [[Sources/Onderwerpen/Bestuur/alv-jaarcongres-en-bestuurdersdag]]

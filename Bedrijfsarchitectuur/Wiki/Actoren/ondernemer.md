@@ -39,4 +39,4 @@ De ondernemer is een zelfstandig handelende partij met eigen identiteit — verg
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/6-sociaal-domein|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/6-sociaal-domein]] — kandidaat gesignaleerd via /audit-actoren track 1

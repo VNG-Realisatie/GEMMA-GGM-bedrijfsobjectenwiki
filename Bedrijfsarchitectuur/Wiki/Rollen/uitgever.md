@@ -39,4 +39,4 @@ Uitgever is de hoedanigheid van de partij die een werk (bv. een publicatie in ee
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/5-sport-cultuur-en-recreatie|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/5-sport-cultuur-en-recreatie]] — kandidaat gesignaleerd via /audit-actoren track 1

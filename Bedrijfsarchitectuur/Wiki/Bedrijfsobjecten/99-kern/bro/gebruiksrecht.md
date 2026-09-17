@@ -36,7 +36,7 @@ bo_synoniemen: []
 bo_homoniemen:
   - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht|Zakelijk Recht]]"
     ggm_entiteit: Zakelijk Recht
-    ggm_guid: ""
+    ggm_guid:
     ggm_beleidsdomein: BRK
     toelichting: "BRK Zakelijk Recht gaat over eigendom/hypotheek op onroerende zaken; BRO Gebruiksrecht gaat over activiteiten in de ondergrond — ander concept"
 bo_relaties:

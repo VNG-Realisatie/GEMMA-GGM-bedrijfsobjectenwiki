@@ -30,28 +30,28 @@ gemma_toelichting: "Werklocaties worden getypeerd als bedrijventerrein, kantoorl
 bo_subtypes:
   - naam: Bedrijventerrein
     omschrijving: "Werklandschap bedoeld voor bedrijven die hinder veroorzaken (geluid, stof, gevaar, geur); milieucategorie-gestuurd."
-    ggm_entiteit: ""
-    ggm_guid: ""
+    ggm_entiteit:
+    ggm_guid:
     ggm_attribuut: "type"
   - naam: Kantoorlocatie
     omschrijving: "Gebied met kantoorbestemming waar meerdere kantoorgebouwen bij elkaar staan; gesegmenteerd in top-, midden- en ondersegment."
-    ggm_entiteit: ""
-    ggm_guid: ""
+    ggm_entiteit:
+    ggm_guid:
     ggm_attribuut: "type"
   - naam: Winkelgebied
     omschrijving: "Ruimtelijke concentratie van retailfuncties en publieksgerichte voorzieningen; onderdeel van de retailhoofdstructuur."
-    ggm_entiteit: ""
-    ggm_guid: ""
+    ggm_entiteit:
+    ggm_guid:
     ggm_attribuut: "type"
   - naam: Innovatielocatie
     omschrijving: "Locatie voor innovatieve en kennisgedreven bedrijven rondom maatschappelijke vraagstukken, vaak gemengd met onderwijs en onderzoek."
-    ggm_entiteit: ""
-    ggm_guid: ""
+    ggm_entiteit:
+    ggm_guid:
     ggm_attribuut: "type"
   - naam: Wijkeconomie
     omschrijving: "Alle werkplekken buiten de vier andere typen: solitaire bedrijfspanden, thuiswerken, voorzieningen in wijken."
-    ggm_entiteit: ""
-    ggm_guid: ""
+    ggm_entiteit:
+    ggm_guid:
     ggm_attribuut: "type"
 bo_relaties:
   - type: associatie

@@ -38,4 +38,4 @@ Dit formuleert de gemeentelijke taken rond [[Wiki/Bedrijfsobjecten/0-bestuur-pol
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/gemeenteraadsverkiezingen-2026]]
+- [[Sources/Onderwerpen/Bestuur/gemeenteraadsverkiezingen-2026]]

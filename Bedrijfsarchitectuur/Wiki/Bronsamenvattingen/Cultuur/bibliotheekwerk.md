@@ -22,4 +22,4 @@ Zeer beperkte bron. Bibliotheken zijn voorzieningen die de gemeente faciliteert,
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Cultuur/bibliotheekwerk]]
+- [[Sources/Onderwerpen/Cultuur/bibliotheekwerk]]

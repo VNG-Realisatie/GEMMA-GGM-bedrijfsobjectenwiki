@@ -38,4 +38,4 @@ Het ringenmodel is een beleidsinstrument dat gemeenten helpt hun cultureel voorz
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten]]
+- [[Sources/Onderwerpen/Cultuur/toelichting-ringenmodel-de-culturele-infrastructuur-van-gemeenten]]

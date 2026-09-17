@@ -129,8 +129,17 @@ def process_top_level_line(line: str, next_line: str | None) -> str:
     return line
 
 
+FORCE_QUOTE_NESTED_FIELDS = {'bedrijfsobject', 'kardinaliteit'}
+NESTED_EMPTY_FIELDS = FORCE_QUOTE_NESTED_FIELDS | {
+    'ggm_entiteit', 'ggm_guid', 'ggm_attribuut', 'afwijkende_attributen',
+}
+NESTED_FIELD_RE = re.compile(
+    r'^(\s+)(' + '|'.join(sorted(NESTED_EMPTY_FIELDS)) + r'):\s*(.*)$'
+)
+
+
 def process_relatie_line(line: str) -> str:
-    m = re.match(r'^(\s+)(bedrijfsobject|kardinaliteit):\s*(.*)$', line)
+    m = NESTED_FIELD_RE.match(line)
     if not m:
         return line
     indent, field, value = m.group(1), m.group(2), m.group(3)
@@ -141,8 +150,11 @@ def process_relatie_line(line: str) -> str:
     if value == 'null' or EMPTY_VALUE_RE.match(value):
         return f'{indent}{field}:'
 
-    value = unify_quotes(value, force=True)
-    return f'{indent}{field}: {value}'
+    if field in FORCE_QUOTE_NESTED_FIELDS:
+        value = unify_quotes(value, force=True)
+        return f'{indent}{field}: {value}'
+
+    return line
 
 
 def migrate_frontmatter(fm: str) -> str:
@@ -150,7 +162,7 @@ def migrate_frontmatter(fm: str) -> str:
     out_lines = []
     for i, line in enumerate(lines):
         next_line = lines[i + 1] if i + 1 < len(lines) else None
-        if re.match(r'^\s+(bedrijfsobject|kardinaliteit):', line):
+        if re.match(r'^\s+(?:' + '|'.join(sorted(NESTED_EMPTY_FIELDS)) + r'):', line):
             out_lines.append(process_relatie_line(line))
         elif TOP_LEVEL_KEY_RE.match(line):
             out_lines.append(process_top_level_line(line, next_line))

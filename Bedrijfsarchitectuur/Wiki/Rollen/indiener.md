@@ -13,7 +13,7 @@ ggm_duplicaat_entiteiten:
     guid: EAID_E9AD325A_49CF_48a6_AA9E_7FB57E03E414
     beleidsdomein: Model VTH
     taakveld: "1 Veiligheid en Vergunningen"
-    afwijkende_attributen: ""
+    afwijkende_attributen:
 bo_definitie: "De hoedanigheid van degene die een melding of aanvraag doet bij de gemeente."
 bo_toelichting:
 element_tegenhangers: []
@@ -44,4 +44,4 @@ Indiener is de hoedanigheid waarin een persoon of organisatie een melding of aan
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1

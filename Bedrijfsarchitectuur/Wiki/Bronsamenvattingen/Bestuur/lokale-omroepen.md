@@ -35,4 +35,4 @@ Lokale omroep is een externe organisatie, geen gemeente-eigend object. Gemeenten
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/lokale-omroepen]]
+- [[Sources/Onderwerpen/Bestuur/lokale-omroepen]]

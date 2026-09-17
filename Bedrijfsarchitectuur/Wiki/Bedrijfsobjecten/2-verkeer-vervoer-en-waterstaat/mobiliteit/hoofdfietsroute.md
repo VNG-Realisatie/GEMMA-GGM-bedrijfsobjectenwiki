@@ -30,9 +30,9 @@ bo_toelichting:
 bo_subtypes:
 - naam: snelfietsroute
   omschrijving: Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid
-  ggm_entiteit: ''
-  ggm_guid: ''
-  ggm_attribuut: ''
+  ggm_entiteit:
+  ggm_guid:
+  ggm_attribuut:
 bedrijfsprocessen:
 - Fietsbeleid
 - Beheer openbare ruimte

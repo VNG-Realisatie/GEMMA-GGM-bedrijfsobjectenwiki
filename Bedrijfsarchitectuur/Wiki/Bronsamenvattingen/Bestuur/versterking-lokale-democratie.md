@@ -37,4 +37,4 @@ Deze bron adresseert governance-principes en procesmatig-democratische experimen
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/versterking-lokale-democratie]]
+- [[Sources/Onderwerpen/Bestuur/versterking-lokale-democratie]]

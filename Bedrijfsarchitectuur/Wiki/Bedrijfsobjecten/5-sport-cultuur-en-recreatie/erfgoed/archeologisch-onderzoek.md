@@ -28,8 +28,16 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name: Project (Organisatie)
 
 ggm_duplicaat_entiteiten:
-  - "EAID_E42A32F7_262F_4005_9EB9_4674B76E8825"
-  - "EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D"
+  - entiteit: Project
+    guid: EAID_E42A32F7_262F_4005_9EB9_4674B76E8825
+    beleidsdomein: Archeologie
+    taakveld: Erfgoed
+    afwijkende_attributen:
+  - entiteit: Project
+    guid: EAID_E1FAE16A_42AE_4b7d_88FC_F429079D1C4D
+    beleidsdomein: Omgevingswet
+    taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Project**. Daarnaast is **Project** (beleidsdomein Archeologie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Project** (beleidsdomein Omgevingswet) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

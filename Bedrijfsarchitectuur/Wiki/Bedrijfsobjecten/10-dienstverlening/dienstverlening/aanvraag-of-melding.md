@@ -58,7 +58,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name: AanvraagOfMelding (Dienstverlening)
 
 ggm_duplicaat_entiteiten:
-  - "EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2"
+  - entiteit: AanvraagOfMelding
+    guid: EAID_66E2B5BA_44A0_4fde_AE33_E211EE4832C2
+    beleidsdomein: Leerplicht en Leerlingenvervoer
+    taakveld: "4 Onderwijs"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **AanvraagOfMelding**. Daarnaast is **AanvraagOfMelding** (beleidsdomein Leerplicht en Leerlingenvervoer) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

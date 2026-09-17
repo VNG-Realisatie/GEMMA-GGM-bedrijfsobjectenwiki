@@ -32,4 +32,4 @@ Dit is een strategisch raamwerk dat governance-principes formuleert, maar geen c
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/rubriek-bestuur]]
+- [[Sources/Onderwerpen/Bestuur/rubriek-bestuur]]

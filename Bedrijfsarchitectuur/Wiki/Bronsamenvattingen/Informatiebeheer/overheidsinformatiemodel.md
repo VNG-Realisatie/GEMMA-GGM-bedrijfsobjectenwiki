@@ -59,4 +59,4 @@ Metagegevens zijn ook onlosmakelijk verbonden met gegevensobject en digitaal bes
 
 ## Bronnen
 
-- [[Sources/informatiebeheer/overheidsinformatiemodel]]
+- [[Sources/Onderwerpen/informatiebeheer/overheidsinformatiemodel]]

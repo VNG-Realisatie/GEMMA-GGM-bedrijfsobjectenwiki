@@ -34,4 +34,4 @@ Deze bron beschrijft informatieresources en trainingsaanbod voor raadsleden, gee
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/vng-raadgevers]]
+- [[Sources/Onderwerpen/Bestuur/vng-raadgevers]]

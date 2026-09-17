@@ -94,5 +94,5 @@ Entiteit: Database | Matchsterkte: **exact** | Attributen: databaseInstantie, om
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]

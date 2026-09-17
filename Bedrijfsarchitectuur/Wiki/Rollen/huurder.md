@@ -39,4 +39,4 @@ Huurderschap is een hoedanigheid ten opzichte van een gehuurde zaak: de huurder 
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie]] — kandidaat gesignaleerd via /audit-actoren track 1

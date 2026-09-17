@@ -116,7 +116,7 @@ In het GGM erft Archiefstuk van zowel **Document** (abstract) als **Erfgoed Obje
 
 - [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen]]
 - [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
-- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
-- [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland|GR Regionaal Archief Rivierenland 2024]]
-- [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure|Besluit Informatiebeheer GR Cure 2021]]
-- [[Wiki/Bronsamenvattingen/erfgoed/beleidsplan-westfries-archief|Beleidsplan Westfries Archief 2024-2027]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
+- [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland]]
+- [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure]]
+- [[Wiki/Bronsamenvattingen/erfgoed/beleidsplan-westfries-archief]]

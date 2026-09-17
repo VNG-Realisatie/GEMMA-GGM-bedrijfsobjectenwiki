@@ -86,4 +86,4 @@ Entiteit: Hardware | Matchsterkte: **exact** | Attributen: *(geen in GGM)*
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]

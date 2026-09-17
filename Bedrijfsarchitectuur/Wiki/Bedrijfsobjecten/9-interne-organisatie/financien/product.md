@@ -26,8 +26,16 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name: "Product (Financien)"
 
 ggm_duplicaat_entiteiten:
-  - "EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A"
-  - "EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F"
+  - entiteit: Product
+    guid: EAID_FF566C6B_077B_4914_8AF7_40EB1EDD388A
+    beleidsdomein: Musea
+    taakveld: "5 Sport, Cultuur en Recreatie"
+    afwijkende_attributen:
+  - entiteit: Product
+    guid: EAID_D5DD2F67_6A1F_46b0_972E_795ECC4B2E4F
+    beleidsdomein: ICT
+    taakveld: "9 Interne Organisatie"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Product** als directe tegenhanger. Daarnaast is **Product** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Product** (beleidsdomein ICT) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

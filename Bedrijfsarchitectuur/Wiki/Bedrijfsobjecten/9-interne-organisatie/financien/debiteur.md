@@ -26,7 +26,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E"
+  - entiteit: Debiteur
+    guid: EAID_107E216A_17F2_DFCA_EAFE_263C7FFC912E
+    beleidsdomein: Terug- en invordering
+    taakveld: Inkomen
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Debiteur** als directe tegenhanger. Daarnaast is **Debiteur** (beleidsdomein Terug- en invordering) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

@@ -35,4 +35,4 @@ De Verkiezingsagenda 2030 adresseert digitalisering en efficiency, relevant voor
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Bestuur/verkiezingen-en-referenda]]
+- [[Sources/Onderwerpen/Bestuur/verkiezingen-en-referenda]]

@@ -13,7 +13,7 @@ ggm_duplicaat_entiteiten:
     guid: EAID_A629ED5F_E919_6316_A279_92891F2325BB
     beleidsdomein: Vroegsignalering
     taakveld: "6 Sociaal Domein"
-    afwijkende_attributen: ""
+    afwijkende_attributen:
 bo_definitie: "De hoedanigheid van aanspreekpunt namens een organisatie in het contact met de gemeente."
 bo_toelichting:
 element_tegenhangers:
@@ -49,4 +49,4 @@ De gegevens over deze rol worden vastgelegd als bedrijfsobject [[Wiki/Bedrijfsob
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/6-sociaal-domein|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/6-sociaal-domein]] — kandidaat gesignaleerd via /audit-actoren track 1

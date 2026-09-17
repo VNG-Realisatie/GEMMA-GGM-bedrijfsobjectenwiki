@@ -58,4 +58,4 @@ De milieuzone is juridisch gebaseerd op verkeersbesluiten (GGM: Verkeersbesluit 
 
 ## Bronnen
 
-- [[Sources/milieu/beleidsnota-luchtkwaliteit-2025]]
+- [[Sources/Onderwerpen/Milieu/beleidsnota-luchtkwaliteit-2025]]

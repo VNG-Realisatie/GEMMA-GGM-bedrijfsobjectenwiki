@@ -101,5 +101,5 @@ Entiteit: Software | Matchsterkte: **exact** | Attributen: *(geen in GGM)*
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]
+- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]

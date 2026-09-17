@@ -37,4 +37,4 @@ Dit is de bron die het dichtst bij concrete registratieobjecten komt. Gemeenten 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Cultuur/architectuur-en-erfgoed]]
+- [[Sources/Onderwerpen/Cultuur/architectuur-en-erfgoed]]

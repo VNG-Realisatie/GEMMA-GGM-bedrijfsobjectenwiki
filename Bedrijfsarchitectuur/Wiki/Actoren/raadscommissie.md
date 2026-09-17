@@ -37,4 +37,4 @@ Een groep raadsleden die zich buigt over specifieke thema's of beleidsonderwerpe
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning|Entiteitendekking-rapport]] — eerder "ter discussie" tussen Vergadering/Raadslid; opgelost met een eigen pagina
+- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — eerder "ter discussie" tussen Vergadering/Raadslid; opgelost met een eigen pagina

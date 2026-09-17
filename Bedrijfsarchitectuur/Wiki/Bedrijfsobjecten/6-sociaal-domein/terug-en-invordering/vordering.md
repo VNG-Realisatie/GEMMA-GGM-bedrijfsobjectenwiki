@@ -26,7 +26,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_341942C1_0F72_4e13_ADD1_235805BB81C0"
+  - entiteit: Vordering
+    guid: EAID_341942C1_0F72_4e13_ADD1_235805BB81C0
+    beleidsdomein: "1 Veiligheid en Vergunningen"
+    taakveld: "1 Veiligheid en Vergunningen"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vordering** als directe tegenhanger. Daarnaast is **Vordering** (beleidsdomein 1 Veiligheid en Vergunningen) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:

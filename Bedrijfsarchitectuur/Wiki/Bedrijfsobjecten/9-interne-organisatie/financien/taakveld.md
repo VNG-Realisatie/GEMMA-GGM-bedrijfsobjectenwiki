@@ -26,7 +26,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten:
-  - "EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18"
+  - entiteit: Taakveld
+    guid: EAID_01E83CEC_D69D_47eb_9BAB_252AABADDD18
+    beleidsdomein: Griffie
+    taakveld: "0 Bestuur, Politiek en Ondersteuning"
+    afwijkende_attributen:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Taakveld** als directe tegenhanger. Daarnaast is **Taakveld** (beleidsdomein Griffie) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.

@@ -47,4 +47,4 @@ Belangrijke thema's:
 De GIBIT 2025 is de rijkste bron voor het ICT-domein: het levert formele, gemeentebrede definities van begrippen die direct matchen met GGM ICT-entiteiten (Koppeling, Licentie, Software, Storing). De begripsbepalingen kunnen dienen als definitiebron voor BO-pagina's. De GIBIT-structuur (ICT Prestatie → onderdelen → onderhoud → exit) weerspiegelt de levenscyclus die BO-beoordeling vereist.
 
 ## Bronnen
-- [[Sources/informatiesystemen/gibit-2025-artikelen]]
+- [[Sources/Onderwerpen/informatiesystemen/gibit-2025-artikelen]]

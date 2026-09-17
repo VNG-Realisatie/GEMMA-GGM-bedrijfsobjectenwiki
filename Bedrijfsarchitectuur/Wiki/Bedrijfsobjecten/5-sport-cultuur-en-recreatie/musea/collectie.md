@@ -84,5 +84,5 @@ De Erfgoedwet (art. 2.8-2.11) regelt dat de Minister instellingen kan belasten m
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]]
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]

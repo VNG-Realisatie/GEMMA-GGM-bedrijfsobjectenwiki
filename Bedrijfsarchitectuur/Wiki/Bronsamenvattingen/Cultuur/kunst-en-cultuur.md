@@ -34,4 +34,4 @@ Dit is een strategisch overzicht zonder concrete registratieobjecten. Het schets
 
 ## Bronnen
 
-- [[Sources/Onderwerpen%20VNG/Cultuur/kunst-en-cultuur]]
+- [[Sources/Onderwerpen/Cultuur/kunst-en-cultuur]]

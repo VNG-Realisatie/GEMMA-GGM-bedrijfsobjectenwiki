@@ -96,8 +96,8 @@ Herkende specialisaties van Dataproduct. Gevonden in bronnen. Geen apart BO.
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]]
-- [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]]
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet]]
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie]]
 
 ## Terugmelding GGM
 

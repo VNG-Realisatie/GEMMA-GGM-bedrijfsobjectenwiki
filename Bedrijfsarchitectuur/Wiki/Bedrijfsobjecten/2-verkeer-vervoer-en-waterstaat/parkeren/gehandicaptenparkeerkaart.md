@@ -30,24 +30,24 @@ gemma_toelichting: "De GPK wordt uitgegeven als bestuurderskaart, passagierskaar
 bo_subtypes:
   - naam: "Bestuurderskaart"
     omschrijving: "GPK voor een bestuurder met loopbeperking"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: "Passagierskaart"
     omschrijving: "GPK voor een passagier die niet zelf rijdt"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: "Combinatiekaart"
     omschrijving: "GPK voor zowel bestuurder als passagier"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
   - naam: "Instellingskaart"
     omschrijving: "GPK voor een zorginstelling"
-    ggm_entiteit: ""
-    ggm_guid: ""
-    ggm_attribuut: ""
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Gehandicaptenparkeerplaats]]"

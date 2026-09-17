@@ -39,4 +39,4 @@ Initiatiefnemer is de hoedanigheid uit de Omgevingswet: de natuurlijke of niet-n
 
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing|Entiteitendekking-rapport]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing]] — kandidaat gesignaleerd via /audit-actoren track 1
