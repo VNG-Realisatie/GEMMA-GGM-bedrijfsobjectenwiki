@@ -1,5 +1,8 @@
 Controleer alle bestaande BO's op naamconflicten (duplicaten en homoniemen): $ARGUMENTS
 
+Input: `Wiki/Bedrijfsobjecten/`.
+Output: chat-rapportage met voorstellen (geen automatische fix).
+
 **Voer uit op model: Haiku** (deze skill is read-only analyse, geen reasoning nodig).
 
 ## Doel

@@ -1,5 +1,8 @@
 Crawl een webpagina en lever de inhoud op als markdown: $ARGUMENTS
 
+Input: URL(s).
+Output: chat; optioneel `Sources/`-bestand op verzoek (zie indelingsregels in CLAUDE.md).
+
 Gebruik de crawl4ai Python-library om de opgegeven URL(s) te crawlen en de inhoud als markdown terug te geven.
 
 ## Referentie

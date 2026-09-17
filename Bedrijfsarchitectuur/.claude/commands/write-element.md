@@ -1,6 +1,7 @@
 Leg vast als element (bedrijfsobject, actor of rol): $ARGUMENTS
 
 Input: elementnaam (reeds beoordeeld via `/assess-element`), of "onderwerp X" voor alle elementen in een onderwerp.
+Output: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/`, `Wiki/Actoren/` of `Wiki/Rollen/`.
 
 Verwacht een begrip dat al is beoordeeld. Doet zelf géén criteria-toetsing of domeinbepaling.
 
@@ -195,7 +196,7 @@ Body-secties volgens template:
 
 ## Stap 9: Terugmeldingen
 
-Bij afwijkingen of hiaten: voeg een regel toe aan `Wiki/Analyses/ggm-terugmeldingen.md`.
+Bij afwijkingen of hiaten: voeg een regel toe aan `Wiki/Analyses/ggm-terugmeldingen.md` conform `templates/ggm-terugmelding.md`.
 Typen: hiaat | definitie | structuur | scope. Status: open.
 
 Bij geen match en data-object=ja: signaleer als potentieel GGM-hiaat (conform `/assess-element` stap 10).

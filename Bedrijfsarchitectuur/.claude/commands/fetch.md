@@ -4,6 +4,9 @@ model: haiku
 
 Haal de volgende URL op en sla op als bronbestand: $ARGUMENTS
 
+Input: URL.
+Output: `Sources/{onderwerp}/*.md`.
+
 Stappen:
 1. **Fetch de pagina met `curl`** — gebruik NOOIT WebFetch. Bronbestanden moeten een exacte kopie van de originele tekst zijn, geen samenvatting.
    ```bash

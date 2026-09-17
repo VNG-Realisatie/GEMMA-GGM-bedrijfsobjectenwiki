@@ -1,5 +1,8 @@
 Verwerk de clipping: $ARGUMENTS
 
+Input: `Clippings/*.md`.
+Output: `Sources/{onderwerp}/*.md`.
+
 Stappen:
 1. Lees het bestand in `Clippings/`. Als $ARGUMENTS leeg is, toon de bestanden in `Clippings/` en vraag welke.
 2. Als het bestand een pdf is, zet deze om naar markdown met **convert_pdf**.

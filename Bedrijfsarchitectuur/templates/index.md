@@ -1,6 +1,4 @@
-# Templates: index.md en log.md
-
-## index.md
+# Template: Wiki Index
 
 Locatie: `Wiki/index.md`
 
@@ -21,18 +19,4 @@ Locatie: `Wiki/index.md`
 
 ## Analyses
 - ...
-```
-
-## log.md
-
-Locatie: `Wiki/log.md`
-
-```markdown
-# Wiki Log
-
-## [2026-06-17] ingest | Belastingtypen
-- Bron: Sources/Belastingen/Belastingtypen.md
-- Bronsamenvatting: Bronsamenvattingen/Belastingen/belastingtypen.md
-- Domeinoverzicht bijgewerkt: 4 begrippen toegevoegd
-- BO's aangemaakt: —
 ```

@@ -1,6 +1,7 @@
 Toets BO-criteria voor: $ARGUMENTS
 
 Input: begripsnaam uit onderwerpoverzicht, GGM-entiteit, of "onderwerp X" voor alle onbeoordeelde begrippen.
+Output: beoordeling (classificatie, criteria, hiaat) — geen eigen bestand, invoer voor `/write-element`.
 
 ## FASE A — CLASSIFICATIE
 

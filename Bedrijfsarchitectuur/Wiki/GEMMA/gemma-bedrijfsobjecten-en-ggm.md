@@ -86,7 +86,7 @@ De ZTC-visie evolueert van productspecifieke zaaktypen (honderden) naar generiek
 
 ## Relevantie voor de wiki
 
-Deze bronnen zijn de basis voor de analyse [[Wiki/Analyses/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]]. Drie kernbevindingen:
+Deze bronnen zijn de basis voor de analyse [[Wiki/Vragen/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]]. Drie kernbevindingen:
 
 **1. Bedrijfsobjecten = GGM-afgeleid.** Omdat GEMMA bedrijfsobjecten afleidt uit het GGM, en het GGM bottom-up is opgebouwd uit bestaande databases, bevat het bedrijfsobjectenmodel alleen data-objecten. Objecten die in processen en governance-instrumenten ontstaan (belastingaanslag, financiële verordening, kadernota) zijn niet als bedrijfsobject beschikbaar, terwijl de procesarchitectuur er wel mee werkt.
 

@@ -1,5 +1,8 @@
 Voer een consistentiecheck uit op de wiki. Scope: $ARGUMENTS (leeg = hele wiki, anders = opgegeven onderwerp).
 
+Input: hele wiki of opgegeven onderwerp.
+Output: chat-rapportage; fixes via `python3 tools/migrate_frontmatter_style.py` op aanwijzing.
+
 **Voer uit op model: Haiku** (deze skill is read-only analyse, geen reasoning nodig).
 
 ### Bronnen & herleidbaarheid

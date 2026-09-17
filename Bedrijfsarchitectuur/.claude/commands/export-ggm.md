@@ -1,5 +1,8 @@
 Genereer GGM-GEMMA export CSV's.
 
+Input: `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/`.
+Output: `exports/*.csv` (5 bestanden, via `tools/export_ggm_csv.py`).
+
 Stappen:
 1. Zorg dat het geparsede XMI beschikbaar is:
    ```

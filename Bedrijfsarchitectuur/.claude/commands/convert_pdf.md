@@ -1,5 +1,8 @@
 Converteer PDF naar Markdown: $ARGUMENTS
 
+Input: PDF-bestand.
+Output: markdown-bestand naast het origineel (via `tools/convert_pdf.py`).
+
 Stappen:
 1. Als $ARGUMENTS leeg is, zoek PDF-bestanden in de huidige directory en `Clippings/` en vraag welke.
 2. Converteer met: python tools/convert_pdf.py {bestand.pdf}

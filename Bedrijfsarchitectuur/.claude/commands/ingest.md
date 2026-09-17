@@ -1,6 +1,7 @@
 Verwerk de bron: $ARGUMENTS
 
 Input: pad naar bronbestand, onderwerp (voor alle onverwerkte bronnen in dat onderwerp), of URL.
+Output: `Wiki/Bronsamenvattingen/`, `Wiki/Onderwerpoverzichten/`, `Wiki/index.md`, `Wiki/log.md`. Delegeert alleen BO-beoordeling en -aanmaak naar `/assess-element` en `/write-element`.
 
 Orchestrator die de andere skills in volgorde aanroept. Bevat zelf geen beoordelingslogica.
 

@@ -558,18 +558,18 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/dataleverancier|dataleverancier]] — Uitvoerende rol binnen het bronhouderschap: vaak een extern bureau, maar aangestuurd door en namens de geme...
 - [[Wiki/Rollen/pachter|pachter]] — Gebruiksrecht op landbouwgrond op basis van een pachtovereenkomst (GGM exact)
 
-## GGM (referentie — zie Sources/GGM/)
+## GGM (referentie — zie Wiki/GGM/)
 
-De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM/`:
-- `Sources/GGM/structuur-ggm.md` — Overzicht taakvelden (IV3) en beleidsdomeinen met definities
-- `Sources/GGM/financien.md` — Beleidsdomein (taakveld 9): 24 entiteiten
-- `Sources/GGM/terug-en-invordering.md` — Beleidsdomein (taakveld 6 → Inkomen): 29 entiteiten
-- `Sources/GGM/sport-cultuur-en-recreatie.md` — Taakveld 5: 83 entiteiten
-- `Sources/GGM/schulden.md` — Beleidsdomein (taakveld 6): 33 entiteiten
-- `Sources/GGM/economie.md` — Beleidsdomein (taakveld 3): 6 entiteiten
-- `Sources/GGM/4-onderwijs/onderwijs.md` — Beleidsdomein Onderwijs (taakveld 4): 12 entiteiten
-- `Sources/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer.md` — Beleidsdomein Leerplicht en Leerlingenvervoer (taakveld 4): 15 entiteiten
-- `Sources/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein (taakveld 6): 35 entiteiten
+De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CLAUDE.md §3). Ze staan in `Wiki/GGM/{taakveld}/`, één bestand per beleidsdomein:
+- `Wiki/GGM/structuur-ggm.md` — Overzicht taakvelden (IV3) en beleidsdomeinen met definities
+- `Wiki/GGM/9-interne-organisatie/financien.md` — Beleidsdomein Financiën (taakveld 9)
+- `Wiki/GGM/6-sociaal-domein/terug-en-invordering.md` — Beleidsdomein Terug- en invordering (taakveld 6)
+- `Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md` — Beleidsdomein Sport (taakveld 5)
+- `Wiki/GGM/6-sociaal-domein/schulden.md` — Beleidsdomein Schulden (taakveld 6)
+- `Wiki/GGM/3-economie/3-economie.md` — Taakveld 3 Economie
+- `Wiki/GGM/4-onderwijs/onderwijs.md` — Beleidsdomein Onderwijs (taakveld 4)
+- `Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer.md` — Beleidsdomein Leerplicht en Leerlingenvervoer (taakveld 4)
+- `Wiki/GGM/6-sociaal-domein/inburgering.md` — Beleidsdomein Inburgering (taakveld 6)
 
 ## Bronsamenvattingen
 
@@ -822,11 +822,6 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 
 ## Analyses
 
-- [[Wiki/Analyses/ggm-dekking|ggm-dekking]] — Centrale dekkingstabel per GGM-beleidsdomein: welke beleidsdomeinen hebben bronnen, welke niet
-- [[Wiki/Analyses/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]] — Van data-inventarisatie naar bedrijfsarchitectuur: GGM in de GEMMA-context
-- [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] — Structureel patroon: GGM dekt data-objecten, niet processen of governance
-- [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]] — Hiaten in het GGM: belastingendomein ontbreekt als conceptueel model
-- [[Wiki/Analyses/vng-rubrieken-mapping|vng-rubrieken-mapping]] — Mapping van 26 VNG-rubrieken op GGM-taakvelden en beleidsdomeinen
 - [[Wiki/Analyses/entiteitendekking/totaaloverzicht|entiteitendekking — totaaloverzicht]] — Samenvattende tabel alle 12 taakvelden: 916 GGM-entiteiten, 206 met BO, 583 ondersteunend, 127 niet gedekt (14%), 104 BO's zonder GGM-entiteit (310 BO's totaal)
 - [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning|entiteitendekking 0 Bestuur, Politiek en Ondersteuning]] — 13 entiteiten, 3 BO-matches, 5 hiaten; smal Griffie-domein, hiaten (Verkiezing, Referendum, Stembureau e.a.) zijn bewuste scopekeuze, geen gemis
 - [[Wiki/Analyses/entiteitendekking/1-veiligheid-en-vergunningen|entiteitendekking 1 Veiligheid en Vergunningen]] — 30 entiteiten, 7 BO-matches, 5 hiaten; aanvraag/melding-patroon met abstract-hiërarchie (VOMAanvraagOfMelding, VTH-Melding), financieel cluster rond Vordering
@@ -840,3 +835,7 @@ De GGM-pagina's zijn bronmateriaal, geen wiki-pagina's. Ze staan in `Sources/GGM
 - [[Wiki/Analyses/entiteitendekking/9-interne-organisatie|entiteitendekking 9 Interne Organisatie]] — 148 entiteiten, 44 BO-matches, 9 hiaten; ICT (10 BO's, meta-model en CMDB-hiërarchie), Subsidies opvallend zonder BO ondanks schijndekking — kandidaat voor /assess-bo Subsidie
 - [[Wiki/Analyses/entiteitendekking/10-dienstverlening|entiteitendekking 10 Dienstverlening]] — 16 entiteiten, 3 BO-matches, 10 hiaten; onderscheid tussen één echt hiaat (Informatieobject) en negen governance/AVG-processen buiten GGM-scope
 - [[Wiki/Analyses/entiteitendekking/99-kern|entiteitendekking 99 Kern]] — 155 entiteiten, 34 BO-matches, 6 hiaten; Ligplaats/OpenbareRuimte/Woonplaats in RSGBPlus zijn modelduplicaten van de BAG-BO's, geen gemiste kandidaten; BRP-persoonscluster grootste hiaat
+
+## Vragen
+
+- [[Wiki/Vragen/ggm-oorsprong-en-meerwaarde|ggm-oorsprong-en-meerwaarde]] — Van data-inventarisatie naar bedrijfsarchitectuur: GGM in de GEMMA-context

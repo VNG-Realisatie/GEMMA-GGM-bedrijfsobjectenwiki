@@ -1,5 +1,8 @@
 Genereer of ververs de entiteitendekking-rapportage: $ARGUMENTS
 
+Input: `Wiki/GGM/` + `Wiki/Bedrijfsobjecten/` (frontmatter).
+Output: `Wiki/Analyses/entiteitendekking/` + teruggeschreven `analyse_ggm_dekking` in BO-frontmatter.
+
 Doel: uniforme analyse van GGM-entiteiten per taakveld/beleidsdomein. Toont per beleidsdomein welke entiteiten BO zijn, welke niet (met entiteitstype en relatie tot BO), en welke BO's geen GGM-grondslag hebben (hiaten). Vervangt ggm-vergelijking, ggm-dekking en bo-dekking in één rapport.
 
 ## Werkwijze

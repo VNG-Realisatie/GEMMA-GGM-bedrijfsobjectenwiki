@@ -1,5 +1,8 @@
 Genereer Wiki/GGM vanuit GGM XMI-release: $ARGUMENTS
 
+Input: XMI-bestand in `Sources/GGM-repository/`.
+Output: `Sources/GGM-repository/ggm_parsed.json` + `Wiki/GGM/**` (via `parse_ggm_xmi.py`, `generate_ggm_wiki.py`, `generate_ggm_enrich_bo.py`).
+
 Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown-bestanden.
 Bron van waarheid is het XMI-bestand in `Sources/GGM-repository/`.
 

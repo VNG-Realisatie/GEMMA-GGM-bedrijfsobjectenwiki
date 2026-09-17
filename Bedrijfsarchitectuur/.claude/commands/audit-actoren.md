@@ -1,5 +1,8 @@
 Spoor ontbrekende actor- en rol-pagina's op in bestaande content: $ARGUMENTS
 
+Input: `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/`.
+Output: werkvoorraadlijst (chat) — vervolg via `/assess-element` en `/write-element`.
+
 Retrofit-sweep, analoog aan `/audit-definities` en `/audit-duplicaten`: eenmalig (herhaalbaar), los van de doorlopende `/ingest`-flow. Deze skill **vindt alleen de werkvoorraad** — de beoordeling gebeurt via `/assess-element` (Stap 2b, actor/rol-toets) en het schrijven via `/write-element` (Stap 11). Definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
 
 Scope-argument (optioneel): een onderwerp of taakveld om de sweep te beperken; leeg = alles.

@@ -1,6 +1,7 @@
 Geef een voortgangsoverzicht voor onderwerp: $ARGUMENTS
 
-Rapporteer in chat (maak geen pagina aan):
+Input: `Wiki/` voor het opgegeven onderwerp.
+Output: chat — rapporteer, maak geen pagina aan:
 
 1. **Bronnen**: aantal verwerkt (met bronsamenvatting) / beschikbaar in `Sources/`
 2. **Begrippen**: aantal in de onderwerpoverzichttabel, verdeling per type
