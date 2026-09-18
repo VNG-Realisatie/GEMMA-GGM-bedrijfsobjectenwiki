@@ -253,7 +253,11 @@ def check_bo_relaties(files):
 
 
 def check_subtypes(files):
-    fm_no_body, body_no_fm, mismatch, missing_ggm_link = [], [], [], []
+    # bo_subtypes is gedeprecieerd (zie templates/element.md): subtypes staan
+    # sinds die update alleen nog in de ## Subtypes-body-sectie. Een gevulde
+    # sectie zonder frontmatter-tegenhanger is dus het verwachte, correcte
+    # patroon voor elke BO geschreven na de deprecatie — geen bevinding.
+    fm_no_body, mismatch, missing_ggm_link = [], [], []
     for f in files:
         fm, _, body = parse_frontmatter(f)
         if fm is None:
@@ -269,15 +273,13 @@ def check_subtypes(files):
                     missing_ggm_link.append((rel(f), naam))
         if subtypes and section is None:
             fm_no_body.append(rel(f))
-        elif not subtypes and section is not None:
-            body_no_fm.append(rel(f))
         elif subtypes and section is not None:
             body_names = set(re.findall(r'\*\*([^*]+)\*\*', section))
             missing_in_body = fm_names - body_names
             missing_in_fm = body_names - fm_names
             if missing_in_body or missing_in_fm:
                 mismatch.append((rel(f), sorted(missing_in_body), sorted(missing_in_fm)))
-    return fm_no_body, body_no_fm, mismatch, missing_ggm_link
+    return fm_no_body, mismatch, missing_ggm_link
 
 
 def check_duplicaten(files):
@@ -747,9 +749,8 @@ def main():
     report['bo_relaties item mist type/richting/kardinaliteit'] = [f'{f}[{i}]: mist {m}' for f, i, m in incomplete_rel]
     report['bo_relaties.bedrijfsobject geen wiki-link / parse-bug'] = [f'{f}[{i}]: {m}' for f, i, m in unlinked_rel]
 
-    fm_no_body, body_no_fm, subtype_mismatch, subtype_ggm_missing = check_subtypes(files)
+    fm_no_body, subtype_mismatch, subtype_ggm_missing = check_subtypes(files)
     report['bo_subtypes gevuld zonder ## Subtypes sectie'] = fm_no_body
-    report['## Subtypes sectie zonder bo_subtypes in frontmatter'] = body_no_fm
     report['bo_subtypes frontmatter/body mismatch'] = [f'{f}: alleen-fm={a} alleen-body={b}' for f, a, b in subtype_mismatch]
     report['Subtype met ggm_entiteit maar zonder ggm_guid/ggm_attribuut'] = [f'{f}: {n}' for f, n in subtype_ggm_missing]
 

@@ -1,3 +1,9 @@
+## [2026-09-18] fix | Verouderde `bo_subtypes`-lintcheck verwijderd (37 valse positieven)
+
+- **Aanleiding:** laatste openstaand punt — `tools/lint_checks.py`'s `check_subtypes()` was nooit bijgewerkt na de deprecatie van het `bo_subtypes`-veld (subtypes staan sinds die wijziging alleen nog in de `## Subtypes`-body-sectie, zie `templates/element.md`). De check ging nog uit van het oude tweevoudige patroon en vlagde elke pagina met een gevulde sectie maar lege frontmatter als "mismatch" — precies het nu-correcte patroon voor elke sinds de deprecatie geschreven BO (waaronder `Inkomensvoorziening` en de vandaag aangemaakte `Vermogenscomponent`/`Maatregel`).
+- **Fix:** de `elif not subtypes and section is not None`-tak (en de bijbehorende `body_no_fm`-return-waarde en rapportregel) uit `check_subtypes()` verwijderd. De twee overige, nog wel geldige checks (`bo_subtypes` gevuld zonder body-sectie; frontmatter/body-namen die niet overeenkomen wanneer beide gevuld zijn) blijven intact.
+- **Verificatie:** lint-totaal 267 → 230 (exact de verwachte 37 minder), Python-syntaxcheck OK, het ene overblijvende (legitieme, niet aan vandaag gerelateerde) resultaat in die categorie (`vergunningen-en-ontheffingen.md`, frontmatter gevuld zónder body-sectie — het omgekeerde, nog wel een echte bevinding) blijft correct staan.
+
 ## [2026-09-18] analyse | Entiteitendekking ververst na Participatiewet-ingest (laatste openstaande punt)
 
 - **Aanleiding:** laatste van de 4 openstaande punten uit de Participatiewet-ingest — de nieuwe BO's (Normafwijking, Maatregel, Boete, Vermogenscomponent) hadden een lege `analyse_ggm_dekking`, en `Werkzoekende` noemde Ontheffing nog als indirect gedekt "detail" terwijl dat inmiddels een eigen BO is.
