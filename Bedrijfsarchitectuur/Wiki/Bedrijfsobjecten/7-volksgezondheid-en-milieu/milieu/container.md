@@ -28,8 +28,8 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Container** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Containertype** (classificatie) — Typering/referentietabel
   - **Ophaalmoment** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Rit** (detail) — Detailgegeven (weinig attributen)
-  - **Vuilniswagen** (detail) — Detailgegeven (weinig attributen)
+  - **Rit** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Vuilniswagen** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Vulgraadmeting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Container voor het gescheiden inzamelen van huishoudelijke afvalstoffen dwz afvalstoffen afkomstig uit particuliere huishoudens behoudens voor zover het ingezamelde bestanddelen van die afvalstoffen betreft die zijn aangewezen als gevaarlijke afvalstoffen"
 bo_toelichting:

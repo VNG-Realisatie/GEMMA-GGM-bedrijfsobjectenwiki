@@ -30,7 +30,8 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Leiding** als directe tegenhanger. De gemeentelijke praktijkscope is beperkt tot de specialisatie Rioolleiding.
+  Dit BO heeft de GGM-entiteit **Leiding** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Leidingelement** (detail) — Detailgegeven
 bo_definitie: "Een geheel van geleiders voorzien van één ommanteling, bestemd voor transport van materie."
 bo_toelichting: "GGM Leiding omvat alle typen leidingen (riool, gas, water, elektriciteit). Gas-, water- en elektriciteitsleidingen liggen in de praktijk bij nutsbedrijven, niet bij de gemeente. De gemeentelijke bronnen beschrijven uitsluitend rioolleidingen — zie specialisatie [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/rioolleiding|Rioolleiding]]."
 bo_relaties:

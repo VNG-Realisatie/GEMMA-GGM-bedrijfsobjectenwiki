@@ -17,6 +17,10 @@ ggm_duplicaat_entiteiten:
     beleidsdomein: Vroegsignalering
     taakveld: "6 Sociaal Domein"
     afwijkende_attributen:
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Contactpersoon** als directe tegenhanger. Daarnaast is **Contactpersoon** (beleidsdomein Vroegsignalering) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **AanleverendeOrganisatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **ContactpersoonRol** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Contactpersoon van een organisatie."
 bo_toelichting:
 element_tegenhangers:

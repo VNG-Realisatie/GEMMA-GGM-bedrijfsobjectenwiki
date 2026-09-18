@@ -31,7 +31,7 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Functie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Functiehuis** (detail) — Detailgegeven (weinig attributen)
+  - **Functiehuis** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **NormProfiel** (detail) — Detailgegeven (geassocieerd met BO)
 bo_homoniemen:
   - ggm_entiteit: "Functie"

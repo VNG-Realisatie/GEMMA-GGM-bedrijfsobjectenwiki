@@ -8,6 +8,8 @@ ggm_entiteit: Signaalpartner
 ggm_guid: EAID_3643CF44_EFAA_4939_9AEB_ACA8D8EE11F9
 ggm_beleidsdomein: Vroegsignalering
 ggm_taakveld: "Schulden"
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Signaalpartner** als directe tegenhanger.
 bo_definitie: "Organisatie die op grond van artikel 2.2.1 Wgs bevoegd is signalen van betalingsachterstanden door te geven aan de gemeente."
 bo_toelichting:
 element_tegenhangers:

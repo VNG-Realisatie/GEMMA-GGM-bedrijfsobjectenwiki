@@ -31,7 +31,6 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Werkbon** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanbesteding Vastgoed** (detail) — Detailgegeven (geassocieerd met BO)
   - **Bouwdeelelement** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Opdracht voor uitvoering van een onderhoudstaak aan een vastgoedobject, met omschrijving van het werk, de locatie en de uitvoerder."
 bo_toelichting:

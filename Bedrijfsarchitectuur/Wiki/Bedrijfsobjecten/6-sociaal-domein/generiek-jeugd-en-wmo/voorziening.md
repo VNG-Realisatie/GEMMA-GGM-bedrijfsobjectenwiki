@@ -36,8 +36,13 @@ ggm_duplicaat_entiteiten:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Voorziening** als directe tegenhanger. Daarnaast is **Voorziening** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Activiteit** (detail) — Detailgegeven
+  - **Beschikte Voorziening** (detail) — Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO
+  - **Fietsparkeervoorziening** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Leveringsvorm** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Reservering** (detail) — Detailgegeven (geassocieerd met BO)
   - **Tarief** (detail) — Attribuut van Heffinggrondslag
-  - **Voorliggende voorziening** (detail) — Detailgegeven (weinig attributen)
+  - **Voorliggende voorziening** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Voorzieningsoort** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Middel waarmee de gemeente ondersteuning levert aan een cliënt onder de Wmo of Jeugdwet, variërend van hulpmiddelen tot intensieve jeugdhulp."
 bo_toelichting:

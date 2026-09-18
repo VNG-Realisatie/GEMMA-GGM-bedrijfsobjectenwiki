@@ -9,6 +9,8 @@ ggm_guid: EAID_59CF7225_3D61_42e2_A399_7EB13450D97D
 ggm_beleidsdomein: Erfgoed
 ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Uitgever** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van degene die iets op de markt brengt of uitgeeft."
 bo_toelichting:
 element_tegenhangers: []

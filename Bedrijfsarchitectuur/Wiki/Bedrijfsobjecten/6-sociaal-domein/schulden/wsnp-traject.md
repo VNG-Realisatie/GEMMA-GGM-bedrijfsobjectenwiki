@@ -15,11 +15,7 @@ ggm_definitie: "Een WSNP-traject (Wet schuldsanering natuurlijke personen) is ee
 ggm_herkomst: GGM
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **WSNP-traject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Inkomen** (detail) — Detailgegeven
-  - **Leefsituatie** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Partner** (detail) — Detailgegeven (weinig attributen)
-  - **Woningbezit** (detail) — Detailgegeven (weinig attributen)
+  Dit BO heeft de GGM-entiteit **WSNP-traject** als directe tegenhanger.
 bo_definitie: "Een WSNP-traject (Wet schuldsanering natuurlijke personen) is een wettelijk regeling in Nederland waarmee individuen met problematische schulden via een saneringsplan onder toezicht van een bewindvoerder hun schulden kunnen aflossen en na drie jaar een schone lei kunnen krijgen."
 bo_toelichting:
 bo_subtypes: []

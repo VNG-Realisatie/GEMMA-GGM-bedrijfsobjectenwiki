@@ -1,6 +1,6 @@
-# Entiteitendekking review — 2026-07-09
+# Entiteitendekking review — 2026-09-18
 
-Totaal review-items: 286.
+Totaal review-items: 281.
 
 ## Samenvatting
 
@@ -12,7 +12,7 @@ Totaal review-items: 286.
 | 3 Economie | 6 | 1 | 2 |
 | 4 Onderwijs | 27 | 13 | 1 |
 | 5 Sport, Cultuur en Recreatie | 81 | 18 | 26 |
-| 6 Sociaal Domein | 285 | 56 | 119 |
+| 6 Sociaal Domein | 285 | 61 | 114 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 3 |
 | 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 31 | 62 |
 | 9 Interne Organisatie | 148 | 52 | 31 |
@@ -104,7 +104,6 @@ Totaal review-items: 286.
 - **Andere reden verzoek** → detail (2 attrs). *Andere reden verzoek* is een categorie voor een **overige reden** waarom een aanvraag wordt gedaan die niet onder de st
 - **Betaalcomponent** → onderdeel (2 attrs). Een rechtmaand kan door de tijd heen door correcties meerdere betaalcomponenten krijgen. Met de betaalcomponent leg je v
 - **Betalingsblokkade** → detail (4 attrs). Als de dienst een uitkering betreft, die periodiek wordt uitgekeerd, kan om redenen de betaling worden geblokkeerd. De b
-- **Boete** → detail (4 attrs). Een boete is de uitkomst van een onderzoek naar rechtmatigheid. Dit leidt in principe tot een terug te vorderen bedrag. 
 - **Boetevordering** → detail (0 attrs). Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag terug moet betalen aan de gemeente. Vorderin
 - **Component** → detail (12 attrs). Een *inkomenscomponent* is een afzonderlijk onderdeel of bron van inkomen, zoals loon, winst uit onderneming, uitkeringe
 - **Diensttype** → detail (8 attrs). Het resultaat of effect van een afgeronde inspanning die een overheidsorgaan op basis van wettelijke taken levert en waa
@@ -125,7 +124,6 @@ Totaal review-items: 286.
 - **Leveringsopdracht** → detail (1 attrs). Een informatieobject dat wordt uitgewisseld tussen twee bedrijfsfuncties, waarvan de één de inhoudelijke afhandeling hee
 - **Leveringsspecificatie** → detail (3 attrs). De specificatie van de te leveren dienst.Nadat het recht is bepaald, wordt de levering gespecificeerd. Bij een financiee
 - **Loonbeslagafspraak** → detail (0 attrs). Een loonbeslagafspraak is een aflossingsafspraak.Tevens is het een afspraak tussen twee partijen (organisaties) om voor 
-- **Maatregel** → detail (5 attrs). Een *maatregel* is een besluit of handeling waarmee een bestuursorgaan of rechter ingrijpt om een doel te bereiken, een 
 - **Maatregel op uitkering** → detail (3 attrs). Een *maatregel op uitkering* is een sanctie van een uitvoerend orgaan (zoals een gemeente) waarbij de hoogte van een uit
 - **Opname instelling** → detail (2 attrs). *Opname instelling* is een reden van aanvraag binnen de GBI-Ontologie die aangeeft dat een persoon een inkomensdienst aa
 - **Overleden partner** → detail (3 attrs). *Overleden partner* is een subtype van **Reden aanvraag** binnen het GBI-Ontologiemodel dat aangeeft dat een persoon een
@@ -201,15 +199,12 @@ Totaal review-items: 286.
 - **Vergoeding in natura** → detail (0 attrs). Een persoon kan inkomsten hebben uit vergoeding in natura.
 - **Verlaging door boete** → detail (0 attrs). Een persoon kan vermindering van inkomsten hebben door boete.
 - **Verlaging door maatregel** → detail (0 attrs). Een persoon kan vermindering van inkomsten hebben door maatregel.
-- **Vermogenscomponent** → detail (5 attrs). Een *vermogenscomponent* is een **onderdeel van het totale vermogen** van een persoon of huishouden, dat afzonderlijk wo
 - **Vrijlating inkomsten** → detail (6 attrs). Wanneer u aan het werk gaat dan mag u van het loon dat u krijgt 25 procent houden, met een maximum van € 224,-.(bedrag p
-- **Waardepeiling** → detail (8 attrs). *Waardepeiling* is een **bepaling of schatting van de waarde van een object, goed of situatie**, verkregen door middel v
 
 ### 6 Sociaal Domein — Werk
 
 - **Arbeidsperiode** → detail (8 attrs). <font color="#0e0e0e">Een aaneengesloten periode waarin een persoon arbeid heeft verricht, met begin- en einddatum.</fon
 - **BeschikbaarVoorArbeid** → detail (10 attrs). <font color="#0e0e0e">Een indicatie of iemand op dit moment inzetbaar is voor arbeid, los van begeleiding of ondersteuni
-- **Ontheffing** → detail (15 attrs). <font color="#0e0e0e">Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of teg
 - **Opleiding** → detail (16 attrs). <font color="#0e0e0e">Een formeel of informeel leertraject dat een persoon heeft gevolgd met als doel het verwerven van 
 - **Vaardigheidsvaststelling** → detail (2 attrs). <font color="#0e0e0e">Het proces waarin specifieke vaardigheden van een persoon worden beoordeeld of gemeten, vaak ter o
 - **Voorkeur** → detail (10 attrs). <font color="#0e0e0e"><b>Voorkeur</b></font><font color="#0e0e0e"> is een door de klant geuite wens of voorkeur met betr

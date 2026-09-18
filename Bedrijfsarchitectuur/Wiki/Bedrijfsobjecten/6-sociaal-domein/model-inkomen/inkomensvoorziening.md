@@ -36,9 +36,9 @@ analyse_ggm_dekking: |
   - **RedenBlokkering** (classificatie) — Typering/referentietabel
   - **RedenInstroom** (classificatie) — Typering/referentietabel
   - **RedenUitstroom** (classificatie) — Typering/referentietabel
-  - **UitkeringsRun** (detail) — Detailgegeven (weinig attributen)
+  - **UitkeringsRun** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Een aan een inwoner toegekende financiële regeling die voorziet in inkomen of noodzakelijke kosten, zowel structureel (bijstandsuitkering, individuele inkomenstoeslag) als tijdelijk (energietoeslag, TONK)."
-bo_toelichting:
+bo_toelichting: "Verstrekkingsvorm (GGM-attribuut) is een aparte dimensie naast het type regeling: om niet (hoofdregel, art. 48 lid 1 Pw), geldlening/borgtocht (uitzondering, art. 48-51 Pw) of in natura/rechtstreekse betaling namens de belanghebbende (art. 57 Pw). Zie sectie Verstrekkingsvorm."
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Client]]"
@@ -74,6 +74,14 @@ De gemeente beoordeelt het recht op basis van draagkracht, voorliggende voorzien
 Het Rijk legt regelmatig tijdelijke inkomensregelingen bij gemeenten neer (TONK voor covid, energietoeslag voor energiecrisis). Deze worden via dezelfde administratieve processen afgehandeld en onder bestaande clusters geboekt, maar hebben doorgaans afwijkende voorwaarden (bijv. geen vermogenstoets bij energietoeslag).
 
 In 2021 bedroegen de landelijke uitgaven aan bijzondere bijstand €615 miljoen, een stijging van 57% ten opzichte van 2010. De grootste kostenpost is beschermingsbewind (~1/3 van de uitgaven).
+
+## Verstrekkingsvorm
+
+Naast *welke* regeling wordt toegekend (zie Subtypes hieronder) regelt de Participatiewet ook *hoe* deze wordt uitgekeerd — vastgelegd in het GGM-attribuut `verstrekkingsvorm`. Dit is een classificatie van dezelfde Inkomensvoorziening, geen zelfstandig object: het heeft geen eigen identificatie of levenscyclus los van de onderliggende voorziening, dus geen aparte BO.
+
+- **Om niet** (gift) — de hoofdregel (art. 48 lid 1 Pw).
+- **Geldlening of borgtocht** — uitzondering, alleen bij: vooruitzicht op eigen middelen op korte termijn, tekortschietend besef van verantwoordelijkheid, een waarborgsom, of aflossing van een schuldenlast (art. 48 lid 2 Pw); een saneringskrediet-borgtocht via een gemeentelijke kredietbank (art. 49 Pw); vermogen gebonden in de eigen woning boven de vrijlatingsgrens van art. 34 lid 2 onderdeel d (art. 50 Pw); of noodzakelijke duurzame gebruiksgoederen (art. 51 Pw).
+- **In natura, of rechtstreekse betaling namens de belanghebbende** — wanneer gegronde redenen bestaan om aan te nemen dat de belanghebbende zonder hulp niet tot een verantwoorde besteding in staat is (art. 57 Pw). Een vergelijkbaar, specifieker mechanisme voor inburgeringsplichtige asielstatushouders in de eerste zes maanden ("ontzorgen", art. 56a Pw) is eerder beoordeeld en niet als aparte BO opgevoerd, om dezelfde reden: geen eigen levenscyclus los van de onderliggende voorziening.
 
 ## Subtypes
 
@@ -127,7 +135,7 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand]]
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]
-- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 19-39: normen, kostendelersnorm, bijzondere bijstand)
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 19-39: normen, kostendelersnorm, bijzondere bijstand; art. 48-51, 57: verstrekkingsvorm)
 
 ## Terugmelding GGM
 

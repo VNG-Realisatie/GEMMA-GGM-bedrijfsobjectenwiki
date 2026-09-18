@@ -43,6 +43,7 @@ De **Participatiewet** (2015) is de centrale bijstandswet: zij regelt het recht 
 **Beoordeeld en afgewezen:**
 - **Ontzorgen** (art. 56a) — verplichting tot rechtstreekse betaling van vaste lasten voor een smalle doelgroep (inburgeringsplichtige statushouders, eerste 6 maanden). Geen eigen levenscyclus of data los van de onderliggende bijstandsverlening — geen BO, wel vermeld als kenmerk bij Inkomensvoorziening.
 - **Bijstandsnorm/Kostendelersnorm** (art. 19a-22a) — berekende bedragen/rekenregels, geen zelfstandig object met eigen bestaan; onderdeel van Inkomensvoorziening.
+- **Geldlening/borgtocht als bijstandsvorm** (art. 48-51) en **bijstand in natura/rechtstreekse betaling** (art. 57) — beide zijn waarden van het al bestaande GGM-attribuut `verstrekkingsvorm` op Inkomensvoorziening, geen zelfstandig object. Vastgelegd als nieuwe sectie "Verstrekkingsvorm" op die BO-pagina, met de wettelijke voorwaarden per vorm.
 
 ## Relevantie voor bedrijfsarchitectuur
 

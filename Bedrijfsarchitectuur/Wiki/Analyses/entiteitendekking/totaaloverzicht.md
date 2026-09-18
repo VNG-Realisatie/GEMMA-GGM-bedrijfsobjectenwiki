@@ -1,12 +1,12 @@
 ---
 type: analyse
 titel: "Entiteitendekking — totaaloverzicht"
-datum: 2026-07-09
+datum: 2026-09-18
 ---
 
 # Entiteitendekking — totaaloverzicht
 
-917 GGM-entiteiten (40 n.v.t.). Dekking: 716 gedekt van 877 relevante (82%), 161 niet gedekt. 185 BO's zonder GGM-entiteit.
+917 GGM-entiteiten (40 n.v.t.). Dekking: 724 gedekt van 877 relevante (83%), 153 niet gedekt. 187 BO's zonder GGM-entiteit.
 
 | Taakveld | Beleidsdomein | GGM-entiteiten | n.v.t. | Entiteiten met BO | Entiteiten ondersteunend aan BO | Niet gedekt | Dekking | BO zonder GGM-entiteit |
 |---|---|---|---|---|---|---|---|---|
@@ -30,13 +30,13 @@ datum: 2026-07-09
 |  | Gemeentebegrafenissen | 1 | 0 | 1 | 0 | 0 | 100% | |
 |  | Generiek Jeugd en Wmo | 27 | 2 | 6 | 18 | 1 | 96% | |
 |  | Inburgering | 35 | 1 | 15 | 15 | 4 | 88% | |
-|  | Inkomen | 88 | 3 | 10 | 46 | 29 | 66% | |
+|  | Inkomen | 88 | 3 | 13 | 46 | 26 | 69% | |
 |  | Jeugdbescherming en reclassering | 4 | 0 | 1 | 3 | 0 | 100% | |
 |  | Schulden | 32 | 0 | 12 | 15 | 5 | 84% | |
-|  | Sociaal Domein Generiek | 55 | 1 | 5 | 16 | 33 | 39% | |
+|  | Sociaal Domein Generiek | 55 | 1 | 6 | 20 | 28 | 48% | |
 |  | Sociale Teams | 9 | 2 | 2 | 5 | 0 | 100% | |
-|  | Werk | 33 | 0 | 3 | 25 | 5 | 85% | |
-|  | | | | | | | | 10 |
+|  | Werk | 33 | 0 | 4 | 24 | 5 | 85% | |
+|  | | | | | | | | 12 |
 | **[[Wiki/Analyses/entiteitendekking/7-volksgezondheid-en-milieu\|7 Volksgezondheid en Milieu]]** | Afval | 16 | 0 | 4 | 12 | 0 | 100% | |
 |  | | | | | | | | 31 |
 | **[[Wiki/Analyses/entiteitendekking/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing\|8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing]]** | Beheer Openbare Ruimte | 81 | 5 | 20 | 30 | 26 | 66% | |

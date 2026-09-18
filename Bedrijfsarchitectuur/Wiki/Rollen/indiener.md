@@ -14,6 +14,8 @@ ggm_duplicaat_entiteiten:
     beleidsdomein: Model VTH
     taakveld: "1 Veiligheid en Vergunningen"
     afwijkende_attributen:
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Indiener** als directe tegenhanger. Daarnaast is **Indiener** (beleidsdomein 1 Veiligheid en Vergunningen) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "De hoedanigheid van degene die een melding of aanvraag doet bij de gemeente."
 bo_toelichting:
 element_tegenhangers: []

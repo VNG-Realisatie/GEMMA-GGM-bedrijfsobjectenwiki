@@ -68,24 +68,14 @@ analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **AanvraagOfMelding**. Daarnaast is **AanvraagOfMelding** (beleidsdomein Leerplicht en Leerlingenvervoer) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **AOMStatus** (detail) — Detailgegeven (geassocieerd met BO)
   - **AanvraagVrijstelling** (detail) — Subtype AanvraagOfMelding; te granulair
-  - **Aanvraagdata** (detail) — Detailgegeven (geassocieerd met BO)
-  - **BOA** (detail) — Detailgegeven (weinig attributen)
-  - **Combibon** (detail) — Detailgegeven (weinig attributen)
-  - **Fietsregistratie** (detail) — Detailgegeven (weinig attributen)
+  - **Combibon** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Fietsregistratie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Formuliersoort** (classificatie) — Typering/referentietabel
   - **Formuliersoortveld** (detail) — Detailgegeven
-  - **Indiener** (detail) — Detailgegeven (geassocieerd met BO)
-  - **MOR-AanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
-  - **MORAanvraagOfMelding** (detail) — Detailgegeven
+  - **Melding** (classificatie) — Typering/referentietabel
   - **Onderwerp** (detail) — Detailgegeven (geassocieerd met BO)
-  - **VOMAanvraagOfMelding** (detail) — Detailgegeven
-  - **VTH-Melding** (detail) — Detailgegeven
-  - **VTHAanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
   - **Verlofaanvraag** (detail) — Subtype AanvraagOfMelding; te granulair
-  - **WABOAanvraagOfMelding** (detail) — Detailgegeven
-  - **Waarneming** (detail) — Detailgegeven (weinig attributen)
-  - **WoonfraudeAanvraagOfMelding** (detail) — Detailgegeven
-  - **WoonoverlastAanvraagOfMelding** (detail) — Detailgegeven (weinig attributen)
+  - **Waarneming** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Komt overeen met een VJV Bron: GEM_VJV (Distinct op REQ_ID) ID: REQ_ID"
 bo_toelichting:
 bedrijfsprocessen:

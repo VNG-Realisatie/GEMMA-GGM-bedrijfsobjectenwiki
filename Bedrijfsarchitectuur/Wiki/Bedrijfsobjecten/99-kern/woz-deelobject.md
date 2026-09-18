@@ -27,6 +27,7 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **WOZ-deelobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **WOZ-Deelobjectcode** (classificatie) — Typering/referentietabel
+  - **Winkelvloeroppervlak** (detail) — Detailgegeven
 bo_definitie: "Aanduiding van afzonderlijke elementen (delen van het object, bijzondere waarderelevante factoren) die voor de onderbouwing van de vastgestelde waarde van belang zijn."
 bo_toelichting:
 bo_via_kandidaten:

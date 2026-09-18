@@ -36,7 +36,7 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **ProductOfDienst**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Klantbeoordeling** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Klantbeoordelingreden** (detail) — Detailgegeven (weinig attributen)
+  - **Klantbeoordelingreden** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Bron: QP_CALENDAR. CFM_SERVICES"
 bo_toelichting:
 bedrijfsprocessen:

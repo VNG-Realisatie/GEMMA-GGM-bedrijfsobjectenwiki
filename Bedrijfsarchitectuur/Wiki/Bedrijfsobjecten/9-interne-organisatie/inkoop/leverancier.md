@@ -36,13 +36,13 @@ ggm_duplicaat_entiteiten:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Leverancier** als directe tegenhanger. Daarnaast is **Leverancier** (beleidsdomein Sociaal Domein Generiek) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanvraag Inkooporder** (detail) — Detailgegeven
+  - **Belprovider** (detail) — Te technisch/operationeel, geen herkenbaar bedrijfsobject
   - **Categorie** (detail) — Detailgegeven (geassocieerd met BO)
   - **FormulierVerlengingInhuur** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Opbreking** (detail) — Detailgegeven (weinig attributen)
+  - **Kandidaat** (detail) — Detailgegeven (geassocieerd met BO)
   - **Productie-eenheid** (detail) — Detailgegeven (geassocieerd met BO)
   - **Uitnodiging** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Uitvoerder Graafwerkzaamheden** (detail) — Detailgegeven (weinig attributen)
+  - **Uitvoerder Graafwerkzaamheden** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Een niet-natuurlijk persoon die een product of dienst levert aan de organisatie"
 bo_toelichting:
 bo_via_kandidaten:

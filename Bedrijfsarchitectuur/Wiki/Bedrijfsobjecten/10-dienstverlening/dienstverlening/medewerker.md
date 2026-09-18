@@ -27,20 +27,9 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Medewerker** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Actie** (detail) — Detailgegeven (weinig attributen)
-  - **CROW-Melding** (detail) — Detailgegeven (weinig attributen)
-  - **Inspectie** (detail) — Detailgegeven (weinig attributen)
-  - **Kwaliteitscatalogus Openbare Ruimte** (detail) — Detailgegeven (weinig attributen)
-  - **Melding** (detail) — Detailgegeven
-  - **MeldingOngeval** (detail) — Detailgegeven (weinig attributen)
-  - **Samensteller** (detail) — Detailgegeven (weinig attributen)
+  - **FormulierInhuur** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Samensteller** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Schouwronde** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Sector** (detail) — Detailgegeven (weinig attributen)
-  - **Storing** (detail) — Detailgegeven (weinig attributen)
-  - **Subsidie** (detail) — Detailgegeven
-  - **Subsidieaanvraag** (detail) — Detailgegeven
-  - **Subsidiebeschikking** (detail) — Detailgegeven
-  - **Taak** (detail) — Detailgegeven (weinig attributen)
   - **Uitvoerende instantie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een medewerker van de gemeentelijke organisatie die zaken behandelt uit hoofde van zijn of haar functie binnen een organisatorische eenheid."
 bo_toelichting:

@@ -34,7 +34,6 @@ ggm_duplicaat_entiteiten:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Debiteur** als directe tegenhanger. Daarnaast is **Debiteur** (beleidsdomein Terug- en invordering) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Hypotheek** (detail) — Detailgegeven (weinig attributen)
   - **Invorderingsbasis** (onderdeel) — Onderdeel van Debiteur
   - **Krediethypotheek** (onderdeel) — Onderdeel van Debiteur
   - **Krediethypotheekvordering** (onderdeel) — Onderdeel van Debiteur

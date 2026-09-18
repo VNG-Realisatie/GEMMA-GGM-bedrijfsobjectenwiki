@@ -35,11 +35,11 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Toepasbare Regel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Conclusie** (detail) — Detailgegeven (weinig attributen)
-  - **Indieningsvereisten** (detail) — Detailgegeven (weinig attributen)
-  - **Maatregelen** (onderdeel) — Onderdeel (naamindicatie)
-  - **ToepasbareRegelBestand** (onderdeel) — Onderdeel (naamindicatie)
-  - **Uitvoeringsregel** (onderdeel) — Onderdeel (naamindicatie)
+  - **Conclusie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Indieningsvereisten** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Maatregelen** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **ToepasbareRegelBestand** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Uitvoeringsregel** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Vertaling van juridische regels naar interactieve vragenbomen waarmee burgers en bedrijven in het DSO kunnen bepalen of zij een vergunning nodig hebben, een melding moeten doen of aan maatregelen moeten voldoen."
 bo_toelichting: "De gemeente maakt toepasbare regels aan om haar juridische regels uit het omgevingsplan toegankelijk te maken voor initiatiefnemers via het Omgevingsloket. Elke toepasbare regel is gekoppeld aan een activiteit en een of meer juridische regels."
 bo_subtypes: []

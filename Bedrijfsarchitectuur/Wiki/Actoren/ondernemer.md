@@ -9,6 +9,8 @@ ggm_guid: EAID_AA004853_3565_4634_A434_BD7F36ED0B1A
 ggm_beleidsdomein: Schuldhulpverlening
 ggm_taakveld: "6 Sociaal Domein"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Ondernemer** als directe tegenhanger.
 bo_definitie: "Individu dat goederen of diensten levert aan anderen om winst te maken."
 bo_toelichting:
 element_tegenhangers: []

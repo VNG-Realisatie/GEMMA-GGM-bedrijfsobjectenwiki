@@ -33,10 +33,9 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vastgoedobject** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Adresaanduiding** (detail) — Detailgegeven
   - **Bouwdeel** (detail) — GGM-component van Vastgoedobject
-  - **CultuurOnbebouwd** (detail) — Detailgegeven (weinig attributen)
+  - **CultuurOnbebouwd** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Locatieonroerendezaak** (classificatie) — Typering/referentietabel
   - **Objectrelatie** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Zakelijk Recht** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Perceel of vastgoed waar de gemeente een zakelijk recht heeft, en optioneel verhuurd, verpacht of anderzinds aan een derde partij."
 bo_toelichting:
 bo_subtypes: []

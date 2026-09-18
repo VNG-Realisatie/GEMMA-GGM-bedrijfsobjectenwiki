@@ -30,7 +30,8 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Storing**.
+  Dit BO is de hernoeming van GGM-entiteit **Storing**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Storing** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Verlies van de mogelijkheid van een ICT-component om volgens specificatie te werken of het vereiste resultaat te leveren."
 bo_toelichting:
 bo_homoniemen:

@@ -29,7 +29,7 @@ ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Levering** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Fase/Oplevering** (detail) — Detailgegeven (weinig attributen)
+  - **Fase/Oplevering** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Levering van zorg door leverancier."
 bo_toelichting:
 bo_relaties:

@@ -9,6 +9,8 @@ ggm_guid: EAID_5E06339C_13EE_44ca_BC40_0FC4B9DC8349
 ggm_beleidsdomein: Vastgoed
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Eigenaar** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van rechthebbende op een gebouw of stuk grond."
 bo_toelichting:
 element_tegenhangers: []

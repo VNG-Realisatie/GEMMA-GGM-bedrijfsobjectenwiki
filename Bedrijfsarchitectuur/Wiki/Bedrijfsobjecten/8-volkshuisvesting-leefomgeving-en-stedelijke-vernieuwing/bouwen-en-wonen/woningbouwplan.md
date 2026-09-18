@@ -32,7 +32,6 @@ analyse_ggm_dekking: |
   - **Omgevingsvergunning** (detail) — Subtype van Vergunningen en ontheffingen
   - **Programma** (detail) — Component van Begroting
   - **Projectleider** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Projectontwikkelaar** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Project waarin woningen worden gerealiseerd"
 bo_toelichting:
 bo_subtypes:

@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
-datum: 2026-07-09
+datum: 2026-09-18
 taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 beleidsdomeinen:
   - Beheer Openbare Ruimte

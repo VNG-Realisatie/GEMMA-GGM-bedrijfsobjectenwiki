@@ -9,6 +9,8 @@ ggm_guid: EAID_B369B374_F560_4ea6_9A8B_DBBCB4961EFF
 ggm_beleidsdomein: Leerplicht en Leerlingenvervoer
 ggm_taakveld: "4 Onderwijs"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Leerplichtambtenaar** als directe tegenhanger.
 bo_definitie: "De ambtelijke verantwoordelijkheid voor het toezicht op de uitvoering van de Leerplichtwet."
 bo_toelichting:
 element_tegenhangers: []

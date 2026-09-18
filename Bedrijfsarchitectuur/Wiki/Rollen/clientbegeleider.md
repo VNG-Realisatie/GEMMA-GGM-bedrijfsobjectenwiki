@@ -9,6 +9,9 @@ ggm_guid: EAID_276E1BF9_E902_4303_A9E7_048627E0DC84
 ggm_beleidsdomein: Sociaal Domein Generiek
 ggm_taakveld: "6 Sociaal Domein"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Clientbegeleider** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Team** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De verantwoordelijkheid voor het opstellen en uitvoeren van het ondersteuningsplan, in samenwerking met de cliënt en diens omgeving."
 bo_toelichting:
 element_tegenhangers: []

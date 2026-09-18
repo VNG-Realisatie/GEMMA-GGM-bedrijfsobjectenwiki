@@ -29,7 +29,7 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Put** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aansluitput** (detail) — Detailgegeven (weinig attributen)
+  - **Aansluitput** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Drainageput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
   - **Filterput** (specialisatie) — Specialisatie van Put — zie bo_subtypes
   - **Infiltratieput** (specialisatie) — Specialisatie van Put — zie bo_subtypes

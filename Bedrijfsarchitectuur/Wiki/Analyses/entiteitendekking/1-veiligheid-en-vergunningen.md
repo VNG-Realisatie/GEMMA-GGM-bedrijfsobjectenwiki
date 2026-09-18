@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 1 Veiligheid en Vergunningen"
-datum: 2026-07-09
+datum: 2026-09-18
 taakveld: "1 Veiligheid en Vergunningen"
 beleidsdomeinen:
   - 1 Veiligheid en Vergunningen

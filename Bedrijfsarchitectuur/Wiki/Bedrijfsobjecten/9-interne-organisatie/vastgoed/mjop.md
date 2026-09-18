@@ -32,7 +32,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **MJOP** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **MJOP-Item** (detail) — Detailgegeven
-  - **Prijzenboekitem** (detail) — Detailgegeven (weinig attributen)
+  - **Prijzenboekitem** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Dynamisch planningsdocument per vastgoedobject dat het verwachte onderhoud over een periode van 15 jaar beschrijft, gevoed door inspecties."
 bo_toelichting:
 bo_subtypes: []

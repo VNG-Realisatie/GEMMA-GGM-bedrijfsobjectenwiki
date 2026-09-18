@@ -4,6 +4,8 @@ naam: Leerling
 onderwerp: [onderwijs]
 archimate_type: business-role
 grondslag: ggm-entiteit
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Leerling** als directe tegenhanger.
 bo_definitie: "De rol die een persoon vervult zodra deze is ingeschreven bij een onderwijsinstelling, met eigen rechten en plichten."
 ggm_entiteit: Leerling
 ggm_guid: EAID_266057AF_58BD_42e1_B4D5_16EB266B9B7A

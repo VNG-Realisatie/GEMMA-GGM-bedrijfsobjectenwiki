@@ -41,9 +41,7 @@ analyse_ggm_dekking: |
   - **Doelgroepenregister** (detail) — UWV beheert; gemeente gebruikt als verdeelmaatstaf
   - **Flexibliteit** (detail) — Detailgegeven (geassocieerd met BO)
   - **Mobiliteit** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Ontheffing** (detail) — Detailgegeven
   - **Opleiding** (detail) — Detailgegeven
-  - **Opleidingsnaam** (detail) — Detailgegeven
   - **Opleidingsniveau** (detail) — Detailgegeven (geassocieerd met BO)
   - **Rijbewijs /Certificaat** (detail) — Detailgegeven (geassocieerd met BO)
   - **Taalbeheersing** (detail) — Detailgegeven (geassocieerd met BO)
@@ -51,7 +49,6 @@ analyse_ggm_dekking: |
   - **Voorkeur** (detail) — Detailgegeven
   - **VrijstellingArbeidsplicht** (detail) — Detailgegeven (geassocieerd met BO)
   - **Werkervaring** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Werkzaamheden als mantelzorger** (detail) — Detailgegeven
   - **Werkzaamheden anders dan in arbeidsverhouding** (detail) — Detailgegeven
   - **ZelfredzaamheidScore** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een generiek werkprofiel van een persoon waarin diens arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte worden vastgelegd, als basis voor begeleiding naar arbeid."

@@ -27,7 +27,12 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
-analyse_ggm_dekking: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vermogenscomponent** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Hypotheek** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Motorvoertuig** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Onroerend goed** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Waardepeiling** (onderdeel) — Onderdeel van Vermogenscomponent
 bo_definitie: "Een afzonderlijk vastgesteld onderdeel van het vermogen van een bijstandsgerechtigde of diens gezin (bijv. spaargeld, auto, eigen woning), met een eigen vrij te laten grens."
 bo_toelichting: "Grondslag: art. 34 Participatiewet. Vermogen is de waarde van bezittingen minus schulden, aangevuld met tijdens de bijstandsperiode ontvangen middelen die geen inkomen zijn. Algemeen gebruikelijke of noodzakelijke bezittingen tellen niet mee; het vermogen in de eigen woning telt niet mee voor zover onder €67.500 (art. 34 lid 2 onderdeel d); spaargeld opgebouwd tijdens de bijstandsperiode telt niet mee. Vrijlatingsgrenzen (art. 34 lid 3): €8.000 (alleenstaande), €16.000 (alleenstaande ouder of gehuwden)."
 bo_subtypes: []

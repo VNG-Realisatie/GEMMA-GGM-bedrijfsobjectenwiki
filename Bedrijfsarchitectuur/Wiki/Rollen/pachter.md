@@ -4,6 +4,8 @@ naam: Pachter
 onderwerp: [Vastgoed]
 archimate_type: business-role
 grondslag: ggm-entiteit
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Pachter** als directe tegenhanger.
 bo_definitie: "Persoon die een pachtovereenkomst heeft met de eigenaar van een perceel voor het gebruik als landbouwgrond."
 ggm_entiteit: Pachter
 ggm_guid: EAID_EDC8B01F_4802_4562_BC41_C2CAD76880B6

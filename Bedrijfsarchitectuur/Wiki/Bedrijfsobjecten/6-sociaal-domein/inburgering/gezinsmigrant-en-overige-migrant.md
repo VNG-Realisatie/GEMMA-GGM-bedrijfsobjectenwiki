@@ -35,7 +35,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-61601c33-5b61-4bab-919
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Gezinsmigrant en Overige migrant** als directe tegenhanger. De gemeentelijke praktijkscope is beperkt tot het subtype Gezinsmigrant.
+  Dit BO heeft de GGM-entiteit **Gezinsmigrant en Overige migrant** als directe tegenhanger.
 bo_definitie: "Inburgeraar die niet via de asielketen maar via gezinshereniging of een andere migratiereden inburgeringsplichtig is."
 bo_toelichting: "GGM bundelt twee migrantcategorieën (Gezinsmigrant en Overige migrant) in één lege specialisatie van Inburgeraar, uitsluitend bedoeld om relaties te leggen (bijv. Aanvraag Sociale Lening). De gemeentelijke bronnen beschrijven uitsluitend gezinsmigranten; over 'overige migrant' bevatten de bronnen geen informatie."
 bo_subtypes:

@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 9 Interne Organisatie"
-datum: 2026-07-09
+datum: 2026-09-18
 taakveld: "9 Interne Organisatie"
 beleidsdomeinen:
   - Financien

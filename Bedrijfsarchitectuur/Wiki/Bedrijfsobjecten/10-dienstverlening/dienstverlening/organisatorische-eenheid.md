@@ -27,7 +27,9 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **OrganisatorischeEenheid**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **OrganisatorischeEenheidHR** (detail) — Detailgegeven (geassocieerd met BO)
   - **Subsidieprogramma** (detail) — Detailgegeven (geassocieerd met BO)
+  - **VestigingVanZaakbehandelendeOrganisatie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Functioneel afgebakend onderdeel binnen de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
 bo_toelichting:
 element_tegenhangers:

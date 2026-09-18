@@ -30,7 +30,6 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Inburgeringstermijn** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanvraag verlenging Inburgeringstermijn** (detail) — Detailgegeven (geassocieerd met BO)
   - **Verlengingsgrond** (detail) — Component van Inburgeringstermijn
 bo_definitie: "De Inburgeringstermijn is de wettelijke periode waarbinnen een inburgeringsplichtige moet voldoen aan de inburgeringsplicht, gerekend vanaf de startdatum van de verplichting zoals vastgesteld door DUO of de gemeente."
 bo_toelichting:

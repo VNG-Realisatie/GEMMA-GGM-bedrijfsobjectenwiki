@@ -28,9 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Beschikking Leerlingenvervoer** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Beslissing** (detail) — Detailgegeven (geassocieerd met BO)
-  - **HALT-verwijzing** (detail) — Te specifiek; justitie-subtype
+  Dit BO heeft de GGM-entiteit **Beschikking Leerlingenvervoer** als directe tegenhanger.
 bo_definitie: "Een formeel besluit dat genomen wordt door een bevoegde instantie over het al dan niet toekennen van leerlingenvervoer aan een bepaalde leerling."
 bo_toelichting:
 bo_relaties:

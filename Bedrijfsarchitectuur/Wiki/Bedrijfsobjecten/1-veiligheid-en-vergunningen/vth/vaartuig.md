@@ -28,7 +28,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
-  Dit BO is de exacte match met GGM-entiteit **Vaartuig**. De gemeentelijke praktijkscope (Havenverordening) is beperkt tot het subtype Woonboot.
+  Dit BO heeft de GGM-entiteit **Vaartuig** als directe tegenhanger.
 bo_definitie: "Een zee- of binnenvaartuig; de gemeente registreert in de praktijk uitsluitend vaartuigen die als woonboot in gebruik zijn."
 bo_toelichting: "Het GGM-begrip Vaartuig is breder (omvat ook bagger-werktuigen, kranen, bokken, elevators, glijboten en ponten), maar de gemeentelijke bronnen beschrijven uitsluitend het toezicht op woonboten via de Havenverordening. Zie subtype Woonboot hieronder."
 bo_subtypes:

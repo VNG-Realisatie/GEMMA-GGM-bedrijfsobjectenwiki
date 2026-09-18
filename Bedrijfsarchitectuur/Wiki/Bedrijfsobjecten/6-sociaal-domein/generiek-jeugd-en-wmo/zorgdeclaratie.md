@@ -28,7 +28,8 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Declaratie**.
+  Dit BO is de hernoeming van GGM-entiteit **Declaratie**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Declaratieregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Maandelijkse opgave van een zorgaanbieder aan de gemeente van geleverde Wmo- of jeugdhulpproducten met de te vergoeden kosten."
 bo_toelichting:
 bo_via_kandidaten:

@@ -26,18 +26,14 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Archiefstuk** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
   - **Archief** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Archiefcategorie** (detail) — Detailgegeven (weinig attributen)
-  - **Bezoeker** (detail) — Detailgegeven (weinig attributen)
+  - **Archiefcategorie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Bezoeker** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **DigitaalBestand** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Erfgoed Object** (detail) — Detailgegeven (weinig attributen)
   - **Indeling** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Index** (detail) — Detailgegeven (weinig attributen)
+  - **Index** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Nadere Toegang** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Objectclassificatie** (detail) — Detailgegeven (weinig attributen)
   - **Ordeningsschema** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Rechthebbende** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Bijeengebrachte informatie, ongeacht het medium, die wordt gecreëerd, ontvangen en gearchiveerd door een bureau, een instelling, een organisatie of een individu met het oog op het nakomen van wettelijke verplichtingen of het uitvoeren van zakelijke transacties.(AAT)"
 bo_toelichting:
 bedrijfsprocessen: [Archiefvorming, Archiefbeheer, Openbaarheid en inzage]

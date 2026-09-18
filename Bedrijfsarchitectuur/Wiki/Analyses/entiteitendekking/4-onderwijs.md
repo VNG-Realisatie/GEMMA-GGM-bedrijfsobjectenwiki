@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 4 Onderwijs"
-datum: 2026-07-09
+datum: 2026-09-18
 taakveld: "4 Onderwijs"
 beleidsdomeinen:
   - Leerplicht en Leerlingenvervoer
@@ -41,7 +41,7 @@ Niet-BO entiteiten: 14× detail.
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Verlofaanvraag]] | beschrijft [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/aanvraag-of-melding\|Aanvraag of melding]] | detail |  | Subtype AanvraagOfMelding; te granulair |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vervoerder]] | [[Wiki/Rollen/vervoerder\|Vervoerder]] ✅ | — |  | Exacte match (rol-pagina) |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Verzuimmelding]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding\|Verzuimmelding]] ✅ | — |  | Exacte match |
-| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vrijstelling]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling\|Leerplichtvrijstelling]] ✅ | hernoemd |  | Hernoemd naar Leerplichtvrijstelling |
+| [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Vrijstelling]] | [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling\|Leerplichtvrijstelling]] ✅ | hernoemd | homoniem: [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling|Vrijstelling (Inburgering)]] | Hernoemd naar Leerplichtvrijstelling |
 | [[Wiki/GGM/4-onderwijs/leerplicht-en-leerlingenvervoer\|Ziekmelding Leerlingenvervoer]] | beschrijft [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/leerling\|Leerling]] | detail |  | Te granulair; operationeel detail |
 
 ## Onderwijs

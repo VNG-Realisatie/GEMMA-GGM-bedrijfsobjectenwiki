@@ -12,6 +12,8 @@ ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_definitie: "Iemand die behoort de gemeenteraad"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Raadslid** als directe tegenhanger.
 bo_definitie: "Iemand die behoort tot de gemeenteraad."
 bo_toelichting:
 element_tegenhangers:

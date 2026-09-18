@@ -31,7 +31,6 @@ analyse_ggm_dekking: |
   - **Oplossing** (detail) — Onderdeel van Schuldhulptraject, 1:1 met traject
   - **Oplossingssoort** (classificatie) — Typering/referentietabel
   - **PlanVanAanpak** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Schuldhulporganisatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Stabilisatie** (detail) — Procesfase van Schuldhulptraject
   - **Uitstroom** (detail) — Detailgegeven (geassocieerd met BO)
   - **VoorlopigeVoorziening** (detail) — Detailgegeven (geassocieerd met BO)

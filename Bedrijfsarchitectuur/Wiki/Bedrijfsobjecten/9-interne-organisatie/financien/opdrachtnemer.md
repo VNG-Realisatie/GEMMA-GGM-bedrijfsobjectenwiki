@@ -12,6 +12,8 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_definitie: "Partij die een opdracht aanvaardt."
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Opdrachtnemer** als directe tegenhanger.
 bo_definitie: "Partij die een opdracht aanvaardt."
 bo_toelichting:
 element_tegenhangers:

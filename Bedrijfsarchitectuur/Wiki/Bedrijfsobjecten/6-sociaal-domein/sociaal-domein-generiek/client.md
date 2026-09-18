@@ -30,40 +30,35 @@ ggm_gemma_type:
 ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
+bo_via_kandidaten:
+- ggm_entiteit: Profiel
+  ggm_guid: EAID_D8F2EAAD_7C80_4164_8171_C632F18A6742
+  reden: "Client [1] heeft Profiel [1..*] rechtstreeks (GGM-relatie); Profiel heeft geen eigen GGM-definitie en is structureel de container die aan Client hangt, niet aan Vermogenscomponent."
+- ggm_entiteit: Inkomstenverhouding
+  ggm_guid: EAID_0463EA7D_FFD9_AD19_0405_294621AE933F
+  reden: "GGM-definitie: 'Inkomstenverhoudingen worden geadministreerd in het profiel van de klant. De klant is de ontvanger van de inkomsten.' Gaat over inkomstenstromen van de client, niet over een vermogensbestanddeel."
+- ggm_entiteit: Reden aanvraag
+  ggm_guid: EAID_cac6d8c1_42e6_41cb_9907_3c65c081afba
+  reden: "Classificatie van de levensomstandigheid van de client die tot een aanvraag leidt (bijv. gestopt betaald werk, overleden partner) — profielgegeven van de client, geen vermogensbestanddeel."
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Client** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanvraag** (detail) — Detailgegeven (geassocieerd met BO)
   - **Aanvraagtype** (classificatie) — Typering/referentietabel
-  - **Afwijkende maatregel** (onderdeel) — Onderdeel (naamindicatie)
-  - **Betalingsblokkade** (detail) — Detailgegeven (weinig attributen)
-  - **Boete** (detail) — Detailgegeven (weinig attributen)
+  - **Betalingsblokkade** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Dienst** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Diensten::Aanvraag** (detail) — Detailgegeven (weinig attributen)
   - **Doelgroep** (detail) — Detailgegeven (geassocieerd met BO)
   - **Huishouden** (detail) — Cross-cutting sociaal domein, eenheid voor beoordeling
-  - **Individuele plicht** (detail) — Detailgegeven (weinig attributen)
-  - **Inkomstenverhouding** (detail) — Detailgegeven (weinig attributen)
-  - **Leefgebied** (detail) — Detailgegeven (weinig attributen)
-  - **Levenssituatie::Levenssituatie** (detail) — Detailgegeven (weinig attributen)
-  - **Leveringsopdracht** (detail) — Detailgegeven (weinig attributen)
-  - **Maatregel** (onderdeel) — Onderdeel (naamindicatie)
-  - **Maatregel op uitkering** (onderdeel) — Onderdeel (naamindicatie)
-  - **Motorvoertuig** (detail) — Detailgegeven (weinig attributen)
-  - **Normafwijking** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Onroerend goed** (detail) — Detailgegeven (weinig attributen)
-  - **Primair inkomstencomponent** (detail) — Detailgegeven (weinig attributen)
+  - **Individuele plicht** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Inkomstenverhouding** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Leefgebied** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Leveringsopdracht** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Profiel** (detail) — Detailgegeven (geassocieerd met BO)
   - **Reden aanvraag** (classificatie) — Typering/referentietabel
-  - **Reden aanvraag Levensonderhoud** (classificatie) — Typering/referentietabel
-  - **Referteperiode** (detail) — Detailgegeven (weinig attributen)
+  - **Referteperiode** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Regelingsoort** (classificatie) — Typering/referentietabel
   - **Relatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Relatiesoort** (classificatie) — Typering/referentietabel
   - **Score** (detail) — Detailgegeven (geassocieerd met BO)
   - **Scoresoort** (classificatie) — Typering/referentietabel
-  - **Vermogenscomponent** (detail) — Detailgegeven
-  - **Waardepeiling** (detail) — Detailgegeven
-  - **Zelfredzaamheidmatrix** (detail) — Detailgegeven (weinig attributen)
 bo_definitie: "Een ingeschreven persoon die gebruik maakt van producten en diensten van de gemeente."
 bo_toelichting:
 bo_relaties:

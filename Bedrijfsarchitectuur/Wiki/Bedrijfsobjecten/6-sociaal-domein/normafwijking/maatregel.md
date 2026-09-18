@@ -27,7 +27,11 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
-analyse_ggm_dekking: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Maatregel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Afwijkende maatregel** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Maatregel op uitkering** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Verlaging door maatregel** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Een besluit waarmee de gemeente de bijstand verlaagt omdat een bijstandsgerechtigde een aan de bijstand verbonden verplichting niet of niet behoorlijk is nagekomen."
 bo_toelichting: "GGM-definitie is generiek bestuursrechtelijk (elk overheidsingrijpen); in de bijstandscontext is dit specifiek de verlaging van de uitkering op grond van art. 18 Participatiewet (afstemming) of art. 18b (onvoldoende beheersing Nederlandse taal), met percentage en duur vastgelegd in de gemeentelijke verordening (art. 8 lid 1 onderdeel a). Volgt altijd op een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/normafwijking/normafwijking|Normafwijking]]."
 bo_subtypes: []

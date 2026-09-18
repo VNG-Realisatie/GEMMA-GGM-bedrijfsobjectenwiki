@@ -31,10 +31,8 @@ analyse_ggm_dekking: |
   - **Documenttype** (classificatie) — Typering/referentietabel
   - **EnkelvoudigDocument** (detail) — Detailgegeven
   - **Identificatiekenmerk** (detail) — Detailgegeven (geassocieerd met BO)
-  - **MOOR-melding** (detail) — Detailgegeven
-  - **Proces-verbaal-MOOR-melding** (detail) — Detailgegeven (geassocieerd met BO)
   - **Rapportagemoment** (detail) — Detailgegeven (geassocieerd met BO)
-  - **SamengesteldDocument** (detail) — Detailgegeven (weinig attributen)
+  - **SamengesteldDocument** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Geheel van gegevens met een eigen identiteit ongeacht zijn vorm, met de bijbehorende metadata ontvangen of opgemaakt door een natuurlijke en/of rechtspersoon bij de uitvoering van taken, zijnde een ENKELVOUDIG DOCUMENT of een SAMENGESTELD DOCUMENT."
 bo_toelichting: "Document is de actieve fase: het informatieobject in gebruik bij taakuitvoering. Zodra een document de archiveringsfase ingaat (selectie, waardering, formele opname in het archiefsysteem), wordt het een Informatieobject. Na overbrenging naar de archiefbewaarplaats is het een Archiefstuk. Document, Informatieobject en Archiefstuk zijn daarmee drie fasen in één levenslijn — geen synoniemen."
 bo_subtypes:

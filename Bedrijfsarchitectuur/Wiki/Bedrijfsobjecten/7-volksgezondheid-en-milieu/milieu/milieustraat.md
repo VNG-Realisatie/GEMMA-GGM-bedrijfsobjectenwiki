@@ -27,6 +27,7 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Milieustraat** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Pas** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Storting** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Een locatie die specifiek bestemd is voor het brengen van gescheiden huishoudelijk afval en grofvuil."
 bo_toelichting:
 bo_via_kandidaten:

@@ -9,6 +9,8 @@ ggm_guid: EAID_F1E55DC7_0F33_40ea_8713_2E1AC3D7EE8D
 ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Aanwezige Deelnemer** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van deelname aan een college- of raadsvergadering, met aanvang en einde van de aanwezigheid."
 bo_toelichting:
 element_tegenhangers:

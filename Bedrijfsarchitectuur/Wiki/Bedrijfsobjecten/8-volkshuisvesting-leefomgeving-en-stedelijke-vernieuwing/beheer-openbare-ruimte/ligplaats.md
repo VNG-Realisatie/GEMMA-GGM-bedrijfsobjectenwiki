@@ -35,11 +35,7 @@ ggm_duplicaat_entiteiten:
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (ligplaatsidentificatie, ligplaatsstatus, indicatieGeconstateerdeLigplaats); minder attributen, geen geometrie/versie/documentvelden; voegt inOnderzoek toe"
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Ligplaats** als directe tegenhanger. Daarnaast is **Ligplaats** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **AdresseerbaarObject** (detail) — Detailgegeven
-  - **AdresseerbaarObjectAanduiding** (detail) — Detailgegeven
-  - **OverigGebouwdObject** (detail) — Detailgegeven (weinig attributen)
-  - **VerblijfadresIngeschrevenNatuurlijkPersoon** (detail) — Detailgegeven
+  Dit BO heeft de GGM-entiteit **Ligplaats** als directe tegenhanger. Daarnaast is **Ligplaats** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een ligplaats is een door het bevoegde gemeentelijke orgaan als zodanig aangewezen plaats in het water al dan niet aangevuld met een op de oever aanwezig terrein of een gedeelte daarvan, die bestemd is voor het permanent afmeren van een voor woon-, bedrijfsmatige of recreatieve doeleinden geschikt drijvend object."
 bo_toelichting:
 bo_subtypes:

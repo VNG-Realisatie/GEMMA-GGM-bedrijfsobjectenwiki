@@ -14,6 +14,8 @@ ggm_duplicaat_entiteiten:
     beleidsdomein: Vroegsignalering
     taakveld: "6 Sociaal Domein"
     afwijkende_attributen:
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Contactpersoon** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van aanspreekpunt namens een organisatie in het contact met de gemeente."
 bo_toelichting:
 element_tegenhangers:

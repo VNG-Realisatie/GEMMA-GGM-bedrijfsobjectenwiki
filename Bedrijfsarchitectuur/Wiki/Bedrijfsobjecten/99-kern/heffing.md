@@ -26,7 +26,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Heffing** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Heffingskorting** (detail) — Detailgegeven (weinig attributen)
+  - **Heffingskorting** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Individuele vaststelling van het belastingbedrag door de heffingsambtenaar, resulterend in een betalingsverplichting."
 bo_toelichting:
 bo_relaties:

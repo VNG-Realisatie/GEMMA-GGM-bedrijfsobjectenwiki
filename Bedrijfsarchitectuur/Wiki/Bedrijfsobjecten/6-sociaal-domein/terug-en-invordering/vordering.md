@@ -35,19 +35,16 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vordering** als directe tegenhanger. Daarnaast is **Vordering** (beleidsdomein 1 Veiligheid en Vergunningen) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Betaalcomponent** (onderdeel) — Onderdeel van Vordering
-  - **Boetevordering** (detail) — Detailgegeven (weinig attributen)
+  - **Boetevordering** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Conservatoir beslag** (onderdeel) — Onderdeel van Vordering
   - **Correctie** (onderdeel) — Onderdeel van Vordering
   - **Incassokostenvordering** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Leveringscomponent** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Leveringscomponenttype** (detail) — Detailgegeven
-  - **Leveringsspecificatie** (detail) — Detailgegeven (weinig attributen)
   - **Rechtmaand** (onderdeel) — Onderdeel van Vordering
   - **Rentevordering** (detail) — Detailgegeven (geassocieerd met BO)
   - **Terugvorderingsverzoek** (detail) — Detailgegeven
   - **Vermindering terugvordering** (onderdeel) — Onderdeel van Vordering
-  - **Verrekening** (detail) — Detailgegeven (weinig attributen)
-  - **Verwijtbare vordering** (detail) — Detailgegeven (weinig attributen)
+  - **Verrekening** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Verwijtbare vordering** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Vorderingregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Vorderingscomponent** (onderdeel) — Onderdeel van Vordering
 bo_definitie: "Een vordering is een eis op een persoon, zeg debiteur, die een zeker bedrag (terug) moet betalen aan de gemeente in het kader van de bijstand of een bijstandsgerelateerde uitkering."

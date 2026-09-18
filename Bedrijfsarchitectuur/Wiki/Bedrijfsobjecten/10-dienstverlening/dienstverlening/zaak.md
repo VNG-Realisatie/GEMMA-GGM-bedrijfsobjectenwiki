@@ -27,12 +27,12 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Zaak** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **AnderZaakobjectZaak** (detail) — Detailgegeven (weinig attributen)
+  - **AnderZaakobjectZaak** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Grondslag** (detail) — Detailgegeven (geassocieerd met BO)
   - **KenmerkenZaak** (detail) — Detailgegeven (geassocieerd met BO)
-  - **OpschortingZaak** (detail) — Detailgegeven (weinig attributen)
+  - **OpschortingZaak** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Status** (detail) — Voortgangsindicatie op Zaak, geen zelfstandig BO
-  - **VerlengingZaak** (detail) — Detailgegeven (weinig attributen)
+  - **VerlengingZaak** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **ZAAK - Origineel** (detail) — Duplicaat van Zaak
 bo_definitie: "Een samenhangende hoeveelheid werk met een welgedefinieerde aanleiding en een welgedefinieerd eindresultaat, waarvan kwaliteit en doorlooptijd bewaakt moeten worden."
 bo_toelichting:

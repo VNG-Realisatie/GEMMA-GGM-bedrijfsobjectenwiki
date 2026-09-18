@@ -31,19 +31,12 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Asielstatushouder** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aandachtspunt** (detail) — Detailgegeven (weinig attributen)
   - **Diplomawaardering** (detail) — Detailgegeven (geassocieerd met BO)
   - **Educatie** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Hoofddoel** (detail) — Detailgegeven (weinig attributen)
   - **ICT-Vaardigheid** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Inburgeraar** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Ontwikkelwens** (detail) — Detailgegeven (weinig attributen)
-  - **Subdoel Aandachtspunt** (detail) — Detailgegeven (weinig attributen)
-  - **Subdoel Ontwikkelwens** (detail) — Detailgegeven (weinig attributen)
   - **Taalvaardigheid** (detail) — Detailgegeven
   - **Training** (detail) — Detailgegeven (geassocieerd met BO)
   - **Verblijfplaats AZC** (detail) — Detailgegeven
-  - **Vreemdeling** (detail) — Detailgegeven (weinig attributen)
   - **Werk** (detail) — Detailgegeven
 bo_definitie: "Inburgeringsplichtige met verblijfsvergunning asiel die door de gemeente wordt gekoppeld aan een inburgeringstraject."
 bo_toelichting:

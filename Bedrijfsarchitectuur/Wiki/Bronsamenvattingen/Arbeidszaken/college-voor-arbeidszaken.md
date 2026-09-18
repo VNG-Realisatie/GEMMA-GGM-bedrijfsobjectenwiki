@@ -19,7 +19,7 @@ Het CvA is het VNG-orgaan voor collectieve belangenbehartiging op het terrein va
 
 ## Relevantie voor bedrijfsarchitectuur
 
-Geen. Het CvA is een organisatorisch/governance-orgaan binnen de VNG-structuur. Het produceert geen registreerbare objecten en valt structureel buiten GGM-scope. Geen BO-kandidaten geïdentificeerd.
+Geen. Het CvA is een organisatorisch/governance-orgaan binnen de VNG-structuur. Het produceert geen registreerbare objecten. Geen BO-kandidaten geïdentificeerd.
 
 ## Bronnen
 

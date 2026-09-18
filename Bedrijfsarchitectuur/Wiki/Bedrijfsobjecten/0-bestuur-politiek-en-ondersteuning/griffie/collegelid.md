@@ -12,6 +12,8 @@ ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_definitie: "Iemand die behoort het college van burgemeester en wethouders"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Collegelid** als directe tegenhanger.
 bo_definitie: "Iemand die behoort tot het college van burgemeester en wethouders."
 bo_toelichting:
 element_tegenhangers:

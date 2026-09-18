@@ -9,6 +9,8 @@ ggm_guid: EAID_5772BEBB_97FA_42a9_B70D_DB55EAD6D1EE
 ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Raadslid** als directe tegenhanger.
 bo_definitie: "Het lidmaatschap van de gemeenteraad: de verantwoordelijkheid van volksvertegenwoordiging, kaderstelling en controle, vervuld door een gekozen persoon."
 bo_toelichting:
 element_tegenhangers:

@@ -4,6 +4,8 @@ naam: Rechthebbende
 onderwerp: [Standaarden]
 archimate_type: business-role
 grondslag: governance-object
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Rechthebbende** als directe tegenhanger.
 bo_definitie: "Houder van een zakelijk recht (eigendom, erfpacht, opstal, vruchtgebruik) op een onroerende zaak, breder dan Eigenaar."
 ggm_entiteit:
 ggm_guid:

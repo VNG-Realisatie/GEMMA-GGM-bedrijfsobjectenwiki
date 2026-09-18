@@ -25,7 +25,8 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
-analyse_ggm_dekking: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Ontheffing** als directe tegenhanger.
 bo_definitie: "Een formele vrijstelling van verplichtingen rond arbeidsparticipatie, zoals beschikbaarheid of tegenprestatie, op basis van persoonlijke of juridische gronden."
 bo_toelichting: "Grondslag: art. 9, tweede lid, Participatiewet (ontheffing bij dringende redenen, waaronder zorgtaken, van de arbeids- of tegenprestatieverplichting) en art. 9a (aparte, eenmalige ontheffing voor de alleenstaande ouder met een kind tot vijf jaar, geldig tot het kind de leeftijd van vijf jaar bereikt of ten hoogste vijf jaar, met heronderzoek door het college elke zes maanden)."
 bo_subtypes: []

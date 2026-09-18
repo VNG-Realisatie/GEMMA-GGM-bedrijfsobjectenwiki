@@ -35,9 +35,7 @@ ggm_duplicaat_entiteiten:
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (verblijfsobjectidentificatie, verblijfsobjectstatus, etc.); minder attributen (geen geometrie, gebruiksdoel, oppervlakte, documentvelden); voegt inOnderzoek toe"
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Verblijfsobject** als directe tegenhanger. Daarnaast is **Verblijfsobject** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Gebruiksdoel** (detail) — attribuut
-  - **Winkelvloeroppervlak** (detail) — Detailgegeven
+  Dit BO heeft de GGM-entiteit **Verblijfsobject** als directe tegenhanger. Daarnaast is **Verblijfsobject** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Kleinste binnen een of meer panden gelegen eenheid van gebruik, ontsloten via een eigen afsluitbare toegang, met een of meer gebruiksdoelen, geregistreerd in de BAG."
 bo_toelichting:
 bo_relaties:

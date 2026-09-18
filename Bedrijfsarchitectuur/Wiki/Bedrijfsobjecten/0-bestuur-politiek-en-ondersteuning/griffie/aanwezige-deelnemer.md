@@ -12,6 +12,8 @@ ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_definitie: "iemand die meedoet aan eencollege- of raadsvergadering"
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Aanwezige Deelnemer** als directe tegenhanger.
 bo_definitie: "Iemand die deelneemt aan een college- of raadsvergadering."
 bo_toelichting:
 element_tegenhangers:

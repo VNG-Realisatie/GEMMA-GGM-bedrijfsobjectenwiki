@@ -40,12 +40,11 @@ ggm_duplicaat_entiteiten:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Product** als directe tegenhanger. Daarnaast is **Product** (beleidsdomein Musea) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Daarnaast is **Product** (beleidsdomein ICT) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Balieverkoop** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Balieverkoop Entreekaart** (detail) — Detailgegeven (weinig attributen)
   - **Dienst** (detail) — Detailgegeven (geassocieerd met BO)
   - **Domein/Taakveld** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Entreekaart** (detail) — Detailgegeven (weinig attributen)
+  - **Entreekaart** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Omzetgroep** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Onderwerp** (detail) — Detailgegeven (weinig attributen)
+  - **Onderwerp** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Prijs** (detail) — Detailgegeven (geassocieerd met BO)
   - **Prijzenboek** (detail) — Detailgegeven (geassocieerd met BO)
   - **Productgroep** (classificatie) — Administratieve classificatie

@@ -60,9 +60,9 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vestiging** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Contact** (detail) — Detailgegeven (geassocieerd met BO)
-  - **HandelsnamenVestiging** (detail) — Detailgegeven (weinig attributen)
+  - **HandelsnamenVestiging** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **SBIActiviteitVestiging** (detail) — Detailgegeven
-  - **Verkooppunt** (detail) — Detailgegeven (weinig attributen)
+  - **Verkooppunt** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Werkgelegenheid** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
 bo_toelichting:

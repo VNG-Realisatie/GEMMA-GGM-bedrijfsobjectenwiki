@@ -46,11 +46,14 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **ZakelijkRecht**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **AardZakelijkRecht** (classificatie) — Typering/referentietabel
-  - **Appartementsrechtsplitsing** (detail) — Detailgegeven (weinig attributen)
+  - **Appartementsrechtsplitsing** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **KadastraleMutatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **KadastraleOnroerendeZaakAantekening** (detail) — Detailgegeven
+  - **KoopsomKadastraleOnroerendeZaak** (detail) — Detailgegeven
   - **KpBetrokkenBij** (detail) — Detailgegeven (geassocieerd met BO)
   - **KpOnstaanUit** (detail) — Detailgegeven (geassocieerd met BO)
-  - **SplitsingstekeningReferentie** (detail) — Detailgegeven
+  - **LocatieKadastraleOnroerendeZaak** (detail) — Detailgegeven
+  - **Zakelijk Recht** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Het eigendom van, of een beperkt recht van een natuurlijk of niet-natuurlijk persoon (PERSOON) op, een onroerende zaak (met uitzondering van hypotheken en beslagen)."
 bo_toelichting:
 bo_via_kandidaten:

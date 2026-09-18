@@ -26,6 +26,7 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Aflossingsplan** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aflossingsafspraak** (detail) — Detailgegeven (geassocieerd met BO)
   - **Uitstel aflossing** (onderdeel) — Onderdeel van Aflossingsplan
 bo_definitie: "Een aflossingsplan bevat alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij per wanneer welk bedrag aflost."
 bo_toelichting: "Er kunnen bijzondere afspraken worden vastgelegd, bijvoorbeeld Dwangbevel. In zulke gevallen wordt de gehele schuld in één keer weer opeisbaar gesteld."

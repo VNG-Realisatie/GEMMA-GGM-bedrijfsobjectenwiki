@@ -9,6 +9,8 @@ ggm_guid: EAID_7B9EDDFD_57F7_4ff2_938F_FDFA3B503DA8
 ggm_beleidsdomein: Griffie
 ggm_taakveld: "0 Bestuur, Politiek en Ondersteuning"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Collegelid** als directe tegenhanger.
 bo_definitie: "Het lidmaatschap van het college van burgemeester en wethouders: de verantwoordelijkheid van dagelijks bestuur en portefeuillebeheer, vervuld door een benoemde persoon."
 bo_toelichting:
 element_tegenhangers:

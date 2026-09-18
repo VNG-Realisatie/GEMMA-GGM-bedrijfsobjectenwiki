@@ -32,9 +32,8 @@ analyse_ggm_dekking: |
   - **GenotenOpleiding** (detail) — Detailgegeven (geassocieerd met BO)
   - **Geweldsincident** (detail) — Detailgegeven (geassocieerd met BO)
   - **Individueel Keuzebudget** (detail) — Detailgegeven (geassocieerd met BO)
-  - **KeuzebudgetBesteding** (detail) — Detailgegeven (weinig attributen)
-  - **KeuzebudgetBestedingsoort** (classificatie) — Typering/referentietabel
-  - **Opleiding** (detail) — Detailgegeven (weinig attributen)
+  - **KeuzebudgetBesteding** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Opleiding** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Relatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Rol** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "De contractuele wederpartij van de werkgever bij de arbeidsovereenkomst."

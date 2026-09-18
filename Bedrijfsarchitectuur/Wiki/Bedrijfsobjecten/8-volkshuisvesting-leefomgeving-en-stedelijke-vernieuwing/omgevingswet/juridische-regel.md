@@ -41,9 +41,10 @@ analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Juridische Regel** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Idealisatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Instructieregel** (onderdeel) — Onderdeel (naamindicatie)
+  - **Normwaarde** (detail) — Component van Omgevingsnorm / Omgevingswaarde
   - **Omgevingsdocument** (classificatie) — GGM-classificatie, geen zelfstandig gemeentelijk concept
   - **Omgevingswaarderegel** (onderdeel) — Onderdeel (naamindicatie)
-  - **Regel voor Iedereen** (onderdeel) — Onderdeel (naamindicatie)
+  - **Regel voor Iedereen** (detail) — Detailgegeven (geassocieerd met BO)
   - **Regeltekst** (detail) — Component van Juridische Regel
   - **Thema** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Regel met juridische werkingskracht in een omgevingsdocument, die activiteiten, normen, gebiedsaanwijzingen of omgevingswaarden beschrijft."

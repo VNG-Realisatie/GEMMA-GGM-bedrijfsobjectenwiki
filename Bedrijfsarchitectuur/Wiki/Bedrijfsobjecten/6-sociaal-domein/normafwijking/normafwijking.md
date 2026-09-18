@@ -27,7 +27,8 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
-analyse_ggm_dekking: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Normafwijking** als directe tegenhanger.
 bo_definitie: "Het constateren dat een bijstandsgerechtigde afwijkt van de normatieve verplichtingen die verbonden zijn aan het recht op bijstand, wat aanleiding kan geven tot een maatregel op de uitkering."
 bo_toelichting: "Vastgesteld op basis van de arbeids-, inlichtingen- of andere verplichtingen uit hoofdstuk 2 en art. 55 Participatiewet (art. 17, 18, 55). Bevat een aparte beoordeling van verwijtbaarheid: bij het ontbreken van elke vorm van verwijtbaarheid ziet het college af van een maatregel (art. 18 lid 9)."
 bo_subtypes: []

@@ -12,6 +12,8 @@ ggm_taakveld: "9 Interne Organisatie"
 ggm_definitie: "Persoon die een opdracht verstrekt."
 ggm_herkomst: GGM
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Opdrachtgever** als directe tegenhanger.
 bo_definitie: "Persoon die een opdracht verstrekt."
 bo_toelichting:
 element_tegenhangers:

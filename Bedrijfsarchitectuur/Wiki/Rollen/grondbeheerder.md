@@ -9,6 +9,8 @@ ggm_guid: EAID_B53EC85A_C731_4fb6_8379_7D11802273B2
 ggm_beleidsdomein: Grondbeheer
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Grondbeheerder** als directe tegenhanger.
 bo_definitie: "De verantwoordelijkheid voor het beheer van gronden."
 bo_toelichting:
 element_tegenhangers: []

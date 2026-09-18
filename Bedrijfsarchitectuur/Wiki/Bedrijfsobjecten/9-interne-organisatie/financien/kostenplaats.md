@@ -27,9 +27,11 @@ ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Kostenplaats** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Batchregel** (onderdeel) — Onderdeel (naamindicatie)
-  - **Betaalmoment** (detail) — Detailgegeven (weinig attributen)
-  - **FormulierInhuur** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Betaalmoment** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Museumrelatie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Mutatie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Programma** (detail) — Component van Begroting
+  - **Programmasoort** (classificatie) — Typering/referentietabel
   - **Subrekening** (detail) — Detailgegeven (geassocieerd met BO)
   - **Subsidiecomponent** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Rekening waaraan boekingen in een financiële administratie samen worden toegeschreven."

@@ -29,7 +29,10 @@ ggm_gemma_url:
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **InburgeringsAanbod** als directe tegenhanger.
+  Dit BO heeft de GGM-entiteit **InburgeringsAanbod** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aandachtspunt** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Hoofddoel** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Ontwikkelwens** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Het Inburgeringsaanbod is het geheel van activiteiten, voorzieningen en ondersteuning dat door de gemeente wordt aangeboden aan de inburgeringsplichtige om de inburgeringsdoelen te behalen, zoals vastgelegd in het persoonlijk plan inburgering en participatie (PIP)."
 bo_toelichting:
 bo_via_kandidaten:

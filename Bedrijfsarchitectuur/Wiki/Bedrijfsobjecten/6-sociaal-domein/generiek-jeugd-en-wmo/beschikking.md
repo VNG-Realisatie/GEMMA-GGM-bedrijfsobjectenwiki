@@ -36,27 +36,16 @@ ggm_duplicaat_entiteiten:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Beschikking** als directe tegenhanger. Daarnaast is **Beschikking** (beleidsdomein Diensten) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **AOMMeldingWmoJeugd** (detail) — Detailgegeven
-  - **AOM_AanvraagWmoJeugd** (detail) — Detailgegeven
   - **Beperking** (detail) — Eigenschap van beoordeling, niet zelfstandig BO
-  - **Beperkingscategorie** (detail) — Detailgegeven (weinig attributen)
-  - **Beperkingscore** (detail) — Detailgegeven (weinig attributen)
-  - **Beperkingscoresoort** (classificatie) — Typering/referentietabel
+  - **Beperkingscategorie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Beperkingscore** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Beschikkingsoort** (classificatie) — Typering/referentietabel
-  - **Beschikte Voorziening** (detail) — Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO
   - **Besluit** (detail) — Detailgegeven (geassocieerd met BO)
-  - **Declaratieregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Diensttype** (detail) — Detailgegeven
-  - **Leveringsvorm** (detail) — Detailgegeven (weinig attributen)
   - **Melding Eigen bijdrage** (detail) — Component van Eigen bijdrage, geen zelfstandig BO
   - **Onderdeel beschikking** (onderdeel) — Onderdeel (naamindicatie)
   - **Recht** (detail) — Detailgegeven
-  - **Regeling** (onderdeel) — Onderdeel (naamindicatie)
-  - **Team** (detail) — Detailgegeven (weinig attributen)
-  - **Verstrekkingsvorm** (detail) — Detailgegeven (weinig attributen)
   - **Verzoek om Toewijzing** (detail) — Detailgegeven
-  - **Voorwaarde** (detail) — Detailgegeven (weinig attributen)
-  - **Voorwaardetype** (classificatie) — Typering/referentietabel
 bo_definitie: "Formeel besluit van de gemeente op een aanvraag of melding voor ondersteuning onder de Wmo of Jeugdwet, met rechtsgevolgen voor de cliënt."
 bo_toelichting:
 bo_via_kandidaten:

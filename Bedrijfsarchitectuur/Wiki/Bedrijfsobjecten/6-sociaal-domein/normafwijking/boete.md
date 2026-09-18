@@ -27,7 +27,9 @@ ggm_gemma_bron:
 ggm_gemma_alternate_name:
 
 ggm_duplicaat_entiteiten: []
-analyse_ggm_dekking: ""
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Boete** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Verlaging door boete** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Een bestuurlijke sanctie die het college oplegt wegens het niet of niet behoorlijk nakomen van de inlichtingenplicht, waarmee ten onrechte of te veel ontvangen bijstand is verkregen."
 bo_toelichting: "Grondslag: art. 18a Participatiewet (boete tot het benadelingsbedrag, verhoogd bij recidive binnen 5-10 jaar) en art. 47g (boete bij uitvoering door de Sociale verzekeringsbank). Het college kan volstaan met een schriftelijke waarschuwing (lid 4) of afzien van een boete bij dringende redenen (lid 7). Kwijtschelding is mogelijk bij medewerking aan een schuldregeling, tenzij sprake was van opzet of grove schuld (art. 60c)."
 bo_subtypes: []

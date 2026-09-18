@@ -9,6 +9,8 @@ ggm_guid: EAID_FB771E02_8FE3_496b_B99B_CF4A496A7B80
 ggm_beleidsdomein: Omgevingswet
 ggm_taakveld: "8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Bevoegd Gezag** als directe tegenhanger.
 bo_definitie: "Bestuursorgaan dat bevoegd is tot het geven van een beschikking of het nemen van een ander besluit."
 bo_toelichting:
 element_tegenhangers: []

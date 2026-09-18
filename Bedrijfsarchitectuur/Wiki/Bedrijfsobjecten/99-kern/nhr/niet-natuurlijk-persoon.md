@@ -55,10 +55,11 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **NietNatuurlijkPersoon**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **AdresBuitenland** (detail) — Detailgegeven
-  - **Gerechtelijke uitspraak** (detail) — Detailgegeven (weinig attributen)
+  - **Gerechtelijke uitspraak** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Gezagsverhouding** (detail) — juridische status
-  - **Onderwijsinstituut** (detail) — Detailgegeven (weinig attributen)
+  - **Onderwijsinstituut** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
+  - **Projectontwikkelaar** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Schuldhulporganisatie** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister."
 bo_toelichting:
 bo_relaties:

@@ -9,6 +9,8 @@ ggm_guid: EAID_C2520FC3_622B_4edf_B911_C661B0D710FE
 ggm_beleidsdomein: Financien
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Opdrachtgever** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van degene die een opdracht verstrekt."
 bo_toelichting:
 element_tegenhangers:

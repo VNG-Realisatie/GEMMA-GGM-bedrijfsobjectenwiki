@@ -8,6 +8,8 @@ ggm_entiteit: Medewerker
 ggm_guid: EAID_16EB3936_03CB_4854_9CD8_9F0911EEA51B
 ggm_beleidsdomein: RGBZPlus
 ggm_taakveld: "99 Kern"
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Medewerker** als directe tegenhanger.
 bo_definitie: "De persoon binnen de gemeentelijke organisatie die uit hoofde van zijn of haar functie zaken behandelt en klantcontacten voert."
 bo_toelichting:
 element_tegenhangers:

@@ -29,10 +29,7 @@ ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Eigen bijdrage** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Beslag op inkomen** (detail) — Detailgegeven (weinig attributen)
-  - **Kostencomponent** (detail) — Detailgegeven (weinig attributen)
-  - **Reiskosten naar het werk** (detail) — Detailgegeven (weinig attributen)
-  - **Te betalen alimentatie** (detail) — Detailgegeven (weinig attributen)
+  - **Kostencomponent** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
 bo_definitie: "Financiële bijdrage die een cliënt verschuldigd is voor Wmo-voorzieningen, vastgesteld door het CAK op basis van gemeentelijke gegevens."
 bo_toelichting:
 bo_relaties:

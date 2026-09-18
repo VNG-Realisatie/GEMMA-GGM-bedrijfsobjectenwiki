@@ -35,8 +35,7 @@ ggm_duplicaat_entiteiten:
     afwijkende_attributen: "RSGBPlus gebruikt domein-geprefixte namen (buurtcode, buurtnaam, buurtgeometrie, etc.); voegt IMGeo-identificatie toe; minder attributen (geen status, versie, Geconstateerd, datumIngang, datumEinde)"
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Buurt** als directe tegenhanger. Daarnaast is **Buurt** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Areaal** (detail) — Detailgegeven (geassocieerd met BO)
+  Dit BO heeft de GGM-entiteit **Buurt** als directe tegenhanger. Daarnaast is **Buurt** (beleidsdomein RSGBPlus) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten.
 bo_definitie: "Een aaneengesloten gedeelte van een wijk, waarvan de grenzen zo veel mogelijk gebaseerd zijn op topografische elementen."
 bo_toelichting:
 bo_relaties:

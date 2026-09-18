@@ -32,7 +32,6 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Gunning** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
   - **Aanbesteding Inhuur** (detail) — Detailgegeven
-  - **Kandidaat** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Formeel besluit waarmee de gemeente een opdracht toewijst aan een ondernemer op basis van een aanbestedingsprocedure."
 bo_toelichting:
 bo_relaties:

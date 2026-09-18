@@ -9,6 +9,8 @@ ggm_guid: EAID_576642BA_9AF9_42fc_831A_F9D3138F20FC
 ggm_beleidsdomein: Musea
 ggm_taakveld: "5 Sport, Cultuur en Recreatie"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Belanghebbende** als directe tegenhanger.
 bo_definitie: "De wettelijke hoedanigheid (Awb) van degene wiens belang rechtstreeks bij een besluit is betrokken."
 bo_toelichting:
 element_tegenhangers: []

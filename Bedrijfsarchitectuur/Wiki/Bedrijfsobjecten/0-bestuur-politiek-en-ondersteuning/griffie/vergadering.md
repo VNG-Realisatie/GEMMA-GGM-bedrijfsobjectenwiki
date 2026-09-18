@@ -33,8 +33,7 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Vergadering** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Aanwezige Deelnemer** (onderdeel) — Onderdeel (naamindicatie)
-  - **Raadscommissie** (detail) — Detailgegeven (geassocieerd met BO)
+  - **Agendapunt** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Formele bijeenkomst van de gemeenteraad, een raadscommissie of het college, met agenda, registratie van aanwezigheid en besluitenlijst."
 bo_toelichting:
 bo_subtypes: []

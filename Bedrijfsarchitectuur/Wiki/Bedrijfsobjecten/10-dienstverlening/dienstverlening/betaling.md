@@ -27,7 +27,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Betaling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Bankafschrift** (detail) — Detailgegeven (weinig attributen)
+  - **Bankafschrift** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Bankafschriftregel** (onderdeel) — Onderdeel (naamindicatie)
   - **Bankrekening** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Het overboeken of ontvangen van geld in het kader van een zaak — leges, heffingen of andere betalingen gerelateerd aan gemeentelijke dienstverlening."

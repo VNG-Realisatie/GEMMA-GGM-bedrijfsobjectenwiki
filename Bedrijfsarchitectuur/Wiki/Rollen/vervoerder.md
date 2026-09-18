@@ -9,6 +9,9 @@ ggm_guid: EAID_613E192A_D0F2_4e67_BE73_51C09197EE3D
 ggm_beleidsdomein: Leerplicht en Leerlingenvervoer
 ggm_taakveld: "4 Onderwijs"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Vervoerder** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Klacht Leerlingenvervoer** (detail) — Te granulair; subtype klacht
 bo_definitie: "De hoedanigheid van degene die openbaar vervoer of besloten busvervoer verricht (niet als bestuurder)."
 bo_toelichting:
 element_tegenhangers: []

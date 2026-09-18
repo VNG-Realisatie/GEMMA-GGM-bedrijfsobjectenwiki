@@ -29,7 +29,6 @@ ggm_gemma_alternate_name:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Leerling** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Klacht Leerlingenvervoer** (detail) — Te granulair; subtype klacht
   - **Loopbaanstap** (detail) — Te granulair; onderdeel van onderwijsloopbaan
   - **Onderwijsloopbaan** (detail) — Aggregatie zonder eigen attributen; gemeente beheert niet direct
   - **Startkwalificatie** (detail) — Eigenschap van Leerling; relatie [0..1]

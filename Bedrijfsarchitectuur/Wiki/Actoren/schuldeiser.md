@@ -8,6 +8,8 @@ ggm_entiteit: Schuldeiser
 ggm_guid: EAID_DCDAD212_479E_4fc3_B886_585AE57D8C21
 ggm_beleidsdomein: Schuldhulpverlening
 ggm_taakveld: "Schulden"
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Schuldeiser** als directe tegenhanger.
 bo_definitie: "Bedrijf of persoon die recht heeft op een prestatie van de schuldenaar en met wie de gemeente namens de inwoner onderhandelt over schuldregelingen."
 bo_toelichting:
 element_tegenhangers:

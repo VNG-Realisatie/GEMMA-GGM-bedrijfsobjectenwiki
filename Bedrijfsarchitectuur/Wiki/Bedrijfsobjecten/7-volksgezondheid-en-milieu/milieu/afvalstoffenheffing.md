@@ -25,7 +25,8 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-343e027e-16c9-43d7-8b9
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
-  Dit BO is de hernoeming van GGM-entiteit **Prijsafspraak**.
+  Dit BO is de hernoeming van GGM-entiteit **Prijsafspraak**. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Prijsregel** (onderdeel) — Onderdeel (naamindicatie)
 bo_definitie: "Gemeentelijke bestemmingsbelasting ter dekking van de kosten voor huishoudelijk afvalbeheer."
 bo_toelichting:
 bo_via_kandidaten:

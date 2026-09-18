@@ -30,9 +30,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Gemeentebegrafenis** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Sociale Groep** (detail) — Detailgegeven
-  - **Sociale Relatie** (detail) — Detailgegeven (weinig attributen)
+  Dit BO heeft de GGM-entiteit **Gemeentebegrafenis** als directe tegenhanger.
 bo_definitie: "Uitvaart die de gemeente verzorgt wanneer niemand anders in de lijkbezorging voorziet, op grond van artikel 21 van de Wet op de lijkbezorging."
 bo_toelichting:
 bo_relaties:

@@ -9,6 +9,8 @@ ggm_guid: EAID_B75EE7EF_DC1F_47da_A95C_B9662075684D
 ggm_beleidsdomein: Vastgoed
 ggm_taakveld: "9 Interne Organisatie"
 ggm_duplicaat_entiteiten: []
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **Huurder** als directe tegenhanger.
 bo_definitie: "De hoedanigheid van de partij die een zaak in gebruik heeft gekregen tegen een tegenprestatie."
 bo_toelichting:
 element_tegenhangers: []

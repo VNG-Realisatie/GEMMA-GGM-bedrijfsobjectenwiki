@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 2 Verkeer, Vervoer en Waterstaat"
-datum: 2026-07-09
+datum: 2026-09-18
 taakveld: "2 Verkeer, Vervoer en Waterstaat"
 beleidsdomeinen:
   - Mobiliteit

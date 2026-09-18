@@ -103,4 +103,4 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 - **Orgel** — Registratieobject voor monumentale muziekinstrumenten in kerkgebouwen ontbreekt in GGM-beleidsdomein Monumenten. Roerend erfgoed met eigen monumentstatus, geïnventariseerd door gemeentelijke afdeling Erfgoed. Attributen: maker, bouwjaar, locatie, monumentstatus, bespeelbaarheid. Past onder beleidsdomein Monumenten (taakveld 5).
 - **eDepot** — Digitale archiefbewaarplaats ontbreekt als concept in GGM. Het GGM kent alleen fysiek "Depot". Meerdere GR-archieven (Westfries Archief, Rivierenland) gebruiken eDepot als kerninfrastructuur voor digitale archivering.
 
-Het ontbreken van een cultuurbeleid-domein in het GGM is structureel (GGM modelleert data, niet governance).
+Het GGM kent geen cultuurbeleid-domein — governance-instrumenten zoals dit zijn in het GGM niet compleet gedekt.

@@ -31,6 +31,7 @@ ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Aanbesteding** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
+  - **Aanbesteding Vastgoed** (detail) — Detailgegeven (geassocieerd met BO)
   - **Aankondiging** (detail) — GGM-component van Aanbesteding
   - **Kwalificatie** (detail) — Detailgegeven (geassocieerd met BO)
   - **Offerteaanvraag** (detail) — GGM-component van Aanbesteding

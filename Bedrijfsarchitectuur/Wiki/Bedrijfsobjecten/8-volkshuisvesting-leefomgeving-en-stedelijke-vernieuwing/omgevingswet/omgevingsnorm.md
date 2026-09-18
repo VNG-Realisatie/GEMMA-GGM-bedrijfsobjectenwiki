@@ -32,9 +32,7 @@ ggm_gemma_alternate_name:
 ggm_duplicaat_entiteiten: []
 
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Omgevingsnorm** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Norm** (detail) — Detailgegeven (weinig attributen)
-  - **Normwaarde** (detail) — Component van Omgevingsnorm / Omgevingswaarde
+  Dit BO heeft de GGM-entiteit **Omgevingsnorm** als directe tegenhanger.
 bo_definitie: "Norm in het omgevingsplan die in kwantitatieve of kwalitatieve waarden wordt uitgedrukt als referentiepunt voor activiteiten in de fysieke leefomgeving."
 bo_toelichting: "Omgevingsnormen bevatten normwaarden per locatie, zodat per gebied verschillende eisen kunnen gelden. Ze zijn gekoppeld aan juridische regels (RegelVoorIedereen) die beschrijven wat juridisch geldt."
 bo_subtypes: []

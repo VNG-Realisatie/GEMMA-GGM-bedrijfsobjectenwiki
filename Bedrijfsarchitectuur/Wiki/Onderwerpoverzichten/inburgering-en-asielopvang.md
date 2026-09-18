@@ -14,7 +14,7 @@ Dit domein beschrijft het gemeentelijk perspectief op de asielketen: van opvang 
 
 ## Conclusie
 
-17 bedrijfsobjecten vastgesteld: 15 met GGM-grondslag (exact match, beleidsdomein Inburgering), 2 zonder GGM (asielopvangfase). Het GGM modelleert het Wi2021-inburgeringstraject zeer gedetailleerd (35 entiteiten); daarvan zijn 15 bedrijfsobjecten, 16 zijn geaggregeerd als attributen/details, en 4 zijn classificaties of abstracte entiteiten. De asielopvangfase valt structureel buiten het GGM — dit is een hiaatbevinding.
+17 bedrijfsobjecten vastgesteld: 15 met GGM-grondslag (exact match, beleidsdomein Inburgering), 2 zonder GGM (asielopvangfase). Het GGM modelleert het Wi2021-inburgeringstraject zeer gedetailleerd (35 entiteiten); daarvan zijn 15 bedrijfsobjecten, 16 zijn geaggregeerd als attributen/details, en 4 zijn classificaties of abstracte entiteiten. De asielopvangfase ontbreekt in het GGM — dit is een hiaatbevinding.
 
 ## Twee fasen
 

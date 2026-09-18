@@ -25,8 +25,7 @@ ggm_gemma_url: "https://gemmaonline.nl/index.php/GEMMA/id-ae658af8-46be-4d41-ba9
 ggm_gemma_bron:
 ggm_gemma_alternate_name:
 analyse_ggm_dekking: |
-  Dit BO heeft de GGM-entiteit **Parkeerrecht** als directe tegenhanger. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Belprovider** (detail) — Te technisch/operationeel, geen herkenbaar bedrijfsobject
+  Dit BO heeft de GGM-entiteit **Parkeerrecht** als directe tegenhanger.
 bo_definitie: "Het onder bepaalde voorwaarden (zoals betaling parkeerbelasting of parkeergeld) ontstane recht om een voertuig gedurende een bepaalde of onbepaalde periode op een daartoe benoemde parkeerplaats of in/op een daartoe benoemde parkeervoorziening te parkeren."
 bo_toelichting:
 bedrijfsprocessen: [Parkeerbeleid, Parkeerhandhaving]

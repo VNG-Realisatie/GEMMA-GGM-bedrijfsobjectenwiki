@@ -8,6 +8,8 @@ ggm_entiteit: OrganisatorischeEenheid
 ggm_guid: EAID_936A4E8B_3E5A_44b6_8A5D_EFB39F83FB6D
 ggm_beleidsdomein: RGBZPlus
 ggm_taakveld: "99 Kern"
+analyse_ggm_dekking: |
+  Dit BO heeft de GGM-entiteit **OrganisatorischeEenheid** als directe tegenhanger.
 bo_definitie: "Het functioneel afgebakende onderdeel van de gemeentelijke organisatie dat verantwoordelijk is voor de behandeling van zaken."
 bo_toelichting:
 element_tegenhangers:
