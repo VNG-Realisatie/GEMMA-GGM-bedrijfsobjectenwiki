@@ -16,11 +16,26 @@ script instead of a narrative LLM answer makes them exact and repeatable.
 Usage:
   python3 tools/lint_checks.py [onderwerp-substring]
   python3 tools/lint_checks.py --json [onderwerp-substring]   # machine-readable
+  python3 tools/lint_checks.py --fix [onderwerp-substring]    # apply safe fixes, then report
 
 With an onderwerp argument, only BO/Actor/Rol files whose `onderwerp:` field
 or file path contains that substring (case-insensitive) are checked; wiki-wide
 checks (orphan analysis, duplicate filenames, Begrippen/ directory) always run
 over the full wiki since they are inherently cross-cutting.
+
+`--fix` applies only categories that are mechanically safe (each verifies its
+own write before committing it — see the fix_* functions): alias stripped
+from `## Bronnen`-section links, dead `[[Sources/...]]` links resolved to
+their real path (only when exactly one candidate file matches by basename),
+`ggm_duplicaat_entiteiten` upgraded from the old flat-GUID-list schema to the
+dict schema via a `ggm_parsed.json` lookup, and a missing `ggm_entiteit`/
+`ggm_guid` in a `bo_homoniemen` item backfilled from its own named
+`bedrijfsobject` target's frontmatter (only when that target page exists and
+has that data itself). Everything else needs domain knowledge — cardinality
+values, which BO a homoniem without a `bedrijfsobject` link should point to,
+or (for `## GGM-duplicaten` body sections) an editorial call on which GUID is
+"primair" plus a cross-reference into `ggm-terugmeldingen.md` — and is left
+to the report, not guessed at.
 """
 
 import glob
@@ -430,6 +445,258 @@ def check_antipatroon_registr(files):
     return candidates
 
 
+# -------------------------------------------------------------------- fixes
+
+def _strip_bronnen_aliases_text(text):
+    """Remove `|alias` from `[[path|alias]]` links inside `## Bronnen`
+    sections only. Pure function of the file text — used by
+    fix_bronnen_aliases and unit-testable without touching disk."""
+    pattern = re.compile(r'^(\s*-\s*\[\[)([^\]|]+)\|([^\]]+)(\]\])(.*)$')
+    lines = text.split('\n')
+    out = []
+    in_bronnen = False
+    changed = False
+    for line in lines:
+        if re.match(r'^## Bronnen\s*$', line):
+            in_bronnen = True
+            out.append(line)
+            continue
+        if in_bronnen and re.match(r'^## ', line):
+            in_bronnen = False
+        if in_bronnen:
+            m = pattern.match(line)
+            if m:
+                out.append(f'{m.group(1)}{m.group(2)}{m.group(4)}{m.group(5)}')
+                changed = True
+                continue
+        out.append(line)
+    return '\n'.join(out), changed
+
+
+def fix_bronnen_aliases(dry_run=True):
+    fixed_files = []
+    for f in sorted(WIKI.rglob('*.md')):
+        txt = f.read_text(encoding='utf-8')
+        new_txt, changed = _strip_bronnen_aliases_text(txt)
+        if changed:
+            fixed_files.append(rel(f))
+            if not dry_run:
+                f.write_text(new_txt, encoding='utf-8')
+    return fixed_files
+
+
+def fix_dead_source_links(dry_run=True):
+    """Only fixes an unambiguous case: exactly one file under
+    Sources/Onderwerpen/ matches the broken link's basename. Anything else
+    (zero or multiple matches) is reported as unresolved, not guessed at."""
+    dead_links, _ = check_source_links()
+    fixed, unresolved = [], []
+    for fpath_rel, broken in dead_links:
+        fpath = BASE / fpath_rel
+        basename = broken[:-3] if broken.endswith('.md') else broken
+        basename = basename.rsplit('/', 1)[-1]
+        candidates = list((BASE / 'Sources' / 'Onderwerpen').rglob(f'{basename}.md'))
+        if len(candidates) != 1:
+            unresolved.append((fpath_rel, broken, len(candidates)))
+            continue
+        real_path = str(candidates[0].relative_to(BASE)).replace('\\', '/')[:-3]
+        txt = fpath.read_text(encoding='utf-8')
+        new_txt = txt.replace(f'[[{broken}]]', f'[[{real_path}]]')
+        if new_txt == txt:
+            unresolved.append((fpath_rel, broken, 0))
+            continue
+        fixed.append((fpath_rel, broken, real_path))
+        if not dry_run:
+            fpath.write_text(new_txt, encoding='utf-8')
+    return fixed, unresolved
+
+
+def _yaml_scalar(s):
+    s = str(s)
+    if re.match(r'^[\w\s\-]+$', s) and not s[:1].isdigit():
+        return s
+    return f'"{s}"'
+
+
+def fix_duplicaat_schema(dry_run=True):
+    """Upgrades ggm_duplicaat_entiteiten from a flat GUID-string list to the
+    dict schema (entiteit/guid/beleidsdomein/taakveld), via ggm_parsed.json.
+    afwijkende_attributen is left blank — not derivable from the GGM source.
+    Verifies the GUID set is unchanged before writing; aborts per-file (does
+    not write) on a missing GUID or any mismatch after the rewrite."""
+    if not GGM_PARSED.exists():
+        return [], []
+    entities = json.loads(GGM_PARSED.read_text(encoding='utf-8'))['entities']
+    old_schema_files, _, _ = check_duplicaten(all_element_files())
+
+    fixed, aborted = [], []
+    for relpath in old_schema_files:
+        f = BASE / relpath
+        txt = f.read_text(encoding='utf-8')
+        parts = txt.split('---', 2)
+        fm_text = parts[1]
+        old_fields = yaml.safe_load(fm_text) or {}
+
+        m = re.search(r'^ggm_duplicaat_entiteiten:\n((?:  - "?EAID_[A-Za-z0-9_]+"?\n)+)', fm_text, re.M)
+        if not m:
+            aborted.append((relpath, 'patroon niet gevonden (afwijkend format)'))
+            continue
+        guids = re.findall(r'EAID_[A-Za-z0-9_]+', m.group(1))
+
+        new_items, ok = [], True
+        for guid in guids:
+            ent = entities.get(guid)
+            if not ent:
+                aborted.append((relpath, f'guid niet in ggm_parsed.json: {guid}'))
+                ok = False
+                break
+            new_items.append(
+                f'  - entiteit: {_yaml_scalar(ent["name"])}\n'
+                f'    guid: {guid}\n'
+                f'    beleidsdomein: {_yaml_scalar(ent.get("beleidsdomein") or "")}\n'
+                f'    taakveld: {_yaml_scalar(ent.get("taakveld") or "")}\n'
+                f'    afwijkende_attributen:\n'
+            )
+        if not ok:
+            continue
+
+        new_fm_text = fm_text[:m.start()] + 'ggm_duplicaat_entiteiten:\n' + ''.join(new_items) + fm_text[m.end():]
+        new_fields = yaml.safe_load(new_fm_text) or {}
+        old_guids = {x if isinstance(x, str) else x.get('guid') for x in old_fields.get('ggm_duplicaat_entiteiten', [])}
+        new_guids = {x.get('guid') for x in new_fields.get('ggm_duplicaat_entiteiten', [])}
+        if old_guids != new_guids:
+            aborted.append((relpath, f'guid-mismatch na herschrijven: oud={old_guids} nieuw={new_guids}'))
+            continue
+
+        fixed.append((relpath, len(guids)))
+        if not dry_run:
+            new_txt = parts[0] + '---' + new_fm_text + '---' + parts[2]
+            f.write_text(new_txt, encoding='utf-8')
+    return fixed, aborted
+
+
+def fix_homoniemen_ggm_backfill(dry_run=True):
+    """Backfills a missing ggm_entiteit/ggm_guid in a bo_homoniemen item —
+    but only when that item already names a `bedrijfsobject` target that (a)
+    exists as a real wiki page and (b) itself has non-blank ggm_entiteit/
+    ggm_guid to copy from. Anything else (no target page, target has no GGM
+    grounding either, missing `bedrijfsobject` itself) is a real content gap
+    that requires a human decision — reported as unresolved, not guessed at.
+    """
+    guid_index = {}  # relpath (no .md, Wiki/... prefix) -> (ggm_entiteit, ggm_guid)
+    for f in all_element_files():
+        fm, _, _ = parse_frontmatter(f)
+        if fm and fm.get('ggm_entiteit') and fm.get('ggm_guid'):
+            guid_index[wiki_relpath_no_ext(f)] = (fm['ggm_entiteit'], fm['ggm_guid'])
+
+    fixed, unresolved = [], []
+    for f in all_element_files():
+        fm, fm_text, body = parse_frontmatter(f)
+        if fm is None or not fm.get('bo_homoniemen'):
+            continue
+        new_fm_text = fm_text
+        item_changed = False
+        for item in fm['bo_homoniemen']:
+            if not isinstance(item, dict):
+                continue
+            missing = [k for k in ('ggm_entiteit', 'ggm_guid') if not item.get(k)]
+            if not missing:
+                continue
+            bo = item.get('bedrijfsobject') or ''
+            m = re.search(r'\[\[([^\]|]+)', bo)
+            if not m:
+                unresolved.append((rel(f), 'bedrijfsobject zelf ontbreekt — geen target om van te lenen'))
+                continue
+            target_path = m.group(1).strip()
+            target_data = guid_index.get(target_path)
+            if not target_data:
+                unresolved.append((rel(f), f'target {target_path} bestaat niet of heeft zelf geen ggm_entiteit/ggm_guid'))
+                continue
+            target_entiteit, target_guid = target_data
+            # Only touch the specific empty scalar lines that sit right after
+            # this item's `- bedrijfsobject:` line, up to the next item/field,
+            # so we never risk touching an unrelated homoniem entry.
+            bo_line_pat = re.escape(bo.strip())
+            item_block_pat = re.compile(
+                rf'(-\s*bedrijfsobject:\s*"?{bo_line_pat}"?\n(?:    [a-z_]+:.*\n)*)', re.M
+            )
+            block_m = item_block_pat.search(new_fm_text)
+            if not block_m:
+                unresolved.append((rel(f), f'kon item-blok voor {target_path} niet exact terugvinden in ruwe tekst'))
+                continue
+            block = block_m.group(1)
+            new_block = block
+            if 'ggm_entiteit' in missing:
+                new_block = re.sub(r'(\n    ggm_entiteit:)\s*\n', rf'\1 {_yaml_scalar(target_entiteit)}\n', new_block)
+            if 'ggm_guid' in missing:
+                new_block = re.sub(r'(\n    ggm_guid:)\s*\n', rf'\1 {target_guid}\n', new_block)
+            if new_block != block:
+                new_fm_text = new_fm_text[:block_m.start()] + new_block + new_fm_text[block_m.end():]
+                item_changed = True
+        if item_changed:
+            new_fields = yaml.safe_load(new_fm_text) or {}
+            # semantic check: every old field/value survives, only the
+            # targeted blanks became non-blank
+            old_homoniemen = fm['bo_homoniemen']
+            new_homoniemen = new_fields.get('bo_homoniemen') or []
+            if len(old_homoniemen) != len(new_homoniemen):
+                unresolved.append((rel(f), 'ABORT: aantal homoniem-items veranderd na herschrijven'))
+                continue
+            ok = True
+            for old_item, new_item in zip(old_homoniemen, new_homoniemen):
+                for k, v in old_item.items():
+                    if v and new_item.get(k) != v:
+                        ok = False
+            if not ok:
+                unresolved.append((rel(f), 'ABORT: bestaande waarde veranderd na herschrijven'))
+                continue
+            fixed.append(rel(f))
+            if not dry_run:
+                txt = f.read_text(encoding='utf-8')
+                parts = txt.split('---', 2)
+                new_txt = parts[0] + '---' + new_fm_text + '---' + parts[2]
+                f.write_text(new_txt, encoding='utf-8')
+    return fixed, unresolved
+
+
+def run_fixes():
+    print('# Fixes toegepast\n')
+
+    alias_fixed = fix_bronnen_aliases(dry_run=False)
+    print(f'Bronnen-alias gestript: {len(alias_fixed)}')
+    for x in alias_fixed:
+        print(f'  - {x}')
+
+    link_fixed, link_unresolved = fix_dead_source_links(dry_run=False)
+    print(f'\nDode Sources-links opgelost: {len(link_fixed)}')
+    for f, old, new in link_fixed:
+        print(f'  - {f}: [[{old}]] -> [[{new}]]')
+    if link_unresolved:
+        print(f'Niet opgelost, handmatig nodig ({len(link_unresolved)}):')
+        for f, old, n in link_unresolved:
+            print(f'  - {f}: [[{old}]] ({n} kandidaten)')
+
+    dup_fixed, dup_aborted = fix_duplicaat_schema(dry_run=False)
+    print(f'\nggm_duplicaat_entiteiten schema-upgrades: {len(dup_fixed)}')
+    for f, n in dup_fixed:
+        print(f'  - {f} ({n} entiteit(en))')
+    if dup_aborted:
+        print(f'Niet opgelost, handmatig nodig ({len(dup_aborted)}):')
+        for f, reason in dup_aborted:
+            print(f'  - {f}: {reason}')
+
+    hom_fixed, hom_unresolved = fix_homoniemen_ggm_backfill(dry_run=False)
+    print(f'\nbo_homoniemen ggm_entiteit/ggm_guid aangevuld vanuit target-BO: {len(hom_fixed)}')
+    for f in hom_fixed:
+        print(f'  - {f}')
+    if hom_unresolved:
+        print(f'Niet opgelost, vereist inhoudelijke keuze ({len(hom_unresolved)}):')
+        for f, reason in hom_unresolved:
+            print(f'  - {f}: {reason}')
+
+    print('\n---\n')
+
+
 # ------------------------------------------------------------------- main
 
 def fmt_list(items, limit=25):
@@ -440,9 +707,13 @@ def fmt_list(items, limit=25):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if a != '--json']
+    args = [a for a in sys.argv[1:] if a not in ('--json', '--fix')]
     as_json = '--json' in sys.argv
+    do_fix = '--fix' in sys.argv
     scope = args[0] if args else None
+
+    if do_fix:
+        run_fixes()
 
     files = all_element_files(scope)
     report = {}

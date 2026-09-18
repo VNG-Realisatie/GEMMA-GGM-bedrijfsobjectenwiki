@@ -50,7 +50,7 @@ Formele overeenkomst tussen gemeente en COA over de exploitatie, financiering en
 
 ## GGM-bron
 
-Geen GGM-match. Governance-objecten vallen structureel buiten GGM-scope. Het GGM modelleert data-objecten, niet juridische kaders of overeenkomsten tussen bestuursorganen. Dit is geen incidenteel hiaat maar een structureel patroon (zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]]).
+Geen GGM-match. Het GGM modelleert vooral data-objecten; governance-objecten zoals juridische kaders of overeenkomsten tussen bestuursorganen zijn daarin niet compleet gedekt.
 
 ## Relaties
 

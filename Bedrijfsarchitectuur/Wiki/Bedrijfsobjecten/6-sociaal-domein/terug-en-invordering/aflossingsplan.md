@@ -73,3 +73,4 @@ Alle afspraken tussen de gemeente en de debiteur over op welke vordering hij/zij
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

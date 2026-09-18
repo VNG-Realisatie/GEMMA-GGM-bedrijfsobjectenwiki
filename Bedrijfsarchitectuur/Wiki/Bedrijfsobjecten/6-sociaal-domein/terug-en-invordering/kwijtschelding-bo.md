@@ -71,3 +71,4 @@ De structuur (bedrag, reden, boekingsdatum) is in beide contexten vergelijkbaar 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

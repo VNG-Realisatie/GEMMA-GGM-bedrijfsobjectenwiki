@@ -358,6 +358,7 @@
 
 ### Werk en Inkomen (GGM beleidsdomein Werk + Model Inkomen, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/werkzoekende|werkzoekende]] — Generiek werkprofiel met arbeidspositie, bemiddelbaarheid en begeleidingsbehoefte (GGM exact, abstract, 25+ componenten)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/ontheffing|ontheffing (werk)]] — Vrijstelling van arbeidsverplichtingen zoals beschikbaarheid of tegenprestatie (GGM exact, homoniem met Ontheffing Inburgering #94)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/trajectplan|trajectplan]] — Overkoepelend plan dat re-integratieactiviteiten per werkzoekende organiseert (GGM-hiaat, SGR-klasse)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/instrument|instrument]] — Beschikbare dienst/tool voor toeleiding naar werk, catalogus-item Dennis & Eva (GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/vacature-arbeidsmarkt|vacature (arbeidsmarkt)]] — Openstaande arbeidsplaats bij werkgever voor VUM-matching met werkzoekenden (GGM-hiaat, homoniem HR-Vacature)
@@ -365,6 +366,12 @@
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/re-integratievoorziening|re-integratievoorziening]] — Voorziening gericht op vergroten arbeidskansen werkzoekende (GGM exact, 12 attributen)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening|inkomensvoorziening]] — Regeling die voorziet in inkomen conform landelijke wetgeving (GGM exact)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/draagkracht|draagkracht]] — Berekend deel inkomen/vermogen beschikbaar voor eigen kosten (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/voorschot|voorschot]] — Renteloze geldlening vooruitlopend op vaststelling recht op bijstand (GGM-hiaat #95)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/verhaal|verhaal]] — Verhaal van bijstandskosten op een onderhoudsplichtige derde (GGM-hiaat #96)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/normafwijking/normafwijking|normafwijking]] — Constatering dat een bijstandsgerechtigde een verplichting niet nakomt (GGM exact)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/normafwijking/maatregel|maatregel]] — Verlaging van de bijstand bij niet-nakoming van verplichtingen (GGM sterk, abstract, generaliseert naar Boete)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/normafwijking/boete|boete]] — Bestuurlijke boete wegens schending inlichtingenplicht (GGM exact, specialisatie van Maatregel)
+- [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/vermogenscomponent|vermogenscomponent]] — Afzonderlijk vastgesteld onderdeel van het vermogen, bijv. spaargeld of woning (GGM exact, abstract)
 
 ### Schulden — Schuldhulpverlening (GGM taakveld 6/Schulden)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/schulden/schuldhulptraject|schuldhulptraject]] — Volledig begeleidingstraject van aanmelding tot uitstroom en nazorg (GGM exact)
@@ -795,6 +802,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand|Factsheet Bijzondere Bijstand]] — Divosa: bijzondere bijstand, beschermingsbewind, draagkracht (2024)
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw|Handreiking Explicitering budgetten Participatiewet en Wsw]] — Berenschot/Divosa/Cedris/VNG/SZW: financieringssystematiek Participatiewet (2025)
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en Gegevensregister SUWI 19.0]] — Rijksoverheid/BKWI: organisatiestructuur UWV-SVB-gemeenten, conceptueel gegevensmodel SUWI-keten, VUM, Dennis & Eva (2026)
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet|Participatiewet]] — Rijksoverheid: bijstandswet, arbeidsverplichtingen en ontheffingen, normen en vermogen, uitvoering, terugvordering en verhaal, bestuurlijke boete en maatregel (2026)
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/burgerlijk-wetboek-boek-1-titel-17-levensonderhoud|Burgerlijk Wetboek Boek 1, Titel 17 — Levensonderhoud]] — Rijksoverheid: onderhoudsplicht, draagkracht/behoeftigheid, LBIO-invordering (art. 392-408)
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-studiefinanciering-2000|Wet studiefinanciering 2000 (BWBR0011453)]] — Rijksoverheid: definities, werkingssfeer, vormen van studiefinanciering (basisbeurs, lening, collegegeldkrediet)
 

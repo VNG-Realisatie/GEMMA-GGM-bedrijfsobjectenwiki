@@ -7,6 +7,21 @@ Verwacht een begrip dat al is beoordeeld. Doet zelf géén criteria-toetsing of 
 
 **Elementtype bepaalt de route:** bedrijfsobjecten (business-object/contract/product) volgen alle stappen hieronder. Actor- en rol-pagina's volgen Stap 11. Bij het twee-pagina-patroon (begrip is actor/rol én BO, zie `/assess-element` Stap 2b): maak beide pagina's en koppel ze via `element_tegenhangers`.
 
+## Stap 0: Naamgeving en disambiguatie
+
+Elke BO-naam moet op zichzelf ondubbelzinnig zijn, ongeacht grondslag. Een naamcollisie kan blijken uit:
+- **Wiki-collisie** — de naam wordt al door een ander BO gebruikt (grep op de naam in `Wiki/Bedrijfsobjecten/`). Geldt voor elke grondslag.
+- **GGM-homoniem** — stap 4b vindt dezelfde GGM-entiteitnaam voor een ander concept in een ander beleidsdomein. Geldt alleen bij `grondslag: ggm-entiteit`; meld ook terug als `homoniem` (stap 4b/9).
+
+**Bij een collisie:** stel 2-3 alternatieve namen voor, leg de keuze voor aan de gebruiker.
+- Domein-prefix: bijv. "Onderwijs-inschrijving"
+- Samengesteld woord: bijv. "Onderwijsinschrijving"
+- Functionele naam: bijv. "Aanbestedings-inschrijving" (gericht op wat het concept doet)
+
+Gebruik **niet** de GEMMA `ggm_gemma_alternate_name`-conventie (bijv. "Inschrijving (Onderwijs)") als bestandsnaam — haakjes in bestandsnamen zijn ongewenst. Documenteer de keuze in `## Naamkeuze` (zie template).
+
+**Bij een GGM-homoniem specifiek:** `ggm_entiteit` blijft de originele GGM-naam (behoudt herleidbaarheid naar het GGM); `naam` en `ggm_gemma_naam` krijgen de nieuw gekozen, ondubbelzinnige naam. Voeg de originele naam niet toe aan `bo_synoniemen` — bij een homoniem is de oude naam het probleem, geen synoniem; die wordt al gedocumenteerd in `bo_homoniemen` (stap 4b).
+
 ## Stap 1: Grondslag bepalen
 
 Bepaal de grondslag van het BO via deze cascade:
@@ -41,9 +56,11 @@ Zoek in `Sources/GGM/` naar kandidaat-entiteiten:
 - Bij voorkeur **1-op-1 mapping** (beheerbaarheid, herkenbaarheid).
 - **Aggregatie** toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
 - Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt als hetzelfde concept: maak één bedrijfsobject met de thematisch passende GUID als primair en de overige in `ggm_duplicaat_entiteiten`. Meld als `duplicaat` terug.
-- Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: dit is een homoniem. Stel 2-3 alternatieve namen voor (zie stap 4c) en leg de keuze voor aan de gebruiker. Meld als `homoniem` terug.
+- Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: dit is een homoniem. Stel 2-3 alternatieve namen voor (zie stap 0) en leg de keuze voor aan de gebruiker. Meld als `homoniem` terug.
 
 ## Stap 4b: GGM-duplicaten detecteren
+
+**Alleen van toepassing bij `grondslag: ggm-entiteit`.** Een homoniem is per definitie een naamcollisie tussen twee GGM-entiteiten — niet tussen twee wiki-BO's (zie stap 0). Heeft dit BO geen eigen `ggm_entiteit` (grondslag `procesobject`, `ggm-afgeleid` of `governance-object`), dan kan het geen homoniem hebben, ook niet als de BO-naam toevallig lijkt op een andere BO. `bo_homoniemen` blijft dan `[]`.
 
 Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkomt.
 
@@ -62,20 +79,7 @@ Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkom
    - Duplicaten → type `duplicaat` in `Wiki/Analyses/ggm-terugmeldingen.md`
    - Homoniemen → type `homoniem` in `Wiki/Analyses/ggm-terugmeldingen.md`
 
-## Stap 4c: Homoniem-naamkeuze
-
-Bij homoniem-detectie (stap 4b): de BO-naam moet disambigueren. Stel **2-3 namen** voor en leg de keuze voor aan de gebruiker.
-
-**Suggestiestrategieën:**
-- Domein-prefix: bijv. "Onderwijs-inschrijving"
-- Samengesteld woord: bijv. "Onderwijsinschrijving"
-- Functionele naam: bijv. "Aanbestedings-inschrijving" (gericht op wat het concept doet)
-
-**Regels:**
-- Gebruik **niet** de GEMMA `ggm_gemma_alternate_name` conventie (bijv. "Inschrijving (Onderwijs)") als BO-naam — haakjes in bestandsnamen zijn ongewenst.
-- De GGM-entiteitnaam wordt `ggm_entiteit`; de gekozen naam wordt `naam` en `ggm_gemma_naam`.
-- Documenteer de naamkeuze in de body-sectie `## Naamkeuze` (zie template).
-- Voeg de originele GGM-naam **niet** toe aan `bo_synoniemen` — bij een homoniem is de oude naam juist het probleem, geen synoniem. Het homoniem wordt gedocumenteerd in `bo_homoniemen` (zie stap 4b).
+Bij homoniem-detectie: kies een ondubbelzinnige naam volgens stap 0.
 
 ## Stap 5: GGM-velden ophalen
 
@@ -186,7 +190,7 @@ Body-secties volgens template:
 - **Specialisaties** (optioneel): tabel met children-BO's (aparte BO-pagina's)
 - **Subtypes** (optioneel): lijst met subtypes die geen apart BO zijn
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, matchsterkte
-- **Naamkeuze** (optioneel): wanneer stap 4c een homoniem-naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/element.md` voor format.
+- **Naamkeuze** (optioneel): wanneer stap 0 een naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/element.md` voor format.
 - **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/element.md` voor format.
 - **BO-definitie**: alleen als eigen definitie afwijkt van GGM
 - **Relaties**: afgeleid van GGM-associaties of beleidsbronnen

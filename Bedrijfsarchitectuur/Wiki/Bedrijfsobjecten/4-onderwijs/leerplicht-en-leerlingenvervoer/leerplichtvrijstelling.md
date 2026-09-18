@@ -32,7 +32,8 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: |
   Dit BO is de hernoeming van GGM-entiteit **Vrijstelling**.
 bo_homoniemen:
-  - ggm_entiteit: "Vrijstelling"
+  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/vrijstelling|Vrijstelling (Inburgering)]]"
+    ggm_entiteit: "Vrijstelling"
     ggm_guid: "EAID_C31D4A7E_1F25_4b85_B49C_AEC45EB3DB54"
     ggm_beleidsdomein: "Inburgering"
     toelichting: "Vrijstelling van de inburgeringsplicht — ander concept dan leerplichtvrijstelling"

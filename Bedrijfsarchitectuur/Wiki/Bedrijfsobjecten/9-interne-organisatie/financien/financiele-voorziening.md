@@ -29,12 +29,7 @@ bo_definitie: "Verplichting of risico op de balans waarvan de omvang onzeker is 
 bo_toelichting: "Voorzieningen worden gevormd voor vier grondslagen: onzekere verplichtingen/verliezen, bestaande risico's, egalisatie van lasten, en vervangingsinvesteringen bij heffingen."
 bo_subtypes: []
 bo_synoniemen: []
-bo_homoniemen:
-  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening|Voorziening]]"
-    ggm_entiteit: "Voorziening"
-    ggm_guid:
-    ggm_beleidsdomein: "Generiek Jeugd en Wmo"
-    toelichting: "Wmo/Jeugdwet-voorziening is een middel voor ondersteuning/hulp; financiële voorziening is een balanspost voor verplichtingen/risico's"
+bo_homoniemen: []
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Begroting]]"

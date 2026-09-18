@@ -69,7 +69,7 @@ Organisatorisch is een referendum vergelijkbaar met verkiezingen (dezelfde stemb
 
 ## GGM-grondslag
 
-Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] is **Referendum een proces**, niet een registratieobject. Dit valt **buiten de scope van het GGM** per definitie (zie [[Wiki/Analyses/ggm-dekkingspatroon|GGM-dekkingspatroon]]).
+Dit BO heeft **geen GGM-entiteit** — en dat is logisch. Net als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/verkiezing|Verkiezing]] is **Referendum een proces**, niet een registratieobject. Procesobjecten zijn in het GGM niet compleet gemodelleerd.
 
 **Geen terugmelding naar GGM** — dit is een structurele scopekeuze, geen fout.
 

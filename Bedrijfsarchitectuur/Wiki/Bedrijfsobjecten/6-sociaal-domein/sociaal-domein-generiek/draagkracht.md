@@ -99,6 +99,7 @@ Gemeenten hebben aanzienlijke beleidsvrijheid bij de draagkrachtberekening:
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 31-33: middelen en inkomen)
 
 ## Terugmelding GGM
 

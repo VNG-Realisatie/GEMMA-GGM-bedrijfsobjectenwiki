@@ -148,3 +148,4 @@ GGM-entiteiten die onderdeel zijn van Werkzoekende. Gemodelleerd als aparte enti
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]]

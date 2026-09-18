@@ -75,6 +75,10 @@ bo_synoniemen: []
 #  - naam: {alternatieve naam}
 #    context: {waar deze naam wordt gebruikt, bijv. "GGM", "beleidsdocumenten", "dagelijks gebruik"}
 bo_homoniemen: []
+# Alleen bij grondslag ggm-entiteit — een homoniem is een naamcollisie tussen
+# twee GGM-entiteiten, geen collisie tussen twee wiki-BO-namen (die laatste
+# los je op bij de naamgeving zelf, zie /write-element Stap 0). Zonder eigen
+# ggm_entiteit blijft dit veld [].
 #  - bedrijfsobject: {wiki-link naar het andere BO, bijv. "[[Inschrijving (Onderwijs)]]"}
 #    ggm_entiteit: {GGM-entiteitnaam}
 #    ggm_guid: {EA GUID van het andere concept}
@@ -124,14 +128,14 @@ BO-pagina's hebben geen apart goedkeuringsmoment. Als het proces is doorlopen en
 
 ### Grondslag
 
-Geeft aan waarop het bedrijfsobject is gebaseerd. Het GGM modelleert data-objecten maar niet processen of governance (zie [[ggm-dekkingspatroon]]). Er zal daarom altijd een klasse bedrijfsobjecten zijn zonder GGM-grondslag.
+Geeft aan waarop het bedrijfsobject is gebaseerd. Het GGM modelleert vooral data-objecten; procesobjecten en governance-objecten zijn daarin niet compleet gedekt (incidentele uitzonderingen bestaan, bijv. GGM-beleidsdomein Normafwijking). Er zal daarom vaak een bedrijfsobject zijn zonder GGM-grondslag.
 
 | Grondslag | Betekenis | GGM-relatie | Voorbeeld |
 |---|---|---|---|
 | **ggm-entiteit** | 1:1 of n:1 mapping op een GGM-entiteit | Directe match; definitie en attributen uit GGM | WOZ-object, Begroting, Debiteur |
 | **ggm-afgeleid** | Afleidbaar uit bestaande GGM-objecten | Geen eigen entiteit, wel berekbaar | *(toekomstig: solvabiliteitsratio als BO)* |
-| **procesobject** | Artefact dat in een proces ontstaat, niet in GGM gemodelleerd | Structureel hiaat — GGM dekt processen niet | *(toekomstig: belastingaanslag, kadernota)* |
-| **governance-object** | Juridisch of beleidsmatig kader dat processen aanstuurt | Structureel hiaat — GGM dekt governance niet | *(toekomstig: belastingverordening)* |
+| **procesobject** | Artefact dat in een proces ontstaat, niet in GGM gemodelleerd | Meestal geen match — GGM dekt processen niet compleet | *(toekomstig: belastingaanslag, kadernota)* |
+| **governance-object** | Juridisch of beleidsmatig kader dat processen aanstuurt | Meestal geen match — GGM dekt governance niet compleet | *(toekomstig: belastingverordening)* |
 
 ## Body
 
@@ -141,8 +145,9 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 
 - **Verwijzingen naar gerelateerde BO's:** `[[bedrijfsobject-naam]]` (bijv. `[[Stembureau]]`, `[[Begroting]]`)
 - **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}}|display-tekst]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
-- **Verwijzingen naar analyses:** `[[Wiki/Analyses/analyse-slug|display-tekst]]` (bijv. `[[Wiki/Analyses/ggm-dekkingspatroon]]`)
+- **Verwijzingen naar analyses:** `[[Wiki/Analyses/analyse-slug|display-tekst]]` (bijv. `[[Wiki/Analyses/ggm-terugmeldingen]]`)
 - **Citaten uit bronnen:** platte tekst (geen links)
+- **Geen verwijzingen naar technische/proces-bestanden** (`CLAUDE.md`, `templates/`, `tools/`, skills): zie CLAUDE.md §7.
 
 ### Secties
 

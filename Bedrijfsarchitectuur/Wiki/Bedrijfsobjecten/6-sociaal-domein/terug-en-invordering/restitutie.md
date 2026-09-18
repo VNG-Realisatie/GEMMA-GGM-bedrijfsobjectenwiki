@@ -64,3 +64,4 @@ Terugbetaling van te veel ontvangen aflossing. Restituties worden geadministreer
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

@@ -29,6 +29,9 @@ ggm_gemma_alternate_name:
 
 bo_definitie: "Overkoepelend plan dat de re-integratieactiviteiten voor een werkzoekende organiseert en coördineert."
 bo_toelichting: "Het trajectplan bundelt meerdere re-integratievoorzieningen in een samenhangend geheel. Het SGR modelleert het als aparte klasse met eigen attributen. Het GGM koppelt werkzoekende direct aan re-integratievoorzieningen zonder tussenliggend plan-object — dit is een GGM-hiaat."
+bo_synoniemen:
+- naam: Plan van aanpak
+  context: Participatiewet art. 44a en art. 9a lid 7-9 — de wettelijke term voor hetzelfde concept dat het SGR "Trajectplan" noemt
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Werkzoekende]]"
@@ -65,9 +68,11 @@ Het SGR modelleert het trajectplan als aparte klasse met attributen voor datum a
 
 Het onderscheid met [[Re-integratievoorziening]] is: het trajectplan is het *plan* (coördinatie, tijdlijn, doelen), de re-integratievoorziening is het *middel* (specifieke toekenning met registratienummer en eigen levenscyclus).
 
+De Participatiewet gebruikt voor hetzelfde concept de term "plan van aanpak" (art. 44a, verplicht bij toekenning van bijstand aan personen van 18-27 jaar; art. 9a lid 7-9, voor de alleenstaande ouder met ontheffing van de arbeidsverplichting). Het plan bevat de uitwerking van de ondersteuning en de daaraan verbonden verplichtingen, en wordt periodiek geëvalueerd en zo nodig bijgesteld — dit bevestigt de levenscyclus (opgesteld → actief → periodiek herzien → afgerond) die het SGR als Trajectplan modelleert.
+
 ## Procesbron
 
-Het trajectplan is afgeleid uit het SGR 19.0 (BKWI), waar het als aparte klasse is gemodelleerd in het conceptueel gegevensdeelmodel Arbeidstoeleidingsgegevens. Zie [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en SGR]].
+Het trajectplan is afgeleid uit het SGR 19.0 (BKWI), waar het als aparte klasse is gemodelleerd in het conceptueel gegevensdeelmodel Arbeidstoeleidingsgegevens. Zie [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en SGR]]. De wettelijke grondslag voor het "plan van aanpak" staat in art. 44a en art. 9a lid 7-9 Participatiewet. Zie [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet|Participatiewet]].
 
 ## Relaties
 
@@ -79,6 +84,7 @@ Het trajectplan is afgeleid uit het SGR 19.0 (BKWI), waar het als aparte klasse 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]]
 
 ## Terugmelding GGM
 

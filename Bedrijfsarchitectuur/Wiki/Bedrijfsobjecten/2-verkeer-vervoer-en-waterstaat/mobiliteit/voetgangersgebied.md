@@ -96,4 +96,4 @@ Governance-object met juridische grondslag in verkeersbesluiten. Het [[Wiki/Bron
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor voetgangersgebieden of verkeerszonering. Als governance-object valt dit structureel buiten de GGM-scope. Het voetgangersgebied heeft relevante eigenschappen (begrenzing, geldend regime, venstertijden, toegangsregels) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor voetgangersgebieden of verkeerszonering — governance-objecten zoals dit zijn in het GGM niet compleet gedekt. Het voetgangersgebied heeft relevante eigenschappen (begrenzing, geldend regime, venstertijden, toegangsregels) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

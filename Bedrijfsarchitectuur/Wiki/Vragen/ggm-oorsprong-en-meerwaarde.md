@@ -98,7 +98,7 @@ De linkerkolom beschrijft wat er in systemen staat. De rechterkolom beschrijft w
 
 ### 2. Domeinen waar het GGM nog niet is
 
-Het GGM dekt niet alle gemeentelijke domeinen. Uit de [[Wiki/Analyses/vng-rubrieken-mapping|vng-rubrieken-mapping]] blijkt dat domeinen als Belastingen, Energietransitie, Openbare gezondheid en Risicobeheer hiaten hebben. Voor deze domeinen kan het bedrijfsobjectenmodel top-down worden opgebouwd vanuit beleidsbronnen en procesbeschrijvingen, als aanvulling op het GGM. Zodra het GGM deze domeinen uitwerkt, kunnen de bottom-up entiteiten worden gekoppeld aan de top-down bedrijfsobjecten.
+Het GGM dekt niet alle gemeentelijke domeinen. Uit een eerdere mapping van de 26 VNG-rubrieken op GGM-taakvelden bleek dat domeinen als Belastingen, Energietransitie, Openbare gezondheid en Risicobeheer hiaten hebben (analyse verwijderd 2026-09-17, zie noot onderaan deze pagina). Voor deze domeinen kan het bedrijfsobjectenmodel top-down worden opgebouwd vanuit beleidsbronnen en procesbeschrijvingen, als aanvulling op het GGM. Zodra het GGM deze domeinen uitwerkt, kunnen de bottom-up entiteiten worden gekoppeld aan de top-down bedrijfsobjecten.
 
 ### 3. Koppeling processen ↔ objecten
 
@@ -120,7 +120,7 @@ Zonder de aanvulling ontwerp je een database. Met de aanvulling ontwerp je een a
 
 ## Hoe het GGM-dekkingspatroon helpt
 
-Uit de systematische mapping van VNG-beleidsbegrippen op het GGM is een voorspelbaar patroon gebleken (zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]]). Dit patroon maakt het mogelijk om voor nieuwe domeinen vooraf in te schatten waar het GGM zal dekken en waar aanvulling nodig is:
+Uit de systematische mapping van VNG-beleidsbegrippen op het GGM is een voorspelbaar patroon gebleken: procesobjecten en governance-objecten zijn in het GGM niet compleet gedekt. Dit patroon maakt het mogelijk om voor nieuwe domeinen vooraf in te schatten waar het GGM zal dekken en waar aanvulling nodig is:
 
 | Begripstype | GGM-match verwacht? | Aanvulling nodig? |
 |---|---|---|
@@ -171,4 +171,4 @@ De twee perspectieven concurreren niet — ze vullen elkaar aan.
 - RSGB 2.02 Deel I (KING, 2018) — referentiemodel stelsel van gemeentelijke basisgegevens
 - VNG Informatiemodellen (standaarden.vng.nl/Informatiemodellen) — overzicht RSGB, RGBZ, ImZTC
 - VNG-beleidsbronnen: 19 verwerkte bronnen over Belastingen, Financiën, Economie, Bedrijfsvoering
-- Wiki-analyses: [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]], [[Wiki/Analyses/ggm-hiaten-belastingendomein|ggm-hiaten-belastingendomein]], [[Wiki/Analyses/vng-rubrieken-mapping|vng-rubrieken-mapping]]
+- Wiki-analyses: [[Wiki/Analyses/ggm-terugmeldingen|ggm-terugmeldingen]], [[Wiki/Analyses/entiteitendekking/totaaloverzicht|entiteitendekking/totaaloverzicht]] — de drie oorspronkelijk hier genoemde analysepagina's (ggm-dekkingspatroon, ggm-hiaten-belastingendomein, vng-rubrieken-mapping) zijn op 2026-09-17 verwijderd (commit `df096d8`); zie `Wiki/log.md` 2026-09-18

@@ -82,6 +82,7 @@ Herkende specialisaties van Inkomensvoorziening. Gevonden in bronnen en/of GGM. 
 - **Bijstandsuitkering** — periodieke uitkering voor levensonderhoud (Participatiewet, algemene bijstand)
 - **Bijzondere bijstand** — eenmalige of periodieke verstrekking voor kosten uit bijzondere omstandigheden (art. 35 Pw); individueel of categoriaal
 - **Individuele inkomenstoeslag** — jaarlijkse toeslag bij langdurig minimuminkomen zonder perspectief op verbetering (art. 36 Pw; vervangt langdurigheidstoeslag sinds 2015)
+- **Koopkrachttegemoetkoming** — tegemoetkoming ter compensatie van koopkrachtverlies, bij ministeriële regeling vastgesteld (art. 36a Pw)
 - **Studietoeslag** — toeslag voor studenten met beperking (art. 36b Pw; sinds 1-4-2022 zelfstandige uitkering)
 - **Energietoeslag** — categoriale bijzondere bijstand voor gestegen energiekosten (2022-2023); ~90% bereik door eenvoudig aanvraagproces en geen vermogenstoets
 - **TONK** — Tijdelijke Ondersteuning Noodzakelijke Kosten (covid, Q1-Q3 2021); geboekt op cluster 'voorzieningen voor wonen'
@@ -126,6 +127,7 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand]]
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 19-39: normen, kostendelersnorm, bijzondere bijstand)
 
 ## Terugmelding GGM
 

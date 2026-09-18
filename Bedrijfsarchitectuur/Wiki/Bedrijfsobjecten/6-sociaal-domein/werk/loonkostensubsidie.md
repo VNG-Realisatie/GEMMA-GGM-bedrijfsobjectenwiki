@@ -100,6 +100,7 @@ De loonkostensubsidie wordt ook verstrekt voor medewerkers op een beschutte werk
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 10c-10d: doelgroepvaststelling en berekening loonkostensubsidie)
 
 ## Terugmelding GGM
 

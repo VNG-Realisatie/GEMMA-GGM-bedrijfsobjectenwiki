@@ -71,3 +71,4 @@ De GGM-definitie klopt grotendeels maar is aangepast voor de gemeentelijke conte
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

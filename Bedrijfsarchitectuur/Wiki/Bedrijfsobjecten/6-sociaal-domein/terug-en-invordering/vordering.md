@@ -97,3 +97,4 @@ De GGM-definitie beperkt zich tot bijstand; de bedrijfsobjectdefinitie is breder
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

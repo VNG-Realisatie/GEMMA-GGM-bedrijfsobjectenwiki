@@ -33,12 +33,7 @@ bo_definitie: "Besluit, melding of gegevens van een bestuursorgaan gericht op he
 bo_toelichting: "Gebruiksrechten omvatten vergunningen, meldingen en gegevens die de gemeente als bevoegd gezag of bronhouder afgeeft of ontvangt over activiteiten in de ondergrond. Voorbeelden: grondwateronttrekkingsvergunning, melding bodemsanering, beschikking bodemkwaliteit."
 bo_subtypes: []
 bo_synoniemen: []
-bo_homoniemen:
-  - bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/brk/zakelijk-recht|Zakelijk Recht]]"
-    ggm_entiteit: Zakelijk Recht
-    ggm_guid:
-    ggm_beleidsdomein: BRK
-    toelichting: "BRK Zakelijk Recht gaat over eigendom/hypotheek op onroerende zaken; BRO Gebruiksrecht gaat over activiteiten in de ondergrond — ander concept"
+bo_homoniemen: []
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Constructie]]"

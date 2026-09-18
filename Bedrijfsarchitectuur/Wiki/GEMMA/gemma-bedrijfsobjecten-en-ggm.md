@@ -99,7 +99,7 @@ De wiki vult dit aan door bedrijfsobjecten ook top-down af te leiden uit beleids
 **Aanvullende bronnen voor zaakgericht werken:**
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — het RGBZ als datamodel achter de zaak
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — de ZTC2 als configuratielaag: zaaktypecatalogi, resultaattypes, roltypes
-- De ZTC2-configuratielaag ontbreekt in het GGM — zie [[Wiki/Analyses/ggm-dekkingspatroon|ggm-dekkingspatroon]] (sectie Dienstverlening)
+- De ZTC2-configuratielaag ontbreekt in het GGM — een voorbeeld van het patroon dat configuratie-/procesarchitectuur in het GGM niet compleet gedekt is
 
 ## Citaten
 

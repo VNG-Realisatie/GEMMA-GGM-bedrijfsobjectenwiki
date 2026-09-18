@@ -65,6 +65,16 @@ Re-integratiekosten zijn specifiek gericht op het ontwikkelen en aan het werk he
 
 De financiering loopt via het cluster Participatie in de algemene uitkering van het gemeentefonds. Het basisbedrag per bijstandsontvanger en per loonkostensubsidie-ontvanger (elk €7.355 inclusief uitkeringsfactor in 2024) dekt zowel uitvoerings- als re-integratiekosten. Een re-integratievoorziening kan gepaard gaan met een loonkostensubsidie wanneer de werkzoekende bij een werkgever aan de slag gaat met beperkte loonwaarde.
 
+## Subtypes
+
+Herkende specialisaties van Re-integratievoorziening, benoemd in de Participatiewet en bevestigd door de GGM-attributen `CodeType`/`OmschrijvingType`. Geen apart BO.
+
+- **Participatieplaats** (art. 10a Participatiewet) — onbeloonde additionele werkzaamheden voor wie een geringe kans op arbeidsinschakeling heeft, maximaal 2 jaar (verlengbaar tot 4 jaar), met scholingsaanbod na 6 maanden en een premie bij voldoende medewerking.
+- **Beschut werk** (art. 10b Participatiewet) — dienstbetrekking in een beschutte omgeving onder aangepaste omstandigheden, voor wie uitsluitend daar mogelijkheden tot arbeidsparticipatie heeft; de vaststelling gebeurt door UWV.
+- **Proefplaats** (art. 6h Participatiewet) — onbeloonde werkzaamheden bij een werkgever voor beperkte duur (maximaal 2 maanden, verlengbaar met 4 maanden), gericht op arbeidsinschakeling bij die werkgever.
+- **Tolkvoorziening** (art. 10g Participatiewet) — bekostiging van een tolk voor personen met een auditieve beperking; uitgevoerd door UWV, niet door de gemeente.
+- **Werkvoorziening visueel beperkten** (art. 10h Participatiewet) — vervoersvoorzieningen, intermediaire activiteiten en hulpmiddelen voor personen met een visuele beperking; uitgevoerd door UWV.
+
 ## GGM-bron
 
 > "Een voorziening of dienst die wordt ingezet om de kansen van een persoon op arbeidsparticipatie te vergroten."
@@ -96,3 +106,4 @@ De financiering loopt via het cluster Participatie in de algemene uitkering van 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 6h, 7, 10, 10a-10h: voorzieningen gericht op arbeidsinschakeling)

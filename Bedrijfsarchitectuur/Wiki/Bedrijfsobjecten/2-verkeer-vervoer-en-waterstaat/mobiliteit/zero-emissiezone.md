@@ -86,4 +86,4 @@ Governance-object met juridische grondslag in verkeersbesluiten en Rijksbeleid (
 
 ## Terugmelding GGM
 
-GGM-hiaat. Het GGM bevat geen entiteit voor zero-emissiezones. Als governance-object valt dit structureel buiten de GGM-scope (het GGM modelleert data, niet juridische kaders). Niettemin heeft de zone registreerbare eigenschappen (begrenzing, ingangsdatum, voertuigcategorieen, ontheffingsregime) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+GGM-hiaat. Het GGM bevat geen entiteit voor zero-emissiezones — governance-objecten zoals juridische kaders zijn in het GGM niet compleet gedekt. Niettemin heeft de zone registreerbare eigenschappen (begrenzing, ingangsdatum, voertuigcategorieen, ontheffingsregime) die als data-object modelleerbaar zijn. Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

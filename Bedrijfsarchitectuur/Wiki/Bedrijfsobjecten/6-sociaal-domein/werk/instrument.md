@@ -79,6 +79,7 @@ Het instrument is afgeleid uit het SGR 19.0 (BKWI), conceptueel gegevensdeelmode
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]]
 
 ## Terugmelding GGM
 

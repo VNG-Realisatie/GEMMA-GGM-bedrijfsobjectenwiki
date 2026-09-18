@@ -64,3 +64,4 @@ Het afschrijven van een vordering die oninbaar blijkt. Er is (nog) geen aflossin
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

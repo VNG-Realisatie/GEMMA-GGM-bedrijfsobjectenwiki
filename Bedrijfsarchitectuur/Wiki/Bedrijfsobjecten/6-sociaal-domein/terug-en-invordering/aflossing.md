@@ -67,3 +67,4 @@ De betaling van een afgesproken of opgelegd bedrag op een vordering. Een aflossi
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Belastingen/invordering-en-kwijtschelding]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet]] (art. 58-60c: terugvordering bijstand)

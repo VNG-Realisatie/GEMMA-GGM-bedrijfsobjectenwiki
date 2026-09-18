@@ -77,7 +77,7 @@ Een Service Level Agreement (SLA) is een nadere overeenkomst bij een IT-contract
 
 Bij herhaald niet halen van service levels kan de gemeente een verbeterplan eisen of de overeenkomst ontbinden. De SLA relateert aan [[Contract]] (waarvan het een nadere overeenkomst is), [[Applicatie]] (waarvoor het geldt) en [[Leverancier]] (met wie het is afgesloten).
 
-Geen GGM-match: het GGM modelleert data-objecten maar geen contractuele instrumenten. Dit is een structureel hiaat (governance-objecten vallen buiten de GGM-scope).
+Geen GGM-match: contractuele instrumenten zoals een SLA zijn in het GGM niet compleet gedekt.
 
 ## Relaties
 

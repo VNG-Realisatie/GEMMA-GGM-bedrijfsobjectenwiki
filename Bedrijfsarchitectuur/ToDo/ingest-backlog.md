@@ -344,6 +344,7 @@ basisregistratie BGT
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] wet-suwi-bwbr0013060 (Rijksoverheid, wetten.overheid.nl, Wet SUWI per 2026-01-01 — structuur en taken UWV, SVB, samenwerking gemeenten, re-integratie, toezicht) → 3 BO's: Werkzoekende (GGM exact), Trajectplan (GGM-hiaat), Instrument (GGM-hiaat)
 - [x] sgr-19-gegevensregister-suwi (BKWI, PDF, Gegevensregister SUWI 19.0 Deel 1 — conceptueel gegevensmodel en berichtenregister, 260 klassen, 930 attributen) → gebundeld met Wet SUWI
+- [x] participatiewet-bwbr0015703 (Rijksoverheid, wetten.overheid.nl, Participatiewet per 2026-01-01) → 6 nieuwe BO's: Normafwijking, Maatregel, Boete (GGM-beleidsdomein Normafwijking, exact/sterk match), Vermogenscomponent (GGM-subdomein Vermogen, exact match, abstract), Voorschot, Verhaal (beide GGM-hiaat #95/#96). 7 bestaande BO's verrijkt met wettelijke grondslag (Werkzoekende, Loonkostensubsidie, Re-integratievoorziening, Trajectplan, Instrument, Inkomensvoorziening, Draagkracht + volledige Terug-en-invordering-cluster)
 
 ## ~~Inkoop (3)~~ ✓
 - [x] vng-model-inkoop-en-aanbestedingsbeleid (VNG, PDF, Model Inkoop- en Aanbestedingsbeleid 2025, modelbeleid met keuzeruimte voor gemeenten)

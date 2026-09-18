@@ -104,4 +104,4 @@ Geen directe GGM-match. De GGM-entiteit **Bevinding** (beleidsdomein VTH) is het
 
 ## Terugmelding GGM
 
-Het welstandsadvies is een procesobject dat structureel buiten de scope van het GGM valt (het GGM modelleert data, niet processen). De bestaande GGM-entiteit Bevinding is generiek en dekt het concept niet volledig.
+Het welstandsadvies is een procesobject; procesobjecten zijn in het GGM niet compleet gedekt. De bestaande GGM-entiteit Bevinding is generiek en dekt het concept niet volledig.

@@ -34,7 +34,7 @@ bo_definitie: "Formeel besluit waarbij een inburgeringsplichtige geheel of gedee
 bo_toelichting: "Zes categorieën bewijsstukken geven recht op vrijstelling (Nederlandstalige opleidingen, buitenlandse equivalenten, Internationaal/Europees onderwijs). Gedeeltelijke vrijstelling is mogelijk per examenonderdeel op niveau B1 of A2. Aanvraag bij de Minister, beschikking binnen 8 weken, kosten €90."
 bo_synoniemen: []
 bo_homoniemen:
-- bedrijfsobject: "[[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/vrijstelling|Vrijstelling (Leerplicht)]]"
+- bedrijfsobject: "[[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling|Leerplichtvrijstelling]]"
   ggm_entiteit: Vrijstelling
   ggm_guid: EAID_B8584CD2_A54A_4a59_82B6_A597A0864CFA
   ggm_beleidsdomein: Leerplicht en Leerlingenvervoer
