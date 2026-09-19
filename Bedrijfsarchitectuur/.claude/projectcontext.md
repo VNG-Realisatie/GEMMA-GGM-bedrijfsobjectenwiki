@@ -26,7 +26,7 @@ Besloten op 8 juli 2026 (goedgekeurd plan, zie `.claude/plans/er-wordt-nu-niet-f
 
 **Why:** actoren/rollen werden inconsistent behandeld (soms BO, bij entiteitendekking altijd n.v.t.) terwijl ze wel relevant zijn voor GEMMA (Business Actor/Role-elementen).
 
-**How to apply:** bij ingest/assess/write altijd de element-terminologie en het twee-pagina-patroon gebruiken; bij entiteitendekking actoren/rollen matchen i.p.v. automatisch n.v.t. Zie [[feedback-dubbele-namen]] voor het cross-linkpatroon.
+**How to apply:** bij ingest/assess/write altijd de element-terminologie en het twee-pagina-patroon gebruiken; bij entiteitendekking actoren/rollen matchen i.p.v. automatisch n.v.t. Zie dubbele-namen voor het cross-linkpatroon.
 
 **Status 9 juli 2026:** Fase 1-4 uitgevoerd (schema-migratie, 22 actor/rol-pagina's + 6 BO-tegenhangers, scripts multi-map + nieuwe mappen, rapporten geregenereerd: gedekt 694→709). **Nog open:** track 2 van `/audit-actoren` — sweep over de 218 bronsamenvattingen (34 onderwerpmappen) op niet-GGM actoren/rollen, in golven van max 3-4 subagents (quota); de skill bevat de volledige instructies. Ook open: 4 nieuwe "ter discussie"-ambiguïteiten (Raadscommissie, Pachter e.a.) via bo_via_kandidaten cureren. Wijzigingen stonden toen nog niet gecommit.
 
@@ -45,7 +45,7 @@ vanuit dit project.
 van aannames te doen. Niet voorstellen om deze pagina's te bewerken of naar de wiki te publiceren; de
 GEMMA-eigen `...Custom`-varianten (in `GEMMA sjablonen/GEMMA ArchiMedesTemplates/`) zijn wél door dit
 project beheerd en overschrijven de standaardsjablonen via ArchiMedes' eigen naamconventie (zie
-[[project_element-schema]] en de uitleg in `Sjabloon:DisplayArchiMateCustom/_index`).
+project-element-schema en de uitleg in `Sjabloon:DisplayArchiMateCustom/_index`).
 
 ## redactie-gemmaonline-toegang
 

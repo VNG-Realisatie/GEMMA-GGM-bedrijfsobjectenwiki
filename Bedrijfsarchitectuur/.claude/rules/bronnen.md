@@ -20,13 +20,13 @@ Raadpleeg Wiki/GGM/{taakveld}/ voor domeinbegrip (entiteiten, definities, relati
 
 Brondocumenten (Sources/) zijn de basis voor begrippen en mogen NOOIT vertaald of herschreven worden.
 **Why:** Bronnen zijn immutabel referentiemateriaal. Vertaling verandert de betekenis en maakt het onbruikbaar als basis voor begripsextractie.
-**How to apply:** Bij het ophalen van VNG-pagina's of andere Nederlandse bronnen: bewaar de originele Nederlandse tekst letterlijk. Wat wel mag: selectief kopiëren — neem alleen de beschrijvingen over en laat ruis (navigatie, nieuwslijsten, agenda's, gerelateerde links) weg. Gebruik WebFetch met expliciete instructie om Nederlands te behouden en niet te vertalen. Zie ook [[feedback_geen-wikilinks-in-sources]].
+**How to apply:** Bij het ophalen van VNG-pagina's of andere Nederlandse bronnen: bewaar de originele Nederlandse tekst letterlijk. Wat wel mag: selectief kopiëren — neem alleen de beschrijvingen over en laat ruis (navigatie, nieuwslijsten, agenda's, gerelateerde links) weg. Gebruik WebFetch met expliciete instructie om Nederlands te behouden en niet te vertalen. Zie ook geen-wikilinks-in-sources.
 
 ## geen-wikilinks-in-sources
 
 Gebruik nooit `[[wiki-links]]` in bestanden onder Sources/. Gebruik in plaats daarvan platte bestandsreferenties (bijv. `structuur-ggm.md`, `Wiki/Analyses/ggm-hiaten-belastingendomein.md`).
 
-**Why:** Wiki-links in Sources/ worden door de IDE geresolveerd relatief aan het huidige bestand. Klikken op `[[ggm-hiaten-belastingendomein]]` in Sources/GGM/ maakt dan een leeg bestand aan in Sources/GGM/ in plaats van te navigeren naar Wiki/Analyses/. Zie ook [[ggm-bron-xmi]] — Sources zijn immutabel en mogen niet per ongeluk worden uitgebreid.
+**Why:** Wiki-links in Sources/ worden door de IDE geresolveerd relatief aan het huidige bestand. Klikken op `[[ggm-hiaten-belastingendomein]]` in Sources/GGM/ maakt dan een leeg bestand aan in Sources/GGM/ in plaats van te navigeren naar Wiki/Analyses/. Zie ook ggm-bron-xmi — Sources zijn immutabel en mogen niet per ongeluk worden uitgebreid.
 
 **How to apply:** Bij het schrijven van GGM-bronbestanden in Sources/GGM/: verwijs naar andere GGM-bestanden als `bestandsnaam.md` en naar wiki-pagina's met het volledige pad `Wiki/Analyses/bestandsnaam.md`.
 
@@ -36,7 +36,7 @@ Bronnen uit andere gemeenten dan Utrecht NIET afwijzen vanwege herkomst. Meerder
 
 **Why:** De wiki bouwt aan GEMMA-standaard bedrijfsobjecten, die voor álle Nederlandse gemeenten gelden. Bronnen uit één gemeente geven een te smal perspectief.
 
-**How to apply:** Bij bronbeoordeling nooit "andere gemeente" als reden voor niet-relevant gebruiken. Beoordeel alleen op inhoudelijke relevantie voor BO-kandidaten. Zie ook [[feedback_gemeentelijk-perspectief]].
+**How to apply:** Bij bronbeoordeling nooit "andere gemeente" als reden voor niet-relevant gebruiken. Beoordeel alleen op inhoudelijke relevantie voor BO-kandidaten. Zie ook gemeentelijk-perspectief.
 
 ## pdf-conversie
 

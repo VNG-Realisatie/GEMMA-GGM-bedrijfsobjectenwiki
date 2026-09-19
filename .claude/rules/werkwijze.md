@@ -21,7 +21,7 @@ Na afloop van subagent-werk altijd een checklist aflopen van cross-cutting updat
 4. `Wiki/Domeinen/{domein}.md` — bo_count en begrippen_count actueel?
 5. Forward references in BO-pagina's — verwijzen ze naar bestaande bestanden?
 
-Niet aannemen dat agents cross-cutting updates afhandelen. Zie ook [[ggm-dekking-verificatie]].
+Niet aannemen dat agents cross-cutting updates afhandelen. Zie ook ggm-dekking-verificatie.
 
 ## wetten-curl
 
@@ -29,7 +29,7 @@ Wetteksten van wetten.overheid.nl moeten via `curl` + Python HTML-extractie word
 
 **Why:** 6 van 9 wetten.overheid.nl-bronnen bleken samengevat in plaats van origineel. WebFetch's interne model heeft een outputlimiet en eigen quoteerbeperkingen waardoor het wettekst herformuleert.
 
-**How to apply:** Bij elke URL van wetten.overheid.nl: (1) `curl -sL` → HTML downloaden, (2) Python HTMLParser om navigatie/footer/LiDO-links te strippen, (3) wettekst begint bij eerste "Hoofdstuk" heading. Extractiescript: zie [[feedback_pdf-conversie]] voor vergelijkbaar patroon. Het `extract_wetten.py` script in scratchpad is herbruikbaar.
+**How to apply:** Bij elke URL van wetten.overheid.nl: (1) `curl -sL` → HTML downloaden, (2) Python HTMLParser om navigatie/footer/LiDO-links te strippen, (3) wettekst begint bij eerste "Hoofdstuk" heading. Extractiescript: zie pdf-conversie voor vergelijkbaar patroon. Het `extract_wetten.py` script in scratchpad is herbruikbaar.
 
 ## feedback-geen-technische-verwijzingen-wiki
 

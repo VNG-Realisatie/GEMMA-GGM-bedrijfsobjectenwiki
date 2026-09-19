@@ -6,7 +6,7 @@ Bij generalisatie/specialisatie-structuren: het abstracte niveau (bijv. "Maatsch
 
 **Why:** De assess-bo skill bevatte een regel die het abstracte niveau categorisch uitsloot wanneer specialisaties eigen processen hadden. Dit leidde tot een onjuiste afwijzing van "Maatschappelijke voorziening" als BO. De skill is aangepast (stap 4 beslisregel).
 
-**How to apply:** Beoordeel het abstracte niveau altijd op de 6 criteria. Als het haalt → BO met opsomming van subtypes. Twee situaties: (1) alleen specialisaties worden BO (abstract haalt criteria niet), (2) zowel abstract als specialisaties worden BO (beide halen criteria). Zie [[bo-niet-alleen-registratie]] voor de anti-patronen die ook hier van toepassing zijn.
+**How to apply:** Beoordeel het abstracte niveau altijd op de 6 criteria. Als het haalt → BO met opsomming van subtypes. Twee situaties: (1) alleen specialisaties worden BO (abstract haalt criteria niet), (2) zowel abstract als specialisaties worden BO (beide halen criteria). Zie bo-niet-alleen-registratie voor de anti-patronen die ook hier van toepassing zijn.
 
 ## bo-naam-ggm-generalisatie
 
@@ -16,7 +16,7 @@ Als een BO-pagina matcht met een GGM-entiteit via een generalisatie/specialisati
 
 **Why:** op 2026-07-09 werd `Wiki/Bedrijfsobjecten/.../vth/woonboot.md` hernoemd naar `vaartuig.md` op expliciet verzoek van de gebruiker ("ik verwacht een BO vaartuig met daarin genoemd de specialisaties") — Woonboot is de enige praktijktoepassing van GGM-entiteit Vaartuig, geen zelfstandig beleidsbegrip los daarvan. Ik generaliseerde dit vervolgens te snel naar 8 andere gevallen (Evenement/OpenbareActiviteit, Woning/Gebouw, Horecabedrijf/Vestiging, Aandachtsgebied+Voorschriftengebied/Gebiedsaanwijzing, Risicobron/Activiteit, Rioolleiding/Leiding, Gezinsmigrant) en begon Evenement te hernoemen naar OpenbareActiviteit. De gebruiker greep in: "evenement moet blijven... woonboot en vaartuig zijn eerder de uitzondering. waarom doe je dit" — Evenement is een zelfstandig, breed gedragen beleidsterm (eigen reserveringskalender, beoordelingscriteria, vergunningenproces) die niemand zou opzoeken onder de GGM-naam. Woning en Rioolleiding bleken bij toetsing hetzelfde: zelfstandige beleidsbegrippen, dus NIET hernoemen. Voor Rioolleiding koos de gebruiker wél een aparte oplossing: 2 pagina's (Leiding = generieke GGM-match, Rioolleiding = eigen Specialisatie-pagina met generalisatie-relatie terug) — dus geen hernoeming van Rioolleiding zelf, wel een nieuwe generieke ouderpagina ernaast.
 
-**How to apply:** bij een BO met matchsterkte "sterk"/"partieel" waar de GGM-entiteit breder is: standaard NIETS wijzigen aan de BO-naam — de bestaande GGM-bron-sectie volstaat. Overweeg een structuurwijziging alleen als getoetst is dat de specifieke term werkelijk geen zelfstandige identiteit heeft (test: zou een domeinexpert dit begrip ooit anders noemen, of gebruiken voor iets anders dan deze ene GGM-toepassing?). Bij twijfel of bij een schaalbare wijziging (meerdere vergelijkbare gevallen tegelijk): niet in bulk doorvoeren op basis van één eerder akkoord — expliciet per geval voorleggen, zeker nadat een generiek "ja, overal" antwoord al eens tot een verkeerde bulk-actie heeft geleid. Bij een wél-gekozen hernoeming of nieuwe generieke pagina: ALLE wiki-links bijwerken (bare `[[Naam]]`-links in Bronsamenvattingen, `bo_relaties` in andere BO's, onderwerpoverzicht-rijen, `Wiki/index.md`), en na afloop `entiteitendekking.py --all` regenereren + `git status` checken op onverwachte bestanden (zie [[feedback_externe-wijzigingen-verifieren]]).
+**How to apply:** bij een BO met matchsterkte "sterk"/"partieel" waar de GGM-entiteit breder is: standaard NIETS wijzigen aan de BO-naam — de bestaande GGM-bron-sectie volstaat. Overweeg een structuurwijziging alleen als getoetst is dat de specifieke term werkelijk geen zelfstandige identiteit heeft (test: zou een domeinexpert dit begrip ooit anders noemen, of gebruiken voor iets anders dan deze ene GGM-toepassing?). Bij twijfel of bij een schaalbare wijziging (meerdere vergelijkbare gevallen tegelijk): niet in bulk doorvoeren op basis van één eerder akkoord — expliciet per geval voorleggen, zeker nadat een generiek "ja, overal" antwoord al eens tot een verkeerde bulk-actie heeft geleid. Bij een wél-gekozen hernoeming of nieuwe generieke pagina: ALLE wiki-links bijwerken (bare `[[Naam]]`-links in Bronsamenvattingen, `bo_relaties` in andere BO's, onderwerpoverzicht-rijen, `Wiki/index.md`), en na afloop `entiteitendekking.py --all` regenereren + `git status` checken op onverwachte bestanden (zie externe-wijzigingen-verifieren).
 
 ## bo-niet-alleen-registratie
 
@@ -84,7 +84,7 @@ Body: `## Naamkeuze` sectie met overwogen namen en motivatie bij homoniem-disamb
 - Via een `/audit-duplicaten` skill: systematisch alle BO's doorlopen, matches in ggm_parsed.json, voorstel per conflict
 - Niet via eenmalige bulk-actie maar via skill die herbruikbaar is
 
-Zie ook: [[ggm-dekking-verificatie]], [[ggm-hiaten-checklist]]
+Zie ook: ggm-dekking-verificatie, ggm-hiaten-checklist
 
 ## korte-definities
 
@@ -92,7 +92,7 @@ Zie ook: [[ggm-dekking-verificatie]], [[ggm-hiaten-checklist]]
 
 - Kort, helder, goed leesbaar — bij voorkeur 1 zin, max ~160 tekens.
 - Langer mag alleen als de tekst letterlijk uit GGM of bron wordt overgenomen.
-- De definitie moet beschrijven wat het ding ís, niet waar het staat. Zie [[bo-niet-alleen-registratie]].
+- De definitie moet beschrijven wat het ding ís, niet waar het staat. Zie bo-niet-alleen-registratie.
 
 ## GGM-definitie vs. eigen definitie
 
@@ -121,7 +121,7 @@ Drie scenario's:
 
 Voor elke BO zonder GGM-grondslag moet je via deze checklist bepalen of het werkelijk een hiaat is of (nog) geen GGM-dekking heeft.
 
-**Correctie (2026-09-18, zie [[feedback_geen-technische-verwijzingen-wiki]]):** "structureel buiten GGM-scope"/"per definitie uit scope" is een te absolute formulering — het GGM-beleidsdomein Normafwijking modelleert wél een deel van het handhavingsproces (Maatregel, Boete). De juiste framing: procesobjecten/governance-objecten zijn *doorgaans niet compleet gedekt* in het GGM, geen categorische uitsluiting. Dit verandert de conclusie van de checklist niet wezenlijk (nog steeds: wees conservatief, meld proces/governance niet standaard als hiaat) maar wél de *taal* waarin je dat vastlegt — nooit "buiten scope per definitie", wel "niet compleet gedekt" met een concrete, domeinspecifieke reden waar mogelijk.
+**Correctie (2026-09-18, zie feedback-geen-technische-verwijzingen-wiki):** "structureel buiten GGM-scope"/"per definitie uit scope" is een te absolute formulering — het GGM-beleidsdomein Normafwijking modelleert wél een deel van het handhavingsproces (Maatregel, Boete). De juiste framing: procesobjecten/governance-objecten zijn *doorgaans niet compleet gedekt* in het GGM, geen categorische uitsluiting. Dit verandert de conclusie van de checklist niet wezenlijk (nog steeds: wees conservatief, meld proces/governance niet standaard als hiaat) maar wél de *taal* waarin je dat vastlegt — nooit "buiten scope per definitie", wel "niet compleet gedekt" met een concrete, domeinspecifieke reden waar mogelijk.
 
 ## Checklist
 
@@ -169,4 +169,4 @@ Bestaande GGM-dekking is geen reden om BO-beoordeling over te slaan. De ingest i
 
 **Why:** Het doel van de wiki is niet alleen nieuwe BO's vinden, maar ook bestaande GGM-entiteiten onderbouwen en verifiëren vanuit beleidsperspectief. Overslaan van een heel beleidsdomein (bijv. Parkeren) omdat het GGM daar al entiteiten heeft, mist het verificatiedoel.
 
-**How to apply:** Bij elke ingest alle relevante GGM-beleidsdomeinen meenemen in de begrippentabel en BO-beoordeling, ook als het GGM daar al entiteiten voor heeft. Markeer per GGM-entiteit of de beleidsbron deze bevestigt, nuanceert, of aanvult. BO-pagina's voor GGM-entiteiten volgen exact hetzelfde template als nieuwe BO's: volledige 6-punts criteria-lijst, `# Naam` heading met definitie, beschrijving, relaties met wiki-links. Geen shortcuts of verkorte body. Zie ook [[bo-niet-alleen-registratie]].
+**How to apply:** Bij elke ingest alle relevante GGM-beleidsdomeinen meenemen in de begrippentabel en BO-beoordeling, ook als het GGM daar al entiteiten voor heeft. Markeer per GGM-entiteit of de beleidsbron deze bevestigt, nuanceert, of aanvult. BO-pagina's voor GGM-entiteiten volgen exact hetzelfde template als nieuwe BO's: volledige 6-punts criteria-lijst, `# Naam` heading met definitie, beschrijving, relaties met wiki-links. Geen shortcuts of verkorte body. Zie ook bo-niet-alleen-registratie.
