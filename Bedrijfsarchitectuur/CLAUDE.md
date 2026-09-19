@@ -299,3 +299,5 @@ Python-scripts in `tools/`, projectlokaal naast de skills die ze aanroepen.
 - Minimum code that solves the problem. Nothing speculative.
 - Touch only what you must. Clean up only your own mess.
 - Define success criteria. Loop until verified.
+
+@.claude/projectcontext.md
