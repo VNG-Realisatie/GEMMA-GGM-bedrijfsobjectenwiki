@@ -36,9 +36,6 @@ ggm_duplicaat_entiteiten:
 
 analyse_ggm_dekking: |
   Dit BO heeft de GGM-entiteit **Beschikking** als directe tegenhanger. Daarnaast is **Beschikking** (beleidsdomein Diensten) als vermoedelijk duplicaat gekoppeld — zie ggm_duplicaat_entiteiten. Het BO dekt daarnaast de volgende GGM-entiteiten via een indirecte relatie:
-  - **Beperking** (detail) — Eigenschap van beoordeling, niet zelfstandig BO
-  - **Beperkingscategorie** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
-  - **Beperkingscore** (detail) — Detailgegeven (weinig attributen, geen structureel signaal)
   - **Beschikkingsoort** (classificatie) — Typering/referentietabel
   - **Besluit** (detail) — Detailgegeven (geassocieerd met BO)
   - **Diensttype** (detail) — Detailgegeven

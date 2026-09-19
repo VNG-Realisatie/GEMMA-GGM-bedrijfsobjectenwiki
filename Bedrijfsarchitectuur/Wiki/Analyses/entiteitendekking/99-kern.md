@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 99 Kern"
-datum: 2026-09-18
+datum: 2026-09-19
 taakveld: "99 Kern"
 beleidsdomeinen:
   - 99 Kern

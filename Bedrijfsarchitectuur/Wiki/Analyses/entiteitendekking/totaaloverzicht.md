@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking — totaaloverzicht"
-datum: 2026-09-18
+datum: 2026-09-19
 ---
 
 # Entiteitendekking — totaaloverzicht
@@ -28,7 +28,7 @@ datum: 2026-09-18
 |  | | | | | | | | 2 |
 | **[[Wiki/Analyses/entiteitendekking/6-sociaal-domein\|6 Sociaal Domein]]** | Dak- en thuislozen | 1 | 0 | 1 | 0 | 0 | 100% | |
 |  | Gemeentebegrafenissen | 1 | 0 | 1 | 0 | 0 | 100% | |
-|  | Generiek Jeugd en Wmo | 27 | 2 | 6 | 18 | 1 | 96% | |
+|  | Generiek Jeugd en Wmo | 27 | 2 | 7 | 17 | 1 | 96% | |
 |  | Inburgering | 35 | 1 | 15 | 15 | 4 | 88% | |
 |  | Inkomen | 88 | 3 | 13 | 46 | 26 | 69% | |
 |  | Jeugdbescherming en reclassering | 4 | 0 | 1 | 3 | 0 | 100% | |

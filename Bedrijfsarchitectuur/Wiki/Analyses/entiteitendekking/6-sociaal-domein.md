@@ -1,7 +1,7 @@
 ---
 type: analyse
 titel: "Entiteitendekking: 6 Sociaal Domein"
-datum: 2026-09-18
+datum: 2026-09-19
 taakveld: "6 Sociaal Domein"
 beleidsdomeinen:
   - Dak- en thuislozen
@@ -15,8 +15,8 @@ beleidsdomeinen:
   - Sociale Teams
   - Werk
 totaal_entiteiten: 285
-totaal_bo: 73
-totaal_matches: 61
+totaal_bo: 74
+totaal_matches: 62
 totaal_hiaten: 12
 ---
 
@@ -26,9 +26,9 @@ totaal_hiaten: 12
 
 <!-- REVIEW: pas deze beoordeling aan met domeinkennis -->
 
-10 beleidsdomeinen, 285 GGM-entiteiten (9 n.v.t.). Dekking: 207 van 276 (75%) — 61 met BO, 146 ondersteunend, 69 niet gedekt. 12 BO's zonder GGM-entiteit.
+10 beleidsdomeinen, 285 GGM-entiteiten (9 n.v.t.). Dekking: 207 van 276 (75%) — 62 met BO, 145 ondersteunend, 69 niet gedekt. 12 BO's zonder GGM-entiteit.
 
-Niet-BO entiteiten: 21× classificatie, 177× detail, 17× onderdeel, 9× proces.
+Niet-BO entiteiten: 21× classificatie, 176× detail, 17× onderdeel, 9× proces.
 
 ## Dak- en thuislozen
 
@@ -48,16 +48,16 @@ Niet-BO entiteiten: 21× classificatie, 177× detail, 17× onderdeel, 9× proces
 
 ## Generiek Jeugd en Wmo
 
-27 GGM-entiteiten (2 n.v.t.): 6 met BO, 18 ondersteunend aan BO, 1 niet gedekt. Dekking: 24 van 25 (96%).
+27 GGM-entiteiten (2 n.v.t.): 7 met BO, 17 ondersteunend aan BO, 1 niet gedekt. Dekking: 24 van 25 (96%).
 
 | GGM-entiteit | BO / Dekking | Entiteitstype | Naamoverlap | Beoordeling |
 |---|---|---|---|---|
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOMMeldingWmoJeugd]] | n.v.t. | proces |  | Proces of processtap |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|AOM_AanvraagWmoJeugd]] | n.v.t. | proces |  | Proces of processtap |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperking]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Eigenschap van beoordeling, niet zelfstandig BO |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscategorie]] | via Beschikking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscore]] | via Beschikking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | detail |  | Detailgegeven (weinig attributen, geen structureel signaal) |
-| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscoresoort]] | referentietabel | classificatie |  | Typering/referentietabel |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperking]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beperking\|Beperking]] ✅ | — |  | Exacte match |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscategorie]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beperking\|Beperking]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscore]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beperking\|Beperking]] | detail |  | Detailgegeven (geassocieerd met BO) |
+| [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beperkingscoresoort]] | via Beperking → [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beperking\|Beperking]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikking]] | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] ✅ | — |  | Exacte match |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikkingsoort]] | typering [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beschikking\|Beschikking]] | classificatie |  | Typering/referentietabel |
 | [[Wiki/GGM/6-sociaal-domein/generiek-jeugd-en-wmo\|Beschikte Voorziening]] | beschrijft [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/voorziening\|Voorziening]] | detail |  | Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO |

@@ -1,6 +1,6 @@
-# Entiteitendekking review — 2026-09-18
+# Entiteitendekking review — 2026-09-19
 
-Totaal review-items: 281.
+Totaal review-items: 279.
 
 ## Samenvatting
 
@@ -12,7 +12,7 @@ Totaal review-items: 281.
 | 3 Economie | 6 | 1 | 2 |
 | 4 Onderwijs | 27 | 13 | 1 |
 | 5 Sport, Cultuur en Recreatie | 81 | 18 | 26 |
-| 6 Sociaal Domein | 285 | 61 | 114 |
+| 6 Sociaal Domein | 285 | 62 | 112 |
 | 7 Volksgezondheid en Milieu | 16 | 4 | 3 |
 | 8 Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing | 119 | 31 | 62 |
 | 9 Interne Organisatie | 148 | 52 | 31 |
@@ -78,8 +78,6 @@ Totaal review-items: 281.
 
 ### 6 Sociaal Domein — Generiek Jeugd en Wmo
 
-- **Beperkingscategorie** → detail (2 attrs). Een categorisering van beperkingen
-- **Beperkingscore** → detail (3 attrs). Getalsmatige duiding van een beperking
 - **Leefgebied** → detail (1 attrs). Gebied waarin alle activiteiten van een inwoner zich kunnen afspelen
 - **Leveringsvorm** → detail (3 attrs). Zorg die onder de Wlz, de Zvw-Wijkverpleging of de Wmo 2015 valt, kan aan personen als zorg in natura (zin) worden gelev
 - **Verzoek om Toewijzing** → detail (13 attrs). Verzoek tot toewijzing dat vanuit leverancier (via H10-portal) aan de gemeente wordt gestuurd. Zie https://informatiemod

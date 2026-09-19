@@ -2,10 +2,10 @@
 type: domein
 naam: maatschappelijke ondersteuning
 status: afgerond
-verwerkingsdatum: 2026-06-27
+verwerkingsdatum: 2026-09-19
 bronnen_count: 12
 begrippen_count: 40
-bo_count: 15
+bo_count: 16
 ---
 
 # Maatschappelijke Ondersteuning
@@ -29,7 +29,7 @@ Gemeentelijke uitvoering van de Wmo 2015 en de Jeugdwet: ondersteuning, zorg en 
 | beschikte voorziening | object | Voorziening waarover een beschikking is gedaan | ❌ | ja | Koppeltabel tussen Beschikking en Voorziening, geen zelfstandig BO | — | ja |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/zorgdeclaratie\|Zorgdeclaratie]] | object | Maandelijkse opgave van zorgaanbieder aan gemeente van geleverde producten | ✅ | ja | 6/6 criteria, exact match; homoniem met HR-Declaratie | Declaratie ambulante behandeling | ja |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/eigen-bijdrage\|Eigen bijdrage]] | object | Financiële bijdrage cliënt voor Wmo-voorzieningen, vastgesteld door CAK | ✅ | ja | 6/6 criteria, exact match; twee periodetypen (abonnementstarief, beschermd wonen) | Abonnementstarief Wmo | ja |
-| beperking | object | Stoornis/conditie die functioneren belemmert | ❌ | ja | Eigenschap van beoordeling, niet zelfstandig BO | ICF-beperking mobiliteit | ja |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/generiek-jeugd-en-wmo/beperking\|Beperking]] | object | Stoornis/conditie die functioneren belemmert | ✅ | ja | 6/6 criteria, exact match; herbeoordeeld 2026-09-19 (was ten onrechte ❌) | ICF-beperking mobiliteit | ja |
 | [[Wiki/Rollen/aanbieder|Aanbieder]] (zorgaanbieder) | rol | Organisatie die zorg/ondersteuning levert | ❌ | ja | Rol (generiek roltype, ook in AI en deelmobiliteit); vastgelegd als rol-pagina; cross-cutting | Zorginstelling, thuiszorgorganisatie | ja |
 | huishouden | object | Persoon of groep die een huishouden voert | ❌ | ja | Cross-cutting sociaal domein, eenheid voor beoordeling | Eenoudergezin | ja |
 | buurtteam | actor | Lokaal team voor generalistische basishulp | ❌ | nee | Specialisatie van [[Wiki/Actoren/organisatorische-eenheid|Organisatorische eenheid]], geen apart begrip (zie audit-actoren track2) | Buurtteam Jeugd en Gezin Overvecht | ja (Team) |
