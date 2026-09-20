@@ -1,6 +1,6 @@
 Controleer en herstel definities van bestaande BO's: $ARGUMENTS
 
-Input: onderwerp (alle BO's in dat onderwerp), beleidsdomein, of leeg (= alle BO's). Vergelijkt tegen `Wiki/GGM/`.
+Input: onderwerp (alle BO's in dat onderwerp), beleidsdomein, of leeg (= alle BO's). Vergelijkt tegen `Sources/GGM-repository/ggm_parsed.json`.
 Output: chat-rapportage; optioneel direct herschreven `bo_definitie`/`bo_toelichting` in `Wiki/Bedrijfsobjecten/`.
 
 Controleert `bo_definitie` en `bo_toelichting` tegen de definitieregels uit `/write-element` stap 5.

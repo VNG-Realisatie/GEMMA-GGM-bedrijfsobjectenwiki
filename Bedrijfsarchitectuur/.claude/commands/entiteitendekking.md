@@ -1,6 +1,6 @@
 Genereer of ververs de entiteitendekking-rapportage: $ARGUMENTS
 
-Input: `Wiki/GGM/` + `Wiki/Bedrijfsobjecten/` (frontmatter).
+Input: `Sources/GGM-repository/ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` (frontmatter). `Wiki/GGM/` alleen voor de links in het rapport.
 Output: `Wiki/Analyses/entiteitendekking/` + teruggeschreven `analyse_ggm_dekking` in BO-frontmatter.
 
 Doel: uniforme analyse van GGM-entiteiten per taakveld/beleidsdomein. Toont per beleidsdomein welke entiteiten BO zijn, welke niet (met entiteitstype en relatie tot BO), en welke BO's geen GGM-grondslag hebben (hiaten). Vervangt ggm-vergelijking, ggm-dekking en bo-dekking in één rapport.
@@ -30,7 +30,7 @@ Lees `review.md`. Dit bevat twee soorten items, niet met elkaar te verwarren:
 2. **`⚠️ ter discussie tussen [[BO1]] / [[BO2]]`** (in de per-taakveld tabel, kolom BO/Dekking) — een structurele ambiguïteit: `compute_dekking` vond meerdere even-goede kandidaat-BO's (zelfde aantal hops, zelfde beleidsdomein, geen naam-bevestiging voor één van beide) en kiest bewust niet stilzwijgend. Dit is geen classificatie-onzekerheid maar een echte inhoudelijke keuze die een mens moet maken.
 
 **Workflow voor `ter discussie`-items:**
-1. Lees de GGM-definitie van de entiteit (`Wiki/GGM/{taakveld}/...`) en vergelijk met de definitie van elke kandidaat-BO.
+1. Lees de GGM-definitie van de entiteit (`ggm_parsed.json`, veld `documentation`) en vergelijk met de definitie van elke kandidaat-BO.
 2. Kies de BO waar de entiteit inhoudelijk het beste bij past — of concludeer dat geen van de kandidaten past (dan blijft het `ter discussie` staan, of de entiteit krijgt een eigen beoordeling in de Beoordeling-sectie).
 3. Registreer de keuze op de frontmatter van de **gekozen** BO-pagina onder `bo_via_kandidaten` (zie `templates/element.md`) — dezelfde curatie-aanpak als `bo_subtypes`.
 4. Draai Stap 1 opnieuw: de entiteit wordt dan direct herkend (stap 0 in `compute_dekking`, vóór alle heuristiek) en verdwijnt uit de ambigue lijst, permanent (niet opnieuw berekend bij een volgende run).
