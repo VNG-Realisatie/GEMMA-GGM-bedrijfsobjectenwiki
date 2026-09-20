@@ -21,11 +21,6 @@
 - [WC10] ALS een bewering een concrete, specifieke reden geeft (bv. "dit beleidsdomein begint pas bij X", "GGM heeft wel BAG-locaties maar niet dit type locatie") → NIET aanpassen, ook niet als het woord "structureel" erin staat.
 - [WC11] Bij opschoning van deze framing: per geval beoordelen. NOOIT blind alle "structureel"/"buiten scope" vervangen.
 
-## Publiceren naar redactie.gemmaonline.nl (en werk binnen `GEMMA online/`)
-- [WC12] Bij een "publiceer"-opdracht NOOIT verificatiestappen uitvoeren (`parse-wikitext`-dry-run/render, `<categorytree>`-opzoekingen naar een testobject), TENZIJ de gebruiker expliciet om verificatie vraagt (bv. letterlijk "verifieer").
-- [WC13] Standaardroute: `update-page`/`create-page`, met `latestId` voor conflictdetectie via `get-page metadata=true`.
-- [WC14] ALLEEN bij expliciet verzoek extra stappen toevoegen: live dry-run render of representatief testobject opzoeken.
-
 ## `/lint`
 - [WC15] `/lint` draait bewust op Haiku.
 - [WC16] ALTIJD gemelde bevindingen zelf verifiëren (grep/Read/eigen script) vóór ze in het eindrapport komen, voor élke categorie, ook telbare/structurele claims.

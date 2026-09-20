@@ -37,8 +37,8 @@ Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte 
 
 ## Wiki-velden
 - [BO29] Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes` is deprecated. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
-- [BO29a] `gemma_*`-velden bevatten waarden uit het bestaande GEMMA-model, via import/ingest van dat model. Die import is nog NIET uitgevoerd.
-- [BO29b] NOOIT `gemma_*`-velden vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
+- [BO29a] `gemma_*`-waarden komen uit het GGM (dat een `gemma.csv` importeert). In `ggm_parsed.json` staan ze als `gemma_tags`; in BO-frontmatter als `ggm_gemma_*`.
+- [BO29b] NOOIT `gemma_*`/`ggm_gemma_*` vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
 
 ## Definities (`bo_definitie`, `bo_toelichting`)
 - [BO30] `bo_definitie`: beschrijf wat het ding IS, niet waar het staat (zie [BO4]). 1 zin, max ~160 tekens. Langer ALLEEN ALS letterlijk overgenomen uit GGM of bron.
