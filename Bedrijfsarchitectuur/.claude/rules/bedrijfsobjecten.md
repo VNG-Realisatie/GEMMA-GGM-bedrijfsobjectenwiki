@@ -4,7 +4,7 @@
 - [BO1] De 6 BO-criteria zijn de ENIGE toets: betekenis, herkenbaarheid, eigen bestaan, meervoud, levenscyclus, relaties.
 - [BO2] ALS ≥5 van de 6 ja → BO.
 - [BO3] Beslisvraag: herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
-- [BO4] NOOIT "registr*" (registreerbaar, registreren, registratieobject) gebruiken als filter, criterium of motivatie bij BO-beoordeling, begrippentabellen, GGM-hiaat-beoordelingen of inleidende analyses. Ook niet impliciet of als synoniem.
+- [BO4] NOOIT "registr*" (registreerbaar, registreren, registratieobject) gebruiken als filter, criterium of motivatie bij BO-beoordeling, begrippentabellen, GGM-hiaat-beoordelingen of inleidende analyses. Ook niet impliciet of als synoniem. UITZONDERING: de typering in [BO36]–[BO39]; die bepaalt NOOIT BO-status.
 - [BO5] Vervang: "registreerbaar object" → "zelfstandig object"; "wat gemeenten registreren" → "wat de gemeente herkent als zelfstandig ding"; "geen registratieobject" → afwijzen via de 6 criteria.
 - [BO6] Irrelevant als afwijsgrond: "eigendom ligt bij X", "regie, niet registratie", "extern systeem".
 - [BO7] Bronbeoordeling (ingest stap 3): NOOIT een bron afwijzen omdat die niet beschrijft wat gemeenten registreren. Toets ALLEEN of de bron objecten bevat die de 6 criteria halen. Governance-/strategiedocumenten noemen concrete objecten (applicatie, dataproduct, overeenkomst) die BO-kandidaat kunnen zijn.
@@ -37,6 +37,8 @@ Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte 
 
 ## Wiki-velden
 - [BO29] Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes` is deprecated. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
+- [BO29a] `gemma_*`-velden bevatten waarden uit het bestaande GEMMA-model, via import/ingest van dat model. Die import is nog NIET uitgevoerd.
+- [BO29b] NOOIT `gemma_*`-velden vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
 
 ## Definities (`bo_definitie`, `bo_toelichting`)
 - [BO30] `bo_definitie`: beschrijf wat het ding IS, niet waar het staat (zie [BO4]). 1 zin, max ~160 tekens. Langer ALLEEN ALS letterlijk overgenomen uit GGM of bron.
@@ -50,10 +52,10 @@ Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte 
 
 ## GGM-hiaten
 - [BO35] Bepaal voor elke BO zonder GGM-grondslag via [BO36]–[BO40] of het een hiaat is.
-- [BO36] Classificeer: Dataobject (gegevens), Proces (hoe werk verloopt), Governance-instrument (wet/verordening/bevoegdheid).
+- [BO36] Classificeer: Dataobject (registreerbare gegevens), Proces (hoe werk verloopt), Governance-instrument (wet/verordening/bevoegdheid).
 - [BO37] Dataobject → rapporteer als (potentieel) hiaat. Proces of Governance → NIET rapporteren, TENZIJ een specifiek, aanwijsbaar GGM-beleidsdomein dit deel wél modelleert (precedent: beleidsdomein Normafwijking modelleert Maatregel en Boete).
-- [BO38] Motiveer een dataobject-hiaat: waar legt de gemeente dit vast, welke attributen zijn relevant, past het in een bestaand (beleids)domein?
-- [BO39] Formuleer: `**[Object]** — [Dataobject] [waarom relevant] [waar zou passen]`.
+- [BO38] Motiveer een dataobject-hiaat: waar registreert de gemeente dit, welke attributen zijn relevant, past het in een bestaand (beleids)domein?
+- [BO39] Formuleer: `**[Object]** — [Registratieobject] [waarom relevant] [waar zou passen]`.
 - [BO40] Wees conservatief: bij twijfel NIET rapporteren. Taal: NOOIT "structureel buiten GGM-scope" of "per definitie uit scope"; ALTIJD "doorgaans niet compleet gedekt" met een concrete, domeinspecifieke reden waar mogelijk (zie [WC8]–[WC11]).
 
 ## GGM-dekking bij ingest

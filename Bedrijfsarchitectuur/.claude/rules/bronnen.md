@@ -3,7 +3,8 @@
 Paden relatief aan `Bedrijfsarchitectuur/`.
 
 ## GGM-bronnen
-- [SRC1] ALTIJD `Sources/GGM-repository/Gemeentelijk Gegevensmodel XMI2.1.xml` raadplegen bij opzoeken van GGM-entiteiten, attributen of relaties. Het XMI-bestand is de bron van waarheid voor het GGM.
+- [SRC1] `Sources/GGM-repository/Gemeentelijk Gegevensmodel XMI2.1.xml` is de bron van waarheid voor het GGM. NOOIT direct lezen; ALLEEN via de parser.
+- [SRC1a] ALS er een nieuwe GGM-release is → zet het XMI om in `Sources/GGM-repository/ggm_parsed.json` met `tools/parse_ggm_xmi.py` (via `/generate-ggm`). Beide bestanden staan in `Sources/GGM-repository/`.
 - [SRC2] NOOIT CSV-bestanden (~/Downloads) of andere locaties als GGM-bron gebruiken (afgeleiden; verouderd of incompleet).
 - [SRC3] Voor domeinbegrip (entiteiten, definities, relaties) ALTIJD `Wiki/GGM/{taakveld}/` lezen; bij ingest en `/assess-element` eerst deze bestanden lezen.
 - [SRC4] `Sources/GGM-repository/ggm_parsed.json` ALLEEN gebruiken voor technische metadata: GUIDs, GEMMA-tags, diagram-IDs (frontmatter).
@@ -29,6 +30,3 @@ Paden relatief aan `Bedrijfsarchitectuur/`.
 - [SRC16] Agenda-document — pagina-URL: `/Agenda/Document/{id}?documentId={docId}&agendaItemId={itemId}` → download: `https://utrecht.bestuurlijkeinformatie.nl/Document/LoadAgendaItemDocument/{documentId}?agendaItemId={agendaItemId}`. NOOIT prefix `/Agenda/Document/LoadAgendaItemDocument/` gebruiken (werkt niet).
 - [SRC17] Reports-document — pagina-URL: `/Reports/Document/{id}?documentId={docId}` → download: `https://utrecht.bestuurlijkeinformatie.nl/Document/View/{documentId}`, met `documentId` uit de query-parameter van de pagina-URL.
 - [SRC18] ALS [SRC17] geen resultaat geeft: pagina met curl ophalen → `grep -oE '"/Script/LoadDocument/[^"]*"'` → die Script-URL ophalen → antwoord bevat pad `Document/View/{documentId}`.
-
-## Notes
-- Open conflict: [SRC1] (XMI raadplegen) versus `Bedrijfsarchitectuur/CLAUDE.md` §"GGM-data gebruiken" ("XMI niet direct lezen — alleen via de parser bij een nieuwe GGM-release"). Niet opgelost.

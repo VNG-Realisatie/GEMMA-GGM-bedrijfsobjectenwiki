@@ -199,10 +199,8 @@ Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar o
 
 ### Scope- & vormregels
 
-1. **Gemeentelijk perspectief** — de wiki beschrijft wat de gemeente ziet, doet en registreert. Externe actoren en processen zijn context, geen eigen begrip of BO.
-2. **Bestandsnamen** — lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); geen spaties of CAPITALS.
-3. **Duidelijke taal** — schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
-4. **Geen verwijzingen naar technische/proces-bestanden** — wiki-content (BO's, begrippen, analyses, bronsamenvattingen) verwijst nooit naar `CLAUDE.md`, `templates/`, `tools/` of skills (`.claude/commands/`). Die bestanden beschrijven hóe de wiki wordt gebouwd, niet wát erin staat, en zijn niet stabiel genoeg om als citaat-anker te dienen (sectienummers verschuiven, bestanden worden hernoemd). Een inhoudelijke bewering (bijv. "dit governance-object heeft geen GGM-match") staat op zichzelf, onderbouwd met de eigen, specifieke redenering — niet met een verwijzing naar een generieke procesregel. Generieke taal als "structureel buiten scope" of "per definitie" zonder domeinspecifieke onderbouwing is een teken dat de bewering te zwak is; herformuleer met de concrete reden (welk beleidsdomein ontbreekt, welke attributen wijzen erop, etc.).
+1. **Bestandsnamen** — lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); geen spaties of CAPITALS.
+2. **Duidelijke taal** — schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
 
 ## 8. Skills & tools
 
@@ -285,13 +283,6 @@ Python-scripts in `tools/`, projectlokaal naast de skills die ze aanroepen.
 | `convert_pdf.py` | Converteert PDF naar markdown | `/convert_pdf` |
 | `migrate_frontmatter_style.py` | Fixt frontmatter-stijlfouten (quotes, lege waarden, veldnamen, incl. geneste velden onder `bo_subtypes`/`bo_homoniemen`) | `/lint` (fix-suggestie) |
 | `lint_checks.py` | Deterministische consistentiechecks (frontmatter-compleetheid, enum-validatie, Bronnen-secties, dode Sources-links, wees-BO's, wiki-link-aliassen, subtypes/duplicaten/homoniemen-schema) — geen model nodig, exacte telling. `--fix` past de mechanisch veilige subset direct toe (Bronnen-aliassen, dode links, duplicaten-schema, homoniemen-ggm-backfill) | `/lint` Stap 1 (altijd eerst) |
-
-### GGM-data gebruiken
-
-- **Voor domeinbegrip** (entiteiten, definities, relaties): lees `Wiki/GGM/{taakveld}/` (gegenereerd door `generate_ggm_wiki.py`)
-- **Voor technische metadata** (GUIDs, GEMMA-tags, diagram-IDs): lees `Sources/GGM-repository/ggm_parsed.json`
-- **XMI niet direct lezen** — alleen via de parser bij een nieuwe GGM-release
-- **Wiki/GGM niet handmatig bewerken** — altijd via `/generate-ggm` regenereren
 
 ## 9. Gedragsprincipes
 
