@@ -6,8 +6,8 @@ Paden relatief aan `Bedrijfsarchitectuur/`.
 - [SRC1] `Sources/GGM-repository/Gemeentelijk Gegevensmodel XMI2.1.xml` is de bron van waarheid voor het GGM. NOOIT direct lezen; ALLEEN via de parser.
 - [SRC1a] ALS er een nieuwe GGM-release is → zet het XMI om in `Sources/GGM-repository/ggm_parsed.json` met `tools/parse_ggm_xmi.py` (via `/generate-ggm`). Beide bestanden staan in `Sources/GGM-repository/`.
 - [SRC2] NOOIT CSV-bestanden (~/Downloads) of andere locaties als GGM-bron gebruiken (afgeleiden; verouderd of incompleet).
-- [SRC3] Voor domeinbegrip (entiteiten, definities, relaties) ALTIJD `Wiki/GGM/{taakveld}/` lezen; bij ingest en `/assess-element` eerst deze bestanden lezen.
-- [SRC4] `Sources/GGM-repository/ggm_parsed.json` ALLEEN gebruiken voor technische metadata: GUIDs, GEMMA-tags, diagram-IDs (frontmatter).
+- [SRC3] ALTIJD zoeken en matchen in `Sources/GGM-repository/ggm_parsed.json` (structurele query, bv. Python/jq): entiteiten (incl. enumeraties) over alle beleidsdomeinen, namen en synoniemen, relaties, generalisaties (`uml_type: Generalization`), attributen, GUIDs, GEMMA-tags, diagram-IDs.
+- [SRC4] `Wiki/GGM/{taakveld}/` ALLEEN gebruiken om een beleidsdomein leesbaar door te lopen (definities, attributen). Het bevat alleen Objecttypen en geen relaties, generalisaties, enumeraties, GUIDs of tags.
 
 ## Bestanden in Sources/
 - [SRC5] NOOIT bestanden in `Sources/` vertalen of herschrijven, en NOOIT per ongeluk uitbreiden (immutabel referentiemateriaal).

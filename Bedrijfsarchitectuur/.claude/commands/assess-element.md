@@ -65,7 +65,7 @@ Combinatieregels:
 Voordat de structuuranalyse begint: check of het begrip een naam deelt met een bestaand element of GGM-entiteit in een ander domein.
 
 1. **Check bestaande elementen** — zoek in `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/` en `Wiki/Rollen/` of er al een element met dezelfde naam (of een synoniem) bestaat in een ander domein. Let op: een actor/rol-pagina en een BO-pagina met dezelfde naam zijn géén duplicaat of homoniem — dat is het reguliere twee-pagina-patroon (Stap 2b).
-2. **Check GGM** — zoek in `Wiki/GGM/` (GUIDs: `ggm_parsed.json`) of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
+2. **Check GGM** — zoek in `ggm_parsed.json` of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
 3. **Classificeer** het signaal:
    - **Duplicaat** (zelfde concept, ander domein) — dit begrip is al afgedekt door een bestaand BO. Verwijs ernaar in het onderwerpoverzicht, maak geen nieuw BO aan.
    - **Homoniem** (zelfde naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-element` een disambiguerende naam kiezen.
@@ -85,7 +85,7 @@ Twee onafhankelijke bronnen analyseren:
 
 **b) Uit GGM (generalisatierelaties):**
 - Welke generalisatie-relaties bestaan er in het GGM voor dit begrip of verwante entiteiten?
-- Zoek in `Wiki/GGM/` naar overerving, specialisaties en generalisaties
+- Zoek in `ggm_parsed.json` (relaties met `uml_type: Generalization`) naar overerving, specialisaties en generalisaties
 
 **Vergelijk a) en b):** komen ze overeen? Waar wijkt de bronnenanalyse af van het GGM? Afwijkingen zijn waardevolle bevindingen.
 
@@ -105,7 +105,7 @@ Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keu
 
 ### Stap 5: Attributen-check
 
-Zoek in de GGM-bronpagina's of het concept als **attribuut of classificatie** voorkomt in andere entiteiten.
+Zoek in `ggm_parsed.json` (attributen van entiteiten) of het concept als **attribuut of classificatie** voorkomt in andere entiteiten.
 
 Als het begrip slechts een attribuut, status, of enumeratiewaarde is van een andere entiteit → **geen BO** maar een eigenschap. Vastleggen als subtype of eigenschap bij het parent-BO.
 

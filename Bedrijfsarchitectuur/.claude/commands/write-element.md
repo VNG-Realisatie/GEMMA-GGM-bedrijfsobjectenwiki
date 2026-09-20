@@ -37,7 +37,7 @@ Het ontbreken van een GGM-grondslag is voor procesobjecten en governance-objecte
 
 ## Stap 2: GGM-match zoeken
 
-Zoek in `Wiki/GGM/` naar kandidaat-entiteiten (GUIDs en tags: `ggm_parsed.json`):
+Zoek in `ggm_parsed.json` naar kandidaat-entiteiten:
 - Naam-match (exact of synoniem)
 - Definitie-match (vergelijkbare scope)
 - Domein-match (zelfde beleidsdomein/taakveld)

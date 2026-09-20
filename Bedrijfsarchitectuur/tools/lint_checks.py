@@ -253,10 +253,10 @@ def check_bo_relaties(files):
 
 
 def check_subtypes(files):
-    # bo_subtypes is gedeprecieerd (zie templates/element.md): subtypes staan
-    # sinds die update alleen nog in de ## Subtypes-body-sectie. Een gevulde
-    # sectie zonder frontmatter-tegenhanger is dus het verwachte, correcte
-    # patroon voor elke BO geschreven na de deprecatie — geen bevinding.
+    # bo_subtypes is in gebruik (tools/entiteitendekking.py leest de items met
+    # ggm_attribuut: generalisatie). Gemeld worden: frontmatter zonder
+    # ## Subtypes-sectie en naam-mismatch tussen frontmatter en sectie. Een
+    # ## Subtypes-sectie zonder frontmatter wordt niet gemeld.
     fm_no_body, mismatch, missing_ggm_link = [], [], []
     for f in files:
         fm, _, body = parse_frontmatter(f)

@@ -118,11 +118,7 @@ Web Clipper slaat pagina's op in `Clippings/` — een landingszone, geen bron.
 3. **Frontmatter aanvullen** als velden ontbreken (description, tags).
 4. Ga verder met de reguliere ingest-workflow.
 
-### GGM-bronbestandformaat
-
-Zie `templates/ggm-bron.md` voor het volledige format inclusief verplichte secties en verantwoording.
-
-#### GGM-terminologie
+### GGM-terminologie
 
 Het GGM is hiërarchisch opgebouwd: **taakvelden** (afgeleid van IV3) bevatten **beleidsdomeinen**.
 

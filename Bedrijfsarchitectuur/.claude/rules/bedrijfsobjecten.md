@@ -22,8 +22,7 @@ Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte 
 - [BO29] Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes`: zie [BO29c]. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
 - [BO29a] `gemma_*`-waarden komen uit het GGM (dat een `gemma.csv` importeert). In `ggm_parsed.json` staan ze als `gemma_tags`; in BO-frontmatter als `ggm_gemma_*`.
 - [BO29b] NOOIT `gemma_*`/`ggm_gemma_*` vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
-- [BO29c] `bo_subtypes` blijft bestaan: `tools/entiteitendekking.py` leest `ggm_attribuut: generalisatie`-items voor de dekking van GGM-specialisaties; `tools/lint_checks.py`, `tools/export_ggm_csv.py` en `tools/generate_ggm_enrich_bo.py` gebruiken het ook. NIET verwijderen.
+- [BO29c] `bo_subtypes` is in gebruik (NIET deprecated): per item `naam`, `omschrijving`, `ggm_entiteit`, `ggm_guid`, `ggm_attribuut`. `tools/entiteitendekking.py` leest de items met `ggm_attribuut: generalisatie` voor de dekking van GGM-specialisaties; lint, export en enrichment gebruiken het ook. NIET verwijderen.
 
 ## Notes
 - Precedent [BO13]: Woonboot → Vaartuig hernoemd (2026-07-09; Woonboot is de enige toepassing van GGM-entiteit Vaartuig). NIET hernoemd: Evenement, Woning, Rioolleiding (zelfstandige beleidsbegrippen). Rioolleiding = twee pagina's: Leiding (generieke GGM-match) + Rioolleiding (Specialisatie met generalisatie-relatie terug).
-- Open conflict [BO29c]: `templates/element.md` markeert `bo_subtypes` als deprecated ("leeg laten bij nieuwe BO's"), terwijl `/write-element` 6c en `/assess-element` Stap 8 het nog vullen en `tools/entiteitendekking.py` het leest.
