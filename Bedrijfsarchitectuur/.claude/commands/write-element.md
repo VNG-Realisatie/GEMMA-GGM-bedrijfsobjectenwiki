@@ -20,7 +20,7 @@ Elke BO-naam moet op zichzelf ondubbelzinnig zijn, ongeacht grondslag. Een naamc
 
 Gebruik **niet** de GEMMA `ggm_gemma_alternate_name`-conventie (bijv. "Inschrijving (Onderwijs)") als bestandsnaam — haakjes in bestandsnamen zijn ongewenst. Documenteer de keuze in `## Naamkeuze` (zie template).
 
-**Bij een GGM-homoniem specifiek:** `ggm_entiteit` blijft de originele GGM-naam (behoudt herleidbaarheid naar het GGM); `naam` en `ggm_gemma_naam` krijgen de nieuw gekozen, ondubbelzinnige naam. Voeg de originele naam niet toe aan `bo_synoniemen` — bij een homoniem is de oude naam het probleem, geen synoniem; die wordt al gedocumenteerd in `bo_homoniemen` (stap 4b).
+**Bij een GGM-homoniem specifiek:** `ggm_entiteit` blijft de originele GGM-naam (behoudt herleidbaarheid naar het GGM); `naam` en `ggm_gemma_naam` krijgen de nieuw gekozen, ondubbelzinnige naam. De originele GGM-naam mag als synoniem in `bo_synoniemen` (GGM-namen kunnen synoniem zijn); het homoniem zelf wordt gedocumenteerd in `bo_homoniemen` (stap 4b).
 
 ## Stap 1: Grondslag bepalen
 
@@ -33,11 +33,11 @@ Bepaal de grondslag van het BO via deze cascade:
 | 3 | Geen GGM-basis, wel een artefact dat in een gemeentelijk proces ontstaat? | `procesobject` |
 | 4 | Geen GGM-basis, juridisch/beleidsmatig kader? | `governance-object` |
 
-Het ontbreken van een GGM-grondslag is voor procesobjecten en governance-objecten **structureel** — het GGM modelleert data, niet processen of governance.
+Het ontbreken van een GGM-grondslag is voor procesobjecten en governance-objecten normaal: het GGM dekt deze doorgaans niet compleet (geen categorische uitsluiting; zie `/assess-element` Stap 10).
 
 ## Stap 2: GGM-match zoeken
 
-Zoek in `Sources/GGM/` naar kandidaat-entiteiten:
+Zoek in `Wiki/GGM/` naar kandidaat-entiteiten (GUIDs en tags: `ggm_parsed.json`):
 - Naam-match (exact of synoniem)
 - Definitie-match (vergelijkbare scope)
 - Domein-match (zelfde beleidsdomein/taakveld)
@@ -51,18 +51,20 @@ Zoek in `Sources/GGM/` naar kandidaat-entiteiten:
 | **partieel** | GGM-entiteit dekt een deel van het BO, of BO is aggregatie van meerdere entiteiten | Overnemen met toelichting, overweeg terugmelding |
 | **zwak** | Verwant concept maar wezenlijk andere scope of granulariteit | Relatie noteren, niet als grondslag gebruiken |
 
+**Naam bij sterk/partieel-match met een bredere GGM-entiteit** ([BO11]–[BO18]): de BO-naam blijft het gemeentelijke beleidsbegrip; leg de afwijking vast in `## GGM-bron`, niet in `## Naamkeuze`; hernoemen alleen bij een uitzondering en nooit in bulk.
+
 ## Stap 4: Mapping-regels
 
 - Bij voorkeur **1-op-1 mapping** (beheerbaarheid, herkenbaarheid).
 - **Aggregatie** toegestaan als het GGM te granulair is — noteer welke GGM-entiteiten zijn samengevoegd.
-- Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt als hetzelfde concept: maak één bedrijfsobject met de thematisch passende GUID als primair en de overige in `ggm_duplicaat_entiteiten`. Meld als `duplicaat` terug.
+- Als een GGM-entiteit in **meerdere beleidsdomeinen** voorkomt als hetzelfde concept: maak één bedrijfsobject met de thematisch passende GUID als primair en de overige in `ggm_duplicaat_entiteiten`. Meld als `duplicaat` terug. Plaatsing per geval beoordelen (geen vaste domeinregel). De GEMMA-export genereert één rij per GUID, alle naar hetzelfde concept.
 - Als een GGM-entiteitnaam in meerdere beleidsdomeinen een **ander concept** vertegenwoordigt: dit is een homoniem. Stel 2-3 alternatieve namen voor (zie stap 0) en leg de keuze voor aan de gebruiker. Meld als `homoniem` terug.
 
 ## Stap 4b: GGM-duplicaten detecteren
 
 **Alleen van toepassing bij `grondslag: ggm-entiteit`.** Een homoniem is per definitie een naamcollisie tussen twee GGM-entiteiten — niet tussen twee wiki-BO's (zie stap 0). Heeft dit BO geen eigen `ggm_entiteit` (grondslag `procesobject`, `ggm-afgeleid` of `governance-object`), dan kan het geen homoniem hebben, ook niet als de BO-naam toevallig lijkt op een andere BO. `bo_homoniemen` blijft dan `[]`.
 
-Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkomt.
+Na de GGM-match: zoek of dezelfde entiteitnaam in andere beleidsdomeinen voorkomt. Detectie is een signaal; de classificatie duplicaat/homoniem is een beslissing van de gebruiker.
 
 1. **Zoek in `ggm_parsed.json`** naar alle entiteiten met dezelfde naam als de gematchte entiteit.
 2. **Classificeer** elk voorkomen:
@@ -115,6 +117,7 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
    - **GGM klopt maar is onvolledig** → neem de GGM-definitie letterlijk over als `bo_definitie`. Zet de aanvulling (uitleg, voorbeelden, verdere context) in `bo_toelichting`.
 3. **Zonder GGM-match:** maak een definitie uit de bronnen. Bron-definitie letterlijk overnemen als die er is, anders afleiden.
 4. **`bo_toelichting`:** aanvullingen, uitleg en voorbeelden — ook gebaseerd op bronnen, niet vrij verzonnen. Leeg laten als de definitie volstaat.
+5. **Algemeen:** gebruik alleen informatie uit de Sources-bestanden van het onderwerp. Een eigen definitie is alleen gerechtvaardigd bij inhoudelijke afwijking van de bronnen en moet verifieerbaar zijn. De definitie beschrijft wat het ding is, niet waar het staat (geen registr*-taal, [BO4]).
 
 ### Disambiguatie (BO-naam ≠ GGM-entiteitnaam)
 
@@ -181,6 +184,8 @@ BO-relaties worden afgeleid van GGM-associaties maar vereenvoudigd naar bedrijfs
 
 Vul het volledige frontmatter-schema in volgens `templates/element.md`.
 
+Regels voor wiki-content ([WC7]–[WC11]): geen verwijzingen naar `CLAUDE.md`, `templates/`, `tools/` of skills; geen absolute taal ("structureel buiten scope", "per definitie") zonder domeinspecifieke onderbouwing.
+
 Plaats in `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` — folderstructuur volgt de GGM-indeling (bijv. `7-volksgezondheid-en-milieu/milieu/`).
 
 Body-secties volgens template:
@@ -201,7 +206,7 @@ Body-secties volgens template:
 ## Stap 9: Terugmeldingen
 
 Bij afwijkingen of hiaten: voeg een regel toe aan `Wiki/Analyses/ggm-terugmeldingen.md` conform `templates/ggm-terugmelding.md`.
-Typen: hiaat | definitie | structuur | scope. Status: open.
+Typen: hiaat | definitie | structuur | scope | duplicaat | homoniem (zie `templates/ggm-terugmelding.md`). Status: open.
 
 Bij geen match en data-object=ja: signaleer als potentieel GGM-hiaat (conform `/assess-element` stap 10).
 

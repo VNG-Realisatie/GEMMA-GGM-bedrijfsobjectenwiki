@@ -20,6 +20,8 @@ Het script genereert in `Wiki/Analyses/entiteitendekking/`:
 - `totaaloverzicht.md` — samenvattende tabel per beleidsdomein
 - `review.md` — items die LLM-review nodig hebben
 
+**Controle na elke `--all`-run:** `git status --short` en `git diff --stat` bekijken en elk gewijzigd bestand toetsen aan de eigen bewerkingslijst, niet alleen de samenvattingstellingen. Onverklaarde wijzigingen (bv. `type:`-velden die terugveranderen naar `bedrijfsobject`, wijzigingen in `Wiki/GGM/`-bestanden) → `git diff` op dat bestand vóór verder werken; nooit afdoen als regressie of toeval op basis van dekkingspercentages. Precedent 2026-07-09: een externe editor (vermoedelijk verouderde buffer van een open tab) zette `raadsstuk.md` terug naar `type: bedrijfsobject`; herstel met `git checkout -- <bestand>`.
+
 ### Stap 2: Review
 
 Lees `review.md`. Dit bevat twee soorten items, niet met elkaar te verwarren:

@@ -10,7 +10,7 @@ python3 tools/lint_checks.py $ARGUMENTS
 
 Zonder argument = hele wiki; met een onderwerp-substring worden BO/Actor/Rol-pagina's op `onderwerp:`/pad gefilterd (cross-cutting checks als wees-BO's, dubbele bestandsnamen en de `Begrippen/`-directory blijven altijd wiki-breed).
 
-Dekt: Bronnen-secties (aanwezigheid, format, dode Sources-links), frontmatter-compleetheid en enum-validatie, `ggm_guid`-validatie tegen `ggm_parsed.json`, `bo_definitie`-geldigheid, `bo_relaties`-structuur, subtypes frontmatter↔body-consistentie, `ggm_duplicaat_entiteiten`-schema en -sectieconsistentie, homoniemen/synoniemen-compleetheid en -symmetrie, wees-BO's, `Wiki/Begrippen/`-verbod, verplichte wiki-link-aliassen, dubbele bestandsnamen, verboden GGM-dekkingssecties, begrippentabel-format. Zie de docstring in het script voor de precieze lijst.
+Dekt: Bronnen-secties (aanwezigheid, format, dode Sources-links), frontmatter-compleetheid en enum-validatie, `ggm_guid`-validatie tegen `ggm_parsed.json`, `bo_definitie`-geldigheid, `bo_relaties`-structuur, subtypes frontmatter↔body-consistentie, `ggm_duplicaat_entiteiten`-schema en -sectieconsistentie, homoniemen/synoniemen-compleetheid en -symmetrie, wees-BO's, `Wiki/Begrippen/`-verbod, verplichte wiki-link-aliassen, dubbele bestandsnamen, verboden GGM-dekkingssecties, begrippentabel-format, regelverwijzingen (`[ID]` in skills/templates/rules bestaan, IDs uniek, geen verboden zinnen; zie `FORBIDDEN_PHRASES` in het script). Zie de docstring in het script voor de precieze lijst.
 
 Neem de output 1-op-1 over — niet hertellen of herformuleren.
 
@@ -24,13 +24,20 @@ Neem de output 1-op-1 over — niet hertellen of herformuleren.
 
 Alleen wat het script signaleert maar niet kan duiden, plus wat inherent semantisch is:
 
-- **Anti-patroon registr\*** — script levert kandidaatregels ("registreerbaar"/"registratieobject"); beoordeel per regel of het als afwijsgrond tegen de 6 BO-criteria wordt gebruikt (overtreding) of legitiem taalgebruik is.
+- **Anti-patroon registr\*** ([BO4]–[BO6]) — script levert kandidaatregels ("registreerbaar"/"registratieobject"); beoordeel per regel of het als afwijsgrond tegen de 6 BO-criteria wordt gebruikt (overtreding) of legitiem taalgebruik is.
 - **`bo_relaties`-incompleetheid** — ontbrekende kardinaliteit of `bedrijfsobject` zonder wiki-link: omissie (fix) of bewust (relatie naar concept zonder eigen BO-pagina)?
 - **Wees-BO's** — terecht (nog niet verwerkt) of omissie in een onderwerpoverzicht?
 - **Subtypes-mismatch** — moet het begrip een eigen BO-pagina zijn i.p.v. subtype?
 - **Begrippentabel → BO** — begrippen met BO?=❌ waarvan de Reden een subtype-patroon bevat ("subtype van", "onderdeel van", "specialisatie van", "valt onder", "categorie van", "variant van") die niet als `bo_subtypes` of in een Subtypes/Specialisaties-tabel bij het genoemde parent-BO staan. Alleen bij bestaand parent-BO; "onderdeel van" vangt ook composities — handmatig beoordelen.
 - **Generalisatie/Specialisaties-symmetrie**, dode links in `## Generalisatie`, volledigheid van `Wiki/Analyses/ggm-dekking.md`, analyse-links, terugmeldingen-consistentie (`⚠️ ter discussie` ↔ `Wiki/Analyses/ggm-terugmeldingen.md`), duplicaat-/homoniem-terugmelding, naamkeuze-consistentie — nog niet gescript, handmatig/steekproefsgewijs controleren.
 - **Tegenstrijdige definities**, contradicties tussen pagina's, verouderde claims — semantisch, altijd modelwerk.
+
+## Verificatie van bevindingen
+
+- `/lint` draait bewust op Haiku.
+- Verifieer gemelde bevindingen zelf (grep/Read/eigen script) vóór ze in het eindrapport komen, voor élke categorie, ook telbare/structurele claims.
+- Vertrouw NOOIT een getal of "aanwezig/afwezig"-claim van het model zonder eigen deterministische verificatie (grep/Python-script over de volledige set). Een steekproef van 2–3 voorbeelden volstaat niet voor aggregaat-tellingen; voor semantische bevindingen volstaat een steekproef.
+- Structureel/telbare checks (veldnaam-gebruik, sectie-aanwezigheid, link-tellingen, orphan-detectie) horen in `tools/lint_checks.py`, niet bij het model. Precedent 2026-09-17: het model meldde 344 (werkelijk 0), 381 (werkelijk 2) en 1.123 (werkelijk 46).
 
 ## Rapportage
 

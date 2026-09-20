@@ -21,6 +21,9 @@ Stappen:
    - Knip footer af bij markers als "Permanente link naar versie", "Exporteer regeling", "Keuze afdrukken", "Over deze website"
    - Voor wetten.overheid.nl: de wettekst begint bij de eerste `### Hoofdstuk` heading; alles daarvoor (inhoudsopgave, zoekbalk) weglaten
    - Normaliseer witruimte: max 2 opeenvolgende newlines, max 1 spatie
+1b. **Bij utrecht.bestuurlijkeinformatie.nl (iBabs):** pagina-URL's van documenten zijn niet direct downloadbaar. Bepaal het URL-type:
+   - Agenda-document — pagina-URL `/Agenda/Document/{id}?documentId={docId}&agendaItemId={itemId}` → download `https://utrecht.bestuurlijkeinformatie.nl/Document/LoadAgendaItemDocument/{documentId}?agendaItemId={agendaItemId}`. NOOIT het prefix `/Agenda/Document/LoadAgendaItemDocument/` gebruiken (werkt niet).
+   - Reports-document — pagina-URL `/Reports/Document/{id}?documentId={docId}` → download `https://utrecht.bestuurlijkeinformatie.nl/Document/View/{documentId}`, met `documentId` uit de query-parameter. Lukt dat niet: haal de pagina op met curl, `grep -oE '"/Script/LoadDocument/[^"]*"'`, haal die Script-URL op; het antwoord bevat het pad `Document/View/{documentId}`.
 2. Bepaal het onderwerp — volg de indelingsregels in CLAUDE.md § "Bronnen toevoegen".
 3. Als de pagina links naar bronbestanden heeft (1 level diep):
    - **PDF-bestanden:**

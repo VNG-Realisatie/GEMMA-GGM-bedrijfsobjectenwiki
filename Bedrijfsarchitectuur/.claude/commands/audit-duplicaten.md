@@ -7,6 +7,8 @@ Output: chat-rapportage met voorstellen (geen automatische fix).
 
 ## Doel
 
+Retroactieve correctie van naamconflicten loopt altijd via deze skill, nooit via een eenmalige bulk-actie. Regels voor duplicaten en homoniemen: `/write-element` Stap 0 en 4b.
+
 Systematische scan van alle BO-pagina's om naamconflicten op te sporen die nog niet gedocumenteerd zijn in de `bo_synoniemen`, `bo_homoniemen` of `ggm_duplicaat_entiteiten` frontmatter. Resultaat: een lijst van voorgestelde correcties die per geval beoordeeld worden.
 
 ## Stap 1: Inventarisatie

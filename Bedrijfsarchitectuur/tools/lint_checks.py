@@ -447,6 +447,52 @@ def check_antipatroon_registr(files):
     return candidates
 
 
+# ----------------------------------------------- rule-ID verwijzingen/consistentie
+
+RULE_DEF = re.compile(r'^\s*[-*]\s*\[([A-Z]{1,4}\d+[a-z]?)\]', re.M)
+RULE_REF = re.compile(r'(?<!\[)\[([A-Z]{1,4}\d+[a-z]?)\](?!\])')
+FORBIDDEN_PHRASES = {
+    'structureel out-of-scope': 'absolute GGM-scope-taal (WC8-WC11)',
+    'structureel geen GGM-match': 'absolute GGM-scope-taal (WC8-WC11)',
+    'Sources/GGM/': 'niet-bestaand pad (bedoeld: Wiki/GGM/ of Sources/GGM-repository/)',
+}
+
+
+def _rule_files():
+    root = BASE.parent
+    files = [root / 'CLAUDE.md', BASE / 'CLAUDE.md', BASE / '.claude' / 'projectcontext.md']
+    files += sorted((root / '.claude' / 'rules').glob('*.md'))
+    files += sorted((BASE / '.claude' / 'rules').glob('*.md'))
+    return [f for f in files if f.exists()]
+
+
+def _rrel(f):
+    return str(f.relative_to(BASE.parent))
+
+
+def check_rule_references():
+    """Rule-ID's unique, elke [ID]-verwijzing (skills, templates, rules) bestaat, geen verboden zinnen."""
+    findings = []
+    defs = {}
+    for f in _rule_files():
+        for m in RULE_DEF.finditer(f.read_text(encoding='utf-8')):
+            rid = m.group(1)
+            if rid in defs:
+                findings.append(f'ID {rid} dubbel gedefinieerd: {defs[rid]} en {_rrel(f)}')
+            defs[rid] = _rrel(f)
+    scan = _rule_files() + sorted((BASE / '.claude' / 'commands').glob('*.md')) + sorted((BASE / 'templates').glob('*.md'))
+    for f in scan:
+        txt = f.read_text(encoding='utf-8')
+        for rid in sorted(set(RULE_REF.findall(txt))):
+            if rid not in defs:
+                findings.append(f'{_rrel(f)}: verwijzing [{rid}] bestaat niet')
+        if f.parent.name in ('commands', 'templates', 'rules') or f.name == 'projectcontext.md':
+            for phrase, why in FORBIDDEN_PHRASES.items():
+                if phrase in txt:
+                    findings.append(f'{_rrel(f)}: bevat "{phrase}" ({why})')
+    return findings
+
+
 # -------------------------------------------------------------------- fixes
 
 def _strip_bronnen_aliases_text(text):
@@ -782,6 +828,8 @@ def main():
     report['Anti-patroon "registreerbaar/registratieobject" — kandidaten voor LLM-beoordeling'] = [
         f'{f}: {line}' for f, line in check_antipatroon_registr(files)
     ]
+
+    report['Regelverwijzingen: onbekend/dubbel ID of verboden zin (skills, templates, rules)'] = check_rule_references()
 
     if as_json:
         print(json.dumps(report, ensure_ascii=False, indent=2))

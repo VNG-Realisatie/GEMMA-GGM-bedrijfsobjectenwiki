@@ -21,7 +21,7 @@ Classificeer het begrip als een van deze begripstypen:
 | Begripstype | Omschrijving | ArchiMate-elementtype | Element-kandidaat? | GGM-match verwacht? |
 |---|---|---|---|---|
 | **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja (BO) | Ja |
-| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja (BO) | Nee (governance-hiaat GGM) |
+| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja (BO) | Doorgaans niet (GGM dekt governance niet compleet) |
 | **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor | Ja (actor-pagina) | Deels (RSGB) |
 | **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role | Ja (rol-pagina) | Deels (RSGB) |
 | **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) | Ja (BO) | Deels (RSGB) |
@@ -65,10 +65,10 @@ Combinatieregels:
 Voordat de structuuranalyse begint: check of het begrip een naam deelt met een bestaand element of GGM-entiteit in een ander domein.
 
 1. **Check bestaande elementen** — zoek in `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/` en `Wiki/Rollen/` of er al een element met dezelfde naam (of een synoniem) bestaat in een ander domein. Let op: een actor/rol-pagina en een BO-pagina met dezelfde naam zijn géén duplicaat of homoniem — dat is het reguliere twee-pagina-patroon (Stap 2b).
-2. **Check GGM** — zoek in `Sources/GGM/` of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
+2. **Check GGM** — zoek in `Wiki/GGM/` (GUIDs: `ggm_parsed.json`) of de entiteitnaam in meerdere beleidsdomeinen voorkomt.
 3. **Classificeer** het signaal:
    - **Duplicaat** (zelfde concept, ander domein) — dit begrip is al afgedekt door een bestaand BO. Verwijs ernaar in het onderwerpoverzicht, maak geen nieuw BO aan.
-   - **Homoniem** (andere naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-element` een disambiguerende naam kiezen.
+   - **Homoniem** (zelfde naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-element` een disambiguerende naam kiezen.
    - **Geen conflict** — ga door met de normale flow.
 
 **Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-element` stap 4b-4c.
@@ -85,7 +85,7 @@ Twee onafhankelijke bronnen analyseren:
 
 **b) Uit GGM (generalisatierelaties):**
 - Welke generalisatie-relaties bestaan er in het GGM voor dit begrip of verwante entiteiten?
-- Zoek in source/GGM naar overerving, specialisaties en generalisaties
+- Zoek in `Wiki/GGM/` naar overerving, specialisaties en generalisaties
 
 **Vergelijk a) en b):** komen ze overeen? Waar wijkt de bronnenanalyse af van het GGM? Afwijkingen zijn waardevolle bevindingen.
 
@@ -99,7 +99,9 @@ Twee onafhankelijke bronnen analyseren:
 
 Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
 
-**Leg elk geval individueel voor aan de gebruiker.** Dit geldt met name voor de keuze of de BO-naam de GGM-entiteitnaam wordt (specifieke term wordt Subtype of Specialisatie) of ongewijzigd blijft. Een "geldt dit overal"-antwoord op één casus is geen vrijbrief om dezelfde aanpak zonder overleg door te trekken naar vergelijkbare gevallen elders — leg elk geval apart voor, ook nadat een eerder, vergelijkbaar geval al is beslist.
+**Abstract niveau:** toets het abstracte niveau (bijv. "Maatschappelijke voorziening") altijd aan de 6 criteria. Sluit het NOOIT categorisch uit, ook niet als specialisaties herkenbaar zijn en eigen processen hebben. Haalt het abstracte niveau de criteria niet → alleen de specialisaties worden BO.
+
+**Naam bij GGM-generalisatie** ([BO11]–[BO16]): de BO-naam blijft standaard het gemeentelijke beleidsbegrip; hernoemen naar de GGM-naam alleen bij een uitzondering; elk geval apart voorleggen, nooit in bulk op basis van één eerder akkoord.
 
 ### Stap 5: Attributen-check
 
@@ -126,20 +128,15 @@ Scoor elk criterium met ja/nee:
 5. **Heeft een eigen levenscyclus** — wordt het aangemaakt, gewijzigd, beëindigd?
 6. **Heeft relaties met andere concepten** — relateert het aan andere BO's of concepten?
 
-**Drempel:** meeste (5+) = BO.
+**Drempel:** 5 of meer van de 6 = BO.
+
+**Beslisvraag:** herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
 
 **Negatieve toets:** geen BO als het slechts een eigenschap, status, activiteit, regel of classificatie van iets anders is.
 
 ### Stap 7b: Anti-patronen
 
-**NOOIT als BO-criterium of motivatie gebruiken:**
-- registreerbaar / registratieobject / "wat gemeenten registreren"
-- eigendom ("eigendom ligt bij Eneco")
-- systeembeheer ("gemeente registreert dit niet")
-- regie ("regie, niet registratie")
-- extern systeem
-
-**De enige toets zijn de 6 criteria hierboven.** Gebruik het woord "registr*" niet in de motivatie.
+De 6 criteria zijn de enige toets. Anti-patronen ([BO4]–[BO6]): NOOIT registr*, eigendom, systeembeheer, regie of extern systeem als criterium of motivatie.
 
 ### Stap 8: Hiërarchie vastleggen
 
@@ -164,7 +161,7 @@ Dit is een **aparte classificatie** naast de BO-beoordeling:
 | Combinatie | Voorbeeld | Gevolg |
 |---|---|---|
 | BO + data-object | WOZ-object, Begroting | Meest voorkomend |
-| BO + geen data-object | Governance-objecten, procesobjecten | Structureel geen GGM-match verwacht |
+| BO + geen data-object | Governance-objecten, procesobjecten | Doorgaans geen GGM-match verwacht |
 | Subtype + data-object | Type monument (geregistreerd) | Vastleggen als subtype met GGM-link |
 | Geen BO + data-object | Te granulair voor BO, wél geregistreerd | Potentieel GGM-entiteit zonder BO; vastleggen in begrippentabel |
 
@@ -176,11 +173,13 @@ Data-objecten zonder GGM-match zijn de sterkste hiaat-kandidaten (→ stap 10).
 
 Alleen bij data-objecten zonder GGM-match.
 
-| Type begrip | GGM-scope? | Rapporteren als hiaat? |
+| Type begrip | GGM-dekking | Rapporteren als hiaat? |
 |---|---|---|
 | Data-object | In scope | Ja (potentieel hiaat) |
-| Proces | Uit scope | Nee (structureel out-of-scope) |
-| Governance-instrument | Uit scope | Nee (structureel out-of-scope) |
+| Proces | Doorgaans niet compleet gedekt | Nee, tenzij een specifiek, aanwijsbaar GGM-beleidsdomein dit deel wél modelleert (precedent: beleidsdomein Normafwijking modelleert Maatregel en Boete) |
+| Governance-instrument | Doorgaans niet compleet gedekt | Nee, zelfde voorbehoud |
+
+**Taal:** NOOIT "structureel buiten GGM-scope" of "per definitie uit scope". Schrijf "doorgaans niet compleet gedekt", met een concrete, domeinspecifieke reden waar mogelijk ([WC8]–[WC11]).
 
 Bij potentieel hiaat, motiveer:
 - Waar worden deze gegevens in de gemeente vastgelegd/beheerd?

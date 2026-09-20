@@ -21,15 +21,7 @@
 - [WC10] ALS een bewering een concrete, specifieke reden geeft (bv. "dit beleidsdomein begint pas bij X", "GGM heeft wel BAG-locaties maar niet dit type locatie") → NIET aanpassen, ook niet als het woord "structureel" erin staat.
 - [WC11] Bij opschoning van deze framing: per geval beoordelen. NOOIT blind alle "structureel"/"buiten scope" vervangen.
 
-## `/lint`
-- [WC15] `/lint` draait bewust op Haiku.
-- [WC16] ALTIJD gemelde bevindingen zelf verifiëren (grep/Read/eigen script) vóór ze in het eindrapport komen, voor élke categorie, ook telbare/structurele claims.
-- [WC17] NOOIT een getal of "aanwezig/afwezig"-claim vertrouwen zonder eigen deterministische verificatie (grep/Python-script over de volledige set). Een steekproef van 2–3 voorbeelden volstaat NIET voor aggregaat-tellingen. Bij conflict met [WC16] geldt [WC17] voor tellingen en aanwezigheid; een steekproef volstaat alleen voor semantische bevindingen.
-- [WC18] Structureel/telbare checks (veldnaam-gebruik, sectie-aanwezigheid, link-tellingen, orphan-detectie) → script `tools/lint_checks.py`. NIET aan het model delegeren.
-
-## Verificatie na regeneratie en subagent-runs
-- [WC19] Na elke `entiteitendekking.py --all`: ALTIJD `git status --short` en `git diff --stat` controleren; toets elk gewijzigd bestand aan de eigen bewerkingslijst. NIET alleen de samenvattingstellingen bekijken.
-- [WC20] ALS een wijziging onverklaard is (bv. `type:`-velden die terugveranderen naar `bedrijfsobject`; wijzigingen in `Wiki/GGM/`-bestanden) → `git diff` op dat bestand VÓÓR verder werken. NOOIT afdoen als regressie of toeval op basis van dekkingspercentages.
+## Gegenereerde bestanden en subagent-runs
 - [WC21] `Wiki/GGM/` NOOIT handmatig bewerken (gegenereerd). Wijzig ALLEEN door te regenereren via `/generate-ggm`. Herstel een ongewenste externe wijziging met `git checkout -- <bestand>`.
 - [WC22] Checklist na elke subagent-run (zie [W4]):
   1. `Wiki/Analyses/ggm-terugmeldingen.md`: nieuwe hiaten/correcties uit de BO-pagina's toegevoegd?
@@ -39,7 +31,5 @@
   5. Forward references in BO-pagina's: verwijzen ze naar bestaande bestanden?
 
 ## Notes
-- Vermoedelijke oorzaak van [WC20]-gevallen: externe editor (VS Code) slaat verouderde buffer van open tab op. Precedent 2026-07-09: `raadsstuk.md` teruggezet naar `type: bedrijfsobject`.
 - `templates/element.md` verwijst naar [WC7].
 - Precedent [WC9]: GGM-beleidsdomein Normafwijking (Participatiewet-ingest, 2026-09-18) modelleert Maatregel en Boete; dit weerlegde "GGM modelleert nooit processen/governance".
-- Precedent [WC17]: lint-run 2026-09-17 meldde 344 (werkelijk 0), 381 (werkelijk 2), 1.123 (werkelijk 46).
