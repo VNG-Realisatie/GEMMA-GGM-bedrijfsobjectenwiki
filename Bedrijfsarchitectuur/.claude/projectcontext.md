@@ -1,67 +1,38 @@
 # Projectcontext
 
-## gemma-team-wiki
+## Doel en gebruiker
+- [P1] Gebruiker is het GEMMA-team bij VNG. De wiki is een professioneel werkinstrument voor standaardontwikkeling (fundament voor onderhoud en doorontwikkeling van de GEMMA bedrijfsobjecten), geen persoonlijk naslagwerk.
+- [P2] Kwaliteit en onderbouwing zijn cruciaal: de wiki voedt een landelijke standaard.
+- [P3] GGM is de primaire bron maar kan fouten bevatten; correcties worden teruggekoppeld aan het GGM.
+- [P4] GGM-entiteiten ≠ BO's; de wiki onderbouwt de vertaalslag.
+- [P5] Hiaten (BO's zonder GGM-grondslag) worden opgevuld en eventueel teruggekoppeld.
 
-Het team dat deze wiki gebruikt IS het GEMMA-team bij VNG. De wiki dient als fundament voor het onderhouden en doorontwikkelen van de GEMMA bedrijfsobjecten.
+## Element-schema (besluit 2026-07-08)
+- [P6] Overkoepelende term is **element**. Skills: `/assess-element`, `/write-element` (voorheen `/assess-bo`, `/write-bo`). Template: `templates/element.md`. Frontmatter `type: element` (voorheen `type: bedrijfsobject`) voor alle pagina's in `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/` en `Wiki/Rollen/`.
+- [P7] `archimate_type` is de enige plek voor het specifieke elementtype: `business-object | contract | product | business-actor | business-role`.
+- [P8] Actoren en rollen krijgen eigen pagina's in platte mappen: `Wiki/Actoren/{naam}.md`, `Wiki/Rollen/{naam}.md`.
+- [P9] ALS een begrip zowel actor/rol als BO is (6 BO-criteria gehaald) → TWEE aparte pagina's met cross-links (patroon: [BO22]). NOOIT dubbele tags op één pagina.
+- [P10] `ggm_guid` mag op meerdere pagina's staan (BO en actor delen dezelfde GGM-entiteit). Scripts gebruiken multi-map indexen; NOOIT last-write-wins.
+- [P11] Doelgroep is GEEN actor of rol, maar een BO-classificatie waarmee Business Actors worden ingedeeld.
+- [P12] Beslisvraag actor vs. rol: gaat het over *wie* iets doet (Actor) of *in welke verantwoordelijkheid* (Role)? Criteria: 6 diagnostische vragen per type in `Wiki/GEMMA/actoren-en-rollen.md`.
+- [P13] ALTIJD element-terminologie en het twee-pagina-patroon gebruiken bij ingest, assess en write.
+- [P14] Bij entiteitendekking: actoren/rollen matchen. NIET automatisch n.v.t.
+- [P15] `/audit-actoren` track 2 (sweep over bronsamenvattingen): max 3–4 subagents tegelijk (quota); volledige instructies staan in de skill.
 
-**Why:** Er ontbreekt een onderbouwd besliskader voor welke GGM-entiteiten bedrijfsobjecten worden, wat ontbreekt, en wat gecorrigeerd moet worden. De wiki bouwt dat fundament op vanuit bronnen.
+## ArchiMedes-sjablonen (read-only)
+- [P16] `Categorie:SmartConnectArchiMate™` (30 pagina's) op redactie.gemmaonline.nl bevat de kernsjablonen van de extensie SmartConnectArchiMate™ (ArchiMedes), beheerd door leverancier ArchiXL. Lokaal gespiegeld in `GEMMA online/SmartConnectArchiMate™/` (2026-08-07). READ-ONLY.
+- [P17] NOOIT voorstellen deze pagina's te bewerken of naar de wiki te publiceren; wijzigingen lopen via ArchiXL.
+- [P18] Bij vragen over de werking van ArchiMedes (bv. `#displayArchiMateDiagram`, `{{#element:...}}`, `DisplayArchiMateElement`): ALTIJD eerst die map raadplegen. NOOIT aannames doen.
+- [P19] De GEMMA-eigen `...Custom`-varianten (`GEMMA sjablonen/GEMMA ArchiMedesTemplates/`) worden WEL door dit project beheerd. Ze overschrijven de standaardsjablonen via de naamconventie van ArchiMedes (zie `Sjabloon:DisplayArchiMateCustom/_index`).
 
-**How to apply:**
-- De wiki is geen persoonlijk naslagwerk maar een professioneel werkinstrument voor standaardontwikkeling
-- GGM is de primaire bron maar kan fouten bevatten — correcties worden teruggekoppeld naar het GGM
-- GGM-entiteiten ≠ bedrijfsobjecten; de wiki onderbouwt de vertaalslag
-- Hiaten (BO's zonder GGM-grondslag) worden opgevuld en eventueel teruggekoppeld
-- Kwaliteit en onderbouwing zijn cruciaal — dit voedt een landelijke standaard
+## Toegang redactie.gemmaonline.nl
+- [P20] `redactie.gemmaonline.nl` is de MediaWiki-redactieomgeving waarin het GEMMA-team schrijft vóór publicatie naar de publieke `gemmaonline.nl`. Lezen vereist authenticatie (anonieme API-calls geven `readapidenied`). Werkregels voor de lokale content: `GEMMA online/CLAUDE.md`.
+- [P21] Toegang via de MCP-server `@professional-wiki/mediawiki-mcp-server` (npm); geen custom script. Wiki-config: `scriptpath: ""`, `articlepath: "/wiki"`.
+- [P22] Authenticatie ALTIJD via MediaWiki Bot Password (NIET het hoofdaccount-wachtwoord). Config `~/.config/mediawiki-mcp/config.json` staat buiten de repo; wachtwoord via `${VAR}`-substitutie; NOOIT in de repo.
+- [P23] Controleer vóór gebruik van de MCP-tools met `claude mcp list` of de server verbonden is.
+- [P24] Schrijven naar redactie ALLEEN met bevestiging per pagina. NOOIT batch.
+- [P25] Het Bot Password draait onder account `MarkBacker` (groepen `sysop`/`bureaucrat`/`interface-admin`) en is NIET read-only. De enige beveiliging is client-side `readOnly: true` in de config. De gebruiker heeft dit risico op 2026-08-04 bewust geaccepteerd; NIET opnieuw als open stap opvoeren.
 
-## project-element-schema
-
-Besloten op 8 juli 2026 (goedgekeurd plan, zie `.claude/plans/er-wordt-nu-niet-federated-curry.md`):
-
-- Overkoepelende term is **element**: skills heten `/assess-element` en `/write-element` (voorheen `/assess-bo`/`/write-bo`), template `templates/element.md`, frontmatter `type: element` (voorheen `type: bedrijfsobject`) voor alle pagina's in `Wiki/Bedrijfsobjecten/`, `Wiki/Actoren/` en `Wiki/Rollen/`.
-- `archimate_type` is de enige plek voor het specifieke elementtype: `business-object | contract | product | business-actor | business-role`.
-- **Actoren en rollen krijgen eigen pagina's** in platte mappen `Wiki/Actoren/{naam}.md` en `Wiki/Rollen/{naam}.md`. Een begrip dat zowel actor/rol als bedrijfsobject is (6 BO-criteria gehaald = er worden gegevens over vastgelegd) krijgt **twee aparte pagina's** met cross-links — geen dubbele tags op één pagina.
-- `ggm_guid` mag op meerdere pagina's staan (BO + actor delen dezelfde GGM-entiteit); scripts gebruiken multi-map indexen, geen last-write-wins.
-- **Doelgroep is geen actor of rol** maar een BO-classificatie waarmee Business Actors worden ingedeeld.
-- Actor/rol-criteria: ArchiMate-definities met elk 6 diagnostische vragen, gedocumenteerd in `Wiki/GEMMA/actoren-en-rollen.md`. Beslisvraag: gaat het over *wie* iets doet (Actor) of *in welke verantwoordelijkheid* (Role)?
-
-**Why:** actoren/rollen werden inconsistent behandeld (soms BO, bij entiteitendekking altijd n.v.t.) terwijl ze wel relevant zijn voor GEMMA (Business Actor/Role-elementen).
-
-**How to apply:** bij ingest/assess/write altijd de element-terminologie en het twee-pagina-patroon gebruiken; bij entiteitendekking actoren/rollen matchen i.p.v. automatisch n.v.t. Zie dubbele-namen voor het cross-linkpatroon.
-
-**Status 9 juli 2026:** Fase 1-4 uitgevoerd (schema-migratie, 22 actor/rol-pagina's + 6 BO-tegenhangers, scripts multi-map + nieuwe mappen, rapporten geregenereerd: gedekt 694→709). **Nog open:** track 2 van `/audit-actoren` — sweep over de 218 bronsamenvattingen (34 onderwerpmappen) op niet-GGM actoren/rollen, in golven van max 3-4 subagents (quota); de skill bevat de volledige instructies. Ook open: 4 nieuwe "ter discussie"-ambiguïteiten (Raadscommissie, Pachter e.a.) via bo_via_kandidaten cureren. Wijzigingen stonden toen nog niet gecommit.
-
-## project-archimedes-readonly-templates
-
-De wiki-categorie `Categorie:SmartConnectArchiMate™` (30 pagina's, deels `Sjabloon:`-namespace, deels
-mainspace zoals help-/glossarypagina's) bevat de kernsjablonen van de SmartConnectArchiMate™-extensie
-(ArchiMedes), die door leverancier ArchiXL wordt beheerd en uitgerold — niet door het GEMMA-team.
-
-**Why:** Deze pagina's zijn lokaal gespiegeld in `GEMMA online/SmartConnectArchiMate™/` (2026-08-07) als
-referentiemateriaal, maar zijn read-only: wijzigingen moeten via ArchiXL, niet via directe wiki-edits
-vanuit dit project.
-
-**How to apply:** Bij vragen over hoe ArchiMedes zelf werkt (bv. `#displayArchiMateDiagram`,
-`{{#element:...}}`, `DisplayArchiMateElement` als standaardsjabloon) eerst deze map raadplegen in plaats
-van aannames te doen. Niet voorstellen om deze pagina's te bewerken of naar de wiki te publiceren; de
-GEMMA-eigen `...Custom`-varianten (in `GEMMA sjablonen/GEMMA ArchiMedesTemplates/`) zijn wél door dit
-project beheerd en overschrijven de standaardsjablonen via ArchiMedes' eigen naamconventie (zie
-project-element-schema en de uitleg in `Sjabloon:DisplayArchiMateCustom/_index`).
-
-## redactie-gemmaonline-toegang
-
-`redactie.gemmaonline.nl` is de MediaWiki-redactieomgeving waarin het GEMMA-team daadwerkelijk schrijft, vóór publicatie naar de publieke `gemmaonline.nl`. Deze omgeving is netwerktechnisch rechtstreeks bereikbaar vanuit deze Claude Code-sessie (curl → HTTP 200), maar vereist authenticatie voor lezen (`readapidenied` op anonieme API-calls) — in tegenstelling tot de publieke site.
-
-Gekozen aanpak (plan opgesteld 2026-08-04, bestand: `~/.claude/plans/is-het-mogelijk-om-soft-llama.md`, nog niet uitgevoerd):
-- Gebruik de bestaande, officieel onderhouden **`@professional-wiki/mediawiki-mcp-server`** (npm) als MCP-server in Claude Code — geen custom script. Ondersteunt lezen én schrijven, met een `readOnly`-vlag per wiki.
-- Authenticatie via **MediaWiki Bot Password** (self-service via `Special:BotPasswords`, niet het hoofdaccount-wachtwoord — dat ondersteunt deze adapter niet). Voor fase 1 alleen leesrechten toekennen.
-- Config (`~/.config/mediawiki-mcp/config.json`) leeft buiten de git-repo; wachtwoord via `${VAR}`-substitutie, nooit in de repo.
-- Schrijven naar redactie is expliciet uitgesteld tot een latere, aparte stap — altijd met bevestiging per pagina, nooit batch.
-
-**Why:** de gebruiker wil redactie.gemmaonline.nl als actuele/autoritatieve bron gebruiken om de lokale `GEMMA online/`-content (werkregels: zie `GEMMA online/CLAUDE.md`) te verifiëren en verbeteren, en op termijn rechtstreeks pagina's daar te wijzigen.
-
-**How to apply:** voordat er daadwerkelijk MCP-tools voor deze wiki gebruikt worden, controleren of de MCP-server al geïnstalleerd is (`claude mcp list`) — dit was op 2026-08-04 nog niet het geval. Zie het plan-bestand voor de volledige installatiestappen.
-
-**Status (2026-08-04): geïnstalleerd en geverifieerd, met een geaccepteerd risico.**
-- MCP-server draait (`claude mcp list` → Connected), `get-page` op "Toelichting data bij de bron" gaf de correcte, actuele wikitext terug — config (`scriptpath: ""`, `articlepath: "/wiki"`) klopt.
-- **Afwijking van het plan:** `whoami` toont dat het gebruikte Bot Password niet beperkt is tot leesrechten — het draait onder account `MarkBacker` met groepen `sysop`/`bureaucrat`/`interface-admin` en volle edit/create/move/upload-rechten, niet de bedoelde read-only grants. De bescherming zit dus alleen client-side via `readOnly: true` in `~/.config/mediawiki-mcp/config.json` (verbergt de schrijf-tools voor de MCP-client), niet server-side op het Bot Password zelf.
-- Gebruiker is hierop gewezen en heeft **expliciet gekozen door te gaan met dit account**, voorlopig vertrouwend op de client-side `readOnly`-beperking in plaats van de grants op `Special:BotPasswords` alsnog te beperken. Bij het bouwen van de schrijf-fase (stap 5 uit het plan) is dit dus geen extra stap die nog gezet moet worden — het risico is bewust geaccepteerd, niet opgelost.
+## Notes
+- Status element-schema 2026-07-09: fase 1–4 uitgevoerd (schema-migratie, 22 actor/rol-pagina's + 6 BO-tegenhangers, scripts multi-map, rapporten geregenereerd: gedekt 694→709). Open: track 2 van `/audit-actoren` (218 bronsamenvattingen, 34 onderwerpmappen) en 4 "ter discussie"-ambiguïteiten (Raadscommissie, Pachter e.a.) via `bo_via_kandidaten` cureren.
+- Status toegang 2026-08-04: MCP-server geïnstalleerd en geverifieerd (`get-page` op "Toelichting data bij de bron" gaf correcte wikitext).

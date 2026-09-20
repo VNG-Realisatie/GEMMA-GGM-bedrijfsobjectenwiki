@@ -1,9 +1,11 @@
 # AI-context
 
-Generiek voor alle wiki's in deze repo; wiki-specifieke afspraken staan in de eigen submap.
+Generiek voor alle wiki's in deze repo. Wiki-specifieke afspraken staan in de eigen submap.
 
 ## OpzetII
-
-Besluit 2026-07-19: naast `Opzet/` (vendor-neutrale documentatie van de huidige wiki-werkwijze, juli 2026) komt **OpzetII** — een fundamenteel ander ontwerp (ArchiMate-model als bron van waarheid, type-gerichte analyse, ElementCandidate-pagina's met statuscyclus), gebouwd vanuit `Opzet/opzet prompt.md`.
-
-Afspraken: OpzetII wordt in een **verse sessie** gebouwd vanuit `OpzetII/overdracht.md` (bevat opdracht, besluiten, randvoorwaarden en open punten); greenfield (bestaande wiki-content blijft onder de oude werkwijze); GGM buiten scope van het ontwerp; `Opzet/` en `Bedrijfsarchitectuur/` niet aanpassen vanuit OpzetII-werk; het oude paginamodel is géén uitgangspunt, alleen de vormconventies (AGENTS.md-entrypoint, promptformat, linkconventie VS Code+Obsidian) zijn herbruikbaar. Zie gemma-team-wiki.
+- [OPZ1] `Opzet/` = vendor-neutrale documentatie van de huidige wiki-werkwijze (juli 2026). NOOIT `Opzet/` of `Bedrijfsarchitectuur/` aanpassen vanuit OpzetII-werk.
+- [OPZ2] OpzetII (besluit 2026-07-19) is een fundamenteel ander ontwerp: ArchiMate-model als bron van waarheid, type-gerichte analyse, ElementCandidate-pagina's met statuscyclus. Gebouwd vanuit `Opzet/opzet prompt.md`.
+- [OPZ3] ALTIJD OpzetII bouwen in een verse sessie vanuit `OpzetII/overdracht.md` (opdracht, besluiten, randvoorwaarden, open punten).
+- [OPZ4] OpzetII is greenfield: bestaande wiki-content blijft onder de oude werkwijze. GGM valt buiten het ontwerp.
+- [OPZ5] Het oude paginamodel is GEEN uitgangspunt. ALLEEN de vormconventies zijn herbruikbaar: AGENTS.md-entrypoint, promptformat, linkconventie VS Code+Obsidian.
+- Context: [P1].

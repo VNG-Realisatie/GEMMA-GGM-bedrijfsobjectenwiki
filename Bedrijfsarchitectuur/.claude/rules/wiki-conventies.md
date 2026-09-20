@@ -1,57 +1,50 @@
 # Wiki-conventies
 
-## wiki-links-structureel
+## Links
+- [WC1] ALTIJD `[[wiki-links]]` voor verwijzingen naar wiki-pagina's en BO's in `Wiki/`-bestanden. NOOIT platte tekst.
+- [WC2] Toepassing:
+  - `Wiki/Bronsamenvattingen/`: links naar BO's, andere bronsamenvattingen, analyses.
+  - `Wiki/Bedrijfsobjecten/`: links naar bronsamenvattingen (veld `bronnen`), gerelateerde BO's (sectie `relaties`), analyses.
+  - `Wiki/Onderwerpoverzichten/`: links naar BO's (begrippentabel), bronsamenvattingen ("Verwerkte bronnen").
+  - `index.md`, `log.md`: alle verwijzingen zijn wiki-links.
+- [WC3] UITZONDERING: frontmatter-velden die naar Sources wijzen (bv. `bron:` in een bronsamenvatting) → markdown-link `[text](path)`. In `Sources/` zelf: [SRC8].
 
-Alle verwijzingen naar wiki-pagina's en bedrijfsobjecten in Wiki-bestanden moeten `[[wiki-links]]` zijn, nooit platte tekst.
+## Scope
+- [WC4] ALTIJD gemeentelijk perspectief als scope: wat de gemeente ziet, doet en beslist.
+- [WC5] Ketenpartners (COA, IND, DT&V, UWV e.d.) en externe actoren/processen: ALLEEN als context of afbakening ("buiten scope") noemen. NOOIT een eigen begrips- of BO-pagina; NOOIT hun interne processen uitwerken. Geldt voor alle domeinen.
+- [WC6] Een domein dat geen BO's oplevert → afsluiten met een conclusie waarom. Ingest sluit een domein ALTIJD af, ook bij 0 BO's.
 
-**How to apply:**
-- **In Wiki/Bronsamenvattingen/**: links naar BO's, naar andere bronsamenvattingen, naar analyses
-- **In Wiki/Bedrijfsobjecten/**: links naar bronsamenvattingen (in `bronnen` veld), links naar gerelateerde BO's (in `relaties` sectie), links naar analyses
-- **In Wiki/Domeinen/**: links naar BO's (in begrippentabel), links naar bronsamenvattingen (in "Verwerkte bronnen")
-- **In index.md en log.md**: alle verwijzingen zijn wiki-links
+## Inhoud van wiki-pagina's
+- [WC7] NOOIT vanuit wiki-content (BO-pagina's, begrippen, analyses, bronsamenvattingen) verwijzen naar of citeren uit `CLAUDE.md`, `templates/`, `tools/` of skills (`.claude/commands/`). Onderbouwing staat op eigen kracht in de inhoud.
+- [WC8] NOOIT absolute taal ("structureel buiten scope", "per definitie", "GGM modelleert nooit X") zonder domeinspecifieke onderbouwing.
+- [WC9] ALS een generieke "GGM doet dit niet"-bewering geen specifieke reden heeft → herformuleer naar "in het GGM niet compleet gedekt". Specifieke reden = ontbrekend beleidsdomein, specifieke wetsverwijzing of attribuutvergelijking.
+- [WC10] ALS een bewering een concrete, specifieke reden geeft (bv. "dit beleidsdomein begint pas bij X", "GGM heeft wel BAG-locaties maar niet dit type locatie") → NIET aanpassen, ook niet als het woord "structureel" erin staat.
+- [WC11] Bij opschoning van deze framing: per geval beoordelen. NOOIT blind alle "structureel"/"buiten scope" vervangen.
 
-Exception: frontmatter-velden die naar sources wijzen (bijv. `bron:` veld in bronsamenvatting) gebruiken markdown-links `[text](path)` omdat sources geen wiki-pagina's zijn.
+## Publiceren naar redactie.gemmaonline.nl (en werk binnen `GEMMA online/`)
+- [WC12] Bij een "publiceer"-opdracht NOOIT verificatiestappen uitvoeren (`parse-wikitext`-dry-run/render, `<categorytree>`-opzoekingen naar een testobject), TENZIJ de gebruiker expliciet om verificatie vraagt (bv. letterlijk "verifieer").
+- [WC13] Standaardroute: `update-page`/`create-page`, met `latestId` voor conflictdetectie via `get-page metadata=true`.
+- [WC14] ALLEEN bij expliciet verzoek extra stappen toevoegen: live dry-run render of representatief testobject opzoeken.
 
-## gemeentelijk-perspectief
+## `/lint`
+- [WC15] `/lint` draait bewust op Haiku.
+- [WC16] ALTIJD gemelde bevindingen zelf verifiëren (grep/Read/eigen script) vóór ze in het eindrapport komen, voor élke categorie, ook telbare/structurele claims.
+- [WC17] NOOIT een getal of "aanwezig/afwezig"-claim vertrouwen zonder eigen deterministische verificatie (grep/Python-script over de volledige set). Een steekproef van 2–3 voorbeelden volstaat NIET voor aggregaat-tellingen. Bij conflict met [WC16] geldt [WC17] voor tellingen en aanwezigheid; een steekproef volstaat alleen voor semantische bevindingen.
+- [WC18] Structureel/telbare checks (veldnaam-gebruik, sectie-aanwezigheid, link-tellingen, orphan-detectie) → script `tools/lint_checks.py`. NIET aan het model delegeren.
 
-Bij het compileren van bronnen naar wiki-pagina's altijd het gemeentelijk perspectief aanhouden als scope.
+## Verificatie na regeneratie en subagent-runs
+- [WC19] Na elke `entiteitendekking.py --all`: ALTIJD `git status --short` en `git diff --stat` controleren; toets elk gewijzigd bestand aan de eigen bewerkingslijst. NIET alleen de samenvattingstellingen bekijken.
+- [WC20] ALS een wijziging onverklaard is (bv. `type:`-velden die terugveranderen naar `bedrijfsobject`; wijzigingen in `Wiki/GGM/`-bestanden) → `git diff` op dat bestand VÓÓR verder werken. NOOIT afdoen als regressie of toeval op basis van dekkingspercentages.
+- [WC21] `Wiki/GGM/` NOOIT handmatig bewerken (gegenereerd via `/generate-ggm`). Herstel een ongewenste externe wijziging met `git checkout -- <bestand>`.
+- [WC22] Checklist na elke subagent-run (zie [W4]):
+  1. `Wiki/Analyses/ggm-terugmeldingen.md`: nieuwe hiaten/correcties uit de BO-pagina's toegevoegd?
+  2. `Wiki/index.md`: alle nieuwe BO's en bronsamenvattingen opgenomen?
+  3. `Wiki/log.md`: entry klopt met werkelijke aantallen?
+  4. `Wiki/Onderwerpoverzichten/{onderwerp}.md`: `bo_count` en `begrippen_count` actueel?
+  5. Forward references in BO-pagina's: verwijzen ze naar bestaande bestanden?
 
-**Why:** de wiki is een bedrijfsarchitectuurwiki voor gemeenten. Ketenpartners (COA, IND, DT&V, UWV, etc.) zijn context, niet het onderwerp. De gebruiker wil zien wat de gemeente doet, registreert en beslist — niet de interne processen van andere organisaties.
-
-**How to apply:** begrippen en bedrijfsobjecten worden uitgewerkt voor wat de gemeente ziet. Externe actoren en processen worden benoemd als context/afbakening ("buiten scope") maar krijgen geen eigen begrips- of bedrijfsobjectpagina. Deze regel geldt voor alle domeinen, niet alleen inburgering.
-
-Aanvulling (2026-06-19): "geen resultaat" is ook een resultaat. Een domein dat geen BO's oplevert wordt afgetekend met een conclusie waarom. Ingest tekent een domein altijd af — ook bij 0 BO's. Relevant voor onderhoudscyclus (nieuwe GGM-release, nieuwe bronnen).
-
-## geen-verificatie-bij-publiceren
-
-Sla bij "publiceer"-opdrachten naar redactie.gemmaonline.nl standaard verificatiestappen over — geen
-`parse-wikitext`-dry-run om een sjabloon te laten renderen, geen `<categorytree>`-opzoekingen om een
-testobject te vinden — tenzij de gebruiker expliciet om verificatie vraagt.
-
-**Why:** die stappen kostten in de praktijk veel meer tokens dan de publicatie zelf. Een
-`<categorytree>`-opvraging kan tientallen KB's HTML teruggeven (moet dan naar een bestand worden
-weggeschreven), en een `parse-wikitext`-render van een ArchiMate-sjabloon bevat een compleet inline
-SVG-diagram. `update-page`/`create-page` sturen bovendien altijd de hele paginabron mee (geen
-diff-patching), dus de publicatie zelf is al kostbaar genoeg zonder die extra rondes.
-
-**How to apply:** normale `update-page`/`create-page`-aanroepen (met `latestId` voor conflictdetectie via
-`get-page metadata=true`) blijven de standaardroute. Alleen als de gebruiker letterlijk "verifieer" oid.
-aangeeft, extra stappen als een live dry-run render of het opzoeken van een representatief testobject
-toevoegen. Geldt voor redactie-gemmaonline-toegang / werk binnen `GEMMA online/`.
-
-## lint-haiku-verificatie
-
-Bij `/lint`-runs op de Bedrijfsarchitectuur-wiki (draait bewust op Haiku, zie project-element-schema) altijd een steekproef van de gemelde bevindingen zelf verifiëren (grep/Read/eigen script) vóór ze in het eindrapport komen — dit geldt voor élke categorie, ook pure telbare/structurele claims, niet alleen semantische.
-
-**Why:** bij de lint-run van 2026-07-09 bleken meerdere semantische categorieën vals (archimate_type, registr*-anti-patroon, placeholder-definitie) — zie oorspronkelijke aantekening hieronder. Toen werd aangenomen dat puur telbare/structurele bevindingen (aantal bestanden, sectie-header aanwezig) betrouwbaarder waren. **Die aanname is bij de lint-run van 2026-09-17 ontkracht:** juist de tel-claims waren compleet fictief of enorm overschat — "344 bestanden met `domein:` i.p.v. `onderwerp:`, #1 prioriteit" (werkelijk: 0, veld bestaat niet in de wiki), "381 wees-BO's" (werkelijk: 2), "1.123 wiki-links zonder alias" (werkelijk: 46). Een Haiku-subagent die de hele wiki moet doorzoeken en tellen, hallucineert blijkbaar op schaal i.p.v. daadwerkelijk elk bestand te doorlopen — ook al is de vraag zelf triviaal telbaar. Twee andere bevindingen van dezelfde run (43 aliassen in Bronnen-secties, ~14 lege frontmatter-waarden) kwamen wél nagenoeg exact overeen met eigen verificatie.
-Oorspronkelijke aantekening (2026-07-09): "11 BO's met verkeerd archimate_type" (alle 11 bleken correct), "33 registr*-anti-patroon-overtredingen" (geen enkele echte overtreding), "5 BO's met ontbrekende ggm_entiteit/ggm_guid" (alle volledig ingevuld), "koelteplek.md heeft placeholder-definitie" (bevat volwaardige definitie).
-
-**How to apply:** bij een volgende `/lint`-run: (1) laat Haiku draaien zoals voorgeschreven, maar (2) vertrouw geen enkel getal of "aanwezig/afwezig"-claim zonder eigen deterministische verificatie (grep/Python-script over de volledige set) — niet alleen een steekproef van 2-3 voorbeelden, want juist de aggregaat-telling bleek de fout, niet losse voorbeelden. (3) Voor structureel/telbare checks (veldnaam-gebruik, sectie-aanwezigheid, link-tellingen, orphan-detectie) is een grep/script sowieso sneller én betrouwbaarder dan een LLM-narratief — overweeg dit soort checks helemaal niet meer aan het model te delegeren. Het structurele fix is doorgevoerd in `tools/lint_checks.py`.
-
-## externe-wijzigingen-verifieren
-
-Bij het regenereren van `entiteitendekking.py --all`, controleer `git status`/`git diff --stat` op bestanden buiten de eigen bewerkingslijst — niet alleen de samenvattingstellingen in de terminaloutput.
-
-**Why:** op 2026-07-09 verschilde een `--all`-regeneratie onverwacht tussen twee runs (Griffie-taakveld: 9→8 matches) terwijl er geen enkele bewuste wijziging in dat domein was gemaakt. Onderzoek wees uit dat `Wiki/Bedrijfsobjecten/.../griffie/raadsstuk.md` buiten alle uitgevoerde tool-calls om was teruggezet van `type: element` naar het oude `type: bedrijfsobject` (met bijbehorende YAML-herformattering), en `Wiki/GGM/.../griffie.md` (een puur gegenereerd bestand dat nooit handmatig bewerkt hoort te worden) een cosmetische tabel-herformattering had ondergaan. Vermoedelijke oorzaak: een externe editor/extensie (VSCode-omgeving) die een verouderde buffer van een open tab heeft opgeslagen, niet een fout in mijn eigen bewerkingen of subagents. `git checkout -- <bestand>` herstelde beide en de dekking was weer correct.
-
-**How to apply:** na elke `entiteitendekking.py --all`-run, `git status --short` bekijken en elk gewijzigd bestand toetsen aan de eigen bedoelde bewerkingslijst. Onverklaarde wijzigingen (vooral `type:`-velden die terugveranderen, of Wiki/GGM/-bestanden die zouden moeten stilstaan) zijn een signaal om `git diff` op dat specifieke bestand te bekijken vóór verder te gaan — niet alleen de dekkingspercentages als "regressie" of "toeval" afdoen.
+## Notes
+- Vermoedelijke oorzaak van [WC20]-gevallen: externe editor (VS Code) slaat verouderde buffer van open tab op. Precedent 2026-07-09: `raadsstuk.md` teruggezet naar `type: bedrijfsobject`.
+- [WC7]–[WC11] zijn ook vastgelegd in `CLAUDE.md` §7 punt 4 en `templates/element.md`.
+- Precedent [WC9]: GGM-beleidsdomein Normafwijking (Participatiewet-ingest, 2026-09-18) modelleert Maatregel en Boete; dit weerlegde "GGM modelleert nooit processen/governance".
+- Precedent [WC17]: lint-run 2026-09-17 meldde 344 (werkelijk 0), 381 (werkelijk 2), 1.123 (werkelijk 46).
