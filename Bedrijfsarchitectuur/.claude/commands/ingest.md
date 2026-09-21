@@ -27,7 +27,7 @@ Volg deze stappen exact:
 **Bronselectie (stap 3)**
 - NOOIT een bron afwijzen of niet-relevant noemen omdat die van een andere gemeente dan Utrecht komt. Bronnen uit meerdere gemeenten zijn gewenst: ze leiden tot BO's die voor alle gemeenten bruikbaar zijn.
 - Beoordeel een bron ALLEEN op inhoudelijke relevantie voor BO-kandidaten.
-- NOOIT een bron afwijzen omdat die niet beschrijft wat gemeenten registreren ([BO4]). Governance-/strategiedocumenten noemen concrete objecten (applicatie, dataproduct, overeenkomst) die BO-kandidaat kunnen zijn. Toets alleen of de bron objecten bevat die de 6 criteria halen.
+- NOOIT een bron afwijzen omdat die niet beschrijft wat gemeenten registreren ([BO1]). Governance-/strategiedocumenten noemen concrete objecten (applicatie, dataproduct, overeenkomst) die BO-kandidaat kunnen zijn. Toets alleen of de bron objecten bevat die de 6 criteria halen.
 
 **GGM-dekking (stap 6–7)**
 - NOOIT een beleidsdomein of BO-beoordeling overslaan omdat het GGM daar al entiteiten heeft. Ingest verifieert ook het GGM: klopt het, is het compleet, zit het op het juiste abstractieniveau.

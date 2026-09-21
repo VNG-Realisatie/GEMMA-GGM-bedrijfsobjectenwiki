@@ -8,4 +8,4 @@ Geldt voor alle wiki's in deze repo. Wiki-specifieke uitwerking: `Bedrijfsarchit
 - [W3] ALLEEN herschrijven ALS de gebruiker dat expliciet vraagt.
 
 ## Subagents
-- [W4] ALTIJD na subagent-werk cross-cutting updates (gedeelde/centrale bestanden) verifiëren. NOOIT aannemen dat agents die bijwerken; "bestand bestaat + juist format" volstaat niet. Checklist Bedrijfsarchitectuur: [WC22].
+- [W4] ALTIJD na subagent-werk cross-cutting updates (gedeelde/centrale bestanden) verifiëren. NOOIT aannemen dat agents die bijwerken; "bestand bestaat + juist format" volstaat niet. Checklist Bedrijfsarchitectuur: [WC13].

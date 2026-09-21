@@ -11,7 +11,7 @@
 | LLM-rol | [../context/project.md](../context/project.md), [../context/ai-richtlijnen.md](../context/ai-richtlijnen.md) |
 | Directorystructuur | [../context/architectuur.md](../context/architectuur.md) (gecorrigeerd naar de werkelijke structuur) |
 | Bronnen (Sources) + Bronnen toevoegen | [../context/bronnen.md](../context/bronnen.md) |
-| GGM-bronbestandformaat + GGM-terminologie | [../context/bronnen.md](../context/bronnen.md), [../templates/ggm-bron.md](../templates/ggm-bron.md) |
+| GGM-bronbestandformaat + GGM-terminologie | [../context/bronnen.md](../context/bronnen.md) |
 | Wiki-pagina's (tabel paginatypes) | [../context/paginatypes.md](../context/paginatypes.md) |
 | Beoordelingslogica (verwijzingen) | [../context/paginatypes.md](../context/paginatypes.md) |
 | Conventies | [../context/conventies.md](../context/conventies.md) |
@@ -55,7 +55,7 @@
 | `templates/bronsamenvatting.md` | [../templates/bronsamenvatting.md](../templates/bronsamenvatting.md) — bronpad conform besluit 2, aliasregel geëxpliciteerd |
 | `templates/onderwerpoverzicht.md` | [../templates/onderwerpoverzicht.md](../templates/onderwerpoverzicht.md) — begripstypen-tabel gededupliceerd (staat in assess-element) |
 | `templates/analyse.md` | [../templates/analyse.md](../templates/analyse.md) |
-| `templates/ggm-bron.md` | [../templates/ggm-bron.md](../templates/ggm-bron.md) |
+| `templates/ggm-bron.md` | — |
 | `templates/index-log.md` (bestond niet) | [../context/paginatypes.md](../context/paginatypes.md) — formaat uit de praktijk gedocumenteerd |
 | `.claude/settings.local.json` | — niet overdraagbaar; per tool in [../adapters/](../adapters/) |
 | Memory-bestanden (feedbackregels) | Inhoudelijk verwerkt in [../context/bronnen.md](../context/bronnen.md), [../context/schrijfregels.md](../context/schrijfregels.md), [../context/regels.md](../context/regels.md), [../context/ai-richtlijnen.md](../context/ai-richtlijnen.md) |

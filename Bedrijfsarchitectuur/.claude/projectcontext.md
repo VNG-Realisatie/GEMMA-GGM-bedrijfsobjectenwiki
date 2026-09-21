@@ -17,7 +17,6 @@
 - [P12] Beslisvraag actor vs. rol: gaat het over *wie* iets doet (Actor) of *in welke verantwoordelijkheid* (Role)? Criteria: 6 diagnostische vragen per type in `Wiki/GEMMA/actoren-en-rollen.md`; 4 of meer ja = kwalificeert als actor resp. rol, ongeacht of er gegevens over worden vastgelegd.
 - [P13] ALTIJD element-terminologie en het twee-pagina-patroon gebruiken bij ingest, assess en write.
 - [P14] Bij entiteitendekking: actoren/rollen matchen. NIET automatisch n.v.t.
-- [P15] `/audit-actoren` track 2 (sweep over bronsamenvattingen): max 3–4 subagents tegelijk (quota); volledige instructies staan in de skill.
 
 ## Notes
 - Status element-schema 2026-07-09: fase 1–4 uitgevoerd (schema-migratie, 22 actor/rol-pagina's + 6 BO-tegenhangers, scripts multi-map, rapporten geregenereerd: gedekt 694→709). Open: track 2 van `/audit-actoren` (218 bronsamenvattingen, 34 onderwerpmappen) en 4 "ter discussie"-ambiguïteiten (Raadscommissie, Pachter e.a.) via `bo_via_kandidaten` cureren.

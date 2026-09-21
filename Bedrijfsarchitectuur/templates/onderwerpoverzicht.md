@@ -35,9 +35,9 @@ De kolom "Begripstype" in de begrippentabel heeft een van deze waarden:
 |---|---|---|
 | **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object |
 | **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product |
-| **actor** | Organisatie, afdeling, samenwerkingsverband | Business Actor |
-| **rol** | Functie of verantwoordelijkheid die een actor vervult | Business Role |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Actor (als rol) |
+| **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor |
+| **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role |
+| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle |

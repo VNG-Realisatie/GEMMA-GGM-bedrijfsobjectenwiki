@@ -9,7 +9,7 @@ Scope-argument (optioneel): een onderwerp of taakveld om de sweep te beperken; l
 
 ## Track 1: GGM-geankerde kandidaten (goedkoop, geen bronnen nodig)
 
-1. Doorzoek de gegenereerde rapporten in `Wiki/Analyses/entiteitendekking/` op tabelrijen met Entiteitstype `actor` of `rol` en dekking `n.v.t.` — dit kan met grep/script, zonder LLM.
+1. Doorzoek de gegenereerde rapporten in `Wiki/Analyses/entiteitendekking/` op tabelrijen met Entiteitstype `actor` of `rol` en BO/Dekking `⚠️ geen actor-pagina` of `⚠️ geen rol-pagina` — dit kan met grep/script, zonder LLM.
 2. Dedupliceer op GGM-entiteitnaam en sla kandidaten over die al een pagina in `Wiki/Actoren/` of `Wiki/Rollen/` hebben (check op `ggm_entiteit`/`ggm_guid` in frontmatter).
 3. Resultaat: een kandidatenlijst met per kandidaat GGM-entiteit, GUID, taakveld/beleidsdomein en de rapportregel als context.
 

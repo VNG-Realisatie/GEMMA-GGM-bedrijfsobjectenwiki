@@ -10,7 +10,7 @@ Elke wiki-pagina heeft YAML-frontmatter en volgt een template.
 | Onderwerpoverzicht | [../templates/onderwerpoverzicht.md](../templates/onderwerpoverzicht.md) | `Wiki/Onderwerpoverzichten/` |
 | Bronsamenvatting | [../templates/bronsamenvatting.md](../templates/bronsamenvatting.md) | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | Analyse | [../templates/analyse.md](../templates/analyse.md) | `Wiki/Analyses/` |
-| GGM-bronbestand | [../templates/ggm-bron.md](../templates/ggm-bron.md) | `Sources/GGM/{taakveld}/` (gegenereerd) |
+| GGM-bronbestand | — | `Sources/GGM/{taakveld}/` (gegenereerd) |
 
 De beoordelingslogica (wanneer wordt een begrip welk paginatype) staat niet hier maar in de prompts: [../prompts/assess-element.md](../prompts/assess-element.md) (beoordelen) en [../prompts/write-element.md](../prompts/write-element.md) (vastleggen).
 

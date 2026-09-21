@@ -144,7 +144,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 ### Linkconventie body
 
 - **Verwijzingen naar gerelateerde BO's:** `[[bedrijfsobject-naam]]` (bijv. `[[Stembureau]]`, `[[Begroting]]`)
-- **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}}|display-tekst]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
+- **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}|display-tekst]]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
 - **Verwijzingen naar analyses:** `[[Wiki/Analyses/analyse-slug|display-tekst]]` (bijv. `[[Wiki/Analyses/ggm-terugmeldingen]]`)
 - **Citaten uit bronnen:** platte tekst (geen links)
 - **Geen verwijzingen naar technische/proces-bestanden** (`CLAUDE.md`, `templates/`, `tools/`, skills): zie `.claude/rules/wiki-conventies.md` [WC7]–[WC11].
@@ -235,7 +235,7 @@ Gebruik `## GGM-duplicaten` wanneer dezelfde GGM-entiteitnaam in meerdere beleid
 - **Echte duplicaten** — zelfde concept, twee GUIDs (bijv. BAG en RSGBPlus) → terugmelding type `duplicaat`: "samenvoegen"
 - **Homoniemen** — zelfde naam, ander concept (bijv. Standplaats BAG vs Standplaats Musea) → terugmelding type `homoniem`: "hernoemadvies"
 
-Homoniemen worden **niet** in `ggm_duplicaat_entiteiten` opgenomen (het is een ander concept), maar wél in `homoniemen` (frontmatter) en in de body als cross-link.
+Homoniemen worden **niet** in `ggm_duplicaat_entiteiten` opgenomen (het is een ander concept), maar wél in `bo_homoniemen` (frontmatter) en in de body als cross-link.
 
 ```markdown
 ## GGM-duplicaten

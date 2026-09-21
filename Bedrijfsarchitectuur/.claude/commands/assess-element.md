@@ -71,7 +71,7 @@ Voordat de structuuranalyse begint: check of het begrip een naam deelt met een b
    - **Homoniem** (zelfde naam, ander concept) — markeer als homoniem-kandidaat. Bij BO-aanmaak (stap 12) moet `/write-element` een disambiguerende naam kiezen.
    - **Geen conflict** — ga door met de normale flow.
 
-**Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-element` stap 4b-4c.
+**Dit is een signaal, geen beslissing.** Meld het aan de gebruiker en ga door met de beoordeling. De definitieve classificatie en naamkeuze gebeuren in `/write-element` Stap 0 en 4b.
 
 ## FASE B — STRUCTUURANALYSE (vóór BO-criteria)
 
@@ -101,7 +101,7 @@ Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keu
 
 **Abstract niveau:** toets het abstracte niveau (bijv. "Maatschappelijke voorziening") altijd aan de 6 criteria. Sluit het NOOIT categorisch uit, ook niet als specialisaties herkenbaar zijn en eigen processen hebben. Haalt het abstracte niveau de criteria niet → alleen de specialisaties worden BO.
 
-**Naam bij GGM-generalisatie** ([BO11]–[BO16]): de BO-naam blijft standaard het gemeentelijke beleidsbegrip; hernoemen naar de GGM-naam alleen bij een uitzondering; elk geval apart voorleggen, nooit in bulk op basis van één eerder akkoord.
+**Naam bij GGM-generalisatie** ([BO4]–[BO9]): de BO-naam blijft standaard het gemeentelijke beleidsbegrip; hernoemen naar de GGM-naam alleen bij een uitzondering; elk geval apart voorleggen, nooit in bulk op basis van één eerder akkoord.
 
 ### Stap 5: Attributen-check
 
@@ -136,7 +136,7 @@ Scoor elk criterium met ja/nee:
 
 ### Stap 7b: Anti-patronen
 
-De 6 criteria zijn de enige toets. Anti-patronen ([BO4]–[BO6]): NOOIT registr*, eigendom, systeembeheer, regie of extern systeem als criterium of motivatie.
+De 6 criteria zijn de enige toets. Anti-patronen ([BO1]–[BO3]): NOOIT registr*, eigendom, systeembeheer, regie of extern systeem als criterium of motivatie.
 
 ### Stap 8: Hiërarchie vastleggen
 

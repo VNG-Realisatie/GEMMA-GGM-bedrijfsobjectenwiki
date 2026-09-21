@@ -48,7 +48,7 @@ In bronbestanden staan **geen wiki-links** — het zijn kopieën van externe doc
 ## GGM als bron
 
 - **Het XMI-bestand is de bron van waarheid** (`Sources/GGM-repository/`). Nooit rechtstreeks lezen — altijd via de parser (zie [../tools/README.md](../tools/README.md)).
-- `Sources/GGM/` is de leesbare conversie: letterlijke definities zonder interpretatie. Format: [../templates/ggm-bron.md](../templates/ggm-bron.md).
+- `Sources/GGM/` is de leesbare conversie: letterlijke definities zonder interpretatie.
 - `ggm_parsed.json` bevat de technische metadata (GUIDs, GEMMA-tags, relaties, diagrammen).
 
 ## GGM-terminologie

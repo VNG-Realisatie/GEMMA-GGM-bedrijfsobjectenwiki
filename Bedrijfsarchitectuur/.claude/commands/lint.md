@@ -24,7 +24,7 @@ Neem de output 1-op-1 over — niet hertellen of herformuleren.
 
 Alleen wat het script signaleert maar niet kan duiden, plus wat inherent semantisch is:
 
-- **Anti-patroon registr\*** ([BO4]–[BO6]) — script levert kandidaatregels ("registreerbaar"/"registratieobject"); beoordeel per regel of het als afwijsgrond tegen de 6 BO-criteria wordt gebruikt (overtreding) of legitiem taalgebruik is.
+- **Anti-patroon registr\*** ([BO1]–[BO3]) — script levert kandidaatregels ("registreerbaar"/"registratieobject"); beoordeel per regel of het als afwijsgrond tegen de 6 BO-criteria wordt gebruikt (overtreding) of legitiem taalgebruik is.
 - **`bo_relaties`-incompleetheid** — ontbrekende kardinaliteit of `bedrijfsobject` zonder wiki-link: omissie (fix) of bewust (relatie naar concept zonder eigen BO-pagina)?
 - **Wees-BO's** — terecht (nog niet verwerkt) of omissie in een onderwerpoverzicht?
 - **Subtypes-mismatch** — moet het begrip een eigen BO-pagina zijn i.p.v. subtype?

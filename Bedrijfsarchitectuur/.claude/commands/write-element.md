@@ -51,7 +51,7 @@ Zoek in `ggm_parsed.json` naar kandidaat-entiteiten:
 | **partieel** | GGM-entiteit dekt een deel van het BO, of BO is aggregatie van meerdere entiteiten | Overnemen met toelichting, overweeg terugmelding |
 | **zwak** | Verwant concept maar wezenlijk andere scope of granulariteit | Relatie noteren, niet als grondslag gebruiken |
 
-**Naam bij sterk/partieel-match met een bredere GGM-entiteit** ([BO11]–[BO18]): de BO-naam blijft het gemeentelijke beleidsbegrip; leg de afwijking vast in `## GGM-bron`, niet in `## Naamkeuze`; hernoemen alleen bij een uitzondering en nooit in bulk.
+**Naam bij sterk/partieel-match met een bredere GGM-entiteit** ([BO4]–[BO11]): de BO-naam blijft het gemeentelijke beleidsbegrip; leg de afwijking vast in `## GGM-bron`, niet in `## Naamkeuze`; hernoemen alleen bij een uitzondering en nooit in bulk.
 
 ## Stap 4: Mapping-regels
 
@@ -117,7 +117,7 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
    - **GGM klopt maar is onvolledig** → neem de GGM-definitie letterlijk over als `bo_definitie`. Zet de aanvulling (uitleg, voorbeelden, verdere context) in `bo_toelichting`.
 3. **Zonder GGM-match:** maak een definitie uit de bronnen. Bron-definitie letterlijk overnemen als die er is, anders afleiden.
 4. **`bo_toelichting`:** aanvullingen, uitleg en voorbeelden — ook gebaseerd op bronnen, niet vrij verzonnen. Leeg laten als de definitie volstaat.
-5. **Algemeen:** gebruik alleen informatie uit de Sources-bestanden van het onderwerp. Een eigen definitie is alleen gerechtvaardigd bij inhoudelijke afwijking van de bronnen en moet verifieerbaar zijn. De definitie beschrijft wat het ding is, niet waar het staat (geen registr*-taal, [BO4]).
+5. **Algemeen:** gebruik alleen informatie uit de Sources-bestanden van het onderwerp. Een eigen definitie is alleen gerechtvaardigd bij inhoudelijke afwijking van de bronnen en moet verifieerbaar zijn. De definitie beschrijft wat het ding is, niet waar het staat (geen registr*-taal, [BO1]).
 
 ### Disambiguatie (BO-naam ≠ GGM-entiteitnaam)
 

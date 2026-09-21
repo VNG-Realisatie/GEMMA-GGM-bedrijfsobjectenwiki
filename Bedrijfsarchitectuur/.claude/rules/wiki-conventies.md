@@ -7,7 +7,7 @@
   - `Wiki/Bedrijfsobjecten/`: links naar bronsamenvattingen (veld `bronnen`), gerelateerde BO's (sectie `relaties`), analyses.
   - `Wiki/Onderwerpoverzichten/`: links naar BO's (begrippentabel), bronsamenvattingen ("Verwerkte bronnen").
   - `index.md`, `log.md`: alle verwijzingen zijn wiki-links.
-- [WC3] UITZONDERING: frontmatter-velden die naar Sources wijzen (bv. `bron:` in een bronsamenvatting) → markdown-link `[text](path)`. In `Sources/` zelf: [SRC8].
+- [WC3] UITZONDERING: frontmatter-velden die naar Sources wijzen (bv. `bron:` in een bronsamenvatting) → markdown-link `[text](path)`. In `Sources/` zelf: [SRC9].
 
 ## Scope
 - [WC4] ALTIJD gemeentelijk perspectief als scope: wat de gemeente ziet, doet, registreert en beslist.
@@ -22,8 +22,8 @@
 - [WC11] Bij opschoning van deze framing: per geval beoordelen. NOOIT blind alle "structureel"/"buiten scope" vervangen.
 
 ## Gegenereerde bestanden en subagent-runs
-- [WC21] `Wiki/GGM/` NOOIT handmatig bewerken (gegenereerd). Wijzig ALLEEN door te regenereren via `/generate-ggm`. Herstel een ongewenste externe wijziging met `git checkout -- <bestand>`.
-- [WC22] Checklist na elke subagent-run (zie [W4]):
+- [WC12] `Wiki/GGM/` NOOIT handmatig bewerken (gegenereerd). Wijzig ALLEEN door te regenereren via `/generate-ggm`. Herstel een ongewenste externe wijziging met `git checkout -- <bestand>`.
+- [WC13] Checklist na elke subagent-run (zie [W4]):
   1. `Wiki/Analyses/ggm-terugmeldingen.md`: nieuwe hiaten/correcties uit de BO-pagina's toegevoegd?
   2. `Wiki/index.md`: alle nieuwe BO's en bronsamenvattingen opgenomen?
   3. `Wiki/log.md`: entry klopt met werkelijke aantallen?
