@@ -9,3 +9,6 @@ Generiek voor alle wiki's in deze repo. Wiki-specifieke afspraken staan in de ei
 - [OPZ4] OpzetII is greenfield: bestaande wiki-content blijft onder de oude werkwijze. GGM valt buiten het ontwerp.
 - [OPZ5] Het oude paginamodel is GEEN uitgangspunt. ALLEEN de vormconventies zijn herbruikbaar: AGENTS.md-entrypoint, promptformat, linkconventie VS Code+Obsidian.
 - Context: [P1].
+
+## Generieke regels
+@agent/rules/werkwijze.md

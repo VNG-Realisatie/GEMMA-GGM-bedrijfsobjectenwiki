@@ -8,19 +8,19 @@ Gebruik de crawl4ai Python-library om de opgegeven URL(s) te crawlen en de inhou
 ## Referentie
 
 Lees eerst het SKILL.md-bestand voor de volledige SDK-referentie:
-- Skill-documentatie (relatief aan de repo-root): Tools/crawl4ai/SKILL.md
-- Kant-en-klare scripts: Tools/crawl4ai/scripts/
+- Skill-documentatie (relatief aan de repo-root): agent/tools/crawl4ai/SKILL.md
+- Kant-en-klare scripts: agent/tools/crawl4ai/scripts/
 
 ## Standaard aanpak
 
 1. Gebruik het basic_crawler.py script voor enkelvoudige pagina's:
    ```bash
-   python Tools/crawl4ai/scripts/basic_crawler.py <URL>
+   python agent/tools/crawl4ai/scripts/basic_crawler.py <URL>
    ```
 
 2. Gebruik batch_crawler.py voor meerdere URL's:
    ```bash
-   python Tools/crawl4ai/scripts/batch_crawler.py <urls-bestand>
+   python agent/tools/crawl4ai/scripts/batch_crawler.py <urls-bestand>
    ```
 
 3. Voor complexere situaties (JavaScript-zware pagina's, login, extractie), schrijf een inline Python-script op basis van de patronen in SKILL.md.

@@ -461,7 +461,7 @@ FORBIDDEN_PHRASES = {
 def _rule_files():
     root = BASE.parent
     files = [root / 'CLAUDE.md', BASE / 'CLAUDE.md', BASE / '.claude' / 'projectcontext.md']
-    files += sorted((root / '.claude' / 'rules').glob('*.md'))
+    files += sorted((root / 'agent' / 'rules').glob('*.md'))
     files += sorted((BASE / '.claude' / 'rules').glob('*.md'))
     return [f for f in files if f.exists()]
 
