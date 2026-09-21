@@ -1,4 +1,4 @@
-# AI-context
+# llm-wikis
 
 Generiek voor alle wiki's in deze repo. Wiki-specifieke afspraken staan in de eigen submap.
 

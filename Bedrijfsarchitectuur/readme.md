@@ -31,7 +31,7 @@ Het GGM vervult zowel de rol van invoerbron als validatiekader:
 
 * **Invoer** — het GGM definieert beleidsdomeinen en bevat kandidaat-bedrijfsobjecten
 * **Validatie** — voor elk in een bron geïdentificeerd BO wordt gecontroleerd of dit voorkomt in het GGM; ontbrekende entiteiten worden teruggekoppeld
-* **Dekking** — met de skill `/coverage` wordt per GGM-beleidsdomein geanalyseerd welke entiteiten in een bron zijn aangetroffen en welke nog ontbreken
+* **Dekking** — met de skill `/entiteitendekking` wordt per GGM-beleidsdomein geanalyseerd welke entiteiten in een bron zijn aangetroffen en welke nog ontbreken
 
 Hiermee ontstaat een gesloten feedbackloop tussen gemeentelijke bronnen, het GGM en het GEMMA-bedrijfsobjectenmodel.
 
@@ -39,23 +39,40 @@ Hiermee ontstaat een gesloten feedbackloop tussen gemeentelijke bronnen, het GGM
 
 **Immutabele invoer** (`Sources/`):
 
-* Beleidsdocumenten per gemeentelijk onderwerp, geconverteerd naar Markdown
-* GGM-repository: het GGM XMI-bronbestand, geconverteerd naar `json`
+* `Onderwerpen/` — beleidsdocumenten per gemeentelijk onderwerp, geconverteerd naar Markdown
+* `Standaarden/` — catalogi en informatiemodellen (BAG, BRK, BRO, NHR, RGBZ, ZTC e.d.)
+* `GEMMA/` — bronnen over het GEMMA-model
+* `GGM-repository/` — het GGM XMI-bronbestand, geconverteerd naar `json`
+* `Clippings/` (buiten `Sources/`) — ingang voor via Obsidian Web Clipper geclipte pagina's
 
 **Afgeleide kennisbasis** (`Wiki/`):
 
 * `Bronsamenvattingen/` — kernpunten uit bronnen per onderwerp
-* `Onderwerpen/` — onderwerpoverzichten met begrippentabellen (beleid → ArchiMate-type → BO-criteria)
-* `Bedrijfsobjecten/` — volledig uitgewerkte BO-pagina's (bron → GGM-match → metadata)
-* `Analyses/` — queryresultaten, syntheses en GGM-dekkingsrapportages
+* `Onderwerpoverzichten/` — onderwerpoverzichten met begrippentabellen (beleid → ArchiMate-type → BO-criteria)
+* `Bedrijfsobjecten/`, `Actoren/`, `Rollen/` — volledig uitgewerkte elementpagina's (bron → GGM-match → metadata)
+* `GGM/` — gegenereerde GGM-pagina's per beleidsdomein
+* `GEMMA/` — overzichten van het GEMMA-model (o.a. actoren en rollen)
+* `Analyses/` — dekkingsrapportages en GGM-terugmeldingen
+* `Vragen/` — vastgelegde antwoorden op ad-hoc vragen
+* `index.md` en `log.md` — catalogus en chronologisch logboek
+
+**Ondersteunend**:
+
+* `templates/` — paginatemplates (element, bronsamenvatting, onderwerpoverzicht, GGM-terugmelding, vraag-antwoord, index, log)
+* `tools/` — Python-scripts voor GGM-verwerking, dekkingsanalyse, lint en export
+* `exports/` — gegenereerde GGM-GEMMA CSV's; formaat in [export_spec.md](export_spec.md)
+* `ToDo/` — backlog en openstaande verbeterpunten
 
 **Automatisering** (`.claude/commands/`):
 
 Voor een reproduceerbare werkwijze zijn de volgende skills beschikbaar:
 
-* 9 skills: `/ingest` (orchestrator), `/assess-bo` (beoordeling), `/write-bo` (BO-pagina), `/coverage` (GGM-dekking), `/domain-status`, `/lint`, `/fetch`, `/clip`, `/export-ggm`
+* Verwerken: `/ingest` (orchestrator), `/assess-element` (beoordeling), `/write-element` (elementpagina)
+* Bronnen: `/fetch`, `/clip`, `/convert_pdf`
+* GGM: `/generate-ggm`, `/entiteitendekking`, `/export-ggm`
+* Controle: `/lint`, `/audit-actoren`, `/audit-definities`, `/audit-duplicaten`, `/domain-status`
 
-Schema's en conventies: zie `CLAUDE.md`.
+Regels en conventies: zie [CLAUDE.md](CLAUDE.md) en `.claude/rules/`. Generieke regels voor alle wiki's staan in `../agent/rules/`.
 
 ## Licentie
 EUPL 1.2 (European Union Public Licence).

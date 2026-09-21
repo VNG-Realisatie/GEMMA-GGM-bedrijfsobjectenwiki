@@ -17,7 +17,7 @@ Kern van het prompt: een LLM-onafhankelijke wiki als analyse- en curatieomgeving
 
 ## Feiten over de bestaande omgeving
 
-- Repo-root: `/home/mark/Sync/AI-context`. Het inhoudelijke project staat in `Bedrijfsarchitectuur/` (een Obsidian-vault, ook bewerkt in VS Code).
+- Repo-root: `/home/mark/Documents/GitHub/llm-wikis`. Het inhoudelijke project staat in `Bedrijfsarchitectuur/` (een Obsidian-vault, ook bewerkt in VS Code).
 - `Bedrijfsarchitectuur/Sources/` — bronbestanden; de inhoud ervan is immutabel (werkafspraak, zie hieronder).
 - `Bedrijfsarchitectuur/Wiki/` — de bestaande wiki volgens het oude model. Niet aanpassen vanuit OpzetII.
 - `Bedrijfsarchitectuur/tools/` — Python-scripts van de oude werkwijze; `tools/export_ggm_csv.py` genereert 5 CSV's naar `Bedrijfsarchitectuur/exports/` voor de GGM-GEMMA-uitwisseling. Relevant als referentie bij de exportstap uit het prompt (er bestaat dus al een CSV-exportpad richting GEMMA); catalogus: [Opzet/tools/README.md](../Opzet/tools/README.md).
