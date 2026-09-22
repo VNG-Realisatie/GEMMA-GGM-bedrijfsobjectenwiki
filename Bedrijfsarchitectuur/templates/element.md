@@ -147,7 +147,7 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Verwijzingen naar bronsamenvattingen:** `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}|display-tekst]]` (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda|Verkiezingen en referenda]]`)
 - **Verwijzingen naar analyses:** `[[Wiki/Analyses/analyse-slug|display-tekst]]` (bijv. `[[Wiki/Analyses/ggm-terugmeldingen]]`)
 - **Citaten uit bronnen:** platte tekst (geen links)
-- **Geen verwijzingen naar technische/proces-bestanden** (`CLAUDE.md`, `templates/`, `tools/`, skills): zie `.claude/rules/wiki-conventies.md` [WC7]–[WC11].
+- **Geen verwijzingen naar technische/proces-bestanden** (`CLAUDE.md`, `templates/`, `tools/`, skills): zie `CLAUDE.md` [WC7]–[WC11].
 
 ### Secties
 

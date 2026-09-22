@@ -1,64 +1,8 @@
 # GEMMA Bedrijfsobjecten Wiki
 
-Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen, onderhouden en doorontwikkelen van GEMMA bedrijfsobjecten. De wiki wordt onderwerp voor onderwerp opgebouwd vanuit gemeentelijke beleidsdocumenten en het GGM, en vormt het besliskader voor welke entiteiten bedrijfsobjecten worden.
+Werkinstrument van het GEMMA-team voor het onderbouwd opbouwen, onderhouden en doorontwikkelen van GEMMA bedrijfsobjecten. Werkwijze, proces en de rol van het GGM: zie [documentatie.md](documentatie.md).
 
-## 1. Doel & werkwijze
-
-Het bestaande GEMMA bedrijfsobjectenmodel is een ongefiltreerde kopie van het GGM. Deze wiki bouwt het opnieuw op met onderbouwing:
-
-1. **Bronnen lezen en samenvatten** — VNG-beleidsdocumenten, proposities, verordeningen → bronsamenvattingen
-2. **Onderwerpoverzicht opbouwen** — begrippen identificeren, typeren en beoordelen als BO-kandidaat
-3. **BO's afleiden** — per BO-kandidaat: criteria toetsen, BO-pagina aanmaken met onderbouwing
-4. **Hiaten signaleren** — GGM-entiteiten zonder BO, BO's zonder GGM-grondslag, correcties terugkoppelen
-
-Het resultaat per onderwerp: BO-beslisdocumenten met metadata die als properties naar het GEMMA ArchiMate-model gaan.
-
-De herleidbaarheidsketen is: `Sources/ → Bronsamenvattingen/ → Bedrijfsobjecten/`. Het onderwerpoverzicht organiseert de begrippen en hun BO-beoordeling.
-
-**BO-afleiding staat op zichzelf.** Een begrip wordt BO op basis van de BO-criteria (zie §5) — dat kan zonder GGM. GGM-matching (zie §6) is aanvullende verrijking en verificatie, geen voorwaarde voor BO-status.
-
-### Werkwijze
-
-De wiki wordt **onderwerp voor onderwerp** opgebouwd. Per onderwerp wordt het volledige proces doorlopen (bronnen → samenvattingen → onderwerpoverzicht → BO's) voordat het volgende onderwerp wordt opgepakt.
-
-GGM-dekkingsanalyse gebeurt centraal via `/entiteitendekking` en werkt vanuit GGM-beleidsdomeinen (niet per wiki-onderwerp), omdat wiki-onderwerpen en GGM-beleidsdomeinen niet 1-op-1 overlappen. Het doel: inzicht welke beleidsdomeinen bronnen hebben vs. waar nog documenten gezocht moeten worden.
-
-### Workflows
-
-**Ingest** — wanneer de gebruiker een bron of onderwerp aanwijst om te verwerken:
-
-1. Lees de volledige bron
-2. Bespreek de kernpunten met de gebruiker voordat je schrijft
-3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
-4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/onderwerpoverzicht.md`)
-5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/element.md`)
-6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
-7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd
-
-Een enkele bron kan 10-15 wiki-pagina's raken. Dat is normaal.
-
-**Lint** — bij een lint- of auditverzoek:
-
-1. **Contradities opsporen** — twee pagina's die elkaar tegenspreken; mark beide pagina's met `⚠️ Tegenspraak met [[andere-pagina]]`
-2. **Wees-pagina's vinden** — pagina's zonder inbound links van andere pagina's; controleren of ze werkelijk orphan zijn of moeten gelinkt worden
-3. **Concepten zonder pagina** — concepten/BO's die meerdere keren genoemd worden maar geen eigen pagina hebben; voeg toe aan openstaande taken
-4. **Verouderde claims** — claims die op basis van nieuwere bronnen mogelijk outdated zijn; flag met `🔍 Verificatie nodig` en citeer nieuwere bron
-5. **Template-naleving** — controleren of alle pagina's de juiste frontmatter, secties en formattering hebben (zie templates/)
-6. **Herleidbaarheid** — BO-pagina's moeten een `## Bronnen`-sectie in de body hebben; claims moeten citaten hebben
-
-Rapportage: bevindingen als **genummerde lijst met voorgestelde fixes** per categorie (contradities, orphans, verouderd, etc.).
-
-### Onderhoudscyclus
-
-Na de initiële opbouw wordt het model onderhouden bij:
-- Nieuwe GGM-releases (entiteiten hertoetsen)
-- Nieuwe gemeentelijke onderwerpen (bronnen toevoegen, onderwerpoverzicht uitbreiden, BO's afleiden)
-
-### LLM-rol & autonomie
-
-De LLM fungeert als **eerste filter**. Autonomieregels staan in `/assess-element` stap 11.
-
-## 2. Ad-hoc vragen
+## 1. Ad-hoc vragen
 
 Dit is geen skill-getriggerde workflow (geen `/command`) maar het gedrag dat geldt bij elke vraag die de gebruiker stelt, buiten de reguliere ingest/lint-flows om.
 
@@ -75,16 +19,7 @@ Format bij antwoord:
 - Verwijs naar relaties: `Dit BO relateert aan [[Verkiezing]]`
 - Verwijs naar analyses: `Context via [[Wiki/Analyses/entiteitendekking/totaaloverzicht]]` of andere relevante analyses
 
-## 3. Bronnen (Sources)
-
-- **Immutabel** — de LLM leest bronnen maar wijzigt ze nooit.
-- Bronnen zijn gemeentelijke beleidsdocumenten, VNG-publicaties, proposities, toelichtingen, verordeningen.
-- Georganiseerd per gemeentelijk onderwerp als subdirectory onder `Sources/`.
-- Bronnen kunnen YAML-frontmatter bevatten (title, source, created, description, tags).
-- **GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content.** De bestanden in `Wiki/GGM/` zijn een leesbare conversie van het XMI-bestand (de bron van waarheid), gegenereerd door `/generate-ggm`. Ze bevatten letterlijke definities uit het model, zonder synthese of interpretatie, en worden nooit handmatig bewerkt.
-- **Sources/GEMMA/** en **Sources/Standaarden/** bevatten aanvullende referentiebronnen: GEMMA-VNG-afspraken resp. basisregistratie-catalogi (BAG, BRK, BRO, NHR, RGBZ, RSGB, ZTC, BRP).
-
-### Bronnen toevoegen
+## 2. Bronnen toevoegen
 
 Er zijn twee manieren om bronnen toe te voegen. Beide resulteren in een bestand in `Sources/{onderwerp}/`.
 
@@ -118,15 +53,7 @@ Web Clipper slaat pagina's op in `Clippings/` — een landingszone, geen bron.
 3. **Frontmatter aanvullen** als velden ontbreken (description, tags).
 4. Ga verder met de reguliere ingest-workflow.
 
-### GGM-terminologie
-
-Het GGM is hiërarchisch opgebouwd: **taakvelden** (afgeleid van IV3) bevatten **beleidsdomeinen**.
-
-- Taakveld = het bovenste niveau (bijv. "5 Sport, Cultuur en Recreatie", "9 Interne Organisatie")
-- Beleidsdomein = het niveau daaronder (bijv. "Financien" onder taakveld 9, "Schulden" onder taakveld 6)
-- Zie `Wiki/GGM/structuur-ggm.md` voor het volledige overzicht met definities
-
-## 4. Wiki-pagina's
+## 3. Wiki-pagina's
 
 Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `templates/`:
 
@@ -150,62 +77,158 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 - **Wiki-links met alias**: alle `[[Wiki/...]]` links moeten een alias hebben zodat de lezer een leesbare naam ziet, niet een pad. In tabellen: `[[pad\|alias]]` (escaped pipe). Buiten tabellen: `[[pad|alias]]` (gewone pipe). Alias is de leesbare naam (bijv. `[[Wiki/Bedrijfsobjecten/.../boom\|Boom]]` in tabel, `[[Wiki/Bronsamenvattingen/.../nota|Nota Dierenwelzijn]]` in proza). Korte links zonder pad (bijv. `[[Stembureau]]`) hoeven geen alias.
 - **Citaten uit bronnen**: blockquotes (`>`) met bronvermelding.
 
-## 5. BO-criteria & beoordeling
+## 4. BO-criteria & beoordeling
 
-BO-afleiding staat los van GGM (zie §1) — een begrip wordt beoordeeld op zijn eigen merites.
+BO-afleiding staat los van GGM (zie [documentatie.md](documentatie.md)) — een begrip wordt beoordeeld op zijn eigen merites.
 
 Alle beoordelingslogica staat in de skills, niet in dit bestand:
 - **Elementbeoordeling:** `/assess-element` — domeinbepaling, begripstype, criteria (incl. actor/rol-criteria, zie `Wiki/GEMMA/actoren-en-rollen.md`), subtypes, data-object classificatie, autonomieregels
 
-## 6. GGM-matching & hiaten
+## 5. GGM-matching & hiaten
 
-GGM-matching gebeurt **nadat** een begrip al op eigen kracht als BO is beoordeeld (zie §5) — het verrijkt en verifieert, het bepaalt niet.
+GGM-matching gebeurt **nadat** een begrip al op eigen kracht als BO is beoordeeld (zie §4) — het verrijkt en verifieert, het bepaalt niet.
 
 - **Element vastleggen:** `/write-element` — grondslag, GGM-match, matchsterkte, duplicaten- en homoniemdetectie, hiërarchie, relaties, frontmatter, pagina, terugmelding
-- **Grondslag zonder GGM:** `/write-element` stap 10 — het mechanisme achter het principe uit §1: een BO zonder GGM-grondslag krijgt lege `ggm_*`-velden en in plaats daarvan een Procesbron- of Juridische bron-sectie
+- **Grondslag zonder GGM:** `/write-element` stap 10 — het mechanisme achter het principe uit §4: een BO zonder GGM-grondslag krijgt lege `ggm_*`-velden en in plaats daarvan een Procesbron- of Juridische bron-sectie
 - **Hiaat:** twee richtingen — GGM-entiteiten zonder BO, en BO's zonder GGM-grondslag; zie `/assess-element` voor hiaat-bepaling
 - **Onzekere matches:** markeer als `ter discussie`, niet gokken
-- **Entiteitendekking:** `/entiteitendekking` — analyseert dit systematisch per taakveld/beleidsdomein (zie §8)
+- **Entiteitendekking:** `/entiteitendekking` — analyseert dit systematisch per taakveld/beleidsdomein (zie §7)
 
-## 7. Regels
+## 6. Regels
 
-### Procesregels — hoe te werken
+Schrijfwijze: `- [ID] **kernonderwerp** — normatieve tekst`. Keywords: `ALTIJD` (verplicht), `NOOIT` (verboden), `ALS ... →` (conditioneel), `ALLEEN`/`ALLEEN ALS` (exclusieve beperking), `UITZONDERING:` (afwijking op een ALTIJD/NOOIT), `STANDAARD:` (default-gedrag). Sequentiële procedures (§1, §2) zijn geen losse regels en krijgen geen ID.
 
-1. **Wijzig nooit bestanden in `Sources/`** — deze zijn immutabel. (Bronnen zijn read-only.)
-2. **Alle wiki-output gaat naar `Wiki/`** — houd de scheiding strikt tussen bronnen en wiki.
-3. **Bespreek eerst, schrijf dan** — bij ingest altijd eerst de kernpunten bespreken met de gebruiker.
-4. **Incrementeel** — update bestaande pagina's, geen duplicaten; consolideer vergelijkbare concepten.
-5. **Update index en log** — na elke ingest of significante wijziging; zorg dat Wiki/index.md en Wiki/log.md actueel zijn.
-6. **Bij onzekerheid** — vraag aan de gebruiker hoe iets moet worden gecategoriseerd of behandeld; gok niet.
-7. **Geen retroactieve aannames** — als een pagina al bestaat, update deze in plaats van te gokken wat erin zou moeten staan; vraag eerst.
+### Procesregels (PR) — hoe te werken
 
-### Inhoudsregels — herleidbaarheid & kwaliteit
+- [PR1] **Sources/ is read-only** — NOOIT bestanden in `Sources/` wijzigen; deze zijn immutabel (Bronnen zijn read-only).
+- [PR2] **Wiki-output alleen naar Wiki/** — ALTIJD wiki-output naar `Wiki/`; houd de scheiding strikt tussen bronnen en wiki.
+- [PR3] **Eerst bespreken, dan schrijven** — ALTIJD bij ingest eerst de kernpunten bespreken met de gebruiker, pas daarna schrijven.
+- [PR4] **Incrementeel werken** — ALTIJD bestaande pagina's updaten in plaats van dupliceren; consolideer vergelijkbare concepten.
+- [PR5] **Index en log actueel houden** — ALTIJD `Wiki/index.md` en `Wiki/log.md` bijwerken na elke ingest of significante wijziging.
+- [PR6] **Bij onzekerheid navragen** — ALS onduidelijk is hoe iets gecategoriseerd of behandeld moet worden → vraag het de gebruiker; NOOIT gokken.
+- [PR7] **Geen retroactieve aannames** — ALS een pagina al bestaat → update deze in plaats van te gokken wat erin zou moeten staan; vraag eerst.
+
+### Inhoudsregels (IH) — herleidbaarheid & kwaliteit
 
 Elke factische claim moet traceerbaar zijn naar zijn bron:
 
-1. **Refereer altijd naar bronbestanden** — geen ononderbouwde claims
-2. **Format:** Verwijs naar `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`
-3. **Bij tegenspraak:** Als twee bronnen het oneens zijn, documenteer beide en mark als `⚠️ Tegenspraak` in de BO-pagina
-4. **Zonder bron:** Mark als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen
-5. **BO-grondslag:** Elke BO moet via de `## Bronnen`-sectie in de body traceerbaar zijn naar bronsamenvattingen
-6. **GGM-matching:** Bij onzekere matches: mark als `ter discussie`, niet gokken
-7. **Geen fantasie:** onzekere GGM-mapping markeren als `ter discussie`, niet gokken; elke aanname documenteren
+- [IH1] **Refereer altijd naar bronbestanden** — ALTIJD verwijzen naar bronbestanden; GEEN ononderbouwde claims.
+- [IH2] **Verwijsformat naar bronnen** — Verwijs naar `[[Wiki/Bronsamenvattingen/{onderwerp}/{slug}]]` voor VNG-bronnen, of citeer direct: `> [citaat] (bron: bestandsnaam)`.
+- [IH3] **Bij tegenspraak beide documenteren** — ALS twee bronnen het oneens zijn → documenteer beide en markeer als `⚠️ Tegenspraak` in de BO-pagina.
+- [IH4] **Zonder bron markeren** — ALS een claim geen bron heeft → markeer als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen.
+- [IH5] **BO-grondslag via Bronnen-sectie** — Elke BO moet via de `## Bronnen`-sectie in de body traceerbaar zijn naar bronsamenvattingen.
+- [IH6] **Onzekere GGM-matching als ter discussie** — Bij onzekere matches: markeer als `ter discussie`; NOOIT gokken.
+- [IH7] **Geen fantasie bij GGM-mapping** — Onzekere GGM-mapping markeren als `ter discussie`, NOOIT gokken; elke aanname documenteren.
 
 Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar originele bronnen.
 
-### Scope- & vormregels
+### Scope- & vormregels (VR)
 
-1. **Bestandsnamen** — lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); geen spaties of CAPITALS.
-2. **Duidelijke taal** — schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
+- [VR1] **Bestandsnamen: lowercase met koppeltekens** — Bestandsnamen ALTIJD lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); GEEN spaties of CAPITALS.
+- [VR2] **Begrijpelijk Nederlands** — Schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
 
-## 8. Skills & tools
+### Bedrijfsobjecten (BO)
+
+Regels die één skill uitvoert staan in die skill: `/assess-element` (6 criteria, abstract niveau, GGM-hiaten), `/write-element` (duplicaten/homoniemen, definities), `/audit-duplicaten`, `/ingest` (bronselectie, GGM-dekking). Hieronder alleen skill-overstijgende regels.
+
+**Anti-patronen registr\***
+
+- [BO1] **Anti-patroon "registr\*" als BO-afwijsgrond** — De 6 BO-criteria zijn de ENIGE toets (`/assess-element` Stap 7). NOOIT "registr*" (registreerbaar, registreren, registratieobject) gebruiken als filter, criterium of motivatie bij BO-beoordeling, begrippentabellen, GGM-hiaat-beoordelingen of inleidende analyses. Ook niet impliciet of als synoniem. UITZONDERING: de typering van data-objecten in `/assess-element` Stap 9–10; die bepaalt NOOIT BO-status.
+- [BO2] **Vervangingen voor registr\*-taal** — Vervang: "registreerbaar object" → "zelfstandig object"; "wat gemeenten registreren" → "wat de gemeente herkent als zelfstandig ding"; "geen registratieobject" → afwijzen via de 6 criteria.
+- [BO3] **Irrelevante afwijsgronden** — Irrelevant als afwijsgrond: "eigendom ligt bij X", "systeembeheer", "regie, niet registratie", "extern systeem".
+
+**BO-naam bij GGM-generalisatie**
+
+Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte "sterk"/"partieel", GGM-entiteit is breder.
+
+- [BO4] **BO-naam blijft het beleidsbegrip** — STANDAARD: BO-naam blijft het gemeentelijke beleidsbegrip. NIET hernoemen naar de abstractere GGM-entiteitnaam.
+- [BO5] **Afwijking vastleggen in GGM-bron, niet in Naamkeuze** — Leg de afwijking vast in de bestaande `## GGM-bron`/matchsterkte-toelichting. NOOIT in `## Naamkeuze` (uitsluitend voor naamcollisie-disambiguatie; zie `/write-element` Stap 0 en `templates/element.md`).
+- [BO6] **Uitzondering: hernoemen naar de GGM-naam** — UITZONDERING (zeldzaam, per geval): hernoemen naar de GGM-naam ALLEEN ALS de term geen eigen identiteit heeft: er is in de gemeentelijke bronnen geen ander gebruik van de GGM-entiteit dan deze ene toepassing én de term is geen zelfstandig gedragen beleidsbegrip.
+- [BO7] **Toets voor de BO6-uitzondering** — Toets voor [BO6]: zou een domeinexpert dit begrip ooit anders noemen, of gebruiken voor iets anders dan deze ene GGM-toepassing? ALS ja → niet hernoemen.
+- [BO8] **Subtype of Specialisatie bij hernoeming** — Bij hernoeming wordt de specifieke term binnen de hernoemde BO een Subtype (geen eigen pagina) OF een Specialisatie (eigen pagina; ALLEEN ALS de term zelf de 6 criteria haalt).
+- [BO9] **Geen bulk-hernoeming** — NOOIT in bulk doorvoeren op basis van één eerder akkoord. Bij twijfel of meerdere vergelijkbare gevallen: expliciet per geval voorleggen. Een generiek "ja, overal" is geen akkoord voor bulk.
+- [BO10] **Wiki-links bijwerken na hernoeming** — Bij hernoeming of nieuwe generieke pagina: ALLE wiki-links bijwerken: bare `[[Naam]]`-links in Bronsamenvattingen, `bo_relaties` in andere BO's, onderwerpoverzicht-rijen, `Wiki/index.md`.
+- [BO11] **Dekkingsrapport regenereren na hernoeming** — Daarna `entiteitendekking.py --all` regenereren en controleren volgens `/entiteitendekking` Stap 1 (controle na de run).
+
+**Wiki-velden**
+
+- [BO12] **BO-veldnamen en prefixen** — Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes`: zie [BO15]. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
+- [BO13] **Herkomst gemma_\*-velden** — `gemma_*`-waarden komen uit het GGM (dat een `gemma.csv` importeert). In `ggm_parsed.json` staan ze als `gemma_tags`; in BO-frontmatter als `ggm_gemma_*`.
+- [BO14] **Geen wiki-beoordeling in gemma_\*-velden** — NOOIT `gemma_*`/`ggm_gemma_*` vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
+- [BO15] **bo_subtypes blijft in gebruik** — `bo_subtypes` is in gebruik (NIET deprecated): per item `naam`, `omschrijving`, `ggm_entiteit`, `ggm_guid`, `ggm_attribuut`. `tools/entiteitendekking.py` leest de items met `ggm_attribuut: generalisatie` voor de dekking van GGM-specialisaties; lint, export en enrichment gebruiken het ook. NIET verwijderen.
+
+Notes: precedent [BO6]: Woonboot → Vaartuig hernoemd (2026-07-09; Woonboot is de enige toepassing van GGM-entiteit Vaartuig). NIET hernoemd: Evenement, Woning, Rioolleiding (zelfstandige beleidsbegrippen). Rioolleiding = twee pagina's: Leiding (generieke GGM-match) + Rioolleiding (Specialisatie met generalisatie-relatie terug).
+
+### Bronnen (SRC) — GGM en Sources/
+
+Paden relatief aan `Bedrijfsarchitectuur/`.
+
+**GGM-bronnen**
+
+- [SRC1] **XMI is bron van waarheid, niet direct lezen** — `Sources/GGM-repository/Gemeentelijk Gegevensmodel XMI2.1.xml` is de bron van waarheid voor het GGM. NOOIT direct lezen; ALLEEN via de parser.
+- [SRC2] **Nieuwe GGM-release omzetten** — ALS er een nieuwe GGM-release is → zet het XMI om in `Sources/GGM-repository/ggm_parsed.json` met `tools/parse_ggm_xmi.py` (via `/generate-ggm`). Beide bestanden staan in `Sources/GGM-repository/`.
+- [SRC3] **Geen afgeleide GGM-bronnen** — NOOIT CSV-bestanden (~/Downloads) of andere locaties als GGM-bron gebruiken (afgeleiden; verouderd of incompleet).
+- [SRC4] **Altijd zoeken in ggm_parsed.json** — ALTIJD zoeken en matchen in `Sources/GGM-repository/ggm_parsed.json` (structurele query, bv. Python/jq): entiteiten (incl. enumeraties) over alle beleidsdomeinen, namen en synoniemen, relaties, generalisaties (`uml_type: Generalization`), attributen, GUIDs, GEMMA-tags, diagram-IDs.
+- [SRC5] **Wiki/GGM/ alleen voor leesbaar doorlopen** — `Wiki/GGM/{taakveld}/` ALLEEN gebruiken om een beleidsdomein leesbaar door te lopen (definities, attributen). Het bevat alleen Objecttypen en geen relaties, generalisaties, enumeraties, GUIDs of tags.
+
+**Bestanden in Sources/**
+
+- [SRC6] **Sources/ is immutabel** — NOOIT bestanden in `Sources/` vertalen of herschrijven, en NOOIT per ongeluk uitbreiden (immutabel referentiemateriaal).
+- [SRC7] **Nederlandse bronnen letterlijk bewaren** — Nederlandse bronnen: originele Nederlandse tekst letterlijk bewaren. Ophalen: `/fetch` (curl, NOOIT WebFetch).
+- [SRC8] **Alleen selectief kopiëren** — ALLEEN selectief kopiëren toegestaan: neem de beschrijvingen over; laat ruis weg (navigatie, nieuwslijsten, agenda's, gerelateerde links).
+- [SRC9] **Geen wiki-links in Sources/** — NOOIT `[[wiki-links]]` in `Sources/`. ALTIJD platte bestandsreferentie: GGM-bronbestand → `bestandsnaam.md`; wiki-pagina → volledig pad, bv. `Wiki/Analyses/bestandsnaam.md`.
+
+Notes: regels voor bronselectie staan in `/ingest`, voor PDF-conversie in `/convert_pdf` en `/fetch`, voor utrecht.bestuurlijkeinformatie.nl in `/fetch`.
+
+### Wiki-conventies (WC)
+
+**Links**
+
+- [WC1] **Altijd wiki-links, geen platte tekst** — ALTIJD `[[wiki-links]]` voor verwijzingen naar wiki-pagina's en BO's in `Wiki/`-bestanden. NOOIT platte tekst.
+- [WC2] **Toepassing per maptype** — Toepassing:
+  - `Wiki/Bronsamenvattingen/`: links naar BO's, andere bronsamenvattingen, analyses.
+  - `Wiki/Bedrijfsobjecten/`: links naar bronsamenvattingen (veld `bronnen`), gerelateerde BO's (sectie `relaties`), analyses.
+  - `Wiki/Onderwerpoverzichten/`: links naar BO's (begrippentabel), bronsamenvattingen ("Verwerkte bronnen").
+  - `index.md`, `log.md`: alle verwijzingen zijn wiki-links.
+- [WC3] **Uitzondering: Sources-frontmatter als markdown-link** — UITZONDERING: frontmatter-velden die naar Sources wijzen (bv. `bron:` in een bronsamenvatting) → markdown-link `[text](path)`. In `Sources/` zelf: [SRC9].
+
+**Scope**
+
+- [WC4] **Gemeentelijk perspectief als scope** — ALTIJD gemeentelijk perspectief als scope: wat de gemeente ziet, doet, registreert en beslist.
+- [WC5] **Ketenpartners alleen als context** — Ketenpartners (COA, IND, DT&V, UWV e.d.) en externe actoren/processen: ALLEEN als context of afbakening ("buiten scope") noemen. NOOIT een eigen begrips- of BO-pagina; NOOIT hun interne processen uitwerken. Geldt voor alle domeinen.
+- [WC6] **Domein altijd afsluiten, ook bij 0 BO's** — Een domein dat geen BO's oplevert → afsluiten met een conclusie waarom. Ingest sluit een domein ALTIJD af, ook bij 0 BO's.
+
+**Inhoud van wiki-pagina's**
+
+- [WC7] **Geen verwijzingen naar technische bestanden** — NOOIT vanuit wiki-content (BO-pagina's, begrippen, analyses, bronsamenvattingen) verwijzen naar of citeren uit `CLAUDE.md`, `templates/`, `tools/` of skills (`.claude/commands/`). Onderbouwing staat op eigen kracht in de inhoud.
+- [WC8] **Geen absolute taal zonder onderbouwing** — NOOIT absolute taal ("structureel buiten scope", "per definitie", "GGM modelleert nooit X") zonder domeinspecifieke onderbouwing.
+- [WC9] **Herformuleer generieke "GGM doet dit niet"** — ALS een generieke "GGM doet dit niet"-bewering geen specifieke reden heeft → herformuleer naar "in het GGM niet compleet gedekt". Specifieke reden = ontbrekend beleidsdomein, specifieke wetsverwijzing of attribuutvergelijking.
+- [WC10] **Concrete reden: niet aanpassen** — ALS een bewering een concrete, specifieke reden geeft (bv. "dit beleidsdomein begint pas bij X", "GGM heeft wel BAG-locaties maar niet dit type locatie") → NIET aanpassen, ook niet als het woord "structureel" erin staat.
+- [WC11] **Per geval beoordelen bij opschoning** — Bij opschoning van deze framing: per geval beoordelen. NOOIT blind alle "structureel"/"buiten scope" vervangen.
+
+**Gegenereerde bestanden en subagent-runs**
+
+- [WC12] **Wiki/GGM/ nooit handmatig bewerken** — `Wiki/GGM/` NOOIT handmatig bewerken (gegenereerd). Wijzig ALLEEN door te regenereren via `/generate-ggm`. Herstel een ongewenste externe wijziging met `git checkout -- <bestand>`.
+- [WC13] **Checklist na elke subagent-run** — Checklist na elke subagent-run (zie [W4]):
+  1. `Wiki/Analyses/ggm-terugmeldingen.md`: nieuwe hiaten/correcties uit de BO-pagina's toegevoegd?
+  2. `Wiki/index.md`: alle nieuwe BO's en bronsamenvattingen opgenomen?
+  3. `Wiki/log.md`: entry klopt met werkelijke aantallen?
+  4. `Wiki/Onderwerpoverzichten/{onderwerp}.md`: `bo_count` en `begrippen_count` actueel?
+  5. Forward references in BO-pagina's: verwijzen ze naar bestaande bestanden?
+
+Notes:
+- `templates/element.md` verwijst naar [WC7].
+- Precedent [WC9]: GGM-beleidsdomein Normafwijking (Participatiewet-ingest, 2026-09-18) modelleert Maatregel en Boete; dit weerlegde "GGM modelleert nooit processen/governance".
+
+## 7. Skills & tools
 
 ### Directorystructuur
 
 ```
 Bedrijfsarchitectuur/
-├── CLAUDE.md              # dit bestand — schema en conventies
-├── .claude/commands/      # skills (`/command`), projectlokaal — zie §"Skills"
+├── CLAUDE.md              # dit bestand — regels en conventies
+├── documentatie.md        # werkwijze, proces en de rol van het GGM
+├── .claude/commands/      # skills (`/command`), projectlokaal — zie documentatie.md §"Skills"
 ├── templates/             # paginatemplates en referentietabellen
 ├── Sources/               # ruwe bronnen, NIET aanpassen
 │   ├── Onderwerpen/       # beleidsdocumenten per onderwerp
@@ -224,9 +247,9 @@ Bedrijfsarchitectuur/
 │   ├── Rollen/            # Business Role-pagina's (plat)
 │   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {onderwerp}/
 │   ├── Analyses/          # per-taakveld dekkingsrapporten, hiaten, terugmeldingen
-│   ├── Vragen/            # ad-hoc vraag-antwoord-pagina's (zie §2)
+│   ├── Vragen/            # ad-hoc vraag-antwoord-pagina's (zie §1)
 │   ├── GEMMA/             # duiding GEMMA-GGM-samenhang, actoren/rollen-criteria
-│   └── GGM/               # gegenereerde leesbare GGM-representatie (zie §3), niet handmatig bewerken
+│   └── GGM/               # gegenereerde leesbare GGM-representatie, niet handmatig bewerken
 │       ├── structuur-ggm.md
 │       └── {taakveld}/    # per taakveld, met index.md en bestanden per beleidsdomein
 ├── Clippings/             # landingszone voor webclippings (Web Clipper uitvoer)
@@ -238,53 +261,11 @@ Bedrijfsarchitectuur/
 
 Onderwerpen en taakvelden worden **niet** vooraf benoemd in de structuur — ze ontstaan bij het verwerken van bronnen. Controleer bestaande subdirectories voordat je een nieuwe aanmaakt.
 
-### Skills
+Skills zijn project-lokaal: `.claude/commands/` (binnen `Bedrijfsarchitectuur/`), zelfde niveau als `tools/` (Python-scripts). Skills die wiki-pagina's wijzigen updaten altijd `Wiki/index.md` en voegen een entry toe aan `Wiki/log.md`. Elke skill is zelfvoorzienend (Input/Output/aangeroepen tool staan in de skill zelf). Functie-overzicht per skill en tool: zie [documentatie.md](documentatie.md).
 
-Skills zijn project-lokaal: `.claude/commands/` (binnen `Bedrijfsarchitectuur/`), zelfde niveau als `tools/`. Skills die wiki-pagina's wijzigen updaten altijd `Wiki/index.md` en voegen een entry toe aan `Wiki/log.md`.
-
-Waar van toepassing staat de aangeroepen **Tool** (Python-script uit `tools/` — zie §"Tools" voor details) als tweede regel onder de Functie. Waar de skill zelf een pagina schrijft staat het gebruikte **template** uit `templates/` direct achter dat bestand, tussen haakjes. Elk output-bestand/-locatie staat op een eigen regel. "chat" bij Uit = geen bestand, alleen een antwoord/rapportage.
-
-| Skill | Functie | In | Uit |
-|---|---|---|---|
-| **ingest**<br>`/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-element en write-element | bron/onderwerp | `Wiki/Bronsamenvattingen/` (template: `bronsamenvatting.md`)<br>`Wiki/Onderwerpoverzichten/` (template: `onderwerpoverzicht.md`)<br>`Wiki/index.md` (template: `index.md`)<br>`Wiki/log.md` (template: `log.md`)<br>Delegeert BO-beoordeling en -aanmaak naar assess-element/write-element |
-| **assess-element**<br>`/assess-element {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat | begrip (uit onderwerpoverzicht/GGM) | beoordeling — geen bestand, invoer voor write-element |
-| **write-element**<br>`/write-element {element}` | Element vastleggen: GGM-match, frontmatter, pagina aanmaken<br>Tool: `parse_ggm_xmi.py` (optioneel, bij nieuwe GGM-release) | beoordeeld element + `ggm_parsed.json` | `Wiki/Bedrijfsobjecten/` (template: `element.md`)<br>of `Wiki/Actoren/` (template: `element.md`)<br>of `Wiki/Rollen/` (template: `element.md`)<br>Bij afwijking/hiaat: regel toegevoegd aan `Wiki/Analyses/ggm-terugmeldingen.md` (template: `ggm-terugmelding.md`) |
-| **entiteitendekking**<br>`/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten<br>Tool: `entiteitendekking.py`, `entiteitendekking_sync_bo.py` | `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` | `Wiki/Analyses/entiteitendekking/` (eigen rapportformat, geen template)<br>teruggeschreven `analyse_ggm_dekking` in BO-frontmatter |
-| **domain-status**<br>`/domain-status {onderwerp}` | Read-only voortgangsrapportage | `Wiki/` voor onderwerp | chat |
-| **lint**<br>`/lint [onderwerp]` | Twee stappen: deterministisch script (exacte telling), dan modelbeoordeling van wat overblijft<br>Tool: `lint_checks.py` (stap 1, altijd), `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
-| **audit-duplicaten**<br>`/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's | `Wiki/Bedrijfsobjecten/` | chat, voorstellen (geen automatische fix) |
-| **audit-actoren**<br>`/audit-actoren` | Controleer Business Actors op consistentie en volledigheid | `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/` | werkvoorraadlijst (chat) — vervolg via assess-element/write-element |
-| **audit-definities**<br>`/audit-definities` | Controleer BO-definities op afwijkingen van GGM | `Wiki/Bedrijfsobjecten/` + `ggm_parsed.json` | chat, optioneel direct herschreven `bo_definitie`/`bo_toelichting` |
-| **fetch**<br>`/fetch {URL}` | URL ophalen als bronbestand in `Sources/` | URL | `Sources/{onderwerp}/*.md` |
-| **clip**<br>`/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/`<br>Roept: `/convert_pdf` (indien pdf) | `Clippings/*.md` | `Sources/{onderwerp}/*.md` |
-| **convert_pdf**<br>`/convert_pdf {bestand}` | PDF converteren naar markdown voor `Sources/`<br>Tool: `convert_pdf.py` | PDF | markdown naast origineel |
-| **crawl**<br>`/crawl {URL}` | Spidering/scraping van website voor bronverzameling | URL(s) | chat (optioneel `Sources/`-bestand op verzoek) |
-| **export-ggm**<br>`/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki<br>Tool: `export_ggm_csv.py` | `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` | `exports/*.csv` (5 bestanden) |
-| **generate-ggm**<br>`/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen)<br>Tool: `parse_ggm_xmi.py`, `generate_ggm_wiki.py`, `generate_ggm_enrich_bo.py` | XMI-bestand | `Sources/GGM-repository/ggm_parsed.json`<br>`Wiki/GGM/**` |
-
-**Model voorkeur:** `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
-
-### Tools
-
-Python-scripts in `tools/`, projectlokaal naast de skills die ze aanroepen.
-
-| Tool | Functie | Skill |
-|---|---|---|
-| `parse_ggm_xmi.py` | Parse GGM XMI → JSON; schrijft naar `Sources/GGM-repository/ggm_parsed.json`. Alleen draaien bij nieuwe GGM-release. | `/generate-ggm` Stap 1, `/write-element` (optioneel) |
-| `generate_ggm_wiki.py` | Genereer Wiki/GGM markdown uit parsed JSON. Telt alleen Objecttypen. `--dry-run` voor preview. | `/generate-ggm` Stap 2 |
-| `generate_ggm_enrich_bo.py` | Verrijk BO-frontmatter met `ggm_*`/`ggm_gemma_*`-velden uit geparsed JSON. Herschrijft alleen die velden; alle overige frontmatter (incl. `bo_*`, `ggm_duplicaat_entiteiten`, `analyse_ggm_dekking`) blijft ongewijzigd. | `/generate-ggm` Stap 3 |
-| `export_ggm_csv.py` | Genereer 5 CSV-bestanden uit geparsed JSON + wiki BO-pagina's | `/export-ggm` |
-| `entiteitendekking.py` | Uniforme GGM-analyse: match, classificeer, traceer relaties, genereer per-taakveld rapporten + totaaloverzicht | `/entiteitendekking` Stap 1 |
-| `entiteitendekking_sync_bo.py` | Schrijft `analyse_ggm_dekking` (reverse-index: welke GGM-entiteiten dekt dit BO) terug naar BO-pagina's, chirurgisch — raakt geen andere velden. `--dry-run` voor preview. | `/entiteitendekking` Stap 5 |
-| `convert_pdf.py` | Converteert PDF naar markdown | `/convert_pdf` |
-| `migrate_frontmatter_style.py` | Fixt frontmatter-stijlfouten (quotes, lege waarden, veldnamen, incl. geneste velden onder `bo_subtypes`/`bo_homoniemen`) | `/lint` (fix-suggestie) |
-| `lint_checks.py` | Deterministische consistentiechecks (frontmatter-compleetheid, enum-validatie, Bronnen-secties, dode Sources-links, wees-BO's, wiki-link-aliassen, subtypes/duplicaten/homoniemen-schema) — geen model nodig, exacte telling. `--fix` past de mechanisch veilige subset direct toe (Bronnen-aliassen, dode links, duplicaten-schema, homoniemen-ggm-backfill) | `/lint` Stap 1 (altijd eerst) |
-
-## 9. Gedragsprincipes
+## 8. Gedragsprincipes
 
 - Don't assume. Don't hide confusion. Surface tradeoffs.
 - Minimum code that solves the problem. Nothing speculative.
 - Touch only what you must. Clean up only your own mess.
 - Define success criteria. Loop until verified.
-
-@.claude/projectcontext.md

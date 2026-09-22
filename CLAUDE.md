@@ -8,7 +8,7 @@ Generiek voor alle wiki's in deze repo. Wiki-specifieke afspraken staan in de ei
 - [OPZ3] ALTIJD OpzetII bouwen in een verse sessie vanuit `OpzetII/overdracht.md` (opdracht, besluiten, randvoorwaarden, open punten).
 - [OPZ4] OpzetII is greenfield: bestaande wiki-content blijft onder de oude werkwijze. GGM valt buiten het ontwerp.
 - [OPZ5] Het oude paginamodel is GEEN uitgangspunt. ALLEEN de vormconventies zijn herbruikbaar: AGENTS.md-entrypoint, promptformat, linkconventie VS Code+Obsidian.
-- Context: [P1].
+- Context: `Bedrijfsarchitectuur/documentatie.md` §Doel.
 
 ## Generieke regels
 @agent/rules/werkwijze.md

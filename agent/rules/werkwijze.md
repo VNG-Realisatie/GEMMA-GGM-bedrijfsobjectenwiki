@@ -1,6 +1,6 @@
 # Werkwijze (generiek)
 
-Geldt voor alle wiki's in deze repo. Wiki-specifieke uitwerking: `Bedrijfsarchitectuur/.claude/rules/wiki-conventies.md`.
+Geldt voor alle wiki's in deze repo. Wiki-specifieke uitwerking: `Bedrijfsarchitectuur/CLAUDE.md` §"Wiki-conventies (WC)".
 
 ## Tekst verplaatsen
 - [W1] ALS de instructie "verplaats X naar Y" of "splits dit op" is → gebruik de exacte bestaande tekst; alleen knippen en plakken.
