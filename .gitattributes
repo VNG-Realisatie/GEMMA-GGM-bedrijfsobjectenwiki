@@ -1,0 +1,11 @@
+# Line-ending policy: repo-bepaald, geen lokale Git-config nodig.
+# Tekstbestanden altijd LF in repo én working tree, op elk platform.
+* text=auto eol=lf
+
+# Expliciet binair — nooit line-ending-conversie, ongeacht auto-detectie.
+*.pdf binary
+*.png binary
+
+# Bronbestand is immutabel (zie werkwijze.md): oorspronkelijke CRLF
+# behouden, nooit meenemen in eol-normalisatie.
+"Bedrijfsarchitectuur/Sources/GGM-repository/Gemeentelijk Gegevensmodel XMI2.1.xml" -text
