@@ -7,6 +7,12 @@ Usage: python basic_crawler.py <url>
 import asyncio
 import sys
 
+# Windows console defaults to cp1252, which cannot encode the emoji used
+# below; force UTF-8 so this script also runs without PYTHONUTF8=1 set.
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 # Version check
 MIN_CRAWL4AI_VERSION = "0.7.4"
 try:
