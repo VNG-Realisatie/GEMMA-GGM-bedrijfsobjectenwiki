@@ -1,7 +1,7 @@
 Toets BO-criteria voor: $ARGUMENTS
 
 Input: begripsnaam uit onderwerpoverzicht, GGM-entiteit, of "onderwerp X" voor alle onbeoordeelde begrippen.
-Output: beoordeling (classificatie, criteria, hiaat) — geen eigen bestand, invoer voor `/write-element`.
+Output: beoordeling (classificatie, criteria, hiaat) — geen eigen bestand. Wordt aangeroepen door `/element-pipeline`, dat bij een positieve beoordeling doorschakelt naar `/write-element`.
 
 ## FASE A — CLASSIFICATIE
 
@@ -221,4 +221,4 @@ Update de begrippentabel in het onderwerpoverzicht:
 - **Data-object** kolom: ja of nee
 - **Reden** kolom: korte samenvatting
 
-Bij BO → trigger `/write-element` voor GGM-matching en pagina-aanmaak.
+Bij BO → resultaat gaat terug naar de aanroepende skill (`/element-pipeline`), die bij akkoord `/write-element` aanroept voor GGM-matching en pagina-aanmaak.

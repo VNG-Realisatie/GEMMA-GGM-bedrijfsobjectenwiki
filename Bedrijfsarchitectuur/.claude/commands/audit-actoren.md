@@ -1,9 +1,9 @@
 Spoor ontbrekende actor- en rol-pagina's op in bestaande content: $ARGUMENTS
 
 Input: `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/`.
-Output: werkvoorraadlijst (chat) — vervolg via `/assess-element` en `/write-element`.
+Output: werkvoorraadlijst (chat) — vervolg via `/element-pipeline`.
 
-Retrofit-sweep, analoog aan `/audit-definities` en `/audit-duplicaten`: eenmalig (herhaalbaar), los van de doorlopende `/ingest`-flow. Deze skill **vindt alleen de werkvoorraad** — de beoordeling gebeurt via `/assess-element` (Stap 2b, actor/rol-toets) en het schrijven via `/write-element` (Stap 11). Definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
+Retrofit-sweep, analoog aan `/audit-definities` en `/audit-duplicaten`: eenmalig (herhaalbaar), los van de doorlopende `/ingest`-flow. Deze skill **vindt alleen de werkvoorraad** — beoordeling en vastlegging gebeuren via `/element-pipeline` (dat op zijn beurt `/assess-element` Stap 2b en `/write-element` Stap 11 aanroept). Definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
 
 Scope-argument (optioneel): een onderwerp of taakveld om de sweep te beperken; leeg = alles.
 
@@ -24,9 +24,8 @@ Scope-argument (optioneel): een onderwerp of taakveld om de sweep te beperken; l
 
 Per kandidaat uit beide tracks:
 
-1. `/assess-element {kandidaat}` — begripstype + actor/rol-toets (Stap 2b) + onafhankelijk de 6 BO-criteria. De autonomieregels van assess-element Stap 11 bepalen wat zelfstandig afgehandeld mag worden en wat aan de gebruiker wordt voorgelegd.
-2. Bij bevestiging: `/write-element {kandidaat}` — actor/rol-pagina (Stap 11), en bij het twee-pagina-patroon ook de BO-pagina met `element_tegenhangers` beide kanten op.
-3. Kandidaten die het gemeentelijk perspectief niet halen (louter externe context): niet vastleggen, wel in de sweeprapportage vermelden met reden.
+1. `/element-pipeline {kandidaat}` — orchestreert de beoordeling (assess-element: begripstype + actor/rol-toets Stap 2b + de 6 BO-criteria, incl. autonomieregels Stap 11) en, bij akkoord, de vastlegging (write-element: actor/rol-pagina Stap 11, en bij het twee-pagina-patroon ook de BO-pagina met `element_tegenhangers` beide kanten op).
+2. Kandidaten die het gemeentelijk perspectief niet halen (louter externe context): niet vastleggen, wel in de sweeprapportage vermelden met reden.
 
 ## Nazorg
 

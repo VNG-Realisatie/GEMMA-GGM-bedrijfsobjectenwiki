@@ -1,9 +1,9 @@
 Verwerk de bron: $ARGUMENTS
 
 Input: pad naar bronbestand, onderwerp (voor alle onverwerkte bronnen in dat onderwerp), of URL.
-Output: `Wiki/Bronsamenvattingen/`, `Wiki/Onderwerpoverzichten/`, `Wiki/index.md`, `Wiki/log.md`. Delegeert alleen BO-beoordeling en -aanmaak naar `/assess-element` en `/write-element`.
+Output: `Wiki/Bronsamenvattingen/`, `Wiki/Onderwerpoverzichten/`, `Wiki/index.md`, `Wiki/log.md`. Delegeert BO-beoordeling en -aanmaak naar `/element-pipeline`.
 
-Orchestrator die de andere skills in volgorde aanroept. Bevat zelf geen BO-beoordelingslogica (die staat in `/assess-element` en `/write-element`), wel de regels onder "Regels bij ingest".
+Orchestrator voor bronverwerking: bron(nen) lezen, bespreken, samenvatten en verwerken tot een onderwerpoverzicht. Bevat zelf geen BO-beoordelings- of vastlegginglogica (die staat in `/element-pipeline`, dat op zijn beurt `/assess-element` en `/write-element` aanroept), wel de regels onder "Regels bij ingest".
 
 Volg deze stappen exact:
 
@@ -12,15 +12,14 @@ Volg deze stappen exact:
 3. **Bespreek kwaliteit bron(nen)** met de gebruiker — welke bronbestanden zijn rijk aan info, welke niet. Bestanden zonder relevante informatie voor BO-kandidaten worden verplaatst naar `Sources/{onderwerp}/Niet-relevant/{beschrijvende-slug}.md`.
 4. **Blik op bronnen** — bij het eerste doorlezen: welke objecten, relaties en generalisaties springen eruit? Welke begrippen zijn BO-kandidaten? Dit is signalering, niet beoordeling. Schrijf nog niets.
 5. Na akkoord: **maak bronsamenvattingen** aan in `Wiki/Bronsamenvattingen/{onderwerp}/` per bron.
-6. **Beoordeel begrippen** — per begrip: voer `/assess-element` uit (alle beoordelingslogica).
-7. **Maak BO-pagina's** — per BO-kandidaat: voer `/write-element` uit (GGM-match + pagina aanmaken).
-8. **Update het onderwerpoverzicht** in `Wiki/Onderwerpoverzichten/`:
+6. **Verwerk begrippen tot elementen** — per begrip: voer `/element-pipeline` uit (orchestreert de beoordeling via `/assess-element` en, bij een positieve beoordeling, de vastlegging via `/write-element`).
+7. **Update het onderwerpoverzicht** in `Wiki/Onderwerpoverzichten/`:
    - Voeg nieuwe begrippen toe aan de begrippentabel (begrip, begripstype, omschrijving, BO?, data-object, reden, voorbeelden, GGM).
    - Begrippen die BO's zijn: maak de naam een `[[link]]` naar de BO-pagina.
    - Voeg verwerkte bronnen toe aan de bronnenlijst.
-9. **Update** `Wiki/index.md` en `Wiki/log.md`.
-10. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — vink verwerkte bronnen af (`[x]`). Als alle bronnen van een onderwerp-sectie zijn afgevinkt, markeer de sectie als afgerond (`~~Onderwerp~~  ✓`).
-11. **Optioneel: entiteitendekking verversen** — als het onderwerp is afgerond (alle bronnen verwerkt), stel voor om `/entiteitendekking {taakveld}` te draaien om de dekkingsanalyse te verversen met de nieuwe BO's.
+8. **Update** `Wiki/index.md` en `Wiki/log.md`.
+9. **Update `Bedrijfsarchitectuur/ToDo/ingest-backlog.md`** — vink verwerkte bronnen af (`[x]`). Als alle bronnen van een onderwerp-sectie zijn afgevinkt, markeer de sectie als afgerond (`~~Onderwerp~~  ✓`).
+10. **Optioneel: entiteitendekking verversen** — als het onderwerp is afgerond (alle bronnen verwerkt), stel voor om `/entiteitendekking {taakveld}` te draaien om de dekkingsanalyse te verversen met de nieuwe BO's.
 
 ## Regels bij ingest
 

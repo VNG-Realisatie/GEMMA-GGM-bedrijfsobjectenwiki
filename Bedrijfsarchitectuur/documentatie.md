@@ -50,7 +50,7 @@ GGM-dekkingsanalyse gebeurt centraal via `/entiteitendekking` en werkt vanuit GG
 2. Bespreek de kernpunten met de gebruiker voordat je schrijft
 3. Maak een bronsamenvatting aan (zie `templates/bronsamenvatting.md`)
 4. Maak of update het onderwerpoverzicht met nieuwe begrippen (zie `templates/onderwerpoverzicht.md`)
-5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan (zie `templates/element.md`)
+5. Maak BO-pagina's aan voor begrippen die de BO-criteria doorstaan, via `/element-pipeline` (zie `templates/element.md`)
 6. Update `Wiki/index.md` met nieuwe pagina's en one-line beschrijvingen
 7. Voeg een entry toe aan `Wiki/log.md` met datum, bron en wat is gewijzigd
 
@@ -109,14 +109,15 @@ Waar van toepassing staat de aangeroepen **Tool** (Python-script uit `tools/` �
 
 | Skill | Functie | In | Uit |
 |---|---|---|---|
-| **ingest**<br>`/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken via assess-element en write-element | bron/onderwerp | `Wiki/Bronsamenvattingen/` (template: `bronsamenvatting.md`)<br>`Wiki/Onderwerpoverzichten/` (template: `onderwerpoverzicht.md`)<br>`Wiki/index.md` (template: `index.md`)<br>`Wiki/log.md` (template: `log.md`)<br>Delegeert BO-beoordeling en -aanmaak naar assess-element/write-element |
-| **assess-element**<br>`/assess-element {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat | begrip (uit onderwerpoverzicht/GGM) | beoordeling — geen bestand, invoer voor write-element |
+| **ingest**<br>`/ingest {bron\|onderwerp}` | Orchestrator: bron(nen) verwerken tot bronsamenvattingen en onderwerpoverzicht | bron/onderwerp | `Wiki/Bronsamenvattingen/` (template: `bronsamenvatting.md`)<br>`Wiki/Onderwerpoverzichten/` (template: `onderwerpoverzicht.md`)<br>`Wiki/index.md` (template: `index.md`)<br>`Wiki/log.md` (template: `log.md`)<br>Delegeert BO-beoordeling en -aanmaak naar element-pipeline |
+| **element-pipeline**<br>`/element-pipeline {begrip}` | Orchestrator: begrip beoordelen via assess-element en, bij een positieve beoordeling, vastleggen via write-element | begrip (of lijst/onderwerp), nog niet beoordeeld | BO-/actor-/rol-pagina bij een positieve beoordeling, anders afwijzing met reden (chat) — delegeert naar assess-element en write-element |
+| **assess-element**<br>`/assess-element {begrip}` | Begrip volledig beoordelen: classificatie, criteria, data-object, hiaat | begrip (uit onderwerpoverzicht/GGM) | beoordeling — geen bestand, invoer voor element-pipeline |
 | **write-element**<br>`/write-element {element}` | Element vastleggen: GGM-match, frontmatter, pagina aanmaken<br>Tool: `parse_ggm_xmi.py` (optioneel, bij nieuwe GGM-release) | beoordeeld element + `ggm_parsed.json` | `Wiki/Bedrijfsobjecten/` (template: `element.md`)<br>of `Wiki/Actoren/` (template: `element.md`)<br>of `Wiki/Rollen/` (template: `element.md`)<br>Bij afwijking/hiaat: regel toegevoegd aan `Wiki/Analyses/ggm-terugmeldingen.md` (template: `ggm-terugmelding.md`) |
 | **entiteitendekking**<br>`/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten<br>Tool: `entiteitendekking.py`, `entiteitendekking_sync_bo.py` | `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` | `Wiki/Analyses/entiteitendekking/` (eigen rapportformat, geen template)<br>teruggeschreven `analyse_ggm_dekking` in BO-frontmatter |
 | **domain-status**<br>`/domain-status {onderwerp}` | Read-only voortgangsrapportage | `Wiki/` voor onderwerp | chat |
 | **lint**<br>`/lint [onderwerp]` | Twee stappen: deterministisch script (exacte telling), dan modelbeoordeling van wat overblijft<br>Tool: `lint_checks.py` (stap 1, altijd), `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
 | **audit-duplicaten**<br>`/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's | `Wiki/Bedrijfsobjecten/` | chat, voorstellen (geen automatische fix) |
-| **audit-actoren**<br>`/audit-actoren` | Controleer Business Actors op consistentie en volledigheid | `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/` | werkvoorraadlijst (chat) — vervolg via assess-element/write-element |
+| **audit-actoren**<br>`/audit-actoren` | Controleer Business Actors op consistentie en volledigheid | `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/` | werkvoorraadlijst (chat) — vervolg via element-pipeline |
 | **audit-definities**<br>`/audit-definities` | Controleer BO-definities op afwijkingen van GGM | `Wiki/Bedrijfsobjecten/` + `ggm_parsed.json` | chat, optioneel direct herschreven `bo_definitie`/`bo_toelichting` |
 | **fetch**<br>`/fetch {URL}` | URL ophalen als bronbestand in `Sources/` | URL | `Sources/{onderwerp}/*.md` |
 | **clip**<br>`/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/`<br>Roept: `/convert_pdf` (indien pdf) | `Clippings/*.md` | `Sources/{onderwerp}/*.md` |
