@@ -1,9 +1,5 @@
 # GEMMA Bedrijfsobjectenwiki
 
-| Eigenaar                    | Ingevuld door |
-| --------------------------- | ------------- |
-| Kennis Centrum Architectuur | Mark Backer   |
-
 Werkinstrument van het GEMMA-team voor het onderbouwd ontwikkelen en onderhouden van het GEMMA-bedrijfsobjectenmodel. Het huidige bedrijfsobjectenmodel is een gefilterde kopie van het GGM. Met behulp van deze wiki wordt die filtering opnieuw uitgevoerd op basis van expliciete criteria en herleidbare onderbouwing uit beleidsbronnen.
 
 ## Werkwijze

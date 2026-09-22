@@ -1,3 +1,8 @@
+
+| Eigenaar                    | Ingevuld door |
+| --------------------------- | ------------- |
+| Kennis Centrum Architectuur | Mark Backer   |
+
 # llm-wikis
 
 Repository met LLM-gedreven wiki's voor het Kennis Centrum Architectuur. Elke wiki bouwt kennis stapsgewijs op uit bronnen, volgens het [LLM-wiki-patroon van Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): de mens selecteert bronnen en stelt vragen, de LLM vat samen, verbindt en onderhoudt.
@@ -19,9 +24,3 @@ Repository met LLM-gedreven wiki's voor het Kennis Centrum Architectuur. Elke wi
 2. Laat de agent [CLAUDE.md](CLAUDE.md) laden; die verwijst naar de generieke regels in `agent/rules/`. Wiki-specifieke afspraken staan in de eigen submap.
 3. Richt de lokale omgeving in met het command `/setup-omgeving` (Linux of Windows).
 4. Voor de werkwijze van de huidige wiki: begin bij [Bedrijfsarchitectuur/readme.md](Bedrijfsarchitectuur/readme.md); voor het nieuwe ontwerp bij [OpzetII/README.md](OpzetII/README.md).
-
-## Afspraken
-
-- Bronbestanden in `Sources/` zijn immutabel.
-- Bij "verplaats X naar Y" of "splits dit op" wordt de bestaande tekst ongewijzigd geknipt en geplakt.
-- Na subagent-werk worden gedeelde bestanden gecontroleerd, niet aangenomen. Zie [agent/rules/werkwijze.md](agent/rules/werkwijze.md).
