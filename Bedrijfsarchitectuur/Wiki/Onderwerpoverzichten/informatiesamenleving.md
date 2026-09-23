@@ -2,10 +2,10 @@
 type: onderwerp
 naam: informatiesamenleving
 status: in-behandeling
-verwerkingsdatum: 2026-06-27
-bronnen_count: 11
-begrippen_count: 36
-bo_count: 10
+verwerkingsdatum: 2026-09-23
+bronnen_count: 13
+begrippen_count: 41
+bo_count: 12
 ---
 
 # Informatiesamenleving
@@ -15,6 +15,8 @@ Digitalisering, data en ICT-infrastructuur vanuit gemeentelijk perspectief. Het 
 ## Beoordeling
 
 De oorspronkelijke 14 VNG-bronnen zijn portaalpagina's op strategisch/governance-niveau. De rijkere bronnen (Woo-handreiking, AP AI-verordening, VNG-uitvoeringsanalyse) hebben concrete begrippen opgeleverd.
+
+**2026-09-23:** vier extra Woo-bronnen gevonden onder het (verkeerde) onderwerp `informatiebeheer`. De handreiking bleek een exact duplicaat van de hier al verwerkte bron; verwijderd uit Sources. De drie overige bronnen (wettekst art. 3.1-3.5, de 17-categorieën-bijlage, de RDDI-projectpagina) zijn verplaatst naar dit onderwerp. Opgeleverd: BO's Meerjarenplan en Advies (met [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|Welstandsadvies]] retroactief als specialisatie), actor [[Wiki/Actoren/acoi|ACOI]] (precedent: [[Wiki/Actoren/ombudsman|Ombudsman]]). Onderzoeksrapport en Jaarplan/Jaarverslag afgewezen als BO.
 
 Concepten die al in andere domeinen als BO behandeld zijn:
 - **Archiefstuk** → [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]] (Cultuur/Erfgoed)
@@ -67,6 +69,11 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 | [[Wiki/Rollen/ciso|CISO]] | rol | Chief Information Security Officer, coördineert informatiebeveiliging | ❌ | nee | Rol, geen entiteit; vastgelegd als rol-pagina | — | nee |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie\|Applicatie]] | object | Softwaretoepassing die de gemeente inzet ter ondersteuning van eindgebruikers | ✅ | ja | 6/6 criteria, ~250 per gemeente, eigen levenscyclus, GGM exact (ICT-domein) | Zaaksysteem, BAG-applicatie, financieel pakket | ja |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/dataproduct\|Dataproduct]] | object | Concreet resultaat van datagedreven werken: dashboard, rapportage, analyse | ✅ | ja | 6/6 criteria, eigen eigenaar en levenscyclus, GGM-hiaat | Armoede-dashboard, wijkmonitor, begrotingsrapportage | nee |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/meerjarenplan\|Meerjarenplan]] | instrument | Document met langetermijndoelen en stappen voor duurzame toegankelijkheid digitale overheidsinformatie (art. 6.2 Woo) | ✅ | ja | 6/6 criteria, wettelijk verplicht (aanbieding aan Staten-Generaal), GGM-hiaat | Meerjarenplan VNG (gemeenten), 2026-2030 | nee |
+| [[Wiki/Actoren/acoi\|ACOI]] | actor | Onafhankelijk wettelijk adviescollege voor openbaarheid en informatiehuishouding | ❌ | nee | Actor, geen entiteit; vastgelegd als actor-pagina (precedent: Ombudsman) | — | nee |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies\|Advies]] | object | Formeel oordeel van een adviescollege, commissie of externe partij op verzoek van een bestuursorgaan (art. 3.3 lid 2 sub e Woo) | ✅ | ja | 6/6 criteria, procesobject, GGM-hiaat; [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies\|Welstandsadvies]] retroactief als specialisatie gekoppeld | Welstandsadvies, ACOI-advies over meerjarenplan | nee |
+| onderzoeksrapport | object | Ambtelijk of extern opgesteld rapport over organisatiefunctioneren of beleidsevaluatie, geen deel van reguliere taakuitvoering (art. 3.3 lid 2 sub j Woo) | ❌ | nee | Document-instantie zonder eigen attributenstructuur; geen bestaande specialisatie in de wiki; smalle Woo-afbakening sluit routineonderzoek uit | Externe audit, evaluatieonderzoek | nee |
+| jaarplan / jaarverslag | instrument | Document over voorgenomen taakuitvoering of verantwoording daarvan (art. 3.3 lid 2 sub g Woo) | ❌ | nee | Al gedekt: BBV-Jaarstukken = Jaarverslag + Jaarrekening (zie `bo_subtypes` op [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening\|Jaarrekening]]); Jaarplan is de vooruitkijkende tegenhanger van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | Jaarstukken | nee |
 
 ## Verwerkte bronnen
 
@@ -81,8 +88,10 @@ Voormalige potentiële BO's die nu als BO zijn vastgelegd:
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP (2026): normenkader informatiebeveiliging, ISMS, overheidsmaatregelen, Cbw-verankering
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] — strategisch informatiebeleid kleine gemeente, applicatielandschap, datagedreven werken, verwerkersovereenkomst
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband Blaricum/Eemnes/Laren, outsourcing, applicatiebeheer
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/wet-open-overheid-actieve-openbaarmaking|Wet open overheid — actieve openbaarmaking (art. 3.1-3.5)]] — wetten.overheid.nl: primaire wettekst inspanningsverplichting, 17 informatiecategorieën, overzichten (art. 3.3a)
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/17-categorieen-actief-openbaarmaken-woo|De 17 categorieën actief openbaar te maken informatie]] — BZK (2023): officiële referentielijst bij art. 3.3 Woo
 
-Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht + 2 dunne beleidsdocumenten:
+Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht + 2 dunne beleidsdocumenten + 1 RDDI-projectpagina (opnieuw gevonden via onderwerp informatiebeheer):
 
 - [ai-en-algoritmen.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/ai-en-algoritmen.md)
 - [archieven.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/archieven.md)
@@ -103,6 +112,7 @@ Niet-relevant — alle 14 oorspronkelijke VNG-portaalpagina's + 1 BZK-overzicht 
 - [rapportage-algoritmerisicos-nederland.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/rapportage-algoritmerisicos-nederland.md)
 - [begroting-rotterdam-informatievoorziening-2026.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/begroting-rotterdam-informatievoorziening-2026.md)
 - [informatiebeveiligingsbeleid-heumen-2024-2028.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/informatiebeveiligingsbeleid-heumen-2024-2028.md)
+- [actieve-openbaarmaking-project-rddi.md](../../Sources/Onderwerpen/Informatiesamenleving/Niet-relevant/actieve-openbaarmaking-project-rddi.md) — RDDI-projectpagina: mijlpalen en opgeleverde producten (handreikingen, e-learnings), geen concrete gemeentelijke objecten, inhoud overlapt met de wettekst en handreiking
 
 ## Ontbrekende bronnen — zoeksuggesties
 

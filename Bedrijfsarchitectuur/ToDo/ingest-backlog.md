@@ -157,6 +157,13 @@ Status: 148 bronnen in 24 batches.
 - [x] informatiebeveiligingsbeleid-heumen-2024-2028 → Niet-relevant (bevestigt bestaande begrippen BIO/CISO/ENSIA)
 - [x] beleid-informatie-ict-bel-combinatie (BEL Combinatie, PDF, informatiebeleid 2020-2024) → bevestigt Applicatie als BO, complementair perspectief outsourcing
 
+### Aanvullende bronnen (niet in oorspronkelijke batch, 2026-09-23)
+- [x] wet-open-overheid-actieve-openbaarmaking (wetten.overheid.nl: primaire wettekst art. 3.1-3.5 — inspanningsverplichting, 17 categorieën, overzichten art. 3.3a)
+- [x] 17-categorieen-actief-openbaarmaken-woo (BZK, PDF: officiële referentielijst bij art. 3.3 Woo)
+- [x] actieve-openbaarmaking-project-rddi → Niet-relevant (RDDI-projectpagina, mijlpalen/producten, geen concrete objecten)
+
+> **Afgehandeld:** oorspronkelijk gevonden onder onderwerp `informatiebeheer` (verkeerd geplaatst — hoort bij Informatiesamenleving); `handreiking-woo-gemeentelijke-praktijk.md` bleek daarbij een exact duplicaat van bron #153 hierboven en is verwijderd. 2 bronsamenvattingen, 1 niet-relevant. 3 nieuwe elementen: BO Meerjarenplan (governance-object), actor ACOI (precedent Ombudsman), BO Advies (met Welstandsadvies retroactief als specialisatie gekoppeld). Onderzoeksrapport en Jaarplan/Jaarverslag na beoordeling afgewezen (laatste al gedekt via Jaarrekening/Begroting).
+
 ## ~~Maatschappelijke Ondersteuning (16)~~ ✓
 - [x] aanpak-dakloosheid
 - [x] abonnementstarief-wmo

@@ -30,7 +30,7 @@
 - [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (afgerond, 11 BO's)
 - [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (afgerond, 11 BO's, 44 begrippen)
 - [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet en Wet SUWI: bijstand, werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), re-integratie, loonkostensubsidie, VUM-matching (afgerond, 8 BO's)
-- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
+- [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, actieve openbaarmaking, meerjarenplan, ACOI, advies, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 12 BO's)
 - [[Wiki/Onderwerpoverzichten/informatiesystemen|informatiesystemen]] — IT-beheer, applicatielandschap, CMDB, GIBIT-voorwaarden, ITSM: koppeling, licentie, server, database, software, hardware, netwerkcomponent, storing, wijzigingsverzoek, SLA (afgerond, 12 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
@@ -457,6 +457,7 @@
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/datalek|datalek]] — Inbreuk in verband met persoonsgegevens, meldplicht AP 72u, registratieplicht (art. 33-34 AVG, procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/algoritmeregister|algoritmeregister]] — Vastlegging algoritme in Algoritmeregister, ~25 velden, driedeling hoog-risico/impactvol/overig (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/verwerkersovereenkomst|verwerkersovereenkomst]] — AVG-verplichte overeenkomst met externe verwerker persoonsgegevens, relaties met DPIA/Datalek/Applicatie (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies|advies]] — Formeel oordeel van een adviescollege, commissie of externe partij op verzoek van een bestuursorgaan, art. 3.3 lid 2 sub e Woo (procesobject, GGM-hiaat; [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] als specialisatie)
 
 ### ICT (taakveld 9 Interne Organisatie)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/applicatie|applicatie]] — Softwaretoepassing ter ondersteuning eindgebruikers, ~250 per gemeente (GGM exact)
@@ -471,6 +472,7 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/storing-ict|storing (ICT)]] — Verlies van mogelijkheid om volgens specificatie te werken (GGM exact, homoniem BOR)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek|wijzigingsverzoek]] — Aanvraag voor wijziging aan het applicatielandschap (GGM exact)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla|service level agreement]] — Onderhoudsnormen voor ICT-prestatie (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/meerjarenplan|meerjarenplan]] — Document met langetermijndoelen en stappen voor duurzame toegankelijkheid digitale overheidsinformatie, art. 6.2 Woo (governance-object, GGM-hiaat)
 
 ### Subsidies (GGM taakveld 9 Interne Organisatie)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|subsidie]] — Aan derden toegekende financiële middelen voor het uitvoeren van activiteiten (GGM exact)
@@ -511,6 +513,7 @@ Business Actors (ArchiMate) — handelende personen, organisaties en organisator
 - [[Wiki/Actoren/ombudsman|ombudsman]] — Zelfstandig orgaan met een eigen wettelijke klachtbehandelingstaak, los van de ambtelijke organisatie waaro...
 - [[Wiki/Actoren/biz-organisatie|biz-organisatie]] — Extern opgericht, maar de gemeente heeft een directe subsidie- en uitvoeringsovereenkomst met deze organisatie
 - [[Wiki/Actoren/raadscommissie|raadscommissie]] — Groep raadsleden die raadsbesluitvorming per thema voorbereidt en adviseert (GGM exact)
+- [[Wiki/Actoren/acoi|acoi]] — Onafhankelijk wettelijk adviescollege voor openbaarheid en informatiehuishouding, adviseert en bemiddelt bij Woo-klachten (governance-object, precedent: ombudsman)
 
 ## Rollen
 
@@ -694,6 +697,8 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/bio2-baseline-informatiebeveiliging|Baseline Informatiebeveiliging Overheid 2 (BIO2)]] — BZK/CIP: normenkader informatiebeveiliging, ISMS, overheidsmaatregelen
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] — strategisch informatiebeleid, applicatielandschap, datagedreven werken
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband, outsourcing, applicatiebeheer
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/wet-open-overheid-actieve-openbaarmaking|Wet open overheid — actieve openbaarmaking (art. 3.1-3.5)]] — wetten.overheid.nl: primaire wettekst, 17 informatiecategorieën, overzichten
+- [[Wiki/Bronsamenvattingen/Informatiesamenleving/17-categorieen-actief-openbaarmaken-woo|De 17 categorieën actief openbaar te maken informatie]] — BZK: officiële referentielijst bij art. 3.3 Woo
 
 ### Informatiesystemen
 - [[Wiki/Bronsamenvattingen/informatiesystemen/gibit-2025|GIBIT 2025]] — VNG Realisatie: standaard IT-inkoopvoorwaarden (46 artikelen), begripsbepalingen ICT-domein, AI-systemen, SLA

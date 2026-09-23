@@ -33,6 +33,8 @@ Archivering en gegevensbeheer bij de gemeente: hoe informatie de levenscyclus do
 
 Geen bekende onverwerkte bronnen in `Sources/Onderwerpen/informatiebeheer/`.
 
+**2026-09-23:** vier bronnen over Woo-actieve openbaarmaking bleken in deze map te staan, maar horen inhoudelijk bij [[Wiki/Onderwerpoverzichten/informatiesamenleving|Informatiesamenleving]] (waar Woo al is uitgewerkt: Woo-verzoek, Klacht, Woo-contactpersoon). Verplaatst; zie de "Beoordeling"-sectie aldaar.
+
 ## Openstaande vragen of hiaten
 
 Geen.

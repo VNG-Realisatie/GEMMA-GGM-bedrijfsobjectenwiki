@@ -31,6 +31,11 @@ bo_definitie: "Formeel oordeel over de vraag of een bouwplan voldoet aan redelij
 bo_toelichting:
 bo_subtypes: []
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies|Advies]]"
+    richting: naar-dit-BO
+    kardinaliteit:
+    beschrijving: "Welstandsadvies is een specialisatie van Advies"
   - type: associatie
     bedrijfsobject: "[[Omgevingsvergunning]]"
     richting: naar-dit-BO
@@ -80,10 +85,17 @@ Geen directe GGM-match. De GGM-entiteit **Bevinding** (beleidsdomein VTH) is het
 
 **Classificatie:** procesobject (artefact dat in het vergunningproces ontstaat). Het GGM modelleert het vergunningproces via VTHzaak en Bevinding, maar heeft geen specifieke entiteit voor het welstandsadvies.
 
+## Generalisatie
+
+[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies|Advies]] → **Welstandsadvies**
+
+Welstandsadvies is een specialisatie van het generieke BO [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies|Advies]] (formeel oordeel van een adviescollege of externe partij op verzoek van een bestuursorgaan). Wat dit niveau onderscheidt: de toetsing is specifiek gericht op redelijke eisen van welstand voor bouwplannen, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing, en staat in directe relatie tot het omgevingsvergunningproces.
+
 ## Relaties
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---------|----------|---------------|------|
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/advies\|Advies]] | Advies → Welstandsadvies | generalisatie | — |
 | [[Omgevingsvergunning]] | Welstandsadvies → Omgevingsvergunning | 0..1 | Beleidsbron |
 | [[Beschermde Status]] | Welstandsadvies → Beschermde Status | 0..* | Beleidsbron |
 
