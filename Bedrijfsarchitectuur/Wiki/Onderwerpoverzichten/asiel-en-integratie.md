@@ -1,7 +1,7 @@
 ---
 type: onderwerp
 naam: asiel en integratie
-status: in-behandeling
+status: afgerond
 verwerkingsdatum: 2026-06-27
 bronnen_count: 8
 begrippen_count: 43

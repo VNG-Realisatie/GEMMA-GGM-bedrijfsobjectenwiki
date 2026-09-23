@@ -240,16 +240,18 @@ Status: 148 bronnen in 24 batches.
 - [ ] weerbare-samenleving
 - [ ] zorg-en-veiligheidshuizen
 
-## Recht (9 + 1 aanvullend)
-- [ ] algemene-plaatselijke-verordening-apv
-- [ ] algemene-wet-bestuursrecht-awb
-- [ ] gemeentewet
-- [ ] modelverordeningen
-- [ ] overeenkomsten
-- [ ] overheidsaansprakelijkheid
-- [ ] portal-overheidsprivaatrecht
-- [ ] rubriek-recht
-- [ ] subsidierecht
+## ~~Recht (9 + 1 aanvullend)~~ ✓
+- [x] algemene-plaatselijke-verordening-apv → Niet-relevant (te dun, puur portaal)
+- [x] algemene-wet-bestuursrecht-awb → Niet-relevant (één zin, geen inhoud)
+- [x] gemeentewet → 0 nieuwe BO's (inhoudelijk al gedekt door aanvullende bron gemeentewet-wettekst)
+- [x] modelverordeningen → Niet-relevant (portaalpagina over KDER/MDR)
+- [x] overeenkomsten → 0 nieuwe BO's (contractsoorten al gedekt per domein; GIBIT al geïngest onder Informatiesystemen)
+- [x] overheidsaansprakelijkheid → 0 nieuwe BO's (juridische toetsingscriteria, geen registreerbare objecten)
+- [x] portal-overheidsprivaatrecht → Niet-relevant (navigatiepagina)
+- [x] rubriek-recht → Niet-relevant (top-overzichtspagina)
+- [x] subsidierecht → 3 nieuwe BO's: Subsidie, Subsidieaanvraag, Subsidiebeschikking (GGM-beleidsdomein Subsidies, taakveld 9 Interne Organisatie, alle exacte match)
+
+> **Afgehandeld:** 4 bronsamenvattingen (subsidierecht, overeenkomsten, overheidsaansprakelijkheid, gemeentewet), 5 naar Niet-relevant. Subsidierecht loste een al gesignaleerde hiaat op (`Wiki/Analyses/entiteitendekking/9-interne-organisatie`: Subsidies zonder BO). Domein afgerond: 3 BO's.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] gemeentewet-wettekst (Rijksoverheid, wetten.overheid.nl, volledige wettekst Gemeentewet BWBR0005416 per 2024-01-31) → 3 nieuwe BO's: Raadsstuk, Vergadering, Stemming (GGM Griffie-domein)
@@ -353,14 +355,16 @@ basisregistratie BGT
 
 > **Afgehandeld:** 3 bronnen verwerkt (VNG-modelbeleid + 2 gemeentelijke uitwerkingen) → 1 gebundelde bronsamenvatting. 8 nieuwe BO's: Aanbesteding, Contract, Leverancier, Gunning, Offerte, Inschrijving, Inkooppakket (alle GGM exact), Marktconsultatie (procesobject, GGM-hiaat). 17 begrippen. GGM Inkoop (20 entiteiten): 7 → BO, 8 → component/subtype, 5 → referentiedata. 4 terugmeldingen (#78-81: 2 duplicaten, 1 homoniem, 1 hiaat).
 
-## Asiel en Integratie (7)
-- [ ] asielopvang
-- [ ] Asielopvangwijzer alle informatie voor gemeenten
-- [ ] COA Dienstverleningsgids voor gemeenten_januari 2026_TG
-- [ ] handreiking-financieel-ontzorgen
-- [ ] inburgering
-- [ ] opvang-oekraiense-ontheemden
-- [ ] rubriek-asiel-tot-integratie
+## ~~Asiel en Integratie (7)~~ ✓
+- [x] asielopvang → [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-asielopvang]]
+- [x] Asielopvangwijzer alle informatie voor gemeenten → [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/asielopvangwijzer]]
+- [x] COA Dienstverleningsgids voor gemeenten_januari 2026_TG → [[Wiki/Bronsamenvattingen/Inburgering en Asielopvang/coa-dienstverleningsgids]]
+- [x] handreiking-financieel-ontzorgen → [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen]]
+- [x] inburgering → [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-inburgering]]
+- [x] opvang-oekraiense-ontheemden → [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-opvang-oekraine]]
+- [x] rubriek-asiel-tot-integratie → [[Wiki/Bronsamenvattingen/Asiel en Integratie/vng-rubriek-asiel]]
+
+> **Afgehandeld (checkboxes waren stale, bronsamenvattingen bestonden al):** alle 7 bronnen + 1 aanvullende bron zijn verwerkt. Domein: 17 BO's, 43 begrippen (GGM-beleidsdomein Inburgering, 35 entiteiten, 88% dekking, 0 BO-hiaten). `Wiki/Onderwerpoverzichten/asiel-en-integratie.md` status bijgewerkt naar afgerond.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] regeling-inburgering-2021 (Rijksoverheid, wetten.overheid.nl, Regeling inburgering 2021 BWBR0045574 — ministeriële uitvoeringsregeling Wi2021) → 2 BO's: Vrijstelling (GGM exact), Ontheffing (GGM exact)

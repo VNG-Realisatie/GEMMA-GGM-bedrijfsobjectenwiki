@@ -8,7 +8,7 @@
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer, balans en financiële gezondheid (afgerond, 14 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR en BRO: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht (in behandeling, 26 BO's)
-- [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (in behandeling, 17 BO's)
+- [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (afgerond, 17 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (14 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
@@ -36,6 +36,7 @@
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
+- [[Wiki/Onderwerpoverzichten/recht|recht]] — Bestuursrecht, gemeentelijke organisatie, modelverordeningen, overheidsprivaatrecht en subsidierecht (afgerond, 3 BO's)
 
 ## Bedrijfsobjecten
 
@@ -454,6 +455,11 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/wijzigingsverzoek|wijzigingsverzoek]] — Aanvraag voor wijziging aan het applicatielandschap (GGM exact)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/ict/sla|service level agreement]] — Onderhoudsnormen voor ICT-prestatie (governance-object, GGM-hiaat)
 
+### Subsidies (GGM taakveld 9 Interne Organisatie)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|subsidie]] — Aan derden toegekende financiële middelen voor het uitvoeren van activiteiten (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidieaanvraag|subsidieaanvraag]] — Aanvraag van een (rechts)persoon voor een subsidie (GGM exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidiebeschikking|subsidiebeschikking]] — Besluit over het al dan niet toekennen van een subsidie (GGM exact)
+
 ## Actoren
 
 Business Actors (ArchiMate) — handelende personen, organisaties en organisatorische eenheden. Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor definities en criteria. Actoren met een gegevens-tegenhanger linken naar hun bedrijfsobject via `element_tegenhangers`.
@@ -686,6 +692,12 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Economie/beleidsregels-short-stay-utrecht|Beleidsregels Tijdelijk Verblijf (Short Stay) Gemeente Utrecht]] — Gemeente Utrecht: beleidsregels tijdelijk verblijf
 - [[Wiki/Bronsamenvattingen/Economie/beleidsnota-werklocaties-2035|Beleidsnota Werklocaties 2035]] — Gemeente Utrecht: integraal werklocatiebeleid 2025–2035
 - [[Wiki/Bronsamenvattingen/Economie/handreiking-effectrapportage-bedrijvigheid|Handreiking effectrapportage bij nieuwe bedrijvigheid]] — VNG: effectrapportage huisvesting arbeidsmigranten bij bedrijfsvestiging
+
+### Recht
+- [[Wiki/Bronsamenvattingen/Recht/subsidierecht|Subsidierecht]] — VNG: Model ASV, proportionaliteit, subsidieaanvraagproces; grondslag voor Subsidie, Subsidieaanvraag, Subsidiebeschikking
+- [[Wiki/Bronsamenvattingen/Recht/overeenkomsten|Overeenkomsten]] — VNG: gemeentelijk contractenrecht, model inkoopvoorwaarden, GIBIT
+- [[Wiki/Bronsamenvattingen/Recht/overheidsaansprakelijkheid|Overheidsaansprakelijkheid]] — VNG: aansprakelijkheidscriteria, formele rechtskracht, CROW-normen
+- [[Wiki/Bronsamenvattingen/Recht/gemeentewet|Gemeentewet (VNG-rubriek)]] — VNG: organisatie en bevoegdheden gemeentelijke organen, reeds gedekt door [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst|Gemeentewet — wettekst]]
 
 ### GEMMA
 - [[Wiki/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
