@@ -38,6 +38,7 @@
 - [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/recht|recht]] — Bestuursrecht, gemeentelijke organisatie, modelverordeningen, overheidsprivaatrecht en subsidierecht (afgerond, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid|openbare-orde-en-veiligheid]] — Handhaving openbare orde en aanpak ondermijning: BOA, Bibob-toets, preventie- en handhavingsplan alcohol, alcoholoverlastgebied, veiligheidsrisicogebied, sluitingsbesluit (in behandeling, 5 BO's)
+- [[Wiki/Onderwerpoverzichten/risicobeheer|risicobeheer]] — Risicomanagement en financiële beheersing: weerstandsvermogen en risicobeheersing, risico, verzekering (in behandeling, 3 BO's)
 
 ## Bedrijfsobjecten
 
@@ -104,6 +105,11 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/werkorder|werkorder]] — Opdracht voor uitvoering van een activiteit
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtgever|opdrachtgever]] — Gegevens over een opdrachtgever: naam, nummer, clustercode (GGM exact, rol-tegenhanger: [[Wiki/Rollen/opdrachtgever|opdrachtgever]])
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtnemer|opdrachtnemer]] — Gegevens over een opdrachtnemer: naam, nummer, clustercode (GGM exact, rol-tegenhanger: [[Wiki/Rollen/opdrachtnemer|opdrachtnemer]])
+
+### Risicobeheer (taakveld 9, procesobjecten/governance-objecten — GGM-hiaten)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/weerstandsvermogen-en-risicobeheersing|weerstandsvermogen en risicobeheersing]] — Relatie tussen weerstandscapaciteit en niet-afgedekte risico's, art. 212 Gemeentewet + art. 11 BBV (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico|risico]] — Individueel geïnventariseerd risico met kans en financieel gevolg (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|verzekering]] — Overeenkomst waarmee de gemeente een risico overdraagt aan een verzekeraar (procesobject, GGM-hiaat)
 
 ### Vastgoed (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject|vastgoedobject]] — Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft
@@ -896,6 +902,10 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/regeling-domeinlijsten-boa|Regeling domeinlijsten BOA]] — Min. J&V: zes domeinen en bevoegdheden voor buitengewoon opsporingsambtenaren
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/handreiking-apv-en-ondermijning|Handreiking APV en ondermijning]] — Aanjaagteam Ondermijning/VNG: model-APV-bepalingen, menukaart bestuurlijke interventies
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/gemeentelijke-handhaving-boas|Gemeentelijke handhaving (boa's)]] — VNG: oorspronkelijk signaal voor de rol BOA
+
+### Risicobeheer
+- [[Wiki/Bronsamenvattingen/Risicobeheer/nota-weerstandsvermogen-risicobeheersing-waadhoeke|Nota Weerstandsvermogen en Risicobeheersing (Gemeente Waadhoeke)]] — definities risico/weerstandscapaciteit/weerstandsvermogen, wettelijk kader
+- [[Wiki/Bronsamenvattingen/Risicobeheer/verzekeringsbeleid-eindhoven-2022|Verzekeringsbeleid gemeente Eindhoven 2022]] — 24 artikelen concrete verzekeringstypen en polisvoorwaarden
 
 ## Analyses
 

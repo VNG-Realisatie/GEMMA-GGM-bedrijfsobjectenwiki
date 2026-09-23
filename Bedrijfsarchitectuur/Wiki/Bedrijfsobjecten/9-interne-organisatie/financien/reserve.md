@@ -46,6 +46,11 @@ bo_relaties:
     richting: associatie
     kardinaliteit: "0..*"
     beschrijving: "Reserves en voorzieningen vormen samen het eigen vermogen en de verplichtingen"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico|Risico]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Een reserve kan een risico afdekken; dekt het risico af, dan telt het niet mee in de risico-inventarisatie voor het weerstandsvermogen"
 bedrijfsprocessen: [Begrotingscyclus, Jaarrekening]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 ---
@@ -80,6 +85,7 @@ Uit het begrotings- en verantwoordingsproces. De [[Wiki/Bedrijfsobjecten/9-inter
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | Begroting raamt toevoegingen en onttrekkingen | BBV art. 17 lid d |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening\|Jaarrekening]] | Jaarrekening verantwoordt gerealiseerd verloop | BBV art. 27, 54 |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | Reserves zijn gebonden aan bezittingen op de balans | BBV art. 42 |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico\|Risico]] | Een reserve kan een risico afdekken (weerstandscapaciteit) | Nota Weerstandsvermogen en Risicobeheersing |
 
 ## Bronnen
 

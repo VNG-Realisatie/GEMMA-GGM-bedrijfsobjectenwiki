@@ -46,6 +46,11 @@ bo_relaties:
     richting: associatie
     kardinaliteit: "0..*"
     beschrijving: "Reserves en voorzieningen vormen samen het eigen vermogen en de verplichtingen"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico|Risico]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: "Een voorziening kan een risico afdekken (grondslag 'bestaande risico's', BBV art. 44 lid 1 onder 2)"
 bedrijfsprocessen: [Begrotingscyclus, Jaarrekening]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 ---
@@ -88,6 +93,7 @@ Uit het begrotings- en verantwoordingsproces. Dotaties worden begroot; het verlo
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/begroting\|Begroting]] | Dotaties worden begroot | BBV art. 44 |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/jaarrekening\|Jaarrekening]] | Verloop wordt verantwoord | BBV art. 55 |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/reserve\|Reserve]] | Samen vormen ze het eigen vermogen en verplichtingen | BBV art. 41-44 |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico\|Risico]] | Een voorziening kan een risico afdekken | Nota Weerstandsvermogen en Risicobeheersing |
 
 ## Bronnen
 

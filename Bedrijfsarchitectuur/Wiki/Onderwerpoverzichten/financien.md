@@ -12,6 +12,8 @@ bo_count: 14
 
 Gemeentelijke financiën — inkomstenbronnen, begrotingscyclus, financieel beheer en financiële gezondheid.
 
+**2026-09-23:** 3 nauw verwante BO's toegevoegd via de ingest van het (nieuwe) onderwerp [[Wiki/Onderwerpoverzichten/risicobeheer|Risicobeheer]] — fysiek in dezelfde map (`9-interne-organisatie/financien/`) vastgelegd, geteld bij Risicobeheer's `bo_count`: [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/weerstandsvermogen-en-risicobeheersing|Weerstandsvermogen en risicobeheersing]] (art. 212 Gemeentewet, art. 11 BBV), [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico|Risico]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|Verzekering]]. Reserve en Financiële Voorziening kregen een relatie naar Risico; Jaarrekening kreeg een relatie naar Weerstandsvermogen en risicobeheersing.
+
 ## Begrippen
 
 | Begrip                                                                                                   | Begripstype           | Omschrijving                                                                 | BO? | Data-object | Reden                                                                                                    | Voorbeelden                                    | GGM               |

@@ -58,6 +58,11 @@ bo_relaties:
     richting: bidirectioneel
     kardinaliteit: "0..*"
     beschrijving: "Paragraaf verbonden partijen in het jaarverslag"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/weerstandsvermogen-en-risicobeheersing|Weerstandsvermogen en risicobeheersing]]"
+    richting: bidirectioneel
+    kardinaliteit: "1..1"
+    beschrijving: "Paragraaf weerstandsvermogen en risicobeheersing is een verplicht onderdeel van de jaarrekening"
 bedrijfsprocessen: [Jaarrekening, Begrotingscyclus]
 bedrijfsfuncties: [Planning en control, Financieel beheer]
 ---
@@ -94,6 +99,7 @@ Uit het verantwoordingsproces. Het college stelt de jaarstukken op, de raad stel
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/financiele-voorziening\|Financiële Voorziening]] | Verantwoordt verloop voorzieningen | BBV art. 55 |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/activa\|Activa]] | Balans bevat activa per balansdatum | BBV art. 31-40 |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verbonden-partij\|Verbonden Partij]] | Paragraaf verbonden partijen in jaarverslag | BBV art. 26 |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/weerstandsvermogen-en-risicobeheersing\|Weerstandsvermogen en risicobeheersing]] | Paragraaf weerstandsvermogen en risicobeheersing is verplicht jaarrekeningonderdeel | BBV art. 11 |
 
 ## Bronnen
 

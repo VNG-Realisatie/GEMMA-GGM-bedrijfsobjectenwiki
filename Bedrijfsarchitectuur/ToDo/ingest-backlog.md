@@ -275,11 +275,17 @@ Status: 148 bronnen in 24 batches.
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] gemeentewet-wettekst (Rijksoverheid, wetten.overheid.nl, volledige wettekst Gemeentewet BWBR0005416 per 2024-01-31) → 3 nieuwe BO's: Raadsstuk, Vergadering, Stemming (GGM Griffie-domein)
 
-## Risicobeheer (4)
-- [ ] initiatief-risicobeheerfonds
-- [ ] risico-overdracht
-- [ ] risico-platform-overheden
-- [ ] rubriek-risicobeheer
+## ~~Risicobeheer (4 + 2 aanvullend)~~ ✓
+- [x] initiatief-risicobeheerfonds → Niet-relevant (leest als toepassing van bestaand BO Verbonden Partij)
+- [x] risico-overdracht → Niet-relevant
+- [x] risico-platform-overheden → Niet-relevant (frauderisicobibliotheek gesignaleerd, te dun)
+- [x] rubriek-risicobeheer → Niet-relevant
+
+### Aanvullende bronnen (niet in oorspronkelijke batch, 2026-09-23)
+- [x] nota-weerstandsvermogen-risicobeheersing-waadhoeke (Gemeente Waadhoeke, lokaleregelgeving.overheid.nl, definities risico/weerstandscapaciteit/weerstandsvermogen, art. 212 Gemeentewet + art. 11 BBV) → 2 BO's: Weerstandsvermogen en risicobeheersing, Risico
+- [x] verzekeringsbeleid-eindhoven-2022 (Gemeente Eindhoven, lokaleregelgeving.overheid.nl, 24 artikelen concrete verzekeringstypen en polisvoorwaarden) → 1 BO: Verzekering
+
+> **Afgehandeld:** art. 11 BBV hergebruikt uit de al eerder ge-ingeste volledige wettekst onder Financien (`besluit-begroting-en-verantwoording`), niet opnieuw opgehaald. 2 bronsamenvattingen, 4 niet-relevant. 3 nieuwe BO's (Weerstandsvermogen en risicobeheersing, Risico, Verzekering), fysiek ondergebracht bij de bestaande BBV-familie in Financien. Reserve/Financiële Voorziening/Jaarrekening kregen nieuwe relaties. Domein open: Risicobeheerfonds en frauderisicobibliotheek gesignaleerd maar niet uitgewerkt (bron te dun).
 
 ## ~~Ruimte Wonen en Mobiliteit (7 + 1 aanvullend)~~ ✓
 - [x] bouwregelgeving → Niet-relevant
