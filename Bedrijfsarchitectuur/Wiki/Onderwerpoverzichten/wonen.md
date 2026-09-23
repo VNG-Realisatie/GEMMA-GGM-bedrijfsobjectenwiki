@@ -66,7 +66,7 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 
 ## Nog te verwerken bronnen
 
-- [actieplan-middenhuur.md](Sources/Onderwerpen/Wonen/converted_pdf/actieplan-middenhuur.md) — volledig opgenomen in beleidsnota, bronsamenvatting gemaakt
+- [actieplan-middenhuur.md](Sources/Onderwerpen/Wonen/actieplan-middenhuur.md) — volledig opgenomen in beleidsnota, bronsamenvatting gemaakt
 
 ## Openstaande vragen of hiaten
 

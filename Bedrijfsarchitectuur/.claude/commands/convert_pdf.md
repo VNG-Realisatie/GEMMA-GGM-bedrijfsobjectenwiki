@@ -1,7 +1,7 @@
 Converteer PDF naar Markdown: $ARGUMENTS
 
 Input: PDF-bestand.
-Output: markdown-bestand naast het origineel (via `tools/convert_pdf.py`).
+Output: markdown-bestand blijft in `{pdf-folder}` staan (via `tools/convert_pdf.py`); de originele PDF verhuist naar `{pdf-folder}/converted_pdf`.
 
 Stappen:
 1. Als $ARGUMENTS leeg is, zoek PDF-bestanden in de huidige directory en `Clippings/` en vraag welke.
@@ -21,5 +21,5 @@ Stappen:
      - "{domein}"
    ---
    ```
-5. Verplaats de omgezette pdf naar `{pdf-folder}/converted_pdf`
+5. Verplaats ALLEEN de originele PDF naar `{pdf-folder}/converted_pdf`. Het markdown-bestand blijft in `{pdf-folder}` staan (niet meeverplaatsen); `converted_pdf/` bevat uitsluitend PDF's.
 6. Meld het resultaat.
