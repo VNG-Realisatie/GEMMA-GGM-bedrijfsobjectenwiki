@@ -334,10 +334,10 @@ Status: 148 bronnen in 24 batches.
 > **Afgehandeld:** 2 rijke bronnen verwerkt (complementair: Amsterdam strategisch/financieel, Hulst operationeel/beheer). 6 nieuwe BO's uit GGM-domein Vastgoed (Vastgoedobject, Verhuurbare Eenheid, Vastgoedcontract, MJOP, Werkbon + Algemeenbelangbesluit als governance-object). Inspectie-BO uitgebreid met vastgoedcontext. GGM Vastgoed (27 entiteiten) grotendeels gedekt.
 
 ## Basisregistraties — RSGBPlus overig
-- [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten, IMGeo/BGT)
+- [x] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/ → `Sources/Standaarden/catalogus-bgt-1.2.md` — ge-ingest (13 BO's: Wegdeel, OndersteunendWegdeel, Spoorbaan, On/BegroeidTerreindeel, Waterdeel, OndersteunendWaterdeel, OverigBouwwerk, Overbruggingsdeel, Tunneldeel, Kunstwerkdeel + 2 duplicaten Scheiding/FunctioneelGebied al in Beheer Openbare Ruimte)
+- [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten buiten BAG/BRP/BRK/NHR/WOZ/BRO/BGT) — bewust open: geen geschikte publieke bron bekend, apart oppakken zodra die beschikbaar komt
 
-basisregistratie BGT
-- [x] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/ → `Sources/Standaarden/catalogus-bgt-1.2.md`, nog niet ge-ingest
+> **Afgehandeld (backlog-checkbox retroactief bijgewerkt):** BGT-catalogus was al ge-ingest, zie `Wiki/Onderwerpoverzichten/basisregistraties.md` (status afgerond, 39 BO's) en `Wiki/log.md`. RSGBPlus-detailentiteiten blijven de enige bewust opengelaten resthiaat van het domein Basisregistraties — geen blokkerende vraag.
 
 ## ~~Basisregistraties — BRO (Basisregistratie Ondergrond) (2)~~ ✓
 - [x] wet-bro-bwbr0037095 (Rijksoverheid, Wet BRO per 2026-06-04) → 3 BO's: Verkenning, Constructie, Gebruiksrecht (alle GGM-hiaat) + 6 stelselrollen
