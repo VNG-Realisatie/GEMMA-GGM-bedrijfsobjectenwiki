@@ -48,6 +48,25 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/contactper
 - **Attributen:** naam, telefoonnummer, email, functietitel
 - **Matchsterkte:** exact
 
+## GGM-duplicaten
+
+De GGM-entiteit "Contactpersoon" komt voor in 2 beleidsdomeinen:
+
+| Beleidsdomein | GUID | Status |
+|---|---|---|
+| **Schuldhulpverlening** | `EAID_B9287881_AD66_4396_A629_ED5FE9196316` | **primair** — gekozen omdat dit BO vanuit het schuldhulpverleningsproces is afgeleid |
+| Vroegsignalering | `EAID_A629ED5F_E919_6316_A279_92891F2325BB` | duplicaat — geen waarneembaar attribuutverschil |
+
+Beide dekken dezelfde generieke RGBZ-rol: een contactpersoon namens een betrokkene, met naam, functie, telefoonnummer en e-mailadres.
+
+Teruggemeld als #97 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Contactpersoon van | *(Schuldhulporganisatie)* | GGM: "heeft" (1..*/0..*) — Schuldhulporganisatie heeft nog geen eigen wiki-pagina; niet beoordeeld in deze sessie |
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/6-sociaal-domein]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]] — RGBZ 1.0 definieert Contactpersoon als rol namens een betrokkene, met naam, functie, telefoonnummer en e-mailadres

@@ -44,7 +44,7 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 | samenwerkingsverband | actor | Regionaal verband van scholen voor passend onderwijs | ❌ | nee | Ketenpartner; niet gemeentelijk beheerd | SWV Utrecht PO | nee |
 | kindcentrum | object | Integrale voorziening onderwijs + kinderopvang 0-12 jaar | ❌ | nee | Subtype van School; vastgelegd als specialisatie | Utrechts Kindcentrum | nee |
 | multifunctionele accommodatie (MFA) | object | Gebouw waar meerdere maatschappelijke organisaties voorzieningen aanbieden | ❌ | nee | Subtype van School; in gemeentelijk eigendom, 4 stuks in UVP | School + welzijn + sport | nee |
-| kinderopvangvoorziening | object | Locatie waar kinderopvang wordt geboden, geregistreerd in LRK | ✅ | ja | 6/6 criteria, GGM-hiaat | KDV, BSO, gastouderopvang | nee |
+| [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening\|Kinderopvangvoorziening]] | object | Locatie waar kinderopvang wordt geboden, geregistreerd in LRK | ✅ | ja | 6/6 criteria, GGM-hiaat | KDV, BSO, gastouderopvang | nee |
 | gymzaal | object | Sportvoorziening voor bewegingsonderwijs | ❌ | nee | Cross-domein: gedekt als [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] (taakveld 5) | Schoolgymzaal, sportzaal | ja |
 
 ## Verwerkte bronnen

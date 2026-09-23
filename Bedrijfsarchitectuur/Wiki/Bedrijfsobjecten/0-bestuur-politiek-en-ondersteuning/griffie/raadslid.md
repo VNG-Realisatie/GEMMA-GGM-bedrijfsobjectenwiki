@@ -20,6 +20,22 @@ element_tegenhangers:
   - element: "[[Wiki/Rollen/raadslid|Raadslid (rol)]]"
     archimate_type: business-role
     toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol."
+bo_relaties:
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer|Aanwezige Deelnemer]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een raadslid kan als aanwezige deelnemer geregistreerd worden bij een vergadering
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Actoren/raadscommissie|Raadscommissie]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Een raadslid kan lid zijn van meerdere raadscommissies
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Rollen/indiener|Indiener]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een raadslid kan de rol van indiener vervullen (bijv. bij een motie of amendement)
 ---
 
 # Raadslid
@@ -41,6 +57,16 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/raadslid|R
 - **Attributen:** voornaam, achternaam, titel, fractie, datumAanstelling, datumUittreding
 - **Matchsterkte:** exact
 
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Kan zijn | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] | Registratie van aanwezigheid bij een vergadering (GGM: "is") |
+| Lid van | [[Wiki/Actoren/raadscommissie\|Raadscommissie]] | Een raadslid kan in meerdere raadscommissies zitting hebben (GGM: "is lid van") |
+| Kan zijn | [[Wiki/Rollen/indiener\|Indiener]] | Bij het indienen van een motie, amendement of raadsvraag (GGM: "is") |
+
+**Openstaand:** het GGM modelleert Raadslid als generalisatie van **Ingezetene** — een raadslid is per definitie ook ingezetene van de gemeente (art. 10 Gemeentewet). Ingezetene heeft nog geen eigen wiki-pagina; niet beoordeeld in deze sessie.
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst]] — Gemeentewet art. 7-15 (vereisten, incompatibiliteiten, eed raadslid)

@@ -20,6 +20,17 @@ element_tegenhangers:
   - element: "[[Wiki/Rollen/opdrachtnemer|Opdrachtnemer (rol)]]"
     archimate_type: business-role
     toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol."
+bo_relaties:
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats|Kostenplaats]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1..*"
+    beschrijving: Kostenplaatsen hebben deze Opdrachtnemer als budgetverantwoordelijke
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|Product]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Opdrachtnemer kan opdrachtnemer zijn van meerdere Producten
 ---
 
 # Opdrachtnemer
@@ -41,6 +52,15 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/opdrachtne
 - **Attributen:** naam, omschrijving, nummer, clustercode, clustercodeOmschrijving
 - **Matchsterkte:** exact
 
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Budgetverantwoordelijk voor | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | Elke kostenplaats heeft precies één budgetverantwoordelijke Opdrachtnemer (GGM: "is budgetverantwoordelijk") |
+| Opdrachtnemer van | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | Een Opdrachtnemer kan opdrachtnemer zijn van meerdere Producten (GGM: "is opdrachtnemer") |
+
+BW art. 400-413 (zie Bronnen) beschrijft de wederkerige rechtsverhouding met de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtgever\|Opdrachtgever]]: zorgplicht, opvolgen van aanwijzingen en verantwoordingsplicht. Het GGM modelleert deze wederkerigheid niet als eigen relatie tussen Opdrachtgever en Opdrachtnemer; beide staan los gekoppeld aan Product/Doelstelling/Kostenplaats.
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Financien/bw7-opdracht]] — BW Boek 7, Titel 7, Afdeling 1: wettelijke grondslag opdrachtnemer (art. 400-413)

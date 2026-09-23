@@ -35,6 +35,7 @@
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
 - [[Wiki/Onderwerpoverzichten/vastgoed|vastgoed]] — Gemeentelijk vastgoed: beheer, verhuur, onderhoud, verduurzaming (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
+- [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
 
 ## Bedrijfsobjecten
 
@@ -723,9 +724,9 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Milieu/actualisatie-groenstructuurplan-2017-2030|Actualisatie Groenstructuurplan Utrecht 2017-2030]] — Gemeente Utrecht: actualisatie met gezondheid en klimaat (45 p.)
 
 ### Milieu — water en riolering
-- [[visie-water-riolering 1|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
-- [[programma-water-riolering-2025-2029 1|Programma Water en Riolering Utrecht 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
-- [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
+- [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — Gemeente Utrecht: beleidskader water- en rioleringssysteem, horizon 2050
+- [[Wiki/Bronsamenvattingen/Milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — Gemeente Utrecht: jaarlijks uitvoeringsprogramma met budgetten
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — Gemeente Utrecht: gebruik vaarwegen en buitenzwemwater
 
 ### Milieu — bodem
 - [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond|Beleid voor bodem, grondwater en ondergrond]] — Gemeente Utrecht: overzichtspagina bodembeleid

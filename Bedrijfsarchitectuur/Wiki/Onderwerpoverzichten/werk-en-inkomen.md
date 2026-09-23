@@ -56,6 +56,9 @@ Gemeentelijke uitvoering van de Participatiewet: het bevorderen van arbeidsdeeln
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/factsheet-bijzondere-bijstand|Factsheet Bijzondere Bijstand (Divosa, 2024)]]
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/handreiking-explicitering-budgetten-participatiewet-wsw|Handreiking Explicitering budgetten Participatiewet en Wsw (Berenschot, 2025)]]
 - [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-suwi-en-sgr|Wet SUWI en Gegevensregister SUWI 19.0 (BKWI)]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/participatiewet|Participatiewet]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/burgerlijk-wetboek-boek-1-titel-17-levensonderhoud|Burgerlijk Wetboek Boek 1, Titel 17 — Levensonderhoud]]
+- [[Wiki/Bronsamenvattingen/Werk en Inkomen/wet-studiefinanciering-2000|Wet studiefinanciering 2000 (WSF 2000)]]
 
 ## Nog te verwerken bronnen
 

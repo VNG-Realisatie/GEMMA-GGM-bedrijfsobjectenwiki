@@ -79,9 +79,9 @@ De Wet Milieubeheer verplicht gemeenten tot vaststelling van een afvalstoffenver
 - [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
-- [[visie-water-riolering 1]]
-- [[programma-water-riolering-2025-2029 1]]
-- [[beleidsnota-stadswater 1]]
+- [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering]]
+- [[Wiki/Bronsamenvattingen/Milieu/programma-water-riolering-2025-2029]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater]]
 
 ## Terugmelding GGM
 

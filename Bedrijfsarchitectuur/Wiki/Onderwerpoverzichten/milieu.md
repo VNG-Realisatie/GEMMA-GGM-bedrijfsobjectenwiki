@@ -126,9 +126,9 @@ Alle 10 water-BO's vallen onder GGM-taakveld 8 (BOR), niet onder taakveld 7 (Mil
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|Beleidsnota Luchtkwaliteit – Gezonde lucht voor iedereen 2025-2030]] — Utrechts luchtkwaliteitsbeleid: milieuzones, houtstook, mobiele werktuigen (1267 regels, 2024)
 
 ### Water en riolering
-- [[visie-water-riolering 1|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
-- [[programma-water-riolering-2025-2029 1|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
-- [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
+- [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering|Visie Water en Riolering Utrecht]] — beleidskader water- en rioleringssysteem, horizon 2050
+- [[Wiki/Bronsamenvattingen/Milieu/programma-water-riolering-2025-2029|Programma Water en Riolering Utrecht 2025-2029]] — jaarlijks uitvoeringsprogramma met budgetten en planningen
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] — gebruik vaarwegen en buitenzwemwater, horizon 2040
 - [[Wiki/Bronsamenvattingen/Beheer Openbare Ruimte/gwr-twenterand-2024-2028|GWR Twenterand 2024-2028]] — gemeente Twenterand: areaal, zorgplichten, klimaatadaptatie, financiering
 
 ## Groenbeleid (verwerkt → domein Beheer Openbare Ruimte)

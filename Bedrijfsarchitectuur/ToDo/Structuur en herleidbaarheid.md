@@ -44,17 +44,32 @@ Bron van waarheid: `Sources/GGM-repository/ggm_parsed.json` (via `/generate-ggm`
 
 Vrijwel 1-op-1 geïmplementeerd in `/entiteitendekking` (`tools/entiteitendekking.py`): per-taakveld rapporten + `totaaloverzicht.md` met de gevraagde tellingen (met BO, ondersteunend, niet gedekt/hiaat, n.v.t., BO's zonder GGM-entiteit), ambigue matches expliciet als "⚠️ ter discussie" i.p.v. geraden, `review.md` voor laag-confidence classificaties, `entiteitendekking_sync_bo.py` voor de omgekeerde index per BO.
 
-## 6. Lint: samengestelde end-to-end traceability-check — ✅ gebouwd (besloten: nu bouwen)
+## 6. Lint: samengestelde end-to-end traceability-check — ✅ gebouwd én getriageerd
 
 **Besluit (interview 2026-09-23):** één samengestelde check i.p.v. drie losse deelbevindingen laten volstaan.
 
-**Gebouwd:** `check_traceability_naar_bron()` in `tools/lint_checks.py` — per BO-pagina één "geen pad naar brondocument"-signaal, met de precieze plek waar de keten breekt (niet gelinkt vanuit onderwerpoverzicht / geen `## Bronnen`-sectie / `## Bronnen`-sectie zonder bronsamenvatting-link / geen van de gelinkte bronsamenvattingen heeft een geldige Sources-link). Rapportregel: "Element zonder volledig pad naar brondocument". Eerste run: 18 bevindingen (bestaande gaten, geen regressie door deze wijziging).
+**Gebouwd:** `check_traceability_naar_bron()` in `tools/lint_checks.py` — per BO-pagina één "geen pad naar brondocument"-signaal, met de precieze plek waar de keten breekt (niet gelinkt vanuit onderwerpoverzicht / geen `## Bronnen`-sectie / `## Bronnen`-sectie zonder bronsamenvatting-link / geen van de gelinkte bronsamenvattingen heeft een geldige Sources-link). Rapportregel: "Element zonder volledig pad naar brondocument".
 
-## 7. Ingest bottom-up: bronsamenvatting → onderwerpoverzicht — ✅ gebouwd (besloten: nu bouwen)
+**Getriageerd (2026-09-23):** alle 18 bevindingen uit de eerste run individueel beoordeeld en opgelost — geen enkele bleek een acceptabele uitzondering:
+- 7x formatteringsfout in `Wiki/Bronsamenvattingen/Inkoop/inkoop-en-aanbestedingsbeleid.md` (platte tekst i.p.v. `[[wiki-link]]` in `## Bronnen`) — hersteld.
+- 2x dode links naar 3 bronbestanden met een foutieve naam (`... 1.md` met spatie) — bestanden hernoemd, alle verwijzingen hersteld.
+- 6x BO's uit `/audit-actoren track 1` zonder echte beleidsbron (alleen een verwijzing naar een entiteitendekking-rapport): voor Raadslid, Collegelid en Aanwezige Deelnemer bleek de Gemeentewet (al aanwezig als bronsamenvatting) de juiste, nog niet gekoppelde bron; voor Contactpersoon bleek RGBZ 1.0 (al aanwezig) de juiste bron; voor Opdrachtgever/Opdrachtnemer bestond nog geen bron — nieuwe bron opgehaald (zie hieronder).
+- 3x ontbrekende tabelrij in een onderwerpoverzicht voor een reeds bestaande BO (Aanwezige Deelnemer, Opdrachtgever, Opdrachtnemer, Contactpersoon) — toegevoegd volgens het bestaande rol/BO-tegenhanger-patroon.
+- 1x volledig ontbrekend onderwerpoverzicht `Wiki/Onderwerpoverzichten/informatiebeheer.md` (3 BO's, 3 rollen en 1 bronsamenvatting bestonden al zonder overzichtspagina) — aangemaakt.
+
+**Nieuwe bron opgehaald:** `Sources/Onderwerpen/Financien/bw7-titel7-afdeling1-opdracht.md` (BW Boek 7, Titel 7, Afdeling 1, art. 400-413, via `/fetch` van wetten.overheid.nl) + bronsamenvatting `Wiki/Bronsamenvattingen/Financien/bw7-opdracht.md` — wettelijke grondslag voor Opdrachtgever/Opdrachtnemer, gekoppeld aan beide BO's en aan `financien.md`.
+
+**Resultaat:** 0 bevindingen (was 18).
+
+## 7. Ingest bottom-up: bronsamenvatting → onderwerpoverzicht — ✅ gebouwd én getriageerd
 
 **Besluit (interview 2026-09-23):** nieuwe check toevoegen, analoog aan `check_orphan_bos`.
 
-**Gebouwd:** `check_bronsamenvatting_verwerkt()` in `tools/lint_checks.py` — signaleert `Wiki/Bronsamenvattingen/`-pagina's die in geen enkel onderwerpoverzicht worden genoemd. Rapportregel: "Bronsamenvatting niet verwerkt in onderwerpoverzicht". Eerste run: 10 bevindingen.
+**Gebouwd:** `check_bronsamenvatting_verwerkt()` in `tools/lint_checks.py` — signaleert `Wiki/Bronsamenvattingen/`-pagina's die in geen enkel onderwerpoverzicht worden genoemd. Rapportregel: "Bronsamenvatting niet verwerkt in onderwerpoverzicht".
+
+**Getriageerd (2026-09-23):** alle 10 bevindingen beoordeeld — stuk voor stuk al lang verwerkte bronnen die nooit aan de bronnenlijst waren toegevoegd (geen onverwerkt werk): 3x Milieu (samen met de bestandsnaam-fix uit punt 6), 2x Bestuur (subsidieregeling politieke partijen), 1x Standaarden (RSGB, hoort bij `basisregistraties.md`), 3x Werk en Inkomen (waaronder `participatiewet.md` zelf — opvallend gezien de uitgebreide Participatiewet-ingest in het logboek), 1x Informatiebeheer (samen met punt 6 opgelost via het nieuwe onderwerpoverzicht).
+
+**Resultaat:** 0 bevindingen (was 10).
 
 ---
 
@@ -64,4 +79,4 @@ Vrijwel 1-op-1 geïmplementeerd in `/entiteitendekking` (`tools/entiteitendekkin
 |---|---|---|---|
 | 3 | 1296 bestaande `bedrijfsprocessen`/`bedrijfsfuncties`-vermeldingen zijn nog vrije tekst | Geleidelijk migreren via `/assess-element`+`/write-element` per functie/proces, niet in bulk | Laag — achterstand, geen fout |
 | 3 | `entiteitendekking.py` matcht bedrijfsfunctie/-proces-pagina's niet tegen GGM `proces`-entiteiten | Pas oppakken als er een concrete aanleiding is (bijv. een GGM-procesentiteit met BO-achtige grondslag) | Zeer laag |
-| 6/7 | Eerste runs van de twee nieuwe checks (18 resp. 10 bevindingen) nog niet inhoudelijk getriaged | Doorlopen via `/lint` — beoordelen welke terecht zijn en welke omissie | Middel |
+| — | ~~Eerste runs van de twee nieuwe checks (18 resp. 10 bevindingen) nog niet getriaged~~ | Getriageerd 2026-09-23 — beide checks staan nu op 0 bevindingen | Afgerond |

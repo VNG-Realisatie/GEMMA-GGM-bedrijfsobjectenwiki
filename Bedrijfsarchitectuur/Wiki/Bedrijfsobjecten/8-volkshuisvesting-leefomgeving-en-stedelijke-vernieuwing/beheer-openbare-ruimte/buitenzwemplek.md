@@ -64,7 +64,7 @@ Het beleid is: faciliteren waar het kan, ontmoedigen of verbieden waar veilighei
 
 ## Procesbron
 
-Bron: [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] en [[visie-water-riolering 1|Visie Water en Riolering Utrecht]]
+Bron: [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater|Beleidsnota Stadswater]] en [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering|Visie Water en Riolering Utrecht]]
 
 > Officiële zwemlocaties worden aangewezen door de provincie; de gemeente faciliteert en beheert de locaties. Bij niet-officiële zwemplekken meet de gemeente waterkwaliteit en wordt per locatie bepaald of faciliteren of ontmoedigen gepast is.
 
@@ -85,8 +85,8 @@ Bron: [[beleidsnota-stadswater 1|Beleidsnota Stadswater]] en [[visie-water-riole
 
 ## Bronnen
 
-- [[beleidsnota-stadswater 1]]
-- [[visie-water-riolering 1]]
+- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater]]
+- [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering]]
 
 ## Terugmelding GGM
 

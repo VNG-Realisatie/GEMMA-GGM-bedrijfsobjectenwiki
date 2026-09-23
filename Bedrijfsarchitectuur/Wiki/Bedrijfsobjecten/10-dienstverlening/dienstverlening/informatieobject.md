@@ -82,6 +82,8 @@ De NA-term "informatieobject" dekt wat het GGM in de Archiefwet-terminologie "ar
 
 De overgang Document → Informatieobject is een conceptueel gat in het GGM. De archivale beheerfase (vóór overbrenging) ontbreekt als eigen objecttype. Aanbevolen: voeg Informatieobject toe als objecttype in het GGM, als tussenliggende fase in het Model Kern RGBZ of als apart domein Informatiebeheer.
 
+Teruggemeld als #98 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
 ## Informatielevenscyclus
 
 | Fase | BO | Transitie | Grondslag |

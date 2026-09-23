@@ -62,6 +62,6 @@ De bronnen onderscheiden expliciet inkoop (verwerving van goederen/diensten/werk
 > "Vier centrale rollen: Contracteigenaar, Contractmanager, Contractgebruiker, Contractbeheerder." (bron: inkoop-aanbestedingsbeleid-west-betuwe)
 
 ## Bronnen
-- Sources/Onderwerpen/Inkoop/vng-model-inkoop-en-aanbestedingsbeleid.md
-- Sources/Onderwerpen/Inkoop/inkoop-aanbestedingsbeleid-over-gemeenten.md
-- Sources/Onderwerpen/Inkoop/inkoop-aanbestedingsbeleid-west-betuwe.md
+- [[Sources/Onderwerpen/Inkoop/vng-model-inkoop-en-aanbestedingsbeleid]]
+- [[Sources/Onderwerpen/Inkoop/inkoop-aanbestedingsbeleid-over-gemeenten]]
+- [[Sources/Onderwerpen/Inkoop/inkoop-aanbestedingsbeleid-west-betuwe]]

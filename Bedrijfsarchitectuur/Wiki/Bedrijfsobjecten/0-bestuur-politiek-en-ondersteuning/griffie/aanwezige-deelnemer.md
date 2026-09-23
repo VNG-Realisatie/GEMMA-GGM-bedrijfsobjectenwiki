@@ -20,6 +20,22 @@ element_tegenhangers:
   - element: "[[Wiki/Rollen/aanwezige-deelnemer|Aanwezige Deelnemer (rol)]]"
     archimate_type: business-role
     toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol."
+bo_relaties:
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering|Vergadering]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1..1"
+    beschrijving: Elke aanwezigheid hoort bij precies één vergadering
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid|Raadslid]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een aanwezige deelnemer kan een raadslid zijn
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/collegelid|Collegelid]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een aanwezige deelnemer kan een collegelid zijn
 ---
 
 # Aanwezige Deelnemer
@@ -41,6 +57,16 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/aanwezige-
 - **Attributen:** aanvangAanwezigheid, eindeAanwezigheid, rol, vertegenwoordigtOrganisatie, naam
 - **Matchsterkte:** exact
 
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Hoort bij | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/vergadering\|Vergadering]] | Elke aanwezigheid is geregistreerd bij één vergadering (GGM: associatie) |
+| Kan zijn | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid\|Raadslid]] | GGM: "is" |
+| Kan zijn | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/collegelid\|Collegelid]] | GGM: "is" |
+
+**Openstaand:** het GGM legt ook een relatie met **NatuurlijkPersoon** (0..1/0..1, "is") — voor aanwezigen die geen raadslid of collegelid zijn (bijv. een insprekend inwoner). NatuurlijkPersoon heeft nog geen eigen wiki-pagina in dit onderwerp; niet beoordeeld in deze sessie.
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst]] — Gemeentewet art. 17-24 (vergadering: quorum, agenda, aanwezigheid)

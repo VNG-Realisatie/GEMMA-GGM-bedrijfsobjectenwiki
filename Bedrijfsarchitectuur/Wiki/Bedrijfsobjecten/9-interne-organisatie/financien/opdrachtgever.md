@@ -20,6 +20,17 @@ element_tegenhangers:
   - element: "[[Wiki/Rollen/opdrachtgever|Opdrachtgever (rol)]]"
     archimate_type: business-role
     toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol."
+bo_relaties:
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling|Doelstelling]]"
+    richting: naar-dit-BO
+    kardinaliteit: "1..*"
+    beschrijving: Doelstellingen hebben deze Opdrachtgever
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product|Product]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..*"
+    beschrijving: Opdrachtgever kan opdrachtgever zijn van meerdere Producten
 ---
 
 # Opdrachtgever
@@ -41,6 +52,15 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/opdrachtge
 - **Attributen:** naam, omschrijving, nummer, clustercode, clusterOmschrijving
 - **Matchsterkte:** exact
 
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Opdrachtgever van | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/doelstelling\|Doelstelling]] | Elke doelstelling heeft precies één Opdrachtgever (GGM: "is opdrachtgever") |
+| Opdrachtgever van | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/product\|Product]] | Een Opdrachtgever kan opdrachtgever zijn van meerdere Producten (GGM: "is opdrachtgever") |
+
+BW art. 400-413 (zie Bronnen) beschrijft de wederkerige rechtsverhouding met de [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/opdrachtnemer\|Opdrachtnemer]]: loonverschuldigdheid, opzeggingsrecht en informatieplicht over en weer. Het GGM modelleert deze wederkerigheid niet als eigen relatie tussen Opdrachtgever en Opdrachtnemer; beide staan los gekoppeld aan Doelstelling/Product/Kostenplaats.
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/9-interne-organisatie]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Financien/bw7-opdracht]] — BW Boek 7, Titel 7, Afdeling 1: wettelijke grondslag opdrachtgever (art. 400-413)

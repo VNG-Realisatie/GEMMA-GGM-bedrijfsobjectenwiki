@@ -20,6 +20,17 @@ element_tegenhangers:
   - element: "[[Wiki/Rollen/collegelid|Collegelid (rol)]]"
     archimate_type: business-role
     toelichting: "Dit bedrijfsobject legt de gegevens vast over de gelijknamige rol."
+bo_relaties:
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer|Aanwezige Deelnemer]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een collegelid kan als aanwezige deelnemer geregistreerd worden bij een vergadering
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Rollen/indiener|Indiener]]"
+    richting: bidirectioneel
+    kardinaliteit: "0..1"
+    beschrijving: Een collegelid kan de rol van indiener vervullen (bijv. bij een raadsvoorstel)
 ---
 
 # Collegelid
@@ -41,6 +52,15 @@ De handelende kant van dit begrip is vastgelegd als rol [[Wiki/Rollen/collegelid
 - **Attributen:** voornaam, achternaam, titel, fractie, portefeuille, datumAanstelling, datumUittreding
 - **Matchsterkte:** exact
 
+## Relaties
+
+| Relatie | Bedrijfsobject | Toelichting |
+|---|---|---|
+| Kan zijn | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/aanwezige-deelnemer\|Aanwezige Deelnemer]] | Registratie van aanwezigheid bij een collegevergadering (GGM: "is") |
+| Kan zijn | [[Wiki/Rollen/indiener\|Indiener]] | Bij het indienen van een raadsvoorstel (GGM: "is") |
+
+**Openstaand:** het GGM modelleert Collegelid als generalisatie van **Ingezetene**, zelfde patroon als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/griffie/raadslid|Raadslid]]. Ingezetene heeft nog geen eigen wiki-pagina; niet beoordeeld in deze sessie.
+
 ## Bronnen
 
-- [[Wiki/Analyses/entiteitendekking/0-bestuur-politiek-en-ondersteuning]] — kandidaat gesignaleerd via /audit-actoren track 1
+- [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst]] — Gemeentewet art. 34-41b (benoeming, vereisten, incompatibiliteiten collegelid)

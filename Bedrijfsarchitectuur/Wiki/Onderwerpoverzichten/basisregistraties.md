@@ -148,6 +148,7 @@ Gemeente is **bronhouder** (voor verkenningen, constructies en gebruiksrechten b
 
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bag-2018|Catalogus BAG 2018]]
 - [[Wiki/Bronsamenvattingen/Standaarden/logisch-ontwerp-brp-2025q1|Logisch Ontwerp BRP 2025.Q1]]
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]]
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-brk|Catalogus BRK 2020]]
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]]
 - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]]
