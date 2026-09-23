@@ -1,3 +1,13 @@
+## [2026-09-23] analyse | Europa en Internationaal afgesloten: geen apart BO voor Europese subsidie
+
+- **Aanleiding:** openstaand punt uit de backlog ("Domein open: potentiële BO's bij rijkere bronnen: Europese subsidie(aanvraag)"). Op verzoek van de gebruiker gericht gezocht naar een rijkere, gemeentelijk-perspectief bron.
+- **Drie kandidaatbronnen beoordeeld en afgewezen** (niet opgehaald als Source, want te dun of niet gemeentelijk):
+  - EU-fondsenwijzer (europadecentraal.nl) — navigatieportaal, geen procesbegrippen.
+  - Regeling Europese EZK- en LNV-subsidies 2021 (REES 2021, wetten.overheid.nl/BWBR0045685) — rijke wettekst (deelbetaling, subsidiabele kosten, penvoerder) maar doelgroep is bedrijven/landbouwers/kennisinstellingen, niet gemeenten.
+  - Subsidieregeling cofinanciering EFRO 2022-2027 Zuid-Holland / Kansen voor West (CVDR686362) — governance-verband omvat wel de G4-gemeenten als partner, maar de regeling zelf is beperkt concreet (details per openstelling) en noemt gemeenten niet expliciet als doelgroep.
+- **Conclusie:** Europese subsidie(aanvraag) is geen zelfstandig BO maar een potentiële specialisatie van het bestaande BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]] (subsidierecht-domein). Domein Europa en Internationaal daarmee afgerond op 0 BO's.
+- **Bijgewerkt:** `Wiki/Onderwerpoverzichten/europa-en-internationaal.md` (status → afgerond, conclusie + geraadpleegde bronnen vastgelegd), `ToDo/ingest-backlog.md`, `Wiki/index.md`.
+
 ## [2026-09-23] ingest | Basisregistraties — RSGBPlus batch 2: 8 nieuwe BO's, domein Basisregistraties volledig afgerond
 
 - **Aanleiding:** vervolg op batch 1 (zie vorige log-entry). Alle ~28 resterende RSGB Deel II-objecttypen (buiten de al gedekte basisregistraties en de batch 1-generalisaties) beoordeeld tegen GGM (`ggm_parsed.json`) en brontekst. Vooraf besproken met de gebruiker in twee rondes (6 sterke kandidaten in één keer akkoord; 2 relatie-objecttypen — Ouder-kind-relatie en Huishoudenrelatie — apart, op verzoek van de gebruiker omdat de RSGB-namen "als informatiemodel klonken i.p.v. BO").

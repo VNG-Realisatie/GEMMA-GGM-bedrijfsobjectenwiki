@@ -101,7 +101,9 @@ Status: 148 bronnen in 24 batches.
 - [x] rubriek-europa-en-internationaal
 - [x] versterking-lokaal-bestuur-wereldwijd
 
-> **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. Potentiële BO's bij rijkere bronnen: Europese subsidie(aanvraag). Zoeksuggesties voor rijkere bronnen in onderwerpoverzicht. Domein open: 0 bronsamenvattingen, 7 niet-relevant, 0 begrippen, 0 BO's.
+> **Afgehandeld:** 7 VNG-portaalpagina's naar Niet-relevant (governance/strategie, geen concrete registraties). Geen bronsamenvattingen, geen BO's. 0 bronsamenvattingen, 7 niet-relevant, 0 begrippen, 0 BO's.
+
+> **Domein afgesloten (2026-09-23):** drie kandidaatbronnen voor "Europese subsidie(aanvraag)" beoordeeld en afgewezen — EU-fondsenwijzer (te dun, navigatieportaal), Regeling Europese EZK- en LNV-subsidies 2021 (rijk maar doelgroep bedrijven/landbouwers, niet gemeenten), Subsidieregeling cofinanciering EFRO Zuid-Holland/Kansen voor West (gemeenten wel partner in governance, maar regeling zelf beperkt concreet en noemt gemeenten niet als doelgroep). Conclusie: Europese subsidie is een specialisatie van het bestaande BO Subsidie (subsidierecht), geen apart BO. Zie `Wiki/Onderwerpoverzichten/europa-en-internationaal.md`.
 
 ## ~~Financien (2)~~ ✓
 - [x] begroting-en-verantwoording

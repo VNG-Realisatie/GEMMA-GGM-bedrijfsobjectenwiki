@@ -1,8 +1,8 @@
 ---
 type: onderwerp
 naam: europa-en-internationaal
-status: open
-verwerkingsdatum: 2026-06-26
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 0
 begrippen_count: 0
 bo_count: 0
@@ -27,6 +27,13 @@ Bij rijkere bronnen zouden de volgende begrippen BO-kandidaat kunnen worden:
 | **Grensoverschrijdende overeenkomst** | Formele afspraak tussen grensgemeenten over dienstverlening, arbeidsmarkt of ruimtelijke ordening. Alleen relevant voor ~40 grensgemeenten. | Euregioconvenanten, grensoverschrijdende samenwerkingsafspraken |
 
 NB: "Europese subsidie" overlapt met het bestaande BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/inkooporder|Inkooporder]] en het domein [[Wiki/Onderwerpoverzichten/financien|Financiën]]. Mogelijk is dit geen apart BO maar een specialisatie of eigenschap van bestaande financiële objecten.
+
+**Conclusie (2026-09-23):** bevestigd — geen apart BO. Drie kandidaatbronnen zijn beoordeeld en afgewezen:
+- EU-fondsenwijzer (europadecentraal.nl) — puur navigatieportaal, geen procesbegrippen.
+- Regeling Europese EZK- en LNV-subsidies 2021 (REES 2021, wetten.overheid.nl/BWBR0045685) — rijke wettekst met concrete subsidiebegrippen (deelbetaling, subsidiabele kosten, penvoerder), maar doelgroep is bedrijven/landbouwers/kennisinstellingen; gemeenten treden hooguit op als beheerautoriteit, niet als subsidieontvanger.
+- Subsidieregeling cofinanciering EFRO 2022-2027 Zuid-Holland / Kansen voor West (CVDR686362) — governance-verband omvat wel gemeenten (Amsterdam, Den Haag, Rotterdam, Utrecht als partner naast provincies), maar de regeling zelf is beperkt concreet: kostendefinities, percentages en rangschikkingscriteria worden per openstelling bepaald, niet in de regeling vastgelegd, en gemeenten worden niet expliciet als doelgroep genoemd.
+
+Geen van de drie bronnen levert een gemeentelijk perspectief dat rijk genoeg is voor een zelfstandig BO. Europese subsidie(aanvraag) blijft daarom staan als potentiële specialisatie van het generieke BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]] (uit `subsidierecht`), niet als eigen BO. Domein is hiermee afgerond op dit punt; heropenen alleen bij een nieuwe, gemeente-specifieke bron (zie prioritering hieronder).
 
 ## Begrippentabel
 
@@ -84,6 +91,6 @@ Voor het vinden van rijkere bronnen die concreet genoeg zijn voor BO-identificat
 
 ## Openstaande vragen of hiaten
 
-- Is "Europese subsidie" een apart BO of een eigenschap van bestaande financiële objecten? Rijkere bronnen nodig.
+- ~~Is "Europese subsidie" een apart BO of een eigenschap van bestaande financiële objecten?~~ **Beantwoord (2026-09-23):** geen apart BO — specialisatie van bestaand BO Subsidie, zie conclusie hierboven.
 - Grensoverschrijdende samenwerking betreft ~40 gemeenten — is dat breed genoeg voor GEMMA?
 - GGM bevat geen expliciete EU/internationale entiteiten; eventuele BO's zullen GGM-hiaten zijn of onder bestaande generieke objecten vallen (Subsidie, Overeenkomst).
