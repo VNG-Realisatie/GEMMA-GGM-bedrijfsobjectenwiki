@@ -244,6 +244,8 @@ Status: 148 bronnen in 24 batches.
 
 > **Begraafplaatsbeheer en lijkschouw afgehandeld (2026-09-23):** volledige wettekst Wlb (i.p.v. de dunne VNG-samenvatting) leverde 5 BO's + 1 rol op, zie hierboven. Bestaand BO Gemeentebegrafenis verrijkt met relaties naar Begraafplaats/Crematorium.
 
+> **Domein afgesloten (2026-09-23):** de resterende twee deelonderwerpen onderzocht, geen nieuwe BO's. Milieugezondheid: het instrument gezondheidseffectscreening (GES) is per augustus 2023 landelijk ingetrokken; huidige GGD-advisering onder de Omgevingswet is een adviesactiviteit zonder registreerbaar object. Hygiënetoezicht: tatoeage-/piercingshops vallen onder het landelijke Warenwetbesluit tatoeëren en piercen (NVWA, geen gemeentelijke bevoegdheid); seksinrichtingen lopen via decentrale APV-bepalingen zonder landelijke wettekst — dekking valt onder de bestaande generieke BO's Vergunningen en ontheffingen en Inspectie (VTH-domein). Kinderopvangtoezicht bleek bij nader inzien bij het domein Onderwijs te horen. Domein Openbare Gezondheid volledig afgerond (7 BO's). Zie `Wiki/Onderwerpoverzichten/openbare-gezondheid.md`.
+
 ## ~~Openbare Orde en Veiligheid (10 + 4 aanvullend)~~ ✓
 - [x] aanpak-radicalisering → Niet-relevant
 - [x] alcoholwet → Niet-relevant (dunne VNG-samenvatting, vervangen door volledige wettekst)

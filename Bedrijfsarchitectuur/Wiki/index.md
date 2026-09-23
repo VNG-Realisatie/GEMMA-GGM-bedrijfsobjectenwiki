@@ -20,7 +20,7 @@
 - [[evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
 - [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (afgerond, 5 BO's)
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
-- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging: begraafplaats, grafrecht, crematorium, lijkschouw, verlof tot begraving/crematie (open — onvoldoende bronnen, 7 BO's)
+- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging: begraafplaats, grafrecht, crematorium, lijkschouw, verlof tot begraving/crematie (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (afgerond, 29 BO's, 12 bronnen)
 - [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, zorgdeclaratie, eigen bijdrage, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 15 BO's)
 - [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (afgerond, 1 BO)

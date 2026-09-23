@@ -36,6 +36,15 @@
 - **Domein Openbare Orde en Veiligheid nu volledig afgerond** (status `afgerond`): 7 bronsamenvattingen, 12 begrippen, 7 BO's, 2 actoren, 1 rol. Eén punt blijft bewust "ter discussie" voor een toekomstige ronde: of Alcoholoverlastgebied, Veiligheidsrisicogebied en Gebiedsaanwijzing (Omgevingswet) onder een overkoepelend generiek concept moeten.
 - **Bijgewerkt:** `Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid.md`, `Wiki/index.md`, `ToDo/ingest-backlog.md`, `Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen.md` (4 nieuwe subtypes).
 
+## [2026-09-23] analyse | Openbare Gezondheid volledig afgesloten: milieugezondheid en hygiënetoezicht onderzocht, geen nieuwe BO's
+
+- **Aanleiding:** vervolg op de vorige ingest-ronde (Wet op de lijkbezorging) — de laatste twee open deelonderwerpen uit `ToDo/ingest-backlog.md` afronden.
+- **Milieugezondheid:** het instrument gezondheidseffectscreening (GES), ooit ontwikkeld door GGD GHOR Nederland voor gezondheidsbeoordeling in ruimtelijke plannen, is per augustus 2023 landelijk ingetrokken. De huidige praktijk — GGD-advies aan gemeenten bij omgevingsvergunningen en omgevingsplannen onder de Omgevingswet — is een adviesactiviteit zonder vast instrument of registreerbaar object. Geen BO.
+- **Hygiënetoezicht:** twee sporen onderzocht. Tatoeage-/piercingshops vallen onder het landelijke, door de NVWA gehandhaafde Warenwetbesluit tatoeëren en piercen — geen gemeentelijke bevoegdheid. Seksinrichtingen en vergelijkbare hygiënegevoelige bedrijven vallen onder decentrale APV-bepalingen (geen landelijke wettekst gevonden met een concreet gemeentelijk perspectief); de GGD inspecteert namens de gemeente. Beide dekking bevestigt de al bestaande generieke BO's [[Vergunningen en ontheffingen]] en [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie|Inspectie]] (VTH-domein) — geen nieuw BO. Kinderopvangtoezicht (oorspronkelijk als onderdeel van dit deelonderwerp genoemd) bleek bij nader inzien bij het domein Onderwijs te horen.
+- **Geen nieuwe bronnen opgeslagen** — de geraadpleegde bronnen (GES-factsheets, GGD-webpagina's over hygiëne-inspecties, Wet publieke gezondheid) waren te dun of niet gemeentelijk-specifiek genoeg om als Source te bewaren; wél gecontroleerd of de Wet publieke gezondheid zelf (BWBR0024705) deze twee deelonderwerpen concretiseert — dat bleek niet het geval (artikel 2 blijft abstract, geen sectorspecifieke toezichtbepalingen).
+- **Domein Openbare Gezondheid nu volledig afgerond** (status `afgerond`): 8 bronnen, 27 begrippen, 7 BO's.
+- **Bijgewerkt:** `Wiki/Onderwerpoverzichten/openbare-gezondheid.md` (2 nieuwe begrippentabel-rijen, status → afgerond), `Wiki/index.md`, `ToDo/ingest-backlog.md`.
+
 ## [2026-09-23] analyse | Europa en Internationaal afgesloten: geen apart BO voor Europese subsidie
 
 - **Aanleiding:** openstaand punt uit de backlog ("Domein open: potentiële BO's bij rijkere bronnen: Europese subsidie(aanvraag)"). Op verzoek van de gebruiker gericht gezocht naar een rijkere, gemeentelijk-perspectief bron.

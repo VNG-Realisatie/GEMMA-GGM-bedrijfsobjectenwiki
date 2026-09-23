@@ -1,10 +1,10 @@
 ---
 type: domein
 naam: openbare-gezondheid
-status: open — onvoldoende bronnen voor volledig beeld
+status: afgerond
 verwerkingsdatum: 2026-09-23
 bronnen_count: 8
-begrippen_count: 23
+begrippen_count: 27
 bo_count: 7
 ---
 
@@ -39,6 +39,9 @@ Het domein openbare gezondheid omvat het gemeentelijk gezondheidsbeleid, de opdr
 |gemeentelijk lijkschouwer|rol|Door B&W benoemde forensisch arts die lijkschouwingen verricht (art. 4-6 Wlb)| ❌ | nee |Rol, geen BO — analoog aan BOA-precedent (individuele registratie valt onder HR)|—|[[Wiki/Rollen/gemeentelijk-lijkschouwer\|nee]]|
 |asbus|object|Bus waarin de as na crematie wordt geborgen| ❌ | nee |Te granulair — onderdeel van Crematorium, geen zelfstandig BO|Asbus met registratienummer|nee|
 |ruiming|activiteit|Verwijderen van graf (≥10 jaar) of asbus (≥10 jaar) door de houder| ❌ | nee |Activiteit/procedure, geen zelfstandig object|Ruiming graf na 10 jaar|nee|
+|gezondheidseffectscreening (GES)|instrument|Vroeger GGD-instrument om gezondheidsfactoren in ruimtelijke plannen te beoordelen| ❌ | nee |Per augustus 2023 landelijk ingetrokken door GGD GHOR Nederland — geen actueel instrument meer|—|nee|
+|GGD-advies leefomgeving (Omgevingswet)|activiteit|Advies van de GGD aan de gemeente bij omgevingsvergunningen en omgevingsplannen over een gezonde leefomgeving| ❌ | nee |Adviesactiviteit, geen registreerbaar object; opvolger van GES zonder vast instrument|Advies bij bestemmingsplan Zuidelijke Ring|nee|
+|hygiënevergunning (tatoeage/piercing/seksinrichting)|object|Lokale vergunningplicht voor hygiënegevoelige bedrijven, met GGD-inspectie namens de gemeente| ❌ | ja |Valt onder het bestaande generieke BO [[Vergunningen en ontheffingen]] (vergunning) en [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie\|Inspectie]] (VTH); geen landelijke wettekst met gemeentelijk perspectief gevonden, alleen decentrale APV-bepalingen en de landelijke, door NVWA gehandhaafde Warenwetbesluit tatoeëren en piercen|Hygiëne-inspectie tattooshop|nee|
 
 ## Verwerkte bronnen
 
@@ -48,14 +51,15 @@ Het domein openbare gezondheid omvat het gemeentelijk gezondheidsbeleid, de opdr
 
 ## Nog te verwerken bronnen
 
-Geen openstaande bronnen in `Sources/`. Het domein is echter **onvolledig gedekt** — de huidige bronnen zijn overwegend beleidsmatig (VNG-portaalpagina's, gezondheidsbeleid). Bronnen die ontbreken voor een completer beeld:
+Geen openstaande bronnen in `Sources/`. Alle vier oorspronkelijk gesignaleerde deelonderwerpen zijn nu afgerond:
 
 - ~~**Begraafplaatsbeheer**~~ — verwerkt (2026-09-23): volledige wettekst Wet op de lijkbezorging opgeleverd 5 nieuwe BO's (Begraafplaats, Grafrecht, Crematorium, Lijkschouw, Verlof tot begraving of crematie) + 1 rol (Gemeentelijk lijkschouwer). Zie [[Wiki/Bronsamenvattingen/Openbare Gezondheid/wet-op-de-lijkbezorging-wettekst|bronsamenvatting]].
 - ~~**Infectieziektebestrijding**~~ — verwerkt: [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestrijding|kerntaken IZB]]. Gemeente is opdrachtgever; 1 BO (infectieziektemelding), rest GGD-processen.
-- **Milieugezondheid** — GGD-adviezen bij bouwplannen, gezondheidseffectscreening (GES).
-- **Hygiënetoezicht** — toezicht op tattooshops, seksinrichtingen, kinderopvang (overlap met VTH).
+- ~~**Milieugezondheid**~~ — onderzocht (2026-09-23): het instrument gezondheidseffectscreening (GES) is per augustus 2023 landelijk ingetrokken door GGD GHOR Nederland; huidige praktijk is GGD-advies aan de gemeente bij omgevingsvergunningen/-plannen onder de Omgevingswet, zonder vast instrument of registreerbaar object. Geen BO — adviesactiviteit.
+- ~~**Hygiënetoezicht**~~ — onderzocht (2026-09-23): tatoeage-/piercingshops vallen onder het landelijke, door de NVWA gehandhaafde Warenwetbesluit tatoeëren en piercen (geen gemeentelijke bevoegdheid); vergunningplicht voor seksinrichtingen en vergelijkbare hygiënegevoelige bedrijven loopt via decentrale APV-bepalingen, met GGD-inspectie namens de gemeente. Geen landelijke wettekst met een concreet gemeentelijk perspectief gevonden — bevestigt en valt onder de al bestaande generieke BO's [[Vergunningen en ontheffingen]] en [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/inspectie|Inspectie]] (VTH-domein). Geen nieuw BO; bij een rijke, gemeentespecifieke bron (bijv. een concrete APV-hygiëneverordening) alsnog als subtype op te pakken.
 
 ## Openstaande vragen
 
 - Het GGM plaatst Gemeentebegrafenissen onder taakveld 6 (Sociaal Domein), terwijl het inhoudelijk bij volksgezondheid hoort. Classificatieverschil, geen terugmelding nodig.
 - Beheer Openbare Ruimte (IMBOR) modelleert geen begraafplaatsen — de eerdere aanname dat begraafplaats daar zou passen, klopte niet (geen treffer in `Wiki/Onderwerpoverzichten/beheer-openbare-ruimte.md` of `ggm_parsed.json`). Begraafplaats, Grafrecht en Crematorium zijn daarom in dit domein ondergebracht (`Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/`).
+- Kinderopvangtoezicht (oorspronkelijk onder "hygiënetoezicht" genoemd) hoort inhoudelijk bij het domein Onderwijs (bestaand BO Kinderopvangvoorziening), niet hier — bij nader inzien geen deelonderwerp van Openbare Gezondheid.
