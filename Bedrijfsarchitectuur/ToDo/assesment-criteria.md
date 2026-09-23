@@ -1,0 +1,2 @@
+- de regels voor het bepalen of een element een bedrijfsobject, actor, rol, bedrijfsfunctie of -proces is, staan nu niet op 1 duidelijk vindbare plek. 
+- in template element geen duidelijke deel generiek voor alle typen en stuk per type. loopt door elkaar. 

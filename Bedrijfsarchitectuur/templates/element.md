@@ -4,8 +4,10 @@ Locatie:
 - Bedrijfsobjecten: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-object, contract of product)
 - Actoren: `Wiki/Actoren/{naam}.md` (`archimate_type`: business-actor) — platte map, geen substructuur
 - Rollen: `Wiki/Rollen/{naam}.md` (`archimate_type`: business-role) — platte map, geen substructuur
+- Bedrijfsfuncties: `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-function) — volgt, anders dan Actoren/Rollen, dezelfde taakveld/beleidsdomein-substructuur als Bedrijfsobjecten
+- Bedrijfsprocessen: `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-process) — zelfde substructuur
 
-Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid actor/rol en de criteria. Bij actor/rol-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
+Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid actor/rol en de criteria, en [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor het onderscheid functie/proces en de criteria. Bij actor/rol/functie/proces-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
 
 ### Frontmatter-stijl
 
@@ -22,7 +24,7 @@ Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid acto
 type: element
 naam: {naam}
 onderwerp: [{onderwerp(en)}]
-archimate_type: {business-object | contract | product | business-actor | business-role}
+archimate_type: {business-object | contract | product | business-actor | business-role | business-function | business-process}
 grondslag: {ggm-entiteit | ggm-afgeleid | procesobject | governance-object}
 
 # GGM-velden — uit het XMI, beheerd door de GGM-community
@@ -94,10 +96,12 @@ bo_relaties:
     richting: {van-dit-BO | naar-dit-BO | bidirectioneel}
     kardinaliteit: {bijv. "1..*"}
     beschrijving: {korte omschrijving van de relatie}
-bedrijfsprocessen: [{bedrijfsprocessen die dit object gebruiken/produceren}]
-bedrijfsfuncties: [{bedrijfsfuncties}]
+bedrijfsprocessen: [{wiki-links naar Wiki/Bedrijfsprocessen/-pagina's die dit object gebruiken/produceren}]
+bedrijfsfuncties: [{wiki-links naar Wiki/Bedrijfsfuncties/-pagina's die dit object raken}]
 ---
 ```
+
+**`bedrijfsprocessen`/`bedrijfsfuncties`** (besluit 2026-09-23): wiki-links naar eigen elementpagina's in `Wiki/Bedrijfsprocessen/`/`Wiki/Bedrijfsfuncties/` — geen vrije tekst meer. Elke vermelde functie/proces doorloopt dezelfde `/assess-element`+`/write-element`-flow als een BO/actor/rol (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]) voordat hij hier wordt gelinkt. Bestaande vrije-tekstvermeldingen van vóór dit besluit zijn migratie-achterstand (gesignaleerd door `/lint`), niet in bulk vervangen — zie `.claude/commands/lint.md`.
 
 ### Linkconventie frontmatter
 
@@ -165,8 +169,8 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Procesbron** (bij grondslag `procesobject`): uit welk proces, welke beleidsbron beschrijft dit — **link naar de bronsamenvatting**
 - **Juridische bron** (bij grondslag `governance-object`): welke wet/verordening, welke beleidsbron — **link naar de bronsamenvatting**
 - **Relaties**: afgeleid van GGM-associaties (bij GGM-grondslag) of uit beleidsbronnen (bij overige grondslagen), vereenvoudigd naar bedrijfsniveau. Noteer de bron van elke relatie — wiki-links naar gerelateerde BO's, in tabellen met `\|`-escaped alias (bijv. `[[Wiki/.../boom\|Boom]]`)
-- **Bedrijfsprocessen**: welke processen dit object gebruiken of produceren
-- **Bedrijfsfuncties**: welke functies dit object raken
+- **Bedrijfsprocessen**: welke processen dit object gebruiken of produceren, als wiki-links naar `Wiki/Bedrijfsprocessen/`-pagina's
+- **Bedrijfsfuncties**: welke functies dit object raken, als wiki-links naar `Wiki/Bedrijfsfuncties/`-pagina's
 - **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
 - **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**
 

@@ -1,11 +1,11 @@
-Leg vast als element (bedrijfsobject, actor of rol): $ARGUMENTS
+Leg vast als element (bedrijfsobject, actor, rol, bedrijfsfunctie of bedrijfsproces): $ARGUMENTS
 
 Input: elementnaam (reeds beoordeeld via `/assess-element`), of "onderwerp X" voor alle elementen in een onderwerp.
-Output: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/`, `Wiki/Actoren/` of `Wiki/Rollen/`.
+Output: `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/`, `Wiki/Actoren/`, `Wiki/Rollen/`, `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/` of `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/`.
 
 Verwacht een begrip dat al is beoordeeld. Doet zelf géén criteria-toetsing of domeinbepaling.
 
-**Elementtype bepaalt de route:** bedrijfsobjecten (business-object/contract/product) volgen alle stappen hieronder. Actor- en rol-pagina's volgen Stap 11. Bij het twee-pagina-patroon (begrip is actor/rol én BO, zie `/assess-element` Stap 2b): maak beide pagina's en koppel ze via `element_tegenhangers`.
+**Elementtype bepaalt de route:** bedrijfsobjecten (business-object/contract/product) volgen alle stappen hieronder. Actor- en rol-pagina's volgen Stap 11. Bedrijfsfunctie- en bedrijfsproces-pagina's volgen Stap 12. Bij het twee-pagina-patroon (begrip is actor/rol én BO, zie `/assess-element` Stap 2b; of, als uitzondering, bedrijfsfunctie/-proces én BO, zie `/assess-element` Stap 2c): maak beide pagina's en koppel ze via `element_tegenhangers`.
 
 ## Stap 0: Naamgeving en disambiguatie
 
@@ -243,5 +243,31 @@ Voor begrippen die via `/assess-element` Stap 2b als actor of rol zijn beoordeel
 - **Relaties**: naar andere elementen
 - **Bronnen**: wiki-links naar bronsamenvattingen
 - **GGM-bron** (bij GGM-match): letterlijke GGM-definitie als blockquote, matchsterkte
+
+Nazorg is gelijk aan BO-pagina's: `Wiki/index.md`, `Wiki/log.md` en het onderwerpoverzicht bijwerken.
+
+## Stap 12: Bedrijfsfunctie- en bedrijfsprocespagina's
+
+Voor begrippen die via `/assess-element` Stap 2c als bedrijfsfunctie of bedrijfsproces zijn beoordeeld (definities en criteria: [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]).
+
+**Locatie en frontmatter:**
+- Bedrijfsfunctie: `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/{naam}.md` met `archimate_type: business-function`
+- Bedrijfsproces: `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/{naam}.md` met `archimate_type: business-process`
+- Anders dan Actoren/Rollen volgen beide mappen dezelfde taakveld/beleidsdomein-substructuur als Bedrijfsobjecten (besluit 2026-09-23).
+- Gebruik hetzelfde frontmatter-schema als `templates/element.md` (`type: element`). GGM-velden blijven doorgaans leeg (zie GGM-verwachting hieronder).
+
+**GGM-match:** doorloop Stap 2-5 zoals bij een BO, maar verwacht doorgaans geen match — het GGM modelleert functies/processen niet compleet (zelfde voorbehoud als grondslag `procesobject`/`governance-object`). Bij toch een match: vul `ggm_entiteit`/`ggm_guid` zoals gebruikelijk. Zonder match: velden leeg laten, geen terugmelding als hiaat (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] §GGM-verwachting).
+
+**Twee-pagina-patroon (uitzondering, niet de regel):** alleen als de 6 BO-criteria ook zelfstandig slagen, maak dan daarnaast de reguliere BO-pagina in `Wiki/Bedrijfsobjecten/`. Koppel beide pagina's zoals bij actor/rol: `element_tegenhangers` op beide pagina's, een cross-link in de body, eventueel dezelfde `ggm_guid`.
+
+**Terugverwijzing vanuit BO's:** een BO dat deze functie/dit proces gebruikt of produceert, verwijst ernaar via het `bedrijfsprocessen`/`bedrijfsfuncties`-veld in zijn eigen frontmatter (wiki-link, zie `templates/element.md`) — niet andersom. Werk bij het aanmaken van deze pagina de BO's bij die er al in vrije tekst naar verwezen (gesignaleerd door `/lint`, zie `.claude/commands/lint.md`).
+
+**Body-secties** (lichter dan een BO-pagina, analoog aan actor/rol):
+- **Beschrijving**: de functie/het proces op het niveau waarop de gemeente erover praat
+- **Criteria-toetsing**: uitkomst van de functie-/proces-vragen (Stap 2c)
+- **Gebruikt door** (optioneel): welke BO's deze functie/dit proces gebruiken of produceren, als wiki-links (spiegelbeeld van het `bedrijfsprocessen`/`bedrijfsfuncties`-veld op die BO's)
+- **Relaties**: naar andere elementen
+- **Bronnen**: wiki-links naar bronsamenvattingen
+- **GGM-bron** (bij uitzonderlijke GGM-match): letterlijke GGM-definitie als blockquote, matchsterkte
 
 Nazorg is gelijk aan BO-pagina's: `Wiki/index.md`, `Wiki/log.md` en het onderwerpoverzicht bijwerken.

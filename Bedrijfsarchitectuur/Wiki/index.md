@@ -566,6 +566,14 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/dataleverancier|dataleverancier]] — Uitvoerende rol binnen het bronhouderschap: vaak een extern bureau, maar aangestuurd door en namens de geme...
 - [[Wiki/Rollen/pachter|pachter]] — Gebruiksrecht op landbouwgrond op basis van een pachtovereenkomst (GGM exact)
 
+## Bedrijfsfuncties
+
+Business Functions (ArchiMate) — gebundelde vermogens van de gemeente. Zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsfuncties`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
+
+## Bedrijfsprocessen
+
+Business Processes (ArchiMate) — reeksen activiteiten met een specifiek resultaat. Zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsprocessen`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
+
 ## GGM (referentie — zie Wiki/GGM/)
 
 De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CLAUDE.md §3). Ze staan in `Wiki/GGM/{taakveld}/`, één bestand per beleidsdomein:

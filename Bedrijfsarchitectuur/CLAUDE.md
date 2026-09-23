@@ -62,6 +62,8 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 | Element (bedrijfsobject) | `templates/element.md` | `Wiki/Bedrijfsobjecten/{taakveld}/{beleidsdomein}/` |
 | Element (actor) | `templates/element.md` | `Wiki/Actoren/` (plat) |
 | Element (rol) | `templates/element.md` | `Wiki/Rollen/` (plat) |
+| Element (bedrijfsfunctie) | `templates/element.md` | `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/` |
+| Element (bedrijfsproces) | `templates/element.md` | `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/` |
 | Onderwerpoverzicht | `templates/onderwerpoverzicht.md` | `Wiki/Onderwerpoverzichten/` |
 | Bronsamenvatting | `templates/bronsamenvatting.md` | `Wiki/Bronsamenvattingen/{onderwerp}/` |
 | GGM-terugmelding | `templates/ggm-terugmelding.md` | `Wiki/Analyses/ggm-terugmeldingen.md` (één doorlopend bestand) |
@@ -152,7 +154,7 @@ Scope: BO matcht een GGM-entiteit via generalisatie/specialisatie, matchsterkte 
 
 **Wiki-velden**
 
-- [BO12] **BO-veldnamen en prefixen** — Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes`: zie [BO15]. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
+- [BO12] **BO-veldnamen en prefixen** — Veldnamen: `bo_definitie`, `bo_toelichting`, `bo_relaties`, `bo_synoniemen` (andere namen voor hetzelfde concept), `bo_homoniemen` (andere concepten met dezelfde GGM-naam). `bo_subtypes`: zie [BO15]. `bedrijfsprocessen` en `bedrijfsfuncties` behouden hun naam; sinds besluit 2026-09-23 zijn dit wiki-links naar eigen elementpagina's in `Wiki/Bedrijfsprocessen/`/`Wiki/Bedrijfsfuncties/` (zie §7, `templates/element.md`), geen vrije tekst meer — vrije-tekstvermeldingen van vóór dit besluit zijn migratie-achterstand, gesignaleerd door `/lint`. Prefix `bo_` = wiki-eigen BO-model; `ggm_*` = GGM-bron; `ggm_gemma_*` = GGM-GEMMA-referentie. De export leest de `bo_`-velden.
 - [BO13] **Herkomst gemma_\*-velden** — `gemma_*`-waarden komen uit het GGM (dat een `gemma.csv` importeert). In `ggm_parsed.json` staan ze als `gemma_tags`; in BO-frontmatter als `ggm_gemma_*`.
 - [BO14] **Geen wiki-beoordeling in gemma_\*-velden** — NOOIT `gemma_*`/`ggm_gemma_*` vullen vanuit wiki-beoordeling; wiki-eigen inhoud gaat naar `bo_*`.
 - [BO15] **bo_subtypes blijft in gebruik** — `bo_subtypes` is in gebruik (NIET deprecated): per item `naam`, `omschrijving`, `ggm_entiteit`, `ggm_guid`, `ggm_attribuut`. `tools/entiteitendekking.py` leest de items met `ggm_attribuut: generalisatie` voor de dekking van GGM-specialisaties; lint, export en enrichment gebruiken het ook. NIET verwijderen.
@@ -245,6 +247,8 @@ Bedrijfsarchitectuur/
 │   ├── Bedrijfsobjecten/  # BO-pagina's, georganiseerd per {taakveld}/{beleidsdomein}/
 │   ├── Actoren/           # Business Actor-pagina's (plat)
 │   ├── Rollen/            # Business Role-pagina's (plat)
+│   ├── Bedrijfsfuncties/  # Business Function-pagina's, per {taakveld}/{beleidsdomein}/
+│   ├── Bedrijfsprocessen/ # Business Process-pagina's, per {taakveld}/{beleidsdomein}/
 │   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {onderwerp}/
 │   ├── Analyses/          # per-taakveld dekkingsrapporten, hiaten, terugmeldingen
 │   ├── Vragen/            # ad-hoc vraag-antwoord-pagina's (zie §1)

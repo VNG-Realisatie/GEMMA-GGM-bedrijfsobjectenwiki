@@ -25,6 +25,8 @@ Classificeer het begrip als een van deze begripstypen:
 | **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor | Ja (actor-pagina) | Deels (RSGB) |
 | **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role | Ja (rol-pagina) | Deels (RSGB) |
 | **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) | Ja (BO) | Deels (RSGB) |
+| **bedrijfsfunctie** | Gebundeld vermogen van de gemeente, organisatorisch stabiel | Business Function | Ja (functie-pagina) | Doorgaans niet (GGM dekt functies niet compleet) |
+| **bedrijfsproces** | Reeks activiteiten met begin, einde en specifiek resultaat | Business Process | Ja (proces-pagina) | Doorgaans niet (GGM dekt processen niet compleet) |
 | **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
 | **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
 | **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
@@ -32,6 +34,8 @@ Classificeer het begrip als een van deze begripstypen:
 **Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/entiteitendekking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
 
 **Actor/rol-onderscheid:** volg de definities en diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]. Beslisvraag: gaat het begrip over *wie* iets doet (actor) of *in welke verantwoordelijkheid* iets wordt gedaan (rol)? Een doelgroep is géén actor of rol maar een classificatie waarmee actoren worden ingedeeld — behandel als gewoon BO.
+
+**Functie/proces-onderscheid:** volg de definities en diagnostische vragen op [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]. Beslisvraag: gaat het begrip over *wat de gemeente kan* (functie) of *hoe een specifiek resultaat tot stand komt* (proces)? Dit begripstype geldt specifiek voor begrippen die zelf als bedrijfsfunctie/-proces worden vastgelegd (bijv. omdat een BO ernaar verwijst via het `bedrijfsfuncties`/`bedrijfsprocessen`-veld, zie `templates/element.md`) — niet voor elk proces dat terloops in een bron wordt genoemd.
 
 **Stop-regel:** thema / doel / waarde = geen element-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
 
@@ -42,6 +46,14 @@ Toets tegen de diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en
 Toets daarnaast **onafhankelijk** de 6 BO-criteria (Stap 7): worden er ook gegevens over dit begrip vastgelegd en haalt het de criteria, dan komt er **óók** een aparte bedrijfsobject-pagina in `Wiki/Bedrijfsobjecten/` — twee pagina's dus, elk met eigen definitie vanuit het eigen perspectief, gekoppeld via `element_tegenhangers` in de frontmatter en een cross-link in de tekst (zie `templates/element.md`). Beide pagina's mogen dezelfde `ggm_guid` dragen.
 
 Het [[gemeentelijk perspectief]] blijft gelden: alleen actoren/rollen die de gemeente zelf ziet, inzet of waarmee zij direct handelt; louter externe context krijgt geen pagina.
+
+### Stap 2c: Functie/proces-toets (alleen bij begripstype bedrijfsfunctie of bedrijfsproces)
+
+Toets tegen de diagnostische vragen op [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] (6 vragen per type). Meeste vragen (4+) met ja beantwoord = het begrip kwalificeert als bedrijfsfunctie resp. bedrijfsproces en krijgt een eigen pagina in `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/` of `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/`.
+
+Anders dan bij actor/rol is het twee-pagina-patroon hier de **uitzondering**: een bedrijfsfunctie/-proces krijgt alleen óók een BO-pagina als de 6 BO-criteria (Stap 7) zelfstandig slagen — dat is bij functies/processen ongebruikelijk (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] §Verhouding tot bedrijfsobjecten). Toets Stap 7 dus wel, maar verwacht meestal een negatieve uitkomst.
+
+Het [[gemeentelijk perspectief]] blijft gelden: alleen functies/processen die de gemeente zelf uitvoert of aanstuurt; ketenpartnerprocessen blijven context.
 
 ### Stap 3: Abstractieniveau bepalen
 
@@ -59,6 +71,7 @@ Combinatieregels:
 | governance-instrument + operationeel | BO-kandidaat (governance-object), GGM-hiaat verwacht |
 | actor/rol + operationeel | Actor-/rol-pagina (Stap 2b); daarnaast BO-pagina als de 6 BO-criteria ook slagen |
 | doelgroep + operationeel | BO-kandidaat (classificatie), geen actor/rol-pagina |
+| bedrijfsfunctie/bedrijfsproces + operationeel | Functie-/proces-pagina (Stap 2c); BO-pagina alleen bij uitzondering (6 BO-criteria slagen zelfstandig) |
 
 ### Stap 3b: Duplicaat/homoniem-detectie (signaal)
 
@@ -194,7 +207,7 @@ Formuleer als terugmelding:
 ### Stap 11: LLM-autonomieregels
 
 **Zelfstandig afhandelen** wanneer ALLE drie voorwaarden waar zijn:
-1. Begripstype is `object`, `actor`, `rol` of `doelgroep`, en abstractieniveau is `operationeel`
+1. Begripstype is `object`, `actor`, `rol`, `doelgroep`, `bedrijfsfunctie` of `bedrijfsproces`, en abstractieniveau is `operationeel`
 2. Minstens 5 van de 6 BO-criteria zijn van toepassing
 3. GGM-matchsterkte is `exact` of `sterk`
 

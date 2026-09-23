@@ -48,11 +48,14 @@ import yaml
 
 BASE = Path(__file__).resolve().parent.parent
 WIKI = BASE / 'Wiki'
-BO_DIRS = [WIKI / 'Bedrijfsobjecten', WIKI / 'Actoren', WIKI / 'Rollen']
+BO_DIRS = [WIKI / 'Bedrijfsobjecten', WIKI / 'Actoren', WIKI / 'Rollen', WIKI / 'Bedrijfsfuncties', WIKI / 'Bedrijfsprocessen']
 GGM_PARSED = BASE / 'Sources' / 'GGM-repository' / 'ggm_parsed.json'
 
 VALID_GRONDSLAG = {'ggm-entiteit', 'ggm-afgeleid', 'procesobject', 'governance-object'}
-VALID_ARCHIMATE_TYPE = {'business-object', 'contract', 'product', 'business-actor', 'business-role'}
+VALID_ARCHIMATE_TYPE = {
+    'business-object', 'contract', 'product', 'business-actor', 'business-role',
+    'business-function', 'business-process',
+}
 VALID_GGM_UML_TYPE = {'Class', 'Enumeration'}
 
 
@@ -194,10 +197,14 @@ def check_frontmatter_completeness(files):
             wrong_folder.append((rel(f), 'business-actor niet in Wiki/Actoren/'))
         elif archimate_type == 'business-role' and 'Rollen' not in str(f):
             wrong_folder.append((rel(f), 'business-role niet in Wiki/Rollen/'))
-        elif archimate_type not in (None, 'business-actor', 'business-role') and (
-            'Actoren' in str(f) or 'Rollen' in str(f)
+        elif archimate_type == 'business-function' and 'Bedrijfsfuncties' not in str(f):
+            wrong_folder.append((rel(f), 'business-function niet in Wiki/Bedrijfsfuncties/'))
+        elif archimate_type == 'business-process' and 'Bedrijfsprocessen' not in str(f):
+            wrong_folder.append((rel(f), 'business-process niet in Wiki/Bedrijfsprocessen/'))
+        elif archimate_type not in (None, 'business-actor', 'business-role', 'business-function', 'business-process') and (
+            'Actoren' in str(f) or 'Rollen' in str(f) or 'Bedrijfsfuncties' in str(f) or 'Bedrijfsprocessen' in str(f)
         ):
-            wrong_folder.append((rel(f), f'{archimate_type} staat in Actoren/Rollen'))
+            wrong_folder.append((rel(f), f'{archimate_type} staat in Actoren/Rollen/Bedrijfsfuncties/Bedrijfsprocessen'))
     return missing_grondslag, missing_ggm_fields, invalid_enum, wrong_folder
 
 
@@ -363,6 +370,115 @@ def check_orphan_bos():
         if needle not in overzicht_text:
             orphans.append(rel(f))
     return orphans
+
+
+def check_bronsamenvatting_verwerkt():
+    """Elke Wiki/Bronsamenvattingen/-pagina hoort in de bronnenlijst van een
+    Wiki/Onderwerpoverzichten/-pagina te staan (ingest stap 7). Analoog aan
+    check_orphan_bos, maar dan voor bronsamenvattingen i.p.v. BO's — dekt de
+    bottom-up ingest-controle "is deze bronsamenvatting verwerkt?"."""
+    overzicht_text = ''
+    for f in (WIKI / 'Onderwerpoverzichten').glob('*.md'):
+        overzicht_text += f.read_text(encoding='utf-8') + '\n'
+    orphans = []
+    for f in sorted((WIKI / 'Bronsamenvattingen').rglob('*.md')):
+        needle = f'[[{wiki_relpath_no_ext(f)}'
+        if needle not in overzicht_text:
+            orphans.append(rel(f))
+    return orphans
+
+
+def check_functies_processen_links(files):
+    """`bedrijfsprocessen`/`bedrijfsfuncties` op BO/actor/rol-pagina's horen
+    wiki-links te zijn naar Wiki/Bedrijfsprocessen//Bedrijfsfuncties/-pagina's
+    (CLAUDE.md BO12), niet vrije tekst. Retourneert:
+    - vrije_tekst: items die nog geen wiki-link zijn (migratie-restant van vóór het besluit)
+    - dode_links: wiki-links die niet naar een bestaande pagina wijzen
+    - wees: Bedrijfsfuncties/Bedrijfsprocessen-pagina's die door niets worden genoemd
+    """
+    link_re = re.compile(r'\[\[([^\]|]+)')
+    referenced = set()
+    vrije_tekst, dode_links = [], []
+    for f in files:
+        if 'Bedrijfsfuncties' in str(f) or 'Bedrijfsprocessen' in str(f):
+            continue
+        fm, _, _ = parse_frontmatter(f)
+        if fm is None:
+            continue
+        for veld in ('bedrijfsprocessen', 'bedrijfsfuncties'):
+            items = fm.get(veld) or []
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                text = str(item).strip()
+                if not text:
+                    continue
+                m = link_re.search(text)
+                if not m:
+                    vrije_tekst.append((rel(f), veld, text))
+                    continue
+                path = m.group(1).strip()
+                referenced.add(path)
+                candidate = BASE / (path if path.endswith('.md') else f'{path}.md')
+                if not candidate.exists():
+                    dode_links.append((rel(f), veld, path))
+    wees = []
+    for sub in ('Bedrijfsfuncties', 'Bedrijfsprocessen'):
+        d = WIKI / sub
+        if not d.exists():
+            continue
+        for f in sorted(d.rglob('*.md')):
+            if wiki_relpath_no_ext(f) not in referenced:
+                wees.append(rel(f))
+    return vrije_tekst, dode_links, wees
+
+
+def _bronsamenvatting_heeft_geldige_sourcelink(text):
+    for m in re.finditer(r'\[\[(Sources/[^\]|]+)\]\]', text):
+        path = m.group(1).strip()
+        candidate = BASE / (path if path.endswith('.md') else f'{path}.md')
+        if candidate.exists():
+            return True
+    return False
+
+
+def check_traceability_naar_bron(files):
+    """Eén samengestelde end-to-end check per BO: bestaat er een volledig
+    doorklikbaar pad BO -> onderwerpoverzicht -> bronsamenvatting -> brondocument
+    in Sources/? Combineert check_orphan_bos, check_bronnen_section en
+    check_source_links tot één "geen pad naar brondocument"-signaal per BO in
+    plaats van drie losse deelbevindingen die apart geïnterpreteerd moeten
+    worden. Alleen Wiki/Bedrijfsobjecten/ (actor/rol/functie/proces staan niet
+    in onderwerpoverzicht-begrippentabellen, zie check_orphan_bos)."""
+    overzicht_text = ''
+    for f in (WIKI / 'Onderwerpoverzichten').glob('*.md'):
+        overzicht_text += f.read_text(encoding='utf-8') + '\n'
+
+    valid_bronsamenvattingen = set()
+    for f in sorted((WIKI / 'Bronsamenvattingen').rglob('*.md')):
+        if _bronsamenvatting_heeft_geldige_sourcelink(f.read_text(encoding='utf-8')):
+            valid_bronsamenvattingen.add(wiki_relpath_no_ext(f))
+
+    broken = []
+    for f in files:
+        if 'Bedrijfsobjecten' not in str(f):
+            continue
+        needle = f'[[{wiki_relpath_no_ext(f)}'
+        if needle not in overzicht_text:
+            broken.append((rel(f), 'niet gelinkt vanuit onderwerpoverzicht'))
+            continue
+        _, _, body = parse_frontmatter(f)
+        section = get_section(body, 'Bronnen')
+        if section is None:
+            broken.append((rel(f), 'geen ## Bronnen-sectie'))
+            continue
+        links = re.findall(r'\[\[(Wiki/Bronsamenvattingen/[^\]|]+)\]\]', section)
+        if not links:
+            broken.append((rel(f), '## Bronnen-sectie zonder bronsamenvatting-link'))
+            continue
+        if not any(l.strip() in valid_bronsamenvattingen for l in links):
+            broken.append((rel(f), 'geen van de gelinkte bronsamenvattingen heeft een geldige Sources-link'))
+    return broken
 
 
 def check_begrippen_directory():
@@ -777,6 +893,7 @@ def main():
         dead_links, orphan_sources = check_source_links()
         report['Dode Sources-link in bronsamenvatting (kapot pad)'] = [f'{f}: [[{p}]]' for f, p in dead_links]
         report['Source zonder bronsamenvatting-referentie (excl. Niet-relevant/)'] = orphan_sources
+        report['Bronsamenvatting niet verwerkt in onderwerpoverzicht'] = check_bronsamenvatting_verwerkt()
 
     missing_grondslag, missing_ggm_fields, invalid_enum, wrong_folder = check_frontmatter_completeness(files)
     report['Ontbrekende grondslag'] = missing_grondslag
@@ -811,8 +928,20 @@ def main():
 
     report['bo_synoniemen item mist naam/context'] = check_synoniemen(files)
 
+    report['Element zonder volledig pad naar brondocument (BO -> onderwerpoverzicht -> bronsamenvatting -> Sources)'] = [
+        f'{f}: {reden}' for f, reden in check_traceability_naar_bron(files)
+    ]
+
     if not scope:
         report['Wees-BO (niet gelinkt vanuit onderwerpoverzicht)'] = check_orphan_bos()
+        vrije_tekst_fp, dode_links_fp, wees_fp = check_functies_processen_links(files)
+        report['bedrijfsprocessen/bedrijfsfuncties: vrije tekst i.p.v. wiki-link'] = [
+            f'{f} ({veld}): {t}' for f, veld, t in vrije_tekst_fp
+        ]
+        report['bedrijfsprocessen/bedrijfsfuncties: dode wiki-link'] = [
+            f'{f} ({veld}): [[{p}]]' for f, veld, p in dode_links_fp
+        ]
+        report['Wees-bedrijfsfunctie/-proces (door geen enkel element genoemd)'] = wees_fp
         begrippen_exists, begrippen_dead_links = check_begrippen_directory()
         report['Wiki/Begrippen/ directory bestaat (mag niet)'] = ['Wiki/Begrippen/ bestaat!'] if begrippen_exists else []
         report['Dode [[Wiki/Begrippen/ links'] = begrippen_dead_links
