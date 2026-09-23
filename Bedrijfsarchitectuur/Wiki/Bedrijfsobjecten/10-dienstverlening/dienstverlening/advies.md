@@ -48,6 +48,11 @@ bo_relaties:
     richting: van-dit-BO
     kardinaliteit: "1..1"
     beschrijving: Een advies wordt vastgelegd in een document
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/bibob-toets|Bibob-toets]]"
+    richting: naar-dit-BO
+    kardinaliteit: "0..1"
+    beschrijving: Het Bibob-advies van het Landelijk Bureau Bibob is een specialisatie van Advies, uitgebracht als onderdeel van een Bibob-toets
 bedrijfsprocessen: [Adviesaanvraag en -uitbrenging, Actieve openbaarmaking]
 bedrijfsfuncties: [Beleidsontwikkeling, Vergunningverlening]
 ---
@@ -92,9 +97,11 @@ Het advies ontstaat in het proces van beleids- of besluitvoorbereiding, wanneer 
 | generalisatie | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies\|Welstandsadvies]] | → | Welstandsadvies is een specialisatie van Advies |
 | associatie | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit\|Besluit]] | → | Onderbouwt eventuele besluitvorming |
 | associatie | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document\|Document]] | → | Vastgelegd in een document |
+| associatie | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/bibob-toets\|Bibob-toets]] | ← | Bibob-advies (uitgebracht door het [[Wiki/Actoren/landelijk-bureau-bibob\|Landelijk Bureau Bibob]]) is een specialisatie van Advies |
 
 ## Bronnen
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/wet-open-overheid-actieve-openbaarmaking]]
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/wet-bibob-bwbr0013798]]
 
 ## Terugmelding GGM
 

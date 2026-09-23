@@ -191,11 +191,13 @@ Status: 148 bronnen in 24 batches.
 - [x] procesbeschrijving-ijw-3.1 (Ketenbureau i-Sociaal Domein, PDF, procesbeschrijvingen iJw 3.1 berichtenverkeer) → verrijking bestaande BO's + 8 begrippen
 - [x] informatiemodel-gizo-concept (Zorginstituut Nederland, PDF concept 2025-11, conceptueel informatiemodel iWmo/iJw/iEb met GGM-aansluiting) → 2 nieuwe BO's: Zorgdeclaratie, Eigen bijdrage
 
-## Milieu (4)
-- [ ] afval-en-circulaire-economie
-- [ ] asbest
-- [ ] rubriek-milieu
-- [ ] zeer-zorgwekkende-stoffen
+## ~~Milieu (4)~~ ✓
+- [x] afval-en-circulaire-economie → Niet-relevant
+- [x] asbest → gevlagd, te dun voor BO, blijft in Sources/Milieu/
+- [x] rubriek-milieu → Niet-relevant
+- [x] zeer-zorgwekkende-stoffen → Niet-relevant
+
+> **Afgehandeld (2026-09-23, backlog-checkboxes retroactief bijgewerkt):** zie `Wiki/log.md` "milieu afgerond". 11 bronsamenvattingen, 72 begrippen, 36 BO's.
 
 ## ~~Omgevingswet (10 + 1 aanvullend)~~ ✓
 - [x] digitaal-stelsel-omgevingswet-dso → Niet-relevant
@@ -220,8 +222,10 @@ Status: 148 bronnen in 24 batches.
 
 > **Afgehandeld:** 9 VNG-portaalpagina's + 1 beleidsplan naar Niet-relevant. 7 bronsamenvattingen, 37 begrippen, 11 BO's. Eerste ronde: 5 BO's (VTH-zaak, Inspectie, Bevinding, Handhavingsbesluit, Register). Tweede ronde: 6 BO's (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel — alle exact GGM-match IMOW/CIMOW). GGM Omgevingswet-domein (31 entiteiten): 17 beoordeeld, 14 resterend (actoren, classificaties, verzoek-gerelateerd).
 
-## Onderwijs (1)
-- [ ] soorten-kinderopvang
+## ~~Onderwijs (1)~~ ✓
+- [x] soorten-kinderopvang → subtype "Tussenschoolse opvang" bij Kinderopvangvoorziening
+
+> **Afgehandeld (2026-09-23, backlog-checkboxes retroactief bijgewerkt):** zie `Wiki/log.md` "onderwijs afgerond". 11 bronsamenvattingen, 31 begrippen, 11 BO's.
 
 ## ~~Openbare Gezondheid (5)~~ ✓
 - [x] gezond-en-actief-leven
@@ -235,17 +239,25 @@ Status: 148 bronnen in 24 batches.
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] kerntaken-infectieziektebestrijding (GGD GHOR Nederland, PDF, adviesrapport 7 kerntaken IZB) → 1 BO: Infectieziektemelding (procesobject, GGM-hiaat)
 
-## Openbare Orde en Veiligheid (10)
-- [ ] aanpak-radicalisering
-- [ ] alcoholwet
-- [ ] gemeentelijke-handhaving-boas
-- [ ] jaarwisseling-en-vuurwerk
-- [ ] maatschappelijke-onrust-en-desinformatie
-- [ ] ondermijning
-- [ ] rubriek-openbare-orde-en-veiligheid
-- [ ] softdrugsbeleid
-- [ ] weerbare-samenleving
-- [ ] zorg-en-veiligheidshuizen
+## ~~Openbare Orde en Veiligheid (10 + 4 aanvullend)~~ ✓
+- [x] aanpak-radicalisering → Niet-relevant
+- [x] alcoholwet → Niet-relevant (dunne VNG-samenvatting, vervangen door volledige wettekst)
+- [x] gemeentelijke-handhaving-boas → eigen bronsamenvatting, signaal voor rol BOA
+- [x] jaarwisseling-en-vuurwerk → Niet-relevant
+- [x] maatschappelijke-onrust-en-desinformatie → Niet-relevant
+- [x] ondermijning → Niet-relevant (dunne VNG-samenvatting, vervangen door Wet Bibob en de Handreiking)
+- [x] rubriek-openbare-orde-en-veiligheid → Niet-relevant
+- [x] softdrugsbeleid → Niet-relevant (coffeeshop gesignaleerd, te dun voor BO)
+- [x] weerbare-samenleving → Niet-relevant
+- [x] zorg-en-veiligheidshuizen → Niet-relevant (actor gesignaleerd, te dun voor BO)
+
+### Aanvullende bronnen (niet in oorspronkelijke batch, 2026-09-23)
+- [x] wet-bibob-bwbr0013798 (Rijksoverheid, wetten.overheid.nl, Wet Bibob — integriteitsbeoordeling vergunningen/subsidies/opdrachten, Bibob-advies LBB) → 1 BO: Bibob-toets, 1 actor: Landelijk Bureau Bibob
+- [x] alcoholwet-wettekst (Rijksoverheid, wetten.overheid.nl, volledige wettekst — preventie- en handhavingsplan art. 43a, verordeningsbevoegdheden) → 2 BO's: Preventie- en handhavingsplan alcohol, Alcoholoverlastgebied
+- [x] regeling-domeinlijsten-boa (Min. J&V, wetten.overheid.nl, 6 domeinen + bevoegdheden voor buitengewoon opsporingsambtenaren) → bevestigt rol BOA (GGM exact)
+- [x] handreiking-apv-en-ondermijning (Aanjaagteam Ondermijning/VNG, PDF, model-APV-bepalingen, artikel 13b Opiumwet, Bibob in de praktijk, coffeeshopbeleid) → onderbouwt Bibob-toets, Veiligheidsrisicogebied, Sluitingsbesluit
+
+> **Afgehandeld:** Gemeentewet-artikelen 151b/174/174a/174b hergebruikt uit de al eerder ge-ingeste volledige wettekst onder Bestuur (`gemeentewet-wettekst`), niet opnieuw opgehaald. 5 bronsamenvattingen, 9 niet-relevant. 5 nieuwe BO's (Bibob-toets, Preventie- en handhavingsplan alcohol, Alcoholoverlastgebied, Veiligheidsrisicogebied, Sluitingsbesluit), 1 actor (Landelijk Bureau Bibob), 1 rol (BOA, GGM exact). Domein open: Coffeeshop en Zorg- en Veiligheidshuis gesignaleerd maar niet uitgewerkt (bron te dun); model-APV-vergunningplichten (evenementen, autoverhuur, glazenwassers, spyshops, woningverhuur) nog te onderzoeken op overlap met bestaande domeinspecifieke BO's.
 
 ## ~~Recht (9 + 1 aanvullend)~~ ✓
 - [x] algemene-plaatselijke-verordening-apv → Niet-relevant (te dun, puur portaal)

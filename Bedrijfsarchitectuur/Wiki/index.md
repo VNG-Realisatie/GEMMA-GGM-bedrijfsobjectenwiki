@@ -37,6 +37,7 @@
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/recht|recht]] — Bestuursrecht, gemeentelijke organisatie, modelverordeningen, overheidsprivaatrecht en subsidierecht (afgerond, 3 BO's)
+- [[Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid|openbare-orde-en-veiligheid]] — Handhaving openbare orde en aanpak ondermijning: BOA, Bibob-toets, preventie- en handhavingsplan alcohol, alcoholoverlastgebied, veiligheidsrisicogebied, sluitingsbesluit (in behandeling, 5 BO's)
 
 ## Bedrijfsobjecten
 
@@ -247,6 +248,13 @@
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/handhavingsbesluit|handhavingsbesluit]] — Formeel besluit om bij overtreding een sanctie op te leggen (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies|welstandsadvies]] — Formeel oordeel over welstandseisen bij bouwaanvraag (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/register-omgevingsplan|register-omgevingsplan]] — Verzameling feitelijke informatie bij planregels, statisch of dynamisch (procesobject, GGM-hiaat)
+
+### Openbare Orde en Veiligheid (GGM taakveld 1 + procesobjecten)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/bibob-toets|bibob-toets]] — Beoordeling van de mate van gevaar op misbruik van een beschikking, opdracht of vastgoedtransactie (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/preventie-en-handhavingsplan-alcohol|preventie- en handhavingsplan alcohol]] — Vierjaarlijks vast te stellen plan voor preventie alcoholgebruik en handhaving, art. 43a Alcoholwet (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/alcoholoverlastgebied|alcoholoverlastgebied]] — Bij verordening aangewezen gebied met aanvullend alcoholregime, art. 25f Alcoholwet (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/veiligheidsrisicogebied|veiligheidsrisicogebied]] — Door de burgemeester aangewezen gebied t.b.v. preventief fouilleren, art. 151b/174b Gemeentewet (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/sluitingsbesluit|sluitingsbesluit]] — Besluit van de burgemeester tot (tijdelijke) sluiting van een pand, art. 174/174a Gemeentewet, art. 13b Opiumwet (procesobject, GGM-hiaat)
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
@@ -514,6 +522,7 @@ Business Actors (ArchiMate) — handelende personen, organisaties en organisator
 - [[Wiki/Actoren/biz-organisatie|biz-organisatie]] — Extern opgericht, maar de gemeente heeft een directe subsidie- en uitvoeringsovereenkomst met deze organisatie
 - [[Wiki/Actoren/raadscommissie|raadscommissie]] — Groep raadsleden die raadsbesluitvorming per thema voorbereidt en adviseert (GGM exact)
 - [[Wiki/Actoren/acoi|acoi]] — Onafhankelijk wettelijk adviescollege voor openbaarheid en informatiehuishouding, adviseert en bemiddelt bij Woo-klachten (governance-object, precedent: ombudsman)
+- [[Wiki/Actoren/landelijk-bureau-bibob|landelijk-bureau-bibob]] — Zelfstandig orgaan dat adviseert over de mate van gevaar bij Bibob-toetsen (governance-object, precedent: ombudsman, acoi)
 
 ## Rollen
 
@@ -521,6 +530,7 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 
 - [[Wiki/Rollen/aanwezige-deelnemer|aanwezige-deelnemer]] — Deelname aan college- of raadsvergadering (tegenhanger: BO aanwezige-deelnemer)
 - [[Wiki/Rollen/belanghebbende|belanghebbende]] — Awb-hoedanigheid: rechtstreeks belang bij een besluit (GGM exact)
+- [[Wiki/Rollen/boa|boa]] — Ambtenaar met een specifieke, bij domeinlijst afgebakende opsporingsbevoegdheid (GGM exact)
 - [[Wiki/Rollen/clientbegeleider|clientbegeleider]] — Verantwoordelijk voor het ondersteuningsplan van een cliënt (GGM exact)
 - [[Wiki/Rollen/collegelid|collegelid]] — Lidmaatschap van het college van B&W (tegenhanger: BO collegelid)
 - [[Wiki/Rollen/contactpersoon|contactpersoon]] — Aanspreekpunt namens een organisatie (tegenhanger: BO contactpersoon)
@@ -879,6 +889,13 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 
 ### Inkoop
 - [[Wiki/Bronsamenvattingen/Inkoop/inkoop-en-aanbestedingsbeleid|Gemeentelijk inkoop- en aanbestedingsbeleid]] — VNG-model + OVER-gemeenten + West-Betuwe: inkoopproces, aanbestedingsprocedures, drempelbedragen, MVOI, contractbeheer
+
+### Openbare Orde en Veiligheid
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/wet-bibob-bwbr0013798|Wet Bibob]] — Rijksoverheid: integriteitsbeoordeling vergunningen/subsidies/opdrachten/vastgoedtransacties
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/alcoholwet-wettekst|Alcoholwet — wettekst]] — Rijksoverheid: verordeningsbevoegdheden, preventie- en handhavingsplan, alcoholoverlastgebied
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/regeling-domeinlijsten-boa|Regeling domeinlijsten BOA]] — Min. J&V: zes domeinen en bevoegdheden voor buitengewoon opsporingsambtenaren
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/handreiking-apv-en-ondermijning|Handreiking APV en ondermijning]] — Aanjaagteam Ondermijning/VNG: model-APV-bepalingen, menukaart bestuurlijke interventies
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/gemeentelijke-handhaving-boas|Gemeentelijke handhaving (boa's)]] — VNG: oorspronkelijk signaal voor de rol BOA
 
 ## Analyses
 
