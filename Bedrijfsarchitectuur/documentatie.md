@@ -4,7 +4,7 @@ Uitleg van de werkwijze, het proces en de rol van het GGM. Voor regels, structuu
 
 ## Kernidee: LLM-wiki (Karpathy)
 
-De aanpak volgt het [LLM-wiki-patroon van Karpathy](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f): kennis wordt niet telkens opnieuw verzameld, maar stapsgewijs opgebouwd in een wiki. Elke nieuwe bron wordt gelezen, samengevat en verwerkt in bestaande pagina's, inclusief verwijzingen, verbanden en eventuele tegenstrijdigheden. Zo ontstaat een kennisbasis die gaandeweg rijker en consistenter wordt. De mens selecteert de bronnen en formuleert de vragen; de LLM ondersteunt bij het samenvatten, verbinden en onderhouden van de kennis.
+Generiek voor alle wiki's in deze repo, zie [agent/documentatie.md](../agent/documentatie.md) §Kernidee.
 
 ## Doel
 
@@ -105,6 +105,8 @@ Het GGM is hiërarchisch opgebouwd: **taakvelden** (afgeleid van IV3) bevatten *
 
 ## Skills
 
+Wiki-specifieke skills. Generieke skills (`crawl`, `setup-omgeving`) staan in [agent/documentatie.md](../agent/documentatie.md) §Skills.
+
 Waar van toepassing staat de aangeroepen **Tool** (Python-script uit `tools/` — zie §"Tools" voor details) als tweede regel onder de Functie. Waar de skill zelf een pagina schrijft staat het gebruikte **template** uit `templates/` direct achter dat bestand, tussen haakjes. Elk output-bestand/-locatie staat op een eigen regel. "chat" bij Uit = geen bestand, alleen een antwoord/rapportage.
 
 | Skill | Functie | In | Uit |
@@ -115,18 +117,15 @@ Waar van toepassing staat de aangeroepen **Tool** (Python-script uit `tools/` �
 | **write-element**<br>`/write-element {element}` | Element vastleggen: GGM-match, frontmatter, pagina aanmaken<br>Tool: `parse_ggm_xmi.py` (optioneel, bij nieuwe GGM-release) | beoordeeld element + `ggm_parsed.json` | `Wiki/Bedrijfsobjecten/` (template: `element.md`)<br>of `Wiki/Actoren/` (template: `element.md`)<br>of `Wiki/Rollen/` (template: `element.md`)<br>Bij afwijking/hiaat: regel toegevoegd aan `Wiki/Analyses/ggm-terugmeldingen.md` (template: `ggm-terugmelding.md`) |
 | **entiteitendekking**<br>`/entiteitendekking [taakveld]` | Uniforme GGM-analyse per taakveld/beleidsdomein: BO-matches, classificatie, relaties, hiaten<br>Tool: `entiteitendekking.py`, `entiteitendekking_sync_bo.py` | `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` | `Wiki/Analyses/entiteitendekking/` (eigen rapportformat, geen template)<br>teruggeschreven `analyse_ggm_dekking` in BO-frontmatter |
 | **domain-status**<br>`/domain-status {onderwerp}` | Read-only voortgangsrapportage | `Wiki/` voor onderwerp | chat |
-| **lint**<br>`/lint [onderwerp]` | Twee stappen: deterministisch script (exacte telling), dan modelbeoordeling van wat overblijft<br>Tool: `lint_checks.py` (stap 1, altijd), `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
-| **audit-duplicaten**<br>`/audit-duplicaten` | Systematische scan op naamconflicten (duplicaten/homoniemen) in alle BO's | `Wiki/Bedrijfsobjecten/` | chat, voorstellen (geen automatische fix) |
-| **audit-actoren**<br>`/audit-actoren` | Controleer Business Actors op consistentie en volledigheid | `Wiki/Bedrijfsobjecten/` + `Wiki/Bronsamenvattingen/` | werkvoorraadlijst (chat) — vervolg via element-pipeline |
-| **audit-definities**<br>`/audit-definities` | Controleer BO-definities op afwijkingen van GGM | `Wiki/Bedrijfsobjecten/` + `ggm_parsed.json` | chat, optioneel direct herschreven `bo_definitie`/`bo_toelichting` |
+| **lint**<br>`/lint [onderwerp]` | Volledig mechanisch/technisch: deterministisch script (exacte telling), dan modelbeoordeling van wat nog niet gescript is<br>Tool: `lint_checks.py` (stap 1, altijd), `migrate_frontmatter_style.py` (bij fix) | hele wiki of onderwerp | chat |
+| **audit-element**<br>`/audit-element {modus} [scope]` | Volledig inhoudelijk, alle elementtypen (BO/actor/rol): drie modi — `definities` (afwijkingen van GGM/bronnen), `duplicaten` (naamconflicten), `werkvoorraad` (ontbrekende actor-/rolpagina's) | `Wiki/Bedrijfsobjecten/` + `Wiki/Actoren/` + `Wiki/Rollen/` + `ggm_parsed.json` | chat; modus `definities` kan direct `bo_definitie`/`bo_toelichting` herschrijven; modus `werkvoorraad` levert een werkvoorraadlijst (vervolg via element-pipeline) |
 | **fetch**<br>`/fetch {URL}` | URL ophalen als bronbestand in `Sources/` | URL | `Sources/{onderwerp}/*.md` |
 | **clip**<br>`/clip {bestand}` | Clipping uit `Clippings/` verplaatsen naar `Sources/`<br>Roept: `/convert_pdf` (indien pdf) | `Clippings/*.md` | `Sources/{onderwerp}/*.md` |
 | **convert_pdf**<br>`/convert_pdf {bestand}` | PDF converteren naar markdown voor `Sources/`<br>Tool: `convert_pdf.py` | PDF | markdown naast origineel |
-| **crawl**<br>`/crawl {URL}` | Spidering/scraping van website voor bronverzameling | URL(s) | chat (optioneel `Sources/`-bestand op verzoek) |
 | **export-ggm**<br>`/export-ggm` | Genereer 5 CSV's (objecten, relaties, diagrammen, beleidsdomeinen, diagram-mapping) uit XMI + wiki<br>Tool: `export_ggm_csv.py` | `ggm_parsed.json` + `Wiki/Bedrijfsobjecten/` | `exports/*.csv` (5 bestanden) |
 | **generate-ggm**<br>`/generate-ggm` | Volledige pipeline: XMI → parsed JSON → Wiki/GGM markdown (herhaalbaar, telt alleen Objecttypen)<br>Tool: `parse_ggm_xmi.py`, `generate_ggm_wiki.py`, `generate_ggm_enrich_bo.py` | XMI-bestand | `Sources/GGM-repository/ggm_parsed.json`<br>`Wiki/GGM/**` |
 
-**Model voorkeur:** `/lint` en `/audit-duplicaten` draaien op **Haiku** (read-only analyse, geen reasoning). Andere skills draaien op het standaard project-model.
+**Model voorkeur:** staat per skill in de eigen frontmatter (`model: haiku`) als die afwijkt van het standaard project-model. Alleen `/lint` heeft deze pin (read-only analyse, geen reasoning); `/audit-element` doet inhoudelijke beoordeling en draait op het standaardmodel.
 
 ## Tools
 

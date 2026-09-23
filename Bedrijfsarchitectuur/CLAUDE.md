@@ -91,7 +91,7 @@ GGM-matching gebeurt **nadat** een begrip al op eigen kracht als BO is beoordeel
 - **Element vastleggen:** `/write-element` — grondslag, GGM-match, matchsterkte, duplicaten- en homoniemdetectie, hiërarchie, relaties, frontmatter, pagina, terugmelding
 - **Grondslag zonder GGM:** `/write-element` stap 10 — het mechanisme achter het principe uit §4: een BO zonder GGM-grondslag krijgt lege `ggm_*`-velden en in plaats daarvan een Procesbron- of Juridische bron-sectie
 - **Hiaat:** twee richtingen — GGM-entiteiten zonder BO, en BO's zonder GGM-grondslag; zie `/assess-element` voor hiaat-bepaling
-- **Onzekere matches:** markeer als `ter discussie`, niet gokken
+- **Onzekere matches:** zie [IH6]
 - **Entiteitendekking:** `/entiteitendekking` — analyseert dit systematisch per taakveld/beleidsdomein (zie §7)
 
 ## 6. Regels
@@ -117,8 +117,7 @@ Elke factische claim moet traceerbaar zijn naar zijn bron:
 - [IH3] **Bij tegenspraak beide documenteren** — ALS twee bronnen het oneens zijn → documenteer beide en markeer als `⚠️ Tegenspraak` in de BO-pagina.
 - [IH4] **Zonder bron markeren** — ALS een claim geen bron heeft → markeer als `🔍 Verificatie nodig` en voeg toe aan openstaande vragen.
 - [IH5] **BO-grondslag via Bronnen-sectie** — Elke BO moet via de `## Bronnen`-sectie in de body traceerbaar zijn naar bronsamenvattingen.
-- [IH6] **Onzekere GGM-matching als ter discussie** — Bij onzekere matches: markeer als `ter discussie`; NOOIT gokken.
-- [IH7] **Geen fantasie bij GGM-mapping** — Onzekere GGM-mapping markeren als `ter discussie`, NOOIT gokken; elke aanname documenteren.
+- [IH6] **Onzekere GGM-matching/mapping als ter discussie** — Bij onzekere matches of mapping: markeer als `ter discussie`; NOOIT gokken; documenteer elke aanname.
 
 Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar originele bronnen.
 
@@ -126,10 +125,11 @@ Dit zorgt voor **herleidbaarheid**: elke bewering kan teruggevoerd worden naar o
 
 - [VR1] **Bestandsnamen: lowercase met koppeltekens** — Bestandsnamen ALTIJD lowercase met koppeltekens (bijv. `machine-learning.md`, `verkiezing.md`); GEEN spaties of CAPITALS.
 - [VR2] **Begrijpelijk Nederlands** — Schrijf begrijpelijk Nederlands; geen technische jargon tenzij nodig; elk concept moet voor domeinexperts herkenbaar zijn.
+- [VR3] **`bo_definitie`-vormcriteria** — Geldt voor `bo_definitie` op elk elementtype (bedrijfsobject, actor, rol): kort, bij voorkeur 1 zin, ≤160 tekens. Langer mag alleen als de tekst letterlijk uit GGM of bron is overgenomen. ALTIJD een zelfstandige tekst; NOOIT "gelijk aan GGM" of een vergelijkbare verwijzing als definitie.
 
 ### Bedrijfsobjecten (BO)
 
-Regels die één skill uitvoert staan in die skill: `/assess-element` (6 criteria, abstract niveau, GGM-hiaten), `/write-element` (duplicaten/homoniemen, definities), `/audit-duplicaten`, `/ingest` (bronselectie, GGM-dekking). Hieronder alleen skill-overstijgende regels.
+Regels die één skill uitvoert staan in die skill: `/assess-element` (6 criteria, abstract niveau, GGM-hiaten), `/write-element` (duplicaten/homoniemen, definities), `/audit-element` (modus `duplicaten`), `/ingest` (bronselectie, GGM-dekking). Hieronder alleen skill-overstijgende regels.
 
 **Anti-patronen registr\***
 
@@ -173,7 +173,7 @@ Paden relatief aan `Bedrijfsarchitectuur/`.
 
 **Bestanden in Sources/**
 
-- [SRC6] **Sources/ is immutabel** — NOOIT bestanden in `Sources/` vertalen of herschrijven, en NOOIT per ongeluk uitbreiden (immutabel referentiemateriaal).
+- [SRC6] **Sources/ ook niet vertalen of uitbreiden** — Naast [PR1] (algemeen read-only): NOOIT vertalen of herschrijven, NOOIT per ongeluk uitbreiden.
 - [SRC7] **Nederlandse bronnen letterlijk bewaren** — Nederlandse bronnen: originele Nederlandse tekst letterlijk bewaren. Ophalen: `/fetch` (curl, NOOIT WebFetch).
 - [SRC8] **Alleen selectief kopiëren** — ALLEEN selectief kopiëren toegestaan: neem de beschrijvingen over; laat ruis weg (navigatie, nieuwslijsten, agenda's, gerelateerde links).
 - [SRC9] **Geen wiki-links in Sources/** — NOOIT `[[wiki-links]]` in `Sources/`. ALTIJD platte bestandsreferentie: GGM-bronbestand → `bestandsnaam.md`; wiki-pagina → volledig pad, bv. `Wiki/Analyses/bestandsnaam.md`.

@@ -64,7 +64,7 @@ ggm_duplicaat_entiteiten: []
 analyse_ggm_dekking: ""
 
 # Wiki-velden — het uit bronnen afgeleide BO-model, beheerd door het GEMMA-team via deze wiki
-bo_definitie: {definitie op bedrijfsniveau — kort, bij voorkeur 1 zin ≤160 tekens. Langer mag alleen als letterlijk uit GGM of bron overgenomen.}
+bo_definitie: {definitie op bedrijfsniveau — vormcriteria: zie CLAUDE.md [VR3]}
 bo_toelichting: {aanvulling, uitleg of voorbeelden bij de definitie — ook gebaseerd op bronnen. Leeg als de definitie volstaat.}
 bo_subtypes: []                     # Subtypes zonder eigen BO: per item naam, omschrijving, ggm_entiteit, ggm_guid, ggm_attribuut (zie /write-element Stap 6c). Body: ## Subtypes.
 bo_via_kandidaten: []

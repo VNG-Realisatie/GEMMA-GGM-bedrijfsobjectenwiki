@@ -29,20 +29,7 @@ Het onderwerpoverzicht is de **centrale werkpagina** per onderwerp. Het bevat al
 
 ### Begripstypen
 
-De kolom "Begripstype" in de begrippentabel heeft een van deze waarden:
-
-| Begripstype | Omschrijving | ArchiMate-elementtype |
-|---|---|---|
-| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object |
-| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product |
-| **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor |
-| **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) |
-| **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping |
-| **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome |
-| **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle |
-
-De BO-filterlogica (welke typen BO-kandidaat zijn) en beoordelingscriteria staan in `/assess-element`.
+De kolom "Begripstype" in de begrippentabel heeft een van de waarden uit de begripstype-tabel in `/assess-element` Stap 2 (object, governance-instrument, actor, rol, doelgroep, thema, doel, waarde) — inclusief de BO-filterlogica en beoordelingscriteria. Dit template herhaalt de tabel niet.
 
 ### Secties
 

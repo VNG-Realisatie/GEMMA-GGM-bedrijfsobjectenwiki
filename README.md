@@ -14,7 +14,7 @@ Repository met LLM-gedreven wiki's voor het Kennis Centrum Architectuur. Elke wi
 | [Bedrijfsarchitectuur/](Bedrijfsarchitectuur/readme.md) | De huidige, werkende wiki: GEMMA Bedrijfsobjectenwiki (Obsidian-vault, ook bewerkt in VS Code). Bevat `Sources/`, `Wiki/`, `templates/`, `tools/` en `exports/` |
 | [Opzet/](Opzet/README.md) | Vendor-neutrale documentatie van de huidige wiki-werkwijze (AGENTS.md, context, workflows, prompts, adapters). Nooit aanpassen vanuit OpzetII-werk |
 | [OpzetII/](OpzetII/README.md) | Nieuw, greenfield ontwerp: ArchiMate-model als bron van waarheid, type-gerichte analyse, kandidaatpagina's met statuscyclus. Bouwen vanuit [overdracht.md](OpzetII/overdracht.md) |
-| [agent/](agent/) | Generieke regels ([rules/werkwijze.md](agent/rules/werkwijze.md)) en tools ([tools/crawl4ai/](agent/tools/crawl4ai/)) voor alle wiki's |
+| [agent/](agent/) | Generieke regels ([rules/werkwijze.md](agent/rules/werkwijze.md)), documentatie en skills ([documentatie.md](agent/documentatie.md)) en tools ([tools/crawl4ai/](agent/tools/crawl4ai/)) voor alle wiki's |
 | [documentatie/](documentatie/) | Achtergrondmateriaal: ArchiMate-modellering, criteria voor bedrijfs- en data-objecten, LLM-wiki-patroon |
 | [.claude/commands/](.claude/commands/) | Slash-commands voor Claude Code (`crawl`, `setup-omgeving` en de wiki-commands via `BAlink`) |
 

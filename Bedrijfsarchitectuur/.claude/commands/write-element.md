@@ -108,7 +108,7 @@ Zoek op entiteitnaam en vul het volledige frontmatter-schema:
 
 **Wiki-velden (BO-model):**
 
-`bo_definitie` — kort, helder, goed leesbaar. Bij voorkeur 1 zin, max ~160 tekens. Langer mag alleen als de tekst letterlijk uit GGM of bron wordt overgenomen. Bepaal als volgt:
+`bo_definitie` — vormcriteria: zie [VR3]. Bepaal de inhoud als volgt:
 
 1. **GGM-definitie toetsen aan bronnen.** Vergelijk `ggm_definitie` (of `ggm_gemma_definitie` als die er is) inhoudelijk met de Sources-bestanden van dit onderwerp. Een GGM-definitie die leeg is, alleen een placeholder bevat (bijv. `~`, `-`, `?`, `TODO`) of geen inhoudelijke omschrijving geeft, telt als "geen definitie" — behandel als scenario 3 (zonder GGM-match).
 2. **Drie scenario's:**

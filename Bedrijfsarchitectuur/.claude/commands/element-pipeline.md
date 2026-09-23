@@ -3,7 +3,7 @@ Verwerk begrip(pen) tot element: $ARGUMENTS
 Input: begripsnaam (of lijst/onderwerp), nog niet beoordeeld.
 Output: BO-/actor-/rol-pagina bij een positieve beoordeling, anders een afwijzing met reden. Bevat zelf geen beoordelings- of vastlegginglogica — orchestreert alleen `/assess-element` en `/write-element`.
 
-Orchestrator voor de keten "begrip → beoordeeld → vastgelegd". Enige plek waar deze sequencing staat: wordt aangeroepen door `/ingest` en `/audit-actoren`, en kan ook direct door de gebruiker voor een los begrip worden gestart.
+Orchestrator voor de keten "begrip → beoordeeld → vastgelegd". Enige plek waar deze sequencing staat: wordt aangeroepen door `/ingest` en `/audit-element` (modus `werkvoorraad`), en kan ook direct door de gebruiker voor een los begrip worden gestart.
 
 Volg deze stappen exact, per begrip (niet in batch — zie `/assess-element` Stap 12):
 
