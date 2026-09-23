@@ -80,4 +80,4 @@ Artefact dat in het EU-geluidbeleid en het gemeentelijke actieplan centraal staa
 
 ## Terugmelding GGM
 
-Potentieel hiaat: het GGM kent terreindelen en groenvoorzieningen, maar niet de aanduiding "stil gebied" als beleidsobject met beschermingsregime. Het is de vraag of dit een apart dataobject is of een attribuut op bestaande gebiedsentiteiten.
+Hiaat: het GGM kent terreindelen en groenvoorzieningen, maar niet de aanduiding "stil gebied" als beleidsobject met beschermingsregime. Data-object (ja, zie begrippentabel) zonder GGM-match. Teruggemeld als #105 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

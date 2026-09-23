@@ -318,7 +318,7 @@ Status: 148 bronnen in 24 batches.
 - [ ] rsgbplus-overige-entiteiten (referentietabellen, detail-entiteiten, IMGeo/BGT)
 
 basisregistratie BGT
-- [ ] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/
+- [x] https://docs.geostandaarden.nl/imgeo/catalogus/bgt/ → `Sources/Standaarden/catalogus-bgt-1.2.md`, nog niet ge-ingest
 
 ## ~~Basisregistraties — BRO (Basisregistratie Ondergrond) (2)~~ ✓
 - [x] wet-bro-bwbr0037095 (Rijksoverheid, Wet BRO per 2026-06-04) → 3 BO's: Verkenning, Constructie, Gebruiksrecht (alle GGM-hiaat) + 6 stelselrollen

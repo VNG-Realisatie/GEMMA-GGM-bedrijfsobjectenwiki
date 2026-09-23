@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: Mobiliteit
-status: in-behandeling
-verwerkingsdatum: 2026-06-21
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 12
 begrippen_count: 57
 bo_count: 29
@@ -128,13 +128,18 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 
 ## Nog te verwerken bronnen
 
-Geen openstaande bronnen.
+Geen. `mobiliteit.md` (VNG-rubriekpagina, generiek portaaloverzicht zonder concrete objecten) stond nog niet vermeld als beoordeeld — verplaatst naar `Sources/Onderwerpen/mobiliteit/Niet-relevant/`.
 
 ## Openstaande vragen of hiaten
 
 - **Deelvoertuig**: gemeente introduceert vergunningenstelsel voor deelmobiliteit — BO-kandidaat? Bij nadere uitwerking opnieuw beoordelen tegen de 6 criteria.
-- **P+R vs. Parkeergarage**: overlap — P+R-locaties zijn deels parkeergarages maar met specifieke multimodale functie. Relatie vastleggen.
-- **Bouwlogistiek Centrum**: tijdelijke voorzieningen — hoe modelleren als de levenscyclus per definitie eindig is?
+- **Bouwlogistiek Centrum**: tijdelijke voorzieningen — hoe modelleren als de levenscyclus per definitie eindig is? Vooralsnog geen bezwaar: een eindige levenscyclus sluit BO-status niet uit (meervoud, herkenbaarheid en relaties zijn al vastgesteld).
+
+Opgelost: P+R vs. Parkeergarage — de relatie bleek al op beide pagina's vastgelegd ([[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]] ↔ [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeergarage|Parkeergarage]]), de vraag was stale.
+
+## Conclusie
+
+Domein afgerond: 12 bronnen verwerkt, 29 BO's vastgelegd. De 2 resterende openstaande vragen zijn expliciet vooruitgeschoven onderzoekspunten, geen blokkerende classificatievraag.
 
 ## Terugmeldingen richting GGM
 

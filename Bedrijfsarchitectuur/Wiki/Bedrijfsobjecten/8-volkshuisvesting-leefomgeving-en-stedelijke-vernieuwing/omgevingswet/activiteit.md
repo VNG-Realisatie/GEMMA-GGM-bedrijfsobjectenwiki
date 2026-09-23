@@ -140,7 +140,7 @@ Voorbeelden: bouwen van een woning, exploiteren van een horecagelegenheid, lozen
 
 ## Homoniemen
 
-De GGM-entiteit "Activiteit" komt ook voor in beleidsdomein Musea (EAID_A1C60F39) met attributen naam, omschrijving, aantalPersonen. Dat is een ander concept (museumactiviteit/evenement).
+De GGM-entiteit "Activiteit" komt ook voor in beleidsdomein Musea (EAID_A1C60F39) met attributen naam, omschrijving, aantalPersonen. Dat is een ander concept (museumactiviteit/evenement). Teruggemeld als #106 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Relaties
 

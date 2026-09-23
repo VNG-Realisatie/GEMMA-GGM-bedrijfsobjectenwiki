@@ -1,11 +1,11 @@
 ---
 type: domein
 naam: Wonen
-status: in-behandeling
-verwerkingsdatum: 2026-06-21
-bronnen_count: 9
-begrippen_count: 31
-bo_count: 5
+status: afgerond
+verwerkingsdatum: 2026-09-23
+bronnen_count: 10
+begrippen_count: 32
+bo_count: 6
 ---
 
 # Domein: Wonen
@@ -42,6 +42,7 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | woningdelen | thema | Meerdere huishoudens in één woning | ❌ | nee | Activiteit/proces, geen object | Max 3 personen vergunningvrij | nee |
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig\|Vaartuig]] | object | GGM-containerbegrip voor zee-/binnenvaartuigen; gemeentelijke praktijkscope beperkt tot woonboten | ✅ | ja | 6/6 criteria, GGM: Vaartuig (exact) | Woonboot | ja |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats\|Ligplaats]] | object | Door de gemeente aangewezen plaats in het water voor permanent afmeren | ✅ | ja | 6/6 criteria, GGM: Ligplaats (BAG) | Ligplaats Merwedekanaal, reserveligplaats | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats\|Standplaats (BAG)]] | object | Door de gemeente aangewezen terrein voor het permanent plaatsen van een verplaatsbare ruimte | ✅ | ja | 6/6 criteria, GGM: Standplaats (BAG), primair vastgelegd onder Basisregistraties | Woonwagenstandplaats | ja |
 | woonboot | object | Vaartuig bestemd voor permanente bewoning op een aangewezen ligplaats | — | ja | Subtype van [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig\|Vaartuig]] | Woonboot Kruisvaart | ja |
 | woonark | object | Betonnen bak met opbouw in het water, niet varend | — | ja | Subtype van woonboot, zie [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig\|Vaartuig]] | Woonark Kruisvaart | ja |
 | varend schip | object | Schip met originele romp, ontworpen om te varen | — | ja | Subtype van woonboot, zie [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig\|Vaartuig]], bij vervanging door ark max 18 m | Historisch vrachtschip | ja |
@@ -66,12 +67,16 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 
 ## Nog te verwerken bronnen
 
-- [actieplan-middenhuur.md](Sources/Onderwerpen/Wonen/actieplan-middenhuur.md) — volledig opgenomen in beleidsnota, bronsamenvatting gemaakt
+Geen. `actieplan-middenhuur.md` stond hier eerder nog vermeld maar is al volledig verwerkt (opgenomen in beleidsnota, bronsamenvatting gemaakt, zie [[Wiki/Bronsamenvattingen/Wonen/actieplan-middenhuur|Actieplan Middenhuur Actualisatie 2017]]).
 
 ## Openstaande vragen of hiaten
 
 - De vergunningen rond woonruimtevoorraad (omzetting, splitsing, woningvorming, verhuur) zijn hier als instrumenten vastgelegd maar niet als BO beoordeeld. Bij een toekomstige VTH-ingest kunnen deze als BO-kandidaten terugkomen.
 - Prestatieafspraken zijn een governance-instrument dat mogelijk een eigen BO rechtvaardigt. Nog niet beoordeeld.
+
+## Conclusie
+
+Domein afgerond: 10 bronnen verwerkt, 6 BO's vastgelegd. [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]] toegevoegd aan de begrippentabel — cross-getagd `onderwerp: [..., Wonen]`, ontbrak hier ondanks dat [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|Ligplaats]] (dezelfde soort cross-tag) al wel stond. De 2 openstaande vragen zijn expliciet vooruitgeschoven naar een toekomstige VTH-ingest, geen blokkerende BO-classificatievraag.
 
 ## Terugmeldingen richting GGM
 

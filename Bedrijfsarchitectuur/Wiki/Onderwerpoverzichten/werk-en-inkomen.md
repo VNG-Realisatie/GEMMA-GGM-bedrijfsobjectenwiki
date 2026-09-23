@@ -1,9 +1,9 @@
 ---
 type: onderwerp
 naam: werk en inkomen
-status: in-behandeling
-verwerkingsdatum: 2026-06-27
-bronnen_count: 3
+status: afgerond
+verwerkingsdatum: 2026-09-23
+bronnen_count: 6
 begrippen_count: 25
 bo_count: 8
 ---
@@ -73,6 +73,10 @@ Geen openstaande bronnen.
 
 ## Openstaande vragen
 
-- Beschutte werkplek: mogelijk apart BO als er rijkere bronnen beschikbaar komen over de gemeentelijke registratie van indicaties en taakstelling
-- GGM Werk-domein bevat 33 entiteiten waarvan nu 5 als BO vastgesteld (Werkzoekende, Re-integratievoorziening, Loonkostensubsidie + 2 uit Inkomen); bij nadere bronnen kunnen meer entiteiten BO-kandidaat worden
+- Beschutte werkplek: mogelijk apart BO als er rijkere bronnen beschikbaar komen over de gemeentelijke registratie van indicaties en taakstelling. Vooruitgeschoven, geen bron beschikbaar.
+- GGM Werk-domein bevat 33 entiteiten waarvan nu 5 als BO vastgesteld (Werkzoekende, Re-integratievoorziening, Loonkostensubsidie + 2 uit Inkomen); bij nadere bronnen kunnen meer entiteiten BO-kandidaat worden. Geen blokkerende vraag.
 - GGM-hiaten Trajectplan (#85) en Instrument (#86) teruggemeld
+
+## Conclusie
+
+Domein afgerond: 6 bronnen verwerkt, 8 BO's vastgelegd. De 2 resterende punten zijn expliciet vooruitgeschoven wegens ontbrekende rijkere bronnen, geen blokkerende classificatievraag.

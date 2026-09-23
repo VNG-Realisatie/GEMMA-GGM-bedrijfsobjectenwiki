@@ -1,9 +1,9 @@
 ---
 type: domein
 naam: Onderwijs
-status: in-behandeling
-verwerkingsdatum: 2026-06-22
-bronnen_count: 10
+status: afgerond
+verwerkingsdatum: 2026-09-23
+bronnen_count: 11
 begrippen_count: 31
 bo_count: 11
 ---
@@ -57,18 +57,26 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 - [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra|Kindcentra]]
 - [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]]
 - [[Wiki/Bronsamenvattingen/Onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/soorten-kinderopvang|Welke soorten kinderopvang zijn er?]]
 
 ## Nog te verwerken bronnen
 
-- [utrecht-adviezen-duurzaamheid-ohv.md](Sources/Onderwerpen/Onderwijs/utrecht-adviezen-duurzaamheid-ohv.md) — verwerkt als context, geen nieuwe BO's
+Geen. Bij het afronden van dit domein bleken 3 bronnen nog niet verwerkt (niet eerder gesignaleerd in deze sectie):
+- `soorten-kinderopvang.md` — verwerkt: bronsamenvatting gemaakt, leverde subtype "Tussenschoolse opvang" op voor [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|Kinderopvangvoorziening]]
+- `onderwijshuisvesting.md` (VNG-rubriek) en `utrecht-onderwijshuisvesting.md` — beide dun/overlappend met de al verwerkte, rijkere [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] (zelfde kernfeiten: 51.952→53.596 leerlingen, 191-leerlingennorm, multifunctioneel gebruik) — verplaatst naar `Sources/Onderwerpen/Onderwijs/Niet-relevant/`
+- `utrecht-adviezen-duurzaamheid-ohv.md` — al verwerkt als context, geen nieuwe BO's
 
 ## Openstaande vragen of hiaten
 
-Geen openstaande vragen. Alle drie eerder openstaande punten zijn opgelost:
-- **Kinderopvangvoorziening** → opgenomen als BO (GGM-hiaat #51, procesobject)
+Geen. Alle eerder openstaande punten zijn opgelost:
+- **Kinderopvangvoorziening** → opgenomen als BO (GGM-hiaat #51, procesobject), inmiddels 4 subtypes
 - **Gymzaal** → cross-domein referentie naar [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie|Binnenlocatie]] (taakveld 5), relatie vanuit School gelegd
 - **MFA** → subtype van School
 
 ## Terugmeldingen richting GGM
 
 - #51: Kinderopvangvoorziening ontbreekt in GGM (hiaat). Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
+## Conclusie
+
+Domein afgerond: 11 bronnen verwerkt (3 alsnog opgepakt bij het afronden), 11 BO's vastgelegd, geen openstaande vragen.

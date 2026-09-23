@@ -31,6 +31,11 @@ bo_definitie: "Subsidieregeling waarmee inwoners een financiële bijdrage krijge
 bo_toelichting:
 bo_subtypes:
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]]"
+    richting: naar-dit-BO
+    kardinaliteit:
+    beschrijving: "Sloopregeling is functioneel een specialisatie van het generieke Subsidie-concept; geen generalisatierelatie in de GGM-XMI (Sloopregeling zelf heeft geen GGM-entiteit), wel op bedrijfsniveau"
   - type: associatie
     bedrijfsobject: "[[Milieuzone]]"
     richting: van-dit-BO
@@ -39,8 +44,6 @@ bo_relaties:
 bedrijfsprocessen: [subsidiebeheer, luchtkwaliteitsbeleid]
 bedrijfsfuncties: [milieubeheer, financieel-beheer]
 ---
-
-⚠️ **Ter discussie** — Begripstype is *instrument*. Voldoet aan 6/6 BO-criteria maar is functioneel een subsidieregeling. Relatie met het generieke GGM-domein Subsidies (Subsidie, Subsidieaanvraag, Subsidiebeschikking) moet worden onderzocht.
 
 ## BO-criteria toetsing
 
@@ -53,7 +56,7 @@ bedrijfsfuncties: [milieubeheer, financieel-beheer]
 | Heeft een eigen levenscyclus | ✅ | Openstellen → aanvragen → toekennen → uitbetalen → afsluiten |
 | Heeft relaties met andere concepten | ✅ | Met milieuzone, voertuig, budget, inwoner |
 
-Score: **6/6** — BO, maar begripstype *instrument* → voorgelegd aan team.
+Score: **6/6**. Besluit: eigen BO-pagina, geen `bo_subtype` van [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]] — zelfde patroon als [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|Partijsubsidie]] en [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|Loonkostensubsidie]]: het GGM modelleert specifieke subsidievormen niet als specialisatie van de generieke entiteit Subsidie (geen generalisatierelatie in de XMI). Wel toegevoegd: een wiki-niveau generalisatie-relatie naar Subsidie (zie Relaties) — het ontbreken van een GGM-generalisatie sluit een bedrijfsmatige Specialisatie-relatie niet uit, zelfde patroon als elders toegepast (bijv. Zwembad → Sportlocatie).
 
 ## Beschrijving
 
@@ -84,6 +87,7 @@ Beschreven in [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025|B
 
 | Gerelateerd BO | Type | Richting | Beschrijving | Bron |
 |---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie\|Subsidie]] | generalisatie | naar-dit-BO | Sloopregeling is specialisatie van het generieke Subsidie-concept (bedrijfsniveau) | — |
 | [[Milieuzone]] | associatie | van-dit-BO | Sloopregeling is gekoppeld aan milieuzone-aanscherping | Beleidsnota §6.2.3 |
 
 ## Bronnen

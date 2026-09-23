@@ -34,6 +34,11 @@ bedrijfsfuncties:
   - Democratische ondersteuning
   - Subsidieverstrekking
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]]"
+    richting: naar-dit-BO
+    kardinaliteit:
+    beschrijving: "Partijsubsidie is functioneel een specialisatie van het generieke Subsidie-concept; geen generalisatierelatie in de GGM-XMI (Partijsubsidie zelf heeft geen GGM-entiteit), wel op bedrijfsniveau"
   - type: associatie
     bedrijfsobject: "[[Verkiezing]]"
     richting: van-dit-BO
@@ -85,6 +90,7 @@ Het GGM modelleert generieke subsidie-entiteiten onder taakveld 9 (Subsidie, Sub
 
 | Relatie | Object | Kardinaliteit | Beschrijving |
 |---|---|---|---|
+| generalisatie | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie\|Subsidie]] | | Partijsubsidie is specialisatie van het generieke Subsidie-concept (bedrijfsniveau) |
 | associatie | [[Verkiezing]] | 1 | Zetelverdeling uit laatstgehouden verkiezing bepaalt aanspraken en bedragen |
 
 ## Bedrijfsprocessen

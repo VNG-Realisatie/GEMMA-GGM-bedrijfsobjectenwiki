@@ -78,4 +78,4 @@ Artefact dat in de wet- en regelgeving voor industriegeluid centraal staat. Het 
 
 ## Terugmelding GGM
 
-Potentieel hiaat: het GGM kent Parkeerzone maar geen Geluidzone. Structureel vergelijkbaar concept (afgebakend gebied met specifieke normen). Nader te beoordelen of terugmelding zinvol is.
+Hiaat, al centraal gedekt: het GGM kent Parkeerzone maar geen generiek Zone-concept. Geluidzone volgt hetzelfde patroon (geometrie + regels + handhaving) als milieuzones, rookvrije zones en vuurwerkvrije zones — zie #43 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] (structurele terugmelding over het ontbrekende generieke Zone-concept).

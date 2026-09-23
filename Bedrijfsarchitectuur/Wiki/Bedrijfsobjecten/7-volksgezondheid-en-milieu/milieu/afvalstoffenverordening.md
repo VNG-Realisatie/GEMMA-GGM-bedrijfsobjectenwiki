@@ -41,8 +41,6 @@ bo_relaties:
     beschrijving: grondslag voor heffing
 ---
 
-> **ter discussie** — Type is governance-object. Het team moet beoordelen of governance-instrumenten als BO worden opgenomen.
-
 ## BO-criteria toetsing
 
 | Criterium | Van toepassing? |
@@ -54,7 +52,7 @@ bo_relaties:
 | Heeft eigen levenscyclus | ✅ Vaststelling → wijziging → intrekking |
 | Heeft relaties met andere concepten | ✅ Grondstofstromen, afvalstoffenheffing, handhaving |
 
-**5/6 criteria van toepassing.** Kanttekening: het is een verordening, geen 'ding' in operationele zin.
+**5/6 criteria van toepassing.** Besluit: BO gehouden — zelfde patroon als het al vastgestelde BO [[Wiki/Bedrijfsobjecten/99-kern/heffingsverordening|Heffingsverordening]] (verordening als juridische grondslag naast de operationele heffing zelf); governance-instrumenten van dit type (regeling/verordening) zijn volgens de BO-methodiek expliciet BO-waardig.
 
 ## Beschrijving
 
@@ -72,16 +70,7 @@ De Wet Milieubeheer verplicht gemeenten tot vaststelling van een afvalstoffenver
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Milieu/beleid-bodem-grondwater-en-ondergrond]]
-- [[Wiki/Bronsamenvattingen/Milieu/gebiedsplan-grondwaterbeheer]]
-- [[Wiki/Bronsamenvattingen/Milieu/nota-bodembeheer]]
 - [[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]
-- [[Wiki/Bronsamenvattingen/Milieu/visie-utrecht-circulair-2050]]
-- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-utrecht-circulair-2030]]
-- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
-- [[Wiki/Bronsamenvattingen/Milieu/visie-water-riolering]]
-- [[Wiki/Bronsamenvattingen/Milieu/programma-water-riolering-2025-2029]]
-- [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-stadswater]]
 
 ## Terugmelding GGM
 

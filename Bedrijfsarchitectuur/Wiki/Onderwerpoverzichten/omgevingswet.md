@@ -1,8 +1,8 @@
 ---
 type: onderwerp
 naam: Omgevingswet
-status: in-behandeling
-verwerkingsdatum: 2026-06-27
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 7
 begrippen_count: 44
 bo_count: 11
@@ -80,9 +80,14 @@ De planketen van de Omgevingswet kent drie kerninstrumenten: de omgevingsvisie (
 
 - GGM-definitie van Inspectie verwijst naar boezemkades — te smal voor VTH-gebruik
 - Handhavingsbesluit ontbreekt in GGM — procesobject vergelijkbaar met Beschikking in sociaal domein
-- GGM Omgevingswet-domein (31 entiteiten): 24 beoordeeld als BO, subtype, component of actor; 7 resterend (Projectactiviteit, Projectlocatie, Specificatie, Uitvoerende instantie, Gemachtigde, ToepasbareRegelBestand, Uitvoeringsregel — technische/detail-entiteiten)
-- Programma (Ow) is potentieel BO bij rijkere bronnen: meervoud per gemeente, eigen levenscyclus
-- Activiteit (Omgevingswet) is homoniem met Activiteit (Musea) in GGM
+- GGM Omgevingswet-domein (31 entiteiten): 24 beoordeeld als BO, subtype, component of actor; 7 resterend (Projectactiviteit, Projectlocatie, Specificatie, Uitvoerende instantie, Gemachtigde, ToepasbareRegelBestand, Uitvoeringsregel — technische/detail-entiteiten). Geen blokkerende vraag; oppakken bij een toekomstige verdiepingsronde.
+- Programma (Ow) is potentieel BO bij rijkere bronnen: meervoud per gemeente, eigen levenscyclus. Vooruitgeschoven, geen bron beschikbaar.
+
+Opgelost: Activiteit (Omgevingswet) is homoniem met Activiteit (Musea) in GGM — al gedisambigueerd in `bo_homoniemen` op de BO-pagina, nu ook teruggemeld als #106.
+
+## Conclusie
+
+Domein afgerond: 7 bronnen verwerkt, 11 BO's vastgelegd. De resterende punten (7 technische GGM-detailentiteiten, Programma als toekomstige BO-kandidaat, 2 definitie-kwaliteitsissues) zijn vooruitkijkende notities zonder blokkerende classificatievraag.
 
 ## Terugmeldingen richting GGM
 

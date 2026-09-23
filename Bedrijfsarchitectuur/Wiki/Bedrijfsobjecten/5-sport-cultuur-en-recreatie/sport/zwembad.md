@@ -27,6 +27,11 @@ ggm_gemma_alternate_name:
 bo_definitie: "Gemeentelijke voorziening voor zwemactiviteiten, met eigen capaciteitsbeleid en meerjarige investeringsplanning."
 bo_toelichting:
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Sportlocatie]]"
+    richting: "van-dit-BO"
+    kardinaliteit:
+    beschrijving: "Zwembad is een specialisatie van Sportlocatie"
   - type: associatie
     bedrijfsobject: "[[Sportvereniging]]"
     richting: "naar-dit-BO"
@@ -60,11 +65,12 @@ Geen GGM-match. Zwembad komt niet voor als entiteit in het GGM-beleidsdomein Spo
 
 ## Terugmelding GGM
 
-> **Zwembad** — Gemeentelijke voorziening voor zwemactiviteiten (diplomazwemmen, verenigingsactiviteiten, recreatief zwemmen). Heeft eigen capaciteitsbeleid (zwembadwatercapaciteit), personeelsbeheer en meerjarige investerings- en vervangingsplanning. Vergelijkbaar met Binnenlocatie en Sportpark qua rol in het sportdomein. Past in GGM beleidsdomein Sport als specialisatie van Sportlocatie of als zelfstandig objecttype.
+> **Zwembad** — Gemeentelijke voorziening voor zwemactiviteiten (diplomazwemmen, verenigingsactiviteiten, recreatief zwemmen). Heeft eigen capaciteitsbeleid (zwembadwatercapaciteit), personeelsbeheer en meerjarige investerings- en vervangingsplanning. Speelt dezelfde structurele rol als de al gemodelleerde specialisaties [[Binnenlocatie]] en [[Sportpark]] van [[Sportlocatie]] — geen aanwijsbaar verschil in autonomie of levenscyclus dat een zelfstandig objecttype rechtvaardigt. Voorgesteld als derde specialisatie van Sportlocatie in het GGM beleidsdomein Sport.
 
 ## Relaties
 
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
+| [[Sportlocatie]] | is specialisatie van | | GGM (voorgesteld, zie terugmelding) |
 | [[Sportvereniging]] | wordt gebruikt door | 0..* | beleidsnota |
 | Wijk | bedient | 1..* | beleidsnota |

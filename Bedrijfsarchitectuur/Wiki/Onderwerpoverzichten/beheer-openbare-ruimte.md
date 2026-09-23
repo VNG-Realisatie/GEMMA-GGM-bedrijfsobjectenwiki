@@ -4,8 +4,8 @@ naam: Beheer Openbare Ruimte
 status: in-behandeling
 verwerkingsdatum: 2026-06-26
 bronnen_count: 10
-begrippen_count: 37
-bo_count: 9
+begrippen_count: 39
+bo_count: 11
 ---
 
 Gemeentelijk domein voor het beheer van fysieke objecten in de openbare ruimte. Omvat het onderhoud, de inrichting en het beheer van bomen, groenvoorzieningen, verhardingen, kunstwerken, verlichting, verkeersregelinstallaties, speeltoestellen en straatmeubilair. Het GGM-beleidsdomein "Beheer Openbare Ruimte" valt onder taakveld 8 (Volkshuisvesting, Leefomgeving en Stedelijke Vernieuwing) en bevat 200 entiteiten verdeeld over drie modellagen (Basis IMBOR, IMBOR, BOR).
@@ -53,6 +53,8 @@ Verwerkte subdomeinen: **bomen**, **groenstructuur**, **verhardingen**, **civiel
 |blokplek|classificatie|Speelterrein ≥500 m² voor direct omwonenden, tot 12 jaar| ❌ | ja |Subtype van Speelterrein (type-attribuut in GGM)|Blokplek Wattstraat|nee|
 |speelruimtenorm|norm|Kwantitatief (3-5% buurtoppervlakte) en kwalitatief kader voor speelruimte| ❌ | nee |Beleidskader, geen object|5% norm, Schijf van Vijf|nee|
 |speelruimtescan|proces|Wijkbrede inventarisatie van speelruimte, elke vijf jaar herhaald| ❌ | nee |Procesactiviteit, geen object|Wijkscan West 2022|nee|
+|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/scheiding\|Scheiding]]|object|Kunstmatig, meestal lineair obstakel met een werende functie| ✅ | ja |6/6 criteria, exact GGM-match; duplicaat met RSGBPlus/BGT (#100), gevonden bij verwerking basisregistraties-domein|Hekwerk, keermuur, afrastering|ja|
+|[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied\|Functioneel gebied]]|object|Begrensd en benoemd gebied dat door een functionele eenheid wordt beschreven| ✅ | ja |6/6 criteria, exact GGM-match; duplicaat met RSGBPlus/BGT (#101); generaliseert [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]]|Evenemententerrein, recreatiegebied|ja|
 
 ## Verwerkte bronnen
 
@@ -80,3 +82,5 @@ Potentiële bronnen voor verdere uitbreiding:
 - Relatie met Omgevingswet-domein: kapvergunning valt onder omgevingsvergunning.
 - Het concept "faunapassage" is breder dan de GGM-entiteit Ecoduct — potentiële terugmelding.
 - Straatmeubilair (Meubilair) en bebording (Bord) hebben een GGM-entiteit maar onvoldoende beleidsbrondiepte voor BO-beoordeling. Bij aanvullende bronnen opnieuw beoordelen.
+
+**2026-09-23:** [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/scheiding|Scheiding]] en [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied|Functioneel gebied]] toegevoegd als BO — ontdekt als duplicaat-GGM-entiteiten (Beheer Openbare Ruimte + RSGBPlus/BGT) tijdens verwerking van het basisregistraties-domein, niet uit een eigen bron van dit domein. Blijft buiten de 192 onbeoordeelde entiteiten hierboven.

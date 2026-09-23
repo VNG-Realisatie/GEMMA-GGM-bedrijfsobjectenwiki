@@ -32,6 +32,11 @@ analyse_ggm_dekking: |
 bo_definitie: "Een tegemoetkoming aan een werkgever voor het in dienst nemen van een werknemer met verminderde loonwaarde."
 bo_toelichting:
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]]"
+    richting: naar-dit-BO
+    kardinaliteit:
+    beschrijving: "Loonkostensubsidie is functioneel een specialisatie van het generieke Subsidie-concept; geen generalisatierelatie in de GGM-XMI (andere GGM-entiteit, ander taakveld), wel op bedrijfsniveau"
   - type: associatie
     bedrijfsobject: "[[Re-integratievoorziening]]"
     richting: naar-dit-BO
@@ -80,6 +85,7 @@ De loonkostensubsidie wordt ook verstrekt voor medewerkers op een beschutte werk
 
 | Gerelateerd BO | Relatie | Richting | Bron |
 |---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie\|Subsidie]] | is specialisatie van | Loonkostensubsidie → Subsidie | Bedrijfsniveau (geen GGM-generalisatie) |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/re-integratievoorziening\|Re-integratievoorziening]] | kan gepaard gaan met | Re-integratievoorziening → Loonkostensubsidie | GGM |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/sociaal-domein-generiek/client\|Client]] | ontvangt werk met | Client → Loonkostensubsidie | GGM (via Werkzoekende) |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/model-inkomen/inkomensvoorziening\|Inkomensvoorziening]] | kan aanvullen | Loonkostensubsidie → Inkomensvoorziening | Bron (bij aanvullende bijstandsuitkering) |

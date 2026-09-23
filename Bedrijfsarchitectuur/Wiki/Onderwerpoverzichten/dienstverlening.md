@@ -1,11 +1,11 @@
 ---
 type: domein
 naam: Dienstverlening
-status: in-behandeling
-verwerkingsdatum: 2026-06-19
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 9
-begrippen_count: 27
-bo_count: 13
+begrippen_count: 30
+bo_count: 16
 ---
 
 # Domein: Dienstverlening
@@ -43,6 +43,9 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 |Statustype|object|Generieke aanduiding van de aard van een status| ❌ | ja |Attribuut/modelleringskeuze, geen zelfstandig BO|In behandeling, Afgerond|ja|
 |Status|object|Stand van zaken van een zaak| ❌ | ja |Voortgangsindicatie op Zaak, geen zelfstandig BO|Status "in behandeling" op zaak|ja|
 |Besluittype|object|Generieke aanduiding van de aard van een besluit| ❌ | ja |Typering bij Besluit — waardelijst|Vergunningbesluit, subsidiebesluit|ja|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen\|Vergunningen en ontheffingen]]|object|Domeinoverstijgend parent-BO: formeel besluit met toestemming voor een activiteit of uitzondering op een verbod| ✅ | ja |6/6 criteria, procesobject|Omgevingsvergunning, kapvergunning, evenementenvergunning|nee (hiaat)|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek\|Woo-verzoek]]|object|Verzoek om openbaarmaking publieke informatie (art. 4.1 Woo)| ✅ | ja |6/6 criteria, wettelijk verplicht; primair vastgelegd onder Informatiesamenleving|Verzoek om raadsstukken, interne memo's|nee (hiaat)|
+|[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht\|Klacht]]|object|Uiting van ontevredenheid over gedraging bestuursorgaan (titel 9.1 Awb)| ✅ | ja |6/6 criteria, wettelijk verplicht; primair vastgelegd onder Informatiesamenleving|Klacht over behandeling aan balie|nee (hiaat)|
 
 ## Bedrijfsobjecten
 
@@ -62,6 +65,9 @@ Gemeentelijke dienstverlening — zaakgericht werken, zaaktypecatalogi, klantcon
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/medewerker\|Medewerker]] | ✅ BO | Medewerker (RGBZPlus) | exact |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/organisatorische-eenheid\|Organisatorische eenheid]] | ✅ BO | OrganisatorischeEenheid (RGBZPlus) | exact |
 | [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype\|Zaaktype]] | ✅ BO | Zaaktype (RGBZPlus) | exact |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen\|Vergunningen en ontheffingen]] | ✅ BO | — | geen match (procesobject, hiaat) |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek\|Woo-verzoek]] | ✅ BO | — | geen match (hiaat); primair Informatiesamenleving |
+| [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht\|Klacht]] | ✅ BO | — | geen match (hiaat); primair Informatiesamenleving |
 
 ## Informatiestandaarden
 
@@ -104,3 +110,9 @@ Het RGBZ 1.0 (2010) is de huidige officiële standaard. RGBZ 2.0 heeft nooit een
 
 - **AanvraagOfMelding**: definitie "Komt overeen met een VJV" is een systeemreferentie, geen inhoudelijke definitie
 - **ProductOfDienst**: definitie "Bron: QP_CALENDAR.CFM_SERVICES" is een systeemreferentie, geen inhoudelijke definitie
+
+## Conclusie
+
+Domein afgerond: 9 bronnen verwerkt, 16 BO's vastgelegd (grotendeels exacte RGBZPlus/ZTC2-matches). De 3 openstaande vragen zijn vooruitkijkende onderzoeksnotities over standaardevolutie (RGBZ 1.0→2.0→ZGW API's, ZTC2-status) en toekomstige klantbeoordelingsbronnen — geen blokkerende BO-classificatievraag, blijven gedocumenteerd staan.
+
+**2026-09-23 sync-correctie:** de map `Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/` bevatte 3 BO's die hier nooit waren opgenomen: [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/vergunningen-en-ontheffingen|Vergunningen en ontheffingen]] (eigen aan dit domein) en [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/woo-verzoek|Woo-verzoek]]/[[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/klacht|Klacht]] (primair vastgelegd onder Informatiesamenleving, hier cross-getagd). Toegevoegd aan de begrippentabel. Overige 8 BO's in die map (algoritmeregister, datalek, dpia, grondrechteneffectbeoordeling, verwerkersovereenkomst, verwerkingsactiviteit, informatieobject) horen inhoudelijk bij Informatiesamenleving resp. Informatiebeheer en staan daar al correct — bewust niet ook hier opgenomen.

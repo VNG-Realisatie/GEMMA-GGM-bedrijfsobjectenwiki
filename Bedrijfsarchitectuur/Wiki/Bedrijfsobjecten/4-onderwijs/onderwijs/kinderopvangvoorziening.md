@@ -45,6 +45,11 @@ bo_subtypes:
     ggm_entiteit:
     ggm_guid:
     ggm_attribuut:
+  - naam: Tussenschoolse opvang
+    omschrijving: "Opvang tussen de middag voor schoolgaande kinderen, vaak georganiseerd via de school; in tegenstelling tot de andere subtypes geen recht op kinderopvangtoeslag"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[School]]"
@@ -96,10 +101,12 @@ Dit BO ontstaat in het proces van registratie en toezicht kinderopvang. De Wet k
 - **Kinderdagverblijf (KDV)** — Dagopvang voor kinderen die nog niet naar de basisschool gaan
 - **Buitenschoolse opvang (BSO)** — Opvang voor schoolgaande kinderen buiten schooltijden
 - **Gastouderopvang** — Opvang door geregistreerde gastouder aan huis
+- **Tussenschoolse opvang** — Opvang tussen de middag voor schoolgaande kinderen, vaak via de school; geen recht op kinderopvangtoeslag
 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/soorten-kinderopvang]]
 - [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra]]
 
 ## Terugmelding GGM

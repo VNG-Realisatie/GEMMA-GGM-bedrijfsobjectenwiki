@@ -83,4 +83,4 @@ Het GGM modelleert gebouwen (Pand, Gebouw, Verblijfsobject) maar niet de geluidg
 
 ## Terugmelding GGM
 
-Potentieel hiaat: het GGM kent Gebouw en Pand, maar niet de classificatie als "geluidgevoelig" met bijbehorende normen en eisen. Nader te beoordelen of dit een apart dataobject is of een attribuut op bestaande gebouwentiteiten.
+Hiaat: het GGM kent Gebouw en Pand, maar niet de classificatie als "geluidgevoelig" met bijbehorende normen en eisen. Data-object (ja, zie begrippentabel) zonder GGM-match. Teruggemeld als #104 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

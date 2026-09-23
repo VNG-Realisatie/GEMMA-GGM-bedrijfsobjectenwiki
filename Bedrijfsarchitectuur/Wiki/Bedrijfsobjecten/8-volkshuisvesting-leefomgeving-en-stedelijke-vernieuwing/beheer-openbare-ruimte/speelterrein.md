@@ -51,7 +51,7 @@ bo_subtypes:
     ggm_attribuut: type
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: "FunctioneelGebied (GGM)"
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied|Functioneel gebied]]"
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: Speelterrein is een specialisatie van FunctioneelGebied in het GGM
@@ -83,7 +83,7 @@ bedrijfsfuncties: [Beheer openbare ruimte, Spelen en bewegen, Gebiedsontwikkelin
 | Heeft een eigen bestaan binnen het domein | ✅ | Elk speelterrein is een afgebakend terrein met eigen locatie, inrichting en kenmerken |
 | Kan in meervoud bestaan | ✅ | Honderden speelterreinen per gemeente |
 | Heeft een eigen levenscyclus | ✅ | Aanleg → speelruimtescan → herinrichting → eventueel opheffing |
-| Heeft relaties met andere concepten | ✅ | [[Speeltoestel]], [[Groenobject]], [[Verhardingsobject]], FunctioneelGebied |
+| Heeft relaties met andere concepten | ✅ | [[Speeltoestel]], [[Groenobject]], [[Verhardingsobject]], [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied\|Functioneel gebied]] |
 
 Score: 6/6.
 
@@ -95,7 +95,7 @@ De Utrechtse speelvisie hanteert een netwerk van buurtplekken (≥3.000 m², act
 
 Bij herinrichting worden speelterreinen vergroend en klimaatbestendig gemaakt. Beoordelingscriteria op terreinniveau zijn: ligging en context, speelwaarde en verblijfswaarde, huidige staat, klimaatbestendigheid en inclusiviteit.
 
-In het GGM is Speelterrein een specialisatie van FunctioneelGebied. [[Speeltoestel]] verwijst via het attribuut `speelterrein` naar het terrein waarop het staat.
+In het GGM is Speelterrein een specialisatie van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied|Functioneel gebied]]. [[Speeltoestel]] verwijst via het attribuut `speelterrein` naar het terrein waarop het staat.
 
 ## Specialisaties
 
@@ -123,7 +123,7 @@ De subtypes worden in het GGM geïmplementeerd via het attribuut `type`. De spee
 
 | Relatie | Bedrijfsobject | Richting | Bron |
 |---|---|---|---|
-| generalisatie | FunctioneelGebied (GGM) | Speelterrein → FunctioneelGebied | GGM |
+| generalisatie | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied\|Functioneel gebied]] | Speelterrein → Functioneel gebied | GGM |
 | associatie | [[Speeltoestel]] | Speeltoestel → Speelterrein | GGM (attribuut speelterrein) |
 | associatie | [[Groenobject]] | Groenobject → Speelterrein | Beleid (vergroening speelplekken) |
 | associatie | [[Verhardingsobject]] | Verhardingsobject → Speelterrein | Beleid (valondergronden, verharding) |

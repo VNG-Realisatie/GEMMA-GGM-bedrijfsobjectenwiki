@@ -83,4 +83,4 @@ Artefact dat in het geluidbeleid en de geluidkartering centraal staat. Het GGM m
 
 ## Terugmelding GGM
 
-Potentieel hiaat: het GGM modelleert wegen en spoorlijnen als fysieke objecten, maar niet hun classificatie als geluidbron met bronsoort en bijbehorende normen. Nader te beoordelen of dit een dataobject is of een beleidsmatige classificatie van bestaande objecten.
+Hiaat: het GGM modelleert wegen en spoorlijnen als fysieke objecten, maar niet hun classificatie als geluidbron met bronsoort en bijbehorende normen. Data-object (ja, zie begrippentabel) zonder GGM-match. Teruggemeld als #103 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].

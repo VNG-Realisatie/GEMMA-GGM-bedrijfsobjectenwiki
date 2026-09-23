@@ -39,6 +39,11 @@ bo_relaties:
     richting: "van-dit-BO"
     kardinaliteit:
     beschrijving: "Binnenlocatie is een specialisatie van Sportlocatie"
+  - type: generalisatie
+    bedrijfsobject: "[[Zwembad]]"
+    richting: "van-dit-BO"
+    kardinaliteit:
+    beschrijving: "Zwembad is een voorgestelde specialisatie van Sportlocatie (GGM-hiaat, zie terugmelding op Zwembad)"
   - type: associatie
     bedrijfsobject: "[[Sportvereniging]]"
     richting: "naar-dit-BO"
@@ -56,12 +61,15 @@ Alle 6 criteria van toepassing: betekenis (overkoepelend voor alle plekken waar 
 
 Een sportlocatie is een locatie waar sport plaatsvindt. Het is het overkoepelende begrip voor [[Binnenlocatie]] (sporthallen, gymzalen) en [[Sportpark]] (buitensportaccommodaties). In het GGM is Sportlocatie gemodelleerd als generalisatie met deze twee specialisaties. Scholen gebruiken sportlocaties (GGM-relatie School ↔ Sportlocatie).
 
+[[Zwembad]] speelt dezelfde structurele rol maar ontbreekt vooralsnog als GGM-entiteit; voorgesteld als derde specialisatie (zie terugmelding op die pagina).
+
 ## Specialisaties
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Sportpark]] | Buitensportaccommodatie met terreinen, gebouwen en voorzieningen | [Sportpark](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) |
 | [[Binnenlocatie]] | Binnensportaccommodatie (sporthal, gymzaal) | [Binnenlocatie](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) |
+| [[Zwembad]] | Gemeentelijke zwemvoorziening | — (voorgesteld, GGM-hiaat) |
 
 ## GGM-bron
 

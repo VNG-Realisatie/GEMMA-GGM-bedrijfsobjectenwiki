@@ -3,33 +3,33 @@
 ## Domeinen
 
 - [[bestuur|bestuur]] — Lokale democratie en bestuurlijke organisatie: verkiezingen, referenda, stembureaus, samenwerkingsvormen, partijsubsidie, raadsstukken, vergaderingen, stemmingen (afgerond, 7 BO's + Griffie-domein)
-- [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (in behandeling, 12 BO's)
+- [[arbeidszaken|arbeidszaken]] — Gemeente als werkgever: personeelsadministratie, dienstverbanden, werving, gesprekscyclus, verzuim, detachering (afgerond, 12 BO's)
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer, balans en financiële gezondheid (afgerond, 14 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
-- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR en BRO: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht (in behandeling, 26 BO's)
+- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR, BRO en BGT: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht, wegdeel, waterdeel, terreindeel, spoorbaan e.a. (afgerond, 39 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (afgerond, 17 BO's)
-- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, inkoop, informatiestandaarden (RGBZ, ZTC2) (14 BO's)
+- [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, vergunningen, inkoop, informatiestandaarden (RGBZ, ZTC2) (afgerond, 16 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
 - [[schulden-en-armoede|schulden-en-armoede]] — Schuldhulpverlening: trajecten, schulden, schuldregelingen, vroegsignalering, moratorium, WSNP (afgerond, 10 BO's)
 - [[cultuur|cultuur]] — Kunst, cultuur en erfgoed: monumenten, archeologie, archieven, musea, collecties, cultuurbeleid (in opbouw, 8 BO's)
-- [[milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (in behandeling, 33 BO's)
+- [[milieu|milieu]] — Bodem, grondwater, afval en circulaire economie, luchtkwaliteit, water en riolering: milieuzones, meetpunten, gemalen, kolken, watergangen, zwemplekken, ligplaatsen (afgerond, 36 BO's)
 - [[Wiki/Onderwerpoverzichten/beheer-openbare-ruimte|beheer-openbare-ruimte]] — Fysieke objecten in de openbare ruimte: bomen, groen, verhardingen, kunstwerken, verlichting, VRI, speeltoestellen, speelterreinen (in behandeling, 9 BO's)
-- [[dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht (in behandeling, 4 BO's)
+- [[dierenwelzijn|dierenwelzijn]] — Dierenwelzijn: opvang hulpbehoevende dieren, kinderboerderijen, dierenweides, visrecht, soortenmanagementplan (afgerond, 5 BO's)
 - [[energie-en-klimaat|energie-en-klimaat]] — Energietransitie en klimaatadaptatie: warmtenetten, opwekgebieden, koelteplekken, besparing, netcongestie (afgerond, 3 BO's)
 - [[evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
-- [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (in behandeling, 5 BO's)
+- [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (afgerond, 5 BO's)
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
 - [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging (open — onvoldoende bronnen, 2 BO's)
-- [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (in behandeling, 29 BO's, 12 bronnen)
+- [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (afgerond, 29 BO's, 12 bronnen)
 - [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, zorgdeclaratie, eigen bijdrage, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 15 BO's)
-- [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (in behandeling, 1 BO)
-- [[sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (in behandeling, 7 BO's)
+- [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (afgerond, 1 BO)
+- [[sport-en-bewegen|sport-en-bewegen]] — Sportaccommodaties, sportverenigingen, capaciteitsbeleid (afgerond, 7 BO's)
 - [[welstand|welstand]] — Welstandsbeleid: toetsingskader, beleidsniveaus, welstandsadvies (afgerond, 2 BO's)
-- [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten (in behandeling, 5 BO's)
-- [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (in behandeling, 10 BO's)
-- [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (in behandeling, 11 BO's, 37 begrippen)
-- [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet en Wet SUWI: bijstand, werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), re-integratie, loonkostensubsidie, VUM-matching (in behandeling, 8 BO's)
+- [[Wiki/Onderwerpoverzichten/wonen|wonen]] — Woonbeleid: woningtypen, woningbouwprogrammering, woonruimteverdeling, urgentie, woonboten, standplaatsen (afgerond, 6 BO's)
+- [[Wiki/Onderwerpoverzichten/onderwijs|onderwijs]] — Onderwijshuisvesting, leerplicht, leerlingenvervoer, passend onderwijs (afgerond, 11 BO's)
+- [[omgevingswet|omgevingswet]] — VTH in de fysieke leefomgeving + omgevingsplan-objecten (Activiteit, Gebiedsaanwijzing, Omgevingsnorm, Omgevingswaarde, Juridische Regel, Toepasbare Regel) + planketen + Wkb (afgerond, 11 BO's, 44 begrippen)
+- [[werk-en-inkomen|werk-en-inkomen]] — Participatiewet en Wet SUWI: bijstand, werkzoekende, trajectplan, instrument, vacature (arbeidsmarkt), re-integratie, loonkostensubsidie, VUM-matching (afgerond, 8 BO's)
 - [[informatiesamenleving|informatiesamenleving]] — Digitalisering, data en ICT-infrastructuur: Woo-verzoeken, klachtbehandeling, AI-verordening, DPIA, verwerkingsregister, datalekken, algoritmeregister, applicatie, dataproduct, verwerkersovereenkomst (in behandeling, 10 BO's)
 - [[Wiki/Onderwerpoverzichten/informatiesystemen|informatiesystemen]] — IT-beheer, applicatielandschap, CMDB, GIBIT-voorwaarden, ITSM: koppeling, licentie, server, database, software, hardware, netwerkcomponent, storing, wijzigingsverzoek, SLA (afgerond, 12 BO's)
 - [[europa-en-internationaal|europa-en-internationaal]] — EU-subsidies, grensoverschrijdende samenwerking, internationale netwerken: alle bronnen governance/strategie, geen BO's (open — onvoldoende bronnen, 0 BO's)
@@ -136,6 +136,19 @@
 - [[Wiki/Bedrijfsobjecten/99-kern/bro/constructie|constructie]] — Werk in de ondergrond: grondwatermonitoringput, winningsput (Wet BRO art. 21)
 - [[Wiki/Bedrijfsobjecten/99-kern/bro/gebruiksrecht|gebruiksrecht]] — Besluit/melding over winnen, opslaan of bodemkwaliteit (Wet BRO art. 20)
 
+### Basisregistraties — BGT (GGM taakveld 99 Kern, beleidsdomein RSGBPlus)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/wegdeel|wegdeel]] — Kleinste homogene stuk weg, primair voor weg-, spoor- of vliegverkeer (GGM Wegdeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/ondersteunend-wegdeel|ondersteunend-wegdeel]] — Deel van de weg niet primair voor verkeer, bijv. berm (GGM OndersteunendWegdeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/spoorbaan|spoorbaan]] — De as van het spoor waarover trein/tram/sneltram rijdt (GGM Spoor, exact; homoniem met Archeologie "Spoor")
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/onbegroeid-terreindeel|onbegroeid-terreindeel]] — Kleinste stukje terrein zonder aaneengesloten vegetatie (GGM OnbegroeidTerreindeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/begroeid-terreindeel|begroeid-terreindeel]] — Kleinste stukje terrein met aaneengesloten vegetatie (GGM BegroeidTerreindeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/waterdeel|waterdeel]] — Kleinste stukje permanent water (GGM Waterdeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/ondersteunend-waterdeel|ondersteunend-waterdeel]] — Periodiek (deels) met water bedekt object t.b.v. waterhuishouding (GGM OndersteunendWaterdeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/overig-bouwwerk|overig-bouwwerk]] — Duurzaam bouwwerk, geen pand of kunstwerk (GGM OverigBouwwerk, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/overbruggingsdeel|overbruggingsdeel]] — Essentieel onderdeel van een brugconstructie (GGM Overbruggingsdeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/tunneldeel|tunneldeel]] — Essentieel onderdeel van een tunnelconstructie (GGM Tunneldeel, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bgt/kunstwerkdeel|kunstwerkdeel]] — Onderdeel civieltechnisch werk voor weg/water/spoor/kering/leiding (GGM Kunstwerkdeel, exact)
+
 ### Asiel en Integratie (GGM beleidsdomein Inburgering, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/asielstatushouder|asielstatushouder]] — Inburgeringsplichtige asielgerechtigde, gekoppeld aan gemeente
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/inburgering/gezinsmigrant-en-overige-migrant|gezinsmigrant]] — Inburgeringsplichtige op grond van gezinshereniging of andere migratiereden
@@ -200,6 +213,8 @@
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speeltoestel|Speeltoestel]] — Toestel voor kinderen met certificering en veiligheidsklasse (GGM exact, levensduur 15 jaar)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein|Speelterrein]] — Afgebakende openbare ruimte ingericht als speelplaats (GGM exact, subtypes buurtplek/blokplek)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/verkeerslicht|Verkeerslicht]] — Verkeersregelinstallatie op kruispunten (GGM exact, levensduur 10 jaar)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/scheiding|Scheiding]] — Kunstmatig, lineair obstakel met werende functie: hekwerk, keermuur (GGM exact, duplicaat met RSGBPlus/BGT #100)
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied|Functioneel gebied]] — Begrensd en benoemd gebied van een functionele eenheid (GGM exact, duplicaat met RSGBPlus/BGT #101)
 
 ### Beheer Openbare Ruimte — Water en riolering (GGM BOR taakveld 8 + hiaten)
 - [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/gemaal|gemaal]] — Constructie voor het verpompen van water in het rioleringssysteem (~700 in Utrecht, GGM exact)
@@ -221,7 +236,9 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/energie-en-klimaat/koelteplek|koelteplek]] — Groene verblijfsplek ≥200 m² met verkoelende functie, doelstelling binnen 200m loopafstand
 
 ### Wonen — Woonboten (GGM VTH taakveld 1)
-- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/woonboot|woonboot]] — Drijvend object voor permanente bewoning (GGM Vaartuig, sterk); subtypes: woonark, varend schip, historisch schip, schark
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vaartuig|vaartuig]] — GGM-containerbegrip voor zee-/binnenvaartuigen; gemeentelijke praktijkscope beperkt tot woonboten (GGM Vaartuig, exact); subtypes: woonboot, woonark, varend schip, historisch schip, schark
+- [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|ligplaats]] — Door de gemeente aangewezen plaats in het water voor permanent afmeren (GGM Ligplaats/BAG, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|standplaats-bag]] — Door de gemeente aangewezen terrein voor het permanent plaatsen van een verplaatsbare ruimte, bijv. woonwagenstandplaats (GGM Standplaats/BAG, exact)
 
 ### VTH — Omgevingswet (GGM taakveld 1 + procesobject)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/vth-zaak|vth-zaak]] — Zaak of dossier voor vergunningverlening, toezicht of handhaving in de fysieke leefomgeving (GGM VTHzaak, exact)
@@ -303,6 +320,7 @@
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/kinderboerderij|kinderboerderij]] — Openbaar toegankelijke boerderij met boerderijdieren voor educatie (Steedes)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/dierenweide|dierenweide]] — Locatie met dieren, beperkte openingstijden, vaak particulier initiatief
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/visrecht|visrecht]] — Recht om te vissen in gemeentelijke wateren, verhuurd via Visserijwet
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/dierenwelzijn/soortenmanagementplan|soortenmanagementplan]] — Plan voor omgang met verblijfplaatsen van beschermde gebouwbewonende soorten bij bouw- en isolatieprojecten
 
 ### Milieu — Bodem en grondwater (procesobjecten/governance-objecten, taakveld 7 — GGM-hiaten)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/bodemkwaliteitskaart|bodemkwaliteitskaart]] — Kaart met vastgestelde bodemkwaliteit per zone, basis voor grondhergebruik
@@ -404,7 +422,7 @@
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/opleidingsinschrijving|opleidingsinschrijving]] — Deelname van iemand aan een opleiding bij een onderwijsinstelling (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/uitschrijving|uitschrijving]] — Beëindiging van een inschrijving van een leerling bij een school (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/ouder-of-verzorger|ouder-of-verzorger]] — Persoon wettelijk verantwoordelijk voor zorg en opvoeding van een kind (GGM exact)
-- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|kinderopvangvoorziening]] — Locatie waar kinderopvang wordt geboden, geregistreerd in LRK (GGM-hiaat, subtypes: KDV, BSO, gastouderopvang)
+- [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|kinderopvangvoorziening]] — Locatie waar kinderopvang wordt geboden, geregistreerd in LRK (GGM-hiaat, subtypes: KDV, BSO, gastouderopvang, tussenschoolse opvang)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/verzuimmelding|verzuimmelding]] — Melding van school aan gemeente dat leerling niet verschijnt (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/leerplichtvrijstelling|leerplichtvrijstelling]] — Besluit tot ontheffing van leerplicht (GGM exact)
 - [[Wiki/Bedrijfsobjecten/4-onderwijs/leerplicht-en-leerlingenvervoer/procesverbaal-onderwijs|procesverbaal-onderwijs]] — Officieel document bij overtreding leerplichtwet (GGM exact)
@@ -420,7 +438,6 @@
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/balieafspraak|balieafspraak]] — Geplande afspraak voor een klantcontact aan de balie
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/product-of-dienst|product-of-dienst]] — Door de gemeente aangeboden dienst of product
 - zaaktypecatalogus — Verzameling zaaktypen met configuratie per domein
-- *(informatieobject — nu eigen BO-pagina, zie boven)*
 - zaakdossier — Zaakkenmerken + informatieobjecten, basis voor archivering
 - resultaattype — Mogelijke uitkomsten per zaaktype, bepaalt archiefregime
 - [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/besluit|besluit]] — Formele beslissing op een individueel geval binnen een zaak (RGBZ-kern)
@@ -608,6 +625,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra|Kindcentra]] — VNG: integrale kindcentra (IKC) 0-12 jaar
 - [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]] — VNG: gemeentelijk toezicht kinderopvang
 - [[Wiki/Bronsamenvattingen/Onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]] — VNG: GOAB en voor- en vroegschoolse educatie
+- [[Wiki/Bronsamenvattingen/Onderwijs/soorten-kinderopvang|Welke soorten kinderopvang zijn er?]] — Rijksoverheid: vormen van kinderopvang en recht op kinderopvangtoeslag
 
 ### Bestuur (VNG-rubrieken)
 - [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag
@@ -709,6 +727,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]] — KvK: gegevenscatalogus Handelsregister, Handelsregisterwet 2007, Handelsregisterbesluit 2008
 - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]] — Rijksoverheid: bronhouderschap, registratie verkenningen/gebruiksrechten/constructies/modellen, gebruiksplicht, terugmelding
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus Grondwaterstandonderzoek (GLD)]] — Geonovum: registratieobject GLD, samenhang GMW/GMN/GAR, kwaliteitsregimes
+- [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bgt-1.2|Gegevenscatalogus BGT 1.2 (IMGeo)]] — Geonovum: 18 BGT-objecttypen (wegen, water, terrein, bouwwerken), grondslag voor basisregistraties-BGT en 2 Beheer Openbare Ruimte-duplicaten
 
 ### Asiel en Integratie
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen|Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid]] — Divosa: financieel ontzorgen statushouders, wettelijk kader, uitvoering, praktijkvoorbeelden

@@ -36,8 +36,6 @@ bo_relaties:
     beschrijving: informeert over beschikbare materialen
 ---
 
-> **ter discussie** — Type is "instrument": een digitaal registratie-instrument in plaats van een fysiek object. Het team moet beoordelen of dit een BO is.
-
 ## BO-criteria toetsing
 
 | Criterium | Van toepassing? |
@@ -49,7 +47,7 @@ bo_relaties:
 | Heeft eigen levenscyclus | ✅ Aanmaak → bijwerken → gebruik bij sloop/renovatie |
 | Heeft relaties met andere concepten | ✅ Grondstoffendepot, aanbestedingen, gebouwen |
 
-**5/6 criteria van toepassing.** Kanttekening: kan worden gezien als eigenschap/attribuut van een gebouw in plaats van een zelfstandig object.
+**5/6 criteria van toepassing.** Besluit: BO gehouden — het paspoort heeft een eigen levenscyclus los van één specifieke gebouwinstantie (blijft relevant bij sloop, verkoop en hergebruik van materialen) en een cross-domein relatie naar [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot|Grondstoffendepot]] — dat is meer dan een pure eigenschap van één gebouw.
 
 ## Beschrijving
 

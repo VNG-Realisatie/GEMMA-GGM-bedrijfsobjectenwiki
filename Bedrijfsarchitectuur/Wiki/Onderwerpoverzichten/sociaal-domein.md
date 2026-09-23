@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: Sociaal Domein
-status: in-behandeling
-verwerkingsdatum: 2026-06-21
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 1
 begrippen_count: 17
 bo_count: 1
@@ -56,3 +56,7 @@ Voor verdere verdieping van dit domein zijn inhoudelijke beleidsdocumenten nodig
 ## Terugmeldingen richting GGM
 
 Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] #44: overkoepelend concept maatschappelijke voorziening en welzijns-/zorg-/cultuursubtypen ontbreken in het GGM.
+
+## Conclusie
+
+Domein afgerond op basis van de beschikbare bron: 1 rijke bron volledig verwerkt (16 subtypes onder 1 overkoepelend BO), 11 dunne VNG-portaalpagina's terecht als niet-relevant terzijde gelegd. Verdere verdieping (sportnota, Wmo-beleidsplan, cultuurvisie, onderwijsagenda) vereist nieuwe bronnen die nog niet zijn opgehaald — geen concrete URL bekend, dus geen fetch-actie mogelijk; bij een toekomstige ingest oppakken. De 2 openstaande vragen zijn vooruitkijkende notities, geen blokkerende classificatievraag.

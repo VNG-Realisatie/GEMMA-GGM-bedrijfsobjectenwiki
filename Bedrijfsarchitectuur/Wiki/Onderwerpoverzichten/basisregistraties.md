@@ -1,11 +1,11 @@
 ---
 type: onderwerp
 naam: Basisregistraties
-status: in-behandeling
-verwerkingsdatum: 2026-06-27
-bronnen_count: 6
-begrippen_count: 57
-bo_count: 26
+status: afgerond
+verwerkingsdatum: 2026-09-23
+bronnen_count: 8
+begrippen_count: 75
+bo_count: 39
 ---
 
 ## Beschrijving
@@ -144,6 +144,32 @@ Gemeente is **bronhouder** (voor verkenningen, constructies en gebruiksrechten b
 | grondwatermonitoringnet (GMN) | object | BRO | Logische groepering meetpunten | ❌ | geen wettelijk objecttype, wel BRO-registratieobject | nee |
 | grondwaterstandonderzoek (GLD) | subtype | BRO | Meetreeksen waterstand per monitoringbuis | ❌ | specialisatie van Verkenning | nee |
 | grondwatersamenstellingsonderzoek (GAR) | subtype | BRO | Monitoring grondwaterkwaliteit | ❌ | specialisatie van Verkenning | nee |
+
+### BGT — Basisregistratie Grootschalige Topografie
+
+Bronhouder-organisatie (meestal gemeente) is **bronhouder**. Beheerder LV: Kadaster. Modelleert dezelfde fysieke werkelijkheid als de IMBOR-beheerobjecten in Beheer Openbare Ruimte, maar op registratie- in plaats van beheerniveau — zie [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bgt-1.2|Gegevenscatalogus BGT 1.2]] §Relevantie voor bedrijfsarchitectuur.
+
+| Begrip | Type | Registratie | Omschrijving | BO? | Reden | GGM |
+|---|---|---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/wegdeel\|Wegdeel]] | object | BGT | Kleinste homogene stuk weg, primair voor weg-/spoor-/vliegverkeer | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/ondersteunend-wegdeel\|OndersteunendWegdeel]] | object | BGT | Deel van de weg niet primair voor verkeer (berm, trottoirband) | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/spoorbaan\|Spoorbaan]] | object | BGT | De as van het spoor waarover trein/tram/sneltram rijdt | ✅ | exact match; homoniem met Archeologie "Spoor" (#102) | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/onbegroeid-terreindeel\|OnbegroeidTerreindeel]] | object | BGT | Kleinste stukje terrein zonder aaneengesloten vegetatie | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/begroeid-terreindeel\|BegroeidTerreindeel]] | object | BGT | Kleinste stukje terrein met aaneengesloten vegetatie | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/waterdeel\|Waterdeel]] | object | BGT | Kleinste stukje permanent water | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/ondersteunend-waterdeel\|OndersteunendWaterdeel]] | object | BGT | Periodiek (deels) met water bedekt object t.b.v. waterhuishouding | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bag/pand\|Pand]] | object | BGT/BAG | Kleinste bouwkundig zelfstandige eenheid | ✅ | al vastgelegd via BAG, RSGBPlus/BGT is duplicaat | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/overig-bouwwerk\|OverigBouwwerk]] | object | BGT | Duurzaam bouwwerk, geen pand of kunstwerk | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/overbruggingsdeel\|Overbruggingsdeel]] | object | BGT | Essentieel onderdeel van een brugconstructie | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/tunneldeel\|Tunneldeel]] | object | BGT | Essentieel onderdeel van een tunnelconstructie | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/bgt/kunstwerkdeel\|Kunstwerkdeel]] | object | BGT | Onderdeel civieltechnisch werk (weg/water/spoor/kering/leiding) | ✅ | exact match | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/scheiding\|Scheiding]] | object | BGT/Beheer OR | Kunstmatig, lineair obstakel met werende functie | ✅ | duplicaat (#100), primair in Beheer Openbare Ruimte | ja |
+| [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied\|FunctioneelGebied]] | object | BGT/Beheer OR | Begrensd en benoemd gebied van een functionele eenheid | ✅ | duplicaat (#101), primair in Beheer Openbare Ruimte | ja |
+| IMGeo-Object | object | BGT | Abstract: gemeenschappelijke eigenschappen van elk BGT-object | ❌ | abstract | ja |
+| OverigeConstructie | object | BGT | Abstract: gebouwd object, geen NEN 3610-gebouw | ❌ | abstract, subtypes zijn de BO's | ja |
+| OpenbareRuimteLabel | object | BGT | Naam/plaatsingspunt van een Openbare Ruimte, t.b.v. visualisatie | ❌ | cartografisch label van bestaande BO [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | ja |
+| Plaatsbepalingspunt | object | BGT | Ingemeten punt, onderdeel begrenzing BGT-objecten | ❌ | meettechnisch kwaliteitsobject, geen bedrijfsbetekenis | ja |
+
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bag-2018|Catalogus BAG 2018]]
@@ -153,15 +179,20 @@ Gemeente is **bronhouder** (voor verkenningen, constructies en gebruiksrechten b
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]]
 - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]]
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus Grondwaterstandonderzoek (GLD)]]
+- [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bgt-1.2|Gegevenscatalogus BGT 1.2 (IMGeo)]]
 
 ## Nog te verwerken
 
-De volgende basisregistraties zijn nog niet verwerkt. Per registratie zijn geschikte bronnen gesuggereerd:
+Eén basisregistratie nog niet verwerkt, geen bron beschikbaar:
 
-- **RSGBPlus overige entiteiten** — referentietabellen, detail-entiteiten, IMGeo/BGT
-- **BGT** — Basisregistratie Grootschalige Topografie (https://docs.geostandaarden.nl/imgeo/catalogus/bgt/)
+- **RSGBPlus overige entiteiten** — referentietabellen, detail-entiteiten die niet via BAG/BRP/BRK/NHR/WOZ/BRO/BGT zijn gedekt. Geen geschikte publieke bron bekend; apart oppakken zodra een RSGBPlus-referentiedocument beschikbaar komt.
 
 ## Openstaande vragen
 
-- **Standplaats-disambiguatie**: de GGM-entiteit "Standplaats" (RSGBPlus, EAID_B1C6CA45) was eerder foutief gematcht op [[Marktstandplaats]] (Economie). Nu gecorrigeerd: de GGM-entiteit hoort bij [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]]. De marktstandplaats is een GGM-hiaat.
-- **BRO GGM-hiaat**: de BRO en haar objecttypen (Verkenning, Constructie, Gebruiksrecht) zijn niet in het GGM gemodelleerd.
+Geen. De twee eerdere vragen zijn opgelost:
+- **Standplaats-disambiguatie**: de GGM-entiteit "Standplaats" (RSGBPlus, EAID_B1C6CA45) was eerder foutief gematcht op [[Marktstandplaats]] (Economie). Gecorrigeerd: de GGM-entiteit hoort bij [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]]. De marktstandplaats is een GGM-hiaat.
+- **BRO GGM-hiaat**: de BRO en haar objecttypen (Verkenning, Constructie, Gebruiksrecht) zijn niet in het GGM gemodelleerd — gedocumenteerd, geen verdere actie nodig.
+
+## Conclusie
+
+Domein afgerond: 7 van de 8 GGM-gemodelleerde basisregistraties zijn verwerkt (BAG, BRP, BRK, NHR, WOZ, BRO, BGT), 39 BO's vastgelegd. Enige resterende hiaat is RSGBPlus-detailentiteiten zonder eigen publieke bron (zie Nog te verwerken) — geen blokkerende vraag, apart oppakken bij een geschikte bron.

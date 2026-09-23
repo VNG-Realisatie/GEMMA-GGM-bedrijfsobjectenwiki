@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: Sport en Bewegen
-status: in-behandeling
-verwerkingsdatum: 2026-06-21
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 2
 begrippen_count: 12
 bo_count: 7
@@ -40,8 +40,12 @@ Het gemeentelijk domein sport en bewegen omvat het beleid, de voorzieningen en d
 
 ## Openstaande vragen
 
-- Zwembad als GGM-terugmelding: past het als specialisatie van Sportlocatie of als zelfstandig objecttype?
+Opgelost: Zwembad is vastgelegd als voorgestelde derde specialisatie van [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/sportlocatie|Sportlocatie]], naast Sportpark en Binnenlocatie — geen aanwijsbaar verschil in autonomie of levenscyclus dat een zelfstandig objecttype rechtvaardigt.
 
 ## Terugmeldingen richting GGM
 
-- **Zwembad** — ontbreekt als entiteit in GGM beleidsdomein Sport. Zie [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/zwembad|Zwembad]] voor onderbouwing.
+- **Zwembad** — ontbreekt als entiteit in GGM beleidsdomein Sport; voorgesteld als derde specialisatie van Sportlocatie. Zie [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/zwembad|Zwembad]] voor onderbouwing.
+
+## Conclusie
+
+Domein afgerond: 2 bronnen verwerkt, 7 BO's vastgelegd. De enige openstaande vraag (structurele positionering van Zwembad) is opgelost op basis van het al bestaande Sportpark/Binnenlocatie-precedent.

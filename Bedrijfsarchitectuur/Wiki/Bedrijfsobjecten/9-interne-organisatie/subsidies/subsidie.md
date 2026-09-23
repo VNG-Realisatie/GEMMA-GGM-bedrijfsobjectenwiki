@@ -39,6 +39,21 @@ bo_synoniemen: []
 bo_homoniemen: []
 element_tegenhangers: []
 bo_relaties:
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|Partijsubsidie]]"
+    richting: van-dit-BO
+    kardinaliteit:
+    beschrijving: "Partijsubsidie is een specialisatie van Subsidie (bedrijfsniveau, geen GGM-generalisatie)"
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|Loonkostensubsidie]]"
+    richting: van-dit-BO
+    kardinaliteit:
+    beschrijving: "Loonkostensubsidie is een specialisatie van Subsidie (bedrijfsniveau, geen GGM-generalisatie — eigen GGM-entiteit in beleidsdomein Werk)"
+  - type: generalisatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling|Sloopregeling]]"
+    richting: van-dit-BO
+    kardinaliteit:
+    beschrijving: "Sloopregeling is een specialisatie van Subsidie (bedrijfsniveau, geen GGM-generalisatie)"
   - type: associatie
     bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidieaanvraag|Subsidieaanvraag]]"
     richting: naar-dit-BO
@@ -92,7 +107,15 @@ Een subsidie is de financiële tegemoetkoming die de gemeente aan een derde (rec
 
 De VNG ondersteunt gemeenten met de Model Algemene subsidieverordening (ASV), die onder meer inzet op proportionaliteit tussen subsidiebedrag en administratieve lasten: bij lagere subsidiebedragen gelden minder strenge verantwoordingsplichten. De ASV vormt daarmee het governance-kader waarbinnen het bedrijfsobject Subsidie wordt toegepast; de verordening zelf is geen bedrijfsobject maar het juridisch instrument dat het proces normeert.
 
-De gemeente kent daarnaast specifieke, wettelijk of beleidsmatig genormeerde subsidievormen met een eigen BO-pagina, zoals [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|Partijsubsidie]] (subsidie aan decentrale politieke partijen) en [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|Loonkostensubsidie]] (Participatiewet). Het GGM modelleert deze niet als specialisatie van de generieke entiteit Subsidie (geen generalisatierelatie in het XMI); ze blijven daarom losstaande BO's, met Subsidie als het generieke beleidsinstrument waar de ASV op van toepassing is.
+De gemeente kent daarnaast specifieke, wettelijk of beleidsmatig genormeerde subsidievormen met een eigen BO-pagina: [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie|Partijsubsidie]] (subsidie aan decentrale politieke partijen), [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie|Loonkostensubsidie]] (Participatiewet) en [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling|Sloopregeling]] (subsidie aan inwoners bij milieuzone-aanscherping). Het GGM modelleert deze niet als specialisatie van de generieke entiteit Subsidie (geen generalisatierelatie in het XMI, en Loonkostensubsidie heeft zelfs een eigen GGM-entiteit in een ander beleidsdomein). Op bedrijfsniveau zijn het wél specialisaties van Subsidie — vastgelegd als generalisatie-relatie (zie Specialisaties), met Subsidie als het generieke beleidsinstrument waar de ASV op van toepassing is.
+
+## Specialisaties
+
+| Subtype | Omschrijving | GGM-entiteit |
+|---|---|---|
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie\|Partijsubsidie]] | Subsidie aan decentrale politieke partijen | — (geen GGM-entiteit) |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie\|Loonkostensubsidie]] | Tegemoetkoming aan werkgever bij verminderde loonwaarde werknemer | Loonkostensubsidie (beleidsdomein Werk, ander taakveld) |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling\|Sloopregeling]] | Subsidie aan inwoners voor voertuigvervanging bij milieuzone-aanscherping | — (geen GGM-entiteit) |
 
 ## GGM-bron
 
@@ -107,6 +130,9 @@ De gemeente kent daarnaast specifieke, wettelijk of beleidsmatig genormeerde sub
 
 | Gerelateerd BO | Relatie | Richting | Bron |
 |---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie\|Partijsubsidie]] | is specialisatie van Subsidie | Subsidie → Partijsubsidie | Bedrijfsniveau (geen GGM-generalisatie) |
+| [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie\|Loonkostensubsidie]] | is specialisatie van Subsidie | Subsidie → Loonkostensubsidie | Bedrijfsniveau (geen GGM-generalisatie) |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling\|Sloopregeling]] | is specialisatie van Subsidie | Subsidie → Sloopregeling | Bedrijfsniveau (geen GGM-generalisatie) |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidieaanvraag\|Subsidieaanvraag]] | aanvraag die kan leiden tot een subsidie | Subsidieaanvraag → Subsidie | GGM |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidiebeschikking\|Subsidiebeschikking]] | besluit dat de subsidie toekent of afwijst | Subsidiebeschikking → Subsidie | GGM |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/kostenplaats\|Kostenplaats]] | financiële administratie | Subsidie → Kostenplaats | GGM |

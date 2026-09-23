@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: Milieu
-status: in-behandeling
-verwerkingsdatum: 2026-06-26
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 11
 begrippen_count: 72
 bo_count: 36
@@ -46,8 +46,8 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/inzamelcontract\|Inzamelcontract]]|object|Overeenkomst gemeente-bedrijf voor bedrijfsafval| ✅ | ja |6/6 criteria, procesobject|Contract horeca binnenstad|nee|
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/upcyclecentrum\|Upcyclecentrum]]|object|Voorziening voor hergebruik grof huishoudelijk afval| ✅ | ja |6/6 criteria, procesobject, GGM-hiaat|Tractieweg, Lunetten (gepland)|nee|
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/grondstoffendepot\|Grondstoffendepot]]|object|Opslag vrijkomende materialen voor hergebruik| ✅ | ja |6/6 criteria, procesobject, GGM-hiaat|Lage Weide|nee|
-|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort\|Materiaalpasspoort]]|instrument|Digitale vastlegging materialen in gebouw/object| ✅ ⚠️ | ja |5/6 criteria, instrument — ter discussie|Paspoort kantoorgebouw|nee|
-|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening\|Afvalstoffenverordening]]|instrument|Gemeentelijke verordening voor afvalinzameling| ✅ ⚠️ | nee |5/6 criteria, governance — ter discussie|Opt-in systeem reclamedrukwerk|nee|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/materiaalpasspoort\|Materiaalpasspoort]]|instrument|Digitale vastlegging materialen in gebouw/object| ✅ | ja |5/6 criteria; eigen levenscyclus los van één gebouwinstantie|Paspoort kantoorgebouw|nee|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/afvalstoffenverordening\|Afvalstoffenverordening]]|instrument|Gemeentelijke verordening voor afvalinzameling| ✅ | nee |5/6 criteria; zelfde patroon als Heffingsverordening (Belastingen)|Opt-in systeem reclamedrukwerk|nee|
 |Het Nieuwe Inzamelen (HNI)|thema|Inzamelsysteem met gescheiden ophalen en brengen restafval| ❌ | nee |Proces/systeem, geen zelfstandig object|—|nee|
 |nascheiding|thema|Machinale scheiding van PBP uit restafval| ❌ | nee |Verwerkingsproces, geen object|—|nee|
 |circulaire economie|concept|Economisch systeem gericht op grondstoffenbehoud| ❌ | nee |Beleidsconcept, geen object|—|nee|
@@ -63,7 +63,7 @@ Gemeentelijk domein voor milieubeheer in brede zin. Omvat vier subdomeinen:
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/rookvrije-zone\|Rookvrije zone]]|object|Aangewezen zone waar roken niet is toegestaan| ✅ | ja |6/6 criteria, GGM-hiaat|Bushaltes, speelplekken, sportlocaties, USP|nee|
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/ontheffing-milieuzone\|Ontheffing (milieuzone)]]|object|Individuele uitzondering op milieuzoneregels| ✅ | ja |6/6 criteria, GGM-hiaat|Ontheffing camper, ontheffing oldtimer|nee|
 |[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/walstroompunt\|Walstroompunt]]|object|Fysiek aansluitpunt voor walstroom aan scheepvaart| ✅ | ja |6/6 criteria, GGM-hiaat|Ca. 50 punten in Utrecht|nee|
-|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling\|Sloopregeling]]|instrument|Subsidieregeling voor vervanging voertuig bij milieuzone-aanscherping| ✅ ⚠️ | ja |6/6 criteria, instrument — ter discussie|Sloopsubsidie milieuzone, inruilregeling brom/snor|nee|
+|[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/sloopregeling\|Sloopregeling]]|instrument|Subsidieregeling voor vervanging voertuig bij milieuzone-aanscherping| ✅ | ja |6/6 criteria; eigen BO naast Subsidie, zelfde patroon als Partijsubsidie/Loonkostensubsidie|Sloopsubsidie milieuzone, inruilregeling brom/snor|nee|
 |houtstookverbod|governance|Regulerend kader voor verbod op houtstook| ❌ | nee |Governance-instrument, geen zelfstandig object|Buitenstookverbod 2025, binnenstookverbod 2030|nee|
 |Schone Lucht Akkoord (SLA)|governance|Landelijk akkoord Rijk-provincies-gemeenten| ❌ | nee |Extern akkoord, geen gemeentelijk object|—|nee|
 |convenant SEB|governance|Landelijk convenant Schoon en Emissieloos Bouwen| ❌ | nee |Externe samenwerkingsafspraak|—|nee|
@@ -139,20 +139,17 @@ De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opges
 
 ## Nog te verwerken bronnen
 
-- [Sources/Onderwerpen/Milieu/rubriek-milieu.md](Sources/Onderwerpen/Milieu/rubriek-milieu.md) — VNG-rubriek Milieu
-- [Sources/Onderwerpen/Milieu/luchtkwaliteit.md](Sources/Onderwerpen/Milieu/luchtkwaliteit.md) — VNG: luchtkwaliteit
-- [Sources/Onderwerpen/Milieu/asbest.md](Sources/Onderwerpen/Milieu/asbest.md) — VNG: asbest
-- [Sources/Onderwerpen/Milieu/zeer-zorgwekkende-stoffen.md](Sources/Onderwerpen/Milieu/zeer-zorgwekkende-stoffen.md) — VNG: ZZS
-- [Sources/Onderwerpen/Milieu/afval-en-circulaire-economie.md](Sources/Onderwerpen/Milieu/afval-en-circulaire-economie.md) — VNG: afval en circulaire economie
 - Beleidsnota Ondergrond 2025-2035 (niet beschikbaar, achter authenticatie)
+
+Beoordeeld en afgehandeld (2026-09-23): `rubriek-milieu.md`, `luchtkwaliteit.md`, `zeer-zorgwekkende-stoffen.md` en `afval-en-circulaire-economie.md` waren dunne VNG-portaalpagina's zonder concrete objecten, inhoudelijk overlappend met de al verwerkte, rijkere Utrechtse bronnen (Beleidsnota Luchtkwaliteit, Visie Utrecht Circulair 2050) — verplaatst naar `Sources/Onderwerpen/Milieu/Niet-relevant/`. `asbest.md` bevat wel een mogelijk signaal (asbestverwijdering is meldingsplichtig bij de gemeente) maar is te dun om een BO-pagina op te baseren (geen concrete attributen/proces) — blijft in `Sources/Onderwerpen/Milieu/` als gevlagd, wachtend op een rijkere bron.
 
 ## Openstaande vragen
 
 - De Beleidsnota Ondergrond 2025-2035 was niet downloadbaar (authenticatie vereist). Deze kan aanvullende objecten bevatten.
 - Relatie met het Omgevingswet-domein: veel bodemtaken vallen onder de Omgevingswet. De BO's hier kunnen ook vanuit dat perspectief relevant zijn.
-- ⚠️ **Materiaalpasspoort** en **Afvalstoffenverordening** zijn ter discussie: zijn instrumenten/governance-objecten BO's?
-- ⚠️ **Sloopregeling** is ter discussie: instrument, functioneel een specialisatie van Subsidie (GGM Model Subsidies)
-- De VNG-bron [afval-en-circulaire-economie.md](Sources/Onderwerpen/Milieu/afval-en-circulaire-economie.md) is nog niet verwerkt — kan aanvullende landelijke context bieden.
+- **Asbestmelding**: `asbest.md` suggereert een meldingsplicht bij de gemeente bij asbestverwijdering — mogelijke toekomstige BO-kandidaat, maar de bron is te dun (4 alinea's, geen concrete attributen) om nu een pagina op te baseren.
+
+Opgelost: Materiaalpasspoort, Afvalstoffenverordening en Sloopregeling waren ter discussie (⚠️) — alle drie bevestigd als BO na overleg. Materiaalpasspoort en Afvalstoffenverordening blijven staande BO's (5/6 criteria, laatste zelfde patroon als Heffingsverordening). Sloopregeling blijft een eigen BO naast [[Wiki/Bedrijfsobjecten/9-interne-organisatie/subsidies/subsidie|Subsidie]], zelfde patroon als Partijsubsidie/Loonkostensubsidie; een gemeenschappelijke burger/ondernemer-specialisatielaag is onderzocht maar niet ingevoerd (te weinig vergelijkbare instanties) — wel is bij heroverweging alsnog een wiki-niveau generalisatie-relatie Sloopregeling↔Subsidie toegevoegd (ontbrak eerder volledig; ook bij Partijsubsidie en Loonkostensubsidie aangevuld). Afvalstoffenverordening had bovendien een bronnenlijst met 10 evident onjuiste, gekopieerde verwijzingen (bodem/grondwater/luchtkwaliteit/water-bronnen) — gecorrigeerd naar de daadwerkelijk relevante bron ([[Wiki/Bronsamenvattingen/Milieu/grondstoffennota-utrecht-2020]]).
 
 ## Terugmeldingen richting GGM
 
@@ -166,3 +163,7 @@ De groenbeleid-bronnen (Groenstructuurplan 2007 en Actualisatie 2018) zijn opges
 - Het GGM mist Rioolheffing — vergelijkbaar met hoe Afvalstoffenheffing ontbreekt maar wel BO is.
 - Het GGM mist Sluis als subtype van Kunstwerk — waterbouwkundig kunstwerk dat gemeenten beheren.
 Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+
+## Conclusie
+
+Domein afgerond: 11 rijke bronnen verwerkt, 36 BO's vastgelegd, 3 eerder ter-discussie-staande BO's opgelost. Resterende openstaande punten (Beleidsnota Ondergrond niet beschikbaar, mogelijke Asbestmelding-BO bij een rijkere bron) zijn gedocumenteerde, niet-blokkerende hiaten.

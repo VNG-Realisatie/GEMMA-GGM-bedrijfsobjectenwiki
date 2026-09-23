@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: geluid
-status: in-behandeling
-verwerkingsdatum: 2026-06-20
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 2
 begrippen_count: 9
 bo_count: 5
@@ -38,4 +38,9 @@ Geen bekende openstaande bronnen.
 ## Openstaande vragen
 
 - Geluidontheffing: past als subtype bij een breder BO Vergunning/Ontheffing — dat BO bestaat nog niet in de wiki. Aanmaken bij verwerking van het domein vergunningen.
-- Geluidbron, Geluidgevoelig gebouw, Stil gebied en Geluidzone: terugmelden als potentiële GGM-hiaten? Eerst beoordelen of dit dataobjecten zijn die gemeenten actief beheren, of beleidsmatige classificaties van bestaande objecten (weg, gebouw, terrein).
+
+Opgelost: Geluidbron, Geluidgevoelig gebouw en Stil gebied zijn teruggemeld als GGM-hiaten (#103–105); Geluidzone valt onder de al bestaande structurele terugmelding #43 (ontbrekend generiek Zone-concept).
+
+## Conclusie
+
+Domein afgerond: 2 bronnen verwerkt, 5 BO's vastgelegd. De 3 nog niet gerapporteerde GGM-hiaten zijn teruggemeld; het resterende openstaande punt (Geluidontheffing als subtype van een nog te bouwen Vergunning/Ontheffing-BO) is expliciet vooruitgeschoven naar een toekomstige VTH-ingest, geen blokkerende vraag.

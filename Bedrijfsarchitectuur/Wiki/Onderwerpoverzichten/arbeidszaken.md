@@ -1,8 +1,8 @@
 ---
 type: domein
 naam: Arbeidszaken
-status: in behandeling
-verwerkingsdatum: 2026-06-22
+status: afgerond
+verwerkingsdatum: 2026-09-23
 bronnen_count: 12
 begrippen_count: 23
 bo_count: 12
