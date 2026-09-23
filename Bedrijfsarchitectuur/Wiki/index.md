@@ -20,7 +20,7 @@
 - [[evenementen|evenementen]] — Buitenevenementen: vergunningen, locatieprofielen, reserveringskalender (afgerond, 3 BO's)
 - [[geluid|geluid]] — Geluid en trillingen: geluidbronnen, gevoelige gebouwen, stille gebieden, geluidzones (afgerond, 5 BO's)
 - [[gevaarlijke-stoffen|gevaarlijke-stoffen]] — Omgevingsveiligheid: risicobronnen, aandachtsgebieden, voorschriftengebieden (afgerond, 3 BO's)
-- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging (open — onvoldoende bronnen, 2 BO's)
+- [[openbare-gezondheid|openbare-gezondheid]] — Gezondheidsbeleid, preventie, GGD-opdrachtgeverschap, infectieziektebestrijding, lijkbezorging: begraafplaats, grafrecht, crematorium, lijkschouw, verlof tot begraving/crematie (open — onvoldoende bronnen, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/mobiliteit|mobiliteit]] — Verkeer en vervoer: fiets, OV, auto, goederenvervoer, parkeren, verkeersmanagement (afgerond, 29 BO's, 12 bronnen)
 - [[maatschappelijke-ondersteuning|maatschappelijke-ondersteuning]] — Wmo en Jeugdwet: beschikkingen, voorzieningen, toewijzingen, leveringen, PGB, zorgdeclaratie, eigen bijdrage, hulpverleningsplan, buurtteams, jeugdbescherming, kinderbeschermingsmaatregel, machtiging gesloten jeugdhulp, pleegcontract, dakloosheid (afgerond, 15 BO's)
 - [[sociaal-domein|sociaal-domein]] — Maatschappelijke voorzieningen: fysieke plekken voor zorg, welzijn, cultuur, sport, onderwijs (afgerond, 1 BO)
@@ -442,6 +442,13 @@
 ### Openbare Gezondheid — Infectieziektebestrijding (procesobject, taakveld 7 — GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/infectieziektemelding|infectieziektemelding]] — Melding meldingsplichtige infectieziekte conform Wpg (procesobject, GGM-hiaat)
 
+### Openbare Gezondheid — Lijkbezorging (taakveld 7 — GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/begraafplaats|begraafplaats]] — Terrein voor begraving, gemeentelijk (verplicht) of bijzonder (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/grafrecht|grafrecht]] — Uitsluitend recht op een particulier graf, geen registergoed (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/crematorium|crematorium]] — Voorziening voor crematie, gemeentelijk of bijzonder (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/lijkschouw|lijkschouw]] — Onderzoek naar doodsoorzaak, resultaat verklaring van overlijden (GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/verlof-tot-begraving-of-crematie|verlof tot begraving of crematie]] — Verplicht document vóór begraving/crematie (GGM-hiaat)
+
 ### Sociaal Domein — Maatschappelijke voorzieningen (ggm-afgeleid, taakveld 6)
 - [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/maatschappelijke-voorziening|maatschappelijke-voorziening]] — Plek voor activiteiten met maatschappelijk doel (zorg, welzijn, cultuur, sport, onderwijs); 16 subtypes
 
@@ -557,6 +564,7 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 - [[Wiki/Rollen/collegelid|collegelid]] — Lidmaatschap van het college van B&W (tegenhanger: BO collegelid)
 - [[Wiki/Rollen/contactpersoon|contactpersoon]] — Aanspreekpunt namens een organisatie (tegenhanger: BO contactpersoon)
 - [[Wiki/Rollen/eigenaar|eigenaar]] — Rechthebbende op een gebouw of stuk grond (GGM exact)
+- [[Wiki/Rollen/gemeentelijk-lijkschouwer|gemeentelijk lijkschouwer]] — Door B&W benoemde forensisch arts die lijkschouwingen verricht (GGM-hiaat)
 - [[Wiki/Rollen/grondbeheerder|grondbeheerder]] — Verantwoordelijk voor het beheer van gronden (GGM-definitie gebrekkig)
 - [[Wiki/Rollen/huurder|huurder]] — Partij die een zaak in gebruik heeft tegen tegenprestatie (GGM exact)
 - [[Wiki/Rollen/indiener|indiener]] — Doet een melding of aanvraag bij de gemeente (GGM duplicaat griffie/VTH)
@@ -859,6 +867,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 ### Openbare Gezondheid
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie|Gezondheidsbeleid en preventie — VNG en gemeente Utrecht]] — VNG + gemeente Utrecht: gezondheidsbeleid, GALA/IZA, preventieakkoorden, mentale gezondheid, lijkbezorging
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestrijding|De kerntaken van de infectieziektebestrijding]] — GGD GHOR Nederland: 7 kerntaken IZB, meldingsplicht Wpg, bron- en contactonderzoek, outbreak management
+- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/wet-op-de-lijkbezorging-wettekst|Wet op de lijkbezorging — volledige wettekst]] — lijkschouwing, verlof tot begraving/crematie, gemeentelijke begraafplaatsen, grafrecht, ruiming, crematie
 
 ### Dierenwelzijn
 - [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)

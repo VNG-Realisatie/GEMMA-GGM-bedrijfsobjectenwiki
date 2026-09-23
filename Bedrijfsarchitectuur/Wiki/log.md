@@ -1,3 +1,18 @@
+## [2026-09-23] ingest | Openbare Gezondheid — Wet op de lijkbezorging: 5 nieuwe BO's + 1 rol
+
+- **Aanleiding:** vervolg op de backlog-notitie "Domein open" (`ToDo/ingest-backlog.md`, Openbare Gezondheid) — begraafplaatsbeheer en lijkschouw stonden gesignaleerd als onvoldoende gedekte deelonderwerpen. De bestaande bron `wet-op-de-lijkbezorging.md` bleek een dunne VNG-samenvatting (één alinea); de volledige wettekst (BWBR0005009, wetten.overheid.nl, versie 2025-07-01) is opgehaald als aanvullende bron `wet-op-de-lijkbezorging-wettekst.md`.
+- **GGM-controle vooraf:** geen enkele GGM-entiteit voor begraafplaats/graf/crematorium/lijkschouw gevonden in `ggm_parsed.json`. De eerdere aanname in het onderwerpoverzicht dat begraafplaats "hoort bij Beheer Openbare Ruimte (IMBOR)" bleek onjuist — dat onderwerpoverzicht bevat geen enkele vermelding. Onbezet GGM-hiaat, met de gebruiker afgestemd vóór uitwerking (alle 6 kandidaten in één ronde).
+- **5 nieuwe BO's** (`Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/`), alle GGM-hiaat:
+  - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/begraafplaats|Begraafplaats]] — met subtypes Gemeentelijke/Bijzondere begraafplaats (uitwisselbaar qua proces, verschil zit in eigenaarschap)
+  - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/grafrecht|Grafrecht]] — uitsluitend recht op een particulier graf; expliciet géén registergoed (art. 28 lid 1 Wlb), dus bewust geen relatie naar het bestaande BO Zakelijk Recht (BRK)
+  - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/crematorium|Crematorium]] — analoog aan Begraafplaats (gemeentelijk/bijzonder)
+  - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/lijkschouw|Lijkschouw]] — resultaatdocument (verklaring van overlijden / verslag aan OvJ), zelfde patroon als het bestaande BO Infectieziektemelding
+  - [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/verlof-tot-begraving-of-crematie|Verlof tot begraving of crematie]] — na overleg met de gebruiker bewust GEEN specialisatie van het bestaande generieke BO Vergunningen en ontheffingen: geen discretionaire beoordeling, kosteloos en nagenoeg automatisch afgegeven
+- **1 nieuwe rol:** [[Wiki/Rollen/gemeentelijk-lijkschouwer|Gemeentelijk lijkschouwer]] — na overleg met de gebruiker bewust GEEN aparte BO-pagina (analoog aan het BOA-precedent: individuele registratiegegevens vallen onder HR/arbeidszaken)
+- **Bestaand BO verrijkt:** [[Wiki/Bedrijfsobjecten/6-sociaal-domein/gemeentebegrafenissen/gemeentebegrafenis|Gemeentebegrafenis]] — relaties naar Begraafplaats/Crematorium toegevoegd, beschrijving uitgebreid met art. 20-22 Wlb (waarschuwingsplicht, begraving vs. crematie, kostenverhaal, identificatie onbekend lijk)
+- **5 nieuwe GGM-terugmeldingen:** #119 t/m #123 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]]
+- **Bijgewerkt:** `Wiki/Onderwerpoverzichten/openbare-gezondheid.md` (begrippentabel +9 begrippen, bronnen_count/begrippen_count/bo_count), `Wiki/index.md`, `ToDo/ingest-backlog.md`. Domein blijft `open`: milieugezondheid en hygiënetoezicht nog te verwerken.
+
 ## [2026-09-23] ingest | Risicobeheer volledig afgerond: frauderisicoanalyse, fraudeonderzoek, Risicobeheerfonds onderzocht
 
 - **Aanleiding:** laatste open domein afronden — Risicobeheerfonds en frauderisicobibliotheek stonden gesignaleerd als te dun voor BO-beoordeling.

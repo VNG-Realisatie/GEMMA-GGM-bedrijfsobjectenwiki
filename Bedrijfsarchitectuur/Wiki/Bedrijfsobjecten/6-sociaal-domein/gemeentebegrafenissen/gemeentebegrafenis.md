@@ -39,6 +39,16 @@ bo_relaties:
     richting: van-dit-BO
     kardinaliteit: "0..1 → 1..1"
     beschrijving: "De overledene voor wie de gemeente de begrafenis verzorgt"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/begraafplaats|Begraafplaats]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..* → 1"
+    beschrijving: "De gemeentebegrafenis vindt in de regel plaats op een (gemeentelijke) begraafplaats, tenzij de overledene tot crematie of ontleding is bestemd"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/crematorium|Crematorium]]"
+    richting: van-dit-BO
+    kardinaliteit: "0..* → 0..1"
+    beschrijving: "Alternatief voor begraving, als de overledene daartoe is bestemd (art. 21 Wlb)"
 bedrijfsprocessen: [lijkbezorging, kostenverhaal gemeentebegrafenis]
 bedrijfsfuncties: [volksgezondheid, burgerzaken]
 ---
@@ -58,7 +68,7 @@ Score: 6/6.
 
 ## Beschrijving
 
-Wanneer niemand voorziet in de lijkbezorging van een overledene, is de gemeente op grond van artikel 21 van de Wet op de lijkbezorging verplicht hierin te voorzien. De gemeente draagt zorg voor de uitvaart, houdt de kosten bij en verhaalt deze waar mogelijk op de nalatenschap.
+Wanneer niemand voorziet in de lijkbezorging van een overledene, is de gemeente op grond van artikel 21 van de Wet op de lijkbezorging verplicht hierin te voorzien. De burgemeester wordt hierop geattendeerd doordat degene die het lijk onder zijn berusting heeft, uiterlijk op de derde dag na het overlijden waarschuwt (art. 20). De gemeente draagt zorg voor de uitvaart — in de regel begraving; crematie is alleen mogelijk als de overledene zijn lijk daartoe uitdrukkelijk heeft bestemd (art. 21 lid 1) — houdt de kosten bij en verhaalt deze waar mogelijk op de nalatenschap, onderhoudsplichtige bloed-/aanverwanten of de werkgever (art. 22). Bij een lijk met onbekende identiteit kan de burgemeester, uitsluitend ten behoeve van identificatie en opsporing van vermiste personen, lichaamsmateriaal laten afnemen (art. 21 lid 3-4).
 
 ## GGM-bron
 
@@ -80,6 +90,8 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 | Gerelateerd object | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|---|
 | NatuurlijkPersoon | heeft (overledene) | → | 0..1 → 1..1 | GGM |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/begraafplaats\|Begraafplaats]] | vindt plaats op | → | 0..* → 1 | Art. 21 Wlb |
+| [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/openbare-gezondheid/lijkbezorging/crematorium\|Crematorium]] | alternatief | → | 0..* → 0..1 | Art. 21 Wlb |
 
 ## Bedrijfsprocessen
 
@@ -89,3 +101,4 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/gezondheidsbeleid-en-preventie]]
+- [[Wiki/Bronsamenvattingen/Openbare Gezondheid/wet-op-de-lijkbezorging-wettekst]]

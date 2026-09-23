@@ -240,6 +240,9 @@ Status: 148 bronnen in 24 batches.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] kerntaken-infectieziektebestrijding (GGD GHOR Nederland, PDF, adviesrapport 7 kerntaken IZB) → 1 BO: Infectieziektemelding (procesobject, GGM-hiaat)
+- [x] wet-op-de-lijkbezorging-wettekst (Rijksoverheid, wetten.overheid.nl, volledige wettekst Wlb BWBR0005009 per 2025-07-01 — lijkschouwing, verlof, gemeentelijke begraafplaatsen, grafrecht, ruiming, crematie) → 5 BO's: Begraafplaats, Grafrecht, Crematorium, Lijkschouw, Verlof tot begraving of crematie (alle GGM-hiaat) + 1 rol: Gemeentelijk lijkschouwer
+
+> **Begraafplaatsbeheer en lijkschouw afgehandeld (2026-09-23):** volledige wettekst Wlb (i.p.v. de dunne VNG-samenvatting) leverde 5 BO's + 1 rol op, zie hierboven. Bestaand BO Gemeentebegrafenis verrijkt met relaties naar Begraafplaats/Crematorium.
 
 ## ~~Openbare Orde en Veiligheid (10 + 4 aanvullend)~~ ✓
 - [x] aanpak-radicalisering → Niet-relevant
