@@ -1,11 +1,11 @@
 ---
 type: onderwerp
 naam: Openbare Orde en Veiligheid
-status: in-behandeling
+status: afgerond
 verwerkingsdatum: 2026-09-23
-bronnen_count: 5
-begrippen_count: 7
-bo_count: 5
+bronnen_count: 7
+begrippen_count: 12
+bo_count: 7
 ---
 
 # Openbare Orde en Veiligheid
@@ -27,6 +27,11 @@ De oorspronkelijke 10 VNG-bronnen zijn dunne portaalpagina's op strategisch/gove
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/alcoholoverlastgebied\|Alcoholoverlastgebied]] | object | Bij verordening aangewezen gebied met aanvullend alcoholregime | ✅ | ja | 6/6 criteria, GGM-hiaat; verwant aan Gebiedsaanwijzing (andere grondslag) | Uitgaansgebied met alcoholverbod straatverkoop | nee |
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/veiligheidsrisicogebied\|Veiligheidsrisicogebied]] | object | Door de burgemeester aangewezen gebied t.b.v. preventief fouilleren | ✅ | ja | 6/6 criteria, GGM-hiaat; verwant aan Alcoholoverlastgebied (andere grondslag) | Gebied rond uitgaansgelegenheden bij wapenoverlast | nee |
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/sluitingsbesluit\|Sluitingsbesluit]] | object | Besluit van de burgemeester tot (tijdelijke) sluiting van een pand | ✅ | ja | 6/6 criteria, GGM-hiaat; verwant aan Handhavingsbesluit (andere actor/grondslag) | Sluiting drugspand (Wet Damocles), sluiting overlastwoning (Wet Victoria) | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/gedoogverklaring\|Gedoogverklaring]] | object | Persoons- en locatiegebonden verklaring van de burgemeester dat coffeeshop-softdrugsverkoop niet strafrechtelijk wordt vervolgd | ✅ | ja | 6/6 criteria, GGM-hiaat; eigen grondslag (art. 13b Opiumwet) naast exploitatievergunning | Gedoogverklaring coffeeshop Leerdam | nee |
+| exploitatievergunning (coffeeshop) | object | Vergunning voor het exploiteren van een openbare inrichting (art. 2:28 Apv) | ❌ | ja | Al gedekt door bestaand subtype Horecavergunning onder Vergunningen en ontheffingen | — | nee |
+| AHOJGI-criteria | instrument | Landelijke randvoorwaarden voor coffeeshopgedogen (Aanwijzing Opiumwet) | ❌ | nee | Criteriaset, geen zelfstandig object; vastgelegd als toelichting bij Gedoogverklaring | Geen harddrugs, geen verkoop aan jeugdigen | nee |
+| [[Wiki/Actoren/zorg-en-veiligheidshuis\|Zorg- en Veiligheidshuis]] | actor | Regionaal netwerksamenwerkingsverband straf-, zorg- en gemeentelijke partners | ❌ | nee | Actor, geen entiteit; vastgelegd als actor-pagina (precedent: GGD, Sociaal ontwikkelbedrijf) | Veiligheidshuis regio Utrecht | nee |
+| [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/casus-veiligheidshuis\|Casus (Veiligheidshuis)]] | object | Complexe problematiek behandeld via screening/triage en integraal plan van aanpak | ✅ | ja | 5/6 criteria (geen eigen wettelijke grondslag), GGM-hiaat | Persoonsgerichte aanpak veelpleger | nee |
 
 ## Verwerkte bronnen
 
@@ -35,6 +40,8 @@ De oorspronkelijke 10 VNG-bronnen zijn dunne portaalpagina's op strategisch/gove
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/regeling-domeinlijsten-boa|Regeling domeinlijsten BOA]] — Min. J&V: zes domeinen en bevoegdheden voor buitengewoon opsporingsambtenaren
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/handreiking-apv-en-ondermijning|Handreiking APV en ondermijning]] — Aanjaagteam Ondermijning/VNG: model-APV-bepalingen, menukaart 39 bestuurlijke interventies, coffeeshopbeleid, artikel 13b Opiumwet
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/gemeentelijke-handhaving-boas|Gemeentelijke handhaving (boa's)]] — VNG: oorspronkelijk signaal voor de rol BOA
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/coffeeshopbeleid-2024-vijfheerenlanden|Coffeeshopbeleid 2024 (Vijfheerenlanden)]] — gemeentelijk beleid: gedoogverklaring, exploitatievergunning, AHOJGI-criteria, handhaving
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/landelijk-kader-veiligheidshuizen|Landelijk Kader Veiligheidshuizen]] — Ministerie van Veiligheid en Justitie (2013): positionering, functie, focus, organisatie, financiering
 
 Niet-relevant — 9 dunne VNG-portaalpagina's zonder concrete objecten:
 
@@ -44,17 +51,17 @@ Niet-relevant — 9 dunne VNG-portaalpagina's zonder concrete objecten:
 - [maatschappelijke-onrust-en-desinformatie.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/maatschappelijke-onrust-en-desinformatie.md)
 - [ondermijning.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/ondermijning.md) — dunne VNG-samenvatting, vervangen door Wet Bibob en de Handreiking
 - [rubriek-openbare-orde-en-veiligheid.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/rubriek-openbare-orde-en-veiligheid.md) — noemt terloops "registratiesystemen voor geweld- en agressie-incidenten", bevestigt mogelijk het bestaande GGM-object Geweldsincident (HR-domein), geen nieuwe content
-- [softdrugsbeleid.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/softdrugsbeleid.md) — noemt coffeeshops, te dun voor zelfstandige BO-beoordeling (zie Openstaande vragen)
+- [softdrugsbeleid.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/softdrugsbeleid.md) — noemt coffeeshops, oorspronkelijk te dun; opgevolgd door coffeeshopbeleid-2024-vijfheerenlanden
 - [weerbare-samenleving.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/weerbare-samenleving.md)
-- [zorg-en-veiligheidshuizen.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/zorg-en-veiligheidshuizen.md) — te dun voor zelfstandige BO-beoordeling (zie Openstaande vragen)
+- [zorg-en-veiligheidshuizen.md](../../Sources/Onderwerpen/Openbare%20Orde%20en%20Veiligheid/Niet-relevant/zorg-en-veiligheidshuizen.md) — oorspronkelijk te dun; opgevolgd door landelijk-kader-veiligheidshuizen
 
 ## Openstaande vragen of hiaten
 
-- **Coffeeshop** — gesignaleerd in zowel de softdrugsbeleid-portaalpagina als de menukaart bestuurlijke interventies ("sluiting coffeeshop", grondslag: lokaal coffeeshopbeleid), maar nog niet diepgaand genoeg onderbouwd voor een zelfstandige BO-beoordeling. Rijkere bron nodig (bijv. een gemeentelijk coffeeshopbeleid of de Opiumwet zelf).
-- **Zorg- en Veiligheidshuis** — regionaal samenwerkingsverband tussen zorg, veiligheid en gemeente voor persoonsgerichte aanpak van complexe problematiek; mogelijk actor-kandidaat (precedent: sociaal-ontwikkelbedrijf, stadsbedrijven), maar bron te dun. Rijkere bron nodig.
-- **Model-APV-vergunningplichten** (evenementen, exploitatie openbare inrichting, autoverhuur, glazenwassers, spyshops, woningverhuur/-bemiddeling) uit de Handreiking APV en ondermijning — mogelijk grotendeels al gedekt door bestaande domeinspecifieke vergunning-BO's elders in de wiki (bijv. Evenementen, Horeca). Nog te onderzoeken of er hiaten overblijven.
+- ~~**Coffeeshop**~~ — **Opgelost (2026-09-23):** Coffeeshopbeleid 2024 (Vijfheerenlanden) opgehaald → 1 nieuw BO: [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/gedoogverklaring|Gedoogverklaring]]. Exploitatievergunning blijft gedekt door bestaand subtype Horecavergunning.
+- ~~**Zorg- en Veiligheidshuis**~~ — **Opgelost (2026-09-23):** Landelijk Kader Veiligheidshuizen (Min. VenJ, 2013) opgehaald → actor [[Wiki/Actoren/zorg-en-veiligheidshuis|Zorg- en Veiligheidshuis]] + BO [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/casus-veiligheidshuis|Casus (Veiligheidshuis)]].
+- ~~**Model-APV-vergunningplichten**~~ — **Opgelost (2026-09-23):** autoverhuur, glazenwassers, spyshops en woningverhuur/-bemiddeling zijn qua vorm identiek aan de al bestaande subtypes (Standplaatsvergunning, Horecavergunning e.a.) — als 4 nieuwe subtypes toegevoegd aan het generieke BO [[Vergunningen en ontheffingen]], geen hiaat. Evenementen en exploitatie openbare inrichting waren al gedekt (Evenementenvergunning resp. Horecavergunning).
 - ⚠️ **Gebiedsaanduidingen met verschillend juridisch kader** — Alcoholoverlastgebied, Veiligheidsrisicogebied en het bestaande Gebiedsaanwijzing (Omgevingswet) zijn conceptueel verwant maar met eigen grondslag en registratiesysteem. Ter discussie of een toekomstige ronde deze onder een overkoepelend generiek concept moet brengen.
 
 ## Terugmeldingen richting GGM
 
-Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] — #109 t/m #113: Bibob-toets, Preventie- en handhavingsplan alcohol, Alcoholoverlastgebied, Veiligheidsrisicogebied, Sluitingsbesluit.
+Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] — #109 t/m #113: Bibob-toets, Preventie- en handhavingsplan alcohol, Alcoholoverlastgebied, Veiligheidsrisicogebied, Sluitingsbesluit. #124 t/m #125: Gedoogverklaring, Casus (Veiligheidshuis).

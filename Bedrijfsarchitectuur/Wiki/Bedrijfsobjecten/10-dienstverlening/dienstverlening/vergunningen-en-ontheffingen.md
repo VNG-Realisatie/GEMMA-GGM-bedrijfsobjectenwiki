@@ -55,6 +55,26 @@ bo_subtypes:
     ggm_entiteit: "Omgevingsvergunning"
     ggm_guid: EAID_053B594A_5E45_4413_9339_D2D026ECCE20
     ggm_attribuut:
+  - naam: APV-vergunning risicovolle branche (autoverhuur)
+    omschrijving: "APV-vergunningplicht voor autoverhuurbedrijven, ter voorkoming van misbruik voor criminele doeleinden"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
+  - naam: APV-vergunning risicovolle branche (glazenwassers)
+    omschrijving: "APV-vergunningplicht voor glazenwasbedrijven, ter voorkoming van misbruik voor criminele doeleinden"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
+  - naam: APV-vergunning risicovolle branche (spyshops)
+    omschrijving: "APV-vergunningplicht voor spyshops (verkoop opsporings-/aftapapparatuur)"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
+  - naam: APV-vergunning risicovolle branche (woningverhuur/-bemiddeling)
+    omschrijving: "APV-vergunningplicht voor kamerverhuurbedrijven en woningbemiddelaars, ter bestrijding van huisjesmelkerij"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
 bo_relaties:
   - type: generalisatie
     bedrijfsobject: "[[Evenementenvergunning]]"
@@ -131,6 +151,7 @@ De specialisaties laten zien hoe divers vergunningen en ontheffingen zijn qua pr
 | Ligplaatsvergunning | Vergunning voor het innemen van een ligplaats | [Ligplaatsontheffing](vth.md) |
 | Exploitatievergunning (vaarverkeer) | Vergunning voor commercieel gebruik van vaartuig | — |
 | Omgevingsvergunning | Beschikking op aanvraag voor activiteiten in de fysieke leefomgeving; doorloopt vooroverleg, toetsing en bezwaar/beroep. Onder de Wkb vervalt de bouwtechnische toets voor gevolgklasse 1 naar een kwaliteitsborger. | [Omgevingsvergunning](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
+| APV-vergunning risicovolle branche (autoverhuur, glazenwassers, spyshops, woningverhuur/-bemiddeling) | Vergunningplicht die gemeenten in de APV opnemen voor branches die kwetsbaar zijn voor criminele doeleinden (ondermijning); vier afzonderlijke branches met dezelfde vergunningsvorm | — |
 
 ## Procesbron
 
@@ -162,6 +183,7 @@ Het concept is afgeleid uit gemeentelijke beleidsbronnen die elk hun eigen vergu
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]
 - [[Wiki/Bronsamenvattingen/Economie/horecabeleid-utrecht]]
 - [[Wiki/Bronsamenvattingen/Omgevingswet/uitvoeringsbeleid-vth-delft]]
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/handreiking-apv-en-ondermijning]]
 
 ## Terugmelding GGM
 

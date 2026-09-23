@@ -37,7 +37,7 @@
 - [[Wiki/Onderwerpoverzichten/inkoop|inkoop]] — Gemeentelijke inkoop en aanbesteding: aanbestedingen, contracten, leveranciers, gunningen, offertes, inschrijvingen, inkooppakketten, marktconsultaties (afgerond, 8 BO's)
 - [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/recht|recht]] — Bestuursrecht, gemeentelijke organisatie, modelverordeningen, overheidsprivaatrecht en subsidierecht (afgerond, 3 BO's)
-- [[Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid|openbare-orde-en-veiligheid]] — Handhaving openbare orde en aanpak ondermijning: BOA, Bibob-toets, preventie- en handhavingsplan alcohol, alcoholoverlastgebied, veiligheidsrisicogebied, sluitingsbesluit (in behandeling, 5 BO's)
+- [[Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid|openbare-orde-en-veiligheid]] — Handhaving openbare orde en aanpak ondermijning: BOA, Bibob-toets, preventie- en handhavingsplan alcohol, alcoholoverlastgebied, veiligheidsrisicogebied, sluitingsbesluit, gedoogverklaring, casus (Veiligheidshuis) (afgerond, 7 BO's)
 - [[Wiki/Onderwerpoverzichten/risicobeheer|risicobeheer]] — Risicomanagement en financiële beheersing: weerstandsvermogen en risicobeheersing, risico, verzekering (in behandeling, 3 BO's)
 
 ## Bedrijfsobjecten
@@ -272,6 +272,8 @@
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/alcoholoverlastgebied|alcoholoverlastgebied]] — Bij verordening aangewezen gebied met aanvullend alcoholregime, art. 25f Alcoholwet (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/veiligheidsrisicogebied|veiligheidsrisicogebied]] — Door de burgemeester aangewezen gebied t.b.v. preventief fouilleren, art. 151b/174b Gemeentewet (procesobject, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/sluitingsbesluit|sluitingsbesluit]] — Besluit van de burgemeester tot (tijdelijke) sluiting van een pand, art. 174/174a Gemeentewet, art. 13b Opiumwet (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/gedoogverklaring|gedoogverklaring]] — Persoons- en locatiegebonden verklaring van de burgemeester dat coffeeshop-softdrugsverkoop niet strafrechtelijk wordt vervolgd, art. 13b Opiumwet (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/openbare-orde-en-veiligheid/casus-veiligheidshuis|casus (veiligheidshuis)]] — Complexe persoons-, systeem- of gebiedsgerichte problematiek behandeld via screening/triage en integraal plan van aanpak (procesobject, GGM-hiaat)
 
 ### Evenementen (GGM taakveld 1 VTH + procesobjecten)
 - [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/evenementen/evenement|evenement]] — Georganiseerde activiteit met publiek in de openbare ruimte (GGM OpenbareActiviteit, partieel)
@@ -540,6 +542,7 @@ Business Actors (ArchiMate) — handelende personen, organisaties en organisator
 - [[Wiki/Actoren/raadscommissie|raadscommissie]] — Groep raadsleden die raadsbesluitvorming per thema voorbereidt en adviseert (GGM exact)
 - [[Wiki/Actoren/acoi|acoi]] — Onafhankelijk wettelijk adviescollege voor openbaarheid en informatiehuishouding, adviseert en bemiddelt bij Woo-klachten (governance-object, precedent: ombudsman)
 - [[Wiki/Actoren/landelijk-bureau-bibob|landelijk-bureau-bibob]] — Zelfstandig orgaan dat adviseert over de mate van gevaar bij Bibob-toetsen (governance-object, precedent: ombudsman, acoi)
+- [[Wiki/Actoren/zorg-en-veiligheidshuis|zorg-en-veiligheidshuis]] — Regionaal netwerksamenwerkingsverband tussen straf-, zorg- en gemeentelijke partners, sinds 2013 onder gemeentelijke regie (governance-object, precedent: ggd, sociaal-ontwikkelbedrijf)
 
 ## Rollen
 
@@ -914,6 +917,8 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/regeling-domeinlijsten-boa|Regeling domeinlijsten BOA]] — Min. J&V: zes domeinen en bevoegdheden voor buitengewoon opsporingsambtenaren
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/handreiking-apv-en-ondermijning|Handreiking APV en ondermijning]] — Aanjaagteam Ondermijning/VNG: model-APV-bepalingen, menukaart bestuurlijke interventies
 - [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/gemeentelijke-handhaving-boas|Gemeentelijke handhaving (boa's)]] — VNG: oorspronkelijk signaal voor de rol BOA
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/coffeeshopbeleid-2024-vijfheerenlanden|Coffeeshopbeleid 2024 (Vijfheerenlanden)]] — gemeentelijk beleid: gedoogverklaring, exploitatievergunning, AHOJGI-criteria, handhaving
+- [[Wiki/Bronsamenvattingen/Openbare Orde en Veiligheid/landelijk-kader-veiligheidshuizen|Landelijk Kader Veiligheidshuizen]] — Min. VenJ (2013): positionering, functie, focus, organisatie, financiering van Veiligheidshuizen
 
 ### Risicobeheer
 - [[Wiki/Bronsamenvattingen/Risicobeheer/nota-weerstandsvermogen-risicobeheersing-waadhoeke|Nota Weerstandsvermogen en Risicobeheersing (Gemeente Waadhoeke)]] — definities risico/weerstandscapaciteit/weerstandsvermogen, wettelijk kader

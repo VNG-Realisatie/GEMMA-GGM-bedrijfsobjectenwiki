@@ -261,6 +261,12 @@ Status: 148 bronnen in 24 batches.
 
 > **Afgehandeld:** Gemeentewet-artikelen 151b/174/174a/174b hergebruikt uit de al eerder ge-ingeste volledige wettekst onder Bestuur (`gemeentewet-wettekst`), niet opnieuw opgehaald. 5 bronsamenvattingen, 9 niet-relevant. 5 nieuwe BO's (Bibob-toets, Preventie- en handhavingsplan alcohol, Alcoholoverlastgebied, Veiligheidsrisicogebied, Sluitingsbesluit), 1 actor (Landelijk Bureau Bibob), 1 rol (BOA, GGM exact). Domein open: Coffeeshop en Zorg- en Veiligheidshuis gesignaleerd maar niet uitgewerkt (bron te dun); model-APV-vergunningplichten (evenementen, autoverhuur, glazenwassers, spyshops, woningverhuur) nog te onderzoeken op overlap met bestaande domeinspecifieke BO's.
 
+### Aanvullende bronnen ronde 2 (niet in oorspronkelijke batch, 2026-09-23)
+- [x] coffeeshopbeleid-2024-vijfheerenlanden (Gemeente Vijfheerenlanden, lokaleregelgeving.overheid.nl, coffeeshopbeleid 2024 — juridisch kader, exploitatievergunning, gedoogverklaring, AHOJGI-criteria, locatiecriteria, handhaving) → 1 BO: Gedoogverklaring (GGM-hiaat); exploitatievergunning al gedekt door bestaand subtype Horecavergunning
+- [x] landelijk-kader-veiligheidshuizen (Ministerie van Veiligheid en Justitie, PDF, Landelijk Kader Veiligheidshuizen 2013 — positionering, functie, focus, organisatie, financiering) → 1 actor: Zorg- en Veiligheidshuis; 1 BO: Casus (Veiligheidshuis) (GGM-hiaat)
+
+> **Domein volledig afgerond (2026-09-23):** de resterende drie open punten opgelost. Coffeeshop en Zorg- en Veiligheidshuis: zie de twee nieuwe bronnen hierboven. Model-APV-vergunningplichten (autoverhuur, glazenwassers, spyshops, woningverhuur/-bemiddeling): qua vorm identiek aan bestaande subtypes, toegevoegd als 4 nieuwe subtypes aan het generieke BO Vergunningen en ontheffingen — geen hiaat, geen aparte bron nodig. Domein Openbare Orde en Veiligheid nu afgerond: 7 bronsamenvattingen, 12 begrippen, 7 BO's + 2 actoren + 1 rol. Zie `Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid.md`.
+
 ## ~~Recht (9 + 1 aanvullend)~~ ✓
 - [x] algemene-plaatselijke-verordening-apv → Niet-relevant (te dun, puur portaal)
 - [x] algemene-wet-bestuursrecht-awb → Niet-relevant (één zin, geen inhoud)
