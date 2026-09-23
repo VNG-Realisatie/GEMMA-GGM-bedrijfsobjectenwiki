@@ -99,7 +99,7 @@ Entiteit: Nertwerkcomponent (typo in GGM) | Matchsterkte: **exact** | Attributen
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/cmdb-en-informatiebeheer]]
 
 ## Terugmelding GGM
 

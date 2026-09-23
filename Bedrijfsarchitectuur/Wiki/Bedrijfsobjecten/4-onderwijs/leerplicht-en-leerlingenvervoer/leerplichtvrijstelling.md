@@ -102,5 +102,5 @@ De GGM-entiteit heet "Vrijstelling". Hernoemd naar "Leerplichtvrijstelling" ter 
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]

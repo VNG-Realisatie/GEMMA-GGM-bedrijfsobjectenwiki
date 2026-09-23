@@ -99,8 +99,8 @@ Dit BO ontstaat in het proces van registratie en toezicht kinderopvang. De Wet k
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/kinderopvang-toezicht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra]]
 
 ## Terugmelding GGM
 

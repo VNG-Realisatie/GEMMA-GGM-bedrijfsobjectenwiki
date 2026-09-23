@@ -187,7 +187,7 @@ De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzami
 
 - [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
+- [[Wiki/Bronsamenvattingen/erfgoed/visie-religieus-erfgoed-2025]]
+- [[Wiki/Bronsamenvattingen/erfgoed/bijlagen-visie-religieus-erfgoed]]
 - [[Wiki/Bronsamenvattingen/Cultuur/architectuur-en-erfgoed]]
 - [[Wiki/Bronsamenvattingen/Cultuur/kunst-en-cultuur]]

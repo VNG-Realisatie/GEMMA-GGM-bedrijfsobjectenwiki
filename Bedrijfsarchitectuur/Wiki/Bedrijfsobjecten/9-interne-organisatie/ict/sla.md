@@ -100,4 +100,4 @@ Geen GGM-match: contractuele instrumenten zoals een SLA zijn in het GGM niet com
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/gibit-2025]]

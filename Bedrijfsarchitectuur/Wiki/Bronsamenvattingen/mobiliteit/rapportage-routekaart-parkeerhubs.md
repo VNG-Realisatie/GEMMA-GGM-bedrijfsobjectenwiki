@@ -40,4 +40,4 @@ Het rapport levert capaciteitsdata en kostenkengetallen voor parkeerhubs. Het co
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/rapportage-routekaart-parkeerhubs]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/rapportage-routekaart-parkeerhubs]]

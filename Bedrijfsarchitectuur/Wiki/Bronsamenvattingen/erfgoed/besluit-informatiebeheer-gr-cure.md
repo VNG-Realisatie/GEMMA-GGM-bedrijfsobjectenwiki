@@ -11,7 +11,7 @@ datum_ingest: 2026-06-27
 
 Uitvoeringsbesluit op basis van de Archiefverordening van GR Cure (afvalverwerking regio Eindhoven). Geeft concrete voorschriften voor het beheer van de archiefbewaarplaats (Regionaal Historisch Centrum Eindhoven) en de documentaire informatievoorziening.
 
-Het besluit is complementair aan de [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen|Archiefverordening Wageningen 2019]]: waar de verordening de zorgplicht en verantwoording regelt, geeft dit besluit de **operationele voorschriften** voor archiefvorming, -ordening en -beheer.
+Het besluit is complementair aan de [[Wiki/Bronsamenvattingen/erfgoed/archiefverordening-wageningen|Archiefverordening Wageningen 2019]]: waar de verordening de zorgplicht en verantwoording regelt, geeft dit besluit de **operationele voorschriften** voor archiefvorming, -ordening en -beheer.
 
 **Kernbepalingen:**
 - **Archiefbewaarplaats** bij RHCe (art. 2). De archivaris van het RHCe beheert overgebrachte documentaire informatie (art. 3).
@@ -43,4 +43,4 @@ Het besluit voegt geen nieuwe BO-kandidaten toe maar verrijkt het begrip [[Archi
 
 ## Bronnen
 
-- Sources/Onderwerpen/erfgoed/besluit-informatiebeheer-gr-cure-2021.md
+- [[Sources/Onderwerpen/erfgoed/besluit-informatiebeheer-gr-cure-2021]]

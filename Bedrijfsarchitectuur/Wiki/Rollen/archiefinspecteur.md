@@ -29,4 +29,4 @@ Bron noemt dit expliciet een actor met een toezichthoudende rol, los van de arch
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/beleidsplan-westfries-archief]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/beleidsplan-westfries-archief]]

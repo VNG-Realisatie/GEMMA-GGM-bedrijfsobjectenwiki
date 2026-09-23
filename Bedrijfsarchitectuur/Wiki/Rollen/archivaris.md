@@ -31,5 +31,5 @@ Wettelijke rol met twee aanstellingscontexten in de bronnen — de eigen gemeent
 
 - [[Wiki/Bronsamenvattingen/Bestuur/archiefverordening-wageningen]]
 - [[Wiki/Bronsamenvattingen/Bestuur/memorie-van-toelichting-archiefwet]]
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/besluit-informatiebeheer-gr-cure]]
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/gr-regionaal-archief-rivierenland]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/besluit-informatiebeheer-gr-cure]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/gr-regionaal-archief-rivierenland]]

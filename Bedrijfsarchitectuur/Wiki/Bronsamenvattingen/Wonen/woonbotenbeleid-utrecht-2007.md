@@ -62,4 +62,4 @@ Definieert de objecten [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonbotenbeleid-utrecht-2007]]
+- [[Sources/Onderwerpen/Wonen/woonbotenbeleid-utrecht-2007]]

@@ -56,4 +56,4 @@ Het welstandsdomein raakt aan vergunningverlening (VTH), ruimtelijke ordening en
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-utrechtse-aanpak]]
+- [[Sources/Onderwerpen/Welstand/welstandsnota-utrechtse-aanpak]]

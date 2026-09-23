@@ -65,4 +65,4 @@ Deze nota is de primaire bron voor het domein Wonen. Zij definieert het volledig
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/beleidsnota-wonen-utrecht]]
+- [[Sources/Onderwerpen/Wonen/converted_pdf/beleidsnota-wonen-utrecht]]

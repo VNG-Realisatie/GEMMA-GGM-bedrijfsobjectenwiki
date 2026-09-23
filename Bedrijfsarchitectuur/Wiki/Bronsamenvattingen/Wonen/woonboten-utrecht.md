@@ -29,4 +29,4 @@ Dunne overzichtsbron die verwijst naar twee uitgewerkte beleidsnota's. De begrip
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/woonboten-utrecht]]
+- [[Sources/Onderwerpen/Wonen/woonboten-utrecht]]

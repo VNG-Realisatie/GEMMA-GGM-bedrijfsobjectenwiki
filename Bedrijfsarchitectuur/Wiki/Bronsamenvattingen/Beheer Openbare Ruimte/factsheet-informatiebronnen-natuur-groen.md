@@ -27,4 +27,4 @@ Verwijzingsdocument, geen nieuwe BO-kandidaten. Bevestigt het belang van natuur/
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Milieu/factsheet-informatiebronnen-natuur-groen]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/factsheet-informatiebronnen-natuur-groen]]

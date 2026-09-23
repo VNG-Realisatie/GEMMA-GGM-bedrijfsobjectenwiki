@@ -110,6 +110,6 @@ De NA-definitie beschrijft de informatiekundige identiteit (opzichzelfstaand, ei
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel]]
-- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel]]
+- [[Wiki/Bronsamenvattingen/erfgoed/memorie-van-toelichting-archiefwet]]
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]]

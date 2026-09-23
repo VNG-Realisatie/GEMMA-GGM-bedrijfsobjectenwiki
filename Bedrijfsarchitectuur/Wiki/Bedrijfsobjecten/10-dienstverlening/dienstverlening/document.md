@@ -141,5 +141,5 @@ Het NA-model legt ook de relatie met **metagegevens** vast: metagegevens zijn on
 
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel]]
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel]]
-- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel]]
+- [[Wiki/Bronsamenvattingen/erfgoed/memorie-van-toelichting-archiefwet]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel]]

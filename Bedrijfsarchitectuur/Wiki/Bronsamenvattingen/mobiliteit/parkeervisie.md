@@ -55,4 +55,4 @@ De Parkeervisie is het overkoepelende beleidsdocument dat alle parkeerbegrippen 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeervisie]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/parkeervisie]]

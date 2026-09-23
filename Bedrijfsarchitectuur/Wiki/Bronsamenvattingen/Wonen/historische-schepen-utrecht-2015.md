@@ -59,4 +59,4 @@ Introduceert "historisch schip" als classificatie van [[Wiki/Bedrijfsobjecten/1-
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/historische-schepen-utrecht-2015]]
+- [[Sources/Onderwerpen/Wonen/historische-schepen-utrecht-2015]]

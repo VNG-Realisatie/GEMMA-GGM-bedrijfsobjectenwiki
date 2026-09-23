@@ -46,4 +46,4 @@ Deze module raakt de meeste gemeentelijke parkeerobjecten: parkeerplaats, parkee
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeren-or]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/uitwerking-parkeren-or]]

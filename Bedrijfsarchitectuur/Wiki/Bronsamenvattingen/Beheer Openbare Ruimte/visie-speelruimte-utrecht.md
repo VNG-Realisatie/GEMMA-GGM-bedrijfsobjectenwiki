@@ -56,4 +56,4 @@ De bron verrijkt het bestaande BO [[Speeltoestel]] met:
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/spelen-in-je-eigen-buurt-utrecht]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/spelen-in-je-eigen-buurt-utrecht]]

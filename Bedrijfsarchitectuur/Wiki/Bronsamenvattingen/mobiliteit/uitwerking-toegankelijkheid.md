@@ -47,4 +47,4 @@ De gehandicaptenparkeerplaats (algemeen en individueel) en de GPK zijn duidelijk
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-toegankelijkheid]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/uitwerking-toegankelijkheid]]

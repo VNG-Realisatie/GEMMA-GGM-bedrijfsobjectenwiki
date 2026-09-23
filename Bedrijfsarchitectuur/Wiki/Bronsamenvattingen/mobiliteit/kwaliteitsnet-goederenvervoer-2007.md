@@ -37,4 +37,4 @@ De nota noemt [[Overslagpunt]]en voor weg↔water/spoor als onderdeel van het ne
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/goederenvervoer/converted_pdf/kwaliteitsnet-goederenvervoer-2007]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/kwaliteitsnet-goederenvervoer-2007]]

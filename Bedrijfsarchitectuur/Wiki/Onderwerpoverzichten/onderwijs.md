@@ -49,14 +49,14 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]]
-- [[Wiki/Bronsamenvattingen/onderwijs/uitvoeringsprogramma-ohv-utrecht|Uitvoeringsprogramma Onderwijshuisvesting Utrecht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/adviezen-duurzaamheid-ohv|Adviezen Duurzaamheid en Flexibele Huisvesting]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer|Leerlingenvervoer]]
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs|Passend onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra|Kindcentra]]
-- [[Wiki/Bronsamenvattingen/onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]]
-- [[Wiki/Bronsamenvattingen/onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/uitvoeringsprogramma-ohv-utrecht|Uitvoeringsprogramma Onderwijshuisvesting Utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/adviezen-duurzaamheid-ohv|Adviezen Duurzaamheid en Flexibele Huisvesting]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer|Leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs|Passend onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra|Kindcentra]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]]
 
 ## Nog te verwerken bronnen
 

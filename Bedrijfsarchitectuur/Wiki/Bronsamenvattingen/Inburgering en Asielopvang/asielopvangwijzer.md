@@ -57,4 +57,4 @@ Gemeenten met asielopvang hebben recht op vergoedingen: decentralisatie-uitkerin
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Asiel en Integratie/Asielopvangwijzer alle informatie voor gemeenten]]
+- [[Sources/Onderwerpen/Inburgering en Asielopvang/Asielopvangwijzer alle informatie voor gemeenten]]

@@ -51,9 +51,9 @@ De gemeente verhuurt visrecht op gemeentelijke wateren op basis van de Visserijw
 
 Het beleid is om het aantal viswateren niet uit te breiden en de hengelsport niet te stimuleren, omwille van het welzijn van vissen. Aal is een beschermde diersoort; de gemeente sluit geen nieuwe contracten af die vissen op aal mogelijk maken.
 
-> "De gemeente kan de gemeentelijke wateren, die in eigendom zijn van de gemeente Utrecht, verhuren. Dit is geregeld via de Visserijwet (uit 1963). De huurovereenkomsten worden voor zes jaar aangegaan en worden conform deze Visserijwet automatisch met zes jaar verlengd." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
+> "De gemeente kan de gemeentelijke wateren, die in eigendom zijn van de gemeente Utrecht, verhuren. Dit is geregeld via de Visserijwet (uit 1963). De huurovereenkomsten worden voor zes jaar aangegaan en worden conform deze Visserijwet automatisch met zes jaar verlengd." (bron: [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
-> "Om te voorkomen dat het welzijn van meer vissen wordt aangetast, wordt het aantal viswateren binnen de gemeente Utrecht niet verder uitgebreid en wordt de hengelsport niet gestimuleerd." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
+> "Om te voorkomen dat het welzijn van meer vissen wordt aangetast, wordt het aantal viswateren binnen de gemeente Utrecht niet verder uitgebreid en wordt de hengelsport niet gestimuleerd." (bron: [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
 ## Relaties
 
@@ -68,4 +68,4 @@ Geen relaties met andere BO's in de wiki op dit moment.
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]]
+- [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn]]

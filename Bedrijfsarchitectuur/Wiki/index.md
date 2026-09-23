@@ -591,17 +591,17 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 ## Bronsamenvattingen
 
 ### Informatiebeheer
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]] — Nationaal Archief: conceptueel model voor ruwe gegevensobject, gegevensobject, informatieobject en metagegevens; bevestigt Document als business-object
+- [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]] — Nationaal Archief: conceptueel model voor ruwe gegevensobject, gegevensobject, informatieobject en metagegevens; bevestigt Document als business-object
 
 ### Onderwijs
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] — Gemeente Utrecht: IHP Onderwijs, schoolgebouwen, gymzalen, MFA's, buurtscholen
-- [[Wiki/Bronsamenvattingen/onderwijs/uitvoeringsprogramma-ohv-utrecht|Uitvoeringsprogramma Onderwijshuisvesting]] — Gemeente Utrecht: 99 projecten voor schoolgebouwen 2026-2041
-- [[Wiki/Bronsamenvattingen/onderwijs/adviezen-duurzaamheid-ohv|Adviezen Duurzaamheid en Flexibele Huisvesting]] — Gemeente Utrecht: duurzaamheidsadviezen bij IHP Onderwijs
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer|Leerlingenvervoer]] — VNG: gemeentelijke regeling leerlingenvervoer
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs|Passend onderwijs]] — VNG: samenwerkingsverbanden, zorgcoördinatie
-- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra|Kindcentra]] — VNG: integrale kindcentra (IKC) 0-12 jaar
-- [[Wiki/Bronsamenvattingen/onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]] — VNG: gemeentelijk toezicht kinderopvang
-- [[Wiki/Bronsamenvattingen/onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]] — VNG: GOAB en voor- en vroegschoolse educatie
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] — Gemeente Utrecht: IHP Onderwijs, schoolgebouwen, gymzalen, MFA's, buurtscholen
+- [[Wiki/Bronsamenvattingen/Onderwijs/uitvoeringsprogramma-ohv-utrecht|Uitvoeringsprogramma Onderwijshuisvesting]] — Gemeente Utrecht: 99 projecten voor schoolgebouwen 2026-2041
+- [[Wiki/Bronsamenvattingen/Onderwijs/adviezen-duurzaamheid-ohv|Adviezen Duurzaamheid en Flexibele Huisvesting]] — Gemeente Utrecht: duurzaamheidsadviezen bij IHP Onderwijs
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer|Leerlingenvervoer]] — VNG: gemeentelijke regeling leerlingenvervoer
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs|Passend onderwijs]] — VNG: samenwerkingsverbanden, zorgcoördinatie
+- [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra|Kindcentra]] — VNG: integrale kindcentra (IKC) 0-12 jaar
+- [[Wiki/Bronsamenvattingen/Onderwijs/kinderopvang-toezicht|Kinderopvang — toezicht en handhaving]] — VNG: gemeentelijk toezicht kinderopvang
+- [[Wiki/Bronsamenvattingen/Onderwijs/onderwijsachterstand-vve|Onderwijsachterstand en VVE]] — VNG: GOAB en voor- en vroegschoolse educatie
 
 ### Bestuur (VNG-rubrieken)
 - [[Wiki/Bronsamenvattingen/Bestuur/alv-jaarcongres-en-bestuurdersdag|ALV, Jaarcongres en Bestuurdersdag]] — VNG: Algemene Ledenvergadering, jaarcongres, bestuurdersdag
@@ -672,8 +672,8 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Informatiesamenleving/beleid-informatie-ict-bel-combinatie|Beleid Informatie en ICT 2020-2024 BEL Combinatie]] — informatiebeleid samenwerkingsverband, outsourcing, applicatiebeheer
 
 ### Informatiesystemen
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025]] — VNG Realisatie: standaard IT-inkoopvoorwaarden (46 artikelen), begripsbepalingen ICT-domein, AI-systemen, SLA
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]] — TechTarget CMDB-concept + VNG handreiking informatiebeheerplan, CMDB-structuur, CI's
+- [[Wiki/Bronsamenvattingen/informatiesystemen/gibit-2025|GIBIT 2025]] — VNG Realisatie: standaard IT-inkoopvoorwaarden (46 artikelen), begripsbepalingen ICT-domein, AI-systemen, SLA
+- [[Wiki/Bronsamenvattingen/informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]] — TechTarget CMDB-concept + VNG handreiking informatiebeheerplan, CMDB-structuur, CI's
 
 ### Economie
 - [[Wiki/Bronsamenvattingen/Economie/economie-speerpunten-vng|Economie: speerpunten VNG]] — VNG: vier speerpunten economisch beleid gemeenten
@@ -748,8 +748,8 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Energie en Klimaat/raadsbrief-klimaatneutraal|Raadsbrief Vrijgave ontwerpvisie Utrecht klimaatneutraal]] — Gemeente Utrecht: aanbiedingsbrief met context en praktijkvoorbeelden
 
 ### Evenementen
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht: overzichtspagina omgevingsvisie.utrecht.nl (secundair)
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht: locatieprofielen, reserveringskalender, beoordelingscriteria (hoofdbron)
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht: overzichtspagina omgevingsvisie.utrecht.nl (secundair)
 
 ### Gevaarlijke stoffen
 - [[Wiki/Bronsamenvattingen/gevaarlijke-stoffen/beleidsnota-omgevingsveiligheid|Beleidsnota Omgevingsveiligheid Utrecht]] — Gemeente Utrecht: beleid omgevingsveiligheid gevaarlijke stoffen (2023)
@@ -792,7 +792,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Openbare Gezondheid/kerntaken-infectieziektebestrijding|De kerntaken van de infectieziektebestrijding]] — GGD GHOR Nederland: 7 kerntaken IZB, meldingsplicht Wpg, bron- en contactonderzoek, outbreak management
 
 ### Dierenwelzijn
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
+- [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — Gemeente Utrecht: actualisatie dierenwelzijnsbeleid (opvang, kinderboerderijen, visrecht, diervriendelijk bouwen)
 
 ### Maatschappelijke Ondersteuning
 - [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/beleidsnota-jeugd-utrecht|Beleidsnota Jeugd — Samen opgroeien, samen opvoeden 2025-2034]] — Gemeente Utrecht: jeugdbeleid, acht opgaven, buurtteams, collectief werken
@@ -831,9 +831,15 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG: bibliotheekwerk als gemeentelijke taak
 - [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel — de culturele infrastructuur van gemeenten]] — VNG: actualisering ringenmodel 2.0
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']] — Gemeente Utrecht: erfgoedbeleid, archeologie, monumenten, verduurzaming
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
+- [[Wiki/Bronsamenvattingen/erfgoed/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht: kerkgebouwen, orgels, herbestemming
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht: overzichtspagina erfgoedbeleid (secundair)
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/erfgoed/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht: referentiemateriaal orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/erfgoed/archiefverordening-wageningen|Archiefverordening Wageningen 2019]] — Modelverordening Archiefwet 1995: zorgplicht B&W, taken gemeentearchivaris, duale positionering archief (erfgoed + informatiebeheer)
+- [[Wiki/Bronsamenvattingen/erfgoed/memorie-van-toelichting-archiefwet|Memorie van toelichting Archiefwet 1995]] — Parlementaire toelichting: definities, overbrengingstermijn 20 jaar, digitale informatiedragers, levenscyclus archieven
+- [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]] — Wettekst per 2026-01-01: definities, collectiebeheer, beschermd erfgoed, archeologische monumentenzorg
+- [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland|GR Regionaal Archief Rivierenland 2024]] — GR-regeling: taken regionaal archief, uitgeplaatst beheer, bestuursstructuur
+- [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure|Besluit Informatiebeheer GR Cure 2021]] — Operationele voorschriften: metadata-eisen, selectie/vernietiging, informatiebeveiliging
+- [[Wiki/Bronsamenvattingen/erfgoed/beleidsplan-westfries-archief|Meerjaren beleidsplan 2024-2027 Westfries Archief]] — Digitale archivering, eDepot, pre-eDepot, Woo-publicatie, archiefinspectie
 
 ### Inkoop
 - [[Wiki/Bronsamenvattingen/Inkoop/inkoop-en-aanbestedingsbeleid|Gemeentelijk inkoop- en aanbestedingsbeleid]] — VNG-model + OVER-gemeenten + West-Betuwe: inkoopproces, aanbestedingsprocedures, drempelbedragen, MVOI, contractbeheer

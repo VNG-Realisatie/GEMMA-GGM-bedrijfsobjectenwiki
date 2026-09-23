@@ -45,4 +45,4 @@ Drie GGM-entiteiten (Raadsstuk, Vergadering, Stemming) worden door de Gemeentewe
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Recht/gemeentewet-wettekst]]
+- [[Sources/Onderwerpen/Bestuur/gemeentewet-wettekst]]

@@ -42,4 +42,4 @@ Deze nota is de primaire bron voor het identificeren van fysieke objectsoorten d
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nota-beheer-or]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/nota-beheer-or]]

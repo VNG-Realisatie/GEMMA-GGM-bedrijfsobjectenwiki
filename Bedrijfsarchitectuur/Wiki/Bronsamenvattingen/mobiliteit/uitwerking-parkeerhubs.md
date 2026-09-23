@@ -45,4 +45,4 @@ De parkeerhub is een nieuw type voorziening dat het GGM niet kent. Het combineer
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-parkeerhubs]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/uitwerking-parkeerhubs]]

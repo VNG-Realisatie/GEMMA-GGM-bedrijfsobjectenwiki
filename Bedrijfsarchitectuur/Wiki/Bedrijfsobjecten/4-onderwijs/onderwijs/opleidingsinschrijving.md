@@ -93,5 +93,5 @@ De GGM-entiteit heet "Inschrijving". Hernoemd naar "Opleidingsinschrijving" ter 
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]

@@ -39,4 +39,4 @@ Het actieplan toont hoe de gemeente grondbeleid (erfpacht, grondprijzenbrief) en
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-middenhuur]]
+- [[Sources/Onderwerpen/Wonen/converted_pdf/actieplan-middenhuur]]

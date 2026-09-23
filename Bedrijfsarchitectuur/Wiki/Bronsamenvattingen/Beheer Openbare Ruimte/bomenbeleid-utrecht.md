@@ -49,4 +49,4 @@ Het bomenbeleid beschrijft één helder bedrijfsobject: de **Boom**. Dit is een 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Milieu/bomenbeleid-utrecht]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/bomenbeleid-utrecht]]

@@ -27,7 +27,7 @@ Gemeentelijk domein voor het welzijn van dieren in de stad. Omvat de wettelijke 
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — actualisatie dierenwelzijnsbeleid gemeente Utrecht (26 pagina's, december 2019)
+- [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]] — actualisatie dierenwelzijnsbeleid gemeente Utrecht (26 pagina's, december 2019)
 
 ## Nog te verwerken bronnen
 

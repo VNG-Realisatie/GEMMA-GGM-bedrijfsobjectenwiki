@@ -43,4 +43,4 @@ Het actieplan definieert de zelfbewoningsplicht en het antispeculatiebeding als 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/actieplan-betaalbare-koopwoningen]]
+- [[Sources/Onderwerpen/Wonen/converted_pdf/actieplan-betaalbare-koopwoningen]]

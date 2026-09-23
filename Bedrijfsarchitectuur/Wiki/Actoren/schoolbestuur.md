@@ -29,6 +29,6 @@ Organisatie met eigen identiteit waarmee de gemeente rechtstreeks herschikkingsg
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/adviezen-duurzaamheid-ohv]]
-- [[Wiki/Bronsamenvattingen/onderwijs/uitvoeringsprogramma-ohv-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/adviezen-duurzaamheid-ohv]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/uitvoeringsprogramma-ohv-utrecht]]

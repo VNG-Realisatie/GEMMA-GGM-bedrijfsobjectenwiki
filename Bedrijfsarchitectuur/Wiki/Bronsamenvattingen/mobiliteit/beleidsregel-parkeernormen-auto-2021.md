@@ -42,4 +42,4 @@ De beleidsregel definieert het sturingsmodel voor autoparkeren bij bouwontwikkel
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-auto-2021]]
+- [[Sources/Onderwerpen/mobiliteit/beleidsregel-parkeernormen-auto-2021]]

@@ -36,8 +36,8 @@ IT-infrastructuur, applicatiebeheer en IT-dienstverlening vanuit gemeentelijk pe
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025|GIBIT 2025 — Gemeentelijke Inkoop bij IT Toolbox]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/gibit-2025|GIBIT 2025 — Gemeentelijke Inkoop bij IT Toolbox]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/cmdb-en-informatiebeheer|CMDB & Informatiebeheerplan]]
 
 ## Terugmeldingen richting GGM
 

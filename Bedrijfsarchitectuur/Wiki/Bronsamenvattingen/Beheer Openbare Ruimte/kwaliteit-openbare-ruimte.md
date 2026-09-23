@@ -19,4 +19,4 @@ Dun — fungeert als portaalpagina naar de twee substantiële nota's. Geen eigen
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kwaliteit-openbare-ruimte]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/kwaliteit-openbare-ruimte]]

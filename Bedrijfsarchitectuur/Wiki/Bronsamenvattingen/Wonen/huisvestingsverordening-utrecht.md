@@ -38,4 +38,4 @@ De verordening geeft het juridische kader voor de vergunningen en beschikkingen 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/huisvestingsverordening-utrecht]]
+- [[Sources/Onderwerpen/Wonen/huisvestingsverordening-utrecht]]

@@ -89,8 +89,8 @@ Zeven stads- en volksfeesten hebben een vaste plek op de reserveringskalender: K
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht]]
 
 ## Terugmelding GGM
 

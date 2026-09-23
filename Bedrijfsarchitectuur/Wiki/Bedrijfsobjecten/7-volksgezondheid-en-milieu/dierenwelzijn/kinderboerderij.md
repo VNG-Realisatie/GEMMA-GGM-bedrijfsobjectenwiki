@@ -60,9 +60,9 @@ Geen GGM-match. Het GGM kent geen entiteit voor kinderboerderij of stadsboerderi
 
 In Utrecht worden kinderboerderijen "Steedes" genoemd. Ze zijn eigendom van de gemeente en worden beheerd door de gesubsidieerde stichting Utrecht Natuurlijk. De Steedes volgen de richtlijnen van het keurmerk Kinderboerderijen (criteria voor hygiëne en dierenwelzijn conform de Wet dieren). De gemeente stelt subsidievoorwaarden die naleving van het dierenwelzijnsbeleid vereisen.
 
-> "Een kinderboerderij is een boerderij die openbaar toegankelijk is voor het publiek. Op een kinderboerderij worden verschillende boerderijdieren in kleine aantallen gehouden." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
+> "Een kinderboerderij is een boerderij die openbaar toegankelijk is voor het publiek. Op een kinderboerderij worden verschillende boerderijdieren in kleine aantallen gehouden." (bron: [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
-> "De stichting volgt de richtlijnen binnen de sector kinderboerderijen en werkt volgens het keurmerk voor kinderboerderijen." (bron: [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
+> "De stichting volgt de richtlijnen binnen de sector kinderboerderijen en werkt volgens het keurmerk voor kinderboerderijen." (bron: [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn|Nota Dierenwelzijn — Actualisatie beleid]])
 
 ## Relaties
 
@@ -78,4 +78,4 @@ In Utrecht worden kinderboerderijen "Steedes" genoemd. Ze zijn eigendom van de g
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]]
+- [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn]]

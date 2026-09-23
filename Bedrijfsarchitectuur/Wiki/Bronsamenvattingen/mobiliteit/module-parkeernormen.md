@@ -42,4 +42,4 @@ De module verduidelijkt de beleidscontext van de parkeernormen. Belangrijke syst
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/parkeernormen-fiets-en-auto]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/parkeernormen-fiets-en-auto]]

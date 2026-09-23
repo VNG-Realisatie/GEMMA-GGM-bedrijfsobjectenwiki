@@ -88,5 +88,5 @@ Een ouder of verzorger is de persoon die wettelijk verantwoordelijk is voor de z
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]

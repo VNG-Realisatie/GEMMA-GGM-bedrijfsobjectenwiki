@@ -27,7 +27,7 @@ Beleidsplan van het Westfries Archief (GR van zeven Westfriese gemeenten: Drecht
 - **eDepot** — digitale archiefbewaarplaats voor duurzame opslag van overgebrachte en uitgeplaatste archieven. ED3-gecertificeerd. Ontbreekt als concept in het GGM (GGM kent alleen fysiek "Depot").
 - **Pre-eDepot** — tussenvorm: digitale omgeving waarin archiefvormers legacy-informatie uitplaatsen vóór formele overbrenging. Archiefvormer blijft verantwoordelijk, archief beheert technisch.
 - **Uitplaatsing** — operationeel concept waarbij archiefbescheiden fysiek naar het archief verhuizen maar juridisch onder verantwoordelijkheid van de archiefvormer blijven. Tussenvorm tussen eigen beheer en formele overbrenging.
-- **Archiefinspecteur** — functionaris met toezichthoudende rol op archiefvorming bij deelnemers. Vergelijkbaar met gemeentearchivaris in [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen|Archiefverordening Wageningen]].
+- **Archiefinspecteur** — functionaris met toezichthoudende rol op archiefvorming bij deelnemers. Vergelijkbaar met gemeentearchivaris in [[Wiki/Bronsamenvattingen/erfgoed/archiefverordening-wageningen|Archiefverordening Wageningen]].
 - **Kwaliteitssysteem informatiebeheer** — instrument voor kwaliteitsborging archiefbeheer bij gemeenten.
 
 ## Relevantie voor bedrijfsarchitectuur
@@ -50,4 +50,4 @@ Geen nieuwe BO-kandidaten. eDepot en pre-eDepot zijn facilitaire concepten (infr
 
 ## Bronnen
 
-- Sources/Onderwerpen/erfgoed/beleidsplan-westfries-archief-2024-2027.md
+- [[Sources/Onderwerpen/erfgoed/beleidsplan-westfries-archief-2024-2027]]

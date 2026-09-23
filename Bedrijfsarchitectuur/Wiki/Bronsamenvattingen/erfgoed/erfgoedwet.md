@@ -58,4 +58,4 @@ De Erfgoedwet is de wettelijke grondslag voor de erfgoed-BO's. Zij verankert:
 
 ## Bronnen
 
-- Sources/Onderwerpen/erfgoed/erfgoedwet-bwbr0037521.md
+- [[Sources/Onderwerpen/erfgoed/erfgoedwet-bwbr0037521]]

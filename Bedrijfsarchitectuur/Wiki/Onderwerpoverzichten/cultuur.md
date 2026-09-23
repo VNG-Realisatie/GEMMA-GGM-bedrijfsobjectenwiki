@@ -77,11 +77,11 @@ In het GGM valt dit onder taakveld **5 Sport, Cultuur en Recreatie** met beleids
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk|Bibliotheekwerk]] — VNG-overzicht bibliotheekwerk
 - [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel|Toelichting ringenmodel — de culturele infrastructuur van gemeenten]] — VNG-actualisering ringenmodel 2.0
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht|Erfgoednota 'Utrechts erfgoed verbindt mensen en tijden']] — Gemeente Utrecht, erfgoedbeleid 2021: monumenten, archeologie, verduurzaming, klimaatadaptatie
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht, geactualiseerde visie op religieus erfgoed: kerkgebouwen, orgels, herbestemming
+- [[Wiki/Bronsamenvattingen/erfgoed/visie-religieus-erfgoed-2025|Utrechtse visie religieus erfgoed — Actualisatie en uitbreiding augustus 2025]] — Gemeente Utrecht, geactualiseerde visie op religieus erfgoed: kerkgebouwen, orgels, herbestemming
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht|Erfgoedbeleid — omgevingsvisie Utrecht]] — Gemeente Utrecht, overzichtspagina erfgoedbeleid (secundaire bron)
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht, referentiemateriaal: tabellen orgels, klokken, ensembles
-- [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen|Archiefverordening Wageningen 2019]] — Modelverordening Archiefwet 1995: zorgplicht B&W, taken gemeentearchivaris, duale positionering archief (erfgoed + informatiebeheer)
-- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet|Memorie van toelichting Archiefwet 1995]] — Parlementaire toelichting: definities, overbrengingstermijn 20 jaar, digitale informatiedragers, levenscyclus archieven
+- [[Wiki/Bronsamenvattingen/erfgoed/bijlagen-visie-religieus-erfgoed|Bijlagen Utrechtse visie religieus erfgoed (2017)]] — Gemeente Utrecht, referentiemateriaal: tabellen orgels, klokken, ensembles
+- [[Wiki/Bronsamenvattingen/erfgoed/archiefverordening-wageningen|Archiefverordening Wageningen 2019]] — Modelverordening Archiefwet 1995: zorgplicht B&W, taken gemeentearchivaris, duale positionering archief (erfgoed + informatiebeheer)
+- [[Wiki/Bronsamenvattingen/erfgoed/memorie-van-toelichting-archiefwet|Memorie van toelichting Archiefwet 1995]] — Parlementaire toelichting: definities, overbrengingstermijn 20 jaar, digitale informatiedragers, levenscyclus archieven
 - [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet|Erfgoedwet (BWBR0037521)]] — Wettekst per 2026-01-01: definities, collectiebeheer, beschermd erfgoed, archeologische monumentenzorg
 - [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland|GR Regionaal Archief Rivierenland 2024]] — GR-regeling: taken regionaal archief, uitgeplaatst beheer, bestuursstructuur
 - [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure|Besluit Informatiebeheer GR Cure 2021]] — Operationele voorschriften: metadata-eisen, selectie/vernietiging, informatiebeveiliging

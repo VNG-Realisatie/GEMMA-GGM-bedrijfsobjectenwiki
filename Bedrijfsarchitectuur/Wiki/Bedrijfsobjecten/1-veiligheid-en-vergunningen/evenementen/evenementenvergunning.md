@@ -90,8 +90,8 @@ Dit BO is een specialisatie van [[Vergunningen en ontheffingen]], het domeinover
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht]]
 
 ## Terugmelding GGM
 

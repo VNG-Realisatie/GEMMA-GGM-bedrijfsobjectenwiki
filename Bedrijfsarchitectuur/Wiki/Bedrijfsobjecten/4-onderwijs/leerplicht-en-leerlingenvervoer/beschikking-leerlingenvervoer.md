@@ -90,4 +90,4 @@ Een beschikking leerlingenvervoer is het formele besluit van de gemeente over he
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]

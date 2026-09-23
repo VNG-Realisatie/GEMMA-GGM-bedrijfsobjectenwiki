@@ -29,5 +29,5 @@ Organisatorische entiteit waarmee de gemeente rechtstreeks overlegt over passend
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]

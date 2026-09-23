@@ -152,6 +152,6 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra]]

@@ -109,5 +109,5 @@ Entiteit: Licentie | Matchsterkte: **exact** | Attributen: *(geen in GGM)*
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/gibit-2025]]
-- [[Wiki/Bronsamenvattingen/Informatiesystemen/cmdb-en-informatiebeheer]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/gibit-2025]]
+- [[Wiki/Bronsamenvattingen/informatiesystemen/cmdb-en-informatiebeheer]]

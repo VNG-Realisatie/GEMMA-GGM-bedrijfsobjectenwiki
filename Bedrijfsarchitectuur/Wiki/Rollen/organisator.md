@@ -29,5 +29,5 @@ Domeinspecifieke rol, te onderscheiden van de generieke rollen Indiener en Initi
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht]]

@@ -66,4 +66,4 @@ Dit is de rijkste bron voor het gemeentelijk perspectief op asielopvang. De taak
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Asiel en Integratie/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]
+- [[Sources/Onderwerpen/Inburgering en Asielopvang/COA Dienstverleningsgids voor gemeenten_januari 2026_TG]]

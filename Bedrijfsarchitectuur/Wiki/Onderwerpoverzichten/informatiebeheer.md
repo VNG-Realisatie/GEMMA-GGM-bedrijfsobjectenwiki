@@ -23,11 +23,11 @@ Archivering en gegevensbeheer bij de gemeente: hoe informatie de levenscyclus do
 | [[Wiki/Rollen/archivaris\|Archivaris]] | rol | Door college of GR-bestuur aangewezen functionaris die overgebrachte archiefbescheiden beheert (art. 32 Archiefwet) | ❌ | nee | Rol (wettelijke functie), geen eigen gegevensregistratie; vastgelegd als rol-pagina, geen BO | Gemeentearchivaris | nee |
 | [[Wiki/Rollen/archiefinspecteur\|Archiefinspecteur]] | rol | Functionaris die toezicht houdt op de archiefvorming bij gemeenten en gemeenschappelijke regelingen | ❌ | nee | Rol (toezichthoudende functie), geen eigen gegevensregistratie; vastgelegd als rol-pagina, geen BO | Provinciaal/regionaal archiefinspecteur | nee |
 
-**Drie fasen, geen synoniemen:** Document (actief) → Informatieobject (gearchiveerd) → Archiefstuk (overgebracht) vormen één levenslijn, zie [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]]. Het GGM dekt de eerste en de laatste fase (Document, Archiefstuk) maar niet de tussenliggende archivale beheerfase — vandaar het GGM-hiaat bij Informatieobject.
+**Drie fasen, geen synoniemen:** Document (actief) → Informatieobject (gearchiveerd) → Archiefstuk (overgebracht) vormen één levenslijn, zie [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]]. Het GGM dekt de eerste en de laatste fase (Document, Archiefstuk) maar niet de tussenliggende archivale beheerfase — vandaar het GGM-hiaat bij Informatieobject.
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel (Nationaal Archief)]] — conceptueel model archivering/gegevensmanagement; grondslag voor de Document → Informatieobject → Archiefstuk-levenslijn
+- [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel (Nationaal Archief)]] — conceptueel model archivering/gegevensmanagement; grondslag voor de Document → Informatieobject → Archiefstuk-levenslijn
 
 ## Nog te verwerken bronnen
 

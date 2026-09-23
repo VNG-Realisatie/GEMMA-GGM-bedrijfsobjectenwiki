@@ -48,4 +48,4 @@ Het uitvoeringsprogramma beschrijft het operationele proces van invoering betaal
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitvoeringsprogramma-betaald-parkeren]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/uitvoeringsprogramma-betaald-parkeren]]

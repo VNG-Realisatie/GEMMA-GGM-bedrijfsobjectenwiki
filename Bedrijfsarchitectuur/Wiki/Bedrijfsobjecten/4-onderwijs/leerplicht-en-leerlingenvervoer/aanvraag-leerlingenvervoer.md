@@ -91,4 +91,4 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]

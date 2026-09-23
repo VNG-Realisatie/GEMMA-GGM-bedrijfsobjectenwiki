@@ -60,4 +60,4 @@ Dit deel beschrijft het operationele toetsingskader — hoe de gemeente concreet
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/welstandsnota-criteria-richtlijnen]]
+- [[Sources/Onderwerpen/Welstand/welstandsnota-criteria-richtlijnen]]

@@ -34,4 +34,4 @@ De kadernota levert geen directe BO-kandidaten op — het is een beleidskader da
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/kadernota-kor]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/kadernota-kor]]

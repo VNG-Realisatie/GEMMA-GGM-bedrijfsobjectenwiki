@@ -110,8 +110,8 @@ In het GGM erft Archiefstuk van zowel **Document** (abstract) als **Erfgoed Obje
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Cultuur/archiefverordening-wageningen]]
-- [[Wiki/Bronsamenvattingen/Cultuur/memorie-van-toelichting-archiefwet]]
+- [[Wiki/Bronsamenvattingen/erfgoed/archiefverordening-wageningen]]
+- [[Wiki/Bronsamenvattingen/erfgoed/memorie-van-toelichting-archiefwet]]
 - [[Wiki/Bronsamenvattingen/erfgoed/erfgoedwet]]
 - [[Wiki/Bronsamenvattingen/erfgoed/gr-regionaal-archief-rivierenland]]
 - [[Wiki/Bronsamenvattingen/erfgoed/besluit-informatiebeheer-gr-cure]]

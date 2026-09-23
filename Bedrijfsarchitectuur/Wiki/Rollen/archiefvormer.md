@@ -29,5 +29,5 @@ Rol die de blijvende verantwoordelijkheid uitdrukt, los van waar de stukken fysi
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/beleidsplan-westfries-archief]]
-- [[Wiki/Bronsamenvattingen/Informatiebeheer/gr-regionaal-archief-rivierenland]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/beleidsplan-westfries-archief]]
+- [[Wiki/Bronsamenvattingen/informatiebeheer/gr-regionaal-archief-rivierenland]]

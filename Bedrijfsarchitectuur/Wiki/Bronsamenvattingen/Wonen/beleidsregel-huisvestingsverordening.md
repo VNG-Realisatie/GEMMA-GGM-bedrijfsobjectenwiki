@@ -39,4 +39,4 @@ De beleidsregel definieert de omzettingsvergunning als concreet registratieobjec
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-huisvestingsverordening]]
+- [[Sources/Onderwerpen/Wonen/beleidsregel-huisvestingsverordening]]

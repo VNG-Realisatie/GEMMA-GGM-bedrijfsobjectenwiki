@@ -106,4 +106,4 @@ De ZTC2 is niet één landelijke catalogus maar een **sjabloon** voor zaaktypeca
 ## Bronnen
 
 - [[Sources/Standaarden/ztc2-informatiemodel-v2.1]]
-- [[Sources/Onderwerpen/Dienstverlening/ztc2-begeleidend-document]]
+- [[Sources/Onderwerpen/Standaarden/ztc2-begeleidend-document]]

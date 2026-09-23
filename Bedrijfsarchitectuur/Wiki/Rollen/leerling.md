@@ -38,7 +38,7 @@ De gegevens over deze rol worden vastgelegd als bedrijfsobject [[Wiki/Bedrijfsob
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
-- [[Wiki/Bronsamenvattingen/onderwijs/onderwijsachterstand-vve]]
-- [[Wiki/Bronsamenvattingen/onderwijs/kindcentra]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/onderwijsachterstand-vve]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/kindcentra]]

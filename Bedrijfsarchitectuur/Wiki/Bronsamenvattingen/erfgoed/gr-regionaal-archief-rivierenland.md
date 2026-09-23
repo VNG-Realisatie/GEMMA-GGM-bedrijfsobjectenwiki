@@ -45,4 +45,4 @@ De regeling bevestigt dat archiefbescheiden het centrale registratieobject zijn 
 
 ## Bronnen
 
-- Sources/Onderwerpen/erfgoed/gr-regionaal-archief-rivierenland-2024.md
+- [[Sources/Onderwerpen/erfgoed/gr-regionaal-archief-rivierenland-2024]]

@@ -155,8 +155,8 @@ Het concept is afgeleid uit gemeentelijke beleidsbronnen die elk hun eigen vergu
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen]]
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht]]
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen]]
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht]]
 - [[Wiki/Bronsamenvattingen/mobiliteit/mobiliteitsplan-2040]]
 - [[Wiki/Bronsamenvattingen/mobiliteit/parkeervisie]]
 - [[Wiki/Bronsamenvattingen/Milieu/beleidsnota-luchtkwaliteit-2025]]

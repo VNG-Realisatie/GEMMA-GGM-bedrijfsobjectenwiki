@@ -30,4 +30,4 @@ Specifieke juridische vertegenwoordigingsrol, te onderscheiden van de generieke 
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Standaarden/logisch-ontwerp-brp-2025q1]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]

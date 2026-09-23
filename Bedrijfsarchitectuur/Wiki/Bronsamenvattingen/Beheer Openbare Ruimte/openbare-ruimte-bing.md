@@ -19,4 +19,4 @@ Beschrijft het toetsingsproces, geen registreerbare objecten. De BInG-commissie 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/openbare-ruimte-bing]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/openbare-ruimte-bing]]

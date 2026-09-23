@@ -29,4 +29,4 @@ Specifieke, wettelijk gekaderde toezichtsrol binnen het dierenwelzijnsdomein.
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/Dierenwelzijn/nota-dierenwelzijn]]
+- [[Wiki/Bronsamenvattingen/dierenwelzijn/nota-dierenwelzijn]]

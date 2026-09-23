@@ -28,8 +28,8 @@ Gemeentelijk domein voor het organiseren, reguleren en faciliteren van buiteneve
 
 ## Verwerkte bronnen
 
-- [[Wiki/Bronsamenvattingen/Evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht, juni 2024 (hoofdbron)
-- [[Wiki/Bronsamenvattingen/Evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht, omgevingsvisie.utrecht.nl (secundair)
+- [[Wiki/Bronsamenvattingen/evenementen/locatiebeleid-evenementen|Beleidsnota Locatiebeleid evenementen — Passende ruimte voor evenementen 2024-2030]] — Gemeente Utrecht, juni 2024 (hoofdbron)
+- [[Wiki/Bronsamenvattingen/evenementen/evenementenbeleid-utrecht|Evenementenbeleid Utrecht — overzichtspagina]] — Gemeente Utrecht, omgevingsvisie.utrecht.nl (secundair)
 
 ## Openstaande vragen of hiaten
 

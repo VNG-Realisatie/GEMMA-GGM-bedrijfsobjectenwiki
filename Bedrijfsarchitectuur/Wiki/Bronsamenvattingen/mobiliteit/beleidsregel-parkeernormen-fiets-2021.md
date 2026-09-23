@@ -44,4 +44,4 @@ De beleidsregel definieert het juridische kader voor fietsparkeren bij bouwontwi
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beleidsregel-parkeernormen-fiets-2021]]
+- [[Sources/Onderwerpen/mobiliteit/beleidsregel-parkeernormen-fiets-2021]]

@@ -1,3 +1,37 @@
+## [2026-09-23] fix | 4 misgeplaatste erfgoed-bronsamenvattingen verplaatst van `Bronsamenvattingen/Cultuur/` naar `Bronsamenvattingen/erfgoed/`
+
+- **Aanleiding:** gebruiker signaleerde dat `Sources/Onderwerpen/erfgoed/` meer documenten (8) bevat dan `Wiki/Bronsamenvattingen/erfgoed/` samenvattingen (4). Analyse: de bronsamenvattingen bestonden wél, maar waren tijdens de gebundelde Cultuur/erfgoed-ingest onder `onderwerp`/`domein` "Cultuur" weggeschreven i.p.v. "erfgoed", terwijl hun bronbestanden alleen in `Sources/Onderwerpen/erfgoed/` staan.
+- **Verplaatst (`git mv`):** `archiefverordening-wageningen.md`, `memorie-van-toelichting-archiefwet.md`, `visie-religieus-erfgoed-2025.md`, `bijlagen-visie-religieus-erfgoed.md` → `Wiki/Bronsamenvattingen/erfgoed/`.
+- **Frontmatter gecorrigeerd:** veldnaam `domein:` → `onderwerp:` (template-conform) op de 2 visie-bestanden; `onderwerp: [Cultuur, Informatiebeheer]` → `[erfgoed, Informatiebeheer]` op de 2 archiefwet-bestanden.
+- **Bronformaat gecorrigeerd:** de 4 al aanwezige erfgoed-bronsamenvattingen (`erfgoedwet.md`, `gr-regionaal-archief-rivierenland.md`, `besluit-informatiebeheer-gr-cure.md`, `beleidsplan-westfries-archief.md`) hadden een platte-tekst `## Bronnen`-regel i.p.v. `[[Sources/...]]`-wiki-link — dit was de reden dat `tools/lint_checks.py` alle 6 relevante erfgoed-bronnen als "orphan" meldde (regex matcht alleen `[[Sources/...]]`). Omgezet naar wiki-link.
+- **Alle referrers bijgewerkt** (14 regels in 9 bestanden): `Wiki/index.md`, `Wiki/Onderwerpoverzichten/cultuur.md`, 4 BO-pagina's (`archiefstuk.md`, `orgel.md`, `monument.md`, `document.md`, `informatieobject.md`), `Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht.md`.
+- **`Wiki/index.md` aangevuld:** de 4 al langer bestaande erfgoed-bronsamenvattingen (`archiefverordening-wageningen`, `memorie-van-toelichting-archiefwet`, `erfgoedwet`, `gr-regionaal-archief-rivierenland`, `besluit-informatiebeheer-gr-cure`, `beleidsplan-westfries-archief`) stonden er nooit in — toegevoegd onder §Domeinen/Cultuur.
+- **Niet opgelost (buiten scope PR1):** `visie-religieus-erfgoed-2025.md` en `bijlagen-visie-religieus-erfgoed.md` bestaan als identieke bronbestanden in zowel `Sources/Onderwerpen/Cultuur/` als `Sources/Onderwerpen/erfgoed/` (duplicatie ontstaan tijdens de gebundelde ingest). `Sources/` is read-only ([PR1]) — niet opgeschoond. De Cultuur-kopieën zijn nu de "orphan" kant in lint (voorheen de erfgoed-kopieën); gebruiker moet beslissen welke kopie canoniek is.
+- **Bredere check + gefixt:** dezelfde map-naam-mismatch (case-only, inhoudelijk niet fout maar rommelig) gevonden bij 5 andere onderwerpen: `Wiki/Bronsamenvattingen/onderwijs` → `Onderwijs`, `Dierenwelzijn` → `dierenwelzijn`, `Evenementen` → `evenementen`, `Informatiebeheer` → `informatiebeheer`, `Informatiesystemen` → `informatiesystemen` (map hernoemd naar de `Sources/Onderwerpen`-schrijfwijze, 48 referrer-bestanden bijgewerkt). Bewust NIET aangepast: `onderwerp:`/`domein:`-veldwaarden in de frontmatter van bestanden in deze mappen (aparte, kleinere inconsistentie, buiten scope van deze mapnaam-fix).
+- **Lint uitgebreid** (`tools/lint_checks.py`, met goedkeuring): 2 nieuwe checks in het wiki-brede blok van `main()`:
+  - `check_plain_text_source_refs()` → "Sources-referentie in ## Bronnen niet als wiki-link": signaleert toekomstige platte-tekst `Sources/Onderwerpen/...`-vermeldingen (zonder `[[ ]]`) in een bronsamenvatting — dit was de directe oorzaak dat 4 al-correct-geplaatste erfgoed-bronsamenvattingen toch als "orphan source" werden gemeld.
+  - `check_topic_folder_casing()` → "Sources/Onderwerpen- vs Bronsamenvattingen-map: hoofdletter-mismatch": signaleert precies dit soort case-only mapnaam-drift. Bewust NIET een botte "map ≠ Sources-map"-check: ~35 bestaande, bewuste onderwerp-herindelingen (zie `ToDo/ingest-backlog.md`, bv. "Ruimte Wonen en Mobiliteit" → `mobiliteit`/`Wonen`/`Welstand`/`Beheer Openbare Ruimte`) zouden dan als valse bevindingen verschijnen.
+  - `.claude/commands/lint.md` §Stap 1-dekkingslijst bijgewerkt met beide checks.
+- **Bronduplicaten verwijderd (expliciete uitzondering op [PR1], op verzoek gebruiker):** 4 identieke bronbestand-paren gevonden (md5-vergelijking over heel `Sources/Onderwerpen/`), ontstaan tijdens de gebundelde Cultuur/erfgoed-ingest. Per paar de niet-gerefereerde kopie verwijderd, canonieke kopie behouden:
+  - `visie-religieus-erfgoed-2025.md`: `Cultuur/`-kopie verwijderd, `erfgoed/`-kopie behouden (bronsamenvatting wijst hiernaar).
+  - `bijlagen-visie-religieus-erfgoed.md`: idem.
+  - `Niet-relevant/lijst-beeldbepalende-panden.md`: `Cultuur/Niet-relevant/`-kopie verwijderd, `erfgoed/Niet-relevant/`-kopie behouden (hoort bij erfgoed's eigen ingest-batch, zie `ToDo/ingest-backlog.md` regel 81).
+  - `Niet-relevant/erfgoedbeleid-utrecht.md`: `erfgoed/Niet-relevant/`-kopie verwijderd, `Cultuur/`-kopie (top-level, wél relevant, heeft eigen bronsamenvatting) behouden.
+  - Vooraf geverifieerd dat geen enkele wiki-pagina naar de te verwijderen kopieën linkte.
+- **Sources/ heringedeeld naar de bronsamenvatting-indeling (2e ronde, expliciete uitzondering op [PR1], op verzoek gebruiker):** de ~35 gerapporteerde map-mismatches (bronsamenvatting-map ≠ Sources-map) bleken bij exacte resolutie 37 individuele bronbestanden, verspreid over 12 doelmappen. Alle bewust bewaard onder hun oorspronkelijke VNG-onderwerpnaam terwijl de bijbehorende bronsamenvatting allang naar een fijnmaziger onderwerp was verplaatst — precies dezelfde bug als de erfgoed-fix, nu structureel voor alle bewuste herindelingen. Aanpak:
+  1. Script gebouwd dat voor elke bronsamenvatting de `[[Sources/Onderwerpen/{topic}/...]]`-referenties uitleest en vergelijkt met de eigen map; 37 unieke bronpaden gevonden, 0 conflicten (geen bron door twee verschillende doelmappen gerefereerd).
+  2. 37 bronbestanden + 12 bijbehorende PDF-sidecars (in `converted_pdf/`) verplaatst met `git mv`: `Ruimte Wonen en Mobiliteit/` → `mobiliteit/` (12), `Wonen/` (10), `Welstand/` (2), `Beheer Openbare Ruimte/` (7); `Milieu/` → `Beheer Openbare Ruimte/` (2); `goederenvervoer/` → `mobiliteit/` (2, incl. pdf); `Asiel en Integratie/` → `Inburgering en Asielopvang/` (2); `Recht/` → `Bestuur/` (1, gemeentewet-wettekst); `Dienstverlening/` → `Standaarden/` (1, ztc2-begeleidend-document).
+  3. Alle referenties naar de oude paden wiki-breed vervangen (39 bestanden, incl. historische `Wiki/log.md`-entries die naar deze paden verwezen).
+  4. Oorspronkelijke VNG-onderwerpmappen (`Ruimte Wonen en Mobiliteit/`, `goederenvervoer/`, `Recht/`, `Asiel en Integratie/`, `Dienstverlening/`, `Milieu/`) blijven bestaan met hun resterende, nog niet aan een fijnmaziger onderwerp toegewezen of `Niet-relevant/`-bronnen — dit is geen opschoning van die mappen, alleen van de 37 bestanden die al wél via een bronsamenvatting aan een ander onderwerp waren toegewezen.
+  - **Verificatie:** `python3 tools/lint_checks.py` — 0 dode Sources-links, 0 hoofdletter-mismatches, 0 platte-tekst Sources-referenties, geen resterende verwijzing naar een van de 37 oude paden (script-gecontroleerd over heel `Wiki/`), totaal 1511 bevindingen (ongewijzigd t.o.v. voor de reorganisatie — geen regressie, geen nieuwe orphans).
+- **`Ruimte Wonen en Mobiliteit/` en `goederenvervoer/` volledig verwijderd** (op verzoek gebruiker, na bevestiging dat dit — anders dan `Recht/`, `Asiel en Integratie/`, `Dienstverlening/`, `Milieu/` — de enige 2 mappen zijn die volledig afgehandeld zijn zonder nog niet-verwerkt brongmateriaal). Voor het verwijderen alle resterende inhoud herverdeeld:
+  - **Duplicaat verwijderd:** `converted_pdf/mobiliteitsplan-2040.md`+`.pdf` bleek een tweede, identieke fetch van dezelfde PDF (md5-gelijk) als de al eerder verplaatste `mobiliteit/converted_pdf/mobiliteitsplan-2040.md` — orphan-kopie verwijderd, canonieke (gerefereerde) kopie behouden.
+  - **28 bestanden herverdeeld** naar `Niet-relevant/` en `converted_pdf/` van `mobiliteit/`, `Wonen/`, `Welstand/` en `Beheer Openbare Ruimte/` — inhoudelijk geclassificeerd op basis van titel/onderwerp (bv. `welstandsbeleid.md`/`welstandsnota-utrecht.md` → `Welstand/Niet-relevant/`; `bouwen-en-wonen.md`/`ruimtelijke-ordening.md`/`bouwregelgeving.md` → `Wonen/Niet-relevant/`; `klimaatadaptatie-en-water.md`/`landelijk-gebied.md`/`speelruimtebeleid-utrecht.md` → `Beheer Openbare Ruimte/Niet-relevant/`; `parkeerbeleid-utrecht.md`/`rubriek-ruimte-wonen-en-mobiliteit.md`/`beleid-goederenvervoer-utrecht.md` (uit `goederenvervoer/`) → `mobiliteit/Niet-relevant/`). PDF-sidecars uit `converted_pdf/` meeverplaatst naar de `converted_pdf/`-map van het nieuwe onderwerp, ook als het bijbehorende `.md`-bestand in `Niet-relevant/` landde (zelfde patroon als bij de eerdere 37-bestanden-move).
+  - `mobiliteit.md` (top-level, nooit getrieerd VNG-rubriekpagina, ongerefereerd) ongewijzigd qua status verplaatst naar `mobiliteit/mobiliteit.md`.
+  - Losse classificatiekeuzes zijn editorial (geen bronsamenvatting om op te varen, want Niet-relevant) — bij twijfel later eenvoudig te herzien via `git mv`.
+  - Beide brondmappen waren na deze stap leeg en zijn verwijderd; geverifieerd dat nergens in `Wiki/` nog naar het oude pad wordt gelinkt (1 historische, beschrijvende vermelding in een oude `log.md`-entry bewust ongemoeid gelaten — feitelijk juist op het moment van schrijven).
+  - **Verificatie:** `python3 tools/lint_checks.py` — 0 dode links, 0 hoofdletter-mismatches, totaal 1510 (1 minder dan hiervoor door de verwijderde duplicaat-orphan).
+
 ## [2026-09-23] bo | Herbeoordeling 6 `/audit-actoren track 1`-BO's: relaties toegevoegd, analyse-bron verwijderd
 
 - **Aanleiding:** gebruiker corrigeerde de vorige triage-entry — een verwijzing naar `Wiki/Analyses/entiteitendekking/...` in `## Bronnen` is geen bron (kan een trigger zijn om een bron te zoeken, maar zelf geen brondocument). Ik had deze regel laten staan naast de nieuw gekoppelde bron in 6 BO's (Opdrachtgever, Opdrachtnemer, Raadslid, Collegelid, Aanwezige Deelnemer, Contactpersoon).
@@ -440,7 +474,7 @@
 ## [2026-07-07] ingest | Informatiebeheer — Overheidsinformatiemodel
 
 - **Bron:** Nationaal Archief kennisbank (5 pagina's: overheidsinformatiemodel, informatiehuishouding, ruwe gegevensobject, gegevensobject, informatieobject, metagegevens)
-- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]]
+- **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/informatiebeheer/overheidsinformatiemodel|Overheidsinformatiemodel]]
 - **Nieuw BO:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/informatieobject|Informatieobject]] — 6/6 criteria, GGM-hiaat; tweede fase in informatielevenscyclus (Document → Informatieobject → Archiefstuk)
 - **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/document|Document]] — lifecycle-correctie (Document ≠ synoniem van Informatieobject), levenscyclustabel 3 fasen, relatie naar Informatieobject toegevoegd
 - **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/erfgoed/archiefstuk|Archiefstuk]] — relatie naar Informatieobject als voorgaande fase toegevoegd
@@ -585,7 +619,7 @@
 
 ## [2026-06-27] ingest | Dienstverlening — ZTC2 begeleidend document verwerkt
 
-- **Bron:** [[Sources/Onderwerpen/Dienstverlening/ztc2-begeleidend-document|ZTC2 Begeleidend document v2.1]] (KING, 2014) — gedownload en geconverteerd via convert_pdf
+- **Bron:** [[Sources/Onderwerpen/Standaarden/ztc2-begeleidend-document|ZTC2 Begeleidend document v2.1]] (KING, 2014) — gedownload en geconverteerd via convert_pdf
 - **Bronsamenvatting:** [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|ZTC2 Informatiemodel]] aangevuld met context, gebruik, beheermodel en relaties met andere bouwstenen
 - **BO bijgewerkt:** [[Wiki/Bedrijfsobjecten/10-dienstverlening/dienstverlening/zaaktype|Zaaktype]] — context over omvang (~300 attrs/rels per zaaktype) en centraal/decentraal beheer
 - **Geen nieuwe BO's** — configuratie-objecttypen (Roltype, Zaakobjecttype, Eigenschap) zijn onderdelen van Zaaktype
@@ -1149,7 +1183,7 @@
 ## [2026-06-22] ingest | Onderwijs (10 nieuwe BO's, 10 bronnen)
 - **Bronnen opgehaald:** utrecht.nl/onderwijshuisvesting + 6 PDF's (beleidsnota, UVP, wijkprofielen, adviezen, voortgangsrapportage, leerlingenprognose) + 7 bestaande VNG-bronnen
 - **4 bronnen niet-relevant:** rubriek-onderwijs, wijkprofielen, voortgangsrapportage, leerlingenprognose (statistiek/operationeel)
-- **8 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/onderwijs/
+- **8 bronsamenvattingen** aangemaakt in Wiki/Bronsamenvattingen/Onderwijs/
 - **10 nieuwe BO's:**
   - Onderwijs (5): School (subtypes: PO, VO, SO/SBO/VSO, buurtschool, kindcentrum), Leerling, Inschrijving, Uitschrijving, Ouder Of Verzorger
   - Leerplicht en Leerlingenvervoer (5): Verzuimmelding, Vrijstelling, Procesverbaal Onderwijs, Aanvraag Leerlingenvervoer, Beschikking Leerlingenvervoer
@@ -1448,7 +1482,7 @@
 ## [2026-06-20] ingest | Evenementen — 3 nieuwe BO's (1 GGM-match, 2 hiaten)
 - Bronnen: 2 documenten (Beleidsnota Locatiebeleid evenementen 2024-2030 PDF + overzichtspagina omgevingsvisie.utrecht.nl)
 - Bronbestanden opgehaald via /fetch incl. PDF-conversie naar Sources/evenementen/
-- 2 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/Evenementen/
+- 2 bronsamenvattingen aangemaakt in Wiki/Bronsamenvattingen/evenementen/
 - Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/evenementen.md (9 begrippen, 3 BO's)
 - **3 BO's aangemaakt:**
   - **Evenement** (ggm-entiteit) — georganiseerde activiteit met publiek in de openbare ruimte. GGM-match: OpenbareActiviteit (VTH, taakveld 1), matchsterkte partieel (definitie te breed, geen relaties, dunne attributen).
@@ -1490,7 +1524,7 @@
 ## [2026-06-20] ingest | Dierenwelzijn — 4 nieuwe BO's (alle GGM-hiaten)
 - Bron: Nota Dierenwelzijn (Gemeente Utrecht, december 2019, 26 p., PDF via omgevingsvisie.utrecht.nl)
 - Webpaginasamenvatting verplaatst naar Niet-relevant/ (gedekt door de nota)
-- 1 bronsamenvatting aangemaakt in Wiki/Bronsamenvattingen/Dierenwelzijn/
+- 1 bronsamenvatting aangemaakt in Wiki/Bronsamenvattingen/dierenwelzijn/
 - Nieuw domeinoverzicht aangemaakt: Wiki/Domeinen/dierenwelzijn.md (10 begrippen, 4 BO's)
 - **4 BO's aangemaakt** (alle procesobjecten, geen GGM-grondslag):
   - **Hulpbehoevend dier** — wild of gehouden dier waarvoor de gemeente wettelijk opvang organiseert (BW 5:8 lid 3)

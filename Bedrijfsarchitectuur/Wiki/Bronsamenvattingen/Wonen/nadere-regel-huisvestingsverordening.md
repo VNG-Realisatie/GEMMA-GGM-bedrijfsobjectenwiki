@@ -40,4 +40,4 @@ De nadere regel specificeert de leefbaarheidstoets als concreet beoordelingsinst
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/nadere-regel-huisvestingsverordening]]
+- [[Sources/Onderwerpen/Wonen/nadere-regel-huisvestingsverordening]]

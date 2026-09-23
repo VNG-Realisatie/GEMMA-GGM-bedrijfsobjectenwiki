@@ -40,4 +40,4 @@ Het GWR bevestigt 6 bestaande BO's (Gemaal, Kolk, Overstortconstructie, Rioolhef
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/gwr-twenterand-2024-2028]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/gwr-twenterand-2024-2028]]

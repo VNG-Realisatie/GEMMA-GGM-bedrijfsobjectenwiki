@@ -172,6 +172,46 @@ def check_source_links():
     return dead_links, orphan_sources
 
 
+def check_plain_text_source_refs():
+    """A '## Bronnen'-sectie moet Sources-referenties als `[[Sources/...]]`
+    wiki-link opnemen — anders mist check_source_links() de referentie en
+    meldt het bronbestand ten onrechte als orphan. Precedent 2026-09-23: 4
+    erfgoed-bronsamenvattingen gebruikten platte tekst i.p.v. wiki-links,
+    waardoor hun Sources-bestanden als orphan werden gemeld terwijl er wel
+    degelijk een bronsamenvatting bestond."""
+    bad = []
+    for f in sorted((WIKI / 'Bronsamenvattingen').rglob('*.md')):
+        _, _, body = parse_frontmatter(f)
+        section = get_section(body, 'Bronnen')
+        if not section:
+            continue
+        stripped = re.sub(r'\[\[[^\]]+\]\]', '', section)
+        if 'Sources/Onderwerpen' in stripped:
+            bad.append(rel(f))
+    return bad
+
+
+def check_topic_folder_casing():
+    """Sources/Onderwerpen/{X} en Wiki/Bronsamenvattingen/{Y} horen voor
+    hetzelfde onderwerp dezelfde schrijfwijze te gebruiken. Vangt alleen
+    hoofdletter-only afwijkingen (X.lower() == Y.lower() maar X != Y) — een
+    bewuste hernoeming/opsplitsing (bv. "Ruimte Wonen en Mobiliteit" ->
+    "mobiliteit"/"Wonen"/"Welstand"/"Beheer Openbare Ruimte") heeft een
+    andere naam, niet alleen andere casing, en wordt hier dus niet gemeld."""
+    src_dir = BASE / 'Sources' / 'Onderwerpen'
+    sum_dir = WIKI / 'Bronsamenvattingen'
+    if not src_dir.exists() or not sum_dir.exists():
+        return []
+    src_topics = {p.name.lower(): p.name for p in src_dir.iterdir() if p.is_dir() and p.name != 'Niet-relevant'}
+    sum_topics = {p.name.lower(): p.name for p in sum_dir.iterdir() if p.is_dir()}
+    mismatches = []
+    for lo, src_name in sorted(src_topics.items()):
+        sum_name = sum_topics.get(lo)
+        if sum_name and sum_name != src_name:
+            mismatches.append(f'Sources/Onderwerpen/{src_name} vs Wiki/Bronsamenvattingen/{sum_name}')
+    return mismatches
+
+
 def check_frontmatter_completeness(files):
     missing_grondslag, missing_ggm_fields, invalid_enum, wrong_folder = [], [], [], []
     for f in files:
@@ -894,6 +934,8 @@ def main():
         report['Dode Sources-link in bronsamenvatting (kapot pad)'] = [f'{f}: [[{p}]]' for f, p in dead_links]
         report['Source zonder bronsamenvatting-referentie (excl. Niet-relevant/)'] = orphan_sources
         report['Bronsamenvatting niet verwerkt in onderwerpoverzicht'] = check_bronsamenvatting_verwerkt()
+        report['Sources-referentie in ## Bronnen niet als wiki-link'] = check_plain_text_source_refs()
+        report['Sources/Onderwerpen- vs Bronsamenvattingen-map: hoofdletter-mismatch'] = check_topic_folder_casing()
 
     missing_grondslag, missing_ggm_fields, invalid_enum, wrong_folder = check_frontmatter_completeness(files)
     report['Ontbrekende grondslag'] = missing_grondslag

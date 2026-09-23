@@ -140,6 +140,6 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
-- [[Wiki/Bronsamenvattingen/onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht]]

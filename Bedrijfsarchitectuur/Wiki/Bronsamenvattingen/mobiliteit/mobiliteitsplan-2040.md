@@ -78,4 +78,4 @@ Het GGM Parkeren (13 entiteiten) is goed uitgewerkt en wordt bevestigd door het 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/goederenvervoer/converted_pdf/mobiliteitsplan-2040]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/mobiliteitsplan-2040]]

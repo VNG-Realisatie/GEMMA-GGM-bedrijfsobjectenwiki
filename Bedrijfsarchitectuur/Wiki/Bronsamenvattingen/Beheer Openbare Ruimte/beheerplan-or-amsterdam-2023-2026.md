@@ -63,4 +63,4 @@ Tweede grote gemeente (na Utrecht) die alle bestaande BOR-BO's bevestigt met con
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/beheerplan-or-amsterdam-2023-2026]]
+- [[Sources/Onderwerpen/Beheer Openbare Ruimte/beheerplan-or-amsterdam-2023-2026]]

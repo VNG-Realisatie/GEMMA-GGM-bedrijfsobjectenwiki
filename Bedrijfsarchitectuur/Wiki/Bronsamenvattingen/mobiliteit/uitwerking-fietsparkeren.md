@@ -43,4 +43,4 @@ Fietsparkeervoorzieningen zijn objecten die de gemeente beheert, registreert en 
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/uitwerking-fietsparkeren]]
+- [[Sources/Onderwerpen/mobiliteit/converted_pdf/uitwerking-fietsparkeren]]

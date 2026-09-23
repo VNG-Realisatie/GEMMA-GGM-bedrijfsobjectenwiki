@@ -95,9 +95,9 @@ Het bedrijfsobject **Orgel** is een registreerbaar roerend erfgoedobject. Het on
 - [[Wiki/Bronsamenvattingen/Cultuur/bibliotheekwerk]]
 - [[Wiki/Bronsamenvattingen/Cultuur/toelichting-ringenmodel]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoednota-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/visie-religieus-erfgoed-2025]]
+- [[Wiki/Bronsamenvattingen/erfgoed/visie-religieus-erfgoed-2025]]
 - [[Wiki/Bronsamenvattingen/Cultuur/erfgoedbeleid-utrecht]]
-- [[Wiki/Bronsamenvattingen/Cultuur/bijlagen-visie-religieus-erfgoed]]
+- [[Wiki/Bronsamenvattingen/erfgoed/bijlagen-visie-religieus-erfgoed]]
 
 ## Terugmelding GGM
 

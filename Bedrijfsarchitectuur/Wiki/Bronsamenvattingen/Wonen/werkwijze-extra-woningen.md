@@ -37,4 +37,4 @@ Dit document definieert het vergunningenpad voor woningtoevoeging: omgevingsverg
 
 ## Bronnen
 
-- [[Sources/Onderwerpen/Ruimte Wonen en Mobiliteit/converted_pdf/werkwijze-extra-woningen]]
+- [[Sources/Onderwerpen/Wonen/converted_pdf/werkwijze-extra-woningen]]

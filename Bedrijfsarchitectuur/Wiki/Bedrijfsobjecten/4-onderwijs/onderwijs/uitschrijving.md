@@ -82,5 +82,5 @@ Een uitschrijving registreert de beeindiging van de inschrijving van een leerlin
 
 ## Bronnen
 
-- [[Wiki/Bronsamenvattingen/onderwijs/passend-onderwijs]]
-- [[Wiki/Bronsamenvattingen/onderwijs/leerlingenvervoer]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/passend-onderwijs]]
+- [[Wiki/Bronsamenvattingen/Onderwijs/leerlingenvervoer]]
