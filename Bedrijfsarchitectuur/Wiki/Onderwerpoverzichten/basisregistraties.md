@@ -3,9 +3,9 @@ type: onderwerp
 naam: Basisregistraties
 status: afgerond
 verwerkingsdatum: 2026-09-23
-bronnen_count: 8
-begrippen_count: 75
-bo_count: 39
+bronnen_count: 9
+begrippen_count: 106
+bo_count: 48
 ---
 
 ## Beschrijving
@@ -110,7 +110,6 @@ KvK is **bronhouder**. Gemeente is **afnemer** (gebruiksplicht).
 | [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | object | NHR | Organisatie met rechtspersoonlijkheid | ✅ | exact match, complement van Ingeschreven Persoon | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging\|Vestiging]] | object | NHR | Locatie waar activiteiten worden uitgeoefend | ✅ | exact match, koppelpunt beleid↔locatie | ja |
 | Onderneming | classificatie | NHR | Economische activiteit die aan wettelijke criteria voldoet | ❌ | kwalificatie van MA | nee |
-| Rechtspersoon | object | NHR | Generalisatie NatuurlijkPersoon/NietNatuurlijkPersoon | ❌ | abstract | ja |
 | Handelsnaam | attribuut | NHR | Naam waaronder onderneming of vestiging handelt | ❌ | groepattribuut | ja |
 | SBI-code | classificatie | NHR | Standaard Bedrijfsindeling | ❌ | referentietabel | ja |
 | UBO | attribuut | NHR | Uiteindelijk belanghebbende >25% | ❌ | compliance, niet gemeentelijk | nee |
@@ -170,6 +169,44 @@ Bronhouder-organisatie (meestal gemeente) is **bronhouder**. Beheerder LV: Kadas
 | OpenbareRuimteLabel | object | BGT | Naam/plaatsingspunt van een Openbare Ruimte, t.b.v. visualisatie | ❌ | cartografisch label van bestaande BO [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | ja |
 | Plaatsbepalingspunt | object | BGT | Ingemeten punt, onderdeel begrenzing BGT-objecten | ❌ | meettechnisch kwaliteitsobject, geen bedrijfsbetekenis | ja |
 
+### RSGBPlus — generalisaties en detailentiteiten (RSGB Deel II)
+
+RSGB Deel II (Specificaties) is de bron voor de generalisaties en detailentiteiten die het RSGB toevoegt bovenop de basisregistraties zelf (zie [[Wiki/Bronsamenvattingen/Standaarden/rsgb-deel-ii-specificaties]]). Batch 1: generalisaties met exacte GGM-match. Batch 2: overige detailentiteiten/referentietabellen. Ingezetene, Niet-ingezetene, Nationaliteit en Verblijfstitel zijn al in de BRP-sectie hierboven beoordeeld (zelfde GGM-entiteiten, andere herkomstregistratie) en hier niet herhaald.
+
+| Begrip | Type | Registratie | Omschrijving | BO? | Reden | GGM |
+|---|---|---|---|---|---|---|
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon\|Rechtspersoon]] | object | RSGBPlus | Natuurlijke of niet-natuurlijke persoon met wie de gemeente contact onderhoudt | ✅ | exact match, generalisatiewortel voor ~20 domeinrollen (Eigenaar, Huurder, Schuldeiser, Debiteur, e.a.); herzien t.o.v. eerdere NHR-beoordeling ("te abstract") | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon\|Natuurlijk Persoon]] | object | RSGBPlus | Persoonskant-specialisatie van Rechtspersoon; Ingeschreven Persoon dekt de BRP-ingeschrevenen | ✅ | exact match; sluit asymmetrie met bestaande Niet-Natuurlijk Persoon | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/huishouden\|Huishouden]] | object | RSGBPlus | Duurzame samenlevingsvorm binnen één verblijfsobject/stand-/ligplaats | ✅ | exact match, bewust los van BRP-verblijfsrelaties gemodelleerd | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/huishoudenlid\|Huishoudenlid]] | object | RSGBPlus | Positie van een ingeschreven persoon binnen een huishouden (hoofd/partner/kind/overig lid) | ✅ | ggm-afgeleid (associatie Huishouden→IngeschrevenPersoon + RSGB-attribuutspecificatie); RSGB-naam "Huishoudenrelatie" vervangen door herkenbaarder begrip | nee |
+| [[Wiki/Bedrijfsobjecten/99-kern/brp/ouderschap\|Ouderschap]] | object | BRP/RSGBPlus | Juridisch verband tussen kind en ouder | ✅ | ggm-afgeleid (attributen ouder1/ouder2/gezinsrelatie op IngeschrevenPersoon); RSGB-naam "Ouder-kind-relatie" vervangen door de in het Logisch Ontwerp BRP gebruikte term | nee |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-gebouwd-object\|Overig Gebouwd Object]] | object | RSGBPlus | Niet-authentiek gebouwd object zonder verblijfsfunctie (tankstation, parkeergarage, zendmast) | ✅ | exact match, parallel aan Verblijfsobject | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-terrein\|Overig Terrein]] | object | RSGBPlus | Niet-authentiek terrein (autosloperij, volkstuincomplex, sportveld zonder opstal) | ✅ | exact match, parallel aan Standplaats/Ligplaats | ja |
+| [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/woz-belang\|WOZ-belang]] | object | Vastgoed | Aanwijzing van rechtspersoon als belanghebbende eigenaar/gebruiker van een WOZ-object | ✅ | exact match, koppelt WOZ-object aan Rechtspersoon | ja |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/gemeentelijke-openbare-ruimte\|Gemeentelijke Openbare Ruimte]] | object | RSGBPlus | Geo-object voor het gemeentelijk aangewezen openbaar gebied, kan meerdere woonplaatsen overspannen | ✅ | ggm-afgeleid (aggregatie van BAG-Openbare Ruimte); geen eigen GGM-entiteit, als mogelijk hiaat teruggemeld | nee |
+| Benoemd Object | object | RSGBPlus | Abstract: Gebouwd Object of Benoemd Terrein ("alle objecten met een adres") | ❌ | abstract, zwak op eigen bestaan/herkenbaarheid — geen exemplaar bestaat los van een specialisatie | ja |
+| Gebouwd Object | object | RSGBPlus | Abstract: Verblijfsobject of Overig Gebouwd Object | ❌ | abstract, specialisatie van Benoemd Object | ja |
+| Benoemd Terrein | object | RSGBPlus | Abstract: Standplaats, Ligplaats of Overig Terrein | ❌ | abstract, specialisatie van Benoemd Object | ja |
+| Adresseerbaar Object | object | BAG | Abstract: Verblijfsobject, Standplaats of Ligplaats | ❌ | pure BAG-referentie, geen eigen attributen/relaties (bron zelf: "enkel opgenomen als referentie") | ja |
+| Subject | object | RSGBPlus | Abstract: Rechtspersoon of Vestiging | ❌ | geen eigen GGM-entiteit; komt niet als aparte entiteit in het GGM voor | nee |
+| Aard recht verkort | attribuut | BRK | EDI-code en verkorte omschrijving van de aard van een zakelijk recht | ❌ | referentietabel (bron zelf: "modelleren we met dit objecttype" een BRK-attribuuttabel) | ja |
+| Aard verkregen recht | attribuut | BRK | Aanduiding en omschrijving van de aard van een verkregen zakelijk recht | ❌ | referentietabel, zelfde patroon als Aard recht verkort | ja |
+| Academische titel | attribuut | RSGBPlus | Opsomming van academische titels | ❌ | referentietabel (code/naam/geldigheid) | ja |
+| Adresseerbaar object aanduiding | object | RSGBPlus | Generalisatie van Verblijfsobject/Standplaats/Ligplaats/Overig Gebouwd Object als adresdrager | ❌ | abstract, zelfde patroon als Benoemd Object (batch 1); specialisaties zijn al eigen BO's | ja |
+| Ander Natuurlijk Persoon | subtype | RSGBPlus | Natuurlijk persoon van belang voor de gemeente, niet ingeschreven in de BRP | ❌ | subtype van [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon\|Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
+| Ander Niet-Natuurlijk Persoon | subtype | RSGBPlus | Organisatie van belang voor de gemeente, niet ingeschreven in het NHR | ❌ | subtype van [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
+| Functionaris | object | NHR | Verband tussen een niet-natuurlijk persoon en de rechtspersonen die namens haar optreden | ❌ | bron zelf: "relatie-objecttype... kan niet zelfstandig bestaan" | nee |
+| Ingeschreven Niet-Natuurlijk Persoon | subtype | NHR | NHR-ingeschreven niet-natuurlijk persoon | ❌ | dekt al door bestaande [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] (die exact deze definitie draagt), geen eigen GGM-entiteit | nee |
+| Inrichtingselement | object | RSGBPlus (IMGeo) | Generieke catch-all voor overige geo-objecten die de omgeving inrichten (straatmeubilair e.d.) | ❌ | subklassen niet als aparte objecttypen gemodelleerd (bron zelf), geen relaties | ja |
+| Kadastrale gemeente | object | BRK | Gedeelte van het grondgebied volgens het Kadaster | ❌ | referentietabel (bron zelf: "zgn. tabel-objecttype") | ja |
+| Kadastrale onroerende zaak | object | BRK | Abstract: Kadastraal Perceel of Appartementsrecht | ❌ | abstract, al gedekt door specialisaties (net als Benoemd Object-familie) | ja |
+| Kadastrale onroerende zaak aantekening | object | BRK | Aantekening bij een kadastraal object | ❌ | al gedekt door de bestaande generieke rij "Aantekening" (BRK-sectie) | ja |
+| Kadastrale onroerende zaak historie relatie | object | BRK | Afstammingsverwantschap tussen oude en nieuwe kadastrale objecten | ❌ | technische mutatiehistorie, geen bedrijfsbegrip | ja |
+| Land | attribuut | RSGBPlus | Landcode/-naam | ❌ | referentietabel; blijft bestaande entiteitendekking-hiaat (zie `Wiki/log.md` 2026-07-07) | ja |
+| Overige adresseerbaar object aanduiding | object | RSGBPlus | Officieel adres van een Overig Gebouwd Object of Overig Terrein | ❌ | bron zelf: "heeft dientengevolge geen specifieke gegevens" — puur koppelobject | ja |
+| Reisdocumentsoort | attribuut | BRP | Opsomming van modellen Nederlandse reisdocumenten | ❌ | referentietabel (bron zelf: "zgn. tabel-objecttype") | ja |
+| Zakelijk recht aantekening | object | BRK | Aantekening bij een zakelijk recht | ❌ | al gedekt door de bestaande generieke rij "Aantekening" (BRK-sectie) | ja |
+
 ## Verwerkte bronnen
 
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bag-2018|Catalogus BAG 2018]]
@@ -180,19 +217,19 @@ Bronhouder-organisatie (meestal gemeente) is **bronhouder**. Beheerder LV: Kadas
 - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]]
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus Grondwaterstandonderzoek (GLD)]]
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bgt-1.2|Gegevenscatalogus BGT 1.2 (IMGeo)]]
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-deel-ii-specificaties|RSGB 2.02 Deel II: Specificaties]]
 
 ## Nog te verwerken
 
-Eén basisregistratie nog niet verwerkt, geen bron beschikbaar:
-
-- **RSGBPlus overige entiteiten** — referentietabellen, detail-entiteiten die niet via BAG/BRP/BRK/NHR/WOZ/BRO/BGT zijn gedekt. Geen geschikte publieke bron bekend; apart oppakken zodra een RSGBPlus-referentiedocument beschikbaar komt.
+Geen. RSGB 2.02 Deel II is volledig verwerkt in twee batches (2026-09-23): batch 1 (generalisaties: Rechtspersoon) en batch 2 (overige detailentiteiten: Natuurlijk Persoon, Huishouden, Huishoudenlid, Ouderschap, Overig Gebouwd Object, Overig Terrein, WOZ-belang, Gemeentelijke Openbare Ruimte). Zie §RSGBPlus hierboven voor de volledige begrippentabel, inclusief de ~19 begrippen die bewust geen BO zijn geworden (referentietabellen, koppelobjecten, abstracte generalisaties).
 
 ## Openstaande vragen
 
-Geen. De twee eerdere vragen zijn opgelost:
+Geen. Eerdere vragen zijn opgelost:
 - **Standplaats-disambiguatie**: de GGM-entiteit "Standplaats" (RSGBPlus, EAID_B1C6CA45) was eerder foutief gematcht op [[Marktstandplaats]] (Economie). Gecorrigeerd: de GGM-entiteit hoort bij [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]]. De marktstandplaats is een GGM-hiaat.
 - **BRO GGM-hiaat**: de BRO en haar objecttypen (Verkenning, Constructie, Gebruiksrecht) zijn niet in het GGM gemodelleerd — gedocumenteerd, geen verdere actie nodig.
+- **Rechtspersoon "te abstract"**: bij de NHR-ingest afgewezen als BO; bij de RSGB Deel II-ingest herzien (zie [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]]) — de relatie-rijkdom (~20 domeinrollen generaliseren ernaar in het GGM) en herkenbaarheid wogen zwaarder dan het abstracte karakter.
 
 ## Conclusie
 
-Domein afgerond: 7 van de 8 GGM-gemodelleerde basisregistraties zijn verwerkt (BAG, BRP, BRK, NHR, WOZ, BRO, BGT), 39 BO's vastgelegd. Enige resterende hiaat is RSGBPlus-detailentiteiten zonder eigen publieke bron (zie Nog te verwerken) — geen blokkerende vraag, apart oppakken bij een geschikte bron.
+Domein afgerond: alle 8 GGM-gemodelleerde basisregistraties zijn volledig verwerkt (BAG, BRP, BRK, NHR, WOZ, BRO, BGT, RSGBPlus), 48 BO's vastgelegd. RSGB 2.02 Deel II leverde in twee batches 9 nieuwe BO's op (Rechtspersoon, Natuurlijk Persoon, Huishouden, Huishoudenlid, Ouderschap, Overig Gebouwd Object, Overig Terrein, WOZ-belang, Gemeentelijke Openbare Ruimte) en herzag één eerdere afwijzing (Rechtspersoon). Twee kleine hiaten teruggemeld: Gemeentelijke Openbare Ruimte (geen GGM-entiteit) en het Huishouden-duplicaat (RSGBPlus/Sociaal Domein Generiek) — zie [[Wiki/Analyses/ggm-terugmeldingen]].

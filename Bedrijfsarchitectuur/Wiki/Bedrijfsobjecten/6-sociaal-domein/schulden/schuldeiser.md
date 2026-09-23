@@ -49,7 +49,7 @@ Via **collectief schuldregelen** (Haagse innovatie, landelijk opgeschaald) geven
 
 > "Een schuldeiser is bedrijf of persoon die recht heeft op een prestatie van een ander, de schuldenaar."
 
-- **Entiteit:** Schuldeiser (specialisatie van Rechtspersoon)
+- **Entiteit:** Schuldeiser (specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]])
 - **Beleidsdomein:** Schuldhulpverlening
 - **Attributen:** peildatum, naam
 - **Matchsterkte:** exact

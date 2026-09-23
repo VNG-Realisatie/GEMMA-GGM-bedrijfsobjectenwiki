@@ -41,7 +41,7 @@ bedrijfsfuncties: [Sportaccommodatiebeheer]
 
 ## BO-criteria toetsing
 
-Alle 6 criteria van toepassing: betekenis (capaciteitsberekeningen per sporttype), herkenbaar (voetbalveld, hockeyveld), eigen bestaan (fysiek terrein), meervoud (tientallen in Utrecht), levenscyclus (aanleg, gras-naar-kunstgras conversie, onderhoud), relaties met [[Sportpark]], Belijning, OverigBenoemdTerrein.
+Alle 6 criteria van toepassing: betekenis (capaciteitsberekeningen per sporttype), herkenbaar (voetbalveld, hockeyveld), eigen bestaan (fysiek terrein), meervoud (tientallen in Utrecht), levenscyclus (aanleg, gras-naar-kunstgras conversie, onderhoud), relaties met [[Sportpark]], Belijning, [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-terrein|Overig Terrein]].
 
 ## Beschrijving
 
@@ -62,7 +62,7 @@ Een sportveld is een stuk land dat speciaal voor het bedrijven van een veldsport
 |---|---|---|---|
 | [[Sportpark]] | onderdeel van | 0..1 | GGM |
 | Belijning | heeft | 0..* | GGM |
-| OverigBenoemdTerrein (BAG) | ligt op | 1 | GGM |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-terrein\|Overig Terrein]] | ligt op | 1 | GGM |
 
 ## Bronnen
 

@@ -47,7 +47,7 @@ De handelende kant van dit begrip is vastgelegd als actor [[Wiki/Actoren/signaal
 
 > "Een signaalpartner is een organisatie die op grond van artikel 2.2.1 van de Wgs bevoegd is om signalen van betalingsachterstanden door te geven aan de gemeente."
 
-- **Entiteit:** Signaalpartner (specialisatie van Rechtspersoon)
+- **Entiteit:** Signaalpartner (specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]])
 - **Beleidsdomein:** Vroegsignalering (taakveld Schulden)
 - **Attributen:** type
 - **Matchsterkte:** exact

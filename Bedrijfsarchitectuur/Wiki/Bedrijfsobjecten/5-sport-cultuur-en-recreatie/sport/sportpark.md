@@ -91,7 +91,7 @@ Teruggemeld als #92 in [[Wiki/Analyses/ggm-terugmeldingen]].
 | [[Sportlocatie]] | generaliseert | | GGM |
 | [[Veld]] | bevat | 0..* | GGM |
 | [[Sportvereniging]] | wordt gebruikt door | 0..* | GGM |
-| OverigBenoemdTerrein (BAG) | ligt op | 1 | GGM |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-terrein\|Overig Terrein]] | ligt op | 1 | GGM |
 
 ## Bronnen
 

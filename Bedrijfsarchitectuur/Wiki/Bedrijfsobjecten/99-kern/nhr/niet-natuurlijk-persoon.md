@@ -64,10 +64,10 @@ bo_definitie: "Organisatie of samenwerkingsverband met rechtspersoonlijkheid, ge
 bo_toelichting:
 bo_relaties:
   - type: generalisatie
-    bedrijfsobject: "[[Ingeschreven Persoon]]"
-    richting: bidirectioneel
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]]"
+    richting: naar-dit-BO
     kardinaliteit:
-    beschrijving: "Complement: NNP is de organisatiekant, Ingeschreven Persoon de persoonskant van Rechtspersoon"
+    beschrijving: "Niet-Natuurlijk Persoon is de organisatiekant-specialisatie van Rechtspersoon; Natuurlijk Persoon (waarvan Ingeschreven Persoon de gemeentelijke specialisatie is) is de persoonskant"
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"
     richting: van-dit-BO
@@ -111,7 +111,7 @@ bedrijfsfuncties:
 
 Een Niet-Natuurlijk Persoon is een organisatie met rechtspersoonlijkheid: BV, NV, stichting, vereniging, coöperatie, onderlinge waarborgmaatschappij, publiekrechtelijke rechtspersoon, kerkgenootschap, of buitenlandse rechtspersoon. Het is het complement van [[Ingeschreven Persoon]] (BRP): samen dekken zij het volledige spectrum van subjecten waarmee de gemeente te maken heeft.
 
-In het GGM is NietNatuurlijkPersoon een specialisatie van Rechtspersoon (abstract type). NatuurlijkPersoon is de andere specialisatie, waarvan [[Ingeschreven Persoon]] (IngeschrevenPersoon) weer een specialisatie is. Rechtspersoon zelf is te abstract voor een BO.
+In het GGM is NietNatuurlijkPersoon een specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]] (abstract type). [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon|Natuurlijk Persoon]] is de andere specialisatie, waarvan [[Ingeschreven Persoon]] (IngeschrevenPersoon) weer een specialisatie is. Rechtspersoon en Natuurlijk Persoon zijn bij de RSGB Deel II-ingest alsnog als eigen BO vastgelegd (zie die pagina's) — eerdere twijfel over de abstractheid woog minder zwaar dan de herbruikbaarheid van de relatie voor tientallen domeinrollen die er in het GGM naar generaliseren.
 
 De gemeente heeft in vrijwel elk domein met niet-natuurlijke personen te maken: als vergunninghouder (horeca, evenementen), als subsidieaanvrager, als contractpartner (inkoop), als belastingplichtige (OZB, reclamebelasting), als schuldeiser (schuldhulpverlening), als schoolbestuur (onderwijs), als sportvereniging, als zorgaanbieder (Wmo/Jeugdwet).
 
@@ -128,6 +128,7 @@ Herkende specialisaties van Niet-Natuurlijk Persoon op basis van rechtsvorm. Gee
 - **Vennootschap onder firma (VOF)** — samenwerkingsverband zonder rechtspersoonlijkheid (registratieplichtig)
 - **Maatschap** — samenwerkingsverband van beroepsbeoefenaren
 - **Kerkgenootschap** — religieuze organisatie met rechtspersoonlijkheid
+- **Ander niet-natuurlijk persoon** — organisatie van belang voor de gemeente maar niet ingeschreven in het NHR: rechterlijke macht, kerkelijke organisaties, buitenlandse organisaties zonder Nederlandse vestiging (RSGB Deel II, geen eigen GGM-entiteit)
 
 ## GGM-bron
 
@@ -149,8 +150,8 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 | heeft als eigenaar | → | [[Maatschappelijke Activiteit]] | Eigenaar van een maatschappelijke activiteit | GGM |
 | heeft | → | [[Vestiging]] | Heeft vestigingen | GGM |
 | contactpersoon | → | [[Ingeschreven Persoon]] | Heeft een contactpersoon (NatuurlijkPersoon) | GGM |
-| rechthebbende | → | [[Tenaamstelling]] | Rechthebbende op onroerende zaken (via Rechtspersoon) | GGM |
-| WOZ-belang | → | [[WOZ-object]] | Heeft belang bij WOZ-objecten (via Rechtspersoon) | GGM |
+| rechthebbende | → | [[Tenaamstelling]] | Rechthebbende op onroerende zaken (via [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon\|Rechtspersoon]]) | GGM |
+| WOZ-belang | → | [[WOZ-object]] | Heeft belang bij WOZ-objecten (via [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon\|Rechtspersoon]]) | GGM |
 
 Domeinspecifieke rollen (geen aparte BO-relatie, maar het NNP-object wordt gebruikt als):
 - [[Schuldeiser]] (schuldhulpverlening), [[Sportvereniging]] (sport), School/Onderwijsinstituut (onderwijs), Leverancier (inkoop), Subsidieontvanger (subsidies)
@@ -167,3 +168,4 @@ Domeinspecifieke rollen (geen aparte BO-relatie, maar het NNP-object wordt gebru
 ## Bronnen
 
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr]]
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-deel-ii-specificaties]]

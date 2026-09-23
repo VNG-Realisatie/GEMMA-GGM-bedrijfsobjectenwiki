@@ -101,7 +101,7 @@ GGM-entiteiten die onderdeel zijn van Leverancier. Gemodelleerd als aparte entit
 
 **Attributen:** naam, nummer
 
-Leverancier is een specialisatie van Rechtspersoon (abstract) in het GGM.
+Leverancier is een specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]] (abstract) in het GGM.
 
 ## GGM-duplicaten
 

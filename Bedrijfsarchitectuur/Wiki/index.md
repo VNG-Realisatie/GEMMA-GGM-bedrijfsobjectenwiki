@@ -7,7 +7,7 @@
 - [[belastingen|belastingen]] — Gemeentelijke belastingen, heffingen en retributies (afgerond, 11 BO's)
 - [[Wiki/Onderwerpoverzichten/financien|financien]] — Inkomstenbronnen, begrotingscyclus, financieel beheer, balans en financiële gezondheid (afgerond, 14 BO's)
 - [[Wiki/Onderwerpoverzichten/economie|economie]] — Economisch beleid, werklocaties, detailhandel, markten, marktstandplaatsen, horeca, hotels, short stay (afgerond, 8 BO's)
-- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR, BRO en BGT: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, vestiging, verkenning, constructie, gebruiksrecht, wegdeel, waterdeel, terreindeel, spoorbaan e.a. (afgerond, 39 BO's)
+- [[Wiki/Onderwerpoverzichten/basisregistraties|basisregistraties]] — BAG, BRP, BRK, NHR, BRO, BGT en RSGBPlus: pand, verblijfsobject, woonplaats, openbare ruimte, nummeraanduiding, standplaats, buurt, wijk, gemeente, ingeschreven persoon, huwelijk, ouderschap, reisdocument, kadastraal perceel, appartementsrecht, zakelijk recht, tenaamstelling, zekerheidsrecht, publiekrechtelijke beperking, stuk, stukdeel, maatschappelijke activiteit, niet-natuurlijk persoon, natuurlijk persoon, vestiging, rechtspersoon, huishouden, huishoudenlid, overig gebouwd object, overig terrein, woz-belang, gemeentelijke openbare ruimte, verkenning, constructie, gebruiksrecht, wegdeel, waterdeel, terreindeel, spoorbaan e.a. (afgerond, 48 BO's)
 - [[asiel-en-integratie|asiel-en-integratie]] — Asielopvang, inburgering statushouders, financieel ontzorgen, gemeentelijke rol in de asielketen (afgerond, 17 BO's)
 - [[Wiki/Onderwerpoverzichten/dienstverlening|dienstverlening]] — Zaakgericht werken, klantcontact, producten/diensten, vergunningen, inkoop, informatiestandaarden (RGBZ, ZTC2) (afgerond, 16 BO's)
 - [[Wiki/Onderwerpoverzichten/terug-en-invordering|terug-en-invordering]] — Schuld- en vorderingenbeheer: aflossingen, aflossingsplannen, interventies, afschrijvingen, kwijtschelding (afgerond, 7 BO's)
@@ -67,6 +67,17 @@
 - [[Wiki/Bedrijfsobjecten/99-kern/nhr/maatschappelijke-activiteit|maatschappelijke-activiteit]] — Activiteit van een persoon of organisatie, geregistreerd met KVK-nummer (GGM MaatschappelijkeActiviteit, exact)
 - [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon|niet-natuurlijk-persoon]] — Organisatie met rechtspersoonlijkheid: BV, NV, stichting, vereniging (GGM NietNatuurlijkPersoon, exact)
 - [[Wiki/Bedrijfsobjecten/99-kern/nhr/vestiging|vestiging]] — Locatie waar activiteiten worden uitgeoefend, met vestigingsnummer (GGM Vestiging, exact)
+
+### Basisregistraties — RSGBPlus (GGM taakveld 99 Kern, beleidsdomein RSGBPlus, RSGB Deel II)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|rechtspersoon]] — Natuurlijke of niet-natuurlijke persoon met wie de gemeente contact onderhoudt; generalisatiewortel voor ~20 domeinrollen (GGM Rechtspersoon, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon|natuurlijk-persoon]] — Persoonskant-specialisatie van Rechtspersoon; Ingeschreven Persoon dekt de BRP-ingeschrevenen (GGM NatuurlijkPersoon, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/huishouden|huishouden]] — Duurzame samenlevingsvorm van een of meer personen binnen één verblijfsobject/stand-/ligplaats (GGM Huishouden, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/huishoudenlid|huishoudenlid]] — Positie van een ingeschreven persoon binnen een huishouden: hoofd, partner, kind of overig lid (ggm-afgeleid)
+- [[Wiki/Bedrijfsobjecten/99-kern/brp/ouderschap|ouderschap]] — Juridisch verband tussen kind en ouder, gebaseerd op RSGB Deel II en het Logisch Ontwerp BRP (ggm-afgeleid)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-gebouwd-object|overig-gebouwd-object]] — Niet-authentiek gebouwd object zonder verblijfsfunctie: tankstation, parkeergarage, zendmast (GGM OverigGebouwdObject, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/overig-terrein|overig-terrein]] — Niet-authentiek terrein: autosloperij, volkstuincomplex, sportveld zonder opstal (GGM OverigBenoemdTerrein, exact)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/woz-belang|woz-belang]] — Aanwijzing van een rechtspersoon als belanghebbende eigenaar/gebruiker van een WOZ-object (GGM WOZ-Belang, exact)
+- [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/gemeentelijke-openbare-ruimte|gemeentelijke-openbare-ruimte]] — Geo-object voor het gemeentelijk aangewezen openbaar gebied, kan meerdere woonplaatsen overspannen (ggm-afgeleid, mogelijk hiaat)
 
 ### Economie (GGM taakveld 3 + Musea taakveld 5)
 - [[Wiki/Bedrijfsobjecten/3-economie/economie/marktstandplaats|marktstandplaats]] — Aangewezen verkooplocatie in openbare ruimte, APV-gereguleerd (procesobject, GGM-hiaat)
@@ -743,6 +754,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 
 ### Standaarden
 - [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM
+- [[Wiki/Bronsamenvattingen/Standaarden/rsgb-deel-ii-specificaties|RSGB 2.02 Deel II: Specificaties]] — Gegevenscatalogus RSGB: 62 objecttypen, generalisaties (Subject, Rechtspersoon, Benoemd Object) en detailentiteiten bovenop de basisregistraties
 - [[Wiki/Bronsamenvattingen/Standaarden/rgbz-informatiemodel|Referentiemodel Gemeentelijke Basisgegevens Zaken (RGBZ) 1.0]] — RGBZ 1.0: referentiemodel zaakgegevens (runtime-datamodel)
 - [[Wiki/Bronsamenvattingen/Standaarden/ztc2-informatiemodel|GEMMA Zaaktypecatalogus 2 (ZTC2) — Informatiemodel v2.1]] — ZTC2 v2.1: informatiemodel zaaktypecatalogus (configuratielaag)
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-nhr|Gegevenscatalogus NHR 3.0.4]] — KvK: gegevenscatalogus Handelsregister, Handelsregisterwet 2007, Handelsregisterbesluit 2008

@@ -84,6 +84,11 @@ bo_relaties:
   richting: bidirectioneel
   kardinaliteit: "1..*"
   beschrijving: Via WOZ-Belang gekoppeld aan eigenaar en/of gebruiker
+- type: associatie
+  bedrijfsobject: "[[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/woz-belang|WOZ-belang]]"
+  richting: van-dit-BO
+  kardinaliteit: "0..*"
+  beschrijving: Heeft een of meer WOZ-belangen (aanwijzing belanghebbende eigenaar/gebruiker)
 ---
 
 # WOZ-object
@@ -103,7 +108,8 @@ De onroerende zaak waarvan de gemeente jaarlijks de woz-waarde vaststelt onder d
 | Relatie | Bedrijfsobject | GGM-bron | Afwijking |
 |---|---|---|---|
 | Heeft waarde | [[Wiki/Bedrijfsobjecten/99-kern/woz-waarde-bo\|woz-waarde-bo]] | WOZ-object → WOZ-Waarde [0..*] | Geen |
-| Heeft belanghebbende | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|debiteur]] | WOZ-object → WOZ-Belang → Rechtspersoon | Ingekort: WOZ-Belang is tussenliggend (onderscheidt eigenaar/gebruiker) |
+| Heeft belanghebbende | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/debiteur\|debiteur]] | WOZ-object → WOZ-Belang → Rechtspersoon | Ingekort voor belastingheffing: WOZ-Belang is tussenliggend (onderscheidt eigenaar/gebruiker) |
+| Heeft belang | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/woz-belang\|WOZ-belang]] | WOZ-object → WOZ-Belang [0..*] | Nu apart BO (was eerder ingekort); zie die pagina voor de koppeling naar Rechtspersoon |
 | Bestaat uit | [[Wiki/Bedrijfsobjecten/99-kern/woz-deelobject\|WOZ-deelobject]] | WOZ-object → WOZ-deelobject [1..*] | — |
 | Gerelateerd aan kadaster | *(KadastraleOnroerendeZaak)* | WOZ-object → KadastraleOnroerendeZaak [0..*] | Kadastrale objecten zijn basisregistratie, geen apart BO |
 

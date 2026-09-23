@@ -50,6 +50,11 @@ bo_relaties:
     richting: naar-dit-BO
     kardinaliteit: "0..*"
     beschrijving: "Een contractregel betreft een verhuurbare eenheid"
+  - type: associatie
+    bedrijfsobject: "[[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]]"
+    richting: van-dit-BO
+    kardinaliteit: "1"
+    beschrijving: "Contractpartij (huurder/pachter) is een rechtspersoon"
 bedrijfsprocessen: [verhuur gemeentelijk vastgoed, huurprijsberekening, leegstandbeheer]
 bedrijfsfuncties: [vastgoedexploitatie, vastgoedmanagement]
 ---
@@ -61,7 +66,7 @@ bedrijfsfuncties: [vastgoedexploitatie, vastgoedmanagement]
 3. **Eigen bestaan** — een contract bestaat onafhankelijk van het vastgoedobject; het vastgoedobject kan bestaan zonder contract
 4. **Meervoud** — duizenden huurovereenkomsten in een gemeente als Amsterdam
 5. **Levenscyclus** — concept → ondertekening → lopend → indexering → opzegging → beëindiging
-6. **Relaties** — naar [[Vastgoedobject]], [[Verhuurbare Eenheid]], Rechtspersoon (huurder)
+6. **Relaties** — naar [[Vastgoedobject]], [[Verhuurbare Eenheid]], [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon|Rechtspersoon]] (huurder)
 
 ## Beschrijving
 
@@ -92,6 +97,7 @@ GGM-entiteiten die onderdeel zijn van Vastgoedcontract. Gemodelleerd als aparte 
 |---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject\|Vastgoedobject]] | naar-dit-BO | 1..* | Via vastgoedcontractregel | GGM |
 | [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/verhuurbare-eenheid\|Verhuurbare Eenheid]] | naar-dit-BO | 0..* | Via vastgoedcontractregel | GGM |
+| [[Wiki/Bedrijfsobjecten/99-kern/rsgbplus/rechtspersoon\|Rechtspersoon]] | van-dit-BO | 1 | Contractpartij (huurder/pachter) | GGM |
 
 ## Bedrijfsprocessen
 
