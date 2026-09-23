@@ -295,6 +295,11 @@ Status: 148 bronnen in 24 batches.
 
 > **Afgehandeld:** art. 11 BBV hergebruikt uit de al eerder ge-ingeste volledige wettekst onder Financien (`besluit-begroting-en-verantwoording`), niet opnieuw opgehaald. 2 bronsamenvattingen, 4 niet-relevant. 3 nieuwe BO's (Weerstandsvermogen en risicobeheersing, Risico, Verzekering), fysiek ondergebracht bij de bestaande BBV-familie in Financien. Reserve/Financiële Voorziening/Jaarrekening kregen nieuwe relaties. Domein open: Risicobeheerfonds en frauderisicobibliotheek gesignaleerd maar niet uitgewerkt (bron te dun).
 
+### Aanvullende bronnen ronde 2 (niet in oorspronkelijke batch, 2026-09-23)
+- [x] fraudebeleid-en-frauderisicoanalyse-brummen (Gemeente Brummen, lokaleregelgeving.overheid.nl, fraudebeleid + frauderisicoanalyse, 60+ fraudegevoelige processen, handelingsprotocol) → 2 BO's: Frauderisicoanalyse, Fraudeonderzoek
+
+> **Domein volledig afgerond (2026-09-23):** Risicobeheerfonds nader onderzocht (VNG-fonds, start 2026, opstal-/gebouwenverzekering) — te dun voor eigen BO/actor, als voorbeeld toegevoegd aan bestaand BO Verzekering. Frauderisicobibliotheek (RPO) zelf te dun, maar leidde naar een rijkere gemeentelijke bron (Fraudebeleid Brummen) → 2 nieuwe BO's. Domein Risicobeheer nu afgerond: 3 bronsamenvattingen, 7 begrippen, 5 BO's. Zie `Wiki/Onderwerpoverzichten/risicobeheer.md`.
+
 ## ~~Ruimte Wonen en Mobiliteit (7 + 1 aanvullend)~~ ✓
 - [x] bouwregelgeving → Niet-relevant
 - [x] klimaatadaptatie-en-water → Niet-relevant

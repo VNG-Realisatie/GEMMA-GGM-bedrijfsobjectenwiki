@@ -1,3 +1,16 @@
+## [2026-09-23] ingest | Risicobeheer volledig afgerond: frauderisicoanalyse, fraudeonderzoek, Risicobeheerfonds onderzocht
+
+- **Aanleiding:** laatste open domein afronden — Risicobeheerfonds en frauderisicobibliotheek stonden gesignaleerd als te dun voor BO-beoordeling.
+- **Risicobeheerfonds** — het VNG-initiatief nader onderzocht: een collectieve opstal-/gebouwenverzekering (start 2026), voor de helft eigendom van de deelnemende gemeenten en voor de helft van de VNG, na vergunning onder DNB-toezicht (Solvency II). Te dun gedocumenteerd voor een eigen BO of actor-pagina (geen toetredingsprocedure of deelnemersovereenkomst-detail beschikbaar) — de polis zelf is qua aard een gewone opstal-/inventarisverzekering, dus als voorbeeld toegevoegd aan het bestaande BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|Verzekering]], geen nieuw element.
+- **Frauderisicobibliotheek** — de RPO-bibliotheek zelf bleef een dunne landelijke referentielijst, maar het doorzoeken leverde een veel rijkere gemeentelijke bron op: het Fraudebeleid en de Frauderisicoanalyse van Gemeente Brummen (CVDR699229, collegebesluit 16 mei 2023) — een concreet, operationeel document met een tabel van 60+ fraudegevoelige processen, een fraudedriehoek-beoordelingskader (Gelegenheid × Druk × Rationalisatie) en een compleet 8-stappen handelingsprotocol bij een vermoeden van fraude.
+- **2 nieuwe BO's**, beide GGM-hiaat, fysiek ondergebracht bij de bestaande BBV-familie in Financien:
+  - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/frauderisicoanalyse|Frauderisicoanalyse]] — het jaarlijkse document (inventarisatie + kans×impactanalyse), onderdeel van de rechtmatigheidsverantwoording van het college sinds 2023; vergelijkbaar governance-patroon als het bestaande BO Weerstandsvermogen en risicobeheersing.
+  - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/fraudeonderzoek|Fraudeonderzoek]] — het onderzoeksproces bij een concreet vermoeden (5/6 criteria, geen eigen wettelijke grondslag); vergelijkbaar patroon als het bestaande BO Bibob-toets.
+- **Afbakening bevestigd:** het GGM kent alleen `WoonfraudeAanvraagOfMelding` (extern gerichte woonfraude, taakveld 1) — een ander concept dan de hier vastgelegde interne, bestuurs-/ambtenarengerichte fraude.
+- **2 nieuwe GGM-terugmeldingen:** #126 (Frauderisicoanalyse), #127 (Fraudeonderzoek) in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
+- **Domein Risicobeheer nu volledig afgerond** (status `afgerond`): 3 bronsamenvattingen, 7 begrippen, 5 BO's. Hiermee zijn alle backlog-domeinen uit `ToDo/ingest-backlog.md` afgerond.
+- **Bijgewerkt:** `Wiki/Onderwerpoverzichten/risicobeheer.md`, `Wiki/index.md`, `ToDo/ingest-backlog.md`.
+
 ## [2026-09-23] ingest | Openbare Orde en Veiligheid volledig afgerond: coffeeshop, Zorg- en Veiligheidshuis, model-APV-vergunningplichten
 
 - **Aanleiding:** de drie laatste open punten uit het domein afronden: Coffeeshop en Zorg- en Veiligheidshuis (bron te dun gesignaleerd in eerdere ronde), model-APV-vergunningplichten (overlap met bestaande vergunning-BO's nog te onderzoeken).

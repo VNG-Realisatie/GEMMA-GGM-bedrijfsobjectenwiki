@@ -38,7 +38,7 @@
 - [[Wiki/Onderwerpoverzichten/informatiebeheer|informatiebeheer]] — Archivering en gegevensbeheer: Document → Informatieobject → Archiefstuk-levenslijn, archiefvormer, archivaris, archiefinspecteur (in behandeling, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/recht|recht]] — Bestuursrecht, gemeentelijke organisatie, modelverordeningen, overheidsprivaatrecht en subsidierecht (afgerond, 3 BO's)
 - [[Wiki/Onderwerpoverzichten/openbare-orde-en-veiligheid|openbare-orde-en-veiligheid]] — Handhaving openbare orde en aanpak ondermijning: BOA, Bibob-toets, preventie- en handhavingsplan alcohol, alcoholoverlastgebied, veiligheidsrisicogebied, sluitingsbesluit, gedoogverklaring, casus (Veiligheidshuis) (afgerond, 7 BO's)
-- [[Wiki/Onderwerpoverzichten/risicobeheer|risicobeheer]] — Risicomanagement en financiële beheersing: weerstandsvermogen en risicobeheersing, risico, verzekering (in behandeling, 3 BO's)
+- [[Wiki/Onderwerpoverzichten/risicobeheer|risicobeheer]] — Risicomanagement en financiële beheersing: weerstandsvermogen en risicobeheersing, risico, verzekering, frauderisicoanalyse, fraudeonderzoek (afgerond, 5 BO's)
 
 ## Bedrijfsobjecten
 
@@ -121,6 +121,8 @@
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/weerstandsvermogen-en-risicobeheersing|weerstandsvermogen en risicobeheersing]] — Relatie tussen weerstandscapaciteit en niet-afgedekte risico's, art. 212 Gemeentewet + art. 11 BBV (governance-object, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/risico|risico]] — Individueel geïnventariseerd risico met kans en financieel gevolg (governance-object, GGM-hiaat)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|verzekering]] — Overeenkomst waarmee de gemeente een risico overdraagt aan een verzekeraar (procesobject, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/frauderisicoanalyse|frauderisicoanalyse]] — Jaarlijkse kans×impactbeoordeling van interne fraudegevoelige processen (governance-object, GGM-hiaat)
+- [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/fraudeonderzoek|fraudeonderzoek]] — Onafhankelijk onderzoek bij een redelijk vermoeden van interne fraude (procesobject, GGM-hiaat)
 
 ### Vastgoed (GGM beleidsdomein, taakveld 9)
 - [[Wiki/Bedrijfsobjecten/9-interne-organisatie/vastgoed/vastgoedobject|vastgoedobject]] — Perceel, gebouw of terrein waar de gemeente een zakelijk recht op heeft
@@ -923,6 +925,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 ### Risicobeheer
 - [[Wiki/Bronsamenvattingen/Risicobeheer/nota-weerstandsvermogen-risicobeheersing-waadhoeke|Nota Weerstandsvermogen en Risicobeheersing (Gemeente Waadhoeke)]] — definities risico/weerstandscapaciteit/weerstandsvermogen, wettelijk kader
 - [[Wiki/Bronsamenvattingen/Risicobeheer/verzekeringsbeleid-eindhoven-2022|Verzekeringsbeleid gemeente Eindhoven 2022]] — 24 artikelen concrete verzekeringstypen en polisvoorwaarden
+- [[Wiki/Bronsamenvattingen/Risicobeheer/fraudebeleid-en-frauderisicoanalyse-brummen|Fraudebeleid en Frauderisicoanalyse Gemeente Brummen]] — definities fraude/misbruik, fraudedriehoek, 60+ fraudegevoelige processen, handelingsprotocol
 
 ## Analyses
 
