@@ -74,7 +74,7 @@ Per ongedocumenteerd naamconflict: elementnaam en pad, GGM-entiteitnaam, conflic
 
 ## Modus: werkvoorraad
 
-Spoort ontbrekende actor- en rolpagina's op — BO-hiaten dekt `/entiteitendekking` al. Vindt alleen de werkvoorraad; beoordeling en vastlegging gebeuren via `/element-pipeline`. Definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
+Spoort ontbrekende actor- en rolpagina's op — BO-hiaten dekt `/entiteitendekking` al. Vindt alleen de werkvoorraad; beoordeling en vastlegging gebeuren via `/element-pipeline`. Definities en criteria: `templates/elementtype-criteria.md` §Actor en rol.
 
 ### Track 1: GGM-geankerde kandidaten (goedkoop, geen bronnen nodig)
 

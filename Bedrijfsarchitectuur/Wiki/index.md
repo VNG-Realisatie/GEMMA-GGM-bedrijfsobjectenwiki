@@ -517,7 +517,7 @@
 
 ## Actoren
 
-Business Actors (ArchiMate) — handelende personen, organisaties en organisatorische eenheden. Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor definities en criteria. Actoren met een gegevens-tegenhanger linken naar hun bedrijfsobject via `element_tegenhangers`.
+Business Actors (ArchiMate) — handelende personen, organisaties en organisatorische eenheden. Zie `templates/elementtype-criteria.md` §Actor en rol voor definities en criteria. Actoren met een gegevens-tegenhanger linken naar hun bedrijfsobject via `element_tegenhangers`.
 
 - [[Wiki/Actoren/bevoegd-gezag|bevoegd-gezag]] — Bestuursorgaan bevoegd tot beschikkingen en besluiten, in gemeentecontext B&W (GGM exact)
 - [[Wiki/Actoren/medewerker|medewerker]] — Persoon die zaken behandelt en klantcontacten voert (tegenhanger: BO medewerker)
@@ -555,7 +555,7 @@ Business Actors (ArchiMate) — handelende personen, organisaties en organisator
 
 ## Rollen
 
-Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden vervuld. Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
+Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden vervuld. Zie `templates/elementtype-criteria.md` §Actor en rol.
 
 - [[Wiki/Rollen/aanwezige-deelnemer|aanwezige-deelnemer]] — Deelname aan college- of raadsvergadering (tegenhanger: BO aanwezige-deelnemer)
 - [[Wiki/Rollen/belanghebbende|belanghebbende]] — Awb-hoedanigheid: rechtstreeks belang bij een besluit (GGM exact)
@@ -635,11 +635,11 @@ Business Roles (ArchiMate) — verantwoordelijkheden die door actoren worden ver
 
 ## Bedrijfsfuncties
 
-Business Functions (ArchiMate) — gebundelde vermogens van de gemeente. Zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsfuncties`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
+Business Functions (ArchiMate) — gebundelde vermogens van de gemeente. Zie `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsfuncties`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
 
 ## Bedrijfsprocessen
 
-Business Processes (ArchiMate) — reeksen activiteiten met een specifiek resultaat. Zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsprocessen`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
+Business Processes (ArchiMate) — reeksen activiteiten met een specifiek resultaat. Zie `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces voor definities en criteria (besluit 2026-09-23). Nog geen pagina's aangemaakt; bestaande `bedrijfsprocessen`-vermeldingen op BO's zijn nog vrije tekst (migratie-achterstand, zie `Bedrijfsarchitectuur/ToDo/Structuur en herleidbaarheid.md`).
 
 ## GGM (referentie — zie Wiki/GGM/)
 
@@ -763,7 +763,7 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Recht/gemeentewet|Gemeentewet (VNG-rubriek)]] — VNG: organisatie en bevoegdheden gemeentelijke organen, reeds gedekt door [[Wiki/Bronsamenvattingen/Bestuur/gemeentewet-wettekst|Gemeentewet — wettekst]]
 
 ### GEMMA
-- [[Wiki/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
+- [[Wiki/Bronsamenvattingen/GEMMA/gemma-bedrijfsobjecten-en-ggm|GEMMA: Bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM]] — GEMMA: bedrijfsobjecten, procesarchitectuur, zaakgericht werken en het GGM
 
 ### Standaarden
 - [[Wiki/Bronsamenvattingen/Standaarden/rsgb-en-informatiemodellen|RSGB 2.02 Deel I en VNG Informatiemodellen]] — RSGB 2.02: referentiemodel basisgegevens, relatie met basisregistraties en GGM

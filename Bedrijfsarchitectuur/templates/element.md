@@ -7,7 +7,7 @@ Locatie:
 - Bedrijfsfuncties: `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-function) — volgt, anders dan Actoren/Rollen, dezelfde taakveld/beleidsdomein-substructuur als Bedrijfsobjecten
 - Bedrijfsprocessen: `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/{naam}.md` (`archimate_type`: business-process) — zelfde substructuur
 
-Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid actor/rol en de criteria, en [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] voor het onderscheid functie/proces en de criteria. Bij actor/rol/functie/proces-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
+Zie `templates/elementtype-criteria.md` voor het onderscheid actor/rol/functie/proces en de bijbehorende criteria. Bij actor/rol/functie/proces-pagina's blijven GGM-velden leeg wanneer er geen GGM-match is; de overige structuur is gelijk.
 
 ### Frontmatter-stijl
 
@@ -18,6 +18,10 @@ Zie [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] voor het onderscheid acto
 - Normalisatie hiervan wiki-breed: `tools/migrate_frontmatter_style.py`.
 
 ## Frontmatter
+
+Twee delen: generieke velden die op elk elementtype van toepassing zijn (`business-object`/`contract`/`product`/`business-actor`/`business-role`/`business-function`/`business-process`), en velden die alleen bij een bedrijfsobject worden ingevuld. Bij actor/rol/functie/proces-pagina's blijft het generieke deel gewoon van toepassing (inclusief `grondslag` en de meeste `bo_*`-velden, zie `write-element.md` Stap 11/12) — alleen het BO-specifieke deel wordt overgeslagen en GGM-velden blijven leeg zonder GGM-match.
+
+### Generiek (alle typen)
 
 ```yaml
 ---
@@ -65,23 +69,18 @@ ggm_duplicaat_entiteiten: []
 # hier niets handmatigs aan toevoegen, dat gaat verloren bij de volgende run.
 analyse_ggm_dekking: ""
 
-# Wiki-velden — het uit bronnen afgeleide BO-model, beheerd door het GEMMA-team via deze wiki
+# Wiki-velden — het uit bronnen afgeleide model, beheerd door het GEMMA-team via deze wiki
 bo_definitie: {definitie op bedrijfsniveau — vormcriteria: zie CLAUDE.md [VR3]}
 bo_toelichting: {aanvulling, uitleg of voorbeelden bij de definitie — ook gebaseerd op bronnen. Leeg als de definitie volstaat.}
-bo_subtypes: []                     # Subtypes zonder eigen BO: per item naam, omschrijving, ggm_entiteit, ggm_guid, ggm_attribuut (zie /write-element Stap 6c). Body: ## Subtypes.
-bo_via_kandidaten: []
-#  - ggm_entiteit: {naam van de GGM-entiteit die "ter discussie" stond}
-#    ggm_guid: {EA GUID van die entiteit}
-#    reden: {waarom dit BO de juiste dekking is, t.o.v. de andere kandidaten}
 bo_synoniemen: []
 #  - naam: {alternatieve naam}
 #    context: {waar deze naam wordt gebruikt, bijv. "GGM", "beleidsdocumenten", "dagelijks gebruik"}
 bo_homoniemen: []
 # Alleen bij grondslag ggm-entiteit — een homoniem is een naamcollisie tussen
-# twee GGM-entiteiten, geen collisie tussen twee wiki-BO-namen (die laatste
+# twee GGM-entiteiten, geen collisie tussen twee wiki-elementnamen (die laatste
 # los je op bij de naamgeving zelf, zie /write-element Stap 0). Zonder eigen
 # ggm_entiteit blijft dit veld [].
-#  - bedrijfsobject: {wiki-link naar het andere BO, bijv. "[[Inschrijving (Onderwijs)]]"}
+#  - bedrijfsobject: {wiki-link naar het andere element, bijv. "[[Inschrijving (Onderwijs)]]"}
 #    ggm_entiteit: {GGM-entiteitnaam}
 #    ggm_guid: {EA GUID van het andere concept}
 #    ggm_beleidsdomein: {beleidsdomein van het andere concept}
@@ -92,16 +91,28 @@ element_tegenhangers: []            # cross-link wanneer hetzelfde begrip ook al
 #    toelichting: {bijv. "de gegevens over deze actor worden vastgelegd als bedrijfsobject"}
 bo_relaties:
   - type: {associatie | compositie | generalisatie}
-    bedrijfsobject: "[[gerelateerd-bedrijfsobject]]"
-    richting: {van-dit-BO | naar-dit-BO | bidirectioneel}
+    bedrijfsobject: "[[gerelateerd-element]]"
+    richting: {van-dit-element | naar-dit-element | bidirectioneel}
     kardinaliteit: {bijv. "1..*"}
     beschrijving: {korte omschrijving van de relatie}
-bedrijfsprocessen: [{wiki-links naar Wiki/Bedrijfsprocessen/-pagina's die dit object gebruiken/produceren}]
-bedrijfsfuncties: [{wiki-links naar Wiki/Bedrijfsfuncties/-pagina's die dit object raken}]
+bedrijfsprocessen: [{wiki-links naar Wiki/Bedrijfsprocessen/-pagina's die dit element gebruiken/produceren/raken}]
+bedrijfsfuncties: [{wiki-links naar Wiki/Bedrijfsfuncties/-pagina's die dit element raken}]
 ---
 ```
 
-**`bedrijfsprocessen`/`bedrijfsfuncties`** (besluit 2026-09-23): wiki-links naar eigen elementpagina's in `Wiki/Bedrijfsprocessen/`/`Wiki/Bedrijfsfuncties/` — geen vrije tekst meer. Elke vermelde functie/proces doorloopt dezelfde `/assess-element`+`/write-element`-flow als een BO/actor/rol (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]) voordat hij hier wordt gelinkt. Bestaande vrije-tekstvermeldingen van vóór dit besluit zijn migratie-achterstand (gesignaleerd door `/lint`), niet in bulk vervangen — zie `.claude/commands/lint.md`.
+### Alleen bedrijfsobject
+
+Aanvullend op het generieke deel hierboven — alleen bij `archimate_type: business-object | contract | product`, en alleen als van toepassing (hiërarchiepatroon, zie §Secties — alleen bedrijfsobject):
+
+```yaml
+bo_subtypes: []                     # Subtypes zonder eigen BO: per item naam, omschrijving, ggm_entiteit, ggm_guid, ggm_attribuut (zie /write-element Stap 6c). Body: ## Subtypes.
+bo_via_kandidaten: []
+#  - ggm_entiteit: {naam van de GGM-entiteit die "ter discussie" stond}
+#    ggm_guid: {EA GUID van die entiteit}
+#    reden: {waarom dit BO de juiste dekking is, t.o.v. de andere kandidaten}
+```
+
+**`bedrijfsprocessen`/`bedrijfsfuncties`** (besluit 2026-09-23): wiki-links naar eigen elementpagina's in `Wiki/Bedrijfsprocessen/`/`Wiki/Bedrijfsfuncties/` — geen vrije tekst meer. Elke vermelde functie/proces doorloopt dezelfde `/assess-element`+`/write-element`-flow als een BO/actor/rol (zie `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces) voordat hij hier wordt gelinkt. Bestaande vrije-tekstvermeldingen van vóór dit besluit zijn migratie-achterstand (gesignaleerd door `/lint`), niet in bulk vervangen — zie `.claude/commands/lint.md`.
 
 ### Linkconventie frontmatter
 
@@ -128,11 +139,11 @@ Vierde categorie naast `ggm_*`/`ggm_gemma_*`/`bo_*`: beantwoordt, per BO-pagina,
 
 ### Status
 
-BO-pagina's hebben geen apart goedkeuringsmoment. Als het proces is doorlopen en de onderbouwing klopt, is het BO vastgesteld. Markeer alleen als `ter discussie` in de body wanneer een specifieke keuze (bijv. generalisatieniveau, GGM-afwijking) niet eenduidig is en teambespreking vereist.
+Elementpagina's hebben geen apart goedkeuringsmoment. Als het proces is doorlopen en de onderbouwing klopt, is het element vastgesteld. Markeer alleen als `ter discussie` in de body wanneer een specifieke keuze (bijv. generalisatieniveau, GGM-afwijking) niet eenduidig is en teambespreking vereist.
 
-### Grondslag
+### Grondslag (generiek — alle typen)
 
-Geeft aan waarop het bedrijfsobject is gebaseerd. Het GGM modelleert vooral data-objecten; procesobjecten en governance-objecten zijn daarin niet compleet gedekt (incidentele uitzonderingen bestaan, bijv. GGM-beleidsdomein Normafwijking). Er zal daarom vaak een bedrijfsobject zijn zonder GGM-grondslag.
+Geeft aan waarop het element is gebaseerd — geldt voor elk elementtype, niet alleen bedrijfsobjecten (zie `write-element.md` Stap 11/12 voor actor/rol/functie/proces). Het GGM modelleert vooral data-objecten; procesobjecten en governance-objecten zijn daarin niet compleet gedekt (incidentele uitzonderingen bestaan, bijv. GGM-beleidsdomein Normafwijking). Er zal daarom vaak een element zijn zonder GGM-grondslag.
 
 | Grondslag | Betekenis | GGM-relatie | Voorbeeld |
 |---|---|---|---|
@@ -141,9 +152,11 @@ Geeft aan waarop het bedrijfsobject is gebaseerd. Het GGM modelleert vooral data
 | **procesobject** | Artefact dat in een proces ontstaat, niet in GGM gemodelleerd | Meestal geen match — GGM dekt processen niet compleet | *(toekomstig: belastingaanslag, kadernota)* |
 | **governance-object** | Juridisch of beleidsmatig kader dat processen aanstuurt | Meestal geen match — GGM dekt governance niet compleet | *(toekomstig: belastingverordening)* |
 
+De uitwerking van deze grondslagen in body-secties (Afleiding/Procesbron/Juridische bron) staat bij §Secties — alleen bedrijfsobject: dat is waar ze tot nu toe worden gebruikt. Voor actor/rol/functie/proces-pagina's volstaat vermelden van de grondslag in de Beschrijving; zie `write-element.md` voor de lichtere sectie-lijst van die typen.
+
 ## Body
 
-De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsobject is, hoe het zich verhoudt tot het GGM, en welke metadata naar het ArchiMate-model gaat.
+De elementpagina is een **beslisdocument**: het onderbouwt waarom dit een geldig element van zijn type is, hoe het zich verhoudt tot het GGM, en welke metadata naar het ArchiMate-model gaat.
 
 ### Linkconventie body
 
@@ -153,26 +166,33 @@ De BO-pagina is een **beslisdocument**: het onderbouwt waarom dit een bedrijfsob
 - **Citaten uit bronnen:** platte tekst (geen links)
 - **Geen verwijzingen naar technische/proces-bestanden** (`CLAUDE.md`, `templates/`, `tools/`, skills): zie `CLAUDE.md` [WC7]–[WC11].
 
-### Secties
+### Secties — generiek (alle typen)
 
-- **BO-criteria toetsing**: welke criteria zijn van toepassing, waarom is dit een BO
-- **Beschrijving**: het bedrijfsobject op het niveau waarop er in de gemeente over wordt gepraat
+Elk elementtype krijgt op zijn minst deze secties (bij actor/rol/functie/proces lichter ingevuld dan bij een BO — zie `write-element.md` Stap 11/12 voor de precieze, kortere lijst per type):
+
+- **Criteria-toetsing**: welke criteria zijn van toepassing en waarom kwalificeert dit begrip voor zijn elementtype. Verwijs naar de betreffende sectie in `templates/elementtype-criteria.md` (BO → §Bedrijfsobject, actor/rol → §Actor en rol, functie/proces → §Bedrijfsfunctie en bedrijfsproces). Bij een BO heet dit in de praktijk "BO-criteria toetsing".
+- **Beschrijving**: het element op het niveau waarop er in de gemeente over wordt gepraat
+- **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
+- **Relaties**: afgeleid van GGM-associaties (bij GGM-grondslag) of uit beleidsbronnen (bij overige grondslagen), vereenvoudigd naar bedrijfsniveau. Noteer de bron van elke relatie — wiki-links naar gerelateerde elementen, in tabellen met `\|`-escaped alias (bijv. `[[Wiki/.../boom\|Boom]]`)
+- **Bedrijfsprocessen**: welke processen dit element gebruiken, produceren of raken, als wiki-links naar `Wiki/Bedrijfsprocessen/`-pagina's
+- **Bedrijfsfuncties**: welke functies dit element raken, als wiki-links naar `Wiki/Bedrijfsfuncties/`-pagina's
+- **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit element is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
+- **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**
+
+### Secties — alleen bedrijfsobject
+
+Deze secties horen bij de hiërarchie- en herkomstmachinerie die tot nu toe alleen voor bedrijfsobjecten wordt gebruikt (`grondslag` zelf is generiek, zie hierboven, maar deze uitwerking ervan niet):
+
 - **Generalisatie** (optioneel): als dit BO onderdeel is van een conceptuele hiërarchie met andere BO's die dezelfde structuur delen (bijv. gebiedsindelingen, locatietypen). Beschrijft de hiërarchie en wat dit niveau onderscheidt. Zie [format hieronder](#generalisatie-format).
 - **Specialisaties** (optioneel): als dit BO een overkoepelend concept is met specialisaties die wél aparte BO's zijn (bijv. Sportlocatie → Sportpark, Binnenlocatie). Tabel met links naar de specialisatie-BO's. Zie [format hieronder](#specialisaties-format).
 - **Subtypes** (optioneel): herkende specialisaties die geen apart BO zijn maar wel herkenbaar in de praktijk. Gevonden in bronnen én/of GGM. Gestructureerd als lijst met vetgedrukte naam en toelichting. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
 - **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zelfde format als Subtypes. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
-- **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, entiteitnaam, beleidsdomein, attributen, matchsterkte
 - **Naamkeuze** (optioneel): wanneer de BO-naam afwijkt van de GGM-entiteitnaam door homoniem-disambiguatie. Documenteert welke namen zijn overwogen en waarom deze naam is gekozen. Zie [format hieronder](#naamkeuze-format).
 - **GGM-duplicaten** (optioneel): wanneer dezelfde entiteitnaam in meerdere GGM-beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt (bijv. BAG en RSGBPlus). Beschrijft welke duplicaten bestaan, waarom de primaire GUID is gekozen, en eventuele attribuutverschillen. Zie [format hieronder](#ggm-duplicaten-format). **Niet** gebruiken voor homoniemen (zelfde naam, ander concept).
 - **BO-definitie** (alleen bij afwijking van GGM): GGM-definitie als blockquote, eigen definitie eronder, en toelichting waarom is afgeweken. Zodat het verschil terugkoppelbaar is
 - **Afleiding** (bij grondslag `ggm-afgeleid`): welke GGM-objecten, welke berekening/aggregatie
 - **Procesbron** (bij grondslag `procesobject`): uit welk proces, welke beleidsbron beschrijft dit — **link naar de bronsamenvatting**
 - **Juridische bron** (bij grondslag `governance-object`): welke wet/verordening, welke beleidsbron — **link naar de bronsamenvatting**
-- **Relaties**: afgeleid van GGM-associaties (bij GGM-grondslag) of uit beleidsbronnen (bij overige grondslagen), vereenvoudigd naar bedrijfsniveau. Noteer de bron van elke relatie — wiki-links naar gerelateerde BO's, in tabellen met `\|`-escaped alias (bijv. `[[Wiki/.../boom\|Boom]]`)
-- **Bedrijfsprocessen**: welke processen dit object gebruiken of produceren, als wiki-links naar `Wiki/Bedrijfsprocessen/`-pagina's
-- **Bedrijfsfuncties**: welke functies dit object raken, als wiki-links naar `Wiki/Bedrijfsfuncties/`-pagina's
-- **Bronnen**: wiki-links naar bronsamenvattingen waaruit dit BO is afgeleid (bijv. `[[Wiki/Bronsamenvattingen/Bestuur/verkiezingen-en-referenda]]`). Geen alias — het pad maakt expliciet wat voor soort bestand de bron is.
-- **Terugmelding GGM** (indien van toepassing): correcties, ontbrekende entiteiten, afwijkende definities — **link naar [[Wiki/Analyses/ggm-terugmeldingen]]**
 
 ### Generalisatie format
 

@@ -84,7 +84,7 @@ Elke wiki-pagina heeft YAML-frontmatter. Templates per paginatype staan in `temp
 BO-afleiding staat los van GGM (zie [documentatie.md](documentatie.md)) — een begrip wordt beoordeeld op zijn eigen merites.
 
 Alle beoordelingslogica staat in de skills, niet in dit bestand:
-- **Elementbeoordeling:** `/assess-element` — domeinbepaling, begripstype, criteria (incl. actor/rol-criteria, zie `Wiki/GEMMA/actoren-en-rollen.md`), subtypes, data-object classificatie, autonomieregels
+- **Elementbeoordeling:** `/assess-element` — domeinbepaling, begripstype, criteria (zie `templates/elementtype-criteria.md` voor de volledige begripstype-tabel en de criteria per elementtype), subtypes, data-object classificatie, autonomieregels
 
 ## 5. GGM-matching & hiaten
 
@@ -231,7 +231,7 @@ Bedrijfsarchitectuur/
 ├── CLAUDE.md              # dit bestand — regels en conventies
 ├── documentatie.md        # werkwijze, proces en de rol van het GGM
 ├── .claude/commands/      # skills (`/command`), projectlokaal — zie documentatie.md §"Skills"
-├── templates/             # paginatemplates en referentietabellen
+├── templates/             # paginatemplates en referentietabellen (o.a. elementtype-criteria.md)
 ├── Sources/               # ruwe bronnen, NIET aanpassen
 │   ├── Onderwerpen/       # beleidsdocumenten per onderwerp
 │   │   └── {onderwerp}/
@@ -252,7 +252,6 @@ Bedrijfsarchitectuur/
 │   ├── Bronsamenvattingen/# samenvattingen per bron, georganiseerd per {onderwerp}/
 │   ├── Analyses/          # per-taakveld dekkingsrapporten, hiaten, terugmeldingen
 │   ├── Vragen/            # ad-hoc vraag-antwoord-pagina's (zie §1)
-│   ├── GEMMA/             # duiding GEMMA-GGM-samenhang, actoren/rollen-criteria
 │   └── GGM/               # gegenereerde leesbare GGM-representatie, niet handmatig bewerken
 │       ├── structuur-ggm.md
 │       └── {taakveld}/    # per taakveld, met index.md en bestanden per beleidsdomein

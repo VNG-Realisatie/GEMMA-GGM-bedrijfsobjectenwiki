@@ -220,7 +220,7 @@ Voeg de juiste body-sectie toe:
 
 ## Stap 11: Actor- en rol-pagina's
 
-Voor begrippen die via `/assess-element` Stap 2b als actor of rol zijn beoordeeld (definities en criteria: [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]).
+Voor begrippen die via `/assess-element` Stap 2b als actor of rol zijn beoordeeld (definities en criteria: `templates/elementtype-criteria.md` §Actor en rol).
 
 **Locatie en frontmatter:**
 - Actor: `Wiki/Actoren/{naam}.md` met `archimate_type: business-actor`
@@ -248,7 +248,7 @@ Nazorg is gelijk aan BO-pagina's: `Wiki/index.md`, `Wiki/log.md` en het onderwer
 
 ## Stap 12: Bedrijfsfunctie- en bedrijfsprocespagina's
 
-Voor begrippen die via `/assess-element` Stap 2c als bedrijfsfunctie of bedrijfsproces zijn beoordeeld (definities en criteria: [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]).
+Voor begrippen die via `/assess-element` Stap 2c als bedrijfsfunctie of bedrijfsproces zijn beoordeeld (definities en criteria: `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces).
 
 **Locatie en frontmatter:**
 - Bedrijfsfunctie: `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/{naam}.md` met `archimate_type: business-function`
@@ -256,7 +256,7 @@ Voor begrippen die via `/assess-element` Stap 2c als bedrijfsfunctie of bedrijfs
 - Anders dan Actoren/Rollen volgen beide mappen dezelfde taakveld/beleidsdomein-substructuur als Bedrijfsobjecten (besluit 2026-09-23).
 - Gebruik hetzelfde frontmatter-schema als `templates/element.md` (`type: element`). GGM-velden blijven doorgaans leeg (zie GGM-verwachting hieronder).
 
-**GGM-match:** doorloop Stap 2-5 zoals bij een BO, maar verwacht doorgaans geen match — het GGM modelleert functies/processen niet compleet (zelfde voorbehoud als grondslag `procesobject`/`governance-object`). Bij toch een match: vul `ggm_entiteit`/`ggm_guid` zoals gebruikelijk. Zonder match: velden leeg laten, geen terugmelding als hiaat (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] §GGM-verwachting).
+**GGM-match:** doorloop Stap 2-5 zoals bij een BO, maar verwacht doorgaans geen match — het GGM modelleert functies/processen niet compleet (zelfde voorbehoud als grondslag `procesobject`/`governance-object`). Bij toch een match: vul `ggm_entiteit`/`ggm_guid` zoals gebruikelijk. Zonder match: velden leeg laten, geen terugmelding als hiaat (zie `templates/elementtype-criteria.md` §GGM-verwachting).
 
 **Twee-pagina-patroon (uitzondering, niet de regel):** alleen als de 6 BO-criteria ook zelfstandig slagen, maak dan daarnaast de reguliere BO-pagina in `Wiki/Bedrijfsobjecten/`. Koppel beide pagina's zoals bij actor/rol: `element_tegenhangers` op beide pagina's, een cross-link in de body, eventueel dezelfde `ggm_guid`.
 

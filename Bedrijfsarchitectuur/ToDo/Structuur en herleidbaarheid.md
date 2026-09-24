@@ -25,7 +25,7 @@ Bron van waarheid: `Sources/GGM-repository/ggm_parsed.json` (via `/generate-ggm`
 - **Beoordelingsflow:** zelfde flow als BO/actor/rol — nieuw elementtype in `/assess-element` en `/write-element`, hergebruikt de bestaande 6-criteria-structuur en `templates/element.md`.
 
 **Gebouwd:**
-- Nieuwe naslagpagina [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] — definities en 6 diagnostische vragen per type, analoog aan [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]].
+- Naslagmateriaal `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces — definities en 6 diagnostische vragen per type, analoog aan §Actor en rol. (Oorspronkelijk als aparte pagina's in `Wiki/GEMMA/` gebouwd; op 2026-09-24 samengevoegd tot dit ene referentiebestand in `templates/`, omdat het skill-regels zijn en geen wiki-inhoud.)
 - `templates/element.md` — locaties, `archimate_type: business-function|business-process` toegevoegd, `bedrijfsprocessen`/`bedrijfsfuncties` omgezet van vrije tekst naar verplichte wiki-links.
 - `/assess-element` — begripstypen `bedrijfsfunctie`/`bedrijfsproces` toegevoegd (Stap 2), nieuwe Stap 2c (functie/proces-toets), Stap 3- en Stap 11-tabellen bijgewerkt.
 - `/write-element` — nieuwe Stap 12 (Bedrijfsfunctie- en bedrijfsprocespagina's), analoog aan Stap 11 (Actor/rol) maar met taakveld/beleidsdomein-substructuur en het twee-pagina-patroon als uitzondering i.p.v. regel.

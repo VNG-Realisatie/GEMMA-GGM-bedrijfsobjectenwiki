@@ -16,32 +16,13 @@ Welk gemeentelijk onderwerp hoort dit begrip bij?
 
 ### Stap 2: Begripstype bepalen
 
-Classificeer het begrip als een van deze begripstypen:
-
-| Begripstype | Omschrijving | ArchiMate-elementtype | Element-kandidaat? | GGM-match verwacht? |
-|---|---|---|---|---|
-| **object** | Concreet ding dat in processen wordt gebruikt/geproduceerd | Business Object | Ja (BO) | Ja |
-| **governance-instrument** | Regeling, programma, wet, maatregel, verordening | Contract / Product | Ja (BO) | Doorgaans niet (GGM dekt governance niet compleet) |
-| **actor** | Persoon, organisatie of organisatorische eenheid die kan handelen | Business Actor | Ja (actor-pagina) | Deels (RSGB) |
-| **rol** | Verantwoordelijkheid voor specifiek gedrag, door een actor vervulbaar | Business Role | Ja (rol-pagina) | Deels (RSGB) |
-| **doelgroep** | Groep waarop beleid of uitvoering gericht is | Business Object (classificatie) | Ja (BO) | Deels (RSGB) |
-| **bedrijfsfunctie** | Gebundeld vermogen van de gemeente, organisatorisch stabiel | Business Function | Ja (functie-pagina) | Doorgaans niet (GGM dekt functies niet compleet) |
-| **bedrijfsproces** | Reeks activiteiten met begin, einde en specifiek resultaat | Business Process | Ja (proces-pagina) | Doorgaans niet (GGM dekt processen niet compleet) |
-| **thema** | Werkgebied dat doelen, actoren en instrumenten bundelt | Grouping | Nee | Nee |
-| **doel** | Nagestreefde situatie of uitkomst | Goal / Outcome | Nee | Nee |
-| **waarde** | Maatschappelijk ideaal, richtinggevend principe | Driver / Principle | Nee | Nee |
+Classificeer het begrip volgens de begripstype-tabel in `templates/elementtype-criteria.md` §Generiek — classificatie (alle typen). Die tabel bepaalt ook de routering: object/governance-instrument/doelgroep → §Bedrijfsobject, actor/rol → §Actor en rol, bedrijfsfunctie/bedrijfsproces → §Bedrijfsfunctie en bedrijfsproces, thema/doel/waarde → stop-regel (geen element-kandidaat, vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling).
 
 **Begripstype vs. entiteitstype:** dit zijn begripstypen — ze classificeren begrippen uit bronnen (*wat is het?*). De `/entiteitendekking` skill gebruikt een apart classificatiesysteem, entiteitstypen, dat GGM-entiteiten classificeert (*waarom is het wel/geen BO?*). Zie die skill voor de entiteitstype-classificatie.
 
-**Actor/rol-onderscheid:** volg de definities en diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]]. Beslisvraag: gaat het begrip over *wie* iets doet (actor) of *in welke verantwoordelijkheid* iets wordt gedaan (rol)? Een doelgroep is géén actor of rol maar een classificatie waarmee actoren worden ingedeeld — behandel als gewoon BO.
-
-**Functie/proces-onderscheid:** volg de definities en diagnostische vragen op [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]]. Beslisvraag: gaat het begrip over *wat de gemeente kan* (functie) of *hoe een specifiek resultaat tot stand komt* (proces)? Dit begripstype geldt specifiek voor begrippen die zelf als bedrijfsfunctie/-proces worden vastgelegd (bijv. omdat een BO ernaar verwijst via het `bedrijfsfuncties`/`bedrijfsprocessen`-veld, zie `templates/element.md`) — niet voor elk proces dat terloops in een bron wordt genoemd.
-
-**Stop-regel:** thema / doel / waarde = geen element-kandidaat → vastleggen in begrippentabel met BO?=❌, geen verdere beoordeling.
-
 ### Stap 2b: Actor/rol-toets (alleen bij begripstype actor of rol)
 
-Toets tegen de diagnostische vragen op [[Wiki/GEMMA/actoren-en-rollen|Actoren en rollen]] (6 vragen per type). Meeste vragen (4+) met ja beantwoord = het begrip kwalificeert als actor resp. rol en krijgt een eigen pagina in `Wiki/Actoren/` of `Wiki/Rollen/` — **ongeacht of er gegevens over worden vastgelegd**.
+Toets tegen de diagnostische vragen in `templates/elementtype-criteria.md` §Actor en rol (6 vragen per type, drempel 4+). Kwalificeert het begrip, dan krijgt het een eigen pagina in `Wiki/Actoren/` of `Wiki/Rollen/` — **ongeacht of er gegevens over worden vastgelegd**.
 
 Toets daarnaast **onafhankelijk** de 6 BO-criteria (Stap 7): worden er ook gegevens over dit begrip vastgelegd en haalt het de criteria, dan komt er **óók** een aparte bedrijfsobject-pagina in `Wiki/Bedrijfsobjecten/` — twee pagina's dus, elk met eigen definitie vanuit het eigen perspectief, gekoppeld via `element_tegenhangers` in de frontmatter en een cross-link in de tekst (zie `templates/element.md`). Beide pagina's mogen dezelfde `ggm_guid` dragen.
 
@@ -49,9 +30,9 @@ Het [[gemeentelijk perspectief]] blijft gelden: alleen actoren/rollen die de gem
 
 ### Stap 2c: Functie/proces-toets (alleen bij begripstype bedrijfsfunctie of bedrijfsproces)
 
-Toets tegen de diagnostische vragen op [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] (6 vragen per type). Meeste vragen (4+) met ja beantwoord = het begrip kwalificeert als bedrijfsfunctie resp. bedrijfsproces en krijgt een eigen pagina in `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/` of `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/`.
+Toets tegen de diagnostische vragen in `templates/elementtype-criteria.md` §Bedrijfsfunctie en bedrijfsproces (6 vragen per type, drempel 4+). Kwalificeert het begrip, dan krijgt het een eigen pagina in `Wiki/Bedrijfsfuncties/{taakveld}/{beleidsdomein}/` of `Wiki/Bedrijfsprocessen/{taakveld}/{beleidsdomein}/`.
 
-Anders dan bij actor/rol is het twee-pagina-patroon hier de **uitzondering**: een bedrijfsfunctie/-proces krijgt alleen óók een BO-pagina als de 6 BO-criteria (Stap 7) zelfstandig slagen — dat is bij functies/processen ongebruikelijk (zie [[Wiki/GEMMA/functies-en-processen|Bedrijfsfuncties en bedrijfsprocessen]] §Verhouding tot bedrijfsobjecten). Toets Stap 7 dus wel, maar verwacht meestal een negatieve uitkomst.
+Anders dan bij actor/rol is het twee-pagina-patroon hier de **uitzondering**: een bedrijfsfunctie/-proces krijgt alleen óók een BO-pagina als de 6 BO-criteria (Stap 7) zelfstandig slagen — dat is bij functies/processen ongebruikelijk (zie `templates/elementtype-criteria.md` §Verhouding tot bedrijfsobjecten). Toets Stap 7 dus wel, maar verwacht meestal een negatieve uitkomst.
 
 Het [[gemeentelijk perspectief]] blijft gelden: alleen functies/processen die de gemeente zelf uitvoert of aanstuurt; ketenpartnerprocessen blijven context.
 
@@ -132,24 +113,11 @@ Afhankelijk ding zonder eigen bestaan → mogelijk deel van een groter BO, niet 
 
 ### Stap 7: De 6 BO-criteria toetsen
 
-Scoor elk criterium met ja/nee:
-
-1. **Heeft betekenis binnen het onderwerp** — is dit een herkenbaar concept in het vakgebied?
-2. **Is herkenbaar voor domeinexperts** — weten beleidsmedewerkers/uitvoerders wat dit is?
-3. **Heeft een eigen bestaan binnen het onderwerp** — bestaat het onafhankelijk van andere objecten?
-4. **Kan in meervoud bestaan** — zijn er meerdere exemplaren van?
-5. **Heeft een eigen levenscyclus** — wordt het aangemaakt, gewijzigd, beëindigd?
-6. **Heeft relaties met andere concepten** — relateert het aan andere BO's of concepten?
-
-**Drempel:** 5 of meer van de 6 = BO.
-
-**Beslisvraag:** herkent de gemeente dit als een zelfstandig ding waar beleid op gemaakt wordt?
-
-**Negatieve toets:** geen BO als het slechts een eigenschap, status, activiteit, regel of classificatie van iets anders is.
+Toets de 6 BO-criteria in `templates/elementtype-criteria.md` §Bedrijfsobject: scoor elk criterium ja/nee, drempel 5 of meer van de 6 = BO.
 
 ### Stap 7b: Anti-patronen
 
-De 6 criteria zijn de enige toets. Anti-patronen ([BO1]–[BO3]): NOOIT registr*, eigendom, systeembeheer, regie of extern systeem als criterium of motivatie.
+De 6 criteria zijn de enige toets. Anti-patronen (`templates/elementtype-criteria.md` §Anti-patronen, `CLAUDE.md` [BO1]–[BO3]): NOOIT registr*, eigendom, systeembeheer, regie of extern systeem als criterium of motivatie.
 
 ### Stap 8: Hiërarchie vastleggen
 
