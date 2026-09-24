@@ -417,3 +417,9 @@ Status: 148 bronnen in 24 batches.
 
 ### Aanvullende bronnen (niet in oorspronkelijke batch)
 - [x] regeling-inburgering-2021 (Rijksoverheid, wetten.overheid.nl, Regeling inburgering 2021 BWBR0045574 — ministeriële uitvoeringsregeling Wi2021) → 2 BO's: Vrijstelling (GGM exact), Ontheffing (GGM exact)
+
+## ~~Standaarden — GEBORA / IMWO (2)~~ ✓
+- [x] gebora-conceptueel-informatiemodel (digiGO, PDF, GEBORA Conceptueel Informatiemodel v1.0 — 12 informatiedomeinen, ~35 bedrijfsobjecten voor de gebouwde omgeving) → verificatiebron Vastgoed-domein, 0 nieuwe BO's (alle gemeentelijk-relevante begrippen duplicaat van bestaande BO's of procesmatig)
+- [x] imwo-informatiemodel-woongebouwen (digiGO, HTML, digiGO Informatiemodel Woongebouwen v1.0 — uitwerking GEBORA-domein Bouwwerk, ~200 objecttypen) → verificatie-/verrijkingsbron Wonen-domein, 0 nieuwe BO's, BO Woning verrijkt met 11 bouwvorm-subtypes + relatie naar Pand
+
+> **Afgehandeld:** scope beperkt tot gemeentelijk-relevante subset (vastgoedbeheer, woning/woongebouw) na overleg met gebruiker; bouwsector-/ketenpartnerprocessen buiten scope per [WC5]. Zie `Wiki/Onderwerpoverzichten/vastgoed.md` en `wonen.md` §Verificatie-update, en GGM-terugmeldingen #128-129.

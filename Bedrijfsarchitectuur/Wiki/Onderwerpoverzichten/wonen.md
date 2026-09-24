@@ -2,9 +2,9 @@
 type: domein
 naam: Wonen
 status: afgerond
-verwerkingsdatum: 2026-09-23
-bronnen_count: 10
-begrippen_count: 32
+verwerkingsdatum: 2026-09-24
+bronnen_count: 11
+begrippen_count: 35
 bo_count: 6
 ---
 
@@ -36,6 +36,9 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 | [[Wiki/Actoren/woningcorporatie|Woningcorporatie]] | actor | Organisatie die sociale huurwoningen bouwt en beheert | ❌ | ja | Actor — wettelijk verankerde prestatieafspraken; vastgelegd als actor-pagina | Mitros, Portaal, Bo-Ex, Woonin | nee |
 | woningzoekende | doelgroep | Persoon ingeschreven bij WoningNet voor sociale huur | ❌ | ja | Rol van persoon, geen zelfstandig object | Actief woningzoekende op DĀK | nee |
 | woonruimteverdeling | thema | Systeem van toewijzing sociale huurwoningen | ❌ | nee | Proces, geen object | Aanbodmodel, loting, bemiddeling | nee |
+| Eengezinswoning, Meergezinswoning, Vrijstaande woning, Twee-onder-een-kapwoning, Hoekwoning, Tussenwoning, Galerijwoning, Portiekwoning, Maisonnette, Boven-/Benedenwoning, Woning boven bedrijfsruimte | classificatie | Architecturale bouwvorm-typen (IMWO) | — | ja | Subtypen van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning\|Woning]] naar bouwvorm, aparte as naast marktsegment; GGM-enumeratie `soortWoonobject` heeft geen literalen | Rijtjeswoning, portiekflat | nee |
+| WoonGebouw | object | Pand/constructie met woonfunctie, kan meerdere woningen bevatten (IMWO) | ❌ | ja | Duplicaat van bestaand BO [[Wiki/Bedrijfsobjecten/99-kern/bag/pand\|Pand]] (BAG); geen relatie Gebouw↔Pand in GGM, zie terugmelding #129 | Appartementengebouw | nee |
+| BouwComplex | object | Cluster van gebouwen (IMWO) | ❌ | nee | Geen zelfstandig registreerobject; valt samen met [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan\|Woningbouwplan]] (planfase) of een verzameling Panden (na realisatie) | Woonwijk-ontwikkeling | nee |
 | opkoopbescherming | instrument | Regime dat verhuur na aankoop verbiedt in aangewezen wijken | ❌ | nee | Beleidsregime, geen zelfstandig bestaan of eigen levenscyclus | Verbod verhuur 4 jaar, prijsgrens €611.000 | nee |
 | zelfbewoningsplicht | instrument | Verplichting tot zelfbewoning bij nieuwbouw koop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar na BRP-inschrijving | nee |
 | antispeculatiebeding | instrument | Beding tegen speculatieve doorverkoop | ❌ | nee | Contractueel beding, attribuut van koopovereenkomst | 5 jaar geldingsduur | nee |
@@ -64,6 +67,7 @@ Wonen op water is een volwaardige woonvorm. De gemeente reguleert woonboten via 
 - [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht|Beleid voor woonboten en historische schepen]]
 - [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007|Woonbotenbeleid (september 2007)]]
 - [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015|Behouden van historische schepen in Utrecht (december 2015)]]
+- [[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen|digiGO Informatiemodel Woongebouwen (IMWO)]] — verificatie-/verrijkingsbron, geen nieuw beleidsdocument
 
 ## Nog te verwerken bronnen
 
@@ -73,14 +77,19 @@ Geen. `actieplan-middenhuur.md` stond hier eerder nog vermeld maar is al volledi
 
 - De vergunningen rond woonruimtevoorraad (omzetting, splitsing, woningvorming, verhuur) zijn hier als instrumenten vastgelegd maar niet als BO beoordeeld. Bij een toekomstige VTH-ingest kunnen deze als BO-kandidaten terugkomen.
 - Prestatieafspraken zijn een governance-instrument dat mogelijk een eigen BO rechtvaardigt. Nog niet beoordeeld.
+- Doelgroep-specifieke woonvormen uit IMWO (Arbeidsmigranten, Asielzoekers, Studenten, Woongroepen, Bewoners in zorginstelling) zijn niet hier beoordeeld — ze raken het reeds ge-ingeste [[Wiki/Bronsamenvattingen/Maatschappelijke Ondersteuning/wonen-voor-aandachtsgroepen|wonen-voor-aandachtsgroepen]] (Maatschappelijke Ondersteuning-domein).
 
 ## Conclusie
 
 Domein afgerond: 10 bronnen verwerkt, 6 BO's vastgelegd. [[Wiki/Bedrijfsobjecten/99-kern/bag/standplaats|Standplaats (BAG)]] toegevoegd aan de begrippentabel — cross-getagd `onderwerp: [..., Wonen]`, ontbrak hier ondanks dat [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/ligplaats|Ligplaats]] (dezelfde soort cross-tag) al wel stond. De 2 openstaande vragen zijn expliciet vooruitgeschoven naar een toekomstige VTH-ingest, geen blokkerende BO-classificatievraag.
 
+**Verificatie-update (2026-09-24):** het digiGO-informatiemodel IMWO ([[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen]]) is verwerkt als verificatiebron voor de bestaande BO [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woning|Woning]]. Geen nieuwe BO's: WoonGebouw is een duplicaat van het bestaande BO [[Wiki/Bedrijfsobjecten/99-kern/bag/pand|Pand]] (BAG), BouwComplex heeft geen zelfstandig bestaan los van [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen/woningbouwplan|Woningbouwplan]] of een verzameling Panden. Wel toegevoegd: 11 architecturale bouwvorm-subtypes bij Woning (nieuwe classificatie-as naast marktsegment) en een `bo_relaties`-koppeling Woning → Pand.
+
 ## Terugmeldingen richting GGM
 
 - **Middenhuurwoning** — Ontbreekt als subtype van Gebouw. Wettelijk gereguleerd segment sinds 2024.
 - **Urgentverklaring** — Ontbreekt als objecttype. Beschikking met eigen levenscyclus en categorieën.
+- **soortWoonobject** — Enumeratie zonder ingevulde literalen (Model BAG en RSGBPlus); IMWO levert concrete bouwvorm-typen.
+- **Gebouw ↔ Pand** — Geen relatie tussen GGM-entiteit Gebouw (Model Wonen) en Pand (Model BAG) terwijl IMWO deze laag (WoonGebouw) expliciet modelleert.
 
 Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]] voor het volledige overzicht.

@@ -774,6 +774,8 @@ De GGM-pagina's zijn gegenereerde brondata, geen handmatige wiki-content (zie CL
 - [[Wiki/Bronsamenvattingen/Standaarden/wet-bro|Wet basisregistratie ondergrond]] — Rijksoverheid: bronhouderschap, registratie verkenningen/gebruiksrechten/constructies/modellen, gebruiksplicht, terugmelding
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bro-gld|BRO Catalogus Grondwaterstandonderzoek (GLD)]] — Geonovum: registratieobject GLD, samenhang GMW/GMN/GAR, kwaliteitsregimes
 - [[Wiki/Bronsamenvattingen/Standaarden/catalogus-bgt-1.2|Gegevenscatalogus BGT 1.2 (IMGeo)]] — Geonovum: 18 BGT-objecttypen (wegen, water, terrein, bouwwerken), grondslag voor basisregistraties-BGT en 2 Beheer Openbare Ruimte-duplicaten
+- [[Wiki/Bronsamenvattingen/Standaarden/gebora-conceptueel-informatiemodel|GEBORA: Gebouwde Omgeving Referentie Architectuur — Conceptueel Informatiemodel]] — digiGO: 12 informatiedomeinen, ~35 bedrijfsobjecten gebouwde omgeving; verificatiebron voor Vastgoed-domein
+- [[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen|digiGO Informatiemodel Woongebouwen (IMWO)]] — digiGO: uitwerking GEBORA-domein Bouwwerk, ~200 objecttypen woning/woongebouw; verificatie-/verrijkingsbron voor BO Woning (bouwvorm-subtypes, relatie met Pand)
 
 ### Asiel en Integratie
 - [[Wiki/Bronsamenvattingen/Asiel en Integratie/divosa-handreiking-financieel-ontzorgen|Divosa — Handreiking Financieel ontzorgen en financiële zelfredzaamheid]] — Divosa: financieel ontzorgen statushouders, wettelijk kader, uitvoering, praktijkvoorbeelden

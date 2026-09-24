@@ -213,7 +213,7 @@ Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met spec
 ```markdown
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Child-BO]] | Korte omschrijving | [GGM-naam](Wiki/GGM/...) |
 ```

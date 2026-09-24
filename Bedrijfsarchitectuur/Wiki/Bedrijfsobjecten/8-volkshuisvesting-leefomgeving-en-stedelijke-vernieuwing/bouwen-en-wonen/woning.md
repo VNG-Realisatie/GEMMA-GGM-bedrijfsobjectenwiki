@@ -52,6 +52,28 @@ bo_subtypes:
     ggm_entiteit: Studentenwoningen
     ggm_guid: EAID_98C74EAB_3411_4d1a_8321_FF30567B6877
     ggm_attribuut: generalisatie
+  - naam: "Eengezinswoning"
+    omschrijving: "Woning bestemd voor bewoning door één huishouden, doorgaans grondgebonden"
+  - naam: "Meergezinswoning"
+    omschrijving: "Woning in een gebouw met meerdere zelfstandige woningen (appartement)"
+  - naam: "Vrijstaande woning"
+    omschrijving: "Eengezinswoning die aan geen enkele zijde grenst aan een andere woning"
+  - naam: "Twee-onder-een-kapwoning"
+    omschrijving: "Eengezinswoning die aan één zijde grenst aan een andere woning"
+  - naam: "Hoekwoning"
+    omschrijving: "Eengezinswoning aan het einde van een rij aaneengesloten woningen"
+  - naam: "Tussenwoning"
+    omschrijving: "Eengezinswoning tussen twee andere woningen in een rij aaneengesloten woningen"
+  - naam: "Galerijwoning"
+    omschrijving: "Meergezinswoning ontsloten via een gemeenschappelijke galerij"
+  - naam: "Portiekwoning"
+    omschrijving: "Meergezinswoning ontsloten via een gedeeld portiek/trappenhuis voor een beperkt aantal woningen"
+  - naam: "Maisonnette"
+    omschrijving: "Meergezinswoning verdeeld over twee bouwlagen binnen hetzelfde gebouw"
+  - naam: "Bovenwoning / Benedenwoning"
+    omschrijving: "Meergezinswoning boven resp. op de begane grond van een gebouw met maximaal twee woningen"
+  - naam: "Woning boven bedrijfsruimte"
+    omschrijving: "Woning gelegen boven een niet-woonfunctie (bedrijfsruimte, winkel)"
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Woningbouwplan]]"
@@ -63,6 +85,11 @@ bo_relaties:
     richting: naar-dit-BO
     kardinaliteit: "0..*"
     beschrijving: "Een urgentverklaring geeft voorrang bij toewijzing van een woning"
+  - type: associatie
+    bedrijfsobject: "[[Pand]]"
+    richting: vanuit-dit-BO
+    kardinaliteit: "1..1"
+    beschrijving: "Een woning bevindt zich in een pand; een pand kan één woning (grondgebonden) of meerdere woningen (appartementengebouw) bevatten"
 bedrijfsprocessen: [Woonruimteverdeling, Woningbouwprogrammering, Vergunningverlening huisvesting, Handhaving goed verhuurderschap]
 bedrijfsfuncties: [Volkshuisvesting, Woonbeleid, Vergunningverlening]
 ---
@@ -84,7 +111,11 @@ Score: **6/6** — BO.
 
 Een woning is een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden. De gemeente Utrecht telde op 1 januari 2024 167.123 woningen. De woningvoorraad wordt getypeerd naar prijssegment: sociale huur, middenhuur, betaalbare koop en vrije sector. Het gemeentelijk woonbeleid stuurt op de samenstelling van deze voorraad met als ambitie 60% betaalbare woningen in 2040.
 
-## Specialisaties
+## Subtypes
+
+Geen van de onderstaande subtypes heeft een eigen BO-pagina — ze zijn classificaties van Woning, vastgelegd in `bo_subtypes`.
+
+### Naar marktsegment
 
 | Subtype | Omschrijving | GGM-entiteit |
 |---|---|---|
@@ -94,6 +125,26 @@ Een woning is een zelfstandige woonruimte bedoeld voor de permanente huisvesting
 | Studentenwoning | Campuscontract, stopt na beëindiging studie. Zelfstandig of onzelfstandig (WWSO). | [Studentenwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen.md) |
 
 Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenmerken (toegankelijkheidsclassificatie), geen marktsegmenten.
+
+### Naar bouwvorm
+
+Naast de marktsegment-indeling (huur/koop) hanteert het digiGO-informatiemodel IMWO een indeling naar bouwvorm. Dit is een aparte, onafhankelijke classificatie-as (een woning heeft zowel een marktsegment als een bouwvorm):
+
+| Subtype | Omschrijving |
+|---|---|
+| Eengezinswoning | Woning bestemd voor bewoning door één huishouden, doorgaans grondgebonden |
+| Meergezinswoning | Woning in een gebouw met meerdere zelfstandige woningen (appartement) |
+| Vrijstaande woning | Eengezinswoning die aan geen enkele zijde grenst aan een andere woning |
+| Twee-onder-een-kapwoning | Eengezinswoning die aan één zijde grenst aan een andere woning |
+| Hoekwoning | Eengezinswoning aan het einde van een rij aaneengesloten woningen |
+| Tussenwoning | Eengezinswoning tussen twee andere woningen in een rij aaneengesloten woningen |
+| Galerijwoning | Meergezinswoning ontsloten via een gemeenschappelijke galerij |
+| Portiekwoning | Meergezinswoning ontsloten via een gedeeld portiek/trappenhuis voor een beperkt aantal woningen |
+| Maisonnette | Meergezinswoning verdeeld over twee bouwlagen binnen hetzelfde gebouw |
+| Bovenwoning / Benedenwoning | Meergezinswoning boven resp. op de begane grond van een gebouw met maximaal twee woningen |
+| Woning boven bedrijfsruimte | Woning gelegen boven een niet-woonfunctie (bedrijfsruimte, winkel) |
+
+Het GGM kent voor deze indeling een enumeratie `soortWoonobject` (Model BAG en RSGBPlus/Enumeratiesoort), maar deze heeft in de geëxporteerde XMI geen ingevulde literalen — zie Terugmelding GGM hieronder.
 
 ## GGM-bron
 
@@ -109,6 +160,7 @@ Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenme
 |---|---|---|---|
 | [[Woningbouwplan]] realiseert woningen | naar Woning | 1..* | GGM (Plan → Gebouw) |
 | [[Urgentverklaring]] geeft voorrang bij toewijzing | naar Woning | 0..* | Beleidsnota |
+| Woning bevindt zich in [[Pand]] | vanuit Woning | 1..1 | IMWO (zie Terugmelding GGM) |
 
 ## Bedrijfsprocessen
 
@@ -116,15 +168,6 @@ Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenme
 - **Woningbouwprogrammering** — Programmering en monitoring van nieuwbouw via MPR
 - **Vergunningverlening huisvesting** — Verlening huisvestingsvergunningen
 - **Handhaving goed verhuurderschap** — Toezicht op verhuurkwaliteit
-
-
-
-## Subtypes
-
-- **Sociale huurwoning** — Huurwoning met een huurprijs onder de liberalisatiegrens (€900,07 in 2025), toegewezen via woonruimteverdeling
-- **Middenhuurwoning** — Huurwoning met 144-186 WWS-punten en huurprijs €900-€1.185, gereguleerd via Wet betaalbare huur
-- **Betaalbare koopwoning** — Koopwoning met verkoopprijs tot de betaalbaarheidsgrens van het Rijk (€405.000 in 2025)
-- **Studentenwoning** — Woning verhuurd met campuscontract aan studenten, zelfstandig of onzelfstandig
 
 ## Bronnen
 
@@ -138,7 +181,12 @@ Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenme
 - [[Wiki/Bronsamenvattingen/Wonen/woonboten-utrecht]]
 - [[Wiki/Bronsamenvattingen/Wonen/woonbotenbeleid-utrecht-2007]]
 - [[Wiki/Bronsamenvattingen/Wonen/historische-schepen-utrecht-2015]]
+- [[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen]]
 
 ## Terugmelding GGM
 
 > **Middenhuurwoning** — Ontbreekt als subtype van Gebouw in het GGM. Sinds de Wet betaalbare huur (2024) is middenhuur een wettelijk gereguleerd segment met eigen prijsgrenzen (144–186 WWS-punten, €900–€1.185) en instandhoudingstermijnen. Zou passen als subtype van Gebouw naast Huurwoningen en Koopwoningen in beleidsdomein Bouwen en Wonen.
+
+> **Enumeratie `soortWoonobject` zonder literalen** — Het GGM bevat de enumeratie `soortWoonobject` (Model BAG én RSGBPlus/Enumeratiesoort) als plaatshouder voor een indeling naar bouwvorm, maar deze heeft in de geëxporteerde XMI geen ingevulde literalen. Het digiGO-informatiemodel IMWO ([[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen]]) benoemt hiervoor wel expliciete objecttypen (Eengezinswoning, Meergezinswoning, Vrijstaande woning, Twee-onder-een-kapwoning, Hoekwoning, Tussenwoning, Galerijwoning, Portiekwoning, Maisonnette, Boven-/Benedenwoning, Woning boven bedrijfsruimte) — hier vastgelegd als `bo_subtypes` naar bouwvorm, zie sectie "Subtypes → Naar bouwvorm".
+
+> **Ontbrekende relatie Gebouw ↔ Pand** — Het GGM modelleert de GGM-entiteit Gebouw (Model Wonen, hernoemd tot BO Woning) zonder relatie naar Pand (Model BAG/99 Kern). Het digiGO-informatiemodel IMWO onderscheidt expliciet WoonGebouw (het pand/de constructie, kan meerdere woningen bevatten) van WoonObject/Woning (de individuele bewoonbare eenheid) — een hiërarchie die in de BAG al bestaat tussen [[Pand]] en Verblijfsobject. Hier vastgelegd als `bo_relaties`-item Woning → Pand; geen apart BO WoonGebouw, omdat het gemeentelijke object hiervoor al bestaat als [[Pand]] (zie ook [[Wiki/Bronsamenvattingen/Standaarden/imwo-informatiemodel-woongebouwen]]).

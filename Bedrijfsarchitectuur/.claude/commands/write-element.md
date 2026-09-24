@@ -147,7 +147,7 @@ Gebruik `## Generalisatie` wanneer het BO onderdeel is van een conceptuele hiër
 
 Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met specialisaties die elk een eigen BO-pagina hebben (bijv. Sportlocatie → Sportpark, Binnenlocatie).
 
-**Body:** `## Specialisaties`-sectie met tabel (Subtype, Omschrijving, GGM-entiteit).
+**Body:** `## Specialisaties`-sectie met tabel (Specialisatie, Omschrijving, GGM-entiteit). Elke rij is een `[[wiki-link]]` naar een eigen BO-pagina — staat er geen link, dan is het een subtype (6c), geen specialisatie.
 
 **Frontmatter:** `generalisatie`-relaties in `bo_relaties:` met `richting: van-dit-BO`. Elk child-BO heeft een corresponderende `generalisatie`-relatie met `richting: naar-dit-BO`.
 
