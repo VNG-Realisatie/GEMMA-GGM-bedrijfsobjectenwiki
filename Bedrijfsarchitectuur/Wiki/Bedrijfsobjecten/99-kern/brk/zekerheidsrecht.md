@@ -72,7 +72,7 @@ bedrijfsfuncties:
 
 Een zekerheidsrecht is een hypotheek of beslag op een onroerende zaak. In de BRK wordt onderscheid gemaakt tussen hypothecaire zekerheidsstelling (door een hypotheeknemer, meestal een bank) en zekerheidsstelling inzake beslag (door een beslaglegger). De gemeente is relevant als beslaglegger: bij onbetaalde gemeentelijke belastingen kan de gemeente fiscaal beslag leggen op een onroerende zaak via een dwangbevel. Daarnaast raadpleegt de gemeente zekerheidsrechten bij eigendomsverificatie.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Zekerheidsrecht. Gevonden in de BRK Catalogus en GGM. Geen apart BO.
 

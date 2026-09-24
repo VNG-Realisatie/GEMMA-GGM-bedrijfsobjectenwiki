@@ -75,7 +75,7 @@ In Utrecht zijn de belangrijkste risicobronnen:
 
 ### Specialisaties
 
-| Subtype | Omschrijving | GGM-attribuut |
+| Specialisatie | Omschrijving | GGM-attribuut |
 |---|---|---|
 | Risicovol bedrijf | Bedrijf waar met gevaarlijke stoffen wordt gewerkt | — |
 | Risicovolle buisleiding | Buisleiding voor transport van gevaarlijke stoffen | — |

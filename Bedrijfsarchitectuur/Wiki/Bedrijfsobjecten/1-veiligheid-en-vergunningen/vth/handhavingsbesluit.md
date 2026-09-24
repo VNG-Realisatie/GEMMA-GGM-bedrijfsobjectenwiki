@@ -57,7 +57,7 @@ Een handhavingsbesluit is het formele besluit waarmee het college een sanctie op
 
 > "Als een zaak wordt opgepakt, bevat de handhavingsstrategie Omgevingswet een matrix waarin aan de hand van de ernst van de overtreding en het gedrag van de overtreder de sanctie kan worden bepaald." (bron: Uitvoeringsbeleid VTH Delft §7.3)
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Handhavingsbesluit. Gevonden in bronnen. Geen apart BO.
 

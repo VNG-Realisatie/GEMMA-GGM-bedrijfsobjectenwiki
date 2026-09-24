@@ -64,7 +64,7 @@ Een stuk is een brondocument dat wordt ingeschreven in de openbare registers van
 
 De gemeente biedt als WKPB-bronhouder zelf stukken (beperkingsbesluiten) ter inschrijving aan bij het Kadaster. Authentieke gegevens van een stuk zijn het deel-en-nummer en het tijdstip van aanbieding.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Stuk. Gevonden in de BRK Catalogus. Geen apart BO.
 

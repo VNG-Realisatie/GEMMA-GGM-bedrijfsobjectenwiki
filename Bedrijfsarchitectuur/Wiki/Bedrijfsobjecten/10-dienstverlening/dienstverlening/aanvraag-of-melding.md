@@ -149,7 +149,7 @@ Het GGM kent 11 specialisaties van AanvraagOfMelding, verspreid over meerdere do
 
 **Beslissing:** het BO wordt gedefinieerd op het **generieke niveau** (AanvraagOfMelding). De specialisaties horen inhoudelijk bij hun eigen domein en worden daar beoordeeld als dat domein wordt verwerkt. Op bedrijfsniveau is "aanvraag of melding" het herkenbare concept; de specialisaties zijn varianten in het registratiesysteem.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Aanvraag of melding. Gevonden in bronnen en/of GGM. Geen apart BO.
 

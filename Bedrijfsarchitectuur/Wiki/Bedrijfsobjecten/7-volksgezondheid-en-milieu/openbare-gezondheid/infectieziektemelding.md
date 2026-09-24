@@ -65,7 +65,7 @@ Meldingsplichtige ziekten zijn ingedeeld in groepen met verschillende bevoegdhed
 
 De gemeente is wettelijk verantwoordelijk maar de uitvoering ligt volledig bij de GGD. Dit maakt de infectieziektemelding het primaire raakvlak tussen meldingsplicht en gemeentelijke verantwoordelijkheid.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van infectieziektemelding. Gevonden in bronnen. Geen apart BO.
 

@@ -68,7 +68,7 @@ De keuze voor opwekgebieden gebeurt in samenspraak met de Regionale Energiestrat
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Zonneveld | Terrein met zonnepanelen voor grootschalige opwek van zonne-energie | — |
 | Windlocatie | Locatie aangewezen voor plaatsing van windturbines | — |
@@ -97,13 +97,6 @@ Opwekgebieden ontstaan uit het ruimtelijke planningsproces voor de energietransi
 
 - Energiebeleid
 - Ruimtelijke ordening
-
-
-
-## Subtypes
-
-- **Zonneveld** — Terrein met zonnepanelen voor grootschalige opwek van zonne-energie
-- **Windlocatie** — Locatie aangewezen voor plaatsing van windturbines
 
 ## Bronnen
 

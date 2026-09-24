@@ -33,8 +33,8 @@ Gemeentelijke schuldhulpverlening: het begeleiden van inwoners met problematisch
 | nazorg | object | Ondersteuning na afronding traject | ❌ | ja | Procesfase van Schuldhulptraject | 6 maanden nazorg | ja |
 | crisisinterventie | object | Afwending acute situatie | ❌ | ja | Procesfase van Schuldhulptraject | Voorkomen huisuitzetting | ja |
 | oplossing | object | Resultaat schuldregeling (saneringskrediet, schuldbemiddeling) | ❌ | ja | Onderdeel van Schuldhulptraject, 1:1 met traject | Saneringskrediet €18.000 | ja |
-| saneringskrediet | object | Lening van GKB om schuldeisers in één keer af te betalen | ❌ | ja | Subtype van oplossing | GKB-krediet 18 maanden | nee |
-| schuldbemiddeling | object | Periodieke aflossing aan schuldeisers gedurende looptijd | ❌ | ja | Subtype van oplossing | Bemiddeling 18 maanden | nee |
+| saneringskrediet | object | Lening van GKB om schuldeisers in één keer af te betalen | ❌ | ja | Specialisatie van oplossing | GKB-krediet 18 maanden | nee |
+| schuldbemiddeling | object | Periodieke aflossing aan schuldeisers gedurende looptijd | ❌ | ja | Specialisatie van oplossing | Bemiddeling 18 maanden | nee |
 | budgetbegeleiding | object | Intensieve begeleiding inkomen/uitgaven | ❌ | ja | Activiteit, geen zelfstandig BO | Mijn Geldzaken-traject | nee |
 | beschermingsbewind | instrument | Financieel beheer via rechterlijke machtiging | ❌ | nee | Juridisch instrument, niet gemeentelijk geregistreerd | Schuldenbewind, curator | nee |
 | basisdienstverlening | instrument | Landelijk akkoord uniforme minimumkwaliteit SHV | ❌ | nee | Beleidskader, geen data-object | Akkoord VNG/NVVK/Divosa 2024 | nee |
@@ -48,7 +48,7 @@ Gemeentelijke schuldhulpverlening: het begeleiden van inwoners met problematisch
 | armoede | thema | Structureel tekort aan middelen | ❌ | nee | Breed maatschappelijk thema | — | nee |
 | hulpacceptatie | object | Status/uitkomst: inwoner accepteert hulpaanbod | ❌ | nee | Resultaat-attribuut van vroegsignaalzaak | Quick-fix, doorverwijzing | nee |
 | drempelbedrag | object | Ondergrens schuldbedrag voor signaalopvolging | ❌ | nee | Parameter/instelling, geen zelfstandig object | €50, €75, €100 | nee |
-| laatsignaal | object | Signaal na escalatie (eindelevering, huisuitzetting) | ❌ | ja | Subtype: crisissignaal-attribuut op Vroegsignaal | Eindeleveringssignaal energie | ja |
+| laatsignaal | object | Signaal na escalatie (eindelevering, huisuitzetting) | ❌ | ja | Specialisatie: crisissignaal-attribuut op Vroegsignaal | Eindeleveringssignaal energie | ja |
 | BRP-koppeling | object | Automatische controle inschrijving bij signaalverwerking | ❌ | nee | Technische integratie, geen data-object | RIS/VPS BRP-koppeling | nee |
 | CAK-lijst | object | Overzicht inwoners met achterstand zorgpremie | ❌ | nee | Externe databron, niet gemeentelijk beheerd | CAK-bestand per kwartaal | nee |
 | bereikpercentage | object | Aandeel meldingen met succesvol contact | ❌ | nee | KPI/maatstaf, geen data-object | 20% bereik, landelijk gemiddelde | nee |

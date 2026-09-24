@@ -81,7 +81,7 @@ Teruggemeld als #101 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/speelterrein\|Speelterrein]] | Afgebakende openbare ruimte ingericht als speelplaats voor kinderen | Speelterrein (eigen GGM-entiteit) |
 

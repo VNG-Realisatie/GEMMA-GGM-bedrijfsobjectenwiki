@@ -86,7 +86,7 @@ Rioolleiding is de horizontale buisinfrastructuur van het gemeentelijk riolering
 
 De rioolleiding verbindt de verticale componenten (putten, kolken) met de aandrijving (gemalen) en vormt samen met die objecten het fysieke rioolstelsel. Gemeenten inspecteren en reinigen jaarlijks tientallen kilometers leiding. Vervanging vindt plaats over perioden van 40-60 jaar met miljoeneninvesteringen per kern.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Rioolleiding. Geen apart BO.
 

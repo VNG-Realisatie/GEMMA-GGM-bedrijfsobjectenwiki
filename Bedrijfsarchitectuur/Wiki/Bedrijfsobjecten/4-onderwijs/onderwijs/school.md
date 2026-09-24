@@ -98,7 +98,7 @@ Een school is een instelling voor funderend onderwijs. De gemeente is verantwoor
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | PO-school | School voor primair onderwijs | — |
 | VO-school | School voor voortgezet onderwijs | — |
@@ -139,16 +139,6 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 - Onderwijsbeleid
 - Vastgoedbeheer
-
-
-## Subtypes
-
-- **PO-school** — School voor primair onderwijs
-- **VO-school** — School voor voortgezet onderwijs
-- **SO/SBO/VSO-school** — School voor speciaal (basis/voortgezet) onderwijs
-- **Buurtschool** — Multifunctionele school met maatschappelijke partners in de wijk
-- **Kindcentrum** — Integrale voorziening onderwijs en kinderopvang 0-12 jaar
-- **Multifunctionele accommodatie** — Gebouw waar meerdere (overwegend maatschappelijke) organisaties voorzieningen aanbieden
 
 ## Bronnen
 

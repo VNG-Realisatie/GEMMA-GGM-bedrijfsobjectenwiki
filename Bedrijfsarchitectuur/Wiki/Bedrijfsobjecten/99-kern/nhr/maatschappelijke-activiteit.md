@@ -99,7 +99,7 @@ Een maatschappelijke activiteit die voldoet aan de criteria van de Handelsregist
 
 De gemeente gebruikt maatschappelijke activiteiten in vrijwel alle domeinen: belastingheffing (OZB, reclamebelasting, BIZ), vergunningverlening (horeca, evenementen, omgevingsvergunning), toezicht en handhaving, economisch beleid (werklocaties, detailhandel) en schuldhulpverlening (schuldeisers).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Maatschappelijke Activiteit. Geen apart BO.
 

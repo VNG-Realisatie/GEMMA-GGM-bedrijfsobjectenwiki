@@ -76,7 +76,7 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Bemalingsgebied | Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd | [Bemalingsgebied](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 
@@ -100,11 +100,6 @@ De gemeente is verantwoordelijk voor het transport van afvalwater tot aan het ov
 - **Rioolbeheer**: dagelijks beheer van het rioolstelsel binnen het rioleringsgebied
 - **Gebiedsplanning**: planvorming voor hemelwaterontvlechting en stelselverbetering per gebied
 - **Rioolvervangingsplanning**: programmering van rioolvervanging op gebiedsniveau
-
-
-## Subtypes
-
-- **Bemalingsgebied** — Rioleringsgebied waaruit afvalwater door een gemaal wordt verwijderd
 
 ## Bronnen
 

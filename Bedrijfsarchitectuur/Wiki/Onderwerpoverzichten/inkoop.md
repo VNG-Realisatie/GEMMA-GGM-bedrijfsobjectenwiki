@@ -44,7 +44,7 @@ Het GGM modelleert dit als beleidsdomein "Inkoop" onder taakveld 9 (Interne Orga
 
 ## Openstaande vragen of hiaten
 
-- **Inkoop vs. inhuur:** het GGM modelleert inhuur als apart subdomein met eigen entiteiten (Aanbesteding Inhuur, FormulierInhuur, Kandidaat). De bronnen beschrijven inhuur als onderdeel van het bredere inkoopdomein. De inhuur-entiteiten zijn als GGM-componenten of subtypes opgenomen, niet als apart BO.
+- **Inkoop vs. inhuur:** het GGM modelleert inhuur als apart subdomein met eigen entiteiten (Aanbesteding Inhuur, FormulierInhuur, Kandidaat). De bronnen beschrijven inhuur als onderdeel van het bredere inkoopdomein. De inhuur-entiteiten zijn als GGM-componenten of specialisaties opgenomen, niet als apart BO.
 - **Contract domeindoorsnijdend:** Contract verschijnt op 5 GGM-diagrammen (Inkoop, Sociaal Domein, Financiën, Inhuur). Het is primair een Inkoop-BO maar wordt ook gebruikt in andere domeinen.
 
 ## Terugmeldingen richting GGM

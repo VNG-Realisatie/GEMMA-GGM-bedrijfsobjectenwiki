@@ -100,7 +100,7 @@ De kwaliteit wordt gemeten via CROW-beeldkwaliteitsmaatlatten. De ambitie is CRO
 
 ### Naar modaliteit (attribuut: verhardingsobjectModaliteit)
 
-| Subtype | Omschrijving | GGM-attribuut |
+| Specialisatie | Omschrijving | GGM-attribuut |
 |---|---|---|
 | Rijbaan | Verharding voor gemotoriseerd verkeer | verhardingsobjectModaliteit |
 | Fietspad | Verharding voor fietsverkeer | verhardingsobjectModaliteit |
@@ -111,7 +111,7 @@ Totaal areaal: 13 miljoen m² wegen, fiets- en voetpaden (Kadernota KOR).
 
 ### Naar materiaal (attribuut: materiaal)
 
-| Subtype | Omschrijving | Levensduur |
+| Specialisatie | Omschrijving | Levensduur |
 |---|---|---|
 | Asfaltverharding | Asfalt, ook geluidsreducerend (tot 60% hergebruikte grondstoffen) | 10-70 jaar |
 | Betonverharding | Beton | 20-40 jaar |
@@ -150,17 +150,6 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 - **Groot onderhoud verhardingen**: aanbrengen nieuwe deklagen, voegwerk
 - **Vervanging wegvakken**: volledige vervanging verharding inclusief fundering
 - **Inspectie verhardingen**: CROW-beeldkwaliteitsmeting, conditie-inspectie per wegvak
-
-
-## Subtypes
-
-- **Rijbaan** — Verharding bestemd voor gemotoriseerd verkeer
-- **Fietspad** — Verharding bestemd voor fietsverkeer
-- **Voetpad** — Verharding bestemd voor voetgangers (trottoir)
-- **Parkeervak** — Verharding bestemd voor het parkeren van voertuigen
-- **Asfaltverharding** — Verharding van asfalt, levensduur 10-70 jaar, geluidsreducerende variant beschikbaar
-- **Betonverharding** — Verharding van beton, levensduur 20-40 jaar
-- **Elementenverharding** — Verharding van gebakken klinkers, levensduur 70-100 jaar
 
 ## Bronnen
 

@@ -82,7 +82,7 @@ De Woo onderscheidt twee soorten adviezen die actief openbaar moeten worden gema
 
 Herkende specialisaties van Advies met een eigen BO-pagina:
 
-| Subtype | Omschrijving | Bron |
+| Specialisatie | Omschrijving | Bron |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/1-veiligheid-en-vergunningen/vth/welstandsadvies\|Welstandsadvies]] | Formeel oordeel over de vraag of een bouwplan voldoet aan redelijke eisen van welstand, uitgebracht door de Commissie Welstand en Monumenten of via ambtelijke toetsing | Welstandsnota De schoonheid van Utrecht |
 

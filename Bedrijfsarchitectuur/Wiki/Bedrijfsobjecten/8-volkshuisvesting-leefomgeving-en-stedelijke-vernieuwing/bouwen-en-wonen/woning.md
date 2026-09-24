@@ -111,13 +111,13 @@ Score: **6/6** — BO.
 
 Een woning is een zelfstandige woonruimte bedoeld voor de permanente huisvesting van één huishouden. De gemeente Utrecht telde op 1 januari 2024 167.123 woningen. De woningvoorraad wordt getypeerd naar prijssegment: sociale huur, middenhuur, betaalbare koop en vrije sector. Het gemeentelijk woonbeleid stuurt op de samenstelling van deze voorraad met als ambitie 60% betaalbare woningen in 2040.
 
-## Subtypes
+## Specialisaties
 
 Geen van de onderstaande subtypes heeft een eigen BO-pagina — ze zijn classificaties van Woning, vastgelegd in `bo_subtypes`.
 
 ### Naar marktsegment
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Sociale huurwoning | Huurprijs onder liberalisatiegrens (€900,07 in 2025). Toewijzing via WoningNet/DĀK. Corporaties bezitten 29% van de voorraad. | [Huurwoningen](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/bouwen-en-wonen.md) |
 | Middenhuurwoning | Huurprijs €900–€1.185, 144–186 WWS-punten. Minimaal 20 jaar in segment (25 op gemeentegrond). Drie oppervlaktezones (A/B/C). | — (GGM-hiaat) |
@@ -130,7 +130,7 @@ Niet als apart subtype: nultredenwoning en zorggeschikte woning zijn woningkenme
 
 Naast de marktsegment-indeling (huur/koop) hanteert het digiGO-informatiemodel IMWO een indeling naar bouwvorm. Dit is een aparte, onafhankelijke classificatie-as (een woning heeft zowel een marktsegment als een bouwvorm):
 
-| Subtype | Omschrijving |
+| Specialisatie | Omschrijving |
 |---|---|
 | Eengezinswoning | Woning bestemd voor bewoning door één huishouden, doorgaans grondgebonden |
 | Meergezinswoning | Woning in een gebouw met meerdere zelfstandige woningen (appartement) |

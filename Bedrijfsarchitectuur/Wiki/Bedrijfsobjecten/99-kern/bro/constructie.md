@@ -67,7 +67,7 @@ De gemeente laat putten aanleggen door gespecialiseerde bedrijven en is als bron
 
 Alle authentieke gegevens per constructie (art. 21 Wet BRO): identificatiecode, type, locatie, eigenaar (KvK-nummer), kenmerken bestanddelen, meetresultaten.
 
-## Subtypes
+## Specialisaties
 
 Concrete BRO-registratieobjecten die specialisaties zijn van Constructie:
 

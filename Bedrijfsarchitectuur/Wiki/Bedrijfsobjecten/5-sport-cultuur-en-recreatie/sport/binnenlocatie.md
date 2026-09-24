@@ -77,7 +77,7 @@ De GGM-definitie ("Locatie binnen een gebouw") is generiek. De GEMMA-definitie v
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Sporthal | Grote binnensportaccommodatie voor meerdere sporten en verenigingen | Binnenlocatie |
 | Gymzaal | Kleinere binnensportruimte, vaak gekoppeld aan onderwijs | Binnenlocatie |
@@ -91,12 +91,6 @@ De GGM-definitie ("Locatie binnen een gebouw") is generiek. De GEMMA-definitie v
 | Verblijfsobject (BAG) | is gevestigd in | 0..1 | GGM |
 | Wijk | bedient | 1 | GGM |
 | Belijning | heeft | 0..* | GGM |
-
-
-## Subtypes
-
-- **sporthal** — Grote binnensportaccommodatie voor meerdere sporten en verenigingen
-- **gymzaal** — Kleinere binnensportruimte, vaak gekoppeld aan onderwijs
 
 ## Bronnen
 

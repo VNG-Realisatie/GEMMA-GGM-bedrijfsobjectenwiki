@@ -91,7 +91,7 @@ Het ligplaatsenregime is gebaseerd op een vergunningstelsel: zonder ligplaatsver
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Reserveligplaats | Tijdelijke ligplaats voor noodgevallen (3 stuks in Utrecht) | Ligplaats |
 
@@ -141,11 +141,6 @@ Teruggemeld als #59 in [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
 - BAG-beheer
 - Vergunningverlening
 - Handhaving
-
-
-## Subtypes
-
-- **Reserveligplaats** — Tijdelijke ligplaats voor noodgevallen zoals kade-onderhoud of verplaatsing.
 
 ## Bronnen
 

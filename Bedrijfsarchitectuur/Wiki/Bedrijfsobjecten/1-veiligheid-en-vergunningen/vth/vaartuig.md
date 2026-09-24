@@ -91,7 +91,7 @@ De maatvoering van woonboten is gebonden aan regels:
 
 Er zijn circa 334 woonboten in de gemeente Utrecht. Het bestand is al 15+ jaar stabiel.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Vaartuig. Geen van deze heeft een eigen BO-pagina — de gemeentelijke praktijk (en dus dit BO) beperkt zich tot woonboten.
 

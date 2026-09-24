@@ -90,7 +90,7 @@ Elk vastgoedobject heeft een uitgebreide set kenmerken: adres, boekwaarde, markt
 
 > "De vastgoedportefeuille van Gemeentelijk Vastgoed is een grote, bijzondere, en zeer diverse portefeuille, die bestaat op dit moment uit 1.015 panden, 1.989 grondpercelen en 149 waterpercelen." (bron: Vastgoedstrategie Amsterdam)
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Vastgoedobject. Gevonden in bronnen. Geen apart BO.
 

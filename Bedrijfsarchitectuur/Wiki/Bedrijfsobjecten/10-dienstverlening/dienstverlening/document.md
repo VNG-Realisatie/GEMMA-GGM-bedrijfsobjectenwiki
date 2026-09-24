@@ -114,7 +114,7 @@ De transitie **Informatieobject → Archiefstuk** vindt plaats bij overbrenging 
 
 In het GGM erft Archiefstuk van Document (abstract), wat de doorlopende identiteit door de levenscyclus bevestigt.
 
-## Subtypes
+## Specialisaties
 
 - **Enkelvoudig document** — Document dat als één geheel wordt behandeld en beheerd
 - **Samengesteld document** — Document dat uit twee of meer enkelvoudige documenten bestaat

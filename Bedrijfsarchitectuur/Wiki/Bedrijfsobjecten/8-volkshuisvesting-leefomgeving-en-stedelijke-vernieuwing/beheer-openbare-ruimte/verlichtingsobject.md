@@ -73,7 +73,7 @@ De Nota Beheer OR signaleert dat er voor openbare verlichting (OVL) geen achters
 
 ## Specialisaties
 
-| Subtype | Omschrijving | Bron |
+| Specialisatie | Omschrijving | Bron |
 |---|---|---|
 | Lichtmast | Vrijstaande paal, 56.000 stuks in Utrecht | Kadernota KOR (infographic) |
 | Gevelarmatuur | Aan gevel bevestigde verlichting, met name historische binnenstad | Kadernota KOR (bijzondere verlichtingsarmaturen) |
@@ -104,12 +104,6 @@ Het GGM heeft geen attributen op Verlichtingsobject zelf (alleen geërfd van Beh
 - **Vervanging armaturen**: vervanging palen en armaturen bij einde levensduur
 - **Inspectie verlichting**: technische inspectie op conditie en veiligheid
 - **Storingsdienst**: meldingen van defecte verlichting
-
-
-## Subtypes
-
-- **Lichtmast** — Vrijstaande paal met armatuur voor straatverlichting, veruit het meeste type (56.000 stuks)
-- **Gevelarmatuur** — Aan gevel bevestigde verlichting, met name in de historische binnenstad
 
 ## Bronnen
 

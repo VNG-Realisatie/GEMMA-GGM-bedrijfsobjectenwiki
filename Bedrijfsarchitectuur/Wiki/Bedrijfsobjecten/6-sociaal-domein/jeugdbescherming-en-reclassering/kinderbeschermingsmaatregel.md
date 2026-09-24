@@ -73,7 +73,7 @@ De gemeente legt de maatregel niet zelf op — dat doet de rechter op verzoek va
 
 Het college doet een verzoek tot onderzoek bij de Raad voor de Kinderbescherming zodra het van oordeel is dat een maatregel overwogen moet worden (art. 2.4 lid 1). De maatregel wordt uitsluitend uitgevoerd door een gecertificeerde instelling (art. 3.2).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Kinderbeschermingsmaatregel. Gevonden in de Jeugdwet art. 1.1. Geen apart BO.
 

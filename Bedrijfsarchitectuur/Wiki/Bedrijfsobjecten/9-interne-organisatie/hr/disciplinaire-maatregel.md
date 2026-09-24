@@ -82,7 +82,7 @@ Een disciplinaire maatregel is het formele besluit dat de werkgever oplegt wanne
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Schriftelijke waarschuwing | Formele waarschuwing of berisping | — |
 | Schorsing | Tijdelijke non-actiefstelling | — |
@@ -105,14 +105,6 @@ Soorten worden in het GGM vastgelegd via enumeratie SoortDisciplinaireMaatregel.
 | Relatie | Richting | Kardinaliteit | Bron |
 |---|---|---|---|
 | [[Werknemer]] heeft disciplinaire maatregel | naar dit BO | 1 | GGM |
-
-
-## Subtypes
-
-- **Schriftelijke waarschuwing** — Formele waarschuwing of berisping
-- **Schorsing** — Tijdelijke non-actiefstelling
-- **Inhouding periodieke verhoging** — Geen schaalverhoging als sanctie
-- **Ontslag** — Beëindiging dienstverband als zwaarste maatregel
 
 ## Bronnen
 

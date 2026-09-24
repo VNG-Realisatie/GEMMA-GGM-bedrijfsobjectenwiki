@@ -57,7 +57,7 @@ Privaatrechtelijke of publiekrechtelijke organisatie waarin de gemeente een best
 
 Een verbonden partij is een organisatie waarin de gemeente zowel bestuurlijk belang (zeggenschap) als financieel belang (risico bij faillissement) heeft. De begroting moet een verplichte paragraaf verbonden partijen bevatten (BBV art. 15) met per partij: de aard van het belang, verwachte omvang eigen/vreemd vermogen, financieel resultaat en risico's.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Verbonden Partij. Geen apart BO.
 

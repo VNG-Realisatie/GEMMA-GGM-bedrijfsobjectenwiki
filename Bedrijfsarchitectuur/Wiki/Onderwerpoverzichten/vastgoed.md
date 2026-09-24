@@ -26,7 +26,7 @@ Gemeentelijk vastgoed omvat het beheer, de verhuur en het onderhoud van gebouwen
 | vastgoedportefeuille | thema | Totaal van vastgoedobjecten, gecategoriseerd naar gebruik | ❌ | nee | Groepering, geen zelfstandig object | — | nee |
 | huurprijssystematiek | thema | Methodiek voor berekening kostprijsdekkende huur | ❌ | nee | Beleid/methodiek, geen object | — | nee |
 | kostprijsdekkende huur | waarde | Huurprijs die de integrale kosten dekt | ❌ | nee | Berekende waarde, attribuut van contract | — | nee |
-| erfstuk | object | Monumentaal vastgoed dat niet verkocht kan worden | ❌ | ja | Subtype van Vastgoedobject | Kerktoren, vestingwerk | nee |
+| erfstuk | object | Monumentaal vastgoed dat niet verkocht kan worden | ❌ | ja | Specialisatie van Vastgoedobject | Kerktoren, vestingwerk | nee |
 | bezettingsgraad | object | Mate van gebruik van een pand | ❌ | ja | Attribuut/KPI van Verhuurbare Eenheid | — | nee |
 | conditiescore | object | NEN 2767-score voor technische staat | ❌ | ja | Enumeratie, attribuut van inspectie/bouwdeel | Score 1-6 | ja (enum) |
 | energielabel | object | Classificatie energieprestatie gebouw | ❌ | ja | Enumeratie, attribuut van Vastgoedobject | Label A-G | ja (enum) |

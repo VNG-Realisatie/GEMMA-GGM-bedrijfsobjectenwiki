@@ -83,7 +83,7 @@ In het GGM is Speeltoestel een specialisatie van Meubilair. Het is gerelateerd a
 
 ## Specialisaties
 
-| Subtype | Omschrijving | Bron |
+| Specialisatie | Omschrijving | Bron |
 |---|---|---|
 | Vast speeltoestel | Permanent geplaatst toestel: schommel, glijbaan, klimrek, wipwap | Kadernota KOR (4.500 stuks) |
 | Sportcontainer | Modulaire container met sportvoorzieningen, verplaatsbaar | Nota Beheer OR (voorbeeld flexibele openbare ruimte) |
@@ -114,13 +114,6 @@ De nota noemt sportcontainers, skateparks en freerunbanen als voorbeelden van "f
 - **Onderhoud speelplekken**: reparatie, vervanging onderdelen, ondergrondonderhoud
 - **Vervanging speeltoestellen**: vervanging bij einde levensduur of veiligheidsproblemen
 - **Herinrichting speelplekken**: vergroening, klimaatadaptatie, afstemming op leeftijdsdoelgroep wijk
-
-
-## Subtypes
-
-- **Vast speeltoestel** — Permanent geplaatst speeltoestel op een speelterrein (schommel, glijbaan, klimrek)
-- **Sportcontainer** — Modulaire container met sportvoorzieningen, verplaatsbaar naar andere locatie
-- **Skatepark/freerunbaan** — Modulair systeem van elementen voor skateboarden of freerunnen
 
 ## Bronnen
 

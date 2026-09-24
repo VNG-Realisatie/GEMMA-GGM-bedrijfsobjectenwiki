@@ -113,7 +113,7 @@ Er zijn drie subtypes met verschillende adressaten:
 
 Elke juridische regel heeft een idealisatie (exact of indicatief) die aangeeft hoe de locatiebegrenzing moet worden geïnterpreteerd, en een thema dat de grondgedachte weergeeft.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Juridische Regel. Gevonden in GGM. Geen apart BO.
 

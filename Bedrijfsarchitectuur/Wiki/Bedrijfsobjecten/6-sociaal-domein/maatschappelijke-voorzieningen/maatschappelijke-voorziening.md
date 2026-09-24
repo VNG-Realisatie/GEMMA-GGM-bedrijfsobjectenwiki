@@ -111,7 +111,7 @@ Bij gebiedsontwikkeling zijn maatschappelijke voorzieningen een structurele opga
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Buurtcentrum | Welzijnsvoorziening met minimaal drie activiteitenruimten; normen gedifferentieerd naar wijksterkte (0,05–0,1 m² per inwoner) | — |
 | Buurtkamer | Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²), aanvullend op buurtcentrum | — |
@@ -165,27 +165,6 @@ Afgeleid uit de bronformulering:
 - **Maatschappelijke ontwikkeling** — beleid en regie op voorzieningenniveau
 - **Ruimtelijke ordening** — inpassing in omgevingsvisie en gebiedsplannen
 - **Vastgoedmanagement** — eigenaar/beheerder van gemeentelijk vastgoed
-
-
-
-## Subtypes
-
-- **Buurtcentrum** — Welzijnsvoorziening met minimaal drie activiteitenruimten voor ontmoeting en bewonersactiviteiten
-- **Buurtkamer** — Kleinschalige ontmoetingsplek (1-2 ruimten, ~200 m²), aanvullend op buurtcentrum
-- **Jongerenhuiskamer** — Laagdrempelige ruimte voor jongeren (~150 m²), 1 per wijk
-- **Gezondheidscentrum** — Clustering van eerstelijns zorg (~800-1200 m²)
-- **Sporthal** — Binnensportaccommodatie voor training en competitie
-- **Sportpark** — Geheel van terreinen, gebouwen en voorzieningen voor buitensporten
-- **Zwembad** — Overdekt of openlucht zwembad voor leszwemmen, recreatief zwemmen en zwemsporten
-- **Beheerde speeltuin** — Beheerde speelvoorziening (~5000 m²) als aanvulling op openbare speelplekken
-- **Speelplek** — Formele speelruimte in de openbare ruimte met speeltoestellen of sporttoestellen
-- **Wijkcultuurhuis** — Laagdrempelige culturele plek op wijkniveau voor kunst en cultuur
-- **School** — Gebouw in gebruik voor primair of voortgezet onderwijs
-- **Volkstuinpark** — Groene maatschappelijke voorziening voor tuinieren en ontmoeting
-- **Scoutingaccommodatie** — Accommodatie in zelfbeheer voor jeugdactiviteiten (300-600 m²)
-- **Dagbestedingslocatie** — Locatie voor activering en zinvolle dagbesteding vanuit de Wmo
-- **Gezinshuis** — Kleinschalige woonzorgvorm voor jeugdhulp met verblijf (4-6 kamers)
-- **Maatschappelijke opvang** — Tijdelijke opvang met zorg en ondersteuning voor daklozen
 
 ## Bronnen
 

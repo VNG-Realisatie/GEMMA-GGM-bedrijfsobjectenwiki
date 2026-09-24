@@ -109,7 +109,7 @@ Buiten wiki-scope (geen BO):
 - **Leverancier** — externe partij die het algoritme levert
 - **EU-databank** — Europese registratie voor hoog-risico AI-systemen
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties via de publicatiecategorie. Geen apart BO.
 

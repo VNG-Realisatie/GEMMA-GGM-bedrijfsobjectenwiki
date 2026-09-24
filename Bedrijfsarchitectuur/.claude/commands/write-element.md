@@ -128,9 +128,9 @@ Wanneer een BO een andere naam krijgt dan de GGM-entiteit (bijv. door naamconfli
 
 Dit patroon geldt ook wanneer er geen GGM-match is maar het BO wel een herkenbare GEMMA-naam heeft: vul dan alleen `ggm_gemma_naam` met de GEMMA-naam en laat `ggm_entiteit` leeg.
 
-## Stap 6: Hiërarchie vastleggen (generalisatie, specialisaties, subtypes)
+## Stap 6: Hiërarchie vastleggen (generalisatie, specialisaties)
 
-Drie patronen, afhankelijk van de richting en of children aparte BO's zijn:
+Twee patronen, afhankelijk van de richting:
 
 ### 6a. Generalisatie (opwaarts — dit BO is onderdeel van een hiërarchie)
 
@@ -143,30 +143,25 @@ Gebruik `## Generalisatie` wanneer het BO onderdeel is van een conceptuele hiër
 
 **Frontmatter:** de relaties naar andere niveaus worden als `associatie` of `generalisatie` opgenomen in `bo_relaties:`.
 
-### 6b. Specialisaties (neerwaarts — dit BO heeft children die wél aparte BO's zijn)
+### 6b. Specialisaties (neerwaarts — dit BO heeft herkende specialisaties, met of zonder eigen BO-pagina)
 
-Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met specialisaties die elk een eigen BO-pagina hebben (bijv. Sportlocatie → Sportpark, Binnenlocatie).
+Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met herkende specialisaties. Eén sectie, ongeacht of een specialisatie een eigen pagina krijgt — dat verschil blijkt uit de rij zelf, niet uit een aparte sectie.
 
-**Body:** `## Specialisaties`-sectie met tabel (Specialisatie, Omschrijving, GGM-entiteit). Elke rij is een `[[wiki-link]]` naar een eigen BO-pagina — staat er geen link, dan is het een subtype (6c), geen specialisatie.
+**Met eigen pagina** (bijv. Sportlocatie → Sportpark, Binnenlocatie): de specialisatie haalt zelf de 6 BO-criteria (eigen processen/relaties).
+- **Body:** rij is een `[[wiki-link]]` naar de eigen BO-pagina.
+- **Frontmatter:** `generalisatie`-relatie in `bo_relaties:` met `richting: van-dit-BO`. Het child-BO heeft er zelf een terug (`richting: naar-dit-BO`).
 
-**Frontmatter:** `generalisatie`-relaties in `bo_relaties:` met `richting: van-dit-BO`. Elk child-BO heeft een corresponderende `generalisatie`-relatie met `richting: naar-dit-BO`.
+**Zonder eigen pagina** (bijv. Woning → Sociale huurwoning): uitwisselbaar, zelfde register en processen als de ouder — haalt de 6 criteria niet zelfstandig.
+- **Body:** rij is platte tekst (geen link).
+- **Frontmatter:** `bo_subtypes` met per item `naam`, `omschrijving`, `ggm_entiteit`, `ggm_guid` (de GGM-entiteit waar dit bij hoort — dat kan het parent-BO zijn als het een attribuutwaarde is, of een aparte entiteit), `ggm_attribuut` (het GGM-attribuut dat de specialisatie draagt, leeg als het een aparte entiteit is).
 
-### 6c. Subtypes (neerwaarts — children zijn géén apart BO)
+**Specialisaties zonder eigen pagina identificeren uit drie bronnen:**
 
-Wanneer een BO herkende subtypes heeft die **geen apart BO** zijn (uitwisselbaar, zelfde register en processen):
-
-**Subtypes identificeren uit drie bronnen:**
-
-1. **Beleidsbronnen** — welke typen, categorieën of voorbeelden noemen de bronnen als aparte groep? Denk aan materiaaltypen (asfalt/beton/klinkers), functietypes (rijbaan/fietspad/voetpad), of specifieke modellen (Steegarmatuur). Als de bron het als apart type benoemt met eigen kenmerken (levensduur, inspectieregime, beheeraanpak), dan is het een subtype.
-2. **GGM type-attributen** — entiteiten met `type`, `typePlus`, `toestelgroep`, `materiaal`, of vergelijkbare classificatie-attributen hebben per definitie subtypes. Het GGM implementeert subtypes als attribuutwaarden — dat is een implementatiekeuze, geen reden om subtypes niet te benoemen.
+1. **Beleidsbronnen** — welke typen, categorieën of voorbeelden noemen de bronnen als aparte groep? Denk aan materiaaltypen (asfalt/beton/klinkers), functietypes (rijbaan/fietspad/voetpad), of specifieke modellen (Steegarmatuur). Als de bron het als apart type benoemt met eigen kenmerken (levensduur, inspectieregime, beheeraanpak), dan is het zo'n specialisatie.
+2. **GGM type-attributen** — entiteiten met `type`, `typePlus`, `toestelgroep`, `materiaal`, of vergelijkbare classificatie-attributen hebben per definitie specialisaties. Het GGM implementeert ze als attribuutwaarden — dat is een implementatiekeuze, geen reden om ze niet te benoemen.
 3. **GGM generalisatie-relaties** — aparte GGM-entiteiten die via generalisatie aan het BO-concept gerelateerd zijn. Let op: de GGM-hiërarchie kan afwijken van het beleidsperspectief (bijv. Brug zit onder Overbruggingsobject, niet onder Kunstwerk). Documenteer afwijkingen.
 
-**Frontmatter:** `bo_subtypes` met per subtype:
-- `naam`, `omschrijving`
-- `ggm_entiteit`, `ggm_guid` (de GGM-entiteit waar dit subtype bij hoort — dat kan het parent-BO zijn als het subtype een attribuutwaarde is, of een aparte entiteit)
-- `ggm_attribuut` (het GGM-attribuut dat het subtype draagt, leeg als het een aparte entiteit is)
-
-**Body:** `## Subtypes`-sectie met lijst. Bij afwijking tussen beleids- en GGM-hiërarchie: toelichting onder de lijst.
+Bij twee onafhankelijke classificatie-assen (bijv. Woning naar marktsegment én naar bouwvorm): subkopjes `### Naar {as}`, elk met een eigen tabel. Bij afwijking tussen beleids- en GGM-hiërarchie: toelichting onder de tabel.
 
 ## Stap 7: BO-relaties afleiden
 
@@ -192,8 +187,7 @@ Body-secties volgens template:
 - **BO-criteria toetsing**: welke criteria zijn van toepassing
 - **Beschrijving**: het BO op het niveau waarop de gemeente erover praat
 - **Generalisatie** (optioneel): positie in opwaartse hiërarchie van BO's met gedeelde structuur
-- **Specialisaties** (optioneel): tabel met children-BO's (aparte BO-pagina's)
-- **Subtypes** (optioneel): lijst met subtypes die geen apart BO zijn
+- **Specialisaties** (optioneel): tabel met herkende specialisaties — `[[wiki-link]]` bij een eigen BO-pagina, platte tekst zonder
 - **GGM-bron** (bij grondslag `ggm-entiteit`): letterlijke GGM-definitie als blockquote, matchsterkte
 - **Naamkeuze** (optioneel): wanneer stap 0 een naamkeuze heeft opgeleverd. Overwogen namen en motivatie. Zie `templates/element.md` voor format.
 - **GGM-duplicaten** (optioneel): wanneer stap 4b duplicaten of homoniemen heeft gevonden. Tabel met primaire keuze, duplicaten en attribuutverschillen. Zie `templates/element.md` voor format.

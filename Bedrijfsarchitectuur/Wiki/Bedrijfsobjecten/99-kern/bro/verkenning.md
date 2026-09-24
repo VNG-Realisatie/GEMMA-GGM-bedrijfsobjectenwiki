@@ -69,7 +69,7 @@ De gemeente is bronhouder: verantwoordelijk voor aanlevering (via het bronhouder
 
 Alle authentieke gegevens per verkenning (art. 19 Wet BRO): identificatiecode, verkenningstype, locatie, tijdstip, bronhouder, meetresultaten.
 
-## Subtypes
+## Specialisaties
 
 Concrete BRO-registratieobjecten die specialisaties zijn van Verkenning:
 

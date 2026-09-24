@@ -71,7 +71,7 @@ Een logistieke route is een door de gemeente aangewezen voorkeursweg voor vracht
 
 ## Specialisaties
 
-| Subtype | Omschrijving |
+| Specialisatie | Omschrijving |
 |---|---|
 | Route I | Doorgaande route naar economische centra |
 | Route II | Aansluitende route naar centra buiten het doorgaande net |

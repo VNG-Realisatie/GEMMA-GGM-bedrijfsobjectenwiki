@@ -70,7 +70,7 @@ Score: **6/6**
 
 Bij de beoordeling van het recht op algemene bijstand toetst de gemeente niet alleen het inkomen maar ook het vermogen: de waarde van bezittingen verminderd met schulden (art. 34 lid 1 Participatiewet). Dit vermogen wordt per afzonderlijk bestanddeel — vermogenscomponent — vastgesteld: spaargeld, een auto, beleggingen, de eigen woning. Niet elk bestanddeel telt volledig mee: algemeen gebruikelijke of noodzakelijke bezittingen, tijdens de bijstandsperiode opgebouwd spaargeld, en het vermogen in de eigen woning tot €67.500 blijven buiten beschouwing (art. 34 lid 2). Boven de generieke vrijlatingsgrens (€8.000 voor een alleenstaande, €16.000 voor een alleenstaande ouder of gehuwden, art. 34 lid 3) bestaat geen recht op bijstand.
 
-## Subtypes
+## Specialisaties
 
 Het GGM modelleert Vermogenscomponent als abstract met vier specialisaties. Deze zijn generieke Sociaal Domein-concepten (ook relevant buiten de Participatiewet, bijv. Wmo/Jeugd) en worden hier als subtype vermeld, niet als eigen BO uitgewerkt.
 

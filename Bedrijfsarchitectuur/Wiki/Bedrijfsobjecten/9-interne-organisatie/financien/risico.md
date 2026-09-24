@@ -90,7 +90,7 @@ Gemeenten onderscheiden risico's op basis van meerdere kenmerken: afkomstig van 
 
 Een deel van de risico's wordt afgedekt door specifieke maatregelen: het vormen van een reserve of voorziening, het afsluiten van een verzekering, of het inrichten van interne controle. Alleen de risico's die niet op een andere manier zijn ondervangen — en die van materiële betekenis kunnen zijn — worden meegenomen in de risico-inventarisatie die de basis vormt voor de berekening van het weerstandsvermogen.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Risico. Geen apart BO.
 

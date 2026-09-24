@@ -99,7 +99,7 @@ Sinds de normalisering van de ambtenarenstatus (Wnra, 2020) vallen gemeenteambte
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Arbeidsovereenkomst voor onbepaalde tijd | Vast contract zonder einddatum | — |
 | Arbeidsovereenkomst voor bepaalde tijd | Tijdelijk contract (ketenregeling: max 3 contracten, 36 maanden) | — |
@@ -124,14 +124,6 @@ De subtypes komen uit de [[Wiki/Bronsamenvattingen/Arbeidszaken/handreiking-flex
 | [[Werknemer]] heeft dienstverband | naar dit BO | 1..* | GGM |
 | Dienstverband conform [[Arbeidsfunctie]] | van dit BO | 1 | GGM |
 | [[Formatieplaats]] toegewezen aan dienstverband | naar dit BO | 0..* | GGM |
-
-
-## Subtypes
-
-- **Arbeidsovereenkomst voor onbepaalde tijd** — Vast contract zonder einddatum
-- **Arbeidsovereenkomst voor bepaalde tijd** — Tijdelijk contract met einddatum (ketenregeling: max 3 contracten, 36 maanden)
-- **Project-arbeidsovereenkomst** — Tijdelijk contract gekoppeld aan objectief bepaalbaar projecteinde
-- **Oproepovereenkomst** — Contract zonder vaste urenomvang (nuluren of min-max, min 15 uur/maand per cao)
 
 ## Bronnen
 

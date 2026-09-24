@@ -70,7 +70,7 @@ Nieuwe hotelvestigingen vereisen een omgevingsvergunning bij afwijking van het o
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Concepthotel | Hotel met max 50 kamers rond een specifiek thema | — |
 | Doelgroephotel | Hotel voor specifieke groepen (zorg, sport), max 50 kamers | — |

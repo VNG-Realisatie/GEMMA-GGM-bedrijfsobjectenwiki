@@ -115,7 +115,7 @@ In het GGM is NietNatuurlijkPersoon een specialisatie van [[Wiki/Bedrijfsobjecte
 
 De gemeente heeft in vrijwel elk domein met niet-natuurlijke personen te maken: als vergunninghouder (horeca, evenementen), als subsidieaanvrager, als contractpartner (inkoop), als belastingplichtige (OZB, reclamebelasting), als schuldeiser (schuldhulpverlening), als schoolbestuur (onderwijs), als sportvereniging, als zorgaanbieder (Wmo/Jeugdwet).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Niet-Natuurlijk Persoon op basis van rechtsvorm. Geen apart BO.
 

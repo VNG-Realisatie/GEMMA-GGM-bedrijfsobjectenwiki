@@ -84,7 +84,7 @@ De GGM-definitie is bewust generiek ("verplichting tot betaling"). In de gemeent
 
 Het begrip "heffing" omvat ook leges en retributies — de GGM-entiteit is breed genoeg voor alle gemeentelijke heffingsvormen.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Heffing. Elke gemeente heft een selectie van deze belastingtypen; individuele aanslagen zijn instanties van Heffing. Geen apart BO.
 

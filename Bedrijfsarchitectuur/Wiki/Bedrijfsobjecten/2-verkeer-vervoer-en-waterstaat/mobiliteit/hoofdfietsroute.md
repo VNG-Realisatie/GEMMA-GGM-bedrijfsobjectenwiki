@@ -70,7 +70,7 @@ Een hoofdfietsroute is een aangewezen fietsverbinding in het stedelijk hoofdfiet
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-attribuut |
+| Specialisatie | Omschrijving | GGM-attribuut |
 |---|---|---|
 | snelfietsroute | Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid | — |
 
@@ -82,12 +82,6 @@ Afgeleid uit het gemeentelijk fietsbeleid. Het [[Wiki/Bronsamenvattingen/mobilit
 
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/ov-knooppunt|OV-knooppunt]] — fietsroute verbindt met OV-knooppunten [0..*]
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/p-r-locatie|P+R-locatie]] — fietsroute naar P+R-locatie [0..*]
-
-
-
-## Subtypes
-
-- **snelfietsroute** — Regionale fietsroute voor langere afstanden, provinciale verantwoordelijkheid
 
 ## Bronnen
 

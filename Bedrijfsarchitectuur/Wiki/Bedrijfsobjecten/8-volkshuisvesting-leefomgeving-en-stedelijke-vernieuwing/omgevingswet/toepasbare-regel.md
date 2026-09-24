@@ -90,7 +90,7 @@ Er zijn drie subtypes die verschillende conclusies opleveren:
 - **Indieningsvereisten** — welke gegevens/bijlagen bij een aanvraag of melding moeten worden aangeleverd
 - **Maatregelen** — welke handelingen moeten worden uitgevoerd om aan voorschriften te voldoen
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Toepasbare Regel. Gevonden in GGM. Geen apart BO.
 

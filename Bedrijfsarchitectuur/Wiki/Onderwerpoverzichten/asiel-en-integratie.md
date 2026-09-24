@@ -47,7 +47,7 @@ Gemeentelijke verantwoordelijkheden rondom asielopvang, huisvesting van statusho
 | kleinschalige opvang | object | Opvangvorm voor kleine aantallen bewoners | ❌ | nee | Variant van opvanglocatie | Hotel, voormalig kantoor (max. 100 plaatsen) | nee |
 | kansrijke koppeling | object | Matching statushouder aan gemeente op basis van profiel | ❌ | ja | Processtap, geen zelfstandig object met levenscyclus | Koppeling o.b.v. werkgelegenheid, taal | nee |
 | voorinburgering | object | Programma in AZC ter voorbereiding op inburgering | ❌ | nee | Synoniem van Voorbereiding op Inburgering (GGM) | KNM-training, taalles in AZC | ja |
-| nareiziger | doelgroep | Familielid dat via gezinshereniging naar Nederland komt | ❌ | nee | Subtype van Gezinsmigrant, geen apart BO | Echtgenoot, minderjarig kind | nee |
+| nareiziger | doelgroep | Familielid dat via gezinshereniging naar Nederland komt | ❌ | nee | Specialisatie van Gezinsmigrant, geen apart BO | Echtgenoot, minderjarig kind | nee |
 | AMV (alleenstaande minderjarige vreemdeling) | doelgroep | Minderjarige zonder ouderlijke begeleiding | ❌ | nee | Subgroep van Asielstatushouder | 17-jarige uit Syrië, Eritrea | nee |
 | meedoenbalie | object | Servicelocatie COA voor informatie en activiteiten | ❌ | nee | Extern (COA) kanaal, niet gemeentelijk | Meedoenbalie AZC locatie | nee |
 | verstrekkingen (Rva) | instrument | Regeling voor leef-/eetgeld in opvang | ❌ | nee | Externe regeling (COA/Rijksoverheid) | Leefgeld €68/week | nee |

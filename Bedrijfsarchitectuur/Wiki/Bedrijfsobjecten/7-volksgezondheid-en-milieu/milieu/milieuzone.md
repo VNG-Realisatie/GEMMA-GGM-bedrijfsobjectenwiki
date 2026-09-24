@@ -71,7 +71,7 @@ De zones worden juridisch ingesteld via verkeersbesluiten en vastgelegd in de AP
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Nul-emissiezone | Zone waarbinnen uitsluitend uitstootvrije voertuigen zijn toegelaten. Strenger dan een milieuzone met emissieklasse-eisen. | — |
 
@@ -94,12 +94,6 @@ De milieuzone ontstaat uit het luchtkwaliteitsbeleid en wordt juridisch geformal
 |---|---|---|---|---|
 | [[Ontheffing (milieuzone)]] | associatie | naar-dit-BO | Individuele uitzonderingen op zone-regels | Beleidsnota §6.2.7 |
 | [[Sloopregeling]] | associatie | naar-dit-BO | Subsidieregeling bij aanscherping | Beleidsnota §6.2.7 |
-
-
-
-## Subtypes
-
-- **Nul-emissiezone** — Zone waarbinnen uitsluitend uitstootvrije voertuigen zijn toegelaten
 
 ## Bronnen
 

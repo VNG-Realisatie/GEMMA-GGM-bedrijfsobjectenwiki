@@ -81,7 +81,7 @@ Score: **6/6**
 
 Wanneer een [[Wiki/Bedrijfsobjecten/6-sociaal-domein/normafwijking/normafwijking|Normafwijking]] is vastgesteld en verwijtbaarheid aanwezig is, verlaagt het college de bijstand met een maatregel. De Participatiewet kent een oplopende staffel: eerste overtreding 100% gedurende 1-3 maanden (art. 18 lid 5), bij herhaling binnen 12 maanden een langere periode (lid 6), daarna telkens 3 maanden (lid 7-8). Het college stemt de maatregel af op de omstandigheden van de belanghebbende als dringende redenen daartoe noodzaken (lid 10) en kan de verlaging herzien zodra de belanghebbende de verplichtingen alsnog nakomt (lid 11). Een aparte staffel geldt bij onvoldoende beheersing van de Nederlandse taal (art. 18b): 20% (6 maanden) → 40% (6 maanden) → 100% (onbepaalde tijd).
 
-## Subtypes
+## Specialisaties
 
 Herkende varianten uit het GGM (`Afwijkende maatregel`, `Maatregel op uitkering`) en de Participatiewet. Beide zijn parametrische varianten van hetzelfde maatregelbesluit — geen eigen identificatie of levenscyclus los van de Maatregel zelf, dus geen apart BO.
 

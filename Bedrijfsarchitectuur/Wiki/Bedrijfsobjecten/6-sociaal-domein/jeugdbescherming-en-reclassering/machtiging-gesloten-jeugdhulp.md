@@ -66,7 +66,7 @@ De machtiging gesloten jeugdhulp is een rechterlijke beslissing die opname en ve
 
 De gemeente is niet de verstrekkende instantie — dat is de kinderrechter — maar registreert de machtiging, bekostigt de plaatsing en is verantwoordelijk voor de jeugdhulp die eruit voortvloeit (art. 2.4 lid 2b).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Machtiging Gesloten Jeugdhulp. Gevonden in de Jeugdwet. Geen apart BO.
 

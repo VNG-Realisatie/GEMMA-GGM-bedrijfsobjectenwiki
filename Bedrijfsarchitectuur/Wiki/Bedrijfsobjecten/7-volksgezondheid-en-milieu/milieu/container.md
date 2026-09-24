@@ -75,7 +75,7 @@ Fysieke containers die de gemeente plaatst en beheert voor de gescheiden inzamel
 
 Herkende subtypes van container. Geen aparte BO's — het zijn waarden van het attribuut `naam` op [Containertype](afval.md).
 
-| Subtype | Omschrijving | GGM-attribuut |
+| Specialisatie | Omschrijving | GGM-attribuut |
 |---|---|---|
 | Ondergrondse container | Ingegraven container voor restafval of grondstoffen | [Containertype](afval.md) → `naam` |
 | Kliko | Minicontainer aan huis voor GFT, papier of PBP | [Containertype](afval.md) → `naam` |

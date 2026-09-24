@@ -82,7 +82,7 @@ Inburgeraar die niet via de asielketen maar via gezinshereniging of een andere m
 
 **Score: 6/6**, maar in de gemeentelijke praktijk is dit BO uitsluitend gevuld via de subtype Gezinsmigrant.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Gezinsmigrant en Overige migrant. Geen apart BO — de GGM-entiteit zelf bundelt beide al in één lege specialisatie.
 

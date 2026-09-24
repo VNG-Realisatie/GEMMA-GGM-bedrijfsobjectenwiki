@@ -18,7 +18,7 @@ De gemeente als werkgever — personeelsadministratie, dienstverbanden, werving 
 
 |Begrip|Type|Omschrijving|BO?| Data-object |Reden|GGM|
 |---|---|---|---|---|---|---|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]]|object|Rechtsbetrekking werkgever-werknemer; subtypes: bepaalde/onbepaalde tijd, project, oproep| ✅ | ja |6/6 — kern personeelsadministratie|exact: Dienstverband|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/dienstverband\|Dienstverband]]|object|Rechtsbetrekking werkgever-werknemer; specialisaties: bepaalde/onbepaalde tijd, project, oproep| ✅ | ja |6/6 — kern personeelsadministratie|exact: Dienstverband|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/werknemer\|Werknemer]]|object|Contractuele wederpartij van de werkgever| ✅ | ja |6/6 — centraal object, hub naar alle HR-objecten|exact: Werknemer|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/arbeidsfunctie\|Arbeidsfunctie]]|object|Samenstel van taken en werkzaamheden (HR21)| ✅ | ja |6/6 — structureel element functiehuis|exact: Functie (HR)|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/formatieplaats\|Formatieplaats]]|object|Vastgestelde formatie in fte per organisatie-eenheid| ✅ | ja |6/6 — basis formatieplan|exact: Formatieplaats|
@@ -27,7 +27,7 @@ De gemeente als werkgever — personeelsadministratie, dienstverbanden, werving 
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verlof\|Verlof]]|object|Goedgekeurde periode van afwezigheid| ✅ | ja |6/6 — eigen levenscyclus aanvraag→opname|exact: Verlof|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/verzuim\|Verzuim]]|object|Afwezigheid wegens ziekte; Wet Poortwachter| ✅ | ja |6/6 — wettelijk verplichte registratie|exact: Verzuim|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/declaratie\|Declaratie]]|object|Opgave van te vergoeden kosten| ✅ | ja |6/6 — eigen levenscyclus indiening→uitbetaling|exact: Declaratie (HR)|
-|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling\|Beoordeling]]|object|Oordeel over functioneren; gesprekscyclus (planning, functionering, beoordeling)| ✅ | ja |6/6 — subtypes: plannings-/functionerings-/beoordelingsgesprek|exact: Beoordeling|
+|[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/beoordeling\|Beoordeling]]|object|Oordeel over functioneren; gesprekscyclus (planning, functionering, beoordeling)| ✅ | ja |6/6 — specialisaties: plannings-/functionerings-/beoordelingsgesprek|exact: Beoordeling|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/disciplinaire-maatregel\|Disciplinaire Maatregel]]|object|Formeel besluit bij plichtsverzuim of wangedrag| ✅ | ja |6/6 — eigen levenscyclus geconstateerd→opgelegd|exact: Disciplinaire Maatregel|
 |[[Wiki/Bedrijfsobjecten/9-interne-organisatie/hr/detacheringsovereenkomst\|Detacheringsovereenkomst]]|object|Overeenkomst uitlener-inlener bij collegiale uitleen personeel| ✅ | ja |6/6 — eigen partijen, duur, vergoedingsmodel|GGM-hiaat #52|
 

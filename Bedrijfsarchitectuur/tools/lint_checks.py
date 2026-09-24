@@ -299,18 +299,48 @@ def check_bo_relaties(files):
     return incomplete, unlinked
 
 
+def _specialisaties_zonder_pagina_names(section):
+    """Namen van specialisaties-zonder-eigen-pagina uit een '## Specialisaties'-sectie.
+
+    Twee vormen komen voor: de oude bullet-lijst (`- **naam** — toelichting`,
+    pre-migratie) en de tabelvorm (`| naam | omschrijving | ggm-entiteit |`).
+    Tabelrijen waarvan de eerste cel een `[[wiki-link]]` is, horen bij een
+    specialisatie MET eigen pagina (die zit in `bo_relaties`, niet in
+    `bo_subtypes`) en worden hier genegeerd.
+    """
+    names = set(re.findall(r'\*\*([^*\[\]]+)\*\*', section))
+    for line in section.splitlines():
+        line = line.strip()
+        if not line.startswith('|'):
+            continue
+        cells = [c.strip() for c in line.strip('|').split('|')]
+        if not cells or not cells[0]:
+            continue
+        first = cells[0]
+        if set(first) <= {'-', ':', ' '}:
+            continue  # separator-rij
+        if first in ('Specialisatie', 'Subtype'):
+            continue  # header-rij (oude en nieuwe kolomnaam)
+        if '[[' in first:
+            continue  # eigen pagina — hoort bij bo_relaties, niet bo_subtypes
+        names.add(first.strip('*').strip())
+    return names
+
+
 def check_subtypes(files):
     # bo_subtypes is in gebruik (tools/entiteitendekking.py leest de items met
     # ggm_attribuut: generalisatie). Gemeld worden: frontmatter zonder
-    # ## Subtypes-sectie en naam-mismatch tussen frontmatter en sectie. Een
-    # ## Subtypes-sectie zonder frontmatter wordt niet gemeld.
+    # ## Specialisaties-sectie en naam-mismatch tussen frontmatter en de
+    # platte-tekst-rijen/bullets in die sectie. Een ## Specialisaties-sectie
+    # zonder frontmatter wordt niet gemeld (kan uitsluitend eigen-pagina-
+    # specialisaties bevatten, die via bo_relaties lopen).
     fm_no_body, mismatch, missing_ggm_link = [], [], []
     for f in files:
         fm, _, body = parse_frontmatter(f)
         if fm is None:
             continue
         subtypes = fm.get('bo_subtypes') or []
-        section = get_section(body, 'Subtypes')
+        section = get_section(body, 'Specialisaties')
         fm_names = set()
         for st in subtypes:
             if isinstance(st, dict):
@@ -321,7 +351,7 @@ def check_subtypes(files):
         if subtypes and section is None:
             fm_no_body.append(rel(f))
         elif subtypes and section is not None:
-            body_names = set(re.findall(r'\*\*([^*]+)\*\*', section))
+            body_names = _specialisaties_zonder_pagina_names(section)
             missing_in_body = fm_names - body_names
             missing_in_fm = body_names - fm_names
             if missing_in_body or missing_in_fm:
@@ -955,9 +985,9 @@ def main():
     report['bo_relaties.bedrijfsobject geen wiki-link / parse-bug'] = [f'{f}[{i}]: {m}' for f, i, m in unlinked_rel]
 
     fm_no_body, subtype_mismatch, subtype_ggm_missing = check_subtypes(files)
-    report['bo_subtypes gevuld zonder ## Subtypes sectie'] = fm_no_body
+    report['bo_subtypes gevuld zonder ## Specialisaties sectie'] = fm_no_body
     report['bo_subtypes frontmatter/body mismatch'] = [f'{f}: alleen-fm={a} alleen-body={b}' for f, a, b in subtype_mismatch]
-    report['Subtype met ggm_entiteit maar zonder ggm_guid/ggm_attribuut'] = [f'{f}: {n}' for f, n in subtype_ggm_missing]
+    report['Specialisatie (zonder pagina) met ggm_entiteit maar zonder ggm_guid/ggm_attribuut'] = [f'{f}: {n}' for f, n in subtype_ggm_missing]
 
     old_schema, dup_section_mismatch, dup_incomplete = check_duplicaten(files)
     report['ggm_duplicaat_entiteiten oude schema (string i.p.v. dict)'] = old_schema

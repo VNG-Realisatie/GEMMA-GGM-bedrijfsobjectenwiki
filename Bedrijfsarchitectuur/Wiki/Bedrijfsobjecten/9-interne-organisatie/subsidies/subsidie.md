@@ -111,7 +111,7 @@ De gemeente kent daarnaast specifieke, wettelijk of beleidsmatig genormeerde sub
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/0-bestuur-politiek-en-ondersteuning/politiek/partijsubsidie\|Partijsubsidie]] | Subsidie aan decentrale politieke partijen | — (geen GGM-entiteit) |
 | [[Wiki/Bedrijfsobjecten/6-sociaal-domein/werk/loonkostensubsidie\|Loonkostensubsidie]] | Tegemoetkoming aan werkgever bij verminderde loonwaarde werknemer | Loonkostensubsidie (beleidsdomein Werk, ander taakveld) |

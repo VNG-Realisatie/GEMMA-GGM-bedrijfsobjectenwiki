@@ -71,8 +71,8 @@ Gemeente is **bronhouder** (bijhoudingsautoriteit). Systeemverantwoordelijke: Mi
 | [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | object | BRP | Persoon met persoonslijst in de BRP | ✅ | exact match, kern gemeentelijke dienstverlening | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/brp/huwelijk\|Huwelijk]] | object | BRP | Geregistreerd huwelijk of geregistreerd partnerschap | ✅ | eigen levenscyclus (sluiting→ontbinding) | ja |
 | [[Wiki/Bedrijfsobjecten/99-kern/brp/reisdocument\|Reisdocument]] | object | BRP | Nederlands paspoort of identiteitskaart | ✅ | fysiek object, eigen levenscyclus | ja |
-| Ingezetene | subtype | BRP | Ingeschreven bij een gemeente, volledige PL | ❌ | subtype Ingeschreven Persoon | ja |
-| Niet-ingezetene | subtype | BRP | Ingeschreven in de RNI, beperkte PL | ❌ | subtype Ingeschreven Persoon | nee |
+| Ingezetene | specialisatie | BRP | Ingeschreven bij een gemeente, volledige PL | ❌ | specialisatie van Ingeschreven Persoon | ja |
+| Niet-ingezetene | specialisatie | BRP | Ingeschreven in de RNI, beperkte PL | ❌ | specialisatie van Ingeschreven Persoon | nee |
 | Nationaliteit | attribuut | BRP | Hoedanigheid van tot een natie te behoren | ❌ | eigenschap van persoon | ja |
 | Verblijfstitel | attribuut | BRP | Verblijfsrechtelijke status vreemdeling | ❌ | koppelgegeven (IND) | ja |
 | Gezagsverhouding | attribuut | BRP | Gezag over minderjarige of curatele | ❌ | juridische status | ja |
@@ -139,10 +139,10 @@ Gemeente is **bronhouder** (voor verkenningen, constructies en gebruiksrechten b
 | [[Wiki/Bedrijfsobjecten/99-kern/bro/constructie\|Constructie]] | object | BRO | Werk in de ondergrond (art. 21 Wet BRO) | ✅ | wettelijk objecttype, gemeente is bronhouder | nee (hiaat) |
 | [[Wiki/Bedrijfsobjecten/99-kern/bro/gebruiksrecht\|Gebruiksrecht]] | object | BRO | Besluit/melding winnen, opslaan, bodemkwaliteit (art. 20 Wet BRO) | ✅ | wettelijk objecttype, gemeente is bronhouder | nee (hiaat) |
 | authentiek model | object | BRO | 2D/3D weergave ondergrond (4 typen) | ❌ | Minister is bronhouder, TNO is maker | nee |
-| grondwatermonitoringput (GMW) | subtype | BRO | Fysieke constructie met buizen en filters | ❌ | specialisatie van Constructie | nee |
+| grondwatermonitoringput (GMW) | specialisatie | BRO | Fysieke constructie met buizen en filters | ❌ | specialisatie van Constructie | nee |
 | grondwatermonitoringnet (GMN) | object | BRO | Logische groepering meetpunten | ❌ | geen wettelijk objecttype, wel BRO-registratieobject | nee |
-| grondwaterstandonderzoek (GLD) | subtype | BRO | Meetreeksen waterstand per monitoringbuis | ❌ | specialisatie van Verkenning | nee |
-| grondwatersamenstellingsonderzoek (GAR) | subtype | BRO | Monitoring grondwaterkwaliteit | ❌ | specialisatie van Verkenning | nee |
+| grondwaterstandonderzoek (GLD) | specialisatie | BRO | Meetreeksen waterstand per monitoringbuis | ❌ | specialisatie van Verkenning | nee |
+| grondwatersamenstellingsonderzoek (GAR) | specialisatie | BRO | Monitoring grondwaterkwaliteit | ❌ | specialisatie van Verkenning | nee |
 
 ### BGT — Basisregistratie Grootschalige Topografie
 
@@ -165,7 +165,7 @@ Bronhouder-organisatie (meestal gemeente) is **bronhouder**. Beheerder LV: Kadas
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/scheiding\|Scheiding]] | object | BGT/Beheer OR | Kunstmatig, lineair obstakel met werende functie | ✅ | duplicaat (#100), primair in Beheer Openbare Ruimte | ja |
 | [[Wiki/Bedrijfsobjecten/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte/functioneel-gebied\|FunctioneelGebied]] | object | BGT/Beheer OR | Begrensd en benoemd gebied van een functionele eenheid | ✅ | duplicaat (#101), primair in Beheer Openbare Ruimte | ja |
 | IMGeo-Object | object | BGT | Abstract: gemeenschappelijke eigenschappen van elk BGT-object | ❌ | abstract | ja |
-| OverigeConstructie | object | BGT | Abstract: gebouwd object, geen NEN 3610-gebouw | ❌ | abstract, subtypes zijn de BO's | ja |
+| OverigeConstructie | object | BGT | Abstract: gebouwd object, geen NEN 3610-gebouw | ❌ | abstract, specialisaties (met eigen pagina) zijn de BO's | ja |
 | OpenbareRuimteLabel | object | BGT | Naam/plaatsingspunt van een Openbare Ruimte, t.b.v. visualisatie | ❌ | cartografisch label van bestaande BO [[Wiki/Bedrijfsobjecten/99-kern/bag/openbare-ruimte\|Openbare Ruimte]] | ja |
 | Plaatsbepalingspunt | object | BGT | Ingemeten punt, onderdeel begrenzing BGT-objecten | ❌ | meettechnisch kwaliteitsobject, geen bedrijfsbetekenis | ja |
 
@@ -193,10 +193,10 @@ RSGB Deel II (Specificaties) is de bron voor de generalisaties en detailentiteit
 | Aard verkregen recht | attribuut | BRK | Aanduiding en omschrijving van de aard van een verkregen zakelijk recht | ❌ | referentietabel, zelfde patroon als Aard recht verkort | ja |
 | Academische titel | attribuut | RSGBPlus | Opsomming van academische titels | ❌ | referentietabel (code/naam/geldigheid) | ja |
 | Adresseerbaar object aanduiding | object | RSGBPlus | Generalisatie van Verblijfsobject/Standplaats/Ligplaats/Overig Gebouwd Object als adresdrager | ❌ | abstract, zelfde patroon als Benoemd Object (batch 1); specialisaties zijn al eigen BO's | ja |
-| Ander Natuurlijk Persoon | subtype | RSGBPlus | Natuurlijk persoon van belang voor de gemeente, niet ingeschreven in de BRP | ❌ | subtype van [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon\|Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
-| Ander Niet-Natuurlijk Persoon | subtype | RSGBPlus | Organisatie van belang voor de gemeente, niet ingeschreven in het NHR | ❌ | subtype van [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
+| Ander Natuurlijk Persoon | specialisatie | RSGBPlus | Natuurlijk persoon van belang voor de gemeente, niet ingeschreven in de BRP | ❌ | specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon\|Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
+| Ander Niet-Natuurlijk Persoon | specialisatie | RSGBPlus | Organisatie van belang voor de gemeente, niet ingeschreven in het NHR | ❌ | specialisatie van [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]], geen eigen GGM-entiteit | nee |
 | Functionaris | object | NHR | Verband tussen een niet-natuurlijk persoon en de rechtspersonen die namens haar optreden | ❌ | bron zelf: "relatie-objecttype... kan niet zelfstandig bestaan" | nee |
-| Ingeschreven Niet-Natuurlijk Persoon | subtype | NHR | NHR-ingeschreven niet-natuurlijk persoon | ❌ | dekt al door bestaande [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] (die exact deze definitie draagt), geen eigen GGM-entiteit | nee |
+| Ingeschreven Niet-Natuurlijk Persoon | specialisatie | NHR | NHR-ingeschreven niet-natuurlijk persoon | ❌ | dekt al door bestaande [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] (die exact deze definitie draagt), geen eigen GGM-entiteit | nee |
 | Inrichtingselement | object | RSGBPlus (IMGeo) | Generieke catch-all voor overige geo-objecten die de omgeving inrichten (straatmeubilair e.d.) | ❌ | subklassen niet als aparte objecttypen gemodelleerd (bron zelf), geen relaties | ja |
 | Kadastrale gemeente | object | BRK | Gedeelte van het grondgebied volgens het Kadaster | ❌ | referentietabel (bron zelf: "zgn. tabel-objecttype") | ja |
 | Kadastrale onroerende zaak | object | BRK | Abstract: Kadastraal Perceel of Appartementsrecht | ❌ | abstract, al gedekt door specialisaties (net als Benoemd Object-familie) | ja |

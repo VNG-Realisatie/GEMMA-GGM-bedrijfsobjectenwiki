@@ -83,7 +83,7 @@ Naast *welke* regeling wordt toegekend (zie Subtypes hieronder) regelt de Partic
 - **Geldlening of borgtocht** — uitzondering, alleen bij: vooruitzicht op eigen middelen op korte termijn, tekortschietend besef van verantwoordelijkheid, een waarborgsom, of aflossing van een schuldenlast (art. 48 lid 2 Pw); een saneringskrediet-borgtocht via een gemeentelijke kredietbank (art. 49 Pw); vermogen gebonden in de eigen woning boven de vrijlatingsgrens van art. 34 lid 2 onderdeel d (art. 50 Pw); of noodzakelijke duurzame gebruiksgoederen (art. 51 Pw).
 - **In natura, of rechtstreekse betaling namens de belanghebbende** — wanneer gegronde redenen bestaan om aan te nemen dat de belanghebbende zonder hulp niet tot een verantwoorde besteding in staat is (art. 57 Pw). Een vergelijkbaar, specifieker mechanisme voor inburgeringsplichtige asielstatushouders in de eerste zes maanden ("ontzorgen", art. 56a Pw) is eerder beoordeeld en niet als aparte BO opgevoerd, om dezelfde reden: geen eigen levenscyclus los van de onderliggende voorziening.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Inkomensvoorziening. Gevonden in bronnen en/of GGM. Geen apart BO.
 

@@ -26,7 +26,7 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | Begrip | Type | Omschrijving | BO? | Data-object | Reden | Voorbeelden | GGM |
 |---|---|---|---|---|---|---|---|
 | [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/mobiliteit/hoofdfietsroute\|Hoofdfietsroute]] | object | Aangewezen fietsroute met kwaliteitseisen in het stedelijk hoofdfietsnetwerk | ✅ | ja | 6/6 criteria; fijnmazig netwerk, eigen levenscyclus, relaties met knooppunten | Route Vredenburg, route 'om de noord' | nee |
-| snelfietsroute | object | Regionale fietsroute voor langere afstanden | ❌ | ja | Subtype van Hoofdfietsroute, provinciale verantwoordelijkheid | Van Dam tot Dom, route naar Woerden | nee |
+| snelfietsroute | object | Regionale fietsroute voor langere afstanden | ❌ | ja | Specialisatie van Hoofdfietsroute, provinciale verantwoordelijkheid | Van Dam tot Dom, route naar Woerden | nee |
 | fietsenstalling | object | Voorziening voor het stallen van fietsen | ❌ | ja | Reeds in GGM als Fietsparkeervoorziening (BOR) | Stationsplein, inpandige stallingen | ja (BOR) |
 
 ### OV
@@ -90,7 +90,7 @@ Het mobiliteitsdomein omvat verkeer en vervoer van personen en goederen, gericht
 | Productsoort | classificatie | Typologie van parkeerproduct | ❌ | ja | Administratieve classificatie | — | ja |
 | Straatsectie | classificatie | Gedeelte van een straat voor parkeerbeheer | ❌ | ja | Administratieve indeling, geen zelfstandig object | — | ja |
 | Parkeernorm | regel | Minimum-/maximumnorm voor parkeerplaatsen per zone en functie | ❌ | nee | Beleidsregel/referentiedata, geen zelfstandig object | Norm woning A-gebied: 0,78 auto | nee |
-| Deelautoplek | object | Gereserveerde parkeerplaats voor deelauto's met exploitatie-eisen | ❌ | ja | Subtype/eigenschap van Parkeervlak, beperkt als zelfstandig BO | Deelautoplek Papendorp | nee |
+| Deelautoplek | object | Gereserveerde parkeerplaats voor deelauto's met exploitatie-eisen | ❌ | ja | Specialisatie/eigenschap van Parkeervlak, beperkt als zelfstandig BO | Deelautoplek Papendorp | nee |
 | Bereikbaarheidsfonds | instrument | Financieel instrument: bijdrage per niet-aangelegde parkeerplaats | ❌ | nee | 3/6 criteria; financieel mechanisme, geen meervoud, geen eigen levenscyclus als object | — | nee |
 | Mobiliteitsbeheerplan | document | Verplicht document bij bouwontwikkelingen over mobiliteitsorganisatie | ❌ | nee | Procesdocument in vergunningenproces, niet zelfstandig herkenbaar als BO | Mobiliteitsbeheerplan woningbouw | nee |
 | Fietsdepot | locatie | Opslaglocatie voor verwijderde fietsen | ❌ | ja | Operationele locatie, geen zelfstandig BO | — | nee |

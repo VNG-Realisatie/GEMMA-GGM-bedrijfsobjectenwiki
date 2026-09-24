@@ -76,7 +76,7 @@ Het Utrechtse beleid stimuleert horeca buiten de historische binnenstad en beoor
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Horecavergunning | Vergunning voor exploitatie van een horecabedrijf | — |
 

@@ -67,7 +67,7 @@ Software is computerprogrammatuur die niet direct op eindgebruikers is gericht, 
 
 De GIBIT 2025 onderscheidt drie typen programmatuur: Standaardprogrammatuur (voor algemeen gebruik), Maatwerkprogrammatuur (specifiek voor de opdrachtgever ontwikkeld) en Derdenprogrammatuur (intellectueel eigendom niet bij leverancier).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Software. Gevonden in GIBIT 2025. Geen apart BO.
 

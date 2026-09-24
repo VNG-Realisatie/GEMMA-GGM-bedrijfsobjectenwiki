@@ -102,7 +102,7 @@ Gemeenten onderscheiden vier typen procedures:
 - **Nationaal openbaar** — alle ondernemers kunnen inschrijven via TenderNed
 - **Europees openbaar** — verplicht boven de Europese drempelbedragen
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Aanbesteding. Gevonden in bronnen en/of GGM. Geen apart BO.
 

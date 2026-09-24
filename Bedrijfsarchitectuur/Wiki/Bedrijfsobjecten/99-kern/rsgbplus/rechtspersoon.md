@@ -104,7 +104,7 @@ In het GGM is Rechtspersoon niet alleen de generalisatie van Natuurlijk Persoon/
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/99-kern/nhr/niet-natuurlijk-persoon\|Niet-Natuurlijk Persoon]] | Organisatie of samenwerkingsverband met rechtspersoonlijkheid, geregistreerd in het Handelsregister | NietNatuurlijkPersoon |
 | [[Wiki/Bedrijfsobjecten/99-kern/brp/natuurlijk-persoon\|Natuurlijk Persoon]] | Individueel menselijk wezen; [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] dekt hiervan de gemeentelijke ingezetenen | NatuurlijkPersoon |

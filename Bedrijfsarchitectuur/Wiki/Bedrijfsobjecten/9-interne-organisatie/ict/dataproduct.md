@@ -68,7 +68,7 @@ Dataproducten ontstaan in het proces van datagedreven werken. Nunspeet beschrijf
 
 Zie [[Wiki/Bronsamenvattingen/Informatiesamenleving/informatiebeleidsplan-nunspeet|Informatiebeleidsplan 2024-2028 Gemeente Nunspeet]] voor de concrete beschrijving van opgavegericht datagedreven werken.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Dataproduct. Gevonden in bronnen. Geen apart BO.
 

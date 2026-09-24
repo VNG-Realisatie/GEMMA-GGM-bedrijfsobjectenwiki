@@ -81,7 +81,7 @@ De beoordeling omvat de volledige gesprekscyclus waarmee de gemeente het functio
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Planningsgesprek | Doelstellingen en verwachtingen vastleggen | — |
 | Functioneringsgesprek | Tussentijdse evaluatie en bijstelling | — |
@@ -105,13 +105,6 @@ De beoordeling omvat de volledige gesprekscyclus waarmee de gemeente het functio
 ## Terugmelding GGM
 
 **Beoordeling** — Definitie verwijst naar "leerling" maar entiteit staat in HR-domein met relatie naar Werknemer. Voorgestelde correctie: "Het oordeel over het functioneren van een werknemer." Zie [[Wiki/Analyses/ggm-terugmeldingen|GGM-terugmeldingen]].
-
-
-## Subtypes
-
-- **Planningsgesprek** — Gesprek aan het begin van de cyclus waarin doelstellingen en verwachtingen worden vastgelegd
-- **Functioneringsgesprek** — Tussentijds gesprek over voortgang, knelpunten en bijstelling van afspraken
-- **Beoordelingsgesprek** — Eindgesprek met formeel oordeel over functioneren, basis voor periodieke verhoging of promotie
 
 ## Bronnen
 

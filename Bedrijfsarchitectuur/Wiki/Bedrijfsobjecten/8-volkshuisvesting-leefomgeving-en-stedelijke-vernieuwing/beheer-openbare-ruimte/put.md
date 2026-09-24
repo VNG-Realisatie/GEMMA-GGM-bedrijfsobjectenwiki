@@ -109,7 +109,7 @@ De GGM-entiteit heet "Put" en dat is ook de BO-naam — geen disambiguatie nodig
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Drainageput | Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer | [Drainageput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 | Filterput | Put met filterconstructie voor onttrekken van grondwater | [Filterput](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
@@ -137,14 +137,6 @@ De GGM-entiteit heet "Put" en dat is ook de BO-naam — geen disambiguatie nodig
 - **Rioolbeheer**: dagelijks beheer en registratie van putten
 - **Rioolinspectie**: visuele en camera-inspectie van putten en aangesloten leidingen
 - **Rioolvervanging**: vervanging of renovatie van putten bij stelselvernieuwing
-
-
-## Subtypes
-
-- **Drainageput** — Put met poreuze of geperforeerde buisleiding voor verbetering grondwaterafvoer
-- **Filterput** — Put met filterconstructie voor onttrekken van grondwater
-- **Infiltratieput** — Put met waterdoorlatende wanden voor infiltratie van hemelwater
-- **Rioolput** — Constructie toegang gevend tot het rioolstelsel
 
 ## Bronnen
 

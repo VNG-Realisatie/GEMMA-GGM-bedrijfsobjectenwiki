@@ -92,7 +92,7 @@ Er zijn twee subtypes:
 
 Elke gebiedsaanwijzing heeft een type (uit een waardelijst), een groep, een naam en een locatieaanduiding (geometrie). Juridische regels verwijzen naar gebiedsaanwijzingen om aan te geven in welk type gebied de regel geldt.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Gebiedsaanwijzing. Geen apart BO.
 

@@ -134,7 +134,7 @@ Dit BO is het overkoepelende concept voor alle domeinspecifieke vergunningen en 
 
 De specialisaties laten zien hoe divers vergunningen en ontheffingen zijn qua proces, betrokken partijen, kosten en doelgroep.
 
-### BO-specialisaties
+### Met eigen pagina
 
 | Specialisatie | Domein | Doorlooptijd | Ketenpartners | Kosten | Doelgroep |
 |---|---|---|---|---|---|
@@ -142,9 +142,9 @@ De specialisaties laten zien hoe divers vergunningen en ontheffingen zijn qua pr
 | [[Parkeervergunning]] | Parkeren | Dagen-weken (standaardproces) | Geen externe ketenpartners | Vast jaarlijks tarief | Inwoners, ondernemers |
 | [[Wiki/Bedrijfsobjecten/7-volksgezondheid-en-milieu/milieu/ontheffing-milieuzone\|Ontheffing (milieuzone)]] | Milieu | Dagen (geautomatiseerd/handmatig) | RDW (kentekencheck) | Geen of gering | Inwoners, ondernemers |
 
-### Subtypes (geen apart BO)
+### Zonder eigen pagina
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Standplaatsvergunning | APV-vergunning voor het innemen van een standplaats in de openbare ruimte | — |
 | Horecavergunning | Exploitatievergunning voor een horecabedrijf | — |

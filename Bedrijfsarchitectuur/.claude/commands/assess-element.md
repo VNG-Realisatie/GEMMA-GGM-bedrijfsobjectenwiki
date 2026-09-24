@@ -74,7 +74,7 @@ Voordat de structuuranalyse begint: check of het begrip een naam deelt met een b
 Twee onafhankelijke bronnen analyseren:
 
 **a) Uit beleidsbronnen (eigenstandige analyse):**
-- Welke overkoepelende termen of subtypes noemen de bronnen?
+- Welke overkoepelende termen of specialisaties noemen de bronnen?
 - Welke begrippen zijn specialisaties van bredere concepten?
 
 **b) Uit GGM (generalisatierelaties):**
@@ -87,8 +87,8 @@ Twee onafhankelijke bronnen analyseren:
 
 | Situatie | BO-keuze | Body-sectie |
 |---|---|---|
-| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt ook BO als het zelf de 6 criteria haalt | Parent-BO: `## Specialisaties` (tabel met links). Child-BO's: `generalisatie`-relatie in frontmatter |
-| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO | `## Subtypes` (lijst met vetgedrukte namen) |
+| Specialisaties zijn herkenbaar en hebben eigen processen/relaties | Elke specialisatie wordt een BO; abstract niveau wordt ook BO als het zelf de 6 criteria haalt | Parent-BO: `## Specialisaties` (rij is `[[wiki-link]]`). Child-BO's: `generalisatie`-relatie in frontmatter |
+| Specialisaties zijn uitwisselbaar; onderscheid is alleen technisch | Abstract niveau wordt het BO; specialisaties geen apart BO | Parent-BO: `## Specialisaties` (rij is platte tekst) + `bo_subtypes` frontmatter |
 | BO's delen dezelfde structuur in een hiërarchie (bijv. gebiedsindelingen) | Elk niveau wordt een apart BO | Elk BO: `## Generalisatie` (beschrijft positie in hiërarchie) |
 
 Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keuze niet eenduidig is.
@@ -101,7 +101,7 @@ Noteer de beslissing en motivatie. Markeer als `⚠️ ter discussie` als de keu
 
 Zoek in `ggm_parsed.json` (attributen van entiteiten) of het concept als **attribuut of classificatie** voorkomt in andere entiteiten.
 
-Als het begrip slechts een attribuut, status, of enumeratiewaarde is van een andere entiteit → **geen BO** maar een eigenschap. Vastleggen als subtype of eigenschap bij het parent-BO.
+Als het begrip slechts een attribuut, status, of enumeratiewaarde is van een andere entiteit → **geen BO** maar een eigenschap. Vastleggen als specialisatie (zonder eigen pagina) of eigenschap bij het parent-BO.
 
 ### Stap 6: Relatie-check
 
@@ -121,14 +121,14 @@ De 6 criteria zijn de enige toets. Anti-patronen (`templates/elementtype-criteri
 
 ### Stap 8: Hiërarchie vastleggen
 
-Begrippen die een subtype zijn van een breder concept, die generiek zijn, of die in een ander onderwerp thuishoren: **niet weglaten** maar vastleggen als subtype bij het relevante BO. Een verwijzing naar het andere onderwerp/BO is voldoende.
+Begrippen die een specialisatie zijn van een breder concept, die generiek zijn, of die in een ander onderwerp thuishoren: **niet weglaten** maar vastleggen als specialisatie bij het relevante BO. Een verwijzing naar het andere onderwerp/BO is voldoende.
 
 Gebruik het resultaat van stap 4 om de eigenstandig afgeleide specialisaties en generalisaties hier te borgen. Kies het juiste patroon:
 
 | Patroon | Wanneer | Vastleggen als |
 |---|---|---|
-| **Subtypes** | Children zijn geen apart BO (uitwisselbaar) | `## Subtypes` + `bo_subtypes` frontmatter bij parent-BO |
-| **Specialisaties** | Children zijn wél apart BO (eigen processen) | `## Specialisaties` bij parent-BO + `generalisatie`-relatie bij child-BO's |
+| **Specialisaties — zonder eigen pagina** | Children zijn geen apart BO (uitwisselbaar) | `## Specialisaties` (platte tekst) + `bo_subtypes` frontmatter bij parent-BO |
+| **Specialisaties — met eigen pagina** | Children zijn wél apart BO (eigen processen) | `## Specialisaties` (`[[wiki-link]]`) bij parent-BO + `generalisatie`-relatie bij child-BO's |
 | **Generalisatie** | BO's delen structuur in een hiërarchie | `## Generalisatie` bij elk niveau-BO |
 
 ## FASE D — DATA-OBJECT CLASSIFICATIE EN AFRONDEN
@@ -143,7 +143,7 @@ Dit is een **aparte classificatie** naast de BO-beoordeling:
 |---|---|---|
 | BO + data-object | WOZ-object, Begroting | Meest voorkomend |
 | BO + geen data-object | Governance-objecten, procesobjecten | Doorgaans geen GGM-match verwacht |
-| Subtype + data-object | Type monument (geregistreerd) | Vastleggen als subtype met GGM-link |
+| Specialisatie (zonder eigen pagina) + data-object | Type monument (geregistreerd) | Vastleggen als specialisatie met GGM-link |
 | Geen BO + data-object | Te granulair voor BO, wél geregistreerd | Potentieel GGM-entiteit zonder BO; vastleggen in begrippentabel |
 
 Vastleggen in de kolom **"Data-object"** in de begrippentabel (ja/nee).
@@ -190,7 +190,7 @@ Formuleer als terugmelding:
 
 Per begrip presenteren:
 - **Criteria-score** (bijv. 5/6)
-- **Voorstel:** BO / geen BO / subtype van [parent]
+- **Voorstel:** BO / geen BO / specialisatie (zonder eigen pagina) van [parent]
 - **Data-object:** ja / nee
 - **Naamconflict:** geen / duplicaat van [[bestaand-BO]] / homoniem (naamkeuze nodig)
 - **Argument:** 1-2 zinnen

@@ -105,7 +105,7 @@ bedrijfsfuncties:
 
 Een zakelijk recht legt vast dat een persoon eigenaar is van, of een beperkt recht heeft op, een onroerende zaak. De aard van het recht kan zijn: eigendom, erfpacht, opstal, vruchtgebruik, gebruik en bewoning. De gemeente gebruikt zakelijke rechten om te bepalen wie de OZB-aanslag en WOZ-beschikking ontvangt, wie vergunninghouder kan zijn, en aan wie te handhaven. Het zakelijk recht koppelt via [[Tenaamstelling]] aan een persoon ([[Ingeschreven Persoon]] of niet-natuurlijk persoon).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Zakelijk Recht. Gevonden in de BRK Catalogus. Geen apart BO.
 

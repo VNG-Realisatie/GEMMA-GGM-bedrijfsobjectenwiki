@@ -78,7 +78,7 @@ Een raadsstuk is een document dat door de gemeenteraad wordt behandeld. Het omva
 
 De Gemeentewet stelt eisen aan openbaarheid (art. 23, 91): stukken zijn in beginsel openbaar, tenzij geheimhouding is opgelegd (art. 87-94). De griffier tekent stukken van de raad mee (art. 107d).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Raadsstuk. Gevonden in bronnen en GGM (attribuut typeRaadsstuk). Geen apart BO.
 

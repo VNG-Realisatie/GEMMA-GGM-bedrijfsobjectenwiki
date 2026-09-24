@@ -43,7 +43,7 @@ Niet-relevant — 4 dunne VNG-portaalpagina's zonder concrete objecten:
 
 ## Openstaande vragen of hiaten
 
-- ~~**Risicobeheerfonds**~~ — **Opgelost (2026-09-23):** VNG-fonds (opstal-/gebouwenverzekering, start 2026, mede-eigendom gemeenten/VNG, DNB-toezicht na vergunning) nader onderzocht. Te dun gedocumenteerd voor een eigen BO of actor-pagina (geen toetredingsprocedure/deelnemersovereenkomst-detail beschikbaar); de polis zelf valt onder het bestaande BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|Verzekering]] (subtype opstal-/inventarisverzekering), waar het nu als voorbeeld is toegevoegd.
+- ~~**Risicobeheerfonds**~~ — **Opgelost (2026-09-23):** VNG-fonds (opstal-/gebouwenverzekering, start 2026, mede-eigendom gemeenten/VNG, DNB-toezicht na vergunning) nader onderzocht. Te dun gedocumenteerd voor een eigen BO of actor-pagina (geen toetredingsprocedure/deelnemersovereenkomst-detail beschikbaar); de polis zelf valt onder het bestaande BO [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/verzekering|Verzekering]] (specialisatie opstal-/inventarisverzekering), waar het nu als voorbeeld is toegevoegd.
 - ~~**Frauderisicobibliotheek**~~ — **Opgelost (2026-09-23):** de RPO-bibliotheek zelf bleef te dun, maar het doorzoeken leverde een rijkere gemeentelijke bron op (Fraudebeleid en Frauderisicoanalyse Gemeente Brummen) → 2 nieuwe BO's: [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/frauderisicoanalyse|Frauderisicoanalyse]] en [[Wiki/Bedrijfsobjecten/9-interne-organisatie/financien/fraudeonderzoek|Fraudeonderzoek]].
 
 ## Terugmeldingen richting GGM

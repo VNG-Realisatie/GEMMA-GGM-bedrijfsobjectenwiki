@@ -65,7 +65,7 @@ Re-integratiekosten zijn specifiek gericht op het ontwikkelen en aan het werk he
 
 De financiering loopt via het cluster Participatie in de algemene uitkering van het gemeentefonds. Het basisbedrag per bijstandsontvanger en per loonkostensubsidie-ontvanger (elk €7.355 inclusief uitkeringsfactor in 2024) dekt zowel uitvoerings- als re-integratiekosten. Een re-integratievoorziening kan gepaard gaan met een loonkostensubsidie wanneer de werkzoekende bij een werkgever aan de slag gaat met beperkte loonwaarde.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Re-integratievoorziening, benoemd in de Participatiewet en bevestigd door de GGM-attributen `CodeType`/`OmschrijvingType`. Geen apart BO.
 

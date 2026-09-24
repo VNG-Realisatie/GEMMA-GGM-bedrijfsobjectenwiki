@@ -46,6 +46,11 @@ bo_subtypes:
     ggm_guid:
     ggm_attribuut:
   - naam: Tussenschoolse opvang
+    omschrijving: "Opvang tussen de middag voor schoolgaande kinderen, vaak via de school; geen recht op kinderopvangtoeslag"
+    ggm_entiteit:
+    ggm_guid:
+    ggm_attribuut:
+  - naam: Tussenschoolse opvang
     omschrijving: "Opvang tussen de middag voor schoolgaande kinderen, vaak georganiseerd via de school; in tegenstelling tot de andere subtypes geen recht op kinderopvangtoeslag"
     ggm_entiteit:
     ggm_guid:
@@ -70,11 +75,12 @@ Een kinderopvangvoorziening is een locatie waar kinderopvang wordt geboden confo
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Kinderdagverblijf (KDV) | Dagopvang voor kinderen 0-4 jaar | — |
 | Buitenschoolse opvang (BSO) | Opvang voor schoolgaande kinderen buiten schooltijden | — |
 | Gastouderopvang | Opvang door geregistreerde gastouder aan huis | — |
+| Tussenschoolse opvang | Opvang tussen de middag voor schoolgaande kinderen, vaak via de school; geen recht op kinderopvangtoeslag | — |
 
 ## Procesbron
 
@@ -94,14 +100,6 @@ Dit BO ontstaat in het proces van registratie en toezicht kinderopvang. De Wet k
 ## Bedrijfsfuncties
 
 - Onderwijsbeleid
-
-
-## Subtypes
-
-- **Kinderdagverblijf (KDV)** — Dagopvang voor kinderen die nog niet naar de basisschool gaan
-- **Buitenschoolse opvang (BSO)** — Opvang voor schoolgaande kinderen buiten schooltijden
-- **Gastouderopvang** — Opvang door geregistreerde gastouder aan huis
-- **Tussenschoolse opvang** — Opvang tussen de middag voor schoolgaande kinderen, vaak via de school; geen recht op kinderopvangtoeslag
 
 ## Bronnen
 

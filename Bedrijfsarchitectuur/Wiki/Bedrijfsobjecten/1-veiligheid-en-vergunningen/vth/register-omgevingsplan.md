@@ -67,7 +67,7 @@ Er zijn twee typen: een **statisch register** legt de situatie vast op het momen
 
 Een register kan op vijf manieren in planregels worden opgenomen: als beheerobject, als toetsingsverwijzing, als onderdeel van een norm, als toepassingsbereikbepaler, of als onderdeel van een beleidsregel. Ook zonder verwijzing in planregels kan een register worden ingezet bij besluitvorming (art. 3:2 Awb).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Register. Geen apart BO.
 

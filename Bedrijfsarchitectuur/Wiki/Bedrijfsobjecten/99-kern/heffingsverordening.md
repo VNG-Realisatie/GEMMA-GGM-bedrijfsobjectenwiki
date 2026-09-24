@@ -67,7 +67,7 @@ Door de gemeenteraad vastgestelde verordening die de heffing en invordering van 
 **Attributen:** *(geen eigen attributen, erft van Document)*
 **Matchsterkte:** exact — de GGM-definitie komt volledig overeen met het begrip "belastingverordening" uit de beleidsbronnen.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Heffingsverordening. Elke gemeente heeft een set verordeningen per belastingtype. Geen apart BO, tenzij anders vermeld.
 

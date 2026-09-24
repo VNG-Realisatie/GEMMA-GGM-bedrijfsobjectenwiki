@@ -100,7 +100,7 @@ Een voorziening is het middel waarmee de gemeente ondersteuning levert aan een c
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Maatwerkvoorziening Wmo | Op de persoon afgestemde voorziening na individuele beoordeling (Wmo 2015) | Voorzieningsoort (productcategorie) |
 | Jeugdhulpvoorziening | Hulp aan jeugdigen of ouders bij opgroei- en opvoedproblemen (Jeugdwet) | Voorzieningsoort (productcategorie) |
@@ -137,13 +137,6 @@ De GGM-definitie wijkt inhoudelijk af van het gemeentelijke gebruik van dit begr
 
 - Voorzieningenbeheer
 - Contractbeheer
-
-
-## Subtypes
-
-- **Maatwerkvoorziening Wmo** — Op de persoon afgestemde voorziening na individuele beoordeling (Wmo 2015)
-- **Jeugdhulpvoorziening** — Hulp aan jeugdigen of ouders bij opgroei- en opvoedproblemen (Jeugdwet)
-- **Algemene voorziening** — Toegankelijk aanbod zonder beschikking (bijv. informatie, advies)
 
 ## Bronnen
 

@@ -87,7 +87,7 @@ Een begraafplaats kan worden gesloten (bij een gemeentelijke begraafplaats: besl
 
 Geen GGM-entiteit gevonden voor Begraafplaats, Graf of aanverwante begrippen (gecontroleerd in `ggm_parsed.json` op "begraaf", "graf", "crematorium", "lijkschouw", "asbus"). Ook het onderwerp Beheer Openbare Ruimte (IMBOR) modelleert geen begraafplaatsen. Dit is dus een onbezet GGM-hiaat, niet een bestaande maar over het hoofd geziene entiteit.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Begraafplaats. Gevonden in bronnen. Geen apart BO — beide subtypes delen register, ligging op graven en sluitingsprocedure; het onderscheid zit in eigenaarschap en governance, niet in proces of attributen.
 

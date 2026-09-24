@@ -105,7 +105,7 @@ bedrijfsfuncties: [{wiki-links naar Wiki/Bedrijfsfuncties/-pagina's die dit elem
 Aanvullend op het generieke deel hierboven — alleen bij `archimate_type: business-object | contract | product`, en alleen als van toepassing (hiërarchiepatroon, zie §Secties — alleen bedrijfsobject):
 
 ```yaml
-bo_subtypes: []                     # Subtypes zonder eigen BO: per item naam, omschrijving, ggm_entiteit, ggm_guid, ggm_attribuut (zie /write-element Stap 6c). Body: ## Subtypes.
+bo_subtypes: []                     # Specialisaties zonder eigen BO-pagina: per item naam, omschrijving, ggm_entiteit, ggm_guid, ggm_attribuut (zie /write-element Stap 6b). Body: ## Specialisaties (platte tekst, geen wiki-link).
 bo_via_kandidaten: []
 #  - ggm_entiteit: {naam van de GGM-entiteit die "ter discussie" stond}
 #    ggm_guid: {EA GUID van die entiteit}
@@ -184,9 +184,8 @@ Elk elementtype krijgt op zijn minst deze secties (bij actor/rol/functie/proces 
 Deze secties horen bij de hiërarchie- en herkomstmachinerie die tot nu toe alleen voor bedrijfsobjecten wordt gebruikt (`grondslag` zelf is generiek, zie hierboven, maar deze uitwerking ervan niet):
 
 - **Generalisatie** (optioneel): als dit BO onderdeel is van een conceptuele hiërarchie met andere BO's die dezelfde structuur delen (bijv. gebiedsindelingen, locatietypen). Beschrijft de hiërarchie en wat dit niveau onderscheidt. Zie [format hieronder](#generalisatie-format).
-- **Specialisaties** (optioneel): als dit BO een overkoepelend concept is met specialisaties die wél aparte BO's zijn (bijv. Sportlocatie → Sportpark, Binnenlocatie). Tabel met links naar de specialisatie-BO's. Zie [format hieronder](#specialisaties-format).
-- **Subtypes** (optioneel): herkende specialisaties die geen apart BO zijn maar wel herkenbaar in de praktijk. Gevonden in bronnen én/of GGM. Gestructureerd als lijst met vetgedrukte naam en toelichting. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
-- **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zelfde format als Subtypes. Zie [format hieronder](#subtypes-en-ggm-componenten-format).
+- **Specialisaties** (optioneel): als dit BO een overkoepelend concept is met herkende specialisaties — ongeacht of die een eigen BO-pagina hebben. Eén tabel; per rij blijkt uit een `[[wiki-link]]` (eigen pagina) of platte tekst (geen eigen pagina, vastgelegd in `bo_subtypes`) welk geval het is. Zie [format hieronder](#specialisaties-format).
+- **GGM-componenten** (optioneel): GGM-entiteiten die onderdeel zijn van dit BO (procesfasen, deelregistraties) maar geen zelfstandig bedrijfsobject. Alleen uit GGM, niet noodzakelijk gevonden in bronnen. Zie [format hieronder](#ggm-componenten-format).
 - **Naamkeuze** (optioneel): wanneer de BO-naam afwijkt van de GGM-entiteitnaam door homoniem-disambiguatie. Documenteert welke namen zijn overwogen en waarom deze naam is gekozen. Zie [format hieronder](#naamkeuze-format).
 - **GGM-duplicaten** (optioneel): wanneer dezelfde entiteitnaam in meerdere GGM-beleidsdomeinen voorkomt en hetzelfde concept vertegenwoordigt (bijv. BAG en RSGBPlus). Beschrijft welke duplicaten bestaan, waarom de primaire GUID is gekozen, en eventuele attribuutverschillen. Zie [format hieronder](#ggm-duplicaten-format). **Niet** gebruiken voor homoniemen (zelfde naam, ander concept).
 - **BO-definitie** (alleen bij afwijking van GGM): GGM-definitie als blockquote, eigen definitie eronder, en toelichting waarom is afgeweken. Zodat het verschil terugkoppelbaar is
@@ -208,30 +207,27 @@ Voorbeeld: Buurt beschrijft dat het het laagste niveau is van Gemeente → Woonp
 
 ### Specialisaties format
 
-Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met specialisaties die **wél aparte BO's** zijn. Het parent-BO heeft `generalisatie`-relaties in frontmatter (`richting: van-dit-BO`); elk child-BO heeft een `generalisatie`-relatie terug (`richting: naar-dit-BO`).
+Gebruik `## Specialisaties` wanneer het BO een overkoepelend concept is met herkende specialisaties, gevonden in bronnen en/of GGM. Eén tabel voor alle specialisaties, ongeacht of ze een eigen BO-pagina hebben:
+
+- **Met eigen pagina** — de cel is een `[[wiki-link]]`. Het parent-BO heeft een `generalisatie`-relatie in frontmatter (`richting: van-dit-BO`); het child-BO heeft er zelf een terug (`richting: naar-dit-BO`).
+- **Zonder eigen pagina** — de cel is platte tekst. Vastgelegd in `bo_subtypes` (frontmatter), niet in `bo_relaties`.
 
 ```markdown
 ## Specialisaties
 
 | Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
-| [[Child-BO]] | Korte omschrijving | [GGM-naam](Wiki/GGM/...) |
+| [[Child-BO]] | Korte omschrijving — heeft een eigen pagina | [GGM-naam](Wiki/GGM/...) |
+| Sociale huurwoning | Korte omschrijving — geen eigen pagina | Huurwoningen |
 ```
 
-Voorbeeld: Sportlocatie heeft Specialisaties met Sportpark en Binnenlocatie als aparte BO's.
+Bij twee onafhankelijke classificatie-assen (bijv. Woning naar marktsegment én naar bouwvorm): gebruik subkopjes (`### Naar marktsegment`, `### Naar bouwvorm`), elk met een eigen tabel.
 
-### Subtypes en GGM-componenten format
+Voorbeeld met eigen pagina's: Sportlocatie heeft Specialisaties met Sportpark en Binnenlocatie als aparte BO's. Voorbeeld zonder eigen pagina: Binnenlocatie heeft Specialisaties Sporthal en Gymzaal, beide platte tekst.
 
-Beide secties gebruiken hetzelfde format: een inleidende zin, gevolgd door een lijst met vetgedrukte GGM-entiteitnaam en toelichting. De coverage- en export-tools parsen de vetgedrukte namen.
+### GGM-componenten format
 
-```markdown
-## Subtypes
-
-Herkende specialisaties van {BO-naam}. Gevonden in bronnen en/of GGM. Geen apart BO.
-
-- **{GGM-entiteitnaam}** — {korte toelichting}
-- **{GGM-entiteitnaam}** — {korte toelichting}
-```
+Een inleidende zin, gevolgd door een lijst met vetgedrukte GGM-entiteitnaam en toelichting.
 
 ```markdown
 ## GGM-componenten
@@ -247,9 +243,9 @@ GGM-entiteiten die onderdeel zijn van {BO-naam}. Gemodelleerd als aparte entitei
 | Sectie | Richting | Children zijn BO? | Relatietype frontmatter | Coverage-label |
 |---|---|---|---|---|
 | **Generalisatie** | opwaarts (dit BO → parent) | ja (zelfstandige BO's) | `associatie` of `generalisatie` | *(geen — alle niveaus zijn BO)* |
-| **Specialisaties** | neerwaarts (dit BO → children) | ja (aparte BO's) | `generalisatie` (van-dit-BO) | *(geen — alle niveaus zijn BO)* |
-| **Subtypes** | neerwaarts (dit BO → children) | nee (geen apart BO) | — | `↓ subtype van {BO}` |
-| **GGM-componenten** | neerwaarts (dit BO → parts) | nee (geen apart BO) | — | `◆ onderdeel van {BO}` |
+| **Specialisaties — met eigen pagina** | neerwaarts (dit BO → children) | ja (aparte BO's) | `generalisatie` (van-dit-BO) | *(geen — alle niveaus zijn BO)* |
+| **Specialisaties — zonder eigen pagina** | neerwaarts (dit BO → children) | nee (`bo_subtypes`) | — | `specialisatie van {BO}` |
+| **GGM-componenten** | neerwaarts (dit BO → parts) | nee (geen apart BO) | — | `onderdeel van {BO}` |
 
 ### GGM-duplicaten format
 

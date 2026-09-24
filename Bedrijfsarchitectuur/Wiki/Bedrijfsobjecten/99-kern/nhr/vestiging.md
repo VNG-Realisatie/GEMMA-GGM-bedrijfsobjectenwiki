@@ -66,6 +66,17 @@ analyse_ggm_dekking: |
   - **Werkgelegenheid** (detail) — Detailgegeven (geassocieerd met BO)
 bo_definitie: "Locatie waar een onderneming of rechtspersoon duurzaam activiteiten uitoefent, geïdentificeerd met vestigingsnummer."
 bo_toelichting:
+bo_subtypes:
+  - naam: Commerciële vestiging
+    omschrijving: "Vestiging bij een onderneming"
+    ggm_entiteit: Vestiging
+    ggm_guid: EAID_B60B8EF9_D1C0_4e36_BF9B_1C16F92518DD
+    ggm_attribuut: commercieleVestiging
+  - naam: Niet-commerciële vestiging
+    omschrijving: "Vestiging bij een rechtspersoon zonder onderneming"
+    ggm_entiteit: Vestiging
+    ggm_guid: EAID_B60B8EF9_D1C0_4e36_BF9B_1C16F92518DD
+    ggm_attribuut: commercieleVestiging
 bo_relaties:
   - type: associatie
     bedrijfsobject: "[[Maatschappelijke Activiteit]]"
@@ -123,19 +134,14 @@ De gemeente gebruikt vestigingen in meerdere domeinen. De bestaande BO's [[Horec
 
 > "Ofschoon de definitie in het NHR doet vermoeden dat het hier om een ruimtelijk object gaat, beschouwen we een VESTIGING in het RSGB als een specialisatie van SUBJECT." (GGM-toelichting)
 
-## Subtypes
-
-Herkende specialisaties van Vestiging. Geen apart BO (tenzij vermeld).
-
-- **Commerciële vestiging** — vestiging bij een onderneming
-- **Niet-commerciële vestiging** — vestiging bij een rechtspersoon zonder onderneming
-
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | Bedrijf voor eten, drinken en/of logies | Vestiging (partieel) |
-| [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] | Verblijfsaccommodatie met subtypes | Hotel |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/horecabedrijf\|Horecabedrijf]] | Bedrijf voor eten, drinken en/of logies — eigen BO-pagina | Vestiging (partieel) |
+| [[Wiki/Bedrijfsobjecten/3-economie/economie/hotel\|Hotel]] | Verblijfsaccommodatie met subtypes — eigen BO-pagina | Hotel |
+| Commerciële vestiging | Vestiging bij een onderneming — geen eigen pagina | Vestiging (attribuut `commercieleVestiging`) |
+| Niet-commerciële vestiging | Vestiging bij een rechtspersoon zonder onderneming — geen eigen pagina | Vestiging (attribuut `commercieleVestiging`) |
 
 ## GGM-componenten
 

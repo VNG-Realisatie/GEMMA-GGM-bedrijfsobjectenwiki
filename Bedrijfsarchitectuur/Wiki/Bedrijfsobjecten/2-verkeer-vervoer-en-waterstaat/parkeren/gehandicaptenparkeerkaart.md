@@ -89,7 +89,7 @@ In Utrecht geldt dat GPK-houders gratis mogen parkeren op reguliere betaalde par
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Bestuurderskaart | GPK voor een bestuurder met loopbeperking | — |
 | Passagierskaart | GPK voor een passagier die niet zelf rijdt | — |
@@ -107,15 +107,6 @@ Bron: [[Wiki/Bronsamenvattingen/mobiliteit/uitwerking-toegankelijkheid|Uitwerkin
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/gehandicaptenparkeerplaats|Gehandicaptenparkeerplaats]] — GPK geeft recht tot gebruik
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/parkeervergunning|Parkeervergunning]] — in Utrecht wordt gratis parkeervergunning aan GPK gekoppeld
 - → [[Wiki/Bedrijfsobjecten/2-verkeer-vervoer-en-waterstaat/parkeren/voertuig|Voertuig]] — bestuurderskaart gekoppeld aan kenteken
-
-
-
-## Subtypes
-
-- **Bestuurderskaart** — GPK voor een bestuurder met loopbeperking
-- **Passagierskaart** — GPK voor een passagier die niet zelf rijdt
-- **Combinatiekaart** — GPK voor zowel bestuurder als passagier
-- **Instellingskaart** — GPK voor een zorginstelling
 
 ## Bronnen
 

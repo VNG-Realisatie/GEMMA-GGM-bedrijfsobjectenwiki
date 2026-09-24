@@ -42,7 +42,7 @@ bedrijfsfuncties: [financiële hulpverlening]
 
 Een schuld is een individuele financiële verplichting van een inwoner aan een derde partij. Bij aanvang van het schuldhulptraject worden alle schulden geïnventariseerd. De gemiddelde totale schuld bij aanmelding in Den Haag is €42.900. Schulden worden onderscheiden naar schuldsoort (zakelijk/particulier) en kunnen formeel of informeel zijn.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van schuld. Geen apart BO.
 

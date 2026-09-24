@@ -135,7 +135,7 @@ Beschermd onroerend erfgoed waarvan de cultuurhistorische waarde formeel is vast
 
 Herkende subtypes van monument. Geen aparte BO's — het zijn waarden van attributen op [Beschermde Status](monumenten.md).
 
-| Subtype | Omschrijving | GGM-attribuut |
+| Specialisatie | Omschrijving | GGM-attribuut |
 |---|---|---|
 | kerkgebouw | Religieus gebouw (kapittels, parochiekerken, kloosters) | [Beschermde Status](monumenten.md) → `type` |
 | beschermd stadsgezicht | Rijks- of gemeentelijk beschermd stads- of dorpsgezicht | [Beschermde Status](monumenten.md) → `gezichtscode` |
@@ -170,18 +170,6 @@ De erfgoednota Utrecht bevestigt en verrijkt dit BO met context over verduurzami
 
 - Erfgoedbeheer
 - Vergunningverlening
-
-
-## Subtypes
-
-- **kerkgebouw** — Religieus gebouw (kapittels, parochiekerken, kloosters)
-- **beschermd stadsgezicht** — Rijks- of gemeentelijk beschermd stads- of dorpsgezicht
-- **synagoge** — Joods gebedshuis
-- **klooster** — Kloostergebouw of -complex
-- **woonhuis** — Beschermd woonhuis of grachtenpand
-- **verdedigingswerk** — Fort, muur of ander militair erfgoed (Waterlinie, Limes)
-- **openbare ruimte** — Beschermd park, plantsoen of singel (Zocherplantsoen)
-- **luidklok** — Klok in kerktoren, deels met eigen monumentstatus
 
 ## Bronnen
 

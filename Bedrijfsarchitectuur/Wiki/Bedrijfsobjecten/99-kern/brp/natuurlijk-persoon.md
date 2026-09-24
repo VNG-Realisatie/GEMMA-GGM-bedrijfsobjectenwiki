@@ -84,7 +84,7 @@ De gemeente heeft in vrijwel elk domein met natuurlijke personen te maken — al
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Wiki/Bedrijfsobjecten/99-kern/brp/ingeschreven-persoon\|Ingeschreven Persoon]] | Persoon met persoonslijst in de BRP | Ingezetene (via IngeschrevenPersoon) |
 

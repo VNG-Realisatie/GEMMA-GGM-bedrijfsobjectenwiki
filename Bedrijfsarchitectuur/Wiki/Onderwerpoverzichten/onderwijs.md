@@ -33,17 +33,17 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 | onderwijsloopbaan | object | Loopbaan als leerling in het onderwijs | ❌ | nee | Aggregatie zonder eigen attributen; gemeente beheert niet direct | — | ja |
 | startkwalificatie | object | Diploma als minimale kwalificatie voor de arbeidsmarkt | ❌ | ja | Eigenschap van Leerling; relatie [0..1] | Havodiploma, mbo-2 | ja |
 | locatie | object | Ruimtelijke afbakening van een schoolgebouw | ❌ | ja | Generiek kern-concept (Vastgoedobject); cross-domein | Schooladres | ja |
-| verlofaanvraag | object | Verzoek om toestemming voor verlof (vakantie, studie) | ❌ | ja | Subtype AanvraagOfMelding; te granulair | Vakantieverlof | ja |
-| aanvraagvrijstelling | object | Verzoek om vrijstelling van leerplicht | ❌ | ja | Subtype AanvraagOfMelding; te granulair | — | ja |
-| klacht leerlingenvervoer | object | Uiting van ontevredenheid over leerlingenvervoer | ❌ | ja | Te granulair; subtype klacht | — | ja |
+| verlofaanvraag | object | Verzoek om toestemming voor verlof (vakantie, studie) | ❌ | ja | Specialisatie van AanvraagOfMelding; te granulair | Vakantieverlof | ja |
+| aanvraagvrijstelling | object | Verzoek om vrijstelling van leerplicht | ❌ | ja | Specialisatie van AanvraagOfMelding; te granulair | — | ja |
+| klacht leerlingenvervoer | object | Uiting van ontevredenheid over leerlingenvervoer | ❌ | ja | Te granulair; specialisatie van klacht | — | ja |
 | ziekmelding leerlingenvervoer | object | Ziekmelding van leerling met recht op vervoer | ❌ | ja | Te granulair; operationeel detail | — | ja |
-| doorgeleiding OM | object | Overdracht van leerplichtzaak aan Openbaar Ministerie | ❌ | ja | Te specifiek; justitie-subtype | — | ja |
-| HALT-verwijzing | object | Verwijzing van jongere naar Halt-bureau | ❌ | ja | Te specifiek; justitie-subtype | — | ja |
+| doorgeleiding OM | object | Overdracht van leerplichtzaak aan Openbaar Ministerie | ❌ | ja | Te specifiek; justitie-specialisatie | — | ja |
+| HALT-verwijzing | object | Verwijzing van jongere naar Halt-bureau | ❌ | ja | Te specifiek; justitie-specialisatie | — | ja |
 | [[Wiki/Rollen/leerplichtambtenaar|Leerplichtambtenaar]] | rol | Ambtenaar die toezicht houdt op de leerplichtwet | ❌ | ja | Rol, geen entiteit; vastgelegd als rol-pagina | — | ja |
 | [[Wiki/Rollen/vervoerder|Vervoerder]] | rol | Partij die leerlingenvervoer uitvoert | ❌ | ja | Rol; vastgelegd als rol-pagina | Taxibedrijf | ja |
 | samenwerkingsverband | actor | Regionaal verband van scholen voor passend onderwijs | ❌ | nee | Ketenpartner; niet gemeentelijk beheerd | SWV Utrecht PO | nee |
-| kindcentrum | object | Integrale voorziening onderwijs + kinderopvang 0-12 jaar | ❌ | nee | Subtype van School; vastgelegd als specialisatie | Utrechts Kindcentrum | nee |
-| multifunctionele accommodatie (MFA) | object | Gebouw waar meerdere maatschappelijke organisaties voorzieningen aanbieden | ❌ | nee | Subtype van School; in gemeentelijk eigendom, 4 stuks in UVP | School + welzijn + sport | nee |
+| kindcentrum | object | Integrale voorziening onderwijs + kinderopvang 0-12 jaar | ❌ | nee | Specialisatie van School; vastgelegd als specialisatie | Utrechts Kindcentrum | nee |
+| multifunctionele accommodatie (MFA) | object | Gebouw waar meerdere maatschappelijke organisaties voorzieningen aanbieden | ❌ | nee | Specialisatie van School; in gemeentelijk eigendom, 4 stuks in UVP | School + welzijn + sport | nee |
 | [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening\|Kinderopvangvoorziening]] | object | Locatie waar kinderopvang wordt geboden, geregistreerd in LRK | ✅ | ja | 6/6 criteria, GGM-hiaat | KDV, BSO, gastouderopvang | nee |
 | gymzaal | object | Sportvoorziening voor bewegingsonderwijs | ❌ | nee | Cross-domein: gedekt als [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie\|Binnenlocatie]] (taakveld 5) | Schoolgymzaal, sportzaal | ja |
 
@@ -62,16 +62,16 @@ Gemeenten zijn verantwoordelijk voor de huisvesting van scholen (primair, voortg
 ## Nog te verwerken bronnen
 
 Geen. Bij het afronden van dit domein bleken 3 bronnen nog niet verwerkt (niet eerder gesignaleerd in deze sectie):
-- `soorten-kinderopvang.md` — verwerkt: bronsamenvatting gemaakt, leverde subtype "Tussenschoolse opvang" op voor [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|Kinderopvangvoorziening]]
+- `soorten-kinderopvang.md` — verwerkt: bronsamenvatting gemaakt, leverde specialisatie "Tussenschoolse opvang" op voor [[Wiki/Bedrijfsobjecten/4-onderwijs/onderwijs/kinderopvangvoorziening|Kinderopvangvoorziening]]
 - `onderwijshuisvesting.md` (VNG-rubriek) en `utrecht-onderwijshuisvesting.md` — beide dun/overlappend met de al verwerkte, rijkere [[Wiki/Bronsamenvattingen/Onderwijs/beleidsnota-onderwijshuisvesting-utrecht|Beleidsnota Onderwijshuisvesting Utrecht 2026-2041]] (zelfde kernfeiten: 51.952→53.596 leerlingen, 191-leerlingennorm, multifunctioneel gebruik) — verplaatst naar `Sources/Onderwerpen/Onderwijs/Niet-relevant/`
 - `utrecht-adviezen-duurzaamheid-ohv.md` — al verwerkt als context, geen nieuwe BO's
 
 ## Openstaande vragen of hiaten
 
 Geen. Alle eerder openstaande punten zijn opgelost:
-- **Kinderopvangvoorziening** → opgenomen als BO (GGM-hiaat #51, procesobject), inmiddels 4 subtypes
+- **Kinderopvangvoorziening** → opgenomen als BO (GGM-hiaat #51, procesobject), inmiddels 4 specialisaties
 - **Gymzaal** → cross-domein referentie naar [[Wiki/Bedrijfsobjecten/5-sport-cultuur-en-recreatie/sport/binnenlocatie|Binnenlocatie]] (taakveld 5), relatie vanuit School gelegd
-- **MFA** → subtype van School
+- **MFA** → specialisatie van School
 
 ## Terugmeldingen richting GGM
 

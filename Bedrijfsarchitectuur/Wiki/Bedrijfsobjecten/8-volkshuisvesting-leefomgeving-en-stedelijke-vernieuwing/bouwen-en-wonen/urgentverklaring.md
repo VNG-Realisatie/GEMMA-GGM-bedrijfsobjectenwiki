@@ -96,7 +96,7 @@ Het aantal urgenties neemt toe en zal naar verwachting verder stijgen door de aa
 
 ## Specialisaties
 
-| Subtype | Omschrijving |
+| Specialisatie | Omschrijving |
 |---|---|
 | Medische urgentie | Op medische gronden |
 | Herhuisvestingsurgentie | Bij sloop, renovatie of groot onderhoud |
@@ -122,18 +122,6 @@ De urgentverklaring is gedefinieerd in de Huisvestingsverordening gemeente Utrec
 
 - **Urgentieverlening** — Beoordeling en verlening van urgentverklaringen
 - **Woonruimteverdeling** — Urgentverklaringen beïnvloeden de rangorde in het aanbodmodel
-
-
-
-## Subtypes
-
-- **Medische urgentie** — Urgentie op medische gronden
-- **Herhuisvestingsurgentie** — Urgentie bij sloop, renovatie of groot onderhoud
-- **Mantelzorgurgentie** — Urgentie voor het verlenen of ontvangen van mantelzorg
-- **Urgentie dreigend dakloos** — Urgentie bij dreigende dakloosheid
-- **Financiële urgentie** — Urgentie bij financiële problemen die de woonsituatie bedreigen
-- **Relationele urgentie** — Urgentie bij relatiebeëindiging
-- **Statushouderurgentie** — Urgentie voor vergunninghouders met taakstelling
 
 ## Bronnen
 

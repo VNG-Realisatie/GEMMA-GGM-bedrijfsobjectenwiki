@@ -103,7 +103,7 @@ In het GGM is Kunstwerk een abstract object met specialisaties Gemaal, Overstort
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | Brug | Kunstwerk over een waterweg, brugdek op pijlers/landhoofden | [Brug](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
 | Viaduct | Kunstwerk over een weg of spoorweg | [Viaduct](Sources/GGM/8-volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing/beheer-openbare-ruimte.md) |
@@ -136,16 +136,6 @@ De subtypes zijn geen GGM-kinderen van Kunstwerk (die zijn: Gemaal, Overstortcon
 - **Inspectie civiele constructies**: conditiebeoordeling, veiligheidsinspectie, oeverinspectie
 - **Groot onderhoud kunstwerken**: conservering, voegwerk, betonreparatie
 - **Vervanging kunstwerken**: vervanging bij einde levensduur of functionele noodzaak
-
-
-## Subtypes
-
-- **Brug** — Kunstwerk over een waterweg, bestaande uit een brugdek gesteund door pijlers en/of landhoofden
-- **Viaduct** — Kunstwerk over een weg of spoorweg, bestaande uit een dek gesteund door pijlers en/of landhoofden
-- **Flyover** — Viaductvormig kunstwerk waarmee een verkeersstroom over ongelijkvloerse kruisingen wordt geleid
-- **Kademuur** — Verticale wand ter scheiding van land en water
-- **Keermuur** — Muur die door vorm, gewicht en fundering de grond keert
-- **Sluis** — Waterbouwkundig kunstwerk voor het overbruggen van niveauverschillen in vaarwegen
 
 ## Bronnen
 

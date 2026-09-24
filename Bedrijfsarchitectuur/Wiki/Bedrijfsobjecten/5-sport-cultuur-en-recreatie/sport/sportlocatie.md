@@ -65,7 +65,7 @@ Een sportlocatie is een locatie waar sport plaatsvindt. Het is het overkoepelend
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM-entiteit |
+| Specialisatie | Omschrijving | GGM-entiteit |
 |---|---|---|
 | [[Sportpark]] | Buitensportaccommodatie met terreinen, gebouwen en voorzieningen | [Sportpark](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) |
 | [[Binnenlocatie]] | Binnensportaccommodatie (sporthal, gymzaal) | [Binnenlocatie](Wiki/GGM/5-sport-cultuur-en-recreatie/sport.md) |

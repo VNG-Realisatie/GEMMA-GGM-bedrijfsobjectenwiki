@@ -67,7 +67,7 @@ Eigen vermogen van de gemeente op de balans, onderscheiden in algemene reserve (
 
 Reserves vormen samen met het gerealiseerde resultaat het eigen vermogen van de gemeente (BBV art. 42). De raad beslist over instelling, toevoegingen en onttrekkingen. Per reserve wordt het verloop (saldo begin, toevoegingen, onttrekkingen, saldo eind) jaarlijks verantwoord (BBV art. 54).
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Reserve. Geen apart BO.
 

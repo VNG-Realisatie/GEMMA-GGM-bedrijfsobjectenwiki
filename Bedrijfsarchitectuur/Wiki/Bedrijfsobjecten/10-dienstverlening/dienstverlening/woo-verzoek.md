@@ -75,7 +75,7 @@ De gemeente behandelt het verzoek als een zaak met vaste processtappen: ontvangs
 
 De beslistermijn is vier weken, met mogelijkheid tot verdaging van twee weken. Bij omvangrijke verzoeken kan in deelbesluiten worden beslist. Het Woo-verzoek, het besluit en de verstrekte informatie moeten zelf ook actief openbaar worden gemaakt.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Woo-verzoek. Geen apart BO.
 

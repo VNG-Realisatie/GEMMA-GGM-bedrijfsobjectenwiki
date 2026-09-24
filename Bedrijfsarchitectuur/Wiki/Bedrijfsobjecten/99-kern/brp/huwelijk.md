@@ -66,7 +66,7 @@ Een Huwelijk is de registratie in de BRP van een huwelijk of geregistreerd partn
 
 Een persoon kan meerdere opeenvolgende verbintenissen hebben. Bij ontbinding wordt de categorie niet verwijderd maar aangevuld met ontbindingsgegevens; de actuele stapel representeert de huidige of laatst beëindigde verbintenis, historische stapels de eerdere.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Huwelijk. Geen apart BO.
 

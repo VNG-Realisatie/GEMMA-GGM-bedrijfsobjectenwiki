@@ -778,7 +778,7 @@ def get_begrip_index():
 
 BEGRIP_TYPE_MAP = {
     'actor': 'actor', 'rol': 'rol', 'proces': 'proces',
-    'classificatie': 'classificatie', 'subtype': 'detail',
+    'classificatie': 'classificatie', 'specialisatie': 'detail',
     'attribuut': 'detail', 'waarde': 'detail',
     'gebeurtenis': 'detail', 'object': 'detail',
     'governance-instrument': 'detail', 'thema': 'detail',

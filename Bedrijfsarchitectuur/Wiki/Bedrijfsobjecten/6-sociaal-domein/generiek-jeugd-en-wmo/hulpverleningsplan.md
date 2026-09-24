@@ -68,7 +68,7 @@ Het plan moet binnen zes weken worden vastgesteld nadat is besloten geen familie
 
 De wet kent twee varianten: het **hulpverleningsplan** (bij jeugdhulpverlening) en het **plan van aanpak** (bij kinderbeschermingsmaatregel of jeugdreclassering). Beide volgen dezelfde wettelijke eisen.
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Hulpverleningsplan. Gevonden in de Jeugdwet. Geen apart BO.
 

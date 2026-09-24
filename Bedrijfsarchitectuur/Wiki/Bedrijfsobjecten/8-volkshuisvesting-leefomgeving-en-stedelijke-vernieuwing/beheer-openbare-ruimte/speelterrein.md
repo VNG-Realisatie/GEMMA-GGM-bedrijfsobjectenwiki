@@ -99,7 +99,7 @@ In het GGM is Speelterrein een specialisatie van [[Wiki/Bedrijfsobjecten/8-volks
 
 ## Specialisaties
 
-| Subtype | Omschrijving | GGM |
+| Specialisatie | Omschrijving | GGM |
 |---|---|---|
 | Buurtplek | ≥3.000 m², actieradius 400m, alle leeftijden, ontmoetingsfunctie | Speelterrein.type |
 | Blokplek | ≥500 m², actieradius 200m, kinderen tot 12 jaar, direct omwonenden | Speelterrein.type |
@@ -143,14 +143,6 @@ Het BO [[Wiki/Bedrijfsobjecten/6-sociaal-domein/maatschappelijke-voorzieningen/m
 - **Beheerde speeltuin** (Sociaal Domein) = de maatschappelijke functie met toezicht en activiteiten
 
 Het subtype "Speelplek" bij Maatschappelijke Voorziening overlapt met Speelterrein en zou daar verwijderd kunnen worden, met een verwijzing naar dit BO. Dit is een aandachtspunt voor afstemming.
-
-
-## Subtypes
-
-- **Buurtplek** — Speelterrein van ≥3.000 m² voor de hele buurt, ingericht voor alle leeftijden met ontmoetingsfunctie
-- **Blokplek** — Speelterrein van ≥500 m² voor direct omwonenden, gericht op kinderen tot 12 jaar
-- **Speelhoekje** — Klein speelterrein met beperkte inrichting, aanvulling op het netwerk van buurt- en blokplekken
-- **Stedelijke sportplek** — Buurtoverstijgende voorziening voor specifieke doelgroep: skatepark, freerunbaan, calisthenics, danceground
 
 ## Bronnen
 

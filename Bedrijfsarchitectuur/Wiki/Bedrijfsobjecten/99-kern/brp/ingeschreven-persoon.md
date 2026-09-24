@@ -90,7 +90,7 @@ Een Ingeschreven Persoon is iemand met een persoonslijst (PL) in de Basisregistr
 
 De gemeente is bijhoudingsverantwoordelijke voor haar ingezetenen. Eenmaal ingeschreven wordt een PL niet meer verwijderd — bij emigratie of overlijden wordt de bijhouding opgeschort. De BRP koppelt personen aan BAG-objecten: de verblijfplaats bevat de identificatiecode van het [[Verblijfsobject]] en de [[Nummeraanduiding]].
 
-## Subtypes
+## Specialisaties
 
 Herkende specialisaties van Ingeschreven Persoon. Geen apart BO.
 

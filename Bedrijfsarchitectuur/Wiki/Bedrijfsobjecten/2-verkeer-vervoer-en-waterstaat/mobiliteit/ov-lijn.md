@@ -62,7 +62,7 @@ Een OV-lijn is een tram- of buslijn met een vaste route, dienstregeling en frequ
 
 ## Specialisaties
 
-| Subtype | Omschrijving |
+| Specialisatie | Omschrijving |
 |---|---|
 | Tramlijn | OV-lijn uitgevoerd met tram over een vast railtraject |
 | Buslijn | OV-lijn uitgevoerd met bus over de weg |
